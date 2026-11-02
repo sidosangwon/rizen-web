@@ -1,0 +1,235 @@
+{
+  "id": "BMO-02-01",
+  "unitId": "BMO-02",
+  "categoryId": "BMO",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Selling products",
+  "readerTitle": "Three small steps that add up to a third more sales",
+  "format": "numbers_twist",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.2,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (푸드트럭, 사진 편집 앱) · 모든 수치는 설명용",
+  "insight": "제품을 파는 사업의 매출은 '고객 수 × 한 사람이 사는 횟수 × 가격'이며, 세 개의 작은 개선은 더해지지 않고 곱해진다.",
+  "misconception": "매출을 늘리려면 새 고객을 많이 데려오거나 가격을 크게 올려야 한다.",
+  "relatedLessonIds": [
+    "BMO-01-03",
+    "BMO-02-02"
+  ],
+  "sources": [
+    {
+      "text": "매출 분해의 표준 개념 (고객 수 × 구매 빈도 × 객단가)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "푸드트럭 계산을 확인하세요. 기준 200명 × 3회 × $10 = $6,000. 각 10% 개선 시 220명 × 3.3회 × $11 = $7,986. 1.1³ = 1.331이므로 약 33% 증가.",
+      "status": "open"
+    },
+    {
+      "note": "선택지 계산을 확인하세요. 가격만으로 33%를 늘리려면 $10 × 1.33 = $13.30. 고객 수만으로 늘리려면 200 × 0.33 ≈ 67명 추가(기존 고객 3명당 1명).",
+      "status": "open"
+    },
+    {
+      "note": "사진 앱 계산을 확인하세요. 가격을 $40에서 $20으로 내리면 같은 매출에 판매량 2배가 필요합니다. 추가 팩은 기존 사용자 5,000명 중 5명에 1명(1,000명)이 $10에 사면 $10,000입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business models · Numbers twist",
+      "title": "Three small steps that add up to a third more sales",
+      "illustrative": true,
+      "body": [
+        "A food truck sells a $10 lunch. Every customer pays, eats and walks away. Tomorrow, the till starts at zero again.",
+        "That is how most businesses in the world make money. And the way its numbers grow surprises many owners."
+      ],
+      "image": {
+        "label": "Food truck with a lunch line and an empty till",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 점심시간 푸드트럭 앞에 손님 줄이 서 있고, 트럭 옆에 \"$0\"이 표시된 빈 금전함과 아침 해가 보임. 실제 브랜드 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/bmo-02-01-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You want about a third more revenue.",
+      "illustrative": true,
+      "body": [
+        "Your truck has about 200 regular customers. Each buys lunch about 3 times a month at $10. That's $6,000 a month.",
+        "You want to reach about $8,000. Which plan looks most realistic?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Raise the price by a third, to about $13.30",
+            "verdict": "risky",
+            "feedback": "One quick move, but one lever carries the whole load. A jump that big gets noticed, and if regulars come less often, you lose part of the gain."
+          },
+          {
+            "key": "B",
+            "text": "Find about 67 new regular customers",
+            "verdict": "partial",
+            "feedback": "It works on paper. But you'd need one new regular for every three you have, which is a big marketing job for one truck."
+          },
+          {
+            "key": "C",
+            "text": "Grow each a little: 10% more customers, 10% more visits, 10% higher price",
+            "verdict": "best",
+            "feedback": "Each step is small enough to manage. Together they multiply to about 33% more revenue. Next card shows the math."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Follow one month of lunches.",
+      "illustrative": true,
+      "body": [
+        "Now add 10% to each: 220 × 3.3 × $11 = **$7,986**. Three 10% steps gave you 33% more, not 30%, because each step multiplies the others."
+      ],
+      "breakdown": [
+        {
+          "value": "200",
+          "label": "Customers",
+          "detail": "Regulars who buy from you",
+          "highlight": false
+        },
+        {
+          "value": "× 3",
+          "label": "Visits each",
+          "detail": "Lunches per customer per month",
+          "highlight": false
+        },
+        {
+          "value": "× $10",
+          "label": "Price",
+          "detail": "What each lunch sells for",
+          "highlight": false
+        },
+        {
+          "value": "$6,000",
+          "label": "Monthly revenue",
+          "detail": "The starting point",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Selling products",
+      "body": [
+        "**Selling products** is the simplest way to make money. A customer pays once and owns the thing. You earn only when a sale happens.",
+        "So revenue is a formula with three levers: **how many customers**, how often each one buys, and the price. Most owners watch one lever. The formula says to work all three."
+      ],
+      "image": {
+        "label": "Three dials labeled customers, visits and price feeding one revenue meter",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. \"Customers\", \"How often they buy\", \"Price\" 세 개의 다이얼이 곱하기 기호로 연결되어 가운데 \"Revenue\" 계기판으로 이어짐. 각 다이얼이 조금씩만 돌아가 있고 계기판은 크게 올라간 모습.",
+        "url": "assets/images/bmo-02-01-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Paid up front, earned again tomorrow.",
+      "body": [
+        "This model has real strengths. Cash arrives at the moment of sale. Each sale has a clear cost and a clear amount left over, so it's easy to tell what's working.",
+        "The cost is that nothing carries over. A sale last month doesn't pay you this month. Each customer has to choose you again, every time. That's why **how often people buy** is often the lever with the most room to grow."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where it applies",
+      "title": "Some products are bought daily, some once a decade.",
+      "body": [
+        "A café's regulars may buy every morning. A sofa store's customers may come back in ten years.",
+        "When people buy often, small gains in visits add up fast. When people buy rarely, the levers shift: win new customers through referrals, and raise the value of each sale with add-ons, delivery or care plans.",
+        "The formula stays the same. Only the lever you lean on changes."
+      ],
+      "image": {
+        "label": "A coffee cup bought daily next to a sofa bought once a decade",
+        "aspectRatio": "16:9",
+        "brief": "좌우 분할 일러스트. 왼쪽은 커피잔과 매일 체크된 달력, 오른쪽은 소파와 10년 단위 타임라인에 점 하나. 실제 브랜드 로고는 쓰지 않음.",
+        "url": "assets/images/bmo-02-01-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The levers pull on each other.",
+      "body": [
+        "The levers aren't independent. Raise the price and some customers may visit less. Offer a discount to bring them back more often and each sale leaves less money.",
+        "The multiplying works in both directions. If customers fall 10% and visits fall 10%, revenue drops about 19%, not 10%. Change one lever at a time, and check what the others do."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a photo-editing app.",
+      "illustrative": true,
+      "body": [
+        "You sell a desktop photo app for $40, paid once. About 5,000 people own it and most still use it. New sales have slowed.",
+        "What's your best next move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Cut the price to $20 to win more new buyers",
+            "verdict": "risky",
+            "feedback": "You'd need twice as many sales just to earn the same. It also pushes on only one lever."
+          },
+          {
+            "key": "B",
+            "text": "Sell an optional $10 pack of new filters to existing owners",
+            "verdict": "best",
+            "feedback": "It uses the buy-again lever on people who already trust you. If one in five owners bought it, that's $10,000. It must be worth paying for, or it will annoy them."
+          },
+          {
+            "key": "C",
+            "text": "Put the whole budget into ads for new users",
+            "verdict": "partial",
+            "feedback": "New users matter, and each one must be won from scratch. It ignores 5,000 owners who could buy again."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Revenue is customers × how often they buy × price.",
+      "body": [
+        "When you sell products, you're paid once per sale. Small gains on all three levers multiply into big ones.",
+        "**Try it today:** write down your three numbers for last month. Which lever have you never really tried to move?"
+      ],
+      "next": "Next · Why so many businesses want you to pay every month"
+    }
+  ]
+}

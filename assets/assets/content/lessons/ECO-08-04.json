@@ -1,0 +1,229 @@
+{
+  "id": "ECO-08-04",
+  "unitId": "ECO-08",
+  "categoryId": "ECO",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Shrinkflation",
+  "readerTitle": "Same price, less inside: the quiet price rise",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "일상 장면 (포장 과자) + 가상 사례 (가사 청소 서비스, 마케팅 대행사) + 실제 연구 (시카고 아이스크림 시장)",
+  "insight": "슈링크플레이션은 가격을 그대로 둔 '조용한 가격 인상'이다. 단위당 가격으로 다시 계산하면 생각보다 큰 인상인 경우가 많고, 고객이 알아차리는 순간 신뢰 비용을 치른다. 줄이려면 고객이 덜 쓰는 것을 공개적으로 줄인다.",
+  "misconception": "가격표 숫자만 그대로면 고객은 가격이 오른 것으로 느끼지 않고, 들키지 않으면 손해도 없다.",
+  "relatedLessonIds": [
+    "ECO-08-01",
+    "ECO-08-05"
+  ],
+  "sources": [
+    {
+      "text": "Çakır, M. & Balagtas, J. V. (2014). Consumer Response to Package Downsizing: Evidence from the Chicago Ice Cream Market. Journal of Retailing, 90(1).",
+      "url": null
+    },
+    {
+      "text": "청소 서비스와 마케팅 대행사 사례의 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Çakır & Balagtas(2014) 연구의 결론(소비자가 같은 크기의 가격 인상보다 포장 축소에 덜 민감하게 반응한다)을 원문으로 다시 확인하세요. 카드에는 구체 수치 없이 방향만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "청소 서비스 계산: $90 ÷ 3시간 = 시간당 $30, $90 ÷ 2.5시간 = 시간당 $36. 36 ÷ 30 = 1.2, 즉 시간당 20% 인상. 비용 상승 가정은 10%.",
+      "status": "open"
+    },
+    {
+      "note": "대행사 계산: 20시간 $4,000 = 시간당 $200, 16시간 $4,000 = 시간당 $250(+25%), 20시간 $4,400 = 시간당 $220(+10%). 고객 평균 사용 15시간은 가정.",
+      "status": "open"
+    },
+    {
+      "note": "일부 국가와 유통사가 용량이 줄어든 상품에 표시를 붙이기 시작했다는 내용은 법률 조언이 되지 않도록 카드에 넣지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Pricing · Everyday scene",
+      "title": "The price didn't change. The bag did.",
+      "illustrative": true,
+      "body": [
+        "You buy the same bag of crisps you always buy. Same price, same colors, same shelf. But it feels lighter, and there's more air when you open it.",
+        "You check the label. A little less inside than last time. Nobody raised the price. Or did they?"
+      ],
+      "image": {
+        "label": "Two snack bags, same price tag, one slightly smaller",
+        "aspectRatio": "4:3",
+        "brief": "마트 진열대에 똑같은 디자인의 과자 봉지 두 개. 가격표는 둘 다 같고, 오른쪽 봉지만 살짝 작고 안의 내용물이 적게 보이는 단면 표시. 실제 브랜드 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/eco-08-04-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Your costs are up 10%.",
+      "illustrative": true,
+      "body": [
+        "You run a home cleaning service. A standard visit is 3 hours for $90. Wages and supplies have risen about 10% this year, and your margins are thin.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Raise the visit price by 10%, with a clear note to clients",
+            "verdict": "partial",
+            "feedback": "Honest and simple, and it covers your costs. Some price-sensitive clients may leave, and you haven't checked whether there's a cheaper fix clients would prefer."
+          },
+          {
+            "key": "B",
+            "text": "Keep $90, but quietly shorten visits to 2.5 hours",
+            "verdict": "risky",
+            "feedback": "No awkward price conversation today. But regular clients notice when the cleaner leaves early, and the hidden cut is bigger than you think. Next card shows why."
+          },
+          {
+            "key": "C",
+            "text": "Keep $90, drop the task clients rarely want (like inside the oven), tell them, and offer it as an add-on",
+            "verdict": "best",
+            "feedback": "You save time where clients care least, and nobody discovers a cut they weren't told about. The work is knowing what they value."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Price it per hour.",
+      "illustrative": true,
+      "body": [
+        "Your costs rose 10%. The quiet cut raised your real price **20%**: twice what you needed, and hidden."
+      ],
+      "breakdown": [
+        {
+          "value": "$90 / 3 h",
+          "label": "Before",
+          "detail": "$30 per hour of cleaning",
+          "highlight": false
+        },
+        {
+          "value": "$90 / 2.5 h",
+          "label": "After the quiet cut",
+          "detail": "$36 per hour of cleaning",
+          "highlight": false
+        },
+        {
+          "value": "+20%",
+          "label": "Real price rise",
+          "detail": "What clients pay for each hour",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Shrinkflation",
+      "body": [
+        "**Shrinkflation** means giving customers less for the same price: a smaller pack, a shorter visit, fewer hours. It's a price increase that the price tag doesn't show.",
+        "Its cousin is cutting quality instead of quantity, like cheaper ingredients or slower service. The test is the same for both: divide the price by what the customer actually gets. That's the real price."
+      ],
+      "image": {
+        "label": "Price tag stays fixed while the product behind it shrinks",
+        "aspectRatio": "16:9",
+        "brief": "가격표 하나가 고정되어 있고, 그 뒤의 상자가 세 단계로 점점 작아지는 그림. 아래에 \"Price per unit\" 막대가 점점 높아짐. 로고 없음.",
+        "url": "assets/images/eco-08-04-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Why it works",
+      "title": "People watch the price, not the size.",
+      "body": [
+        "The price is one big number. The quantity is small print, and comparing per unit takes effort. So a smaller size often slips past.",
+        "A study of the Chicago ice cream market by Çakır and Balagtas (2014) found that shoppers reacted less to package downsizing than to a price rise of similar size.",
+        "That's the appeal for sellers. It's also why customers feel tricked when they finally notice."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond the supermarket",
+      "title": "Services shrink too.",
+      "body": [
+        "A restaurant serves smaller portions. A plumber's call-out fee now covers 30 minutes instead of an hour. A consultancy's monthly fee buys fewer meetings. A hotel stops daily room cleaning but keeps the rate.",
+        "In each case the price stays put while the **unit** of what you sell gets smaller."
+      ],
+      "softwareNote": "In software it looks like lower usage limits, fewer seats or a feature moved to a pricier tier, all on the same plan price. Users spot it fast, because they hit the new limit in the middle of their work."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Hidden cuts get found.",
+      "body": [
+        "Regular customers notice changes in what they use every week. When they do, the story isn't \"prices went up\". It's \"they hoped I wouldn't notice\". That can hurt trust more than an open price rise.",
+        "Shrinking isn't always wrong. Cutting what customers barely use can be a fair trade. The difference is whether you choose the cut carefully and say it out loud. And if a contract promises a quantity, cutting it isn't shrinkflation. It's breaking the deal."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a marketing agency.",
+      "illustrative": true,
+      "body": [
+        "Clients pay you $4,000 a month for 20 hours of work. Your staff costs are up about 10%. Your time logs show most clients use only about 15 of their 20 hours.",
+        "What's the best move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep $4,000 and quietly deliver 16 hours",
+            "verdict": "risky",
+            "feedback": "That's a hidden 25% rise per hour. The first client who checks the report will ask why, and you'll be explaining a secret instead of a price."
+          },
+          {
+            "key": "B",
+            "text": "Keep 20 hours and raise the fee to $4,400, with notice",
+            "verdict": "partial",
+            "feedback": "Open and fair, and it covers your costs. But most clients pay more for hours they don't use, which invites them to shop around."
+          },
+          {
+            "key": "C",
+            "text": "Offer a 16-hour plan at $4,000 and a 20-hour plan at $4,400, and explain why",
+            "verdict": "best",
+            "feedback": "Clients who use 15 hours lose nothing they value, and heavy users keep their hours at a clear price. You shrink the offer in the open."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Less for the same price is still a price rise.",
+      "body": [
+        "Always divide the price by what customers get. If you must shrink, cut what they value least and tell them.",
+        "**Try it today:** pick one product or service. Write its price per unit (per gram, per hour, per visit) now and a year ago. Did it rise more than you thought?"
+      ],
+      "next": "Next · Why some price rises feel fair and others feel like betrayal"
+    }
+  ]
+}

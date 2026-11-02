@@ -1,0 +1,237 @@
+{
+  "id": "ENT-06-04",
+  "unitId": "ENT-06",
+  "categoryId": "ENT",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Adding process",
+  "readerTitle": "The rule that fixed one mistake and slowed everything else",
+  "format": "counterexample",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (B2B 마케팅 에이전시, 소프트웨어 회사) + 실제 연구 (WHO 수술 안전 체크리스트, Haynes et al. 2009)",
+  "insight": "프로세스는 많고 적음이 아니라 위치의 문제다. 자주 반복되고 실수 비용이 큰 지점에만 짧게 넣는다.",
+  "misconception": "회사가 커지면 실수가 날 때마다 규칙을 더해야 한다. 반대로, 프로세스는 스타트업의 속도를 죽이니 최대한 피해야 한다.",
+  "relatedLessonIds": [
+    "ENT-06-06",
+    "ENT-06-08"
+  ],
+  "sources": [
+    {
+      "text": "Haynes, A. B., et al. (2009). A Surgical Safety Checklist to Reduce Morbidity and Mortality in a Global Population. New England Journal of Medicine, 360(5), 491–499.",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMsa0810119"
+    },
+    {
+      "text": "Gawande, A. (2009). The Checklist Manifesto. Metropolitan Books.",
+      "url": null
+    },
+    {
+      "text": "에이전시와 소프트웨어 회사 사례는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "WHO 체크리스트 연구 수치 확인 필요: 8개 도시 8개 병원, 사망률 1.5% → 0.8%, 주요 합병증 11.0% → 7.0%, 체크리스트 19개 항목. 원문(NEJM 2009) 표와 대조하세요.",
+      "status": "open"
+    },
+    {
+      "note": "에이전시 사례 수치(제안서 2일 → 6일)는 설명용 가상 수치입니다.",
+      "status": "open"
+    },
+    {
+      "note": "이후 다른 국가·병원에서 체크리스트 효과가 작거나 없었다는 연구도 있습니다(예: 캐나다 온타리오 연구, Urbach et al. 2014, NEJM). 7번 카드의 '실제로 쓰일 때만 효과' 문장의 근거로 출처 추가 여부를 검토하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Entrepreneurship · Counterexample",
+      "title": "The rule that fixed one mistake and slowed everything else",
+      "illustrative": true,
+      "body": [
+        "A 25-person marketing agency sent a client an invoice for the wrong amount. The client was annoyed. The founder was embarrassed.",
+        "Her fix: every invoice now needs three sign-offs. The wrong invoices stopped. So did on-time invoices. Cash started arriving weeks later."
+      ],
+      "image": {
+        "label": "An invoice waiting in a queue of three signature boxes",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 송장 한 장이 책상 세 개를 차례로 거쳐 가며, 각 책상마다 서명 칸과 쌓인 서류 더미. 마지막 책상 옆 달력이 몇 주 넘어가 있음. 실제 로고 없음.",
+        "url": "assets/images/ent-06-04-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "A client report went out with a wrong number.",
+      "illustrative": true,
+      "body": [
+        "You run a growing B2B consulting firm. Last week, a monthly client report included last quarter's sales figure by mistake. The client caught it.",
+        "It's the first time this has happened. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Require a manager to review every report before it goes out",
+            "verdict": "risky",
+            "feedback": "It would catch this error, but it puts every report, risky or not, behind one busy person. You trade one rare mistake for a permanent slowdown."
+          },
+          {
+            "key": "B",
+            "text": "Find out why it happened, and add a short check only at the step where numbers get copied in",
+            "verdict": "best",
+            "feedback": "You fix the actual weak point at low cost. Everyone else keeps moving at the same speed."
+          },
+          {
+            "key": "C",
+            "text": "Apologize, fix it, and add nothing. People make mistakes",
+            "verdict": "partial",
+            "feedback": "This protects speed, and for a true one-off it may be fine. But if the copy step is fragile, the error will come back."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What usually happens",
+      "title": "Rules pile up after every scare.",
+      "illustrative": true,
+      "body": [
+        "Back at the agency, the invoice rule was only the start. After a typo in a pitch, every proposal needed the founder's review. After a missed deadline, every project needed a weekly status form.",
+        "Each rule made sense alone. Together, proposals that used to leave in 2 days now took 6. The agency lost a pitch to a smaller rival who replied first.",
+        "Nobody decided to become slow. It happened **one reasonable rule at a time**."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Adding process",
+      "body": [
+        "**Process** is a set way of doing repeated work, so the result doesn't depend on someone remembering.",
+        "Good process is cheap insurance. It sits exactly where mistakes are likely and costly, and costs a few seconds. Bad process is a reaction to one bad day, applied to everyone, forever.",
+        "The question isn't *more or less process*. It's *where*."
+      ],
+      "image": {
+        "label": "A narrow gate placed only at the risky step of a workflow",
+        "aspectRatio": "16:9",
+        "brief": "업무 흐름을 왼쪽에서 오른쪽으로 흐르는 길로 표현. 대부분 구간은 넓고 빠르게 열려 있고, 단 한 곳 '위험 구간'에만 작은 체크 게이트. 대비용으로 아래에 모든 구간마다 게이트가 있는 막힌 길.",
+        "url": "assets/images/ent-06-04-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The counterexample",
+      "title": "Nineteen checkboxes that saved lives.",
+      "body": [
+        "If process only slows things down, surgery should prove it. Surgeons are skilled, busy and proud.",
+        "Yet in a 2008 study across eight hospitals in eight cities, teams used a short WHO checklist of 19 items: confirm the patient, the site, allergies, expected blood loss. Deaths after surgery fell from 1.5% to 0.8%. Major complications fell from 11% to 7%.",
+        "The checklist worked because it was short and placed at moments where a skipped step is catastrophic."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "breakdown",
+      "eyebrow": "Where process belongs",
+      "title": "Ask two questions: how often, and how costly?",
+      "body": [
+        "Process pays when a mistake is both repeated and expensive. Elsewhere, judgment is usually cheaper."
+      ],
+      "breakdown": [
+        {
+          "value": "Often + costly",
+          "label": "Add a short checklist",
+          "detail": "Invoices, payments, safety steps",
+          "highlight": true
+        },
+        {
+          "value": "Rare + costly",
+          "label": "Review case by case",
+          "detail": "Big contracts, new hires",
+          "highlight": false
+        },
+        {
+          "value": "Often + cheap",
+          "label": "Let people fix it",
+          "detail": "Small typos, internal notes",
+          "highlight": false
+        },
+        {
+          "value": "Rare + cheap",
+          "label": "Do nothing",
+          "detail": "Not worth a rule",
+          "highlight": false
+        }
+      ],
+      "softwareNote": "In software, this is why teams automate tests for login and payments but let people ship copy changes freely. The check goes where a mistake hurts customers most."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Rules are easy to add and hard to remove.",
+      "body": [
+        "Every rule outlives the problem that created it. Give each one an owner and a date to review it. If nobody can say what it prevents, drop it.",
+        "Process also works only when people actually use it. Later studies found smaller or no effects from the same surgical checklist where teams just ticked boxes. A form filled in on autopilot is cost without protection."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software company.",
+      "illustrative": true,
+      "body": [
+        "Your 40-person company sells scheduling software. Twice this quarter, a release broke the payment page for about an hour. Most releases are small text and layout changes.",
+        "What process do you add?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Every release needs sign-off from the head of engineering",
+            "verdict": "risky",
+            "feedback": "Payment outages would likely drop, but so would your release speed. Small, safe changes now wait in line with risky ones."
+          },
+          {
+            "key": "B",
+            "text": "Automated tests on payments, plus a short checklist only for changes that touch payments",
+            "verdict": "best",
+            "feedback": "The check lands exactly where a repeated, costly failure happens. Everything else ships as fast as before."
+          },
+          {
+            "key": "C",
+            "text": "Hold a meeting after each outage to discuss what went wrong",
+            "verdict": "partial",
+            "feedback": "You'll learn the cause, which is useful. But two repeats suggest talking alone won't stop the third."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Put process where mistakes repeat and hurt.",
+      "body": [
+        "Not after every bad day, and not everywhere. A short check at the right step beats a long one at every step.",
+        "**Try it today:** list three rules your team follows. For each, write what mistake it prevents and how often that mistake happened. Cut one that has no answer."
+      ],
+      "next": "Next · How to tell 50 people something and have them hear it"
+    }
+  ]
+}

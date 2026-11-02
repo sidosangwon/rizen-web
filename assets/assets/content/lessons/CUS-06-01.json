@@ -1,0 +1,235 @@
+{
+  "id": "CUS-06-01",
+  "unitId": "CUS-06",
+  "categoryId": "CUS",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Why retention beats acquisition",
+  "readerTitle": "The customers nobody rings a bell for",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (팔레트 제조사, 클리닉 예약 소프트웨어) + 실제 연구 (Reichheld & Sasser, 1990) · 수치는 모두 설명용",
+  "insight": "신규 고객은 적자에서 출발한다. 이익은 남아 있는 고객에게서 나온다.",
+  "misconception": "성장은 신규 고객을 더 많이 데려오는 것이고, 마케팅·영업 예산을 늘리는 것이 가장 확실한 방법이다.",
+  "relatedLessonIds": [
+    "CUS-06-02",
+    "CUS-03-03"
+  ],
+  "sources": [
+    {
+      "text": "Reichheld, F. F., & Sasser, W. E. (1990). Zero Defections: Quality Comes to Services. Harvard Business Review.",
+      "url": null
+    },
+    {
+      "text": "팔레트 제조사와 클리닉 소프트웨어의 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Reichheld & Sasser(1990)에 대해서는 '고객이 오래 머물수록 고객당 이익이 늘어나는 경향'만 일반적으로 적었습니다. 흔히 인용되는 '고객 유지율 5% 상승 시 이익 25~85%(또는 25~95%) 증가' 수치는 원문 확인 전에는 넣지 않았습니다. 게시 전 원문에서 표현을 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "팔레트 계산(가상): 신규 고객 1곳 −$3,000 + 1년차 $1,500 + 2년차 $2,500 = 2년 후 +$1,000. 기존 고객 5곳 유지 × $2,500 = 연 $12,500. 신규 10곳 1년차: 10 × $1,500 − $30,000 = −$15,000. 떠난 기존 고객 8곳 × $2,500 = 연 $20,000.",
+      "status": "open"
+    },
+    {
+      "note": "'신규 고객 확보 비용이 기존 고객 유지보다 5~25배 비싸다' 같은 널리 퍼진 통계는 출처가 불분명해 쓰지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Everyday scene",
+      "title": "The customers nobody rings a bell for",
+      "illustrative": true,
+      "body": [
+        "At a regional pallet maker, the sales team rings a bell every time they sign a new account. This year they rang it 10 times.",
+        "Over the same year, 8 old customers quietly stopped ordering. Nobody rang anything for that. And those 8 were worth more than the 10 new ones."
+      ],
+      "image": {
+        "label": "Sales team cheering at a bell while customers leave through a back door",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 공장 사무실 앞쪽에서 영업팀이 종을 치며 환호하고, 뒤쪽 창고 문으로 팔레트를 실은 트럭 몇 대가 조용히 빠져나가는 장면. 실제 회사 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/cus-06-01-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Where does the next $30,000 go?",
+      "illustrative": true,
+      "body": [
+        "You run the pallet maker. You have 40 business customers. About 8 leave each year, and most leave after late deliveries.",
+        "You have $30,000 to spend next year. What do you fund?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "A part-time salesperson to win about 10 new accounts",
+            "verdict": "partial",
+            "feedback": "New accounts matter, but each costs about $3,000 to win and won't pay that back this year. You'd be refilling what late deliveries drain."
+          },
+          {
+            "key": "B",
+            "text": "Fix late deliveries: a backup truck and an extra shift in peak weeks",
+            "verdict": "best",
+            "feedback": "You protect customers who already trust you and already order at full size. The next card shows why that's worth more."
+          },
+          {
+            "key": "C",
+            "text": "Give new customers 15% off their first three months",
+            "verdict": "risky",
+            "feedback": "It may bring in buyers, but it shrinks what each new account earns and does nothing about why old ones leave."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Follow one new account.",
+      "illustrative": true,
+      "body": [
+        "A new account loses money in year one and turns a small profit in year two, if it stays. Meanwhile, keeping 5 of the 8 customers who would leave is worth **$12,500 a year**, with no cost to win them."
+      ],
+      "breakdown": [
+        {
+          "value": "−$3,000",
+          "label": "Cost to win",
+          "detail": "Sales visits, samples, a trial run",
+          "highlight": false
+        },
+        {
+          "value": "+$1,500",
+          "label": "Year 1",
+          "detail": "Small trial orders",
+          "highlight": false
+        },
+        {
+          "value": "+$2,500",
+          "label": "Year 2",
+          "detail": "Full orders once they trust you",
+          "highlight": false
+        },
+        {
+          "value": "+$1,000",
+          "label": "After two years",
+          "detail": "Only if they don't leave first",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Why retention beats acquisition",
+      "body": [
+        "**Retention** means keeping the customers you have. **Acquisition** means winning new ones.",
+        "Winning a customer costs money up front. The profit arrives later, a little with every order. A customer who leaves early may never pay back what you spent. A customer who stays is already paid for, so each new order adds profit."
+      ],
+      "image": {
+        "label": "Line dipping below zero, then rising year after year",
+        "aspectRatio": "16:9",
+        "brief": "단순한 선 그래프. x축 \"Years with you\", y축 \"Profit from one customer\". 선이 처음에 0 아래로 내려갔다가(\"Cost to win\") 해마다 위로 올라감. 중간에 끊긴 점선 하나는 \"Left early\" 라벨로 0 아래에서 멈춤.",
+        "url": "assets/images/cus-06-01-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Kept customers get more valuable.",
+      "body": [
+        "Frederick Reichheld and W. Earl Sasser described this pattern in a 1990 Harvard Business Review article, *Zero Defections*. In the service businesses they studied, profit per customer tended to grow the longer a customer stayed. Four reasons:"
+      ],
+      "list": [
+        "**No new cost to win:** you paid it once",
+        "**Bigger orders:** trust grows, so they buy more",
+        "**Cheaper to serve:** they know your process, you know their needs",
+        "**Referrals:** satisfied buyers send others your way"
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond the factory",
+      "title": "Anywhere customers buy more than once.",
+      "body": [
+        "A café regular costs nothing to attract again tomorrow. An accountant's ten-year client needs no onboarding this year. A repair shop's loyal fleet customer books without a quote.",
+        "The pattern holds wherever people can buy again. The first sale pays for winning them. The later sales pay for everything else."
+      ],
+      "softwareNote": "In subscription software, the cost to win a customer is mostly paid in month one, while revenue arrives monthly. A user who cancels in month two may never cover what the ads and demos cost."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Not every customer is worth keeping.",
+      "body": [
+        "Some customers cost more to serve than they pay: constant rush orders, late payments, endless custom work. Keeping them at any price is not a win. Neither is buying loyalty with discounts that teach everyone to threaten to leave.",
+        "And a business with no new customers slowly shrinks, because some will always leave for reasons you can't control. Retention comes first, not instead of acquisition."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's clinic software.",
+      "illustrative": true,
+      "body": [
+        "You sell scheduling software to small clinics for a monthly fee. Ads and sales demos cost about four months of fees to win each clinic.",
+        "Many clinics cancel in month two or three, saying setup was confusing. Your team has one quarter. What do they work on?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Features prospects ask for in sales demos",
+            "verdict": "partial",
+            "feedback": "It could win more deals, but new clinics would hit the same confusing setup and leave before paying back what you spent."
+          },
+          {
+            "key": "B",
+            "text": "Guided setup and a check-in call in the first month",
+            "verdict": "best",
+            "feedback": "Each clinic that stays past month four has covered its cost to win. Every month after that is profit."
+          },
+          {
+            "key": "C",
+            "text": "Double the ad budget to outrun the cancellations",
+            "verdict": "risky",
+            "feedback": "You'd pay four months of fees for clinics that stay two or three. More ads would grow the loss, not the business."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Profit lives in the customers who stay.",
+      "body": [
+        "Winning a customer is a cost. Keeping them is how that cost pays off.",
+        "**Try it today:** list the last five customers who stopped buying from you. Next to each, write why they left and roughly what it cost to win them."
+      ],
+      "next": "Next · Why losing a few customers a month adds up fast"
+    }
+  ]
+}

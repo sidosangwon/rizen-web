@@ -1,0 +1,222 @@
+{
+  "id": "PPL-03-03",
+  "unitId": "PPL-03",
+  "categoryId": "PPL",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "Testing real skills",
+  "readerTitle": "Stop asking people to describe the work. Watch them do it.",
+  "format": "company_story",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "real_company",
+    "real_research",
+    "real_observation",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Automattic 유급 체험 프로젝트) + 실제 연구 (채용 방법 예측력 메타분석) + 업계 관행 (주방 체험 근무) + 가상 적용 (대기업 내 분석가 채용, 레스토랑 라인 쿡 채용)",
+  "insight": "면접은 일에 대한 말을 평가하고, 실무 테스트는 일 자체를 평가한다. 채용 방법이 실제 업무에 가까울수록 추측할 부분이 줄어든다.",
+  "misconception": "이력서가 화려하고 면접에서 말을 잘하는 사람이 일도 잘한다.",
+  "relatedLessonIds": [
+    "PPL-03-01",
+    "PPL-03-02"
+  ],
+  "sources": [
+    {
+      "text": "Mullenweg, M. (2014). The CEO of Automattic on Holding \"Auditions\" to Build a Strong Team. Harvard Business Review, April 2014.",
+      "url": "https://hbr.org/2014/04/the-ceo-of-automattic-on-holding-auditions-to-build-a-strong-team"
+    },
+    {
+      "text": "Schmidt, F. L., & Hunter, J. E. (1998). The validity and utility of selection methods in personnel psychology. Psychological Bulletin, 124(2), 262–274.",
+      "url": null
+    },
+    {
+      "text": "Sackett, P. R., Zhang, C., Berry, C. M., & Lievens, F. (2022). Revisiting meta-analytic estimates of validity in personnel selection. Journal of Applied Psychology, 107(11), 2040–2068.",
+      "url": null
+    },
+    {
+      "text": "레스토랑 업계의 체험 근무(stage) 관행 — 일반적인 업계 관찰",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Automattic이 대부분의 후보자에게 유급 체험 프로젝트(trial)를 거치게 한다는 내용은 Mullenweg의 2014년 HBR 기고에 근거합니다. 시급, 기간, 적용 직군 범위는 시기마다 다를 수 있어 카드에 구체 수치를 넣지 않았습니다. 게시 전 원문과 현재 채용 페이지를 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Schmidt & Hunter(1998)는 실무 테스트를 가장 예측력이 높은 방법 중 하나로 보고했고, Sackett 외(2022) 재분석은 실무 테스트 추정치를 낮추고 구조화 면접을 최상위로 올렸습니다. 카드에는 순위·계수 수치를 넣지 않고 방향만 적었습니다. 표현이 두 논문의 결론과 맞는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "체험 근무의 임금 지급 의무는 국가·지역마다 다릅니다. 법률 조언을 피하기 위해 카드에는 '규칙이 장소마다 다르다'고만 적었습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "People · Company story",
+      "title": "Stop asking people to describe the work. Watch them do it.",
+      "body": [
+        "Automattic, the company behind WordPress.com, has long hired in an unusual way. Before most candidates get an offer, they do a short, paid trial project: real work, alongside the team.",
+        "Its CEO, Matt Mullenweg, called these trials \"auditions.\" He argued they told him far more than a résumé or a conversation ever could."
+      ],
+      "image": {
+        "label": "A candidate working at a laptop while a team member reviews the work",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 한 사람이 노트북으로 실제 작업을 하고, 옆에서 팀원이 결과물 화면을 함께 보며 메모하는 장면. 뒤쪽에 무대 커튼 모티프를 살짝 넣어 '오디션' 느낌. 실제 회사 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/ppl-03-03-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Three finalists, one analyst job.",
+      "illustrative": true,
+      "body": [
+        "You lead the operations team inside a large retail company. You need an analyst who can turn messy sales data into clear advice for store managers.",
+        "Three finalists all interviewed well. One has a résumé from a famous consulting firm. How do you decide?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Add a final interview with your senior director",
+            "verdict": "partial",
+            "feedback": "A second opinion helps, but you get more of the same signal: how well people talk about analysis, not how well they do it."
+          },
+          {
+            "key": "B",
+            "text": "Give all three the same 90-minute task with sample data, then have them explain their findings",
+            "verdict": "best",
+            "feedback": "You see the actual skill the job needs, judged on equal terms. It costs everyone a few hours, and that's the trade."
+          },
+          {
+            "key": "C",
+            "text": "Hire the consulting-firm candidate. Top firms already screen hard",
+            "verdict": "risky",
+            "feedback": "It saves time, but a famous name tells you someone passed another company's test for another job. It doesn't show they can do yours."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What Automattic saw",
+      "title": "Talking about work and doing it are different skills.",
+      "body": [
+        "In his 2014 essay, Mullenweg wrote that résumés and interviews mostly show how people present themselves. A trial shows how they actually work.",
+        "During a trial, the team sees things no interview reveals. How does the person handle an unclear brief? Do they ask good questions? How do they write to colleagues they've never met?",
+        "For a company where people work remotely and mostly in writing, those were the skills that mattered most."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Work sample tests",
+      "body": [
+        "A **work sample test** asks candidates to do a small, realistic piece of the actual job. Then you judge what they produce.",
+        "An interview asks, \"Tell me how you would do this.\" A work sample says, \"Here, do this.\" The first measures memory, confidence and storytelling. The second measures the work."
+      ],
+      "image": {
+        "label": "Two paths: a speech bubble versus a finished piece of work",
+        "aspectRatio": "16:9",
+        "brief": "좌우 비교 인포그래픽. 왼쪽 'Interview: describes the work'에는 말풍선, 오른쪽 'Work sample: does the work'에는 완성된 결과물(차트, 요리 접시, 문서)을 놓음. 오른쪽에 체크 표시를 강조.",
+        "url": "assets/images/ppl-03-03-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "The closer to the job, the less you guess.",
+      "body": [
+        "Researchers have compared hiring methods for decades. A major 1998 review by Schmidt and Hunter ranked work samples among the best predictors of job performance. Years of experience and unstructured chats did far worse.",
+        "A 2022 re-analysis by Sackett and colleagues lowered the estimate for work samples and put **structured interviews** at the top. But work samples still came out well ahead of gut-feel interviews.",
+        "The lesson holds: every method is a guess about future work, and doing a slice of it is a good guess."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "What makes a good test.",
+      "body": [
+        "A useful work sample has a few features:"
+      ],
+      "list": [
+        "**Real:** a task the person will actually do in the first months",
+        "**Small:** hours, not days",
+        "**Same for everyone:** one task, one set of instructions",
+        "**Scored on criteria set in advance:** decide what good looks like before you see any answers",
+        "**Paid when it's long:** respect for the candidate's time"
+      ],
+      "callout": "If you can't describe what good looks like, the test can't tell you who is good."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A test has costs, and it can test the wrong thing.",
+      "body": [
+        "Strong candidates with other offers may skip a long unpaid task. Keep tests short, or pay for longer ones. Rules on unpaid trial work vary by place.",
+        "A test also measures only the task you picked. If the role itself is poorly defined, you'll pick the wrong task.",
+        "And avoid tests that need insider knowledge, like your company's jargon or tools. Those reward people who already worked somewhere like you, not people who can do the work."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a restaurant kitchen.",
+      "illustrative": true,
+      "body": [
+        "You run a busy bistro and need a line cook for the grill station. Two candidates have solid experience on paper.",
+        "Many kitchens already use a trial shift, often called a *stage*. How would you run yours?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Ask each to cook one dish of their choice for you to taste",
+            "verdict": "partial",
+            "feedback": "You learn they can cook, but they pick their best dish in a calm kitchen. The job is your menu, at speed, during service."
+          },
+          {
+            "key": "B",
+            "text": "Pay each for a two-hour shift: prep, then a real station during service, scored by your sous chef on speed, cleanliness and taking direction",
+            "verdict": "best",
+            "feedback": "It costs a few hours of wages and supervision. In return you see the actual job under real pressure, judged the same way for both."
+          },
+          {
+            "key": "C",
+            "text": "Ask each to walk you through how they handle a slammed Friday night",
+            "verdict": "risky",
+            "feedback": "It's quick and free, but a good story about a busy night is not the same as surviving one."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Judge the work, not the description of it.",
+      "body": [
+        "A short, realistic, fairly scored task shows you what no résumé or conversation can.",
+        "**Try it today:** pick one role you hire for. Write down a task a new hire does in week one that could fit into 90 minutes. Then write three things a great result would include."
+      ],
+      "next": "Next · Why hiring for \"fit\" can make your team weaker"
+    }
+  ]
+}

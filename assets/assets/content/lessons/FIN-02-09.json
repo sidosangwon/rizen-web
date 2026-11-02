@@ -1,0 +1,238 @@
+{
+  "id": "FIN-02-09",
+  "unitId": "FIN-02",
+  "categoryId": "FIN",
+  "order": 9,
+  "type": "case",
+  "conceptTag": "Amazon gets paid before it pays",
+  "readerTitle": "How Amazon's customers helped pay for its growth",
+  "format": "counterexample",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.2,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Amazon, 초기 온라인 서점 시절과 마켓플레이스) + 가상 적용 (주문 제작 철제 선반 공장). 결제 타이밍 그림은 설명용 예시이며 Amazon의 실제 일수가 아님",
+  "insight": "고객이 먼저 돈을 내고 공급업체에는 나중에 지불하는 구조라면, 성장은 현금을 먹는 게 아니라 현금을 만들어 낸다. 성장이 현금에 좋은지 나쁜지는 결제 순서가 정한다.",
+  "misconception": "빨리 성장하는 회사는 반드시 외부 자금이 더 필요하고, 장부상 적자면 현금도 곧 바닥난다.",
+  "relatedLessonIds": [
+    "FIN-02-02",
+    "FIN-02-10"
+  ],
+  "sources": [
+    {
+      "text": "Amazon.com 1997 Letter to Shareholders and 1997 IPO prospectus (early business model, card payments at order)",
+      "url": "https://www.aboutamazon.com/news/company-news/amazon-shareholder-letters"
+    },
+    {
+      "text": "Jeff Bezos, 2004 Letter to Shareholders (free cash flow per share as Amazon's 'ultimate financial measure')",
+      "url": "https://www.aboutamazon.com/news/company-news/amazon-shareholder-letters"
+    },
+    {
+      "text": "Amazon.com Form 10-K filings, 2002 and 2003 (annual net loss in 2002, net income in 2003)",
+      "url": "https://ir.aboutamazon.com/sec-filings"
+    },
+    {
+      "text": "Amazon Seller Central help pages on disbursement schedules for third-party sellers",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "'2003년에야 첫 연간 흑자'는 Amazon 10-K(2002년 순손실, 2003년 순이익)로 확인하세요. 분기 기준 첫 흑자는 2001년 4분기로 알려져 있으나 카드에는 연간 기준만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "2004년 주주서한의 \"Our ultimate financial measure, and the one we most want to drive over the long-term, is free cash flow per share\" 문구를 원문과 대조하세요. 카드에는 'ultimate financial measure'만 인용했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "초기 Amazon이 재고를 적게 두고 상당수 책을 주문 후 도매상에서 조달했다는 내용은 1997년 투자설명서와 주주서한에서 확인하세요. 카드에는 구체적 수치 없이 질적으로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Amazon이 1998~1999년 전환사채 등으로 외부 자금도 조달했다는 내용(1번 판단 문제 C 피드백)을 10-K로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "3번 카드의 0일·20일·50일 타임라인은 설명용 가상 수치입니다. 계산: 재고 판매 20일 + 대금 회수 0일 − 공급업체 지불 50일 = −30일. Amazon의 실제 현금 전환 주기 일수는 연도별로 다르므로 카드에 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "마켓플레이스 판매자 대금을 일정 주기로 지급한다는 내용은 Seller Central 안내로 확인하세요. 구체적 주기(예: 14일)는 쓰지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Counterexample",
+      "title": "How Amazon's customers helped pay for its growth",
+      "body": [
+        "Amazon went public in 1997 as an online bookstore. It didn't report a full-year profit until 2003.",
+        "Losing money while growing fast usually burns through cash. But Amazon had a quiet advantage: its customers often paid before Amazon paid its suppliers."
+      ],
+      "image": {
+        "label": "Parcels on a conveyor, coins flowing in ahead of them",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 컨베이어 벨트 위 택배 상자들, 상자보다 앞서 동전이 창고 안으로 흘러 들어오고, 공급업체로 나가는 동전은 멀리 뒤쪽에서 천천히 나감. 실제 Amazon 로고, 미소 화살표, 상자 디자인은 쓰지 않음.",
+        "url": "assets/images/fin-02-09-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Your board says: slow down to save cash.",
+      "body": [
+        "It's the late 1990s. You run a fast-growing online bookstore. Customers pay by card when they order, and the money arrives within days. Your book suppliers bill you and expect payment weeks later.",
+        "You're reporting losses. A board member wants you to slow growth to protect cash. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Agree. Losses plus fast growth will drain the bank",
+            "verdict": "risky",
+            "feedback": "That's true for most businesses. Here, slowing down would shrink the customer cash arriving ahead of supplier bills, so it could actually hurt cash."
+          },
+          {
+            "key": "B",
+            "text": "Keep growing, as long as customers keep paying before suppliers get paid",
+            "verdict": "best",
+            "feedback": "When cash comes in before it goes out, each extra sale adds money you hold for weeks. You still have to fix the losses, but growth isn't what's draining you."
+          },
+          {
+            "key": "C",
+            "text": "Keep growing, but only after raising a large loan",
+            "verdict": "partial",
+            "feedback": "A cushion is sensible, and Amazon did raise outside money too. But the loan costs interest, and it misses that your payment timing is already a source of cash."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The timeline",
+      "title": "Follow one order.",
+      "illustrative": true,
+      "body": [
+        "Here the business holds the customer's money for **30 days** before it owes the supplier. The numbers are made up; the order of events is the point."
+      ],
+      "breakdown": [
+        {
+          "value": "Day 0",
+          "label": "Customer pays",
+          "detail": "Card payment at checkout",
+          "highlight": false
+        },
+        {
+          "value": "Day 20",
+          "label": "Item leaves stock",
+          "detail": "Fast-selling stock sits briefly",
+          "highlight": false
+        },
+        {
+          "value": "Day 50",
+          "label": "Supplier paid",
+          "detail": "Bill due weeks after delivery",
+          "highlight": false
+        },
+        {
+          "value": "−30 days",
+          "label": "Cash cycle",
+          "detail": "Money held before it's owed",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "A negative cash cycle",
+      "body": [
+        "The **cash cycle** is the time between paying for what you sell and getting paid for it. Most businesses pay first and collect later, so they wait.",
+        "When customers pay before you pay suppliers, the cycle turns **negative**. You hold their money first. Fast-selling stock and card payments at checkout made this possible for Amazon from its early bookstore days."
+      ],
+      "image": {
+        "label": "Two timelines: cash out first vs cash in first",
+        "aspectRatio": "16:9",
+        "brief": "두 개의 가로 타임라인 비교. 위쪽 \"Most businesses\": 빨간 화살표(Pay supplier)가 먼저, 초록 화살표(Customer pays)가 나중, 사이에 \"Waiting\" 구간. 아래쪽 \"Negative cash cycle\": 초록이 먼저, 빨강이 나중, 사이에 \"Cash you hold\" 구간 강조.",
+        "url": "assets/images/fin-02-09-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Growth makes the float bigger.",
+      "body": [
+        "When sales rise every month, today's incoming customer cash is larger than the supplier bills from smaller, earlier months. So growth adds cash instead of eating it.",
+        "Amazon cared about this openly. In his 2004 shareholder letter, Jeff Bezos called free cash flow per share Amazon's \"ultimate financial measure.\" Later, its marketplace worked the same way: Amazon collects from buyers and pays third-party sellers on a schedule, not instantly."
+      ],
+      "softwareNote": "Annual prepaid subscriptions create the same effect. A customer pays for twelve months up front, while servers and salaries are paid month by month. Growth in annual plans brings cash in ahead of the costs."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The float runs in reverse.",
+      "body": [
+        "That cash isn't yours. It's owed. If sales stop growing or start shrinking, you must pay large old supplier bills from smaller new sales, and cash drains fast.",
+        "It also doesn't fix losses. A negative cycle buys time, not profit. And pushing suppliers to wait ever longer has a cost: they may raise prices, cut service or walk away."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a shelving factory.",
+      "illustrative": true,
+      "body": [
+        "You make custom steel shelving for warehouses. Steel suppliers want payment in 30 days. Production takes about three weeks. Customers pay 60 days after delivery.",
+        "A new client offers an order that would double your sales. How do you take it?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Accept and cover the gap with a bank overdraft",
+            "verdict": "partial",
+            "feedback": "You win the order, but you pay interest on a gap that doubles with the order. If the client pays late, the overdraft grows with no limit in sight."
+          },
+          {
+            "key": "B",
+            "text": "Accept, ask for a deposit at signing and longer steel terms",
+            "verdict": "best",
+            "feedback": "You move cash in earlier and cash out later, shrinking the gap that growth would create. You may give a small discount for the deposit, but you grow without betting the bank."
+          },
+          {
+            "key": "C",
+            "text": "Decline. Doubling sales is too risky for cash",
+            "verdict": "risky",
+            "feedback": "You protect today's cash but give up the growth. The problem is the payment timing, not the order, and timing can often be renegotiated."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Who pays first decides whether growth feeds or drains you.",
+      "body": [
+        "Amazon's early growth was partly funded by customers paying before suppliers were paid. Most businesses can't flip their cycle fully, but almost any can shorten it.",
+        "**Try it today:** for your main product, write down how many days pass between paying your supplier and getting paid by your customer. Pick one step to shorten by a week."
+      ],
+      "next": "Next · Profitable, but out of cash"
+    }
+  ]
+}

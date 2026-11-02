@@ -1,0 +1,273 @@
+{
+  "id": "SAL-01-04",
+  "unitId": "SAL-01",
+  "categoryId": "SAL",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Qualifying",
+  "readerTitle": "The remodeler who said yes to every estimate",
+  "format": "counterexample",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (주방 리모델링 업체, 금속 부품 가공 공장) · 모든 수치는 설명용",
+  "insight": "자격 확인은 고객을 거르는 일이 아니라, 살 수 있는 고객에게 시간을 몰아주는 일이다.",
+  "misconception": "문의는 전부 잠재 매출이니, 모든 요청에 최대한 빨리 견적을 내 주는 것이 좋은 영업이다.",
+  "relatedLessonIds": [
+    "SAL-01-02",
+    "SAL-01-05"
+  ],
+  "sources": [
+    {
+      "text": "영업의 표준 개념 (리드 자격 확인: 필요, 예산, 결정권자, 시기)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 설명용 가상 수치입니다. 첫 시즌: 방문 견적 30건 × 4시간 = 120시간, 수주 6건, 수주 1건당 120 ÷ 6 = 20시간.",
+      "status": "open"
+    },
+    {
+      "note": "둘째 시즌: 전화 30통 × 5분 = 2.5시간, 방문 15건 × 4시간 = 60시간, 합계 62.5시간, 수주 6건, 수주 1건당 62.5 ÷ 6 ≈ 10.4시간. 수주 건수가 같다는 것은 설명용 가정입니다.",
+      "status": "open"
+    },
+    {
+      "note": "BANT(Budget, Authority, Need, Timing)는 널리 쓰이는 영업 체크리스트 이름입니다. 기원(IBM 등)에 대한 주장은 카드에 쓰지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Sales · Counterexample",
+      "title": "The remodeler who said yes to every estimate",
+      "illustrative": true,
+      "body": [
+        "Dana runs a small kitchen remodeling business. One spring, she drove to 30 homes to give free estimates. Each one took about four hours: travel, measuring, pricing, writing it up.",
+        "She won six jobs. Her calendar was full. Her bank account was not."
+      ],
+      "image": {
+        "label": "A tired contractor's car full of tape measures and quote folders",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 작은 밴 조수석에 견적서 폴더가 산처럼 쌓여 있고, 지도 앱 화면에 핀이 30개 찍혀 있음. 그중 6개만 초록색. 실제 브랜드 로고 없음.",
+        "url": "assets/images/sal-01-04-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "A new request comes in.",
+      "illustrative": true,
+      "body": [
+        "A caller says: \"We're thinking about redoing the whole kitchen. Can you come give us a price?\"",
+        "Dana's week is already busy. What should she do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Book a home visit right away, before they call someone else",
+            "verdict": "risky",
+            "feedback": "Speed can win jobs, but she commits four hours before knowing if this buyer is ready, able or even the one who decides."
+          },
+          {
+            "key": "B",
+            "text": "Ask a few short questions on the phone first: when, rough budget, who decides",
+            "verdict": "best",
+            "feedback": "Five minutes tells her whether the visit is worth four hours. Serious buyers usually welcome the questions."
+          },
+          {
+            "key": "C",
+            "text": "Email a price list and let them come back if interested",
+            "verdict": "partial",
+            "feedback": "It protects her time, but she learns nothing, and serious buyers may feel brushed off and go elsewhere."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What went wrong",
+      "title": "Where the spring went.",
+      "illustrative": true,
+      "body": [
+        "Looking back, most lost estimates weren't lost to rivals. Some people were planning for next year. Some had a budget far below a full remodel. Some needed a landlord or partner who never saw the quote."
+      ],
+      "breakdown": [
+        {
+          "value": "30",
+          "label": "Home visits",
+          "detail": "Every request got one",
+          "highlight": false
+        },
+        {
+          "value": "120 hrs",
+          "label": "Time spent",
+          "detail": "About 4 hours each",
+          "highlight": false
+        },
+        {
+          "value": "6",
+          "label": "Jobs won",
+          "detail": "One in five",
+          "highlight": false
+        },
+        {
+          "value": "20 hrs",
+          "label": "Per job won",
+          "detail": "Before any work began",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Qualifying",
+      "body": [
+        "**Qualifying** means checking early whether a prospect can and will buy, so you spend your time where a sale is possible.",
+        "It usually comes down to four things: a real need, the money to pay, the power to decide, and a reason to act soon. Sales teams sometimes call this checklist BANT: budget, authority, need, timing.",
+        "Dana's problem wasn't her estimates. It was that she gave her best effort before asking any of these."
+      ],
+      "image": {
+        "label": "Four gates a lead passes through: need, money, decision, timing",
+        "aspectRatio": "16:9",
+        "brief": "깔때기 대신 작은 문 4개가 일렬로 있는 일러스트. 각 문에 \"Need\", \"Money\", \"Who decides\", \"When\" 라벨. 사람 모양 아이콘 여러 개가 들어가고 마지막 문을 통과한 몇 명만 집 모양 목적지에 도착.",
+        "url": "assets/images/sal-01-04-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "chart",
+      "eyebrow": "The next season",
+      "title": "Five minutes on the phone, half the hours.",
+      "illustrative": true,
+      "body": [
+        "The next spring, Dana asked three questions on every call: When do you want this done? What range are you thinking? Who else needs to agree?",
+        "She visited half as many homes and won the same six jobs."
+      ],
+      "chart": {
+        "unit": "count",
+        "groups": [
+          {
+            "label": "Home visits",
+            "rows": [
+              {
+                "label": "Before qualifying",
+                "value": 30,
+                "highlight": false
+              },
+              {
+                "label": "After qualifying",
+                "value": 15,
+                "highlight": true
+              }
+            ]
+          },
+          {
+            "label": "Hours per job won",
+            "rows": [
+              {
+                "label": "Before qualifying",
+                "value": 20,
+                "highlight": false
+              },
+              {
+                "label": "After qualifying",
+                "value": 10.4,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Why it's also kind",
+      "title": "A clear \"not yet\" helps the customer too.",
+      "body": [
+        "Qualifying isn't only about protecting your time. A family with half the budget for a full remodel is better served by hearing that early, and maybe getting a smaller option or a referral.",
+        "The same check works anywhere effort comes before the sale: a caterer's tasting, an accountant's free review, a wholesaler's samples."
+      ],
+      "softwareNote": "Demo requests and trial sign-ups are leads too. A question or two on the form, such as team size or timeline, lets a software company send small accounts to self-serve and give sales calls to buyers who can actually decide."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Qualify, don't interrogate.",
+      "body": [
+        "Many customers don't know their budget yet. Offer a range, such as \"most kitchens we do land between X and Y,\" instead of demanding a number.",
+        "And \"not now\" is not \"never.\" Someone planning for next year is a future customer. Keep a short list and follow up later.",
+        "Strict rules can also screen out good buyers who just answer badly on a first call."
+      ],
+      "image": {
+        "label": "A notebook with a 'Later' list of names and months",
+        "aspectRatio": "16:9",
+        "brief": "손글씨 노트 한 페이지. 제목 \"Later\", 아래에 이름과 월(예: \"Kim, March\", \"Lee, after move\")이 적혀 있고 옆에 달력 아이콘. 따뜻한 색감.",
+        "url": "assets/images/sal-01-04-c7.jpg"
+      }
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a machine shop.",
+      "illustrative": true,
+      "body": [
+        "You run a small metal parts shop. A large manufacturer emails a drawing and asks for a quote on 10,000 parts, needed next month. Pricing it properly takes your engineer two days.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Quote it right away. A big name could change the business",
+            "verdict": "risky",
+            "feedback": "Two days of engineering go out before you know if they're just collecting prices to pressure their current supplier."
+          },
+          {
+            "key": "B",
+            "text": "Decline. Big firms rarely switch suppliers",
+            "verdict": "partial",
+            "feedback": "You keep the two days, but you may walk away from a real order without ever checking."
+          },
+          {
+            "key": "C",
+            "text": "Call the buyer first: why they're quoting, how many shops are bidding, who approves, and whether next month is firm",
+            "verdict": "best",
+            "feedback": "A short call shows whether this is a real chance worth two days, or a price check you can answer roughly."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Check fit before you give your best effort.",
+      "body": [
+        "Every lead costs time. Qualifying makes sure that time goes to people with a need, the money, the power to decide and a reason to act soon.",
+        "**Try it today:** write the three questions you'll ask before your next estimate, quote or demo."
+      ],
+      "next": "Next · Asking the questions that uncover the real problem"
+    }
+  ]
+}

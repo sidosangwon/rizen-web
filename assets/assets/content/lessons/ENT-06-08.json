@@ -1,0 +1,232 @@
+{
+  "id": "ENT-06-08",
+  "unitId": "ENT-06",
+  "categoryId": "ENT",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "From 20 people to 200",
+  "readerTitle": "Why what worked at 20 people breaks at 200",
+  "format": "everyday_scene",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (가정 수리 서비스 회사, 소프트웨어 회사) · 적용 레슨. 프로세스 추가(ENT-06-04)와 규모에 맞는 소통(ENT-06-05)을 함께 사용",
+  "insight": "20명에서 200명이 되면 '옆에서 듣고 아는' 정보 흐름이 사라진다. 그래서 반복되는 문제에만 프로세스를 더하고, 중요한 메시지는 일부러 여러 경로로 반복해야 한다.",
+  "misconception": "회사가 커지면 모든 일에 규칙과 결재를 붙이거나, 창업자가 더 많이 직접 챙기면 된다.",
+  "relatedLessonIds": [
+    "ENT-06-04",
+    "ENT-06-05"
+  ],
+  "sources": [
+    {
+      "text": "모든 사례와 수치는 설명용 가상 예시",
+      "url": null
+    },
+    {
+      "text": "소통 경로 수 계산: n명 사이의 두 사람 쌍 = n(n−1)/2 (기본 조합 계산)",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "두 사람 쌍 계산을 확인했습니다. 20×19÷2 = 190, 50×49÷2 = 1,225, 200×199÷2 = 19,900. 19,900 ÷ 190 ≈ 105배. 카드에는 'about 100 times'로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "회사, 인원, 사건은 모두 가상입니다. 실제 기업이나 연구 수치는 쓰지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Scaling · Everyday scene",
+      "title": "Why what worked at 20 people breaks at 200",
+      "illustrative": true,
+      "body": [
+        "Maya runs a home repair company. At 20 people, she knew every job. If a plumber was running late, someone in the van yard heard about it and fixed the schedule.",
+        "Five years later, she has 200 technicians across three cities. Nobody changed how the company works. But now customers get two plumbers, or none, and quotes for the same job differ by hundreds of dollars."
+      ],
+      "image": {
+        "label": "A crowded wall calendar covered in overlapping job notes",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 작은 사무실 벽에 붙은 일정표가 메모지로 뒤덮여 겹쳐 있고, 같은 시간 칸에 렌치 아이콘 두 개가 겹쳐 있음. 앞쪽에 당황한 창업자 실루엣. 실제 회사 로고 없음.",
+        "url": "assets/images/ent-06-08-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "The same mistakes keep happening.",
+      "illustrative": true,
+      "body": [
+        "Double-bookings happen about twice a week. Quotes vary because each technician prices jobs their own way. Maya's managers want a fix.",
+        "What should she do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Maya personally checks every schedule and quote each morning",
+            "verdict": "risky",
+            "feedback": "It stops errors for a week. Then Maya becomes the bottleneck, and 200 people wait on one inbox."
+          },
+          {
+            "key": "B",
+            "text": "Write a simple booking checklist and a price sheet for the top 10 jobs, each owned by one team lead",
+            "verdict": "best",
+            "feedback": "This is **adding process** where the pain repeats. It fixes the two biggest problems without slowing the jobs that already work."
+          },
+          {
+            "key": "C",
+            "text": "Buy a full operations system and write rules for every type of job",
+            "verdict": "partial",
+            "feedback": "It may help later. Done all at once, it adds rules for problems nobody has, and crews start working around them."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Why overhearing stops working.",
+      "body": [
+        "Count the possible pairs of people who could talk to each other. Growing 10 times in people means about **100 times** more pairs. Nobody can keep up by chance."
+      ],
+      "breakdown": [
+        {
+          "value": "190",
+          "label": "20 people",
+          "detail": "Most news reaches everyone by lunch",
+          "highlight": false
+        },
+        {
+          "value": "1,225",
+          "label": "50 people",
+          "detail": "Some news gets lost",
+          "highlight": false
+        },
+        {
+          "value": "19,900",
+          "label": "200 people",
+          "detail": "News only travels if someone sends it",
+          "highlight": true
+        }
+      ],
+      "callout": "At 200 people, information moves on purpose or not at all."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "What's at work",
+      "title": "Two ideas from this unit.",
+      "body": [
+        "**Adding process** means writing down how a repeated task should be done, only once it keeps going wrong. A checklist replaces the memory of the person who used to catch errors.",
+        "**Communicating at scale** means important messages must be repeated, written down and passed through managers. Saying it once in a room no longer reaches everyone."
+      ],
+      "image": {
+        "label": "Small group talking in a circle versus a large group linked by team leads",
+        "aspectRatio": "16:9",
+        "brief": "좌우 비교 인포그래픽. 왼쪽은 20명이 둥글게 모여 대화. 오른쪽은 200명이 여러 작은 그룹으로 나뉘고 각 그룹의 리더가 가운데 메시지와 선으로 연결됨. 단순한 플랫 스타일.",
+        "url": "assets/images/ent-06-08-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "A price change gets lost.",
+      "illustrative": true,
+      "body": [
+        "Maya raises the call-out fee from $60 to $80. She posts it in the company group chat. A month later, half the technicians still charge $60, and some customers complain they were charged differently.",
+        "What should she do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Post it again in the chat, in bold, with a reminder",
+            "verdict": "partial",
+            "feedback": "Repeating helps, but one channel that already failed reaches the same people again."
+          },
+          {
+            "key": "B",
+            "text": "Team leads explain it in their weekly meetings, it goes on the price sheet, and leads confirm each crew has it",
+            "verdict": "best",
+            "feedback": "This is **communicating at scale**: several channels, written down, and a check that it landed. It takes more effort once, but saves a month of mixed prices."
+          },
+          {
+            "key": "C",
+            "text": "Hold a daily call for all 200 staff",
+            "verdict": "risky",
+            "feedback": "Everyone hears it, but daily calls take technicians off jobs. The cost grows with every person you add."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Every rule and message has a cost.",
+      "body": [
+        "Process slows people down, and each message competes for attention. Add too much and your best people spend their day on forms and updates.",
+        "A useful habit: each new rule needs an owner and a reason. Every few months, ask which rules still prevent a real mistake. Remove the rest. The goal is fewer surprises, not more paperwork."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software company.",
+      "illustrative": true,
+      "body": [
+        "A software company grew from 40 to 200 people in two years. Twice this quarter, an update broke billing for some users. Engineers in other teams only found out from angry customers.",
+        "What should the head of engineering do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Require three managers to approve every code change",
+            "verdict": "risky",
+            "feedback": "It stops some errors but slows every team, even those whose changes never touch billing. Process should go where the pain repeats."
+          },
+          {
+            "key": "B",
+            "text": "Add a review checklist only for changes that touch billing, plus a short written note to all teams when something ships",
+            "verdict": "best",
+            "feedback": "This uses both ideas: **adding process** to the risky step, and **communicating at scale** so nobody learns about changes from customers."
+          },
+          {
+            "key": "C",
+            "text": "Keep it informal and ask people to talk to each other more",
+            "verdict": "risky",
+            "feedback": "That worked at 40 people. At 200, there are too many pairs for talk to cover by chance."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "At 200 people, nothing spreads by itself.",
+      "body": [
+        "This lesson used two ideas. **Adding process:** write down the steps that keep breaking, and only those. **Communicating at scale:** repeat important messages in writing, through managers, and check they landed.",
+        "**Try it today:** name one mistake that happened twice this month. Write a five-line checklist for it, and pick one person to own it."
+      ],
+      "next": "Next · Quibi's $1.75B lesson"
+    }
+  ]
+}
