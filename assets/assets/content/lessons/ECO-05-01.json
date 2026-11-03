@@ -1,0 +1,221 @@
+{
+  "id": "ECO-05-01",
+  "unitId": "ECO-05",
+  "categoryId": "ECO",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Price anchoring",
+  "readerTitle": "Why would a shop sell a $429 bread maker that nobody buys?",
+  "format": "company_story",
+  "level": 1,
+  "language": "en",
+  "status": "draft_review",
+  "estimatedMinutes": 4.2,
+  "caseKinds": [
+    "real_research",
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 연구 (Tversky & Kahneman 1974, Northcraft & Neale 1987) + 업계 일화 (Williams-Sonoma, 출처 불명확) + 가상 사례 (리노베이션 견적)",
+  "insight": "가격은 혼자 평가되지 않는다. 처음 본 숫자가 이후 모든 가격의 기준이 된다.",
+  "misconception": "앵커링은 가짜 정가를 붙이는 기법이다.",
+  "relatedLessonIds": [
+    "SAL-04-04",
+    "ECO-05-03"
+  ],
+  "sources": [
+    {
+      "text": "Tversky & Kahneman (1974). Judgment under Uncertainty: Heuristics and Biases. Science.",
+      "url": null
+    },
+    {
+      "text": "Northcraft & Neale (1987). Experts, amateurs, and real estate. Org. Behavior and Human Decision Processes.",
+      "url": null
+    },
+    {
+      "text": "EU Price Indication Directive 98/6/EC, Art. 6a (Omnibus Directive 2019/2161 개정)",
+      "url": null
+    },
+    {
+      "text": "US FTC, Guides Against Deceptive Pricing (16 CFR Part 233)",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Williams-Sonoma 제빵기 일화는 마케팅 업계에서 널리 인용되지만 1차 출처가 불명확합니다. 카드에 \"reportedly\"를 남겨 두었고, 정식 출시 전에는 학술 사례로 바꾸는 것을 검토하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Tversky & Kahneman 수치(25% / 45%)는 중앙값입니다. 문구에도 \"median\"을 명시했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "규제 문구(EU 30일 최저가, FTC 가이드)는 국가별로 다릅니다. 출시 국가 기준으로 다시 확인해야 합니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Pricing · Lesson 1",
+      "title": "Why would a shop sell a $429 bread maker that nobody buys?",
+      "body": [
+        "It sounds like a bad product decision. It might be the smartest one on the shelf.",
+        "In the next few minutes you'll make two pricing calls and learn the idea behind them."
+      ],
+      "image": {
+        "label": "Two bread makers on a shelf",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 매장 선반 위 제빵기 2대. 왼쪽의 큰 제품에 $429, 오른쪽의 작은 제품에 $279 가격표. 앱 목업과 같은 파스텔 톤에 부드러운 그림자.",
+        "url": "assets/images/eco-05-01-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Your $279 bread maker isn't selling.",
+      "illustrative": true,
+      "body": [
+        "You run a kitchen store. Shoppers pick up the $279 model, turn it over, and put it back. Several tell you it feels expensive for a bread maker.",
+        "You can make one change this month. What do you try?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Cut the price to $199",
+            "verdict": "risky",
+            "feedback": "Sales may go up, but you just gave away $80 a unit, about 29% of the price. You also told shoppers the old price wasn't worth it. That's hard to undo."
+          },
+          {
+            "key": "B",
+            "text": "Put a bigger $429 model right next to it",
+            "verdict": "best",
+            "feedback": "This is the move in a story marketers love to tell about Williams-Sonoma. The $429 model barely sold. Sales of the $279 model reportedly almost doubled. Next card: why."
+          },
+          {
+            "key": "C",
+            "text": "Add signs explaining its features",
+            "verdict": "partial",
+            "feedback": "Better information helps, but shoppers are still judging $279 against nothing. With no comparison, an unfamiliar price tends to feel high."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "The $429 model wasn't really for sale. It was for comparison.",
+      "body": [
+        "Before, shoppers asked: *Is $279 a lot for a bread maker?* That's a hard question. Few people know what a bread maker should cost.",
+        "After, they asked: *Do I need the $429 one, or is $279 enough?* That's an easy question. Next to $429, $279 looks sensible.",
+        "The product didn't change. **The question in the shopper's head did.**"
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Price anchoring",
+      "body": [
+        "The first number people see becomes a **reference point**. Every price after it gets judged as higher or lower than that anchor, not on its own.",
+        "We're bad at judging absolute value (what's a fair price for a bread maker?) and good at judging relative value (is this more or less than that?). Anchors work in that gap."
+      ],
+      "image": {
+        "label": "Anchor at $429 → $279 feels lower",
+        "aspectRatio": "16:9",
+        "brief": "개념을 한 장으로 요약하는 인포그래픽. 위쪽에 닻 아이콘과 \"$429\", 아래쪽 화살표 끝에 \"$279 feels reasonable\". 텍스트는 최소화.",
+        "url": "assets/images/eco-05-01-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The proof",
+      "title": "Even a random number works.",
+      "body": [
+        "In a 1974 study, Amos Tversky and Daniel Kahneman spun a wheel rigged to stop at either 10 or 65. Then they asked people what percentage of UN member countries were African.",
+        "People who saw 10 gave a median guess of 25%. People who saw 65 gave a median guess of 45%.",
+        "Everyone could see the wheel was random. It still moved their answers by 20 points."
+      ],
+      "image": {
+        "label": "Wheel of fortune stopping at 10 or 65",
+        "aspectRatio": "16:9",
+        "brief": "룰렛(행운의 바퀴)이 10과 65에 멈춘 두 컷을 나란히. 아래에 각각 \"Guess: 25%\" \"Guess: 45%\" 말풍선.",
+        "url": "assets/images/eco-05-01-c5.jpg"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "In the real world",
+      "title": "Experts get anchored too.",
+      "body": [
+        "In a 1987 study by Gregory Northcraft and Margaret Neale, real estate agents toured the same house and got the same information, except for the listing price.",
+        "Agents who were shown a higher listing price valued the house higher. Most of them said the listing price hadn't influenced them.",
+        "You'll find the same pattern on restaurant menus with one very expensive bottle of wine, and on software pricing pages that show the Enterprise plan first."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A fake anchor is a liability.",
+      "body": [
+        "\"Was $300, now $199\" works only if $300 was a real price. Customers who spot an invented reference price stop trusting every other number you show them.",
+        "It can also be illegal. In the EU, a price-cut claim has to refer to the lowest price of the previous 30 days. In the US, the FTC has guidance against fictitious former prices.",
+        "Good anchors are **real options**: products someone could actually buy."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a renovation quote.",
+      "illustrative": true,
+      "body": [
+        "You run a kitchen-renovation company. You give homeowners one quote: $18,000. Many say it's more than they expected and stop replying.",
+        "Which change uses anchoring honestly?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Quote three real options: $12,000, $18,000 and $32,000, starting with the $32,000 one",
+            "verdict": "best",
+            "feedback": "Right. Each option is a job you'd really do. Next to $32,000, $18,000 looks sensible, and some clients will choose the premium job."
+          },
+          {
+            "key": "B",
+            "text": "Write \"$18,000 (normally $24,000)\" on the quote",
+            "verdict": "risky",
+            "feedback": "If it was never $24,000, this is a fictitious reference price. Homeowners compare quotes, and a fake discount can cost you trust and possibly a legal problem."
+          },
+          {
+            "key": "C",
+            "text": "Add \"Our most popular choice\" to the quote",
+            "verdict": "partial",
+            "feedback": "This can help, but it's social proof, a different lever. Nothing changed about what $18,000 gets compared to."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Never let a price stand alone.",
+      "body": [
+        "Decide what your customer compares you to before they decide for themselves.",
+        "**Try it today:** open your price list, quote or menu. What's the first number a customer sees? Is it working for you?"
+      ],
+      "next": "Next · Why $9.99 feels cheaper than $10"
+    }
+  ]
+}

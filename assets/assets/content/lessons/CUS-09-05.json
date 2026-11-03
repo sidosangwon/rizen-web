@@ -1,0 +1,241 @@
+{
+  "id": "CUS-09-05",
+  "unitId": "CUS-09",
+  "categoryId": "CUS",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Return on investment for the customer",
+  "readerTitle": "The pricier bid won. It did the customer's math.",
+  "format": "two_businesses",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (제빵 공장에 입찰한 설비 유지보수 업체 두 곳, 단열 시공업체와 집주인) · 모든 수치는 설명용",
+  "insight": "기업 고객은 가격이 아니라 자기 숫자로 계산한 회수액을 산다. 판매자의 일은 그 계산을 고객과 함께, 믿을 수 있게 해 주는 것이다.",
+  "misconception": "더 싸게 부르거나 기능을 더 많이 나열하면 이긴다. 투자수익률은 판매자가 크게 말할수록 설득력이 커진다.",
+  "relatedLessonIds": [
+    "CUS-09-04",
+    "CUS-09-02"
+  ],
+  "sources": [
+    {
+      "text": "재무의 표준 개념 (투자수익률 ROI, 투자 회수 기간)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "제빵 공장 계산: 정지 1시간 비용 $1,500 × 월 4시간 감소 = 월 $6,000 이익. 추가 비용 $3,000 − $2,000 = 월 $1,000. 추가 $1당 약 $6 회수. ROI = (6,000 − 1,000) ÷ 1,000 = 500%. 모든 수치는 가상입니다.",
+      "status": "open"
+    },
+    {
+      "note": "단열 시공 계산: 공사비 $4,800 ÷ 연 절감액 $960 = 회수 기간 5년. 연 $960은 집주인의 지난 고지서를 근거로 한다는 가정의 가상 수치이며, 실제 절감액은 집, 기후, 에너지 가격에 따라 크게 다릅니다. 실제 절감률은 카드에 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "소프트웨어 노트의 '절약한 시간은 다른 일에 쓰일 때만 이익'이라는 주장은 일반 원리로만 서술했고 특정 연구 수치를 인용하지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Two businesses",
+      "title": "The pricier bid won. It did the customer's math.",
+      "illustrative": true,
+      "body": [
+        "Two maintenance firms bid to look after the ovens and mixers at a mid-sized bakery. Firm A asked $2,000 a month. Firm B asked $3,000.",
+        "The bakery owner picked Firm B. She wasn't being generous. Firm B had shown her a number from her own business that Firm A never asked about."
+      ],
+      "image": {
+        "label": "Two proposals on a bakery office desk, one with a simple calculation circled",
+        "aspectRatio": "4:3",
+        "brief": "제빵 공장 사무실 책상 위에 제안서 두 장. 왼쪽은 기능 목록이 빽빽한 제안서(\"$2,000/mo\"), 오른쪽은 짧은 계산식에 동그라미가 쳐진 제안서(\"$3,000/mo\"). 뒤 창문 너머로 오븐 라인. 실제 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/cus-09-05-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You're 50% more expensive. How do you pitch?",
+      "illustrative": true,
+      "body": [
+        "You run Firm B. Your plan includes scheduled checks that catch worn parts before they break. Firm A only comes when something fails.",
+        "The owner says, \"Your price is a lot higher.\" What do you do next?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Drop your price closer to $2,000 to stay in the race",
+            "verdict": "risky",
+            "feedback": "You may win the contract, but you give away the margin that pays for the scheduled checks. And you still haven't shown why your plan is worth more."
+          },
+          {
+            "key": "B",
+            "text": "Send a longer list of your services and certifications",
+            "verdict": "partial",
+            "feedback": "It proves you are capable. It leaves her to work out what that capability is worth in dollars, and most buyers won't."
+          },
+          {
+            "key": "C",
+            "text": "Ask what an hour of stopped production costs her, then work out the gain together",
+            "verdict": "best",
+            "feedback": "You move the talk from your price to her return. It takes more effort, and it only works if your claim holds up against her own numbers."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "The bakery's numbers, not the firm's.",
+      "illustrative": true,
+      "body": [
+        "Every extra $1 the bakery spends brings back about **$6**. Firm A was cheaper. Firm B was the better deal."
+      ],
+      "breakdown": [
+        {
+          "value": "$1,500",
+          "label": "Cost of one hour stopped",
+          "detail": "Lost output, idle staff, wasted dough",
+          "highlight": false
+        },
+        {
+          "value": "4 hours",
+          "label": "Downtime saved per month",
+          "detail": "Estimated from the bakery's own repair log",
+          "highlight": false
+        },
+        {
+          "value": "$6,000",
+          "label": "Monthly gain",
+          "detail": "4 hours × $1,500",
+          "highlight": true
+        },
+        {
+          "value": "$1,000",
+          "label": "Extra monthly cost",
+          "detail": "$3,000 instead of $2,000",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Return on investment for the customer",
+      "body": [
+        "**Return on investment (ROI)** compares what a customer gets back with what they pay. For a business buyer, a purchase is an investment. It has to earn more than it costs.",
+        "Firm A sold maintenance. Firm B sold fewer stopped ovens, priced in the owner's own dollars. The owner could also take that number to her partner and defend the choice."
+      ],
+      "image": {
+        "label": "A scale: $1,000 extra cost on one side, $6,000 gain on the other",
+        "aspectRatio": "16:9",
+        "brief": "단순한 저울 일러스트. 왼쪽 접시에 작은 동전 더미 \"Extra cost $1,000\", 오른쪽 접시에 큰 더미 \"Gain $6,000\". 오른쪽이 확실히 아래로 기움. 플랫한 인포그래픽 스타일.",
+        "url": "assets/images/cus-09-05-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Three numbers, all from the customer.",
+      "body": [
+        "A believable customer ROI rests on three numbers. Each one should come from the customer's records, not your brochure."
+      ],
+      "list": [
+        "**Gain:** money earned, saved or protected (output, hours, mistakes, risk)",
+        "**Cost:** everything they pay, not just your price",
+        "**Time:** how long until the gain covers the cost, called the *payback period*"
+      ],
+      "callout": "Ask questions first. Calculate second. Pitch last.",
+      "softwareNote": "Software ROI is often pitched as \"hours saved × hourly wage.\" Saved hours only count if people spend them on work that earns or saves money. Ask what the team will do with that time."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where it lands",
+      "title": "The return has to reach the person who pays.",
+      "illustrative": true,
+      "body": [
+        "Suppose the bakery's maintenance manager holds the budget, but the gain shows up in production numbers. He sees a cost of $1,000 more. The gain is on someone else's report.",
+        "A strong ROI can still lose if it lands in the wrong place. Show each person in the decision where the return appears for them."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Big claims get discounted.",
+      "body": [
+        "Buyers know sellers want the deal, so they shrink any ROI a seller brings. An inflated claim costs you trust that is hard to win back.",
+        "Use conservative estimates and give a range, not a promise. If the return depends on the customer changing how they work, say so. And don't ignore what a spreadsheet misses: comfort, calm and fewer late-night emergencies matter too."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's home insulation.",
+      "illustrative": true,
+      "body": [
+        "You insulate homes. A job costs $4,800. Based on the homeowner's last year of heating bills, you estimate savings of about $960 a year.",
+        "She says, \"That's a lot of money.\" What do you say?"
+      ],
+      "image": {
+        "label": "A house cutaway with heat escaping through the roof",
+        "aspectRatio": "16:9",
+        "brief": "집 단면도 일러스트. 지붕과 벽으로 빨간 열 화살표가 새어 나가고, 옆에 난방비 고지서 한 장. 따뜻한 색감. 실제 브랜드 로고는 쓰지 않음.",
+        "url": "assets/images/cus-09-05-c8.jpg"
+      },
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Offer 15% off if she signs this week",
+            "verdict": "partial",
+            "feedback": "A discount shortens her payback a little and may close the sale. It also teaches her your price was soft, without showing what she actually gets back."
+          },
+          {
+            "key": "B",
+            "text": "Show the math from her own bills: about 5 years to pay back, then savings each year after, plus a warmer house",
+            "verdict": "best",
+            "feedback": "She can check every number herself, so she trusts it. Five years is a slower answer than she might hope for, but it is one she can believe."
+          },
+          {
+            "key": "C",
+            "text": "Tell her it usually pays for itself within a year",
+            "verdict": "risky",
+            "feedback": "It sounds great today. When her bills don't match, you lose her referral and maybe a review."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Sell the return, in the customer's own numbers.",
+      "body": [
+        "Business customers don't buy your price. They buy what they get back for it. Help them calculate it honestly, with their data.",
+        "**Try it today:** pick one customer. Write down what your product saves or earns them each month, and how long until it covers what they pay."
+      ],
+      "next": "Next · Why trust closes deals that numbers can't"
+    }
+  ]
+}

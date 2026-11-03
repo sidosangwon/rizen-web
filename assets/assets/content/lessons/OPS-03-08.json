@@ -1,0 +1,231 @@
+{
+  "id": "OPS-03-08",
+  "unitId": "OPS-03",
+  "categoryId": "OPS",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "An electronics maker's supply chain",
+  "readerTitle": "The $40 speaker that can't ship without an $0.80 chip",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative",
+    "real_observation"
+  ],
+  "caseNote": "가상 사례 (블루투스 스피커 제조사, 레스토랑 그룹) + 실제 관찰 (2020~2022년 반도체 부족 시기의 중복 주문). 모든 수치는 설명용입니다.",
+  "insight": "재고 전략은 회사 전체에 하나가 아니라 부품마다 정하는 것이고, 주문량은 실제 수요가 아니라 불안의 크기일 수 있다.",
+  "misconception": "린(lean) 회사라면 모든 부품을 적시 생산 방식으로 들여와야 하고, 주문이 늘면 그만큼 수요가 늘어난 것이다.",
+  "relatedLessonIds": [
+    "OPS-03-03",
+    "OPS-03-04"
+  ],
+  "sources": [
+    {
+      "text": "공급망 관리의 표준 개념 (적시 생산 vs 안전 재고, 채찍 효과)",
+      "url": null
+    },
+    {
+      "text": "2020~2022년 반도체 부족 시기의 중복 주문과 이후 재고 과잉에 대한 업계 보도 (일반적 서술로만 사용)",
+      "url": null
+    },
+    {
+      "text": "스피커 제조사와 레스토랑 그룹의 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "계산 확인: 칩 6개월 재고 = 월 10,000개 × 6 = 60,000개 × $0.80 = $48,000. 한 달 판매 중단 시 매출 손실 = 10,000대 × $40 = $400,000. 모두 가상 수치입니다.",
+      "status": "open"
+    },
+    {
+      "note": "채찍 효과 예시: 소매업체 평소 주당 2,000대 → 6,000대 주문(3배), 매장 판매는 10% 증가에 그침. 가상 수치입니다.",
+      "status": "open"
+    },
+    {
+      "note": "2020~2022년 반도체 부족 때 일부 구매자가 실제 필요보다 많이 주문했고, 이후 일부 칩 품목에서 재고 과잉이 나타났다는 서술은 업계 보도에 근거한 일반적 관찰입니다. 특정 기업명이나 수치는 넣지 않았습니다. 게시 전 1차 보도로 다시 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Apply",
+      "title": "The $40 speaker that can't ship without an $0.80 chip",
+      "illustrative": true,
+      "body": [
+        "A small company makes Bluetooth speakers. Each one has about 30 parts. Most are easy to buy from several suppliers.",
+        "One isn't. A tiny wireless chip comes from a single chip maker. Its delivery time just jumped from 8 weeks to over 26. Without it, nothing ships."
+      ],
+      "image": {
+        "label": "A speaker taken apart, one small chip glowing",
+        "aspectRatio": "4:3",
+        "brief": "분해된 블루투스 스피커 부품들이 테이블 위에 펼쳐져 있고, 그중 손톱만 한 칩 하나만 밝게 빛남. 칩 옆에 \"$0.80\", 스피커 옆에 \"$40\" 라벨. 실제 브랜드 로고는 쓰지 않음.",
+        "url": "assets/images/ops-03-08-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "The holiday season is coming.",
+      "illustrative": true,
+      "body": [
+        "You build 10,000 speakers a month. You've always ordered parts monthly, just before you need them. Now the chip takes half a year to arrive.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep ordering monthly. Holding stock is waste",
+            "verdict": "risky",
+            "feedback": "Just in time saves cash only when parts arrive on time. With a 26-week wait, one late delivery stops every sale."
+          },
+          {
+            "key": "B",
+            "text": "Buy six months of the chip. Keep every other part lean",
+            "verdict": "best",
+            "feedback": "This is just in time vs just in case, decided part by part. You pay to buffer the one cheap, scarce part you can't ship without."
+          },
+          {
+            "key": "C",
+            "text": "Buy six months of all 30 parts, to be safe",
+            "verdict": "partial",
+            "feedback": "You'd never run short, but you'd tie up cash in parts you can reorder in days. Just in case pays off only where supply is truly at risk."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "Concept at work",
+      "title": "Just in case, but only where it counts.",
+      "illustrative": true,
+      "body": [
+        "Six months of chips is 60,000 chips at $0.80. That's **$48,000** sitting on a shelf.",
+        "Compare it with one month of stopped production: 10,000 speakers at $40 is $400,000 in lost sales.",
+        "The rule isn't \"lean\" or \"safe\" for the whole company. Buffer parts that are cheap, hard to replace and slow to arrive. Run everything else **just in time**."
+      ],
+      "image": {
+        "label": "Parts sorted into two bins: buffer and just in time",
+        "aspectRatio": "16:9",
+        "brief": "부품을 두 상자로 나눈 그림. 왼쪽 큰 상자 \"Buffer\"에는 칩 하나만 많이, 오른쪽 \"Just in time\" 상자에는 나사, 케이스, 스피커 콘 등 여러 부품이 조금씩. 깔끔한 인포그래픽 스타일.",
+        "url": "assets/images/ops-03-08-c3.jpg"
+      },
+      "softwareNote": "Cloud capacity works the same way. Most servers can be rented on demand, but scarce resources like certain high-end chips may need to be reserved ahead, even if some sits idle."
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "A big retailer suddenly triples its order.",
+      "illustrative": true,
+      "body": [
+        "Your largest retailer usually orders 2,000 speakers a week. This week it wants 6,000. Its own store sales are up only about 10%.",
+        "Its buyers have heard about chip shortages too. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Triple production and order more chips to match",
+            "verdict": "risky",
+            "feedback": "That's the bullwhip effect: you'd treat fear-driven orders as demand. When the panic fades, you're left with chips and speakers no one needs."
+          },
+          {
+            "key": "B",
+            "text": "Look at store sales, raise output a little, and share your supply plans",
+            "verdict": "best",
+            "feedback": "You respond to real demand, not to orders swollen by worry. Telling buyers what you can deliver also calms the urge to over-order."
+          },
+          {
+            "key": "C",
+            "text": "Refuse anything above the usual 2,000",
+            "verdict": "partial",
+            "feedback": "It avoids the overreaction but ignores the real 10% rise. A partner left short may also start ordering from your rivals."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Concept at work",
+      "title": "Orders measure worry as well as demand.",
+      "body": [
+        "The **bullwhip effect** is how small changes in what shoppers buy grow into big swings in orders as you move up the chain.",
+        "Here, store sales rose 10%. The retailer ordered 3 times more. If you then ordered extra chips, the chip maker would see an even bigger jump.",
+        "During the 2020–2022 chip shortage, buyers widely reported ordering more than they needed to get in line. Later, some chips piled up as excess stock."
+      ],
+      "image": {
+        "label": "A whip growing wider from store to chip maker",
+        "aspectRatio": "16:9",
+        "brief": "왼쪽 매장에서 오른쪽 칩 공장까지 이어지는 채찍 모양 곡선. 매장 쪽은 작은 물결 \"+10%\", 소매업체 \"×3\", 공장 쪽은 아주 큰 물결. 단순한 선 그림 스타일.",
+        "url": "assets/images/ops-03-08-c5.jpg"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Buffers can go stale.",
+      "body": [
+        "Electronics change fast. If you redesign the speaker next year with a newer chip, a shelf of old chips may become worthless.",
+        "So size a buffer to the risk window, not to forever. And reading real demand needs real data. Retailers share store sales only when they trust you won't use it against them."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a restaurant group.",
+      "illustrative": true,
+      "body": [
+        "You run five restaurants. News says avocados will be scarce for a few weeks. Each manager doubles their order to be safe.",
+        "Guacamole is one of your best sellers. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Approve all five doubled orders",
+            "verdict": "risky",
+            "feedback": "Five managers padding at once is the bullwhip effect in one company. Avocados spoil, so the extra may end up in the bin."
+          },
+          {
+            "key": "B",
+            "text": "Order centrally from real usage, plus a small buffer for the top dish",
+            "verdict": "best",
+            "feedback": "You use real demand to tame the bullwhip and keep a just-in-case buffer only where a shortage would hurt most."
+          },
+          {
+            "key": "C",
+            "text": "Take guacamole off the menu until prices drop",
+            "verdict": "partial",
+            "feedback": "It removes the risk, but also a best seller. It makes sense only if the shortage is long or prices become extreme."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Buffer the scarce part. Read the real demand.",
+      "body": [
+        "You used two ideas. **Just in time vs just in case:** decide part by part, and buffer only what is scarce and critical. **The bullwhip effect:** check orders against what end customers actually buy.",
+        "**Try it today:** list the three inputs you could least afford to run out of. For each, write how long it takes to arrive and how many weeks of stock you hold."
+      ],
+      "next": "Next · How Zara built a supply chain around speed"
+    }
+  ]
+}

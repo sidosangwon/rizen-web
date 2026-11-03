@@ -1,0 +1,228 @@
+{
+  "id": "PPL-05-01",
+  "unitId": "PPL-05",
+  "categoryId": "PPL",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Psychological safety",
+  "readerTitle": "Why Google's best teams weren't the ones with the best people",
+  "format": "company_story",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "real_company",
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Google Project Aristotle) + 실제 연구 (Edmondson 병원 간호팀 연구) + 가상 적용 (보험사 부서, 배관 수리 업체)",
+  "insight": "팀의 성과는 누가 모였느냐보다, 팀원이 실수와 걱정을 말해도 괜찮다고 믿는지에 더 크게 좌우된다. 문제 보고가 적은 팀이 오히려 위험할 수 있다.",
+  "misconception": "뛰어난 사람을 모으면 좋은 팀이 된다. 실수 보고가 적은 팀이 잘하는 팀이다. 심리적 안전감은 서로 친절하고 기준을 낮추는 것이다.",
+  "relatedLessonIds": [
+    "PPL-05-04",
+    "PPL-05-09"
+  ],
+  "sources": [
+    {
+      "text": "Google re:Work, \"Guide: Understand team effectiveness\" (Project Aristotle, five key dynamics)",
+      "url": "https://rework.withgoogle.com/guides/understanding-team-effectiveness/"
+    },
+    {
+      "text": "Duhigg, C. (2016). What Google Learned From Its Quest to Build the Perfect Team. The New York Times Magazine.",
+      "url": null
+    },
+    {
+      "text": "Edmondson, A. (1999). Psychological Safety and Learning Behavior in Work Teams. Administrative Science Quarterly, 44(2).",
+      "url": null
+    },
+    {
+      "text": "Edmondson, A. (1996). Learning from Mistakes Is Easier Said Than Done. Journal of Applied Behavioral Science, 32(1).",
+      "url": null
+    },
+    {
+      "text": "Edmondson, A. (2018). The Fearless Organization. Wiley. (안전감과 기준의 2×2, 리더 행동)",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Project Aristotle가 연구한 팀 수는 re:Work 자료에 \"180개 이상\"으로 나옵니다. 게시 전 원문을 다시 확인하세요. 카드에는 \"more than 180 teams\"로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "다섯 가지 요인(psychological safety, dependability, structure & clarity, meaning, impact)과 심리적 안전감이 가장 중요했다는 결론은 re:Work 자료 기준입니다. 연구 기간(2012년경 시작)은 카드에 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Edmondson 1996 연구: 관계와 리더십이 좋은 간호팀이 오류를 더 많이 보고했고, 실제로 실수가 많아서가 아니라 보고하려는 의지가 높았기 때문이라고 해석했습니다. 구체적 수치는 카드에 넣지 않았습니다. 정의 문구는 1999년 논문의 \"a shared belief that the team is safe for interpersonal risk taking\"을 쉬운 말로 옮겼습니다.",
+      "status": "open"
+    },
+    {
+      "note": "\"blameless postmortem\"은 소프트웨어 운영에서 널리 쓰이는 관행(예: Google SRE 책)으로 일반적으로만 언급했습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "People · Company story",
+      "title": "Why Google's best teams weren't the ones with the best people",
+      "body": [
+        "Google once set out to answer a simple question: what makes a team great? Its researchers studied more than 180 of its own teams.",
+        "Many expected the answer to be talent. Put the smartest people together, and the work takes care of itself. The data pointed somewhere else."
+      ],
+      "image": {
+        "label": "Puzzle of team members with one missing piece labeled 'speak up'",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 회의 테이블에 둘러앉은 다양한 팀원들. 한 사람이 조심스럽게 손을 들고 있고, 다른 사람들이 그쪽을 향해 고개를 돌림. 실제 회사 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/ppl-05-01-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You're building a team for a big project.",
+      "illustrative": true,
+      "body": [
+        "You head a department at a large insurance company. Next year your new claims team must rebuild how claims get handled. You have budget to invest in one thing first.",
+        "Where do you put it?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Recruit the strongest individual performers you can find",
+            "verdict": "partial",
+            "feedback": "Skill matters, but strong people who stay quiet about problems still miss them. Talent alone doesn't decide how the team works together."
+          },
+          {
+            "key": "B",
+            "text": "Run team-bonding offsites so people get close",
+            "verdict": "risky",
+            "feedback": "Liking each other can help, but friendly teams often avoid uncomfortable truths to keep the peace. Closeness isn't the same as candor."
+          },
+          {
+            "key": "C",
+            "text": "Set up how the team works so everyone raises problems and mistakes early",
+            "verdict": "best",
+            "feedback": "This costs leader time and some awkward meetings. It's also the factor Google found mattered most. Next card shows why."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What Google found",
+      "title": "Who was on the team mattered less than how it worked.",
+      "body": [
+        "Google found that the mix of people, such as seniority, personality or skill sets, did little to predict which teams did best.",
+        "Five ways of working stood out instead: dependability, clear roles and goals, meaningful work, a sense of impact, and one more. That last one mattered most, and the others built on it.",
+        "It was whether people felt safe to take risks in front of each other."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Psychological safety",
+      "body": [
+        "**Psychological safety** is a shared belief in a team that you won't be embarrassed or punished for speaking up, whether with a question, a worry, an idea or a mistake.",
+        "Harvard professor Amy Edmondson defined the term in team research in 1999. Notice it belongs to the *team*, not the person. The same employee can speak freely in one meeting and stay silent in the next."
+      ],
+      "image": {
+        "label": "Two meetings: one with open speech bubbles, one with closed ones",
+        "aspectRatio": "16:9",
+        "brief": "좌우 분할 일러스트. 왼쪽 팀은 말풍선(\"I made a mistake\", \"I'm not sure\")이 테이블 위로 열려 있음. 오른쪽 팀은 같은 사람이 말풍선을 입 앞에서 닫고 있음. 같은 인물이 두 장면에 모두 등장.",
+        "url": "assets/images/ppl-05-01-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The twist",
+      "title": "The better teams seemed to make more mistakes.",
+      "body": [
+        "Edmondson's interest began with a puzzle. In a 1990s study of hospital nursing units, the teams with better relationships and leaders reported *more* medication errors, not fewer.",
+        "Her explanation: they weren't making more mistakes. They were more willing to admit them. On other teams, errors happened and stayed hidden.",
+        "So a team reporting few problems may be a team that has stopped **reporting**."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Leaders build it in small moments.",
+      "body": [
+        "Safety grows from what the leader does each time someone speaks up. Edmondson points to habits like these:"
+      ],
+      "list": [
+        "**Frame work as learning:** say out loud what's uncertain",
+        "**Admit your own mistakes first:** it shows the cost is low",
+        "**Ask real questions:** \"What are we missing?\"",
+        "**Respond well to bad news:** thank the messenger, then fix the problem"
+      ],
+      "callout": "One harsh reaction can undo months of invitations.",
+      "softwareNote": "Many software teams run *blameless postmortems* after an outage. They ask what in the system let the error happen, not who to blame, so engineers report problems early instead of hiding them."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Safe doesn't mean soft.",
+      "body": [
+        "Psychological safety is not being nice, avoiding disagreement or lowering the bar. Edmondson warns that safety with low standards becomes a comfort zone, where people are relaxed but little gets done.",
+        "The goal is safety *and* high standards together. People hold each other to demanding work, and they can say \"I'm stuck\" or \"I think this is wrong\" without fear."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a plumbing company.",
+      "illustrative": true,
+      "body": [
+        "You own a home repair business with eight technicians. A customer calls back with a leak. You learn your apprentice suspected a loose fitting on that job but said nothing.",
+        "What do you change?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Dock pay for unreported problems so people take it seriously",
+            "verdict": "risky",
+            "feedback": "People will take it seriously, by hiding problems better. Punishing silence after the fact makes speaking up feel even riskier."
+          },
+          {
+            "key": "B",
+            "text": "Tell the team at the next meeting: \"Always speak up\"",
+            "verdict": "partial",
+            "feedback": "Clear and cheap, but words alone rarely change behavior. The apprentice needs to see that raising a worry goes well."
+          },
+          {
+            "key": "C",
+            "text": "End each job with a quick check: you share one thing you got wrong, then ask \"What could go wrong here?\"",
+            "verdict": "best",
+            "feedback": "It costs a few minutes per job. In return, worries surface while the van is still in the driveway, not after the callback."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A team only learns what its people are willing to say.",
+      "body": [
+        "Great teams aren't the ones with no problems. They're the ones where problems get said out loud, early, and leaders keep standards high.",
+        "**Try it today:** in your next team meeting, share one mistake you made this week. Then ask, \"What's one thing that worries you about our current work?\" Notice who answers."
+      ],
+      "next": "Next · Why adding people can slow a team down"
+    }
+  ]
+}

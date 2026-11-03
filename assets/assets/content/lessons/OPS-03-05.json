@@ -1,0 +1,250 @@
+{
+  "id": "OPS-03-05",
+  "unitId": "OPS-03",
+  "categoryId": "OPS",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Supplier relationships",
+  "readerTitle": "The cheaper supplier that cost $23,000 more",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "illustrative",
+    "real_research",
+    "real_company"
+  ],
+  "caseNote": "가상 사례 (가전 공장의 브래킷 공급사, 소프트웨어 회사의 문자 발송 업체) + 실제 연구 (Liker & Choi 2004, Toyota·Honda) + 실제 기업 사례 (1997년 Aisin 화재)",
+  "insight": "공급사가 실제로 드는 비용은 견적서의 단가가 아니라 주문 뒤에 벌어지는 일까지 합친 값이고, 공급사를 대하는 방식이 그 뒷부분을 바꾼다.",
+  "misconception": "공급사는 단가로만 고르면 되고, 더 싼 곳이 나타나면 바로 바꾸거나 그 견적으로 기존 업체를 압박하는 것이 이득이다.",
+  "relatedLessonIds": [
+    "OPS-03-03",
+    "OPS-03-06"
+  ],
+  "sources": [
+    {
+      "text": "Liker, J. K. & Choi, T. Y. (2004). Building Deep Supplier Relationships. Harvard Business Review, December 2004.",
+      "url": null
+    },
+    {
+      "text": "Nishiguchi, T. & Beaudet, A. (1998). The Toyota Group and the Aisin Fire. Sloan Management Review, 40(1).",
+      "url": null
+    },
+    {
+      "text": "브래킷 공장과 문자 발송 업체의 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "브래킷 계산(가상 수치): 기존 공급사 $2.00 + 불량 1% × $10 = $0.10 + 납기 지연 비용 $0.02 = $2.12. 새 공급사 $1.80 + 불량 4% × $10 = $0.40 + 납기 지연 비용 $0.15 = $2.35. 차이 $0.23 × 100,000개 = $23,000. 단가 절감 $0.20 × 100,000개 = $20,000.",
+      "status": "open"
+    },
+    {
+      "note": "Liker & Choi(2004)가 미국 공급사들이 자동차 회사 중 Toyota와 Honda를 가장 함께 일하고 싶은 고객으로 꼽았다고 소개한 부분(John Henke의 공급사 관계 조사 인용)을 원문에서 다시 확인하세요. 카드에는 구체적 수치 없이 일반적으로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Aisin 화재: 1997년 2월 Aisin Seiki 가리야 공장 화재, Toyota의 P-밸브(브레이크 비례 밸브) 대부분을 공급하던 곳. 다른 협력사 다수가 생산을 나눠 맡아 Toyota 공장이 며칠 만에 재가동했다는 내용을 Nishiguchi & Beaudet(1998)로 확인하세요. 참여 기업 수는 자료마다 달라 카드에는 \"dozens of\"로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "문자 발송 사례의 30% 저렴, 6주 이전 기간, 1시간 복구는 모두 가상 설정입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Numbers twist",
+      "title": "The cheaper supplier that cost $23,000 more",
+      "illustrative": true,
+      "body": [
+        "A new supplier offers the same steel bracket for 10% less. On paper, that's $20,000 a year back in your pocket.",
+        "A year later, the factory has spent more, not less. Nothing on the quote was wrong. It just left most of the cost out."
+      ],
+      "image": {
+        "label": "Two identical brackets with very different price tags",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 똑같아 보이는 금속 브래킷 두 개가 나란히 놓여 있고, 하나에는 작은 \"$1.80\" 가격표, 다른 하나에는 \"$2.00\" 가격표. $1.80 브래킷 뒤로 그림자가 길고 크게 드리워져 숨은 비용을 암시. 실제 기업 로고 없음.",
+        "url": "assets/images/ops-03-05-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Switch suppliers to save $20,000?",
+      "illustrative": true,
+      "body": [
+        "Your appliance factory buys 100,000 brackets a year from a supplier you've used for six years: $2.00 each, rarely late, about 1 in 100 defective.",
+        "A new supplier quotes $1.80. Its trial batch had 4 in 100 defective, and two of three deliveries came late. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Switch. The defects will improve once they learn the job",
+            "verdict": "risky",
+            "feedback": "You lock in the lower price but pay for every bad part and late truck while they learn, and they may never improve."
+          },
+          {
+            "key": "B",
+            "text": "Show the new quote to your current supplier and demand $1.80",
+            "verdict": "partial",
+            "feedback": "You might win the price cut. But a supplier squeezed on margin often makes it back by cutting corners or serving you last."
+          },
+          {
+            "key": "C",
+            "text": "Stay, and offer your current supplier a longer contract and your forecasts in return for working on costs together",
+            "verdict": "best",
+            "feedback": "You give up a quick win on price, but keep the quality you rely on and give the supplier a reason to invest in lowering your costs."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "What the $1.80 bracket really costs.",
+      "illustrative": true,
+      "body": [
+        "Each defect costs about $10 to catch, scrap and replace. Late trucks mean rush freight and overtime.",
+        "Your current supplier: $2.00 + $0.10 + $0.02 = **$2.12**. The \"cheaper\" one costs $0.23 more per bracket. That's **$23,000 a year**, not $20,000 saved."
+      ],
+      "breakdown": [
+        {
+          "value": "$1.80",
+          "label": "Price",
+          "detail": "What the quote says",
+          "highlight": false
+        },
+        {
+          "value": "+$0.40",
+          "label": "Defects",
+          "detail": "4% of parts × $10 each",
+          "highlight": false
+        },
+        {
+          "value": "+$0.15",
+          "label": "Late deliveries",
+          "detail": "Rush freight and overtime, per bracket",
+          "highlight": false
+        },
+        {
+          "value": "$2.35",
+          "label": "True cost",
+          "detail": "vs $2.12 with your current supplier",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Supplier relationships",
+      "body": [
+        "How you treat a supplier is a choice. At one end is an **arm's-length relationship**: every order is a fresh price fight, and you switch whenever someone is cheaper. At the other end is a **partnership**: longer commitments, shared plans and problems solved together.",
+        "The price is set at the start. Quality, timing and help in a crisis come later, and those depend on the relationship."
+      ],
+      "image": {
+        "label": "A line from 'price fight' to 'partnership'",
+        "aspectRatio": "16:9",
+        "brief": "가로 스펙트럼 인포그래픽. 왼쪽 끝 \"Arm's length\" (줄다리기하는 두 손), 오른쪽 끝 \"Partnership\" (함께 도면을 보는 두 사람). 아래에 왼쪽 \"Switch on price\", 오른쪽 \"Share plans, fix problems together\" 라벨.",
+        "url": "assets/images/ops-03-05-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "Demanding and loyal at the same time.",
+      "body": [
+        "Toyota and Honda push suppliers hard on cost and quality. Yet in a 2004 Harvard Business Review article, researchers Jeffrey Liker and Thomas Choi described how US suppliers rated them among the carmakers they most liked working with. Both learn how suppliers work, share information and help them improve.",
+        "The payoff showed in 1997. A fire destroyed the main plant of Aisin, Toyota's main source of a key brake valve. **Dozens of other suppliers** rushed to make the part, and Toyota's plants were running again within days."
+      ],
+      "image": {
+        "label": "Many small workshops sending parts to one factory",
+        "aspectRatio": "16:9",
+        "brief": "3D 클레이 스타일. 가운데 큰 자동차 공장, 주변의 작은 공장 여러 곳에서 같은 부품 상자를 실은 트럭이 공장으로 모여드는 장면. 한쪽 구석에 연기가 나는 공장 하나. 실제 기업 로고와 차량 브랜드 없음.",
+        "url": "assets/images/ops-03-05-c5.jpg"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where it applies",
+      "title": "Not every supplier needs to be a partner.",
+      "body": [
+        "Partnerships take time and commitment, so save them for suppliers that matter. Ask two questions:"
+      ],
+      "list": [
+        "**How much does this item affect what customers get?** The core part of your product, yes. Paper towels, no.",
+        "**How hard is it to replace?** Standard screws come from anywhere. A custom part with skilled tooling does not."
+      ],
+      "callout": "Buy commodities on price. Build relationships where both answers are \"a lot\"."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Close can become too comfortable.",
+      "body": [
+        "A trusted supplier can grow complacent. Prices drift up, quality slips, and you stop noticing because checking feels like distrust.",
+        "Partners still get measured. Track defects and on-time delivery, and compare quotes now and then, even if you don't plan to switch.",
+        "And leaning on one close supplier creates a single point of failure. The next lesson covers that risk."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software company.",
+      "illustrative": true,
+      "body": [
+        "Your app sends login codes by text message through one provider. You've used it for three years. Last spring its team fixed a delivery outage for you within an hour.",
+        "A rival offers messages 30% cheaper. Moving would take your engineers about six weeks. Your contract renews next month."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Switch. Messages are a commodity and 30% is 30%",
+            "verdict": "risky",
+            "feedback": "You save on each message but pay six weeks of engineering time, and you trade a proven support team for one you haven't tested in an outage."
+          },
+          {
+            "key": "B",
+            "text": "Compare the full cost, then use the rival quote to negotiate a longer contract with your current provider",
+            "verdict": "best",
+            "feedback": "You may win a better rate while keeping the support that protects your users' logins. The rival quote becomes information, not a threat."
+          },
+          {
+            "key": "C",
+            "text": "Stay on a month-to-month plan so you can leave anytime",
+            "verdict": "partial",
+            "feedback": "You keep flexibility, but give the provider little reason to give you better pricing or priority when something breaks."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A supplier costs the price plus everything after the order.",
+      "body": [
+        "The relationship you build decides much of that second part: quality, timing and who helps when things go wrong.",
+        "**Try it today:** pick your most important supplier. Add up last quarter's costs beyond the invoice: defects, late deliveries and time spent chasing them."
+      ],
+      "next": "Next · Why the most efficient supply chain breaks first"
+    }
+  ]
+}

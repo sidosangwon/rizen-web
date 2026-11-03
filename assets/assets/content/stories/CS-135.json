@@ -1,0 +1,275 @@
+{
+  "id": "CS-135",
+  "slug": "maersk-and-notpetya",
+  "title": "Maersk and NotPetya",
+  "company": "Maersk",
+  "period": "2017",
+  "country": "Denmark",
+  "industry": "Shipping",
+  "outcome": "comeback",
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 3.3,
+  "linkedLessonIds": [
+    "OPS-07-04",
+    "OPS-07-05",
+    "OPS-07-06"
+  ],
+  "slides": [
+    {
+      "index": 1,
+      "type": "cover",
+      "head": [
+        "One infected computer.",
+        "A shipping giant went dark."
+      ],
+      "sub": "How Maersk kept cargo moving after NotPetya in 2017.",
+      "image": {
+        "label": "A dark office with rows of black computer screens",
+        "brief": "불 꺼진 사무실, 줄지어 선 모니터가 모두 검은 화면. 창밖으로 항구 크레인 실루엣. 차갑고 긴장감 있는 영화 톤. 로고 없음.",
+        "url": "assets/images/stories/cs-135-01.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "scene",
+      "head": [
+        "June 27, 2017.",
+        "The screens turned black."
+      ],
+      "body": [
+        "In Maersk offices around the world, computers restarted and showed a message demanding payment in bitcoin. Within hours, staff were told to unplug everything they could.",
+        "Email, booking systems and phones tied to the network stopped working."
+      ],
+      "image": {
+        "label": "Office workers pulling cables from computers",
+        "brief": "2017년 유럽 사무실, 직원들이 급히 컴퓨터 전선을 뽑는 장면. 인물은 뒷모습이나 실루엣. 실제 회사 로고 없음.",
+        "url": "assets/images/stories/cs-135-02.jpg"
+      }
+    },
+    {
+      "index": 3,
+      "type": "scene",
+      "head": [
+        "Maersk wasn't the target.",
+        "It was in the way."
+      ],
+      "body": [
+        "The malware, later called NotPetya, spread through an update to tax software widely used in Ukraine. It reportedly entered Maersk through one computer in its Ukrainian office.",
+        "It looked like ransomware. In fact, it destroyed data, and paying could not bring files back."
+      ],
+      "image": {
+        "label": "A single laptop glowing in an empty room",
+        "brief": "빈 사무실 책상 위에서 홀로 빛나는 노트북 한 대. 화면에서 붉은 선이 네트워크처럼 퍼져 나가는 그래픽.",
+        "url": "assets/images/stories/cs-135-03.jpg"
+      }
+    },
+    {
+      "index": 4,
+      "type": "stat",
+      "big": "About 1/5",
+      "label": "of the world's container shipping capacity, run by Maersk at the time",
+      "body": [
+        "Maersk was the largest container shipping company in the world, with its own port terminals on several continents. When its systems went down, the shock reached far beyond one company."
+      ],
+      "image": {
+        "label": "A huge container ship at sea from above",
+        "brief": "하늘에서 내려다본 거대한 컨테이너선. 컨테이너는 무지 색상, 회사 로고나 선명한 상호 없음.",
+        "url": "assets/images/stories/cs-135-04.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "scene",
+      "head": [
+        "Trucks lined up.",
+        "The gates stayed shut."
+      ],
+      "body": [
+        "At terminals, gates couldn't check in containers. Truck drivers waited in long queues. Ships sat at the dock while staff tried to work out what was on board.",
+        "Every hour of delay pushed the problem further down the supply chain."
+      ],
+      "image": {
+        "label": "A long line of trucks waiting at a port gate",
+        "brief": "항구 게이트 앞에 길게 늘어선 컨테이너 트럭 행렬. 흐린 하늘, 멈춰 선 크레인.",
+        "url": "assets/images/stories/cs-135-05.jpg"
+      }
+    },
+    {
+      "index": 6,
+      "type": "decision",
+      "eyebrow": "Your call",
+      "head": [
+        "Your network is wiped.",
+        "What do you do?"
+      ],
+      "body": [
+        "Customers need their cargo. The attackers want money. Your systems can't be trusted."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Pay the ransom and hope the files come back",
+            "feedback": "Fast if it works. But you'd be trusting attackers who may not be able to unlock anything. Keep swiping."
+          },
+          {
+            "key": "B",
+            "text": "Rebuild the whole network from scratch while staff keep shipping by hand",
+            "feedback": "Slow and expensive, with huge pressure on people. Keep swiping."
+          },
+          {
+            "key": "C",
+            "text": "Bring back the least damaged systems one by one and carry on",
+            "feedback": "It restores some work quickly. The risk is reinfecting the network from a hidden copy. Keep swiping."
+          }
+        ]
+      },
+      "image": {
+        "label": "A war room table covered in papers and phones",
+        "brief": "서류와 휴대전화가 흩어진 위기 대응 회의실 탁자. 사람은 손과 어깨만 보이게.",
+        "url": "assets/images/stories/cs-135-06.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "scene",
+      "head": [
+        "Maersk chose to rebuild.",
+        "People ran it by hand."
+      ],
+      "body": [
+        "While IT teams rebuilt, staff kept freight moving with personal phones, messaging apps, paper lists and spreadsheets.",
+        "According to chairman Jim Hagemann Snabe, volumes fell only about 20% during the outage."
+      ],
+      "image": {
+        "label": "A port worker writing on a clipboard beside containers",
+        "brief": "컨테이너 옆에서 클립보드에 손으로 기록하는 항만 노동자. 얼굴은 보이지 않게. 휴대전화를 든 손.",
+        "url": "assets/images/stories/cs-135-07.jpg"
+      }
+    },
+    {
+      "index": 8,
+      "type": "scene",
+      "head": [
+        "The key backup survived",
+        "because of a power cut."
+      ],
+      "body": [
+        "The rebuild needed a clean copy of the company's master user records. Almost every copy was wiped.",
+        "Reportedly, one server in Ghana had been offline during a local power outage. It was flown to the recovery team in England."
+      ],
+      "image": {
+        "label": "A lone server in a dim room lit by a window",
+        "brief": "정전으로 어두운 서아프리카 사무실, 창빛만 받는 서버 한 대. 따뜻한 오후 빛.",
+        "url": "assets/images/stories/cs-135-08.jpg"
+      }
+    },
+    {
+      "index": 9,
+      "type": "stat",
+      "big": "45,000",
+      "label": "PCs reinstalled, plus 4,000 servers, in about ten days",
+      "body": [
+        "That was the chairman's account at Davos in 2018. Maersk estimated the attack cost it $250 to $300 million, and it spoke about the damage openly."
+      ],
+      "image": {
+        "label": "Stacks of laptops being set up on long tables",
+        "brief": "긴 테이블 위에 줄지어 설치되는 수많은 노트북과 케이블. 밤새 일하는 복구 현장 분위기.",
+        "url": "assets/images/stories/cs-135-09.jpg"
+      }
+    },
+    {
+      "index": 10,
+      "type": "concept",
+      "eyebrow": "Why it worked",
+      "head": [
+        "Systems failed together.",
+        "People did not."
+      ],
+      "body": [
+        "One connected network meant one infection could reach everything. Only a lucky offline copy saved the rebuild.",
+        "What kept Maersk alive was a crisis plan built on the spot: rebuild clean, keep serving customers by hand, and tell the truth about the damage."
+      ],
+      "image": {
+        "label": "A network map with one node still lit",
+        "brief": "대부분 꺼진 네트워크 지도에서 점 하나만 빛나는 그래픽.",
+        "url": "assets/images/stories/cs-135-10.jpg"
+      }
+    },
+    {
+      "index": 11,
+      "type": "takeaway",
+      "head": [
+        "Ask what fails at once,",
+        "and how you'd work without it."
+      ],
+      "body": [
+        "Efficiency links everything together. Resilience means knowing how the business runs when those links break.",
+        "**Try it today:** list the one system your team can't work without. Write down how you'd serve customers for a week if it disappeared."
+      ],
+      "image": {
+        "label": "A paper notebook beside a dark laptop",
+        "brief": "꺼진 노트북 옆에 펼쳐진 종이 노트와 펜. 차분한 아침 빛.",
+        "url": "assets/images/stories/cs-135-11.jpg"
+      }
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "NotPetya 확산일(2017년 6월 27일)과 우크라이나 회계 소프트웨어 M.E.Doc 업데이트를 통한 유포는 당시 보안업체 분석과 주요 언론 보도로 확인하세요. 몸값 화면을 띄웠지만 실제로는 데이터를 복구할 수 없게 만드는 파괴형 악성코드였다는 점도 함께 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Maersk 감염 경로가 우크라이나 오데사 사무실의 컴퓨터 한 대였다는 내용은 Wired(Andy Greenberg, 2018) 보도 기준입니다. 카드에는 \"reportedly\"로 표시했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "\"세계 컨테이너 운송 능력의 약 5분의 1\"은 Wired 2018 보도 등에 나오는 표현입니다. 당시 Alphaliner 등 업계 점유율 자료(Maersk Line 약 16~19%)로 확인하고, 필요하면 \"about a sixth\" 등으로 조정하세요. → [2026-11-02 확인] '세계 컨테이너 운송 능력의 약 5분의 1'은 이번 검색에서 미확인.",
+      "status": "open"
+    },
+    {
+      "note": "서버 4,000대, PC 45,000대, 애플리케이션 2,500개를 약 10일 만에 재설치했다는 수치와 물동량이 약 20%만 줄었다는 내용은 Jim Hagemann Snabe 회장의 2018년 1월 다보스 세계경제포럼 발언 기준입니다. 카드에 회장 발언으로 표시했습니다. → [2026-11-02 확인] Snabe 다보스 발언: 서버 4,000대, PC 45,000대, 앱 2,500개를 10일 만에 재설치, 물동량 약 20%만 감소 확인.",
+      "status": "verified"
+    },
+    {
+      "note": "피해 추정액 2억 5천만~3억 달러는 Maersk의 2017년 2분기 중간보고서(2017년 8월) 기준입니다. 회사 추정으로 표시했습니다. → [2026-11-02 확인] 피해 추정 2억 5천만~3억 달러 확인.",
+      "status": "verified"
+    },
+    {
+      "note": "정전으로 오프라인 상태였던 가나 사무실의 도메인 컨트롤러 한 대가 살아남아 영국 복구 거점으로 옮겨졌다는 이야기는 Wired 2018 보도 기준입니다. 카드에는 \"reportedly\"로 적고 운송 경로 세부는 넣지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "미국·영국 정부가 2018년 2월 NotPetya를 러시아 군에 의한 것으로 공식 지목한 내용은 백악관·영국 외무부 성명으로 확인하세요. 개인의 동기는 추측하지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "sources": [
+    {
+      "text": "A.P. Moller-Maersk, Interim Report Q2 2017 (August 2017)",
+      "url": null
+    },
+    {
+      "text": "Greenberg, A. (2018). The Untold Story of NotPetya, the Most Devastating Cyberattack in History. Wired.",
+      "url": null
+    },
+    {
+      "text": "Jim Hagemann Snabe remarks at the World Economic Forum, Davos (January 2018), as reported by major news outlets",
+      "url": null
+    },
+    {
+      "text": "White House and UK Foreign Office statements attributing NotPetya (February 2018)",
+      "url": null
+    },
+    {
+      "text": "iTnews: Maersk had to reinstall all IT systems after NotPetya (2018)",
+      "url": "https://www.itnews.com.au/news/maersk-had-to-reinstall-all-it-systems-after-notpetya-infection-481815?edate=20180125&eid=3"
+    },
+    {
+      "text": "SecurityWeek: Maersk reinstalled 50,000 computers after NotPetya (2018)",
+      "url": "https://www.securityweek.com/maersk-reinstalled-50000-computers-after-notpetya-attack"
+    }
+  ],
+  "coverImage": "assets/images/stories/cs-135-01.jpg"
+}

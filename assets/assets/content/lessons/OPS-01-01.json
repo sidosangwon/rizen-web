@@ -1,0 +1,214 @@
+{
+  "id": "OPS-01-01",
+  "unitId": "OPS-01",
+  "categoryId": "OPS",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Processes",
+  "readerTitle": "The wrong shoes came in the right box",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (물류 창고 오배송, 클리닉용 소프트웨어 환불 요청) + 실제 사상가 인용 (W. Edwards Deming의 시스템 관점, 일반적 서술)",
+  "insight": "사업의 모든 결과는 누군가 설계했든 저절로 생겼든 어떤 프로세스에서 나온다. 같은 실수가 반복되면 사람보다 단계와 인계 지점을 먼저 본다.",
+  "misconception": "실수가 생기면 실수한 사람을 찾아 주의를 주면 해결된다. 프로세스는 큰 회사에만 필요한 서류 작업이다.",
+  "relatedLessonIds": [
+    "OPS-01-02",
+    "OPS-01-04"
+  ],
+  "sources": [
+    {
+      "text": "Deming, W. E. (1986). Out of the Crisis. MIT Press. (문제의 대부분은 사람이 아니라 시스템에서 나온다는 관점)",
+      "url": null
+    },
+    {
+      "text": "창고와 소프트웨어 회사 사례는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Deming의 주장은 특정 비율(예: 94%) 없이 '대부분의 문제는 사람이 아니라 시스템에서 나온다'는 일반적 표현으로만 썼습니다. 게시 전에 Out of the Crisis 원문 표현과 맞는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "'주문 50건 중 1건 오배송', '오후 한나절 동안 주문 5건 추적', '2주 대기' 등은 모두 설명용 가상 수치입니다. 실제 업계 오배송률로 읽히지 않도록 illustrative 라벨을 유지합니다.",
+      "status": "open"
+    },
+    {
+      "note": "병목(OPS-01-02), 표준화(OPS-01-04)와 겹치지 않도록 이 레슨은 프로세스의 구성 요소(입력·단계·인계·출력)와 '사람보다 프로세스를 먼저 본다'는 관점에만 집중했습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Everyday scene",
+      "title": "The wrong shoes came in the right box",
+      "body": [
+        "You ordered blue running shoes, size 9. The box arrives on time, neatly packed. Inside: size 9, in red.",
+        "It's easy to picture one careless packer. But the same mistake might be happening dozens of times a week, to different packers on different shifts."
+      ],
+      "image": {
+        "label": "An opened shoe box with red shoes and a packing slip that says blue",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 택배 상자가 열려 있고 안에 빨간 운동화. 옆의 포장 명세서에는 파란 운동화 아이콘과 'Blue, size 9'. 실제 브랜드 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/ops-01-01-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Your warehouse keeps shipping wrong items.",
+      "illustrative": true,
+      "body": [
+        "You run a small warehouse that packs and ships orders for online shops. About 1 in 50 orders goes out with the wrong item.",
+        "Different packers, different shifts, the same kind of mistake. What do you do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Remind the team to be careful and track errors by person",
+            "verdict": "risky",
+            "feedback": "It feels like action and may help for a week. But if different people make the same mistake, the cause is something they all share, and blame teaches people to hide errors."
+          },
+          {
+            "key": "B",
+            "text": "Add a final check before every box is sealed",
+            "verdict": "partial",
+            "feedback": "It catches some mistakes, but adds work to every order and leaves the cause in place. The checker can miss what the packers missed."
+          },
+          {
+            "key": "C",
+            "text": "Follow a few orders from screen to shelf to box, step by step",
+            "verdict": "best",
+            "feedback": "Slower to start, but it shows where the mistake gets made. Then you can fix it once, for everyone."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "Nobody was careless. The steps made the mistake easy.",
+      "illustrative": true,
+      "body": [
+        "Following five orders took one afternoon. The pick list showed product codes, not colors. The blue and red versions of the same shoe had codes one digit apart, and they sat on neighboring shelves.",
+        "So every packer, on every shift, faced the same trap. Adding the color to the pick list and moving the two shoes apart removed it. No speech about being careful could have done that."
+      ],
+      "image": {
+        "label": "Two nearly identical shelf labels side by side, one blue box and one red box",
+        "aspectRatio": "16:9",
+        "brief": "창고 선반 클로즈업. 나란히 붙은 두 칸에 'SH-4471', 'SH-4417'처럼 한 자리만 다른 라벨. 한 칸엔 파란 신발 상자, 옆 칸엔 빨간 신발 상자. 실제 로고 없음.",
+        "url": "assets/images/ops-01-01-c3.jpg"
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Processes",
+      "body": [
+        "A **process** is the series of steps that turns an input into an output, the same way each time. An order becomes a packed box. A raw part becomes a finished one. A complaint becomes a refund.",
+        "Every result your business produces comes out of a process, whether someone designed it or it just grew over time. And a process keeps giving the results it is built to give."
+      ],
+      "image": {
+        "label": "Diagram: input, steps and handoffs, output",
+        "aspectRatio": "16:9",
+        "brief": "왼쪽에서 오른쪽으로 흐르는 인포그래픽. 'Input'(주문서 아이콘) → 세 개의 'Step' 블록 → 'Output'(포장된 상자). 블록 사이 화살표 위에 사람 손이 물건을 넘기는 작은 'Handoff' 아이콘.",
+        "url": "assets/images/ops-01-01-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How to see one",
+      "title": "Name the four parts.",
+      "body": [
+        "Any process, in any business, can be described with four things:"
+      ],
+      "list": [
+        "**Input:** what comes in, such as an order, a part or a request",
+        "**Steps:** what gets done to it, in order",
+        "**Handoffs:** where it moves from one person, team or tool to the next",
+        "**Output:** what comes out, and what a good one looks like"
+      ],
+      "callout": "Mistakes and delays often hide at handoffs, where the work belongs to no one for a moment."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Why it matters",
+      "title": "Ask about the steps before the person.",
+      "body": [
+        "The quality pioneer W. Edwards Deming argued that most problems in a business come from the system people work in, not from the people themselves. Put a new person into the same process and you often get the same result.",
+        "That changes the first question. Instead of \"Who did this?\", ask \"What in the steps made this easy to do?\" You already know the idea from home: keeping your keys in one bowl by the door is a process fix for losing them."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The process on paper isn't always the process.",
+      "body": [
+        "A manual may say one thing while people do another, because the written steps were slow or out of date. Map what actually happens, by watching real work, not what is supposed to happen.",
+        "And not every task needs a fixed set of steps. Rare work, or work that needs judgment, may need a clear goal and a capable person more than a ten-step procedure."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software company.",
+      "illustrative": true,
+      "body": [
+        "You sell booking software to small clinics. Customers say refund requests vanish. Some wait two weeks for a reply.",
+        "Support says they forward every request to finance. Finance says they rarely receive any. What do you do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Tell support to reply faster and set a 48-hour target",
+            "verdict": "risky",
+            "feedback": "It shows customers you care, but support says it already does its part. If requests are lost after support, the target pressures the wrong team."
+          },
+          {
+            "key": "B",
+            "text": "Trace a few refund requests from the customer's email to the money being sent",
+            "verdict": "best",
+            "feedback": "You'll likely find the handoff where requests drop, perhaps a shared inbox nobody watches. Fix that one link and every future request benefits."
+          },
+          {
+            "key": "C",
+            "text": "Have finance handle refunds directly and remove support from the loop",
+            "verdict": "partial",
+            "feedback": "Cutting a handoff can help, but you'd be redesigning before you know where things break. Finance may not be set up to talk to customers."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "When results go wrong, look at the steps before the people.",
+      "body": [
+        "Every outcome comes from a process. See its input, steps, handoffs and output, and you can fix a problem once instead of chasing it every week.",
+        "**Try it today:** pick one thing that goes wrong more than once a month. Follow one real example from start to finish and write down every step and every handoff."
+      ],
+      "next": "Next · Why one slow step sets the pace for everything"
+    }
+  ]
+}

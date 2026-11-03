@@ -1,0 +1,225 @@
+{
+  "id": "PPL-04-09",
+  "unitId": "PPL-04",
+  "categoryId": "PPL",
+  "order": 9,
+  "type": "case",
+  "conceptTag": "Lincoln Electric's piece-rate pay",
+  "readerTitle": "Lincoln Electric's famous pay system worked at home. Why did it fail abroad?",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.4,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Lincoln Electric, 미국 성과급 제도와 1980년대 말~1990년대 초 해외 확장) + 가상 적용 (만두 식당)",
+  "insight": "성과급은 혼자 움직이는 레버가 아니다. 약점을 막아 주는 장치들과 신뢰가 함께 있을 때만 작동하는 시스템이다.",
+  "misconception": "잘 작동하는 성과급 제도는 다른 공장, 다른 나라, 다른 팀에 그대로 옮겨 심으면 같은 효과를 낸다.",
+  "relatedLessonIds": [
+    "PPL-04-05",
+    "PPL-04-06"
+  ],
+  "sources": [
+    {
+      "text": "Hastings, D. F. (1999). Lincoln Electric's Harsh Lessons from International Expansion. Harvard Business Review, May–June 1999. (해외 확장, 손실, 미국 보너스 지급을 위한 차입)",
+      "url": null
+    },
+    {
+      "text": "Fast, N. & Berg, N. (1975). The Lincoln Electric Company. Harvard Business School case. (성과급, 불량품 재작업, 성과 평가 보너스, 고용 보장, 단가 운영 방식)",
+      "url": null
+    },
+    {
+      "text": "Bartlett, C. & O'Connell, J. (1998). Lincoln Electric: Venturing Abroad. Harvard Business School case.",
+      "url": null
+    },
+    {
+      "text": "Lincoln Electric, company history materials (incentive management system, guaranteed employment policy)",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "해외 확장 시기(1980년대 말~1990년대 초)와 인수 지역(유럽, 중남미 등)을 Hastings(1999)와 Bartlett & O'Connell(1998)로 다시 확인하세요. 카드에는 구체적 국가명과 공장 수를 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "1990년대 초 회사 손실과 미국 직원 보너스를 지급하기 위해 돈을 빌렸다는 내용은 Hastings(1999)에 근거합니다. 정확한 연도(1992~1993년으로 알려짐)와 금액은 카드에 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "불량품을 작업자가 자기 시간에 고친다는 규칙, 품질·아이디어·협력이 포함된 성과 평가 보너스, 장기 근속자 고용 보장 정책은 Fast & Berg(1975) 케이스와 회사 자료로 확인하세요. 고용 보장의 근속 기준 연수는 카드에 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "단가는 작업 방식이 바뀔 때만 조정하고 직원이 많이 번다는 이유로 깎지 않았다는 내용은 Fast & Berg(1975) 케이스로 확인이 필요합니다. 확인되지 않으면 5번 카드의 해당 항목을 삭제하세요.",
+      "status": "open"
+    },
+    {
+      "note": "해외 공장 일부가 폐쇄되거나 축소되었다는 내용은 Hastings(1999)로 확인하세요. 현지 노동 규정과 관행이 걸림돌이었다는 설명은 정성적으로만 적었습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "People · Counterexample",
+      "title": "Lincoln Electric's famous pay system worked at home. Why did it fail abroad?",
+      "body": [
+        "For decades, Lincoln Electric, a welding-equipment maker in Cleveland, Ohio, paid factory workers for each good piece they made, not for their hours. Business schools taught it as a model of incentive pay.",
+        "Then the company bought factories overseas and tried to do the same thing there. It went badly enough that the CEO later wrote about it under the title \"harsh lessons.\""
+      ],
+      "image": {
+        "label": "A worker's bench stacked with finished welding parts, each tagged",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 공장 작업대 위에 완성된 용접 부품이 쌓여 있고 부품마다 작은 체크 태그가 붙어 있음. 배경에 세계 지도 실루엣이 희미하게 보임. 실제 회사 로고와 상표는 쓰지 않음.",
+        "url": "assets/images/ppl-04-09-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Your pay system made you famous. Do you export it?",
+      "body": [
+        "It's the late 1980s. Lincoln has bought factories in Europe and Latin America. At home, its piece-rate pay and annual bonus get much of the credit for high output.",
+        "The new plants have their own workers, labor laws and pay habits. What do you do with them?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Install the full Lincoln system quickly. It works, so use it everywhere",
+            "verdict": "risky",
+            "feedback": "You get one way of working across the company. But this assumes that whatever made the system work at home came with the factories."
+          },
+          {
+            "key": "B",
+            "text": "Keep local pay at first, and add pieces only where conditions fit",
+            "verdict": "best",
+            "feedback": "It's slower and messier. But before you tie pay to output, you learn whether workers trust the rules and whether local laws allow them."
+          },
+          {
+            "key": "C",
+            "text": "Leave the new plants alone and run them as local businesses",
+            "verdict": "partial",
+            "feedback": "This avoids a culture clash. It also gives up the chance to share what works, and some parts of the system might travel well."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "The system didn't make the trip.",
+      "body": [
+        "Lincoln's leaders later wrote that they had assumed the system would transfer. In several countries, it didn't. Paying per piece ran into local labor rules and into workers who had never worked under the system. Many of the new plants lost money.",
+        "The company reported losses in the early 1990s. It borrowed money to keep paying bonuses to its US workers, whose plants were still productive. Several overseas plants were later closed or scaled back."
+      ],
+      "image": {
+        "label": "One thriving factory beside several struggling ones on a map",
+        "aspectRatio": "16:9",
+        "brief": "평면 인포그래픽. 지도 위 공장 아이콘들. 한 곳(미국)은 밝고 연기가 활발히 나며, 다른 대륙의 공장 여러 곳은 흐리고 일부에 'closed' 표지판. 실제 로고는 쓰지 않음.",
+        "url": "assets/images/ppl-04-09-c3.jpg"
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "A piece rate is part of a system.",
+      "body": [
+        "**Piece-rate pay** means paying for each unit of good work instead of for time. It ties pay directly to output, so effort shows up in the paycheck right away.",
+        "Lincoln's lesson is that a piece rate can't do the job alone. On its own, it rewards speed over quality, solo work over teamwork, and fast work today even if it means fewer jobs tomorrow. It works only inside a **system** that blocks those weak spots."
+      ],
+      "softwareNote": "Paying support agents per ticket closed is a piece rate. Without a quality check, such as reopened tickets or customer ratings, you pay for fast closes, not solved problems."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "At home, every piece covered a weak spot.",
+      "body": [
+        "Lincoln's US plants surrounded the piece rate with supports built up over many years:"
+      ],
+      "list": [
+        "**Fix your own defects:** bad parts were reworked on the worker's own time, so rushing didn't pay",
+        "**Merit bonus:** a yearly bonus from profits, split by ratings that counted quality, ideas and cooperation, so helping others paid too",
+        "**Job guarantee:** long-serving workers were protected from layoffs, so fast work didn't mean working yourself out of a job",
+        "**Stable rates:** rates changed when methods changed, not because workers earned a lot"
+      ],
+      "callout": "Take away one support, and paying per piece starts rewarding the wrong things.",
+      "softwareNote": "The same logic applies to sales commissions. If you reward only new deals, you need something like clawbacks or a retention bonus, or you end up paying for customers who leave in a month."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Why it didn't travel",
+      "title": "You can buy a factory. You can't buy trust.",
+      "body": [
+        "Lincoln's US workers trusted that the company wouldn't cut their rates once they got fast, and that the guarantee would hold in a slump. That trust came from decades of the company keeping its word.",
+        "The new plants came with machines and staff, but not with that history. Without the trust, the guarantee or local acceptance of variable pay, a piece rate looked like a risk to workers, not a reward."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Piece rates fit a narrow kind of work.",
+      "body": [
+        "They work best when output belongs to one person, is easy to count, and can be checked for quality. When work is shared, or when quality is hard to see, paying per unit invites shortcuts and gaming.",
+        "There's also a quiet trap. If you lower the rate every time people earn well, they learn to slow down. One cut can undo years of effort."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a dumpling restaurant.",
+      "illustrative": true,
+      "body": [
+        "Your kitchen folds dumplings by hand, and on busy nights it can't keep up. You're thinking of paying cooks a bonus for each dumpling they fold. Cooks also share prep, cleaning and helping each other at the pass.",
+        "How would you set it up?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Pay per dumpling folded, starting this week",
+            "verdict": "risky",
+            "feedback": "Output will likely rise fast. But sloppy folds, skipped cleaning and cooks guarding their own station are all paid for by the same rule."
+          },
+          {
+            "key": "B",
+            "text": "Keep base pay, pay per dumpling that passes a quality check, promise not to cut the rate, and add a team share for shared work",
+            "verdict": "best",
+            "feedback": "This takes more setup. It rewards speed while blocking each weak spot, the way Lincoln did at home."
+          },
+          {
+            "key": "C",
+            "text": "Skip it. Paying per piece always backfires",
+            "verdict": "partial",
+            "feedback": "You avoid the risks. But folding is countable, individual and easy to check, which is exactly where a well-built piece rate can work."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Incentive pay is a system, not a lever.",
+      "body": [
+        "A piece rate works only when other supports cover its weak spots and people trust the rules. Copy just the pay, and you copy just the risks.",
+        "**Try it today:** pick one incentive you pay or plan to pay. List what it might push people to do badly. Then write down what in your system stops that."
+      ],
+      "next": "Next · Design a team bonus"
+    }
+  ]
+}

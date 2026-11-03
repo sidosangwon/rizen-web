@@ -1,0 +1,252 @@
+{
+  "id": "CUS-01-10",
+  "unitId": "CUS-01",
+  "categoryId": "CUS",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Interview a customer without leading them",
+  "readerTitle": "How to hear the truth from a customer who wants to be nice",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.2,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 시뮬레이션 (B2B 사무실 청소 회사 대표가 대기업 안 총무·시설팀 책임자를 인터뷰) + 실제 연구 (Loftus & Palmer, 1974 유도 질문 연구)",
+  "insight": "고객 인터뷰의 목적은 내 아이디어에 대한 의견을 듣는 것이 아니라, 고객이 실제로 겪은 일과 이미 한 행동을 듣는 것이다. 아이디어는 맨 마지막에 꺼내고, 칭찬이 아니라 작은 약속으로 확인한다.",
+  "misconception": "고객에게 '이런 서비스가 있으면 쓰시겠어요?'라고 직접 물어보면 수요를 확인할 수 있다. 고객이 '꼭 쓸게요'라고 하면 검증된 것이다.",
+  "relatedLessonIds": [
+    "CUS-01-06",
+    "CUS-01-04"
+  ],
+  "sources": [
+    {
+      "text": "Loftus, E. F., & Palmer, J. C. (1974). Reconstruction of automobile destruction: An example of the interaction between language and memory. Journal of Verbal Learning and Verbal Behavior, 13(5), 585–589.",
+      "url": null
+    },
+    {
+      "text": "인터뷰 원칙 배경 참고: Fitzpatrick, R. (2013). The Mom Test. (카드 본문에는 책 이름을 쓰지 않고 원리만 다룸)",
+      "url": null
+    },
+    {
+      "text": "청소 회사, 보험사 총무팀, 인물과 대화는 모두 설명용 가상 사례",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Loftus & Palmer(1974) 실험 1: 'smashed'로 물은 집단의 평균 속도 추정이 약 40.5mph, 'hit'은 약 34.0mph로 보고됨. 카드에는 구체 수치 없이 '더 높은 속도를 추정했다'로만 적었습니다. 게시 전 원문으로 동사와 방향을 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "시뮬레이션의 모든 인물(Dana, Sam), 회사 규모(300명), 빈도(주 2회)는 가상입니다. 실제 통계처럼 읽히지 않도록 모든 시나리오 카드에 illustrative 표시를 했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "테이크어웨이에서 각 결정을 유닛 개념(CUS-01-06, CUS-01-04, CUS-01-02, CUS-01-05)에 연결했습니다. 형제 레슨의 정의와 표현이 어긋나지 않는지 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Simulation",
+      "title": "Thirty minutes with a client who wants to be nice",
+      "illustrative": true,
+      "body": [
+        "Dana runs an office cleaning company. Her crews clean 30 offices every night. She has an idea: a daytime cleaner who keeps kitchens and meeting rooms tidy during work hours.",
+        "Before hiring anyone, she books 30 minutes with Sam. He runs the workplace team at a 300-person insurance firm, one of her biggest clients. He likes Dana. That's the problem. Four questions decide whether she hears the truth."
+      ],
+      "image": {
+        "label": "Two people talking over coffee in an office kitchen with a sink full of mugs",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 사무실 탕비실에서 청소 회사 대표(여성)와 고객사 총무 담당자(남성)가 커피를 들고 마주 앉아 대화. 뒤쪽 싱크대에 머그컵이 가득 쌓여 있음. 따뜻하고 친근한 분위기. 실제 회사 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/cus-01-10-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Step 1 of 4",
+      "title": "Your opening question.",
+      "illustrative": true,
+      "body": [
+        "Sam is friendly and short on time. How does Dana open?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "\"Would you pay for a daytime cleaner?\"",
+            "verdict": "risky",
+            "feedback": "Sam will likely say \"maybe\" to be polite. Dana gets a guess about the future, framed around her idea, before she knows if there's a problem."
+          },
+          {
+            "key": "B",
+            "text": "\"Tell me about the last time something went wrong in the office between our visits.\"",
+            "verdict": "best",
+            "feedback": "Dana gets a real event with details. Sam talks about his week, not her idea."
+          },
+          {
+            "key": "C",
+            "text": "\"How do you feel about our cleaning overall?\"",
+            "verdict": "partial",
+            "feedback": "Safe and warm, but it invites a compliment. A happy client rarely criticizes you to your face."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Step 2 of 4",
+      "title": "\"It's mostly fine.\"",
+      "illustrative": true,
+      "body": [
+        "Say you chose B. Sam says: \"Honestly, it's mostly fine. The kitchen gets a bit messy by afternoon.\"",
+        "What does Dana say next?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "\"So a daytime kitchen cleaner would help, right?\"",
+            "verdict": "risky",
+            "feedback": "This hands Sam the answer. Agreeing is easier than explaining, so Dana hears her own idea echoed back."
+          },
+          {
+            "key": "B",
+            "text": "\"When did that last happen? What did you do?\"",
+            "verdict": "best",
+            "feedback": "\"A bit messy\" is vague. A specific moment shows whether it's a small annoyance or a real headache."
+          },
+          {
+            "key": "C",
+            "text": "\"Got it. Let's move on to meeting rooms.\"",
+            "verdict": "partial",
+            "feedback": "Dana covers more ground, but she'll never know how much the kitchen actually matters."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Step 3 of 4",
+      "title": "The mugs before the meeting.",
+      "illustrative": true,
+      "body": [
+        "Say you chose B. Sam remembers last Thursday: a client visit, a sink full of mugs, and him washing them himself ten minutes before the meeting. He's tried a dish rota and a sign. Neither stuck.",
+        "What now?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Describe the daytime cleaner idea and ask what he thinks",
+            "verdict": "risky",
+            "feedback": "Once Sam knows the idea, every answer bends toward it. And a client who likes Dana will praise it."
+          },
+          {
+            "key": "B",
+            "text": "Ask how often it happens and what it costs him",
+            "verdict": "best",
+            "feedback": "Frequency and cost show how big the pain is. The rota and sign show he's already trying to fix it, so the need is real."
+          },
+          {
+            "key": "C",
+            "text": "Ask how much he'd pay for a fix",
+            "verdict": "partial",
+            "feedback": "Price matters, but asking now invites a made-up number. Learn the size of the problem first."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Step 4 of 4",
+      "title": "\"We'd definitely use that.\"",
+      "illustrative": true,
+      "body": [
+        "Say you chose B. About twice a week, Sam says, and it makes the firm look sloppy to clients. At the very end, Dana mentions her idea. Sam lights up: \"That would be amazing. We'd definitely use it.\""
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Count Sam as a yes and start hiring",
+            "verdict": "risky",
+            "feedback": "Enthusiasm is free. A \"definitely\" at the end of a friendly chat is weak ground for a new hire."
+          },
+          {
+            "key": "B",
+            "text": "Offer a paid two-week trial and ask who approves the budget",
+            "verdict": "best",
+            "feedback": "A small commitment tests whether the excitement is real. The budget question shows whether Sam can actually say yes."
+          },
+          {
+            "key": "C",
+            "text": "Ask him to rate the idea from 1 to 10",
+            "verdict": "partial",
+            "feedback": "Dana gets a number, but it's still an opinion. A 9 costs Sam nothing."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Leading questions",
+      "body": [
+        "A **leading question** hints at the answer you want. People tend to follow the hint, especially polite clients.",
+        "In a 1974 study, people watched film of a car crash. Those asked how fast the cars were going when they \"smashed\" gave higher speed estimates than those asked about cars that \"hit\". One word changed the answer.",
+        "The fix: ask about specific past events and what people did. Save your idea for the end, and test it with a commitment, not a compliment."
+      ],
+      "image": {
+        "label": "Two speech bubbles: a leading question versus an open question about the past",
+        "aspectRatio": "16:9",
+        "brief": "말풍선 두 개 비교 인포그래픽. 왼쪽 빨간 테두리 \"Would you use this?\" 아래에 \"Opinion about the future\". 오른쪽 초록 테두리 \"Tell me about the last time…\" 아래에 \"Facts about the past\". 깔끔한 플랫 일러스트.",
+        "url": "assets/images/cus-01-10-c6.jpg"
+      },
+      "softwareNote": "Instead of \"Would you use a reporting dashboard?\", ask a user to share their screen and show how they built last month's report. Their spreadsheet workaround tells you more than any answer."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Good interviews find problems. They don't prove demand.",
+      "body": [
+        "Ten honest conversations can show a pain is real and common. They can't tell you how many customers will pay. That takes a trial, a pre-sale or real orders.",
+        "Memory is also imperfect. People forget details and tidy up their stories, so look for patterns across several interviews.",
+        "And the person feeling the pain may not hold the budget. Sam washes the mugs, but finance may sign. Talk to both."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Ask about what happened, not what they'd do.",
+      "body": [
+        "Each step in Dana's interview used an idea from this unit."
+      ],
+      "list": [
+        "**Opening with a past event:** behavior beats opinions",
+        "**Digging into \"a bit messy\":** pains and gains, and how big the pain really is",
+        "**Asking about the rota and the sign:** the real job is looking professional in front of clients",
+        "**Offering a paid trial:** someone already hacking a fix may be an early adopter"
+      ],
+      "callout": "**Try it today:** write down the next question you plan to ask a customer. If it mentions your idea or the future, rewrite it to start with \"Tell me about the last time…\"",
+      "next": "Next · What value really is"
+    }
+  ]
+}

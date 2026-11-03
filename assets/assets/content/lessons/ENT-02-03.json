@@ -1,0 +1,233 @@
+{
+  "id": "ENT-02-03",
+  "unitId": "ENT-02",
+  "categoryId": "ENT",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "Choosing a location",
+  "readerTitle": "Why the busiest spot in town can be the wrong one",
+  "format": "counterexample",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (케이크 가게, 역사 내 커피 스탠드, 회사 내 IT 헬프데스크) · 모든 수치는 설명용",
+  "insight": "입지는 지나가는 사람의 수가 아니라, 내 고객이 살 마음으로 지나가는지와 그 손님 한 명을 얻는 데 드는 임대료로 고른다.",
+  "misconception": "유동인구가 많은 곳이 무조건 좋은 입지다. 비싼 임대료는 손님이 많으니 알아서 회수된다.",
+  "relatedLessonIds": [
+    "ENT-02-02",
+    "ENT-02-07"
+  ],
+  "sources": [
+    {
+      "text": "소매·서비스업 입지 선정의 일반 원칙 (목적형 구매와 편의형 구매의 구분, 임대료를 마케팅 비용으로 보는 관점)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 설명용 가상 수치입니다. 역: 8,000명 × 0.25% = 하루 20건, 월 600건(30일), 임대료 $9,000 ÷ 600 = 주문당 $15. 골목: 1,000명 × 3% = 하루 30건, 월 900건, $3,000 ÷ 900 = 주문당 약 $3.33. 유동인구 비율 8,000 ÷ 1,000 = 8배.",
+      "status": "open"
+    },
+    {
+      "note": "'목적형 vs 편의형' 구분은 특정 연구가 아니라 소매 입지론의 일반적 설명으로 썼습니다. 특정 연구나 통계를 인용하지 않았는지 게시 전에 다시 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Small business · Counterexample",
+      "title": "The busiest spot in town nearly sank this bakery.",
+      "illustrative": true,
+      "body": [
+        "A bakery known for celebration cakes moved from a quiet side street to a train station concourse. Eight times as many people walked past each day.",
+        "Six months later, sales were down and rent had tripled. The cakes were just as good. The spot was the problem."
+      ],
+      "image": {
+        "label": "A cake shop window in a rushing station crowd",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 역 통로의 작은 케이크 가게 진열창 앞을 수많은 사람이 모션 라인을 그리며 빠르게 지나가고, 아무도 가게를 보지 않음. 실제 역명·브랜드 로고 없음.",
+        "url": "assets/images/ent-02-03-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Where should the cake shop go?",
+      "illustrative": true,
+      "body": [
+        "You make custom celebration cakes. Most customers order days ahead and pick up by car.",
+        "Three spaces are available. Which do you choose?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Station concourse: 8,000 people pass daily, rent $9,000 a month",
+            "verdict": "risky",
+            "feedback": "You buy huge visibility, but commuters are rushing and can't carry a large cake onto a train. You pay for traffic that rarely turns into orders."
+          },
+          {
+            "key": "B",
+            "text": "Side street near homes, with parking: 1,000 people pass, rent $3,000",
+            "verdict": "best",
+            "feedback": "Fewer people, but they're locals who can plan, park and pick up. You give up walk-in impulse sales and gain cheap, well-matched customers."
+          },
+          {
+            "key": "C",
+            "text": "Mall food court: 4,000 shoppers pass, rent $6,000",
+            "verdict": "partial",
+            "feedback": "Shoppers are in buying mode, which helps. But they want a slice now, not a cake next Saturday, and the parking is a long walk away."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Count customers, not people.",
+      "illustrative": true,
+      "body": [
+        "At the station, 0.25% of passers bought: 20 orders a day. On the side street, many passers were locals coming on purpose, so 3% bought: 30 a day. Over a 30-day month, rent per order was **$15 versus about $3.33**."
+      ],
+      "breakdown": [
+        {
+          "value": "8×",
+          "label": "More foot traffic",
+          "detail": "Station vs side street",
+          "highlight": false
+        },
+        {
+          "value": "20",
+          "label": "Station orders a day",
+          "detail": "8,000 × 0.25%",
+          "highlight": false
+        },
+        {
+          "value": "30",
+          "label": "Side street orders a day",
+          "detail": "1,000 × 3%",
+          "highlight": false
+        },
+        {
+          "value": "$15 vs $3.33",
+          "label": "Rent per order",
+          "detail": "$9,000 ÷ 600 vs $3,000 ÷ 900",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Choosing a location",
+      "body": [
+        "A good location puts you where **your** customers already are, at the moment they're ready to buy, at a rent that traffic can pay for.",
+        "Some purchases are *convenience* buys: coffee, snacks, a phone charger. They live on passing traffic. Others are *destination* buys: cakes, dentists, furniture. People seek them out, so access, parking and nearby customers matter more than crowds."
+      ],
+      "image": {
+        "label": "Two paths: passing crowd vs customers arriving on purpose",
+        "aspectRatio": "16:9",
+        "brief": "좌우 분할 인포그래픽. 왼쪽 \"Convenience\": 많은 사람이 지나가다 일부가 가게로 들어옴. 오른쪽 \"Destination\": 적은 사람이 차를 몰고 지도 핀을 따라 곧장 가게로 옴.",
+        "url": "assets/images/ent-02-03-c4.jpg"
+      },
+      "softwareNote": "Online, location is where your product shows up. A top spot in a general app store brings browsers. A listing inside the tool your customers already use, like an integration directory, often brings fewer visitors but more buyers."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Four questions before you sign.",
+      "body": [
+        "Ask these about any space, at the hours you'd actually sell:"
+      ],
+      "list": [
+        "**Who passes?** Are they the customers you need?",
+        "**What mode are they in?** Rushing, browsing or ready to buy?",
+        "**How do they arrive?** On foot, by car, by train?",
+        "**What does each customer cost?** Rent divided by the orders you expect"
+      ],
+      "callout": "Rent is partly a marketing cost. Pay it only for traffic you can turn into sales."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The other side",
+      "title": "The same spot can be perfect for someone else.",
+      "illustrative": true,
+      "body": [
+        "After the bakery left, a coffee stand took over the station space. It thrived.",
+        "Commuters wanted something quick, cheap and easy to carry, every morning. The crowd that ignored cakes was exactly right for coffee.",
+        "A location isn't good or bad on its own. It fits a business, or it doesn't."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Locations are hard to undo.",
+      "body": [
+        "Leases often run for years, and fitting out a space is costly. A mistake here can last longer than most other decisions.",
+        "Traffic counts from landlords may come from the wrong hours or count people who never stop. Count yourself, at your selling hours. Check where current customers live, or test with a short pop-up first. Areas also change, so ask what's being built nearby."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a help desk inside a company.",
+      "illustrative": true,
+      "body": [
+        "You're opening a walk-in IT help desk at headquarters. Field sales staff cause most laptop issues and are only in the building on Monday mornings, on the third floor.",
+        "Where do you put the desk?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The ground-floor lobby, where everyone passes",
+            "verdict": "partial",
+            "feedback": "Very visible, but most people pass on the way to meetings. You'll get quick questions and lines, while field staff still have to come down to find you."
+          },
+          {
+            "key": "B",
+            "text": "The third floor, staffed heavily on Monday mornings",
+            "verdict": "best",
+            "feedback": "You meet your heaviest users where they are, when they're there. You give up general visibility for less wasted time on both sides."
+          },
+          {
+            "key": "C",
+            "text": "A cheap back room, with a ticket system instead",
+            "verdict": "risky",
+            "feedback": "It saves space, but a walk-in desk nobody passes isn't really walk-in. Field staff leave on Monday with laptops still broken."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Choose the spot where your customers are ready to buy.",
+      "body": [
+        "Crowds are not customers. Match the location to how your customers arrive and what mode they're in, then check the rent against the orders it can bring.",
+        "**Try it today:** divide your monthly rent by your monthly number of customers. Ask how many of them came because of where you are."
+      ],
+      "next": "Next · Why the owner becomes the busiest bottleneck"
+    }
+  ]
+}

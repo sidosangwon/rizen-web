@@ -1,0 +1,236 @@
+{
+  "id": "ENT-04-06",
+  "unitId": "ENT-04",
+  "categoryId": "ENT",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Terms that matter",
+  "readerTitle": "The bigger offer that paid the founders less",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (B2B 컨설팅 회사, 레스토랑) · 모든 수치는 설명용",
+  "insight": "투자 제안의 가치는 헤드라인 기업가치가 아니라, 실제로 일어날 법한 결과에서 돈과 통제권이 어떻게 나뉘는지로 판단한다.",
+  "misconception": "기업가치(밸류에이션)가 가장 높은 제안이 창업자에게 가장 좋은 제안이다.",
+  "relatedLessonIds": [
+    "ENT-04-01",
+    "ENT-04-03"
+  ],
+  "sources": [
+    {
+      "text": "벤처 투자 조건의 표준 개념 (청산 우선권, 참가형·비참가형, 이사회·거부권, 창업자 지분 베스팅). 참고: Feld, B. & Mendelson, J. Venture Deals.",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "$8M 매각 계산. 제안 A(포스트머니 $10M, 20%, 1배 비참가형): 투자자는 $2M 우선 회수와 20%×$8M=$1.6M 중 큰 쪽을 택해 $2M, 창업자 $6M. 제안 B(포스트머니 $16M, 12.5%, 2배 참가형): 우선 $4M, 남은 $4M의 12.5%=$0.5M, 투자자 합계 $4.5M, 창업자 $3.5M.",
+      "status": "open"
+    },
+    {
+      "note": "$40M 매각 계산. 제안 A: 전환 시 20%×$40M=$8M가 $2M보다 크므로 전환, 창업자 $32M. 제안 B: $4M + 12.5%×$36M=$4.5M, 투자자 $8.5M, 창업자 $31.5M. 단순화를 위해 다른 주주, 직원 스톡옵션 풀, 부채, 세금, 거래 비용은 제외했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "레스토랑 사례: 2배 우선 회수 = $500K×2 = $1M. 연간 배분 가능 이익 $200K 가정 시 $1M ÷ $200K = 5년. 특정 국가의 법률·세무 조언이 아니라는 점을 7번 카드에 밝혔습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Raising money · Counterexample",
+      "title": "The bigger offer that paid the founders less",
+      "illustrative": true,
+      "body": [
+        "Two founders run a supply-chain consulting firm. Two investors each offer $2 million. One values the firm at $10 million. The other values it at $16 million.",
+        "They take the bigger number. Five years later they sell the firm for $8 million and walk away with barely half of what the smaller offer would have paid them."
+      ],
+      "image": {
+        "label": "Two term sheets, the bigger one hiding a small-print clause",
+        "aspectRatio": "4:3",
+        "brief": "책상 위 계약서 두 장. 왼쪽은 \"$10M\", 오른쪽은 더 큰 글씨로 \"$16M\". 오른쪽 계약서 아래쪽에 돋보기가 놓여 작은 글씨 조항을 확대하고 있음. 실제 회사 로고나 상표 없음.",
+        "url": "assets/images/ent-04-06-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which offer would you take?",
+      "illustrative": true,
+      "body": [
+        "**Offer A:** $2M for 20% of the firm. If the firm is sold, the investor gets their $2M back first *or* their 20% share, whichever is larger.",
+        "**Offer B:** $2M for 12.5%. If the firm is sold, the investor first gets $4M back, *and then* their 12.5% of what's left."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Offer B. You give away less of the company",
+            "verdict": "risky",
+            "feedback": "You keep a bigger slice on paper. But B's payout rules take a large share off the top before your slice is counted."
+          },
+          {
+            "key": "B",
+            "text": "Offer A. Simpler terms are usually safer",
+            "verdict": "partial",
+            "feedback": "Right instinct, and here it's the better deal. But \"simpler\" isn't a reason you can defend in a negotiation. Numbers are."
+          },
+          {
+            "key": "C",
+            "text": "Before choosing, work out what you'd take home at a few realistic sale prices",
+            "verdict": "best",
+            "feedback": "This turns two headline numbers into real outcomes. It takes an hour and shows which offer actually pays you more."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "The firm sells for $8 million.",
+      "illustrative": true,
+      "body": [
+        "Under Offer A, the investor takes $2M and the founders keep **$6M**. Under Offer B, the investor takes $4M, then 12.5% of the remaining $4M. The founders keep **$3.5M**."
+      ],
+      "breakdown": [
+        {
+          "value": "$2.0M",
+          "label": "Offer A · investor",
+          "detail": "$2M back, larger than 20% of $8M",
+          "highlight": false
+        },
+        {
+          "value": "$6.0M",
+          "label": "Offer A · founders",
+          "detail": "Everything that's left",
+          "highlight": false
+        },
+        {
+          "value": "$4.5M",
+          "label": "Offer B · investor",
+          "detail": "$4M first, plus 12.5% of $4M",
+          "highlight": false
+        },
+        {
+          "value": "$3.5M",
+          "label": "Offer B · founders",
+          "detail": "The \"better\" valuation",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Valuation is the price. Terms are the rules.",
+      "body": [
+        "The valuation says what the company is worth on paper. The **terms** decide who gets paid, in what order, and who gets a say.",
+        "The term that hurt here is the **liquidation preference**: how much an investor gets back first when the company is sold or closed. \"1x\" means their money back. \"2x\" means double. \"Participating\" means they also share in what's left, so they get paid twice."
+      ],
+      "image": {
+        "label": "A sale price flowing down a waterfall to investor, then founders",
+        "aspectRatio": "16:9",
+        "brief": "폭포 모양 인포그래픽. 맨 위에 \"Sale price $8M\", 첫 번째 단에서 \"Investor paid first\"로 물이 먼저 빠지고, 남은 물이 아래 단 \"Founders\"로 흘러감. 제안 A와 B를 나란히 두어 B의 첫 단이 훨씬 넓게 보이도록.",
+        "url": "assets/images/ent-04-06-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Terms matter most in the middle.",
+      "illustrative": true,
+      "body": [
+        "Now imagine a $40 million sale. Under Offer A, the founders keep $32M. Under Offer B, they keep $31.5M. Almost the same.",
+        "In a huge outcome, everyone's percentage does the work. In a modest sale, the payout rules decide who gets what. A big exit is the outcome founders picture. The middle outcomes are where **terms** quietly move millions."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond the money",
+      "title": "Some terms decide who runs the company.",
+      "body": [
+        "Payout order is only one kind of term. Others shape control:"
+      ],
+      "list": [
+        "**Board seats:** who votes on big decisions, and who can replace the CEO",
+        "**Veto rights:** what the investor can block, such as new debt, a sale or opening a new location",
+        "**Founder vesting:** whether founders earn their own shares over time, and lose some if they leave early"
+      ],
+      "callout": "A term sheet can hand away control without changing the valuation at all.",
+      "softwareNote": "Software startups often raise several rounds, and each new investor's preference usually sits on top of the last. A company can sell for more than it raised and still leave founders and employees with little."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Clean terms aren't free either.",
+      "body": [
+        "Investors trade price for protection. A higher valuation with tougher terms can be a fair deal if you're confident the company will sell for a lot. A lower valuation with clean terms means you give away more of a big outcome.",
+        "Terms also differ by country and deal type, and this isn't legal advice. Have a lawyer who reads term sheets for a living go through yours before you sign."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a restaurant.",
+      "illustrative": true,
+      "body": [
+        "You own a busy restaurant and need $500,000 to open a second one.",
+        "**Offer X:** $500K for 25%. Profits are shared by ownership. **Offer Y:** $500K for 15%. But the investor gets the first $1M of paid-out profits, and can veto any new location. At about $200K a year paid out, that's five years before you see a dollar."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Take Y. You keep 85% of the business",
+            "verdict": "risky",
+            "feedback": "You keep more on paper, but your income stops for years and the investor can block your third location. That's the plan you raised money for."
+          },
+          {
+            "key": "B",
+            "text": "Take X. Giving up 25% is the cost of simple terms",
+            "verdict": "partial",
+            "feedback": "X is likely better than Y as written. But you skipped the chance to make Y better before deciding."
+          },
+          {
+            "key": "C",
+            "text": "Ask Y to cap the payback at $500K and drop the veto. If they won't, take X",
+            "verdict": "best",
+            "feedback": "You test whether the higher price survives without the harsh terms. If it doesn't, you've learned what Y really cost."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "For an app founder, the same check works: model your payout at a modest sale, a good sale and a great one before comparing offers."
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Judge an offer by what you keep, not what it's called.",
+      "body": [
+        "The valuation is the headline. The terms decide your take-home pay and your control in the outcomes that are most likely to happen.",
+        "**Try it today:** pick three possible sale prices for your business: disappointing, good and great. For any offer you see, write down what you'd keep at each one."
+      ],
+      "next": "Next · Pitch a coffee brand"
+    }
+  ]
+}

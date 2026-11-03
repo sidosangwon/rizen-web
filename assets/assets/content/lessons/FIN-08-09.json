@@ -1,0 +1,258 @@
+{
+  "id": "FIN-08-09",
+  "unitId": "FIN-08",
+  "categoryId": "FIN",
+  "order": 9,
+  "type": "case",
+  "conceptTag": "The collapse of Long-Term Capital Management",
+  "readerTitle": "Right about the bet, wrong about the borrowing: the fall of Long-Term Capital Management",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Long-Term Capital Management, 1994~2000) + 가상 계산 예시와 가상 적용 (화물 운송 회사)",
+  "insight": "빌린 돈의 규모는 평균적인 해가 아니라, 버텨야 할 가장 나쁜 구간에 맞춰 정해야 한다. 결국 맞는 판단이어도 그때까지 살아남지 못하면 소용없다.",
+  "misconception": "판단이 정확하고 평균 수익이 좋으면 레버리지를 높여도 안전하다. 분산된 포지션이 많으면 한꺼번에 무너지지 않는다.",
+  "relatedLessonIds": [
+    "FIN-08-04",
+    "FIN-08-05"
+  ],
+  "sources": [
+    {
+      "text": "President's Working Group on Financial Markets (1999). Hedge Funds, Leverage, and the Lessons of Long-Term Capital Management. (레버리지 약 25:1, 위기 경과)",
+      "url": null
+    },
+    {
+      "text": "Lowenstein, R. (2000). When Genius Failed: The Rise and Fall of Long-Term Capital Management. (설립, 수익률, 1997년 말 자본 반환, 전략 확장)",
+      "url": null
+    },
+    {
+      "text": "McDonough, W. J., Federal Reserve Bank of New York, testimony to the U.S. House Committee on Banking and Financial Services, October 1, 1998. (14개 금융회사의 구제 자금 조성)",
+      "url": null
+    },
+    {
+      "text": "Nobel Prize in Economic Sciences 1997, Robert C. Merton and Myron S. Scholes",
+      "url": "https://www.nobelprize.org/prizes/economic-sciences/1997/summary/"
+    },
+    {
+      "text": "Federal Reserve History, essay on the near failure of Long-Term Capital Management",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "1995년과 1996년 수수료 차감 후 수익률 '40% 이상'은 Lowenstein(2000) 등에서 널리 인용됨(약 43%, 41%). 게시 전 출처 확인 필요.",
+      "status": "open"
+    },
+    {
+      "note": "1997년 말 외부 투자자에게 약 27억 달러를 돌려주고 포지션 규모는 크게 줄이지 않아 레버리지가 높아졌다는 내용은 Lowenstein(2000)과 PWG(1999) 보고서로 확인 필요. 카드에는 금액 없이 'about $2.7 billion'로 한 번만 적음.",
+      "status": "open"
+    },
+    {
+      "note": "1998년 초 자기자본 약 48억 달러, 대차대조표 자산 약 1,250억 달러로 레버리지 약 25:1 (PWG 1999). 카드에는 'about $25 for every $1'로 적음.",
+      "status": "open"
+    },
+    {
+      "note": "러시아 디폴트·루블 평가절하(1998년 8월 17일), 뉴욕 연준 주선 14개 금융회사 약 36억 달러 출자(1998년 9월 23일), 공적 자금 미투입, 2000년 초 청산 완료. 게시 전 연준 자료로 확인.",
+      "status": "open"
+    },
+    {
+      "note": "구제에 참여한 은행들이 청산 과정에서 투자금을 회수했다는 내용은 여러 보도에 근거하나 정확한 수치는 쓰지 않았음. 카드에 'reportedly'로 표시.",
+      "status": "open"
+    },
+    {
+      "note": "계산 확인: 25:1이면 자기 돈 $1 + 차입 $24 = 포지션 $25. 4% 손실 = $25 × 0.04 = $1 → 자기 돈 전액 소멸. 2:1이면 포지션 $2 × 4% = $0.08 → 자기 돈의 8% 손실. 단순화를 위해 이자·수수료는 제외.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Risk & Return · Counterexample",
+      "title": "Two Nobel winners, one near-collapse",
+      "body": [
+        "In 1997, two partners of a hedge fund called Long-Term Capital Management shared the Nobel Prize in economics for their work on pricing financial contracts.",
+        "Less than a year later, the fund had lost most of its money in a few weeks. Wall Street's biggest banks were called in to stop the damage from spreading."
+      ],
+      "image": {
+        "label": "A trophy balanced on a tall, wobbling tower of borrowed coins",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 작은 금색 트로피가 아주 높게 쌓인 동전 탑 꼭대기에 놓여 있고, 탑 아래쪽 동전에 'Borrowed' 라벨. 탑이 살짝 기울어 흔들리는 모션 라인. 실제 회사 로고, 노벨상 메달 디자인은 쓰지 않음.",
+        "url": "assets/images/fin-08-09-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call · late 1997",
+      "title": "Your returns are shrinking. What do you do?",
+      "body": [
+        "The fund bets that prices of very similar bonds will move closer together. Each bet earns a little, so it borrows heavily to make the gains worthwhile. Returns were above 40% a year in 1995 and 1996, but easy opportunities are getting scarce.",
+        "You are a partner. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Return money to outside investors, but keep the bets the same size",
+            "verdict": "risky",
+            "feedback": "Returns per dollar go up for the partners who stay. But the same bets now rest on less of your own money, so a smaller loss can wipe you out."
+          },
+          {
+            "key": "B",
+            "text": "Return money and shrink the bets by the same share",
+            "verdict": "best",
+            "feedback": "You give up some return, but your room for error stays the same. That protects you if the market moves against you for longer than expected."
+          },
+          {
+            "key": "C",
+            "text": "Keep the money and look for new bets in other markets",
+            "verdict": "partial",
+            "feedback": "Spreading out sounds safer, but new markets you know less well add risk. If one shock hits them all at once, the spread doesn't protect you."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "LTCM chose A, and added a bit of C.",
+      "body": [
+        "At the end of 1997, the fund returned about $2.7 billion to outside investors while keeping most of its positions. It also moved into less familiar trades. By early 1998, it held about **$25 of positions for every $1** of its own money.",
+        "In August 1998, Russia defaulted on its debt. Frightened investors rushed into the safest bonds, so the price gaps LTCM bet would narrow grew wider instead. In September, the New York Fed brought 14 banks and brokers together to put in about $3.6 billion and take over the fund."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Why a small move was fatal",
+      "illustrative": true,
+      "body": [
+        "At 25 to 1, a **4% move** against you erases all of your own money. At 2 to 1, the same move costs 8%. That loss hurts, but you survive it."
+      ],
+      "breakdown": [
+        {
+          "value": "$1",
+          "label": "Your money",
+          "detail": "What you can afford to lose",
+          "highlight": false
+        },
+        {
+          "value": "+$24",
+          "label": "Borrowed",
+          "detail": "Lenders want it back no matter what",
+          "highlight": false
+        },
+        {
+          "value": "$25",
+          "label": "Total bets",
+          "detail": "Gains and losses are measured on this",
+          "highlight": false
+        },
+        {
+          "value": "−4% = $0",
+          "label": "A small move",
+          "detail": "$1 lost, and your money is gone",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Leverage shrinks your room for error.",
+      "body": [
+        "Borrowing makes gains and losses bigger, but it also decides **how long you can afford to wait**. Lenders ask for more money when prices fall. They don't wait for you to be proven right.",
+        "LTCM's bets might have paid off eventually. The fund didn't last that long. What counts isn't the average outcome. It's surviving the worst stretch along the way."
+      ],
+      "image": {
+        "label": "Two paths to the same finish line, one dipping below a red floor",
+        "aspectRatio": "16:9",
+        "brief": "그래프 일러스트. 두 선이 같은 출발점에서 시작해 같은 높은 도착점에서 끝남. 한 선은 완만하게 흔들리고, 다른 선은 중간에 깊게 떨어져 빨간 바닥선 'Out of cash'에 닿은 뒤 끊김. 끊긴 지점에 작은 X 표시.",
+        "url": "assets/images/fin-08-09-c5.jpg"
+      },
+      "softwareNote": "A startup that signs long office leases or multi-year cloud contracts sized for its best-case growth has the same problem. If growth stalls for six months, the payments still come due."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Why the safety net failed",
+      "title": "Many bets, one shock",
+      "body": [
+        "LTCM held positions in many countries and markets. On paper they were spread out. In the panic, they all moved the same way, because the same fear drove all of them.",
+        "Other firms held similar trades. When everyone tried to sell at once, buyers disappeared and prices fell further. Assets that were easy to sell in calm markets became **hard to sell** just when the fund needed cash."
+      ],
+      "image": {
+        "label": "Many separate boats all tipped by the same single wave",
+        "aspectRatio": "16:9",
+        "brief": "플랫 일러스트. 서로 다른 색의 작은 배 여러 척이 넓게 흩어져 있는데, 하나의 큰 파도가 모든 배를 같은 방향으로 기울임. 파도에 'One shock' 라벨.",
+        "url": "assets/images/fin-08-09-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The lesson isn't \"never borrow.\"",
+      "body": [
+        "Borrowing lets good businesses grow faster, and most loans don't end in disaster. After the takeover, the banks reportedly got their money back as the fund's trades were closed out over time.",
+        "The mistake was sizing the debt to normal years built from recent data. Plan for a stretch worse than anything you've seen, and check that you could live through it."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a freight company.",
+      "illustrative": true,
+      "body": [
+        "You run a regional trucking firm with steady profits. You plan to buy 20 new trucks with a loan. The monthly payments fit easily if shipping volumes match your average of the last three years.",
+        "How do you set up the loan?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Borrow the full amount. The average year covers it.",
+            "verdict": "risky",
+            "feedback": "Growth is fastest this way, but one slow year leaves you missing payments on trucks you can't use."
+          },
+          {
+            "key": "B",
+            "text": "Borrow less, so payments are covered even in a year as bad as your worst one",
+            "verdict": "best",
+            "feedback": "You grow a bit more slowly, but a bad stretch can't push you out of business. You can add trucks later from profit."
+          },
+          {
+            "key": "C",
+            "text": "Borrow the full amount and keep one month of payments in cash",
+            "verdict": "partial",
+            "feedback": "A cash buffer helps, but one month covers a short hiccup, not a slow season or a lost customer."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Being right doesn't matter if you can't survive long enough to prove it.",
+      "body": [
+        "Set your borrowing by the worst stretch you might face, not by your average year.",
+        "**Try it today:** list every loan payment or long contract you've committed to. Then estimate how many months you could keep paying if revenue fell by a third."
+      ],
+      "next": "Next · Borrow to grow faster? Run the numbers yourself."
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "id": "FIN-10-04",
+  "unitId": "FIN-10",
+  "categoryId": "FIN",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Adjusted numbers",
+  "readerTitle": "When a company tells you what its profit would have been",
+  "format": "two_businesses",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative",
+    "real_company"
+  ],
+  "caseNote": "가상 사례 (부품 제조사, 소프트웨어 회사, 레스토랑 체인) + 실제 기업 (WeWork 2019년 상장 신고서). 가상 사례의 모든 수치는 설명용",
+  "insight": "조정 수치를 볼 때는 '무엇을 뺐는가'보다 '뺀 비용이 내년에도 또 나오는가'를 묻는다.",
+  "misconception": "'일회성'이나 '비현금'이라고 적힌 비용은 진짜 비용이 아니니 빼고 봐도 된다.",
+  "relatedLessonIds": [
+    "FIN-10-03",
+    "FIN-11-06"
+  ],
+  "sources": [
+    {
+      "text": "WeWork Companies Inc., Form S-1 registration statement (August 2019), 'Community Adjusted EBITDA'",
+      "url": null
+    },
+    {
+      "text": "관리회계·재무분석의 표준 개념 (조정 이익, 비GAAP 지표, 조정 내역 대사표)",
+      "url": null
+    },
+    {
+      "text": "가상 사례의 모든 수치는 설명용 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "제조사 계산: 보고 이익 −$0.4M + 구조조정 $1.2M + 소송 합의금 $0.5M + 신규 라인 초기 손실 $0.7M = 조정 이익 $2.0M. 가상 수치입니다.",
+      "status": "open"
+    },
+    {
+      "note": "소프트웨어 회사 계산: 보고 손실 −$3M + 주식 보상 $5M = 조정 이익 $2M. 가상 수치입니다.",
+      "status": "open"
+    },
+    {
+      "note": "WeWork: 2019년 8월 S-1에서 'community adjusted EBITDA'를 제시했고, 이 지표가 마케팅·일반관리비 등 여러 비용을 제외한다는 비판을 받았으며, 같은 해 9월 상장을 철회했습니다. 제외 항목의 정확한 범위를 게시 전에 S-1 원문으로 다시 확인하세요. 카드에는 'costs such as'로 일반화해 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "'많은 시장에서 상장사는 조정 수치와 표준 수치의 연결 내역을 공개해야 한다'는 일반적 서술입니다. 특정 국가 규정을 언급하지 않도록 유지했습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Two businesses",
+      "title": "When a company tells you what its profit would have been",
+      "illustrative": true,
+      "body": [
+        "A parts maker lost $0.4 million last year. A software company lost $3 million.",
+        "Both sent buyers a page headed *Adjusted profit*. Both showed $2 million. Same number, same word. One of them is much closer to the truth than the other, and neither page says which."
+      ],
+      "image": {
+        "label": "Two reports showing the same adjusted profit",
+        "aspectRatio": "4:3",
+        "brief": "책상 위에 보고서 두 장. 왼쪽은 공장 아이콘, 오른쪽은 노트북 아이콘. 둘 다 크게 \"Adjusted profit $2.0M\"이라고 적혀 있고, 그 아래 작은 글씨로 빨간 \"Reported −$0.4M\", \"Reported −$3.0M\". 실제 회사 로고는 쓰지 않음.",
+        "url": "assets/images/fin-10-04-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You're thinking of buying a parts maker.",
+      "illustrative": true,
+      "body": [
+        "The seller shows a reported loss of $0.4 million but an adjusted profit of $2 million. They removed three costs as \"not part of the normal business\": a restructuring charge, a legal settlement, and early losses on a new product line.",
+        "You have time to dig into one. Which do you ask about first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The legal settlement, because lawsuits are a risk",
+            "verdict": "partial",
+            "feedback": "Worth checking, but a single settlement is often genuinely one-off. You'd spend your time on the item least likely to repeat."
+          },
+          {
+            "key": "B",
+            "text": "The restructuring charge: has it appeared before?",
+            "verdict": "best",
+            "feedback": "This is the one to test. A \"one-time\" charge that shows up year after year is simply a cost of running the business."
+          },
+          {
+            "key": "C",
+            "text": "None. Adjusted profit shows the business's true potential",
+            "verdict": "risky",
+            "feedback": "You'd save time and trust the seller's view. But you'd be paying for profit that may only exist after someone decides which costs to ignore."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "From a loss to a profit in three steps.",
+      "illustrative": true,
+      "breakdown": [
+        {
+          "value": "−$0.4M",
+          "label": "Reported profit",
+          "detail": "Under standard accounting",
+          "highlight": false
+        },
+        {
+          "value": "+$1.2M",
+          "label": "Restructuring",
+          "detail": "Called one-time. Third year in a row",
+          "highlight": true
+        },
+        {
+          "value": "+$0.5M",
+          "label": "Legal settlement",
+          "detail": "A single dispute, now closed",
+          "highlight": false
+        },
+        {
+          "value": "+$0.7M",
+          "label": "New-line losses",
+          "detail": "Start-up costs on a new product",
+          "highlight": false
+        },
+        {
+          "value": "$2.0M",
+          "label": "Adjusted profit",
+          "detail": "The number on the cover page",
+          "highlight": false
+        }
+      ],
+      "callout": "Without the restructuring add-back, adjusted profit is $0.8M, not $2.0M."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Adjusted numbers",
+      "body": [
+        "**Adjusted numbers** are figures a company recalculates by removing items it calls unusual, one-off or non-cash. You'll see them as adjusted profit, adjusted EBITDA (profit before interest, tax and wear on equipment) and similar labels.",
+        "They can be useful. Removing a factory fire helps you see the normal business. But the company chooses what to remove, and it rarely removes the good surprises.",
+        "The key test: **will this cost come back?**"
+      ],
+      "image": {
+        "label": "A bridge from reported profit to adjusted profit",
+        "aspectRatio": "16:9",
+        "brief": "계단식 폭포 차트. 왼쪽 낮은 막대 \"Reported\", 위로 쌓이는 세 블록 \"Restructuring\", \"Settlement\", \"New line\", 오른쪽 높은 막대 \"Adjusted\". \"Restructuring\" 블록에만 \"2023, 2024, 2025\" 도장 세 개.",
+        "url": "assets/images/fin-10-04-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The other business",
+      "title": "The software company's add-back is paid in shares.",
+      "illustrative": true,
+      "body": [
+        "The software company's bridge has one line: it adds back $5 million of **stock-based compensation**, the value of shares given to staff instead of cash.",
+        "No cash left the bank, so it feels free. But engineers accepted those shares as part of their pay. Stop granting them and you'd have to pay more salary or lose people. Each grant also shrinks existing owners' slice.",
+        "This cost comes back every year. Its $2 million adjusted profit is really a $3 million loss."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "A real example",
+      "title": "A profit measure that left out running costs.",
+      "body": [
+        "In 2019, WeWork's filing to go public featured *community adjusted EBITDA*. It left out costs such as marketing and general overhead, spending any growing office company has to keep paying.",
+        "Critics treated it as a warning sign rather than a highlight. WeWork pulled its public listing later that year.",
+        "In many markets, listed companies must show how each adjusted figure connects back to the standard one. That connecting table is where to start reading."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Not every adjustment is a trick.",
+      "body": [
+        "Some removals are fair: selling a building, a one-off flood, closing a division you've already exited. Throwing out all adjustments can make a healthy business look worse than it is.",
+        "The red flag is a pattern. Line up three years of adjustments. If the same labels keep appearing, or the gap between reported and adjusted profit keeps widening, the adjusted number is describing a business that doesn't exist."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a restaurant chain.",
+      "illustrative": true,
+      "body": [
+        "A chain asking for a loan opens about ten new restaurants every year. Its adjusted profit excludes *pre-opening costs*: hiring, training and rent before each new restaurant opens.",
+        "How should you treat those costs?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Exclude them. They're tied to new restaurants, not existing ones",
+            "verdict": "partial",
+            "feedback": "Fair if you only want to judge the restaurants already open. But the chain's plan, and its loan, depend on opening ten more every year."
+          },
+          {
+            "key": "B",
+            "text": "Count them as a normal cost, since they recur every year",
+            "verdict": "best",
+            "feedback": "You get a tougher but honest number. As long as the chain keeps growing this way, these costs keep arriving."
+          },
+          {
+            "key": "C",
+            "text": "Ignore the detail and lend on the adjusted number",
+            "verdict": "risky",
+            "feedback": "Quick and friendly to the borrower. But if pre-opening costs are large, the cash to repay you may not be there."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A cost that keeps coming back is a cost.",
+      "body": [
+        "Adjusted numbers show the business a company wants you to see. Check every removed item against one question: will it happen again?",
+        "**Try it today:** take any adjusted figure you rely on, yours or someone else's. List each item removed and mark whether it also appeared last year."
+      ],
+      "next": "Next · Growth that's too good"
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "id": "ECO-09-08",
+  "unitId": "ECO-09",
+  "categoryId": "ECO",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "Price in a year of high inflation",
+  "readerTitle": "Your prices didn't change. Your costs did.",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative",
+    "real_observation"
+  ],
+  "caseNote": "가상 사례 (금속 부품 제조사, B2B 소프트웨어 회사) + 실제 관찰 (운송업 유류 할증료 관행, 2021~2022년 고물가)",
+  "insight": "고물가 시기에는 가격을 한 번에 올리는 것이 아니라, 다시 내려올 수 있는 비용과 내려오지 않는 비용을 나눠 가격에 반영한다.",
+  "misconception": "물가가 오르면 원가 상승분만큼 정가를 한 번에 올리거나, 고객을 위해 계약 갱신 때까지 버티는 것이 맞다.",
+  "relatedLessonIds": [
+    "ECO-09-01",
+    "ECO-09-03"
+  ],
+  "sources": [
+    {
+      "text": "U.S. Energy Information Administration, Weekly retail on-highway diesel prices (운송업 유류 할증료의 기준 지표로 널리 쓰임)",
+      "url": "https://www.eia.gov/petroleum/gasdiesel/"
+    },
+    {
+      "text": "부품 제조사와 소프트웨어 회사 사례의 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "부품 계산: 기존 원가 $4(철강)+$3(인건비)+$1(에너지)+$1(기타)=$9, 가격 $10, 마진 $1. 상승 후 $5+$3.20+$1.30+$1=$10.50, 가격 유지 시 −$0.50. 기본가 2% 인상($0.20)+할증 $1.30(철강 $1.00+에너지 $0.30) → $11.50, 마진 $1.00 회복. 일괄 10% 인상 시 $11, 마진 $0.50. 다시 확인 필요.",
+      "status": "open"
+    },
+    {
+      "note": "'2021~2022년 많은 나라가 수십 년 만의 최고 물가를 겪었다'는 일반적 서술입니다. 게시 전 미국·유럽·한국 등 주요국 통계로 표현이 과하지 않은지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "운송업 유류 할증료가 공개된 경유 가격 지표(미국은 EIA 주간 경유 가격)에 연동되는 관행은 널리 알려져 있으나, 카드에는 특정 회사 이름이나 수치를 쓰지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Economy · Everyday scene",
+      "title": "Your prices didn't change. Your costs did.",
+      "illustrative": true,
+      "body": [
+        "You make metal brackets for furniture makers. Each one sells for $10, the same as last year. Nobody complained.",
+        "Then the bills arrive. Steel is up 25%. Energy is up 30%. Wages are up about 7%. Without touching a single price tag, you have quietly given every customer a discount."
+      ],
+      "image": {
+        "label": "Price tag stays still while cost bars grow behind it",
+        "aspectRatio": "4:3",
+        "brief": "공장 작업대 위 금속 브래킷 하나에 \"$10\" 가격표가 붙어 있음. 뒤편에 철강, 에너지, 인건비를 나타내는 막대 세 개가 위로 자라는 모습. 가격표는 그대로. 실제 브랜드나 로고 없음.",
+        "url": "assets/images/eco-09-08-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How do you respond?",
+      "illustrative": true,
+      "body": [
+        "Each bracket used to cost you $9 to make. Now it costs $10.50. Your customers are on yearly price agreements that renew in nine months.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Raise every price 10% now, across the board",
+            "verdict": "partial",
+            "feedback": "It stops most of the bleeding, but it bakes a steel spike into your permanent price. When the cycle turns and steel gets cheaper, customers will expect that money back."
+          },
+          {
+            "key": "B",
+            "text": "Raise the base price 2% for wages, and add a steel-and-energy surcharge tied to published prices",
+            "verdict": "best",
+            "feedback": "This uses **inflation** thinking: wages rarely fall, so they go in the base price. Steel and energy swing with the **business cycle**, so they get a charge that can come back down."
+          },
+          {
+            "key": "C",
+            "text": "Hold prices until the agreements renew",
+            "verdict": "risky",
+            "feedback": "You keep customers calm, but you lose $0.50 on every bracket for nine months. During inflation, a frozen price is a price cut."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Follow one bracket.",
+      "illustrative": true,
+      "breakdown": [
+        {
+          "value": "+$1.00",
+          "label": "Steel",
+          "detail": "$4.00 → $5.00",
+          "highlight": false
+        },
+        {
+          "value": "+$0.30",
+          "label": "Energy",
+          "detail": "$1.00 → $1.30",
+          "highlight": false
+        },
+        {
+          "value": "+$0.20",
+          "label": "Wages",
+          "detail": "$3.00 → $3.20",
+          "highlight": false
+        },
+        {
+          "value": "−$0.50",
+          "label": "Per bracket at $10",
+          "detail": "Cost is now $10.50",
+          "highlight": true
+        }
+      ],
+      "callout": "Option B: base $10.20 plus a $1.30 surcharge = **$11.50**. Your $1 margin is back."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept at work · Inflation",
+      "title": "Costs don't rise together.",
+      "body": [
+        "**Inflation** is a general rise in prices, so each dollar buys less. But it never hits evenly. Here, energy jumped 30% while wages rose 7%.",
+        "That's why one flat increase is a blunt tool. It treats every cost as if it moved the same way and will stay there.",
+        "It also explains option C. If your price stays at $10 while everything around it rises, your *real* price, what that $10 actually buys, falls every month."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it's done",
+      "title": "Split the price in two.",
+      "body": [
+        "Trucking companies have long done this with fuel. Many add a fuel surcharge that moves with a published diesel price each week. When diesel falls, the surcharge falls too.",
+        "The same logic works for the bracket maker. The base price covers costs that tend to stick, like wages and rent. A separate line covers costs that swing, like steel and energy, tied to a public index customers can check themselves."
+      ],
+      "image": {
+        "label": "Invoice split into base price and index-linked surcharge",
+        "aspectRatio": "16:9",
+        "brief": "송장 한 장을 두 칸으로 나눈 인포그래픽. 위 칸 \"Base price $10.20\"는 단단한 블록, 아래 칸 \"Steel & energy surcharge $1.30\"는 오르내리는 그래프 선과 연결됨. 실제 회사명이나 로고 없음.",
+        "url": "assets/images/eco-09-08-c5.jpg"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Concept at work · Business cycles",
+      "title": "High inflation is a phase, not a forever.",
+      "body": [
+        "In 2021 and 2022, many countries saw their highest inflation in decades. Central banks raised interest rates to cool demand, and the **business cycle** turned: orders slowed and some input prices fell back.",
+        "Businesses that had folded temporary spikes into list prices then faced a harder conversation. Customers with tighter budgets started shopping around.",
+        "A surcharge that drops on its own when costs ease protects you in that next phase. Customers see you kept your word."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A surcharge can look like a hidden fee.",
+      "body": [
+        "It only builds trust if the formula is simple, the index is public, and the charge actually falls when the index does. Keep it in place after costs drop and it becomes a quiet price hike.",
+        "Don't use inflation as cover for extra increases either. Customers remember who raised prices fairly when the cycle turns.",
+        "And a surcharge adds work: you have to update it, and your sales team has to explain it."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software company.",
+      "illustrative": true,
+      "body": [
+        "You sell scheduling software to clinics on annual plans. Hosting costs are flat. Salaries, your biggest cost, are up 8% and won't come back down. Your customers' budgets are tight too.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Add an 8% \"inflation surcharge\" line to every invoice",
+            "verdict": "risky",
+            "feedback": "A surcharge signals a temporary cost. Your rising cost is salaries, which won't fall, so customers will keep asking when it goes away."
+          },
+          {
+            "key": "B",
+            "text": "Raise list prices for new customers now; give existing ones notice and a modest rise at renewal, with an option to lock in for two years",
+            "verdict": "best",
+            "feedback": "Permanent cost growth goes in the base price, which fits **inflation**. The lock-in option keeps customers before the **business cycle** slows and budgets get cut."
+          },
+          {
+            "key": "C",
+            "text": "Freeze prices to win clinics from rivals who are raising theirs",
+            "verdict": "partial",
+            "feedback": "You may gain share, but your real price falls every month. And raising prices later, in a slower economy, is harder."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Price for costs that stay, and for costs that swing.",
+      "body": [
+        "Concepts used: **Inflation** (costs rise unevenly, and a frozen price is a falling real price) and **Business cycles** (high-inflation phases end, so build prices that can adjust when they do).",
+        "**Try it today:** list your five biggest costs. Mark each one *sticky* or *swinging*. Is your price built the same way?"
+      ],
+      "next": "Next · The 2008 financial crisis"
+    }
+  ]
+}

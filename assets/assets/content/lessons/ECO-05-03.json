@@ -1,0 +1,248 @@
+{
+  "id": "ECO-05-03",
+  "unitId": "ECO-05",
+  "categoryId": "ECO",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "The decoy effect",
+  "readerTitle": "Nobody picked this option. It still made the company money.",
+  "format": "numbers_twist",
+  "level": 1,
+  "language": "en",
+  "status": "draft_review",
+  "estimatedMinutes": 3.3,
+  "caseKinds": [
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 연구 (Ariely 2008의 Economist 교실 실험, Huber et al. 1982, Frederick et al. 2014) + 가상 사례 (팝콘, 커피 사이즈)",
+  "insight": "사람들은 옵션을 하나씩 평가하지 않고, 가장 정당화하기 쉬운 것을 고른다.",
+  "misconception": "아무도 사지 않는 옵션은 없애야 한다. 디코이는 언제나 통한다.",
+  "relatedLessonIds": [
+    "ECO-07-01",
+    "CUS-10-03"
+  ],
+  "sources": [
+    {
+      "text": "Ariely (2008). Predictably Irrational, Ch. 1 \"The Truth about Relativity\".",
+      "url": null
+    },
+    {
+      "text": "Huber, Payne & Puto (1982). Adding Asymmetrically Dominated Alternatives. J. of Consumer Research.",
+      "url": null
+    },
+    {
+      "text": "Frederick, Lee & Baskin (2014). The Limits of Attraction. J. of Marketing Research.",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Ariely의 Economist 실험은 MIT 학생 100명 대상의 교실 실험이며 『Predictably Irrational』(2008)에 실린 것입니다. 표본이 작다는 점을 \"classroom experiment\"로 표시했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "매출 비교는 카드 수치로 직접 계산했습니다. 디코이 있음: 16×$59 + 84×$125 = $11,444. 디코이 없음: 68×$59 + 32×$125 = $8,012. 차이는 +43%입니다.",
+      "status": "open"
+    },
+    {
+      "note": "재현성 논란(Frederick et al., 2014)을 6번 카드에 넣었습니다. \"판단력 훈련\"이라는 포지셔닝에는 효과의 한계를 같이 가르치는 것이 신뢰에 도움이 됩니다.",
+      "status": "open"
+    },
+    {
+      "note": "팝콘 가격은 설명을 위한 가상 수치이며, 카드에 그렇게 표기했습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Pricing · Lesson 3",
+      "title": "Nobody picked this option. It still made the company money.",
+      "body": [
+        "In a well-known classroom experiment, adding a choice that **zero people** picked changed what everyone else bought.",
+        "First, choose for yourself."
+      ],
+      "image": {
+        "label": "Three subscription cards, one faded",
+        "aspectRatio": "4:3",
+        "brief": "잡지 구독 가격 카드 3장이 나란히. 가운데 카드만 반투명하게 흐릿하게 처리. 실제 매체 로고는 쓰지 않음.",
+        "url": "assets/images/eco-05-03-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which subscription would you choose?",
+      "body": [
+        "A news magazine offers three one-year plans:"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Web only · $59",
+            "verdict": "neutral",
+            "feedback": "**16%** of the students in the experiment picked this."
+          },
+          {
+            "key": "B",
+            "text": "Print only · $125",
+            "verdict": "neutral",
+            "feedback": "**0%** picked this. Nobody at all. Hold that thought."
+          },
+          {
+            "key": "C",
+            "text": "Print + Web · $125",
+            "verdict": "neutral",
+            "feedback": "**84%** picked this. Print + Web looks like getting the web version for free."
+          }
+        ],
+        "afterReveal": "Most readers pick the same plan. Next: what happened when the option nobody chose was taken away."
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "What happened",
+      "title": "Then the option nobody wanted was removed.",
+      "body": [
+        "Dan Ariely ran the offer past 100 MIT students. Then he showed another group only two options, at the same prices."
+      ],
+      "chart": {
+        "unit": "%",
+        "groups": [
+          {
+            "label": "With the decoy",
+            "rows": [
+              {
+                "label": "Web $59",
+                "value": 16,
+                "highlight": false
+              },
+              {
+                "label": "Print $125",
+                "value": 0,
+                "highlight": false
+              },
+              {
+                "label": "Both $125",
+                "value": 84,
+                "highlight": true
+              }
+            ]
+          },
+          {
+            "label": "Without the decoy",
+            "rows": [
+              {
+                "label": "Web $59",
+                "value": 68,
+                "highlight": false
+              },
+              {
+                "label": "Both $125",
+                "value": 32,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "callout": "Revenue per 100 students: **$11,444** with the decoy, **$8,012** without. About 43% more, from an option nobody bought."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The decoy effect",
+      "body": [
+        "A **decoy** is an option that's clearly worse than one target option, but not clearly worse than the others.",
+        "Print only at $125 is obviously worse than Print + Web at $125. It's hard to compare with Web only at $59. The decoy makes one comparison effortless, so that option starts to look like the smart choice.",
+        "Researchers call this **asymmetric dominance**. Huber, Payne and Puto first showed it in 1982."
+      ],
+      "image": {
+        "label": "Target beats decoy; competitor is hard to compare",
+        "aspectRatio": "16:9",
+        "brief": "카드 3장 다이어그램. 타깃(Print+Web)이 디코이(Print)를 이기는 화살표 \"같은 가격, 더 많이\". 경쟁 옵션(Web)과는 물음표로 연결.",
+        "url": "assets/images/eco-05-03-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "You've seen it before",
+      "title": "The popcorn stand.",
+      "illustrative": true,
+      "body": [
+        "Small $4.00. Medium $7.00. Large $7.50. *(Illustrative prices.)*",
+        "The medium is mostly there to make the large look like a bargain. For 50 cents more, why not?",
+        "Look for the same pattern in coffee sizes, phone storage tiers and software plans."
+      ],
+      "image": {
+        "label": "Popcorn: small, medium, large",
+        "aspectRatio": "16:9",
+        "brief": "3D 팝콘 통 3개(S/M/L). 가격표 $4.00 / $7.00 / $7.50. 라지 쪽에 \"+50¢\" 작은 강조.",
+        "url": "assets/images/eco-05-03-c5.jpg"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Decoys are weaker than the famous story suggests.",
+      "body": [
+        "Later research found the effect is smaller and less reliable in realistic settings. A 2014 paper by Frederick, Lee and Baskin had trouble reproducing it across many real product choices.",
+        "Decoys work best when people don't have strong preferences and the options are easy to compare on one or two numbers.",
+        "A decoy that looks obviously fake can make your whole pricing page feel manipulative."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Your coffee shop sells two sizes.",
+      "illustrative": true,
+      "body": [
+        "Small is $3.00. Large is $4.50. You'd like more people to choose Large, which has the better margin.",
+        "You add a Medium. What should it cost?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "$3.50",
+            "verdict": "risky",
+            "feedback": "This Medium is a good deal on its own. It will pull buyers from both sizes, mostly from Large."
+          },
+          {
+            "key": "B",
+            "text": "$4.20",
+            "verdict": "best",
+            "feedback": "That's the decoy. For 30 cents more, Large is clearly the better buy. Most people won't pick Medium, and that's the point."
+          },
+          {
+            "key": "C",
+            "text": "$5.00",
+            "verdict": "risky",
+            "feedback": "A Medium that costs more than Large isn't a decoy. It's confusing, and customers will wonder what they're missing."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Design the comparison, not just the price.",
+      "body": [
+        "People rarely judge an option on its own. They pick the one that's easiest to justify.",
+        "**Try it today:** which plan on your pricing page do you most want people to choose? Is there something next to it that makes it easy to justify?"
+      ],
+      "next": "Next · Pricing from value, not cost"
+    }
+  ]
+}

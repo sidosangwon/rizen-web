@@ -1,0 +1,247 @@
+{
+  "id": "FIN-11-07",
+  "unitId": "FIN-11",
+  "categoryId": "FIN",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "Book a year of gym memberships",
+  "readerTitle": "A gym sells a year of memberships in January. How much did it earn?",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (동네 헬스장, 원예용품점 정기 박스, 소프트웨어 회사 영업팀) · 모든 수치는 설명용",
+  "insight": "선불로 받은 돈은 매출이 아니라 '아직 갚지 않은 약속'이며, 약속을 지키는 방식(기간 또는 배송)에 따라 매출이 잡히는 속도가 정해진다.",
+  "misconception": "연회비를 한 번에 받았으니 그달이 최고 매출 달이고, 통장에 들어온 돈은 마음대로 써도 되는 내 돈이다.",
+  "relatedLessonIds": [
+    "FIN-11-04",
+    "FIN-11-02"
+  ],
+  "sources": [
+    {
+      "text": "재무회계의 표준 개념 (선수수익, 발생주의에 따른 수익 인식)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "헬스장 계산: 120명 × $600 = $72,000. 월 매출 인식액 $600 ÷ 12 = $50 × 120명 = $6,000. 1월 말 선수수익 잔액 $72,000 − $6,000 = $66,000. 12월 말 잔액 $0.",
+      "status": "open"
+    },
+    {
+      "note": "원예 박스: 연 $100, 박스 4개 → 박스당 $25. 가입 시점 매출 $0, 배송할 때마다 $25 인식. 월 $8.33은 $100 ÷ 12로 계산한 오답 선택지입니다.",
+      "status": "open"
+    },
+    {
+      "note": "영업팀: 12개월 $120,000 계약, 분기 마지막 날 체결·선불, 서비스는 다음 날 시작 → 해당 분기 매출 약 $0, 다음 분기부터 월 $10,000($120,000 ÷ 12) 인식. 실제 인식 시작일은 계약 조건(서비스 개시일)에 따라 다를 수 있습니다.",
+      "status": "open"
+    },
+    {
+      "note": "헬스장 회원권처럼 '기간 동안 이용 가능' 약속은 방문 횟수와 관계없이 기간에 따라 인식하는 것이 일반적 원칙이라는 점을 카드에 단순화해 적었습니다. 미사용분(breakage) 처리나 국가별 세무 처리는 다루지 않습니다. 게시 전 회계 전문가 검토 권장.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Everyday scene",
+      "title": "A gym sells a year of memberships in January. How much did it earn?",
+      "illustrative": true,
+      "body": [
+        "Your gym runs a New Year deal: a full year for $600, paid upfront. By January 31, 120 people have signed up.",
+        "The bank account is up $72,000. It feels like the best month you've ever had. On paper, it isn't, and the gap between the two is what this lesson puts to work."
+      ],
+      "image": {
+        "label": "Gym front desk with a stack of annual membership cards and a rising bank balance",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 동네 헬스장 프런트 데스크에 연간 회원 카드가 수북이 쌓여 있고, 옆 모니터에 통장 잔액 \"+$72,000\"이 크게 표시됨. 달력은 1월. 실제 헬스장 브랜드나 로고는 쓰지 않음.",
+        "url": "assets/images/fin-11-07-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How much revenue does January show?",
+      "illustrative": true,
+      "body": [
+        "120 members paid $600 each for twelve months of access, starting in January. Your bookkeeper asks what to put down as January revenue."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "$72,000. The cash came in this month",
+            "verdict": "risky",
+            "feedback": "That counts the cash, not the work. It makes January look huge and the next eleven months look like you ran the gym for free."
+          },
+          {
+            "key": "B",
+            "text": "$6,000. One month of service delivered",
+            "verdict": "best",
+            "feedback": "Right. **When revenue counts** follows what you've delivered: one month of access, $50 per member. The other $66,000 is still owed to members."
+          },
+          {
+            "key": "C",
+            "text": "Nothing until the year is over",
+            "verdict": "partial",
+            "feedback": "Careful instinct, but too careful. You keep your promise a little every month, so you earn a little every month."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Follow the $72,000 through the year.",
+      "illustrative": true,
+      "body": [
+        "Each month, $6,000 moves from *owed* to *earned*. By December, the promise is kept and the debt is gone."
+      ],
+      "breakdown": [
+        {
+          "value": "$72,000",
+          "label": "Cash in",
+          "detail": "120 × $600, all in January",
+          "highlight": false
+        },
+        {
+          "value": "$6,000",
+          "label": "Earned in January",
+          "detail": "$50 per member × 120",
+          "highlight": true
+        },
+        {
+          "value": "$66,000",
+          "label": "Still owed, Jan 31",
+          "detail": "Eleven months of access you haven't given yet",
+          "highlight": true
+        },
+        {
+          "value": "$0",
+          "label": "Still owed, Dec 31",
+          "detail": "Every month delivered, all $72,000 earned",
+          "highlight": false
+        }
+      ],
+      "softwareNote": "A software company selling annual plans has exactly this shape: a big cash month, then revenue earned one month at a time."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept at work",
+      "title": "The $66,000 is a debt, not a windfall.",
+      "illustrative": true,
+      "body": [
+        "This is **money received before it's earned**. Accountants call it *deferred revenue*, and it sits on the balance sheet as something you owe, because members can expect eleven more months of open doors.",
+        "That changes how you spend it. Use all $72,000 on new machines in February, and you still have to pay rent, staff and power through December, with no new membership cash coming in to cover it."
+      ],
+      "image": {
+        "label": "Jar labelled 'owed to members' slowly emptying into a jar labelled 'earned'",
+        "aspectRatio": "16:9",
+        "brief": "유리병 두 개. 왼쪽 \"Owed to members\" 병에 동전이 가득하고, 매달 한 줌씩 오른쪽 \"Earned\" 병으로 옮겨짐. 아래에 Jan부터 Dec까지 달력 눈금.",
+        "url": "assets/images/fin-11-07-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Try it · retail",
+      "title": "A garden center sells a plant club.",
+      "illustrative": true,
+      "body": [
+        "Customers pay $100 once for a year of the club. They get four seasonal boxes of plants, one each spring, summer, autumn and winter. Nothing else.",
+        "When should the store count the revenue?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "About $8.33 a month, spread evenly",
+            "verdict": "partial",
+            "feedback": "Spreading it out is the right instinct, but the store doesn't promise monthly access. It promises boxes."
+          },
+          {
+            "key": "B",
+            "text": "$25 each time a box goes out",
+            "verdict": "best",
+            "feedback": "Yes. **When revenue counts** depends on what was promised. Here the promise is four deliveries, so each delivery earns a quarter."
+          },
+          {
+            "key": "C",
+            "text": "All $100 at signup",
+            "verdict": "risky",
+            "feedback": "That books money for boxes not yet packed. If a bad harvest means no autumn box, the store owes refunds on revenue it already reported."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Two traps with upfront money.",
+      "body": [
+        "First, visits don't decide revenue at the gym. A member who never shows up still had access each month, so you earn their $50 on schedule. The promise is time, not workouts.",
+        "Second, refunds and closures. If you shut for repairs or let people cancel, the unearned part may have to go back. Rules on refunds and taxes differ by country, so check locally before relying on that cash."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · a team inside a company",
+      "title": "The sales team closes a big deal on the last day.",
+      "illustrative": true,
+      "body": [
+        "You lead sales at a software company. On the final day of the quarter, a customer signs a 12-month, $120,000 plan and pays upfront. Service starts tomorrow.",
+        "What should your team report to leadership?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "$120,000 of revenue this quarter",
+            "verdict": "risky",
+            "feedback": "It wins the quarter and loses trust. Finance will show almost no revenue from this deal yet, and the numbers won't match."
+          },
+          {
+            "key": "B",
+            "text": "$120,000 booked, all of it deferred, about $10,000 a month earned from next quarter",
+            "verdict": "best",
+            "feedback": "This credits the team's win and stays honest. It's **money received before it's earned**, turning into revenue as each month of service is delivered."
+          },
+          {
+            "key": "C",
+            "text": "Don't mention it until the year of service ends",
+            "verdict": "risky",
+            "feedback": "Leadership loses an early signal. The deal is real; it just isn't revenue yet."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Upfront cash is a promise you pay back with work.",
+      "body": [
+        "Used here: **when revenue counts** (follow the promise, whether time or deliveries) and **money received before it's earned** (the unearned part is a debt). Both rest on the accrual idea: revenue follows the work, not the cash.",
+        "**Try it today:** find one thing customers pay for before you deliver it. Write down what's still owed and when each piece gets earned."
+      ],
+      "next": "Next · Book a delivery van purchase"
+    }
+  ]
+}

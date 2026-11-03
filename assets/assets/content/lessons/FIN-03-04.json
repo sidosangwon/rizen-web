@@ -1,0 +1,239 @@
+{
+  "id": "FIN-03-04",
+  "unitId": "FIN-03",
+  "categoryId": "FIN",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Comparing the two",
+  "readerTitle": "The $10 customer and the $40 customer: which one is cheaper?",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (동네 비스트로, 사무용품 유통사의 법인영업팀) · 모든 수치는 설명용",
+  "insight": "고객 확보 비용은 그 고객이 남기는 돈과 나란히 놓고, 채널별로 비교할 때 비로소 의미가 생긴다.",
+  "misconception": "고객 한 명을 데려오는 비용이 낮은 채널이 더 좋은 채널이다. 고객 가치는 고객이 쓰는 돈(매출)으로 재면 된다.",
+  "relatedLessonIds": [
+    "FIN-03-03",
+    "FIN-03-05"
+  ],
+  "sources": [
+    {
+      "text": "고객 가치 대비 확보 비용 비교(LTV:CAC)는 마케팅·재무에서 널리 쓰는 표준 개념",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "비스트로 계산: 배달 고객 주문 3회 × $20 = 매출 $60, 주문당 남는 돈 $5 × 3 = $15, 확보 비용 $10 → 1.5배. 시식 행사 고객 방문 8회 × $30 = 매출 $240, 방문당 남는 돈 $15 × 8 = $120, 확보 비용 $40 → 3배. 매출 기준으로는 둘 다 6배($60÷$10, $240÷$40).",
+      "status": "open"
+    },
+    {
+      "note": "$40 지출 시: 배달은 고객 4명 × $15 = $60 − $40 = $20, 시식 행사는 1명 × $120 − $40 = $80.",
+      "status": "open"
+    },
+    {
+      "note": "법인영업팀 계산: 전시회 계정 확보 $3,000, 계정 가치 $9,000 → 3배. 온라인 광고 확보 $500, 계정 가치 $750 → 1.5배. 확보 비용은 6배 차이($3,000÷$500).",
+      "status": "open"
+    },
+    {
+      "note": "\"3:1\"은 소프트웨어 투자자들 사이에서 자주 인용되는 경험칙일 뿐 연구 결과가 아니라는 점을 카드에 명시했습니다. 표현이 과장되지 않았는지 게시 전에 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Everyday scene",
+      "title": "The $10 customer and the $40 customer",
+      "illustrative": true,
+      "body": [
+        "A bistro owner tries two ways to bring in new guests. A delivery-app promotion wins a new customer for about $10. A monthly tasting night wins one for about $40.",
+        "The delivery promo looks four times cheaper. Whether it is depends on a number she hasn't looked at yet."
+      ],
+      "image": {
+        "label": "Two price tags on a bistro counter: $10 and $40",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 조명의 작은 비스트로 카운터. 한쪽에는 배달 봉투에 \"$10\" 가격표, 다른 쪽에는 와인잔과 시식 접시에 \"$40\" 가격표. 실제 배달앱 로고나 브랜드는 쓰지 않음.",
+        "url": "assets/images/fin-03-04-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Where should next month's budget go?",
+      "illustrative": true,
+      "body": [
+        "Delivery promo: $10 per new customer. They order about three more times, $20 each, so they spend $60 in total.",
+        "Tasting night: $40 per new customer. They come back about eight times, $30 each, so they spend $240 in total.",
+        "You have $40 to spend. Which way do you lean?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The delivery promo. Four new customers beat one.",
+            "verdict": "risky",
+            "feedback": "You get more customers, but cost per customer only tells half the story. Delivery orders lose a big slice to the app and packaging."
+          },
+          {
+            "key": "B",
+            "text": "The tasting night. Those guests seem to stick around.",
+            "verdict": "best",
+            "feedback": "Good instinct. Once you count what each visit actually leaves behind, a tasting guest is worth far more than the $40 it cost. Next card shows the math."
+          },
+          {
+            "key": "C",
+            "text": "Split it. Both return six times what they cost in sales.",
+            "verdict": "partial",
+            "feedback": "The sales ratio is a tie, that's true. But sales aren't what you keep, and the two channels keep very different shares."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Count what each customer leaves, not what they spend.",
+      "illustrative": true,
+      "body": [
+        "Per $40 spent: delivery wins four customers worth $60 together, so **$20** is left. The tasting night wins one guest worth $120, so **$80** is left."
+      ],
+      "breakdown": [
+        {
+          "value": "$5 × 3",
+          "label": "Delivery: worth $15",
+          "detail": "Each $20 order leaves $5 after food, packaging and the app's cut",
+          "highlight": false
+        },
+        {
+          "value": "1.5 to 1",
+          "label": "Delivery: worth vs cost",
+          "detail": "$15 earned for every $10 spent winning them",
+          "highlight": false
+        },
+        {
+          "value": "$15 × 8",
+          "label": "Tasting guest: worth $120",
+          "detail": "Each $30 dine-in visit leaves $15 after food and card fees",
+          "highlight": false
+        },
+        {
+          "value": "3 to 1",
+          "label": "Tasting: worth vs cost",
+          "detail": "$120 earned for every $40 spent winning them",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Worth versus cost",
+      "body": [
+        "The idea is simple: put what a customer is worth next to what it cost to win them. Worth means the money they leave behind over their whole time with you, after the costs that come with each sale.",
+        "Divide one by the other and you get a **value-to-cost ratio**, often written *LTV:CAC*. Below 1, you lose money on every new customer. Well above 1, each one pays for itself with room to spare."
+      ],
+      "image": {
+        "label": "A balance scale: customer worth on one side, cost to win on the other",
+        "aspectRatio": "16:9",
+        "brief": "양팔 저울 인포그래픽. 왼쪽 접시 \"What a customer leaves behind\", 오른쪽 접시 \"What it cost to win them\". 왼쪽이 무겁게 내려간 모습과 아래에 \"3 to 1\" 라벨.",
+        "url": "assets/images/fin-03-04-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Two habits make the comparison honest.",
+      "body": [
+        "Most mistakes with this ratio come from skipping one of these:"
+      ],
+      "list": [
+        "**Use what's left, not what's spent.** Sales made both channels look equal at 6 to 1. Margin showed 1.5 versus 3.",
+        "**Compare channel by channel.** A blended average can hide one channel that barely pays for itself behind one that works well."
+      ],
+      "callout": "The cheapest customer to win is not always the cheapest customer to have."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where it applies",
+      "title": "The same comparison, everywhere.",
+      "body": [
+        "A plumber paying for online listings, a gym running a free-week offer, a wholesaler sending reps to trade shows. Each one is buying customers and should ask what those customers leave behind.",
+        "There's no universal target. A ratio near 1 means new customers barely cover themselves, before rent and salaries. The higher it is, the more room you have for mistakes."
+      ],
+      "softwareNote": "Software investors often quote 3 to 1 as a healthy rule of thumb. It's a convention, not a law. A subscription business with low churn may do fine below it, and one with fragile users may need more."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Half of this ratio is a guess.",
+      "body": [
+        "The cost to win a customer is something you've already spent. What they're worth is a forecast. New channels have little history, and forecasts tend to be optimistic.",
+        "The ratio also says nothing about timing. A 3 to 1 customer who takes three years to pay you back can still drain your cash today. That's the next lesson.",
+        "And a very high ratio can mean you're spending too little to grow."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now you run a sales team inside a bigger company.",
+      "illustrative": true,
+      "body": [
+        "Your team wins business accounts for an office-supplies distributor. Trade shows cost $3,000 per new account. Those accounts leave about $9,000 over their life. Online ads cost $500 per account, and those accounts leave about $750.",
+        "Your boss wants to cut trade shows because each account costs six times more. What do you recommend?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Agree. Move the trade-show budget into online ads.",
+            "verdict": "risky",
+            "feedback": "You'd lower cost per account but swap 3 to 1 customers for 1.5 to 1 customers. The team would win more accounts and keep less money."
+          },
+          {
+            "key": "B",
+            "text": "Keep trade shows, and show both ratios side by side",
+            "verdict": "best",
+            "feedback": "This reframes the debate from cost to worth versus cost. Ads still pay for themselves, so the question becomes how to improve them, not which one to kill."
+          },
+          {
+            "key": "C",
+            "text": "Move the whole budget into trade shows",
+            "verdict": "partial",
+            "feedback": "It follows the better ratio, but there are only so many good shows. Spend more and the cost per account will likely rise, while ads were still earning more than they cost."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A cheap customer is only cheap next to what they're worth.",
+      "body": [
+        "Compare what each customer leaves behind with what it cost to win them, one channel at a time.",
+        "**Try it today:** pick two ways you win customers. For each, write the cost per new customer and what a typical customer leaves after the costs of each sale. Which ratio surprises you?"
+      ],
+      "next": "Next · How long until a customer pays you back?"
+    }
+  ]
+}
