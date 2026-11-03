@@ -1,0 +1,237 @@
+{
+  "id": "THK-08-08",
+  "unitId": "THK-08",
+  "categoryId": "THK",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "Read a customer survey critically",
+  "readerTitle": "Your survey says 83% love you. Who didn't answer?",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.3,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (가정 청소 업체, B2B 기장·회계 사무소) · 모든 수치는 설명용",
+  "insight": "설문 결과는 고객 전체가 아니라 응답한 사람들의 목소리다. 먼저 누가 빠졌는지 묻고, 그다음 평균을 쪼개 본다.",
+  "misconception": "응답이 수십 개 이상이고 평균 점수가 높으면 고객 전체가 만족한다는 뜻이다.",
+  "relatedLessonIds": [
+    "THK-08-04",
+    "THK-08-02"
+  ],
+  "sources": [
+    {
+      "text": "표본 선택 편향과 평균의 한계에 관한 통계학 표준 개념 (THK-08-04, THK-08-02)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "청소 업체 응답 분포: 5점 42, 4점 8, 3점 2, 2점 2, 1점 6 = 60명. 합계 210+32+6+4+6 = 258, 평균 258 ÷ 60 = 4.3. 만족(4~5점) 50 ÷ 60 = 83%.",
+      "status": "open"
+    },
+    {
+      "note": "세그먼트 분리: 정기 고객 50명(5점 42, 4점 8) = 242 ÷ 50 = 4.84(약 4.8). 이사 청소 10명(1점 6, 2점 2, 3점 2) = 16 ÷ 10 = 1.6. 전체 258 ÷ 60 = 4.3과 일치.",
+      "status": "open"
+    },
+    {
+      "note": "응답률: 지난 1년 고객 480명 중 최근 3개월 예약 고객 300명에게 발송, 60명 응답. 60 ÷ 480 = 12.5%(8명 중 1명), 60 ÷ 300 = 20%.",
+      "status": "open"
+    },
+    {
+      "note": "회계 사무소: 고객 40곳 중 30곳 응답(75%), 평균 8.6/10은 설명용 가정 수치. 가장 큰 고객 3곳 미응답이라는 설정.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking with data · Everyday scene",
+      "title": "Your survey says 83% love you. Who didn't answer?",
+      "illustrative": true,
+      "body": [
+        "A home cleaning company emails a short survey. Sixty customers reply. The average score is 4.3 out of 5, and 83% rate it 4 or 5.",
+        "The owner is already drafting a flyer: *\"83% of our customers are happy.\"* Before it goes to print, a few questions are worth asking."
+      ],
+      "image": {
+        "label": "Cleaner's van with a flyer reading 83% happy",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 청소 업체 밴 옆에서 사장이 \"83% happy!\"라고 적힌 전단지를 들고 있음. 뒤쪽에 문이 닫힌 집들이 흐릿하게 줄지어 있어 '대답하지 않은 사람들'을 암시. 실제 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What do you check before printing the flyer?",
+      "illustrative": true,
+      "body": [
+        "The company served 480 customers last year. The survey has 60 replies, a 4.3 average and 83% rating it 4 or 5.",
+        "What's the first thing you'd check?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Who got the survey, and who actually answered it",
+            "verdict": "best",
+            "feedback": "This is **selection bias** at work. If the people who replied differ from those who didn't, no score tells you about the other 420."
+          },
+          {
+            "key": "B",
+            "text": "Nothing. Sixty replies is plenty for a small business",
+            "verdict": "risky",
+            "feedback": "You save time, but the number of replies isn't the problem. Sixty answers from the wrong people can mislead as much as six."
+          },
+          {
+            "key": "C",
+            "text": "The average score for each type of job",
+            "verdict": "partial",
+            "feedback": "A strong second step, because **averages hide the story**. But first find out who is missing from the data entirely."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "Who answered",
+      "title": "The survey only reached part of the business.",
+      "illustrative": true,
+      "body": [
+        "The survey went to 300 customers with a booking in the last three months. Anyone who stopped booking earlier never saw it. Of those 300, 60 replied.",
+        "So the 4.3 speaks for 1 in 8 of last year's customers. And it's not a random 1 in 8. People who left quietly are missing. Those who reply tend to feel strongly, either pleased or upset.",
+        "That's **selection bias**: the way data is collected decides who gets counted."
+      ],
+      "image": {
+        "label": "Funnel: 480 customers, 300 surveyed, 60 replied",
+        "aspectRatio": "16:9",
+        "brief": "깔때기 인포그래픽. 위에서부터 \"480 customers last year\", \"300 got the survey\", \"60 replied\". 깔때기 밖으로 빠져나간 사람 아이콘들에 \"Stopped booking\", \"Didn't reply\" 라벨. 차분한 색, 실제 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "chart",
+      "eyebrow": "Look closer",
+      "title": "The 4.3 is made of two very different groups.",
+      "illustrative": true,
+      "body": [
+        "Here are the 60 replies by score. Most are 5s. But there's a cluster of 1s at the bottom that a single average smooths away."
+      ],
+      "chart": {
+        "unit": "count",
+        "groups": [
+          {
+            "label": "Replies by score",
+            "rows": [
+              {
+                "label": "5 stars",
+                "value": 42,
+                "highlight": false
+              },
+              {
+                "label": "4 stars",
+                "value": 8,
+                "highlight": false
+              },
+              {
+                "label": "3 stars",
+                "value": 2,
+                "highlight": false
+              },
+              {
+                "label": "2 stars",
+                "value": 2,
+                "highlight": false
+              },
+              {
+                "label": "1 star",
+                "value": 6,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "callout": "An average of 4.3 can come from everyone feeling fine, or from most people loving you while a few are furious."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Split it",
+      "title": "One average, two businesses.",
+      "illustrative": true,
+      "body": [
+        "Split by job type, the picture changes. The 50 weekly regulars average **4.8**. The 10 move-out deep-clean customers average **1.6**. Every 1-star reply came from a move-out job.",
+        "This is **averages hide the story**. The blended 4.3 describes nobody. The regulars are delighted, and the move-out service has a real problem that the flyer would have papered over."
+      ],
+      "softwareNote": "In-app surveys have the same trap. The pop-up only reaches people still using the product, so users who churned never vote. Split results by plan or signup month before trusting the average."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Don't throw the survey away either.",
+      "body": [
+        "A biased survey still tells you something. The 1-star replies point straight at a fixable problem. Treat skewed data as a lead to check, not a verdict.",
+        "Small groups need care. Ten move-out replies is thin, so call a few of those customers before redesigning the service.",
+        "And check answers against behavior. Rebookings, cancellations and referrals show what people do, including those who never fill in surveys."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a bookkeeping firm.",
+      "illustrative": true,
+      "body": [
+        "Your firm does monthly books for 40 small companies. Thirty reply to a survey asking how likely they are to recommend you. The average is 8.6 out of 10.",
+        "Your three largest clients, the ones that bring in the most fees, didn't reply. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Report the 8.6 to the partners as good news",
+            "verdict": "risky",
+            "feedback": "Quick and pleasant, but **selection bias** means the clients who matter most to revenue aren't in the number at all."
+          },
+          {
+            "key": "B",
+            "text": "Call the silent clients, biggest first, and split scores by client size",
+            "verdict": "best",
+            "feedback": "You find out who's missing (**selection bias**) and stop small clients from masking big ones (**averages hide the story**). It costs a few calls."
+          },
+          {
+            "key": "C",
+            "text": "Resend the survey with a reminder to raise the response rate",
+            "verdict": "partial",
+            "feedback": "More replies help, but reminders often reach the same willing people. Busy large clients usually need a personal call, not another email."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A survey speaks only for the people who answered it.",
+      "body": [
+        "You used two ideas: **selection bias** (ask who never got counted) and **averages hide the story** (split the score before you believe it).",
+        "**Try it today:** take your latest feedback or reviews. Write down who could have answered, who did, and one way to split the results."
+      ],
+      "next": "Next · Abraham Wald and the missing bullet holes"
+    }
+  ]
+}

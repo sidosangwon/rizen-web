@@ -1,0 +1,237 @@
+{
+  "id": "ECO-01-05",
+  "unitId": "ECO-01",
+  "categoryId": "ECO",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Thinking at the margin",
+  "readerTitle": "Why an airline kept flying planes its own books said lost money",
+  "format": "company_story",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.3,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (1960년대 Continental Airlines, 경제학 교과서에 자주 나오는 사례) + 가상 사례 (항공 일정 판단, 소프트웨어 회사 마케팅팀, 상업용 청소 업체) · 가상 사례 수치는 모두 설명용",
+  "insight": "결정은 평균이 아니라 '다음 하나'가 더하는 이익과 비용으로 내린다. 평균이 좋다고 다음 하나가 좋은 것은 아니고, 그 반대도 마찬가지다.",
+  "misconception": "평균 원가보다 싸게 받으면 손해이고, 평균 성과가 가장 좋은 곳에 돈을 더 넣어야 한다.",
+  "relatedLessonIds": [
+    "ECO-01-03",
+    "ECO-02-02"
+  ],
+  "sources": [
+    {
+      "text": "Business Week (1963). \"Airline Takes the Marginal Route.\" Continental Airlines의 운항 결정 방식을 소개한 기사로, 여러 경제학 교과서에 인용됨",
+      "url": null
+    },
+    {
+      "text": "경제학의 표준 개념 (한계적 사고, 한계편익과 한계비용 비교)",
+      "url": null
+    },
+    {
+      "text": "항공 일정, 마케팅팀, 청소 업체 수치는 모두 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Continental 사례: Business Week 1963년 기사 제목과 게재 시기(1963년 4월로 알려짐)를 원문으로 다시 확인하세요. 카드에는 구체적인 수치나 인물 인용 없이 '추가 운항이 더하는 수입이 더하는 비용보다 크면 운항했다'는 일반적 설명만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "카드 2 계산: 예상 수입 $3,000 − 추가 비용 $2,000 = +$1,000. 평균 배분 원가 $4,000 기준으로는 −$1,000처럼 보임.",
+      "status": "open"
+    },
+    {
+      "note": "카드 5 계산: 채널 A 총 $50,000 / 고객 500명 = 평균 $100, 마지막 $10,000 / 20명 = 명당 $500. 채널 B 총 $20,000 / 고객 100명 = 평균 $200, 마지막 $10,000 / 50명 = 명당 $200.",
+      "status": "open"
+    },
+    {
+      "note": "카드 7 계산: 신규 계약 월 $1,500, 평균 계약당 원가 $1,400(평균 기준으로는 +$100). 새 파트타임 팀 $1,500 + 소모품 $200 = 추가 비용 $1,700, 따라서 이 계약 하나로는 월 −$200.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Economics · Company story",
+      "title": "Why an airline kept flying planes its own books said lost money",
+      "body": [
+        "In the early 1960s, Continental Airlines ran some flights that, on its own accounting, didn't pay their way.",
+        "It did this on purpose. A business magazine wrote it up in 1963 as an airline taking \"the marginal route.\" The idea behind it works for any business."
+      ],
+      "image": {
+        "label": "A half-full plane taking off at night",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 밤하늘로 이륙하는 비행기, 창문의 절반 정도만 불이 켜져 있음. 활주로 옆에 장부 한 권이 펼쳐져 있고 빨간 마이너스 표시. 실제 항공사 로고나 도장은 쓰지 않음.",
+        "url": "assets/images/eco-01-05-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Should the evening flight run?",
+      "illustrative": true,
+      "body": [
+        "You plan schedules for a regional airline. A plane and crew sit idle every evening. An extra evening flight would bring in about $3,000 in tickets.",
+        "Spread across all flights, your average cost per flight is $4,000, including planes, offices and salaries. But running this one flight would only add about $2,000 in fuel, landing fees and crew overtime."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Skip it. $3,000 doesn't cover the $4,000 a flight costs",
+            "verdict": "risky",
+            "feedback": "You avoid a flight that looks bad on paper, but you give up $1,000. Most of that $4,000 gets paid whether the plane flies or not."
+          },
+          {
+            "key": "B",
+            "text": "Run it. It adds $3,000 and costs an extra $2,000",
+            "verdict": "best",
+            "feedback": "You come out $1,000 ahead from a plane that would otherwise sit still. The risk is forgetting that someone still has to pay the overhead."
+          },
+          {
+            "key": "C",
+            "text": "Run it only if you can raise fares enough to reach $4,000",
+            "verdict": "partial",
+            "feedback": "You protect your prices, but higher fares may empty the plane. You'd likely give up a sure $1,000 to chase a number that doesn't matter for this choice."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What Continental did",
+      "title": "One question for every extra flight.",
+      "body": [
+        "As the story is usually told in economics textbooks, Continental's planners asked one thing about each extra flight: will it bring in more than the costs it adds?",
+        "Costs the airline paid anyway, like planes it already owned and its headquarters, didn't count. If a flight added more money than cost, it flew, even if it couldn't pay its \"fair share\" of overhead.",
+        "Idle planes and quiet hours turned into **extra income** instead of nothing."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Thinking at the margin",
+      "body": [
+        "**Thinking at the margin** means judging the next step on its own: the next flight, hour, dollar or client. You compare what it adds with what it costs.",
+        "Averages describe everything you've done so far. A decision is only about what happens next. And money already spent doesn't change either way."
+      ],
+      "image": {
+        "label": "A staircase with only the next step highlighted",
+        "aspectRatio": "16:9",
+        "brief": "계단 인포그래픽. 지나온 계단은 회색으로 흐리게 \"Average so far\" 라벨, 바로 다음 계단 한 칸만 밝은 색으로 강조하고 양쪽에 \"Adds\"와 \"Costs\" 저울 아이콘.",
+        "url": "assets/images/eco-01-05-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "chart",
+      "eyebrow": "Inside a company",
+      "title": "The best average can be the worst next dollar.",
+      "illustrative": true,
+      "body": [
+        "A software company's marketing team has $10,000 more to spend. Channel A has the best average cost per new customer. But its last $10,000 brought only 20 new users, as the ads reached the same people again.",
+        "Channel B looks worse on average. Yet each extra dollar there still buys customers at the same rate. The **next dollar** belongs in B."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Average cost per customer",
+            "rows": [
+              {
+                "label": "Channel A",
+                "value": 100,
+                "highlight": false
+              },
+              {
+                "label": "Channel B",
+                "value": 200,
+                "highlight": false
+              }
+            ]
+          },
+          {
+            "label": "Cost per customer, last $10,000",
+            "rows": [
+              {
+                "label": "Channel A",
+                "value": 500,
+                "highlight": false
+              },
+              {
+                "label": "Channel B",
+                "value": 200,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Small steps still have to add up.",
+      "body": [
+        "If every choice only covers its own extra cost, nothing pays the rent. Marginal deals work on top of a business that already covers its fixed costs.",
+        "And count every extra cost honestly. The next client may also bring more management time, more complexity, or a tired team. Those are real costs, even if they never show up on an invoice."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a cleaning company.",
+      "illustrative": true,
+      "body": [
+        "You run an office-cleaning business. Spread across all contracts, your average cost is $1,400 a month per office.",
+        "A new client offers $1,500 a month. But your crews are fully booked. Taking it means hiring a new part-time crew for $1,500 a month, plus $200 in supplies."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Accept. $1,500 beats your $1,400 average cost",
+            "verdict": "risky",
+            "feedback": "The average says yes, but this contract adds $1,700 in costs and only $1,500 in income. You'd lose about $200 a month while feeling busy."
+          },
+          {
+            "key": "B",
+            "text": "Quote above $1,700, or line up more nearby work to fill the new crew",
+            "verdict": "best",
+            "feedback": "You price the contract on what it actually adds. If more clients can share the new crew, its cost per contract falls and the deal can work."
+          },
+          {
+            "key": "C",
+            "text": "Turn it down and stop taking new clients for now",
+            "verdict": "partial",
+            "feedback": "You avoid this loss, but you may miss growth. One or two more contracts could make a new crew pay for itself."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Decide on the next step, not the average.",
+      "body": [
+        "Ask what the next flight, hour, dollar or client adds, and what it costs that you wouldn't pay otherwise. Sometimes that says yes when the average says no. Sometimes the reverse.",
+        "**Try it today:** pick one decision on your desk. Write down only the extra income and the extra costs it would bring."
+      ],
+      "next": "Next · Why the best person shouldn't do every job"
+    }
+  ]
+}

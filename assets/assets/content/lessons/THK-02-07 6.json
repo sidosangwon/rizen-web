@@ -1,0 +1,226 @@
+{
+  "id": "THK-02-07",
+  "unitId": "THK-02",
+  "categoryId": "THK",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "Spot the biases in a startup pitch",
+  "readerTitle": "What the pitch deck leaves out",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (리필 매장 체인 투자 제안, 치과용 기장 서비스 제안) · 모든 수치는 설명용",
+  "insight": "좋은 피치일수록 실패한 사례와 실제 걸린 시간이 빠져 있다. 그 빠진 두 가지를 묻는 것이 피치를 판단하는 출발점이다.",
+  "misconception": "성공 사례가 여럿 있고 계획이 구체적이면 그 사업은 검증된 것이다.",
+  "relatedLessonIds": [
+    "THK-02-02",
+    "THK-02-04"
+  ],
+  "sources": [
+    {
+      "text": "Kahneman, D., & Tversky, A. (1979). Intuitive prediction: Biases and corrective procedures. (계획 오류 개념의 출발점)",
+      "url": null
+    },
+    {
+      "text": "생존자 편향: 통계와 의사결정 분야의 표준 개념",
+      "url": null
+    },
+    {
+      "text": "모든 사례와 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 사례와 수치는 설명용 가상 수치입니다. 계산 확인: 계획 6주 vs 실제 5개월(약 21.7주) = 약 3.6배이므로 카드에는 'more than three times'로 적었습니다. 10% 여유를 두면 6주 × 1.1 = 6.6주(약 7주)입니다.",
+      "status": "open"
+    },
+    {
+      "note": "실제 연구의 수치(예: 계획 대비 지연 비율)는 인용하지 않았습니다. 계획 오류의 기원을 Kahneman & Tversky(1979)로 적은 출처를 게시 전에 다시 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Everyday scene",
+      "title": "What the pitch deck leaves out",
+      "illustrative": true,
+      "body": [
+        "Your friend Maya slides a laptop across the café table. Her plan: a chain of refill shops where customers bring their own jars for rice, oil and soap. She wants you to invest.",
+        "The slides are polished. Two of them are quietly doing most of the persuading."
+      ],
+      "image": {
+        "label": "A founder showing a pitch deck on a laptop at a café table",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 카페 테이블 위 노트북 화면에 리필 매장 사진과 성장 그래프가 있는 슬라이드. 맞은편 사람은 커피를 들고 고개를 갸웃함. 실제 브랜드 로고는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "\"Look at these three. The model works.\"",
+      "illustrative": true,
+      "body": [
+        "Slide 4 shows three refill shops in other cities that grew from one store into small chains.",
+        "Which question tests Maya's claim best?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "How fast did those three grow, and what did they do first?",
+            "verdict": "risky",
+            "feedback": "You'd learn more about the winners but nothing about how often this model wins. The answers will only make the story sound better."
+          },
+          {
+            "key": "B",
+            "text": "How many refill shops opened in those cities, and how many have closed?",
+            "verdict": "best",
+            "feedback": "This asks for the missing failures. Three successes mean little if thirty others quietly shut. That's **survivorship bias** at work."
+          },
+          {
+            "key": "C",
+            "text": "Can you get the same suppliers they use?",
+            "verdict": "partial",
+            "feedback": "A practical question, but it assumes the model already works. Check that first, then the suppliers."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "Bias #1",
+      "title": "The shops that closed don't make slides.",
+      "body": [
+        "**Survivorship bias** means judging from the cases that survived, because the failures have dropped out of view. Closed shops don't give interviews or appear in trend articles.",
+        "Maya isn't lying. She found the examples anyone would find. The useful number is the share of similar shops still open after a few years. If she doesn't know it, that's her first homework."
+      ],
+      "image": {
+        "label": "Three lit shopfronts in front of a row of dim, closed ones",
+        "aspectRatio": "16:9",
+        "brief": "거리 풍경 일러스트. 앞쪽에 불이 켜진 리필 매장 3곳이 선명하게 보이고, 뒤쪽에 셔터가 내려진 비슷한 매장 여러 곳이 흐릿한 회색으로 이어짐. 앞의 3곳에만 스포트라이트. 실제 상호나 로고는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Five stores in twelve months.",
+      "illustrative": true,
+      "body": [
+        "Slide 9 says each new store will take 6 weeks from signing a lease to opening day.",
+        "Maya's first store was also planned for 6 weeks. It took 5 months. How should you read slide 9?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Trust it. She learned from store one, so the next ones will be faster",
+            "verdict": "risky",
+            "feedback": "Some speed-up is real, but leases, permits and fit-outs bring new surprises each time. Betting on the best case is what made store one late."
+          },
+          {
+            "key": "B",
+            "text": "Start from the 5 months store one took, then ask what would really make the next ones faster",
+            "verdict": "best",
+            "feedback": "This starts from what happened, not what was hoped. Using real past durations is the standard fix for **the planning fallacy**."
+          },
+          {
+            "key": "C",
+            "text": "Add a 10% buffer, so about 7 weeks per store",
+            "verdict": "partial",
+            "feedback": "A buffer is a good instinct. But 10% barely helps when the last plan was off by more than three times."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Bias #2",
+      "title": "A plan describes the best case.",
+      "body": [
+        "**The planning fallacy** is our habit of underestimating how long and how much a project will take, even when we know similar projects ran late.",
+        "A plan imagines each step going smoothly. Reality adds the landlord who doesn't reply and the inspector who comes back twice. The fix is to look outside the plan: how long did this really take last time, for you or for others?"
+      ],
+      "image": {
+        "label": "A planned straight-line timeline next to the real, winding one",
+        "aspectRatio": "16:9",
+        "brief": "타임라인 비교 인포그래픽. 위쪽은 \"Plan: 6 weeks\"라는 곧은 화살표, 아래쪽은 \"Actual: 5 months\"라는 구불구불한 길에 \"Lease\", \"Permit\", \"Inspection\" 표지판이 서 있음.",
+        "url": null
+      },
+      "softwareNote": "Software roadmaps slip for the same reason. Compare each new estimate with how long past releases actually took, not how long they were planned to take."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A bias label is not a verdict.",
+      "body": [
+        "Spotting survivorship bias doesn't prove refill shops fail. Spotting the planning fallacy doesn't mean five stores in a year is impossible. It means the pitch hasn't shown it yet.",
+        "So ask for the missing data, not for the founder to give up. And turn the same questions on your own plans. Biases are far easier to see in other people's pitches than in our own."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a B2B service.",
+      "illustrative": true,
+      "body": [
+        "A founder pitches a bookkeeping service for dental clinics. \"Both clinics in our pilot love it. With one salesperson, we'll sign 40 clinics by June.\"",
+        "You have time for one question. Which do you ask?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "How many clinics did you approach to get those two, and how long did each take to sign?",
+            "verdict": "best",
+            "feedback": "One question checks both biases. It brings out the clinics that said no and gives a real timeline to set against June."
+          },
+          {
+            "key": "B",
+            "text": "Could the two pilot clinics give me a reference call?",
+            "verdict": "partial",
+            "feedback": "References help, but you'd only hear from the happy survivors. It doesn't test how often clinics say yes."
+          },
+          {
+            "key": "C",
+            "text": "Would a second salesperson get you to 40 faster?",
+            "verdict": "risky",
+            "feedback": "This accepts the plan and simply scales it. If the first two clinics took months to sign, doubling the team won't fix the forecast."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Ask for what the pitch left out.",
+      "body": [
+        "Every pitch shows the winners and the best-case timeline. Your job is to ask for the rest."
+      ],
+      "list": [
+        "**Used today:** survivorship bias (who tried this and failed?) and the planning fallacy (how long did it really take last time?)",
+        "**Try it today:** take the last plan or pitch you approved. Write down one missing failure and one real past duration it should have included."
+      ],
+      "next": "Next · Spot the biases in a store's failure"
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "id": "ENT-07-03",
+  "unitId": "ENT-07",
+  "categoryId": "ENT",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "Zombie companies",
+  "readerTitle": "The business that won't die, and won't grow",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 연구 (일본 좀비 대출, BIS 좀비 기업 정의) + 가상 사례 (B2B 마케팅 에이전시, 비스트로)",
+  "insight": "망하지 않는 것은 성공이 아니다. 사업은 '살아남는가'가 아니라 '그 시간과 돈을 다른 데 썼을 때보다 나은가'로 판단한다.",
+  "misconception": "적자만 아니면 버티는 것이 맞다. 문을 닫지 않는 한 실패가 아니다.",
+  "relatedLessonIds": [
+    "ENT-07-01",
+    "ENT-07-04"
+  ],
+  "sources": [
+    {
+      "text": "Caballero, R., Hoshi, T., & Kashyap, A. (2008). Zombie Lending and Depressed Restructuring in Japan. American Economic Review, 98(5).",
+      "url": null
+    },
+    {
+      "text": "Banerjee, R., & Hofmann, B. (2018). The rise of zombie firms: causes and consequences. BIS Quarterly Review, September 2018.",
+      "url": null
+    },
+    {
+      "text": "에이전시와 비스트로 사례의 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "BIS(2018)의 좀비 기업 정의: 이자보상배율(영업이익 ÷ 이자비용)이 3년 연속 1 미만인 상장 기업, 일부 정의에는 설립 10년 이상·낮은 성장 기대 조건 추가. 카드에는 '이익으로 이자를 몇 년 연속 감당하지 못하는 기업' 정도로만 일반화해 적었습니다. 게시 전 원문 확인 필요.",
+      "status": "open"
+    },
+    {
+      "note": "Caballero·Hoshi·Kashyap(2008)의 핵심 결과: 1990년대 일본 은행들이 회생 불가능한 기업에 대출을 이어갔고, 좀비 기업이 많은 업종일수록 건전한 기업의 투자와 고용이 줄었다. 구체적 수치는 카드에 넣지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "에이전시 계산(가상): 다른 곳에서 받을 수 있는 연봉 $110,000 − 현재 본인 급여 $60,000 = 연 $50,000, × 4년 = $200,000. 세금·복리후생 차이는 단순화를 위해 제외.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Pivots & failure · Counterexample",
+      "title": "The business that won't die, and won't grow",
+      "illustrative": true,
+      "body": [
+        "Maya has run a small marketing agency for seven years. It has never missed payroll. It has never lost money.",
+        "Revenue has also been flat for four years, and she pays herself less than her former employees now earn. Nothing is broken. That is exactly the problem."
+      ],
+      "image": {
+        "label": "An office where the calendar pages change but nothing else does",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 같은 책상, 같은 화분, 같은 화이트보드 그래프(평평한 선)가 네 컷으로 반복되고 벽 달력의 연도만 바뀜. 인물은 조금씩 지쳐 보임. 실제 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Flat for four years. What now?",
+      "illustrative": true,
+      "body": [
+        "Maya's agency brings in about $400,000 a year and breaks even after her $60,000 salary. Clients are loyal but small. A former client has offered her an in-house role at $110,000.",
+        "What should she do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep going and push harder on sales this year",
+            "verdict": "partial",
+            "feedback": "Effort might help, but she has pushed before. Without a clear target and deadline, \"this year\" can quietly become year eight."
+          },
+          {
+            "key": "B",
+            "text": "Set a specific growth target and a date. If she misses it, change the business or wind it down",
+            "verdict": "best",
+            "feedback": "She keeps the chance to grow but stops drifting. The deadline turns a vague hope into a decision she will actually make."
+          },
+          {
+            "key": "C",
+            "text": "Cut costs further so the margins look healthier",
+            "verdict": "risky",
+            "feedback": "Cuts buy time and better-looking numbers. But they rarely create growth, so they can make a stuck business last longer without fixing it."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The hidden bill",
+      "title": "\"Breaking even\" has a cost that never shows up on the books.",
+      "illustrative": true,
+      "body": [
+        "The agency's accounts say zero loss. Maya's own accounts tell a different story."
+      ],
+      "breakdown": [
+        {
+          "value": "$110,000",
+          "label": "What she could earn elsewhere",
+          "detail": "The job offer on the table",
+          "highlight": false
+        },
+        {
+          "value": "−$60,000",
+          "label": "What she pays herself",
+          "detail": "All the business can afford",
+          "highlight": false
+        },
+        {
+          "value": "$50,000",
+          "label": "Gap per year",
+          "detail": "The price of staying",
+          "highlight": false
+        },
+        {
+          "value": "$200,000",
+          "label": "Over four flat years",
+          "detail": "Plus time, energy and missed chances",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Zombie companies",
+      "body": [
+        "A **zombie company** keeps running but has no realistic path to becoming worth the time and money it absorbs. It is not dead, so no one is forced to act. It is not growing, so it never truly lives.",
+        "Economists use the term more narrowly: firms whose profits fail to cover even their interest payments for several years in a row, kept alive by lenders. For a founder, the test is simpler: *would I start this business today, knowing what I know?*"
+      ],
+      "image": {
+        "label": "Three paths: growing, closed, and a flat line that goes on forever",
+        "aspectRatio": "16:9",
+        "brief": "세 갈래 길 인포그래픽. 위로 오르는 길 \"Growing\", 끝이 깔끔하게 막힌 길 \"Closed\", 끝없이 평평하게 이어지는 길 \"Zombie\". 마지막 길을 회색 안개로 강조.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "Zombies hurt more than their owners.",
+      "body": [
+        "In 1990s Japan, many banks kept lending to firms that could not repay, partly to avoid admitting losses. Economists Ricardo Caballero, Takeo Hoshi and Anil Kashyap studied the result in 2008.",
+        "In industries crowded with these propped-up firms, **healthy competitors invested and hired less**. Zombies kept prices low and held on to customers and workers that better businesses could have used.",
+        "The same happens in miniature. A stuck business ties up its founder, its staff and its customers."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Why it happens",
+      "title": "Nothing forces the decision.",
+      "body": [
+        "A failing business sends alarms: missed payroll, angry lenders. A zombie sends none. Each month looks like the last, so \"keep going\" wins by default.",
+        "Other forces pile on. Years already invested feel wasted if you stop. The business is part of who you are. Loyal clients and staff make leaving feel like betrayal."
+      ],
+      "softwareNote": "In software it looks like flat monthly revenue for years: new sign-ups just replace users who churn, and founders take tiny salaries. The product works, so no single month ever feels like the moment to change."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Small and steady is not the same as zombie.",
+      "body": [
+        "A business that pays its owner well, that they enjoy, and that they would happily run for ten more years is a success. It just isn't trying to grow.",
+        "The label depends on two things: your goal and your alternatives. Flat revenue in year two may simply be early. Flat revenue in year six, with a founder who wants more and is paying for it out of pocket, is a warning sign."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a bistro.",
+      "illustrative": true,
+      "body": [
+        "Sam's bistro has broken even for five years. He works 70 hours a week and pays himself little. His lease is up in six months, and the landlord wants a 10-year renewal.",
+        "What should Sam do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Sign the 10-year lease. The bistro has proven it can survive",
+            "verdict": "risky",
+            "feedback": "Survival is what's proven, not success. A long lease locks him into another decade of the same flat result."
+          },
+          {
+            "key": "B",
+            "text": "Use the next six months as a test: set the numbers he needs, try one real change, then decide",
+            "verdict": "best",
+            "feedback": "The lease gives him the forcing event zombies lack. He might find a path to growth, or a clear reason to leave on his terms."
+          },
+          {
+            "key": "C",
+            "text": "Close now. Five flat years is enough",
+            "verdict": "partial",
+            "feedback": "It may be the right call, and it ends the drift. But he gives up a free six-month window to test whether a change could work."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Not dying is not the same as living.",
+      "body": [
+        "Judge a business by what it returns for the time and money you put in, compared with your best alternative, not by whether it survives.",
+        "**Try it today:** ask yourself, \"Would I start this business today, knowing what I know?\" If the answer is no, set one target and one date."
+      ],
+      "next": "Next · How to shut down well"
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "id": "THK-01-10",
+  "unitId": "THK-01",
+  "categoryId": "THK",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Open a second location?",
+  "readerTitle": "Your restaurant is full. Should you open a second one?",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.3,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (만두 식당의 2호점 결정) · 모든 인물과 수치는 설명용",
+  "insight": "2호점은 1호점의 복사본이 아니다. 1호점이 왜 잘되는지 뜯어보고, 현장을 직접 보고, 다음에 일어날 일과 여유 자금까지 따져야 같은 성공을 옮길 수 있다.",
+  "misconception": "1호점이 잘되면 같은 메뉴와 인테리어를 그대로 옮기기만 해도 2호점도 잘된다.",
+  "relatedLessonIds": [
+    "THK-01-02",
+    "THK-01-05"
+  ],
+  "sources": [
+    {
+      "text": "THK-01 유닛의 사고 모형 (제1원리, 지도와 영토, 2차 사고, 안전 마진)",
+      "url": null
+    },
+    {
+      "text": "모든 인물, 장소, 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 설명용 가상 수치입니다. 자금 계산: 저축 $150,000 − 인테리어 $90,000 = 여유 자금 $60,000. 월 손실 $10,000 기준 6개월분입니다. $120,000을 쓰면 여유 자금은 $30,000, 즉 3개월분입니다.",
+      "status": "open"
+    },
+    {
+      "note": "6개월 뒤 결과: 1~5개월 손실 $10,000 × 5 = $50,000, 6개월째 손익분기. $60,000 − $50,000 = $10,000이 남습니다. $30,000만 남겼다면 3개월째 말에 자금이 바닥납니다.",
+      "status": "open"
+    },
+    {
+      "note": "하루 12,000명 유동인구 수치는 가상 중개 보고서의 숫자입니다. 실제 통계로 읽히지 않도록 카드에 'broker's report'로 표시했습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Simulation",
+      "title": "Your restaurant is full. Should you open a second one?",
+      "illustrative": true,
+      "body": [
+        "Dana runs a 40-seat dumpling restaurant. For three years there has been a line at lunch most days. Then a landlord across town offers her a space.",
+        "Over the next four cards, you make Dana's calls. Each one uses a different way of thinking from this unit."
+      ],
+      "image": {
+        "label": "A busy dumpling restaurant with a line outside",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 작은 만두 식당 앞에 점심 줄이 서 있고, 오른쪽 위에 말풍선처럼 '빈 점포' 간판이 걸린 다른 가게가 작게 보임. 실제 상호나 로고는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 4",
+      "title": "Before looking at the new space, what do you write down?",
+      "illustrative": true,
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "What customers praise in reviews: the menu, the decor, the friendly vibe",
+            "verdict": "partial",
+            "feedback": "Useful, but reviews show what customers notice, not what makes the numbers work. Some causes of success are invisible to them."
+          },
+          {
+            "key": "B",
+            "text": "Each reason the first restaurant makes money, broken down piece by piece",
+            "verdict": "best",
+            "feedback": "You list them: the recipes, two skilled cooks, nearby office workers, rent below market, and you on the floor every night. Two of those won't move across town: the cheap rent and you."
+          },
+          {
+            "key": "C",
+            "text": "This year's revenue and profit, then plan to double them",
+            "verdict": "risky",
+            "feedback": "Fast, but it assumes everything behind those numbers comes along. You'd learn which parts don't the hard way."
+          }
+        ],
+        "afterReveal": "Break success into its basic parts before you copy it. Not every part travels."
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 4",
+      "title": "The broker says 12,000 people pass by every day.",
+      "illustrative": true,
+      "body": [
+        "Say you chose B. The broker's report shows more foot traffic than your current street. The landlord wants an answer this week."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Sign. The numbers beat your current spot",
+            "verdict": "risky",
+            "feedback": "The report counts people walking past, not people who would stop to eat. You could commit to years of rent based on the wrong count."
+          },
+          {
+            "key": "B",
+            "text": "Ask the broker for more data first",
+            "verdict": "partial",
+            "feedback": "More detail helps, but it's still someone else's summary. The report can't tell you why people are on that street."
+          },
+          {
+            "key": "C",
+            "text": "Sit across the street at lunch, dinner and on a weekend, and watch",
+            "verdict": "best",
+            "feedback": "You see busy lunches from nearby offices. But most evening traffic is commuters rushing to the train. You plan a lunch-focused shop with shorter evening hours."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "A market-size report is a map too. Ten calls with possible customers in the new market show you things the report can't."
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 4",
+      "title": "Who runs the new kitchen?",
+      "illustrative": true,
+      "body": [
+        "Say you chose C. You sign a lease for a lunch-focused shop. Ken, your best cook, is excited to lead the new kitchen."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Send Ken. The new shop needs your best person",
+            "verdict": "risky",
+            "feedback": "The new shop gets off to a strong start. Then dumplings at the first shop slip, and regulars notice. You've weakened what pays the bills."
+          },
+          {
+            "key": "B",
+            "text": "Move there yourself and leave your manager in charge of the first shop",
+            "verdict": "partial",
+            "feedback": "You protect the launch, but you're the piece you found wouldn't travel. The first shop loses its nightly owner all at once."
+          },
+          {
+            "key": "C",
+            "text": "Hire a cook now, have Ken train them for two months, then let Ken lead the new kitchen",
+            "verdict": "best",
+            "feedback": "The opening comes later and costs two months of extra wages. But when Ken leaves, the first shop keeps its quality."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 4 of 4",
+      "title": "How much of your savings do you spend?",
+      "illustrative": true,
+      "body": [
+        "Say you chose C. You have $150,000 saved. The fit-out you like costs $120,000. Your plan says the new shop will lose about $10,000 a month until it breaks even in month four."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Spend all $150,000 on a fit-out that really impresses",
+            "verdict": "risky",
+            "feedback": "A beautiful room, but the first slow month has to be paid from the first shop's cash. One surprise could put both shops at risk."
+          },
+          {
+            "key": "B",
+            "text": "Spend $120,000 and keep $30,000, exactly enough for three months of losses",
+            "verdict": "partial",
+            "feedback": "It feels careful, but it only works if the plan is right. Your plan needs four months, and plans tend to run late."
+          },
+          {
+            "key": "C",
+            "text": "Trim the fit-out to $90,000 and keep $60,000, enough for six months",
+            "verdict": "best",
+            "feedback": "The room is plainer. In return, you can survive the plan being off by 50%."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Six months later",
+      "title": "The plan was wrong. The buffer wasn't.",
+      "illustrative": true,
+      "body": [
+        "The new shop broke even in month six, not month four. Five months of losses cost **$50,000**.",
+        "With $30,000 in reserve, Dana would have run out of cash in month three, just as lunch regulars were starting to come back. With $60,000, she still has $10,000 left.",
+        "None of Dana's choices made the new shop succeed. They kept it alive long enough to find out."
+      ],
+      "image": {
+        "label": "Two cash jars draining over six months",
+        "aspectRatio": "16:9",
+        "brief": "두 개의 유리병에 동전이 들어 있음. 왼쪽 '$30,000' 병은 3개월째에 비고, 오른쪽 '$60,000' 병은 6개월째에도 바닥에 조금 남아 있음. 아래에 1~6개월 눈금.",
+        "url": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Careful thinking has a price.",
+      "body": [
+        "Every best choice here cost something: weeks of watching the street, two months of extra wages, a plainer room. Another tenant might have taken the space while Dana was still watching.",
+        "These habits don't promise a hit. They cut out the avoidable mistakes. A second location is also a different job: running managers, not a kitchen. Some owners find that job sits outside what they do best."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Copy the reasons, not the restaurant.",
+      "body": [
+        "Each decision used one idea from this unit:"
+      ],
+      "list": [
+        "**Decision 1 · First principles:** break success into the parts that cause it",
+        "**Decision 2 · The map is not the territory:** the report isn't the street",
+        "**Decision 3 · Second-order thinking:** ask what happens to the first shop next",
+        "**Decision 4 · Margin of safety:** leave room for the plan to be wrong"
+      ],
+      "callout": "**Try it today:** write down three reasons your business works. Next to each one, note whether it would survive a move to a new place.",
+      "softwareNote": "Launching in a second country or for a second customer type works the same way. If founder-led sales won the first market, ask who sells in the second, and how many months of runway you have if it takes twice as long.",
+      "next": "Next · Why we notice only the evidence we want"
+    }
+  ]
+}

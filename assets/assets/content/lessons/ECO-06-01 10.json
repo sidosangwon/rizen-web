@@ -1,0 +1,250 @@
+{
+  "id": "ECO-06-01",
+  "unitId": "ECO-06",
+  "categoryId": "ECO",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Value-based pricing",
+  "readerTitle": "The fix took ten minutes. Should the bill be $150 or $900?",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft_review",
+  "estimatedMinutes": 4.3,
+  "caseKinds": [
+    "illustrative",
+    "anecdote"
+  ],
+  "caseNote": "가상 사례 (냉동고 긴급 수리, 호텔 세탁) + 전해 내려오는 일화 (Steinmetz 분필 표시, 세부 미확인)",
+  "insight": "원가는 가격의 바닥을 정하고, 고객이 얻는 가치가 가격을 정한다.",
+  "misconception": "가격은 원가에 적정 마진을 붙여 정하는 것이다.",
+  "relatedLessonIds": [
+    "ECO-07-02",
+    "CUS-02-05"
+  ],
+  "sources": [
+    {
+      "text": "Nagle & Müller. The Strategy and Tactics of Pricing (6th ed.). Routledge.",
+      "url": null
+    },
+    {
+      "text": "Steinmetz chalk-mark anecdote: widely retold (e.g. a 1965 reader letter in Life magazine); details unverified",
+      "url": null
+    },
+    {
+      "text": "시나리오 수치: 교육용 가상 데이터",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "냉동고 수리 시나리오의 수치(손실 $3,000, 원가 $150, 경쟁사 $250)는 교육용 가상 수치입니다. 카드에 \"Illustrative example\" 표기를 검토하세요.",
+      "status": "open"
+    },
+    {
+      "note": "\"가치의 10–30%를 가져간다\"는 업계 경험칙입니다. 시나리오의 $600–900은 $3,000의 20–30%로 이 범위 안에 있습니다.",
+      "status": "open"
+    },
+    {
+      "note": "\"분필 표시 하나에 $10,000\" 이야기는 Charles Steinmetz와 Henry Ford의 일화로 널리 전해지지만 세부는 확인되지 않습니다. 카드에 \"a story told for about a century\"와 \"may be embellished\"로 전설임을 밝혔습니다. 실화처럼 쓰지 마세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Pricing · Lesson 4",
+      "title": "The fix took ten minutes. Should the bill be $150 or $900?",
+      "illustrative": true,
+      "body": [
+        "Most business owners start pricing from their own costs or hours. Many of the most profitable ones start somewhere else.",
+        "Let's price a service."
+      ],
+      "image": {
+        "label": "A technician at a restaurant freezer, late at night",
+        "aspectRatio": "4:3",
+        "brief": "밤늦은 식당 주방. 수리 기사가 업소용 냉동고 앞에 있고, 옆에 식재료 상자와 시계(새벽 1시)가 보임. 3D 클레이 스타일, 따뜻한 조명.",
+        "url": "assets/images/eco-06-01-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Price this emergency repair.",
+      "illustrative": true,
+      "body": [
+        "Your company repairs commercial freezers for restaurants."
+      ],
+      "list": [
+        "A breakdown can spoil about **$3,000** of food and cost a night of sales",
+        "Your team arrives within **2 hours**, day or night",
+        "Your cost per call-out: about **$150** for staff, travel and parts",
+        "Regular repair firms charge **$250** and come the next day"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "$300, a healthy margin on your $150 cost",
+            "verdict": "risky",
+            "feedback": "That's pricing from your cost, which the restaurant never sees. You'd charge about what a next-day firm charges while saving the owner thousands."
+          },
+          {
+            "key": "B",
+            "text": "$250, matching the regular firms",
+            "verdict": "partial",
+            "feedback": "Safe, but you're not offering the same thing. Arriving tonight instead of tomorrow is the whole point."
+          },
+          {
+            "key": "C",
+            "text": "$600–900 for a 2-hour emergency call-out",
+            "verdict": "best",
+            "feedback": "Arriving fast can save the restaurant about $3,000. At $600–900 the owner keeps most of that, and you capture a fair share. That's value-based pricing."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The concept",
+      "title": "Every price sits between three numbers.",
+      "illustrative": true,
+      "body": [
+        "**Value-based pricing** sets the price by what the customer gains, not by what it costs you to provide."
+      ],
+      "breakdown": [
+        {
+          "value": "$3,000",
+          "label": "Value ceiling",
+          "detail": "Food and sales saved by arriving fast",
+          "highlight": false
+        },
+        {
+          "value": "$600–900",
+          "label": "Your price",
+          "detail": "Where you capture a share",
+          "highlight": true
+        },
+        {
+          "value": "$250",
+          "label": "Competitor reference",
+          "detail": "Next-day repair",
+          "highlight": false
+        },
+        {
+          "value": "$150",
+          "label": "Cost floor",
+          "detail": "Below this you lose money",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "How to measure it",
+      "title": "Value is the gain over the next best option.",
+      "illustrative": true,
+      "body": [
+        "Don't ask \"what's our service worth?\" Ask \"what does the customer get with us that they don't get from their next best option?\"",
+        "For the restaurant, the next best option is a firm that comes tomorrow, after the food has spoiled. Your real edge is the difference between those two outcomes.",
+        "A common rule of thumb is to capture roughly **10–30% of the value you create**. It's a starting point, not a law. The customer needs to keep most of the gain, or the deal stops feeling fair."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "An old story",
+      "title": "$1 for the chalk. $9,999 for knowing where.",
+      "body": [
+        "A story told for about a century: a factory's giant machine broke down, and an expert fixed it after marking one spot with chalk. His bill was $10,000.",
+        "Asked to itemize it, he reportedly wrote: chalk mark, $1. Knowing where to put it, $9,999.",
+        "The details may be embellished, but the point holds. Customers pay for the problem solved, not the minutes spent."
+      ],
+      "image": {
+        "label": "A chalk X on a giant machine",
+        "aspectRatio": "16:9",
+        "brief": "거대한 공장 기계 옆면에 분필로 그린 X 표시 하나. 옆에 손글씨 청구서 \"Chalk mark $1 / Knowing where $9,999\". 흑백 사진 느낌의 일러스트.",
+        "url": "assets/images/eco-06-01-c5.jpg"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Going deeper",
+      "title": "Different customers, different value.",
+      "illustrative": true,
+      "body": [
+        "The same repair might save a corner café $300 and a hotel kitchen $20,000.",
+        "One flat price is too high for the first and too cheap for the second. That's why value-based businesses choose a **value metric**: a unit that grows with what the customer gets, such as per room, per site or per machine covered."
+      ],
+      "image": {
+        "label": "Corner café vs hotel kitchen on a scale",
+        "aspectRatio": "16:9",
+        "brief": "저울 일러스트. 한쪽에 작은 동네 카페 냉동고(손실 $300), 다른 쪽에 호텔 대형 주방(손실 $20,000). 호텔 쪽으로 기울어짐.",
+        "url": "assets/images/eco-06-01-c6.jpg"
+      },
+      "softwareNote": "Software companies use the same logic when they charge per seat, per transaction or per resolved support ticket instead of one flat fee. The best unit grows as the customer gets more value."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Value you can't show doesn't count.",
+      "body": [
+        "If customers can't see the value, they'll compare you with the $250 firm, or guess at your costs.",
+        "Value-based pricing needs proof: a record of response times, examples of losses avoided, references from other restaurants.",
+        "It also isn't permission to charge the maximum. Price close to the ceiling, and every small problem makes customers question the deal."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Pick the value metric.",
+      "illustrative": true,
+      "body": [
+        "You run a commercial laundry for hotels. A 40-room inn and a 400-room resort both want your service.",
+        "What should the price grow with?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Hours your staff spend on each hotel",
+            "verdict": "risky",
+            "feedback": "That tracks your costs, not their value. You'd even earn more by working slowly."
+          },
+          {
+            "key": "B",
+            "text": "Occupied rooms per night",
+            "verdict": "best",
+            "feedback": "Yes. The more guests a hotel has, the more clean linen is worth to it. The price grows with the hotel's business, in busy seasons and quiet ones."
+          },
+          {
+            "key": "C",
+            "text": "One flat monthly fee for every hotel",
+            "verdict": "partial",
+            "feedback": "Simple, but it's expensive for the small inn and a bargain for the resort. You'd lose the first and undercharge the second."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Your costs set the floor. Your customer's gain sets the price.",
+      "body": [
+        "Start pricing from the customer's math, not yours.",
+        "**Try it today:** fill in one sentence. \"Our customer gains ___ (in money or hours) compared with their next best option.\" If you can't fill in the blank, that's your first job."
+      ],
+      "next": "Next · How to raise prices"
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "id": "ENT-07-09",
+  "unitId": "ENT-07",
+  "categoryId": "ENT",
+  "order": 9,
+  "type": "case",
+  "conceptTag": "Slack started as a game",
+  "readerTitle": "The failed game that left behind a better business",
+  "format": "company_story",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Tiny Speck의 Glitch → Slack, Flickr) + 가상 적용 (원두를 직접 볶는 카페)",
+  "insight": "피벗은 빈 종이에서 새 아이디어를 찾는 일이 아니라, 실패한 사업 안에서 이미 쓰이고 있는 조각을 찾아 그 위에 다시 세우는 일이다.",
+  "misconception": "사업이 실패하면 처음부터 완전히 새로 시작해야 하고, 본업이 아닌 부산물에는 가치가 없다.",
+  "relatedLessonIds": [
+    "ENT-07-02",
+    "ENT-07-05"
+  ],
+  "sources": [
+    {
+      "text": "Stewart Butterfield, Glitch 서비스 종료 공지 (2012년 11월, glitch.com) 및 당시 언론 보도 (종료 사유, 2012년 12월 종료)",
+      "url": null
+    },
+    {
+      "text": "Slack 공식 블로그, 정식 출시 발표 (2014년 2월) 및 프리뷰 출시 관련 보도 (2013년 8월)",
+      "url": null
+    },
+    {
+      "text": "Stewart Butterfield, \"We Don't Sell Saddles Here\" (Medium, 2014)",
+      "url": "https://medium.com/@stewart/we-dont-sell-saddles-here-4c59524d650d"
+    },
+    {
+      "text": "Salesforce 보도자료: Slack 인수 합의 (2020년 12월) 및 인수 완료 (2021년 7월)",
+      "url": null
+    },
+    {
+      "text": "Flickr가 온라인 게임 Game Neverending 개발 중 만든 기능에서 시작했다는 내용: 다수 언론 보도와 Butterfield 인터뷰",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Glitch는 2011년 공개, 2012년 11월 종료 발표, 2012년 12월 서비스 종료. 게시 전 Glitch 종료 공지와 당시 보도로 날짜를 다시 확인하세요. 카드에는 '2012년 말'로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "팀이 IRC 기반 내부 채팅 도구를 직접 만들어 썼고, 팀이 여러 도시(샌프란시스코, 밴쿠버 등)에 나뉘어 있었다는 내용은 여러 인터뷰에 나옵니다. 카드에는 도시 이름 없이 '여러 도시'로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Slack 프리뷰 2013년 8월, 정식 출시 2014년 2월. 프리뷰 첫날 가입자 수 등 구체 수치는 출처마다 달라 넣지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Salesforce 인수 완료 2021년 7월, 규모 약 277억 달러. 카드에는 금액 없이 'one of the largest software deals of its time'이라고 썼습니다. 이 표현이 과하지 않은지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "외부 팀에 먼저 써 보게 하며 다듬었다는 내용은 Butterfield 인터뷰에 근거합니다. 참여 회사 수나 이름은 넣지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "카페 원두 사례(4곳의 문의 등)는 모두 설명용 가상 사례입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Pivots · Company story",
+      "title": "The failed game that left behind a better business",
+      "body": [
+        "In 2011, a small company called Tiny Speck launched Glitch, a quirky online game you played in a web browser. It had fans, investors and a talented team.",
+        "It didn't have enough players. But hidden inside the company was something worth far more than the game."
+      ],
+      "image": {
+        "label": "A whimsical game world fading, with a chat window glowing in the corner",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 동화 같은 게임 세계가 회색으로 바래 가고, 화면 구석의 작은 채팅 창만 밝게 빛남. 실제 Glitch, Slack 로고나 캐릭터는 쓰지 않음.",
+        "url": "assets/images/ent-07-09-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "It's late 2012. The game isn't growing.",
+      "body": [
+        "You're the founder. Glitch has loyal fans but too few of them, and the growth isn't coming. You still have some investor money and a strong team.",
+        "One more thing: to work across several cities, your team built its own chat tool. Everyone uses it all day. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Make one more push on the game: new features, a big marketing campaign",
+            "verdict": "risky",
+            "feedback": "You keep what the team loves, but you spend your remaining money on the part with the weakest evidence. Years of trying hadn't brought enough players."
+          },
+          {
+            "key": "B",
+            "text": "Shut down and start fresh on a brand-new idea",
+            "verdict": "partial",
+            "feedback": "Stopping the game is sound. But a blank page throws away the one thing you know people use every day, even if those people are just your team."
+          },
+          {
+            "key": "C",
+            "text": "Shut down the game and test whether other teams want the chat tool",
+            "verdict": "best",
+            "feedback": "You give up the dream you started with, and you bet on something with real daily use behind it. The catch: your team is only one customer, so you must test fast."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "The game closed. The tool became Slack.",
+      "body": [
+        "Founder Stewart Butterfield shut Glitch down in late 2012. Most of the team was let go. A small group stayed to turn the internal chat tool into a product.",
+        "They called it Slack. A preview came out in 2013 and the full launch followed in early 2014. Teams adopted it quickly.",
+        "In 2021, Salesforce completed its purchase of Slack, one of the largest software deals of its time."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Keep what's proven. Change the rest.",
+      "body": [
+        "A **pivot** is a change of direction that keeps something you've already learned or built. It isn't a fresh start.",
+        "The best pivots keep the piece with the strongest evidence. For Tiny Speck, that wasn't the game. It was the tool people opened every morning without being asked.",
+        "The question to ask a struggling business: *what here is already being used, and by whom?*"
+      ],
+      "image": {
+        "label": "A crumbling building with one solid brick lifted out and placed as a new foundation",
+        "aspectRatio": "16:9",
+        "brief": "무너져 가는 건물에서 손 하나가 단단한 벽돌 하나를 꺼내, 옆의 새 건물 기초로 놓는 장면. 벽돌에 \"Used every day\" 라벨, 무너지는 건물에 \"Original plan\" 라벨.",
+        "url": "assets/images/ent-07-09-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Not a one-off",
+      "title": "It happened to the same founder twice.",
+      "body": [
+        "Years earlier, Butterfield had co-founded a different online game, Game Neverending. Inside it was a feature for sharing photos.",
+        "The game went nowhere. The photo feature became Flickr, one of the early popular photo-sharing sites.",
+        "Same pattern both times: the founders built something to serve their main plan, noticed people valued that part more, and had the nerve to let the main plan go."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How they checked",
+      "title": "Your own team is a weak test.",
+      "body": [
+        "A tool your team loves might only suit your team. So before the full launch, Slack's founders asked other companies to try it, watched how they used it, and kept fixing what confused them.",
+        "Butterfield later wrote a memo, *We Don't Sell Saddles Here*, arguing that teams buy the outcome, a calmer and more connected way of working, not a chat app. Outside users helped the team find that message."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "For every Slack, many side tools go nowhere.",
+      "body": [
+        "We hear this story because it worked. Many failed companies had useful internal tools that never found buyers.",
+        "Several things helped here: money left in the bank, an experienced founder, and a problem many other teams shared. Without runway, you can't test the new direction.",
+        "And letting go has a cost. Most of the Glitch team lost their jobs, and players lost a game they loved."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a café that roasts its own coffee.",
+      "illustrative": true,
+      "body": [
+        "Your café loses money most months. To save costs, you started roasting your own beans. Now four nearby offices and two restaurants keep asking to buy them.",
+        "What's your next move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Ignore the requests and focus on fixing the café",
+            "verdict": "risky",
+            "feedback": "You protect the original plan, but you skip the clearest demand signal you have. People are asking to pay for something you already make."
+          },
+          {
+            "key": "B",
+            "text": "Sell beans to those six buyers for three months and track repeat orders",
+            "verdict": "best",
+            "feedback": "You keep the café running while you test whether the roasting can stand alone. It costs some time and focus, but repeat orders will tell you if this is real."
+          },
+          {
+            "key": "C",
+            "text": "Close the café now and become a wholesale roaster",
+            "verdict": "partial",
+            "feedback": "You move fast toward the proven piece. But six interested buyers isn't yet a business, and you'd lose your café income before you know."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "In software, the proven piece is often an internal tool, an API or a single feature that users rely on more than the main product. Check usage data and who keeps coming back to it."
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "When the plan fails, look at what people already use.",
+      "body": [
+        "A pivot keeps the part of your business with real evidence behind it and lets the rest go.",
+        "**Try it today:** list three things your business makes or does that customers, partners or your own staff use without being pushed. Which one would someone pay for on its own?"
+      ],
+      "next": "Next · Pivot, persevere or shut down? You decide."
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "id": "MKT-06-05",
+  "unitId": "MKT-06",
+  "categoryId": "MKT",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Middlemen and their margins",
+  "readerTitle": "The delivery app takes 25%. Could you do its job for less?",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative",
+    "real_company"
+  ],
+  "caseNote": "가상 사례 (식당 배달, 명상 구독 앱) + 실제 기업 (Apple App Store 수수료, Netflix 앱 내 결제 중단). 핵심 계산이 사례의 중심이라 company_story 대신 numbers_twist로 바꿨습니다.",
+  "insight": "중간 유통업자의 마진은 통행료가 아니라 그들이 대신 해 주는 일의 값이다. 빼려면 먼저 그 일을 내가 더 싸게 할 수 있는지 계산해야 한다.",
+  "misconception": "중간 단계를 없애면 그 마진만큼 고스란히 내 이익이 된다.",
+  "relatedLessonIds": [
+    "MKT-06-04",
+    "MKT-06-06"
+  ],
+  "sources": [
+    {
+      "text": "Apple Newsroom (2020.11.18). Apple announces App Store Small Business Program (연 매출 100만 달러 이하 개발자 15% 수수료, 2021년 1월 시행)",
+      "url": "https://www.apple.com/newsroom/2020/11/apple-announces-app-store-small-business-program/"
+    },
+    {
+      "text": "Netflix의 iOS 앱 내 신규 구독 판매 중단 관련 언론 보도 (2018년 말~2019년 초)",
+      "url": null
+    },
+    {
+      "text": "식당·배달 수치는 모두 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "배달 계산: 주문 $30 × 25% = $7.50. 자체 배달: 시급 $20 ÷ 시간당 2건 = 건당 $10.00, 카드 수수료 $30 × 3% = $0.90, 합계 $10.90. 바쁜 저녁 시간당 3건: $20 ÷ 3 = $6.67. 앱 수수료에 결제 처리가 포함된다는 가정은 설명용입니다.",
+      "status": "open"
+    },
+    {
+      "note": "구독 앱 계산: 앱스토어 15% → 85% 수령, 웹 결제 3% → 97% 수령. 손익분기 0.85 ÷ 0.97 = 0.876, 즉 웹 결제에서 구매자 약 12.4%(약 8명 중 1명) 이상이 이탈하면 손해. 연 매출 $400,000은 Small Business Program 기준(100만 달러 이하)에 해당.",
+      "status": "open"
+    },
+    {
+      "note": "Apple 표준 수수료 30%, 소규모 개발자 15%(2021년부터)는 Apple 보도자료로 확인. 국가별 외부 결제 허용 규정이 최근 계속 바뀌고 있으므로 게시 직전 다시 확인하고, 카드 문구는 'in some countries'로 일반화해 두었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Netflix가 iPhone 앱에서 신규 구독 판매를 중단한 시점(2018년 말 테스트, 이후 전면 적용)은 언론 보도 기준입니다. 카드에는 'around 2018'로 적었습니다. 게시 전 1차 보도 확인 필요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Marketing · Numbers twist",
+      "title": "The delivery app takes 25%. Could you do its job for less?",
+      "illustrative": true,
+      "body": [
+        "A neighborhood restaurant pays a delivery app a quarter of every order. On a $30 meal, that's $7.50 gone.",
+        "The owner is tempted to cut the app out and keep the money. It looks like free profit. Run the numbers first."
+      ],
+      "image": {
+        "label": "A takeout bag with a quarter of it torn away",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 식당 테이크아웃 봉투에서 4분의 1 조각이 떨어져 나가 스마트폰 쪽으로 날아가는 장면. 봉투에 \"$30\", 떨어진 조각에 \"$7.50\" 라벨. 실제 배달 앱 로고나 색상은 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What would your own driver cost per order?",
+      "illustrative": true,
+      "body": [
+        "You get about 40 delivery orders a week through the app, which keeps $7.50 on a typical $30 order.",
+        "Your own driver would cost about $20 an hour, all in, and manage about two deliveries an hour on an average evening. Per order, how does that compare?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Much cheaper: a few dollars for fuel",
+            "verdict": "risky",
+            "feedback": "Fuel is the smallest part. You pay for every hour the driver works, including the time spent waiting between orders."
+          },
+          {
+            "key": "B",
+            "text": "About the same as the app",
+            "verdict": "partial",
+            "feedback": "Closer. But $20 an hour for two deliveries is $10 an order, more than the app charges."
+          },
+          {
+            "key": "C",
+            "text": "More expensive, about $10 an order",
+            "verdict": "best",
+            "feedback": "Right. And that's before you find the customers the app was bringing you."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "What leaving the app really costs.",
+      "illustrative": true,
+      "body": [
+        "The app's cut was $7.50. Doing its jobs yourself costs at least **$10.90** an order, plus whatever it takes to win customers who found you through the app."
+      ],
+      "breakdown": [
+        {
+          "value": "$10.00",
+          "label": "Driver time",
+          "detail": "$20 an hour ÷ 2 deliveries",
+          "highlight": false
+        },
+        {
+          "value": "$0.90",
+          "label": "Card fee",
+          "detail": "3% of $30, which the app used to handle",
+          "highlight": false
+        },
+        {
+          "value": "?",
+          "label": "Finding customers",
+          "detail": "Ads, flyers, your own ordering site",
+          "highlight": false
+        },
+        {
+          "value": "$10.90+",
+          "label": "Your cost per order",
+          "detail": "Versus $7.50 through the app",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Middleman margin",
+      "body": [
+        "A **middleman margin** is the share of the final price kept by someone between you and your customer: a wholesaler, a shop, a marketplace, a delivery app.",
+        "It looks like a toll. It's really a fee for jobs: finding buyers, moving goods, holding stock, collecting payment, taking risk and vouching for you."
+      ],
+      "image": {
+        "label": "A $30 order split into the jobs a middleman does",
+        "aspectRatio": "16:9",
+        "brief": "플랫 인포그래픽. $30짜리 주문을 원형 차트로 나누고, 중간 유통업자 몫 조각 안을 다시 \"Finding buyers\", \"Delivery\", \"Payment\", \"Trust\" 작은 아이콘 조각으로 쪼갬. 특정 브랜드 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "You can cut out the middleman. Not the job.",
+      "illustrative": true,
+      "body": [
+        "Every job the app did still has to happen. Cut the app, and you do those jobs yourself and pay for them.",
+        "Middlemen are often cheaper because they spread costs across many sellers. A driver shared by twenty restaurants stays busy. Your own driver waits between orders.",
+        "So the real question isn't *\"Is 25% too much?\"* It's **\"Could I do these jobs for less than 25%?\"**"
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "A real case",
+      "title": "Why Netflix did the math differently.",
+      "body": [
+        "Apple's App Store has long taken a 30% commission on paid apps and in-app purchases. Since 2021, developers earning under $1 million a year can qualify for 15%.",
+        "Many small developers pay it because the store handles payment, worldwide reach and the trust that makes people tap *Buy*.",
+        "Around 2018, Netflix stopped selling new subscriptions inside its iPhone app. Its customers already knew where to find it, so it no longer needed to pay for that job. Store rules have since changed in some countries."
+      ],
+      "image": {
+        "label": "A phone with a coin split between developer and store",
+        "aspectRatio": "16:9",
+        "brief": "스마트폰 화면 위의 동전 하나가 두 조각으로 나뉨. 작은 조각에 \"15–30%\", 큰 조각에 \"Developer\" 라벨. 실제 앱스토어 아이콘, 사과 로고, Netflix 로고는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The math moves with volume and power.",
+      "body": [
+        "At an average two deliveries an hour, your own driver loses money. On busy nights with three an hour, the cost falls to about $6.67 an order, below the app's $7.50.",
+        "Middlemen also gain power as you depend on them. Once most of your sales run through one, it can raise its cut.",
+        "And margins stack. Each layer in a chain adds its share, so removing one helps only if you can do its job well."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a subscription app.",
+      "illustrative": true,
+      "body": [
+        "Your meditation app earns $400,000 a year, almost all through an app store that keeps 15%.",
+        "A consultant says: send everyone to pay on your website, where card fees are about 3%. You'd keep 97 cents per dollar instead of 85. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Move all payments to your website now",
+            "verdict": "risky",
+            "feedback": "You'd keep 12 more cents per dollar, but store checkout is one tap. If more than about 1 in 8 buyers give up at your web checkout, you earn less, not more."
+          },
+          {
+            "key": "B",
+            "text": "Stay fully in the store, since 15% is fair",
+            "verdict": "partial",
+            "feedback": "Safe, and the store does real jobs for you. But you never learn whether you could do the payment job for less."
+          },
+          {
+            "key": "C",
+            "text": "Where store rules allow, test web checkout with some new users and compare how many finish paying",
+            "verdict": "best",
+            "feedback": "You price the job before you cut it. If drop-off stays under about 12%, the website wins."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A middleman's margin is the price of a job.",
+      "body": [
+        "Before cutting a go-between, ask who will do its work and what that will cost you.",
+        "**Try it today:** list every go-between in your sales, such as a payment processor, marketplace, distributor or shop. For each, write the jobs it does and what you'd pay to do them yourself."
+      ],
+      "next": "Next · Who really owns your customer?"
+    }
+  ]
+}

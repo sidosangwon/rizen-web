@@ -1,0 +1,244 @@
+{
+  "id": "ECO-05-06",
+  "unitId": "ECO-05",
+  "categoryId": "ECO",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Bundling",
+  "readerTitle": "Why Microsoft sold Word and Excel in one box",
+  "format": "company_story",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.3,
+  "caseKinds": [
+    "real_company",
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Microsoft Office, iTunes) + 실제 연구 (Stigler 1963, Hsee 1998) + 가상 사례 (소프트웨어 애드온, 물류 회사) · 모든 가격 수치는 설명용",
+  "insight": "묶음 판매가 효과를 내는 이유는 할인 때문이 아니다. 고객마다 각 제품의 가치를 다르게 매기는데, 묶으면 그 차이가 상쇄된다.",
+  "misconception": "번들은 여러 개를 싸게 넘기는 할인 수단일 뿐이며, 많이 넣을수록 더 가치 있어 보인다.",
+  "relatedLessonIds": [
+    "ECO-04-04",
+    "ECO-07-03"
+  ],
+  "sources": [
+    {
+      "text": "Microsoft, company history: Office for Mac (1989) and Office for Windows (1990) bundling Word, Excel and PowerPoint",
+      "url": null
+    },
+    {
+      "text": "Stigler, G. (1963). United States v. Loew's Inc.: A Note on Block-Booking. The Supreme Court Review.",
+      "url": null
+    },
+    {
+      "text": "Adams, W. J. & Yellen, J. L. (1976). Commodity Bundling and the Burden of Monopoly. Quarterly Journal of Economics.",
+      "url": null
+    },
+    {
+      "text": "Hsee, C. K. (1998). Less Is Better: When Low-value Options Are Valued More Highly than High-value Options. Journal of Behavioral Decision Making.",
+      "url": null
+    },
+    {
+      "text": "Apple, iTunes Music Store launch (April 2003), songs at 99 cents",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Office 출시 연도(Mac 1989, Windows 1990)와 첫 구성(Word, Excel, PowerPoint)을 Microsoft 공식 자료로 확인하세요. 현재 Microsoft 365 브랜드로 판매된다는 문구도 게시 직전 확인이 필요합니다.",
+      "status": "open"
+    },
+    {
+      "note": "2번·3번 카드 계산(가상 수치): 개별 $40 판매 시 Reports 100명×$40 = $4,000, Scheduling 100명×$40 = $4,000, 합계 $8,000. 개별 $10 판매 시 200명×$10×2 = $4,000. 번들 $50 판매 시 두 그룹 모두 가치 합계 $50이므로 200명×$50 = $10,000. 증가율 2,000 ÷ 8,000 = 25%. 추가 고객 1명당 비용은 0에 가깝다고 가정했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Stigler(1963)가 영화 블록 부킹을 고객별 가치 차이로 설명했다는 점, Adams & Yellen(1976)이 이를 일반화했다는 점을 원문으로 확인하세요. 카드에는 수치를 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Hsee(1998) 식기 세트 실험: 온전한 24개 세트가 일부 깨진 조각이 섞인 40개 세트보다 따로 평가할 때 더 높게 평가됐다는 결과. 조각 수와 평가 방식을 원문으로 확인하세요. 카드에는 금액을 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "iTunes Music Store 2003년 4월 출시, 곡당 99센트를 Apple 보도자료로 확인하세요. 앨범 판매 감소의 인과 관계는 단정하지 않고 일반적으로만 서술했습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Pricing · Company story",
+      "title": "Why Microsoft sold Word and Excel in one box",
+      "body": [
+        "Around 1990, Microsoft started selling Word, Excel and PowerPoint together under one name: Office.",
+        "Plenty of buyers mainly needed just one of them. A writer lived in Word. An accountant lived in Excel. Yet the bundle outlived the boxed-software era and still sells today as Microsoft 365."
+      ],
+      "image": {
+        "label": "Three separate boxes merging into one box",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 각각 문서, 표, 슬라이드 아이콘이 그려진 작은 상자 세 개가 하나의 큰 상자로 합쳐지는 장면. 실제 Microsoft 로고나 제품 아이콘은 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Two add-ons, two kinds of customers.",
+      "illustrative": true,
+      "body": [
+        "Your software sells two add-ons: Reports and Scheduling. You have 100 agencies and 100 clinics. Agencies would pay $40 a month for Reports but only $10 for Scheduling. Clinics are the opposite.",
+        "Extra customers cost you almost nothing. Which price earns the most each month?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Sell each add-on for $40",
+            "verdict": "partial",
+            "feedback": "Each group buys the add-on it loves, so you earn $8,000. But you leave the $10 each group would pay for the other add-on on the table."
+          },
+          {
+            "key": "B",
+            "text": "Sell each add-on for $10 so everyone buys both",
+            "verdict": "risky",
+            "feedback": "Everyone buys, but you earn only $4,000. You gave up the high value each group sees in its favorite."
+          },
+          {
+            "key": "C",
+            "text": "Sell both together for $50",
+            "verdict": "best",
+            "feedback": "Every customer values the pair at $50, so all 200 buy. You earn $10,000. Next card shows why."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Same products, different totals.",
+      "illustrative": true,
+      "body": [
+        "The bundle earns **25% more** without changing either product. Each group values the add-ons differently, but both groups value the *pair* the same: $50."
+      ],
+      "breakdown": [
+        {
+          "value": "$4,000",
+          "label": "Each at $10",
+          "detail": "All 200 buy both, at a low price",
+          "highlight": false
+        },
+        {
+          "value": "$8,000",
+          "label": "Each at $40",
+          "detail": "Each group buys only its favorite",
+          "highlight": false
+        },
+        {
+          "value": "$10,000",
+          "label": "Bundle at $50",
+          "detail": "All 200 buy the pair",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Bundling",
+      "body": [
+        "**Bundling** means selling several products together for one price.",
+        "The key is not the discount. It's that customers disagree about what each part is worth. One loves A, another loves B. Priced alone, you must pick a high price and lose some buyers, or a low price and lose money from fans. Bundled, those differences **even out**, so one price fits far more people."
+      ],
+      "image": {
+        "label": "Two uneven bars that add up to equal totals",
+        "aspectRatio": "16:9",
+        "brief": "두 고객 그룹의 막대 그래프. 그룹 1은 \"Reports $40 + Scheduling $10\", 그룹 2는 \"Reports $10 + Scheduling $40\". 각 막대를 쌓으면 둘 다 \"$50\" 높이로 똑같아지는 모습을 강조.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "Economists spotted this in movie theaters.",
+      "body": [
+        "In 1963, economist George Stigler studied why film studios sold movies to theaters in blocks rather than one by one. His answer: theaters valued each film differently, but the block's total value was more alike from theater to theater.",
+        "In 1976, William Adams and Janet Yellen showed the same logic works across many products.",
+        "Office fits the pattern. Writers and accountants rated Word and Excel very differently, but many valued the set similarly."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The other side",
+      "title": "Bundles can also come apart.",
+      "body": [
+        "You can sell only the bundle (*pure bundling*) or the bundle plus each part on its own (*mixed bundling*). Mixed bundling keeps customers who truly want just one item.",
+        "Unbundling happens too. When the iTunes Music Store launched in 2003, songs sold for 99 cents each. Fans of one hit no longer had to buy a whole album. When buyers can easily pick only what they want, a bundle stops working as well."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "More stuff is not more value.",
+      "body": [
+        "Bundling works best when each extra unit costs you little, like software. With physical goods, every item you add has a real cost, so throwing in things nobody values just lowers your margin.",
+        "Filler can also backfire. In a 1998 study by Christopher Hsee, people judged a complete 24-piece dinnerware set more valuable than a 40-piece set that included some broken pieces. Weak items can drag down the whole bundle."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a logistics company.",
+      "illustrative": true,
+      "body": [
+        "You run a warehouse that also delivers. Online shops care most about fast delivery and see storage as a small extra. Wholesalers have their own trucks and mostly want storage.",
+        "How should you price?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Sell only a storage-plus-delivery package",
+            "verdict": "risky",
+            "feedback": "Online shops may like it, but wholesalers with their own trucks won't pay for delivery they never use. You could lose them entirely."
+          },
+          {
+            "key": "B",
+            "text": "Offer the package at a good price, and keep storage and delivery available separately",
+            "verdict": "best",
+            "feedback": "Customers who value both get a deal that pulls them in, and those who want one part still buy. You gain bundle sales without driving anyone away."
+          },
+          {
+            "key": "C",
+            "text": "Keep pricing storage and delivery separately",
+            "verdict": "partial",
+            "feedback": "Simple and safe, but you miss customers who would pay a bit more to get both from one partner."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Bundle where customers disagree about the parts.",
+      "body": [
+        "A bundle earns more when different buyers love different pieces, and the extras cost you little to add.",
+        "**Try it today:** pick two things you sell. Write down which customers value each one most. If they are different people, sketch a bundle and keep the single items too."
+      ],
+      "next": "Next · Redesign a restaurant menu"
+    }
+  ]
+}

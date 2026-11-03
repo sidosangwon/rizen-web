@@ -1,0 +1,245 @@
+{
+  "id": "CUS-04-05",
+  "unitId": "CUS-04",
+  "categoryId": "CUS",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Pre-selling",
+  "readerTitle": "Ask for the order, not the opinion",
+  "format": "two_businesses",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 2개 (생활용품 도매 유통업체, 대기업 안의 총무팀 사내 셔틀) + 가상 적용 (병원 그룹 IT팀). 모든 수치는 설명용",
+  "insight": "\"사겠다\"는 말은 공짜지만 주문서와 예약금은 비용이 든다. 수요를 확인하려면 의견이 아니라 작은 실제 약속을 받아 본다.",
+  "misconception": "설문에서 많은 사람이 사겠다고 하면 수요가 확인된 것이다. 돈을 먼저 받는 건 물건이 준비된 뒤에야 할 수 있다.",
+  "relatedLessonIds": [
+    "CUS-04-03",
+    "CUS-01-06"
+  ],
+  "sources": [
+    {
+      "text": "선판매(pre-selling), 사전 주문, 예약금은 창업과 신제품 검증에서 널리 쓰이는 일반 개념",
+      "url": null
+    },
+    {
+      "text": "모든 사례와 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 설명용 가상 수치입니다. 도매업체: 관심 표시 40곳 중 서명 9곳 = 22.5%. 주문 합계 600개, 공장 최소 주문 2,000개의 30%.",
+      "status": "open"
+    },
+    {
+      "note": "사내 셔틀: 설문 '이용하겠다' 300명 중 첫 달 이용권 선결제 70명 ≈ 23%. 두 사례 모두 약 4~5명 중 1명만 실제로 약속했다는 문장과 일치하는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "선결제·사전 주문의 환불과 배송 의무는 나라마다 규정이 다릅니다. 카드에는 법률 조언 없이 '의무가 생긴다'는 일반적 표현만 썼습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Two businesses",
+      "title": "Ask for the order, not the opinion",
+      "illustrative": true,
+      "body": [
+        "Two teams, two ideas, one week. A home goods distributor heard 40 store owners say, \"I'd stock that.\" A facilities team heard 300 employees say, \"I'd ride that shuttle.\"",
+        "Both were ready to spend real money. Both asked one more question first. The answer cut their demand by more than three-quarters."
+      ],
+      "image": {
+        "label": "Many speech bubbles saying yes, few hands holding money",
+        "aspectRatio": "4:3",
+        "brief": "왼쪽에는 \"Yes!\" 말풍선이 가득하고, 오른쪽에는 지폐나 서명된 주문서를 든 손이 몇 개만 있는 대비 일러스트. 따뜻한 플랫 스타일. 실제 브랜드 로고 없음.",
+        "url": "assets/images/cus-04-05-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "40 store owners love your sample.",
+      "illustrative": true,
+      "body": [
+        "You distribute home goods to small shops. A factory offers a new insulated lunch box, but the minimum order is 2,000 units, paid up front.",
+        "You showed a sample at a trade fair and 40 shop owners said they'd stock it. What do you do before ordering?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Email all 40 a short survey asking how many units they'd take",
+            "verdict": "risky",
+            "feedback": "Fast and free, but a survey answer still costs them nothing. You'd get bigger numbers, not truer ones."
+          },
+          {
+            "key": "B",
+            "text": "Ask each shop to sign a purchase order with a small deposit, for delivery in ten weeks",
+            "verdict": "best",
+            "feedback": "A signature and a deposit cost the buyer something, so they sort real demand from politeness. It takes a few calls and a bit of nerve."
+          },
+          {
+            "key": "C",
+            "text": "Order a small batch of 200 at a higher unit price and see what sells",
+            "verdict": "partial",
+            "feedback": "This tests real buying, but you pay more per unit and wait months to learn. Asking for orders first gets a similar answer sooner and cheaper."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "What happened",
+      "title": "Saying yes is free. Paying isn't.",
+      "illustrative": true,
+      "body": [
+        "The distributor asked for signed orders with a 20% deposit. Nine shops signed, for 600 units in total, well short of 2,000.",
+        "The facilities team asked employees to pay for their first month's shuttle pass before any bus was booked. Seventy did. In both cases, only about one in four or five turned their yes into a commitment."
+      ],
+      "chart": {
+        "unit": "count",
+        "groups": [
+          {
+            "label": "Distributor: shop owners",
+            "rows": [
+              {
+                "label": "Said they'd stock it",
+                "value": 40,
+                "highlight": false
+              },
+              {
+                "label": "Signed an order with deposit",
+                "value": 9,
+                "highlight": true
+              }
+            ]
+          },
+          {
+            "label": "Facilities team: employees",
+            "rows": [
+              {
+                "label": "Said they'd ride",
+                "value": 300,
+                "highlight": false
+              },
+              {
+                "label": "Paid for first month",
+                "value": 70,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Pre-selling",
+      "body": [
+        "**Pre-selling** means asking customers to commit something real, such as money, a signed order or budget, before you build the product or buy the stock.",
+        "It's different from counting clicks or survey answers. Those measure interest. A pre-sale measures **willingness to give something up**, which is much closer to what happens on launch day."
+      ],
+      "image": {
+        "label": "A ladder from 'liked it' to 'paid a deposit'",
+        "aspectRatio": "16:9",
+        "brief": "아래에서 위로 올라가는 사다리 인포그래픽. 칸마다 \"Said they like it\", \"Gave their email\", \"Gave their time\", \"Signed an order\", \"Paid a deposit\". 위로 갈수록 사람 아이콘 수가 줄어듦. 로고 없음.",
+        "url": "assets/images/cus-04-05-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Every customer pays in some currency.",
+      "body": [
+        "A pre-sale doesn't always mean cash. Ask for the most valuable thing the customer can reasonably give right now:"
+      ],
+      "list": [
+        "**Shops and consumers:** a deposit, a paid pre-order, a signed purchase order",
+        "**Business buyers:** a paid pilot or a signed letter of intent",
+        "**Teams inside a company:** budget moved from their line, or a named person's hours"
+      ],
+      "callout": "The more it costs them, the more the answer means.",
+      "softwareNote": "Software founders often pre-sell a discounted annual plan or a paid pilot before the product is finished. A few paying customers tell you more than hundreds of waitlist sign-ups."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond yes or no",
+      "title": "The people who pay become your guides.",
+      "illustrative": true,
+      "body": [
+        "The nine shops that signed weren't just a number. When asked why, most sold to office workers near train stations. That told the distributor where to sell next.",
+        "The 70 shuttle riders mostly came from one office park, so the team started with one route instead of three. A pre-sale also shows who your real first customers are and what they actually need."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Taking money creates promises.",
+      "body": [
+        "Once people pay, you owe them delivery, a deadline and a refund if you can't deliver. Only pre-sell what you can realistically make, and check the rules on pre-orders where you operate.",
+        "Results are also a floor, not a ceiling. A weak pitch or a tiny sample can make good ideas look worse than they are. Treat a low number as a reason to ask why, not always as a final no."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now you're an IT team in a hospital group.",
+      "illustrative": true,
+      "body": [
+        "Your team wants to build a shift-swap app for nurses across six clinics. Every clinic manager says it would save hours each week. Building it takes three months of your team's time.",
+        "How do you test the demand first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Ask each manager to name a nurse lead for testing and to cover part of the cost from their budget",
+            "verdict": "best",
+            "feedback": "Budget and people's time are real costs for a manager, so commitments show which clinics truly want it. You may start smaller, with the clinics that pay."
+          },
+          {
+            "key": "B",
+            "text": "Build a free prototype first to win them over",
+            "verdict": "partial",
+            "feedback": "A prototype can make the idea clearer, but you spend weeks before learning whether anyone will give anything up for it."
+          },
+          {
+            "key": "C",
+            "text": "Ask the executive team to make all six clinics use it",
+            "verdict": "risky",
+            "feedback": "A mandate gets you users, not proof of value. You'd learn nothing about demand and might build a tool people resist."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A small commitment beats a big compliment.",
+      "body": [
+        "Before you build or buy, ask for a deposit, a signature or a budget line. The share of people who say yes is your real demand.",
+        "**Try it today:** take one idea you're excited about. Write down what you could ask your keenest customer to commit this week, and ask."
+      ],
+      "next": "Next · Why fast loops beat big launches"
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "id": "BMO-01-04",
+  "unitId": "BMO-01",
+  "categoryId": "BMO",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Cost structure",
+  "readerTitle": "The subscription that lost more money with every new member",
+  "format": "counterexample",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (MoviePass, 2017~2019) + 가상 사례 (구독 서비스, 두 사업 비교, 청소 업체, 수리 멤버십) · 가상 수치는 설명용",
+  "insight": "성장이 좋은 소식인지는 매출이 아니라 비용 구조, 즉 고객 한 명이 늘 때 어떤 비용이 함께 늘고 어떤 비용이 그대로인지가 결정한다.",
+  "misconception": "고객이 늘면 언젠가는 규모의 힘으로 이익이 난다.",
+  "relatedLessonIds": [
+    "BMO-01-03",
+    "BMO-01-05"
+  ],
+  "sources": [
+    {
+      "text": "MoviePass 2017년 8월 월 $9.95 요금제 발표 및 2018~2019년 주요 언론 보도 (가입자 증가, 이용 제한, 2019년 서비스 중단)",
+      "url": null
+    },
+    {
+      "text": "관리회계의 표준 개념 (고정비·변동비, 계단식 고정비)",
+      "url": null
+    },
+    {
+      "text": "가상 사례 수치는 모두 설명용",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "MoviePass가 2017년 8월 월 $9.95에 하루 한 편 관람 요금제를 내놓았고, 극장에 대체로 정가에 가까운 티켓값을 지불했다는 점을 1차 보도로 확인하세요. 카드에는 \"about $10\", \"close to full ticket price\"로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "가입자가 1년 안에 수백만 명(2018년 300만 명 이상으로 보도)으로 늘었다는 점, 2018년 이용 제한 도입, 2019년 9월 서비스 중단을 확인하세요. 카드에는 \"into the millions within a year\", \"shut down in 2019\"로만 적었습니다. 2022년 이후 재출시는 다루지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "MoviePass가 데이터·광고 수익과 낮은 이용률을 기대했다는 점은 보도 기반이라 카드에 \"reportedly\"로 표시했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "5번 카드 계산: 가격 $10. 사업 A 변동비 $1 → 고객당 +$9, 사업 B 변동비 $9 → 고객당 +$1. 사업 A 고정비 월 $20,000 ÷ $9 ≈ 2,223명에서 손익분기. 사업 B 고정비 월 $2,000 ÷ $1 = 2,000명에서 손익분기. 고객 10,000명일 때 A: $90,000 − $20,000 = $70,000, B: $10,000 − $2,000 = $8,000.",
+      "status": "open"
+    },
+    {
+      "note": "8번 카드 계산: 월 $30 멤버십, 방문 1회 비용 약 $60(기사 시간+이동). 연 매출 $360, 연 6회 이상 방문하면 비용 $360 이상으로 손해.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business models · Counterexample",
+      "title": "The subscription that lost more money with every new member",
+      "body": [
+        "In 2017, a movie-ticket app called MoviePass offered a deal that seemed too good: see a movie in theaters almost every day for about $10 a month.",
+        "Members poured in. And every new member made the company's problem bigger, not smaller."
+      ],
+      "image": {
+        "label": "A growing line of moviegoers next to a shrinking pile of coins",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 영화관 입구에 줄이 점점 길어지고, 옆에 놓인 동전 더미는 줄 길이에 비례해 작아지는 모습. 실제 극장·앱 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Signups just went up tenfold.",
+      "illustrative": true,
+      "body": [
+        "You sell a $10 monthly pass. Each time a member uses it, you pay a partner about $9.",
+        "In three months, members jump from 20,000 to 200,000. How do you read this?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Great news. At this scale, profit will follow",
+            "verdict": "risky",
+            "feedback": "Scale helps when most costs stay put. Here a big cost arrives with every use, so more members can mean bigger losses."
+          },
+          {
+            "key": "B",
+            "text": "Too early to tell. First check how often the average member uses the pass",
+            "verdict": "best",
+            "feedback": "Right. One use a month leaves $1. Three uses lose $17. The growth is only good news if the costs that come with it are small."
+          },
+          {
+            "key": "C",
+            "text": "Good news, because size lets you negotiate a lower partner price",
+            "verdict": "partial",
+            "feedback": "Size can win better terms, but it's a hope, not a plan. Until the price changes, every heavy user costs you money."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "Growth that dug the hole deeper.",
+      "body": [
+        "MoviePass usually paid theaters close to the full ticket price whenever a member went to a movie. One or two films a month and the $10 fee was gone.",
+        "Members climbed into the millions within a year. The company reportedly hoped most would rarely go, and that data and ads would make money later.",
+        "Instead, its losses grew with its popularity. It tried caps, price changes and blocked showings, then shut down in 2019."
+      ],
+      "image": {
+        "label": "Two lines rising together: members and losses",
+        "aspectRatio": "16:9",
+        "brief": "단순한 선 그래프. \"Members\" 선과 \"Monthly losses\" 선이 함께 위로 올라가는 모습. 숫자는 넣지 않고 두 선이 나란히 오르는 점을 강조. 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Cost structure",
+      "body": [
+        "A business's **cost structure** is the full list of what it spends money on, sorted by how each cost behaves as the business grows.",
+        "Some costs stay the same whether you serve 10 customers or 10,000, like rent or software you've already built. Others rise with every customer or every use, like tickets, ingredients or staff hours.",
+        "MoviePass had almost no costs of the first kind and a huge one of the second kind."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "breakdown",
+      "eyebrow": "Same price, different shape",
+      "title": "Two businesses, both charging $10.",
+      "illustrative": true,
+      "body": [
+        "Business A starts deep in the red but needs only about 2,200 customers to break even. At 10,000 customers it earns $70,000 a month. Business B breaks even sooner, but at 10,000 customers earns just $8,000. **Growth means something different for each.**"
+      ],
+      "breakdown": [
+        {
+          "value": "$20,000",
+          "label": "A: monthly fixed costs",
+          "detail": "Mostly built once, like a product or a kitchen",
+          "highlight": false
+        },
+        {
+          "value": "+$9",
+          "label": "A: kept per new customer",
+          "detail": "$10 price − $1 cost that comes with each sale",
+          "highlight": true
+        },
+        {
+          "value": "$2,000",
+          "label": "B: monthly fixed costs",
+          "detail": "Small office, little upfront",
+          "highlight": false
+        },
+        {
+          "value": "+$1",
+          "label": "B: kept per new customer",
+          "detail": "$10 price − $9 cost that comes with each sale",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where else it shows up",
+      "title": "A cleaning company grows differently.",
+      "illustrative": true,
+      "body": [
+        "A home cleaning business spends most of its money on cleaners' hours. Every new client means more paid hours, so costs rise almost in step with sales.",
+        "That makes growth safe: a new client rarely loses money. But it also makes growth slow to pay off. Doubling clients roughly doubles both revenue and costs.",
+        "The owner's real levers are the costs that don't grow with each job: booking, scheduling and routes that cut drive time between homes."
+      ],
+      "softwareNote": "Software often looks like Business A: building the product is costly, serving one more user is cheap. But usage-heavy products, such as ones that pay per AI query or per text message, can drift toward Business B without anyone noticing."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Fixed costs cut both ways.",
+      "body": [
+        "A business heavy in fixed costs wins big when sales rise and hurts fast when they fall. Rent and salaries don't shrink when customers leave.",
+        "And \"fixed\" is only fixed for a while. A cleaning firm can add clients until it needs another van and a supervisor. Then costs jump in a step.",
+        "So the useful question isn't \"are my costs fixed or variable?\" It's \"what happens to each cost if sales double, or halve?\""
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a home repair company.",
+      "illustrative": true,
+      "body": [
+        "You run a handyman service. A sales consultant suggests a $30 monthly membership with unlimited small repairs.",
+        "Each visit costs you about $60 in technician time and travel. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Launch it as pitched. Steady monthly income beats one-off jobs",
+            "verdict": "risky",
+            "feedback": "Steady income is real, but so is the cost of every visit. A member who calls six times a year has already cost you more than $360."
+          },
+          {
+            "key": "B",
+            "text": "Launch with a set number of visits per year, priced above what they cost",
+            "verdict": "best",
+            "feedback": "You keep the steady income and cap the cost that grows with use. You give up the simple \"unlimited\" pitch."
+          },
+          {
+            "key": "C",
+            "text": "Launch unlimited, but only in neighborhoods close to your base",
+            "verdict": "partial",
+            "feedback": "Shorter drives lower the cost per visit, which helps. But heavy users can still cost more than they pay."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Growth is only good news if your costs grow slower than your sales.",
+      "body": [
+        "Before chasing more customers, know which costs come with each one and which stay put.",
+        "**Try it today:** list your five biggest costs. Next to each, write what would happen to it if your sales doubled next month."
+      ],
+      "next": "Next · Why two shops with the same sales keep very different amounts"
+    }
+  ]
+}

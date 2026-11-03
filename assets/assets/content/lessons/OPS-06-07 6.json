@@ -1,0 +1,234 @@
+{
+  "id": "OPS-06-07",
+  "unitId": "OPS-06",
+  "categoryId": "OPS",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "Quality at a clinic",
+  "readerTitle": "Two near-misses at a dental clinic: which fix fits which mistake?",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "illustrative",
+    "real_observation"
+  ],
+  "caseNote": "가상 사례 (동네 치과, 회사 IT팀 신규 입사자 계정 발급) + 실제 관찰 (의료기관의 환자 확인 방식)",
+  "insight": "실수마다 맞는 도구가 다르다. 손이나 시스템이 미끄러지는 실수는 구조로 막고(실수 방지), 사람의 판단과 대화가 필요한 단계는 짧은 체크리스트로 지킨다.",
+  "misconception": "품질 문제가 생기면 직원에게 '더 조심하라'고 하거나 체크리스트 항목을 하나 더 넣으면 해결된다.",
+  "relatedLessonIds": [
+    "OPS-06-03",
+    "OPS-06-06"
+  ],
+  "sources": [
+    {
+      "text": "The Joint Commission, National Patient Safety Goals (환자 확인 시 두 가지 이상의 식별 정보 사용)",
+      "url": null
+    },
+    {
+      "text": "치과와 IT팀 사례는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "\"많은 병원이 이름과 생년월일 등 두 가지 식별 정보로 환자를 확인한다\"는 내용은 The Joint Commission의 National Patient Safety Goals(NPSG.01.01.01)에 근거합니다. 게시 전 최신 버전의 항목 번호와 문구를 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "치과 사례(같은 이름의 환자, 복약 질문 누락)와 IT팀 사례는 모두 가상입니다. 수치나 실제 사고 통계는 쓰지 않았습니다. 의료 조언으로 읽히지 않도록 운영 관점에서만 서술했는지 검토하세요.",
+      "status": "open"
+    },
+    {
+      "note": "OPS-06-09(수술 안전 체크리스트 사례)와 겹치지 않도록 수술 체크리스트 연구는 언급하지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Everyday scene",
+      "title": "Two near-misses at a dental clinic",
+      "illustrative": true,
+      "body": [
+        "Dr. Lee runs a busy six-chair dental clinic. Last month, nothing went wrong. But twice, something almost did.",
+        "Once, a hygienist nearly worked from the wrong patient's X-rays. Another time, nobody asked a patient about a new medication before treatment. Two problems. Should they get the same fix?"
+      ],
+      "image": {
+        "label": "Dental clinic front desk with two patient folders side by side",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 일러스트 스타일. 작은 치과 접수대 위에 이름이 거의 같은 환자 파일 두 개가 나란히 놓여 있고, 뒤로 진료 의자가 보임. 실제 병원·브랜드 로고 없음. 위험이 아닌 '아슬아슬한 순간' 느낌.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Two patients, nearly the same name.",
+      "illustrative": true,
+      "body": [
+        "Two patients are both named J. Park. Staff open charts by typing a name and clicking the first match. On a rushed morning, the hygienist opened the wrong one.",
+        "What's the best fix?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Remind everyone at the team meeting to be more careful",
+            "verdict": "risky",
+            "feedback": "Cheap and quick, but attention fades by the next rush. A fix that depends on people never slipping isn't a fix."
+          },
+          {
+            "key": "B",
+            "text": "Add \"confirm the patient's name\" to the morning checklist",
+            "verdict": "partial",
+            "feedback": "A **checklist** helps, but the name is exactly what's confusing here. And a checked box can't stop a wrong click."
+          },
+          {
+            "key": "C",
+            "text": "Make the system open a chart only after staff enter the date of birth too",
+            "verdict": "best",
+            "feedback": "This is **mistake-proofing**: the wrong action becomes hard to do at all. Two J. Parks rarely share a birthday."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "Why it works",
+      "title": "Block the slip, don't just warn about it.",
+      "body": [
+        "The X-ray mix-up was a slip: a fast click by someone who knew better. Slips don't respond well to reminders, because nobody chooses to make them.",
+        "**Mistake-proofing** changes the setup so the error can't easily happen. Many hospitals already require two identifiers, such as name and date of birth, before acting on a patient record.",
+        "Dr. Lee's fix costs one extra field. It works on the tired morning and the calm afternoon alike."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "The question that gets skipped.",
+      "illustrative": true,
+      "body": [
+        "Before treatment, someone should ask: any new medications, allergies or health changes? On calm days, staff ask. On busy days, it sometimes slips because everyone assumes someone else asked.",
+        "What fits best here?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "A check-in tablet that won't let patients continue until they tick \"no changes\"",
+            "verdict": "partial",
+            "feedback": "It blocks skipping, but a patient can tap through without thinking. This step needs a real conversation, which a blocked screen can't force."
+          },
+          {
+            "key": "B",
+            "text": "A four-line checklist the assistant reads aloud at the chair before every treatment",
+            "verdict": "best",
+            "feedback": "A short **checklist** fits steps that need human judgment and get skipped under pressure. Reading it aloud also makes clear who asked."
+          },
+          {
+            "key": "C",
+            "text": "Hire another receptionist so the front desk is less rushed",
+            "verdict": "risky",
+            "feedback": "Less pressure helps, but it costs a salary and still leaves the question to memory. Busy days will come back."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "breakdown",
+      "eyebrow": "Pick the tool",
+      "title": "Match the fix to the mistake.",
+      "body": [
+        "The two near-misses looked alike. They weren't. One was a slip of the hand. The other was a skipped conversation."
+      ],
+      "breakdown": [
+        {
+          "value": "Slip",
+          "label": "Mistake-proofing",
+          "detail": "Fast, automatic errors. Make the wrong action hard or impossible.",
+          "highlight": true
+        },
+        {
+          "value": "Skip",
+          "label": "Checklist",
+          "detail": "Steps needing judgment that get dropped under pressure. Make them visible and owned.",
+          "highlight": true
+        },
+        {
+          "value": "Both",
+          "label": "Reminders alone",
+          "detail": "Weakest option. Fade within days.",
+          "highlight": false
+        }
+      ],
+      "callout": "Ask first: did someone slip, or did someone skip?",
+      "softwareNote": "Software teams face the same split. Required fields and blocked deploys stop slips. A short release checklist covers steps that need a person to look and decide."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Both tools can quietly break.",
+      "body": [
+        "Checklists grow. Each incident adds a line, and soon a 4-item list is 20 items that people tick without reading. Keep it short, and remove lines when you add them.",
+        "Mistake-proofs invite workarounds. If entering a birth date feels slow, someone tapes the common ones to the monitor. When staff bypass a safeguard, treat it as a design problem and ask why."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's an IT team inside a company.",
+      "illustrative": true,
+      "body": [
+        "Your IT team sets up accounts for new hires. To save time, they copy access from a colleague in a similar job. Twice this quarter, a new hire got access to payroll files they shouldn't see.",
+        "What's the best fix?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Add \"double-check permissions\" to the setup checklist",
+            "verdict": "partial",
+            "feedback": "Better than nothing, but copying is a fast slip, and long permission lists are hard to eyeball. A **checklist** catches some of it."
+          },
+          {
+            "key": "B",
+            "text": "Replace copying with set access packages per role, with extra access needing a manager's approval",
+            "verdict": "best",
+            "feedback": "This is **mistake-proofing**. The risky shortcut disappears, and the safe path becomes the easy one."
+          },
+          {
+            "key": "C",
+            "text": "Run a full access review once a month",
+            "verdict": "risky",
+            "feedback": "Reviews find problems, but only after someone has had the wrong access for weeks. It catches mistakes instead of preventing them."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "The same thinking applies to user roles in your own product: default roles prevent the slip of handing every new user admin rights."
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Slips need a block. Skips need a checklist.",
+      "body": [
+        "This lesson used two ideas from this unit: **mistake-proofing** for errors people make without choosing to, and **checklists** for steps that need judgment but get dropped when busy.",
+        "**Try it today:** list your last three near-misses. Mark each as a slip or a skip, and pick one fix that matches."
+      ],
+      "next": "Next · Quality at a delivery service"
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "id": "THK-06-08",
+  "unitId": "THK-06",
+  "categoryId": "THK",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "Why adding people can slow a team",
+  "readerTitle": "Why two more cooks made Saturday slower",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.2,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (식당 주방, 소프트웨어 팀) + 실제 저작 (Brooks, 1975 『The Mythical Man-Month』). 수치는 모두 설명용",
+  "insight": "사람을 더하면 일손은 나중에 늘고, 가르치고 맞추는 비용은 지금 바로 늘어난다. 그래서 늦어진 팀에 사람을 붓는 것은 늦어짐을 키우는 고리가 될 수 있다.",
+  "misconception": "일이 밀리면 사람을 더 넣으면 된다. 사람이 두 배면 속도도 두 배다.",
+  "relatedLessonIds": [
+    "THK-06-02",
+    "THK-06-01"
+  ],
+  "sources": [
+    {
+      "text": "Brooks, F. P. (1975). The Mythical Man-Month: Essays on Software Engineering. Addison-Wesley. (Brooks's law)",
+      "url": null
+    },
+    {
+      "text": "식당과 소프트웨어 팀 사례, 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Brooks's law 문장(\"Adding manpower to a late software project makes it later\")과 출간 연도 1975년을 원서로 다시 확인하세요. 카드에는 뜻을 풀어 썼습니다.",
+      "status": "open"
+    },
+    {
+      "note": "소통 경로 계산: n(n−1)/2. 3명 = 3쌍, 5명 = 10쌍, 8명 = 28쌍. 5×4÷2 = 10, 8×7÷2 = 28 확인.",
+      "status": "open"
+    },
+    {
+      "note": "주방과 소프트웨어 팀의 적응 기간(수 주)은 설명용 가정이며 업계 통계가 아닙니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Everyday scene",
+      "title": "Why two more cooks made Saturday slower",
+      "illustrative": true,
+      "body": [
+        "A busy bistro was running 25 minutes from order to plate on Saturday nights. The owner hired two new line cooks to fix it.",
+        "The next Saturday, tickets took 32 minutes. Same kitchen, same menu, more people. Nobody was lazy. The system just did what systems do."
+      ],
+      "image": {
+        "label": "A crowded restaurant kitchen with cooks bumping into each other",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 좁은 식당 주방에 요리사 다섯 명이 서로 부딪히고, 베테랑 요리사가 신입에게 설명하느라 팬에서 연기가 난다. 벽에 주문표가 길게 밀려 있음. 실제 브랜드나 로고 없음.",
+        "url": "assets/images/thk-06-08-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Saturday tickets are running late.",
+      "illustrative": true,
+      "body": [
+        "You own the bistro. Three experienced cooks handle the line. Saturday orders take 25 minutes and reviews mention the wait. Your next big Saturday is in five days.",
+        "What do you do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Hire two new cooks and put them on the line this Saturday",
+            "verdict": "risky",
+            "feedback": "You gain hands on paper but lose your best cooks' attention to training, right at the rush. That is a **delay**: the cost arrives now, the help arrives weeks later."
+          },
+          {
+            "key": "B",
+            "text": "Trim the Saturday menu and prep more ahead; hire one cook and train them on quiet weekdays",
+            "verdict": "best",
+            "feedback": "You speed up this Saturday without new coordination costs, and you pay the training cost when the kitchen can absorb it. You've planned around the **delay** instead of being hit by it."
+          },
+          {
+            "key": "C",
+            "text": "Bring in one experienced temp cook just for Saturday",
+            "verdict": "partial",
+            "feedback": "A skilled cook needs less teaching, so the dip is smaller. But they still don't know your stations or plates, so expect some friction on the night."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "The help comes later. The cost comes now.",
+      "illustrative": true,
+      "body": [
+        "New cooks don't know where the shallots are, how the chef plates the duck, or when to call \"behind\". For weeks they need guidance.",
+        "That guidance comes from the three people who were already the fastest. So output dips before it rises. This is a **delay in the system**: the gap between an action and its full effect.",
+        "If you judge the decision by next Saturday, adding people looks like a mistake. If you judge it in two months, it may look fine."
+      ],
+      "image": {
+        "label": "Line chart: team output dips after new hires, then rises",
+        "aspectRatio": "16:9",
+        "brief": "단순한 선 그래프. 가로축 \"Weeks after hiring\", 세로축 \"Plates per hour\". 채용 직후 선이 아래로 꺼졌다가 몇 주 뒤 원래 수준을 넘어 올라감. 꺼진 구간에 \"Training cost\" 라벨.",
+        "url": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "breakdown",
+      "eyebrow": "The hidden cost",
+      "title": "Every new person adds more than one connection.",
+      "body": [
+        "Each pair of people who must coordinate is a line of communication. With **n** people there are n × (n − 1) ÷ 2 pairs. Headcount grows in a line. Coordination grows much faster."
+      ],
+      "breakdown": [
+        {
+          "value": "3",
+          "label": "3 people",
+          "detail": "3 pairs to stay in sync",
+          "highlight": false
+        },
+        {
+          "value": "10",
+          "label": "5 people",
+          "detail": "Over three times the pairs",
+          "highlight": false
+        },
+        {
+          "value": "28",
+          "label": "8 people",
+          "detail": "Nearly ten times the pairs",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The loop",
+      "title": "Late, so add people. Slower, so add more.",
+      "body": [
+        "Put the delay and the coordination cost together and a **reinforcing feedback loop** can form. The team is late. Managers add people. Training and coordination slow everyone down. The team gets later. Managers add more.",
+        "Fred Brooks saw this on large software projects and wrote about it in *The Mythical Man-Month* (1975). His rule, now called Brooks's law: adding people to a late software project makes it later."
+      ],
+      "image": {
+        "label": "Loop diagram: late, add people, more coordination, later",
+        "aspectRatio": "16:9",
+        "brief": "원형 화살표 다이어그램. \"Behind schedule\" → \"Add people\" → \"More training and coordination\" → \"Less real work done\" → 다시 \"Behind schedule\". 고리 가운데 \"+\" 표시로 강화 고리임을 나타냄.",
+        "url": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software team.",
+      "illustrative": true,
+      "body": [
+        "Your five engineers are three weeks behind on a release a big client is waiting for. Your VP offers four engineers from another team, starting Monday.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Take all four and split the remaining work nine ways",
+            "verdict": "risky",
+            "feedback": "Nine people means 36 pairs to coordinate, and the newcomers need your senior engineers to learn the codebase. This is the **reinforcing loop** Brooks described."
+          },
+          {
+            "key": "B",
+            "text": "Cut scope with the client to ship the core on time; take one engineer for a separate, well-defined piece",
+            "verdict": "best",
+            "feedback": "Cutting scope removes work instead of adding coordination. One person on a cleanly separate task needs little hand-holding, so the **delay** is short."
+          },
+          {
+            "key": "C",
+            "text": "Decline all help and ask the team to work weekends",
+            "verdict": "partial",
+            "feedback": "You avoid onboarding costs, but tired people make more mistakes and bugs feed back as rework. It can start a different loop."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Adding people often works. Timing is the trick.",
+      "body": [
+        "Brooks's law is a rule of thumb, not a ban on hiring. More people help when the work splits cleanly, like a second dishwasher or a separate feature, and when newcomers already know the tools.",
+        "They also help when you add them early, so the training dip ends before the crunch. The mistake is not hiring. It's hiring late and expecting the payoff right away."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "People add capacity later and coordination now.",
+      "body": [
+        "This lesson used two ideas. **Delays in systems**: the help from new people arrives weeks after the cost. **Feedback loops**: late teams that add people can get later, which tempts them to add more.",
+        "**Try it today:** think of the last person who joined your team. How many weeks until they made the team faster, and who paid for those weeks?"
+      ],
+      "next": "Next · Wells Fargo's sales targets"
+    }
+  ]
+}

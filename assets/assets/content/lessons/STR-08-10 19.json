@@ -1,0 +1,264 @@
+{
+  "id": "STR-08-10",
+  "unitId": "STR-08",
+  "categoryId": "STR",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Launch now or wait?",
+  "readerTitle": "Thirty freezers, one rival and a month to decide",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.1,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (베이커리 카페의 냉동 크루아상, 지역 식료품 체인 입점) · 모든 인물과 수치는 설명용",
+  "insight": "출시 타이밍은 한 번의 결정이 아니라 연속된 결정이다. 일찍 들어가되 작게 시작하고, 열성 고객 너머를 확인한 뒤 키우고, 경쟁자에게는 먼저 들어가서 쌓은 것으로 맞선다.",
+  "misconception": "먼저 출시하면 이긴다. 혹은 완벽해질 때까지 기다리는 것이 안전하다.",
+  "relatedLessonIds": [
+    "STR-08-05",
+    "STR-08-06"
+  ],
+  "sources": [
+    {
+      "text": "Lieberman, M. & Montgomery, D. (1988). First-Mover Advantages. Strategic Management Journal.",
+      "url": null
+    },
+    {
+      "text": "Moore, G. (1991). Crossing the Chasm. HarperBusiness.",
+      "url": null
+    },
+    {
+      "text": "모든 인물, 매장 수, 판매 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 설명용 가상 수치입니다. 재구매율 48%(카페 단골)와 14%(기타 고객), 개선 후 27%, 경쟁사 20% 저가, 30개 매장 중 3개로 시작하고 매달 9개씩 확대하는 설정은 모두 이야기 안에서 서로 맞게 정했습니다. 3 + 9 × 3 = 30개로 넉 달째에 30개 매장이 됩니다.",
+      "status": "open"
+    },
+    {
+      "note": "카드에서는 Lieberman & Montgomery와 Moore의 개념만 일반적으로 다루고, 연구 수치나 인용은 쓰지 않았습니다. 출처의 서지 정보(연도, 출판사)를 게시 전에 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "8번 카드의 '한 번의 계약이 시장 전체를 가르는 경우에는 속도가 더 중요하다'는 일반적인 조건 설명입니다. 특정 사례를 들지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Strategy · Simulation",
+      "title": "Thirty freezers, one rival and a month to decide",
+      "illustrative": true,
+      "body": [
+        "Maya runs two busy bakery-cafés. Her regulars keep asking to take croissants home, so she has developed a frozen, bake-at-home pack.",
+        "A regional grocery chain likes it and offers freezer space in 30 stores, starting next month. Her frozen delivery setup is untested. And she has heard a large bakery chain is working on something similar.",
+        "You're Maya. Four months, three calls."
+      ],
+      "image": {
+        "label": "A baker holding a frozen croissant box in front of a grocery freezer",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 앞치마를 두른 베이커가 냉동 크루아상 상자를 들고 마트 냉동고 앞에 서 있음. 뒤쪽 벽에 달력 한 장이 넘어가는 모습. 실제 브랜드 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/str-08-10-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 3",
+      "title": "The grocer wants an answer this week.",
+      "illustrative": true,
+      "body": [
+        "The recipe is good. The delivery setup is untested. A rival may be close behind. What do you tell the buyer?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Take all 30 stores now. Getting there first is what counts.",
+            "verdict": "risky",
+            "feedback": "You claim the shelf first, but untested deliveries to 30 stores can mean thawed, broken packs. A bad first taste is hard to undo, and the rival learns from your mistakes."
+          },
+          {
+            "key": "B",
+            "text": "Wait six months and perfect everything first.",
+            "verdict": "partial",
+            "feedback": "A cleaner start, but the freezer space may go to the rival. And while you wait, you learn nothing about real shoppers."
+          },
+          {
+            "key": "C",
+            "text": "Start now in the 3 stores nearest your cafés, for 8 weeks.",
+            "verdict": "best",
+            "feedback": "You enter early without betting everything. Shoppers there already know your name, and you can fix deliveries while volume is small."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "Eight weeks later",
+      "title": "Say you chose the 3 stores.",
+      "illustrative": true,
+      "body": [
+        "Deliveries failed twice. Both times you fixed the problem within a day. Then the sales data came in. Who bought a second pack within four weeks?"
+      ],
+      "chart": {
+        "unit": "%",
+        "groups": [
+          {
+            "label": "Bought again within 4 weeks",
+            "rows": [
+              {
+                "label": "Your café regulars",
+                "value": 48,
+                "highlight": true
+              },
+              {
+                "label": "Other shoppers",
+                "value": 14,
+                "highlight": false
+              }
+            ]
+          }
+        ]
+      },
+      "callout": "Your fans love it. Most other shoppers tried it once and moved on."
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 3",
+      "title": "The grocer says: go to all 30 stores.",
+      "illustrative": true,
+      "body": [
+        "Sales per freezer beat the store average, so the buyer wants to expand now. But most shoppers in the other 27 stores have never heard of your cafés."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Expand to all 30 stores with the same pack",
+            "verdict": "risky",
+            "feedback": "Your regulars bought on trust in your name. Strangers see a pricey box with no reason to buy twice, so the 14% problem spreads to 27 stores."
+          },
+          {
+            "key": "B",
+            "text": "Ask shoppers who didn't return why, fix that, then add stores in waves",
+            "verdict": "best",
+            "feedback": "You give up a fast rollout. In return, you learn what everyday shoppers need before you meet thousands of them."
+          },
+          {
+            "key": "C",
+            "text": "Stay in the 3 stores where it works",
+            "verdict": "partial",
+            "feedback": "Safe and profitable, but small. It also leaves 27 empty freezers for the rival."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "What you learned",
+      "title": "Say you asked first.",
+      "illustrative": true,
+      "body": [
+        "The answers were plain. Shoppers didn't know how long to bake the croissants. A box of six felt like too many to try. And nothing on the box said why these beat the store's own brand.",
+        "You added a big *18 minutes, no thawing* line, a 4-pack trial size and a photo of your café. Then you opened 9 new stores a month, with Saturday tastings. **Repeat buying among other shoppers rose to 27%.**"
+      ],
+      "image": {
+        "label": "Old box next to a redesigned box with a clear bake time",
+        "aspectRatio": "16:9",
+        "brief": "상자 두 개 비교. 왼쪽은 글씨가 작은 6개입 기존 상자, 오른쪽은 \"18 minutes, no thawing\"이 크게 적히고 카페 사진이 들어간 4개입 상자. 오른쪽 상자를 강조. 실제 로고는 쓰지 않음.",
+        "url": "assets/images/str-08-10-c5.jpg"
+      }
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 3",
+      "title": "The rival arrives.",
+      "illustrative": true,
+      "body": [
+        "In month four, the big chain launches frozen croissants in 100 stores, priced 20% below yours. Your grocer asks how you'll respond."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Cut your price to match theirs",
+            "verdict": "risky",
+            "feedback": "The chain buys flour by the truckload, so it can keep cutting longer than you. You'd trade your margin for a fight you're built to lose."
+          },
+          {
+            "key": "B",
+            "text": "Lean on what they can't copy quickly: your café name, tastings and a coffee coupon in every box",
+            "verdict": "best",
+            "feedback": "Your edge was never price. It's the customers and the grocer relationship you built by arriving early and getting it right."
+          },
+          {
+            "key": "C",
+            "text": "Pull back to your 3 original stores",
+            "verdict": "partial",
+            "feedback": "You protect your core fans, but you hand the rival the shelf space you spent four months earning."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "How it played out",
+      "title": "Say you leaned on your strengths.",
+      "illustrative": true,
+      "body": [
+        "Sales dipped for a few weeks as shoppers tried the cheaper packs. Then many came back. Your repeat buyers knew what they were getting, and the coupons brought new faces into your cafés.",
+        "The grocer kept you on the shelf because your packs sold steadily without discounts.",
+        "Being first didn't protect Maya. **What she built while she was first** did."
+      ],
+      "image": {
+        "label": "Two freezer shelves, one with a steady line of returning shoppers",
+        "aspectRatio": "16:9",
+        "brief": "마트 냉동고 두 칸. 한쪽에는 할인 스티커가 붙은 상자들, 다른 쪽에는 베이커리 상자와 그 앞에 다시 찾아온 손님들. 손님 중 한 명은 커피 쿠폰을 들고 있음. 실제 브랜드 로고는 쓰지 않음.",
+        "url": "assets/images/str-08-10-c7.jpg"
+      }
+    },
+    {
+      "index": 8,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A small start can become a slow death.",
+      "body": [
+        "Starting small only helps if you act on what you learn and have a clear plan to grow. In some markets, one big contract or shelf goes to whoever signs first. There, waiting can cost you everything.",
+        "Early fans can also mislead you. They forgive flaws that strangers won't, so their enthusiasm is a starting signal, not proof."
+      ],
+      "softwareNote": "The same three calls show up with an app. Release to a small group of eager users first. Rework onboarding before chasing mainstream users. Answer a cheaper copycat with what you learned, not with a lower price."
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Timing isn't one decision. It's a sequence.",
+      "body": [
+        "Each of Maya's calls used a different idea from this unit:"
+      ],
+      "list": [
+        "**Launch now or wait:** market timing and the beachhead. Enter early, but small, where people already trust you.",
+        "**Expand or not:** crossing the chasm. What wins your fans won't automatically win everyone else.",
+        "**The rival arrives:** fast followers. Defend with what you've learned and built, not with price."
+      ],
+      "callout": "**Try it today:** for your next launch, write down who your first 50 customers are, and what would make a stranger buy twice.",
+      "next": "Next · A new unit begins"
+    }
+  ]
+}

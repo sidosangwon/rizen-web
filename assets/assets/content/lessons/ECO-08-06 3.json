@@ -1,0 +1,242 @@
+{
+  "id": "ECO-08-06",
+  "unitId": "ECO-08",
+  "categoryId": "ECO",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Price wars",
+  "readerTitle": "Both pizza shops got busier. Both earned less.",
+  "format": "two_businesses",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 두 개 (피자 가게, 헬스장 예약 앱) + 가상 적용 (이사 업체) · 모든 수치는 설명용",
+  "insight": "경쟁자가 바로 따라 할 수 있는 가격 인하는 손님을 빼앗아 오지 못한다. 결국 두 회사의 돈을 손님에게 넘겨줄 뿐이다.",
+  "misconception": "경쟁자가 가격을 내리면 똑같이 내리거나 더 내려야 손님을 지킬 수 있다.",
+  "relatedLessonIds": [
+    "ECO-10-02",
+    "ECO-08-08"
+  ],
+  "sources": [
+    {
+      "text": "경쟁 전략과 게임 이론의 표준 개념 (가격 전쟁, 죄수의 딜레마)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "피자 가게 계산: 인하 전 ($12 − $5) × 1,000판 = $7,000. 1차 ($10 − $5) × 1,050판 = $5,250. 2차 ($9 − $5) × 1,100판 = $4,400. 판매량 +10%, 남는 돈 감소 (7,000 − 4,400) ÷ 7,000 = 37.1%(약 37%).",
+      "status": "open"
+    },
+    {
+      "note": "헬스장 예약 앱 계산: 지점당 월 $50, 지점당 변동비 $8 → $42. $35로 인하 시 $27. 감소율 (42 − 27) ÷ 42 = 35.7%(약 36%).",
+      "status": "open"
+    },
+    {
+      "note": "7번 카드의 '경쟁자와 가격을 합의하는 것은 많은 나라에서 불법'은 일반적인 경고입니다. 특정 국가의 법률 조언으로 읽히지 않도록 문구를 일반적으로 유지했습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Pricing · Two businesses",
+      "title": "Both pizza shops got busier. Both earned less.",
+      "illustrative": true,
+      "body": [
+        "Two pizza shops face each other across a busy street. One drops its price by $2. The other answers.",
+        "Two months later, both kitchens are busier than ever. Both owners are taking home less money. Neither one wanted this, and neither knows how to stop."
+      ],
+      "image": {
+        "label": "Two pizza shops across a street with falling price signs",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 길을 사이에 두고 마주 보는 피자 가게 두 곳. 양쪽 창문의 가격표가 $12 → $10 → $9로 점점 내려가는 모습을 겹쳐서 표현. 두 주인이 서로를 노려보는 코믹한 표정. 실제 브랜드 로고는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Your rival just cut prices.",
+      "illustrative": true,
+      "body": [
+        "You and the shop across the street each sell about 1,000 large pizzas a week at $12. Ingredients and the box cost you $5 a pizza.",
+        "This morning your rival put up a sign: large pizzas now $10. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Match it today at $10 so no one leaves",
+            "verdict": "partial",
+            "feedback": "You protect your customers, but each pizza now leaves $5 instead of $7. And you've shown your rival that every cut will be answered."
+          },
+          {
+            "key": "B",
+            "text": "Go to $9 and win the street",
+            "verdict": "risky",
+            "feedback": "You may win customers for a week. Then your rival can drop to $9 too, and you're both earning even less than before."
+          },
+          {
+            "key": "C",
+            "text": "Hold at $12 for now, watch who actually leaves, and push what they can't copy fast",
+            "verdict": "best",
+            "feedback": "You risk losing some price-hunting customers for a while. In return you keep your margin and avoid starting a cycle that is hard to stop."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "What happened",
+      "title": "Two rounds later.",
+      "illustrative": true,
+      "body": [
+        "Say you matched at $10. A month later the rival went to $9, and you matched again. Lower prices drew a few new diners, but mostly the two shops just traded the same customers back and forth."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Money left after ingredients each week, per shop",
+            "rows": [
+              {
+                "label": "Before: $12 × 1,000 pizzas",
+                "value": 7000,
+                "highlight": false
+              },
+              {
+                "label": "Round 1: $10 × 1,050 pizzas",
+                "value": 5250,
+                "highlight": false
+              },
+              {
+                "label": "Round 2: $9 × 1,100 pizzas",
+                "value": 4400,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "callout": "Sales up 10%. Money left after ingredients down about 37%."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Price war",
+      "body": [
+        "A **price war** is when rivals answer each price cut with a cut of their own, round after round.",
+        "The key idea: a price cut wins customers only if rivals *don't* match it. When they can match quickly, each business keeps roughly the same share. The only lasting change is that customers pay less and every business keeps less."
+      ],
+      "image": {
+        "label": "Two arrows pushing the price down in a loop",
+        "aspectRatio": "16:9",
+        "brief": "순환 다이어그램. \"You cut\" → \"They match\" → \"Same share\" → \"Less money for both\" → 다시 \"You cut\"으로 이어지는 원형 화살표. 가운데에 아래로 내려가는 가격 그래프 아이콘.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The second business",
+      "title": "In software, the war moves in hours.",
+      "illustrative": true,
+      "body": [
+        "Two booking apps for gyms each charge $50 a month per location. Servers, payment fees and support cost about $8, so each location leaves $42.",
+        "One app cuts to $35. The rival updates its pricing page that afternoon. Now each location leaves $27, about 36% less.",
+        "Two things make digital wars worse. Changing a price takes minutes, so matching is instant. And current users ask for the new price at renewal, so the cut hits **every customer**, not just new ones."
+      ],
+      "image": {
+        "label": "Two pricing pages changing on the same day",
+        "aspectRatio": "16:9",
+        "brief": "노트북 화면 두 개가 나란히 있고, 각 요금제 페이지의 \"$50/month\"가 같은 날 \"$35/month\"로 바뀌는 모습. 화면 위에 시계 아이콘(오전 → 오후). 실제 서비스 로고나 UI는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Why smart owners walk into it.",
+      "body": [
+        "Each owner thinks: if I don't cut, I lose customers. If I cut and they don't, I win. Either way, cutting looks right.",
+        "Both owners think the same way, so both cut, and both end up worse off. Game theory calls this pattern a **prisoner's dilemma**."
+      ],
+      "list": [
+        "Compete on what's hard to copy fast: speed, quality, service, location",
+        "Respond narrowly, only where customers are truly at risk",
+        "Don't start a war you can't outlast"
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Sometimes the lower price is real.",
+      "body": [
+        "If a rival's costs are truly lower, its lower price isn't a bluff. Holding your price may slowly lose customers, and you need a different answer than waiting.",
+        "The reverse is also true. A business with a real cost advantage can cut on purpose, because rivals can't match without losing money.",
+        "One more line not to cross: agreeing with competitors to keep prices up is illegal in many countries. The way out of a war is your own choices, not a deal with a rival."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a moving company.",
+      "illustrative": true,
+      "body": [
+        "You run a local moving company known for showing up on time and handling furniture with care. A rival starts advertising 30% off every move this season.",
+        "What's your best response?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Advertise 30% off too, starting next week",
+            "verdict": "risky",
+            "feedback": "You keep the price-shoppers, but every move now earns 30% less. And the rival can go to 35% tomorrow."
+          },
+          {
+            "key": "B",
+            "text": "Keep your prices and sell what the rival can't match quickly: guaranteed arrival times and damage cover",
+            "verdict": "best",
+            "feedback": "You may lose some bargain hunters. You keep your margin and the customers who care most about a safe, on-time move."
+          },
+          {
+            "key": "C",
+            "text": "Quietly match the rival only for customers who show you its quote",
+            "verdict": "partial",
+            "feedback": "This limits the damage to a few jobs. But word spreads, and soon every customer arrives with a rival's quote in hand."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A cut your rival can copy wins you nothing.",
+      "body": [
+        "When competitors can match quickly, price cuts don't move customers. They move money from every business to the customer. Compete where copying is slow.",
+        "**Try it today:** write down what your closest rival could copy in one day, and what would take them a year. Put your effort into the second list."
+      ],
+      "next": "Next · Raise prices at a hair salon"
+    }
+  ]
+}

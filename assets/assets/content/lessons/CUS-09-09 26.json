@@ -1,0 +1,238 @@
+{
+  "id": "CUS-09-09",
+  "unitId": "CUS-09",
+  "categoryId": "CUS",
+  "order": 9,
+  "type": "case",
+  "conceptTag": "'Nobody gets fired for buying IBM'",
+  "readerTitle": "Why \"Nobody gets fired for buying IBM\" was about blame, not computers",
+  "format": "company_story",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (IBM, Amdahl, 1970~90년대 메인프레임 시장) + 가상 적용 (지역 운송 회사)",
+  "insight": "기업 구매자는 제품과 함께 '실패해도 내 책임이 아닌 선택'을 산다. 도전자는 가격보다 구매 담당자 개인의 위험을 줄여야 이긴다.",
+  "misconception": "더 싸고 성능이 좋으면 기업 고객은 바꾼다. 구매자가 1등 업체를 고르는 건 정보가 부족해서다.",
+  "relatedLessonIds": [
+    "CUS-09-03",
+    "CUS-09-06"
+  ],
+  "sources": [
+    {
+      "text": "Computer History Museum, materials on Gene Amdahl and the Amdahl 470 (IBM-compatible mainframe, mid-1970s)",
+      "url": null
+    },
+    {
+      "text": "IBM Archives, history of the System/360 (announced 1964)",
+      "url": null
+    },
+    {
+      "text": "Wikipedia, 'Fear, uncertainty and doubt' (origin of the term and its link to IBM and Amdahl)",
+      "url": "https://en.wikipedia.org/wiki/Fear,_uncertainty_and_doubt"
+    },
+    {
+      "text": "Gerstner, L. (2002). Who Says Elephants Can't Dance? HarperBusiness. (IBM's early-1990s losses and turnaround)",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "\"Nobody ever got fired for buying IBM\"라는 말의 최초 출처는 불분명합니다. 카드에는 1970년대 무렵 기업 컴퓨터 구매자 사이에서 퍼진 말이며 누가 처음 했는지 모른다고만 적었습니다. IBM 공식 광고 문구라고 쓰지 마세요.",
+      "status": "open"
+    },
+    {
+      "note": "Gene Amdahl이 System/360의 주요 설계자였고 1970년 IBM을 떠나 Amdahl Corporation을 세웠다는 점, 첫 제품 Amdahl 470이 1975년 무렵 출하되어 IBM 소프트웨어를 그대로 실행했다는 점을 CHM 자료로 확인하세요. 가격 대비 성능 우위는 정성적으로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "FUD라는 용어를 Amdahl이 IBM 영업 방식을 가리켜 썼다는 이야기는 널리 인용되지만 정확한 원문과 시점은 확인이 필요합니다. 카드에는 \"often credited\"로 적고 직접 인용은 넣지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "IBM의 1990년대 초 대규모 적자와 감원, Lou Gerstner의 1993년 CEO 취임은 Gerstner(2002)와 IBM 연차보고서로 확인하세요. 카드에는 손실 금액을 쓰지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Company story",
+      "title": "Why \"Nobody gets fired for buying IBM\" was about blame, not computers",
+      "body": [
+        "For decades, corporate computer buyers repeated a saying: *Nobody ever got fired for buying IBM.* No one knows who said it first.",
+        "Notice what it doesn't claim. It doesn't say IBM was the cheapest or the fastest. It says something about who gets blamed when things go wrong."
+      ],
+      "image": {
+        "label": "An office worker choosing between a big safe-looking machine and a smaller rival",
+        "aspectRatio": "4:3",
+        "brief": "1970년대 사무실 분위기의 3D 클레이 일러스트. 넥타이를 맨 담당자가 두 대의 대형 컴퓨터 사이에 서 있다. 한쪽은 크고 듬직한 회색 기계, 다른 쪽은 조금 작고 반짝이는 기계. 담당자 뒤로 상사의 그림자가 보인다. 실제 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/cus-09-09-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "It's the 1970s. You pick the next computer.",
+      "body": [
+        "You run the data center at a large company. Your current machine is from the market leader. A newer company offers a mainframe that runs the same software unchanged and gives more speed for the money.",
+        "Your boss will sign whatever you recommend. If it fails, it's on you. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Stay with the market leader",
+            "verdict": "neutral",
+            "feedback": "You pay more and give up speed, but if anything breaks, nobody will question your judgment."
+          },
+          {
+            "key": "B",
+            "text": "Switch to the newer, better-value machine",
+            "verdict": "neutral",
+            "feedback": "You save the company money, but you carry the blame if the young supplier stumbles or disappears."
+          },
+          {
+            "key": "C",
+            "text": "Buy one new machine for a less critical job and keep the leader for the rest",
+            "verdict": "neutral",
+            "feedback": "You test the savings at low risk, but you now run two suppliers and gain only part of the benefit."
+          }
+        ],
+        "afterReveal": "Many real buyers in this spot chose the leader, even when the rival looked better on paper, because the risk landed on them personally."
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "A better machine met a bigger fear.",
+      "body": [
+        "Gene Amdahl, a lead designer of IBM's System/360, left IBM and founded his own company in 1970. Its first mainframe, shipped in the mid-1970s, ran IBM software unchanged and often gave more performance for the money.",
+        "Amdahl won real customers. But IBM's sales teams were widely described as stoking doubt: would the upstart survive, and who would help if a mixed setup failed? Amdahl is often credited with naming this tactic **FUD**: fear, uncertainty and doubt."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Career risk: the buyer's own downside",
+      "body": [
+        "In business buying, the person choosing is not spending their own money, but they are risking their own reputation. That is **career risk**.",
+        "Blame is lopsided. If the famous supplier fails, it looks like bad luck. If the unknown supplier fails, it looks like bad judgment. So buyers rationally lean toward the safe name, even when the company would gain from the rival."
+      ],
+      "image": {
+        "label": "A scale tipping toward the safe choice because of a heavy 'blame' weight",
+        "aspectRatio": "16:9",
+        "brief": "저울 인포그래픽. 왼쪽 접시에 \"Savings\"라고 적힌 동전 더미, 오른쪽 접시에 \"Blame if it fails\"라고 적힌 무거운 추. 저울이 오른쪽으로 기울어 있다. 깔끔한 플랫 스타일.",
+        "url": "assets/images/cus-09-09-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "breakdown",
+      "eyebrow": "How it works",
+      "title": "Four outcomes, seen by the buyer.",
+      "body": [
+        "The company sees savings. The buyer sees this table, and only one box hurts them badly."
+      ],
+      "breakdown": [
+        {
+          "value": "Unnoticed",
+          "label": "Leader works",
+          "detail": "Things run as expected",
+          "highlight": false
+        },
+        {
+          "value": "Shared bad luck",
+          "label": "Leader fails",
+          "detail": "\"Everyone uses them\"",
+          "highlight": false
+        },
+        {
+          "value": "Small credit",
+          "label": "Rival works",
+          "detail": "Savings, quietly praised",
+          "highlight": false
+        },
+        {
+          "value": "Your fault",
+          "label": "Rival fails",
+          "detail": "\"Why did you pick them?\"",
+          "highlight": true
+        }
+      ],
+      "softwareNote": "Software startups selling to large companies face the same table. That's why they lean on pilots, security certifications, known customer names and easy exits: each one shrinks the \"your fault\" box."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond computers",
+      "title": "The same pull works in services.",
+      "body": [
+        "A company choosing an auditor, a law firm or a building contractor feels it too. Hiring the big-name firm protects the person who hired it, even if a smaller firm would do equal work for less.",
+        "Smart challengers sell to this fear directly. Amdahl's biggest move was **compatibility**: buyers could switch back to IBM software without rewriting anything. Lowering the cost of being wrong mattered as much as the lower price."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Safe for the buyer isn't always safe for the company.",
+      "body": [
+        "The saying protected IBM for years, but it didn't protect it forever. Cheaper PCs, workstations and compatible rivals changed what buyers needed.",
+        "By the early 1990s, IBM posted heavy losses and cut many jobs, before a turnaround under Lou Gerstner, who became CEO in 1993. A leader that relies on buyers' fear can stop noticing when the fear no longer matches reality."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now you run a new trucking company.",
+      "illustrative": true,
+      "body": [
+        "You offer reliable regional freight at lower rates. A manufacturer's logistics manager uses a large national carrier. She likes your price but says, \"If a shipment goes missing, I'm the one explaining it.\" What's your best move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Cut your rate further so the savings are impossible to ignore",
+            "verdict": "risky",
+            "feedback": "A bigger discount makes the company's case stronger but does nothing about her personal risk. It can even make you look less stable."
+          },
+          {
+            "key": "B",
+            "text": "Offer one trial route with on-time guarantees and references, while she keeps the national carrier for the rest",
+            "verdict": "best",
+            "feedback": "You give up a big first order, but you shrink her downside to almost nothing and earn proof she can show her boss."
+          },
+          {
+            "key": "C",
+            "text": "Go over her head and pitch the savings to the finance director",
+            "verdict": "partial",
+            "feedback": "It may win attention for the numbers, but it turns the person who carries the risk into an opponent."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Business buyers buy protection for themselves, too.",
+      "body": [
+        "When you're the challenger, ask what happens to the buyer if you fail, then make that answer small. When you're the leader, don't confuse buyers' caution with loyalty.",
+        "**Try it today:** pick one customer who said \"not yet.\" Write down what they personally risk by choosing you, and one way to make that risk smaller."
+      ],
+      "next": "Next · Your biggest customer wants a custom feature"
+    }
+  ]
+}

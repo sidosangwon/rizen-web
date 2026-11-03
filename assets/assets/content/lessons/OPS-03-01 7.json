@@ -1,0 +1,282 @@
+{
+  "id": "OPS-03-01",
+  "unitId": "OPS-03",
+  "categoryId": "OPS",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "How supply chains work",
+  "readerTitle": "Why 'ships in two weeks' can mean twelve",
+  "format": "two_businesses",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 2개 (동네 가정·정원용품 매장, 회사 안의 IT팀) · 모든 수치는 설명용",
+  "insight": "공급업체가 말하는 납기는 자기 단계의 시간일 뿐이다. 실제로 기다리는 시간은 원료부터 고객까지, 우리 내부 단계까지 포함한 모든 단계의 합이다.",
+  "misconception": "공급업체가 말한 납기가 곧 내가 기다릴 시간이고, 늦어지면 공급업체 탓이다.",
+  "relatedLessonIds": [
+    "OPS-03-02",
+    "OPS-03-04"
+  ],
+  "sources": [
+    {
+      "text": "공급망 관리의 표준 개념 (조달·생산·운송·보관·판매 단계, 물자·주문·돈의 흐름, 리드타임의 합산)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 설명용 가상 수치입니다. 의자 공급망: 공장 생산 4주 + 해상 운송 5주 + 유통사 입고·출고 2주 + 매장 입고·진열 1주 = 12주. 5월 1일 기준으로 역산하면 2월 초에 주문해야 합니다.",
+      "status": "open"
+    },
+    {
+      "note": "IT팀 노트북: 요청·승인 5일 + 구매 주문 3일 + 공급업체 배송 3일 + 설치 대기 6일 + 자리까지 전달 2일 = 19일. 익일 배송 공급업체로 바꾸면 배송 3일 → 1일로 2일 단축, 19 − 2 = 17일.",
+      "status": "open"
+    },
+    {
+      "note": "softwareNote의 소프트웨어 공급망 예시(클라우드 호스팅, 결제대행, 데이터 제공업체, 앱스토어 심사)는 일반적인 구조 설명이며 특정 기업의 수치나 기간은 쓰지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Two businesses",
+      "title": "It ships in two weeks. It arrived in twelve.",
+      "illustrative": true,
+      "body": [
+        "A shop owner and a company IT team had the same problem. Each asked a supplier how long something would take. Each got an honest answer. Each still waited far longer than planned.",
+        "Neither supplier lied. Both answered for their own step. Nobody added up the rest."
+      ],
+      "image": {
+        "label": "A delivery box with a long trail of stops behind it",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 매장 카운터 위에 택배 상자 하나. 상자 뒤로 점선 경로가 길게 이어지며 공장, 배, 창고, 트럭 아이콘을 지나옴. 상자에 붙은 작은 태그에는 \"2 weeks\", 경로 전체 위에는 \"12 weeks\". 실제 로고나 상표 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "The chairs \"ship in two weeks.\"",
+      "illustrative": true,
+      "body": [
+        "You run a home and garden shop. You want new outdoor chairs on the floor by May 1, when spring shoppers arrive.",
+        "Your distributor says the chairs ship in two weeks. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Order in mid-April. Two weeks is enough",
+            "verdict": "risky",
+            "feedback": "It trusts the quote exactly. If the chairs aren't already in the distributor's warehouse, two weeks is only the last part of the wait."
+          },
+          {
+            "key": "B",
+            "text": "Order in early April to leave a buffer",
+            "verdict": "partial",
+            "feedback": "A buffer helps with small delays. But it's a guess, and it won't cover a wait that's months long."
+          },
+          {
+            "key": "C",
+            "text": "First ask whether the chairs are in the distributor's warehouse now, and if not, how long the steps before it take",
+            "verdict": "best",
+            "feedback": "One question shows whether the two weeks is the whole wait or just one step. It costs a phone call and avoids an empty spring floor."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What the two weeks covered",
+      "title": "The quote was true. It was one step of four.",
+      "illustrative": true,
+      "body": [
+        "The distributor was out of stock. Its two weeks assumed the chairs were already on its shelves. To have them by May 1, you needed to order in early **February**."
+      ],
+      "breakdown": [
+        {
+          "value": "4 wks",
+          "label": "Factory makes the chairs",
+          "detail": "Starts only after the distributor orders",
+          "highlight": false
+        },
+        {
+          "value": "5 wks",
+          "label": "Ocean freight",
+          "detail": "Factory port to the distributor's country",
+          "highlight": false
+        },
+        {
+          "value": "2 wks",
+          "label": "Distributor",
+          "detail": "Receiving and shipping to you: the quoted time",
+          "highlight": false
+        },
+        {
+          "value": "1 wk",
+          "label": "Your shop",
+          "detail": "Unpacking, pricing, setting up the display",
+          "highlight": false
+        },
+        {
+          "value": "12 wks",
+          "label": "Total wait",
+          "detail": "What the customer's chair really depends on",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The supply chain",
+      "body": [
+        "A **supply chain** is every step a product passes through before it reaches the customer. Someone sources materials, someone makes it, someone moves it, someone stores it, someone sells it.",
+        "Goods flow down the chain toward the customer. Orders and money flow up. Each step has its own time, cost and limits, and each business usually sees only the step right next to it."
+      ],
+      "image": {
+        "label": "A chain of five steps with goods flowing one way and orders the other",
+        "aspectRatio": "16:9",
+        "brief": "가로로 이어진 다섯 단계 인포그래픽: \"Source\", \"Make\", \"Move\", \"Store\", \"Sell\", 끝에 고객. 위쪽 화살표(오른쪽 방향)는 \"Goods\", 아래쪽 화살표(왼쪽 방향)는 \"Orders\"와 \"Money\". 각 단계 아래에 작은 시계 아이콘. 실제 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Time adds up, and you only see your neighbour.",
+      "body": [
+        "Seeing the chain changes how you read any delivery date."
+      ],
+      "list": [
+        "**Your wait is the sum** of every step you depend on, not just the last one",
+        "**Each business quotes its own step.** The distributor's two weeks assumed stock on hand",
+        "**Your own steps count too:** approving, ordering, receiving, unpacking",
+        "**The longest step sets the pace.** Here, the sea crossing mattered more than any other"
+      ],
+      "callout": "To know when something will really arrive, look at the steps behind your supplier.",
+      "softwareNote": "Software has a supply chain too: cloud hosting, payment processors, data providers, app store reviews. A launch date that depends on a partner's review or integration carries their timeline, not just your team's."
+    },
+    {
+      "index": 6,
+      "type": "chart",
+      "eyebrow": "The second business",
+      "title": "The vendor took 3 days. The new hire waited 19.",
+      "illustrative": true,
+      "body": [
+        "Now a team inside a larger company. IT gives every new hire a laptop, yet hires keep starting with no computer. The team blames the laptop vendor.",
+        "But the vendor ships in three days. Most of the wait sits inside the company, in steps nobody had added up."
+      ],
+      "chart": {
+        "unit": "count",
+        "groups": [
+          {
+            "label": "Days per step",
+            "rows": [
+              {
+                "label": "Manager request and approval",
+                "value": 5,
+                "highlight": false
+              },
+              {
+                "label": "Purchase order",
+                "value": 3,
+                "highlight": false
+              },
+              {
+                "label": "Vendor shipping",
+                "value": 3,
+                "highlight": false
+              },
+              {
+                "label": "IT setup queue",
+                "value": 6,
+                "highlight": true
+              },
+              {
+                "label": "Delivery to desk",
+                "value": 2,
+                "highlight": false
+              }
+            ]
+          }
+        ]
+      },
+      "image": {
+        "label": "The vendor took 3 days. The new hire waited 19.",
+        "aspectRatio": "4:3",
+        "brief": "Labeled HTML chart from the lesson numbers",
+        "url": "assets/images/ops-03-01-chart.png"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A map is a snapshot, not a promise.",
+      "body": [
+        "The times on a supply chain map are typical times. Real ones vary: a ship waits at port, an approver goes on holiday. For the steps that matter most, plan for the slow version, not the average.",
+        "You also rarely see more than one or two businesses back. You don't need a perfect map. Knowing the biggest steps and who controls them is usually enough to stop guessing."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Set up new hires in under a week.",
+      "illustrative": true,
+      "body": [
+        "Back to the IT team. Today a new hire waits 19 days for a laptop. Leadership wants it under a week. Where do you start?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Switch to a vendor that delivers the next day",
+            "verdict": "risky",
+            "feedback": "It feels decisive but saves two days at most. Shipping was never the main wait, so hires would still wait about 17 days."
+          },
+          {
+            "key": "B",
+            "text": "Add a second technician to clear the setup queue",
+            "verdict": "partial",
+            "feedback": "It shrinks the longest single step. But eight days of approval and ordering still sit in front of it."
+          },
+          {
+            "key": "C",
+            "text": "Pre-approve a standard laptop so it's ordered the day an offer is signed",
+            "verdict": "best",
+            "feedback": "It removes slow steps you control and starts the chain weeks before the first day. The laptop can be waiting when the hire arrives."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Your promise is only as fast as the whole chain.",
+      "body": [
+        "A supplier's quote covers its own step. Before you promise a date, add up every step from source to customer, including your own.",
+        "**Try it today:** pick one thing your business buys often. Write down every step between placing the order and using it, with a rough time for each. Circle the longest one."
+      ],
+      "next": "Next · Why every business holds stock it hasn't sold yet"
+    }
+  ]
+}

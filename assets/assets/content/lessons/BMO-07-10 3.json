@@ -1,0 +1,246 @@
+{
+  "id": "BMO-07-10",
+  "unitId": "BMO-07",
+  "categoryId": "BMO",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Build on someone else's platform?",
+  "readerTitle": "Your bakery on someone else's app: four calls in a row",
+  "format": "everyday_scene",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (지역 베이커리 체인 본사 안의 성장팀이 배달 앱 플랫폼에 입점하는 이야기) · 모든 수치와 회사는 설명용",
+  "insight": "남의 플랫폼에 올라타는 것은 한 번의 결정이 아니라 계속 이어지는 협상이다. 매 단계에서 플랫폼에 기대는 정도와 빠져나올 길을 함께 관리해야 한다.",
+  "misconception": "큰 플랫폼에 들어가면 고객이 생기니 무조건 이득이다. 반대로, 플랫폼이 조건을 바꾸면 바로 빠져나오는 것이 답이다.",
+  "relatedLessonIds": [
+    "BMO-07-06",
+    "BMO-07-05"
+  ],
+  "sources": [
+    {
+      "text": "플랫폼 리스크, 게이트키퍼, 보완재 상품화(commoditize your complement) 등 사업모델 분야의 표준 개념",
+      "url": null
+    },
+    {
+      "text": "모든 회사, 수치, 수수료율은 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 가상입니다. 계산 확인: $20 주문 기준 수수료 25% = $5, 30% = $6. 실제 배달 앱의 수수료율을 암시하지 않도록 카드에 '가상' 라벨을 유지하세요.",
+      "status": "open"
+    },
+    {
+      "note": "영수증·포장에 자체 주문 안내를 넣는 행위는 플랫폼 약관에 따라 금지될 수 있습니다. 카드에 'where the app's terms allow'로 조건을 달았습니다. 특정 국가의 법률 조언으로 읽히지 않는지 검토하세요.",
+      "status": "open"
+    },
+    {
+      "note": "배달 앱이 자체 브랜드(가상 주방 등)를 운영하는 것은 업계에서 관찰되는 일반적 패턴으로만 서술했습니다. 특정 기업 사례로 바꾸려면 1차 출처가 필요합니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Ecosystems · Simulation",
+      "title": "Your bakery on someone else's app: four calls in a row",
+      "illustrative": true,
+      "body": [
+        "Mara runs a three-person growth team at a regional bakery-café chain with 40 stores. Head office has one question for her: should we sell through the big delivery app everyone uses?",
+        "The app has millions of hungry customers. It also writes the rules. You'll make Mara's next four decisions."
+      ],
+      "image": {
+        "label": "A bakery storefront inside a giant phone screen",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 거대한 스마트폰 화면 안에 작은 베이커리 가게가 들어가 있고, 화면 밖에서 큰 손이 앱 화면의 순서를 손가락으로 옮기는 장면. 실제 배달 앱 로고나 색상은 쓰지 않음.",
+        "url": "assets/images/bmo-07-10-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 4",
+      "title": "Join the app?",
+      "illustrative": true,
+      "body": [
+        "The app takes 25% of each order. Your own ordering site works, but few people find it. What does Mara recommend?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "List all 40 stores and move the marketing budget into in-app promotions",
+            "verdict": "risky",
+            "feedback": "You get reach fast, but you also hand the app most of your growth before you know whether app orders even make money."
+          },
+          {
+            "key": "B",
+            "text": "List 8 stores for three months, track what each order leaves after the cut, and keep the own site running",
+            "verdict": "best",
+            "feedback": "You learn the real economics cheaply and keep a second door open. The cost is slower growth while you test."
+          },
+          {
+            "key": "C",
+            "text": "Stay off and build a full delivery app of your own",
+            "verdict": "partial",
+            "feedback": "You keep full control, but you pay to build something customers may never download. Control without reach is expensive."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 4",
+      "title": "The app changes the deal.",
+      "illustrative": true,
+      "body": [
+        "Say you chose the test. It works, and a year later app orders are a big share of delivery sales.",
+        "Then the app announces a new rate: 30% for partners who don't buy ads. On a $20 order, its cut rises from $5 to $6."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Buy the ads to keep your ranking and the old rate",
+            "verdict": "partial",
+            "feedback": "Sales stay steady, but you now pay twice for the same customers, and the next change will find you even more dependent."
+          },
+          {
+            "key": "B",
+            "text": "Raise in-app prices a little, and invite repeat customers to order direct where the app's terms allow",
+            "verdict": "best",
+            "feedback": "You protect the margin and slowly move loyal customers to a channel you own. You may lose some price-sensitive app orders."
+          },
+          {
+            "key": "C",
+            "text": "Leave the app this week",
+            "verdict": "risky",
+            "feedback": "It feels like taking back control, but you drop a large share of sales overnight with no channel ready to replace them."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "What's happening",
+      "title": "The platform owns the door, so it sets the price of walking through.",
+      "body": [
+        "When you build on a platform you don't control, you gain its customers but accept **platform risk**: the owner can change fees, rankings or rules, and you have to adapt.",
+        "Your exposure grows with one number: the share of your sales that only reaches you through that door. Mara's real job isn't to avoid the app. It's to keep that share at a level the bakery can survive losing."
+      ],
+      "image": {
+        "label": "A dial showing share of sales through the app",
+        "aspectRatio": "16:9",
+        "brief": "계기판 형태의 다이얼 인포그래픽. 바늘이 \"Sales through the app\" 비율을 가리키고, 낮은 구간은 초록 \"Useful channel\", 높은 구간은 빨강 \"They set your terms\". 실제 수치는 넣지 않음.",
+        "url": "assets/images/bmo-07-10-c4.jpg"
+      },
+      "softwareNote": "The same thing happens to software built on an app store, a marketplace or another company's API. A fee change or a new review rule can reshape your margins overnight, so track how much revenue depends on each one."
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 4",
+      "title": "An offer that sounds generous.",
+      "illustrative": true,
+      "body": [
+        "Say you chose to adjust prices and build the direct channel. Now the app makes an offer: drop the rate to 22% if your stores list on no other delivery app."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Accept. It's the cheapest rate on the table",
+            "verdict": "risky",
+            "feedback": "You save now, but the app becomes your only gate to delivery customers. When the contract ends, it can name any price."
+          },
+          {
+            "key": "B",
+            "text": "Decline and stay on several apps plus your own site",
+            "verdict": "best",
+            "feedback": "You pay a higher rate, but no single gatekeeper can squeeze you, because customers can still reach you other ways."
+          },
+          {
+            "key": "C",
+            "text": "Accept for 10 stores only, for one year, with a clear exit clause",
+            "verdict": "partial",
+            "feedback": "A limited bet that tests the savings. Just make sure the exit clause is real and that you could actually leave in time."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Decision 4 of 4",
+      "title": "The app starts selling croissants.",
+      "illustrative": true,
+      "body": [
+        "Say you declined. Months later, the app launches its own bakery brand, made in shared kitchens, priced below yours and shown above you in search.",
+        "The app gains when bakeries look interchangeable. Then customers shop by price and convenience, which it controls."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Match its prices to win back the top spot",
+            "verdict": "risky",
+            "feedback": "You play the one game the app always wins. Your margins shrink, and you look even more like everyone else."
+          },
+          {
+            "key": "B",
+            "text": "Lean into what it can't copy: signature items, the café visit, and office catering booked direct",
+            "verdict": "best",
+            "feedback": "You give up some app orders, but your brand becomes a reason to seek you out, which moves you off the price list."
+          },
+          {
+            "key": "C",
+            "text": "Quit the app and put everything into your own site",
+            "verdict": "partial",
+            "feedback": "This makes sense if direct orders are already strong. If not, you trade one risk for a sudden drop in sales."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Hedging has a price too.",
+      "body": [
+        "Running your own site, several apps and a loyalty scheme costs money and attention. For a small business, one good platform may simply be the best deal available.",
+        "The goal isn't zero dependence. It's knowing what each order leaves you, having a plan if the rules change, and not making your own brand harder to find.",
+        "And the app isn't a villain. Its interests overlap with yours, until they don't."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Use the platform's reach, but keep a door it doesn't own.",
+      "body": [
+        "Each of Mara's calls maps to an idea from this unit."
+      ],
+      "list": [
+        "**Join with a test:** you're a complement to the platform, and you can choose how much to rely on it",
+        "**Fee change:** platform risk grows with the share of sales it controls",
+        "**Exclusive deal:** don't make one gatekeeper your only way in",
+        "**Its own bakery brand:** platforms gain by making you interchangeable, so make yourself hard to swap"
+      ],
+      "callout": "**Try it today:** write down what share of your sales arrives through a channel you don't own, and what you'd do if its fee rose by a fifth.",
+      "next": "Next · A new unit begins"
+    }
+  ]
+}

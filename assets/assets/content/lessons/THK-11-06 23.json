@@ -1,0 +1,235 @@
+{
+  "id": "THK-11-06",
+  "unitId": "THK-11",
+  "categoryId": "THK",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "The value of more information",
+  "readerTitle": "When is it worth finding out more before you decide?",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (브런치 메뉴를 고민하는 식당, 온보딩 이메일을 테스트하는 소프트웨어 팀) + 실제 연구 개념 (Howard의 정보 가치 이론, Hubbard의 측정 역설). 모든 수치는 설명용",
+  "insight": "정보의 가치는 얼마나 정확한가가 아니라, 그 정보가 내 결정을 바꿀 수 있는가로 정해진다.",
+  "misconception": "정보는 많을수록 좋고, 조사를 더 하면 언제나 더 나은 결정을 한다.",
+  "relatedLessonIds": [
+    "THK-04-02",
+    "THK-05-01"
+  ],
+  "sources": [
+    {
+      "text": "Howard, R. A. (1966). Information Value Theory. IEEE Transactions on Systems Science and Cybernetics, 2(1), 22–26.",
+      "url": null
+    },
+    {
+      "text": "Hubbard, D. W. How to Measure Anything: Finding the Value of Intangibles in Business (\"measurement inversion\")",
+      "url": null
+    },
+    {
+      "text": "모든 사업 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "계산 확인: 설문이 결정을 바꿀 확률 10% × 바꿨을 때 아끼는 돈 $4,000 = $400. 설문이 완벽히 정확하다고 가정한 상한선이며, 설문 가격 $3,000보다 훨씬 낮습니다. 모두 가상 수치입니다.",
+      "status": "open"
+    },
+    {
+      "note": "Hubbard의 'measurement inversion'(조직이 가치가 낮은 것을 많이 측정하고 가치가 높은 것은 덜 측정하는 경향)은 책의 관찰을 일반적으로만 서술했습니다. 구체적 수치는 인용하지 않았습니다. 게시 전 원문 표현을 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Howard(1966) 논문이 정보 가치를 의사결정 분석의 틀로 정리한 초기 문헌이라는 점을 서지 정보와 함께 다시 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Everyday scene",
+      "title": "The weather check that changed nothing",
+      "body": [
+        "You check the forecast before leaving home. It says 20% chance of rain. You take your jacket, like you do every day.",
+        "The check felt useful. But if you'd have taken the jacket either way, it was worth exactly nothing. That idea matters far more when the check costs $3,000."
+      ],
+      "image": {
+        "label": "Person checking a phone forecast while already holding a jacket",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 현관에서 한 손에는 이미 재킷을 든 사람이 다른 손으로 휴대폰 날씨 화면을 보고 있음. 화면에는 구름 아이콘과 \"20%\". 실제 앱 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/thk-11-06-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "A research firm offers a $3,000 survey.",
+      "illustrative": true,
+      "body": [
+        "You run a neighborhood restaurant and plan to add weekend brunch. A research firm offers to survey 400 locals about brunch demand. It costs $3,000 and takes six weeks.",
+        "Before deciding whether to buy it, what should you ask first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "How many people will they survey, and how?",
+            "verdict": "partial",
+            "feedback": "Quality matters, but only after you know the answer could matter. A perfect survey is still a waste if it can't change your plan."
+          },
+          {
+            "key": "B",
+            "text": "Is there any result that would make me drop the brunch plan?",
+            "verdict": "best",
+            "feedback": "This tells you whether the survey can change your decision at all. If no answer would stop you, it's worth little at any price."
+          },
+          {
+            "key": "C",
+            "text": "Can I get the same survey for less?",
+            "verdict": "risky",
+            "feedback": "A cheaper survey saves money on the price tag. But you still haven't asked whether the information is worth anything to you."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "What could the survey save you?",
+      "illustrative": true,
+      "body": [
+        "Be honest: you'd only cancel brunch if the survey came back very negative. You guess there's a 10% chance of that. If brunch flopped, you'd lose about $4,000 before noticing and stopping.",
+        "Even a perfect survey is worth about **$400** to you. It costs $3,000."
+      ],
+      "breakdown": [
+        {
+          "value": "10%",
+          "label": "Chance it changes your plan",
+          "detail": "Only a very bad result would stop you",
+          "highlight": false
+        },
+        {
+          "value": "$4,000",
+          "label": "Saved if it does",
+          "detail": "The loss from a flop you'd avoid",
+          "highlight": false
+        },
+        {
+          "value": "$400",
+          "label": "Most it's worth",
+          "detail": "10% × $4,000, if fully accurate",
+          "highlight": true
+        },
+        {
+          "value": "$3,000",
+          "label": "Price",
+          "detail": "Plus six weeks of waiting",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The value of more information",
+      "body": [
+        "**The value of information** is how much better your decision gets because you learned something. If no possible answer would change what you do, the value is zero.",
+        "Three things raise it: how unsure you really are, how much money is at stake, and how hard a wrong choice is to undo. Decision researcher Ronald Howard set out this way of thinking in a 1966 paper."
+      ],
+      "image": {
+        "label": "Three dials: uncertainty, stakes, reversibility",
+        "aspectRatio": "16:9",
+        "brief": "계기판 3개가 나란히 있는 인포그래픽. 라벨은 \"How unsure?\", \"How much at stake?\", \"How hard to undo?\". 세 바늘이 모두 높을 때만 가운데 \"Worth finding out\" 램프가 켜짐.",
+        "url": "assets/images/thk-11-06-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Often the cheapest research is just trying it.",
+      "illustrative": true,
+      "body": [
+        "Brunch is easy to reverse. Two trial weekends cost the restaurant about $800 in extra staff and food. They show real customers paying real money, not people guessing on a form.",
+        "When a choice can be undone quickly, acting *is* the research. Save expensive studies for choices you can't take back, like signing a ten-year lease."
+      ],
+      "softwareNote": "Software teams face the same trade-off. A feature behind a switch you can turn off is cheap to try. A price change sent to every customer, or a database migration, is the place for careful research first."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "A common pattern",
+      "title": "We measure what's easy, not what matters.",
+      "body": [
+        "Measurement expert Douglas Hubbard calls it the **measurement inversion**: organizations often measure small, easy things in detail and leave their biggest uncertainties unmeasured.",
+        "A café might count every napkin while guessing about whether a second location would work. The napkin data is precise. It just never changes a big decision."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Overconfidence makes all research look worthless.",
+      "body": [
+        "This math depends on how unsure you honestly are. If you're sure you're right, nothing seems able to change your mind, so every study looks like a waste.",
+        "Ask a colleague what result would surprise them. And treat a rare outcome that could sink the business differently. Even a small chance of ruin can be worth paying to check."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software team.",
+      "illustrative": true,
+      "body": [
+        "Your product team wants a six-week A/B test of two subject lines for a welcome email. Whichever wins, you could switch back in minutes. The same team is also deciding whether to drop monthly billing and offer annual plans only.",
+        "Where should the testing effort go?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Run the full six-week subject-line test to be rigorous",
+            "verdict": "partial",
+            "feedback": "You'd get a clean answer, but to a cheap, reversible question. Six weeks of attention buys very little."
+          },
+          {
+            "key": "B",
+            "text": "Ship the subject line you prefer, watch the numbers, and test the billing change carefully",
+            "verdict": "best",
+            "feedback": "The billing change is uncertain, affects revenue, and is hard to undo with existing customers. That's where information pays."
+          },
+          {
+            "key": "C",
+            "text": "Skip testing for both and move fast",
+            "verdict": "risky",
+            "feedback": "You save time on both, but you take a big, hard-to-reverse bet on billing with no evidence."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Information is worth what it can change.",
+      "body": [
+        "Before paying for research or waiting for more data, ask which answer would make you choose differently, and how much that would save.",
+        "**Try it today:** pick one report you check every week. Write down the last decision it changed. If you can't name one, check it less."
+      ],
+      "next": "Next · Read a café's loyalty-card test"
+    }
+  ]
+}

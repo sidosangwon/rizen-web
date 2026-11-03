@@ -1,0 +1,228 @@
+{
+  "id": "FIN-02-04",
+  "unitId": "FIN-02",
+  "categoryId": "FIN",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Getting paid on time",
+  "readerTitle": "Same work, same profit. Why one firm has cash and the other doesn't",
+  "format": "two_businesses",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.4,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (IT 지원 회사 두 곳, 욕실 리모델링 업체) · 모든 수치는 설명용",
+  "insight": "제때 돈을 받는 일은 일이 끝난 뒤 독촉하는 문제가 아니라, 일을 시작하기 전에 정하는 결제 조건의 문제다.",
+  "misconception": "돈을 늦게 받는 건 고객이 늦게 내기 때문이고, 독촉을 잘하면 해결된다. 결제 조건을 까다롭게 말하면 고객을 잃는다.",
+  "relatedLessonIds": [
+    "FIN-02-02",
+    "FIN-02-08"
+  ],
+  "sources": [
+    {
+      "text": "재무관리의 표준 개념 (결제 조건, 매출채권 회수 기간 DSO, 2/10 net 30 조기 결제 할인)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "훅 계산: 월 $40,000. 선청구·30일 결제 회사는 30일, 60일, 90일에 입금 → 90일까지 $120,000. 월말 청구·60일 결제 회사는 1개월 차 청구분이 90일에 첫 입금 → 90일까지 $40,000. 차이 $80,000.",
+      "status": "open"
+    },
+    {
+      "note": "신규 고객 계산: 월 $8,000, 월말 청구·net 60 → 첫 입금 약 90일째. 그때까지 제공한 일 3개월 = $24,000, 받은 돈 $8,000. 월초 선청구·net 30이면 30·60·90일에 입금되어 90일까지 $24,000.",
+      "status": "open"
+    },
+    {
+      "note": "조기 결제 할인 연이율: 2% 할인으로 20일 빨리 받음 → (2 ÷ 98) × (365 ÷ 20) ≈ 37.2%, 카드에는 \"about 37% a year\"로 표기.",
+      "status": "open"
+    },
+    {
+      "note": "욕실 공사: 계약 $12,000, 자재 $4,000을 첫 주에 구입. 일부 지역은 주택 공사 계약금 상한을 법으로 정합니다(예: 미국 일부 주). 카드에는 특정 법을 언급하지 않고 \"check local rules\"로만 적었습니다. 법률 조언으로 읽히지 않는지 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Two businesses",
+      "title": "Same work, same profit. Why one firm has cash and the other doesn't",
+      "illustrative": true,
+      "body": [
+        "Two IT support firms each bill $40,000 a month. Same clients, same costs, same profit.",
+        "The first bills at the start of each month, due in 30 days. The second bills at month-end, and clients pay in 60. By day 90, the first has collected **$120,000**. The second has collected $40,000 and is borrowing to make payroll."
+      ],
+      "image": {
+        "label": "Two identical offices, one with a full cash jar, one nearly empty",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 똑같이 생긴 작은 사무실 두 개가 나란히 있음. 왼쪽 사무실 앞 유리병에는 지폐가 가득, 오른쪽은 거의 비어 있음. 두 사무실 위에 같은 \"$40,000 / month\" 표지판. 실제 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "A big new client wants 60 days to pay.",
+      "illustrative": true,
+      "body": [
+        "You run a small IT support firm. A new client offers $8,000 a month, your biggest contract yet. Their standard terms: you invoice at month-end, they pay within 60 days. Your other clients pay within 30.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Accept their terms. Winning the deal matters most",
+            "verdict": "partial",
+            "feedback": "You win the client, but you fund about three months of their support before the first payment arrives. Fine if you have the cash, painful if you don't."
+          },
+          {
+            "key": "B",
+            "text": "Keep the price, but propose billing at the start of each month, due in 30 days",
+            "verdict": "best",
+            "feedback": "You give them the price they want and ask for timing instead. Many buyers can flex on timing more easily than on price."
+          },
+          {
+            "key": "C",
+            "text": "Say no unless they pay a full year upfront",
+            "verdict": "risky",
+            "feedback": "It protects your cash completely, but few large clients accept it. You may lose a good customer over a gap you could have narrowed."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "What 60 days really means.",
+      "illustrative": true,
+      "body": [
+        "Billed at the start of each month, due in 30 days, you'd have collected all **$24,000** by day 90. Same client, same price, a very different bank balance."
+      ],
+      "breakdown": [
+        {
+          "value": "$8,000",
+          "label": "Monthly fee",
+          "detail": "Invoiced at the end of each month",
+          "highlight": false
+        },
+        {
+          "value": "Day 90",
+          "label": "First payment",
+          "detail": "30 days of work, then 60 days to pay",
+          "highlight": false
+        },
+        {
+          "value": "$24,000",
+          "label": "Work delivered by then",
+          "detail": "Three months of support, wages already paid",
+          "highlight": false
+        },
+        {
+          "value": "$8,000",
+          "label": "Cash received",
+          "detail": "You've funded $16,000 of their business",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Payment terms set the gap",
+      "body": [
+        "**Payment terms** are the agreed rules for when a customer pays: upfront, a deposit, on completion, or *net 30* (within 30 days of the invoice).",
+        "The time between doing the work and getting the cash is often called **days to collect** (accountants say *days sales outstanding*). Every day of that gap, you are lending your customer money, with no interest."
+      ],
+      "image": {
+        "label": "Timeline from work done to cash received, with the gap shaded",
+        "aspectRatio": "16:9",
+        "brief": "가로 타임라인 인포그래픽. 왼쪽 \"Work starts\", 가운데 \"Invoice sent\", 오른쪽 \"Cash arrives\". 일 시작부터 입금까지 구간을 빨간색으로 칠하고 \"You're lending to your customer\" 라벨.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "The gap is decided at three moments.",
+      "body": [
+        "Most owners focus on chasing late payers. But the biggest lever comes earlier."
+      ],
+      "list": [
+        "**Before the work:** deposits, billing in advance, payments at each stage",
+        "**At the invoice:** send it the day the work is done, with a clear due date and an easy way to pay",
+        "**After the due date:** a polite reminder schedule you follow every time, not when you remember"
+      ],
+      "callout": "Most of the gap is set before the work starts.",
+      "softwareNote": "Subscription software billed yearly by card collects before delivering anything. The same company selling to large firms on net-60 invoices can look like the second IT firm."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Faster isn't free.",
+      "body": [
+        "Strict terms can cost you customers, especially large ones with the power to set their own. Push too hard and you may win the argument and lose the account.",
+        "Early-payment discounts look cheap but aren't. Giving 2% off to be paid 20 days sooner works out to about **37% a year**. That's worth it only when cash is truly tight. And chase politely: a reminder protects cash, a threat can end a relationship."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a bathroom remodel.",
+      "illustrative": true,
+      "body": [
+        "You remodel bathrooms. A $12,000 job takes three weeks, and you buy $4,000 of tiles and fixtures in week one. Today, homeowners pay everything when the job is done.",
+        "How should you set terms for the next job?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep payment on completion. It's what customers like",
+            "verdict": "risky",
+            "feedback": "Customers are happy, but you carry $4,000 of materials and three weeks of wages. One slow payer and you're short for the next job."
+          },
+          {
+            "key": "B",
+            "text": "Ask for the full $12,000 before you start",
+            "verdict": "partial",
+            "feedback": "Your cash is safe, but many homeowners won't hand over everything before seeing any work. You trade trust for safety."
+          },
+          {
+            "key": "C",
+            "text": "A deposit to cover materials, a payment midway, the balance on completion",
+            "verdict": "best",
+            "feedback": "Each payment roughly matches what you've spent, and the customer pays as they see progress. Check local rules, as some places limit deposits."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Decide when you get paid before you start the work.",
+      "body": [
+        "The gap between work and cash is a choice you make at the deal, not a fate you suffer after the invoice.",
+        "**Try it today:** list your five biggest customers. For each, count the days from finishing the work to cash in the bank. Pick one where you could ask for a deposit or earlier billing."
+      ],
+      "next": "Next · Why a full stockroom can mean an empty bank account"
+    }
+  ]
+}

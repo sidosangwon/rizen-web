@@ -1,0 +1,248 @@
+{
+  "id": "MKT-03-09",
+  "unitId": "MKT-03",
+  "categoryId": "MKT",
+  "order": 9,
+  "type": "case",
+  "conceptTag": "Hotel towel signs and social proof",
+  "readerTitle": "The hotel towel sign that worked better by saying less about the planet",
+  "format": "company_story",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.4,
+  "caseKinds": [
+    "real_company",
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 호텔 현장 실험 (Goldstein, Cialdini, Griskevicius 2008, 미국 애리조나의 중형 호텔, 호텔명 비공개) + 후속 재현 연구 + 가상 적용 (B2B 회계 서비스)",
+  "insight": "사람을 움직이는 건 '옳은 이유'보다 '나와 비슷한 사람들이 실제로 하는 일'이며, 그 무리가 가까울수록 힘이 세다.",
+  "misconception": "좋은 이유를 잘 설명하면 사람들이 따른다. 그리고 '많은 사람이 안 한다'고 경고하면 행동이 바뀐다.",
+  "relatedLessonIds": [
+    "MKT-03-01",
+    "CUS-10-06"
+  ],
+  "sources": [
+    {
+      "text": "Goldstein, N. J., Cialdini, R. B., & Griskevicius, V. (2008). A Room with a Viewpoint: Using Social Norms to Motivate Environmental Conservation in Hotels. Journal of Consumer Research, 35(3), 472–482.",
+      "url": null
+    },
+    {
+      "text": "Bohner, G., & Schlüter, L. E. (2014). A Room with a Viewpoint Revisited: Descriptive Norms and Hotel Guests' Towel Reuse Behavior. PLOS ONE.",
+      "url": null
+    },
+    {
+      "text": "Scheibehenne, B., Jamil, T., & Wagenmakers, E.-J. (2016). Bayesian Evidence Synthesis Can Reconcile Seemingly Inconsistent Results: The Case of Hotel Towel Reuse. Psychological Science.",
+      "url": null
+    },
+    {
+      "text": "Cialdini, R. B. (2003). Crafting Normative Messages to Protect the Environment. Current Directions in Psychological Science (Petrified Forest 사례).",
+      "url": null
+    },
+    {
+      "text": "회계 서비스 사례는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "연구 1의 수건 재사용률: 표준 환경 메시지 약 35.1%, '다른 투숙객 대부분이 재사용' 메시지 약 44.1%. 게시 전 원 논문(JCR 2008) 표와 다시 대조하세요.",
+      "status": "open"
+    },
+    {
+      "note": "연구 2의 '이 방에 묵었던 투숙객' 메시지가 가장 높았다(약 49%)는 점을 카드에 'nearly half'로만 적었습니다. 정확한 수치와 비교 조건을 원 논문에서 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "호텔은 실제 호텔이지만 논문에서 이름이 공개되지 않았습니다. 카드에 호텔명을 쓰지 않았습니다. 지역(애리조나)은 확인 후에만 추가하세요.",
+      "status": "open"
+    },
+    {
+      "note": "독일 재현 연구(Bohner & Schlüter 2014)는 효과를 재현하지 못했고, 이후 종합 분석(Scheibehenne 외 2016)은 효과가 있되 작다고 결론. 카드에는 '작고 상황에 따라 다르다'로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Petrified Forest 국립공원 실험(나쁜 행동이 흔하다고 알리는 메시지가 역효과)은 Cialdini(2003)에 나옵니다. 카드에는 수치 없이 방향만 적었습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Persuasion · Company story",
+      "title": "The hotel towel sign that worked better by saying less about the planet",
+      "body": [
+        "Hotels have long asked guests to reuse their towels. The usual sign talks about saving water and protecting nature.",
+        "In a real hotel, researchers tested a different sign. It didn't add a better reason. It added other people."
+      ],
+      "image": {
+        "label": "A small card hanging on a hotel bathroom towel rack",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 조명의 호텔 욕실. 수건걸이에 작은 안내 카드가 걸려 있고, 카드 문구는 흐릿하게 처리. 실제 호텔 로고나 브랜드 없음. 차분한 일러스트 스타일.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which card gets more towels reused?",
+      "body": [
+        "You manage a mid-sized hotel. You can print one card for every bathroom. Guests see it once, alone, with no one watching.",
+        "Which message would you print?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "\"Help save the environment. Reuse your towels.\"",
+            "verdict": "partial",
+            "feedback": "A sound reason, and some guests act on it. But it asks each guest to care about the planet on their own, which is a weak pull at 7 a.m."
+          },
+          {
+            "key": "B",
+            "text": "\"Most guests at this hotel reuse their towels. Join them.\"",
+            "verdict": "best",
+            "feedback": "This tells guests what normal looks like here. It gives up the moral argument and gains something stronger: a cue about what people like them do."
+          },
+          {
+            "key": "C",
+            "text": "\"Too many guests still don't reuse towels. Help us change that.\"",
+            "verdict": "risky",
+            "feedback": "It sounds urgent, but it quietly tells guests that not reusing is common. You gain alarm and lose the norm."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "What happened",
+      "title": "The crowd beat the cause.",
+      "body": [
+        "In a 2008 study, researchers rotated cards across rooms. The only change was the message. Saying most guests reuse towels lifted reuse by about nine points."
+      ],
+      "chart": {
+        "unit": "%",
+        "groups": [
+          {
+            "label": "Guests who reused at least one towel",
+            "rows": [
+              {
+                "label": "Environmental message",
+                "value": 35.1,
+                "highlight": false
+              },
+              {
+                "label": "\"Most guests reuse\" message",
+                "value": 44.1,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "image": {
+        "label": "The crowd beat the cause.",
+        "aspectRatio": "4:3",
+        "brief": "Labeled HTML chart from the lesson numbers",
+        "url": "assets/images/mkt-03-09-chart.png"
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Social proof: we copy people like us",
+      "body": [
+        "**Social proof** is our habit of looking at what others do to decide what we should do. It is strongest when we are unsure and alone, like a guest in a hotel bathroom.",
+        "The environmental card told guests what was *right*. The winning card told them what was *normal*. Most people trust normal more than they admit."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The twist",
+      "title": "The closer the crowd, the stronger the pull.",
+      "body": [
+        "In a second study, the team tried several versions of \"other guests.\" The best one was oddly specific: guests who had stayed **in this same room**.",
+        "That card did best of all, with nearly half of guests reusing. A room number has nothing to do with towels. But it made the crowd feel close, like people in your exact situation."
+      ],
+      "image": {
+        "label": "Circles of people narrowing from 'guests' to 'this room'",
+        "aspectRatio": "16:9",
+        "brief": "동심원 인포그래픽. 바깥 원 \"People\", 가운데 \"Guests at this hotel\", 가장 안쪽 원 \"Guests in this room\". 안쪽으로 갈수록 색이 진해지고 화살표가 투숙객 아이콘을 가리킴.",
+        "url": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond hotels",
+      "title": "The same lever works on a store shelf.",
+      "body": [
+        "A hardware chain could label a paint roller \"bestseller.\" Better: \"Most bought by customers at this store.\" A local crowd feels more like you than a national one.",
+        "The rule travels: show real behavior, from a group the customer sees as similar."
+      ],
+      "softwareNote": "In software, \"Most teams your size turn on this setting\" during onboarding often beats a list of benefits, as long as it's true for that segment of users."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Social proof is real, but smaller and pickier than the headline.",
+      "body": [
+        "A German team later tried to repeat the towel study and found no clear effect. A later analysis of the evidence concluded the effect exists but is small and depends on context.",
+        "It also needs to be true and needs a real majority. Research at a US national park suggests that signs saying many visitors steal wood can make theft seem normal. If most people don't do it yet, don't announce that."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a bookkeeping firm.",
+      "illustrative": true,
+      "body": [
+        "You run a bookkeeping service for small businesses. Late receipts cause rushed, error-prone month-end work. Your records show 8 in 10 clients send documents by the 5th.",
+        "Which reminder email do you send?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "\"Late documents cause errors. Please send yours by the 5th.\"",
+            "verdict": "partial",
+            "feedback": "Clear and honest. But it relies on a reason clients already know and ignore when they're busy."
+          },
+          {
+            "key": "B",
+            "text": "\"2 in 10 clients send documents late. Don't be one of them.\"",
+            "verdict": "risky",
+            "feedback": "It feels pointed, but it puts the late group in the spotlight and makes lateness sound common."
+          },
+          {
+            "key": "C",
+            "text": "\"8 in 10 businesses like yours send their documents by the 5th.\"",
+            "verdict": "best",
+            "feedback": "It uses a true majority and a close crowd. You trade the lecture for a picture of what peers already do."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Show people what others like them already do.",
+      "body": [
+        "A good reason informs. A true, nearby norm moves. Pick the closest crowd you can honestly describe, and never advertise the bad behavior you want to stop.",
+        "**Try it today:** find one sign, email or form where you ask customers to do something. Rewrite it around what most similar customers already do, using a number you can prove."
+      ],
+      "next": "Next · Persuade without manipulating"
+    }
+  ]
+}

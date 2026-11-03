@@ -1,0 +1,268 @@
+{
+  "id": "FIN-04-04",
+  "unitId": "FIN-04",
+  "categoryId": "FIN",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Cutting costs vs growing revenue",
+  "readerTitle": "Why saving $500 can beat selling $1,500 more",
+  "format": "numbers_twist",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (동네 식당, 구독형 소프트웨어) · 모든 수치는 설명용",
+  "insight": "비용 1달러 절감은 이익 1달러지만, 매출 1달러는 공헌이익률만큼만 이익이 된다. 그래서 마진이 낮을수록 절감 한 건이 큰 매출과 맞먹는다. 다만 절감에는 바닥이 있고 성장에는 천장이 없다.",
+  "misconception": "매출 1달러와 비용 절감 1달러는 이익에 똑같이 기여한다. 또는 반대로, 비용 절감이 언제나 성장보다 낫다.",
+  "relatedLessonIds": [
+    "FIN-03-06",
+    "FIN-04-05"
+  ],
+  "sources": [
+    {
+      "text": "관리회계의 표준 개념 (공헌이익률, 고정비·변동비 구분)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "식당: 월 매출 $40,000 × 공헌이익률 30% = $12,000, 고정비 $10,000을 빼면 이익 $2,000. 고정비 $500 절감 시 이익 $2,500(+25%). 같은 이익을 매출로 얻으려면 $500 ÷ 0.30 = $1,666.67(약 $1,667), 매출 대비 4.2%.",
+      "status": "open"
+    },
+    {
+      "note": "차트: 절감 $1과 같은 이익을 내는 매출 = 1 ÷ 공헌이익률. 10% → $10.00, 30% → $3.33, 50% → $2.00, 80% → $1.25.",
+      "status": "open"
+    },
+    {
+      "note": "소프트웨어: 월 매출 $100,000 × 80% = $80,000, 고정비 $70,000, 이익 $10,000. 미사용 도구 절감 +$3,000. 캠페인: 추가 매출 $6,000 × 0.8 = $4,800 − 캠페인 비용 $2,000 = +$2,800(예상). 지원 시간 절반 절감 $5,000은 매출 $5,000 ÷ 0.8 = $6,250(매출의 6.25%)만 잃어도 상쇄.",
+      "status": "open"
+    },
+    {
+      "note": "식당의 '판매에 따라 늘어나는 비용 70%'에 시간제 주방 인건비를 포함한 것은 단순화를 위한 가정입니다. 실제 식당의 비용 구조는 업장마다 크게 다릅니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Numbers twist",
+      "title": "Why saving $500 can beat selling $1,500 more",
+      "illustrative": true,
+      "body": [
+        "A neighborhood restaurant owner finds two ways to add profit. She can cut $500 a month from her bills. Or she can push for more sales.",
+        "Most owners treat a dollar saved and a dollar sold as the same thing. They aren't even close."
+      ],
+      "image": {
+        "label": "A coin saved on one side of a scale, a stack of sales receipts on the other",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 저울 한쪽에 동전 한 개(\"$1 saved\"), 다른 쪽에 영수증 더미(\"$3.33 sold\"). 저울이 균형을 이루는 모습. 배경은 따뜻한 동네 식당 주방. 실제 브랜드나 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How much more would she need to sell?",
+      "illustrative": true,
+      "body": [
+        "The restaurant sells $40,000 a month. Food, drink, packaging, card fees and hourly kitchen wages take 70 cents of every dollar. Rent and salaries cost $10,000 a month whatever happens.",
+        "She can save $500 a month by renegotiating insurance and dropping an unused linen service. To earn the same extra profit from sales instead, how much more would she need to sell each month?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "About $500 more",
+            "verdict": "risky",
+            "feedback": "It feels even, but each sale brings its own costs. Only 30 cents of every new dollar reaches profit."
+          },
+          {
+            "key": "B",
+            "text": "About $1,700 more",
+            "verdict": "best",
+            "feedback": "Right. $500 ÷ 30% is about $1,667 in new sales to match one $500 saving. Next card shows why."
+          },
+          {
+            "key": "C",
+            "text": "About $5,000 more",
+            "verdict": "partial",
+            "feedback": "Good instinct that sales are worth less than savings here, but that overshoots. At a 30% margin, it's closer to $1,700."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Two roads to the same $500.",
+      "illustrative": true,
+      "body": [
+        "Her monthly profit is only $2,000. So that one $500 saving lifts profit by **25%**. Matching it with sales means growing revenue by about 4%, every month, with no extra staff or space."
+      ],
+      "breakdown": [
+        {
+          "value": "$500",
+          "label": "Cost cut",
+          "detail": "Goes straight to profit, dollar for dollar",
+          "highlight": true
+        },
+        {
+          "value": "30%",
+          "label": "What each sale keeps",
+          "detail": "After food, packaging, fees and hourly wages",
+          "highlight": false
+        },
+        {
+          "value": "$1,667",
+          "label": "New sales needed",
+          "detail": "$500 ÷ 0.30 to earn the same $500",
+          "highlight": false
+        },
+        {
+          "value": "$2,000 → $2,500",
+          "label": "Monthly profit",
+          "detail": "Either road ends here",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "A saved dollar is worth more sales than you think",
+      "body": [
+        "A dollar cut from costs adds a full dollar to profit. A dollar of new sales adds only its **contribution margin**, the share left after the costs that come with that sale.",
+        "So one dollar saved equals *1 ÷ margin* dollars of sales. At 30%, that's $3.33. This is the honest way to compare a cost cut with a growth plan: translate both into profit before you choose."
+      ],
+      "image": {
+        "label": "Formula card: $1 saved equals $1 divided by margin in sales",
+        "aspectRatio": "16:9",
+        "brief": "깔끔한 인포그래픽. 왼쪽에 \"$1 saved\", 가운데 등호, 오른쪽에 \"$1 ÷ margin in sales\". 아래에 예시 \"30% margin → $3.33\". 단색 배경, 숫자를 크게.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "chart",
+      "eyebrow": "How it works",
+      "title": "The lower your margin, the bigger a saving looks.",
+      "body": [
+        "Sales needed to match a $1 cost cut, at different contribution margins. A grocery store on thin margins and a software company on fat ones face very different math."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Sales needed to equal $1 saved",
+            "rows": [
+              {
+                "label": "10% margin",
+                "value": 10,
+                "highlight": false
+              },
+              {
+                "label": "30% margin (the restaurant)",
+                "value": 3.33,
+                "highlight": true
+              },
+              {
+                "label": "50% margin",
+                "value": 2,
+                "highlight": false
+              },
+              {
+                "label": "80% margin (typical software)",
+                "value": 1.25,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "image": {
+        "label": "The lower your margin, the bigger a saving looks.",
+        "aspectRatio": "4:3",
+        "brief": "Labeled HTML chart from the lesson numbers",
+        "url": "assets/images/fin-04-04-chart.png"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The other side",
+      "title": "Cuts have a floor. Growth doesn't.",
+      "body": [
+        "You can only cut a cost once, and never below zero. After the waste is gone, each new cut gets harder and riskier.",
+        "Growth can repeat. New customers come back next month, and they spread rent and salaries over more sales. So the smart order is usually: cut what customers will never notice first, then put your energy into growth that keeps paying."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The math assumes sales stay the same.",
+      "illustrative": true,
+      "body": [
+        "The $500 insurance saving is safe because no diner feels it. Shrinking portions or dropping the evening server is different. Those cuts can quietly cost sales.",
+        "At a 30% margin, losing $1,667 in sales wipes out a $500 saving. That's just four regulars who stop coming, if each spends about $100 a week. Before any cut, ask: **would a customer notice?**"
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software company.",
+      "illustrative": true,
+      "body": [
+        "Your subscription app earns $100,000 a month. Each dollar of revenue keeps 80 cents after servers and payment fees. Fixed costs are $70,000, so profit is $10,000.",
+        "Your team proposes: cancel $3,000 of unused tools, halve support hours to save $5,000, or run a $2,000 campaign expected to add $6,000 in monthly revenue. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Halve support hours. It's the biggest saving at $5,000",
+            "verdict": "risky",
+            "feedback": "The saving is real, but slower replies can push users to cancel. Losing just $6,250 in revenue, about 6% of it, wipes out the whole $5,000."
+          },
+          {
+            "key": "B",
+            "text": "Cancel the unused tools and stop there. Savings are certain",
+            "verdict": "partial",
+            "feedback": "You bank a safe $3,000. But at an 80% margin, a dollar of new revenue is worth almost as much as a dollar saved, so skipping growth leaves money behind."
+          },
+          {
+            "key": "C",
+            "text": "Cancel the unused tools and run the campaign",
+            "verdict": "best",
+            "feedback": "You take the cut no customer feels (+$3,000) and add growth worth about $2,800 a month if it works ($4,800 kept minus $2,000 spent)."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Turn every idea into profit before you compare.",
+      "body": [
+        "A dollar saved is worth *1 ÷ margin* dollars of sales. Thin margins make cuts powerful. Fat margins make growth almost as good. Either way, cut what customers won't feel, and grow what keeps paying.",
+        "**Try it today:** take one cost you could cut. Divide it by your margin. Is it easier to save that or to sell that much more?"
+      ],
+      "next": "Next · When growing sales makes you poorer"
+    }
+  ]
+}

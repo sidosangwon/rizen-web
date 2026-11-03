@@ -1,0 +1,261 @@
+{
+  "id": "ENT-02-10",
+  "unitId": "ENT-02",
+  "categoryId": "ENT",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Buy an existing business?",
+  "readerTitle": "The workshop is profitable. How much of that profit comes with it?",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.7,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (팔레트·목재 상자 제조 공방 인수 + 물류 배차용 구독 소프트웨어 매물) · 모든 수치는 설명용",
+  "insight": "기존 사업을 산다는 것은 과거의 이익이 아니라, 주인이 떠난 뒤에도 남는 이익을 사는 것이다.",
+  "misconception": "흑자인 사업을 사면 장부에 적힌 이익이 그대로 새 주인의 것이 된다.",
+  "relatedLessonIds": [
+    "ENT-02-05",
+    "ENT-02-04"
+  ],
+  "sources": [
+    {
+      "text": "소규모 사업 인수 실사의 일반 개념 (주인 노동 포함 이익, 고객 집중도, 인수 후 인계 기간, 성과 연동 잔금)",
+      "url": null
+    },
+    {
+      "text": "모든 인물, 매물, 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "계산 확인: 매도자 주장 이익 $180,000 − 대체 관리자 연봉 $70,000 = $110,000. 호가 $540,000 = $180,000 × 3. 같은 3배를 적용하면 $110,000 × 3 = $330,000. 차이 $210,000.",
+      "status": "open"
+    },
+    {
+      "note": "'이익의 3배'라는 가격 배수는 설명용 가정이며 실제 시장 평균 배수를 뜻하지 않습니다. 업종·규모·시기에 따라 크게 다르므로 카드에 시장 수치처럼 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "성과 연동 잔금(earnout), 인계 계약 등은 개념만 설명했고 국가별 법률·세무 조언은 하지 않았습니다. Watch out 카드에 전문가 검토를 권하는 문장만 넣었습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Entrepreneurship · Simulation",
+      "title": "The workshop is profitable. How much of that profit comes with it?",
+      "illustrative": true,
+      "body": [
+        "You have savings and want to own a business. A broker sends a listing: a pallet and wooden crate workshop, 28 years old, eight staff, steady orders. The owner, Frank, is retiring.",
+        "Profit last year: **$180,000**. Asking price: $540,000, or three years of profit. It looks like a safe buy. Four decisions will tell you how safe."
+      ],
+      "image": {
+        "label": "A small workshop stacked with wooden pallets, a for-sale sign at the door",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 나무 팔레트와 상자가 쌓인 작은 공방 외관, 문 앞에 'For sale' 팻말. 안쪽에 지게차 한 대와 작업자 실루엣. 실제 회사 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/ent-02-10-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 4",
+      "title": "What do you check first?",
+      "illustrative": true,
+      "body": [
+        "You get two weeks to look at the books and the shop floor before making an offer."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "How much of the $180,000 depends on Frank's own unpaid work",
+            "verdict": "best",
+            "feedback": "You learn Frank works 55 hours a week and pays himself no salary. Replacing him with a manager costs about $70,000, so the profit a non-working owner keeps is closer to $110,000."
+          },
+          {
+            "key": "B",
+            "text": "The age and condition of the saws and the forklift",
+            "verdict": "partial",
+            "feedback": "Useful, and old equipment can mean surprise bills. But machines are easy to see and price. The bigger gap in this deal is hidden in the profit figure."
+          },
+          {
+            "key": "C",
+            "text": "Prices of similar workshops for sale nearby",
+            "verdict": "risky",
+            "feedback": "Comparing prices feels careful, but it tells you nothing about whether this $180,000 is real for you. You could pay a fair multiple of the wrong number."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 4",
+      "title": "Say you chose A. Then you read the customer list.",
+      "illustrative": true,
+      "body": [
+        "One regional furniture maker buys **45%** of everything the workshop makes. It has ordered every month for 12 years. The next biggest customer buys 8%."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Walk away. One customer is too much risk",
+            "verdict": "partial",
+            "feedback": "Safe, but you may drop a good business over a problem you could have priced in. Heavy reliance on one customer is a reason to dig, not always to leave."
+          },
+          {
+            "key": "B",
+            "text": "Ask to meet that customer before you make an offer",
+            "verdict": "best",
+            "feedback": "The furniture maker's buyer is friendly and honest: \"We order here because of Frank. We'd give a new owner a fair try.\" Now you know the loyalty is to a person, not the workshop."
+          },
+          {
+            "key": "C",
+            "text": "Relax. Twelve years of orders proves they'll stay",
+            "verdict": "risky",
+            "feedback": "Past loyalty was earned by the old owner. If it leaves with him, nearly half your sales go too, and you won't find out until after you've paid."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 4",
+      "title": "Say you chose B. Frank wants to leave on closing day.",
+      "illustrative": true,
+      "body": [
+        "He knows every customer, every supplier and which wood warps in damp weather. None of it is written down. He plans to move to the coast the week the sale closes."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Pay the full price and learn on the job",
+            "verdict": "risky",
+            "feedback": "You pay for $180,000 of profit and inherit the relationships of someone who just left. If the big customer drifts away, the price is already spent."
+          },
+          {
+            "key": "B",
+            "text": "Ask Frank to stay six months, paid, and tie part of the price to the big customer staying",
+            "verdict": "best",
+            "feedback": "Frank introduces you to buyers and teaches the crew to run without him. Paying part of the price later, only if sales hold, shares the risk with the seller."
+          },
+          {
+            "key": "C",
+            "text": "Offer 20% less and let him go",
+            "verdict": "partial",
+            "feedback": "A lower price helps, but it doesn't move the know-how into your hands. You'd save money and still face the hardest year alone."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 4 of 4 · new context",
+      "title": "Say you chose B. The broker sends a second listing.",
+      "illustrative": true,
+      "body": [
+        "A small online tool that truck dispatchers pay for monthly to plan routes. About 400 subscribers, one founder, profit also around $110,000. The founder wants to sell and start something new.",
+        "Before comparing it with the workshop, what do you check first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "How fast sign-ups grew in the last three months",
+            "verdict": "partial",
+            "feedback": "Growth is nice, but a steady small business lives on the customers it keeps. A burst of sign-ups can hide many quiet cancellations."
+          },
+          {
+            "key": "B",
+            "text": "How many subscribers cancel each month, and who else can maintain the code",
+            "verdict": "best",
+            "feedback": "This is Frank's workshop again in digital form. Cancellations show whether customers stay without the founder's attention, and the code is his \"know-how in his head.\""
+          },
+          {
+            "key": "C",
+            "text": "Nothing much. Software costs little to run, so the profit is safe",
+            "verdict": "risky",
+            "feedback": "Low running costs don't make profit transferable. If the founder was the only person who could fix the product, his unpaid work is part of the profit."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "In software, the owner's hidden labor is often support, bug fixes and keeping key accounts happy. Ask the founder for a normal week's calendar, not just the revenue chart."
+    },
+    {
+      "index": 6,
+      "type": "breakdown",
+      "eyebrow": "The concept",
+      "title": "You buy the profit that survives the seller leaving.",
+      "illustrative": true,
+      "body": [
+        "Call it **transferable profit**: what the business earns once the old owner, and everything tied to him, is gone. At the same multiple of three, the workshop is worth about $330,000, not $540,000."
+      ],
+      "breakdown": [
+        {
+          "value": "$180,000",
+          "label": "Profit the seller reports",
+          "detail": "Includes Frank's unpaid 55-hour weeks",
+          "highlight": false
+        },
+        {
+          "value": "−$70,000",
+          "label": "A manager to do Frank's job",
+          "detail": "The owner's work is a real cost",
+          "highlight": false
+        },
+        {
+          "value": "$110,000",
+          "label": "Transferable profit",
+          "detail": "Before any risk from the 45% customer",
+          "highlight": true
+        }
+      ],
+      "callout": "Three common leaks: the owner's own labor, customers loyal to a person, and know-how nobody wrote down.",
+      "softwareNote": "The same check applies to the route-planning tool: subtract what it would cost to pay someone to do the founder's job."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Checking reduces risk. It doesn't remove it.",
+      "body": [
+        "A careful review can still miss things. A key employee may quit. A big customer may change suppliers for reasons unrelated to you.",
+        "Paying part of the price later sounds tidy but can cause arguments over how sales are counted. Write the terms clearly and have a lawyer and an accountant review the deal where you live.",
+        "And a flaw is not always a reason to walk away. A business with problems can be a good buy at the right price."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Buy what stays, not what was.",
+      "body": [
+        "Each decision in the story ties to an idea from this unit:"
+      ],
+      "list": [
+        "**Decision 1 → The owner's time trap:** the seller's unpaid hours are a cost you inherit",
+        "**Decision 2 → Buying vs starting:** buying gets you customers only if they transfer",
+        "**Decision 3 → Buying vs starting:** a paid handover moves the relationships and the know-how",
+        "**Decision 4 → Small business vs startup:** judge a steady business by who stays, not how fast it grows"
+      ],
+      "callout": "**Try it today:** for your own business, list what would leave if you stepped away for three months. That list is what a buyer would discount.",
+      "next": "Next · Small Business, level 2"
+    }
+  ]
+}

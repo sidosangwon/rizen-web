@@ -1,0 +1,239 @@
+{
+  "id": "BMO-05-07",
+  "unitId": "BMO-05",
+  "categoryId": "BMO",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "Launch a tutoring marketplace",
+  "readerTitle": "Your best tutors will be the first to leave",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (온라인 과외 마켓플레이스, 지역 화물 마켓플레이스) · 모든 수치는 설명용",
+  "insight": "마켓플레이스를 열 때는 '누구를 먼저 모을까'와 '좋은 매칭이 플랫폼 밖으로 빠져나가지 않을까'를 처음부터 함께 설계해야 한다.",
+  "misconception": "좋은 공급자만 모으면 끝이다. 수수료 회피는 연락처 공유를 막으면 해결된다.",
+  "relatedLessonIds": [
+    "BMO-05-02",
+    "BMO-05-05"
+  ],
+  "sources": [
+    {
+      "text": "PIXO BMO-05-02 (Which side to build first), BMO-05-05 (Disintermediation)의 개념을 적용",
+      "url": null
+    },
+    {
+      "text": "모든 인물, 회사, 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "과외 계산: 회당 $50, 수수료 20% = $10, 튜터 수령 $40. 주 1회 × 36주(학기 기준 가정) = 수수료 $360. 직거래 $45 가정 시 학부모 절약 $5 × 36 = $180, 튜터 추가 수입 $5 × 36 = $180. 합계 $360으로 수수료와 일치.",
+      "status": "open"
+    },
+    {
+      "note": "화물 마켓플레이스 수수료 15%, 주 1회 반복 노선 등은 모두 가상 수치입니다. 실제 화물 중개 수수료 수준을 카드에 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "과외 시장에서 직거래 이탈이 흔하다는 점은 일반적 관찰로만 서술했고 특정 기업의 통계는 쓰지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Marketplaces · Apply it",
+      "title": "Your best tutors will be the first to leave",
+      "illustrative": true,
+      "body": [
+        "Maya is launching an app that connects parents with math tutors in her city. Parents book and pay in the app. She keeps 20% of each lesson.",
+        "She has a small budget and two big problems ahead. One shows up on day one. The other shows up only after things start working."
+      ],
+      "image": {
+        "label": "A tutor and student at a kitchen table, a phone showing a booking app",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 부엌 식탁에서 튜터와 고등학생이 수학 문제를 풀고, 식탁 위 휴대폰에 예약 앱 화면. 문 밖에서 학부모가 튜터에게 현금 봉투를 건네려는 작은 장면을 배경에 살짝. 실제 앱 로고 사용 금지.",
+        "url": "assets/images/bmo-05-07-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Where should Maya spend her first month?",
+      "illustrative": true,
+      "body": [
+        "Parents search hard when exams are close. Good math tutors are scarce and already busy.",
+        "With one month and a small budget, what does Maya do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Run ads to parents across the city",
+            "verdict": "risky",
+            "feedback": "Parents will come, find three tutors with no free slots, and not return. Spending on the easier side first wastes the visit."
+          },
+          {
+            "key": "B",
+            "text": "Personally recruit 30 strong tutors for high-school exam math in one city",
+            "verdict": "best",
+            "feedback": "This is **which side to build first**: start with the scarce side, in a narrow slice. Parents who arrive find real choices and open times."
+          },
+          {
+            "key": "C",
+            "text": "Launch every subject nationwide so no one finds it empty",
+            "verdict": "partial",
+            "feedback": "Breadth feels safe, but it spreads a few tutors thin across many searches. Each parent still sees almost nobody near them."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "It worked. Then repeat bookings dropped.",
+      "illustrative": true,
+      "body": [
+        "Maya signed up 30 tutors. Parents found open slots, and the first 100 lessons were booked in six weeks.",
+        "But something odd showed up. Tutors stayed busy, and parents said they were happy. Yet second and third bookings between the same parent and tutor kept falling.",
+        "The matches were good. They just weren't happening in the app anymore."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Why both sides want to leave.",
+      "illustrative": true,
+      "body": [
+        "If they meet at $45 in cash, the parent saves **$180** and the tutor earns **$180** more. The fee is a prize they can split."
+      ],
+      "breakdown": [
+        {
+          "value": "$50",
+          "label": "Lesson price",
+          "detail": "What the parent pays in the app",
+          "highlight": false
+        },
+        {
+          "value": "$10",
+          "label": "Maya's 20% fee",
+          "detail": "The tutor keeps $40",
+          "highlight": false
+        },
+        {
+          "value": "36",
+          "label": "Weekly lessons",
+          "detail": "One school year",
+          "highlight": false
+        },
+        {
+          "value": "$360",
+          "label": "Fees per pair",
+          "detail": "Money both sides can see",
+          "highlight": true
+        }
+      ],
+      "callout": "Tutoring is weekly, personal and long-running. That makes each match easy to take offline."
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How should Maya keep the matches?",
+      "illustrative": true,
+      "body": [
+        "Maya needs repeat lessons to stay in the app. Which approach works best?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Hide phone numbers and ban tutors caught taking cash",
+            "verdict": "risky",
+            "feedback": "This fights **disintermediation** with rules, but parents and tutors meet in person every week. You lose your best tutors and still can't see the cash."
+          },
+          {
+            "key": "B",
+            "text": "Cut the fee on repeat lessons and make the app worth using: easy rescheduling, makeup lessons, progress notes",
+            "verdict": "best",
+            "feedback": "This makes staying cheaper than leaving. You earn less per lesson but keep the relationship, which is the defense against **disintermediation**."
+          },
+          {
+            "key": "C",
+            "text": "Charge a bigger fee for the first match, then let pairs go",
+            "verdict": "partial",
+            "feedback": "A one-time finder's fee accepts **disintermediation** instead of fighting it. It can work, but you give up a year of revenue for one payment."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Some leakage is the price of a good match.",
+      "body": [
+        "No design keeps every pair. A long, trusting relationship is exactly what a tutoring app sells, and it is also what makes going direct easy.",
+        "So measure it. Track lessons per parent-tutor pair over time, not just new sign-ups. If pairs fade after lesson two, the fee is bigger than the value the app adds to each lesson."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's trucks and factories.",
+      "illustrative": true,
+      "body": [
+        "You run a regional freight marketplace. Small manufacturers post loads, and local trucking firms bid. You take 15%.",
+        "One shipper now books the same carrier on the same route every week. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep 15% on every load, same as one-off jobs",
+            "verdict": "risky",
+            "feedback": "A repeat route needs no matching. Paying full price for help they don't need invites both sides into **disintermediation**."
+          },
+          {
+            "key": "B",
+            "text": "Offer a lower contract rate for regular routes, plus tracking, invoicing and a backup truck if one breaks down",
+            "verdict": "best",
+            "feedback": "You charge for what still adds value. A backup truck matters to a factory, so staying beats a phone call."
+          },
+          {
+            "key": "C",
+            "text": "Focus only on urgent one-off loads and give up regular routes",
+            "verdict": "partial",
+            "feedback": "Urgent loads are where matching is worth most. But you give up steady volume, which is often what keeps carriers on your platform."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "The same pattern shows up in freelance and agency platforms: once a client finds a developer they like, ongoing work tends to move to direct contracts unless the platform adds value to every invoice."
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Get the hard side first, then earn every repeat.",
+      "body": [
+        "Two ideas did the work here. **Which side to build first:** start with the scarce side in a narrow slice. **Disintermediation:** when matches repeat, the fee must buy something each time.",
+        "**Try it today:** list where your customers deal with the same partner again and again. For each, write what you still do for them on the tenth deal."
+      ],
+      "next": "Next · Launch a farm-to-restaurant marketplace"
+    }
+  ]
+}

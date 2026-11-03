@@ -1,0 +1,221 @@
+{
+  "id": "OPS-04-06",
+  "unitId": "OPS-04",
+  "categoryId": "OPS",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Operating rhythm",
+  "readerTitle": "The team that cancelled its meetings and missed by a mile",
+  "format": "counterexample",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.2,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (대기업 안의 마케팅 팀, 물류 창고) · 모든 수치와 상황은 설명용",
+  "insight": "목표는 정해진 간격으로 다시 들여다볼 때만 실행된다. 점검 간격은 문제가 변하는 속도에 맞춘다.",
+  "misconception": "좋은 목표와 열심히 일하는 사람만 있으면 된다. 정기 회의는 적을수록 좋다.",
+  "relatedLessonIds": [
+    "OPS-04-01",
+    "OPS-04-02"
+  ],
+  "sources": [
+    {
+      "text": "경영 실무의 일반 개념 (운영 리듬, 일일·주간·월간·분기 점검 체계)",
+      "url": null
+    },
+    {
+      "text": "모든 사례와 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 사례는 가상입니다. 타임라인 계산: 문제 시작 3주 차, 발견 12주 차(분기 마지막 주) → 놓친 기간 9주. 분기를 13주로 가정했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "창고 사례의 '3주 연속 오류 증가', '10분 교대 시작 회의'는 설명용 설정이며 특정 기업이나 연구 수치가 아닙니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Execution · Counterexample",
+      "title": "The team that cancelled its meetings and missed by a mile",
+      "illustrative": true,
+      "body": [
+        "A marketing team inside a large company set clear goals for the quarter. Then, to give everyone time to focus, the team lead cancelled every recurring meeting.",
+        "People were happier. Calendars were empty. And at the end of the quarter, the team had reached less than half its main goal. The problem had started in week three."
+      ],
+      "image": {
+        "label": "An empty team calendar next to a falling goal chart",
+        "aspectRatio": "4:3",
+        "brief": "왼쪽에 비어 있는 주간 캘린더(회의 블록 없음), 오른쪽에 분기 목표선 아래로 점점 멀어지는 실적 선 그래프. 3주 차 지점에 작은 빨간 점. 실제 회사 로고나 소프트웨어 UI는 쓰지 않음.",
+        "url": "assets/images/ops-04-06-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Your team says there are too many meetings.",
+      "illustrative": true,
+      "body": [
+        "You lead a team of eight inside a larger company. You have three clear goals for the quarter. In a survey, your team says meetings eat their week.",
+        "What do you change?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Cancel all recurring meetings and review the goals at quarter end",
+            "verdict": "risky",
+            "feedback": "You win back hours every week. But you lose the moment where problems surface, so a small slip can grow for months unseen."
+          },
+          {
+            "key": "B",
+            "text": "Keep one short weekly review of the goal numbers and blockers, and cut the rest",
+            "verdict": "best",
+            "feedback": "You free most of the time and still look at progress often enough to catch trouble early. The cost is protecting that one slot every week."
+          },
+          {
+            "key": "C",
+            "text": "Replace everything with a daily one-hour status meeting for all",
+            "verdict": "partial",
+            "feedback": "Problems show up fast. But eight people times five hours a week is a heavy price for goals that change over weeks, not hours."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What happened",
+      "title": "Nine weeks between the problem and the people who could fix it.",
+      "illustrative": true,
+      "body": [
+        "In week three, a partner who sent most of the team's leads quietly changed its priorities. Each person noticed a little drop. Nobody had a set moment to put the drops side by side, so **nobody saw the pattern** until the quarterly review."
+      ],
+      "breakdown": [
+        {
+          "value": "Week 1",
+          "label": "Goals set",
+          "detail": "Clear targets, everyone agrees",
+          "highlight": false
+        },
+        {
+          "value": "Week 3",
+          "label": "Problem starts",
+          "detail": "Main lead source slows down",
+          "highlight": false
+        },
+        {
+          "value": "Week 12",
+          "label": "Problem seen",
+          "detail": "Found at the quarterly review",
+          "highlight": false
+        },
+        {
+          "value": "9 weeks",
+          "label": "Time lost",
+          "detail": "Too late to change course",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Operating rhythm",
+      "body": [
+        "An **operating rhythm** is a fixed schedule of recurring check-ins where a team looks at the same few numbers and decides what to do next.",
+        "The point isn't meetings. It's predictable moments when progress gets compared to the goal. The marketing team had good goals and hard workers. What it lacked was a heartbeat that would have turned scattered signals into one clear warning."
+      ],
+      "image": {
+        "label": "Four nested circles: daily, weekly, monthly, quarterly",
+        "aspectRatio": "16:9",
+        "brief": "동심원 4개 인포그래픽. 가장 안쪽 \"Daily\", 그다음 \"Weekly\", \"Monthly\", 가장 바깥 \"Quarterly\". 각 원에 작은 시계 아이콘과 짧은 라벨(예: \"Fix today\", \"Check goals\", \"Spot trends\", \"Reset goals\"). 깔끔한 플랫 스타일.",
+        "url": "assets/images/ops-04-06-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Match each check-in to how fast its problems change.",
+      "body": [
+        "Most well-run teams stack a few layers, each with its own job:"
+      ],
+      "list": [
+        "**Daily, minutes long:** today's blockers on the front line",
+        "**Weekly:** goal numbers, what slipped, who acts",
+        "**Monthly:** trends, money and people",
+        "**Quarterly:** set or reset the goals themselves"
+      ],
+      "callout": "A problem that changes daily needs a daily look. A goal that moves over months doesn't.",
+      "softwareNote": "Software teams often run this as sprints: a short daily stand-up, a planning session and review every one or two weeks, and a quarterly roadmap. Each layer only works if it ends in decisions, not just updates."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A rhythm can turn into a ritual.",
+      "body": [
+        "The opposite failure is just as common. Teams keep meetings long after they stop changing anything. People read out updates, nobody decides, and everyone leaves with the same plan they came in with.",
+        "A simple test: if a check-in rarely ends with someone doing something different, shorten it, slow it down or drop it. Rhythm is worth its cost only when it changes what happens next."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a warehouse.",
+      "illustrative": true,
+      "body": [
+        "You run a distribution warehouse. Shipping errors (wrong item, wrong address) are reviewed in a monthly report. This month's report shows errors rising for three weeks in a row.",
+        "What do you change?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Add a 10-minute huddle at each shift start to review yesterday's errors",
+            "verdict": "best",
+            "feedback": "Errors happen daily, so a daily look catches them while the cause is still fresh. The cost is ten minutes per shift, which you must keep short."
+          },
+          {
+            "key": "B",
+            "text": "Keep the monthly report but add a deeper root-cause section",
+            "verdict": "partial",
+            "feedback": "You'll understand last month better. But you'll still learn about a bad week three weeks after it happened."
+          },
+          {
+            "key": "C",
+            "text": "Hold a two-hour all-staff meeting every Friday",
+            "verdict": "risky",
+            "feedback": "It's more frequent, but long and slow. It pulls everyone off the floor and still misses Monday's errors until Friday."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Goals get done when someone looks at them on a schedule.",
+      "body": [
+        "Set a regular moment to compare progress with the goal, and make its pace match how fast things go wrong.",
+        "**Try it today:** write down your team's check-ins and how often each happens. For each one, name the last decision it produced."
+      ],
+      "next": "Next · Set goals for a café"
+    }
+  ]
+}

@@ -1,0 +1,292 @@
+{
+  "id": "THK-11-09",
+  "unitId": "THK-11",
+  "categoryId": "THK",
+  "order": 9,
+  "type": "case",
+  "conceptTag": "Berkeley admissions and Simpson's paradox",
+  "readerTitle": "Berkeley's admissions numbers said bias. The departments said otherwise.",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "real_company",
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 기관·연구 (UC Berkeley 1973년 대학원 입학, Bickel 외 1975) + 가상 적용 (운송사 비교, 앱 전환율)",
+  "insight": "전체 비율이 바뀌었을 때는 먼저 '구성(mix)'이 바뀌었는지 본다. 집단을 합치면 각 집단 안의 결과와 정반대 결론이 나올 수 있다.",
+  "misconception": "전체 합계 숫자가 가장 객관적이고 정확한 답이다. 세부로 쪼개 보는 것은 원하는 결론을 찾으려는 핑계다.",
+  "relatedLessonIds": [
+    "THK-08-03",
+    "THK-11-10"
+  ],
+  "sources": [
+    {
+      "text": "Bickel, P. J., Hammel, E. A., & O'Connell, J. W. (1975). Sex Bias in Graduate Admissions: Data from Berkeley. Science, 187(4175), 398–404.",
+      "url": "https://doi.org/10.1126/science.187.4175.398"
+    },
+    {
+      "text": "R 기본 데이터셋 UCBAdmissions 문서 (가장 큰 6개 학과 A–F 표를 그대로 수록)",
+      "url": "https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/UCBAdmissions.html"
+    },
+    {
+      "text": "Freedman, Pisani & Purves, Statistics (교과서에 같은 6개 학과 표 수록)",
+      "url": null
+    },
+    {
+      "text": "운송사·앱 사례의 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "1973년 가을 전체 수치: 남성 지원자 약 8,442명 중 약 44% 합격, 여성 약 4,321명 중 약 35% 합격. 카드에는 44%와 35%만 썼습니다. 원문(Science 1975)으로 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "6개 학과 표(UCBAdmissions): A 남 825명 62% / 여 108명 82%, B 남 560 63% / 여 25 68%, C 남 325 37% / 여 593 34%, D 남 417 33% / 여 375 35%, E 남 191 28% / 여 393 24%, F 남 373 6% / 여 341 7%. 여성 합격률이 더 높은 학과 4개(A, B, D, F).",
+      "status": "open"
+    },
+    {
+      "note": "6개 학과 합산 계산: 남성 합격 512+353+120+138+53+22=1,198 ÷ 2,691 = 44.5%, 여성 89+17+202+131+94+24=557 ÷ 1,835 = 30.4%. 차트에는 반올림해 45%, 30%로 표기했습니다. 이 합산은 6개 학과 기준이며 전체 대학원 수치(44% vs 35%)와 다릅니다.",
+      "status": "open"
+    },
+    {
+      "note": "A·B 학과 지원 비중: 남성 (825+560)÷2,691 = 51.5%(약 절반), 여성 (108+25)÷1,835 = 7.2%(약 7%).",
+      "status": "open"
+    },
+    {
+      "note": "논문 저자들이 '편향은 입학 단계가 아니라 그 이전(어떤 분야에 지원하도록 이끌렸는지)에 있을 수 있다'고 언급한 점은 원문 결론부로 확인하세요. 대학 측이 소송 가능성을 걱정해 분석을 의뢰했다는 이야기는 널리 전해지지만 세부가 불확실해 카드에 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "가상 운송사 계산: X 900건×90%=810 + 100건×50%=50 → 860/1,000=86%. Y 200건×95%=190 + 800건×60%=480 → 670/1,000=67%.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Metrics · Counterexample",
+      "title": "Berkeley's admissions numbers said bias. The departments said otherwise.",
+      "body": [
+        "In fall 1973, the University of California, Berkeley admitted about **44% of men** who applied to graduate school, but only about **35% of women**.",
+        "Thousands of applicants. A nine-point gap. It looked like an open-and-shut case. When statisticians looked closer, the gap didn't just shrink. In most departments, it pointed the other way."
+      ],
+      "image": {
+        "label": "Two stacks of application folders with very different heights",
+        "aspectRatio": "4:3",
+        "brief": "1970년대 대학 행정실 책상 위에 지원서 폴더 두 더미. 한쪽에 \"Men 44%\", 다른 쪽에 \"Women 35%\" 스티커. 돋보기 하나가 폴더 사이에 놓여 있음. 실제 대학 로고·문장(紋章)은 쓰지 않음.",
+        "url": "assets/images/thk-11-09-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You're the dean. What do you do with this gap?",
+      "body": [
+        "The overall numbers show women admitted at a clearly lower rate than men. People are asking whether your school discriminates.",
+        "What is your first move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Accept the gap as evidence of bias and set targets to close it",
+            "verdict": "risky",
+            "feedback": "It answers the concern quickly, but you'd be acting on a number you haven't taken apart. If the cause lies elsewhere, the fix misses it."
+          },
+          {
+            "key": "B",
+            "text": "Break the rates down by department before drawing a conclusion",
+            "verdict": "best",
+            "feedback": "Admissions decisions are made department by department, so that's where bias would show up. It costs time, but it tests the claim where it would actually happen."
+          },
+          {
+            "key": "C",
+            "text": "Compare the test scores of admitted men and women",
+            "verdict": "partial",
+            "feedback": "Useful, but it checks whether the bar differs, not why fewer women got in overall. It skips the question of where people applied."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "What happened",
+      "title": "Department by department, the gap flipped.",
+      "body": [
+        "Statisticians Peter Bickel, Eugene Hammel and J. W. O'Connell published the analysis in *Science* in 1975. In the six largest departments, women had the higher admission rate in four. Combined, those same six showed men far ahead."
+      ],
+      "chart": {
+        "unit": "%",
+        "groups": [
+          {
+            "label": "Six largest departments combined",
+            "rows": [
+              {
+                "label": "Men",
+                "value": 45,
+                "highlight": true
+              },
+              {
+                "label": "Women",
+                "value": 30,
+                "highlight": false
+              }
+            ]
+          },
+          {
+            "label": "Department A (easiest to enter)",
+            "rows": [
+              {
+                "label": "Men",
+                "value": 62,
+                "highlight": false
+              },
+              {
+                "label": "Women",
+                "value": 82,
+                "highlight": true
+              }
+            ]
+          },
+          {
+            "label": "Department F (hardest to enter)",
+            "rows": [
+              {
+                "label": "Men",
+                "value": 6,
+                "highlight": false
+              },
+              {
+                "label": "Women",
+                "value": 7,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "breakdown",
+      "eyebrow": "The hidden mix",
+      "title": "The difference was where people applied.",
+      "body": [
+        "Men mostly applied to departments that admitted most applicants. Women mostly applied to departments that rejected most applicants. Each group's overall rate mirrored its **mix**, not how it was treated."
+      ],
+      "breakdown": [
+        {
+          "value": "~51%",
+          "label": "Men applying to A or B",
+          "detail": "Departments admitting over 60%",
+          "highlight": true
+        },
+        {
+          "value": "~7%",
+          "label": "Women applying to A or B",
+          "detail": "Most women applied to C–F",
+          "highlight": true
+        },
+        {
+          "value": "6–37%",
+          "label": "Admission rates in C–F",
+          "detail": "Far harder for everyone",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Simpson's paradox",
+      "body": [
+        "**Simpson's paradox** happens when a pattern inside every group disappears or reverses once the groups are added together.",
+        "It shows up when two things are true at once: the groups have very different results, and the people you compare are spread across them unevenly. The total then measures the mix as much as the performance. Before trusting a combined rate, ask what it is combining."
+      ],
+      "image": {
+        "label": "Two small groups trending up, combined into one line trending down",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 왼쪽에 작은 막대그래프 두 개(각각 주황이 파랑보다 높음), 오른쪽에 둘을 합친 큰 그래프(파랑이 주황보다 높음). 가운데 깔때기 모양으로 합쳐지는 화살표. 각 막대 아래 지원자 수만큼 사람 아이콘 크기를 다르게.",
+        "url": "assets/images/thk-11-09-c5.jpg"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Same trap, new floor",
+      "title": "The \"worse\" carrier was better on every route.",
+      "illustrative": true,
+      "body": [
+        "A distributor compares two delivery carriers. Carrier X is on time 86% of the time. Carrier Y manages only 67%. The obvious move is to drop Y.",
+        "But Y handles mostly rural routes, where on-time delivery is hard. On city routes, Y hits 95% against X's 90%. On rural routes, Y hits 60% against X's 50%.",
+        "Y wins on **both** kinds of route. It loses overall because it took the hardest work."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Splitting the data isn't automatically the truth.",
+      "body": [
+        "Slice data enough ways and some slice will show whatever you hoped for. Split by the factor that actually drives the result, like the department that makes the decision, and decide that before you look.",
+        "And a clean split can move the question rather than end it. The Berkeley authors suggested the real imbalance came earlier: why women were steered toward crowded fields that admitted few applicants."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Your app's conversion rate just dropped.",
+      "illustrative": true,
+      "body": [
+        "Last month you redesigned the upgrade screen. This month, the share of trial users who become paying customers fell from 12% to 9%. The same month, a big ad campaign brought in a flood of new sign-ups from social media.",
+        "What do you do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Roll back the redesign. The numbers fell right after it launched",
+            "verdict": "risky",
+            "feedback": "Fast and decisive, but the timing also matches the ad campaign. You might undo a good change and keep the real cause."
+          },
+          {
+            "key": "B",
+            "text": "Compare conversion by sign-up source, before and after the redesign",
+            "verdict": "best",
+            "feedback": "If ad-driven users always convert less, a bigger share of them drags the total down even if every source improved. This tells you which story is true."
+          },
+          {
+            "key": "C",
+            "text": "Wait a month and see if the rate recovers",
+            "verdict": "partial",
+            "feedback": "Avoids a hasty call, but waiting doesn't separate the two causes. If the mix keeps shifting, next month's total will mislead you too."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "When a total moves, check the mix before the performance.",
+      "body": [
+        "A combined rate can tell the opposite story from every group inside it. Split by the factor that drives the outcome, then decide.",
+        "**Try it today:** take one rate you report every month. Break it into its two or three biggest groups and check whether the share of each group has changed."
+      ],
+      "next": "Next · Two dashboards, two conclusions"
+    }
+  ]
+}

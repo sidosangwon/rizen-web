@@ -1,0 +1,243 @@
+{
+  "id": "SAL-07-04",
+  "unitId": "SAL-07",
+  "categoryId": "SAL",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Sharing revenue",
+  "readerTitle": "How Blockbuster filled its shelves by changing how studios got paid",
+  "format": "company_story",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "real_company",
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Blockbuster와 영화 스튜디오의 1998년 수익 배분 계약), 실제 연구 (Mortimer 2008, Cachon & Lariviere 2005), 가상 적용 (인테리어 시공, 급여 소프트웨어)",
+  "insight": "수익 배분 비율은 단순한 가격이 아니라 누가 위험을 지는지를 정하는 결정이다. 배분의 기준, 비율, 기간이 숫자보다 중요하다.",
+  "misconception": "파트너 계약에서 중요한 것은 공정한 비율 하나뿐이다. 이익을 나누는 것이 매출을 나누는 것보다 항상 공정하다.",
+  "relatedLessonIds": [
+    "SAL-07-03",
+    "ECO-02-01"
+  ],
+  "sources": [
+    {
+      "text": "Cachon, G. P. & Lariviere, M. A. (2005). Supply Chain Coordination with Revenue-Sharing Contracts: Strengths and Limitations. Management Science, 51(1).",
+      "url": null
+    },
+    {
+      "text": "Mortimer, J. H. (2008). Vertical Contracts in the Video Rental Industry. Review of Economic Studies, 75(1).",
+      "url": null
+    },
+    {
+      "text": "가상 사례 (인테리어 시공사와 디자이너, 급여 소프트웨어와 회계법인)의 수치는 모두 설명용",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "테이프 한 개당 약 $65(기존), 약 $8(수익 배분 후 선불), 스튜디오 몫 약 40%는 Cachon & Lariviere(2005)에 나오는 대략적 수치입니다. 스튜디오와 작품마다 조건이 달랐으므로 카드에 \"reportedly\", \"around\"로 적었습니다. 원문에서 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Blockbuster가 수익 배분 계약을 맺은 시기(1998년)와, 그 결과 신작 재고가 크게 늘었다는 내용을 1차 자료로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Mortimer(2008)가 수익 배분이 스튜디오와 대여점 양쪽의 이익을 높였다고 결론 내렸는지, 작품 유형별 차이가 있는지 원문에서 확인하세요. 카드에는 \"tended to raise profits for both\"로 일반화해 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Rentrak이 소규모 대여점의 수익 배분 계약에서 대여 기록을 추적하는 역할을 했다는 내용을 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "가상 계산: $80,000 × 5% = $4,000, $5,000 × 5% = $250. 급여 소프트웨어 월 $100 × 20% = 월 $20, 50%면 월 $50.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Sales · Company story",
+      "title": "How Blockbuster filled its shelves by changing how studios got paid",
+      "body": [
+        "In the mid-1990s, a new movie on videotape could cost a rental store around $65 a copy. Stores bought a handful and hoped for the best. On Friday nights, customers often found the hit they wanted already gone.",
+        "In 1998, Blockbuster fixed its empty shelves without paying more for tapes. It changed how the movie studios got paid."
+      ],
+      "image": {
+        "label": "Empty new-release shelf with one lonely videotape",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 1990년대 비디오 대여점의 'New Releases' 선반이 거의 비어 있고 테이프 한 개만 남아 있음. 실망한 손님 실루엣. 실제 Blockbuster 로고, 영화 제목, 스튜디오 상표는 쓰지 않음.",
+        "url": "assets/images/sal-07-04-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "A designer wants to send you clients.",
+      "illustrative": true,
+      "body": [
+        "You renovate kitchens and bathrooms. A local interior designer offers to refer clients. Jobs range from a $5,000 bathroom refresh to an $80,000 full kitchen.",
+        "How do you pay the designer?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "A flat $500 for every client who signs",
+            "verdict": "partial",
+            "feedback": "Simple and easy to track. But the designer earns the same for a $5,000 job as an $80,000 one, so there's no reason to send you the big ones."
+          },
+          {
+            "key": "B",
+            "text": "5% of the job price, paid when the client pays you",
+            "verdict": "best",
+            "feedback": "The designer earns more on bigger jobs, and you only pay from money you've actually received. Your cost rises and falls with the work."
+          },
+          {
+            "key": "C",
+            "text": "20% of your profit on each job",
+            "verdict": "risky",
+            "feedback": "It sounds fair, but the designer can't see your costs. Every job turns into an argument about what counts as profit."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What changed",
+      "title": "The old deal put all the risk on the store.",
+      "body": [
+        "Under the old model, the store paid the studio in full, up front. If a movie flopped, the store absorbed the loss. So stores bought cautiously, and popular titles ran out.",
+        "Blockbuster's new deals flipped this. It paid a much lower price per tape and gave the studio a **share of every rental**.",
+        "With cheap tapes, Blockbuster could stock many more copies of each new release. The studio now earned money every time a tape went out, not just when it was sold."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Same tape, two deals.",
+      "body": [
+        "Exact terms varied by studio and title. These are the rough figures reported by researchers who studied the deals."
+      ],
+      "breakdown": [
+        {
+          "value": "~$65",
+          "label": "Old deal: price per tape",
+          "detail": "Paid up front. The store kept all rental income.",
+          "highlight": false
+        },
+        {
+          "value": "~$8",
+          "label": "New deal: price per tape",
+          "detail": "A small payment up front, reportedly under $10",
+          "highlight": false
+        },
+        {
+          "value": "~40%",
+          "label": "New deal: studio's share",
+          "detail": "Reportedly the studio's cut of each rental",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Revenue sharing",
+      "body": [
+        "**Revenue sharing** means paying a partner a percentage of the money your joint work brings in, instead of a fixed price.",
+        "The percentage is more than a price. It decides **who carries the risk**. A fixed fee puts the risk on the buyer. A share spreads it: the studio earned more on hits and less on flops, and Blockbuster stopped paying full price for tapes nobody rented.",
+        "Economist Julie Mortimer later studied these contracts and found they tended to raise profits for both studios and stores."
+      ],
+      "image": {
+        "label": "Seesaw of risk shifting from store to shared",
+        "aspectRatio": "16:9",
+        "brief": "두 장면 비교 인포그래픽. 왼쪽 'Fixed price': 시소 한쪽에 대여점만 무거운 'Risk' 상자를 짊어짐. 오른쪽 'Revenue share': 대여점과 스튜디오가 'Risk' 상자를 함께 들고 있음. 실제 로고 없음.",
+        "url": "assets/images/sal-07-04-c5.jpg"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Three choices shape every revenue share.",
+      "body": [
+        "The percentage gets the attention, but three other decisions matter as much."
+      ],
+      "list": [
+        "**The base:** revenue or profit. Revenue is easy for both sides to check. Profit depends on costs only one side can see.",
+        "**The split:** roughly what each side brings. The studio brought the movie. The store brought shelves, staff and customers.",
+        "**The length:** one sale, the first year, or for as long as the customer stays."
+      ],
+      "callout": "Settle these three, and the percentage becomes the easy part.",
+      "softwareNote": "App stores, marketplaces and reseller programs all run on revenue shares. The base and length matter as much as the rate: 20% of the first year is a very different deal from 20% for life."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "You have to count it, and you might overpay.",
+      "body": [
+        "A share only works if both sides trust the numbers. Studios needed records of every rental. Many smaller stores worked through Rentrak, a company that tracked rentals for revenue-sharing deals.",
+        "A share also pays out more when things go well. If success is nearly certain, a fixed fee may be cheaper.",
+        "And a partner paid on revenue doesn't feel your costs. They may push discounts or small, messy jobs that earn them a cut but lose you money."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's payroll software.",
+      "illustrative": true,
+      "body": [
+        "You sell payroll software to small businesses for $100 a month. Customers who fit well usually stay for years.",
+        "An accounting firm with 300 small-business clients wants to recommend you. Which offer do you make?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "A one-time $300 bonus for each new customer",
+            "verdict": "partial",
+            "feedback": "Predictable for you. But the firm earns nothing once a client signs up, so it has little reason to send good fits or help them stay."
+          },
+          {
+            "key": "B",
+            "text": "20% of each customer's monthly fee, for as long as they stay",
+            "verdict": "best",
+            "feedback": "The firm earns $20 a month only while the client keeps paying, so it wants clients who stick. You pay from revenue you've already collected."
+          },
+          {
+            "key": "C",
+            "text": "50% of every monthly fee, to win the firm's loyalty",
+            "verdict": "risky",
+            "feedback": "The firm will love it, but half of every payment leaves for good. Check that what's left still covers serving the customer."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A revenue share decides who carries the risk.",
+      "body": [
+        "Before arguing over the percentage, settle the base, the split and the length, and make sure both sides can count the money.",
+        "**Try it today:** list what you pay partners or suppliers. Which fixed fees would work better as a share? Which shares would be cheaper as a fixed fee?"
+      ],
+      "next": "Next · When to promise a partner you'll work with no one else"
+    }
+  ]
+}

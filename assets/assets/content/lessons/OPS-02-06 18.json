@@ -1,0 +1,225 @@
+{
+  "id": "OPS-02-06",
+  "unitId": "OPS-02",
+  "categoryId": "OPS",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Queues and waiting",
+  "readerTitle": "Two hours of work, three weeks to ship",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.3,
+  "caseKinds": [
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 연구 (Little의 법칙, 1961) + 가상 사례 (금속 가공 공장, 소프트웨어 고객지원팀) · 모든 수치는 설명용",
+  "insight": "기다리는 시간은 일하는 속도가 아니라 앞에 쌓인 줄의 길이로 정해진다. 들어오는 양과 나가는 양이 같으면 줄은 과거의 기억처럼 그대로 남는다.",
+  "misconception": "고객이 오래 기다리면 작업을 더 빨리 하면 된다. 줄이 늘지 않고 있으면 문제가 없는 것이다.",
+  "relatedLessonIds": [
+    "OPS-02-05",
+    "OPS-02-08"
+  ],
+  "sources": [
+    {
+      "text": "Little, J. D. C. (1961). A Proof for the Queuing Formula: L = λW. Operations Research, 9(3), 383–387.",
+      "url": null
+    },
+    {
+      "text": "공장과 고객지원팀의 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "공장 계산: 대기 작업 300건 ÷ 하루 처리 20건 = 15 작업일. 하루 8시간 기준 15일 = 120시간, 실제 작업 2시간 ÷ 120시간 = 1.7%, 대기 비율 약 98.3%(카드에는 \"over 98%\").",
+      "status": "open"
+    },
+    {
+      "note": "줄 줄이기 계산: 초과근무·외주로 하루 10건 추가 처리 × 24 작업일 = 240건 → 300 − 240 = 60건. 이후 유입·처리 모두 하루 20건이면 60 ÷ 20 = 3일 유지. 실제 작업 시간은 단순화를 위해 무시함.",
+      "status": "open"
+    },
+    {
+      "note": "고객지원 계산: 열린 티켓 400건 ÷ 하루 처리 40건 = 평균 10일. 40건으로 줄이면 40 ÷ 40 = 1일. 알림 기준 80건이면 최대 평균 약 2일.",
+      "status": "open"
+    },
+    {
+      "note": "최신 티켓 우선 처리(LIFO)는 처리 속도와 작업량이 같다면 평균 대기 시간을 바꾸지 않고 분포만 바꾼다는 설명이 대기행렬 이론과 맞는지 확인하세요. Little의 법칙은 장기 평균과 안정적인 시스템을 전제로 합니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Numbers twist",
+      "title": "Two hours of work, three weeks to ship",
+      "illustrative": true,
+      "body": [
+        "A small machine shop makes custom metal brackets. Each order needs about two hours of cutting, bending and finishing.",
+        "Customers still wait three weeks. Nobody on the floor is slow, and nobody is idle. The missing time is hiding somewhere else."
+      ],
+      "image": {
+        "label": "One small bracket on a bench behind a long line of waiting job tickets",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 작업대 위 금속 브래킷 하나가 완성 직전이고, 그 뒤로 작업 지시서 상자가 바닥에 길게 줄지어 쌓여 있음. 작업대 위에는 \"2 hours\", 줄 끝에는 \"3 weeks\" 라벨. 실제 회사 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/ops-02-06-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Customers want their brackets sooner.",
+      "illustrative": true,
+      "body": [
+        "Your shop gets about 20 new jobs a day and finishes about 20 a day. Around 300 jobs are waiting, left over from a big rush last year. Customers wait about three weeks.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Buy a faster machine that cuts each job from 2 hours to 1",
+            "verdict": "risky",
+            "feedback": "You save an hour on a job that spends about three weeks in the shop. The pile in front of the machine stays the same size, so the wait barely moves."
+          },
+          {
+            "key": "B",
+            "text": "Use overtime and outside help for a few weeks to cut the pile to 60, then keep it there",
+            "verdict": "best",
+            "feedback": "A one-time cost brings the wait down to about three days. Because jobs still come in as fast as they go out, it stays there as long as you don't let the pile grow back."
+          },
+          {
+            "key": "C",
+            "text": "Add a permanent second shift",
+            "verdict": "partial",
+            "feedback": "The pile will shrink, so this works. But you pay every month for a problem that was a one-time pile, and the extra shift may sit idle once it's gone."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Where the three weeks go.",
+      "illustrative": true,
+      "breakdown": [
+        {
+          "value": "300",
+          "label": "Jobs waiting",
+          "detail": "Everything already in the shop",
+          "highlight": false
+        },
+        {
+          "value": "20 a day",
+          "label": "Jobs finished",
+          "detail": "Daily output",
+          "highlight": false
+        },
+        {
+          "value": "15 days",
+          "label": "Time in the shop",
+          "detail": "300 ÷ 20",
+          "highlight": true
+        },
+        {
+          "value": "2 hours",
+          "label": "Actual work",
+          "detail": "Cutting, bending, finishing",
+          "highlight": false
+        }
+      ],
+      "callout": "Two hours of work in 15 eight-hour days: each job spends **over 98%** of its time waiting."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Little's Law",
+      "body": [
+        "**Little's Law** says: average time in the system = the number of items in it ÷ how many you finish per day.",
+        "The operations researcher John Little published a proof in 1961. It holds for almost any stable system: jobs on a shop floor, patients in a waiting room, invoices on a desk.",
+        "The lesson is uncomfortable. Wait time depends far more on *how much is waiting* than on how fast any one item gets worked."
+      ],
+      "image": {
+        "label": "Formula: time waiting equals items in line divided by items finished per day",
+        "aspectRatio": "16:9",
+        "brief": "간단한 인포그래픽. 왼쪽에 상자 더미(\"Items in line\"), 가운데 나누기 기호와 깔때기 출구(\"Finished per day\"), 오른쪽에 시계(\"Time in the system\"). 색은 두 가지만, 깔끔하게.",
+        "url": "assets/images/ops-02-06-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The twist",
+      "title": "A queue is a memory.",
+      "illustrative": true,
+      "body": [
+        "If 20 jobs come in and 20 go out each day, the pile stays at 300 forever. It isn't a sign of today's problem. It's a leftover from a rush long ago.",
+        "Drain it once, say 10 extra jobs a day for 24 working days, and the pile falls to 60. Now 60 ÷ 20 = **3 days**. Nothing else changed, and the shorter wait lasts."
+      ],
+      "softwareNote": "A product backlog works the same way. If a team ships 10 items a week and 200 sit in the backlog, a new request waits about 20 weeks. Deleting stale items shortens that wait without anyone working faster."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Short piles don't stay short by themselves.",
+      "body": [
+        "Little's Law describes averages over time. Real work arrives in bursts. If your team runs close to full, random busy days rebuild the pile quickly.",
+        "Some queue is also useful. A small buffer in front of your slowest step keeps it from ever sitting idle.",
+        "And cutting the pile by refusing orders has its own cost: lost customers. Decide which pile you can live with, then watch its size every week."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software support team.",
+      "illustrative": true,
+      "body": [
+        "Your app's support team closes about 40 tickets a day, and about 40 new ones arrive. There are 400 open tickets. Users wait about 10 days for an answer, though each fix takes about 20 minutes.",
+        "What helps most?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Add an auto-reply promising an answer within 24 hours",
+            "verdict": "risky",
+            "feedback": "It calms users for a day, then breaks trust. With 400 tickets ahead, the average wait is still 10 days."
+          },
+          {
+            "key": "B",
+            "text": "Pull in the whole team for two weeks to cut open tickets to 40, then flag it when they pass 80",
+            "verdict": "best",
+            "feedback": "The wait drops to about a day and stays there while inflow matches output. The alert stops the pile from quietly growing back."
+          },
+          {
+            "key": "C",
+            "text": "Answer the newest tickets first",
+            "verdict": "partial",
+            "feedback": "New users get fast replies, which feels better. But the pile is the same size, so old tickets wait even longer and the average barely changes."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "To cut waiting, shrink the pile, not the task.",
+      "body": [
+        "Time waiting equals what's in line divided by what you finish each day. Clear the leftover pile once, then cap it.",
+        "**Try it today:** count the open items in one queue you own, such as orders, tickets or requests. Divide by how many you finish per day. That's your real wait time."
+      ],
+      "next": "Next · A restaurant kitchen at rush hour"
+    }
+  ]
+}

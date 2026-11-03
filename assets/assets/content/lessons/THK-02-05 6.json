@@ -1,0 +1,236 @@
+{
+  "id": "THK-02-05",
+  "unitId": "THK-02",
+  "categoryId": "THK",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "The sunk cost fallacy",
+  "readerTitle": "Why \"we've already spent so much\" is the wrong reason to keep going",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "일상 장면 (콘서트 티켓) + 가상 사례 (사내 도구 개발팀, B2B 마케팅 에이전시) + 실제 연구 (Arkes & Blumer, 1985)",
+  "insight": "이미 쓴 돈과 시간은 어느 선택지를 골라도 똑같이 사라졌다. 그러니 결정은 앞으로 들 비용과 앞으로 얻을 것만 비교해서 내린다.",
+  "misconception": "지금까지 들인 게 많을수록 끝까지 가야 그 투자가 헛되지 않는다.",
+  "relatedLessonIds": [
+    "THK-02-06",
+    "THK-02-10"
+  ],
+  "sources": [
+    {
+      "text": "Arkes, H. R., & Blumer, C. (1985). The psychology of sunk cost. Organizational Behavior and Human Decision Processes, 35(1), 124–140.",
+      "url": null
+    },
+    {
+      "text": "사내 도구, 에이전시, 콘서트 사례와 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Arkes & Blumer(1985) 스키 여행 설문: $100 미시간 여행과 $50 위스콘신 여행이 같은 주말에 겹치고, 위스콘신이 더 즐거울 것이라고 들은 상황에서 응답자의 절반 이상(약 54%)이 더 비싼 여행을 골랐다는 내용을 원문으로 확인하세요. 카드에는 \"more than half\"로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Arkes & Blumer(1985) 극장 시즌권 현장 실험: 정가로 산 사람이 무작위로 할인을 받은 사람보다 시즌 전반부에 더 많은 공연을 관람했고, 후반부에는 차이가 뚜렷하지 않았다는 내용을 원문으로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "사내 도구 계산: 이미 쓴 $400k는 두 경로 모두 동일. 완성 경로는 앞으로 $200k + 유지비, 구매 경로는 연 $30k × 2년 = $60k. 모두 가상 수치입니다.",
+      "status": "open"
+    },
+    {
+      "note": "에이전시 계산: 월 수입 $8k − 월 서비스 비용 $10k = 월 −$2k, 1년 유지 시 −$24k. 초기 세팅 비용은 매몰비용이라 비교에서 제외. 모두 가상 수치입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Everyday scene",
+      "title": "Why \"we've already spent so much\" is the wrong reason to keep going",
+      "illustrative": true,
+      "body": [
+        "You paid $80 for a concert ticket. No refunds. On the night, it's pouring, you're exhausted, and you'd honestly rather stay home.",
+        "You go anyway. \"I paid for it.\" The $80 is gone whether you go or not. The only real question is how you want to spend tonight."
+      ],
+      "image": {
+        "label": "A person in the rain holding a concert ticket",
+        "aspectRatio": "4:3",
+        "brief": "비 오는 밤, 지친 표정의 사람이 우산 아래에서 콘서트 티켓을 쥐고 있다. 뒤로는 따뜻한 조명의 집 창문이 보인다. 티켓에 \"$80 · Non-refundable\" 문구. 실제 공연장이나 브랜드 로고는 쓰지 않음.",
+        "url": "assets/images/thk-02-05-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Eight months into an internal tool.",
+      "illustrative": true,
+      "body": [
+        "Your team inside a large company has spent eight months and $400k building a custom scheduling tool. It needs four more months and about $200k to finish.",
+        "Meanwhile, a ready-made tool now does about 90% of what you need for $30k a year. Your boss asks what to do."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Finish it. We've put in too much to walk away now",
+            "verdict": "risky",
+            "feedback": "It protects the team's pride and the story of the project. But the $400k isn't saved by finishing. You'd spend $200k more to avoid admitting it's gone."
+          },
+          {
+            "key": "B",
+            "text": "Compare only what's ahead: the cost and value of finishing versus buying",
+            "verdict": "best",
+            "feedback": "This treats the $400k as spent either way and judges the two paths on what they still cost and deliver. You may still choose to finish, but for a reason that holds up."
+          },
+          {
+            "key": "C",
+            "text": "Keep building for another month, then decide",
+            "verdict": "partial",
+            "feedback": "It buys time and avoids a hard call today. But each extra month adds to the pile that makes stopping feel harder next month."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Put both paths side by side.",
+      "illustrative": true,
+      "body": [
+        "The $400k appears in both paths, so it can't help you choose. Cross it out. What's left is **$200k plus upkeep** versus **$60k** over two years. The real question becomes: is the missing 10% worth about $140k or more?"
+      ],
+      "breakdown": [
+        {
+          "value": "$400k",
+          "label": "Already spent",
+          "detail": "Gone in both paths",
+          "highlight": false
+        },
+        {
+          "value": "$200k+",
+          "label": "To finish",
+          "detail": "Four more months, then upkeep",
+          "highlight": false
+        },
+        {
+          "value": "$60k",
+          "label": "To buy, two years",
+          "detail": "$30k a year, works today",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The sunk cost fallacy",
+      "body": [
+        "A **sunk cost** is money, time or effort you've already spent and can't get back. The concert ticket. The eight months of building.",
+        "The **sunk cost fallacy** is letting that past spending decide what you do next. You keep going to justify what's gone, not because the next step is worth it.",
+        "The fix is one question: *if we were starting from zero today, would we choose this?*"
+      ],
+      "image": {
+        "label": "Two paths with the shared past cost crossed out",
+        "aspectRatio": "16:9",
+        "brief": "갈림길 인포그래픽. 출발점 뒤쪽에 \"Already spent $400k\" 상자가 회색으로 X 표시. 앞쪽으로 두 갈래 길 \"Finish: $200k+\"와 \"Buy: $60k\". 앞쪽 길만 밝게 강조.",
+        "url": "assets/images/thk-02-05-c4.jpg"
+      },
+      "softwareNote": "Software teams meet this constantly: a feature half-built, a rewrite six months in, a vendor you've already integrated. Code already written is sunk. What matters is the effort still ahead and what it earns."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "Paying more made people show up more.",
+      "body": [
+        "In 1985, psychologists Hal Arkes and Catherine Blumer sold theater season tickets at a university. Some buyers, chosen at random, got a discount. Those who paid full price went to more plays in the first part of the season, even though the shows were the same for everyone.",
+        "In another of their studies, people imagined two non-refundable ski trips booked for the same weekend. Even when told the cheaper trip would be more fun, more than half picked the expensive one."
+      ],
+      "image": {
+        "label": "Theater seats, full-price rows fuller than discount rows",
+        "aspectRatio": "16:9",
+        "brief": "극장 객석 일러스트. 앞쪽 \"Full price\" 구역은 사람이 많이 앉아 있고, 뒤쪽 \"Discount\" 구역은 빈자리가 더 많다. 과장하지 말고 차이가 은은하게 보이도록. 실제 극장 이름이나 로고 없음.",
+        "url": "assets/images/thk-02-05-c5.jpg"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where it hides",
+      "title": "The bigger the investment, the louder it gets.",
+      "body": [
+        "Inside companies, sunk costs rarely sound like \"we've spent a lot.\" They sound like \"we're so close,\" \"the team has worked so hard,\" or \"we told the board.\"",
+        "The person who launched a project usually has the hardest time judging it. That's human, not weak. One simple guard: have someone who wasn't involved review it, using only the costs and benefits still ahead."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Not everything in the past is irrelevant.",
+      "body": [
+        "Past work can change future costs. If the tool were two weeks from done, finishing might be the cheap path. Count what's built for what it saves you from here on.",
+        "Stopping has real costs too: switching, retraining, lost trust with a client. Those are future costs, so they belong in the comparison.",
+        "The rule isn't \"quit more.\" It's \"judge by what's ahead.\""
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a marketing agency.",
+      "illustrative": true,
+      "body": [
+        "Your agency spent six months onboarding a client: custom reports, a dedicated team, lots of setup. The client pays $8k a month. Serving them now costs you about $10k a month, and the scope keeps growing.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep them as they are. We invested too much in setup to lose them",
+            "verdict": "risky",
+            "feedback": "It keeps a familiar client and avoids an awkward talk. But the setup is spent either way, and staying costs about $2k a month, or $24k a year."
+          },
+          {
+            "key": "B",
+            "text": "Propose a new price or smaller scope, and part ways if they say no",
+            "verdict": "best",
+            "feedback": "This judges the account on its future margin. You may keep the client on fair terms, and the setup work makes a good relationship easier to price, not a reason to lose money."
+          },
+          {
+            "key": "C",
+            "text": "Keep them a year to earn back the setup costs, then reprice",
+            "verdict": "partial",
+            "feedback": "It sounds patient, but losing $2k a month can never earn back setup costs. Repricing later just adds a year of losses."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Decide by what's ahead, not by what's behind.",
+      "body": [
+        "What you've spent is gone in every option. Compare only the costs and value still to come.",
+        "**Try it today:** pick one project or client you've invested heavily in. Ask: if we were starting from zero today, would we say yes to this?"
+      ],
+      "next": "Next · Why \"no change\" always feels safer"
+    }
+  ]
+}

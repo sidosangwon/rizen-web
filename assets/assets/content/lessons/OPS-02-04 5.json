@@ -1,0 +1,252 @@
+{
+  "id": "OPS-02-04",
+  "unitId": "OPS-02",
+  "categoryId": "OPS",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Flow",
+  "readerTitle": "Why Zara pays more to make clothes closer to home",
+  "format": "company_story",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "real_company",
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Zara/Inditex) + 실제 연구 (Modig & Åhlström의 흐름 효율) + 가상 사례 (의류 체인 재킷, 주문 가구 공방)",
+  "insight": "일하는 사람이나 기계가 얼마나 바쁜지가 아니라, 일감이 처음부터 끝까지 얼마나 멈추지 않고 움직이는지를 본다.",
+  "misconception": "각 공정을 더 빠르고 싸게 만들면 전체가 빨라진다. 실제로는 대부분의 시간이 작업이 아니라 대기에서 사라진다.",
+  "relatedLessonIds": [
+    "OPS-02-03",
+    "OPS-02-06"
+  ],
+  "sources": [
+    {
+      "text": "Ghemawat, P. & Nueno, J. L. (2003). ZARA: Fast Fashion. Harvard Business School case 9-703-497.",
+      "url": null
+    },
+    {
+      "text": "Inditex annual reports (proximity sourcing, supplier locations, store delivery model)",
+      "url": null
+    },
+    {
+      "text": "Modig, N. & Åhlström, P. (2012). This Is Lean: Resolving the Efficiency Paradox.",
+      "url": null
+    },
+    {
+      "text": "재킷과 가구 공방 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Inditex가 생산의 상당 부분을 스페인, 포르투갈, 모로코, 튀르키예 등 본사 근처 '근접 지역'에 두고 있다는 점을 최신 연차보고서로 확인하세요. 비율 수치는 해마다 달라 카드에 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "매장에 주 2회 정도 상품이 들어간다는 내용과, 일부 신상품이 몇 주 만에 디자인에서 매장까지 간다는 내용은 Ghemawat & Nueno(2003) 사례 기준입니다. 현재도 같은지 확인하세요. 카드에는 'reportedly', 'a few weeks'로 완화해 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Zara가 예측 가능한 기본 품목은 더 멀고 싼 지역에서 만든다는 내용은 HBS 사례에 나옵니다. 게시 전 최신 자료로 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "재킷 계산: 원단 대기 20일 + 공장 대기 25일 + 해상 운송 30일 + 창고 대기 6일 + 실제 작업 3일 = 84일(12주). 흐름 효율 3 ÷ 84 = 3.6%. 봉제 시간을 반으로 줄여도(약 1일 절감) 84일 → 83일.",
+      "status": "open"
+    },
+    {
+      "note": "가구 공방: 6주(42일) 중 실제 작업 2일, 흐름 효율 2 ÷ 42 ≈ 4.8%. 모두 가상 수치입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Company story",
+      "title": "Why Zara pays more to make clothes closer to home",
+      "body": [
+        "Making clothes in faraway, low-wage countries is usually cheaper per piece. Yet Inditex, Zara's parent company, has long kept a large share of its production close to Spain, in places like Portugal, Morocco and Turkey.",
+        "It pays more per shirt on purpose. What it buys with that money is the subject of this lesson."
+      ],
+      "image": {
+        "label": "A clothing rack next to a short road and a long sea route",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 왼쪽에 옷걸이 랙, 오른쪽에 두 갈래 길: 짧은 트럭 도로와 지구 반 바퀴를 도는 긴 해상 항로. 짧은 길 위의 옷이 이미 매장에 도착한 모습. 실제 브랜드 로고와 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "A jacket takes 12 weeks to reach your shelves.",
+      "illustrative": true,
+      "body": [
+        "You run a clothing chain. From placing an order to a jacket hanging in your store takes 12 weeks. Hands-on work (cutting, sewing, pressing, packing, loading) adds up to about 3 days.",
+        "You want new styles in stores faster. Where do you start?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Give the factory faster sewing machines",
+            "verdict": "risky",
+            "feedback": "Sewing gets quicker, but sewing is a tiny slice of 12 weeks. You'd pay for machines and save about a day."
+          },
+          {
+            "key": "B",
+            "text": "Switch to an even cheaper factory further away",
+            "verdict": "partial",
+            "feedback": "You'd save on each jacket, but the longer trip adds weeks. Cheaper pieces, slower shelves."
+          },
+          {
+            "key": "C",
+            "text": "Follow one jacket and measure where it sits still",
+            "verdict": "best",
+            "feedback": "Most of the 12 weeks is waiting, not work. Find the longest waits and you find the time worth saving."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Where the 84 days go.",
+      "illustrative": true,
+      "breakdown": [
+        {
+          "value": "20 days",
+          "label": "Waiting for fabric",
+          "detail": "Order sits until material arrives",
+          "highlight": false
+        },
+        {
+          "value": "25 days",
+          "label": "Waiting at the factory",
+          "detail": "Behind other orders",
+          "highlight": false
+        },
+        {
+          "value": "30 days",
+          "label": "At sea",
+          "detail": "Shipping across the world",
+          "highlight": false
+        },
+        {
+          "value": "6 days",
+          "label": "In the warehouse",
+          "detail": "Waiting for a truck to stores",
+          "highlight": false
+        },
+        {
+          "value": "3 days",
+          "label": "Actual work",
+          "detail": "Cutting, sewing, packing",
+          "highlight": true
+        }
+      ],
+      "callout": "The jacket is being worked on **3.6%** of the time. The other 96% it is just sitting."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Flow",
+      "body": [
+        "**Flow** means work moving from start to finish with as little stopping as possible. The idea grew out of Toyota's production system and spread far beyond car plants.",
+        "To see flow, you watch the *thing being made*, not the people or machines making it. One useful number is **flow efficiency**: time spent working on an item divided by its total time from start to finish.",
+        "In the jacket example, that's 3 days out of 84."
+      ],
+      "image": {
+        "label": "A jacket's timeline: long grey waits, thin colored work slices",
+        "aspectRatio": "16:9",
+        "brief": "가로 타임라인 인포그래픽. 84일 막대 대부분이 회색('Waiting'), 사이사이 얇은 색 조각('Work')이 몇 개. 오른쪽 끝에 '3 ÷ 84 = 3.6%'.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Zara attacked the waiting, not the sewing.",
+      "body": [
+        "According to a well-known Harvard case study, Zara kept design, much of production and distribution close together, and shipped to its stores about twice a week. Some new items reportedly went from design to store in a few weeks, while many rivals planned seasons months ahead.",
+        "Nearby factories cut weeks at sea. Frequent shipments cut weeks in warehouses. Stores could reorder what was selling while it was still in demand.",
+        "The higher cost per piece bought something more valuable: **fewer unsold clothes**."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "A wider view",
+      "title": "Busy is not the same as fast.",
+      "body": [
+        "Researchers Niklas Modig and Pär Åhlström call this the gap between *resource efficiency* (keeping people and machines busy) and *flow efficiency* (keeping the work moving). A factory can run every machine all day while each order still spends weeks waiting between them.",
+        "Most improvement efforts speed up the work steps. Usually the bigger prize sits in the gaps between steps."
+      ],
+      "softwareNote": "A feature may take two hours to code, then wait days for review, testing and release. Tracking the days from idea to customer often reveals more than tracking how busy developers are."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Flow has a price.",
+      "body": [
+        "Faster flow often means paying more: nearby suppliers, smaller and more frequent shipments, spare capacity. That's worth it when speed is valuable, as with fashion, fresh food or anything whose demand is hard to predict.",
+        "For products that sell steadily, slow and cheap can win. Even Zara reportedly made more predictable basics in farther, cheaper locations. Ask what a week of waiting really costs you before paying to remove it."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a custom furniture workshop.",
+      "illustrative": true,
+      "body": [
+        "You build made-to-order kitchen cabinets. Customers wait 6 weeks. Each order needs about 2 days of actual cutting, assembly and finishing. Customers are starting to go to faster rivals.",
+        "What's your first move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Buy a faster cutting machine",
+            "verdict": "risky",
+            "feedback": "Cutting speeds up, but cutting is hours out of six weeks. The order still waits in the same places."
+          },
+          {
+            "key": "B",
+            "text": "Track a few orders day by day and shrink the longest waits",
+            "verdict": "best",
+            "feedback": "You'll likely find orders waiting for materials, sign-off or a free bench. Fix those and weeks disappear without new machines."
+          },
+          {
+            "key": "C",
+            "text": "Hire more staff so no one is ever idle",
+            "verdict": "partial",
+            "feedback": "More hands may help if work piles up at one step. But busier people don't guarantee orders stop waiting between steps."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Follow the work, not the workers.",
+      "body": [
+        "Most of the time an order spends in your business, nothing is happening to it. Speed comes from cutting the waits between steps, not only from working faster.",
+        "**Try it today:** pick one recent order. Write down when it started, when it finished, and how many hours someone actually worked on it. Divide the two."
+      ],
+      "next": "Next · Why a fully busy team gets slower"
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "id": "THK-11-03",
+  "unitId": "THK-11",
+  "categoryId": "THK",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "Signal vs noise in small samples",
+  "readerTitle": "Why the wildest numbers come from the smallest samples",
+  "format": "two_businesses",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 연구 (Kahneman & Tversky 병원 문제, Wainer의 신장암 지역 통계) + 가상 사례 (포장 공장 두 라인, 앱 가입 화면)",
+  "insight": "숫자의 크기보다 그 숫자 뒤에 몇 건이 있는지를 먼저 본다. 변화가 평소 흔들림(대략 기대 건수의 제곱근)보다 클 때만 신호다.",
+  "misconception": "퍼센트가 크게 움직였으면 뭔가 바뀐 것이다. 가장 극단적인 숫자가 가장 급한 문제다.",
+  "relatedLessonIds": [
+    "THK-11-05",
+    "THK-04-04"
+  ],
+  "sources": [
+    {
+      "text": "Kahneman, D. & Tversky, A. (1972). Subjective probability: A judgment of representativeness. Cognitive Psychology, 3(3), 430–454. (병원 문제)",
+      "url": null
+    },
+    {
+      "text": "Tversky, A. & Kahneman, D. (1971). Belief in the law of small numbers. Psychological Bulletin, 76(2), 105–110.",
+      "url": null
+    },
+    {
+      "text": "Wainer, H. (2007). The Most Dangerous Equation. American Scientist, 95(3).",
+      "url": null
+    },
+    {
+      "text": "공장과 앱 수치는 모두 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "작은 라인: 40건 × 2% = 기대 오류 0.8건. 포아송 근사로 P(2건 이상) = 1 − e^−0.8 × (1 + 0.8) = 1 − 0.449 × 1.8 ≈ 0.19, 약 5일에 1일. 카드에 'about 1 night in 5'로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "큰 라인: 2,000건 × 2% = 기대 40건, 표준편차 √(2,000 × 0.02 × 0.98) ≈ 6.26. 평소 범위 40 ± 2 × 6.26 ≈ 28~52. 60건은 평균보다 표준편차 약 3.2배 위로, 우연으로는 드뭅니다.",
+      "status": "open"
+    },
+    {
+      "note": "앱: 이항분포 n=25, p=0.1, 기대 2.5건. P(0~4) ≈ 0.072 + 0.199 + 0.266 + 0.227 + 0.138 = 0.902, 따라서 P(5건 이상) ≈ 0.098, 약 10번에 1번. 카드에 'about 1 time in 10'으로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "병원 문제 세부 내용(하루 약 45명과 약 15명, 1년 동안 남아 비율 60% 초과인 날 수, 다수가 'about the same'이라고 답함)은 1972년 원문에서 다시 확인하세요. 응답 비율 수치는 일부러 넣지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Wainer(2007)의 신장암 사례: 발생률이 가장 낮은 카운티와 가장 높은 카운티가 모두 주로 인구가 적은 시골 카운티라는 내용입니다. 원문 표현을 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "'평소 흔들림은 기대 건수의 제곱근 정도'는 포아송 근사 기반의 어림 규칙입니다. 비율이 작고 건수를 셀 때 잘 맞습니다. 카드에는 'roughly', 'often'으로 표현했습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Two businesses",
+      "title": "Why the wildest numbers come from the smallest samples",
+      "illustrative": true,
+      "body": [
+        "Two reports land on the same morning. At a packaging plant, the small night line's error rate has jumped to 5%. At a software company, a new sign-up screen has doubled conversions to 20%.",
+        "One looks like a crisis. One looks like a win. Both may be nothing at all."
+      ],
+      "image": {
+        "label": "Two dashboards, one with a red alarm and one with a green spike",
+        "aspectRatio": "4:3",
+        "brief": "화면을 반으로 나눔. 왼쪽은 공장 포장 라인 옆 모니터에 빨간 경고 \"Errors 5%\", 오른쪽은 노트북 화면에 초록색 급등 그래프 \"Sign-ups 20%\". 두 숫자 아래에 아주 작은 글씨로 \"n = 40\", \"n = 25\". 실제 로고 사용 금지.",
+        "url": "assets/images/thk-11-03-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which line do you investigate?",
+      "illustrative": true,
+      "body": [
+        "Your plant runs two packing lines. Both usually get about 2% of orders wrong.",
+        "Last night the small line packed 40 orders and made 2 errors: 5%. The big line packed 2,000 orders and made 60 errors: 3%. You have time to dig into one line today."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The small line. 5% is more than double normal",
+            "verdict": "risky",
+            "feedback": "It's the loudest number, but it rests on just 2 errors. You'd spend the day chasing something that may be luck."
+          },
+          {
+            "key": "B",
+            "text": "The big line. 3% across 2,000 orders is harder to explain away",
+            "verdict": "best",
+            "feedback": "The rise is smaller, but it's built on far more orders, so luck is a weak excuse. Next card shows why."
+          },
+          {
+            "key": "C",
+            "text": "Split the day between both, since both are above normal",
+            "verdict": "partial",
+            "feedback": "Fair-minded, but it gives equal time to a likely blip and a likely real problem. Half an answer on each."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Compare each line with what luck alone would give.",
+      "illustrative": true,
+      "body": [
+        "The small line's 5% is louder. The big line's 3% is the real message."
+      ],
+      "breakdown": [
+        {
+          "value": "0.8",
+          "label": "Small line: expected errors",
+          "detail": "40 orders × 2%",
+          "highlight": false
+        },
+        {
+          "value": "2",
+          "label": "Small line: actual",
+          "detail": "Happens about 1 night in 5 by luck",
+          "highlight": false
+        },
+        {
+          "value": "40",
+          "label": "Big line: expected errors",
+          "detail": "2,000 orders × 2%",
+          "highlight": false
+        },
+        {
+          "value": "60",
+          "label": "Big line: actual",
+          "detail": "Normal nights land between about 28 and 52",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Signal vs noise",
+      "body": [
+        "Every count wobbles from day to day, even when nothing has changed. That wobble is **noise**. A **signal** is a change bigger than the usual wobble.",
+        "A handy rule: the normal swing in a count is roughly the square root of what you expect. Expect 1, and you'll often see 0 or 2. Expect 100, and you'll often see 90 or 110. Expect 10,000, and you'll see 9,900 or 10,100."
+      ],
+      "callout": "The smaller the count, the bigger the swing as a percentage.",
+      "softwareNote": "Dashboards show percentages without the count behind them. A 20% conversion rate from 25 visitors and one from 25,000 look identical on screen."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "Most people miss this, even when asked directly.",
+      "body": [
+        "In a 1972 study, Daniel Kahneman and Amos Tversky described two hospitals. One delivers about 45 babies a day, the other about 15. Over a year, which records more days when over 60% of babies are boys?",
+        "Most people said about the same. The answer is the small hospital. With only 15 births, lopsided days come far more often.",
+        "Tversky and Kahneman called our habit of trusting small samples a belief in the **law of small numbers**."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where it shows up",
+      "title": "Small groups top *and* bottom every ranking.",
+      "body": [
+        "Statistician Howard Wainer pointed out that the US counties with the lowest kidney cancer rates were mostly small and rural. So were the counties with the highest rates. Small populations simply swing further.",
+        "Your own rankings work the same way: the best and worst stores, the top and bottom salespeople, the product with five stars from four reviews. Before praising or blaming, check how many cases sit behind the number."
+      ],
+      "image": {
+        "label": "A ranking chart where small groups sit at both ends",
+        "aspectRatio": "16:9",
+        "brief": "가로 막대 순위표. 맨 위와 맨 아래 막대는 작은 점 몇 개(작은 표본)로 이루어져 있고, 가운데 막대들은 촘촘한 점들(큰 표본)로 이루어짐. 양 끝 막대에 \"small\" 라벨, 가운데에 \"large\" 라벨.",
+        "url": "assets/images/thk-11-03-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "More data isn't a cure-all.",
+      "list": [
+        "**Size doesn't fix bias.** A million answers from only your happiest customers still mislead.",
+        "**Small can still matter.** One serious safety failure deserves action, whatever the sample.",
+        "**Big samples find tiny signals.** With enough data, a real change can be too small to care about."
+      ],
+      "callout": "Noise is one question. Whether a real change is worth acting on is another."
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a sign-up screen.",
+      "illustrative": true,
+      "body": [
+        "Your app normally turns about 10% of visitors into sign-ups, measured over thousands of visits.",
+        "A new sign-up screen was shown to 25 visitors, and 5 signed up: 20%. Your product lead wants to ship it to everyone and tell the board conversions doubled."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Ship it and report the doubling",
+            "verdict": "risky",
+            "feedback": "Fast and exciting. But you'd expect 2 or 3 sign-ups from 25 visitors anyway, and 5 shows up by luck about 1 time in 10."
+          },
+          {
+            "key": "B",
+            "text": "Keep showing it until a few hundred visitors have seen it, then compare",
+            "verdict": "best",
+            "feedback": "It costs a week or two. In return, you learn whether the doubling is real before you stake your credibility on it."
+          },
+          {
+            "key": "C",
+            "text": "Drop the idea. 25 visitors tells you nothing",
+            "verdict": "partial",
+            "feedback": "Safe, but it throws away a promising hint. A small sample is weak evidence, not zero evidence."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "With thousands of visits, the 10% baseline wobbles only slightly. With 25, the same screen could easily show anywhere from 0% to 20%."
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Before reacting to a number, ask how many cases are behind it.",
+      "body": [
+        "Small counts swing wildly by chance. A change is a signal only when it's bigger than the normal wobble, and the square root of the expected count tells you roughly how big that wobble is.",
+        "**Try it today:** pick one metric you watched this week. Write down how many cases it rests on and the square root of that. Was the latest change bigger?"
+      ],
+      "next": "Next · Is the effect big enough to matter?"
+    }
+  ]
+}

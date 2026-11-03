@@ -1,0 +1,236 @@
+{
+  "id": "MKT-07-06",
+  "unitId": "MKT-07",
+  "categoryId": "MKT",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Did marketing cause the sale?",
+  "readerTitle": "The postcard got the credit for 300 bookings. It earned 50.",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (청소 서비스, 원예용품 매장 체인) + 실제 연구 (eBay 검색광고 실험, Blake·Nosko·Tadelis 2015)",
+  "insight": "마케팅의 성과는 '광고를 본 사람이 얼마나 샀나'가 아니라 '광고가 없었으면 안 샀을 사람이 얼마나 되나'로 잰다.",
+  "misconception": "쿠폰 사용 건수나 광고 클릭 뒤 구매 건수가 곧 마케팅이 만든 매출이다.",
+  "relatedLessonIds": [
+    "MKT-07-01",
+    "MKT-07-03"
+  ],
+  "sources": [
+    {
+      "text": "Blake, T., Nosko, C., & Tadelis, S. (2015). Consumer Heterogeneity and Paid Search Effectiveness: A Large-Scale Field Experiment. Econometrica, 83(1), 155–174.",
+      "url": null
+    },
+    {
+      "text": "청소 서비스와 원예용품 매장 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "청소 서비스 계산: 엽서 2,000장 × $1 = $2,000, 할인 $20 × 300건 = $6,000, 합계 $8,000. 받은 그룹 300 ÷ 2,000 = 15%, 안 받은 그룹 250 ÷ 2,000 = 12.5%. 추가 예약 300 − 250 = 50건. 겉보기 예약당 비용 $8,000 ÷ 300 = $26.67(약 $27), 실제 추가 예약당 비용 $8,000 ÷ 50 = $160.",
+      "status": "open"
+    },
+    {
+      "note": "할인 비용 $6,000에는 어차피 예약했을 250명에게 준 할인도 포함됩니다. 이 점이 핵심이므로 카드 문구와 일치하는지 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "eBay 연구: 자사 브랜드 키워드 광고를 일부 검색엔진에서 중단하자 클릭 대부분이 무료 검색 결과로 옮겨갔다는 내용, 그리고 비브랜드 광고 효과가 주로 신규·비자주 이용자에게서 나타났다는 내용을 논문 원문으로 확인하세요. 카드에는 구체적 수익률 수치를 넣지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Marketing · Numbers twist",
+      "title": "The postcard got the credit for 300 bookings. It earned 50.",
+      "illustrative": true,
+      "body": [
+        "A home cleaning company mailed a $20-off postcard to 2,000 past customers. Within a month, 300 of them booked with the code.",
+        "The report looked great. Then the owner asked a different question: how many would have booked anyway?"
+      ],
+      "image": {
+        "label": "A stack of postcards, most dropping onto doorsteps already marked booked",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 현관문 여러 개 앞에 할인 엽서가 떨어지는 장면. 대부분의 문에는 이미 달력에 '청소 예약' 체크 표시가 있고, 소수의 문에만 엽서 덕분에 새로 켜진 불빛. 실제 기업 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Was the postcard worth it?",
+      "illustrative": true,
+      "body": [
+        "The postcards cost $1 each to print and mail. Every booking with the code got $20 off. That's $8,000 in total for 300 coded bookings, or about $27 each.",
+        "How would you judge the campaign?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "It worked: 300 bookings at about $27 each is cheap",
+            "verdict": "risky",
+            "feedback": "Fast and clear, but it assumes every coded booking was new. Regular customers use a code they're handed, even when they'd have booked anyway."
+          },
+          {
+            "key": "B",
+            "text": "Compare with similar past customers who got no postcard",
+            "verdict": "best",
+            "feedback": "This costs some setup, but it shows what would have happened without the postcard. The difference is what the campaign actually earned."
+          },
+          {
+            "key": "C",
+            "text": "Ask the 300 customers whether the postcard made them book",
+            "verdict": "partial",
+            "feedback": "Cheap and better than nothing. But people are poor judges of their own reasons, and many will say yes to be polite."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "The group without postcards booked too.",
+      "illustrative": true,
+      "body": [
+        "The owner had held back 2,000 similar customers, chosen at random, who got nothing. **250** of them booked anyway.",
+        "So the postcard added about 50 bookings, not 300. And the $20 discount went to all 300, including the 250 who needed no push."
+      ],
+      "chart": {
+        "unit": "%",
+        "groups": [
+          {
+            "label": "Booked within a month",
+            "rows": [
+              {
+                "label": "Got the postcard",
+                "value": 15,
+                "highlight": true
+              },
+              {
+                "label": "No postcard",
+                "value": 12.5,
+                "highlight": false
+              }
+            ]
+          }
+        ]
+      },
+      "callout": "$8,000 ÷ 50 extra bookings = **$160 each**, not $27."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Incrementality",
+      "body": [
+        "**Incrementality** is the extra sales marketing creates compared with doing nothing. It's the sales that would not have happened without it.",
+        "Most reports show something else: sales that *touched* the marketing. A coupon redeemed, an ad clicked, a flyer in hand. Those count people who were already coming, too.",
+        "The honest question is never \"who saw it and bought?\" It's \"who bought *because* they saw it?\""
+      ],
+      "softwareNote": "Analytics tools often credit the last ad a user clicked before paying. Ads shown to people already in checkout look brilliant in that report. Hiding the ads from a random slice of users shows what they truly add."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "eBay switched off its own ads.",
+      "body": [
+        "Economists at eBay tested the search ads that appeared when people searched for \"eBay\". They paused those ads on some search engines and watched what happened.",
+        "Nearly all the clicks moved to the free search results just below. People looking for eBay found eBay either way. The ads had been taking credit for visits they didn't create.",
+        "The study, published in 2015, also found ads mattered more for people new to eBay than for regular shoppers."
+      ],
+      "image": {
+        "label": "Search results page where clicks move from the paid ad to the free link below",
+        "aspectRatio": "16:9",
+        "brief": "검색 결과 화면 일러스트. 맨 위 '광고' 칸이 꺼지자 화살표로 표시된 클릭 흐름이 바로 아래 무료 검색 결과로 그대로 옮겨감. 실제 검색엔진·eBay 로고와 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where it shows up",
+      "title": "The more loyal the audience, the bigger the gap.",
+      "body": [
+        "Marketing aimed at people who already buy from you looks strongest in reports and often adds the least. Loyalty discounts, ads on your own name, and reminders to repeat customers all fall here.",
+        "Marketing that reaches strangers looks weaker on paper but may add more. Few would have found you otherwise.",
+        "A useful habit: before trusting a result, picture the customers behind it. Were they on their way already?"
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Testing has costs and blind spots.",
+      "body": [
+        "A holdout group gives up whatever the marketing would have earned from it. Keep it small, but big enough to measure.",
+        "Small tests are noisy. A gap of a few customers can be luck, so repeat before deciding.",
+        "Short tests also miss slow effects. Brand advertising may shape choices months later, long after a one-month test ends. Low incrementality today doesn't always mean zero value."
+      ],
+      "image": {
+        "label": "Scale weighing a small held-back group against a large mailed group",
+        "aspectRatio": "16:9",
+        "brief": "저울 일러스트. 한쪽에는 큰 무리의 고객(마케팅 받음), 다른 쪽에는 작은 무리(마케팅 안 받음). 저울 위에 돋보기와 달력이 놓여 '작은 표본은 흔들리고, 긴 효과는 늦게 나타난다'는 느낌. 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a chain of garden centers.",
+      "illustrative": true,
+      "body": [
+        "You run six garden centers. Every spring you mail a coupon flyer to all loyalty members, and every year about 4,000 coupons come back. You want to know if the flyer really pays.",
+        "What's the best test?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Compare this year's coupon count with last year's",
+            "verdict": "risky",
+            "feedback": "Easy to run, but spring brings gardeners in anyway. Weather and timing can swing the count more than the flyer does."
+          },
+          {
+            "key": "B",
+            "text": "Skip the flyer for a random 10% of members and compare their spending",
+            "verdict": "best",
+            "feedback": "You give up a little from the held-back group, but both groups face the same weather and season. The gap is the flyer's real effect."
+          },
+          {
+            "key": "C",
+            "text": "Stop the flyer at two stores and compare them with the other four",
+            "verdict": "partial",
+            "feedback": "Simple to manage, but stores differ in location and customers. With only two, you may be measuring the stores, not the flyer."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Count the sales marketing created, not the sales it touched.",
+      "body": [
+        "A redeemed coupon or a clicked ad is not proof. Compare with similar customers who saw nothing.",
+        "**Try it today:** pick one campaign you run. Write down how many of its customers you think would have bought anyway. Then plan a small holdout to check."
+      ],
+      "next": "Next · Should a dentist run ads?"
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "id": "OPS-08-05",
+  "unitId": "OPS-08",
+  "categoryId": "OPS",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Returns",
+  "readerTitle": "Why a refunded order costs more than a lost sale",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "illustrative",
+    "real_observation"
+  ],
+  "caseNote": "가상 사례 (온라인 신발 가게, 가정 수리 서비스) · 모든 수치는 설명용 · 사이즈를 여러 개 주문하고 일부를 반품하는 행동은 일반적인 관찰로만 언급",
+  "insight": "반품은 취소된 판매가 아니라 돈이 드는 거래다. 반품을 줄이는 것이 주문을 늘리는 것보다 이익에 더 크게 작용할 수 있다.",
+  "misconception": "환불하면 판매가 없던 일이 되므로 반품의 비용은 0이거나 반송비 정도다.",
+  "relatedLessonIds": [
+    "FIN-03-06",
+    "OPS-08-08"
+  ],
+  "sources": [
+    {
+      "text": "운영·관리회계의 일반 개념 (반품 처리 비용, 역물류, 재작업·재방문 비용)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "판매 1건이 남기는 돈: $80 − 제품 원가 $30 − 발송비 $8 − 포장 $2 = $40. 반품 1건 비용: 발송비 $8 + 포장 $2 + 반송 라벨 $8 + 검수·재포장 $4 + 재판매 손실 평균 $6 = $28. 재판매 손실 $6 = 반품 5켤레 중 1켤레가 $30 싸게 팔린다는 가정. 제품 원가 $30은 재고로 돌아오므로 비용에서 제외. 28 ÷ 40 = 70%.",
+      "status": "open"
+    },
+    {
+      "note": "주문 100건 기준: 반품 0%이면 100 × $40 = $4,000. 반품 20%이면 80 × $40 − 20 × $28 = $3,200 − $560 = $2,640. 주문 5% 증가(105건, 반품 20%): 84 × $40 − 21 × $28 = $3,360 − $588 = $2,772 (+$132). 반품률 15%: 85 × $40 − 15 × $28 = $3,400 − $420 = $2,980 (+$340). 340 ÷ 132 ≈ 2.6배.",
+      "status": "open"
+    },
+    {
+      "note": "가정 수리 서비스: 작업 10건 × $80 = $800, 재방문 1회 비용 $90 → $710. 재방문 1회가 작업 1건 이상의 이익을 없앤다는 문장 확인.",
+      "status": "open"
+    },
+    {
+      "note": "온라인 의류·신발 쇼핑에서 여러 사이즈를 주문하고 일부를 반품하는 행동은 널리 보고된 현상이지만, 카드에는 구체적 비율을 쓰지 않았습니다. 수치를 추가하려면 1차 출처를 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Numbers twist",
+      "title": "Why a refunded order costs more than a lost sale",
+      "illustrative": true,
+      "body": [
+        "A customer orders shoes from your online shop, tries them on, and sends them back. You refund the full price.",
+        "It feels like the sale simply never happened. On your books, it's worse than that. You paid to ship, pack, receive and check a pair that earned you nothing."
+      ],
+      "image": {
+        "label": "A shoebox travelling to a door and back again",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 신발 상자 하나가 창고에서 집 문 앞까지 갔다가 다시 창고로 돌아오는 원형 경로. 경로 위에 작은 동전들이 떨어져 있음. 실제 브랜드 로고나 택배사 표시는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Grow orders, or cut returns?",
+      "illustrative": true,
+      "body": [
+        "Your shop sells shoes at $80. Each pair a customer keeps leaves you $40 after the product, shipping and packing. Right now 1 in 5 orders comes back.",
+        "You can fund one project this quarter. Which adds more profit?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Marketing that grows orders by 5%",
+            "verdict": "partial",
+            "feedback": "More orders do add profit, but 1 in 5 of the new ones still comes back and costs you. The gain is smaller than it looks."
+          },
+          {
+            "key": "B",
+            "text": "Better size guides that cut returns from 20% to 15%",
+            "verdict": "best",
+            "feedback": "Each avoided return saves a cost and keeps a $40 sale. That double effect makes this the bigger lever here, about 2.6 times bigger."
+          },
+          {
+            "key": "C",
+            "text": "About the same, so pick the cheaper project",
+            "verdict": "risky",
+            "feedback": "Reasonable if a return just cancels a sale. It doesn't. A return costs money on top of the sale you lose."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Follow one returned pair.",
+      "illustrative": true,
+      "body": [
+        "The shoes come back to stock, so you don't lose the $30 product. But one return still costs about **$28**. That wipes out 70% of what a kept pair earns."
+      ],
+      "breakdown": [
+        {
+          "value": "$8",
+          "label": "Shipping out",
+          "detail": "Already paid, never refunded",
+          "highlight": false
+        },
+        {
+          "value": "$2",
+          "label": "Packing",
+          "detail": "Box, tissue, label",
+          "highlight": false
+        },
+        {
+          "value": "$8",
+          "label": "Return label",
+          "detail": "Free returns means you pay",
+          "highlight": false
+        },
+        {
+          "value": "$4",
+          "label": "Check and repack",
+          "detail": "Staff time to inspect each pair",
+          "highlight": false
+        },
+        {
+          "value": "$6",
+          "label": "Resale loss",
+          "detail": "1 in 5 returns is worn and sells $30 cheaper",
+          "highlight": false
+        },
+        {
+          "value": "$28",
+          "label": "Cost of one return",
+          "detail": "Paid for a sale that earned nothing",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "chart",
+      "eyebrow": "What happened",
+      "title": "Profit per 100 orders",
+      "illustrative": true,
+      "body": [
+        "With no returns, 100 orders would leave $4,000. With 1 in 5 coming back, they leave $2,640.",
+        "Growing orders 5% adds $132. Cutting returns to 15% adds **$340**."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Profit from 100 orders",
+            "rows": [
+              {
+                "label": "If nothing came back",
+                "value": 4000,
+                "highlight": false
+              },
+              {
+                "label": "Today, 20% returned",
+                "value": 2640,
+                "highlight": false
+              },
+              {
+                "label": "5% more orders",
+                "value": 2772,
+                "highlight": false
+              },
+              {
+                "label": "Returns cut to 15%",
+                "value": 2980,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "image": {
+        "label": "Profit per 100 orders",
+        "aspectRatio": "4:3",
+        "brief": "Labeled HTML chart from the lesson numbers",
+        "url": "assets/images/ops-08-05-chart.png"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The true cost of a return",
+      "body": [
+        "A **return** takes back the revenue from a sale but not the costs. Shipping, packing and handling are already spent, and getting the item back adds new costs.",
+        "So a return isn't a zero. It's a negative. Each one costs you twice: the profit the sale would have left, plus the cost of undoing it.",
+        "That's why the return rate belongs next to price and cost when you judge what an order really earns."
+      ],
+      "image": {
+        "label": "A kept sale adds coins; a return removes them",
+        "aspectRatio": "16:9",
+        "brief": "좌우 비교 인포그래픽. 왼쪽 \"Kept: +$40\" 저울에 동전이 쌓임. 오른쪽 \"Returned: −$28\" 저울에서 동전이 빠져나감. 가운데 \"Not zero\" 라벨. 단순한 평면 스타일.",
+        "url": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Most returns start before the sale.",
+      "body": [
+        "Returns rarely come from bad luck. They come from a gap between what customers expected and what arrived: unclear sizing, photos that flatter, damage in transit.",
+        "Some customers order two sizes on purpose and send one back. They're not cheating. They're filling a gap your product page left open.",
+        "Closing that gap usually costs less than processing the returns it causes."
+      ],
+      "softwareNote": "The same math shows up as refunds and first-month cancellations. Each one can cost you the sales effort, onboarding time and payment fees, often with nothing back. Clear trial terms and setup help can be the cheapest fix."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Zero returns is the wrong goal.",
+      "body": [
+        "Easy returns reassure customers, and many buy only because they can send things back. A strict policy can cut returns and sales at the same time.",
+        "The goal is fewer *avoidable* returns: the ones caused by poor information, poor packing or poor fit. Fix those first.",
+        "And count returns honestly. If your reports show only the refund, every return looks free and every fix looks like a waste of money."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a home repair business.",
+      "illustrative": true,
+      "body": [
+        "Your team fixes leaks and fits appliances. A typical job leaves $80 after labor and parts. About 1 in 10 jobs needs a callback: a second visit, unpaid, costing about $90 in time and travel.",
+        "That one callback wipes out more than a whole job's profit. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Charge customers for callbacks from now on",
+            "verdict": "risky",
+            "feedback": "You recover some cost, but customers see it as paying twice for one job. You may lose reviews and repeat work worth far more."
+          },
+          {
+            "key": "B",
+            "text": "Add a short test and walk-through with the customer before leaving",
+            "verdict": "best",
+            "feedback": "It adds a few minutes to every job but catches problems while the technician is still there. Like a size guide, it closes the gap before it becomes a return."
+          },
+          {
+            "key": "C",
+            "text": "Accept callbacks as normal and raise prices a little",
+            "verdict": "partial",
+            "feedback": "It covers the cost on paper, but you keep paying for avoidable second visits and risk losing price-sensitive customers."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A return is not a cancelled sale. It's a sale that cost you money.",
+      "body": [
+        "Count what each return really costs, and fixing the cause often beats chasing more orders.",
+        "**Try it today:** take one recent return, refund or redo. Add up every cost it caused, not just the money you gave back."
+      ],
+      "next": "Next · Why the last mile costs the most"
+    }
+  ]
+}

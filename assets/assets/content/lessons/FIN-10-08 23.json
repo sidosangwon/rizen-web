@@ -1,0 +1,311 @@
+{
+  "id": "FIN-10-08",
+  "unitId": "FIN-10",
+  "categoryId": "FIN",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "Check a startup before you invest",
+  "readerTitle": "Your friend's startup tripled its sales. Should you invest?",
+  "format": "everyday_scene",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (스낵 스타트업, 운반 상자 대여 스타트업, 클리닉용 소프트웨어 스타트업) · 모든 수치는 설명용",
+  "insight": "스타트업 숫자를 볼 때는 성장률보다 먼저 두 가지를 묻는다. 그 매출은 끝난 거래인가, 그 돈은 실제로 들어왔는가.",
+  "misconception": "매출이 빠르게 늘고 있으면 사업이 잘되는 것이고, 남은 질문은 앞으로 얼마나 더 클지뿐이다.",
+  "relatedLessonIds": [
+    "FIN-10-01",
+    "FIN-10-02"
+  ],
+  "sources": [
+    {
+      "text": "수익 인식의 일반 원칙 (고객이 통제권을 넘겨받고 반품 위험이 정리될 때 매출로 인식) · 관리회계·재무회계 표준 개념",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "스낵 스타트업: 출고 매출 $900,000 = 소비자 판매 $380,000 + 이미 반품 $100,000 + 유통사 재고(90일 내 반품 가능) $420,000. 380 + 100 + 420 = 900 확인.",
+      "status": "open"
+    },
+    {
+      "note": "상자 대여 스타트업: 4분기 매출 $300,000 ÷ 3개월 = 월 매출 약 $100,000. 30일 조건이면 미수금은 약 $100,000이어야 함. 실제 미수금 $330,000 ÷ $100,000 = 약 3.3개월치 매출.",
+      "status": "open"
+    },
+    {
+      "note": "소프트웨어 스타트업: ARR $1,200,000 − 무료 파일럿 $500,000 = 유료 ARR $700,000.",
+      "status": "open"
+    },
+    {
+      "note": "분기 말 밀어내기(channel stuffing)를 '전형적 신호'로 표현한 부분은 일반론으로만 서술했습니다. 특정 기업 사례나 통계는 넣지 않았습니다. 투자 권유나 국가별 법률 조언으로 읽히지 않는지 검토하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Everyday scene",
+      "title": "Your friend's startup tripled its sales. Should you invest?",
+      "illustrative": true,
+      "body": [
+        "A friend is raising money for her snack startup. Her slide says revenue tripled to $900,000 in one year. She asks if you'll put in $25,000.",
+        "The slide is true. It just isn't the whole story. Two questions from this unit will find the rest."
+      ],
+      "image": {
+        "label": "A pitch slide with a steep revenue arrow over a café table",
+        "aspectRatio": "4:3",
+        "brief": "카페 테이블 위 노트북 화면에 가파르게 오르는 매출 화살표와 \"$900K\" 숫자. 맞은편에 앉은 사람이 메모지에 물음표 두 개를 그리는 모습. 실제 브랜드 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/fin-10-08-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You get one question before the meeting ends.",
+      "illustrative": true,
+      "body": [
+        "Her company sells packaged snacks to grocery stores through regional distributors. Distributors can return anything that doesn't sell within 90 days.",
+        "Which question do you ask?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "What growth do you expect next year?",
+            "verdict": "risky",
+            "feedback": "You learn her hopes, not the business. Any forecast built on this year's number inherits whatever problem is inside it."
+          },
+          {
+            "key": "B",
+            "text": "How much of the $900,000 did shoppers actually buy, and how much could still come back?",
+            "verdict": "best",
+            "feedback": "This tests **revenue that isn't real**. A sale to someone who can still return it isn't finished yet."
+          },
+          {
+            "key": "C",
+            "text": "What's your gross margin on each bag?",
+            "verdict": "partial",
+            "feedback": "A useful number, but margin on sales that may come back is margin that may vanish too."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What you find",
+      "title": "Follow the $900,000.",
+      "illustrative": true,
+      "body": [
+        "She pulls her distributors' reports. Less than half of what she \"sold\" has reached a shopper's basket."
+      ],
+      "breakdown": [
+        {
+          "value": "$900K",
+          "label": "Shipped to distributors",
+          "detail": "Booked as revenue",
+          "highlight": false
+        },
+        {
+          "value": "$380K",
+          "label": "Bought by shoppers",
+          "detail": "Truly sold, won't come back",
+          "highlight": false
+        },
+        {
+          "value": "$100K",
+          "label": "Already returned",
+          "detail": "Still counted in the $900K",
+          "highlight": false
+        },
+        {
+          "value": "$420K",
+          "label": "Sitting on distributor shelves",
+          "detail": "Can come back within 90 days",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept at work",
+      "title": "Shipped is not sold.",
+      "illustrative": true,
+      "body": [
+        "This is **revenue that isn't real**: sales counted before the customer has truly committed. The distributors hold the boxes, but the startup still carries the risk.",
+        "Three checks: ask for sell-through data (what shoppers bought), the return rate, and how much shipped in the last weeks of each quarter. A spike right before a reporting date can mean stock was pushed out to make the numbers.",
+        "Real sales here are closer to $380,000 than $900,000."
+      ],
+      "image": {
+        "label": "Snack boxes on a warehouse shelf with a return arrow",
+        "aspectRatio": "16:9",
+        "brief": "유통 창고 선반에 쌓인 스낵 상자들. 일부 상자에 되돌아가는 곡선 화살표가 붙어 있고, 선반 끝의 작은 장바구니에만 \"Sold\" 라벨. 실제 브랜드 로고 없음.",
+        "url": "assets/images/fin-10-08-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "chart",
+      "eyebrow": "A second pitch",
+      "title": "A crate company's sales are climbing. So are its unpaid invoices.",
+      "illustrative": true,
+      "body": [
+        "Another startup rents reusable shipping crates to factories and warehouses. Customers are supposed to pay within 30 days. Revenue grew every quarter. Now look at what customers owed at each quarter's end."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Revenue in the quarter",
+            "rows": [
+              {
+                "label": "Q1",
+                "value": 100000,
+                "highlight": false
+              },
+              {
+                "label": "Q2",
+                "value": 150000,
+                "highlight": false
+              },
+              {
+                "label": "Q3",
+                "value": 220000,
+                "highlight": false
+              },
+              {
+                "label": "Q4",
+                "value": 300000,
+                "highlight": false
+              }
+            ]
+          },
+          {
+            "label": "Owed by customers at quarter end",
+            "rows": [
+              {
+                "label": "Q1",
+                "value": 40000,
+                "highlight": false
+              },
+              {
+                "label": "Q2",
+                "value": 90000,
+                "highlight": false
+              },
+              {
+                "label": "Q3",
+                "value": 180000,
+                "highlight": false
+              },
+              {
+                "label": "Q4",
+                "value": 330000,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "callout": "On 30-day terms, customers should owe about one month of sales, roughly $100,000 by Q4. They owe $330,000."
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What do you make of the unpaid invoices?",
+      "illustrative": true,
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Fast growth always means more invoices outstanding. It's fine.",
+            "verdict": "risky",
+            "feedback": "Growth explains owing more dollars, not owing more than three months of sales. This is the pattern behind **customers who don't pay**."
+          },
+          {
+            "key": "B",
+            "text": "Ask for a list of who owes what, how overdue it is, and whether the biggest customers have paid anything",
+            "verdict": "best",
+            "feedback": "This tests **customers who don't pay**. One big client on 90-day terms is a different story from many clients who stopped paying."
+          },
+          {
+            "key": "C",
+            "text": "Walk away. The numbers are cooked.",
+            "verdict": "partial",
+            "feedback": "You avoid the risk, but you may drop a sound business with one slow-paying giant. A red flag earns a question first."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A red flag is a question, not a verdict.",
+      "body": [
+        "Young companies have messy books. Selling through distributors with return rights is normal in consumer goods. Large customers often pay slowly.",
+        "The real warning is when the explanation doesn't match the evidence, or when the founder resists showing it. Ask for documents, not reassurance.",
+        "And only put in money you could afford to lose. Early-stage investments often fail even when the numbers are honest."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software startup.",
+      "illustrative": true,
+      "body": [
+        "A startup selling scheduling software to clinics reports $1.2 million in annual recurring revenue (ARR), the yearly value of its subscriptions.",
+        "You learn $500,000 of it comes from free six-month pilots that turn paid unless the clinic cancels."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Ask for paid ARR and cash actually collected in the last six months",
+            "verdict": "best",
+            "feedback": "This combines both ideas: is the revenue real, and is anyone paying? Here paid ARR is $700,000, and cash shows how much of it is collected."
+          },
+          {
+            "key": "B",
+            "text": "Count half the pilots, since some will convert",
+            "verdict": "partial",
+            "feedback": "Better than counting all of them, but a guess. Past conversion rates from earlier pilots would turn the guess into evidence."
+          },
+          {
+            "key": "C",
+            "text": "Accept it. ARR is a standard startup metric.",
+            "verdict": "risky",
+            "feedback": "Standard names hide non-standard math. Free users aren't paying customers yet, so this is **revenue that isn't real**."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Ask what's finished and what's been paid.",
+      "body": [
+        "This lesson used two ideas from this unit: **Revenue that isn't real** (is the sale final?) and **Customers who don't pay** (has the cash arrived?).",
+        "**Try it today:** for your own business or one you'd invest in, compare what customers owe with one month of sales. More than your payment terms suggest? Find out who owes it."
+      ],
+      "next": "Next · Enron: when the red flags all showed up at once"
+    }
+  ]
+}

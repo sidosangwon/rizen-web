@@ -1,0 +1,283 @@
+{
+  "id": "OPS-05-04",
+  "unitId": "OPS-05",
+  "categoryId": "OPS",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Estimating",
+  "readerTitle": "Your task list says five weeks. Your history says eight.",
+  "format": "two_businesses",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (IT 서비스 회사, 식품 유통업체) + 실제 연구 (Buehler, Griffin & Ross 1994 계획 오류 연구, Kahneman & Lovallo 1993 내부 관점·외부 관점)",
+  "insight": "좋은 추정은 이번 일의 할 일 목록이 아니라, 비슷한 일이 실제로 얼마나 걸렸는지에서 출발해 차이만큼 조정하는 것이다.",
+  "misconception": "할 일을 빠짐없이 쪼개서 더하면 정확한 추정이 나온다. 모자라면 여유분을 조금 더하면 된다.",
+  "relatedLessonIds": [
+    "OPS-05-02",
+    "OPS-05-06"
+  ],
+  "sources": [
+    {
+      "text": "Buehler, R., Griffin, D., & Ross, M. (1994). Exploring the \"planning fallacy\": Why people underestimate their task completion times. Journal of Personality and Social Psychology, 67(3), 366–381.",
+      "url": null
+    },
+    {
+      "text": "Kahneman, D., & Lovallo, D. (1993). Timid choices and bold forecasts: A cognitive perspective on risk taking. Management Science, 39(1), 17–31.",
+      "url": null
+    },
+    {
+      "text": "IT 서비스 회사와 식품 유통업체 사례, 차트의 주 단위 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Buehler 외(1994) 연구 1의 수치(졸업논문 완료 예상 평균 약 33.9일, 실제 약 55.5일, 최악의 경우 예상 약 48.6일, 예상일까지 끝낸 학생 약 30%)를 원문으로 다시 확인하세요. 카드에는 반올림해 \"about 34\", \"about 55\", \"about 49\", \"fewer than a third\"로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "내부 관점(inside view)과 외부 관점(outside view)이라는 이름이 Kahneman & Lovallo(1993)에서 소개되었는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "가상 차트 수치: 과거 이전 작업 3건의 할 일 목록 추정 4·5·5주, 실제 7·8·10주. 모두 추정보다 길고, 이번 견적 문제의 과거 범위 7~10주와 일치합니다.",
+      "status": "open"
+    },
+    {
+      "note": "유통업체 문제: 할 일 목록 3개월, 첫 창고 실제 7개월, 공급업체가 본 다른 유통업체 사례 5~8개월. 정답 선택지의 5~8개월 범위와 약 6개월 계획은 이 수치와 맞습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Two businesses",
+      "title": "Your task list says five weeks. Your history says eight.",
+      "illustrative": true,
+      "body": [
+        "An IT services firm is quoting a client's move to new email and file systems. A food distributor is planning its second depot. Both owners sit down and list every task. Both lists look complete.",
+        "Both estimates will be wrong in the same direction. The fix is somewhere most owners never look: their own past jobs."
+      ],
+      "image": {
+        "label": "Two desks: one with a long task list, one with a folder of past jobs",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 왼쪽 책상에는 체크리스트가 길게 늘어진 종이와 \"5 weeks\" 메모, 오른쪽 책상에는 지난 작업 폴더 더미와 \"7–10 weeks\" 메모. 두 메모 사이의 차이가 눈에 띄게. 실제 회사 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What do you quote the client?",
+      "illustrative": true,
+      "body": [
+        "Your IT services firm is moving a 40-person office to new systems. Your team lists every task and adds them up: 5 weeks.",
+        "Your last three similar moves took 7, 8 and 10 weeks. The client wants a date in writing."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "5 weeks. This task list is the most detailed we've made.",
+            "verdict": "risky",
+            "feedback": "You win the client with a sharp date, but you'll probably miss it. Past lists felt detailed too."
+          },
+          {
+            "key": "B",
+            "text": "6 weeks: the task list plus a 20% buffer",
+            "verdict": "partial",
+            "feedback": "A buffer admits the list is short, which helps. But 6 weeks is still below every job you've actually done."
+          },
+          {
+            "key": "C",
+            "text": "Start from 7–10 weeks, then adjust for what's different this time",
+            "verdict": "best",
+            "feedback": "You may sound slower than a rival. But your number rests on what really happened, not on what should happen."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "What happened",
+      "title": "The task list vs the calendar",
+      "illustrative": true,
+      "body": [
+        "The IT firm pulled its last three office moves. Each time the plan looked thorough. Each time the job ran long.",
+        "Nobody was lazy. Task lists capture the work you can see. They miss the client who's slow to sign off, the sick week and the late delivery."
+      ],
+      "chart": {
+        "unit": "count",
+        "groups": [
+          {
+            "label": "Move 1 (weeks)",
+            "rows": [
+              {
+                "label": "Task-list estimate",
+                "value": 4,
+                "highlight": false
+              },
+              {
+                "label": "Actual",
+                "value": 7,
+                "highlight": true
+              }
+            ]
+          },
+          {
+            "label": "Move 2 (weeks)",
+            "rows": [
+              {
+                "label": "Task-list estimate",
+                "value": 5,
+                "highlight": false
+              },
+              {
+                "label": "Actual",
+                "value": 8,
+                "highlight": true
+              }
+            ]
+          },
+          {
+            "label": "Move 3 (weeks)",
+            "rows": [
+              {
+                "label": "Task-list estimate",
+                "value": 5,
+                "highlight": false
+              },
+              {
+                "label": "Actual",
+                "value": 10,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "callout": "Every estimate was short. None by a little.",
+      "image": {
+        "label": "The task list vs the calendar",
+        "aspectRatio": "4:3",
+        "brief": "Labeled HTML chart from the lesson numbers",
+        "url": "assets/images/ops-05-04-chart.png"
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Start from the outside view",
+      "body": [
+        "Good **estimating** starts with a switch. The *inside view* builds a number from this job's own steps. The *outside view* asks how long jobs like this actually took, for you or for others.",
+        "Psychologists Daniel Kahneman and Dan Lovallo described these two views. Their advice: start outside, with real results from similar jobs. Then adjust for what makes this one different."
+      ],
+      "image": {
+        "label": "Two lenses: one zoomed into a task list, one zoomed out over many past jobs",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 왼쪽 돋보기 \"Inside view\"는 체크리스트 한 장을 크게 확대, 오른쪽 망원경 \"Outside view\"는 막대 여러 개(지난 작업들의 실제 기간)를 한눈에 보여줌. 오른쪽 막대들이 왼쪽 추정보다 길게.",
+        "url": null
+      },
+      "softwareNote": "Software teams meet this every sprint. A feature \"should\" take three days. Check how long the last five similar features took from start to release, and the range is usually wider and later."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "Even worst cases come in too short.",
+      "body": [
+        "In a 1994 study, psychologist Roger Buehler and colleagues asked students when they would finish their final-year thesis. On average they predicted about 34 days. They took about 55.",
+        "Fewer than a third finished by their own predicted date. Even their *worst-case* guesses, about 49 days, were too short.",
+        "Researchers call this the **planning fallacy**. We picture the job going to plan, even when we know past jobs didn't."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Three steps to a better number",
+      "body": [
+        "You don't need software or statistics. You need a short list of past jobs."
+      ],
+      "list": [
+        "**Find similar jobs:** your own, or ask suppliers and peers what theirs took",
+        "**Use what actually happened:** the range, from the fastest to the slowest",
+        "**Adjust for real differences:** bigger, smaller, new team, known problem already solved"
+      ],
+      "callout": "Give a range first. Commit to a point inside it only when you must."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The comparison has to be fair.",
+      "body": [
+        "The outside view is only as good as the jobs you compare against. A 10-person office move tells you little about a 200-person one.",
+        "With no history, borrow it. Suppliers, contractors and trade peers have seen dozens of similar jobs.",
+        "And a range can be hard to sell. Clients often want one date. Give one, but keep the range in your own plan and tell the client what would move it."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a food distributor.",
+      "illustrative": true,
+      "body": [
+        "You're opening a second depot. Your list of steps (lease, racking, hiring drivers, new routes) adds up to 3 months.",
+        "Your first depot took 7 months. A racking supplier who has helped three other distributors says 5–8 months is normal. A big grocery client wants a start date."
+      ],
+      "image": {
+        "label": "Empty depot with racking half built and a calendar on the wall",
+        "aspectRatio": "16:9",
+        "brief": "반쯤 설치된 창고 선반, 바닥의 팔레트, 벽에 걸린 달력에 \"3 months?\"와 \"5–8 months\"가 함께 적혀 있음. 실제 기업 로고나 상표는 쓰지 않음.",
+        "url": null
+      },
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Promise 3 months and push the team hard",
+            "verdict": "risky",
+            "feedback": "The client hears a fast date, but every real comparison says it's too short. A missed start can cost you the account."
+          },
+          {
+            "key": "B",
+            "text": "Promise 7 months, exactly like the first depot",
+            "verdict": "partial",
+            "feedback": "It's grounded in history, but one job is a thin sample. If last time's delays are already solved, you may be quoting too long."
+          },
+          {
+            "key": "C",
+            "text": "Plan for about 6 months inside the 5–8 range, and tell the client what could move it",
+            "verdict": "best",
+            "feedback": "You give up a flashy date, but you earn trust. Your number rests on several real openings, adjusted for what you've learned."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Ask how long it took, not how long it should take.",
+      "body": [
+        "Start from what similar jobs actually took. Then adjust for what's truly different.",
+        "**Try it today:** pick a job you're estimating now. Write down three similar past jobs and how long each really took. Compare that range with your current plan."
+      ],
+      "next": "Next · Why small steps often beat one big launch"
+    }
+  ]
+}

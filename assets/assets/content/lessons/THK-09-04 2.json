@@ -1,0 +1,278 @@
+{
+  "id": "THK-09-04",
+  "unitId": "THK-09",
+  "categoryId": "THK",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Scenario thinking",
+  "readerTitle": "Plan for three winters, not one forecast",
+  "format": "numbers_twist",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "illustrative",
+    "real_company"
+  ],
+  "caseNote": "가상 사례 (난방기 유통업체, 보험사 고객지원팀) + 실제 기업 (Shell의 1970년대 시나리오 기획, 일부 각색 가능성 있음) · 모든 수치는 설명용",
+  "insight": "시나리오는 미래를 맞히는 도구가 아니다. 내 계획이 여러 미래에서 버티는지 시험하는 도구다.",
+  "misconception": "가장 그럴듯한 예측 하나를 정하고, 그 예측에 딱 맞춘 계획이 최선이다.",
+  "relatedLessonIds": [
+    "THK-09-02",
+    "THK-05-03"
+  ],
+  "sources": [
+    {
+      "text": "Wack, P. (1985). Scenarios: Uncharted Waters Ahead. Harvard Business Review.",
+      "url": null
+    },
+    {
+      "text": "Wack, P. (1985). Scenarios: Shooting the Rapids. Harvard Business Review.",
+      "url": null
+    },
+    {
+      "text": "난방기·보험사 수치는 모두 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "난방기 계산 (원가 $40, 판매가 $100, 개당 이익 $60, 시즌 후 미판매분 $20에 처분 = 개당 손실 $20, 재주문 원가 $55 = 개당 이익 $45). 계획 A(8,000개): 온화 5,000×60 − 3,000×20 = $240,000 / 보통 8,000×60 = $480,000 / 혹한 8,000×60 = $480,000. 계획 B(6,000개 + 재주문): 온화 5,000×60 − 1,000×20 = $280,000 / 보통 6,000×60 + 2,000×45 = $450,000 / 혹한 6,000×60 + 5,000×45 = $585,000. 계획 C(11,000개): 온화 300,000 − 6,000×20 = $180,000 / 보통 480,000 − 3,000×20 = $420,000 / 혹한 11,000×60 = $660,000. 재주문분은 제때 도착하고 필요한 만큼만 주문한다고 가정.",
+      "status": "open"
+    },
+    {
+      "note": "Shell 사례: Pierre Wack 팀이 1970년대 초 공급 차질과 유가 급등 시나리오를 작성했고, 1973년 석유 위기 때 경쟁사보다 빠르게 대응했다는 이야기는 Wack(1985)과 이후 문헌에 나옵니다. 시나리오가 실제 성과에 얼마나 기여했는지는 논쟁이 있어 카드에 'often told', 'debated'로 표시했습니다. 구체 수치나 인용은 쓰지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Numbers twist",
+      "title": "Plan for three winters, not one forecast",
+      "illustrative": true,
+      "body": [
+        "A heater distributor forecasts 8,000 sales this winter and orders exactly 8,000.",
+        "It sounds careful. But run the numbers across a mild, normal and cold winter, and the plan built on the forecast comes out on top in only one of them."
+      ],
+      "image": {
+        "label": "One warehouse facing three different winter skies",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 난방기 상자가 쌓인 창고 하나 앞에 세 갈래 길. 각 길 끝에 다른 하늘: 맑고 따뜻한 하늘, 가벼운 눈, 거센 눈보라. 실제 브랜드 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How many heaters do you order?",
+      "illustrative": true,
+      "body": [
+        "Each heater costs $40 and sells for $100. Unsold heaters are cleared at $20 after the season. Your supplier will also ship more mid-season, but at $55 each.",
+        "Demand could be 5,000 (mild), 8,000 (normal) or 11,000 (cold). Which plan do you pick?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Order 8,000, the forecast",
+            "verdict": "partial",
+            "feedback": "It's the best plan if the forecast is right. In a mild winter you're stuck with 3,000 heaters, and in a cold one you can't sell more."
+          },
+          {
+            "key": "B",
+            "text": "Order 6,000 now, reorder mid-season if it gets cold",
+            "verdict": "best",
+            "feedback": "You give up some profit in a normal winter, but no winter hurts you badly. Next card shows how each plan does."
+          },
+          {
+            "key": "C",
+            "text": "Order 11,000 so you never run out",
+            "verdict": "risky",
+            "feedback": "You win big in a cold winter. In a mild one, 6,000 leftover heaters eat most of your profit."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "The forecast plan wins only if the forecast is right.",
+      "illustrative": true,
+      "body": [
+        "Plan A is best only in a normal winter. Plan B is best in a mild winter, close in a normal one, and never the worst."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Mild winter (5,000 sold)",
+            "rows": [
+              {
+                "label": "A: order 8,000",
+                "value": 240000,
+                "highlight": false
+              },
+              {
+                "label": "B: 6,000 + reorder",
+                "value": 280000,
+                "highlight": true
+              },
+              {
+                "label": "C: order 11,000",
+                "value": 180000,
+                "highlight": false
+              }
+            ]
+          },
+          {
+            "label": "Normal winter (8,000 sold)",
+            "rows": [
+              {
+                "label": "A: order 8,000",
+                "value": 480000,
+                "highlight": true
+              },
+              {
+                "label": "B: 6,000 + reorder",
+                "value": 450000,
+                "highlight": false
+              },
+              {
+                "label": "C: order 11,000",
+                "value": 420000,
+                "highlight": false
+              }
+            ]
+          },
+          {
+            "label": "Cold winter (11,000 sold)",
+            "rows": [
+              {
+                "label": "A: order 8,000",
+                "value": 480000,
+                "highlight": false
+              },
+              {
+                "label": "B: 6,000 + reorder",
+                "value": 585000,
+                "highlight": false
+              },
+              {
+                "label": "C: order 11,000",
+                "value": 660000,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Scenario thinking",
+      "body": [
+        "**Scenario thinking** means describing a few different futures that could really happen, then checking how your plan does in each one.",
+        "The goal isn't to guess which future arrives. It's to find a plan that holds up in all of them, or at least doesn't break in any.",
+        "A single forecast asks *what will happen?* Scenarios ask *what if it doesn't?*"
+      ],
+      "image": {
+        "label": "One plan tested against three possible futures",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 왼쪽에 'Your plan' 카드 하나, 오른쪽으로 화살표 세 개가 'Mild', 'Normal', 'Cold' 미래로 이어짐. 각 미래 옆에 체크 또는 경고 아이콘.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Where it comes from",
+      "title": "Shell's planners and the 1973 oil shock",
+      "body": [
+        "In the early 1970s, a planning team at Shell led by Pierre Wack wrote scenarios that included a sudden cut in oil supply and a sharp rise in prices. Most of the industry assumed steady growth.",
+        "When the 1973 oil crisis hit, Shell is often said to have adjusted faster than its rivals because its managers had already thought through that world. How much credit the scenarios deserve is still debated, but the story made the method famous."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Four steps, on one page.",
+      "body": [
+        "You don't need a strategy department. Try this:"
+      ],
+      "list": [
+        "**Pick the drivers:** one or two things that matter a lot and that you can't predict, like the weather or a big customer's decision",
+        "**Write 3 short stories:** different futures, not just higher and lower numbers",
+        "**Test each plan in each story:** where does it break?",
+        "**Choose signposts:** early signals that tell you which story is unfolding"
+      ],
+      "callout": "The signposts turn a plan into a series of decisions you can make as you learn.",
+      "softwareNote": "A software founder can do this with runway: one story where sales grow fast, one where a big client leaves, one where fundraising takes a year. A hiring plan that only works in the first story is a bet, not a plan."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Scenarios have costs too.",
+      "illustrative": true,
+      "body": [
+        "Plan B earned $30,000 less than Plan A in a normal winter. Holding up in every future usually means giving up a little in the most likely one.",
+        "Scenarios also fail when they are lazy. Three versions of the same forecast, plus or minus 10%, test nothing. And more than four stories tends to confuse rather than help.",
+        "Finally, don't secretly pick one scenario as the \"real\" one and plan only for it. That's a forecast in disguise."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a support team inside an insurer.",
+      "illustrative": true,
+      "body": [
+        "You run customer support at an insurance company. Next year, calls could jump if a new product launches, or fall if a self-service website takes off. Nobody knows which comes first.",
+        "Your forecast says you need 20 more staff. What's your plan?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Hire 20 permanent staff now, as forecast",
+            "verdict": "risky",
+            "feedback": "Fine if calls rise exactly as forecast. If the website takes off, you carry 20 extra salaries into a quieter year."
+          },
+          {
+            "key": "B",
+            "text": "Hire 10, line up a temp agency, and set signposts like website use by March",
+            "verdict": "best",
+            "feedback": "You cost a little more per hire in a busy year, but you're covered in every story and you'll know early which one is happening."
+          },
+          {
+            "key": "C",
+            "text": "Hire no one until the year shows which way it goes",
+            "verdict": "partial",
+            "feedback": "You avoid extra salaries, but if the launch comes first, customers wait on hold while you recruit and train."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Don't ask which future will happen. Ask how your plan does in each.",
+      "body": [
+        "A plan tuned to one forecast is strong only if the forecast is right. Testing it against a few different futures shows where it breaks before reality does.",
+        "**Try it today:** take your biggest plan for this year. Write three one-line futures it has to survive, and mark where it fails."
+      ],
+      "next": "Next · Why patience can be an edge"
+    }
+  ]
+}

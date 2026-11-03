@@ -1,0 +1,279 @@
+{
+  "id": "FIN-06-10",
+  "unitId": "FIN-06",
+  "categoryId": "FIN",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Value a business",
+  "readerTitle": "Your CEO wants a price for a pallet maker by Friday",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.1,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (대형 물류회사 전략팀이 팔레트 제조사 인수 가격을 정함) · 모든 수치는 설명용",
+  "insight": "사업의 가치는 정답 하나가 아니라 '어떤 현금, 어떤 위험, 언제 받는 돈'이라는 판단의 연쇄이고, 각 판단을 적어 두어야 협상에서 지킬 선이 생긴다.",
+  "misconception": "중개인이 보여준 이익에 업계 평균 배수를 곱하면 회사 가치가 나온다. 총액이 더 큰 지불 조건이 항상 더 비싸다.",
+  "relatedLessonIds": [
+    "FIN-06-03",
+    "FIN-06-04"
+  ],
+  "sources": [
+    {
+      "text": "기업가치 평가의 표준 개념 (현금흐름, 배수, 현재가치, 할인율)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "현금: $1.5M − $0.3M(설비 교체) = $1.2M. 배수: 6 × $1.2M = $7.2M, 4.5 × $1.2M = $5.4M. 대형 고객 제외: $1.2M × 55% = $0.66M × 6 = $3.96M.",
+      "status": "open"
+    },
+    {
+      "note": "분할 지급 현재가치(연말 지급 가정): 10%에서 5년 연금계수 (1 − 1.1^−5) ÷ 0.1 = 3.7908, × $1.3M = 약 $4.93M. $5.4M − $4.93M = 약 $470K. 5%에서 연금계수 4.3295 × $1.3M = 약 $5.63M.",
+      "status": "open"
+    },
+    {
+      "note": "반반 지급: $3M + $3M ÷ 1.1 = $3M + $2.73M = 약 $5.73M.",
+      "status": "open"
+    },
+    {
+      "note": "세 가지 시나리오 가치($6M / $5M / $3M)는 계산이 아닌 설명용 가정치입니다. 카드에도 'sketches'로 표현했습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Simulation",
+      "title": "Your CEO wants a price for a pallet maker by Friday",
+      "illustrative": true,
+      "body": [
+        "You work on the strategy team of a large logistics company. Your CEO wants to buy a family-owned pallet and crate maker that supplies your warehouses.",
+        "The owner is retiring. Her broker has sent a glossy summary. Your job: tell the board what the business is worth, and what to pay. Four calls stand between you and that number."
+      ],
+      "image": {
+        "label": "A small pallet factory with a price tag hanging from its roof",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 나무 팔레트가 쌓인 작은 공장 지붕에 빈 가격표가 매달려 있고, 앞에서 회사원 한 명이 노트북과 계산기를 들고 고민하는 모습. 실제 기업 로고는 쓰지 않음.",
+        "url": "assets/images/fin-06-10-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 4",
+      "title": "Which yearly number do you start from?",
+      "illustrative": true,
+      "body": [
+        "The broker's summary shows **$1.5M a year** in profit. But it's counted before equipment costs. Saws, nailing lines and forklifts wear out, and the owner spends about $300K a year replacing them."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "$1.5M, the figure in the broker's summary",
+            "verdict": "risky",
+            "feedback": "It's the biggest number, so the price looks justified. But as the owner you'd have to spend $300K a year just to keep the plant running, so that money is never really yours."
+          },
+          {
+            "key": "B",
+            "text": "$1.2M, the cash left after the equipment the plant needs",
+            "verdict": "best",
+            "feedback": "You value what the business actually hands its owner each year. The price is lower, but it's built on money you can spend."
+          },
+          {
+            "key": "C",
+            "text": "The average profit of the last three years",
+            "verdict": "partial",
+            "feedback": "Averaging smooths out one lucky year, which is sensible. But it still counts the $300K the machines will swallow."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 4",
+      "title": "Say you chose $1.2M. Now pick a multiple.",
+      "illustrative": true,
+      "body": [
+        "The broker says similar pallet makers sold for about **6 times** their yearly cash. But one retail chain buys 45% of everything this plant makes, and its contract ends next year."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "6 times, like the others: $7.2M",
+            "verdict": "risky",
+            "feedback": "You pay as if this cash were as safe as the comparable firms' cash. If the chain leaves, you've overpaid by millions."
+          },
+          {
+            "key": "B",
+            "text": "A lower multiple for the extra risk, say 4.5 times: $5.4M",
+            "verdict": "best",
+            "feedback": "Riskier cash is worth less, and a multiple is just a shortcut for risk and growth. You price in the chain without assuming the worst."
+          },
+          {
+            "key": "C",
+            "text": "6 times, but only on cash from other customers: about $3.96M",
+            "verdict": "partial",
+            "feedback": "Very safe for you. But it treats losing the chain as certain, and a buyer who prices the risk more fairly will likely win the deal."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 4",
+      "title": "Say you chose $5.4M. Now the owner offers two ways to pay.",
+      "illustrative": true,
+      "body": [
+        "Option one: $5.4M today. Option two: $1.3M a year for five years, **$6.5M in total**.",
+        "Your company expects a 10% yearly return on any money it spends."
+      ],
+      "image": {
+        "label": "A timeline: one $5.4M payment vs five $1.3M payments",
+        "aspectRatio": "16:9",
+        "brief": "가로 타임라인 두 줄. 위쪽 줄은 '오늘'에 큰 동전 더미 하나 ($5.4M). 아래쪽 줄은 1~5년차에 작은 동전 더미 다섯 개 ($1.3M씩). 오른쪽으로 갈수록 동전이 조금씩 옅어지게 표현.",
+        "url": "assets/images/fin-06-10-c4.jpg"
+      },
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Pay $5.4M today to keep it simple",
+            "verdict": "partial",
+            "feedback": "Clean, and you owe the seller nothing later. But in today's money it costs about $470K more than the installments."
+          },
+          {
+            "key": "B",
+            "text": "Take the installments",
+            "verdict": "best",
+            "feedback": "At 10%, five payments of $1.3M are worth about $4.93M today. The bigger total is the cheaper deal, because most of it is paid later."
+          },
+          {
+            "key": "C",
+            "text": "Propose a split: $3M now, $3M next year",
+            "verdict": "risky",
+            "feedback": "It sounds like a compromise, but it's worth about $5.73M today. That's more than paying cash now."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 4 of 4",
+      "title": "Say you took the installments. The CFO wants one slide for the board.",
+      "illustrative": true,
+      "body": [
+        "Your team sketches three cases. The chain renews: about $6M. It renews at lower prices: about $5M. It leaves: about $3M.",
+        "What goes on the slide?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "One clear number: $5.4M",
+            "verdict": "partial",
+            "feedback": "Easy to read. But it hides how much rides on the chain, and when talks drift you have no agreed line to hold."
+          },
+          {
+            "key": "B",
+            "text": "The $3M–$6M range, the reasons behind it, and a walk-away price set now",
+            "verdict": "best",
+            "feedback": "The board sees what drives the value and agrees a limit before emotions kick in. Talks can then move without moving your ceiling."
+          },
+          {
+            "key": "C",
+            "text": "$7.2M, close to the broker's view, so you don't lose the deal",
+            "verdict": "risky",
+            "feedback": "You'd likely win the deal. You'd also pay for safety the business doesn't have."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "breakdown",
+      "eyebrow": "Your path",
+      "title": "Your valuation, step by step.",
+      "illustrative": true,
+      "breakdown": [
+        {
+          "value": "$1.5M",
+          "label": "Broker's profit",
+          "detail": "Before equipment costs",
+          "highlight": false
+        },
+        {
+          "value": "−$0.3M",
+          "label": "Equipment",
+          "detail": "Needed every year to keep running",
+          "highlight": false
+        },
+        {
+          "value": "$1.2M",
+          "label": "Yearly cash",
+          "detail": "What an owner really gets",
+          "highlight": false
+        },
+        {
+          "value": "× 4.5",
+          "label": "Multiple",
+          "detail": "Lowered for one big customer",
+          "highlight": false
+        },
+        {
+          "value": "$4.93M",
+          "label": "Today's cost",
+          "detail": "Installments at 10% a year",
+          "highlight": true
+        }
+      ],
+      "softwareNote": "The same chain works for buying a software company. Start from cash after the spending needed to keep the product alive, cut the multiple for churn or one giant customer, and compare payment terms in today's money."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Every step was a judgment call.",
+      "body": [
+        "Why 4.5 times and not 5? That's an opinion, and the seller will have a different one.",
+        "The 10% rate is your company's assumption, too. At 5%, the installments would be worth about $5.63M, more than paying cash now.",
+        "And installments are a loan from the seller. If the chain leaves, you still owe $1.3M every year. **Write down each assumption** so you know which one to revisit when facts change."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A price is a chain of judgments. Write each one down.",
+      "body": [
+        "Each call you made used one idea from this unit:"
+      ],
+      "list": [
+        "**Which number:** value the cash an owner gets, not headline profit",
+        "**Which multiple:** a multiple is shorthand for risk and growth, so adjust it",
+        "**How to pay:** money later is worth less, so compare offers in today's money",
+        "**What to show:** values swing with assumptions, so show a range and set a walk-away price"
+      ],
+      "callout": "**Try it today:** for your own business, write down its yearly cash after needed spending, its biggest risk, and the multiple you'd accept as a buyer.",
+      "next": "Next · Growing on your own money"
+    }
+  ]
+}

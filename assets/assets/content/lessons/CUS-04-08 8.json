@@ -1,0 +1,220 @@
+{
+  "id": "CUS-04-08",
+  "unitId": "CUS-04",
+  "categoryId": "CUS",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "Test a business software idea",
+  "readerTitle": "Before you build business software, run it by hand",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (청소 업체용 견적·예약 소프트웨어, 철물점용 재주문 알림 도구) · 모든 인물과 수치는 설명용",
+  "insight": "업무용 소프트웨어 아이디어는 코드를 쓰기 전에 가장 위험한 가정을 고르고, 손으로 서비스를 대신 해 보고, 돈을 미리 받아 보는 순서로 시험할 수 있다.",
+  "misconception": "소프트웨어 아이디어는 앱을 만들어 봐야만 시험할 수 있고, 사장님들이 '좋다, 쓰겠다'고 하면 수요가 확인된 것이다.",
+  "relatedLessonIds": [
+    "CUS-04-01",
+    "CUS-04-04"
+  ],
+  "sources": [
+    {
+      "text": "모든 인물, 업체, 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 사례와 수치(개발 기간 6개월, 비용 $60,000, 3곳 업체, 12곳 철물점, $200 선결제, 월 $99 등)는 설명용 가상 수치입니다. 실제 통계처럼 읽히지 않는지 게시 전 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "3번 카드에서 사용한 개념(가장 위험한 가정, 손으로 먼저 하기, 선판매)의 정의와 표현이 CUS-04-01, CUS-04-04, CUS-04-05 본문과 일치하는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "선판매 선택지에서 '정한 날짜까지 제공하지 못하면 환불' 조건은 일반적인 설명이며 특정 국가의 법률 조언이 아닙니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Testing ideas · Apply",
+      "title": "Before you build business software, run it by hand",
+      "illustrative": true,
+      "body": [
+        "Dana spent eight years booking jobs for a house-cleaning company. She watched owners guess prices from blurry phone photos and lose jobs while they waited to reply.",
+        "Her idea: software that turns a homeowner's photos into a quote and books the job. A developer says it will take six months and about $60,000. Before she spends a cent, she wants to know if the idea holds up."
+      ],
+      "image": {
+        "label": "A cleaning business owner juggling texts, photos and a paper calendar",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 청소 업체 사장이 한 손에 휴대폰(사진 메시지가 쌓인 화면), 다른 손에 종이 달력을 들고 바쁘게 있는 장면. 옆에 노트북 화면에 아직 비어 있는 앱 화면 스케치. 실제 로고나 앱 이름은 쓰지 않음.",
+        "url": "assets/images/cus-04-08-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which assumption should Dana test first?",
+      "illustrative": true,
+      "body": [
+        "Dana talked to ten cleaning-company owners. Most said, \"I'd love that.\" Her plan rests on several beliefs at once.",
+        "Which one should she check before anything else?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "That software can price a job accurately from photos",
+            "verdict": "partial",
+            "feedback": "It matters, but it's a problem she can likely solve later. Even perfect quotes fail if owners won't change how they work."
+          },
+          {
+            "key": "B",
+            "text": "That owners will drop texts and guesswork and pay monthly for something new",
+            "verdict": "best",
+            "feedback": "This is the **riskiest assumption**: if it's wrong, nothing else matters, and she has the least proof for it. Kind words in interviews aren't payment."
+          },
+          {
+            "key": "C",
+            "text": "That homeowners will like the design of the app",
+            "verdict": "risky",
+            "feedback": "Easy to test and pleasant to work on, but the owner is the one who pays. A lovely screen won't save a product no business buys."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How should she test it this month?",
+      "illustrative": true,
+      "body": [
+        "Dana wants an answer in weeks, not months. She has a phone, a spreadsheet and some free evenings."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Build a basic version of the app in three months",
+            "verdict": "partial",
+            "feedback": "A small first version is a real test, but three months is slow. She'd learn about the app before she learns whether owners want the help at all."
+          },
+          {
+            "key": "B",
+            "text": "For three companies, have homeowners text photos to her number; she writes the quotes herself and books them into each owner's calendar",
+            "verdict": "best",
+            "feedback": "This is **doing it by hand first**. Customers get the real result, and Dana sees what owners actually use, for almost no cost."
+          },
+          {
+            "key": "C",
+            "text": "Survey 200 owners about whether they'd pay $99 a month",
+            "verdict": "risky",
+            "feedback": "Fast and cheap, but it measures opinions. Saying yes to a survey costs owners nothing, so the answer tells her little."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "What she learned",
+      "title": "The hand-run test changed the product.",
+      "illustrative": true,
+      "body": [
+        "For four weeks, Dana quoted every job herself, usually within an hour. Two owners used it every day. The third stopped after a week: she liked pricing jobs on the phone with customers.",
+        "The bigger surprise: owners cared less about quote speed than about **filling empty slots** in their calendar. Dana's \"photo quote\" idea was really a booking idea.",
+        "She learned this with a spreadsheet, not $60,000 of code."
+      ],
+      "image": {
+        "label": "A simple spreadsheet and phone replacing an unbuilt app",
+        "aspectRatio": "16:9",
+        "brief": "왼쪽: 회색 점선으로 그린 '아직 만들지 않은 앱' 화면. 오른쪽: 휴대폰 문자와 간단한 스프레드시트로 실제 견적과 예약이 돌아가는 모습. 스프레드시트 칸 중 '빈 예약 시간'이 강조 색. 실제 로고 없음.",
+        "url": "assets/images/cus-04-08-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A free, hand-run test hides two questions.",
+      "body": [
+        "First, price. Owners loved a service that cost them nothing. That doesn't prove they'll pay $99 a month.",
+        "Second, scale. Dana might be better at quoting than any software will be, or she may not be able to do it for fifty companies. Her test showed what owners want, not that a product can deliver it.",
+        "So the next step is to ask for money before building, which is where pre-selling comes in."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's hardware stores.",
+      "illustrative": true,
+      "body": [
+        "Ravi was a sales rep for a hardware distributor. His idea: a tool that tells small hardware stores when to reorder each item, so they stop running out of best sellers.",
+        "Twelve store owners told him they'd use it. What should he do next?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Ask each to pay $200 now for the first three months at a founding price, refunded if he doesn't deliver by a set date",
+            "verdict": "best",
+            "feedback": "This is **pre-selling**. A payment tests the riskiest assumption, that stores will pay, far better than a promise to use it. The refund keeps the ask fair."
+          },
+          {
+            "key": "B",
+            "text": "Give it free to all twelve for six months, then ask them to pay",
+            "verdict": "partial",
+            "feedback": "He'll learn whether they use it, but waits six months to learn whether they'll pay. Free users and paying customers often behave differently."
+          },
+          {
+            "key": "C",
+            "text": "First build connections to every checkout system the stores use",
+            "verdict": "risky",
+            "feedback": "That's months of costly work on an untested belief. He could track stock by hand for a few stores first and connect systems once demand is proven."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "In business software, the person who says \"I'd use it\" and the person who approves the payment are often different. Asking for money early shows you who really decides."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Recap",
+      "title": "Three ideas from this unit, put to work.",
+      "body": [
+        "Neither founder wrote code first. Each used tools from earlier lessons:"
+      ],
+      "list": [
+        "**Your riskiest assumption:** find the belief that would sink the idea and has the least proof. For both, it was \"businesses will pay.\"",
+        "**Doing it by hand first:** Dana delivered the result herself and found the real need was filling calendars.",
+        "**Pre-selling:** Ravi asked for money, turning polite interest into a clear signal."
+      ],
+      "callout": "Each step costs little and tells you whether the next step is worth paying for."
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Test the business before you build the software.",
+      "body": [
+        "Pick the assumption that could sink you, deliver the result by hand, then ask for money. Code comes after the answers.",
+        "**Try it today:** write down one tool you wish your business or customers had. Name the riskiest assumption behind it, and one way to test it by hand this week."
+      ],
+      "next": "Next · How a demo video tested Dropbox before the product was ready"
+    }
+  ]
+}

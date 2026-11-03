@@ -1,0 +1,295 @@
+{
+  "id": "THK-08-05",
+  "unitId": "THK-08",
+  "categoryId": "THK",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Leading vs lagging indicators",
+  "readerTitle": "Your best quarter can hide your next bad one",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative",
+    "real_observation"
+  ],
+  "caseNote": "가상 사례 (회사 내 영업팀, 물류창고) + 실제 관찰 (산업안전 분야의 선행·후행 지표 구분) · 모든 수치는 설명용",
+  "insight": "결과 숫자는 이미 지나간 일을 알려 줄 뿐이다. 결과보다 먼저 움직이는 숫자를 봐야 손쓸 시간이 생긴다.",
+  "misconception": "이번 분기 실적이 좋으면 다음 분기도 괜찮다. 가장 중요한 결과 숫자를 자주 보면 문제를 일찍 잡을 수 있다.",
+  "relatedLessonIds": [
+    "THK-08-01",
+    "THK-06-05"
+  ],
+  "sources": [
+    {
+      "text": "관리·성과측정 분야의 표준 개념 (선행 지표와 후행 지표)",
+      "url": null
+    },
+    {
+      "text": "OSHA, Using Leading Indicators to Improve Safety and Health Outcomes (2019)",
+      "url": null
+    },
+    {
+      "text": "영업팀·창고 수치는 모두 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "영업팀 수치는 가상입니다. 첫 미팅의 약 25%가 약 3개월 뒤 계약으로 이어진다는 가정입니다. 4월 계약 ≈ 1월 미팅 40 × 0.25 = 10, 5월 ≈ 2월 38 × 0.25 = 9.5(9로 표기), 6월 ≈ 3월 31 × 0.25 = 7.75(8로 표기), 7월 예상 ≈ 4월 26 × 0.25 = 6.5. 1~3월 계약(10, 10, 10)은 전년 10~12월 미팅이 약 40건이었다는 가정입니다.",
+      "status": "open"
+    },
+    {
+      "note": "산업안전 분야에서 재해율을 후행 지표로, 아차사고 보고와 안전점검 완료율을 선행 지표로 쓰는 구분은 널리 쓰입니다. OSHA 자료의 제목과 발행 연도는 게시 전에 확인하세요. 카드에는 구체적인 수치를 쓰지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Numbers twist",
+      "title": "Your best quarter can hide your next bad one",
+      "illustrative": true,
+      "body": [
+        "A regional sales team inside a large company closes its best first half in two years. Deals are on target every month. The director sends a thank-you email.",
+        "Three months later, the same team misses target badly. Nothing sudden happened. The warning had been sitting in a spreadsheet since March."
+      ],
+      "image": {
+        "label": "A celebration at the front, a falling line on a screen behind",
+        "aspectRatio": "4:3",
+        "brief": "사무실 장면. 앞쪽에서 팀원들이 케이크와 함께 축하하고 있고, 뒤쪽 모니터에 아무도 보지 않는 하강 곡선이 작게 떠 있음. 실제 회사 로고나 상표 없이.",
+        "url": "assets/images/thk-08-05-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "It's the end of June. What tells you about September?",
+      "illustrative": true,
+      "body": [
+        "You lead the team. Deals closed have hit target every month this year. Your boss asks how next quarter looks.",
+        "Which number would you check first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Deals closed this quarter, compared with target",
+            "verdict": "risky",
+            "feedback": "It's the number everyone is judged on, so it feels like the right one. But it tells you how the last few months went, not the next few."
+          },
+          {
+            "key": "B",
+            "text": "First meetings booked with new prospects each month",
+            "verdict": "best",
+            "feedback": "Meetings today become deals months from now. If this number is falling, you can still act before it shows up in results."
+          },
+          {
+            "key": "C",
+            "text": "Average deal size",
+            "verdict": "partial",
+            "feedback": "It matters for revenue, and it can warn you about pricing pressure. But it says little about whether enough deals are coming at all."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "Meetings fell in March. Deals fell in June.",
+      "illustrative": true,
+      "body": [
+        "About a quarter of first meetings turn into deals roughly three months later. So deals in June reflect meetings in March.",
+        "By the time deals drop, the meetings that could have prevented it should have been booked months ago. July's deals will come from April's 26 meetings."
+      ],
+      "chart": {
+        "unit": "count",
+        "groups": [
+          {
+            "label": "First meetings booked",
+            "rows": [
+              {
+                "label": "Jan",
+                "value": 40,
+                "highlight": false
+              },
+              {
+                "label": "Feb",
+                "value": 38,
+                "highlight": false
+              },
+              {
+                "label": "Mar",
+                "value": 31,
+                "highlight": true
+              },
+              {
+                "label": "Apr",
+                "value": 26,
+                "highlight": true
+              },
+              {
+                "label": "May",
+                "value": 22,
+                "highlight": true
+              },
+              {
+                "label": "Jun",
+                "value": 20,
+                "highlight": true
+              }
+            ]
+          },
+          {
+            "label": "Deals closed",
+            "rows": [
+              {
+                "label": "Jan",
+                "value": 10,
+                "highlight": false
+              },
+              {
+                "label": "Feb",
+                "value": 10,
+                "highlight": false
+              },
+              {
+                "label": "Mar",
+                "value": 10,
+                "highlight": false
+              },
+              {
+                "label": "Apr",
+                "value": 10,
+                "highlight": false
+              },
+              {
+                "label": "May",
+                "value": 9,
+                "highlight": false
+              },
+              {
+                "label": "Jun",
+                "value": 8,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "image": {
+        "label": "Meetings fell in March. Deals fell in June.",
+        "aspectRatio": "4:3",
+        "brief": "Labeled HTML chart from the lesson numbers",
+        "url": "assets/images/thk-08-05-chart.png"
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Leading vs lagging indicators",
+      "body": [
+        "A **lagging indicator** measures a result after it has happened: revenue, profit, on-time deliveries, customers lost.",
+        "A **leading indicator** measures something that moves *before* the result and helps predict it: meetings booked, orders in the pipeline, machines serviced on schedule.",
+        "Lagging numbers tell you whether you won. Leading numbers tell you whether you're about to."
+      ],
+      "image": {
+        "label": "A road with a warning sign ahead and a rear-view mirror",
+        "aspectRatio": "16:9",
+        "brief": "운전석 시점 일러스트. 앞 유리 너머 멀리 \"Leading\" 경고 표지판, 백미러 안에 \"Lagging\" 라벨이 붙은 지나온 길. 단순한 플랫 스타일.",
+        "url": "assets/images/thk-08-05-c4.jpg"
+      },
+      "softwareNote": "Revenue and churn (customers who cancel) are lagging. How many new users reach a key action in their first week often leads both by months, so many teams watch it weekly."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Results get the attention. Causes get the time.",
+      "body": [
+        "Lagging numbers are what bonuses, board meetings and targets are built on, so they get discussed most. But when a result moves, its cause is often months old.",
+        "A good leading indicator buys you that time back. It needs two things: a real link to the result you care about, and a short enough cycle that you can check it weekly and still react."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond sales",
+      "title": "Safety teams learned this early.",
+      "body": [
+        "In workplace safety, injury rates are the classic lagging number. Waiting for injuries to rise before acting means someone has already been hurt.",
+        "So many safety programs also track leading numbers: near-miss reports, safety checks completed, training finished. These move before injuries do, and they point to what to fix.",
+        "The same split works for a factory line, a kitchen or a support desk."
+      ],
+      "image": {
+        "label": "Factory floor with a near-miss board on the wall",
+        "aspectRatio": "16:9",
+        "brief": "공장 바닥 장면. 벽에 \"Near misses this week\" 보드가 있고 작업자가 메모를 붙이고 있음. 한쪽 구석에 작은 \"Days without injury\" 표지판. 실제 기업 로고 없이.",
+        "url": "assets/images/thk-08-05-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A leading indicator is a bet, not a fact.",
+      "body": [
+        "Some early numbers move with the result by coincidence. Check that yours actually predicts the outcome over time before you steer by it.",
+        "And once a leading number becomes a target, people can push it without the result following. Reward meetings booked, and you may get lots of meetings with people who will never buy.",
+        "Keep watching the lagging number too. It's how you check that your early signal still means something."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a warehouse.",
+      "illustrative": true,
+      "body": [
+        "You run a distribution warehouse. Last month, 97% of orders shipped on time, your best month this year. You want to catch the next problem before customers feel it.",
+        "Which number do you add to your daily check?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Orders still waiting to be picked after 24 hours, counted each morning",
+            "verdict": "best",
+            "feedback": "A growing backlog shows up days before late shipments do. It gives you time to move staff or add a shift."
+          },
+          {
+            "key": "B",
+            "text": "The on-time rate, checked weekly instead of monthly",
+            "verdict": "partial",
+            "feedback": "Faster feedback helps, but it's still a result. You learn about late orders only after they're already late."
+          },
+          {
+            "key": "C",
+            "text": "Customer complaints about late deliveries",
+            "verdict": "risky",
+            "feedback": "It's an important signal, but it lags even more than the on-time rate. By the time complaints arrive, the damage is done."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Results show where you've been. Leading numbers show where you're heading.",
+      "body": [
+        "Pair every result you're judged on with one number that moves before it.",
+        "**Try it today:** take the number you check most often. If it's a result, find one earlier step that drives it, and start counting that step every week."
+      ],
+      "next": "Next · The surest way to know what caused what"
+    }
+  ]
+}

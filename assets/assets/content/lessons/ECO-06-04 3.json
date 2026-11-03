@@ -1,0 +1,226 @@
+{
+  "id": "ECO-06-04",
+  "unitId": "ECO-06",
+  "categoryId": "ECO",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Premium pricing",
+  "readerTitle": "Two cleaners raised prices 40%. Only one got away with it.",
+  "format": "counterexample",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (가사 청소 서비스, 동네 철물점) · 모든 수치는 설명용",
+  "insight": "프리미엄 가격은 가격표가 아니라 약속이다. 고객이 사기 전에 보고, 산 뒤에 확인할 수 있는 차이가 있어야 높은 가격이 유지된다.",
+  "misconception": "가격을 올리고 고급스럽게 포장하면 고객이 더 좋은 제품으로 여긴다.",
+  "relatedLessonIds": [
+    "ECO-06-01",
+    "ECO-10-04"
+  ],
+  "sources": [
+    {
+      "text": "마케팅·가격 전략의 표준 개념 (프리미엄 가격, 차별화)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "청소 서비스 계산: 기존 $120 − 방문당 비용 $70 = $50. 프리미엄 $170 − ($70 + 추가 비용 $15) = $85. 기존 100회 × $50 = $5,000. 같은 이익에 필요한 방문 수 5,000 ÷ 85 = 58.8회(약 59회). 즉 방문의 약 41%를 잃어도 이익이 같습니다.",
+      "status": "open"
+    },
+    {
+      "note": "가격 인상률: $120 → $170은 41.7% 인상이며 카드에서는 \"about 40%\"로 표기했습니다. 두 회사의 고객 이탈 결과는 설명용 가상 시나리오입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Pricing · Counterexample",
+      "title": "Two cleaners raised prices 40%. Only one got away with it.",
+      "illustrative": true,
+      "body": [
+        "Two house-cleaning companies in the same town both moved from $120 to $170 a visit.",
+        "Within six months, one had lost a third of its clients. The other had a waiting list. The price was the same. What was behind it was not."
+      ],
+      "image": {
+        "label": "Two cleaning vans, one with a long queue of homes",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 같은 동네에 청소 서비스 밴 두 대. 한쪽 밴 앞에는 집 아이콘이 길게 줄 서 있고, 다른 쪽 밴에서는 집 아이콘들이 멀어진다. 두 밴에 똑같이 \"$170\" 가격표. 실제 회사 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You want to be the premium cleaner.",
+      "illustrative": true,
+      "body": [
+        "You run a house-cleaning service. You charge $120 a visit, about the same as everyone nearby. You want to move to $170 and be known as the high-end choice.",
+        "What do you do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Rebrand as \"luxury home care\" with a new logo, uniforms and the new price",
+            "verdict": "risky",
+            "feedback": "It looks premium on day one. But if the clean itself is the same, customers notice they are paying $50 more for the same result."
+          },
+          {
+            "key": "B",
+            "text": "Add differences clients can see and check, like the same cleaner every visit and a free re-clean guarantee, then raise the price",
+            "verdict": "best",
+            "feedback": "It costs more to deliver, but it gives customers a reason to pay that they can test themselves. That's what holds a premium price up."
+          },
+          {
+            "key": "C",
+            "text": "Charge $170 to new clients only and watch what happens",
+            "verdict": "partial",
+            "feedback": "A safe test of demand. But it tests the price, not the reason to pay it, so you may learn little about what makes premium work."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "Same price. Different promise.",
+      "illustrative": true,
+      "body": [
+        "The first company changed its name, its vans and its price. The cleaning stayed the same. Regular clients compared notes, saw no difference, and many switched back to cheaper rivals.",
+        "The second company kept its name. It assigned one cleaner per home, left a signed checklist after each visit, and promised a free re-clean within 24 hours if anything was missed. That added about $15 a visit in cost. Then it raised the price."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Why the second cleaner could afford to lose clients.",
+      "illustrative": true,
+      "body": [
+        "Before, 100 visits left $5,000. At the new price, about **59 visits** leave the same. The company could lose 4 in 10 visits and still earn as much."
+      ],
+      "breakdown": [
+        {
+          "value": "$50",
+          "label": "Left per visit, before",
+          "detail": "$120 price − $70 labor and supplies",
+          "highlight": false
+        },
+        {
+          "value": "$85",
+          "label": "Left per visit, premium",
+          "detail": "$170 − $70 − $15 for the added service",
+          "highlight": true
+        },
+        {
+          "value": "59",
+          "label": "Visits to match 100 old ones",
+          "detail": "$5,000 ÷ $85",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Premium pricing",
+      "body": [
+        "**Premium pricing** means deliberately charging more than similar offers, and backing that price with a difference customers value.",
+        "The higher price is not the strategy. It's a promise. Customers accept it only when they can see the difference before buying and confirm it after. Without that, a premium price just looks like a worse deal."
+      ],
+      "image": {
+        "label": "A price tag resting on three pillars",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 큰 가격표 \"$170\"이 세 개의 기둥 위에 올려져 있다. 기둥 라벨: \"Visible difference\", \"Proof\", \"Consistency\". 기둥 하나가 빠진 버전이 옆에서 기울어지는 모습.",
+        "url": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "What holds a premium price up.",
+      "body": [
+        "Premium prices that last tend to rest on three things:"
+      ],
+      "list": [
+        "**A visible difference:** something customers notice, not just something you know",
+        "**Proof:** guarantees, reviews or checklists that let customers check the claim",
+        "**Consistency:** every visit, package and phone call matches the price"
+      ],
+      "callout": "Remove one, and customers start comparing on price again.",
+      "softwareNote": "A premium software plan holds up when the extra is felt in daily use, like faster support, uptime promises or a named account contact. A higher price on the same features with a new plan name tends to raise churn, not revenue."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Premium raises the bar on everything.",
+      "body": [
+        "A higher price shrinks your market. Fewer people will buy, so the extra margin has to cover the lost volume.",
+        "Expectations rise too. A missed corner is a shrug at $120 and a complaint at $170. And rivals can copy visible extras, so the difference needs regular renewal.",
+        "Discounting is harder. Frequent sales tell customers the premium was never real."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a local hardware store.",
+      "illustrative": true,
+      "body": [
+        "Your store sells the same branded power drills as a big chain ten minutes away. Customers can check the chain's price on their phones in seconds.",
+        "You want higher margins. Where do you charge a premium?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Price everything 15% above the chain and count on local loyalty",
+            "verdict": "risky",
+            "feedback": "Loyalty helps, but identical products are easy to compare. You'd be asking customers to pay more for nothing they can see."
+          },
+          {
+            "key": "B",
+            "text": "Match the chain on identical items, and charge more where you add something, like setup help, sharpening or project kits",
+            "verdict": "best",
+            "feedback": "You avoid a losing price fight on identical goods and earn the premium where the difference is real and visible."
+          },
+          {
+            "key": "C",
+            "text": "Cut prices to match the chain everywhere and win on friendly advice",
+            "verdict": "partial",
+            "feedback": "You keep customers, but you give your real difference away for free. Good advice is often exactly what a premium can be charged for."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A premium price is a promise customers can check.",
+      "body": [
+        "Raise the price only after you've built a difference people can see, prove and get every time.",
+        "**Try it today:** write down why a customer should pay more for what you sell. Then ask: could they notice that before buying, and confirm it after?"
+      ],
+      "next": "Next · When pricing low to grow is worth it"
+    }
+  ]
+}

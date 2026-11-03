@@ -1,0 +1,269 @@
+{
+  "id": "FIN-11-08",
+  "unitId": "FIN-11",
+  "categoryId": "FIN",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "Book a delivery van purchase",
+  "readerTitle": "A $36,000 van, and a profit that looks very different depending on how you book it",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (배관 업체의 배송 밴, 지역 회사 시설관리팀) · 모든 수치는 설명용",
+  "insight": "큰 장비를 사면 돈은 한 번에 나가지만, 비용은 그 장비가 일하는 햇수에 나눠 잡아야 이익이 실제 사업 모습을 보여준다.",
+  "misconception": "돈을 쓴 해에 전부 비용으로 잡아야 정직한 장부다. 내용연수를 길게 잡을수록 회사에 유리하다.",
+  "relatedLessonIds": [
+    "FIN-11-05",
+    "FIN-11-03"
+  ],
+  "sources": [
+    {
+      "text": "재무회계의 표준 개념 (자산과 비용의 구분, 정액법 감가상각, 발생주의)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "정액법 감가상각: (밴 $36,000 − 잔존가치 $6,000) ÷ 6년 = 연 $5,000. 감가상각 전 연간 이익 $40,000 가정(매출 $240,000 − 기타 비용 $200,000).",
+      "status": "open"
+    },
+    {
+      "note": "1년 차 이익: 전액 비용 처리 시 $40,000 − $36,000 = $4,000, 자산 처리 시 $40,000 − $5,000 = $35,000. 2년 차: 전액 비용 처리 $40,000, 자산 처리 $35,000. 6년 합계는 두 방식 모두 $210,000(전액 비용 처리 시 6년 차 매각이익 $6,000 포함)로 같음.",
+      "status": "open"
+    },
+    {
+      "note": "10년 내용연수: $30,000 ÷ 10 = 연 $3,000(연 $2,000 이익 증가). 6년 후 장부가 $36,000 − $18,000 = $18,000, $6,000에 매각 시 손실 $12,000이 한 해에 반영. 단순화를 위해 잔존가치를 $6,000으로 유지했음.",
+      "status": "open"
+    },
+    {
+      "note": "세법상 감가상각 규칙과 즉시 비용 처리 한도는 나라마다 다르며 이 레슨은 세무 조언을 하지 않음. 7번 카드에 일반적으로만 언급.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Everyday scene",
+      "title": "A $36,000 van, and a profit that looks very different depending on how you book it",
+      "illustrative": true,
+      "body": [
+        "Dana runs a small plumbing business. In January she pays $36,000 cash for a new delivery van.",
+        "Before the van, her business was on track for $40,000 profit this year. After the van, her profit could be $4,000 or $35,000. Same van, same bank balance. The difference is one bookkeeping decision."
+      ],
+      "image": {
+        "label": "A plumber's van with two different profit tags",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 공구가 실린 흰색 배송 밴 옆에 가격표 두 개가 걸려 있음: \"Profit $4,000\"과 \"Profit $35,000\". 밴과 사람 모두 실제 브랜드 로고나 상표 없이.",
+        "url": "assets/images/fin-11-08-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How should Dana record the van?",
+      "illustrative": true,
+      "body": [
+        "The van should serve the business for about six years. After that, Dana expects to sell it for around $6,000.",
+        "Her bookkeeper asks how to put it in the books this year. What would you tell her?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Count the full $36,000 as a cost this year, since that's when the money left",
+            "verdict": "risky",
+            "feedback": "It matches the bank account, but profit drops to $4,000 this year and looks inflated for the next five, when the van keeps working for free on paper."
+          },
+          {
+            "key": "B",
+            "text": "Record the van as something the business owns, and spread its cost over the years it's used",
+            "verdict": "best",
+            "feedback": "This is **assets vs expenses** plus **depreciation** at work. The cost shows up in the years the van actually helps earn money."
+          },
+          {
+            "key": "C",
+            "text": "Count nothing until the van shows wear, then record the cost",
+            "verdict": "partial",
+            "feedback": "Right instinct that cost should follow use. But waiting hides a real cost for years, then drops it all at once."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "What changes",
+      "title": "Same van, two very different years.",
+      "illustrative": true,
+      "body": [
+        "Spreading the cost turns one crushing year and five rosy ones into six steady years. Over all six years, total profit comes out the same either way."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Year 1 profit",
+            "rows": [
+              {
+                "label": "Full cost this year",
+                "value": 4000,
+                "highlight": false
+              },
+              {
+                "label": "Cost spread over 6 years",
+                "value": 35000,
+                "highlight": true
+              }
+            ]
+          },
+          {
+            "label": "Year 2 profit",
+            "rows": [
+              {
+                "label": "Full cost this year",
+                "value": 40000,
+                "highlight": false
+              },
+              {
+                "label": "Cost spread over 6 years",
+                "value": 35000,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept 1 · Assets vs expenses",
+      "title": "Ask: will this still be working next year?",
+      "body": [
+        "An **expense** is used up within the period, like fuel, a call-out fee or this month's rent. An **asset** is something the business owns that keeps helping it earn money for years.",
+        "Dana's van will carry tools to jobs for six years. That makes it an asset. The pipe fittings she installs today are expenses, because they're gone once the job is done."
+      ],
+      "image": {
+        "label": "Two piles: a van on one side, fuel and fittings on the other",
+        "aspectRatio": "16:9",
+        "brief": "좌우 두 칸 인포그래픽. 왼쪽 \"Asset: works for years\"에 밴과 6개의 달력 페이지, 오른쪽 \"Expense: used up now\"에 연료통, 배관 부품, 월세 영수증. 로고 없음.",
+        "url": "assets/images/fin-11-08-c4.jpg"
+      },
+      "softwareNote": "A software company buying laptops for its engineers books them as assets spread over a few years. Paying monthly for cloud servers is an expense, because the company owns nothing after the month ends."
+    },
+    {
+      "index": 5,
+      "type": "breakdown",
+      "eyebrow": "Concept 2 · Depreciation",
+      "title": "How the $36,000 gets spread.",
+      "illustrative": true,
+      "body": [
+        "**Depreciation** moves a slice of an asset's cost into expenses each year it's used. The simplest way splits it evenly: $30,000 ÷ 6 = **$5,000 a year**."
+      ],
+      "breakdown": [
+        {
+          "value": "$36,000",
+          "label": "Price paid",
+          "detail": "What left the bank in January",
+          "highlight": false
+        },
+        {
+          "value": "−$6,000",
+          "label": "Expected resale",
+          "detail": "What Dana thinks she'll sell it for",
+          "highlight": false
+        },
+        {
+          "value": "$30,000",
+          "label": "Cost to spread",
+          "detail": "What the van really uses up",
+          "highlight": false
+        },
+        {
+          "value": "$5,000",
+          "label": "Each year, for 6 years",
+          "detail": "Charged against profit like any other cost",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Profit isn't cash",
+      "title": "The bank account still dropped $36,000.",
+      "illustrative": true,
+      "body": [
+        "Spreading the cost changes the profit figure, not the money. Dana's account fell by $36,000 in January, and she has to plan for that.",
+        "This is why accrual accounting keeps a separate cash flow statement. Profit shows a $5,000 cost this year. The cash flow statement shows the full $36,000 going out on equipment. Read both before deciding she can afford a new hire."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The estimates are judgment calls.",
+      "body": [
+        "Six years and $6,000 resale are guesses. Stretch them and yearly profit rises without the business improving. Be honest about how long the van will really last, and revisit the estimate if it wears out early.",
+        "Tax rules for writing off vehicles are different and vary by country. What lowers your tax bill may not be the best picture of your business. Ask a local accountant about tax treatment."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now you run a team inside a bigger company.",
+      "illustrative": true,
+      "body": [
+        "You manage the field-service team at a regional utility. Finance approved a $36,000 van that should last six years, worth about $6,000 at the end. Your team will be charged $5,000 a year.",
+        "Your profit target is tight. A colleague suggests asking finance to use a 10-year life instead. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Push for 10 years. The charge drops to $3,000 and helps you hit target",
+            "verdict": "risky",
+            "feedback": "You'd gain $2,000 a year on paper. When the van is sold after six years, $18,000 is still on the books, and a $12,000 loss lands in one year. **Depreciation** only helps when it matches real use."
+          },
+          {
+            "key": "B",
+            "text": "Keep the six-year life the van will actually serve",
+            "verdict": "best",
+            "feedback": "Your numbers stay honest and steady. The $5,000 reflects what the van really uses up each year, which is the point of **depreciation**."
+          },
+          {
+            "key": "C",
+            "text": "Ask to charge the whole van this year and get it over with",
+            "verdict": "partial",
+            "feedback": "Conservative, but it ignores **assets vs expenses**. This year's results look awful and the next five look better than they are."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Book big purchases across the years they work.",
+      "body": [
+        "You used two ideas: **assets vs expenses** to decide the van is something you own, and **depreciation** to spread its cost over its real life. Watch cash separately, because the money left all at once.",
+        "**Try it today:** pick your biggest equipment purchase. Write its price, its honest useful life, its resale value, and the yearly cost that results."
+      ],
+      "next": "Next · Groupon restates its revenue before its IPO"
+    }
+  ]
+}

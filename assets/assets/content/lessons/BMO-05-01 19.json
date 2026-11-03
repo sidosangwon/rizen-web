@@ -1,0 +1,228 @@
+{
+  "id": "BMO-05-01",
+  "unitId": "BMO-05",
+  "categoryId": "BMO",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "The chicken-and-egg problem",
+  "readerTitle": "Nobody wants to be first in an empty marketplace",
+  "format": "company_story",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "real_company",
+    "real_observation",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (OpenTable, Reddit, PayPal) + 실제 관찰 (쇼핑몰, 박람회) + 가상 사례 (화물 매칭 앱, 금속 가공 중개)",
+  "insight": "마켓플레이스의 첫날은 제품이 나빠서가 아니라 방이 비어 있어서 실패한다. 다른 쪽이 오기 전에 첫 사람이 얻을 무언가를 먼저 채워야 한다.",
+  "misconception": "좋은 플랫폼을 만들고 한쪽 사용자를 많이 모으면 다른 쪽은 자연히 따라온다.",
+  "relatedLessonIds": [
+    "BMO-05-02",
+    "BMO-04-02"
+  ],
+  "sources": [
+    {
+      "text": "OpenTable company history (founded 1998, electronic reservation book for restaurants)",
+      "url": null
+    },
+    {
+      "text": "Chen, A. (2021). The Cold Start Problem. Harper Business.",
+      "url": null
+    },
+    {
+      "text": "Steve Huffman interviews and talks on Reddit's early fake accounts (e.g., Udacity course, 2012)",
+      "url": null
+    },
+    {
+      "text": "Thiel, P. & Masters, B. (2014). Zero to One. Crown. (PayPal sign-up and referral bonuses)",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "OpenTable의 설립 연도(1998년)와 초기 전략(식당에 예약·좌석 관리 시스템을 먼저 판매)을 회사 자료나 The Cold Start Problem으로 다시 확인하세요. 카드에는 \"late 1990s\"와 \"as the company and many later accounts describe it\"로 표현했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Reddit 공동창업자 Steve Huffman이 초기에 가짜 계정으로 글을 올렸다고 직접 밝힌 출처(인터뷰·강의)를 확인하세요. 카드에는 \"have said\"로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "PayPal 가입·추천 보너스: Zero to One에 따르면 가입 시 $10, 추천 시 $10을 지급했습니다(초기에는 더 컸다는 설명도 있음). 카드에는 금액 없이 \"cash bonuses\"로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "쇼핑몰이 앵커 테넌트(대형 백화점)를 유리한 조건으로 먼저 유치한다는 내용은 일반적인 업계 관행으로 서술했습니다. 특정 몰이나 수치는 쓰지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business models · Company story",
+      "title": "Nobody wants to be first in an empty marketplace",
+      "body": [
+        "In the late 1990s, OpenTable set out to let diners book restaurant tables online.",
+        "Diners had no reason to visit a site with few restaurants. Restaurants had no reason to join a site with few diners. Each side was waiting for the other to show up first."
+      ],
+      "image": {
+        "label": "An empty restaurant booking screen with no tables listed",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 노트북 화면에 텅 빈 예약 목록, 화면 왼쪽 밖에는 기다리는 손님, 오른쪽 밖에는 팔짱 낀 식당 주인. 둘 다 화면 안을 들여다보며 기다리는 모습. 실제 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/bmo-05-01-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Your truckers are leaving.",
+      "illustrative": true,
+      "body": [
+        "You launch an app that matches companies shipping goods with small trucking firms. 40 truckers have signed up. Almost no shippers have. Truckers open the app, see no loads, and stop checking.",
+        "You have one month of growth budget left. Where does it go?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Recruit 300 more truckers so the network looks bigger",
+            "verdict": "risky",
+            "feedback": "You get a bigger number for investors, but 300 more people opening an empty app. More supply with no demand mostly creates more disappointed users."
+          },
+          {
+            "key": "B",
+            "text": "Polish the app so truckers enjoy using it",
+            "verdict": "partial",
+            "feedback": "A smoother app helps later. Right now truckers leave because there is nothing to haul, not because the screens are clumsy."
+          },
+          {
+            "key": "C",
+            "text": "Call shippers yourself and post their loads by hand, so truckers find work when they log in",
+            "verdict": "best",
+            "feedback": "It's slow and doesn't scale. But it puts something on the other side of the app, and that's the only thing that keeps truckers coming back."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "How it went",
+      "title": "OpenTable gave restaurants a reason to join alone.",
+      "body": [
+        "OpenTable's answer, as the company and many later accounts describe it, was to give restaurants a reason to sign up that didn't depend on diners.",
+        "It sold them a computer system to manage their reservation book and seating. A restaurant got value on day one, even if no diner ever booked online.",
+        "As more restaurants in a city used the system, their tables could appear on the website. Then diners had a reason to visit, and restaurants had a second reason to stay."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The chicken-and-egg problem",
+      "body": [
+        "A business that connects two groups, such as buyers and sellers, faces the **chicken-and-egg problem**: each group only wants to join once the other is already there.",
+        "So on day one, the business is worth almost nothing to anyone. Not because the idea is bad, but because the room is empty.",
+        "A bakery's first customer gets a full loaf. A marketplace's first customer gets an empty shelf."
+      ],
+      "image": {
+        "label": "A loop: buyers wait for sellers, sellers wait for buyers",
+        "aspectRatio": "16:9",
+        "brief": "원형 순환 인포그래픽. 위쪽 \"Buyers wait for sellers\", 아래쪽 \"Sellers wait for buyers\"가 화살표로 끝없이 돌아감. 가운데에 빈 진열대. 한쪽 화살표에 가위 아이콘으로 \"Break the loop\" 표시.",
+        "url": "assets/images/bmo-05-01-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How others broke the loop",
+      "title": "Fill the room before the crowd arrives.",
+      "body": [
+        "Successful marketplaces found ways to give the first people something before the other side showed up."
+      ],
+      "list": [
+        "**Give one side value on its own:** OpenTable's reservation software",
+        "**Be the other side yourself:** Reddit's founders have said they posted from many fake accounts early on, so the site didn't look empty",
+        "**Pay one side to show up:** PayPal paid new users cash bonuses for signing up and inviting friends"
+      ],
+      "callout": "Each approach answers the same question: what does the first person get today?"
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond tech",
+      "title": "Malls and trade fairs have the same loop.",
+      "body": [
+        "A new shopping mall needs shoppers to attract shops, and shops to attract shoppers. That's why malls commonly sign a big department store first, often on generous terms. The big store brings the crowd that the smaller shops pay rent to reach.",
+        "A new trade fair needs exhibitors to sell visitor tickets, and visitors to sell booths. A farmers' market, a job board, a dating app: same problem, different products."
+      ],
+      "image": {
+        "label": "A new mall with one large anchor store lit up and small shops waiting",
+        "aspectRatio": "16:9",
+        "brief": "아이소메트릭 일러스트. 새 쇼핑몰 단면, 한쪽 끝의 큰 앵커 매장만 불이 켜져 있고 사람들이 그쪽으로 걸어감. 작은 매장들은 \"Coming soon\" 간판. 실제 브랜드 이름이나 로고는 쓰지 않음.",
+        "url": "assets/images/bmo-05-01-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Breaking the loop has costs.",
+      "body": [
+        "Paying people to join can attract people who leave when the money stops. Faking activity can damage trust if users find out. Doing the work by hand is slow and expensive.",
+        "And not every business has this problem. If you sell your own products, your first customer gets full value. Check that you are really connecting two groups before planning around an empty room."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a machine shop.",
+      "illustrative": true,
+      "body": [
+        "You run a metal parts shop. Nearby shops have machines sitting idle, and hardware startups struggle to find anyone willing to make small batches. You want to launch a service that connects them.",
+        "How do you start?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Build the website, advertise it, and let both sides find each other",
+            "verdict": "risky",
+            "feedback": "Cheap to try, but both sides arrive to an empty site and leave. The loop stays closed."
+          },
+          {
+            "key": "B",
+            "text": "Sign up 30 shops with free listings first, then look for startups",
+            "verdict": "partial",
+            "feedback": "Free listings make it easy for shops to join, but shops with no orders soon stop answering. You still need buyers fast."
+          },
+          {
+            "key": "C",
+            "text": "Take startup orders yourself, make them in your own shop, and pass overflow to partner shops",
+            "verdict": "best",
+            "feedback": "You act as the first supply, so buyers get parts from day one. Partner shops then join a service that already has orders, though your own capacity limits growth at first."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A marketplace starts empty for everyone.",
+      "body": [
+        "Each side waits for the other. Your first job is to give the very first person something worth showing up for.",
+        "**Try it today:** if your business connects two groups, write down what the first person on each side gets before the other side arrives. If the answer is nothing, that's the problem to solve first."
+      ],
+      "next": "Next · Which side to build first"
+    }
+  ]
+}

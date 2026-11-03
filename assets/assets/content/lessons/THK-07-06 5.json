@@ -1,0 +1,250 @@
+{
+  "id": "THK-07-06",
+  "unitId": "THK-07",
+  "categoryId": "THK",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Estimate with rough numbers",
+  "readerTitle": "Ten minutes on a napkin beat a three-week study",
+  "format": "numbers_twist",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative",
+    "anecdote"
+  ],
+  "caseNote": "가상 사례 (대기업 영업팀, 철물점) + 일화 (페르미의 트리니티 실험 추정) · 모든 사업 수치는 설명용",
+  "insight": "대략 추정의 목적은 정확한 답이 아니라 결정선의 어느 쪽에 있는지 아는 것이다. 범위가 선을 넘나들 때만 가장 불확실한 숫자 하나를 측정한다.",
+  "misconception": "정확한 데이터가 모이기 전에는 판단할 수 없고, 대충 한 계산은 믿을 수 없다.",
+  "relatedLessonIds": [
+    "THK-07-02",
+    "THK-07-08"
+  ],
+  "sources": [
+    {
+      "text": "Fermi, E. (1945). My Observations During the Explosion at Trinity on July 16, 1945. (종이 조각 추정 일화의 1차 기록)",
+      "url": null
+    },
+    {
+      "text": "페르미 추정(Fermi estimation)의 일반 원리: 독립적인 추정 오차의 부분적 상쇄, 자릿수 수준의 정확도",
+      "url": null
+    },
+    {
+      "text": "영업팀·철물점의 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "보고서 자동화 계산: 40명 × 46주 = 1,840 인-주. 최저: 1,840 × 20분(1/3시간) = 약 613시간 × $40 = 약 $24,500. 중간: 1,840 × 1시간 × $50 = $92,000. 최고: 1,840 × 1.5시간 = 2,760시간 × $60 = $165,600. 최저치도 $20,000보다 큽니다.",
+      "status": "open"
+    },
+    {
+      "note": "철물점 일요일 계산: 직원 3명 × 8시간 × $20 = $480 + 조명·난방 $100 = $580. 매출총이익률 35% 가정 시 손익분기 매출 $580 ÷ 0.35 = $1,657(약 $1,700). 추정 범위 $1,000~$3,000: $1,000 × 0.35 = $350(손실), $3,000 × 0.35 = $1,050(이익). 범위가 손익분기를 넘나듭니다.",
+      "status": "open"
+    },
+    {
+      "note": "페르미 일화: 1945년 트리니티 실험에서 종이 조각의 이동 거리로 위력을 약 10킬로톤으로 추정했고, 이후 측정치는 그보다 컸다(약 20킬로톤 안팎)는 것이 일반적 서술입니다. 카드에는 \"reportedly lower than the measured figure, but in the right range\"로만 적었습니다. 게시 전 페르미의 보고서 원문으로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "softwareNote 계산: 고객 1,000명 × 월 이탈 1%p = 10명 × 월 $40 = 월 $400 매출 감소.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Numbers twist",
+      "title": "Ten minutes on a napkin beat a three-week study",
+      "illustrative": true,
+      "body": [
+        "IT can automate your team's weekly report for $20,000. Your boss asks if it's worth it.",
+        "One way to answer: a three-week time study. Another: ten minutes and a napkin. Both give the same answer. Only one costs three weeks."
+      ],
+      "image": {
+        "label": "A napkin with quick multiplication next to a thick report",
+        "aspectRatio": "4:3",
+        "brief": "책상 위에 손글씨 곱셈이 적힌 냅킨 한 장과, 옆에 두껍게 쌓인 보고서 묶음. 냅킨 쪽에 작은 체크 표시, 보고서 쪽에 \"3 weeks\" 포스트잇. 실제 회사 로고는 쓰지 않음.",
+        "url": "assets/images/thk-07-06-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Is the $20,000 automation worth it?",
+      "illustrative": true,
+      "body": [
+        "You lead a 40-person sales team inside a large company. Every week, each person fills in a report by hand. IT offers to automate it for a one-time $20,000.",
+        "Nobody knows exactly how long the reports take. What do you do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Ask everyone to log their report time for a month",
+            "verdict": "partial",
+            "feedback": "You'd get accurate numbers, but you add a month of delay and extra work to learn something a quick estimate may already settle."
+          },
+          {
+            "key": "B",
+            "text": "Make a quick estimate with a low and a high guess",
+            "verdict": "best",
+            "feedback": "Ten minutes tells you whether the answer is clear or close. If it's clear, you're done. If it's close, you know what to measure."
+          },
+          {
+            "key": "C",
+            "text": "Approve it. Automation always pays for itself",
+            "verdict": "risky",
+            "feedback": "Fast, but you skip the check. If the reports took five minutes a week, you'd spend $20,000 to save very little."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Guess low, guess high, multiply.",
+      "illustrative": true,
+      "breakdown": [
+        {
+          "value": "40",
+          "label": "People",
+          "detail": "The whole team",
+          "highlight": false
+        },
+        {
+          "value": "46",
+          "label": "Working weeks",
+          "detail": "A year minus holidays",
+          "highlight": false
+        },
+        {
+          "value": "20–90 min",
+          "label": "Report time per week",
+          "detail": "Your low and high guess",
+          "highlight": false
+        },
+        {
+          "value": "$40–$60",
+          "label": "Cost per hour",
+          "detail": "Pay plus benefits, roughly",
+          "highlight": false
+        },
+        {
+          "value": "$25k–$166k",
+          "label": "Yearly cost of the reports",
+          "detail": "Low guess to high guess",
+          "highlight": true
+        }
+      ],
+      "callout": "Even the lowest guess beats the $20,000 price in year one. Better data would change the number, **not the decision**."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Rough estimation",
+      "body": [
+        "A **rough estimate** breaks a number you don't know into pieces you can guess, then multiplies them. Scientists call it a *Fermi estimate*.",
+        "The goal isn't the right answer. It's knowing which side of the decision line you're on. Here the line was $20,000, and every reasonable guess landed far above it."
+      ],
+      "image": {
+        "label": "A range bar sitting entirely above a decision line",
+        "aspectRatio": "16:9",
+        "brief": "가로 점선 \"Decision line $20k\" 위로 \"Low guess $25k\"부터 \"High guess $166k\"까지 이어지는 굵은 범위 막대. 막대 전체가 선 위에 있다는 점을 강조.",
+        "url": "assets/images/thk-07-06-c4.jpg"
+      },
+      "softwareNote": "Before a big project to cut churn, estimate what one point of churn is worth. With 1,000 customers paying $40 a month, each point of monthly churn is about 10 customers and $400 of monthly revenue."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Why it works",
+      "title": "Rough numbers are better than they look.",
+      "body": [
+        "When you multiply several guesses, some run high and some run low. The errors **partly cancel**. And most decisions only need the right size: hundreds, thousands or millions.",
+        "The physicist Enrico Fermi was famous for this. In a story often told about the first atomic bomb test in 1945, he dropped scraps of paper and estimated the blast's strength from how far they drifted. His guess was reportedly lower than the measured figure, but in the right range."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "When it's close",
+      "title": "A range that crosses the line tells you what to measure.",
+      "illustrative": true,
+      "body": [
+        "Sometimes your low guess says no and your high guess says yes. That's useful too. It tells you better data is worth getting, and which data.",
+        "Find the piece with the widest range. In the report example, that's minutes per week. Timing that one number for a week beats studying everything for a month."
+      ],
+      "image": {
+        "label": "Four input bars, one much wider than the rest",
+        "aspectRatio": "16:9",
+        "brief": "추정 요소 네 개를 가로 막대로 표시. \"People\", \"Weeks\", \"Cost per hour\"는 짧고, \"Minutes per week\"만 길게 뻗어 있으며 돋보기 아이콘으로 강조.",
+        "url": "assets/images/thk-07-06-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Rough isn't careless.",
+      "body": [
+        "Errors only cancel when they're independent. If every guess leans hopeful, they **stack** instead, and the total can be wildly off.",
+        "One piece you can't guess within ten times will swamp all the others. Measure that one before you multiply.",
+        "And always write the range, not one tidy number. A single figure on a slide quickly gets mistaken for a fact."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a hardware store.",
+      "illustrative": true,
+      "body": [
+        "You're thinking of opening on Sundays. Three staff for eight hours at $20 an hour, plus $100 for lights and heat, is $580. You keep about 35 cents of each sales dollar after paying for the goods, so you'd need about $1,700 in Sunday sales to break even.",
+        "Your honest guess for Sunday sales: somewhere between $1,000 and $3,000. What now?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Open every Sunday. The middle guess of $2,000 clears the bar",
+            "verdict": "partial",
+            "feedback": "The middle does clear it, but the low end loses about $230 a week. You're betting the range on one point inside it."
+          },
+          {
+            "key": "B",
+            "text": "Open for a few trial Sundays and track sales",
+            "verdict": "best",
+            "feedback": "The range crosses the line, and Sunday sales is the uncertain piece. A short trial measures exactly that, at a small, capped cost."
+          },
+          {
+            "key": "C",
+            "text": "Stay closed. The estimate is too rough to trust",
+            "verdict": "risky",
+            "feedback": "You avoid a possible loss, but you also give up up to about $470 a week. The estimate already told you what to test."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Guess the pieces, check the line, then decide.",
+      "body": [
+        "A rough estimate with an honest range settles most decisions in minutes. When the range crosses the line, measure only the widest piece.",
+        "**Try it today:** pick a decision you've been waiting on data for. Write a low and a high guess for each piece and multiply. Does the answer change across the range?"
+      ],
+      "next": "Next · Why are customers leaving a gym?"
+    }
+  ]
+}

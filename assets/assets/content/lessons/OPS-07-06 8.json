@@ -1,0 +1,266 @@
+{
+  "id": "OPS-07-06",
+  "unitId": "OPS-07",
+  "categoryId": "OPS",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Keeping the business running",
+  "readerTitle": "The cheap outage that costs more than a flood",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (난방 수리 업체, 소스 제조 공장) · 모든 수치는 설명용",
+  "insight": "사업 연속성은 '무슨 사고가 날까'가 아니라 '무엇이 계속 돌아가야 하고, 얼마나 오래 멈춰도 되는가'에서 출발한다. 원인이 아니라 결과(멈추는 활동)를 기준으로 대비한다.",
+  "misconception": "큰 재난(화재, 홍수)일수록 피해가 크니 건물과 설비부터 지키면 된다. 보험에 들었으면 대비는 끝났다.",
+  "relatedLessonIds": [
+    "OPS-07-04",
+    "OPS-07-05"
+  ],
+  "sources": [
+    {
+      "text": "사업 연속성 계획(Business Continuity Planning)의 일반 개념: 핵심 활동 식별, 허용 중단 시간, 대체 방안, 정기 테스트",
+      "url": null
+    },
+    {
+      "text": "ISO 22301 (Business continuity management systems) — 개념 참고용, 카드에는 인용하지 않음",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "차트 수치는 모두 가상입니다. 가정: 겨울철 신규 예약이 하루 약 $5,000. 전화 4시간 중단 $1,500, 1일 $5,000, 3일 $20,000(3일 × $5,000 = $15,000 + 경쟁사로 옮긴 단골 고객의 향후 매출 약 $5,000). 사무실 폐쇄 시 기사가 차량에서 일하고 차량에 이틀치 부품이 있다는 가정으로 1일 $0, 3일 $1,000.",
+      "status": "open"
+    },
+    {
+      "note": "'3일 중단 손실이 하루 손실의 3배보다 크다'는 문장은 위 가정(고객 이탈)에 따른 것입니다. $20,000 ÷ $5,000 = 4배로 카드 문구와 일치하는지 확인했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "영업 중단 보험(business interruption insurance)은 일반적 설명에만 사용했습니다. 특정 국가의 보장 범위나 조건은 다루지 않습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Numbers twist",
+      "title": "The cheap outage that costs more than a flood",
+      "illustrative": true,
+      "body": [
+        "A heating repair company has two bad weeks in one winter. First, a burst pipe floods its office. Then, a few weeks later, its phone line goes dead for three days.",
+        "The flood looks like the disaster. The numbers say the dead phone line cost about twenty times more."
+      ],
+      "image": {
+        "label": "A flooded office next to a silent ringing phone",
+        "aspectRatio": "4:3",
+        "brief": "화면을 반으로 나눈 일러스트. 왼쪽은 물이 찬 작은 사무실(극적이지만 비어 있음), 오른쪽은 작은 휴대폰 하나에 '연결 없음' 표시와 그 뒤로 길게 늘어선 고객 말풍선들. 실제 통신사·브랜드 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You have $3,000 for disaster planning.",
+      "illustrative": true,
+      "body": [
+        "You run that heating company. Eight technicians work from their vans. Every new job comes in by phone. The job schedule lives on one computer in the office.",
+        "You can fund one project this month. Which one?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "A backup generator so the office never loses power",
+            "verdict": "risky",
+            "feedback": "It protects the building, but your technicians don't work there. You'd spend the budget on the part of the business that can stop longest without much harm."
+          },
+          {
+            "key": "B",
+            "text": "Better insurance on the office and equipment",
+            "verdict": "partial",
+            "feedback": "Insurance repays damage later. It doesn't keep new jobs coming in while you wait, and lost customers aren't on the claim form."
+          },
+          {
+            "key": "C",
+            "text": "Set up calls and the schedule so anyone can run them from a phone or laptop within an hour",
+            "verdict": "best",
+            "feedback": "This protects the one activity your income can't do without, whatever knocks it out. It costs little but needs testing to be trusted."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "Not every outage costs the same.",
+      "illustrative": true,
+      "body": [
+        "Bookings lost, by how long each part of the business is down. With the office closed, technicians keep working from vans stocked with two days of parts.",
+        "With the phones down, every hour loses new jobs. After two days, regular customers start calling a rival, and some never come back."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Phones and booking down",
+            "rows": [
+              {
+                "label": "4 hours",
+                "value": 1500,
+                "highlight": false
+              },
+              {
+                "label": "1 day",
+                "value": 5000,
+                "highlight": false
+              },
+              {
+                "label": "3 days",
+                "value": 20000,
+                "highlight": true
+              }
+            ]
+          },
+          {
+            "label": "Office building closed",
+            "rows": [
+              {
+                "label": "4 hours",
+                "value": 0,
+                "highlight": false
+              },
+              {
+                "label": "1 day",
+                "value": 0,
+                "highlight": false
+              },
+              {
+                "label": "3 days",
+                "value": 1000,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "image": {
+        "label": "Not every outage costs the same.",
+        "aspectRatio": "4:3",
+        "brief": "Labeled HTML chart from the lesson numbers",
+        "url": "assets/images/ops-07-06-chart.png"
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Business continuity",
+      "body": [
+        "**Business continuity** means keeping your most important activities running, or bringing them back fast enough, whatever goes wrong.",
+        "It starts with two questions. Which activities does the money depend on? And how long can each one stop before the damage grows out of control? That limit is often called the **recovery time**.",
+        "Here, the phones have a recovery time of a few hours. The office has days."
+      ],
+      "image": {
+        "label": "Activities ranked by how long they can stop",
+        "aspectRatio": "16:9",
+        "brief": "가로 타임라인 인포그래픽. 왼쪽 끝(몇 시간) 'Phones & booking', 가운데(이틀) 'Parts supply', 오른쪽 끝(몇 주) 'Office building'. 왼쪽으로 갈수록 빨간색이 진해짐.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Plan for outcomes, not causes.",
+      "body": [
+        "You can't list every disaster. But dozens of causes lead to a handful of outcomes."
+      ],
+      "list": [
+        "**Phones down:** carrier outage, cut cable, power cut, lost phone",
+        "**Office unusable:** fire, flood, burst pipe, road closure",
+        "**A key person is out:** illness, injury, sudden resignation",
+        "**A supplier stops:** strike, storm, bankruptcy"
+      ],
+      "callout": "Four workarounds cover dozens of disasters. Write each one down and try it once."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond repairs",
+      "title": "Recovery time decides how much to spend.",
+      "body": [
+        "The shorter an activity's recovery time, the more a fast backup is worth. A bakery whose oven can't be down for a morning needs a repair contract with same-day service. Its accounting can wait a week.",
+        "A plan nobody has tried is a guess. A one-hour drill, like forwarding calls to a mobile and booking a real job from it, shows what's missing."
+      ],
+      "softwareNote": "For a software company, the critical activities are usually the product and customer data. Recovery time decides whether backups run hourly or nightly, and only a test restore proves they work."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Zero downtime is the wrong goal.",
+      "body": [
+        "Every backup costs money and attention. Aim to keep the damage small, not to make outages impossible. A second phone line is cheap. A second office rarely pays off.",
+        "Plans also go stale. People leave, numbers change, passwords expire. And a plan kept only in the office is useless when the office floods. Store a copy where you can reach it from anywhere."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a sauce factory.",
+      "illustrative": true,
+      "body": [
+        "You bottle sauces on one filling line. A grocery chain takes deliveries twice a week, and missing two in a row could cost you the contract. One machine part takes six weeks to arrive if it breaks.",
+        "What protects the business best?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep that part in stock and agree with a nearby bottler to fill for you in an emergency",
+            "verdict": "best",
+            "feedback": "This targets the activity with the shortest recovery time, deliveries, at modest cost. The bottler deal needs a trial run to be real."
+          },
+          {
+            "key": "B",
+            "text": "Buy a second complete filling line",
+            "verdict": "partial",
+            "feedback": "It removes the risk, but ties up a lot of cash in a machine that sits idle most days. Cheaper workarounds cover the same gap."
+          },
+          {
+            "key": "C",
+            "text": "Rely on business interruption insurance",
+            "verdict": "risky",
+            "feedback": "It may replace lost income for a while. It won't stop the grocery chain from finding a new supplier during a six-week wait."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Protect what must keep working, not what looks most dramatic.",
+      "body": [
+        "Rank your activities by how long each can stop. Prepare a workaround for the shortest ones, whatever the cause.",
+        "**Try it today:** list three activities your income depends on. Next to each, write how many hours it can stop and what you'd do if it did."
+      ],
+      "next": "Next · A restaurant's biggest risks"
+    }
+  ]
+}

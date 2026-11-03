@@ -1,0 +1,260 @@
+{
+  "id": "CUS-01-06",
+  "unitId": "CUS-01",
+  "categoryId": "CUS",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Behavior beats opinions",
+  "readerTitle": "'Great idea!' is the most dangerous thing a customer can say",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 연구·개념 (현시선호, 의도-행동 격차) + 가상 사례 (접이식 운반 상자 제조사, 프리랜서용 청구서 앱) · 사례 수치는 모두 설명용",
+  "insight": "고객의 말은 공짜라서 담긴 정보가 적다. 시간·돈·평판을 치른 행동, 특히 이미 하고 있는 행동이 진짜 수요의 증거다.",
+  "misconception": "고객이 좋다고 말하거나 설문에서 많은 사람이 원한다고 답하면 수요가 확인된 것이다.",
+  "relatedLessonIds": [
+    "CUS-01-10",
+    "CUS-04-05"
+  ],
+  "sources": [
+    {
+      "text": "Samuelson, P. A. (1938). A Note on the Pure Theory of Consumer's Behaviour. Economica. (현시선호 개념)",
+      "url": null
+    },
+    {
+      "text": "Sheeran, P. (2002). Intention–Behavior Relations: A Conceptual and Empirical Review. European Review of Social Psychology. (의도-행동 격차)",
+      "url": null
+    },
+    {
+      "text": "Fitzpatrick, R. (2013). The Mom Test. (과거 행동과 대가를 치른 약속을 묻는 인터뷰 방법)",
+      "url": null
+    },
+    {
+      "text": "제조사·청구서 앱 사례의 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Samuelson이 1938년 논문으로 현시선호 이론의 토대를 놓았다는 서술을 확인하세요. 'revealed preference'라는 용어는 이후 논문(1948년경)에서 자리 잡았다는 설명도 있으므로 카드에는 'laid the groundwork in 1938'로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "의도-행동 격차는 카드에서 '계획은 행동을 느슨하게만 예측한다'로만 표현했고 구체적 수치(분산 설명률 등)는 넣지 않았습니다. Sheeran(2002) 원문과 표현이 맞는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "The Mom Test의 핵심 주장(칭찬은 믿지 말고 과거 행동과 시간·평판·돈의 약속을 보라)을 카드 6에 요약했습니다. 책 내용과 맞는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "차트 수치(30 → 11 → 6 → 3)와 설문 수치(40명 중 30명, 68%), 금형 비용 $200,000, 보증금 $500는 모두 가상입니다. 깔때기 수치가 단계마다 줄어드는지 확인했습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Everyday scene",
+      "title": "'Great idea!' is the most dangerous thing a customer can say",
+      "body": [
+        "You describe your new product to a friend over dinner. Their eyes light up. \"Great idea! I'd totally buy that.\"",
+        "It feels like proof. It's closer to a polite noise. Kind words cost nothing, and that is exactly why they tell you so little."
+      ],
+      "image": {
+        "label": "A friend at dinner giving an enthusiastic thumbs-up",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 저녁 식탁 장면. 한 사람이 냅킨에 그린 제품 스케치를 보여주고, 맞은편 친구가 엄지를 들며 웃는다. 친구의 말풍선 \"Great idea!\"는 크고 밝게, 그러나 말풍선 그림자가 가볍고 속이 빈 풍선처럼 보이게. 실제 브랜드나 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which signal would you bet the factory on?",
+      "illustrative": true,
+      "body": [
+        "You run a small plant that makes plastic shipping crates. You've designed a folding crate that saves space on the return trip. Before buying a $200,000 mold, you gather three signals.",
+        "Which one should count most?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "A survey: 30 of 40 customers say they'd *definitely* use it",
+            "verdict": "risky",
+            "feedback": "It's the biggest number, but saying yes cost them nothing. You learn they like the idea, not that they'll change how they ship."
+          },
+          {
+            "key": "B",
+            "text": "Three customers pay a $500 deposit for a pilot batch",
+            "verdict": "best",
+            "feedback": "Only three, but each gave up money and took a risk with their own operations. That's a choice, not a compliment."
+          },
+          {
+            "key": "C",
+            "text": "Buyers crowded your trade show booth and took brochures",
+            "verdict": "partial",
+            "feedback": "Booth traffic tells you the problem matters to people. But taking a brochure is nearly free, so it can't tell you who will order."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "What happened",
+      "title": "The yeses shrank at every step.",
+      "illustrative": true,
+      "body": [
+        "You go back to the 30 customers who said *definitely*. Each step asks them for a little more."
+      ],
+      "chart": {
+        "unit": "count",
+        "groups": [
+          {
+            "label": "Out of 30 \"definitely\" customers",
+            "rows": [
+              {
+                "label": "Said they'd use it",
+                "value": 30,
+                "highlight": false
+              },
+              {
+                "label": "Took a 30-minute call",
+                "value": 11,
+                "highlight": false
+              },
+              {
+                "label": "Shared real shipping volumes",
+                "value": 6,
+                "highlight": false
+              },
+              {
+                "label": "Paid a deposit",
+                "value": 3,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "callout": "The survey measured politeness. The deposit measured demand."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Behavior beats opinions",
+      "body": [
+        "**Behavior beats opinions** means you trust what people *do*, especially when it costs them something, over what they *say* they will do.",
+        "Economists call this idea revealed preference: your choices show what you value better than your answers to a question. Paul Samuelson laid the groundwork in 1938.",
+        "A compliment costs nothing. An hour of someone's time, an introduction to their boss, or a deposit costs something. That cost is what makes the signal believable."
+      ],
+      "image": {
+        "label": "A ladder of signals from compliment to money",
+        "aspectRatio": "16:9",
+        "brief": "계단 또는 사다리 인포그래픽. 아래에서 위로 \"Compliment\", \"Time\", \"Reputation\", \"Money\" 네 단. 위로 갈수록 단이 두껍고 색이 진해져 신호의 무게가 커진다는 느낌. 맨 아래 칭찬 단은 가볍고 반투명하게.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Why it happens",
+      "title": "Why nice people give you bad data.",
+      "body": [
+        "Most people aren't lying to you. They're being kind, and they're answering an easy question instead of a hard one."
+      ],
+      "list": [
+        "**Politeness:** saying no to your face feels rude",
+        "**No cost:** a hypothetical yes asks nothing of them",
+        "**Ideal self:** people picture the organized, disciplined version of themselves",
+        "**Wrong question:** \"Would you use it?\" isn't \"Will you change what you do now?\""
+      ],
+      "callout": "Psychologists call the result the *intention-behavior gap*: what people plan to do predicts what they actually do only loosely."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where to look",
+      "title": "What people already did is the best evidence.",
+      "body": [
+        "You don't need to launch anything to see behavior. Ask about the past, not the future. Rob Fitzpatrick's book *The Mom Test* builds a whole interview method on this idea."
+      ],
+      "list": [
+        "What did you do the last time this problem came up?",
+        "What are you paying today to deal with it?",
+        "What workaround have you built: a spreadsheet, an extra shift, a hack?",
+        "Who else have you asked for help?"
+      ],
+      "callout": "If someone has never spent time or money on a problem, a new product probably won't make them start.",
+      "softwareNote": "Your usage data is behavior you already have. Which features people open every week, and which workarounds they use, often says more than any feature-request board."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Behavior has blind spots too.",
+      "body": [
+        "Past behavior shows what people do with the options they have today. For something truly new, there may be little to watch, and the first buyers may act very differently from everyone else.",
+        "Small commitments can still be favors. A deposit from a friend or a loyal customer may be support, not demand.",
+        "And opinions still help you understand *why*. Use what people say to form a guess, and what they do to test it."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's an invoicing app.",
+      "illustrative": true,
+      "body": [
+        "Your app helps freelancers send invoices. In a feature survey, 68% of users vote for a built-in time tracker. It would take your team three months to build.",
+        "What do you do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Build it. Two-thirds of users asked for it",
+            "verdict": "risky",
+            "feedback": "You'd be acting on the cheapest signal there is. A vote costs one click, and three months of building costs a lot more."
+          },
+          {
+            "key": "B",
+            "text": "Check how many users already copy hours from another tracking tool into their invoices",
+            "verdict": "best",
+            "feedback": "If many do this by hand every week, they're already paying in time to solve the problem. If few do, the votes were mostly wishes."
+          },
+          {
+            "key": "C",
+            "text": "Ask your ten most active users how often they'd use it",
+            "verdict": "partial",
+            "feedback": "You'll learn useful detail about how they work. But it's still a prediction, and your biggest fans are the most likely to be kind."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Watch what people do, not what they say.",
+      "body": [
+        "A compliment is free. Trust signals that cost the customer time, money or reputation, and look first at what they already do.",
+        "**Try it today:** take one piece of customer feedback you've been acting on. Write down what that customer actually *did* that backs it up. If you can't find anything, go and find out."
+      ],
+      "next": "Next · Why people buy gym memberships"
+    }
+  ]
+}

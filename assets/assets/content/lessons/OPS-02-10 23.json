@@ -1,0 +1,278 @@
+{
+  "id": "OPS-02-10",
+  "unitId": "OPS-02",
+  "categoryId": "OPS",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Cut customer wait time",
+  "readerTitle": "Four hours of work, fifteen days of waiting",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.4,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (급여 대행 B2B 서비스 회사 안의 고객 온보딩 팀) · 모든 수치는 설명용 · 리틀의 법칙과 대기행렬 원리는 실제 이론",
+  "insight": "고객의 기다림은 일이 느려서가 아니라 일이 멈춰 있어서 생긴다. 그래서 더 빨리 일하기보다 일이 멈추는 곳을 줄여야 한다.",
+  "misconception": "대기 시간을 줄이려면 사람을 더 뽑거나 모두가 더 빨리, 더 바쁘게 일해야 한다.",
+  "relatedLessonIds": [
+    "OPS-02-05",
+    "OPS-02-06"
+  ],
+  "sources": [
+    {
+      "text": "Little, J. D. C. (1961). A Proof for the Queuing Formula: L = λW. Operations Research, 9(3).",
+      "url": null
+    },
+    {
+      "text": "대기행렬 이론의 표준 결과 (가동률이 100%에 가까워질수록 대기가 급격히 늘어남)",
+      "url": null
+    },
+    {
+      "text": "모든 사례 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 설명용 가상 수치입니다. 실제 작업 시간 비율: 4시간 ÷ (15영업일 × 8시간 = 120시간) ≈ 3.3%. 카드에는 \"less than 5%\"로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "리틀의 법칙 계산: 진행 중 30건 ÷ 주당 10건 완료 = 3주 = 15영업일. 상한 3건 × 5명 = 15건 ÷ 주당 10건 = 1.5주 = 7.5영업일. 전환 비용이 줄어 처리량이 주당 12건으로 오른다는 가정 시 15 ÷ 12 = 1.25주 ≈ 6영업일.",
+      "status": "open"
+    },
+    {
+      "note": "인원 감축 계산: 처리 능력 주당 12건 × 4/5 = 9.6건. 평균 유입 주당 10건보다 작으므로 대기열이 계속 늘어납니다. 현재 가동률 10 ÷ 12 ≈ 83%.",
+      "status": "open"
+    },
+    {
+      "note": "리틀의 법칙은 평균값이 안정된 시스템에서 성립합니다. 카드에서는 \"on average\"로 표현했습니다. 게시 전 문구를 다시 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Simulation",
+      "title": "Four hours of work, fifteen days of waiting",
+      "illustrative": true,
+      "body": [
+        "Maya runs client onboarding at a payroll services company. Her five specialists set up new business clients so their first payroll runs on time.",
+        "From signed contract to ready, a new client waits **15 working days**. Sales says clients are cancelling before they start. Maya wants it under a week.",
+        "You'll make four calls in a row, in her shoes."
+      ],
+      "image": {
+        "label": "A client folder sitting in a long line of trays",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 사무실 책상 위에 서류 트레이가 길게 이어지고, 고객 폴더 하나가 트레이마다 멈춰 있음. 폴더 위 작은 달력에 \"Day 15\". 실제 회사 로고는 쓰지 않음.",
+        "url": "assets/images/ops-02-10-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 4",
+      "title": "Where do you start?",
+      "illustrative": true,
+      "body": [
+        "The team says it is swamped. Everyone looks busy all day. What's your first move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Ask for two more specialists",
+            "verdict": "partial",
+            "feedback": "More people may help a little, but you'd add cost before knowing what is slow. If the delay isn't the work itself, new hires join the same waiting lines."
+          },
+          {
+            "key": "B",
+            "text": "Follow five recent setups and log where every day went",
+            "verdict": "best",
+            "feedback": "You learn each setup needs about 4 hours of real work, less than 5% of the 15 days. The rest is waiting: in inboxes, in piles, for the next batch."
+          },
+          {
+            "key": "C",
+            "text": "Set a 5-day target and ask everyone to work faster",
+            "verdict": "risky",
+            "feedback": "Doubling the speed of 4 hours of work saves 2 hours. The client still waits about 15 days, and the team feels blamed."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 4",
+      "title": "Say you mapped it. The first wait is Friday.",
+      "illustrative": true,
+      "body": [
+        "The team gathers all new clients' documents and does setups every Friday, \"because it's efficient.\" A client who signs on Monday waits four days just to begin.",
+        "What do you change?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep batches, but run them twice a week",
+            "verdict": "partial",
+            "feedback": "The wait to start roughly halves. It's a safe step, but clients still sit idle for days for no real reason."
+          },
+          {
+            "key": "B",
+            "text": "Start each client the day their documents arrive",
+            "verdict": "best",
+            "feedback": "The wait to start drops from days to hours. The batch saved little effort, because each setup takes the same work alone or in a group."
+          },
+          {
+            "key": "C",
+            "text": "Batch monthly to make each run even more efficient",
+            "verdict": "risky",
+            "feedback": "Bigger batches feel productive for the team. For the client, the wait to start grows to weeks."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 4",
+      "title": "Say you went daily. Now everyone juggles.",
+      "illustrative": true,
+      "body": [
+        "Work arrives every day, and specialists start it right away. Each now has 6 setups open, about 30 in total. They switch between them all day, chasing replies.",
+        "What now?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep starting everything at once so clients see progress",
+            "verdict": "risky",
+            "feedback": "Clients get a quick hello, then wait. More open work means each setup gets less attention and takes longer to finish."
+          },
+          {
+            "key": "B",
+            "text": "Cap it at 3 open setups each; new ones wait in one shared line",
+            "verdict": "best",
+            "feedback": "Finishing beats starting. With half the open work and less switching, each setup moves through about twice as fast."
+          },
+          {
+            "key": "C",
+            "text": "Route setups by complexity to the right specialist",
+            "verdict": "partial",
+            "feedback": "Matching skills helps quality. But if nobody limits open work, piles just form in new places."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "Software teams see the same pattern in code review and support tickets. A feature with two days of work can take weeks to ship because it sits in queues. Capping open tickets per person often speeds delivery more than hiring."
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 4 of 4",
+      "title": "Say you capped it. Now the team has quiet afternoons.",
+      "illustrative": true,
+      "body": [
+        "Clients now wait about 6 days. The team can finish about 12 setups a week, and about 10 arrive, unevenly.",
+        "The finance head sees idle hours and proposes cutting one specialist so everyone stays fully busy."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Agree. Idle time is waste",
+            "verdict": "risky",
+            "feedback": "Four people finish about 9.6 setups a week, less than the 10 arriving. The line grows every week and waits climb back toward where you started."
+          },
+          {
+            "key": "B",
+            "text": "Keep the slack, and fill quiet hours with work that can pause",
+            "verdict": "best",
+            "feedback": "Spare capacity absorbs busy weeks so waits stay short. Quiet hours go to templates and checklists that make setups smoother."
+          },
+          {
+            "key": "C",
+            "text": "Hire a sixth specialist to be extra safe",
+            "verdict": "partial",
+            "feedback": "Waits would barely change, since the team already runs at about 83% busy. You'd pay for safety you don't need yet."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "breakdown",
+      "eyebrow": "What changed",
+      "title": "Same team, same work, a third of the wait.",
+      "illustrative": true,
+      "body": [
+        "A simple rule explains much of it: on average, **time in the system = open work ÷ finish rate**. 30 open setups at 10 a week means 3 weeks. 15 open at 12 a week means about 6 working days."
+      ],
+      "breakdown": [
+        {
+          "value": "15 days",
+          "label": "Before",
+          "detail": "About 4 hours of real work, the rest waiting",
+          "highlight": false
+        },
+        {
+          "value": "Daily",
+          "label": "No more Friday batch",
+          "detail": "Clients start the day documents arrive",
+          "highlight": false
+        },
+        {
+          "value": "15 open",
+          "label": "Work capped",
+          "detail": "Down from 30, three per specialist",
+          "highlight": false
+        },
+        {
+          "value": "~6 days",
+          "label": "After",
+          "detail": "With slack kept for busy weeks",
+          "highlight": true
+        }
+      ],
+      "callout": "Nobody worked faster. The work just stopped waiting.",
+      "softwareNote": "Most ticket tools can show how long work spends waiting versus being worked on. That one report often reveals where to start."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Not every wait is yours to remove.",
+      "body": [
+        "Some waiting sits with the client, like missing tax forms. A cap on open work can't fix that. A clear checklist sent at signing usually helps more.",
+        "A cap also feels slow at first. New clients wait in the shared line before anyone touches their file. Tell them when they'll start, or the short line will look like neglect.",
+        "And small batches only pay off when switching between jobs is cheap. If each run needs costly setup, find ways to shrink that first."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Shrink the waiting, not the working.",
+      "body": [
+        "Each call matched an idea from this unit:",
+        "**Try it today:** follow one recent customer order or request from start to finish. Write down how many hours were real work and how many were waiting."
+      ],
+      "list": [
+        "**Map first:** most of the delay was waiting, the biggest **waste**",
+        "**Daily starts:** smaller **batch sizes** cut time to begin",
+        "**Cap open work:** less juggling keeps work in **flow**",
+        "**Keep slack:** running near 100% busy is the **utilization trap**"
+      ],
+      "next": "Next · How supply chains work"
+    }
+  ]
+}

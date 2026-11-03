@@ -1,0 +1,224 @@
+{
+  "id": "THK-05-06",
+  "unitId": "THK-05",
+  "categoryId": "THK",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Deciding at the right speed",
+  "readerTitle": "Two phone makers, one factory fire, and the cost of waiting",
+  "format": "company_story",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Nokia, Ericsson, Philips 2000년 공장 화재 · Amazon 2016 주주서한) + 가상 적용 (자전거 공장, 소프트웨어 회사)",
+  "insight": "기다리는 것도 결정이며 값이 붙어 있다. 결정 속도는 성격이 아니라 '늦어서 잃는 비용'과 '틀려서 잃는 비용'을 저울질해서 정한다.",
+  "misconception": "신중하게 정보를 더 모을수록 좋은 결정이다. 또는 반대로, 빠른 결정이 언제나 좋은 결정이다.",
+  "relatedLessonIds": [
+    "THK-05-01",
+    "THK-11-06"
+  ],
+  "sources": [
+    {
+      "text": "Latour, A. (2001, Jan 29). Trial by Fire: A Blaze in Albuquerque Sets Off Major Crisis for Cell-Phone Giants. The Wall Street Journal.",
+      "url": null
+    },
+    {
+      "text": "Sheffi, Y. (2005). The Resilient Enterprise. MIT Press. (Philips 화재와 Nokia·Ericsson 대응 사례)",
+      "url": null
+    },
+    {
+      "text": "Bezos, J. (2017). 2016 Letter to Shareholders. Amazon.",
+      "url": null
+    },
+    {
+      "text": "자전거 공장과 소프트웨어 회사 상황은 설명용 가상 사례",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "화재 날짜(2000년 3월), 장소(뉴멕시코주 앨버커키 Philips 반도체 공장), 원인(낙뢰)과 Philips가 처음에 짧은 지연을 예상했다는 내용을 WSJ(2001) 원문과 Sheffi(2005)로 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Nokia가 며칠 만에 이상을 감지하고 대체 공급처·남은 생산 능력을 확보했다는 내용, Ericsson이 몇 주 늦게 대응했다는 내용은 보도 기반입니다. 카드에는 'reportedly'로 표기했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Ericsson의 손실은 '수억 달러 규모의 매출 손실'로 보도되었습니다(약 4억 달러로 자주 인용). 카드에는 구체 수치 없이 'hundreds of millions of dollars'로만 적었습니다. 2001년 Sony와 휴대폰 합작사(Sony Ericsson) 설립은 화재 외 여러 원인이 있으므로 카드에서 화재가 유일한 원인처럼 보이지 않게 했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Bezos 2016 주주서한 인용 두 문장('around 70% of the information you wish you had…', 'being wrong may be less costly than you think, whereas being slow is going to be expensive for sure')의 정확한 문구를 원문으로 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Decisions · Company story",
+      "title": "Two phone makers, one factory fire, and the cost of waiting",
+      "body": [
+        "In March 2000, lightning started a small fire at a Philips chip plant in Albuquerque, New Mexico. It was put out within minutes.",
+        "Two of the world's biggest phone makers, Nokia and Ericsson, bought key chips from that plant. Both got the same bad news. One decided within days. The other took weeks. That gap turned out to matter more than the fire."
+      ],
+      "image": {
+        "label": "A small factory with a lightning bolt and two diverging arrows",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 작은 반도체 공장 위로 번개 하나, 지붕에 작은 연기. 공장에서 두 갈래 화살표가 나가며 하나는 짧고 빠르게, 하나는 길게 구불구불. 실제 회사 로고와 상표는 쓰지 않음.",
+        "url": "assets/images/thk-05-06-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Your supplier just had a fire.",
+      "illustrative": true,
+      "body": [
+        "You run a bicycle factory. Your only gear supplier calls: a small fire, nobody hurt, shipments delayed \"about a week.\" They sound calm.",
+        "Other bike makers use the same supplier. What do you do this afternoon?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Trust the estimate and wait for their next update",
+            "verdict": "risky",
+            "feedback": "Waiting costs nothing if they're right. If they're wrong, you learn it after rivals have already booked the spare capacity elsewhere."
+          },
+          {
+            "key": "B",
+            "text": "Assume it's worse, call backup suppliers today and reserve capacity",
+            "verdict": "best",
+            "feedback": "You may pay for capacity you don't need. But that cost is small and fixed, while the cost of being late keeps growing."
+          },
+          {
+            "key": "C",
+            "text": "Ask your team for a full impact analysis before acting",
+            "verdict": "partial",
+            "feedback": "The analysis is useful, but it takes days. Run it alongside the calls, not before them."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "Nokia moved. Ericsson waited.",
+      "body": [
+        "Nokia reportedly noticed odd gaps in chip shipments within days. It escalated fast, sent people to Philips, and locked up other suppliers and the plant's remaining output.",
+        "Ericsson, by most accounts, took weeks to grasp how bad the damage was. By the time it acted, the spare chips were gone.",
+        "The shortage was reported to cost Ericsson hundreds of millions of dollars in lost sales. It was one of several blows to its phone business, which it moved into a joint venture with Sony in 2001."
+      ],
+      "image": {
+        "label": "Two timelines: one acts on day 3, one on week 4",
+        "aspectRatio": "16:9",
+        "brief": "두 개의 가로 타임라인. 위쪽 'Company A'는 3일째에 큰 점과 'Acted', 아래쪽 'Company B'는 4주째에 점과 'Acted', 그 사이에 'Spare capacity gone' 표시. 회사 로고 없이 중립적인 색.",
+        "url": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Deciding at the right speed",
+      "body": [
+        "Every decision carries two costs. One is the **cost of being wrong**. The other is the **cost of being late**. Gathering more facts lowers the first and raises the second.",
+        "The right speed is where those two balance. In a fire, the cost of being late grows every day, because others are racing for the same fix.",
+        "So waiting is not neutral. It's a choice, and it has a price."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "\"Being slow is going to be expensive for sure.\"",
+      "body": [
+        "In his 2016 letter to shareholders, Amazon's Jeff Bezos wrote that most decisions should be made with \"somewhere around 70% of the information you wish you had.\" Waiting for 90%, he argued, usually means you're slow.",
+        "His reason: if you're good at spotting and fixing mistakes, being wrong may cost less than you think. Being slow costs you for sure.",
+        "The key is the second half. Fast deciding only works if you also watch closely and correct quickly."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How to set the speed",
+      "title": "Three questions before you wait.",
+      "body": [
+        "Before asking for one more week, check:"
+      ],
+      "list": [
+        "**How fast does waiting cost me?** Lost customers, vanishing stock, rivals moving.",
+        "**What will waiting actually teach me?** If no new facts are coming, more time just feels safer.",
+        "**Can I fix it if I'm wrong?** Easy to undo means you can go faster."
+      ],
+      "callout": "Slow down when the clock isn't running and the mistake can't be undone.",
+      "softwareNote": "A bad release can often be rolled back in minutes, so speed is cheap. A database migration or a change to how customers are billed is far harder to undo, so it earns more time."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Speed is not a virtue on its own.",
+      "body": [
+        "Fast deciding is right when delay is expensive. It is wrong when the clock isn't actually running and the stakes are high. Some deadlines are made up, like a seller's \"offer ends tonight.\"",
+        "Also, Nokia's speed didn't come from boldness alone. It had systems that flagged supply problems early. Without good signals, a fast decision is just a fast guess."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software company.",
+      "illustrative": true,
+      "body": [
+        "You lead a small software company. Three decisions sit on your desk:",
+        "1) Yesterday's release is charging some customers twice. 2) Which database to rebuild your product on next year. 3) The headline on the new pricing page.",
+        "Which one deserves a decision today, even with incomplete information?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The double charges: roll back the release now, investigate after",
+            "verdict": "best",
+            "feedback": "Every hour adds angry customers and refunds, and a rollback is easy to undo. High cost of delay, low cost of being wrong."
+          },
+          {
+            "key": "B",
+            "text": "The database: it's the biggest decision, so settle it first",
+            "verdict": "risky",
+            "feedback": "Big, yes, but hard to undo and nothing is lost by taking a few weeks. That's a case for slowing down."
+          },
+          {
+            "key": "C",
+            "text": "The headline: it's quick, so clear it off the list",
+            "verdict": "partial",
+            "feedback": "Fine to decide fast, since it's easy to change. But waiting costs almost nothing either, so it isn't today's priority."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Match your speed to the cost of waiting.",
+      "body": [
+        "Ask what being late costs and what being wrong costs. Go fast when delay is expensive and mistakes are fixable. Slow down when neither is true.",
+        "**Try it today:** pick one decision you've been putting off. Write down what each extra week of waiting costs you, and what you expect to learn in that week."
+      ],
+      "next": "Next · Choose a supplier"
+    }
+  ]
+}

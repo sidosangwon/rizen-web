@@ -1,0 +1,234 @@
+{
+  "id": "CUS-05-03",
+  "unitId": "CUS-05",
+  "categoryId": "CUS",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "The power of defaults",
+  "readerTitle": "The choice most people never make",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 연구 (Madrian & Shea 2001, 미국 대기업 퇴직연금 자동 가입) + 가상 적용 (B2B IT 지원 회사)",
+  "insight": "기본값은 사람들이 고르지 않을 때 대신 내려지는 선택이다. 그래서 기본값을 정하는 사람이 대부분의 결과를 정한다. 참여 여부뿐 아니라 '얼마나'까지 정해진다.",
+  "misconception": "사람들은 자기에게 중요한 일이면 스스로 따져서 고른다. 기본값은 사소한 화면 설정일 뿐이다.",
+  "relatedLessonIds": [
+    "CUS-05-02",
+    "CUS-05-09"
+  ],
+  "sources": [
+    {
+      "text": "Madrian, B. C., & Shea, D. F. (2001). The Power of Suggestion: Inertia in 401(k) Participation and Savings Behavior. Quarterly Journal of Economics, 116(4), 1149–1187.",
+      "url": null
+    },
+    {
+      "text": "IT 지원 회사 사례는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Madrian & Shea(2001)의 가입률 수치(자동 가입 전 비슷한 근속 기간의 신입 약 37%, 자동 가입 후 약 86%)를 원문 표로 다시 확인하세요. 비교 집단 정의(근속 기간 3~15개월 등)에 따라 수치가 조금 다르게 인용되기도 합니다.",
+      "status": "open"
+    },
+    {
+      "note": "기본 납입률 3%와 기본 상품(원금 보장형 머니마켓 펀드), 그리고 자동 가입 집단에서 3%에 머문 사람이 많고 더 높은 납입률(예: 회사 매칭 한도 6%)을 고른 비율이 줄었다는 내용을 원문으로 확인하세요. 카드에는 구체 비율 없이 일반적으로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "연구 대상 회사는 논문에서 익명 처리된 미국 대기업입니다. 카드에 회사명을 쓰지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Numbers twist",
+      "title": "The choice most people never make",
+      "body": [
+        "A large US company changed one line on a form for new hires. The benefits stayed the same. The money stayed the same. Nobody lost any options.",
+        "Yet the share of new staff saving for retirement more than doubled. And the same change quietly held some of them back."
+      ],
+      "image": {
+        "label": "A form with one checkbox already ticked",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 책상 위 입사 서류 한 장, 체크박스 하나가 이미 체크되어 있고 은은하게 빛남. 주변에 펜과 커피잔. 실제 회사 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Guess the jump.",
+      "body": [
+        "Before the change, new hires had to sign up for the retirement plan themselves. After a few months, about 37% had joined.",
+        "Then the company enrolled new hires automatically. Anyone could leave by filling in one form. What share ended up in the plan?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "About 45%. People who didn't want to save would simply opt out",
+            "verdict": "partial",
+            "feedback": "It assumes people act on what they want. Leaving took one form, yet very few filled it in."
+          },
+          {
+            "key": "B",
+            "text": "About 65%. A real lift, but plenty would leave",
+            "verdict": "partial",
+            "feedback": "Closer. The real effect was bigger, because most people never touch a setting once it's made."
+          },
+          {
+            "key": "C",
+            "text": "About 86%",
+            "verdict": "best",
+            "feedback": "Right. Same plan, same choices, same one-form exit. Only the starting point changed."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "Same plan. Different starting point.",
+      "body": [
+        "Economists Brigitte Madrian and Dennis Shea studied this change in a 2001 paper. Nothing about the plan got better. The company only switched what happened if a new hire did nothing."
+      ],
+      "chart": {
+        "unit": "%",
+        "groups": [
+          {
+            "label": "New hires in the retirement plan",
+            "rows": [
+              {
+                "label": "Had to sign up",
+                "value": 37,
+                "highlight": false
+              },
+              {
+                "label": "Enrolled unless they opted out",
+                "value": 86,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "callout": "The decision didn't change. Who had to act did."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The power of defaults",
+      "body": [
+        "A **default** is what happens when a person does nothing. Every form, contract, menu and settings page has one, even if nobody chose it on purpose.",
+        "Most people leave defaults as they are. So whoever sets the default is making the choice for most customers, staff or clients. Leaving it blank is still a decision."
+      ],
+      "image": {
+        "label": "Two paths from one door, one already lit",
+        "aspectRatio": "16:9",
+        "brief": "문 하나에서 두 갈래 길이 나뉘는 일러스트. 한쪽 길에는 이미 불이 켜져 있고 사람 대부분이 그쪽으로 걷고, 다른 길은 어둡고 몇 명만 걸음. 라벨 \"Do nothing\"과 \"Take action\".",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Three forces hold people in place.",
+      "body": [
+        "Defaults stick for a few reasons at once:"
+      ],
+      "list": [
+        "**Effort:** changing anything takes time and thought, so later becomes never",
+        "**A hint:** people read the default as the recommended option",
+        "**Ownership:** once something is yours, giving it up feels like a loss"
+      ],
+      "callout": "None of these depend on what the option actually is."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The twist",
+      "title": "The default also set how much.",
+      "body": [
+        "The automatic plan started everyone at a 3% savings rate in a cautious fund. Most new members stayed right there.",
+        "Under the old system, some people who joined on their own picked higher rates. With the default, fewer did. The same pull that got people in also held them at the starting number.",
+        "A default doesn't only decide *whether*. It decides *how much*, *which one* and *how long*."
+      ],
+      "softwareNote": "The plan pre-selected on a pricing page, whether a trial turns into a paid plan, and which alerts are on all act as defaults. Each one sets usage and revenue for most users."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A default that serves only you will bite back.",
+      "body": [
+        "Defaults work quietly, so a bad one hurts quietly too. Pre-ticked paid extras and forgotten auto-renewals bring angry calls, refunds and lost trust once customers notice.",
+        "A useful test: would most people pick this option if they stopped and thought about it? If yes, make it the default. If you're relying on them *not* noticing, you've found a trap, not a default."
+      ],
+      "image": {
+        "label": "A customer frowning at a surprise line on an invoice",
+        "aspectRatio": "16:9",
+        "brief": "고객이 청구서를 들여다보며 인상을 쓰는 장면. 청구서 한 줄 \"Add-on (pre-selected)\"이 빨간 펜으로 동그라미 쳐져 있음. 실제 회사 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's an IT support firm.",
+      "illustrative": true,
+      "body": [
+        "You provide IT support to 120 small offices. Contracts renew each year on Basic, Standard or Premium. Many clients delay renewing, and some end up on a plan that doesn't match how they use you.",
+        "How should you set up the renewal form?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Pre-select Premium for everyone, with an option to downgrade",
+            "verdict": "risky",
+            "feedback": "Revenue may rise at first. But clients who don't need Premium will feel tricked when they see the bill, and some will leave."
+          },
+          {
+            "key": "B",
+            "text": "Pre-select the plan that matches each client's actual use last year, changeable in one click",
+            "verdict": "best",
+            "feedback": "Most clients get the plan they would pick if they thought it through, and renewals happen without a long decision. You give up quick upsells but gain trust."
+          },
+          {
+            "key": "C",
+            "text": "No pre-selection. Ask every client to choose from the three plans",
+            "verdict": "partial",
+            "feedback": "It respects their choice, but it adds work. More clients will put off renewing, and many will just keep last year's plan anyway."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Whoever sets the default makes most of the decisions.",
+      "body": [
+        "Defaults decide what most people end up with, including how much and for how long. Set them on purpose, and set them to what most people would choose if they thought it through.",
+        "**Try it today:** find one form, contract or setting your customers or staff see. Write down what happens if they do nothing. Is that the outcome you'd recommend?"
+      ],
+      "next": "Next · Why more options can mean fewer sales"
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "id": "FIN-01-08",
+  "unitId": "FIN-01",
+  "categoryId": "FIN",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "Read a software company's profit and loss",
+  "readerTitle": "An 80% margin, and still losing money: reading a software company's numbers",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (재고관리 소프트웨어 회사, 공구 소매 체인, 대기업 안의 소프트웨어 팀) · 모든 수치는 설명용",
+  "insight": "소프트웨어 회사의 손익계산서는 매출총이익률로 '제품 자체가 돈을 버는지'를, 순이익률로 '성장에 얼마를 쓰는지'를 따로 읽어야 한다.",
+  "misconception": "매출총이익률이 80%면 돈을 잘 버는 회사이고, 적자면 제품이 나쁜 회사다.",
+  "relatedLessonIds": [
+    "FIN-01-05",
+    "FIN-01-06"
+  ],
+  "sources": [
+    {
+      "text": "재무회계의 표준 개념 (손익계산서 구조, 매출원가, 매출총이익률, 순이익률)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "가상 손익계산서 계산: 매출 $10M − 매출원가 $2M = 매출총이익 $8M(80%). 영업비용 $5M + $3M + $1.5M = $9.5M. $8M − $9.5M = −$1.5M(−15%). 이자와 세금은 단순화를 위해 생략했고 카드에도 밝혔습니다.",
+      "status": "open"
+    },
+    {
+      "note": "성장 중단 가정: 영업·마케팅 $5M → $2M이면 영업비용 $6.5M, $8M − $6.5M = +$1.5M(+15%). 실제로는 신규 판매가 줄고 일부 고객이 떠나 매출도 줄 수 있다는 점을 카드에 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "사내 팀 사례: 매출 $3M, 매출원가 $1.5M → 매출총이익률 50%. 작년 65%는 가정값입니다.",
+      "status": "open"
+    },
+    {
+      "note": "'일반적인 소프트웨어 회사의 매출총이익률이 높다'는 일반론으로만 썼고 특정 평균 수치는 넣지 않았습니다. 매출원가 분류가 회사마다 다르다는 점은 일반적 회계 관행 설명입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Everyday scene",
+      "title": "An 80% margin, and still losing money",
+      "illustrative": true,
+      "body": [
+        "A software company sells inventory tools to shops. For every $100 a customer pays, running the service costs it only $20.",
+        "Yet last year it lost $1.5 million. Both facts are true, and together they tell you more than either one alone."
+      ],
+      "image": {
+        "label": "A laptop showing a profit and loss report with one green and one red line",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 노트북 화면에 손익계산서 한 장. 위쪽 줄 \"Gross margin 80%\"는 초록색, 맨 아래 줄 \"Profit −$1.5M\"은 빨간색. 실제 회사 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/fin-01-08-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You're picking a software vendor.",
+      "illustrative": true,
+      "body": [
+        "You run a 12-store hardware chain and plan to sign a three-year deal for inventory software. The vendor shares its numbers: revenue up 50% to $10M, gross margin 80%, a loss of 15% of revenue.",
+        "What do these numbers tell you?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "An 80% margin means they're very profitable",
+            "verdict": "risky",
+            "feedback": "Gross margin only counts the cost of serving customers. It says nothing about the salaries and marketing below it, which is where this loss lives."
+          },
+          {
+            "key": "B",
+            "text": "The product earns money per customer. Check what the spending below that line goes to",
+            "verdict": "best",
+            "feedback": "This is *gross vs net margin* at work. The high gross margin says the service itself pays; the net loss says they spend heavily elsewhere. You now know which question to ask."
+          },
+          {
+            "key": "C",
+            "text": "They lose money, so pick a profitable vendor",
+            "verdict": "partial",
+            "feedback": "A loss is worth noticing, but it doesn't say the product is broken. A loss from fast growth is very different from a loss from costly service."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Read it top to bottom.",
+      "illustrative": true,
+      "body": [
+        "Interest and taxes are left out to keep it simple. The big gap opens below gross profit, not above it."
+      ],
+      "breakdown": [
+        {
+          "value": "$10.0M",
+          "label": "Revenue",
+          "detail": "What customers paid this year",
+          "highlight": false
+        },
+        {
+          "value": "−$2.0M",
+          "label": "Cost of revenue",
+          "detail": "Hosting, support, payment fees",
+          "highlight": false
+        },
+        {
+          "value": "$8.0M",
+          "label": "Gross profit",
+          "detail": "80% of revenue",
+          "highlight": true
+        },
+        {
+          "value": "−$9.5M",
+          "label": "Operating costs",
+          "detail": "Sales & marketing $5M, product $3M, admin $1.5M",
+          "highlight": false
+        },
+        {
+          "value": "−$1.5M",
+          "label": "Profit (loss)",
+          "detail": "−15% of revenue",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept at work · Revenue vs profit",
+      "title": "The top line grew. The bottom line didn't.",
+      "body": [
+        "Revenue rose 50%, and that headline is what most vendors lead with. But **revenue** is only what customers paid. **Profit** is what remains after every cost.",
+        "Here, the faster the company grew, the more it spent to grow. A rising top line can sit on top of a flat or falling bottom line. So the first habit is simple: never stop reading at the first row."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Concept at work · Gross vs net margin",
+      "title": "Two margins, two different stories.",
+      "body": [
+        "**Gross margin** (80%) answers: does serving a customer make money? Yes, clearly. The next customer costs little to run.",
+        "**Net margin** (−15%) answers: does the whole business make money? Not yet. Half of revenue goes to sales and marketing alone.",
+        "Read together, they point to one question. Is the company losing money because the product is costly, or because it's buying growth?"
+      ],
+      "image": {
+        "label": "Two gauges: gross margin at 80%, net margin at minus 15%",
+        "aspectRatio": "16:9",
+        "brief": "계기판 두 개를 나란히. 왼쪽 \"Gross margin 80%\" 바늘은 초록 구간, 오른쪽 \"Net margin −15%\" 바늘은 빨간 구간. 두 계기판 사이에 \"Sales & marketing $5M\" 라벨이 붙은 화살표.",
+        "url": "assets/images/fin-01-08-c5.jpg"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "A useful test",
+      "title": "What if growth slowed down?",
+      "illustrative": true,
+      "body": [
+        "Suppose the company cut sales and marketing from $5M to $2M. Operating costs would fall to $6.5M. With $8M of gross profit, a $1.5M loss becomes a $1.5M profit.",
+        "That's a rough test, not a forecast. Fewer new sales could also mean less revenue. But it shows the loss is mostly a choice to spend, not a product that can't pay for itself. For a vendor you'll rely on for three years, that matters."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Check what's hiding in each line.",
+      "body": [
+        "Companies don't all put the same costs in *cost of revenue*. One counts customer support and setup there. Another moves them into operating costs, which makes gross margin look higher.",
+        "So compare margins only after asking what each line contains. And a loss from growth is only reassuring if the company has the money to keep going until growth pays off."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's your own team's numbers.",
+      "illustrative": true,
+      "body": [
+        "You lead a team inside a larger company that sells a booking app to outside clinics. Revenue grew 40% to $3M. Cost of revenue was $1.5M, mostly staff who set up each clinic by hand. Last year your gross margin was 65%.",
+        "Your boss says: \"Great growth. Let's double the team.\" What do you flag?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Nothing. 40% growth proves the plan works",
+            "verdict": "risky",
+            "feedback": "That's reading only the top line. *Revenue vs profit*: growth that costs more to deliver can shrink what you keep."
+          },
+          {
+            "key": "B",
+            "text": "Gross margin fell from 65% to 50%. Fix the manual setup before scaling",
+            "verdict": "best",
+            "feedback": "*Gross margin* shows each new clinic now costs more to serve. Doubling the team first would scale that problem."
+          },
+          {
+            "key": "C",
+            "text": "Cut marketing to improve net margin",
+            "verdict": "partial",
+            "feedback": "Net margin would look better, but the *gross margin* problem stays hidden underneath and grows with every new clinic."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "In software, a falling gross margin often means manual work is creeping in: hand-built setups, custom features or heavy support. It's an early warning before the bottom line shows it."
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Read the top line, then both margins.",
+      "body": [
+        "You used two ideas: **revenue vs profit**, so a growth headline doesn't end your reading, and **gross vs net margin**, to separate what the product earns from what the business spends.",
+        "**Try it today:** take your own business's last profit and loss. Write your gross margin and net margin side by side, and name the one line that explains the gap."
+      ],
+      "next": "Next · When a company invents its own kind of profit"
+    }
+  ]
+}

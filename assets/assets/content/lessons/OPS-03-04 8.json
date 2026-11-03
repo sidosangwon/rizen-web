@@ -1,0 +1,267 @@
+{
+  "id": "OPS-03-04",
+  "unitId": "OPS-03",
+  "categoryId": "OPS",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "The bullwhip effect",
+  "readerTitle": "Nobody used more paper towels. So why did the factory get swamped?",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.1,
+  "caseKinds": [
+    "illustrative",
+    "real_research",
+    "real_company"
+  ],
+  "caseNote": "가상 장면 (키친타월 진열대, 가사 청소 업체, 사내 장비팀) + 실제 연구 (Lee·Padmanabhan·Whang 1997, MIT 맥주 게임) + 실제 기업 관찰 (P&G 기저귀 주문)",
+  "insight": "주문은 수요가 아니다. 공급망의 각 단계는 실제 사용량이 아니라 바로 아래 단계의 주문만 보기 때문에, 작은 변화가 위로 갈수록 큰 파동이 된다.",
+  "misconception": "주문이 크게 늘었으면 고객 수요도 그만큼 늘어난 것이다. 넉넉히 주문하는 것은 나만 안전해지는 공짜 보험이다.",
+  "relatedLessonIds": [
+    "OPS-03-02",
+    "OPS-03-05"
+  ],
+  "sources": [
+    {
+      "text": "Lee, H. L., Padmanabhan, V., & Whang, S. (1997). The Bullwhip Effect in Supply Chains. Sloan Management Review, 38(3).",
+      "url": null
+    },
+    {
+      "text": "Sterman, J. D. (1989). Modeling Managerial Behavior: Misperceptions of Feedback in a Dynamic Decision Making Experiment. Management Science, 35(3). (MIT 맥주 게임)",
+      "url": null
+    },
+    {
+      "text": "차트와 판단 문제의 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "P&G 기저귀(Pampers) 주문 변동 사례는 Lee·Padmanabhan·Whang(1997)에 소개된 내용입니다. 카드에는 '1990년대', '소매 → 유통 → P&G → 공급사로 갈수록 변동이 커졌다'는 일반적인 서술만 썼습니다. 원문 표현을 게시 전에 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "맥주 게임: 4단계 공급망(소매·도매·유통·공장), 고객 수요가 한 번만 계단식으로 바뀌는데도 상류 주문이 크게 출렁인다는 결과는 Sterman(1989) 기준입니다. 참가자에 경험 있는 관리자도 포함되었다는 점을 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "차트 수치(소비자 +10%, 매장 +25%, 유통 +50%, 제지 공장 +100%)는 증폭 모양을 보여주기 위한 가상 수치입니다.",
+      "status": "open"
+    },
+    {
+      "note": "청소 업체 계산: 평소 월 100병 × 예약 20% 증가 = 120병. 2주 배송 대기분은 '작은 추가분'으로만 표현했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "4가지 원인(수요 신호 처리, 묶음 주문, 가격 변동, 배급 시 과다 주문)은 Lee 외(1997)의 분류를 쉬운 말로 옮긴 것입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Everyday scene",
+      "title": "Nobody used more paper towels.",
+      "illustrative": true,
+      "body": [
+        "A shopper sees a half-empty shelf and takes two packs instead of one. A few others do the same. The store's sales jump, so it orders extra from its distributor, plus a bit more to be safe.",
+        "The distributor sees that spike from many stores and orders even more from the mill. By the time the signal reaches the factory, it looks like a boom. At home, people are using paper towels exactly as before."
+      ],
+      "image": {
+        "label": "Half-empty paper towel shelf with a shopper holding two packs",
+        "aspectRatio": "4:3",
+        "brief": "마트 키친타월 진열대가 절반쯤 비어 있고, 손님 한 명이 두 팩을 안고 있는 장면. 뒤쪽으로 트럭과 공장이 점점 크게 이어지며 커지는 물결 모양 화살표. 실제 브랜드 로고나 포장 디자인은 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Spring bookings jumped. How much do you reorder?",
+      "illustrative": true,
+      "body": [
+        "You run a home-cleaning company with eight crews. Bookings rose 20% this month, the usual spring bump. Your supply room is low, and deliveries take two weeks.",
+        "You normally order 100 bottles of cleaner a month. What do you order now?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "200 bottles. Running out would be worse than overstocking",
+            "verdict": "risky",
+            "feedback": "You won't run out, but you've doubled your order on a 20% rise. Your supplier now sees a doubling, and you sit on cleaner well into summer."
+          },
+          {
+            "key": "B",
+            "text": "About 120, plus a small top-up to cover the two-week wait",
+            "verdict": "best",
+            "feedback": "This tracks what customers actually booked. You stay covered without sending your supplier a signal much bigger than reality."
+          },
+          {
+            "key": "C",
+            "text": "The usual 100. Spring will pass",
+            "verdict": "partial",
+            "feedback": "No overstock, but crews may run short mid-month. Ignoring a real rise is the opposite mistake."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "What happened",
+      "title": "A small ripple becomes a big wave.",
+      "illustrative": true,
+      "body": [
+        "Back to the paper towels. Shoppers bought 10% more for a few weeks. Each link ordered based on what it saw from the link below, plus a cushion of its own."
+      ],
+      "chart": {
+        "unit": "%",
+        "groups": [
+          {
+            "label": "Rise in orders vs a normal month",
+            "rows": [
+              {
+                "label": "Shoppers",
+                "value": 10,
+                "highlight": false
+              },
+              {
+                "label": "Store",
+                "value": 25,
+                "highlight": false
+              },
+              {
+                "label": "Distributor",
+                "value": 50,
+                "highlight": false
+              },
+              {
+                "label": "Mill",
+                "value": 100,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "callout": "Then shoppers stop. Everyone holds extra stock, and orders crash below normal all the way up.",
+      "image": {
+        "label": "A small ripple becomes a big wave.",
+        "aspectRatio": "4:3",
+        "brief": "Labeled HTML chart from the lesson numbers",
+        "url": "assets/images/ops-03-04-chart.png"
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The bullwhip effect",
+      "body": [
+        "The **bullwhip effect** is when small changes in what end customers buy grow into big swings in orders further up the supply chain.",
+        "A small flick of the wrist sends the tip of a whip flying. Each business sees only the orders from the link below it, not real use. So it reacts to a signal that's already exaggerated, and adds its own."
+      ],
+      "image": {
+        "label": "A whip whose wave grows from shopper to store to distributor to factory",
+        "aspectRatio": "16:9",
+        "brief": "가로로 긴 채찍 일러스트. 손잡이 쪽에 'Shoppers', 이어서 'Store', 'Distributor', 끝부분에 'Factory' 라벨. 손잡이 쪽 물결은 작고 끝으로 갈수록 크게 휘어짐.",
+        "url": null
+      },
+      "softwareNote": "Software teams see it in cloud capacity. Each team pads its request, the platform team pads the total, and the company commits to far more servers than anyone uses."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "Big companies found it in their own data.",
+      "body": [
+        "In the 1990s, Procter & Gamble studied its diaper business. Babies use diapers at a steady rate. Yet store orders swung, distributor orders swung more, and P&G's orders to its own suppliers swung most. Hau Lee, V. Padmanabhan and Seungjin Whang described this in a 1997 paper.",
+        "MIT's **beer game** shows it in a classroom. Players run a four-step chain. Customer demand changes just once, yet orders upstream swing wildly, even with experienced managers playing."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Four habits that crack the whip.",
+      "body": [
+        "Each one makes sense on its own. Together they amplify."
+      ],
+      "list": [
+        "**Reacting to orders, not use:** a jump in orders looks like a trend, so you raise your forecast",
+        "**Ordering in batches:** monthly or full-truck orders turn smooth demand into lumps",
+        "**Price deals:** a discount makes buyers stock up now and order nothing later",
+        "**Fear of shortage:** when supply is rationed, buyers ask for more than they need"
+      ],
+      "callout": "The fixes run the other way: share real demand, order smaller and more often, keep prices steady.",
+      "softwareNote": "In a digital business, watch signups driven by a launch or a discount. A spike in trials is an order, not lasting use. Hiring support staff on the spike can leave you overstaffed a month later."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Not every spike is noise.",
+      "body": [
+        "Calming the whip doesn't mean ignoring orders. Sometimes demand really has changed, and the business that waits for proof runs out.",
+        "The fixes have costs too. Sharing your sales data takes trust, and a supplier may use it in price talks. Smaller, more frequent orders can cost more to ship. Dampening the swings pays off when the swings cost more than the fixes."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now you run the laptop team.",
+      "illustrative": true,
+      "body": [
+        "You manage equipment for a 2,000-person company. Last quarter laptops ran short and some new hires waited a week for one.",
+        "This quarter, department requests are up 60%. The company's hiring plan is up 10%. What do you do?"
+      ],
+      "image": {
+        "label": "Stack of laptop request forms next to a small hiring chart",
+        "aspectRatio": "16:9",
+        "brief": "사무실 책상 위에 노트북 요청서가 높이 쌓여 있고, 옆 모니터에는 완만하게 오르는 채용 계획 그래프. 요청서 더미와 그래프 높이 차이가 눈에 띄게. 실제 노트북 브랜드 로고는 쓰지 않음.",
+        "url": null
+      },
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Order 60% more laptops so nobody waits again",
+            "verdict": "risky",
+            "feedback": "Nobody waits, but you'll likely hold hundreds of idle laptops. You're reacting to padded requests, not to hiring."
+          },
+          {
+            "key": "B",
+            "text": "Plan from the hiring plan, keep a small buffer, and show managers live stock so they stop padding",
+            "verdict": "best",
+            "feedback": "You order on real use and remove the fear that caused the padding. It takes effort to get hiring data, but the swings shrink."
+          },
+          {
+            "key": "C",
+            "text": "Order 15% more and split it in proportion to each request",
+            "verdict": "partial",
+            "feedback": "It caps the cost, but splitting by request size rewards whoever asked for most. Next quarter, requests grow even more."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Order on what customers use, not on what others order.",
+      "body": [
+        "Every link that pads its order distorts the view of the next. Look past the order to the real use behind it.",
+        "**Try it today:** pick one thing you reorder often. Compare your last three orders with what you actually used in those months."
+      ],
+      "next": "Next · Why your best supplier is worth more than its price"
+    }
+  ]
+}

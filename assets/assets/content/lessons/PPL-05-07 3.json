@@ -1,0 +1,237 @@
+{
+  "id": "PPL-05-07",
+  "unitId": "PPL-05",
+  "categoryId": "PPL",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "A kitchen team",
+  "readerTitle": "The cook who saw the mistake and said nothing",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.6,
+  "caseKinds": [
+    "illustrative",
+    "real_observation"
+  ],
+  "caseNote": "가상 사례 (호텔 주방, 가사 청소 업체) + 실제 관찰 (주방의 브리게이드 체계와 'Heard, chef' 같은 콜백 관행)",
+  "insight": "실수가 새는 곳은 대개 '모두의 일'로 남은 인수인계와, 본 사람이 말하지 못하는 순간이다. 이름 붙은 담당자와 말해도 안전한 분위기는 함께 있어야 작동한다.",
+  "misconception": "사고가 나면 실수한 사람을 찾아 엄하게 책임을 묻는 것이 재발을 막는 가장 확실한 방법이다.",
+  "relatedLessonIds": [
+    "PPL-05-03",
+    "PPL-05-01"
+  ],
+  "sources": [
+    {
+      "text": "Edmondson, A. (1999). Psychological Safety and Learning Behavior in Work Teams. Administrative Science Quarterly, 44(2).",
+      "url": null
+    },
+    {
+      "text": "전문 주방의 브리게이드 체계 (일반적으로 19세기 말 Auguste Escoffier가 정리한 것으로 알려짐)",
+      "url": null
+    },
+    {
+      "text": "주방 사례와 청소 업체 사례는 설명용 가상 사례",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "브리게이드 체계를 Escoffier가 정리했다는 설명은 널리 알려진 내용이지만, 카드에는 'usually credited to'로 완화해 적었습니다. 게시 전 요리사 교육 자료로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "'Heard, chef', 'Behind' 같은 콜백은 영미권 주방에서 흔히 쓰이는 관행으로 관찰된 내용입니다. 특정 주방의 규칙으로 일반화하지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "소프트웨어 장애 대응의 '단일 책임자(incident commander)'와 '비난 없는 회고(blameless postmortem)'는 업계에서 널리 쓰이는 관행으로, 특정 기업 수치는 인용하지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Teams · Everyday scene",
+      "title": "The cook who saw the mistake and said nothing",
+      "illustrative": true,
+      "body": [
+        "Friday night in a busy hotel kitchen. A ticket reads *nut allergy*. The plate goes out with a pesto that contains pine nuts.",
+        "A server catches it at the table, just in time. Later, a junior cook admits she noticed the ticket. She didn't say anything. Everyone assumed someone else had checked."
+      ],
+      "image": {
+        "label": "Busy hotel kitchen pass with one cook hesitating",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 일러스트. 분주한 호텔 주방의 패스(음식 내보내는 선반). 요리사들이 빠르게 움직이는데, 앞치마를 맨 젊은 요리사 한 명만 주문표를 보며 멈칫하고 입을 다문 모습. 실제 호텔 로고나 브랜드 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You're the head chef. What do you do first?",
+      "illustrative": true,
+      "body": [
+        "No guest was hurt, but it was close. Your kitchen sits inside a large hotel, and the hotel manager wants to know what you'll change.",
+        "Which move comes first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Find out who plated the dish and give them a written warning",
+            "verdict": "risky",
+            "feedback": "It shows you take it seriously, but it teaches the team that mistakes get punished. That hurts **psychological safety**: next time, people hide what they see."
+          },
+          {
+            "key": "B",
+            "text": "Name one person to check every allergy ticket at the pass, and ask the junior cook what stopped her speaking up",
+            "verdict": "best",
+            "feedback": "This fixes both leaks. **Roles and accountability** gives the check an owner. Asking without blame builds **psychological safety**, so the next warning gets said out loud."
+          },
+          {
+            "key": "C",
+            "text": "Hold a team meeting to remind everyone how serious allergies are",
+            "verdict": "partial",
+            "feedback": "Good intent, but nothing changes. The check still belongs to everyone, which means no one, and the junior cook still doesn't know if speaking up is welcome."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "Kitchens already know this",
+      "title": "A good kitchen runs on owners and call-backs.",
+      "body": [
+        "Professional kitchens often use the **brigade system**, usually credited to the French chef Auguste Escoffier. Every station has one owner: sauces, grill, fish, pastry. Nobody wonders whose job the sauce is.",
+        "Kitchens also use call-backs. When the chef calls an order, cooks answer \"Heard, chef.\" When someone walks past with a hot pan, they say \"Behind.\" Saying it out loud is part of the job.",
+        "The pesto slipped through a gap in both habits."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept at work · Roles and accountability",
+      "title": "\"Everyone checks allergies\" means no one does.",
+      "body": [
+        "Every station had an owner. The allergy check didn't. It sat between the cook, the person plating and the server, so each assumed another had done it.",
+        "**Roles and accountability** means each task, especially each handoff, has one named owner. Others can help. One person answers for it.",
+        "The fix is small: one person at the pass reads every allergy ticket before a plate leaves."
+      ],
+      "image": {
+        "label": "Kitchen stations, each with one owner, and a gap at the pass",
+        "aspectRatio": "16:9",
+        "brief": "주방 평면도 인포그래픽. 'Sauce', 'Grill', 'Fish', 'Pastry' 스테이션마다 요리사 아이콘 한 명씩. 가운데 'Allergy check' 칸만 물음표로 비어 있다가, 오른쪽 그림에서는 이름표가 붙은 한 사람이 채운 모습.",
+        "url": null
+      },
+      "softwareNote": "Software teams handle outages the same way. One named incident lead runs the response, and the review afterward looks for what broke in the process, not who to blame."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Concept at work · Psychological safety",
+      "title": "She saw it. The kitchen made it hard to say.",
+      "body": [
+        "Kitchens are loud, fast and ranked. The newest cook has the least status. Stopping a plate means questioning someone senior in front of everyone.",
+        "**Psychological safety** is a shared belief that you won't be punished or mocked for speaking up. Without it, the person closest to a problem stays quiet.",
+        "A head chef can build it on purpose: thank the person who stops a plate, even when they turn out to be wrong. One public thank-you teaches more than a speech."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Your call · mid-rush",
+      "title": "A cook flags the fish. The sous chef snaps.",
+      "illustrative": true,
+      "body": [
+        "Two weeks later, during the rush, a cook says the fish smells off. Your sous chef, your second in command, snaps: \"Not now. Plate it.\" The cook goes quiet.",
+        "After service, what do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Back your sous chef. Speed matters in a rush",
+            "verdict": "risky",
+            "feedback": "You protect the sous chef's authority, but every cook learns that food-safety warnings are unwelcome. That undoes the **psychological safety** you just started building."
+          },
+          {
+            "key": "B",
+            "text": "Talk privately with the sous chef: food-safety flags always get a ten-second check, and the sous chef makes the call",
+            "verdict": "best",
+            "feedback": "The sous chef keeps authority without public embarrassment. **Roles** stay clear about who decides, and **psychological safety** stays real because flags always get heard."
+          },
+          {
+            "key": "C",
+            "text": "Tell the cook to bring concerns straight to you next time",
+            "verdict": "partial",
+            "feedback": "The cook feels heard, but you skip the sous chef and blur **roles**. You also become a bottleneck on every busy night."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Safe isn't soft, and clear isn't rigid.",
+      "body": [
+        "Psychological safety doesn't mean lower standards. The best kitchens are demanding *and* safe: the bar stays high, and admitting a miss is how you meet it.",
+        "Clear roles have a trap too. Pushed too far, they become \"not my station.\" Owning a task doesn't stop you from helping a neighbor who's drowning in tickets.",
+        "One owner, many helpers, and anyone allowed to say stop."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a home cleaning crew.",
+      "illustrative": true,
+      "body": [
+        "You run a cleaning company. Three-person crews clean homes. A client complains that a spare bedroom was skipped. Each cleaner thought another had done it. The newest one noticed the closed door but didn't ask.",
+        "What do you change?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Dock a little pay from all three cleaners",
+            "verdict": "risky",
+            "feedback": "Shared blame feels fair but owns nothing. It also teaches crews to hide misses, the opposite of **psychological safety**."
+          },
+          {
+            "key": "B",
+            "text": "Split rooms by name before each job, and end with a two-minute walk-through where anyone can flag a miss",
+            "verdict": "best",
+            "feedback": "Named rooms give each task an owner (**roles and accountability**). The walk-through gives the newest cleaner a normal moment to speak up (**psychological safety**)."
+          },
+          {
+            "key": "C",
+            "text": "Have the crew lead personally inspect every room",
+            "verdict": "partial",
+            "feedback": "Now one person owns quality, but jobs run longer and the others stop checking their own work. The newest cleaner still has no easy way to speak up."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "The same fix works for a product team before a release: each checklist item has a named owner, and a short final review where the newest engineer can say \"wait.\""
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Give every handoff an owner, and make it safe to say stop.",
+      "body": [
+        "You used two ideas from this unit: **roles and accountability**, so every task and handoff has one named owner, and **psychological safety**, so the person who sees a problem says it out loud. Either alone leaves a gap.",
+        "**Try it today:** pick one handoff in your team. Can you name who owns it? Then ask your newest person what they noticed last week but didn't mention."
+      ],
+      "next": "Next · Leading a team you rarely see in person"
+    }
+  ]
+}

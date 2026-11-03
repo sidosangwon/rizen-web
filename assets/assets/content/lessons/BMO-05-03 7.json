@@ -1,0 +1,276 @@
+{
+  "id": "BMO-05-03",
+  "unitId": "BMO-05",
+  "categoryId": "BMO",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "Take rates",
+  "readerTitle": "Why a 10% fee can take half a seller's profit",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative",
+    "real_company"
+  ],
+  "caseNote": "가상 사례 (대형 인테리어 소매 체인 안의 설치기사 마켓플레이스 팀, 프리랜서 디자인 플랫폼) + 앱스토어 수수료에 대한 일반적 언급 · 모든 수치는 설명용",
+  "insight": "수수료율은 거래 금액이 아니라 판매자가 한 건에서 남기는 이익에 대어 보아야 한다. 그리고 그 상한은 플랫폼이 그 거래에 더해 주는 가치다.",
+  "misconception": "10%는 작은 수수료다. 수수료율을 두 배로 올리면 매출도 두 배가 된다.",
+  "relatedLessonIds": [
+    "BMO-02-03",
+    "BMO-05-05"
+  ],
+  "sources": [
+    {
+      "text": "마켓플레이스 지표의 표준 개념 (take rate = 플랫폼 매출 ÷ 총거래액 GMV)",
+      "url": null
+    },
+    {
+      "text": "Apple App Store Review Guidelines 및 App Store Small Business Program 발표 (2020)",
+      "url": null
+    },
+    {
+      "text": "설치기사·디자인 플랫폼의 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "설치 작업 계산: 작업가 $1,000, 기사 비용 $800, 수수료 전 이익 $200. 수수료 10% = $100, 기사 몫 $100. 수수료 20% = $200, 기사 몫 $0. 수수료 10%는 기사 이익의 50%.",
+      "status": "open"
+    },
+    {
+      "note": "팀 매출: 월 거래액 $2M × 10% = $200k. 20%로 올리고 거래량이 그대로라면 $400k, 실제로는 기사 이탈로 거래량이 줄 수 있음.",
+      "status": "open"
+    },
+    {
+      "note": "차트 계산: 수수료 10%가 판매자 이익에서 차지하는 비율 = 10% ÷ 판매자 이익률. 이익률 20% → 50%, 10% → 100%, 80% → 12.5%. 모두 가상 이익률입니다.",
+      "status": "open"
+    },
+    {
+      "note": "앱스토어가 디지털 판매에 최대 30%를 받아 왔다는 점은 일반적으로 알려진 사실이며, Apple이 소규모 개발자에게 15%를 적용하는 프로그램을 2020년에 발표했습니다. 게시 전 Apple 공식 자료와 이후 규정 변경(지역별 규제 포함)을 다시 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business models · Numbers twist",
+      "title": "The fee went up 10 points. The installer's profit went to zero.",
+      "illustrative": true,
+      "body": [
+        "A platform charges installers 10% of every job. Someone suggests 20%. It sounds like a small tweak.",
+        "For an installer earning $200 on a $1,000 job, it's not small at all. It's everything."
+      ],
+      "image": {
+        "label": "An installer's toolbox with a coin being lifted out by a hand",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 설치기사의 공구함 위에 동전 두 개. 위에서 내려온 손이 동전 두 개를 모두 집어 가는 장면. 상단에 \"10% → 20%\" 라벨. 실제 기업 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Leadership wants double the revenue.",
+      "illustrative": true,
+      "body": [
+        "You run the installer marketplace team inside a big home-improvement chain. Customers book independent installers on the chain's website. Jobs total $2M a month, and your 10% fee brings in $200k.",
+        "Leadership wants $400k and suggests a 20% fee. Which number do you check first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "What rival platforms charge installers",
+            "verdict": "partial",
+            "feedback": "Useful context, but rivals have different services and sellers. It tells you what's common, not what your installers can bear."
+          },
+          {
+            "key": "B",
+            "text": "How much an installer keeps per job after their own costs",
+            "verdict": "best",
+            "feedback": "This shows how much of their profit you already take. It's the number that decides whether they stay."
+          },
+          {
+            "key": "C",
+            "text": "Revenue at 20% if job volume stays the same",
+            "verdict": "risky",
+            "feedback": "It gives the $400k leadership wants, on paper. But it assumes installers won't raise prices, leave or take jobs elsewhere."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Follow one $1,000 job.",
+      "illustrative": true,
+      "body": [
+        "At 10%, you take **half** the installer's profit. At 20%, you take all of it. The fee doubled. Their take-home fell from $100 to $0."
+      ],
+      "breakdown": [
+        {
+          "value": "$1,000",
+          "label": "Job price",
+          "detail": "What the customer pays",
+          "highlight": false
+        },
+        {
+          "value": "−$800",
+          "label": "Installer's costs",
+          "detail": "Materials, van, insurance, their time",
+          "highlight": false
+        },
+        {
+          "value": "−$100",
+          "label": "Your 10% fee",
+          "detail": "$200 at 20%",
+          "highlight": false
+        },
+        {
+          "value": "$100",
+          "label": "Installer keeps",
+          "detail": "$0 at a 20% fee",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Take rate",
+      "body": [
+        "A **take rate** is the share of each transaction a marketplace keeps as its own revenue. It's your revenue divided by the total value of deals on your platform, often called *gross merchandise value* or GMV.",
+        "Here: $200k ÷ $2M = 10%.",
+        "The buyer sees the price. The seller feels the fee against what they keep. That's why a modest-sounding rate can feel huge."
+      ],
+      "image": {
+        "label": "A $1,000 bar with a 10% slice cut from a thin profit layer",
+        "aspectRatio": "16:9",
+        "brief": "가로 막대 하나가 $1,000. 대부분은 회색 \"Seller's costs $800\", 끝의 얇은 초록 층이 \"Profit $200\". 10% 수수료 조각이 그 초록 층의 절반을 잘라 가는 모습.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "A take rate has a floor and a ceiling.",
+      "body": [
+        "Sellers don't compare your fee to zero. They compare it to finding customers on their own."
+      ],
+      "list": [
+        "**Floor:** what it costs you to run each deal, like payments, support and marketing",
+        "**Ceiling:** the value you add, like customers they couldn't reach, trust, scheduling and getting paid on time",
+        "**Seller margin:** the thinner it is, the less room under the ceiling"
+      ],
+      "callout": "To raise the rate, raise the value you add first.",
+      "softwareNote": "App stores have long taken up to 30% on digital sales, and Apple later cut this to 15% for smaller developers. Digital goods cost little to make again, so sellers have more profit for a fee to come from."
+    },
+    {
+      "index": 6,
+      "type": "chart",
+      "eyebrow": "Same fee, different sellers",
+      "title": "A 10% fee as a share of the seller's profit",
+      "illustrative": true,
+      "body": [
+        "The same 10% rate means very different things to different sellers. A thin-margin seller hands over most of their profit."
+      ],
+      "chart": {
+        "unit": "%",
+        "groups": [
+          {
+            "label": "Share of seller profit taken by a 10% fee",
+            "rows": [
+              {
+                "label": "Restaurant (10% margin)",
+                "value": 100,
+                "highlight": true
+              },
+              {
+                "label": "Installer (20% margin)",
+                "value": 50,
+                "highlight": false
+              },
+              {
+                "label": "Online course creator (80% margin)",
+                "value": 12.5,
+                "highlight": false
+              }
+            ]
+          }
+        ]
+      },
+      "image": {
+        "label": "A 10% fee as a share of the seller's profit",
+        "aspectRatio": "4:3",
+        "brief": "Labeled HTML chart from the lesson numbers",
+        "url": "assets/images/bmo-05-03-chart.png"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Lower isn't always better either.",
+      "body": [
+        "A rate too low can't pay for the things that make the marketplace worth using: vetting sellers, handling disputes, bringing in buyers.",
+        "Rates are also hard to raise later. Sellers built their prices around the old one, and some will start arranging repeat deals off your platform.",
+        "And compare rates carefully. Some platforms also charge buyers a fee, so the headline seller rate isn't the whole take."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a freelance design app.",
+      "illustrative": true,
+      "body": [
+        "Your app matches small businesses with freelance designers and takes 5%. You need more revenue. Many designers find a client through you, then keep working with them for months.",
+        "What fee structure fits best?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Raise everyone to 15%",
+            "verdict": "risky",
+            "feedback": "Simple and quick revenue. But designers with long-term clients may feel you charge more for work you no longer help with, and move it off the app."
+          },
+          {
+            "key": "B",
+            "text": "Charge more on a new client's first jobs, less on repeat work",
+            "verdict": "best",
+            "feedback": "The fee follows the value: high when you brought the client, low when the relationship runs itself. You earn less on repeat work but keep it on the app."
+          },
+          {
+            "key": "C",
+            "text": "Keep 5% and add a monthly subscription for designers",
+            "verdict": "partial",
+            "feedback": "It adds steady revenue without touching the rate. But designers who rarely win work may pay for nothing and leave."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Measure your fee against what the seller keeps.",
+      "body": [
+        "A take rate isn't small or large on its own. It's small or large next to the seller's profit and the value you add to each deal.",
+        "**Try it today:** pick one supplier or partner you pay a commission to, or who pays one to you. Work out what share of their profit that fee really is."
+      ],
+      "next": "Next · Why a marketplace with plenty of sellers can still feel empty"
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "id": "ECO-08-01",
+  "unitId": "ECO-08",
+  "categoryId": "ECO",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Raising prices",
+  "readerTitle": "Netflix raised a price 60%. Three months later, 800,000 subscribers were gone.",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft_review",
+  "estimatedMinutes": 4.2,
+  "caseKinds": [
+    "real_company",
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Netflix 2011) + 실제 연구 (Kahneman & Tversky 1979) + 실제 규제 (프랑스 2024) + 가상 사례 (청소 서비스, 사무용품 공급)",
+  "insight": "가격 인상은 기존 고객에게 손실로 느껴진다. 시간, 이유, 가치, 빠져나갈 길로 그 손실을 줄인다.",
+  "misconception": "인상 폭만 작으면 문제없다. 조용히 바꾸면 아무도 모른다.",
+  "relatedLessonIds": [
+    "CUS-05-06",
+    "ECO-08-05"
+  ],
+  "sources": [
+    {
+      "text": "Kahneman & Tversky (1979). Prospect Theory. Econometrica.",
+      "url": null
+    },
+    {
+      "text": "Tversky & Kahneman (1992). Advances in Prospect Theory. J. of Risk and Uncertainty.",
+      "url": null
+    },
+    {
+      "text": "Netflix Q3 2011 Letter to Shareholders",
+      "url": null
+    },
+    {
+      "text": "France, Arrêté du 16 avril 2024 (réduction de quantité, « shrinkflation »)",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Netflix 2011년 수치: 3분기 미국 구독자 약 80만 명 감소(24.59M → 23.79M, Q3 2011 주주서한). 주가는 7월 고점 약 $300에서 11월 약 $63까지 떨어졌습니다(약 -79%). 카드에는 \"roughly 75%\"로 보수적으로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "\"손실은 이득보다 약 2배 크게 느껴진다\"는 손실회피 계수 추정치(약 2–2.25)를 단순화한 표현입니다.",
+      "status": "open"
+    },
+    {
+      "note": "프랑스 슈링크플레이션 표시 의무는 2024년 7월 1일 시행된 법령 기준입니다. 다른 국가 사례로 바꿀 때는 따로 확인이 필요합니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Pricing · Lesson 5",
+      "title": "Netflix raised a price 60%. Three months later, 800,000 subscribers were gone.",
+      "body": [
+        "Every growing company has to raise prices eventually. Few do it well.",
+        "Today: why a price increase hurts more than a price cut helps, and how to raise prices without a revolt."
+      ],
+      "image": {
+        "label": "Line chart dropping sharply",
+        "aspectRatio": "4:3",
+        "brief": "급락하는 라인 차트에 빨간 TV 아이콘. 실제 넷플릭스 로고는 쓰지 않음.",
+        "url": "assets/images/eco-08-01-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You need to raise your price.",
+      "illustrative": true,
+      "body": [
+        "You run a house-cleaning service with 300 regular clients at $120 a visit. Wages and supplies have gone up, and you need to charge $140.",
+        "How do you roll it out?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Move everyone to $140 next week with a short text message",
+            "verdict": "risky",
+            "feedback": "Fast, but it's the most painful version. Clients get a surprise loss with no time to adjust and no reason why. Expect cancellations and angry replies."
+          },
+          {
+            "key": "B",
+            "text": "New clients pay $140 now. Regular clients stay at $120 for 3 months, with notice and a clear reason",
+            "verdict": "best",
+            "feedback": "This is the standard playbook. New clients never knew the old price, and regulars get time, an explanation and a reward for staying."
+          },
+          {
+            "key": "C",
+            "text": "Keep $120 but quietly shorten each visit",
+            "verdict": "risky",
+            "feedback": "This is shrinkflation. It avoids an announcement, but clients who notice the skipped corners feel tricked, and that lasts longer than a price rise."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Loss aversion",
+      "body": [
+        "Daniel Kahneman and Amos Tversky found that losses feel roughly **twice as strong** as gains of the same size. Losing $10 hurts more than finding $10 feels good.",
+        "To a current customer, a price increase isn't a new price. It's **losing a price they already had**. The same $20 a new customer happily pays can make a current customer furious."
+      ],
+      "image": {
+        "label": "Scale: −$5 outweighs +$5",
+        "aspectRatio": "16:9",
+        "brief": "저울 일러스트. 한쪽 \"−$5\"가 무겁게 내려가고 반대쪽 \"+$5\"는 가볍게 올라감.",
+        "url": "assets/images/eco-08-01-c3.jpg"
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "When it went wrong",
+      "title": "Netflix, July 2011.",
+      "body": [
+        "Netflix split its $9.99 DVD-plus-streaming plan into two separate plans at $7.99 each. For people who wanted both, that meant **$15.98, a 60% jump**, announced in a short blog post.",
+        "In September it said DVDs would move to a separate service called Qwikster. It dropped that plan a few weeks later.",
+        "Netflix lost about 800,000 US subscribers that quarter. Its stock fell roughly 75% from its July peak within a few months."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "What changed",
+      "title": "Then it learned to raise prices often, and gently.",
+      "body": [
+        "Netflix has raised prices many times since. The pattern is usually the same: a modest step, announced in advance, paired with more content or a new plan, and rolled out to existing members gradually.",
+        "Subscribers kept growing through most of those increases. The size of the increase matters, but **how it's delivered** matters at least as much."
+      ],
+      "image": {
+        "label": "Small steps up, line keeps rising",
+        "aspectRatio": "16:9",
+        "brief": "작은 계단식 가격 상승 그래프와 그 위로 꾸준히 오르는 구독자 곡선을 겹쳐서.",
+        "url": "assets/images/eco-08-01-c5.jpg"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The playbook",
+      "title": "Five rules for raising prices.",
+      "list": [
+        "**Give notice.** 30 to 90 days, so it's a plan, not a surprise.",
+        "**Explain why** in the customer's terms: what they get, not what you need.",
+        "**Pair it with value**, such as a new feature, better support or more content.",
+        "**Protect loyalty.** Delay the increase for current customers, or let them lock in a yearly plan at the old price.",
+        "**Offer a way down.** A cheaper plan keeps people who would otherwise cancel."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Shrinkflation is a price increase too.",
+      "body": [
+        "Making a product smaller or weaker at the same price avoids the announcement. Customers notice eventually, and it feels like being tricked rather than charged more.",
+        "Regulators are noticing too. Since July 2024, France has required large supermarkets to label products whose quantity shrank while the price stayed the same or went up."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Your business clients renew in 3 months.",
+      "illustrative": true,
+      "body": [
+        "You supply cleaning products to offices on yearly contracts. You're raising prices by 15%. When and how do you tell them?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "On the renewal invoice",
+            "verdict": "risky",
+            "feedback": "They find out when the bill arrives. That's the surprise loss that sends buyers looking for another supplier."
+          },
+          {
+            "key": "B",
+            "text": "60–90 days ahead, with an option to renew early at today's price",
+            "verdict": "best",
+            "feedback": "Notice plus a reward for loyalty. Some clients renew early, which brings cash in sooner, and nobody is surprised."
+          },
+          {
+            "key": "C",
+            "text": "Don't announce it. Most won't notice",
+            "verdict": "risky",
+            "feedback": "Purchasing teams check invoices. The ones who notice will lose trust in you, and a price change without the notice your contract requires can break it."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A price increase is a message. Deliver it like one.",
+      "body": [
+        "Customers feel a loss about twice as hard as a gain. Your job is to soften it with time, a reason, added value and a way out.",
+        "**Try it today:** if you had to raise prices 20% next quarter, write the first two sentences of the email to your customers."
+      ],
+      "next": "Unit complete · Next unit: Pricing experiments"
+    }
+  ]
+}

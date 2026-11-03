@@ -1,0 +1,254 @@
+{
+  "id": "ENT-02-06",
+  "unitId": "ENT-02",
+  "categoryId": "ENT",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Franchise vs independent",
+  "readerTitle": "Why an 8% franchise fee can take half your profit",
+  "format": "numbers_twist",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (청소 서비스, 샌드위치 가게) · 모든 수치는 설명용",
+  "insight": "프랜차이즈 수수료는 매출이 아니라 이익과 비교하고, '이 시스템 없이 나는 얼마나 팔 수 있나'를 묻는다.",
+  "misconception": "매출의 8% 수수료는 이익의 8% 정도만 가져간다. 유명 브랜드를 달면 언제나 더 안전하고 더 많이 번다.",
+  "relatedLessonIds": [
+    "BMO-02-06",
+    "ENT-02-05"
+  ],
+  "sources": [
+    {
+      "text": "프랜차이즈의 일반 구조 (가맹비, 매출 기준 로열티, 광고 분담금)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "청소 서비스 계산: 매출 $400,000 − 비용 $340,000 = 수수료 전 이익 $60,000(15%). 수수료 8% × $400,000 = $32,000. 남는 돈 $28,000. 32,000 ÷ 60,000 = 53.3%(약 절반). 매출 $1당 독립 15¢, 가맹 7¢.",
+      "status": "open"
+    },
+    {
+      "note": "손익 동일 지점: $28,000 ÷ 0.15 = $186,667(약 $187,000). 비용 비율이 같다는 단순화 가정이며, 실제로는 가맹 본부의 공동 구매 등으로 비용 구조가 다를 수 있음을 6·7번 카드에서 언급.",
+      "status": "open"
+    },
+    {
+      "note": "샌드위치 가게 계산: 매출 $500,000 × 12% = $60,000, 수수료 8% × $500,000 = $40,000, 40,000 ÷ 60,000 = 66.7%(약 3분의 2). 남는 돈 $20,000.",
+      "status": "open"
+    },
+    {
+      "note": "로열티가 보통 이익이 아닌 매출 기준으로 부과된다는 일반적 설명이 맞는지, 수수료율이 브랜드마다 크게 다르다는 점을 게시 전 확인. 특정 국가의 가맹 법규는 다루지 않음.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Small business · Numbers twist",
+      "title": "Why an 8% franchise fee can take half your profit",
+      "illustrative": true,
+      "body": [
+        "Two home-cleaning businesses work the same town. Each brings in $400,000 a year. Same crews, same vans, same kind of customers.",
+        "One wears a franchise brand and pays 8% of its sales to head office. The other is independent. 8% sounds modest. Watch where it comes from."
+      ],
+      "image": {
+        "label": "Two identical cleaning vans, one with a generic brand badge",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 같은 모양의 청소 서비스 밴 두 대가 나란히 서 있음. 한 대에는 가상의 프랜차이즈 배지(별 모양 등 일반 도형), 다른 한 대는 손으로 쓴 동네 상호 느낌. 실제 브랜드 로고 사용 금지.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How much of your profit does 8% take?",
+      "illustrative": true,
+      "body": [
+        "The franchise takes 8% of sales: a 6% royalty plus a 2% marketing fund. Before those fees, the business keeps 15% of sales as profit after staff, supplies, vans and insurance.",
+        "What share of that profit goes to the fees?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "About 8%",
+            "verdict": "risky",
+            "feedback": "That would be true if the fee came out of profit. It comes out of sales, before you've paid anyone else."
+          },
+          {
+            "key": "B",
+            "text": "About a quarter",
+            "verdict": "partial",
+            "feedback": "Right instinct that it bites harder than it sounds. The real figure is worse."
+          },
+          {
+            "key": "C",
+            "text": "About half",
+            "verdict": "best",
+            "feedback": "Yes. Fees of 8 cents per dollar of sales, against 15 cents of profit, take about 53% of what you'd keep. Next card shows it."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Follow the franchise owner's year.",
+      "illustrative": true,
+      "body": [
+        "The independent owner keeps the full **$60,000**. Same sales, same work. The franchise owner keeps less than half of that."
+      ],
+      "breakdown": [
+        {
+          "value": "$400,000",
+          "label": "Sales",
+          "detail": "What customers pay",
+          "highlight": false
+        },
+        {
+          "value": "−$340,000",
+          "label": "Running costs",
+          "detail": "Staff, supplies, vans, insurance",
+          "highlight": false
+        },
+        {
+          "value": "$60,000",
+          "label": "Profit before fees",
+          "detail": "15% of sales",
+          "highlight": false
+        },
+        {
+          "value": "−$32,000",
+          "label": "Franchise fees",
+          "detail": "8% of sales, not of profit",
+          "highlight": false
+        },
+        {
+          "value": "$28,000",
+          "label": "Owner keeps",
+          "detail": "7% of sales",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Franchise vs independent",
+      "body": [
+        "A **franchise** rents you a proven business system: a known name, methods, training and supplier deals. You pay an upfront fee and an ongoing share of sales.",
+        "An independent business builds its own system. It keeps all the profit, and carries all the risk of figuring things out.",
+        "Because franchise fees usually come from sales, the honest comparison is fees against **profit**."
+      ],
+      "image": {
+        "label": "A boxed kit labeled brand, playbook, training, suppliers, handed over for a slice of a coin",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 왼쪽에 'Brand', 'Playbook', 'Training', 'Supplier deals' 라벨이 붙은 상자 꾸러미, 오른쪽에 동전 더미에서 한 조각이 잘려 나가는 모습. 둘 사이에 교환 화살표. 실제 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The real question",
+      "title": "How much would you sell without them?",
+      "illustrative": true,
+      "body": [
+        "The franchise owner keeps 7 cents per dollar of sales. The independent keeps 15 cents.",
+        "So an independent selling just **$187,000** a year would earn the same $28,000. The franchise only pays off if, without the brand and system, you'd sell less than half as much, or run at much higher costs.",
+        "That's the number to estimate before signing."
+      ],
+      "image": {
+        "label": "Two bars: franchise at $400,000 and independent at $187,000 earn the same",
+        "aspectRatio": "16:9",
+        "brief": "막대 2개 비교. 'Franchise: $400,000 in sales'와 'Independent: $187,000 in sales'. 두 막대 위에 같은 크기의 'Owner keeps $28,000' 동전 아이콘. 짧은 막대가 같은 결과를 낸다는 점 강조.",
+        "url": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where it fits",
+      "title": "The fee buys most when you know least.",
+      "body": [
+        "A franchise system is worth more to some owners than others. It tends to earn its fee when:"
+      ],
+      "list": [
+        "You're new to the trade and would make costly early mistakes",
+        "Customers search for the brand by name",
+        "The playbook, tools or supplier deals would take you years to build"
+      ],
+      "callout": "If you already know the trade and your local reputation wins the work, you may be paying for things you have.",
+      "softwareNote": "Selling through a platform or app marketplace that takes a cut of every sale is a similar trade: you rent customers and tools for a share of revenue. Judge that cut against your profit, not your revenue."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The yearly math leaves things out.",
+      "body": [
+        "Upfront fees, required fit-outs and approved suppliers add costs on top of the royalty. Contracts can also limit your territory, prices, what you sell and whether you can renew or sell the business.",
+        "On the other side, the independent numbers assume you actually build a working system. Many owners don't, and a slow first year is a real cost.",
+        "Don't trust anyone's sales forecast alone. Ask existing owners, franchised and independent, what they really earn."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a sandwich shop.",
+      "illustrative": true,
+      "body": [
+        "You've run kitchens for ten years and know local suppliers well. You expect $500,000 in sales and 12% profit before any fees. A sandwich franchise asks for 8% of sales in ongoing fees.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Sign. A known brand is the safer bet",
+            "verdict": "risky",
+            "feedback": "Fees of $40,000 would take two-thirds of your $60,000 profit. You'd be paying mostly for experience and supplier ties you already have."
+          },
+          {
+            "key": "B",
+            "text": "Go independent, and pay once for the specific gaps, like a till system or a brand designer",
+            "verdict": "best",
+            "feedback": "You keep the full profit and buy only the parts of a system you lack. The trade-off: you carry the risk that your own brand grows slowly."
+          },
+          {
+            "key": "C",
+            "text": "Sign, but try to negotiate the fee down to 6%",
+            "verdict": "partial",
+            "feedback": "A lower fee helps, but standard fees may not move much, and even 6% would take half your profit for help you don't really need."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A franchise fee is the price of a system. Weigh it against profit, not sales.",
+      "body": [
+        "Divide the fee by your profit, then ask how much you'd sell without the brand. The franchise wins only when that gap is bigger than the fee.",
+        "**Try it today:** take any deal where someone keeps a share of your sales, such as a franchise, platform or distributor. Divide their cut by your profit margin."
+      ],
+      "next": "Next · Open a café or buy one?"
+    }
+  ]
+}

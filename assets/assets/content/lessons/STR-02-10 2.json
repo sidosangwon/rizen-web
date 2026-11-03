@@ -1,0 +1,247 @@
+{
+  "id": "STR-02-10",
+  "unitId": "STR-02",
+  "categoryId": "STR",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Should you enter this industry?",
+  "readerTitle": "A busy street or a boring van: where would you put your savings?",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.1,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (카페 사장의 식자재 납품업 진출) · 모든 수치와 인물은 설명용",
+  "insight": "좋은 산업은 수요가 많은 곳이 아니라, 경쟁자·공급자·구매자·대체재가 가져가고 난 뒤에도 판매 한 건의 몫이 내게 남는 곳이다.",
+  "misconception": "사람이 붐비고 성장하는 시장이 들어가기 좋은 시장이다.",
+  "relatedLessonIds": [
+    "STR-02-01",
+    "STR-02-02"
+  ],
+  "sources": [
+    {
+      "text": "Porter, M. (1979). How Competitive Forces Shape Strategy. Harvard Business Review.",
+      "url": null
+    },
+    {
+      "text": "Porter, M. (2008). The Five Competitive Forces That Shape Strategy. Harvard Business Review.",
+      "url": null
+    },
+    {
+      "text": "시나리오와 모든 수치(신규 카페 4곳, 25개 매장 체인, 15% 할인, 60일 결제)는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Porter(2008)가 '산업 성장률만으로 산업의 매력도를 판단하는 것은 흔한 오류'라고 지적한 내용을 6번 카드의 근거로 썼습니다. 게시 전 원문 표현을 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "시나리오의 숫자는 모두 가상입니다. 체인 25개 매장이 물량의 '약 절반'이라는 설정은 계산이 아닌 가정이며, 다른 카드와 충돌하지 않는지 확인했습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Strategy · Simulation",
+      "title": "A busy street or a boring van?",
+      "illustrative": true,
+      "body": [
+        "Dana has run a small café for eight years. She has savings and wants to start a second business.",
+        "Two ideas are on the table: a second café on the town's busiest street, or a small company that delivers milk, syrups and cups to other cafés. Over the next four decisions, you choose for her."
+      ],
+      "image": {
+        "label": "A crowded café street beside a quiet delivery van",
+        "aspectRatio": "4:3",
+        "brief": "화면을 반으로 나눔. 왼쪽은 사람과 카페 간판이 빽빽한 번화가, 오른쪽은 조용한 골목에 서 있는 작은 배송 밴과 우유 상자. 가운데에 고민하는 카페 사장(앞치마 차림). 실제 브랜드 로고 사용 금지.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1",
+      "title": "The hot street or the delivery van?",
+      "illustrative": true,
+      "body": [
+        "The busy street is packed with people. It's also where four new cafés opened last year. The supply business is quieter: a few regional companies, and starting one takes a van, cold storage and months of building trust.",
+        "Where should Dana dig in first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Open the second café. The crowds prove the demand.",
+            "verdict": "risky",
+            "feedback": "The demand is real, and so is the line of people chasing it. If four cafés can open in a year, more will follow, and rivals push prices down."
+          },
+          {
+            "key": "B",
+            "text": "Study the supply business first, because it's harder to start",
+            "verdict": "best",
+            "feedback": "The van, storage and contacts that make it hard for Dana also keep the next newcomer out. Fewer rivals usually means more of each sale stays with her."
+          },
+          {
+            "key": "C",
+            "text": "Do both to spread the risk",
+            "verdict": "partial",
+            "feedback": "It feels safer, but it splits her money and attention between a crowded market and a demanding new one."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 2",
+      "title": "One star brand, or many?",
+      "illustrative": true,
+      "body": [
+        "Say you chose B. Dana finds an oat milk brand that cafés love. It offers her exclusive local rights if it becomes most of her range. The margin is the best she's seen.",
+        "How should she build her range?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Take the deal and build around the star brand",
+            "verdict": "risky",
+            "feedback": "Great margins at first. But once one supplier is most of her sales, it can raise prices or sell to cafés directly, and she can't walk away."
+          },
+          {
+            "key": "B",
+            "text": "Carry several brands so no single supplier dominates",
+            "verdict": "best",
+            "feedback": "She gives up some margin on the star brand. In return, no supplier can squeeze her, because she can switch."
+          },
+          {
+            "key": "C",
+            "text": "Take the deal, but lock in a three-year price contract",
+            "verdict": "partial",
+            "feedback": "Prices are safe for three years. She's still exposed if the brand decides to skip the middleman."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 3",
+      "title": "A big customer knocks.",
+      "illustrative": true,
+      "body": [
+        "Say you chose B. Six months in, a local chain of 25 cafés wants to buy from Dana. Overnight they'd be about half her volume. They ask for 15% off and 60 days to pay.",
+        "What should she do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Say yes to everything. It fills the van.",
+            "verdict": "risky",
+            "feedback": "Volume arrives fast, and so does their leverage. With half her sales in one customer, next year they can ask for more, and she'll have to agree."
+          },
+          {
+            "key": "B",
+            "text": "Take part of their orders at a smaller discount, and keep adding independent cafés",
+            "verdict": "best",
+            "feedback": "Growth is slower, but no single buyer sets her prices. The chain still gets a reliable second supplier."
+          },
+          {
+            "key": "C",
+            "text": "Turn them down. Chains are trouble.",
+            "verdict": "partial",
+            "feedback": "She keeps her pricing power but gives up a shot at scale. A capped deal gets her some of both."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 4",
+      "title": "The app that skips the van.",
+      "illustrative": true,
+      "body": [
+        "Say you chose B. Now an online wholesale app lets cafés order milk and cups with a few taps for next-day delivery. Some of Dana's customers try it.",
+        "How should she respond?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Match the app's prices",
+            "verdict": "risky",
+            "feedback": "That's a price fight with a business built for low prices. She'd lose margin on every order to defend a few."
+          },
+          {
+            "key": "B",
+            "text": "Lean into what the app can't do: same-day emergency drops, tiny orders, a person who knows each café",
+            "verdict": "best",
+            "feedback": "She won't win every order. She keeps the cafés that value speed and service, at prices that still pay."
+          },
+          {
+            "key": "C",
+            "text": "Ignore it. Cafés like the personal touch.",
+            "verdict": "risky",
+            "feedback": "Some do. But an easier, good-enough option quietly takes the routine orders first."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Busy is not the same as attractive.",
+      "body": [
+        "The busy street looked better because its demand was easy to see. But demand is only half the picture. What matters is how much of each sale is left after rivals, suppliers, buyers and substitutes take their share.",
+        "That share is set by **industry structure**: the five forces. Michael Porter warned that fast growth alone says little about whether an industry lets its businesses make money."
+      ],
+      "image": {
+        "label": "A sale split into slices taken by five forces",
+        "aspectRatio": "16:9",
+        "brief": "동전 하나를 파이처럼 나눈 인포그래픽. 조각마다 \"Rivals\", \"New entrants\", \"Suppliers\", \"Buyers\", \"Substitutes\" 라벨이 붙은 손이 한 조각씩 가져가고, 가운데 남은 조각에 \"What you keep\" 표시. 플랫하고 밝은 색감.",
+        "url": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The forces describe the field, not the player.",
+      "body": [
+        "A good industry doesn't guarantee a good business. Dana still has to deliver on time, manage stock and collect payments.",
+        "The forces also shift. One app changed Dana's industry within a year. Check them again whenever something new arrives, not just once before you enter."
+      ],
+      "softwareNote": "In software, starting is often cheap, so new rivals arrive fast. Before calling a market attractive, look for what's hard to copy, like integrations, data or the effort customers face to switch."
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Before you enter, ask who keeps the money.",
+      "body": [
+        "Each decision you made checked one force:"
+      ],
+      "list": [
+        "**Hot street vs. van:** new entrants and rivalry. Easy to open means crowded.",
+        "**One brand vs. many:** supplier power. Don't let one supplier hold you.",
+        "**The big chain:** buyer power. Don't let one buyer set your price.",
+        "**The app:** substitutes. Compete where the easier option can't."
+      ],
+      "callout": "**Try it today:** pick a market you're tempted to enter or expand into. For each of the four questions above, write one line on who holds the power.",
+      "next": "Next · What makes a business hard to copy"
+    }
+  ]
+}

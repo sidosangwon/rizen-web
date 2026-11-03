@@ -1,0 +1,234 @@
+{
+  "id": "ECO-04-05",
+  "unitId": "ECO-04",
+  "categoryId": "ECO",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Consumer surplus",
+  "readerTitle": "The part of the deal your customer keeps",
+  "format": "two_businesses",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 두 개 (원예용품 매장, 제조회사 내부 분석팀) + 실제 연구 (Uber 소비자 잉여 추정, 2016)",
+  "insight": "가격은 고객이 내는 돈, 시간, 번거로움 전부이고, 고객은 상품이 아니라 '가치와 총비용의 차이'를 사러 온다. 그 차이를 0으로 만들면 만족한 고객도 떠난다.",
+  "misconception": "고객이 낼 수 있는 최대 금액까지 가격을 올리면 손해 없이 이익만 늘어난다. 고객이 아직 사고 있으니 괜찮다.",
+  "relatedLessonIds": [
+    "ECO-04-04",
+    "ECO-07-03"
+  ],
+  "sources": [
+    {
+      "text": "Cohen, P., Hahn, R., Hall, J., Levitt, S., & Metcalfe, R. (2016). Using Big Data to Estimate Consumer Surplus: The Case of Uber. NBER Working Paper 22627.",
+      "url": "https://www.nber.org/papers/w22627"
+    },
+    {
+      "text": "소비자 잉여는 미시경제학의 표준 개념 (지불 의향 − 실제 가격)",
+      "url": null
+    },
+    {
+      "text": "원예용품 매장과 내부 분석팀 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Uber 연구의 '1달러 지출당 약 1.60달러의 소비자 잉여' 수치와 분석 방법(서지 가격 구간을 이용한 수요 추정)은 게시 전 NBER 원문으로 다시 확인하세요. 카드에는 'roughly'로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "원예 매장 계산: 지불 의향 $60 − 가격 $40 = 잉여 $20. $58로 올리면 잉여 $2. $46로 올리면 개당 $6 추가 수익, 잉여 $14. 모두 가상 수치입니다.",
+      "status": "open"
+    },
+    {
+      "note": "내부 분석팀: 보고서 가치 약 $2,500, 수수료 $2,000에 양식 작성과 3주 대기 비용이 더해져 잉여가 거의 0이 된다는 설명용 가정입니다. 대기·번거로움의 금액 환산은 제시하지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Economics · Two businesses",
+      "title": "Two businesses made the same quiet mistake.",
+      "illustrative": true,
+      "body": [
+        "A garden-supply store raised prices to the most its regulars said they would pay. An analytics team inside a manufacturer started billing other departments for every report.",
+        "On paper, both kept their customers. In practice, both lost them. The reason is a number that never appears on any invoice."
+      ],
+      "image": {
+        "label": "A garden store counter and an office desk side by side, both with empty queues",
+        "aspectRatio": "4:3",
+        "brief": "화면을 반으로 나눈 일러스트. 왼쪽은 호스와 화분이 진열된 원예용품 매장 계산대, 오른쪽은 사무실의 보고서 요청 창구. 두 곳 모두 손님 줄이 비어 있고, 멀리서 사람들이 다른 방향으로 걸어가는 모습. 실제 로고와 상표는 쓰지 않음.",
+        "url": "assets/images/eco-04-05-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Your regulars would pay more for the hose.",
+      "illustrative": true,
+      "body": [
+        "You run a garden-supply store. Your best-selling premium hose sells for $40. A quick survey says most regulars would pay up to $60.",
+        "You want more margin from it. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Raise it to $58, just under what they said",
+            "verdict": "risky",
+            "feedback": "You capture almost all the extra value on paper. But customers now get almost nothing beyond what they pay, so one bad experience or a rival's sale tips them away."
+          },
+          {
+            "key": "B",
+            "text": "Raise it to $46 and keep a clear gap",
+            "verdict": "best",
+            "feedback": "You earn $6 more per hose, and customers still leave feeling they got a good deal. That feeling is what this lesson is about."
+          },
+          {
+            "key": "C",
+            "text": "Keep it at $40. Regulars are precious",
+            "verdict": "partial",
+            "feedback": "Loyalty stays strong, but you give up $20 per hose that the business may need more than the extra goodwill. A smaller gap can keep both."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "What one customer takes home.",
+      "illustrative": true,
+      "breakdown": [
+        {
+          "value": "$60",
+          "label": "Worth to the customer",
+          "detail": "The most they would pay",
+          "highlight": false
+        },
+        {
+          "value": "−$40",
+          "label": "Price",
+          "detail": "What they actually pay",
+          "highlight": false
+        },
+        {
+          "value": "$20",
+          "label": "The customer keeps",
+          "detail": "Value they get on top of the hose",
+          "highlight": true
+        }
+      ],
+      "callout": "At $58, that gap shrinks to $2. Same hose, very different deal."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Consumer surplus",
+      "body": [
+        "**Consumer surplus** is the gap between the most a customer would pay and what they actually pay. Add it up across all your customers and you get the value you hand them on top of the product.",
+        "Customers don't calculate it, but they feel it. It's the sense of a good deal, and it's why people come back and tell friends. A customer with zero surplus is indifferent: they'd be just as happy not buying."
+      ],
+      "image": {
+        "label": "A bar showing willingness to pay, with the price line below it and the gap shaded",
+        "aspectRatio": "16:9",
+        "brief": "막대 하나를 세로로 표시. 맨 위 선은 \"Most they'd pay $60\", 중간 선은 \"Price $40\". 두 선 사이 영역을 밝은 색으로 칠하고 \"Consumer surplus\" 라벨. 그 아래 영역은 \"Your revenue\". 깔끔한 인포그래픽 스타일.",
+        "url": "assets/images/eco-04-05-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The other business",
+      "title": "A team that started billing its colleagues.",
+      "illustrative": true,
+      "body": [
+        "An analytics team at a manufacturer used to build reports for free. To control demand, the company began charging departments $2,000 per report, plus a request form and a three-week queue.",
+        "A sales manager valued a report at about $2,500. But her real price was now the fee, the paperwork and the wait. Her surplus fell to almost nothing, so she had a junior analyst build a spreadsheet instead.",
+        "**Price is everything the customer gives up:** money, time and hassle."
+      ],
+      "image": {
+        "label": "A request form, a calendar showing three weeks, and a price tag stacked like weights",
+        "aspectRatio": "16:9",
+        "brief": "저울 일러스트. 한쪽 접시에는 \"Report value $2,500\" 블록 하나, 다른 쪽에는 \"$2,000 fee\", \"Request form\", \"3-week wait\" 블록 세 개가 쌓여 거의 수평을 이룸. 사무실 분위기, 실제 회사 로고 없음.",
+        "url": "assets/images/eco-04-05-c5.jpg"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "Economists have measured the gap.",
+      "body": [
+        "In a 2016 study, economists used data from millions of Uber ride requests. Surge pricing showed them how many riders still booked as prices rose, which let them estimate how much each ride was worth to riders.",
+        "Their estimate: riders gained roughly $1.60 in value for every $1 they spent. That value never showed up in Uber's revenue, yet it explains why people keep using services they grumble about."
+      ],
+      "softwareNote": "In software, surplus is often large because a tool saves hours worth far more than the subscription. When a price rise or a clunky checkout eats that gap, users rarely complain. They just churn."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Surplus is not a reason to underprice.",
+      "body": [
+        "Every dollar of surplus is a dollar you chose not to charge. Leave too much and you are funding your customers instead of your business.",
+        "You also can't see surplus directly. Surveys often overstate what people will really pay, and different customers value the same thing very differently. Treat the gap as an estimate, and test small price moves before big ones."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Win back the departments.",
+      "illustrative": true,
+      "body": [
+        "You now lead that analytics team. Requests have dropped by half, and departments are building their own messy spreadsheets that often disagree with each other.",
+        "What do you change?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Drop the fee to zero",
+            "verdict": "partial",
+            "feedback": "Surplus jumps, but so do requests. Without any price, the queue grows back and the long wait becomes the new cost."
+          },
+          {
+            "key": "B",
+            "text": "Keep a smaller fee, cut the form and promise a one-week turnaround",
+            "verdict": "best",
+            "feedback": "You restore a clear gap between what a report is worth and what it costs to get one, while the fee still filters out low-value requests."
+          },
+          {
+            "key": "C",
+            "text": "Ask leadership to require all reports go through your team",
+            "verdict": "risky",
+            "feedback": "Usage comes back, but departments now give up more than reports are worth to them. They'll comply slowly and keep looking for workarounds."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Customers buy the gap, not just the product.",
+      "body": [
+        "Consumer surplus is what the customer keeps: value minus everything they give up. Shrink it to zero and even satisfied customers drift away. Leave a deliberate gap.",
+        "**Try it today:** pick one product or service. Estimate what it's worth to a typical customer, then list everything they pay: money, time and hassle. How big is the gap?"
+      ],
+      "next": "Next · When higher prices raise demand"
+    }
+  ]
+}

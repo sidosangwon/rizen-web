@@ -1,0 +1,289 @@
+{
+  "id": "MKT-05-01",
+  "unitId": "MKT-05",
+  "categoryId": "MKT",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Funnels vs loops",
+  "readerTitle": "Why Amazon drew its business as a circle, not a funnel",
+  "format": "company_story",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5,
+  "caseKinds": [
+    "real_company",
+    "anecdote",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Amazon의 플라이휠) + 일화 (냅킨 스케치) + 가상 사례 (원예 용품점, 사내 데이터팀)",
+  "insight": "성장을 '위에서 붓고 아래로 새는 깔때기'가 아니라 '고객 한 명이 다음 고객을 데려오는 고리'로 볼 수 있다. 무엇을 고칠지는 각 판매가 다음 판매로 이어지는지에 달려 있다.",
+  "misconception": "고객을 더 얻으려면 깔때기 위쪽에 광고를 더 부어 넣는 수밖에 없다.",
+  "relatedLessonIds": [
+    "MKT-05-02",
+    "MKT-05-03"
+  ],
+  "sources": [
+    {
+      "text": "Amazon, company materials describing its 'flywheel' / virtuous cycle (selection, customer experience, traffic, sellers, lower cost structure, lower prices)",
+      "url": null
+    },
+    {
+      "text": "Collins, J. (2019). Turning the Flywheel. HarperCollins.",
+      "url": null
+    },
+    {
+      "text": "원예 용품점, 사내 데이터팀 사례와 차트 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Amazon 플라이휠의 구성 요소(가격·선택지·고객 경험·트래픽·판매자·비용 구조)는 Amazon 자료와 Collins(2019)로 게시 전 다시 확인하세요. 카드에는 일반적인 표현으로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "'2001년경 냅킨에 그렸다'는 이야기는 널리 전해지는 일화입니다. 연도와 냅킨 여부는 출처마다 다를 수 있어 카드에 'often told', 'reportedly'로 표시했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "차트 계산(가상): 매달 광고로 신규 20명. 고리가 있으면 지난달 신규 고객 1명이 다음 달 0.5명을 데려옴. 1월 20, 2월 20+10=30, 3월 20+15=35, 4월 20+17.5=37.5, 5월 20+18.75=38.75, 6월 20+19.375≈39. 상한은 20 ÷ (1 − 0.5) = 40명.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Marketing · Company story",
+      "title": "Why Amazon drew its business as a circle, not a funnel",
+      "body": [
+        "Most companies picture growth as a funnel. Pour people in at the top, lose most of them on the way down, and a few customers drip out the bottom.",
+        "Amazon's leaders drew something else. In a story often told about the early 2000s, they sketched their business as a loop, reportedly on a napkin. That shape changed what they chose to work on."
+      ],
+      "image": {
+        "label": "A funnel next to a looping circle of arrows",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 왼쪽에는 위에서 작은 사람 모양이 쏟아져 들어가고 아래로 몇 명만 나오는 깔때기. 오른쪽에는 화살표가 원을 그리며 돌고, 원을 돌 때마다 사람 모양이 늘어남. 냅킨 위에 그린 느낌의 배경. 실제 기업 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/mkt-05-01-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Your garden shop has stopped growing.",
+      "illustrative": true,
+      "body": [
+        "You run a garden supply shop with a small online store. Most new customers come from paid ads. Sales were growing, but they've flattened.",
+        "You have budget for one fix this quarter. Which do you choose?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Raise ad spend by 30% to bring in more shoppers",
+            "verdict": "partial",
+            "feedback": "It will likely add customers, but only as long as you keep paying. Stop the ads and the extra customers stop too."
+          },
+          {
+            "key": "B",
+            "text": "Fix the checkout, where many shoppers give up",
+            "verdict": "partial",
+            "feedback": "A solid fix that gets more out of every visitor. But each customer still ends at the bottom of the funnel and brings no one new."
+          },
+          {
+            "key": "C",
+            "text": "Get every buyer to post a photo of their finished garden, shown on your site and in local searches",
+            "verdict": "best",
+            "feedback": "Each sale now creates something that attracts the next shopper. It's slower to start, but it can keep working after you stop paying."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What Amazon drew",
+      "title": "Each turn of the circle feeds the next.",
+      "body": [
+        "Amazon's version, which it calls a **flywheel**, goes roughly like this. Wide selection and low prices give customers a good experience. Happy customers bring more traffic. More traffic attracts outside sellers. More sellers add more selection.",
+        "Growth also spreads fixed costs over more sales, which helps keep prices low. Then the circle turns again.",
+        "The point of the drawing: no single step is the goal. Each one exists to push the next."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Funnels vs loops",
+      "body": [
+        "A **funnel** is a straight line. People enter at the top, some drop out at each step, and the process ends with a customer. To get more customers, you pour more in.",
+        "A **loop** is a circle. Something each customer produces, like a review, a photo, a recommendation or profit to reinvest, becomes the input that brings in the next customer.",
+        "Funnels add. Loops can compound, because yesterday's customers help create today's."
+      ],
+      "image": {
+        "label": "Funnel ending in one customer vs loop returning to the start",
+        "aspectRatio": "16:9",
+        "brief": "좌우 비교 인포그래픽. 왼쪽: 'Visit → Browse → Buy'로 끝나는 깔때기, 끝에 'End'. 오른쪽: 'Buy → Post a review → New shopper finds it → Buy'로 다시 처음으로 돌아오는 원. 원 쪽 화살표를 강조 색으로.",
+        "url": "assets/images/mkt-05-01-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "Same ads, different shape.",
+      "illustrative": true,
+      "body": [
+        "Both shops get 20 new customers a month from ads. In the second shop, each new customer brings in half a customer the next month, through photos and recommendations.",
+        "By month six, the shop with a loop is winning almost **twice as many** new customers for the same ad spend."
+      ],
+      "chart": {
+        "unit": "count",
+        "groups": [
+          {
+            "label": "Month 1",
+            "rows": [
+              {
+                "label": "Funnel only",
+                "value": 20,
+                "highlight": false
+              },
+              {
+                "label": "Funnel + loop",
+                "value": 20,
+                "highlight": true
+              }
+            ]
+          },
+          {
+            "label": "Month 2",
+            "rows": [
+              {
+                "label": "Funnel only",
+                "value": 20,
+                "highlight": false
+              },
+              {
+                "label": "Funnel + loop",
+                "value": 30,
+                "highlight": true
+              }
+            ]
+          },
+          {
+            "label": "Month 3",
+            "rows": [
+              {
+                "label": "Funnel only",
+                "value": 20,
+                "highlight": false
+              },
+              {
+                "label": "Funnel + loop",
+                "value": 35,
+                "highlight": true
+              }
+            ]
+          },
+          {
+            "label": "Month 6",
+            "rows": [
+              {
+                "label": "Funnel only",
+                "value": 20,
+                "highlight": false
+              },
+              {
+                "label": "Funnel + loop",
+                "value": 39,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "image": {
+        "label": "Funnel stays flat, loop compounds",
+        "aspectRatio": "4:3",
+        "brief": "20 ads each month vs 20-30-35-39 with a referral loop.",
+        "url": "assets/images/mkt-05-01-info.png"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where loops show up",
+      "title": "Loops come in a few common shapes.",
+      "body": [
+        "To find a loop, ask what a customer leaves behind that a future customer could see or use."
+      ],
+      "list": [
+        "**Content:** reviews and photos help new shoppers find and trust you",
+        "**Word of mouth:** happy customers tell people like them",
+        "**Money:** profit from one customer pays to win the next",
+        "**Two sides:** more buyers attract more sellers, who attract more buyers"
+      ],
+      "callout": "A funnel asks where people drop out. A loop asks what each customer gives back.",
+      "softwareNote": "In software, a loop can be a shared document or invite that shows the product to someone new. Each user who shares becomes a doorway for the next user."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Most loops don't run on their own.",
+      "body": [
+        "In the chart, new customers level off near 40 a month. The loop multiplies the ads but can't replace them, because each customer brings in less than one more. Very few loops ever pass that line.",
+        "Loops can also run backward. Bad reviews bring fewer customers, which bring fewer good reviews.",
+        "And funnels still matter. A funnel shows where people leak out. Fixing those leaks is often what makes a loop work at all."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now you lead a data team inside a big company.",
+      "illustrative": true,
+      "body": [
+        "Your team built a sales dashboard. Three departments use it. Leadership wants all twelve using it by year end, and you have no extra headcount.",
+        "What's your main move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Run a series of company-wide emails and training sessions",
+            "verdict": "partial",
+            "feedback": "It will reach people, but every new user costs your team time. Growth stops the day you stop running sessions."
+          },
+          {
+            "key": "B",
+            "text": "Make every chart easy to share in meetings, with a link that lets viewers build their own",
+            "verdict": "best",
+            "feedback": "Each user's work shows the tool to new colleagues at the moment they need it. Usage grows from use itself, though it needs a good first experience to start."
+          },
+          {
+            "key": "C",
+            "text": "Ask an executive to make the dashboard mandatory",
+            "verdict": "risky",
+            "feedback": "You may get logins fast, but forced users rarely share or praise a tool. That can start the loop running backward."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Ask whether each customer helps bring the next one.",
+      "body": [
+        "A funnel tells you where people drop out. A loop tells you how today's customers can create tomorrow's. The strongest growth plans use both.",
+        "**Try it today:** draw your business as a circle. Write what a customer leaves behind, and an arrow to how it could reach a new customer. Where does the arrow break?"
+      ],
+      "next": "Next · Where do customers really leak out?"
+    }
+  ]
+}

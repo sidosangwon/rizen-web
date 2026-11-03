@@ -1,0 +1,256 @@
+{
+  "id": "THK-06-05",
+  "unitId": "THK-06",
+  "categoryId": "THK",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Goodhart's law: when measures become targets",
+  "readerTitle": "What happens when the number becomes the target",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "anecdote",
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "일화 (소련 못 공장) + 실제 연구자 발언 (Goodhart, Strathern) + 가상 사례 (물류 창고, 소프트웨어 앱). 신뢰할 만한 실제 기업 사례 대신 실패 장면 중심으로 구성해 형식을 counterexample로 바꿈. Wells Fargo는 THK-06-09에서 다루므로 제외.",
+  "insight": "숫자는 목표의 그림자다. 숫자에 보상을 걸면 사람들은 목표가 아니라 그림자를 움직이는 가장 싼 길을 찾는다.",
+  "misconception": "좋은 지표를 찾아 목표로 정하고 보너스를 걸면 성과가 오른다. 숫자가 오르면 일이 잘되고 있는 것이다.",
+  "relatedLessonIds": [
+    "THK-06-09",
+    "THK-11-01"
+  ],
+  "sources": [
+    {
+      "text": "Goodhart, C. A. E. (1975). Problems of Monetary Management: The U.K. Experience. Papers in Monetary Economics, Reserve Bank of Australia.",
+      "url": null
+    },
+    {
+      "text": "Strathern, M. (1997). 'Improving ratings': audit in the British University system. European Review, 5(3).",
+      "url": null
+    },
+    {
+      "text": "Campbell, D. T. (1979). Assessing the impact of planned social change. Evaluation and Program Planning, 2(1).",
+      "url": null
+    },
+    {
+      "text": "소련 못 공장 이야기는 출처가 불분명한 일화 (풍자 잡지 Krokodil 만화와 자주 연결됨)",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "못 공장 이야기는 실제 사건으로 확인되지 않은 일화입니다. 카드에 'a story often told'와 'probably exaggerated'로 표시했습니다. 소련 풍자 잡지 Krokodil 만화가 기원이라는 설이 있으나 확인 필요.",
+      "status": "open"
+    },
+    {
+      "note": "Goodhart의 1975년 원래 표현은 통화정책에 관한 것('Any observed statistical regularity will tend to collapse once pressure is placed upon it for control purposes')입니다. 카드에 나오는 유명한 문장은 Marilyn Strathern(1997)의 정리라는 점을 카드에 밝혔습니다. 정확한 인용문을 원문으로 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "창고 수치(당일 출고 91%→99%, 정확 배송 98%→93%)와 앱 사례는 모두 설명용 가상 수치입니다.",
+      "status": "open"
+    },
+    {
+      "note": "콜센터 통화 시간, 학교 시험 점수 예시는 일반적 현상으로만 서술했고 특정 통계는 쓰지 않았습니다. Campbell's law(1979) 서지 정보 확인 필요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Counterexample",
+      "title": "The factory that made perfect, useless nails",
+      "body": [
+        "A story often told about Soviet central planning: a nail factory was judged by how many nails it made. So it made millions of tiny nails, too small to use.",
+        "Planners switched the target to total weight. The factory made a few giant nails, too heavy to use. The story is probably exaggerated. The pattern is real."
+      ],
+      "image": {
+        "label": "A pile of tiny nails next to one giant nail",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 왼쪽에는 개미만 한 못이 산처럼 쌓여 있고 'Target: count' 라벨, 오른쪽에는 사람 키만 한 못 하나가 누워 있고 'Target: weight' 라벨. 가운데 당황한 공장 관리자. 실제 국기나 상징은 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Your warehouse has a great number.",
+      "illustrative": true,
+      "body": [
+        "You run a distribution warehouse. Customers love fast delivery, and the share of orders shipped the same day is the clearest number you track. It sits at 91%.",
+        "You want it higher. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Pay the shift team a bonus for every point above 95%",
+            "verdict": "risky",
+            "feedback": "The number will almost certainly rise. But you're rewarding the fastest way to move it, which may not be the way that helps customers."
+          },
+          {
+            "key": "B",
+            "text": "Set the goal, but also track errors and returns, and walk the floor to see how shipping got faster",
+            "verdict": "best",
+            "feedback": "You still push for speed, but a second number and your own eyes make it hard to win by cutting corners. It costs more attention to manage."
+          },
+          {
+            "key": "C",
+            "text": "Keep watching the number, but tie no target to it",
+            "verdict": "partial",
+            "feedback": "The number stays honest, which has real value. But the team gets no clear signal that speed matters to you."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "What happened",
+      "title": "The bonus worked. The warehouse got worse.",
+      "illustrative": true,
+      "body": [
+        "Picture option A. Within two months, same-day shipping hit 99%. Packers rushed, skipped scan checks, and shipped partial orders to beat the cutoff. Complaints climbed."
+      ],
+      "chart": {
+        "unit": "%",
+        "groups": [
+          {
+            "label": "Orders shipped same day",
+            "rows": [
+              {
+                "label": "Before bonus",
+                "value": 91,
+                "highlight": false
+              },
+              {
+                "label": "After bonus",
+                "value": 99,
+                "highlight": true
+              }
+            ]
+          },
+          {
+            "label": "Orders arriving complete and correct",
+            "rows": [
+              {
+                "label": "Before bonus",
+                "value": 98,
+                "highlight": false
+              },
+              {
+                "label": "After bonus",
+                "value": 93,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Goodhart's law",
+      "body": [
+        "**Goodhart's law:** when a measure becomes a target, it stops being a good measure.",
+        "Economist Charles Goodhart made the point in 1975 about government money targets. Anthropologist Marilyn Strathern later summed it up in the sentence above.",
+        "A number is useful because it moves *with* the goal. Once people are rewarded for the number itself, they find ways to move it *without* the goal."
+      ],
+      "image": {
+        "label": "A goal casting a shadow shaped like a number",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 왼쪽에 'Happy customers'라고 적힌 큰 물체가 있고, 그 그림자가 '99%' 숫자 모양. 오른쪽에서는 사람들이 물체는 그대로 둔 채 손전등 각도만 바꿔 그림자를 키우는 장면.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Three cheap ways to move a number",
+      "body": [
+        "Improving the real work is usually hard. Under pressure, people find easier routes:"
+      ],
+      "list": [
+        "**Cut corners:** skip the checks that slow things down",
+        "**Redefine:** change what counts, like calling a partial shipment \"shipped\"",
+        "**Push the problem elsewhere:** the number looks fine, the cost lands on another team or the customer"
+      ],
+      "callout": "Most of this isn't cheating. It's people doing exactly what they were paid to do."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "It's everywhere",
+      "title": "Same pattern, different numbers",
+      "body": [
+        "Call centers that reward short calls can teach agents to hang up on hard problems. Schools judged on test scores can drift toward teaching the test. Social scientist Donald Campbell described the same effect in public programs in the 1970s.",
+        "The pattern holds in any business: the stronger the reward tied to one number, the more effort goes into that number instead of what it was meant to show."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The answer isn't to stop measuring.",
+      "body": [
+        "Without numbers you manage by gut and loud opinions. Targets also focus effort, which is often exactly what you need.",
+        "The fix is to make gaming harder. Pair each target with a counter-number that catches the shortcut, like speed with accuracy. Keep some numbers for learning, not for bonuses. And regularly look at the actual work behind the figure."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software app.",
+      "illustrative": true,
+      "body": [
+        "Your team's target is weekly active users. It rose 30% this quarter. Looking closer, most of the growth came from more push notifications that bring people in for a few seconds. Unsubscribes are up.",
+        "What do you do next quarter?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Raise the target to keep the momentum going",
+            "verdict": "risky",
+            "feedback": "You reward more of the same. The number grows while annoyed users quietly churn, and you'll see it late."
+          },
+          {
+            "key": "B",
+            "text": "Target users who complete the app's core task, and track unsubscribes and churn beside it",
+            "verdict": "best",
+            "feedback": "The target sits closer to the value users get, and the counter-numbers catch the notification shortcut. Any new target can still be gamed, so keep checking."
+          },
+          {
+            "key": "C",
+            "text": "Drop targets and let the team decide what matters",
+            "verdict": "partial",
+            "feedback": "It removes the pressure that caused the gaming. But you lose shared focus, and progress becomes hard to judge."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A number is a shadow of the goal. Reward the goal.",
+      "body": [
+        "When you tie a reward to a number, ask what the cheapest way to move it would be. Someone will find it.",
+        "**Try it today:** pick one target your team is chasing. Write down how someone could hit it without helping the business. Then add one number that would catch it."
+      ],
+      "next": "Next · Why small gains feel like nothing, then everything"
+    }
+  ]
+}

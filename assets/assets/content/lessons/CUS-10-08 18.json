@@ -1,0 +1,270 @@
+{
+  "id": "CUS-10-08",
+  "unitId": "CUS-10",
+  "categoryId": "CUS",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "Judge a 'psychology hack' blog post",
+  "readerTitle": "A blog post promises 3x sales. Two questions to ask first.",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.1,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (대기업 소프트웨어 회사의 고객성공팀, 상업용 청소 B2B 업체) + 실제 연구 (노인 점화 연구와 재현 실패, Many Labs 앵커링 재현)",
+  "insight": "'심리학 해킹' 글은 '재현됐는가'와 '실험실 밖에서도 통했는가' 두 질문으로 걸러, 통과한 정도에 따라 '도입·작은 테스트·거절' 중 하나를 고른다.",
+  "misconception": "연구를 인용한 글이면 믿을 만하고, 유명한 효과일수록 우리 고객에게도 그대로 통한다. 반대로 재현 실패 소식을 들으면 심리학 연구는 전부 쓸모없다고 여긴다.",
+  "relatedLessonIds": [
+    "CUS-10-03",
+    "CUS-10-06"
+  ],
+  "sources": [
+    {
+      "text": "Bargh, J. A., Chen, M., & Burrows, L. (1996). Automaticity of social behavior. Journal of Personality and Social Psychology, 71(2).",
+      "url": null
+    },
+    {
+      "text": "Doyen, S., Klein, O., Pichon, C.-L., & Cleeremans, A. (2012). Behavioral priming: It's all in the mind, but whose mind? PLoS ONE, 7(1).",
+      "url": null
+    },
+    {
+      "text": "Klein, R. A., et al. (2014). Investigating variation in replicability: A \"Many Labs\" replication project. Social Psychology, 45(3).",
+      "url": null
+    },
+    {
+      "text": "블로그 글, 수치(3배, 21%), 업체는 모두 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Bargh 외(1996): 노인 관련 단어로 점화된 학생들이 실험 후 더 천천히 걸었다는 보고. 연도와 내용을 원문으로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Doyen 외(2012, PLoS ONE): 적외선 센서로 보행 시간을 측정한 재현 시도에서 효과를 찾지 못함. 카드의 'more careful timing' 표현이 정확한지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Many Labs 1(Klein 외, 2014): 여러 나라 36개 표본에서 앵커링 효과가 강하게 재현됨. 카드의 'dozens of labs', 'in 2014' 표현을 확인하세요. 해당 앵커링 과제는 숫자 추정형 문제였다는 점(실제 구매 결정이 아님)도 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "3번 카드의 인용 사슬(60명 학생, 가상 제안)과 8번 카드의 빨간 버튼 +21%는 실제 연구나 기업 사례가 아닌 가상 설정입니다. 실제 사례로 오해되지 않도록 illustrative 표시를 유지하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Everyday scene",
+      "title": "Seven psychology hacks, one Slack message",
+      "illustrative": true,
+      "body": [
+        "A link lands in your team channel: *7 Psychology Hacks That Triple Conversions*. Your director adds one line: \"Can we try all seven this quarter?\"",
+        "Each hack cites a study. Some may help. Some never worked outside a classroom. This lesson is about telling them apart in ten minutes."
+      ],
+      "image": {
+        "label": "A phone showing a hack listicle in a team chat",
+        "aspectRatio": "4:3",
+        "brief": "사무실 책상 위 휴대폰 화면에 팀 채팅창. 링크 미리보기에 \"7 Psychology Hacks That Triple Conversions\" 제목과 반짝이는 뇌 아이콘. 옆에 돋보기를 든 손. 실제 메신저 앱 로고나 UI는 쓰지 않음.",
+        "url": "assets/images/cus-10-08-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Hack #3 promises 3x sign-ups.",
+      "illustrative": true,
+      "body": [
+        "You run the customer success team inside a large software company. Hack #3 says: add a countdown timer to renewal offers. \"A study found urgency tripled sign-ups.\"",
+        "Before anyone builds it, what do you check first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Who was in the study, and were they spending real money?",
+            "verdict": "best",
+            "feedback": "This is *lab results in the real world*. A choice made by students for course credit may not survive a busy customer with a budget. One click on the citation often answers it."
+          },
+          {
+            "key": "B",
+            "text": "How many other companies recommend it",
+            "verdict": "risky",
+            "feedback": "Popularity shows a claim spreads well, not that it works. Hack posts copy each other, so ten mentions can trace back to one study."
+          },
+          {
+            "key": "C",
+            "text": "Nothing yet. Just A/B test it",
+            "verdict": "partial",
+            "feedback": "Testing beats guessing, but it costs engineering time and renewals if it backfires. A two-minute source check tells you whether the test is worth running."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "Follow the citation",
+      "title": "The 3x shrank at every link.",
+      "illustrative": true,
+      "breakdown": [
+        {
+          "value": "3x",
+          "label": "The hack post",
+          "detail": "Cites another blog, not a study",
+          "highlight": false
+        },
+        {
+          "value": "\"Big lift\"",
+          "label": "The source blog",
+          "detail": "Links an academic paper",
+          "highlight": false
+        },
+        {
+          "value": "60",
+          "label": "The original study",
+          "detail": "Students choosing between imaginary offers",
+          "highlight": false
+        },
+        {
+          "value": "0",
+          "label": "Tests with real customers",
+          "detail": "None mentioned anywhere",
+          "highlight": true
+        }
+      ],
+      "callout": "This doesn't prove urgency is useless. It proves the 3x is a story, not a measurement of *your* renewals.",
+      "softwareNote": "In software, the sticking point is that a renewal is a budget decision, often made by someone other than the daily user. A student clicking an imaginary offer faces none of that."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The tools",
+      "title": "Two questions from this unit",
+      "body": [
+        "Most hack posts fail one of these. Many fail both."
+      ],
+      "list": [
+        "**Did it replicate?** Has anyone else, ideally a larger independent team, found the same effect? (*When famous findings don't replicate*)",
+        "**Did it leave the lab?** Were the people real customers, making real decisions, with real money and real distractions? (*Lab results in the real world*)"
+      ],
+      "callout": "Pass both: worth a test. Pass one: a small, cheap test. Pass neither: a polite no.",
+      "softwareNote": "For a growth team, these two questions are a cheap filter before the backlog. They decide which hacks earn an experiment slot and which never reach engineering."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Why it matters",
+      "title": "Famous isn't the same as solid.",
+      "body": [
+        "In 1996, a well-known study reported that students primed with words about old age walked more slowly afterward. It became a staple of persuasion books.",
+        "In 2012, another team repeated it with more careful timing and did not find the effect. Meanwhile anchoring, the pull of a first number, held up strongly when dozens of labs re-ran it together in 2014.",
+        "The lesson isn't \"psychology is fake.\" It's that **each claim needs its own check**."
+      ],
+      "image": {
+        "label": "Two study cards: one cracked, one solid",
+        "aspectRatio": "16:9",
+        "brief": "두 장의 연구 카드. 왼쪽 \"Priming: walking speed\" 카드는 금이 가 있고 \"Not replicated\" 도장. 오른쪽 \"Anchoring\" 카드는 여러 겹 쌓여 단단해 보이고 \"Replicated\" 도장. 플랫 일러스트, 실제 학술지 로고 없음.",
+        "url": "assets/images/cus-10-08-c5.jpg"
+      }
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "An anchoring hack for sales proposals",
+      "illustrative": true,
+      "body": [
+        "You run sales at a commercial cleaning firm that bids for office contracts. A blog post says: open every proposal with your premium package, because anchoring makes buyers pay more.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Put it in every proposal from Monday. Anchoring is well proven",
+            "verdict": "risky",
+            "feedback": "It passes *did it replicate?*. But those tests mostly asked people to guess numbers, not facilities managers comparing three bids. A full rollout bets your win rate on that gap."
+          },
+          {
+            "key": "B",
+            "text": "Skip it. Most psychology hacks don't hold up",
+            "verdict": "partial",
+            "feedback": "Skepticism protects you from weak hacks, but this one passed the replication check. Rejecting it outright skips a cheap idea with decent evidence."
+          },
+          {
+            "key": "C",
+            "text": "Try it on the next 20 proposals and compare deal size and win rate",
+            "verdict": "best",
+            "feedback": "Replication earned it a test. A small trial answers *did it leave the lab?* for your own buyers, at little risk."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Your own test can fool you too.",
+      "body": [
+        "Small tests throw up flukes. Twenty proposals can swing on one large client. Treat an early win as a reason to keep testing, not as proof.",
+        "And evidence is not permission. A countdown timer might work and still be a fake deadline. Whether a tactic is **honest** is a separate question from whether it's real."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "One more",
+      "title": "\"One company's test: red buttons, +21%.\"",
+      "illustrative": true,
+      "body": [
+        "Back at the software company, your director forwards another post. A retailer changed its checkout button from green to red and reported 21% more sales.",
+        "How should your team read it?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Real customers, real money. It's proven",
+            "verdict": "risky",
+            "feedback": "It left the lab, but it never replicated. One page, one season, one audience leaves plenty of room for a fluke or a hidden cause."
+          },
+          {
+            "key": "B",
+            "text": "A real-world clue that hasn't replicated. Worth a cheap test, not a redesign",
+            "verdict": "best",
+            "feedback": "You used both questions. It passes *did it leave the lab?* and fails *did it replicate?*, which is exactly the profile of something to test small."
+          },
+          {
+            "key": "C",
+            "text": "It's not peer-reviewed, so ignore it",
+            "verdict": "partial",
+            "feedback": "Fair caution, but company tests can be useful clues. The real gap is replication, not the missing journal."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Two questions turn a hack post into a short list.",
+      "body": [
+        "**Concepts used:** *When famous findings don't replicate* and *Lab results in the real world*. Pass both: test it. Pass one: test it small. Pass neither: say no.",
+        "**Try it today:** open the last business article you read that cited a study. Click through. Who were the people, and has anyone repeated it?"
+      ],
+      "next": "Next · A nudge that held up outside the lab: Save More Tomorrow"
+    }
+  ]
+}

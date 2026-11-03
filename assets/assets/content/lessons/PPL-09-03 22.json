@@ -1,0 +1,234 @@
+{
+  "id": "PPL-09-03",
+  "unitId": "PPL-09",
+  "categoryId": "PPL",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "Spans and layers",
+  "readerTitle": "How many bosses stand between a problem and its fix?",
+  "format": "everyday_scene",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (식료품 체인, 물류회사 사내 소프트웨어 팀) · 모든 수치는 설명용",
+  "insight": "관리 범위와 계층은 따로 정하는 것이 아니라 한 결정의 양면이며, 계층 하나하나가 결정 속도와 정보 정확도를 깎는 비용이다.",
+  "misconception": "관리자가 맡는 인원이 적을수록 관리가 좋아진다. 또는 반대로, 조직은 무조건 평평할수록 좋다.",
+  "relatedLessonIds": [
+    "PPL-05-02",
+    "PPL-09-02"
+  ],
+  "sources": [
+    {
+      "text": "조직 설계의 표준 개념 (span of control, management layers)",
+      "url": null
+    },
+    {
+      "text": "모든 사례와 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "3번 카드 계산: 현장 직원 1,000명. 관리 범위 5명이면 200 + 40 + 8 + 2 + 1 = 관리자 251명, 관리 계층 5개 (8 ÷ 5는 올림해 2명). 관리 범위 10명이면 100 + 10 + 1 = 관리자 111명, 관리 계층 3개. 단순화를 위해 모든 관리자가 같은 인원을 맡는다고 가정했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "8번 카드: 현재 구조 리더 본인 + 디렉터 2 + 리드 6 + 엔지니어 16 = 24명(본인 제외). 선택지 B는 리드 3 + 엔지니어 21 = 24명, 리드당 7명. 인원 구성이 서로 다르므로 화면 문구에서 '팀 24명'으로만 표현했는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "특정 '이상적인 관리 범위' 수치를 연구 결과로 인용하지 않았습니다. 수치를 추가할 경우 1차 출처를 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "People · Everyday scene",
+      "title": "How many bosses stand between a problem and its fix?",
+      "illustrative": true,
+      "body": [
+        "A stock clerk at a grocery store notices the oat milk runs out every Friday. The fix is simple: move the delivery from Monday to Thursday.",
+        "Her note goes to the shift lead, then the department manager, the store manager, the district manager, regional operations and finally the supply planner. Three weeks later, the shelf is still empty on Fridays."
+      ],
+      "image": {
+        "label": "A note passing up a tall ladder of managers",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 마트 직원이 쪽지를 들고 있고, 쪽지가 여섯 칸짜리 높은 사다리를 따라 한 칸씩 위로 전달됨. 칸마다 작은 관리자 캐릭터. 맨 아래 빈 선반에 달력 3주 표시. 실제 브랜드나 로고는 쓰지 않음.",
+        "url": "assets/images/ppl-09-03-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Your store managers say nothing gets decided.",
+      "illustrative": true,
+      "body": [
+        "You run operations for a 40-store grocery chain. Each district manager oversees 4 stores. Regional managers oversee the district managers, and they report to you.",
+        "Store managers complain that every small request waits weeks for an answer. What do you change?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Add a review step at head office so mistakes get caught earlier",
+            "verdict": "risky",
+            "feedback": "You may catch a few errors, but you add one more stop on a path that is already too long. Requests will get slower, not faster."
+          },
+          {
+            "key": "B",
+            "text": "Give each district manager 10 stores, remove the regional layer, and let store managers decide more on their own",
+            "verdict": "best",
+            "feedback": "Requests pass through fewer hands and fewer things need approval at all. The cost is less personal attention per store, so it only works if store managers are trusted to decide."
+          },
+          {
+            "key": "C",
+            "text": "Hire more district managers so each one oversees only 2 stores",
+            "verdict": "partial",
+            "feedback": "Stores get more attention, but you pay for many more managers, and the chain of approval stays just as long. Managers with little to oversee also tend to second-guess."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Same 1,000 people, two shapes.",
+      "illustrative": true,
+      "body": [
+        "If every manager has 5 direct reports, you need 5 layers of managers. At 10 each, you need 3. That is 140 fewer managers and two fewer handoffs for every message."
+      ],
+      "breakdown": [
+        {
+          "value": "251",
+          "label": "Managers at 5 reports each",
+          "detail": "200 + 40 + 8 + 2 + 1",
+          "highlight": false
+        },
+        {
+          "value": "5",
+          "label": "Management layers",
+          "detail": "Five handoffs from clerk to top",
+          "highlight": false
+        },
+        {
+          "value": "111",
+          "label": "Managers at 10 reports each",
+          "detail": "100 + 10 + 1",
+          "highlight": true
+        },
+        {
+          "value": "3",
+          "label": "Management layers",
+          "detail": "Three handoffs from clerk to top",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Spans and layers",
+      "body": [
+        "**Span of control** is how many people report directly to one manager. **Layers** are the levels of management between the front line and the top.",
+        "They are two sides of one choice. For the same number of people, narrower spans always mean more layers, and wider spans mean fewer. You can't set one without setting the other."
+      ],
+      "image": {
+        "label": "A tall narrow pyramid next to a short wide one",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 같은 수의 작은 사람 아이콘으로 만든 두 피라미드. 왼쪽은 좁고 높음(\"5 reports each, 5 layers\"), 오른쪽은 넓고 낮음(\"10 reports each, 3 layers\"). 맨 아래 줄 인원은 똑같이 보이게.",
+        "url": "assets/images/ppl-09-03-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Every layer has a hidden price.",
+      "body": [
+        "The salary is the cost you see. The others are easy to miss:"
+      ],
+      "list": [
+        "**Delay:** each handoff adds days before anyone acts",
+        "**Distortion:** each retelling softens or drops part of the message",
+        "**Pushed-up decisions:** when a boss is nearby, people ask instead of deciding",
+        "**Busy-work:** managers with only two or three reports often redo their team's work"
+      ],
+      "callout": "A narrow span feels like support. Stacked up, it becomes a long line of permission."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where it applies",
+      "title": "The right span depends on the work.",
+      "body": [
+        "A warehouse shift lead can guide 20 pickers doing similar, well-defined tasks. A manager of five senior specialists, each doing very different work, may already be stretched.",
+        "Spans can be wider when the work is similar, people are experienced, and the manager isn't also doing a full job of their own. They need to be narrower when people are new, the work changes often, or mistakes are costly. There is no magic number."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Flat is not free.",
+      "body": [
+        "Cutting a layer without changing anything else just overloads the managers who remain. One-on-ones get skipped, coaching stops, and new hires are left to figure things out alone.",
+        "Wider spans work when decisions move down with them and managers drop tasks to make room. And in teams with no formal layers, a hidden hierarchy often forms anyway, just without clear accountability."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software team inside a logistics company.",
+      "illustrative": true,
+      "body": [
+        "You lead the company's 24-person in-house software team. Two directors report to you. Each has three leads, and each lead manages two or three engineers while also writing code.",
+        "Engineers say they wait days for decisions on small changes. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep the structure and add a weekly approval meeting to clear the backlog",
+            "verdict": "partial",
+            "feedback": "The backlog shrinks for a while, but decisions still climb three levels. You treat the symptom, not the shape."
+          },
+          {
+            "key": "B",
+            "text": "Form three teams of about seven, with each lead reporting to you and deciding within their area",
+            "verdict": "best",
+            "feedback": "One layer disappears and most decisions stay inside the team. Leads will code less, so they need the time and authority to actually manage."
+          },
+          {
+            "key": "C",
+            "text": "Add a third director so each one oversees only two leads",
+            "verdict": "risky",
+            "feedback": "Each director gets more time per lead, but you add a manager and keep every layer. Decisions stay just as slow."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Every layer you add is a step every decision must climb.",
+      "body": [
+        "Choose spans by the kind of work, then count the layers that choice creates. Ask whether each one earns its delay.",
+        "**Try it today:** pick one recent decision that took too long. Count how many people it passed through before someone could say yes."
+      ],
+      "next": "Next · Why the org chart should come after the plan"
+    }
+  ]
+}

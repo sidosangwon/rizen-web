@@ -1,0 +1,251 @@
+{
+  "id": "SAL-03-10",
+  "unitId": "SAL-03",
+  "categoryId": "SAL",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Handle 'It's too expensive'",
+  "readerTitle": "'Too expensive' compared to what?",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.1,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (설치 서비스를 함께 하는 동네 가전 매장) · 모든 인물과 수치는 설명용",
+  "insight": "'너무 비싸다'는 판결이 아니라 비교다. 무엇과 비교하는지 알아내면 가격을 깎지 않고도 대화를 이어갈 수 있다.",
+  "misconception": "'비싸다'는 말이 나오면 할인을 해 주거나, 제품이 왜 좋은지 더 길게 설명해야 한다.",
+  "relatedLessonIds": [
+    "SAL-03-01",
+    "SAL-03-04"
+  ],
+  "sources": [
+    {
+      "text": "영업 실무의 일반 원칙 (가격 이의 다루기: 비교 대상 확인, 같은 조건 비교, 가격 대신 범위 조정, 정직한 긴급성)",
+      "url": null
+    },
+    {
+      "text": "모든 인물, 매장, 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "계산 확인: 설치 포함 견적 $1,850 − 온라인 본체 가격 $1,450 = $400 차이. 예산 $1,500에 맞춰 깎으면 $1,850 − $1,500 = $350 손실. 40갤런 설치 포함 $1,590은 가상 가격.",
+      "status": "open"
+    },
+    {
+      "note": "'탱크 바닥의 녹은 누수 위험 신호'라는 내용은 일반적인 정비 상식으로 썼습니다. 특정 수명이나 고장 확률 수치는 넣지 않았습니다. 게시 전 표현이 과장되지 않았는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "설치 허가 등 특정 국가 규정은 언급하지 않았습니다. 포함 항목은 설치, 기존 탱크 수거, 새 부품, 1년 시공 보증으로만 적었습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Sales · Simulation",
+      "title": "'Too expensive' compared to what?",
+      "illustrative": true,
+      "body": [
+        "You run a family appliance store that also installs what it sells. On Saturday morning, Maria comes in. Her water heater is twelve years old and the water keeps running lukewarm.",
+        "You quote **$1,850**, installed. She looks at the paper, then at her phone, and says: \"That's too expensive.\"",
+        "The next four decisions are yours."
+      ],
+      "image": {
+        "label": "Customer at a store counter holding up her phone",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 톤의 동네 가전 매장 카운터. 뒤편에 온수기 몇 대. 중년 여성 고객이 견적서를 한 손에, 휴대폰을 다른 손에 들고 있고 카운터 너머 주인이 듣고 있음. 실제 브랜드 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/sal-03-10-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 4",
+      "title": "Your first words.",
+      "illustrative": true,
+      "body": [
+        "Maria has just said \"That's too expensive.\" She hasn't walked away yet. What do you say?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "\"I can take 10% off for you today.\"",
+            "verdict": "risky",
+            "feedback": "She may say yes, but you just gave away $185 without knowing what bothered her. And she learns your first price wasn't real."
+          },
+          {
+            "key": "B",
+            "text": "\"Fair enough. What are you comparing it to?\"",
+            "verdict": "best",
+            "feedback": "You stay calm and find out what \"expensive\" means to her. She turns her phone around: the same model online for $1,450."
+          },
+          {
+            "key": "C",
+            "text": "\"This model is very efficient. Let me show you the specs.\"",
+            "verdict": "partial",
+            "feedback": "The facts may be true, but you're answering a question she didn't ask. She nods politely and starts drifting toward the door."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 4",
+      "title": "The $400 gap.",
+      "illustrative": true,
+      "body": [
+        "Say you chose B. The online listing is the same model for **$1,450**. Unit only, delivery extra, installation not included.",
+        "Your $1,850 covers installation, hauling away the old tank, new fittings and a one-year guarantee on the work. What now?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Match the online price to keep the sale",
+            "verdict": "risky",
+            "feedback": "You'd be doing the installation for free. You keep Maria, but every future customer with a phone can ask for the same."
+          },
+          {
+            "key": "B",
+            "text": "Put both offers side by side, line by line",
+            "verdict": "best",
+            "feedback": "Now she sees she isn't comparing like with like. To match your quote online, she'd still need delivery, a plumber and somewhere to dump the old tank."
+          },
+          {
+            "key": "C",
+            "text": "Warn her that online sellers are unreliable",
+            "verdict": "risky",
+            "feedback": "It sounds defensive, and she may know people who bought online just fine. You lose trust without closing the gap."
+          }
+        ],
+        "afterReveal": null
+      },
+      "callout": "\"Too expensive\" is usually a comparison. Your job is to make it a fair one.",
+      "softwareNote": "In software, the comparison is often a cheaper tool or a spreadsheet. Ask what they're comparing against, then compare the full cost: setup, training, the hours someone spends keeping the spreadsheet alive."
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 4",
+      "title": "\"I get it. But I budgeted $1,500.\"",
+      "illustrative": true,
+      "body": [
+        "Say you chose B. Maria agrees your offer is fairer than she thought. Her budget is still her budget.",
+        "She mentions she lives with one other person. You also stock a smaller 40-gallon model, installed for **$1,590**. What do you offer?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Drop the original quote to $1,500",
+            "verdict": "risky",
+            "feedback": "You lose $350 on the job and teach her that pushing works. Next time she'll push harder."
+          },
+          {
+            "key": "B",
+            "text": "Offer the smaller model, fully installed, at $1,590",
+            "verdict": "best",
+            "feedback": "You change what she gets, not what it's worth. She stays close to budget, and your price stays honest."
+          },
+          {
+            "key": "C",
+            "text": "Offer to split the $1,850 into monthly payments",
+            "verdict": "partial",
+            "feedback": "It can help with cash flow, but it doesn't answer the budget she set. Some customers feel pushed into spending more than they planned."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 4 of 4",
+      "title": "\"Let me think about it.\"",
+      "illustrative": true,
+      "body": [
+        "Say you chose B. Maria likes the smaller model. Then she pauses: \"Let me talk it over at home.\"",
+        "Earlier, you noticed rust around the base of her old tank in the photo she showed you. What do you say?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "\"This price is only good today.\"",
+            "verdict": "risky",
+            "feedback": "If it isn't true, she'll find out when she calls back next week. Fake urgency can win one sale and lose a customer for good."
+          },
+          {
+            "key": "B",
+            "text": "Mention the rust, hold the quote for 30 days, and offer to call Thursday",
+            "verdict": "best",
+            "feedback": "The reason to act soon is real and it's hers, not yours. She leaves with a clear next step and no pressure."
+          },
+          {
+            "key": "C",
+            "text": "\"Of course. Call us anytime.\"",
+            "verdict": "partial",
+            "feedback": "Polite and safe, but it leaves her with no next step. Busy weeks swallow good intentions."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "A price objection is a comparison, not a verdict.",
+      "illustrative": true,
+      "body": [
+        "On Thursday, Maria books the installation. You never lowered a price.",
+        "\"Too expensive\" rarely means \"worthless.\" It means *more than something else*: a website, a budget, a rival's quote, or doing nothing. Once you know the comparison, you can check if it's fair, change the scope, or give an honest reason to decide.",
+        "**Ask before you answer.** Discounts and speeches both skip that step."
+      ],
+      "image": {
+        "label": "Two quotes side by side with matching line items",
+        "aspectRatio": "16:9",
+        "brief": "견적서 두 장을 나란히 놓은 인포그래픽. 왼쪽 \"Online $1,450\"에는 본체만 체크, 나머지 \"Delivery, Installation, Old tank removal, Fittings, 1-year guarantee\"는 빈칸. 오른쪽 \"Store $1,850\"에는 모든 항목 체크. 실제 상표 없음.",
+        "url": "assets/images/sal-03-10-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Sometimes the price really is too high for them.",
+      "body": [
+        "None of this is a trick for getting every yes. If the fair comparison still shows the other offer is better for this customer, say so.",
+        "A customer who hears \"honestly, the online unit plus a handyman may suit you\" often comes back for the next job, and sends friends.",
+        "And if you can't trade scope without cutting quality, don't. A cheaper job done badly costs more trust than a lost sale."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Find the comparison before you defend the price.",
+      "body": [
+        "What each decision practiced:",
+        "**Try it today:** think of the last time a customer said \"too expensive.\" Write down what they were really comparing you to."
+      ],
+      "list": [
+        "**Decision 1:** ask what \"expensive\" is measured against (Price objections)",
+        "**Decision 2:** compare like with like (Looking at a competitor)",
+        "**Decision 3:** trade scope, not price (Price objections)",
+        "**Decision 4:** give a real reason to act, not a fake deadline (Honest urgency, 'Not right now')"
+      ],
+      "next": "Next · Back to the start of Objections: Price objections"
+    }
+  ]
+}

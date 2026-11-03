@@ -1,0 +1,245 @@
+{
+  "id": "THK-05-07",
+  "unitId": "THK-05",
+  "categoryId": "THK",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "Choose a supplier",
+  "readerTitle": "Picking a new supplier? Ask how you'd leave first",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.3,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (비스트로의 채소 공급업체, 회계법인의 IT·클라우드 공급업체) · 모든 수치는 설명용",
+  "insight": "공급업체 선택은 '어디가 더 좋은가'보다 먼저 '되돌리기 얼마나 어려운가'와 '어떻게 실패할 수 있는가'를 묻는 결정이다.",
+  "misconception": "가장 싸고 평판 좋은 곳을 고르면 된다. 계약 조건은 고른 뒤에 정하는 세부 사항이다.",
+  "relatedLessonIds": [
+    "THK-05-01",
+    "THK-05-03"
+  ],
+  "sources": [
+    {
+      "text": "Klein, G. (2007). Performing a Project Premortem. Harvard Business Review.",
+      "url": null
+    },
+    {
+      "text": "Amazon 2015 Letter to Shareholders (one-way vs two-way door decisions)",
+      "url": null
+    },
+    {
+      "text": "모든 사례와 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "계산 확인: 월 식자재 $3,000 × 8% = $240 절감, 24개월 × $240 = $5,760. 해지 위약금 $2,000은 가정치.",
+      "status": "open"
+    },
+    {
+      "note": "'two-way door / one-way door' 표현은 개념 레슨 THK-05-01과 같은 용어를 쓰는지 확인. 본문에서는 특정 인물에게 귀속하지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "프리모템 설명(실패했다고 가정하고 이유를 거꾸로 찾기)이 THK-05-03의 정의와 일치하는지 확인.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Decisions · Everyday scene",
+      "title": "Two quotes, one bad month",
+      "illustrative": true,
+      "body": [
+        "Mia runs a 60-seat bistro. Her vegetable supplier has been late three times this month. Once, a whole case of herbs arrived wilted.",
+        "Two new quotes sit on her desk. One is 8% cheaper. The other is easier to walk away from. Which matters more depends on a question most owners skip."
+      ],
+      "image": {
+        "label": "Restaurant owner at a desk with two supplier quotes",
+        "aspectRatio": "4:3",
+        "brief": "작은 비스트로 주방 옆 사무 공간. 주인이 책상 위 견적서 두 장을 비교 중. 한 장에는 '−8%', 다른 장에는 'Month-to-month' 메모. 뒤편에 시든 허브 상자. 실제 브랜드 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What should Mia work out first?",
+      "illustrative": true,
+      "body": [
+        "**Supplier North:** 8% cheaper, about $240 a month on her $3,000 produce bill. It wants a two-year exclusive contract with a $2,000 exit fee.",
+        "**Supplier South:** today's prices, month-to-month, no exclusivity."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Which one saves more money over two years",
+            "verdict": "partial",
+            "feedback": "North's $5,760 saving only holds if North works out. This prices the best case and ignores the cost of being stuck."
+          },
+          {
+            "key": "B",
+            "text": "How hard each choice would be to undo",
+            "verdict": "best",
+            "feedback": "This is *reversible vs irreversible decisions* at work. South can be undone next month. North can't be undone cheaply for two years, so it deserves far more checking."
+          },
+          {
+            "key": "C",
+            "text": "Get three more quotes before deciding",
+            "verdict": "risky",
+            "feedback": "More options feel safe, but late deliveries keep hurting the kitchen while she shops. Extra quotes help only if they'd change the choice."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "Concept at work",
+      "title": "One decision, two kinds of doors.",
+      "illustrative": true,
+      "body": [
+        "A trial order is a **two-way door**. If it goes wrong, you walk back through. A two-year exclusive contract is a one-way door. Walking back costs $2,000 and months of hassle.",
+        "The rule from *reversible vs irreversible decisions*: move fast through two-way doors, slow down at one-way doors. Mia can try South this week with little thought. North needs real checking before she signs."
+      ],
+      "image": {
+        "label": "A swinging door next to a locked one-way door",
+        "aspectRatio": "16:9",
+        "brief": "두 개의 문 일러스트. 왼쪽은 양방향 스윙 도어 'Trial order', 오른쪽은 한 방향 화살표와 자물쇠가 달린 문 '2-year contract, $2,000 to exit'. 단순한 플랫 스타일.",
+        "url": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Change the deal",
+      "title": "Turn a one-way door into a two-way one.",
+      "illustrative": true,
+      "body": [
+        "Often the best move is to change the deal, not just pick a side. Mia asks North for three things:"
+      ],
+      "list": [
+        "A 60-day trial before the contract starts",
+        "Split orders: 70% to North, 30% kept with a backup supplier",
+        "An exit fee that drops to zero after six months"
+      ],
+      "callout": "Each one costs her a little of the discount. Each one buys back the right to change her mind.",
+      "softwareNote": "Software tools follow the same pattern. A monthly plan costs more than prepaying a year, but lets you leave. Before any long contract, check how easily you can export your data."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Concept at work",
+      "title": "Imagine it has already failed.",
+      "illustrative": true,
+      "body": [
+        "North agrees to a trial. Before it starts, Mia and her head chef run a **pre-mortem**: picture six months from now, the switch went badly. Why? In five minutes they list:"
+      ],
+      "list": [
+        "Orders close at 6 p.m., before we know tomorrow's bookings",
+        "Out-of-stock items get swapped without asking",
+        "Quality is great for a month, then slips",
+        "Nobody answers the phone on Saturday"
+      ],
+      "callout": "Every imagined failure becomes a question to ask or a test to run during the trial.",
+      "softwareNote": "For a software vendor, the same list might read: support is slow after the sale, prices jump at renewal, or our data is hard to get out."
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's an accounting firm.",
+      "illustrative": true,
+      "body": [
+        "Raj runs a 12-person accounting firm. He's choosing an outside IT provider to host client files in the cloud and fix laptops. The top option wants a three-year contract.",
+        "His team's pre-mortem keeps landing on one fear: stuck with a slow provider that holds all their files. Which question should Raj push hardest on?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Can you give us three happy clients to call?",
+            "verdict": "partial",
+            "feedback": "References help, but providers pick their happiest clients. Ask those clients about the failure you fear, such as how a bad outage was handled."
+          },
+          {
+            "key": "B",
+            "text": "If we leave, how do we get our files back, how fast, and at what cost?",
+            "verdict": "best",
+            "feedback": "This joins both ideas. The *pre-mortem* found the failure, and the answer shows how *reversible* the deal really is. If leaving is easy, three years matters less."
+          },
+          {
+            "key": "C",
+            "text": "What discount do we get for signing five years instead?",
+            "verdict": "risky",
+            "feedback": "A bigger discount for a longer lock-in makes the one-way door heavier, right when the team's main fear is being stuck."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Don't put every order through this.",
+      "body": [
+        "Treating every supplier choice as a one-way door is its own mistake. A new napkin supplier doesn't need a pre-mortem. Just try them.",
+        "Flexibility has a price too. Trials, split orders and short contracts usually cost more per unit, and some suppliers save their best service for customers who commit. Pay for the right to leave while you're unsure. Once a supplier has proven itself, a longer deal can be the smart move."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Back at the bistro",
+      "title": "Sixty days later.",
+      "illustrative": true,
+      "body": [
+        "North's trial went well on quality. But twice its 6 p.m. cutoff left Mia short on weekend herbs, the exact risk her pre-mortem flagged. North offers the two-year deal again. What's her best next step?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Sign the full two-year deal. The trial mostly worked",
+            "verdict": "risky",
+            "feedback": "Quality is proven, but the known failure is still there, and now it's locked in for two years."
+          },
+          {
+            "key": "B",
+            "text": "Sign a shorter deal, keep a backup herb supplier, and ask for a later cutoff",
+            "verdict": "best",
+            "feedback": "She keeps most of the savings, fixes the failure the *pre-mortem* predicted, and keeps the door *reversible*."
+          },
+          {
+            "key": "C",
+            "text": "Go back to month-to-month with South to avoid any risk",
+            "verdict": "partial",
+            "feedback": "Safe and easy to undo, but she gives up a supplier that did most things well. Reversibility is a tool, not the goal."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Before you sign, ask how you'd leave and how it could fail.",
+      "body": [
+        "**Concepts used:** *reversible vs irreversible decisions* to choose where to slow down, and the *pre-mortem* to turn vague worry into specific questions.",
+        "**Try it today:** pick your biggest supplier contract. Write down what leaving would cost, and one way the relationship could fail next year."
+      ],
+      "next": "Next · Choose a hire under time pressure"
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "id": "FIN-07-07",
+  "unitId": "FIN-07",
+  "categoryId": "FIN",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "Fund a bakery's expansion",
+  "readerTitle": "Two ways to pay for a second bakery, and what each one really costs",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.3,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (동네 빵집 2호점, 소프트웨어 앱) · 모든 수치는 설명용 · 적용 레슨: 부채 vs 지분, 희석",
+  "insight": "확장 자금을 지분으로 받으면 새 매장만이 아니라 이미 돈을 버는 기존 매장의 일부까지 내준다. 갚을 현금 흐름이 예측 가능하면 대출이, 불확실하면 지분이 맞다.",
+  "misconception": "대출은 이자가 붙으니 비싸고, 투자금은 갚을 필요가 없으니 공짜에 가깝다.",
+  "relatedLessonIds": [
+    "FIN-07-02",
+    "FIN-07-04"
+  ],
+  "sources": [
+    {
+      "text": "재무관리의 표준 개념 (부채와 지분의 차이, 지분 희석, 원리금 균등상환)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "대출 상환액: $120,000, 연 9%, 5년 원리금 균등상환(연 1회 기준). 연 상환액 = 120,000 × 0.09 ÷ (1 − 1.09^−5) = 10,800 ÷ 0.3501 ≈ $30,850. 카드에는 \"about $30,800\"로 표기. 5년 합계 ≈ $154,000. 월 상환 방식이면 수치가 조금 달라집니다.",
+      "status": "open"
+    },
+    {
+      "note": "지분: $120,000에 30% → 투자 후 기업가치 $400,000, 투자 전 $280,000(기존 매장 연 이익 $80,000의 3.5배). 두 매장 합산 이익 $130,000($80,000 + $50,000 가정) × 30% = $39,000/년, 5년 $195,000. 투자자가 이익을 전부 배당으로 받는다는 단순화 가정입니다.",
+      "status": "open"
+    },
+    {
+      "note": "스트레스 테스트: 2호점 첫해 이익 $0 가정 시 기존 매장 $80,000 − 상환 $30,800 = $49,200 남음.",
+      "status": "open"
+    },
+    {
+      "note": "개인 보증 등 대출 조건은 나라와 은행마다 다르므로 일반적으로만 언급했습니다. 특정 국가의 법률·세무 조언은 하지 않습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Everyday scene",
+      "title": "Two ways to pay for a second bakery, and what each one really costs",
+      "illustrative": true,
+      "body": [
+        "Lena's bakery makes about $80,000 a year in profit. A shop across town is empty, and opening it would cost $120,000.",
+        "She has two offers on the table. One looks expensive. The other looks free. Neither is what it seems."
+      ],
+      "image": {
+        "label": "A bakery owner holding two envelopes in front of an empty shop",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 일러스트. 빵집 주인이 빈 상가 앞에서 봉투 두 개를 들고 있음. 한쪽 봉투에 \"Bank loan\", 다른 쪽에 \"Investor\" 라벨. 실제 은행이나 브랜드 로고는 쓰지 않음.",
+        "url": "assets/images/fin-07-07-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which offer should Lena take?",
+      "illustrative": true,
+      "body": [
+        "**Offer 1:** a bank loan of $120,000 at 9% interest, repaid over five years.",
+        "**Offer 2:** a local investor gives $120,000 in exchange for 30% of the bakery. No repayments.",
+        "Her first shop has been steady for six years."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The loan. Her steady profits can cover the payments",
+            "verdict": "best",
+            "feedback": "This is **debt vs equity** at work. When cash is predictable, a loan costs a fixed amount and then ends, and Lena keeps all of her business."
+          },
+          {
+            "key": "B",
+            "text": "The investor. No payments means no risk",
+            "verdict": "risky",
+            "feedback": "It removes the monthly payments but adds a permanent partner. Equity has no due date, so it never stops costing."
+          },
+          {
+            "key": "C",
+            "text": "Half and half, to spread the risk",
+            "verdict": "partial",
+            "feedback": "A mix can make sense when cash is uncertain. Here it still gives away 15% of a proven shop to avoid payments she can already afford."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Five years of each offer.",
+      "illustrative": true,
+      "body": [
+        "Assume the second shop adds $50,000 a year, so the bakery earns $130,000. The loan ends after five years. The investor's 30% never does, and it also covers any future sale."
+      ],
+      "breakdown": [
+        {
+          "value": "$30,800",
+          "label": "Loan, per year",
+          "detail": "Fixed payment, interest included",
+          "highlight": false
+        },
+        {
+          "value": "$154,000",
+          "label": "Loan, five-year total",
+          "detail": "Then it's paid off",
+          "highlight": true
+        },
+        {
+          "value": "$39,000",
+          "label": "Investor, per year",
+          "detail": "30% of $130,000 profit",
+          "highlight": false
+        },
+        {
+          "value": "$195,000",
+          "label": "Investor, first five years",
+          "detail": "And it keeps going",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept at work · Dilution",
+      "title": "She'd be selling part of the first shop too.",
+      "illustrative": true,
+      "body": [
+        "**Dilution** means your share of the business shrinks when someone new buys in. The investor doesn't get 30% of the new shop. They get 30% of everything.",
+        "That includes the original bakery, which already earns $80,000 without any new money. Lena would be paying $24,000 a year from a shop that didn't need funding."
+      ],
+      "image": {
+        "label": "Two bakeries, both with a 30% slice shaded",
+        "aspectRatio": "16:9",
+        "brief": "빵집 두 곳을 원형 파이처럼 표현. 새 매장뿐 아니라 기존 매장에도 똑같이 30% 조각이 다른 색으로 칠해져 있음. 기존 매장 조각에 \"Already profitable\" 라벨.",
+        "url": "assets/images/fin-07-07-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Stress test",
+      "title": "What if the new shop is slow?",
+      "illustrative": true,
+      "body": [
+        "New locations often take a while to find customers. Say the second shop earns nothing in its first year.",
+        "Can Lena still carry a $30,800 yearly payment?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Yes. The first shop's $80,000 still covers it, with about $49,000 left",
+            "verdict": "best",
+            "feedback": "**Debt vs equity** again: a loan fits when some steady cash can make the payments even in a bad year. Her pay gets tighter, but the bakery survives."
+          },
+          {
+            "key": "B",
+            "text": "No. Any slow year means she can't pay",
+            "verdict": "risky",
+            "feedback": "That would be true for a brand-new bakery with no track record. Lena's first shop is the safety net that makes debt workable."
+          },
+          {
+            "key": "C",
+            "text": "Only if the new shop is profitable from month one",
+            "verdict": "partial",
+            "feedback": "That's too strict. The question isn't whether the new shop pays for itself at once, but whether the whole business can cover the payment."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The loan is cheaper only if the plan holds.",
+      "body": [
+        "These numbers are forecasts. If the new shop loses money for two years, or a big oven breaks, fixed payments can squeeze the whole business.",
+        "Banks often ask small owners for a personal guarantee, which can put their own savings or home at stake. And a good investor can bring more than money: advice, contacts, a second pair of hands.",
+        "Run the slow-year numbers before signing anything."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a young app.",
+      "illustrative": true,
+      "body": [
+        "A two-year-old budgeting app has growing users but still loses money each month. Revenue swings a lot. The founders want $300,000 to build a paid version.",
+        "Which funding fits?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "A bank loan, so they keep 100% ownership",
+            "verdict": "risky",
+            "feedback": "There's no steady cash to make payments. If the paid version is slow, a loan could sink the company. **Debt** needs predictable income."
+          },
+          {
+            "key": "B",
+            "text": "An investor, accepting dilution to fund an uncertain bet",
+            "verdict": "best",
+            "feedback": "Equity fits when the payoff is uncertain and far away. **Dilution** hurts less here, because most of the company's value doesn't exist yet."
+          },
+          {
+            "key": "C",
+            "text": "Founders' credit cards until the paid version launches",
+            "verdict": "partial",
+            "feedback": "It avoids dilution, but it's high-interest debt with the same problem: no reliable cash to repay it."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Match the money to how sure the cash is.",
+      "body": [
+        "You used two ideas here. **Debt vs equity:** steady cash can carry a loan, uncertain cash needs a partner. **Dilution:** selling a share means selling part of what already works.",
+        "**Try it today:** if you needed money to grow, write down your worst-year profit. Could it cover a fixed yearly payment?"
+      ],
+      "next": "Next · Fund a tech startup"
+    }
+  ]
+}

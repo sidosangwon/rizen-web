@@ -1,0 +1,234 @@
+{
+  "id": "THK-05-03",
+  "unitId": "THK-05",
+  "categoryId": "THK",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "The pre-mortem",
+  "readerTitle": "Imagine it already failed. Now explain why.",
+  "format": "numbers_twist",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 연구 (Mitchell·Russo·Pennington 1989, Klein 2007) + 가상 사례 (식당 2호점, 소프트웨어 결제 시스템 이전)",
+  "insight": "\"무엇이 잘못될 수 있을까?\"가 아니라 \"이미 실패했다. 왜였나?\"라고 물으면 같은 사람들에게서 더 많고 솔직한 위험이 나온다.",
+  "misconception": "회의에서 \"우려 사항 있나요?\"라고 물었는데 아무도 말하지 않았다면 위험이 없다는 뜻이다.",
+  "relatedLessonIds": [
+    "THK-01-03",
+    "THK-05-10"
+  ],
+  "sources": [
+    {
+      "text": "Mitchell, D. J., Russo, J. E., & Pennington, N. (1989). Back to the future: Temporal perspective in the explanation of events. Journal of Behavioral Decision Making, 2(1), 25–38.",
+      "url": null
+    },
+    {
+      "text": "Klein, G. (2007). Performing a Project Premortem. Harvard Business Review, September 2007.",
+      "url": null
+    },
+    {
+      "text": "식당 2호점과 결제 시스템 이전 사례는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "\"약 30%\"는 Klein(2007, HBR)이 Mitchell 외(1989) 연구를 요약한 표현입니다(prospective hindsight가 결과의 이유를 찾아내는 능력을 약 30% 높였다). 원 논문의 측정 방식(생성한 이유의 수와 정확도)과 수치를 원문에서 다시 확인하세요. 카드에는 \"about 30%\"와 Klein의 요약이라는 점만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "'pre-mortem'이라는 이름과 진행 방식은 Gary Klein이 널리 알렸다고 적었습니다. Klein이 처음 만들었다고 단정하는 표현은 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "3번 카드의 숫자(\"우려 사항\" 질문에 1개, 사전 부검에서 9개 이유)는 가상 수치입니다. 연구 결과처럼 읽히지 않도록 illustrative 라벨을 붙였습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Decisions · Numbers twist",
+      "title": "Imagine it already failed. Now explain why.",
+      "illustrative": true,
+      "body": [
+        "Maya owns a busy neighborhood restaurant. She's about to sign a five-year lease for a second location. Her chef, manager and two shift leads all say it's a great idea.",
+        "She asks, \"Any concerns?\" Nobody raises a hand. Then she asks the same people a slightly different question, and gets nine answers."
+      ],
+      "image": {
+        "label": "A restaurant team around a table, one empty chair facing a lease document",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 식당 주방 옆 작은 테이블에 직원 4명과 사장이 앉아 있고, 테이블 위에 서명 전 임대 계약서와 펜. 모두 웃으며 고개를 끄덕이는 분위기. 실제 브랜드 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How do you find the risks no one is saying out loud?",
+      "illustrative": true,
+      "body": [
+        "The lease gets signed on Friday. Your team likes the plan, and you know they may not want to be the one who spoils it.",
+        "What's the best way to spend one hour before you sign?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Ask each person, one by one, for their biggest concern",
+            "verdict": "partial",
+            "feedback": "Better than an open question, but people still speak in front of the boss and each other. Doubts tend to come out softened, if at all."
+          },
+          {
+            "key": "B",
+            "text": "Build a best-case and worst-case spreadsheet for the new site",
+            "verdict": "partial",
+            "feedback": "Useful for money risks. But a spreadsheet only holds the risks you already thought of, like rent and sales. It won't tell you the chef is worried about being in two kitchens."
+          },
+          {
+            "key": "C",
+            "text": "Say: \"It's a year from now and the new site has failed. Everyone write down why, alone, for five minutes\"",
+            "verdict": "best",
+            "feedback": "This makes doubt the assignment, not a betrayal, and writing alone stops people copying each other. You trade an hour of good mood for a much longer list of real risks."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The twist",
+      "title": "Same people. Same hour. Different question.",
+      "illustrative": true,
+      "body": [
+        "\"Any concerns?\" got one polite comment about parking. \"Why did it fail?\" got nine reasons. The chef wrote that she can't run two kitchens, and quality slipped at both. The manager wrote that the best staff moved to the new site and the original suffered."
+      ],
+      "breakdown": [
+        {
+          "value": "1",
+          "label": "\"Any concerns?\"",
+          "detail": "Asked out loud, in a group",
+          "highlight": false
+        },
+        {
+          "value": "9",
+          "label": "\"It failed. Why?\"",
+          "detail": "Written alone, then read out",
+          "highlight": true
+        },
+        {
+          "value": "2",
+          "label": "Changed the plan",
+          "detail": "Hire a second head chef first; keep the original team intact",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The pre-mortem",
+      "body": [
+        "A post-mortem asks why something died, after it's too late. A **pre-mortem** asks the same question before you start.",
+        "You tell the team: imagine the project has already failed. Each person writes the most likely reasons. Then you share them and decide which to fix now. Psychologist Gary Klein made the method widely known in a 2007 Harvard Business Review article."
+      ],
+      "image": {
+        "label": "A calendar flipped forward one year, with a broken plan and arrows pointing back to today",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 왼쪽에 \"Today\" 달력, 오른쪽에 1년 뒤 달력과 금이 간 계획서. 오른쪽에서 왼쪽으로 돌아오는 화살표 위에 \"Why did it fail?\" 라벨. 단순한 플랫 스타일.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Why it works",
+      "title": "\"It did fail\" beats \"it could fail.\"",
+      "body": [
+        "In a 1989 study by Mitchell, Russo and Pennington, people explained an event more fully when told it had already happened than when asked if it might happen. Klein, summarizing the research, puts the gain at **about 30%** in people's ability to identify reasons for an outcome.",
+        "There's a social effect too. When failure is the given, naming a risk shows you're thinking hard, not that you're disloyal. Quiet doubts become useful input."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How to run one",
+      "title": "Thirty minutes, one rule: write before you talk.",
+      "body": [
+        "Do it once the plan is clear but before you commit money or announce it."
+      ],
+      "list": [
+        "**Set the scene:** \"It's a year from now. This failed badly.\"",
+        "**Write alone:** five minutes, every reason you can think of",
+        "**Share in turns:** one reason each, round the table, the leader goes last",
+        "**Pick the top few:** most likely and most damaging",
+        "**Act:** a fix, or a warning sign you'll watch for"
+      ],
+      "callout": "The leader going last matters. Otherwise everyone echoes the boss."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A pre-mortem is a tool, not a veto.",
+      "body": [
+        "Any plan can be imagined to death. The goal is a stronger plan, not a cancelled one. If the list scares you off every decision, you've swapped one bias for another.",
+        "It also costs time and goodwill, so save it for decisions that are expensive or hard to undo. For small, reversible choices, just try it and adjust. And it only works if people are safe saying what they wrote."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software company.",
+      "illustrative": true,
+      "body": [
+        "Your team moves all paying customers to a new billing system next Tuesday. You run a pre-mortem. It produces 14 reasons the move failed, from double-charged cards to a support team nobody briefed.",
+        "What do you do with the list?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Delay the launch until all 14 are fixed",
+            "verdict": "risky",
+            "feedback": "You remove risk on paper but may wait months, and some items are unlikely or cheap if they happen. Delay has its own cost."
+          },
+          {
+            "key": "B",
+            "text": "Fix the 2–3 most likely and damaging, set alarms for the rest, then launch",
+            "verdict": "best",
+            "feedback": "You spend effort where failure would hurt most and still ship. Alarms, like a spike in failed payments, let you catch the smaller risks early."
+          },
+          {
+            "key": "C",
+            "text": "Save the list in a shared doc and launch as planned",
+            "verdict": "risky",
+            "feedback": "It keeps the schedule, but a list nobody acts on is just a record of what you knew before it went wrong."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Ask why it failed while you can still change it.",
+      "body": [
+        "Imagining failure as a fact gives people permission, and a better question, to find the risks a hopeful team hides.",
+        "**Try it today:** pick one decision you're about to make. Write three sentences that start with \"It failed because…\". Fix the most likely one."
+      ],
+      "next": "Next · When \"good enough\" beats \"best\""
+    }
+  ]
+}

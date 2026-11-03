@@ -1,0 +1,227 @@
+{
+  "id": "STR-10-03",
+  "unitId": "STR-10",
+  "categoryId": "STR",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "Localize or standardize",
+  "readerTitle": "The store that sold more and earned less",
+  "format": "numbers_twist",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.1,
+  "caseKinds": [
+    "illustrative",
+    "real_company"
+  ],
+  "caseNote": "가상 사례 (생활용품 소매점, 홈클리닝 서비스) + 실제 기업 언급 (McDonald's 국가별 메뉴) · 소매점 수치는 모두 설명용",
+  "insight": "현지화와 표준화는 회사 전체의 선택이 아니라 요소별 선택이다. 고객이 보고 신경 쓰는 앞단은 맞추고, 보이지 않는 뒷단은 통일한다.",
+  "misconception": "현지 고객에게 더 많이 맞출수록 매출이 늘고 그만큼 더 번다.",
+  "relatedLessonIds": [
+    "STR-10-02",
+    "ECO-02-03"
+  ],
+  "sources": [
+    {
+      "text": "국제경영의 표준 개념 (현지화 vs 표준화, global integration vs local responsiveness)",
+      "url": null
+    },
+    {
+      "text": "McDonald's India 공식 메뉴 (소고기 메뉴 없음)",
+      "url": null
+    },
+    {
+      "text": "소매점·클리닝 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "계산 확인: 기본 상품 구성 $1,000,000 × 40% = $400,000. 완전 현지화 $1,200,000 × 32% = $384,000 − 현지 구매팀 $60,000 = $324,000. 혼합 $1,150,000 × 38% = $437,000 − 현지 바이어 $20,000 = $417,000. 모두 가상 수치입니다.",
+      "status": "open"
+    },
+    {
+      "note": "McDonald's가 인도에서 소고기 버거를 팔지 않는다는 점, 주방·교육·공급 체계가 국가 간에 대체로 비슷하다는 점을 게시 전에 공식 자료로 다시 확인하세요. 카드에는 \"much the same\"으로 일반적으로만 적었습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Strategy · Numbers twist",
+      "title": "Sales up 20%. Profit down.",
+      "illustrative": true,
+      "body": [
+        "A home-goods chain opens its first store in a new country. The local team rebuilds the whole product range around local tastes.",
+        "Sales come in 20% above the plan, which assumed the chain's usual range. Profit comes in below it. Nobody in the store did anything wrong."
+      ],
+      "image": {
+        "label": "A store shelf with sales rising and profit falling",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 생활용품 매장 선반 위에 두 개의 화살표: 'Sales'는 위로, 'Profit'은 아래로. 선반에는 다양한 현지 상품이 빽빽하게. 실제 브랜드 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/str-10-03-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which range would you stock?",
+      "illustrative": true,
+      "body": [
+        "Your usual range would sell about $1.0M a year in the new store, at a 40% gross margin (what's left after paying for the goods).",
+        "A fully local range could sell $1.2M. Or you could swap only the one in five products locals notice most, like sizes and seasonal goods, and sell $1.15M."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep the usual range everywhere",
+            "verdict": "partial",
+            "feedback": "You keep your bulk discounts and stay simple, but you leave real local demand unserved. It earns $400k: solid, but not the most."
+          },
+          {
+            "key": "B",
+            "text": "Go fully local",
+            "verdict": "risky",
+            "feedback": "The highest sales, but small orders lose bulk discounts and a local buying team costs money. It earns the least of the three."
+          },
+          {
+            "key": "C",
+            "text": "Swap one in five products",
+            "verdict": "best",
+            "feedback": "You win most of the extra sales while keeping most of your buying scale. The next card shows the math."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "What each range really earns.",
+      "illustrative": true,
+      "body": [
+        "Fully local: buying in small batches pushes the margin down to 32%, and a local buying team costs $60k a year.",
+        "Mixed: the margin slips only to 38%, and one local buyer costs $20k."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Gross profit minus local buying costs, per year",
+            "rows": [
+              {
+                "label": "Usual range",
+                "value": 400000,
+                "highlight": false
+              },
+              {
+                "label": "Fully local",
+                "value": 324000,
+                "highlight": false
+              },
+              {
+                "label": "One in five swapped",
+                "value": 417000,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "callout": "The range that sold the most earned the least."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Localize or standardize",
+      "body": [
+        "**Standardizing** means doing the same thing everywhere. It buys scale: bigger orders, one process, one training manual.",
+        "**Localizing** means adapting to each market. It buys fit: products and service that match what local customers want.",
+        "The useful question isn't which one your business is. It's which parts to adapt, one at a time."
+      ],
+      "image": {
+        "label": "A balance scale: fit on one side, scale on the other",
+        "aspectRatio": "16:9",
+        "brief": "저울 인포그래픽. 왼쪽 접시 'Fit' (현지 상품, 현지어 간판), 오른쪽 접시 'Scale' (큰 상자 묶음, 하나의 매뉴얼). 가운데에 손이 블록을 하나씩 옮기는 모습으로 '요소별 선택'을 표현.",
+        "url": "assets/images/str-10-03-c4.jpg"
+      },
+      "softwareNote": "Software shows the same split. Language, payment methods and price points often change by country, while the code base, servers and core features stay shared. Forking the product per country usually costs more than it earns."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Adapt the front, standardize the back.",
+      "body": [
+        "A simple test for each part of your business:"
+      ],
+      "list": [
+        "**Customers see it and care:** sizes, tastes, language, how they pay. Adapt it.",
+        "**Customers don't see it:** suppliers, systems, quality checks. Keep it the same.",
+        "**Adapting it breaks your scale:** count the cost before you change it."
+      ],
+      "callout": "McDonald's works this way. Its menu changes by country; in India, for example, it sells no beef burgers. Its kitchens, training and supply systems stay much the same."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Every adaptation keeps costing.",
+      "body": [
+        "Each change adds products to stock, steps to train and checks to run. These costs grow quietly, long after launch day, and rarely show up in the first plan.",
+        "And sometimes being foreign is the point. Some customers buy your product because it isn't local. Ask them what matters before you change it."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a home-cleaning service.",
+      "illustrative": true,
+      "body": [
+        "Your cleaning company is expanding to a city abroad. Homes there have more tile floors and balconies, and customers prefer paying by bank transfer.",
+        "Your booking software, training program and quality checks work well at home. What do you change?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Build new local booking software and a new training program",
+            "verdict": "risky",
+            "feedback": "Everything fits locally, but you pay to rebuild systems customers never see, and you lose what keeps your teams consistent."
+          },
+          {
+            "key": "B",
+            "text": "Nothing. A proven service should run the same everywhere",
+            "verdict": "partial",
+            "feedback": "The cheapest launch, but cleaners will miss the jobs locals expect, and some customers can't pay the way they want."
+          },
+          {
+            "key": "C",
+            "text": "Keep the software, training and checks; adapt the cleaning checklist and add bank transfer",
+            "verdict": "best",
+            "feedback": "You change what customers notice and keep the systems that make you reliable and cheap to run."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Adapt what customers notice. Standardize what they don't.",
+      "body": [
+        "More fit brings more sales, but every change chips away at scale. Decide part by part, and check what you keep, not just what you sell.",
+        "**Try it today:** list ten parts of your offer. Mark the ones customers see and care about. Those are your candidates to adapt. Keep the rest the same."
+      ],
+      "next": "Next · Ways to enter a market"
+    }
+  ]
+}

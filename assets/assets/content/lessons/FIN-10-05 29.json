@@ -1,0 +1,255 @@
+{
+  "id": "FIN-10-05",
+  "unitId": "FIN-10",
+  "categoryId": "FIN",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Growth that's too good",
+  "readerTitle": "When the numbers look too perfect to question",
+  "format": "counterexample",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 사례 (Madoff 펀드, Luckin Coffee) + 가상 적용 (B2B 시설관리 업체, 유통 영업 지역)",
+  "insight": "너무 좋은 성장은 축하가 아니라 질문의 신호다. 매출과 함께 늘어나야 할 것들(사람, 매장, 현금, 시장)이 정말 같이 늘었는지 확인한다.",
+  "misconception": "꾸준하고 빠른 성장은 잘 운영되는 사업의 증거다. 숫자가 좋을수록 의심할 이유가 줄어든다.",
+  "relatedLessonIds": [
+    "FIN-10-01",
+    "FIN-10-06"
+  ],
+  "sources": [
+    {
+      "text": "Markopolos, H. (2005). The World's Largest Hedge Fund is a Fraud. Submission to the U.S. SEC.",
+      "url": null
+    },
+    {
+      "text": "SEC Office of Investigations (2009). Investigation of Failure of the SEC to Uncover Bernard Madoff's Ponzi Scheme.",
+      "url": null
+    },
+    {
+      "text": "Luckin Coffee press release, April 2, 2020 (internal investigation into fabricated 2019 sales)",
+      "url": null
+    },
+    {
+      "text": "Muddy Waters Research, circulated anonymous report on Luckin Coffee, January 31, 2020",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Madoff 펀드가 '월 약 1%의 꾸준한 수익, 손실 월이 매우 적음'을 보고했다는 표현은 Markopolos 제출 자료와 SEC 감찰 보고서를 근거로 했습니다. 정확한 기간과 손실 월 수는 자료마다 다르므로 카드에는 'roughly', 'very few'로만 적었습니다. 게시 전 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Markopolos가 '전략에 필요한 옵션 거래량이 시장 전체 규모보다 컸다'고 지적한 내용은 2005년 제출 자료의 주요 근거 중 하나입니다. 표현을 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Luckin Coffee: 2020년 1월 Muddy Waters가 매장 영상 분석 기반 익명 보고서를 배포, 2020년 4월 회사가 2019년 매출 약 22억 위안 조작을 발표, 이후 Nasdaq 상장폐지. 금액과 날짜를 보도자료로 재확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "시설관리 업체 수치는 모두 설명용 가상 수치입니다. 매출 +40%, 기술자 수 0% 변화 → 기술자 1인당 매출 +40% (1.40 ÷ 1.00). 현금 회수 +8%, 업계 성장 약 5%는 가정입니다.",
+      "status": "open"
+    },
+    {
+      "note": "유통 사례 수치(지역 +50%, 다른 지역 평균 +6%, 매장 12곳)는 설명용 가상 수치입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Counterexample",
+      "title": "The best track record on Wall Street was the clue.",
+      "body": [
+        "For years, Bernard Madoff's fund reported gains of roughly 1% a month, with very few losing months, even when markets fell.",
+        "Investors saw safety. One analyst, Harry Markopolos, saw a pattern no real strategy could produce. He warned regulators for years. In 2008 the fund collapsed as one of the largest frauds ever uncovered."
+      ],
+      "image": {
+        "label": "A perfectly smooth rising line next to a jagged market line",
+        "aspectRatio": "4:3",
+        "brief": "두 개의 선 그래프. 하나는 들쭉날쭉 오르내리는 시장 선, 다른 하나는 자로 그은 듯 매끄럽게 올라가는 금색 선. 매끄러운 선 위에 작은 돋보기 하나. 실제 회사명, 로고, 인물 얼굴은 쓰지 않음.",
+        "url": "assets/images/fin-10-05-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "A contractor with a perfect growth record.",
+      "illustrative": true,
+      "body": [
+        "You're thinking of buying a facilities-maintenance contractor that serves office buildings. Revenue grew 40% a year for three years. Every quarter beat the last. Margins rose too.",
+        "Its industry grows about 5% a year. The number of technicians hasn't changed. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Pay a premium. Growth like this proves the team is excellent",
+            "verdict": "risky",
+            "feedback": "You'd be paying for the very number you haven't checked. If the growth isn't real, the premium is the first thing you lose."
+          },
+          {
+            "key": "B",
+            "text": "Ask how the same technicians did 40% more work, and compare revenue to cash collected",
+            "verdict": "best",
+            "feedback": "This tests the growth against what would have to grow with it. It costs a few days and may annoy the seller, but it answers the real question."
+          },
+          {
+            "key": "C",
+            "text": "Assume growth slows to the industry average and lower your offer",
+            "verdict": "partial",
+            "feedback": "This protects you from overpaying for the future. It doesn't tell you whether the past was real."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What the checks found",
+      "title": "The growth had nothing holding it up.",
+      "illustrative": true,
+      "body": [
+        "Revenue rose 40%, but the work behind it didn't. Each technician would have had to do 40% more jobs, while cash coming in barely moved. Some of that revenue was booked but never collected."
+      ],
+      "breakdown": [
+        {
+          "value": "+40%",
+          "label": "Revenue",
+          "detail": "Every quarter a record",
+          "highlight": true
+        },
+        {
+          "value": "0%",
+          "label": "Technicians",
+          "detail": "Same team, same hours",
+          "highlight": false
+        },
+        {
+          "value": "+8%",
+          "label": "Cash collected",
+          "detail": "What clients actually paid",
+          "highlight": true
+        },
+        {
+          "value": "~5%",
+          "label": "Industry growth",
+          "detail": "What rivals managed",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Growth that's too good",
+      "body": [
+        "**Growth that's too good** is growth faster, smoother or steadier than the business's real engine could produce.",
+        "It shows up two ways. *Too fast:* revenue outruns the people, stores, stock or cash that should grow with it. *Too smooth:* no bad months, in a business that should have them.",
+        "Real businesses are lumpy. Clients leave, seasons turn, a big order slips. A line with no bumps is a question, not a reward."
+      ],
+      "image": {
+        "label": "Lumpy real growth versus a perfectly smooth staircase",
+        "aspectRatio": "16:9",
+        "brief": "좌우 비교 인포그래픽. 왼쪽 \"Real growth\"는 오르내리며 전체적으로 오르는 선, 오른쪽 \"Too good\"은 매 분기 똑같은 높이로 오르는 계단. 오른쪽 계단 아래 기둥(\"Staff\", \"Cash\", \"Stores\")이 비어 있음.",
+        "url": "assets/images/fin-10-05-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "Both frauds were caught by asking what it would physically take.",
+      "body": [
+        "Markopolos worked out how many options Madoff's strategy would need. The number was larger than the whole market for them.",
+        "Luckin Coffee, a Chinese chain, opened stores at record speed and reported fast-rising sales. In early 2020, a report circulated by short seller Muddy Waters used hours of store video to argue that orders were inflated. Months later, Luckin said about RMB 2.2 billion of 2019 sales had been fabricated. Its shares collapsed and it was delisted from Nasdaq.",
+        "Neither check needed inside access. They counted what had to exist."
+      ],
+      "image": {
+        "label": "Someone counting customers outside a café with a clicker",
+        "aspectRatio": "16:9",
+        "brief": "카페 밖 벤치에 앉은 사람이 손에 카운터를 들고 드나드는 손님을 세는 장면. 따뜻한 일러스트 톤. 실제 브랜드 로고, 컵 디자인, 간판 글씨는 쓰지 않음.",
+        "url": "assets/images/fin-10-05-c5.jpg"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Wider use",
+      "title": "Ask what else should have grown.",
+      "body": [
+        "For any growth number, list what would have to rise with it, then check whether it did.",
+        "A bakery selling 50% more should be buying more flour. A delivery firm with twice the orders needs more trips and fuel. A consultancy billing more hours needs more people or longer days.",
+        "When revenue grows alone, something is off: the numbers, the timing, or the story you were told."
+      ],
+      "softwareNote": "Look past signups and revenue to what real usage creates: server costs, support tickets, payments collected. If revenue doubles while all three stay flat, the customers may not be using the product."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Too good is a question, not a verdict.",
+      "body": [
+        "Real breakouts happen. A new product catches on, a rival closes, a big contract lands. Some businesses are smooth for good reasons, such as long contracts or subscriptions.",
+        "And the danger isn't only outright fraud. Honest managers chasing a streak of record quarters start pulling sales forward or delaying costs. The streak itself creates the pressure.",
+        "So investigate calmly. Ask for the drivers before you accuse anyone or walk away."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a distributor's star territory.",
+      "illustrative": true,
+      "body": [
+        "You run a wholesale distributor supplying small shops. Most sales territories grew about 6% this year. One rep's territory grew 50%, with a record every month, mostly from two small corner shops.",
+        "Those two shops now order more than your biggest 12-store client. The rep's bonus is due. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Pay the bonus and ask the rep to train the others",
+            "verdict": "risky",
+            "feedback": "You reward the result and spread the method before knowing what it is. If the orders are stuffed or unpaid, you've taught it to everyone."
+          },
+          {
+            "key": "B",
+            "text": "Visit the shops, and check payments and returns after year-end before paying",
+            "verdict": "best",
+            "feedback": "Small shops can't usually sell more than a 12-store chain. A short delay checks whether the goods sold through and were paid for, at the cost of an awkward talk."
+          },
+          {
+            "key": "C",
+            "text": "Quietly cap the bonus at a normal level",
+            "verdict": "partial",
+            "feedback": "This limits your cost but leaves the real question unanswered. If the growth is genuine, you've also punished your best rep."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Good growth leaves footprints. Check for them.",
+      "body": [
+        "When growth is faster or smoother than the business could plausibly produce, ask what else should have grown with it.",
+        "**Try it today:** take your fastest-growing product, client or team. Name two things that should have grown alongside it, like staff, stock or cash collected, and check whether they did."
+      ],
+      "next": "Next · Who checks the people who report the numbers?"
+    }
+  ]
+}

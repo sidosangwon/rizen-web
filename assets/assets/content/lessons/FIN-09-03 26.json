@@ -1,0 +1,225 @@
+{
+  "id": "FIN-09-03",
+  "unitId": "FIN-09",
+  "categoryId": "FIN",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "Reinvest, return or acquire",
+  "readerTitle": "Three doors for every spare dollar",
+  "format": "everyday_scene",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (B2B 회계·급여 대행사, 장비 제조사 안의 현장 서비스팀) · 모든 수치는 설명용",
+  "insight": "남는 이익은 재투자, 반환, 인수라는 세 갈래 중 다음 1달러가 위험 대비 가장 많이 버는 곳으로 보낸다. 재투자는 기본값이 아니고, 반환은 실패가 아니다.",
+  "misconception": "남은 돈은 당연히 사업에 다시 넣어야 하고, 돈을 돌려주는 것은 성장을 포기하는 것이다.",
+  "relatedLessonIds": [
+    "FIN-09-02",
+    "FIN-09-04"
+  ],
+  "sources": [
+    {
+      "text": "기업재무의 표준 개념 (자본 배분: 재투자, 주주 환원, 인수)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "계산 확인: 재투자 $60K ÷ $400K = 15%, 인수 $80K ÷ $400K = 20%, 반환 시 소유주가 다른 곳에서 얻는다고 가정한 수익 6% × $400K = $24K. 인수 고객 절반 이탈 시 $40K ÷ $400K = 10%.",
+      "status": "open"
+    },
+    {
+      "note": "6%는 실제 시장 수익률 주장이 아니라 '소유주가 다른 곳에서 비교적 쉽게 얻을 수 있다고 가정한 수익'입니다. 카드 문장에도 assume으로 표기했습니다. 특정 투자 상품 추천으로 읽히지 않는지 검토하세요.",
+      "status": "open"
+    },
+    {
+      "note": "배당·자사주 매입(FIN-09-04), 허들 레이트(FIN-09-05)와 겹치지 않도록 반환 방식과 기준 수익률 설정은 다루지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Everyday scene",
+      "title": "Three doors for every spare dollar",
+      "illustrative": true,
+      "body": [
+        "Maya runs a payroll and bookkeeping firm for small businesses. It's December. After salaries and a safety reserve, $400,000 is left over.",
+        "Three emails sit in her inbox. Her operations lead wants two hires and new software. Her two partners ask about a payout. And a retiring competitor offers to sell her his client list."
+      ],
+      "image": {
+        "label": "An office desk with three open envelopes and a bank statement",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 작은 사무실 책상 위에 열린 봉투 세 개(각각 \"Hire & software\", \"Payout?\", \"Client list for sale\" 메모)와 \"$400,000\"이 적힌 잔고표. 창밖은 겨울 저녁. 실제 회사 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/fin-09-03-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Where should the $400,000 go?",
+      "illustrative": true,
+      "body": [
+        "The firm is healthy and growing slowly. Maya's reserve is already set aside, so this money isn't needed to run the business.",
+        "If you were Maya, which email would you answer first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Hire two people and buy the software",
+            "verdict": "neutral",
+            "feedback": "Growing your own business is the familiar move. You gain capacity, but only if there's enough new work to fill it."
+          },
+          {
+            "key": "B",
+            "text": "Buy the competitor's client list",
+            "verdict": "neutral",
+            "feedback": "You get customers right away instead of winning them one by one. You also pay up front for clients who might not stay."
+          },
+          {
+            "key": "C",
+            "text": "Pay the money out to the partners",
+            "verdict": "neutral",
+            "feedback": "It's certain and simple. But if the firm has a better use for the money, the owners give up that extra growth."
+          }
+        ],
+        "afterReveal": "Each answer can be right. You can't tell which until you know what each option would earn."
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Put a yearly return next to each email.",
+      "illustrative": true,
+      "body": [
+        "Maya asks one question of every option: what does $400,000 earn here each year? On paper, buying the client list wins."
+      ],
+      "breakdown": [
+        {
+          "value": "$60K / yr",
+          "label": "Reinvest: 15%",
+          "detail": "Two hires and software serve more clients",
+          "highlight": false
+        },
+        {
+          "value": "$80K / yr",
+          "label": "Acquire: 20%",
+          "detail": "The competitor's clients, if they all stay",
+          "highlight": true
+        },
+        {
+          "value": "$24K / yr",
+          "label": "Return: 6%",
+          "detail": "Assume the partners earn this elsewhere",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Reinvest, return or acquire",
+      "body": [
+        "Profit you don't need to run the business has only three places to go. You can **reinvest** it in your own business. You can **return** it to the owners. Or you can **acquire**: buy another business, or part of one.",
+        "The test is the same for all three: where does the next dollar earn the most, for the risk you take? Reinvesting isn't automatically right. Paying out isn't giving up."
+      ],
+      "image": {
+        "label": "Three doors labeled Reinvest, Return and Acquire",
+        "aspectRatio": "16:9",
+        "brief": "동전 하나가 갈림길에 서 있고 문 세 개 앞에 놓여 있는 일러스트. 문마다 \"Reinvest\", \"Return\", \"Acquire\" 라벨과 작은 저울 아이콘(수익 vs 위험). 깔끔한 플랫 스타일.",
+        "url": "assets/images/fin-09-03-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Each door has its own trap.",
+      "illustrative": true,
+      "body": [
+        "**Reinvest:** the first projects are usually the best. Each extra hire or machine tends to earn less than the one before.",
+        "**Acquire:** the paper numbers assume customers stay. When an owner retires, many clients leave with the relationship. If half of the competitor's clients go, Maya earns $40,000 a year, or 10%. Now reinvesting wins.",
+        "**Return:** it feels like doing nothing. It's the right choice when owners can earn more with the money than the business can."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond one firm",
+      "title": "The same three doors, everywhere.",
+      "body": [
+        "A bakery owner deciding between a second oven, a bigger salary and buying the café next door faces this choice. So does a large company.",
+        "For a team inside a company, the doors look a little different. Returning means handing budget back to head office, so it can go to a team that earns more with it. That isn't a loss for the company. It's the system working."
+      ],
+      "softwareNote": "Software firms often reinvest heavily because one more feature can serve many users at little extra cost. When growth slows, returns on reinvestment fall, and returning cash or acquiring becomes the better door."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The comparison is only as good as the guesses.",
+      "body": [
+        "Every number on Maya's list is an estimate. A 20% guess on a risky purchase isn't worth the same as a steady 6%. Treat the risky option as if it earns less than it promises.",
+        "The doors also differ in how easy they are to reverse. Paused hiring can restart. A purchased business is hard to sell back. And you don't have to pick one door. Splitting the money is often the sensible answer."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now you run a team inside a bigger company.",
+      "illustrative": true,
+      "body": [
+        "You lead the field service team at an equipment maker. You finished the year $200,000 under budget. Your team has one project ready: a routing tool you expect to cut travel costs clearly. Beyond that, ideas are vague.",
+        "What do you do with the money?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Spend it all before year-end on tools and training, so next year's budget isn't cut",
+            "verdict": "risky",
+            "feedback": "You protect your budget, but you spend without asking what the money earns. The company loses the chance to use it where it pays more."
+          },
+          {
+            "key": "B",
+            "text": "Pitch the routing tool with its expected payoff, and hand the rest back to head office",
+            "verdict": "best",
+            "feedback": "You reinvest where the return is clear and return what you can't use well. You may get a smaller budget, but you earn trust for the next request."
+          },
+          {
+            "key": "C",
+            "text": "Propose buying a small local repair shop to grow the team",
+            "verdict": "partial",
+            "feedback": "It could pay off if the shop's earnings justify the price. But it's the riskiest door and the hardest to undo, so it needs real numbers first."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Send each spare dollar where it earns the most for the risk.",
+      "body": [
+        "Reinvest, return and acquire are three answers to one question. Compare them on the same terms, and discount the risky guesses.",
+        "**Try it today:** write down what your next $10,000 of spare profit would earn in your business, in a purchase, and in the owners' hands."
+      ],
+      "next": "Next · Buybacks and dividends: two ways to hand money back"
+    }
+  ]
+}

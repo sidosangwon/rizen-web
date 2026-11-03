@@ -1,0 +1,266 @@
+{
+  "id": "BMO-06-02",
+  "unitId": "BMO-06",
+  "categoryId": "BMO",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "The math of retention",
+  "readerTitle": "Why a subscription business stops growing even when sign-ups never slow",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (대형 식료품 체인 안의 밀키트 구독팀, 프로젝트 관리 앱) · 모든 수치는 설명용",
+  "insight": "신규 고객 수가 일정해도 고객 기반은 '이탈 수 = 신규 수'가 되는 지점에서 멈춘다. 그 상한선은 신규 ÷ 이탈률로 미리 계산할 수 있고, 이탈을 줄이는 일은 상한선 자체를 옮긴다.",
+  "misconception": "매달 신규 고객이 꾸준히 들어오면 고객 수도 계속 같은 속도로 늘어난다. 성장이 멈추면 마케팅을 더 하면 된다.",
+  "relatedLessonIds": [
+    "CUS-06-02",
+    "BMO-06-05"
+  ],
+  "sources": [
+    {
+      "text": "재고-흐름(stock and flow) 정상상태 계산: 정상상태 고객 수 = 기간당 신규 고객 ÷ 기간당 이탈률. 구독 지표 분석에서 쓰는 표준 계산",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "밀키트 계산: N_t = 0.9 × N_(t−1) + 200, N_0 = 0. 닫힌 식 N_t = 2,000 × (1 − 0.9^t). 0.9^12 = 0.2824 → 약 1,435명, 0.9^24 = 0.0798 → 약 1,840명, 0.9^36 = 0.0225 → 약 1,955명. 상한선 200 ÷ 0.10 = 2,000명. 2,000명에서 10% 이탈 = 200명 = 신규 200명.",
+      "status": "open"
+    },
+    {
+      "note": "상한선 비교: 신규 400 ÷ 10% = 4,000, 신규 200 ÷ 5% = 4,000, 신규 400 ÷ 5% = 8,000. 이탈률 5%일 때 1,435명 기준 월 이탈 약 72명.",
+      "status": "open"
+    },
+    {
+      "note": "앱 계산: 상한선 500 ÷ 0.04 = 12,500팀. 10,000팀에서 이탈 400, 신규 500 → 순증 100. 순증은 고객 수가 늘수록 줄어들어 12,500에 수렴하므로 20,000에는 도달하지 못함. 600 ÷ 0.04 = 15,000, 500 ÷ 0.025 = 20,000.",
+      "status": "open"
+    },
+    {
+      "note": "이 모델은 매달 이탈률이 일정하고 이탈은 월초 고객에게만 적용된다고 단순화했습니다. 실제로는 가입 초기에 이탈이 높고 오래된 고객은 낮은 경우가 많다는 점을 Watch out 카드에 적었습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business models · Numbers twist",
+      "title": "Why a subscription business stops growing even when sign-ups never slow",
+      "illustrative": true,
+      "body": [
+        "A team adds 200 new subscribers every single month. Same ads, same effort, same result.",
+        "After two years, they have fewer than 2,000. Nobody made a mistake in marketing. The answer is in one small number they barely watched."
+      ],
+      "image": {
+        "label": "A bucket being filled while water leaks from a hole",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 위에서 수도꼭지가 일정하게 물을 붓고, 양동이 옆구리 구멍에서 물이 새어 나감. 양동이 수위는 중간에서 멈춰 있음. 수도꼭지에 \"+200 a month\", 구멍에 \"−10% a month\" 라벨. 실제 브랜드 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Will the meal-kit team hit its target?",
+      "illustrative": true,
+      "body": [
+        "You run the meal-kit subscription team inside a large grocery chain. You sign up 200 new subscribers a month, and each month about 10% of current subscribers cancel.",
+        "Head office wants 4,000 subscribers. If nothing changes, what happens?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "You reach 4,000 in about 20 months",
+            "verdict": "risky",
+            "feedback": "That counts the people coming in and ignores the people leaving. It's the most common way growth plans go wrong."
+          },
+          {
+            "key": "B",
+            "text": "You level off near 2,000 and never reach 4,000",
+            "verdict": "best",
+            "feedback": "Right. Once you have 2,000 subscribers, 10% leaving is 200 a month, exactly as many as join. Growth stops there."
+          },
+          {
+            "key": "C",
+            "text": "You get there, just more slowly than planned",
+            "verdict": "partial",
+            "feedback": "Good instinct that cancellations slow you down. But they don't just slow growth. They put a hard limit on it."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Watch the growth fade.",
+      "illustrative": true,
+      "body": [
+        "Each month, 200 join and 10% of the existing base leaves. The bigger the base gets, the more people leave, until leaving catches up with joining."
+      ],
+      "breakdown": [
+        {
+          "value": "200",
+          "label": "Month 1",
+          "detail": "Nobody to lose yet",
+          "highlight": false
+        },
+        {
+          "value": "~1,435",
+          "label": "Month 12",
+          "detail": "About 144 now leave each month",
+          "highlight": false
+        },
+        {
+          "value": "~1,840",
+          "label": "Month 24",
+          "detail": "Growth has nearly stalled",
+          "highlight": false
+        },
+        {
+          "value": "2,000",
+          "label": "The ceiling",
+          "detail": "200 leave, 200 join",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The retention ceiling",
+      "body": [
+        "Any business with returning customers has a **ceiling**: the size where customers lost each month equal customers gained.",
+        "You can calculate it in one line: **new customers per month ÷ share who leave per month**. Here, 200 ÷ 10% = 2,000.",
+        "The share who leave is called *churn*. Churn doesn't just slow you down. It decides where you stop."
+      ],
+      "image": {
+        "label": "A growth curve flattening under a dotted ceiling line",
+        "aspectRatio": "16:9",
+        "brief": "단순한 선 그래프. 가로축 \"Months\", 세로축 \"Subscribers\". 곡선이 빠르게 오르다가 점선 \"Ceiling = 200 ÷ 10% = 2,000\" 아래에서 평평해짐. 점선 위 \"Target 4,000\"은 회색으로 멀리 표시.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "chart",
+      "eyebrow": "The twist",
+      "title": "Two levers, same ceiling, very different cost.",
+      "illustrative": true,
+      "body": [
+        "To reach 4,000, you could double sign-ups to 400 a month. Or you could halve cancellations to 5%. On paper, both move the ceiling to the same place."
+      ],
+      "chart": {
+        "unit": "count",
+        "groups": [
+          {
+            "label": "Where the base levels off",
+            "rows": [
+              {
+                "label": "Today: 200 new, 10% leave",
+                "value": 2000,
+                "highlight": false
+              },
+              {
+                "label": "Double sign-ups: 400 new, 10% leave",
+                "value": 4000,
+                "highlight": false
+              },
+              {
+                "label": "Halve churn: 200 new, 5% leave",
+                "value": 4000,
+                "highlight": true
+              },
+              {
+                "label": "Both: 400 new, 5% leave",
+                "value": 8000,
+                "highlight": false
+              }
+            ]
+          }
+        ]
+      },
+      "callout": "Doubling sign-ups usually means doubling ad spend every month, forever. Fixing why people cancel is often paid for once."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond subscriptions",
+      "title": "Every business with regulars has a ceiling.",
+      "body": [
+        "A gym, an accounting firm with yearly clients, a bakery with morning regulars. Each gains some customers and quietly loses some.",
+        "The ceiling explains a familiar feeling: *we work as hard as ever, but we've stopped growing.* Often marketing hasn't weakened. The base has simply grown big enough that normal losses cancel out normal gains.",
+        "So when growth flattens, check the leak before you turn up the tap."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The ceiling is a rough guide, not a forecast.",
+      "body": [
+        "The math assumes a steady flow of new customers and a fixed churn rate. Real life is messier. New customers often cancel more in their first months, while long-time customers rarely leave.",
+        "Your market can also run dry, so sign-ups may fall as you grow. And cutting churn isn't free. Heavy discounts to keep people can cost more than they save.",
+        "Use the ceiling to test whether a target is even possible, then look at real customer groups."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software app.",
+      "illustrative": true,
+      "body": [
+        "Your project-management app has 10,000 paying teams. You add 500 new teams a month, and 4% of teams cancel each month. That's a net gain of 100 a month.",
+        "A colleague says: \"At this pace we hit 20,000 in about eight years.\" What do you say?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Agreed. 10,000 more at 100 a month is about eight years",
+            "verdict": "risky",
+            "feedback": "The net gain shrinks as you grow, because 4% of a bigger base is more teams. The 100 a month won't last."
+          },
+          {
+            "key": "B",
+            "text": "We'll level off near 12,500 unless churn or sign-ups change",
+            "verdict": "best",
+            "feedback": "Right: 500 ÷ 4% = 12,500. To reach 20,000, you'd need churn near 2.5% or about 800 sign-ups a month."
+          },
+          {
+            "key": "C",
+            "text": "Sooner. A bigger base brings more word of mouth",
+            "verdict": "partial",
+            "feedback": "Referrals can raise sign-ups, which does lift the ceiling. But without a number behind it, it's hope, not a plan."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Your churn rate decides where you stop.",
+      "body": [
+        "New customers per month divided by the share who leave each month tells you the size your business is heading toward, whatever the plan says.",
+        "**Try it today:** estimate how many new customers you gain in a month and what share of your customers you lose. Divide. Is your target above or below that number?"
+      ],
+      "next": "Next · When existing customers pay you more every year"
+    }
+  ]
+}

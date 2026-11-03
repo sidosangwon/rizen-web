@@ -1,0 +1,224 @@
+{
+  "id": "OPS-03-03",
+  "unitId": "OPS-03",
+  "categoryId": "OPS",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "Just in time vs just in case",
+  "readerTitle": "Why the inventor of just in time kept a stockpile",
+  "format": "company_story",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Toyota, 2011년 지진과 2021년 반도체 부족) + 가상 적용 (철물 유통업체, 사내 IT팀)",
+  "insight": "재고를 줄일지 쌓을지는 회사 전체의 방침이 아니라 품목마다 정하는 선택이다. 다시 채우기 어렵고 떨어지면 비싼 품목에만 여유분을 둔다.",
+  "misconception": "재고는 무조건 낭비이므로 최대한 줄여야 한다. 반대로, 위기를 한 번 겪으면 모든 것을 넉넉히 쌓아 두는 것이 안전하다.",
+  "relatedLessonIds": [
+    "OPS-02-02",
+    "OPS-03-06"
+  ],
+  "sources": [
+    {
+      "text": "Reuters (2021). How Toyota thrives when the chips are down. 2011년 이후 반도체 등 핵심 부품 비축에 관한 보도",
+      "url": null
+    },
+    {
+      "text": "Toyota 공급망 관련 공개 자료 (2011년 동일본 대지진 이후 공급업체 정보 데이터베이스 구축)",
+      "url": null
+    },
+    {
+      "text": "2021년 9월 Toyota 감산 발표 관련 보도",
+      "url": null
+    },
+    {
+      "text": "철물 유통업체, 사내 IT팀 사례와 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "2011년 지진 때 Renesas 공장 피해로 Toyota 생산이 영향을 받은 점, 이후 Toyota가 하위 공급업체까지 파악하는 데이터베이스를 만든 점을 게시 전 1차 자료로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Reuters(2021년 3월) 보도: Toyota가 공급업체에 반도체 등 핵심 부품의 여유 재고를 요청했고, 덕분에 반도체 부족 초기에 경쟁사보다 생산을 오래 유지했다는 내용. 비축 기간(보도상 수개월)은 정확한 수치를 쓰지 않고 \"a few months\"로만 표현했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Toyota가 2021년 하반기 반도체 부족 장기화로 감산한 사실(2021년 9월 발표)을 확인하세요. 카드에는 감산 비율을 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "철물 유통업체의 리드타임(펌프 12주, 나사 2일)과 사내 IT팀의 노트북 대기 6주는 설명용 가상 수치입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Company story",
+      "title": "Why the inventor of just in time kept a stockpile",
+      "body": [
+        "Toyota made lean inventory famous. Parts arrive just before they're needed, and almost nothing sits on a shelf.",
+        "Yet when a global chip shortage hit carmakers in 2021, Toyota reportedly kept building cars longer than many rivals. The reason: a stockpile it had quietly built years earlier."
+      ],
+      "image": {
+        "label": "A lean factory line next to one well-stocked shelf",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 텅 빈 선반이 이어진 깔끔한 자동차 조립 라인 옆에, 작은 칩 상자가 가득 찬 선반 하나만 눈에 띄게 놓여 있음. 실제 자동차 브랜드 로고나 차량 디자인은 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Where should the extra stock go?",
+      "illustrative": true,
+      "body": [
+        "You run a hardware distributor that supplies 40 local stores. You keep stock lean, and it has kept costs low.",
+        "Screws and tape come from several suppliers and arrive in two days. One popular water pump comes from a single overseas factory and takes 12 weeks. When stores run out of pumps, customers go elsewhere. What do you change?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Nothing. Lean stock has worked, so keep ordering everything as it sells",
+            "verdict": "risky",
+            "feedback": "You keep costs low, but a 12-week wait on a single supplier means one hiccup empties every store of pumps for months."
+          },
+          {
+            "key": "B",
+            "text": "Double the stock of everything, just to be safe",
+            "verdict": "partial",
+            "feedback": "You'll rarely run out, but you tie up cash and space in screws you could restock in two days."
+          },
+          {
+            "key": "C",
+            "text": "Hold extra pumps and keep fast-restock items lean",
+            "verdict": "best",
+            "feedback": "You pay to store only what is slow and hard to replace. That's the idea in this lesson."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "An earthquake showed where the system was thin.",
+      "body": [
+        "In 2011, a huge earthquake struck Japan. Among the damaged factories was one belonging to a major chip maker that supplied Toyota and others. Car production stalled.",
+        "Toyota found it didn't fully know which suppliers stood behind its own suppliers. Afterwards, it mapped them and reportedly asked suppliers to hold **extra stock of hard-to-replace parts**, such as chips, enough for a few months.",
+        "Most parts stayed lean. Only the fragile ones got a cushion."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Just in time vs just in case",
+      "body": [
+        "**Just in time** means getting stock only as you need it. You save cash, space and waste, but any delay stops you quickly.",
+        "**Just in case** means holding extra stock as a cushion against delays or demand spikes. You keep running when things go wrong, but you pay to store goods that may sit idle.",
+        "Neither is right on its own. The skill is choosing which items get which treatment."
+      ],
+      "image": {
+        "label": "A dial between 'Just in time' and 'Just in case'",
+        "aspectRatio": "16:9",
+        "brief": "가로 다이얼 인포그래픽. 왼쪽 끝 \"Just in time\"(얇은 선반, 아이콘: 동전 절약), 오른쪽 끝 \"Just in case\"(가득 찬 선반, 아이콘: 방패). 여러 상자 아이콘이 다이얼의 서로 다른 위치에 놓여 있음.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How to decide",
+      "title": "Three questions for each item.",
+      "body": [
+        "Ask these about any item you depend on:"
+      ],
+      "list": [
+        "**How long to restock?** Two days can run lean. Twelve weeks needs a cushion.",
+        "**How many sources?** Many suppliers can cover for each other. One supplier can't.",
+        "**What does running out cost, compared with holding it?** A cheap part that stops a whole line is worth stocking. A pricey item with easy substitutes is not."
+      ],
+      "callout": "Lean where restocking is easy. Cushioned where it's slow, single-source or costly to miss.",
+      "softwareNote": "Reserving server capacity in advance is just in case. Scaling up on demand is just in time. Many teams reserve a steady base and buy the peaks as they come."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond factories",
+      "title": "Every business already mixes the two.",
+      "body": [
+        "A good restaurant buys fish daily, just in time, because it spoils. It buys salt, napkins and rice in bulk, just in case, because they keep and cost little to store.",
+        "A shop stocks up before the holidays, when running out costs the most, and runs lean in quiet months.",
+        "The question isn't which camp you belong to. It's where on the dial each item, and each season, should sit."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Cushions cost money, and they run out too.",
+      "body": [
+        "Extra stock ties up cash and space. It can spoil or go out of date. It can also hide problems, like a slow supplier, that lean stock would have exposed.",
+        "And a cushion only buys time. As the chip shortage dragged on, Toyota also had to cut production later in 2021.",
+        "After a crisis, the urge is to stockpile everything. That trades one risk for a steady drain on cash."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's an IT team inside a company.",
+      "illustrative": true,
+      "body": [
+        "You run IT at a 2,000-person company. You order laptops only when a hire signs, to avoid idle equipment. Lately, the standard laptop takes six weeks to arrive, and new hires sit with nothing to work on.",
+        "Designers need a special model, but only a few join each year. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep a small stock of the standard laptop, and order designer models as needed",
+            "verdict": "best",
+            "feedback": "You cushion the item that's common and slow to arrive, and stay lean on the rare one. A few idle laptops cost less than weeks of idle new hires."
+          },
+          {
+            "key": "B",
+            "text": "Keep a stock of both models to be safe",
+            "verdict": "partial",
+            "feedback": "No one waits, but expensive designer laptops may sit for months and go out of date before anyone uses them."
+          },
+          {
+            "key": "C",
+            "text": "Stay fully lean and ask managers to give more notice before hires start",
+            "verdict": "risky",
+            "feedback": "No spare laptops to pay for, but you're betting every hiring plan arrives six weeks early. One late signing leaves someone idle."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Run lean by default. Cushion what's slow, single-source or costly to miss.",
+      "body": [
+        "Just in time and just in case aren't opposing beliefs. They're settings you choose item by item.",
+        "**Try it today:** list the five items your business can't run without. For each, write how long it takes to restock and how many places you can get it. Which one needs a cushion?"
+      ],
+      "next": "Next · Why a small dip in sales becomes a huge swing at the factory"
+    }
+  ]
+}

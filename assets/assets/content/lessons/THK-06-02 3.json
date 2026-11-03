@@ -1,0 +1,273 @@
+{
+  "id": "THK-06-02",
+  "unitId": "THK-06",
+  "categoryId": "THK",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "Delays in systems",
+  "readerTitle": "Demand rose 30%. Why did fish orders rise 120%?",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.4,
+  "caseKinds": [
+    "illustrative",
+    "real_research",
+    "real_observation"
+  ],
+  "caseNote": "가상 사례 (해산물 식당, 구독 앱) + 실제 연구 (MIT 맥주 게임, Sterman 1989) + 일상 관찰 (샤워 온도)",
+  "insight": "결과가 늦게 보이는 시스템에서는 지금 눈에 보이는 상태가 아니라 이미 오고 있는 것까지 세고 나서 움직여야 과잉 반응을 피한다.",
+  "misconception": "결과가 아직 안 보이면 조치가 부족하다는 뜻이니 더 세게 밀어붙여야 한다.",
+  "relatedLessonIds": [
+    "THK-06-01",
+    "THK-08-05"
+  ],
+  "sources": [
+    {
+      "text": "Sterman, J. D. (1989). Modeling Managerial Behavior: Misperceptions of Feedback in a Dynamic Decision Making Experiment. Management Science, 35(3), 321–339.",
+      "url": null
+    },
+    {
+      "text": "MIT Sloan, The Beer Distribution Game (1960년대 MIT 시스템 다이내믹스 그룹에서 개발)",
+      "url": null
+    },
+    {
+      "text": "식당·구독 앱 수치는 모두 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "식당 계산: 목표 마감 재고 100, 수요 130/일, 리드타임 3일, 주문 규칙 = 당일 판매 + (100 − 마감 재고). 월: 100+100−130=70, 주문 160 / 화: 70+100−130=40, 주문 190 / 수: 40+100−130=10, 주문 220 / 목: 10+160−130=40 / 금: 40+190−130=100 / 토: 100+220−130=190 / 일: 190+190−130=250. 주문 최고치 220은 평소 100 대비 +120%, 수요는 +30%.",
+      "status": "open"
+    },
+    {
+      "note": "선택지 검산: 수요일 밤 B(130) → 토요일 100+130−130=100으로 목표 유지. C(0) → 토요일 100+0−130 = 30인분 부족. 이미 오고 있는 양 160+190=350.",
+      "status": "open"
+    },
+    {
+      "note": "맥주 게임: 수요가 한 번 오른 뒤 유지되는데도 주문과 재고가 크게 출렁였다는 점, 참가자들이 '주문했지만 아직 받지 못한 물량'을 충분히 고려하지 않았다는 점은 Sterman(1989)의 핵심 결과입니다. 게시 전 원문으로 표현을 다시 확인하세요. 개발 시기(1960년대)도 확인 필요.",
+      "status": "open"
+    },
+    {
+      "note": "참가자들이 출렁임의 원인을 고객 수요 변동 탓으로 돌리는 경향이 있었다는 내용은 Sterman의 후속 글에서 자주 언급됩니다. 원문 확인 전까지 카드에는 'often'으로 완화해 적었습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Numbers twist",
+      "title": "Demand rose 30%. Why did fish orders rise 120%?",
+      "illustrative": true,
+      "body": [
+        "On Wednesday, a seafood restaurant nearly ran out of fish. By Sunday, it had two and a half times more fish than it wanted, and fish doesn't keep.",
+        "Nobody was careless. Every order made sense on the day it was placed."
+      ],
+      "image": {
+        "label": "A walk-in fridge overflowing with fish crates next to an empty one",
+        "aspectRatio": "4:3",
+        "brief": "좌우 분할 일러스트. 왼쪽은 '수요일' 라벨, 거의 빈 냉장고 앞에서 걱정하는 매니저. 오른쪽은 '일요일' 라벨, 생선 상자가 넘쳐나는 같은 냉장고. 실제 브랜드나 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How much fish do you order tonight?",
+      "illustrative": true,
+      "body": [
+        "A good review lifts daily fish sales from 100 to 130 portions. Orders take 3 days to arrive. You like 100 portions left at closing.",
+        "It's Wednesday night. Only 10 are left. You ordered 160 on Monday and 190 on Tuesday. Neither has arrived yet."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "220: tonight's 130 plus 90 to refill the shelf",
+            "verdict": "risky",
+            "feedback": "It matches what the shelf says, and it's what you did Monday and Tuesday. But the 350 portions already coming refill the shelf by Friday, so this order lands Saturday in a full fridge."
+          },
+          {
+            "key": "B",
+            "text": "130: just one day's sales",
+            "verdict": "best",
+            "feedback": "Thursday's and Friday's deliveries bring you back to 100 by Friday night. Saturday's delivery only needs to cover Saturday."
+          },
+          {
+            "key": "C",
+            "text": "Nothing until the shelf recovers",
+            "verdict": "partial",
+            "feedback": "You're right that plenty is on the way. But with no Saturday delivery, you'd run 30 portions short on a busy day."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "What happens if you order by the shelf",
+      "illustrative": true,
+      "body": [
+        "Say the manager ordered 220 on Wednesday, the same way as the days before. Here's the fish left at closing each day. The target was 100."
+      ],
+      "chart": {
+        "unit": "count",
+        "groups": [
+          {
+            "label": "Portions left at closing",
+            "rows": [
+              {
+                "label": "Mon",
+                "value": 70,
+                "highlight": false
+              },
+              {
+                "label": "Tue",
+                "value": 40,
+                "highlight": false
+              },
+              {
+                "label": "Wed",
+                "value": 10,
+                "highlight": true
+              },
+              {
+                "label": "Thu",
+                "value": 40,
+                "highlight": false
+              },
+              {
+                "label": "Fri",
+                "value": 100,
+                "highlight": false
+              },
+              {
+                "label": "Sat",
+                "value": 190,
+                "highlight": false
+              },
+              {
+                "label": "Sun",
+                "value": 250,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "callout": "A small, steady change in demand became a big swing in stock."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Delays in systems",
+      "body": [
+        "A **delay** is the gap between an action and its visible effect.",
+        "When you steer by what you see right now, you keep pushing after enough is already on its way. Then it all arrives at once, and you overshoot.",
+        "You know this from a hotel shower. You turn it hotter, nothing happens, you turn it more, and then it scalds you."
+      ],
+      "image": {
+        "label": "A shower dial turned too far, with a timeline showing water warming late",
+        "aspectRatio": "16:9",
+        "brief": "샤워 다이얼을 여러 번 돌리는 손과 그 아래 시간축 그래프. '돌린 시점'과 '물이 뜨거워진 시점' 사이에 간격 표시, 온도 선이 목표를 넘어 출렁임.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "The Beer Game",
+      "body": [
+        "MIT has used a simple classroom game since the 1960s. Players each run one stage of a beer supply chain: retailer, wholesaler, distributor, brewery. Orders and shipments take a few weeks to arrive.",
+        "Customer demand rises once and then stays put. Yet orders and stock swing wildly up the chain.",
+        "In a 1989 study, John Sterman found players **largely ignored orders they had placed but not yet received**. Players often blamed the swings on customers, though demand barely moved."
+      ],
+      "image": {
+        "label": "Four players in a chain passing orders, with stock levels swinging",
+        "aspectRatio": "16:9",
+        "brief": "테이블에 앉은 네 사람이 일렬로 주문서를 전달하는 장면. 각자 머리 위에 재고 그래프가 있고, 뒤로 갈수록 출렁임이 커짐. 실제 맥주 브랜드나 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where else",
+      "title": "Delays hide in most decisions.",
+      "body": [
+        "Look for the gap between doing something and seeing it work:"
+      ],
+      "list": [
+        "**Hiring:** weeks to recruit, months before a new person is fully up to speed",
+        "**Marketing:** a campaign may bring customers long after it ends",
+        "**Prices:** many customers react only when they next renew or reorder",
+        "**Training:** skills show up in results long after the course"
+      ],
+      "callout": "The longer the delay, the easier it is to act twice for one problem."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Waiting isn't always the answer.",
+      "body": [
+        "Delays punish impatience, but they also punish slowness. If you wait out every signal, you react late and the problem grows.",
+        "The fix is to know roughly how long each delay is, keep track of what's already in the pipeline, and make smaller moves.",
+        "Better still, shorten the delay. Smaller, more frequent deliveries would have kept the restaurant's swings much smaller."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a subscription app.",
+      "illustrative": true,
+      "body": [
+        "Your app offers a 30-day free trial. You redesigned the first-day setup screens. Two weeks later, new paid subscriptions are flat.",
+        "Your team wants to roll back. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Roll back now, since the numbers haven't moved",
+            "verdict": "risky",
+            "feedback": "No trial that started under the new design has reached its payment date yet. Flat paid numbers can't tell you anything about the redesign."
+          },
+          {
+            "key": "B",
+            "text": "Keep it, watch how many new trial users finish setup, and judge paid conversions once the first trials end",
+            "verdict": "best",
+            "feedback": "You get an early signal now and the real answer in a few weeks, without undoing work that hasn't had time to show."
+          },
+          {
+            "key": "C",
+            "text": "Keep it, and add a launch discount to lift paid signups",
+            "verdict": "partial",
+            "feedback": "The test stays alive, but now two changes overlap. When results arrive, you won't know which one worked."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Before acting again, count what's already on its way.",
+      "body": [
+        "When results lag, what you see today reflects old decisions. Steer by the shelf alone and you'll overshoot.",
+        "**Try it today:** pick one change you made recently. Write down how long it should take to show results, and what's already in the pipeline."
+      ],
+      "next": "Next · When every team wins and the company loses"
+    }
+  ]
+}

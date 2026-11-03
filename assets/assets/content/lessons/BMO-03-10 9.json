@@ -1,0 +1,247 @@
+{
+  "id": "BMO-03-10",
+  "unitId": "BMO-03",
+  "categoryId": "BMO",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Free tier or free trial?",
+  "readerTitle": "Dana's app needs six weeks to get smart. What do you give away?",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.3,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (작은 동네 상점용 재고·발주 앱 ShelfSense) · 고객은 소매점, 제품은 소프트웨어 · 모든 수치는 설명용",
+  "insight": "무료 등급과 무료 체험은 둘 중 하나를 고르는 문제가 아니다. 고객이 가치를 처음 느끼는 시점과 무료 고객 한 명을 유지하는 비용에 맞춰, 무엇을 영원히 주고 무엇을 잠깐 맛보게 할지 설계하는 문제다.",
+  "misconception": "무료 등급은 관대하고 무료 체험은 효율적이니 둘 중 하나만 고르면 된다. 체험 기간은 업계 관행대로 14일이면 충분하다.",
+  "relatedLessonIds": [
+    "BMO-03-02",
+    "BMO-03-08"
+  ],
+  "sources": [
+    {
+      "text": "모든 인물, 회사, 수치는 설명용 가상 사례",
+      "url": null
+    },
+    {
+      "text": "무료 등급(freemium)과 무료 체험(free trial)의 일반적인 구분, 가치 도달 시간(time to value) 개념",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 설명용 가상 수치입니다. 3번째 결정 계산: 가입 2,000곳 중 유료 80곳(4%), 무료 1,920곳 × 월 $1 = 월 $1,920, 유료 매출 80 × $30 = 월 $2,400. 카드에는 비용 '약 $1,920'만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "'예측이 쓸 만해지려면 판매 기록 약 6주가 필요하다'는 이야기 속 가정입니다. 실제 수요 예측 도구의 필요 데이터 기간으로 일반화하지 않도록 문구를 유지하세요.",
+      "status": "open"
+    },
+    {
+      "note": "각 결정을 유닛 개념(무료 모델, 무료 플랜 vs 체험, 사용량 기반 가격, 락인)에 연결한 정리가 형제 레슨 BMO-03-02, 03-05, 03-06, 03-08의 정의와 어긋나지 않는지 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business models · Simulation",
+      "title": "Dana's app needs six weeks to get smart.",
+      "illustrative": true,
+      "body": [
+        "Dana built ShelfSense, an app for small independent shops: corner stores, hardware stores, gift shops. Owners scan deliveries and sales into it.",
+        "After about six weeks of sales history, it starts telling them what to reorder and when. But most shop owners decide whether a tool is worth it within days.",
+        "Over the next four decisions, you run Dana's launch."
+      ],
+      "image": {
+        "label": "A corner shop owner scanning shelves with a phone, a calendar marked at week six",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 조명의 작은 동네 상점 카운터. 주인이 휴대폰으로 선반 상품을 스캔하고 있고, 뒤쪽 벽 달력의 '6주 차'에 동그라미. 휴대폰 화면은 단순한 재고 목록. 실제 브랜드 로고나 상표가 보이는 상품은 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 4",
+      "title": "What do you give away?",
+      "illustrative": true,
+      "body": [
+        "ShelfSense has two parts. **Stock counting** is useful from day one and cheap to run. **Reorder predictions** are what shops would pay for, at $30 a month per store, but they need six weeks of data.",
+        "How do you launch?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "A 14-day free trial of everything, then $30 a month",
+            "verdict": "risky",
+            "feedback": "The trial ends on day 14. Predictions start around week six. Most shops leave having seen only a stock counter."
+          },
+          {
+            "key": "B",
+            "text": "Everything free forever, and figure out money later",
+            "verdict": "risky",
+            "feedback": "Sign-ups come fast, but you've given away the part people would pay for. Every shop adds server cost with no path to revenue."
+          },
+          {
+            "key": "C",
+            "text": "Stock counting free forever, predictions paid",
+            "verdict": "best",
+            "feedback": "The free part is useful on its own and cheap to serve. Every week a shop uses it, it builds the data the paid part needs."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 4",
+      "title": "Say you chose the free tier. Now what?",
+      "illustrative": true,
+      "body": [
+        "Six weeks in, hundreds of shops have enough sales history. None has seen a prediction yet.",
+        "How do they find out predictions are worth $30?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Show a locked \"Upgrade to see predictions\" button",
+            "verdict": "partial",
+            "feedback": "Clear and cheap to build. But you're asking shops to pay for something they've never seen work on their own shelves."
+          },
+          {
+            "key": "B",
+            "text": "Once a shop has six weeks of data, unlock predictions free for 30 days",
+            "verdict": "best",
+            "feedback": "The trial starts when the product can prove itself. Owners see real reorder advice for their own stock, then decide."
+          },
+          {
+            "key": "C",
+            "text": "Give every new shop a 30-day prediction trial on sign-up day",
+            "verdict": "risky",
+            "feedback": "Same trial, wrong clock. It runs out two weeks before the data is ready."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 4",
+      "title": "Say you timed the trial to the data. A year passes.",
+      "illustrative": true,
+      "body": [
+        "2,000 shops have signed up and 80 pay. Free shops cost about $1 each a month to serve, roughly $1,920 in total. Most of that comes from about 150 free accounts that run several locations.",
+        "An investor says: drop the free tier."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Drop the free tier and offer only trials",
+            "verdict": "risky",
+            "feedback": "You cut the bill, but also the stream of shops building data. Next year's paying customers are this year's free ones."
+          },
+          {
+            "key": "B",
+            "text": "Keep it free for one location; a second store needs the paid plan",
+            "verdict": "best",
+            "feedback": "Multi-store owners get the most value and cost the most. The price now follows use, and small shops stay in the pipeline."
+          },
+          {
+            "key": "C",
+            "text": "Keep everything free and add supplier ads to the stock screen",
+            "verdict": "partial",
+            "feedback": "It may cover the bill. But supplier ads next to the stock list make owners wonder whose side the app is on."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 4 of 4",
+      "title": "Say you drew the line at one store. Someone wants to leave.",
+      "illustrative": true,
+      "body": [
+        "A free-tier hardware store wants to try a rival app. The owner asks for a copy of 18 months of sales history."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Refuse. The data lives in ShelfSense",
+            "verdict": "risky",
+            "feedback": "It might keep this one shop. It also tells every owner that signing up means getting stuck, and neighboring shop owners talk."
+          },
+          {
+            "key": "B",
+            "text": "Allow it, for a $50 export fee",
+            "verdict": "partial",
+            "feedback": "Less hostile than refusing, but it still feels like a toll on leaving. And the fee won't move your revenue."
+          },
+          {
+            "key": "C",
+            "text": "Offer a free, one-click export",
+            "verdict": "best",
+            "feedback": "Your real hold is the habit and predictions that already work. Owners who know they can leave trust you enough to stay."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Free tier or free trial: two different clocks",
+      "body": [
+        "A **free tier** gives part of the product away forever. It works when the free part is useful alone, cheap to serve, and leads toward the paid part. A **free trial** gives the whole product for a short time. It works when value shows up fast.",
+        "So the real questions are when a customer first sees the value, and what one free customer costs you. Dana used both: a tier to build the data, then a trial once the product could prove itself."
+      ],
+      "image": {
+        "label": "Timeline: free stock counting from day one, prediction trial starting at week six",
+        "aspectRatio": "16:9",
+        "brief": "가로 타임라인 인포그래픽. 0주부터 끝까지 이어지는 연한 띠 \"Free tier: stock counting\". 6주 차에서 시작하는 진한 30일 구간 \"Trial: predictions\", 그 뒤 \"Paid\". 아래에 점선으로 잘못된 14일 체험 구간을 0주에 표시하고 \"Ends before value appears\" 라벨.",
+        "url": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Free has to lead somewhere.",
+      "body": [
+        "A free tier only works if a real share of free customers eventually needs the paid part. If the free part does the whole job, most never upgrade.",
+        "Free customers also cost money: support, servers and your attention. Track how many upgrade, and what each free one costs, before deciding the tier works.",
+        "A shop counter shows the same logic. One free sample of cheese is a trial. A free coffee with every visit is a tier, and it needs a reason to buy something else."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Match what's free to when value appears.",
+      "body": [
+        "Each of your four decisions used an idea from this unit:"
+      ],
+      "list": [
+        "**What to give away** → Free as a model: the free part should build toward the paid part",
+        "**When to start the trial** → Free plan or free trial: start the clock when value can show",
+        "**Where to draw the line** → Pay-per-use: let the price follow how much a customer uses",
+        "**Letting customers leave** → Lock-in: earn it with value, not trapped data"
+      ],
+      "callout": "**Try it today:** write down how many days it takes a new customer to first see what you're best at. Does anything you give away free end before that day?",
+      "next": "Next · Why a product gets better when more people use it"
+    }
+  ]
+}

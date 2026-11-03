@@ -1,0 +1,209 @@
+{
+  "id": "CUS-04-01",
+  "unitId": "CUS-04",
+  "categoryId": "CUS",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Your riskiest assumption",
+  "readerTitle": "Which of your guesses could sink the whole plan?",
+  "format": "counterexample",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Webvan, 1999~2001 온라인 식료품 배송) + 가상 사례 (리필 상점, 식당 점심 배달)",
+  "insight": "가장 위험한 가정은 보통 내가 자신 있는 분야가 아니라, 답을 듣기 두려운 고객 행동(얼마나 자주, 얼마에, 정말 바꿀지)에 숨어 있다.",
+  "misconception": "아이디어를 검증한다는 것은 제품이 좋은지, 고객이 마음에 들어 하는지를 확인하는 것이다.",
+  "relatedLessonIds": [
+    "CUS-04-02",
+    "CUS-01-06"
+  ],
+  "sources": [
+    {
+      "text": "Webvan 관련 언론 보도 및 기업 기록 (1999년 베이 에어리어 서비스 시작, 2001년 7월 파산 신청)",
+      "url": null
+    },
+    {
+      "text": "가설 검증의 일반 원칙 (가장 위험한 가정을 먼저 검증한다는 린 스타트업 계열의 표준 개념)",
+      "url": null
+    },
+    {
+      "text": "리필 상점과 식당 점심 배달 사례는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Webvan의 서비스 시작 시점(1999년 6월경, 샌프란시스코 베이 에어리어)과 파산 신청 시점(2001년 7월)을 게시 전 확인하세요. 카드에는 '1999'와 '2001'만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "'hundreds of millions of dollars'를 모았다는 표현은 벤처 투자와 1999년 IPO를 합친 일반적 서술입니다. 정확한 금액은 일부러 적지 않았습니다. 대형 자동화 창고 건설 계약 규모(약 10억 달러로 자주 인용됨)도 확인 전이라 카드에서 뺐습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Webvan의 실패 원인을 '주문 빈도와 장바구니 크기가 창고·배송 비용을 감당하지 못한 것'으로 요약했습니다. 이는 사후 분석에서 흔히 지적되는 해석이며, 카드에도 'in hindsight, many observers'로 해석임을 밝혔습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Counterexample",
+      "title": "Which of your guesses could sink the whole plan?",
+      "body": [
+        "In 1999, an online grocer called Webvan launched in the San Francisco Bay Area. It had raised hundreds of millions of dollars and was building large automated warehouses to pack orders.",
+        "About two years later, it filed for bankruptcy. The warehouses weren't the main problem. A guess sitting underneath them was."
+      ],
+      "image": {
+        "label": "A huge empty warehouse with one small delivery van",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 선반이 끝없이 늘어선 거대한 창고 안에 작은 배달 밴 한 대와 장바구니 하나만 덩그러니 놓여 있음. 규모와 실제 주문의 대비를 강조. 실제 회사 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/cus-04-01-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You can test one belief before signing the lease.",
+      "illustrative": true,
+      "body": [
+        "You plan a refill store for household goods: soap, detergent, rice, cooking oil. Customers bring their own jars, and you'll also deliver refills to nearby homes.",
+        "The lease runs two years. You have a month to test one belief first. Which one?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Customers will like the quality of your products",
+            "verdict": "partial",
+            "feedback": "It matters, but your suppliers already sell these goods elsewhere, so you have some evidence. You'd gain comfort without learning much new."
+          },
+          {
+            "key": "B",
+            "text": "Enough nearby households will come back to refill every few weeks",
+            "verdict": "best",
+            "feedback": "The rent and delivery costs only work if people return often. It's the belief the plan needs most and the one you have least proof for."
+          },
+          {
+            "key": "C",
+            "text": "A warm, natural shop design will draw people in",
+            "verdict": "risky",
+            "feedback": "Design is fun to test and easy to change later. You'd spend your month on something that rarely decides whether the store survives."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What went wrong",
+      "title": "Webvan tested its biggest guess last.",
+      "body": [
+        "Webvan's plan rested on many beliefs. That people wanted groceries delivered. That machines could pack orders cheaply. And one more: that enough customers would order **often enough, in big enough baskets**, to pay for the warehouses and trucks.",
+        "In hindsight, many observers point to that last belief. Webvan didn't prove it in one neighborhood first. It found out at full scale, expanding to several cities. When orders fell short, the costs stayed. It filed for bankruptcy in 2001."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Your riskiest assumption",
+      "body": [
+        "Every plan rests on guesses you haven't proven yet. Your **riskiest assumption** is the one your plan depends on most and that you have the least evidence for.",
+        "Two questions find it. *If this is wrong, does the plan fail?* And: *how much real proof do I have?* The belief that scores worst on both is the one to test first, before you spend big."
+      ],
+      "softwareNote": "Software founders are often sure they can build the product, so they test that. The riskier belief is usually whether customers will drop their spreadsheet or current tool and pay for yours."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Sort your guesses on two lines.",
+      "body": [
+        "Write down every belief your plan needs to be true. Then place each one on a simple grid."
+      ],
+      "list": [
+        "**Impact:** if it's wrong, does the plan die or just need a tweak?",
+        "**Evidence:** do you have proof from real behavior, or just a hunch?",
+        "**Top corner:** high impact, little evidence. Test this first.",
+        "**Everything else:** watch it, fix it later, or ignore it"
+      ],
+      "callout": "Most plans have one or two beliefs in that top corner. Rarely more.",
+      "softwareNote": "The same grid works for a new app feature or a pricing change. List what must be true, then check which belief you'd bet the most on with the least proof."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Why we skip it",
+      "title": "We test what feels comfortable.",
+      "body": [
+        "A chef perfects the recipe. An engineer perfects the warehouse. A designer perfects the shop. These tests feel productive, and they usually bring good news.",
+        "The riskiest belief is often about customer behavior: how often people buy, what they'll pay, whether they'll really switch. It's uncomfortable because the answer might end the idea. **That discomfort is a clue**, not a reason to wait."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Finding it isn't the same as testing it well.",
+      "body": [
+        "Asking \"Would you use this?\" tests politeness, not behavior. A good test asks people to do something real, like pay, sign up or return.",
+        "The riskiest assumption also moves. Once you prove customers come back, the next weakest belief, maybe delivery cost, takes its place.",
+        "And don't test forever. Some beliefs can only be checked by starting small for real."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a restaurant.",
+      "illustrative": true,
+      "body": [
+        "Your restaurant is full every evening. You plan a lunch delivery service for nearby offices. It needs a second cook, a van and a driver.",
+        "Which belief should you test first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Office workers will enjoy your food",
+            "verdict": "partial",
+            "feedback": "Your dinner guests already give you decent evidence here. Testing it again feels safe but teaches you little."
+          },
+          {
+            "key": "B",
+            "text": "Enough offices will order on most weekdays to fill a route before noon",
+            "verdict": "best",
+            "feedback": "The cook, van and driver cost money every day. If daily orders don't fill a route, the service fails no matter how good the food is."
+          },
+          {
+            "key": "C",
+            "text": "Your packaging will keep meals warm for 20 minutes",
+            "verdict": "risky",
+            "feedback": "It's real, but you can test it in your own kitchen in an afternoon and fix it cheaply. It shouldn't take your first test."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Test the belief that could sink you, first.",
+      "body": [
+        "Before you spend big, find the guess your plan needs most and can prove least. It's usually about what customers will actually do.",
+        "**Try it today:** write down five things that must be true for your next plan to work. Circle the one you'd hate to be wrong about and have the least proof for."
+      ],
+      "next": "Next · The smallest thing you can build to learn"
+    }
+  ]
+}

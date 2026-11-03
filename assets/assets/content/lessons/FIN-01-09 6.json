@@ -1,0 +1,255 @@
+{
+  "id": "FIN-01-09",
+  "unitId": "FIN-01",
+  "categoryId": "FIN",
+  "order": 9,
+  "type": "case",
+  "conceptTag": "WeWork's 'community-adjusted EBITDA'",
+  "readerTitle": "WeWork's $933 million loss that became a $233 million profit",
+  "format": "company_story",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.1,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (WeWork, 2018년 채권 발행과 2019년 상장 철회) + 가상 적용 (대기업 안의 지역 운영팀, 배관 서비스 업체 인수)",
+  "insight": "조정 이익은 누군가 빼기로 고른 비용의 목록이다. 숫자보다 빠진 비용이 내년에도 다시 생기는지를 먼저 본다.",
+  "misconception": "'조정 이익'은 회사의 진짜 수익성을 더 정확히 보여준다. 또는 반대로, 조정된 숫자는 모두 속임수다.",
+  "relatedLessonIds": [
+    "FIN-01-01",
+    "FIN-10-04"
+  ],
+  "sources": [
+    {
+      "text": "WeWork 2018년 4월 채권 발행 마케팅 자료의 'community-adjusted EBITDA' 관련 보도 (The Wall Street Journal, Bloomberg, The New York Times 등, 2018년 4월)",
+      "url": null
+    },
+    {
+      "text": "The We Company Form S-1 (2019년 8월 14일 제출), SEC EDGAR",
+      "url": null
+    },
+    {
+      "text": "WeWork 상장 철회 보도 (Reuters 등, 2019년 9월 30일) 및 Adam Neumann CEO 사임, SoftBank 구제 계획 보도 (2019년 9~10월)",
+      "url": null
+    },
+    {
+      "text": "WeWork Chapter 11 파산 신청 보도자료 (2023년 11월)",
+      "url": null
+    },
+    {
+      "text": "Breakdown 이후 카드(팀, 배관 업체)의 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "2017년 순손실 약 $933M, community-adjusted EBITDA 약 $233M은 2018년 4월 채권 발행 당시 여러 언론이 널리 보도한 수치입니다. 게시 전에 원 보도로 다시 확인하세요. 3번 카드의 더해진 비용 $1.17B는 계산값입니다: 233 + 933 = 1,166 ≈ $1.17B.",
+      "status": "open"
+    },
+    {
+      "note": "community-adjusted EBITDA에서 뺀 항목(이자·세금·감가상각·상각 외에 마케팅, 일반관리비, 신규 지점 설계·개발비, 주식 보상 등)은 보도마다 표현이 조금씩 다릅니다. 카드에는 대표 항목만 적었습니다. 정확한 정의를 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "채권 규모 '약 $700M'(보도상 $702M)은 확인이 필요합니다.",
+      "status": "open"
+    },
+    {
+      "note": "S-1의 2018년 실적(매출 약 $1.8B, 순손실 약 $1.9B)은 EDGAR 원문으로 확인하세요. 카드에는 'lost about as much as it brought in'으로만 적었습니다. S-1에서는 community-adjusted EBITDA 대신 다른 조정 지표(contribution margin 계열)를 썼다는 보도가 있으나 카드에서는 다루지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "상장 철회(2019년 9월), Neumann CEO 사임, SoftBank 주도 구제, 2021년 SPAC 합병 상장, 2023년 11월 Chapter 11 신청 순서와 날짜를 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "배관 업체 계산: 순이익 $40,000 + 사장 급여 $90,000 + 밴 사고 수리 $15,000 + 온라인 광고 $40,000 = $185,000. 일회성인 밴 수리만 더하면 $40,000 + $15,000 = $55,000. 모든 수치는 가상입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Company story",
+      "title": "WeWork's $933 million loss that became a $233 million profit",
+      "body": [
+        "In 2018, the office-sharing company WeWork was raising money from lenders. Its income statement for 2017 showed a loss of about $933 million.",
+        "Its pitch to lenders showed another number for the same year: a *profit* of about $233 million. WeWork called it **community-adjusted EBITDA**. Same company, same year, same buildings."
+      ],
+      "image": {
+        "label": "One income statement split into a red loss and a green profit",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 한 장의 손익계산서가 가운데서 두 갈래로 갈라져, 왼쪽은 빨간 \"−$933M\", 오른쪽은 초록 \"+$233M\". 뒤편에 공유 오피스 책상과 화분이 흐릿하게. 실제 WeWork 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Would you lend against this profit?",
+      "body": [
+        "It's April 2018. WeWork wants to borrow about $700 million by selling bonds. Its argument: buildings that have filled up make money. The losses come from opening new ones fast.",
+        "As proof, it shows the $233 million adjusted profit next to the $933 million loss. You're thinking of lending. What do you look at first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The adjusted profit. It shows what the business earns once buildings fill up",
+            "verdict": "risky",
+            "feedback": "You get the hopeful story, but you'd be lending against a profit that only exists if growth spending stops. And growth was the whole plan."
+          },
+          {
+            "key": "B",
+            "text": "The list of costs that were removed, and whether each one will keep coming back",
+            "verdict": "best",
+            "feedback": "This keeps the useful question (do full buildings make money?) while checking what was left out. It takes more work, but it's the only way to know what the number means."
+          },
+          {
+            "key": "C",
+            "text": "Only the net loss. Adjusted numbers are just marketing",
+            "verdict": "partial",
+            "feedback": "Safe, but you throw away a fair question about how mature buildings perform. Sometimes an adjustment does reveal something real."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "About $1.2 billion of costs, set aside.",
+      "body": [
+        "The usual add-backs were there: interest, taxes, depreciation and amortization. Then came more: marketing, general office and admin costs, and design and development spending for new locations.",
+        "Critics pointed out that these were the **ordinary costs** of running and growing WeWork."
+      ],
+      "breakdown": [
+        {
+          "value": "−$933M",
+          "label": "Net loss, 2017",
+          "detail": "The bottom line of the income statement",
+          "highlight": false
+        },
+        {
+          "value": "+$1.17B",
+          "label": "Costs added back",
+          "detail": "Interest, taxes, depreciation, plus growth and overhead costs",
+          "highlight": false
+        },
+        {
+          "value": "+$233M",
+          "label": "Community-adjusted EBITDA",
+          "detail": "The number shown to lenders",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Adjusted profit",
+      "body": [
+        "An income statement runs from revenue at the top to net profit at the bottom. Every cost in between lowers the bottom line. An **adjusted profit** is the same statement with some costs taken out, chosen by management. EBITDA is a common version: earnings before interest, taxes, depreciation and amortization.",
+        "Adjusting isn't wrong in itself. The test is one question: **would this cost come back next year?**"
+      ],
+      "image": {
+        "label": "Income statement with some cost lines lifted out",
+        "aspectRatio": "16:9",
+        "brief": "손익계산서를 계단 모양으로 표현. 맨 위 \"Revenue\", 아래로 비용 줄이 차례로 내려가고, 그중 \"Marketing\", \"Admin\", \"New locations\" 줄을 손이 집어 들어 옆으로 치움. 맨 아래 \"Net profit\" 막대가 그만큼 위로 올라가는 모습.",
+        "url": null
+      },
+      "softwareNote": "Software companies often report profit \"excluding stock-based compensation.\" Stock given to staff is still a real cost of keeping them, so check how large it is next to revenue."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "What happened next",
+      "title": "When the full statements went public, the story didn't hold.",
+      "body": [
+        "In August 2019, WeWork filed to go public and published its audited statements. They showed a company losing about as much money as it brought in, while carrying long leases it had to pay whether desks were full or not.",
+        "Investors balked. The share sale was pulled within weeks, founder Adam Neumann stepped down as CEO, and SoftBank, its biggest investor, led a rescue. WeWork later listed through a merger in 2021 and filed for bankruptcy in 2023."
+      ],
+      "image": {
+        "label": "Timeline from 2018 bonds to 2023 bankruptcy",
+        "aspectRatio": "16:9",
+        "brief": "가로 타임라인 인포그래픽. \"2018 Bond pitch\" → \"2019 Filing to go public\" → \"2019 Share sale pulled\" → \"2021 Listed via merger\" → \"2023 Bankruptcy\". 점점 어두워지는 색. 실제 로고나 인물 얼굴은 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond WeWork",
+      "title": "Teams inside companies do the same thing.",
+      "illustrative": true,
+      "body": [
+        "A regional operations team presents its year to head office. Its slide shows \"profit before hiring and training.\" It looks healthy.",
+        "But staff in this region leave every few months, so the team is always hiring and training. That cost isn't a one-off. It's how the team works. Leave it out, and the team looks profitable while head office quietly pays the bill.",
+        "Same test as WeWork: is the removed cost part of the normal way this business runs?"
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Not every adjustment is a trick.",
+      "body": [
+        "Some costs really don't repeat: a lawsuit settlement, a fire, the cost of moving offices. Removing them can show a normal year more clearly.",
+        "WeWork's question about mature buildings was also fair. The problem was treating growth costs as optional in a business that depended on growth.",
+        "A good adjusted number always comes with a bridge back to net profit, line by line. If no one can show you the bridge, treat the number with care."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now you're buying a plumbing business.",
+      "illustrative": true,
+      "body": [
+        "The seller's net profit last year was $40,000. He presents an \"adjusted profit\" of $185,000 by adding back three costs: his own $90,000 salary (he does most jobs himself), a one-time $15,000 van crash repair, and $40,000 of online ads that bring in most calls.",
+        "What profit do you base your offer on?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "$185,000. The seller is leaving, so his costs leave with him",
+            "verdict": "risky",
+            "feedback": "The jobs he did and the ads that make the phone ring don't leave. You'll pay for both, so most of that profit never reaches you."
+          },
+          {
+            "key": "B",
+            "text": "Start from $40,000, add back only the van repair, and keep paying for the ads and someone to do his work",
+            "verdict": "best",
+            "feedback": "You accept the one true one-off and keep the costs that will recur. About $55,000 is the profit you're actually buying."
+          },
+          {
+            "key": "C",
+            "text": "$40,000. Ignore every adjustment to be safe",
+            "verdict": "partial",
+            "feedback": "Cautious, but the van repair really won't repeat. You may lose the deal to a buyer who reads the numbers more carefully."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Every adjusted profit is a list of costs someone chose to leave out.",
+      "body": [
+        "Read the list before you read the number. Costs that come back every year belong in the profit, whatever the slide calls them.",
+        "**Try it today:** take one \"adjusted\" number you rely on, from your business, a supplier or a team. List each removed cost and mark it one-off or recurring."
+      ],
+      "next": "Next · Read a startup's numbers yourself"
+    }
+  ]
+}

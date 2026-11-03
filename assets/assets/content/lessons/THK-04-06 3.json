@@ -1,0 +1,239 @@
+{
+  "id": "THK-04-06",
+  "unitId": "THK-04",
+  "categoryId": "THK",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Fat tails and rare events",
+  "readerTitle": "The one job that cost more than fifty others",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "illustrative",
+    "real_observation"
+  ],
+  "caseNote": "가상 사례 (주택 리모델링 업체, 레스토랑) + 실제 관찰 (1987년 블랙 먼데이, 사람 키 기록) · 업체 수치는 모두 설명용",
+  "insight": "어떤 위험은 평균이 아니라 가장 큰 사건 하나가 전체를 결정한다. 그런 위험은 과거 최악을 기준으로 삼지 말고, 상한을 막는 구조로 대비한다.",
+  "misconception": "과거 기록의 평균과 최악의 경우를 알면 앞으로 일어날 일의 범위도 안다.",
+  "relatedLessonIds": [
+    "THK-04-05",
+    "THK-08-02"
+  ],
+  "sources": [
+    {
+      "text": "Taleb, N. N. (2007). The Black Swan: The Impact of the Highly Improbable. Random House.",
+      "url": null
+    },
+    {
+      "text": "Federal Reserve History, \"Stock Market Crash of 1987\"",
+      "url": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1987"
+    },
+    {
+      "text": "Guinness World Records, tallest man ever (Robert Wadlow, 272 cm)",
+      "url": null
+    },
+    {
+      "text": "리모델링 업체와 레스토랑 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "리모델링 계산: 일반 공사 49건 × 평균 초과비용 $1,500 = $73,500. 오래된 주택 1건 초과비용 $80,000 > $73,500. 50건 평균 = ($73,500 + $80,000) ÷ 50 = $3,070. 공사금액 $150,000 대비 $80,000은 약 53%.",
+      "status": "open"
+    },
+    {
+      "note": "1987년 10월 19일 다우존스 지수 하루 하락률 22.6%. 이전 최대 하루 하락(1929년 10월 28일, 약 12.8%)보다 훨씬 컸다는 표현만 사용. 게시 전 Federal Reserve History 자료로 재확인.",
+      "status": "open"
+    },
+    {
+      "note": "Robert Wadlow 키 272cm(8피트 11.1인치). 성인 평균 키의 두 배에 못 미친다는 서술이 맞는지 확인(성인 남성 평균 약 170~178cm 기준).",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Counterexample",
+      "title": "The one job that cost more than fifty others",
+      "illustrative": true,
+      "body": [
+        "For six years, Dana's home renovation firm ran a little over budget on most jobs. A few hundred dollars here, a couple of thousand there. Nothing to worry about.",
+        "Then one old house went over by more than the previous 49 jobs combined. Her records had never shown anything like it. That was exactly the problem."
+      ],
+      "image": {
+        "label": "An opened wall revealing rotten beams and old wiring",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 오래된 집 벽을 뜯어낸 장면. 안쪽에 썩은 나무 기둥과 낡은 전선이 드러나 있고, 시공업자가 놀란 표정으로 서 있음. 실제 브랜드 로고나 공구 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How do you price the old house?",
+      "illustrative": true,
+      "body": [
+        "You run a renovation firm. Across your last 49 jobs, costs ran over by about 5% on average, and never more than 15%.",
+        "A client wants a fixed price to renovate a house built in the 1920s. Nobody has opened its walls in decades. How do you bid?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Add a 5% buffer, matching your average overrun",
+            "verdict": "risky",
+            "feedback": "You win on price, but the average says nothing about what an old house can hide. One bad surprise is yours to pay in full."
+          },
+          {
+            "key": "B",
+            "text": "Add a 15% buffer, matching your worst job so far",
+            "verdict": "partial",
+            "feedback": "Safer than the average, but your worst job so far isn't the worst possible. Your past 49 jobs may never have met what's in these walls."
+          },
+          {
+            "key": "C",
+            "text": "Fix the price for the known work, and price anything hidden in the walls separately",
+            "verdict": "best",
+            "feedback": "The bid stays competitive, and you stop guessing the size of a surprise you can't see. The cost is a harder sales conversation with the client."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What happened",
+      "title": "One job outweighed everything before it.",
+      "illustrative": true,
+      "body": [
+        "Behind the walls: rotten beams and wiring that had to be replaced. The $150,000 job ran $80,000 over.",
+        "The new average overrun is about $3,070. But no job actually came close to that number. Forty-nine were small, and one was enormous."
+      ],
+      "breakdown": [
+        {
+          "value": "$73,500",
+          "label": "49 normal jobs",
+          "detail": "Total overruns, about $1,500 each",
+          "highlight": false
+        },
+        {
+          "value": "$80,000",
+          "label": "1 old house",
+          "detail": "Overrun on a single job",
+          "highlight": true
+        },
+        {
+          "value": "$3,070",
+          "label": "Average of all 50",
+          "detail": "Describes almost none of them",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Fat tails",
+      "body": [
+        "Some risks have **thin tails**. Extremes stay close to normal. The tallest person on record was about 272 cm, less than twice an average adult. No single height changes the average much.",
+        "Other risks have **fat tails**. Rare events are far bigger than typical ones, and one of them can outweigh all the rest. Hidden building damage, lawsuits, a key customer leaving: these behave like wealth, not height.",
+        "In fat-tailed risks, your history mostly shows you the small events."
+      ],
+      "image": {
+        "label": "Two curves: a thin-tailed one and a fat-tailed one",
+        "aspectRatio": "16:9",
+        "brief": "두 개의 분포 곡선 비교 인포그래픽. 왼쪽 \"Thin tail: heights\"는 끝이 빠르게 0에 가까워짐. 오른쪽 \"Fat tail: overruns\"는 끝이 길게 이어지고, 맨 끝에 큰 점 하나(\"one job\")가 강조됨.",
+        "url": null
+      },
+      "softwareNote": "Most days a software product has small outages and steady usage. But one long outage, one data breach or the loss of your largest customer can outweigh years of normal days. Those are the risks to cap, not average."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "The record is not the limit.",
+      "body": [
+        "On October 19, 1987, the US stock market fell 22.6% in a single day. The previous worst day, in 1929, was far smaller.",
+        "Anyone who planned around the worst day in history was planning for less than what came. This is how fat tails work: each new record can break the old one by a wide margin.",
+        "The lesson for a business owner: \"the worst we've seen\" is a fact about your past, not a limit on your future."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where to look",
+      "title": "Spot the risks where one event can dominate.",
+      "body": [
+        "Ask one question of each risk: could a single event cost more than a whole normal year?"
+      ],
+      "list": [
+        "**Usually thin-tailed:** daily sales, ingredient prices, staff hours, small repairs",
+        "**Often fat-tailed:** hidden damage, legal claims, one huge customer, fires, outages, a viral review"
+      ],
+      "callout": "Average the thin-tailed risks. Put a ceiling on the fat-tailed ones."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Not every risk is a catastrophe.",
+      "body": [
+        "Treat everything as a fat tail and you'll overprice bids, hoard cash and turn down good work. Most daily risks really are well described by their averages.",
+        "You also can't measure a fat tail well from your own records. That's why the goal is not a better forecast of the big event. It's a structure that limits what it can cost you: a contract clause, a spending cap, a backup supplier."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a restaurant.",
+      "illustrative": true,
+      "body": [
+        "Your restaurant has run for three years. Monthly revenue moves around a little. Your worst month was 15% below normal.",
+        "You're deciding how much cash to keep in reserve. What do you plan around?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Twice an average monthly dip, since bad months are mild",
+            "verdict": "risky",
+            "feedback": "It frees up the most cash for growth. But it assumes the next bad month looks like the past ones, and the past ones were all small."
+          },
+          {
+            "key": "B",
+            "text": "Your worst month so far, the 15% drop",
+            "verdict": "partial",
+            "feedback": "It respects real history. But three years may not include a walk-in fridge failure, a health closure or a road dug up outside for weeks."
+          },
+          {
+            "key": "C",
+            "text": "List events that could close you for weeks, then plan cash and backups for those",
+            "verdict": "best",
+            "feedback": "You'll hold more cash than your records suggest, which costs some growth. In return, one rare event can't decide your whole year."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "When one event can outweigh all the others, don't trust the average.",
+      "body": [
+        "Your past shows you the small surprises. Plan for the big one by limiting what it can cost, not by guessing its size.",
+        "**Try it today:** list three things that could cost you more than a normal year's profit. For each, write one way to cap the damage."
+      ],
+      "next": "Next · Should a restaurant buy flood insurance?"
+    }
+  ]
+}

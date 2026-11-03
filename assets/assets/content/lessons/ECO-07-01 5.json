@@ -1,0 +1,226 @@
+{
+  "id": "ECO-07-01",
+  "unitId": "ECO-07",
+  "categoryId": "ECO",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Good, better, best",
+  "readerTitle": "Why a $20 ramen bowl that few people order still pays off",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.3,
+  "caseKinds": [
+    "illustrative",
+    "real_observation"
+  ],
+  "caseNote": "가상 사례 (라멘 가게, 프로젝트 관리 소프트웨어) + 일반 관찰 (주유소 연료 등급, 항공 좌석 등급) · 모든 수치는 설명용",
+  "insight": "가격이 하나뿐이면 더 낼 사람과 덜 낼 사람을 모두 놓친다. 단계를 나누면 고객이 스스로 자기 가격을 고른다.",
+  "misconception": "싼 등급을 만들면 기존 고객이 내려가서 손해다. 비싼 등급은 사는 사람이 적으면 실패다.",
+  "relatedLessonIds": [
+    "ECO-05-03",
+    "ECO-07-03"
+  ],
+  "sources": [
+    {
+      "text": "가격 전략의 일반 개념 (good-better-best, 단계별 가격, 등급 간 차이를 두는 장치)",
+      "url": null
+    },
+    {
+      "text": "모든 라멘 가게·소프트웨어 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "단일 가격: 100그릇 × ($14 − $4) = $1,000. 3단계: Basic 35그릇(신규 20 + 하향 15) × ($10 − $3) = $245, Standard 65그릇(100 − 15 − 20) × $10 = $650, Deluxe 20그릇 × ($20 − $6) = $280, 합계 $1,175 (+$175, 17.5%).",
+      "status": "open"
+    },
+    {
+      "note": "증가분 분해: Deluxe 20 × ($14 − $10) = +$80. Basic 신규 20 × $7 = +$140, 하향 15 × ($10 − $7) = −$45, 순 +$95. $80 + $95 = $175로 일치.",
+      "status": "open"
+    },
+    {
+      "note": "Watch out 카드: 하향 50명일 때 Basic 70 × $7 = $490, Standard 30 × $10 = $300, Deluxe $280, 합계 $1,070 (+$70). 계산 재확인 필요.",
+      "status": "open"
+    },
+    {
+      "note": "주유소 연료 등급(regular, mid-grade, premium)과 항공 좌석 등급(economy, premium economy, business)은 일반적 관찰로만 언급했습니다. 구체적 가격이나 판매 비중은 쓰지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Pricing · Numbers twist",
+      "title": "Why a $20 ramen bowl that few people order still pays off",
+      "illustrative": true,
+      "body": [
+        "A ramen shop sells one bowl at $14. About 100 people order it each day.",
+        "Some of them would gladly pay more for extra toppings. Others glance at the menu and walk on. One price serves the middle and misses both ends."
+      ],
+      "image": {
+        "label": "One ramen bowl, with customers walking past on both sides",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 일러스트. 라멘 가게 앞 메뉴판에 \"Ramen $14\" 하나만 적혀 있음. 한쪽엔 더 비싼 걸 찾는 듯한 손님, 다른 쪽엔 가격을 보고 돌아서는 손님. 실제 브랜드 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Only 1 in 5 orders the deluxe bowl.",
+      "illustrative": true,
+      "body": [
+        "The owner adds a $20 deluxe bowl with extra pork, egg and a larger portion. It costs $6 to make, versus $4 for the regular.",
+        "After a month, about 20 of the 100 regular customers order it each day. The rest still order the $14 bowl. Was the deluxe bowl worth adding?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "No. Too few people order it, so drop it and simplify the menu",
+            "verdict": "risky",
+            "feedback": "A simpler menu is nice, but you'd give up money from people who already wanted to pay more. Low volume doesn't mean low value."
+          },
+          {
+            "key": "B",
+            "text": "Yes. Each deluxe bowl leaves $4 more than a regular one",
+            "verdict": "best",
+            "feedback": "Right. $20 − $6 = $14 left, versus $10 on a regular bowl. Twenty upgrades add $80 a day from customers you already had."
+          },
+          {
+            "key": "C",
+            "text": "Only if it makes the $14 bowl look cheap by comparison",
+            "verdict": "partial",
+            "feedback": "That effect can be real, but it's a bonus. The deluxe bowl pays its own way even if nobody's view of the $14 bowl changes."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Now add a $10 basic bowl too.",
+      "illustrative": true,
+      "body": [
+        "The basic bowl costs $3 to make. It brings in 20 new customers who skipped the $14 bowl. But 15 regulars trade down to it.",
+        "Daily earnings after ingredients rise from $1,000 to **$1,175**. The trade-downs cost $45. The new customers bring $140."
+      ],
+      "breakdown": [
+        {
+          "value": "$245",
+          "label": "Basic · 35 bowls",
+          "detail": "$10 − $3 = $7 each",
+          "highlight": false
+        },
+        {
+          "value": "$650",
+          "label": "Regular · 65 bowls",
+          "detail": "$14 − $4 = $10 each",
+          "highlight": false
+        },
+        {
+          "value": "$280",
+          "label": "Deluxe · 20 bowls",
+          "detail": "$20 − $6 = $14 each",
+          "highlight": false
+        },
+        {
+          "value": "$1,175",
+          "label": "Total per day",
+          "detail": "Up from $1,000 with one price",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Good, better, best",
+      "body": [
+        "**Good, better, best** means offering the same core product at three levels, so each customer picks the price that fits them.",
+        "With one price, you lose twice. People who would pay more pay only $14. People who would pay $10 pay nothing, because they leave.",
+        "Three levels let customers sort themselves. You don't have to guess who is who."
+      ],
+      "image": {
+        "label": "Three bowls in a row: small, regular, loaded",
+        "aspectRatio": "16:9",
+        "brief": "세 그릇을 나란히. 왼쪽 \"Good $10\" 단출한 그릇, 가운데 \"Better $14\", 오른쪽 \"Best $20\" 토핑이 가득한 그릇. 각 그릇 아래 작은 손님 아이콘이 스스로 줄을 선 모습.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "The gaps between tiers do the work.",
+      "body": [
+        "Tiers only work if they differ in something some customers care about a lot and others barely notice. Extra toppings matter to a hungry regular, not to a student on a budget.",
+        "You see this everywhere: regular, mid-grade and premium fuel. Economy, premium economy and business class. Each step adds something a certain group values."
+      ],
+      "softwareNote": "Software plans often separate tiers by features big customers need and small ones don't, such as admin controls, security reviews or faster support. A solo user never misses them. A large company can't buy without them."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A basic tier that's too good eats your middle.",
+      "illustrative": true,
+      "body": [
+        "If the $10 bowl were nearly as filling as the $14 one, far more regulars would trade down. With 50 trade-downs instead of 15, the daily gain shrinks from $175 to **$70**.",
+        "The cheap tier must be good enough to buy, but clearly missing something. Tiers also add work: more prep, more choices to explain. Three levels usually beat seven."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a project management app.",
+      "illustrative": true,
+      "body": [
+        "Your app has one plan: $30 per team per month. Small teams say it's too pricey. Large companies ask for admin controls and phone support. Which set of tiers fits best?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "$15 with every feature, $30 adds priority email, $60 adds a fancier name",
+            "verdict": "risky",
+            "feedback": "The $15 plan gives away almost everything, so many current teams would drop to it. And the $60 plan offers nothing big buyers asked for."
+          },
+          {
+            "key": "B",
+            "text": "$15 with core features and 3 projects, $30 as today, $60 adds admin controls and phone support",
+            "verdict": "best",
+            "feedback": "Small teams get a way in, current users have little reason to drop down, and large customers pay for what they actually need."
+          },
+          {
+            "key": "C",
+            "text": "Keep $30 and add only a $60 plan for large companies",
+            "verdict": "partial",
+            "feedback": "You capture more from big buyers, but the small teams who find $30 too much still walk away."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Let customers choose their own price.",
+      "body": [
+        "One price serves the middle and loses both ends. Three well-separated levels catch those who want more and those who want less.",
+        "**Try it today:** take your main product. Write down what you could remove for a cheaper version and what you could add for a premium one. Who would pick each?"
+      ],
+      "next": "Next · Charging by the unit of value"
+    }
+  ]
+}

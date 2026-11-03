@@ -1,0 +1,297 @@
+{
+  "id": "FIN-10-03",
+  "unitId": "FIN-10",
+  "categoryId": "FIN",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "When cash and profit disagree",
+  "readerTitle": "Profit up 72%, cash down 65%: which one is telling the truth?",
+  "format": "numbers_twist",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (리모델링 회사, 주방용품 유통사) + 실제 연구 (Sloan, 1996 발생액 연구) · 모든 수치는 설명용",
+  "insight": "이익과 현금은 몇 년에 걸쳐 함께 움직여야 한다. 이익은 오르는데 현금이 따라오지 않고 그 차이가 해마다 커지면, 그 이익이 어디에 묶여 있는지 물어봐야 한다.",
+  "misconception": "이익이 계속 늘고 있으면 건강한 사업이다. 현금과의 차이는 시간이 지나면 저절로 메워지는 타이밍 문제일 뿐이다.",
+  "relatedLessonIds": [
+    "FIN-02-01",
+    "FIN-11-06"
+  ],
+  "sources": [
+    {
+      "text": "Sloan, R. G. (1996). Do Stock Prices Fully Reflect Information in Accruals and Cash Flows about Future Earnings? The Accounting Review, 71(3), 289–315.",
+      "url": null
+    },
+    {
+      "text": "재무제표 분석의 표준 개념 (영업현금흐름 대비 이익, 현금 전환율)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "리모델링 회사 계산: 이익 $180k → $310k, 310 ÷ 180 = 1.72(+72%). 영업현금 $170k → $60k, (170 − 60) ÷ 170 = 64.7%(약 65% 감소). 현금 전환율 170/180 = 94%, 150/240 = 63%, 60/310 = 19%.",
+      "status": "open"
+    },
+    {
+      "note": "3년 차 차이 분해: $310k − 미청구 공사 $120k − 고객 미수금 증가 $80k − 자재 재고 증가 $50k = $60k. 합계가 맞는지 다시 확인했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Sloan(1996)의 핵심 결과(발생액 비중이 큰 이익은 현금 기반 이익보다 지속성이 낮고, 발생액이 큰 기업은 이후 이익과 주가 성과가 약했다)를 일반적으로만 서술했습니다. 표현이 논문 내용과 맞는지 게시 전 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "유통사 계산: 두 회사 모두 이익 $500k. A 영업현금 $480k(96%), B 영업현금 $90k(18%). B는 매출 +10%, 재고 +60% 가정.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Numbers twist",
+      "title": "Profit up 72%. Cash down 65%.",
+      "illustrative": true,
+      "body": [
+        "A renovation company is for sale. Over three years, its profit grew from $180,000 to $310,000. The owner is proud, and the asking price reflects it.",
+        "Over the same three years, the cash the business actually brought in from its work fell from $170,000 to $60,000.",
+        "Both numbers are accurate. Only one of them pays the bills."
+      ],
+      "image": {
+        "label": "Two arrows on one chart: profit rising, cash falling",
+        "aspectRatio": "4:3",
+        "brief": "리모델링 현장(공구, 사다리, 페인트 통) 배경 위에 두 개의 화살표. 초록색 'Profit' 화살표는 위로, 파란색 'Cash' 화살표는 아래로 벌어진다. 두 화살표 사이의 벌어진 공간을 강조. 실제 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You're thinking of buying it.",
+      "illustrative": true,
+      "body": [
+        "The seller shows you three years of rising profit and asks for a price based on year three. You notice the cash numbers going the other way.",
+        "What do you do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Accept the price. Profit is the standard way to value a business",
+            "verdict": "risky",
+            "feedback": "Profit is a fair starting point, but you'd be paying for $310,000 a year when the business only produced $60,000 in cash last year."
+          },
+          {
+            "key": "B",
+            "text": "Ask where the missing cash went, line by line, before talking price",
+            "verdict": "best",
+            "feedback": "This costs you a few days and maybe an awkward conversation. It tells you whether the profit is real money that's late, or money that may never arrive."
+          },
+          {
+            "key": "C",
+            "text": "Don't worry. Growing businesses always run short of cash",
+            "verdict": "partial",
+            "feedback": "Growth often does eat cash, so this is a fair guess. But it's a guess. A gap this large needs a reason you can check."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "The gap widens every year.",
+      "illustrative": true,
+      "body": [
+        "In year one, nearly every dollar of profit showed up as cash. By year three, less than one in five did."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Year 1",
+            "rows": [
+              {
+                "label": "Profit",
+                "value": 180000,
+                "highlight": false
+              },
+              {
+                "label": "Cash from operations",
+                "value": 170000,
+                "highlight": false
+              }
+            ]
+          },
+          {
+            "label": "Year 2",
+            "rows": [
+              {
+                "label": "Profit",
+                "value": 240000,
+                "highlight": false
+              },
+              {
+                "label": "Cash from operations",
+                "value": 150000,
+                "highlight": false
+              }
+            ]
+          },
+          {
+            "label": "Year 3",
+            "rows": [
+              {
+                "label": "Profit",
+                "value": 310000,
+                "highlight": false
+              },
+              {
+                "label": "Cash from operations",
+                "value": 60000,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "breakdown",
+      "eyebrow": "Follow the money",
+      "title": "Where did $250,000 go?",
+      "illustrative": true,
+      "body": [
+        "Each line is profit that was counted but not collected. None of it is in the bank yet, and some of it may never be."
+      ],
+      "breakdown": [
+        {
+          "value": "$310k",
+          "label": "Profit",
+          "detail": "What the books say year three earned",
+          "highlight": false
+        },
+        {
+          "value": "−$120k",
+          "label": "Unbilled work",
+          "detail": "Jobs counted as partly done, not yet invoiced",
+          "highlight": false
+        },
+        {
+          "value": "−$80k",
+          "label": "Customers owe more",
+          "detail": "Invoiced but not yet paid",
+          "highlight": false
+        },
+        {
+          "value": "−$50k",
+          "label": "Materials stockpiled",
+          "detail": "Bought and paid for, sitting in a warehouse",
+          "highlight": false
+        },
+        {
+          "value": "$60k",
+          "label": "Cash from operations",
+          "detail": "What actually came in",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Cash conversion",
+      "body": [
+        "**Cash conversion** compares the cash a business brings in from its work with the profit it reports. Divide one by the other.",
+        "Here it fell from 94% to 63% to 19%. Over several years, a healthy business usually sits close to 100%, because profit and cash describe the same work.",
+        "The red flag isn't one weak year. It's **profit climbing while cash falls behind**, year after year."
+      ],
+      "image": {
+        "label": "A funnel: profit goes in the top, less cash comes out each year",
+        "aspectRatio": "16:9",
+        "brief": "세 개의 깔때기를 나란히 배치(Year 1, 2, 3). 위에서 'Profit' 동전이 들어가고 아래로 'Cash'가 나온다. 해마다 깔때기 중간에 'Unbilled', 'Owed', 'Stock' 라벨의 막힘이 늘어나 아래로 나오는 양이 94% → 63% → 19%로 줄어든다.",
+        "url": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Why it works",
+      "title": "Profit takes judgment. Cash doesn't.",
+      "body": [
+        "Profit depends on decisions: when a job counts as earned, what counts as a cost. Honest owners make optimistic calls. Dishonest ones make convenient calls. Cash is a bank balance, so it is much harder to bend.",
+        "Research backs this up. In a well-known 1996 study, Richard Sloan found that profits resting mostly on these judgments, rather than on cash, tended not to last as well."
+      ],
+      "softwareNote": "Watch for development costs that are recorded as an asset instead of an expense. Profit looks higher while the cash is already spent. The opposite gap, cash above profit from annual plans paid upfront, is usually healthy, but it means you still owe the service."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Not every gap is a problem.",
+      "body": [
+        "A business stocking up for a big season, or finishing one huge contract, can show weak cash for a year with nothing wrong. Ask for the reason and check it.",
+        "Cash can be dressed up too. An owner can delay paying suppliers just before a sale, making cash look stronger. So look at what the business owes, not only what it's owed.",
+        "Use several years, and treat the gap as a question, not a verdict."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's two distributors.",
+      "illustrative": true,
+      "body": [
+        "You can buy one of two kitchen-supply distributors at the same price. Both report $500,000 profit.",
+        "Distributor A brought in $480,000 in cash. Distributor B brought in $90,000. Sales at B grew 10%, but its inventory grew 60%. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Pick B. All that stock means it's ready to grow",
+            "verdict": "risky",
+            "feedback": "You might get a growth engine. You might also get a warehouse of slow-moving goods that will be sold at a discount, and that profit disappears."
+          },
+          {
+            "key": "B",
+            "text": "Lean toward A, and only consider B after checking how old its stock is and what it really sells for",
+            "verdict": "best",
+            "feedback": "A's profit is already cash. For B, you trade a little time for the one fact that decides whether its profit is real."
+          },
+          {
+            "key": "C",
+            "text": "Treat them as equal, since profit is the same",
+            "verdict": "risky",
+            "feedback": "Simple, but it ignores the clearest signal you have. Equal profit with very different cash means the two businesses are not equal."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Profit is a claim. Cash is the proof.",
+      "body": [
+        "When profit rises and cash doesn't follow, find where the difference is stuck: unbilled work, unpaid invoices or piled-up stock.",
+        "**Try it today:** put your last three years of profit next to your cash from operations. Divide cash by profit. Is the ratio steady, or slipping?"
+      ],
+      "next": "Next · When the company's own numbers come with an asterisk"
+    }
+  ]
+}

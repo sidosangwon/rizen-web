@@ -1,0 +1,263 @@
+{
+  "id": "FIN-01-05",
+  "unitId": "FIN-01",
+  "categoryId": "FIN",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Revenue vs profit",
+  "readerTitle": "Record sales, no profit. How?",
+  "format": "numbers_twist",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (B2B 마케팅 에이전시, 사무용 의자 제조사의 영업팀) · 모든 수치는 설명용. 확인 가능한 실제 기업 사례 대신 계산을 따라가는 구성이 개념에 더 잘 맞아 company_story 대신 numbers_twist로 바꿨습니다.",
+  "insight": "매출은 사업의 '크기'를, 이익은 그 사업이 '할 가치가 있었는지'를 보여준다. 매출이 늘 때마다 뒤따라 늘어난 비용을 함께 봐야 한다.",
+  "misconception": "매출이 사상 최고면 사업도 가장 잘된 해다. 매출을 키우면 이익은 저절로 따라온다.",
+  "relatedLessonIds": [
+    "FIN-01-06",
+    "FIN-04-05"
+  ],
+  "sources": [
+    {
+      "text": "재무회계의 표준 개념 (손익계산서의 매출과 순이익)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "에이전시 계산: 1년차 매출 $2,000,000 − 비용 $1,700,000 = 이익 $300,000. 2년차 매출 $3,000,000 − 비용 $2,950,000 = 이익 $50,000. 매출 증가 $1,000,000(+50%), 비용 증가 $1,250,000. $50,000은 $300,000의 1/6.",
+      "status": "open"
+    },
+    {
+      "note": "의자 계산: 현재 1,000개 × $100 = 매출 $100,000, 이익 1,000 × ($100 − $70) = $30,000. 제안 1,500개 × $80 = 매출 $120,000(+20%), 이익 1,500 × $10 = $15,000. 역제안 $90: 매출 1,500 × $90 = $135,000, 이익 1,500 × $20 = $30,000. 생산 여력은 충분하고 개당 비용 $70은 수량과 무관하다고 가정.",
+      "status": "open"
+    },
+    {
+      "note": "softwareNote의 소프트웨어 사례는 일반적인 설명이며 특정 기업의 수치를 가리키지 않습니다. 게시 전 표현이 과장되지 않았는지 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Numbers twist",
+      "title": "Record sales, no profit. How?",
+      "illustrative": true,
+      "body": [
+        "A 20-person marketing agency just had its best sales year ever: $3 million, up 50%.",
+        "The team celebrated. Then the owner saw what was left after paying everyone: $50,000. Last year, on far less work, it was $300,000."
+      ],
+      "image": {
+        "label": "Revenue is size. Profit is what stayed.",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 사무실에서 직원들이 \"Record year!\" 배너 아래 축하 중이고, 구석에서 대표가 노트북 화면의 아주 작은 \"$50,000\" 숫자를 보며 당황한 표정. 실제 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/fin-01-05-hook.png"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Revenue rose from $2M to $3M. Did the agency do better?",
+      "illustrative": true,
+      "body": [
+        "You're the owner. Clients, projects and invoices all went up by half.",
+        "Before you decide on bonuses, what do you conclude?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Yes. 50% more sales is a great year",
+            "verdict": "risky",
+            "feedback": "Sales show how much work came in, not what the work left behind. Bonuses paid on this number could wipe out what little was left."
+          },
+          {
+            "key": "B",
+            "text": "Can't tell yet. First check what's left after all costs",
+            "verdict": "best",
+            "feedback": "Right. More sales only help if costs grew less than sales did. The next card shows they didn't."
+          },
+          {
+            "key": "C",
+            "text": "Probably, as long as clients paid on time",
+            "verdict": "partial",
+            "feedback": "Getting paid matters, but that's a question about cash. Even clients who pay on time can't fix work that costs more than it earns."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "Two years side by side.",
+      "illustrative": true,
+      "body": [
+        "Revenue rose $1 million. Costs rose $1.25 million. Most of the jump came from freelancers hired to cover a big new client. They cost more per hour than staff. A bigger office came next."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Last year",
+            "rows": [
+              {
+                "label": "Revenue",
+                "value": 2000000,
+                "highlight": false
+              },
+              {
+                "label": "Costs",
+                "value": 1700000,
+                "highlight": false
+              },
+              {
+                "label": "Profit",
+                "value": 300000,
+                "highlight": true
+              }
+            ]
+          },
+          {
+            "label": "This year",
+            "rows": [
+              {
+                "label": "Revenue",
+                "value": 3000000,
+                "highlight": false
+              },
+              {
+                "label": "Costs",
+                "value": 2950000,
+                "highlight": false
+              },
+              {
+                "label": "Profit",
+                "value": 50000,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Revenue vs profit",
+      "body": [
+        "**Revenue** is all the money customers pay you for what you sell, before any costs. It's called the *top line* because it sits at the top of the income statement.",
+        "**Profit** is what's left after every cost is paid: staff, materials, rent, everything. It's the *bottom line*.",
+        "Revenue tells you how much business you did. Profit tells you whether that business was worth doing."
+      ],
+      "image": {
+        "label": "A tall top line shrinking down to a thin bottom line",
+        "aspectRatio": "4:3",
+        "brief": "깔때기 모양 인포그래픽. 맨 위 넓은 띠 \"Revenue (top line)\", 중간에 \"Staff\", \"Freelancers\", \"Rent\" 비용이 빠져나가는 화살표, 맨 아래 얇은 띠 \"Profit (bottom line)\". 맨 아래 띠를 강조색으로.",
+        "url": "assets/images/fin-01-05-funnel.png"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Why the top line can rise while the bottom line falls.",
+      "body": [
+        "Revenue and profit usually move together, until one of these happens:"
+      ],
+      "list": [
+        "**Price cuts to win volume:** more sales, less kept from each one",
+        "**Costs that grow faster than sales:** overtime, freelancers, rush shipping",
+        "**Step-ups in fixed costs:** a new office or manager arrives before the extra sales do",
+        "**Costly customers:** a big client that takes more time to serve than it pays for"
+      ],
+      "callout": "Every extra dollar of revenue drags some cost behind it. The question is how much.",
+      "softwareNote": "A software company can post record subscription revenue while losing money, because sales staff, ads and servers grow along with it. Investors may accept that for a while, but they will ask when each new dollar starts leaving something behind."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Inside a company",
+      "title": "Many teams only see the top line.",
+      "body": [
+        "A sales team is usually measured on revenue. A product team may be judged on units sold. Few teams see the costs their wins create in other departments.",
+        "So a team can have a record quarter that leaves the company poorer: a deal sold at a deep discount, a custom request that ties up the factory, free delivery the warehouse pays for.",
+        "Asking \"what did this cost?\" is part of the job, even when nobody measures it."
+      ],
+      "image": {
+        "label": "Sales can capture credit while the firm absorbs cost.",
+        "aspectRatio": "4:3",
+        "brief": "단면도처럼 나뉜 회사 건물. 위층 영업팀은 \"Record quarter\" 트로피를 들고 환호, 아래층 공장·창고·회계팀은 늘어난 박스와 청구서 더미를 나르는 모습. 실제 로고 없음.",
+        "url": "assets/images/fin-01-05-building.png"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Low profit isn't always a problem.",
+      "body": [
+        "A business may choose thin profit on purpose, for example by hiring before demand arrives or opening a second site. That's an investment, not a mistake, if it's planned and has a limit.",
+        "Profit also isn't cash. A profitable year can still leave the bank account empty if customers pay late. That's a separate lesson.",
+        "And one year can mislead. Look at the trend over several years before you judge."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now you run a sales team.",
+      "illustrative": true,
+      "body": [
+        "You lead sales at a company that makes office chairs. Each chair sells for $100 and costs $70 to make and deliver. Your team's bonus is based on revenue.",
+        "Your biggest customer usually buys 1,000 chairs. They offer to buy 1,500 if you cut the price to $80."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Take it. Revenue rises from $100,000 to $120,000",
+            "verdict": "risky",
+            "feedback": "Your bonus goes up, but profit falls from $30,000 to $15,000. The company makes 50% more chairs to earn half as much."
+          },
+          {
+            "key": "B",
+            "text": "Show your boss both numbers, then offer a smaller discount",
+            "verdict": "best",
+            "feedback": "You keep the customer talking and protect the bottom line. At $90, the bigger order earns the same $30,000 profit on $135,000 of revenue."
+          },
+          {
+            "key": "C",
+            "text": "Turn it down and keep the price at $100",
+            "verdict": "partial",
+            "feedback": "This protects what each chair earns. But a flat no may lose a customer who would have accepted a middle price."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Revenue is size. Profit is result.",
+      "body": [
+        "Before you celebrate a record sales month, ask what it cost to get there.",
+        "**Try it today:** take your last two months or quarters. Write revenue and profit side by side. Did they move the same way? If not, find the cost that grew."
+      ],
+      "next": "Next · Two kinds of margin, and what each one tells you"
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "id": "ENT-01-08",
+  "unitId": "ENT-01",
+  "categoryId": "ENT",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "Evaluate a business software idea",
+  "readerTitle": "The warehouse supervisor with a software idea",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.3,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (물류창고 감독자의 도크 예약 소프트웨어 아이디어, 디자인 에이전시용 소프트웨어를 만들려는 개발자) · 모든 수치는 설명용",
+  "insight": "사업용 소프트웨어 아이디어는 기능이 아니라 세 가지 질문으로 평가한다. 누가 지금 이 문제에 돈과 시간을 쓰는가, 그런 고객이 실제로 몇 곳인가, 나는 왜 이 시장에 맞는 사람인가.",
+  "misconception": "코드를 짤 수 있거나 시장 보고서 숫자가 크면 아이디어는 검증된 것이다.",
+  "relatedLessonIds": [
+    "ENT-01-03",
+    "ENT-01-06"
+  ],
+  "sources": [
+    {
+      "text": "이 유닛의 개념 레슨: 문제 먼저(ENT-01-03), 시장 규모 추정(ENT-01-04), 창업자-시장 적합성(ENT-01-06)",
+      "url": null
+    },
+    {
+      "text": "모든 인물, 회사, 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "시장 규모 계산을 다시 확인하세요. 창고 400곳 × 월 $250 = 월 $100,000, × 12개월 = 연 $1,200,000. 그중 10%만 구매할 때 연 $120,000.",
+      "status": "open"
+    },
+    {
+      "note": "인터뷰 결과(15곳 중 12곳이 문제라고 답함, 대형 2곳은 이미 시스템 보유)는 모두 가상 수치입니다. 실제 통계처럼 읽히지 않도록 카드에 illustrative 라벨이 붙어 있는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "5번 카드의 '시장 보고서가 수십억 달러라고 한다'는 표현은 특정 보고서를 인용하지 않은 가상 대사입니다. 실제 수치를 넣지 마세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Starting up · Everyday scene",
+      "title": "The warehouse supervisor with a software idea",
+      "illustrative": true,
+      "body": [
+        "Every morning at 6 a.m., Maria watches trucks line up outside her warehouse. Some drivers wait two hours for a free loading dock. Others show up when the docks sit empty.",
+        "She sketches an app on a napkin: trucks book a dock slot, the warehouse sees the day's plan. It looks obvious. Is it a business?"
+      ],
+      "image": {
+        "label": "Trucks queuing at warehouse loading docks at dawn",
+        "aspectRatio": "4:3",
+        "brief": "새벽 물류창고. 하역 도크 앞에 트럭 여러 대가 줄지어 대기하고, 몇몇 도크는 비어 있음. 앞쪽에 형광 조끼를 입은 여성 감독자가 냅킨에 앱 화면을 스케치. 트럭과 창고에 실제 회사 로고 없음.",
+        "url": "assets/images/ent-01-08-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What should Maria do first?",
+      "illustrative": true,
+      "body": [
+        "Maria has a little savings and a cousin who builds websites. She wants to know if dock scheduling software is worth pursuing."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Pay her cousin to build a simple booking prototype",
+            "verdict": "risky",
+            "feedback": "She gets something real to show, but she spends money before knowing whether other warehouses share the problem. This skips **problem before solution**."
+          },
+          {
+            "key": "B",
+            "text": "Call 15 warehouse managers and ask how they schedule trucks today and what it costs them",
+            "verdict": "best",
+            "feedback": "**Problem before solution.** Asking about current habits and costs shows whether the pain is real and widespread, and it costs only her time."
+          },
+          {
+            "key": "C",
+            "text": "Post an online survey asking if managers would like a dock booking app",
+            "verdict": "partial",
+            "feedback": "Cheap and fast, but \"would you like\" invites polite yeses. Asking what people do and spend today tells her more."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What she found",
+      "title": "The pain is real, but not for everyone.",
+      "illustrative": true,
+      "body": [
+        "Twelve of the 15 managers said dock queues were a weekly headache. Most booked trucks by phone and a shared spreadsheet, and a clerk spent hours a day juggling calls.",
+        "Two large sites didn't care. Their warehouse systems already handled scheduling. Small sites with a few trucks a day were happy with the phone.",
+        "The problem lived in the middle: **mid-size warehouses** with enough trucks to create chaos but no big system to fix it. Maria's idea just got narrower and stronger."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Count the customers you can actually reach.",
+      "illustrative": true,
+      "body": [
+        "Maria counts mid-size warehouses in her region and the next two. She guesses a price close to what a clerk's lost hours cost.",
+        "If only 1 in 10 buy at first, that's about **$120,000 a year**. A real starting point, not a fantasy."
+      ],
+      "breakdown": [
+        {
+          "value": "400",
+          "label": "Mid-size warehouses",
+          "detail": "In her region and two neighbors",
+          "highlight": false
+        },
+        {
+          "value": "× $250",
+          "label": "Per month",
+          "detail": "Her guessed price",
+          "highlight": false
+        },
+        {
+          "value": "× 12",
+          "label": "Months",
+          "detail": "One year",
+          "highlight": false
+        },
+        {
+          "value": "$1.2M",
+          "label": "If every one bought",
+          "detail": "The ceiling for this first market",
+          "highlight": true
+        }
+      ],
+      "softwareNote": "This is a bottom-up count: reachable customers × price. Software founders often skip it and quote a giant industry figure instead."
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which number should she plan around?",
+      "illustrative": true,
+      "body": [
+        "A friend says, \"Forget 400 warehouses. A market report says logistics software is worth billions. Grab 1% and you're rich.\""
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The billions figure. It shows how big this could get",
+            "verdict": "risky",
+            "feedback": "It sounds exciting, but it lumps in every kind of logistics software. **Sizing a market** means counting buyers who have your problem, not the whole industry."
+          },
+          {
+            "key": "B",
+            "text": "Her 400-warehouse count, then expand region by region",
+            "verdict": "best",
+            "feedback": "**Sizing a market** bottom-up gives her a number she can test with real calls. If it works, the next region is another count, not a guess."
+          },
+          {
+            "key": "C",
+            "text": "Neither. Sizing is guesswork, so just start selling",
+            "verdict": "partial",
+            "feedback": "Selling early is good. But without a rough count, she can't tell whether 20 customers is a great start or most of the market."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The founder",
+      "title": "Why Maria, and not someone else?",
+      "illustrative": true,
+      "body": [
+        "**Founder-market fit** is how well a founder's experience, contacts and drive match the market they're entering.",
+        "Maria has lived this problem for years. She speaks the managers' language, and when she calls, they pick up. That insight and access are hard for an outsider to buy.",
+        "Her gap is building software. That gap is real, but she can fill it with a technical co-founder or a simple no-code tool. Filling the other gap, years of knowing the docks, is much slower."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software developer.",
+      "illustrative": true,
+      "body": [
+        "Sam is a skilled developer. He wants to build software that chases unpaid invoices for small design agencies. He has never worked in an agency and knows no agency owners.",
+        "What's his best first move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Build it in a month. His coding speed is his edge",
+            "verdict": "risky",
+            "feedback": "Fast building is a strength, but it doesn't tell him if agencies feel this pain or how they handle it now. That skips **problem before solution**."
+          },
+          {
+            "key": "B",
+            "text": "Spend two weeks talking to agency owners, ideally teaming up with one who lives the problem",
+            "verdict": "best",
+            "feedback": "He tests the problem and closes his **founder-market fit** gap at once. An insider partner brings the trust and insight Sam lacks."
+          },
+          {
+            "key": "C",
+            "text": "Pick a market where he already knows the users, like other developers",
+            "verdict": "partial",
+            "feedback": "Stronger **founder-market fit**, but he drops an idea before testing it. Fit can sometimes be built through partners and time."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Interest is not a sale.",
+      "body": [
+        "Twelve managers saying \"headache\" is not twelve customers. People describe a pain far more easily than they pay to fix it. Maria's next test is a commitment: a paid pilot or a signed letter of intent.",
+        "Also, a first market of about $120,000 a year can support a good small business. It may not support a fast-growing startup that needs outside investors. Decide which one you're building before you judge the number."
+      ],
+      "image": {
+        "label": "A handshake turning into a signed pilot agreement",
+        "aspectRatio": "16:9",
+        "brief": "왼쪽에는 말풍선 \"Yes, that's a pain!\"이 여러 개, 오른쪽에는 서명된 계약서 한 장. 말풍선은 많지만 계약서는 하나라는 대비를 보여줌. 로고 없음.",
+        "url": "assets/images/ent-01-08-c8.jpg"
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Judge a software idea by the problem, the count and the founder.",
+      "body": [
+        "Before writing code, Maria checked three things from this unit:"
+      ],
+      "list": [
+        "**Problem before solution:** who struggles today, and what does it cost them?",
+        "**Sizing a market:** how many of those buyers can you actually reach?",
+        "**Founder-market fit:** why are you the right person, and what gap must you fill?"
+      ],
+      "callout": "**Try it today:** take one idea you've had and answer these three questions in a single line each.",
+      "next": "Next · How Airbnb's founders kept going by selling cereal"
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "id": "FIN-06-09",
+  "unitId": "FIN-06",
+  "categoryId": "FIN",
+  "order": 9,
+  "type": "case",
+  "conceptTag": "Peloton's valuation rise and fall",
+  "readerTitle": "Peloton: When a one-time boom gets priced as forever",
+  "format": "company_story",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Peloton, 2019~2022년) + 가상 적용 (자전거 가게, 해변 식당). 가치 계산 예시는 설명용 수치",
+  "insight": "일시적인 매출 급증은 미래 이익 예상과 배수를 함께 끌어올린다. 그래서 급증이 끝나면 기업가치는 매출보다 훨씬 크게 떨어진다.",
+  "misconception": "매출이 크게 줄지 않았으니 기업가치도 크게 떨어지지 않는다. 주가가 높으면 회사가 그만큼의 미래를 확신해도 된다.",
+  "relatedLessonIds": [
+    "FIN-06-04",
+    "FIN-06-06"
+  ],
+  "sources": [
+    {
+      "text": "Peloton Interactive, Form S-1 and IPO pricing announcement (September 2019): IPO price $29",
+      "url": null
+    },
+    {
+      "text": "Peloton Interactive, Form 10-K for fiscal years 2021 and 2022: annual revenue (about $4.0B in FY2021, about $3.6B in FY2022)",
+      "url": null
+    },
+    {
+      "text": "Peloton press release on the Precor acquisition (December 2020, about $420M)",
+      "url": null
+    },
+    {
+      "text": "Peloton press release on the planned Ohio factory (May 2021) and later reports of its cancellation (2022)",
+      "url": null
+    },
+    {
+      "text": "U.S. Consumer Product Safety Commission, Tread+ recall announcement (May 2021)",
+      "url": null
+    },
+    {
+      "text": "Peloton press release on CEO transition and cost restructuring (February 2022)",
+      "url": null
+    },
+    {
+      "text": "Widely reported market value peak of around $50B in early 2021 (e.g., Reuters, CNBC, Wall Street Journal coverage)",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "최고 시가총액 \"약 $50B\"(2021년 1월 전후)와 2022년 말까지 고점 대비 90% 이상 하락을 게시 전 주가 데이터로 다시 확인하세요. 주가 고점은 약 $160대, 2022년 말 종가는 약 $8 전후로 기억하지만 카드에는 정확한 주가를 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "매출: FY2020(2020년 6월 결산) 약 $1.8B → FY2021 약 $4.0B(두 배 이상), FY2022 약 $3.6B. 하락률 (4.0 − 3.6) ÷ 4.0 = 약 10%. 10-K로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Precor 인수 금액(약 $420M, 2020년 12월 발표), 오하이오 공장(2021년 5월 발표, 약 $400M, 2022년 계획 철회), CEO John Foley 사임과 약 2,800명 감원(2022년 2월)을 1차 자료로 확인하세요. 카드에는 금액과 인원을 쓰지 않고 정성적으로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "설명용 계산: 이익 $100 × 배수 20 = $2,000, 이익 $60 × 배수 10 = $600. 이익 40% 감소, 가치 (2,000 − 600) ÷ 2,000 = 70% 감소.",
+      "status": "open"
+    },
+    {
+      "note": "식당 계산: 평년 이익 $80,000, 작년 $160,000. 4배 × $160,000 = $640,000, 4배 × $80,000 = $320,000.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Company story",
+      "title": "Peloton: When a one-time boom gets priced as forever",
+      "body": [
+        "In early 2021, with gyms closed, investors valued Peloton, the at-home exercise bike company, at around **$50 billion**.",
+        "Less than two years later, more than 90% of that value was gone. Yearly sales had fallen only about 10%. So what actually disappeared?"
+      ],
+      "image": {
+        "label": "An exercise bike casting a giant shadow that shrinks",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 거실의 실내 자전거 한 대가 벽에 거대한 그림자를 드리우고, 옆 장면에서는 같은 자전거의 그림자가 아주 작아짐. 실제 Peloton 로고나 제품 디자인은 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Late 2020. Orders are piling up.",
+      "body": [
+        "You run Peloton. Customers are waiting weeks for bikes. Sales have more than doubled, and your stock price has soared.",
+        "Nobody knows how long people will avoid gyms. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Build permanent capacity: buy an equipment maker and plan your own factory",
+            "verdict": "risky",
+            "feedback": "You'd capture all the demand if it lasts. But you lock in big fixed costs that only pay off if the boom becomes the new normal."
+          },
+          {
+            "key": "B",
+            "text": "Add capacity you can scale back, like contract makers and extra shifts, while you watch demand",
+            "verdict": "best",
+            "feedback": "You serve much of the surge without betting the company on it. You may lose some sales and pay more per unit in the meantime."
+          },
+          {
+            "key": "C",
+            "text": "Hold steady and let the waiting list grow",
+            "verdict": "partial",
+            "feedback": "You avoid overbuilding, but frustrated customers cancel or buy from rivals. That's a real cost too."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "Peloton built for the boom.",
+      "body": [
+        "Peloton chose bold permanent capacity. In December 2020 it agreed to buy Precor, a fitness equipment maker. In May 2021 it announced a large factory in Ohio.",
+        "Then vaccines arrived and gyms reopened. Demand slowed while new bikes kept coming. A treadmill recall in 2021 added to the trouble, and unsold inventory piled up.",
+        "In 2022 the factory plan was dropped, the founder stepped down as CEO, and thousands of jobs were cut."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Sales dipped. Value collapsed.",
+      "body": [
+        "The business shrank a little. What investors were willing to pay for it shrank enormously."
+      ],
+      "breakdown": [
+        {
+          "value": "$29",
+          "label": "IPO price",
+          "detail": "September 2019",
+          "highlight": false
+        },
+        {
+          "value": "~$4B",
+          "label": "Yearly sales",
+          "detail": "Fiscal 2021, more than double the year before",
+          "highlight": false
+        },
+        {
+          "value": "~$50B",
+          "label": "Peak market value",
+          "detail": "Early 2021",
+          "highlight": false
+        },
+        {
+          "value": "−10% vs −90%+",
+          "label": "Sales vs value",
+          "detail": "Fiscal 2022 sales vs value from peak by late 2022",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "A surge gets counted twice.",
+      "body": [
+        "A company's value is what investors pay today for all the cash they expect it to earn later. Roughly: expected profit times a **multiple**, the price paid per dollar of profit.",
+        "A temporary surge inflates both. Investors project the boom forward, so expected profit rises. And fast growth earns a higher multiple. When the surge fades, both fall at once."
+      ],
+      "softwareNote": "Subscription businesses often get high multiples because revenue repeats. But if many subscribers joined in a one-off spike, the real test is whether they stay. Watch how each month's new customers keep paying before trusting the multiple."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Why value falls faster than sales.",
+      "illustrative": true,
+      "body": [
+        "Say a business earns $100 and investors pay **20 times** profit, because it looks like a fast grower. It's worth $2,000.",
+        "Now profit is expected to settle at $60, and growth looks ordinary, so the multiple drops to 10. It's worth $600.",
+        "Profit fell 40%. Value fell 70%. And if managers treated the high price as proof and signed up for big fixed costs, those costs stay after the price comes down."
+      ],
+      "image": {
+        "label": "Two stacked blocks shrinking: profit and multiple",
+        "aspectRatio": "16:9",
+        "brief": "두 개의 블록을 곱하는 인포그래픽. 왼쪽: \"Profit $100\" × \"Multiple 20\" = \"$2,000\". 오른쪽: \"Profit $60\" × \"Multiple 10\" = \"$600\". 결과 블록이 크게 줄어드는 것을 강조.",
+        "url": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Beyond Peloton",
+      "title": "The same trap fits in a small shop.",
+      "illustrative": true,
+      "body": [
+        "A bike shop sells out in a boom summer. The owner doubles next year's order and signs a lease on a bigger store, sure demand has reset higher.",
+        "Next year, many customers already own a new bike. Sales drop back. The shop now has a warehouse of stock and rent sized for a year that won't repeat.",
+        "Some of that boom was demand *pulled forward*: purchases that would have happened later, made early."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Hindsight makes this look easy.",
+      "body": [
+        "Some surges do last. Habits shift, and a company that refuses to invest can hand the market to a rival.",
+        "The lesson isn't to ignore growth. It's to ask how much of it is borrowed from the future, and to match your commitments to that doubt. Flexible costs when you're unsure. Fixed costs once the new level holds."
+      ]
+    },
+    {
+      "index": 9,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a seaside restaurant.",
+      "illustrative": true,
+      "body": [
+        "You're buying a restaurant. It normally earns about $80,000 a year. Last year a big festival moved to town for one season, and profit hit $160,000.",
+        "The seller asks four times last year's profit: $640,000. What do you offer?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Pay $640,000. The profit is real and recent",
+            "verdict": "risky",
+            "feedback": "You'd pay for the festival year as if it repeats. If profit returns to normal, you've paid about twice what the business earns."
+          },
+          {
+            "key": "B",
+            "text": "Value it on normal profit, near $320,000, and add something only if bookings show the boost is lasting",
+            "verdict": "best",
+            "feedback": "You price the steady business and pay for the upside only with evidence. The seller may walk, but you avoid buying a one-off year."
+          },
+          {
+            "key": "C",
+            "text": "Walk away. Boom numbers can't be trusted",
+            "verdict": "partial",
+            "feedback": "Safe, but the restaurant may be a good business at the right price. The problem is the price, not the place."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 10,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Price the normal year, not the best year.",
+      "body": [
+        "A temporary boom lifts both expected profit and the multiple. When it ends, value falls much harder than sales.",
+        "**Try it today:** look at your best recent month or year. Write down how much of it came from something that won't repeat, and check whether any cost you've committed to depends on it."
+      ],
+      "next": "Next · Value a business yourself"
+    }
+  ]
+}

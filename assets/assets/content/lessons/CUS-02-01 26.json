@@ -1,0 +1,241 @@
+{
+  "id": "CUS-02-01",
+  "unitId": "CUS-02",
+  "categoryId": "CUS",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "What value is",
+  "readerTitle": "Why the cheaper supplier cost the customer more",
+  "format": "numbers_twist",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (건축 자재 유통업체, 사내 재무팀) + 실제 연구 (Zeithaml 1988, 고객 지각 가치 정의) · 모든 수치는 설명용",
+  "insight": "가치는 내가 만든 제품이나 내가 쓴 비용이 아니라, 고객이 얻는 것에서 고객이 치르는 모든 것(가격, 시간, 수고, 위험)을 뺀 값이다. 그래서 가치는 고객의 숫자로 계산해야 보인다.",
+  "misconception": "가치는 곧 가격이다. 더 싸게 팔거나 기능을 더 넣으면 고객에게 주는 가치가 커진다.",
+  "relatedLessonIds": [
+    "CUS-02-02",
+    "CUS-09-04"
+  ],
+  "sources": [
+    {
+      "text": "Zeithaml, V. A. (1988). Consumer Perceptions of Price, Quality, and Value: A Means-End Model and Synthesis of Evidence. Journal of Marketing, 52(3), 2–22.",
+      "url": null
+    },
+    {
+      "text": "모든 사례 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "계산 확인: 대형 매장 가격 $2,000 × 0.95 = $1,900. 픽업 인건비 2명 × 1.5시간 × 시급 $40 = $120. 트럭·연료 $25(가정). 총비용 $1,900 + $120 + $25 = $2,045. 배송 주문 $2,000과의 차이 $45.",
+      "status": "open"
+    },
+    {
+      "note": "6번 카드: 배송으로 고객이 아끼는 숨은 비용 $120 + $25 = $145, 유통업체의 배송 비용 1회 $30(가정). 모두 가상 수치입니다.",
+      "status": "open"
+    },
+    {
+      "note": "Zeithaml(1988)의 가치 정의('받는 것과 주는 것에 대한 인식에 근거한 제품 효용의 전반적 평가')를 카드 문장이 정확히 요약하는지 원문으로 다시 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Numbers twist",
+      "title": "Why the cheaper supplier cost the customer more",
+      "illustrative": true,
+      "body": [
+        "A building-supply distributor charges about 5% more than the big-box store across town. Contractors know this. Many of them buy from the distributor anyway.",
+        "They aren't being careless with money. They're counting money the price tag doesn't show."
+      ],
+      "image": {
+        "label": "Two receipts: one shorter, one with hidden extra lines",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 영수증 두 장이 나란히 있음. 왼쪽은 짧고 가격이 낮지만, 아래로 반투명한 추가 줄(시계, 트럭, 작업자 아이콘)이 길게 이어짐. 오른쪽은 가격이 조금 높지만 깔끔하게 끝남. 실제 매장 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/cus-02-01-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "\"The big-box store is 5% cheaper.\"",
+      "illustrative": true,
+      "body": [
+        "You run the distributor. A regular contractor places a $2,000 order every week and tells you the big-box store would charge $1,900 for the same materials.",
+        "You want to keep the account. What do you offer?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Match the $1,900 price",
+            "verdict": "risky",
+            "feedback": "You keep the order but give up $100 every week, and you train the customer to compare you on price alone."
+          },
+          {
+            "key": "B",
+            "text": "Keep the price and deliver to the job site before 7 a.m.",
+            "verdict": "best",
+            "feedback": "You keep your margin and remove a cost the contractor pays but rarely writes down. The next card shows how big that cost is."
+          },
+          {
+            "key": "C",
+            "text": "Offer 2% back on every order",
+            "verdict": "partial",
+            "feedback": "It narrows the gap a little, but it still competes on the one number where you lose. It doesn't touch the rest of what the customer pays."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "What the cheaper order really costs.",
+      "illustrative": true,
+      "body": [
+        "The delivered order costs **$45 less** in total, and the crew starts work on time. The lower price was never the lower cost."
+      ],
+      "breakdown": [
+        {
+          "value": "$1,900",
+          "label": "Big-box price",
+          "detail": "5% below the distributor",
+          "highlight": false
+        },
+        {
+          "value": "+$120",
+          "label": "Crew time",
+          "detail": "2 workers × 1.5 hours × $40 to drive, load and wait",
+          "highlight": false
+        },
+        {
+          "value": "+$25",
+          "label": "Truck and fuel",
+          "detail": "The trip to the store and back",
+          "highlight": false
+        },
+        {
+          "value": "$2,045",
+          "label": "Total cost to the contractor",
+          "detail": "vs. $2,000 delivered to the site",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "What value is",
+      "body": [
+        "**Value** is what the customer gets minus everything they give up to get it. Price is one part of what they give up. Time, effort, hassle and risk are the others.",
+        "Value is measured on the customer's side, in the customer's numbers. It is not what your product cost you to make, and it is not the length of your feature list."
+      ],
+      "image": {
+        "label": "A balance scale: what you get vs. what you give up",
+        "aspectRatio": "16:9",
+        "brief": "양팔 저울 인포그래픽. 왼쪽 접시 \"What you get\"(완성된 작업, 제시간 시작). 오른쪽 접시 \"What you give up\"에 \"Price\", \"Time\", \"Effort\", \"Risk\" 블록이 쌓여 있음. Price 블록은 전체 중 일부일 뿐이라는 점이 보이게.",
+        "url": "assets/images/cus-02-01-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Two ways to create value.",
+      "body": [
+        "Since value is a gap, you can widen it from either side. Marketing researcher Valarie Zeithaml described value in 1988 as the customer's overall judgment of what they receive against what they give. Most businesses only look at the price side of what customers give."
+      ],
+      "list": [
+        "**Raise what they get:** better results, faster, more reliably",
+        "**Lower what they give up:** less time, less effort, less risk, and sometimes a lower price"
+      ],
+      "callout": "Cutting price is just one lever, and often the most expensive one.",
+      "softwareNote": "In software, the biggest cost is often the user's time: setup, learning, fixing errors. A tool that costs more but saves each user an hour a week can be the better value."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "A second twist",
+      "title": "Your cost and their value are different numbers.",
+      "illustrative": true,
+      "body": [
+        "Delivery costs the distributor about $30 per drop. It saves the contractor about $145 in crew time and truck costs.",
+        "That gap is the point. The distributor isn't giving away $145. It's spending $30 to remove a cost that is much bigger on the customer's side. Value often comes from doing something cheaply for you that is expensive for them."
+      ],
+      "image": {
+        "label": "Two bars: $30 cost to the seller, $145 saved by the customer",
+        "aspectRatio": "16:9",
+        "brief": "막대 두 개 비교. 왼쪽 짧은 막대 \"Delivery costs us $30\", 오른쪽 긴 막대 \"Saves the crew $145\". 두 막대 사이의 차이를 밝은 색으로 강조.",
+        "url": "assets/images/cus-02-01-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Value only counts if the customer counts it.",
+      "body": [
+        "A contractor who works alone on a slow week may not mind the drive. To them, the same delivery is worth little. Value changes from customer to customer.",
+        "And if customers never add up their hidden costs, they'll still compare price tags. Your estimate of their savings is a guess until you check it with them. Ask what the trip really takes, then show them the math."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now you run an internal finance team.",
+      "illustrative": true,
+      "body": [
+        "Every month your team sends a 40-page report to department managers on the 10th. Managers say it's thorough. Most only look at two pages, and they make their spending decisions around the 5th.",
+        "Which change adds the most value for them?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Add more charts and breakdowns to make the report richer",
+            "verdict": "risky",
+            "feedback": "It adds to what they could get but also to the time they must spend reading. It still arrives after they've decided."
+          },
+          {
+            "key": "B",
+            "text": "Automate the report so it takes your team half the time",
+            "verdict": "partial",
+            "feedback": "A real gain for your team, but it lowers your cost, not theirs. It only adds value if you use the saved time to help managers."
+          },
+          {
+            "key": "C",
+            "text": "Send each manager their three key numbers by the 3rd",
+            "verdict": "best",
+            "feedback": "They get what they use, when they need it, with almost no reading time. You may send less and deliver more value."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Value is what customers get minus everything they give up.",
+      "body": [
+        "Price is only one thing customers give up. Time, effort and risk often matter more, and you can remove them for less than they cost the customer.",
+        "**Try it today:** pick one customer. List everything they spend to buy and use what you sell, besides the price. Which item could you remove most cheaply?"
+      ],
+      "next": "Next · Why people pay for how a product makes them feel"
+    }
+  ]
+}

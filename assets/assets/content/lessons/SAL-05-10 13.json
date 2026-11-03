@@ -1,0 +1,292 @@
+{
+  "id": "SAL-05-10",
+  "unitId": "SAL-05",
+  "categoryId": "SAL",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Renegotiate with your biggest supplier",
+  "readerTitle": "Your biggest supplier just raised prices 12%. Four moves to answer it.",
+  "format": "everyday_scene",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.6,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (선반 제조사와 철강 공급사) + 가상 적용 (소프트웨어 회사와 지도 API 공급사) · 모든 수치는 설명용",
+  "insight": "큰 공급사와의 재협상은 '가격을 깎는 싸움'이 아니라, 대안을 먼저 확보하고, 상대의 압박을 이해하고, 여러 조건을 맞바꾸고, 조건부로만 양보하는 순서의 문제다.",
+  "misconception": "가장 큰 공급사에는 협상력이 없으니 인상을 받아들이거나, 반대로 강하게 위협해야만 가격을 지킬 수 있다.",
+  "relatedLessonIds": [
+    "SAL-05-02",
+    "SAL-05-03"
+  ],
+  "sources": [
+    {
+      "text": "협상론의 표준 개념 (BATNA, 조건부 양보, 다중 이슈 교환, 감정 라벨링)",
+      "url": null
+    },
+    {
+      "text": "모든 수치와 회사는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "계산 확인: 연간 구매액 $2,000,000 × 12% = $240,000, × 9% = $180,000, × 5% = $100,000. 12% 인상 대비 절감액 $240,000 − $100,000 = $140,000. 대체 공급사 대비 절감액 $180,000 − $100,000 = $80,000.",
+      "status": "open"
+    },
+    {
+      "note": "공급사의 여름 유휴 설비, 급주문 비용 등은 시나리오 설정입니다. 실제 철강 산업 통계로 읽히지 않도록 카드에 illustrative 표시를 유지하세요.",
+      "status": "open"
+    },
+    {
+      "note": "소프트웨어 사례의 40% 인상, 2년 약정 등은 가상 설정이며 특정 API 업체를 가리키지 않습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Negotiation · Simulation",
+      "title": "The letter arrives on a Monday.",
+      "illustrative": true,
+      "body": [
+        "You run a company that makes steel shelving for warehouses. One steel mill supplies most of your metal, about **$2 million** a year.",
+        "Their letter is short: prices rise 12% in 60 days. That's $240,000 a year, more than your whole profit last year.",
+        "You have four decisions to make. Pick each one before you read on."
+      ],
+      "image": {
+        "label": "A supplier letter on a workbench beside steel coils",
+        "aspectRatio": "4:3",
+        "brief": "공장 작업대 위에 놓인 한 장짜리 편지. 큰 글씨로 \"+12%\"가 보이고, 뒤로 철강 코일과 반쯤 조립된 창고 선반. 실제 회사 로고나 상표는 쓰지 않음. 약간 긴장감 있는 아침 조명.",
+        "url": "assets/images/sal-05-10-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 4",
+      "title": "What do you do first?",
+      "illustrative": true,
+      "body": [
+        "The mill is bigger than you, and switching would take months. Your production manager wants to call them today."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Call today and push back hard before the date gets close",
+            "verdict": "risky",
+            "feedback": "You'd negotiate with nothing behind your words. If they say no, your only move left is to accept."
+          },
+          {
+            "key": "B",
+            "text": "Quietly get a quote from another mill first, and work out your limit",
+            "verdict": "best",
+            "feedback": "A second mill quotes 9% above today's price, after three months of testing. Now you know your floor: anything below +9% beats walking away."
+          },
+          {
+            "key": "C",
+            "text": "Accept the rise to protect a key relationship",
+            "verdict": "partial",
+            "feedback": "The relationship stays calm, but you pay $240,000 a year without ever learning whether you had to."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 4",
+      "title": "Say you chose B. Now, the first meeting.",
+      "illustrative": true,
+      "body": [
+        "The mill's sales manager opens: \"Energy and labor costs went up. We have no choice.\" How do you respond?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "\"That's unacceptable. We have other options.\"",
+            "verdict": "risky",
+            "feedback": "The threat makes them defend the number. They hold at 12% and the meeting ends cold."
+          },
+          {
+            "key": "B",
+            "text": "\"It sounds like your costs have squeezed you hard, and you're under pressure to pass them on.\"",
+            "verdict": "best",
+            "feedback": "Naming their pressure lowers their guard. She admits what hurts most: idle machines in summer and costly rush orders from customers like you."
+          },
+          {
+            "key": "C",
+            "text": "\"Could we meet in the middle at 6%?\"",
+            "verdict": "partial",
+            "feedback": "You might get 6%, but you gave away half your ground before learning anything about what they need."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 4",
+      "title": "Say you chose B. What goes on the table?",
+      "illustrative": true,
+      "body": [
+        "You now know two things the mill cares about besides price: steady summer volume and fewer rush orders."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Stick to price only and ask for no increase at all",
+            "verdict": "risky",
+            "feedback": "With one issue, every gain for you is a loss for them. You reach a deadlock in a week."
+          },
+          {
+            "key": "B",
+            "text": "Offer a firm 12-month forecast and shift orders into summer, in return for a smaller rise",
+            "verdict": "best",
+            "feedback": "Planning ahead costs you little and is worth a lot to them. They come back at 8%."
+          },
+          {
+            "key": "C",
+            "text": "Offer to pay invoices in 10 days instead of 45",
+            "verdict": "partial",
+            "feedback": "They'd like it, but fast payment ties up your own cash. It's a real cost, not a cheap trade."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 4 of 4",
+      "title": "Say you chose B. They offer 8%. You hoped for 4%.",
+      "illustrative": true,
+      "body": [
+        "Your limit is 9%. Their offer is good, but you think there's more room. How do you move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Jump to 6% to show good faith",
+            "verdict": "risky",
+            "feedback": "A big, free step tells them you have plenty more to give. They wait for the next one."
+          },
+          {
+            "key": "B",
+            "text": "Move to 5%, but only if the price holds for 12 months",
+            "verdict": "best",
+            "feedback": "A small step with a condition attached. They accept 5% with a 12-month price hold."
+          },
+          {
+            "key": "C",
+            "text": "Say 4% is final and go quiet",
+            "verdict": "partial",
+            "feedback": "It might work, but a hard line with no reason invites a stalemate you can't afford in 60 days."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "breakdown",
+      "eyebrow": "What happened",
+      "title": "The same supplier, three different prices.",
+      "illustrative": true,
+      "body": [
+        "Your forecast and summer orders cost you some planning effort. In return you pay **$140,000 less** a year than the letter demanded, with the price locked for a year."
+      ],
+      "breakdown": [
+        {
+          "value": "$240,000",
+          "label": "The letter: +12%",
+          "detail": "What accepting would have cost",
+          "highlight": false
+        },
+        {
+          "value": "$180,000",
+          "label": "Backup mill: +9%",
+          "detail": "Your walk-away point",
+          "highlight": false
+        },
+        {
+          "value": "$100,000",
+          "label": "The deal: +5%",
+          "detail": "Held for 12 months",
+          "highlight": true
+        }
+      ],
+      "softwareNote": "The same four moves work when your biggest supplier is a cloud host or a data API. Usage forecasts and longer commitments are the summer orders of software."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "These moves have limits.",
+      "body": [
+        "Your backup quote must be real. Bluffing about an alternative can wreck trust with a supplier you'll deal with for years.",
+        "The supplier needs a margin too. Squeeze too hard and you may become the customer they serve last when supply gets tight.",
+        "And sometimes the rise is fair. If their costs truly jumped and your backup costs more, a fast, friendly yes can be the right call."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software company.",
+      "illustrative": true,
+      "body": [
+        "Your delivery-tracking app relies on a mapping data provider. At renewal, they announce a 40% price rise. Your code depends on their service, and switching would take months."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Tell them you're switching next month unless they drop it",
+            "verdict": "risky",
+            "feedback": "They likely know how deep their service sits in your code. A threat you can't carry out weakens you."
+          },
+          {
+            "key": "B",
+            "text": "Start testing an alternative, ask what's driving the rise, then offer a two-year commitment and usage forecast for a smaller increase",
+            "verdict": "best",
+            "feedback": "You build a real alternative, learn their pressure, and trade something they value. It's the same path as the steel mill."
+          },
+          {
+            "key": "C",
+            "text": "Accept and pass the full cost on to your users",
+            "verdict": "partial",
+            "feedback": "Quick and calm, but you may push users to cheaper rivals over a cost you never tested."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Prepare, listen, trade, then concede on conditions.",
+      "body": [
+        "Each decision used one idea from this unit:",
+        "**Try it today:** pick your biggest supplier. Write down your walk-away option and two things besides price that they would value."
+      ],
+      "list": [
+        "**Get a backup quote first:** negotiating from a weak position",
+        "**Name their pressure:** tactical empathy",
+        "**Add forecasts and timing:** many issues at once",
+        "**Small steps with conditions:** making concessions"
+      ],
+      "next": "Next unit · Start a new set of skills"
+    }
+  ]
+}

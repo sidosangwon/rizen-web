@@ -1,0 +1,249 @@
+{
+  "id": "ECO-04-04",
+  "unitId": "ECO-04",
+  "categoryId": "ECO",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Willingness to pay",
+  "readerTitle": "Why pricing at the average guess earns less",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (브런치 카페, 구독형 앱) + 실제 연구 경향 (가상 응답 편향) · 모든 수치는 설명용",
+  "insight": "지불 의향은 하나의 숫자가 아니라 고객마다 다른 값의 분포이고, 가격은 그 분포 위에 긋는 선이다.",
+  "misconception": "고객들이 낼 수 있다고 답한 금액의 평균을 가격으로 정하면 가장 많이 번다.",
+  "relatedLessonIds": [
+    "ECO-04-05",
+    "ECO-06-01"
+  ],
+  "sources": [
+    {
+      "text": "미시경제학의 표준 개념 (지불 의향, 수요곡선)",
+      "url": null
+    },
+    {
+      "text": "List, J. A. & Gallet, C. A. (2001). What Experimental Protocol Influence Disparities Between Actual and Hypothetical Stated Values? Environmental and Resource Economics.",
+      "url": null
+    },
+    {
+      "text": "카페와 앱의 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "브런치 고객 100명 분포(가상): 최대 $30까지 15명, $24까지 40명, $18까지 25명, $12까지 20명. 평균 지불 의향 = (15×30 + 40×24 + 25×18 + 20×12) ÷ 100 = 2,100 ÷ 100 = $21.",
+      "status": "open"
+    },
+    {
+      "note": "한 접시 변동비 $8 가정. 가격별 공헌이익: $12 → 100명 × $4 = $400, $18 → 80명 × $10 = $800, $21 → 55명 × $13 = $715, $24 → 55명 × $16 = $880, $30 → 15명 × $22 = $330. 최적은 $24.",
+      "status": "open"
+    },
+    {
+      "note": "가상 응답 편향(설문에서 말한 금액이 실제 지불보다 높게 나오는 경향)은 List & Gallet(2001) 메타분석 등에서 보고됩니다. 편향의 크기는 연구마다 다르므로 카드에는 구체적 배수를 쓰지 않았습니다. 게시 전 서지 정보를 다시 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Pricing · Numbers twist",
+      "title": "Why pricing at the average guess earns less",
+      "illustrative": true,
+      "body": [
+        "A café owner asks 100 brunch regulars what they'd pay for a new weekend set menu. The answers average $21.",
+        "So she prices it at $21. It's a sensible move, and it leaves money on the table. The average hides the number that matters."
+      ],
+      "image": {
+        "label": "Brunch plate with many different price tags floating above it",
+        "aspectRatio": "4:3",
+        "brief": "브런치 접시 하나 위로 $12, $18, $24, $30 가격표가 여러 개 떠 있고, 각 가격표 옆에 서로 다른 손님 얼굴 실루엣. 따뜻한 카페 톤. 실제 브랜드 로고 없음.",
+        "url": "assets/images/eco-04-04-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which price earns the most?",
+      "illustrative": true,
+      "body": [
+        "Of the 100 regulars, 15 would pay up to $30, 40 up to $24, 25 up to $18, and 20 up to $12. Each plate costs $8 in food and prep.",
+        "Which price leaves the most money after food costs?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "$21, the average answer",
+            "verdict": "risky",
+            "feedback": "It feels fair to everyone, but only 55 people will pay it, and you earn just $13 on each of them. Total: $715."
+          },
+          {
+            "key": "B",
+            "text": "$24",
+            "verdict": "best",
+            "feedback": "Same 55 buyers as at $21, but $3 more per plate. Total: $880. You lose nobody extra by going higher."
+          },
+          {
+            "key": "C",
+            "text": "$18, so most regulars say yes",
+            "verdict": "partial",
+            "feedback": "You serve 80 people and earn $800. More full tables, but less money and more work than $24."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "Money left after food costs, by price",
+      "illustrative": true,
+      "body": [
+        "Between $18 and $24, nobody drops out. Moving the price up to $24 is pure gain."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "100 regulars, $8 food cost per plate",
+            "rows": [
+              {
+                "label": "$12 (100 buy)",
+                "value": 400,
+                "highlight": false
+              },
+              {
+                "label": "$18 (80 buy)",
+                "value": 800,
+                "highlight": false
+              },
+              {
+                "label": "$21 (55 buy)",
+                "value": 715,
+                "highlight": false
+              },
+              {
+                "label": "$24 (55 buy)",
+                "value": 880,
+                "highlight": true
+              },
+              {
+                "label": "$30 (15 buy)",
+                "value": 330,
+                "highlight": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Willingness to pay",
+      "body": [
+        "**Willingness to pay** is the most a customer would pay for something before walking away. Every customer has their own number.",
+        "Line those numbers up from highest to lowest and you get demand. A price is just a line you draw across it: everyone above says yes, everyone below says no."
+      ],
+      "image": {
+        "label": "Staircase of customers sorted by what they'd pay, with a price line across",
+        "aspectRatio": "16:9",
+        "brief": "손님 100명을 지불 의향 순으로 계단처럼 세운 그림. $30, $24, $18, $12 네 계단. $24 높이에 가로선을 긋고, 선 위 손님은 초록, 아래 손님은 회색으로 표시.",
+        "url": "assets/images/eco-04-04-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The twist explained",
+      "title": "Gaps matter more than the average.",
+      "illustrative": true,
+      "body": [
+        "The average blends people who would never meet at the same price. Nobody in this group would pay exactly $21.",
+        "What earns money is where customers bunch up. Forty people sit at $24, so any price below that gives away dollars without winning anyone new. The best price usually sits just at the top of a big group, not in the middle of everyone."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How to find it",
+      "title": "Watch what people pay, not what they say.",
+      "body": [
+        "Asking \"what would you pay?\" is a weak guide. Research on **hypothetical bias** finds people often name higher amounts in surveys than they actually pay when real money is involved.",
+        "Better signals come from behavior: test two prices on different days, note who orders the premium option, and watch what happens after a price change."
+      ],
+      "image": {
+        "label": "Survey sheet versus a real receipt, side by side",
+        "aspectRatio": "16:9",
+        "brief": "왼쪽에 설문지(\"I'd pay $25!\"), 오른쪽에 실제 영수증($18). 둘 사이에 차이를 보여주는 물음표 대신 저울 아이콘. 단순한 플랫 일러스트.",
+        "url": "assets/images/eco-04-04-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Willingness to pay moves, and cutting people out costs something.",
+      "body": [
+        "Each person's number shifts with the situation: a nearby rival, a holiday, a bad week. Today's map can be wrong next month.",
+        "At $24, 45 regulars stop ordering the set menu. Some may leave entirely, empty tables look bad, and fewer guests means fewer coffees and pastries. Count those effects before you trust the chart."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a budgeting app.",
+      "illustrative": true,
+      "body": [
+        "Your budgeting app has thousands of free users. In a survey, the average user said they'd pay $15 a month for a premium plan.",
+        "How do you set the price?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Launch at $15, the average answer",
+            "verdict": "risky",
+            "feedback": "Quick and simple, but it trusts a stated average. Users usually pay less than they say, and the average hides where they actually bunch up."
+          },
+          {
+            "key": "B",
+            "text": "Show new signups $9, $15 or $24 at random and compare how many pay",
+            "verdict": "best",
+            "feedback": "Real money reveals real willingness to pay and shows where users cluster. It takes a few weeks and some careful handling of fairness."
+          },
+          {
+            "key": "C",
+            "text": "Run a longer, more detailed survey first",
+            "verdict": "partial",
+            "feedback": "You learn more about what users value, but you still only learn what they say, not what they pay."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A price is a line across many different numbers.",
+      "body": [
+        "Every customer carries a different maximum. Find where they bunch up, and price at the top of a big group, not at the average.",
+        "**Try it today:** for one product, sort your customers into three or four groups by what you think each would pay. Where is the biggest group?"
+      ],
+      "next": "Next · What customers keep when they'd have paid more"
+    }
+  ]
+}

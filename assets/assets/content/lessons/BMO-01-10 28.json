@@ -1,0 +1,283 @@
+{
+  "id": "BMO-01-10",
+  "unitId": "BMO-01",
+  "categoryId": "BMO",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Design a model for a coffee brand",
+  "readerTitle": "Design a business model for a new coffee brand",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (대형 식품회사 안의 신규 사업팀이 사무실용 커피 브랜드를 설계) · 모든 수치는 설명용",
+  "insight": "사업 모델은 누가 내는가, 무엇에 돈을 받는가, 어떻게 공급하는가, 얼마가 남는가라는 네 가지 답이 서로 맞물린 묶음이다.",
+  "misconception": "제품이 좋으면 돈 버는 방법은 나중에 저절로 정해진다.",
+  "relatedLessonIds": [
+    "BMO-01-02",
+    "BMO-01-05"
+  ],
+  "sources": [
+    {
+      "text": "모든 수치와 상황은 설명용 가상 예시",
+      "url": null
+    },
+    {
+      "text": "BMO-01 유닛의 표준 개념 (사용자와 지불자, 수익원, 비용 구조, 자산 경량·중량, 마진)",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "사무실 한 곳 월 계산: 요금 $400 − 원두 $150 − 머신 리스 $70 − 서비스 $40 = $140, 140 ÷ 400 = 35%. 모두 설명용 가상 수치입니다.",
+      "status": "open"
+    },
+    {
+      "note": "30% 할인: $400 × 0.7 = $280 − $260 = $20 × 40곳 = 월 $800. 10% 할인: $400 × 0.9 = $360 − $260 = $100 × 40곳 = 월 $4,000. 할인 시 사무실당 비용은 $260으로 그대로라고 가정했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "선택지 피드백의 결과(사용량 감소, 가입 수 등)는 가상 시나리오 안의 결과이며 실제 연구나 기업 데이터가 아닙니다. 모든 시나리오 카드에 illustrative 라벨을 붙였습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business models · Simulation",
+      "title": "You have one year to turn good coffee into a business.",
+      "illustrative": true,
+      "body": [
+        "You lead a five-person team inside a large food company. Leadership wants its own coffee brand. You get one year and a modest budget to prove the model.",
+        "The coffee is good. That part is done. Over the next four decisions, you design how it makes money."
+      ],
+      "image": {
+        "label": "A small team around a table with coffee bags and a whiteboard",
+        "aspectRatio": "4:3",
+        "brief": "대기업 사무실 한쪽 회의실. 다섯 명의 팀이 원두 봉투와 화이트보드 앞에 모여 있음. 화이트보드에 \"Who pays? / What do we charge for? / How do we supply it? / What's left?\" 네 줄. 실제 브랜드 로고는 쓰지 않음.",
+        "url": "assets/images/bmo-01-10-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 4",
+      "title": "Office workers love it. Who should pay?",
+      "illustrative": true,
+      "body": [
+        "Your free trial in 10 offices went well. Staff drink several cups a day and ask for more. Supermarket shelves, your other option, are crowded and expensive to get onto.",
+        "Who do you charge?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Each employee, per cup, through a payment app",
+            "verdict": "risky",
+            "feedback": "You charge the people who enjoy it, but every cup now comes with a small payment decision. In your trial offices, drinking drops and the habit fades."
+          },
+          {
+            "key": "B",
+            "text": "The employer, as a monthly fee per office",
+            "verdict": "best",
+            "feedback": "Employers already pay for perks that keep staff happy. You get one buyer and one invoice, and the drinkers never think about price."
+          },
+          {
+            "key": "C",
+            "text": "Nobody yet. Keep it free to build the brand for supermarkets",
+            "verdict": "partial",
+            "feedback": "Free builds fans, but it captures none of the value you create. The costly supermarket fight is still ahead of you."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 4",
+      "title": "Say you chose the employer. What do you charge for?",
+      "illustrative": true,
+      "body": [
+        "Each office needs a machine, beans, and someone to fix things when they break. Which pricing fits?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Sell the machine upfront, then sell beans by the bag",
+            "verdict": "partial",
+            "feedback": "Simple to explain, but the big upfront price scares small offices. Bean orders can also drift to a cheaper supplier."
+          },
+          {
+            "key": "B",
+            "text": "One monthly fee for machine, service and a set amount of beans; extra beans billed per kilo",
+            "verdict": "best",
+            "feedback": "Revenue repeats every month and grows with use. Heavy drinkers pay more instead of eating your profit."
+          },
+          {
+            "key": "C",
+            "text": "One flat monthly fee, unlimited coffee",
+            "verdict": "risky",
+            "feedback": "Easy to sell. But your thirstiest offices cost the most, and they are the ones most eager to sign up."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "Software pricing faces the same choice. A base subscription plus usage on top keeps heavy users from turning into losses, which an unlimited plan can't do."
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 4",
+      "title": "Say you chose the monthly fee. Demand is growing.",
+      "illustrative": true,
+      "body": [
+        "Fifty offices sign up in six months. Leadership hopes for hundreds, but nobody knows yet. How do you get machines and service?"
+      ],
+      "image": {
+        "label": "Coffee machines lined up in a warehouse, some still in boxes",
+        "aspectRatio": "16:9",
+        "brief": "창고 안에 사무실용 커피 머신이 줄지어 있고 절반은 아직 상자에 들어 있음. 한쪽엔 작업복 차림 기술자. 불확실한 수요를 암시하도록 빈 선반도 보이게. 실제 제조사 로고 없음.",
+        "url": "assets/images/bmo-01-10-c4.jpg"
+      },
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Buy 500 machines and hire your own technicians",
+            "verdict": "risky",
+            "feedback": "Cheapest per machine if demand arrives. If it doesn't, you carry idle machines and salaries every month."
+          },
+          {
+            "key": "B",
+            "text": "Lease machines and pay a service partner per visit",
+            "verdict": "best",
+            "feedback": "Each office costs a bit more, but costs rise only as offices sign up. You can buy later, once demand is proven."
+          },
+          {
+            "key": "C",
+            "text": "Ask the parent company to build a roastery for the brand",
+            "verdict": "partial",
+            "feedback": "Owning roasting could cut bean costs later. Today it adds a large fixed cost before the model has proven itself."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Say you chose to lease. Here's one office, one month.",
+      "illustrative": true,
+      "body": [
+        "That **$140** pays for your team's salaries and marketing first. Only what's left after that is profit."
+      ],
+      "breakdown": [
+        {
+          "value": "$400",
+          "label": "Monthly fee",
+          "detail": "What the employer pays",
+          "highlight": false
+        },
+        {
+          "value": "−$150",
+          "label": "Beans",
+          "detail": "The set monthly amount",
+          "highlight": false
+        },
+        {
+          "value": "−$70",
+          "label": "Machine lease",
+          "detail": "Paid to the leasing partner",
+          "highlight": false
+        },
+        {
+          "value": "−$40",
+          "label": "Service",
+          "detail": "Partner visits and repairs",
+          "highlight": false
+        },
+        {
+          "value": "$140",
+          "label": "Left over",
+          "detail": "35% of the fee",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Decision 4 of 4",
+      "title": "A big client wants 30% off.",
+      "illustrative": true,
+      "body": [
+        "A bank wants your coffee in 40 branch offices if you cut the fee by 30%, from $400 to $280. Your sales lead is thrilled.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Accept. Forty offices is a huge win",
+            "verdict": "risky",
+            "feedback": "Each office would leave $20 instead of $140. Forty offices add just $800 a month, and one price rise from your bean supplier wipes it out."
+          },
+          {
+            "key": "B",
+            "text": "Counter with 10% off in exchange for a two-year contract",
+            "verdict": "best",
+            "feedback": "At $360, each office leaves $100, or $4,000 a month across 40. The commitment also makes buying your own machines safer later."
+          },
+          {
+            "key": "C",
+            "text": "Decline. Never discount",
+            "verdict": "partial",
+            "feedback": "Your margin stays intact, but you lose a client that could speed your growth. Some discount can be worth it for volume and commitment."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The best answers depend on the setup.",
+      "body": [
+        "This story assumed uncertain demand and a tight deadline. With five-year contracts in hand, owning machines might be smarter. Where staff already buy their own coffee, charging per cup could work.",
+        "Teams inside big companies face one more trap. The parent's spare factory, trucks or sales staff can look free. They aren't. **Count them as costs**, or your model will look better than it really is."
+      ],
+      "image": {
+        "label": "A scale weighing 'borrowed from parent company' against 'real costs'",
+        "aspectRatio": "16:9",
+        "brief": "저울 그림. 한쪽 접시에 \"Borrowed from parent: trucks, warehouse, sales team\" 아이콘, 다른 쪽에 \"Real costs\" 라벨의 동전 더미. 공짜처럼 보이는 자원도 무게가 있다는 느낌으로 저울이 균형을 이루게.",
+        "url": "assets/images/bmo-01-10-c7.jpg"
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A business model is four answers that fit together.",
+      "body": [
+        "Each decision you made is one idea from this unit:"
+      ],
+      "list": [
+        "**Who pays:** the employer, not the drinker *(who uses vs who pays)*",
+        "**What you charge for:** a monthly fee plus usage *(revenue streams)*",
+        "**How you supply it:** lease until demand is proven *(cost structure, asset-light vs asset-heavy)*",
+        "**What's left:** $140 per office, so 30% off nearly erases it *(margins)*"
+      ],
+      "callout": "**Try it today:** answer these four questions for your own business in one line each. Circle the answer you're least sure of.",
+      "next": "Next · The oldest model: selling products"
+    }
+  ]
+}

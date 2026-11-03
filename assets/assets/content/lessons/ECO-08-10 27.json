@@ -1,0 +1,274 @@
+{
+  "id": "ECO-08-10",
+  "unitId": "ECO-08",
+  "categoryId": "ECO",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Raise prices by 20%",
+  "readerTitle": "Your bakery needs 20% more. Where does it come from?",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.2,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (동네 베이커리와 도매 거래처) · 모든 수치는 설명용",
+  "insight": "가격 인상은 하나의 숫자가 아니라 연속된 결정이다. 어디를 올릴지, 어떻게 알릴지, 무엇을 몰래 하지 않을지, 경쟁자에게 어떻게 반응할지를 각각 정해야 한다.",
+  "misconception": "가격을 20% 올려야 하면 모든 품목을 똑같이 20% 올리고 바로 적용하면 된다.",
+  "relatedLessonIds": [
+    "ECO-08-01",
+    "ECO-08-05"
+  ],
+  "sources": [
+    {
+      "text": "모든 수치와 상황은 설명용 가상 예시",
+      "url": null
+    },
+    {
+      "text": "이 유닛의 개념 레슨 (가격 인상, 공정성 인식, 슈링크플레이션, 가격 전쟁)을 종합한 시뮬레이션",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "크루아상 가격: $3.50 × 1.20 = $4.20 (정확히 20% 인상). 계산을 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "결과 카드: 평균 가격 +18%, 판매 수량 −4% → 매출 1.18 × 0.96 = 1.1328, 약 +13%. 모두 가상 수치입니다.",
+      "status": "open"
+    },
+    {
+      "note": "'원가 상승 때문이라고 설명하면 인상이 더 공정하게 받아들여진다'는 내용은 공정성 인식 연구(예: Kahneman, Knetsch & Thaler 1986)의 일반적 결론에 기댄 것입니다. 카드에는 구체적 수치나 인용 없이 일반적으로만 적었습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Pricing · Simulation",
+      "title": "Your bakery needs 20% more. Where does it come from?",
+      "illustrative": true,
+      "body": [
+        "You run a neighborhood bakery. You sell bread, pastries and coffee over the counter, and you supply loaves to 12 local delis and grocers.",
+        "Butter, flour and energy have all gone up. Your prices haven't moved in two years. Your accountant's verdict: to get back to last year's profit, prices need to rise **about 20%**.",
+        "Four decisions follow. Each one builds on the last."
+      ],
+      "image": {
+        "label": "Bakery counter with a chalkboard price list",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 일러스트 스타일. 동네 베이커리 카운터, 빵 바구니와 커피 머신, 뒤쪽 칠판 메뉴판. 주인이 계산기와 영수증 더미를 앞에 두고 고민하는 모습. 실제 브랜드 로고 없음.",
+        "url": "assets/images/eco-08-10-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 4",
+      "title": "Where does the 20% go?",
+      "illustrative": true,
+      "body": [
+        "Your regulars know the price of a plain loaf and a filter coffee by heart. Few could tell you what the lemon tart or the seeded rye costs."
+      ],
+      "image": {
+        "label": "Price board with some prices changed more than others",
+        "aspectRatio": "16:9",
+        "brief": "칠판 메뉴판 클로즈업. \"Plain loaf\", \"Filter coffee\" 옆에는 작은 화살표, \"Lemon tart\", \"Seeded rye\" 옆에는 큰 화살표. 품목마다 인상 폭이 다르다는 느낌.",
+        "url": "assets/images/eco-08-10-c2.jpg"
+      },
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Raise everything by 20%",
+            "verdict": "risky",
+            "feedback": "Simple, but the biggest jumps land on the prices people remember. The plain loaf going up 20% is the thing regulars notice and talk about."
+          },
+          {
+            "key": "B",
+            "text": "Raise the plain loaf and coffee a little, and the less-compared items more, so the average reaches about 20%",
+            "verdict": "best",
+            "feedback": "You get close to the money you need while protecting the prices customers use to judge you. The shop still feels fair."
+          },
+          {
+            "key": "C",
+            "text": "Keep prices and switch to cheaper butter",
+            "verdict": "risky",
+            "feedback": "It saves cost without a price tag change, but it changes the taste regulars come for. A quality drop is harder to undo than a price rise."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 4",
+      "title": "Telling the 12 shops",
+      "illustrative": true,
+      "body": [
+        "Say you chose B. The counter prices are set. Now the wholesale side: delis and grocers that put your loaves on their shelves and set their own prices on top.",
+        "How do you bring them the new price?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Put the new price on next week's invoice",
+            "verdict": "risky",
+            "feedback": "Fast, but a surprise on an invoice feels like a trick. The shops can't adjust their own shelf prices, and some will start calling other bakeries."
+          },
+          {
+            "key": "B",
+            "text": "Call each one, give six weeks' notice and explain what your costs did",
+            "verdict": "best",
+            "feedback": "You give up six weeks of higher prices. In return, the shops can plan, and a rise tied to a real cost feels fair rather than greedy."
+          },
+          {
+            "key": "C",
+            "text": "Leave wholesale prices alone so you don't lose accounts",
+            "verdict": "partial",
+            "feedback": "You keep every shop, but wholesale quietly becomes the line that loses money. The rest of the bakery ends up paying for it."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 4",
+      "title": "The croissant shortcut",
+      "illustrative": true,
+      "body": [
+        "Say you chose B. All 12 shops accepted, with some grumbling. Your baker has an idea for the $3.50 croissant: make it 15% smaller and leave the price alone. \"Nobody weighs a croissant.\""
+      ],
+      "image": {
+        "label": "Two croissants, one noticeably smaller",
+        "aspectRatio": "16:9",
+        "brief": "나무 도마 위에 크루아상 두 개. 왼쪽은 크고 오른쪽은 조금 작음. 둘 다 \"$3.50\" 가격표. 작은 쪽에 물음표 하나.",
+        "url": "assets/images/eco-08-10-c4.jpg"
+      },
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Shrink it quietly",
+            "verdict": "risky",
+            "feedback": "No price shock today. But regulars who eat one every morning will notice, and a hidden cut feels worse than an honest rise."
+          },
+          {
+            "key": "B",
+            "text": "Keep the size, raise it to $4.20, and show the new price clearly",
+            "verdict": "best",
+            "feedback": "Some customers will wince. But they know exactly what they're paying for, and the croissant still earns its place."
+          },
+          {
+            "key": "C",
+            "text": "Keep it at $3.50 and add a mini croissant for $2.50",
+            "verdict": "partial",
+            "feedback": "An open, smaller option is honest. But your best-seller still loses money on every sale, so the problem stays."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 4 of 4",
+      "title": "The café down the street",
+      "illustrative": true,
+      "body": [
+        "Say you chose B. Two weeks in, a café down the street puts up a sign: \"Coffee $2 all week.\" Three regulars mention it at your counter."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Match it: coffee at $2 this week",
+            "verdict": "risky",
+            "feedback": "You win the week and lose the raise. Customers learn to wait for deals, and the café may cut again."
+          },
+          {
+            "key": "B",
+            "text": "Hold your prices and say nothing",
+            "verdict": "partial",
+            "feedback": "Holding is the right call, since their sale ends and your costs don't. But silence lets the comparison grow."
+          },
+          {
+            "key": "C",
+            "text": "Hold your prices, and give regulars a stamp card: tenth coffee free",
+            "verdict": "best",
+            "feedback": "Your listed prices stay put, and loyal customers get a reason to stay that a one-week sale can't match."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "breakdown",
+      "eyebrow": "Three months later",
+      "title": "Say you chose C. Here's where you landed.",
+      "illustrative": true,
+      "body": [
+        "Fewer items sold also means less butter and flour bought, so profit is close to last year's level. The accountant's 20% was the target. The four decisions decided how much of it you actually kept."
+      ],
+      "breakdown": [
+        {
+          "value": "+18%",
+          "label": "Average price",
+          "detail": "Plain loaf and coffee up a little, specialty items up more",
+          "highlight": false
+        },
+        {
+          "value": "−4%",
+          "label": "Items sold",
+          "detail": "A few customers left, most stayed",
+          "highlight": false
+        },
+        {
+          "value": "+13%",
+          "label": "Revenue",
+          "detail": "1.18 × 0.96 ≈ 1.13",
+          "highlight": true
+        },
+        {
+          "value": "12 of 12",
+          "label": "Shops kept",
+          "detail": "Notice and a clear reason helped",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "This path worked under certain conditions.",
+      "body": [
+        "Your costs rose for every bakery in town, so rivals faced the same pressure. If only *your* costs had risen, customers would have had cheaper places to go, and a 20% rise could cost far more volume.",
+        "Explaining a rise by costs also creates a promise. If butter prices fall and yours don't, customers may remember the reason you gave."
+      ],
+      "softwareNote": "Software companies face the same four choices: which plans to raise, how much notice to give existing customers, whether to quietly remove features instead of raising the price, and whether to match a rival's discount."
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A price rise is four decisions, not one number.",
+      "list": [
+        "**Decision 1 · Raising prices:** raise less where customers compare, more where they don't",
+        "**Decision 2 · Perceived fairness:** notice and a real reason make a rise feel fair",
+        "**Decision 3 · Shrinkflation:** an honest price beats a hidden cut",
+        "**Decision 4 · Price wars:** reward loyalty instead of matching a rival's sale"
+      ],
+      "callout": "**Try it today:** list your five best-sellers. Mark the two prices your customers remember. Those are the ones to raise least.",
+      "next": "Next · Inflation: why every price seems to move at once"
+    }
+  ]
+}

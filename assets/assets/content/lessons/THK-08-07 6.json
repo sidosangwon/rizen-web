@@ -1,0 +1,248 @@
+{
+  "id": "THK-08-07",
+  "unitId": "THK-08",
+  "categoryId": "THK",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "Did the campaign cause the sales?",
+  "readerTitle": "The flyer went out, and sales jumped. Was it the flyer?",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.1,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (철물점 체인, 포장재 제조사) · 모든 수치는 설명용",
+  "insight": "캠페인은 보통 잘 팔릴 시기에 맞춰 나가기 때문에, 매출 상승과 캠페인이 함께 움직이는 것은 처음부터 정해진 일이다. 효과를 알려면 캠페인을 받지 않은 비교 집단이 필요하다.",
+  "misconception": "캠페인 직후 매출이 올랐으면 캠페인 덕분이다. 작년보다 더 올랐으면 그 차이만큼이 캠페인 효과다.",
+  "relatedLessonIds": [
+    "THK-08-01",
+    "THK-08-06"
+  ],
+  "sources": [
+    {
+      "text": "통계와 실험 설계의 표준 개념 (상관과 인과, 교란 변수, 무작위 대조군·홀드아웃)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 설명용 가상 수치입니다. 계산: 올해 3월→4월 +22%, 작년 같은 기간(전단지 없음) +18%, 차이 22 − 18 = 4%포인트. 카드에서는 '4 points'로 적어 상대 비율과 혼동하지 않게 했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "포장재 사례: 유통사 300곳 중 무작위 150곳에만 리베이트 제안. 수치는 가상이며 리베이트 비율(5%)도 설명용입니다.",
+      "status": "open"
+    },
+    {
+      "note": "이 레슨은 apply 레슨으로 새 개념을 도입하지 않습니다. 사용한 개념: THK-08-01(상관≠인과), THK-08-06(통제 실험). 선택 편향(THK-08-04)은 설문 레슨(THK-08-08)과 겹치지 않도록 언급만 피했습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking with data · Everyday scene",
+      "title": "The flyer went out, and sales jumped. Was it the flyer?",
+      "illustrative": true,
+      "body": [
+        "You run a chain of eight hardware stores. In early April you mail a discount flyer to every neighborhood you serve.",
+        "April sales come in 22% higher than March. Your marketing lead wants to double the flyer budget for May. Before you sign, it's worth asking what else happens in April."
+      ],
+      "image": {
+        "label": "Hardware store shelves with garden tools and a flyer on the counter",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 동네 철물점 계산대 위에 할인 전단지 한 장, 뒤편 선반에는 봄 원예용품(화분, 호스, 씨앗 봉투)이 가득. 창밖에 꽃이 핀 나무. 실제 브랜드 로고 없음.",
+        "url": "assets/images/thk-08-07-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What's your first read on the 22%?",
+      "illustrative": true,
+      "body": [
+        "The flyer cost real money, and the team is excited. You want to know how much of the jump the flyer actually caused.",
+        "What do you do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Credit the flyer. Sales rose right after it went out",
+            "verdict": "risky",
+            "feedback": "Fast and motivating, but timing alone only shows the two moved together. That's **correlation, not causation**: spring may have lifted sales with or without the flyer."
+          },
+          {
+            "key": "B",
+            "text": "Compare with last year's March-to-April change, when there was no flyer",
+            "verdict": "best",
+            "feedback": "This separates the season from the flyer. It's still not proof, since other things changed since last year, but it removes the biggest rival explanation."
+          },
+          {
+            "key": "C",
+            "text": "Ask customers at checkout whether they saw the flyer",
+            "verdict": "partial",
+            "feedback": "You learn who noticed it, not who came because of it. Loyal regulars read flyers and shop in spring anyway, so this is still a correlation."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Most of the jump was already coming.",
+      "illustrative": true,
+      "body": [
+        "Spring is gardening and repair season. Last year April beat March by 18% with no flyer at all. That leaves **4 points** the flyer *might* explain, and even those could be weather or a competitor's closure."
+      ],
+      "breakdown": [
+        {
+          "value": "+22%",
+          "label": "This April",
+          "detail": "March to April, flyer mailed",
+          "highlight": false
+        },
+        {
+          "value": "+18%",
+          "label": "Last April",
+          "detail": "March to April, no flyer",
+          "highlight": false
+        },
+        {
+          "value": "+4 pts",
+          "label": "Left to explain",
+          "detail": "The most the flyer could take credit for",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept at work",
+      "title": "The season caused both.",
+      "body": [
+        "Here's the trap. You mailed the flyer in April *because* April is busy. The same thing, a rising season, pushed both the campaign and the sales.",
+        "That is **correlation is not causation** in its most common business form. Campaigns are timed for good weeks, so they almost always look like they worked.",
+        "Comparing to last year helps. But a fair answer needs stores that went through the same April without the flyer."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Concept at work",
+      "title": "Next time, hold some stores back.",
+      "illustrative": true,
+      "body": [
+        "For May, mail the flyer around four stores and skip the other four. Same weeks, same weather, same economy. The only planned difference is the flyer.",
+        "This is a **controlled experiment**. The group without the campaign, often called a *holdout*, shows what would have happened anyway. The gap between the groups is the flyer's effect."
+      ],
+      "image": {
+        "label": "Eight stores split into two groups, one with flyers",
+        "aspectRatio": "16:9",
+        "brief": "지도 위 상점 아이콘 8개를 두 줄로 나눔. 위쪽 4개 주변에만 전단지 아이콘, 아래쪽 4개는 비어 있음. 각 그룹 옆에 막대그래프, 두 막대 사이 간격에 'Flyer effect' 라벨.",
+        "url": null
+      },
+      "softwareNote": "Digital teams do this with a holdout: a random slice of users, often 5–10%, never gets the email or push campaign. Without it, a campaign sent in a busy week looks like a success every time."
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which four stores get the flyer?",
+      "illustrative": true,
+      "body": [
+        "Your stores differ in size and neighborhood. How do you pick the four that get the May flyer?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The four strongest stores, where the flyer will have the most impact",
+            "verdict": "risky",
+            "feedback": "Those stores would outsell the others anyway, so the test credits the flyer for their strength. The groups must start alike, or the **experiment** measures the stores, not the flyer."
+          },
+          {
+            "key": "B",
+            "text": "Pair stores of similar size, then flip a coin within each pair",
+            "verdict": "best",
+            "feedback": "Matching keeps the groups alike, and the coin keeps your hopes out of the choice. It costs a little planning and buys a result you can trust."
+          },
+          {
+            "key": "C",
+            "text": "Let managers volunteer their stores",
+            "verdict": "partial",
+            "feedback": "Easy to run and builds buy-in. But eager managers may also push harder on the floor, so their stores could win for reasons other than the flyer."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Holdouts have costs and limits.",
+      "body": [
+        "Holding back means giving up some sales in the holdout stores if the flyer does work. Keep the test short and the holdout as small as still gives a clear answer.",
+        "Eight stores is a small test. One month may show noise, not effect, so repeat it before betting big. And some effects arrive late: a flyer can bring a customer back in June."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a packaging manufacturer.",
+      "illustrative": true,
+      "body": [
+        "You make cardboard boxes and sell through 300 distributors. Last autumn you offered every distributor a 5% volume rebate, and fourth-quarter orders hit a record.",
+        "Sales wants to repeat the rebate this autumn. How do you find out if it actually works?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Run it for everyone again and compare with last year's record",
+            "verdict": "partial",
+            "feedback": "Better than nothing, but autumn is peak shipping season for boxes. A year-on-year comparison still mixes the rebate with the economy and your customers' own growth."
+          },
+          {
+            "key": "B",
+            "text": "Offer it to a random 150 distributors, compare orders with the other 150",
+            "verdict": "best",
+            "feedback": "This is a **controlled experiment**: same season, same market, one difference. The cost is managing distributors who notice they weren't offered the deal."
+          },
+          {
+            "key": "C",
+            "text": "Offer it only to the distributors who ordered most last autumn",
+            "verdict": "risky",
+            "feedback": "They're your biggest buyers in peak season anyway. Their orders will rise, and you'll mistake their size for the rebate's effect: **correlation, not causation**."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A campaign's effect is the gap to a group that didn't get it.",
+      "body": [
+        "**Concepts used:** *Correlation is not causation* (campaigns are timed for busy weeks, so sales rise with them anyway) and *Controlled experiments* (a fair holdout shows what would have happened without the campaign).",
+        "**Try it today:** pick your last promotion. Write down what else changed in the same weeks. Then plan which customers or locations you'd hold back next time."
+      ],
+      "next": "Next · Read a customer survey critically"
+    }
+  ]
+}

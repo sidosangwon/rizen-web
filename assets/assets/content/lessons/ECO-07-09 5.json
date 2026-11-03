@@ -1,0 +1,227 @@
+{
+  "id": "ECO-07-09",
+  "unitId": "ECO-07",
+  "categoryId": "ECO",
+  "order": 9,
+  "type": "case",
+  "conceptTag": "American Airlines invents yield management",
+  "readerTitle": "How American Airlines beat a cheaper rival by selling the same seat at different prices",
+  "format": "company_story",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "real_company",
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (American Airlines, People Express, 1980년대 중반) + 실제 연구 (Smith 외 1992) + 가상 적용 (사내 법무팀, 냉난방 수리업체)",
+  "insight": "정원이 정해진 사업에서 핵심 결정은 가격표가 아니라 각 가격에 자리를 몇 개 내줄지이다.",
+  "misconception": "싼 경쟁자를 이기려면 모든 상품의 가격을 똑같이 내려야 한다. 빈자리를 채우는 할인은 무조건 이득이다.",
+  "relatedLessonIds": [
+    "ECO-07-03",
+    "ECO-07-04"
+  ],
+  "sources": [
+    {
+      "text": "Smith, B. C., Leimkuhler, J. F., & Darrow, R. M. (1992). Yield Management at American Airlines. Interfaces, 22(1), 8–31. (American의 수익관리 시스템과 3년간 약 14억 달러 효과 추정)",
+      "url": null
+    },
+    {
+      "text": "Talluri, K. T., & van Ryzin, G. J. (2004). The Theory and Practice of Revenue Management. Springer. 1장 역사 부분 (People Express와 Ultimate Super Saver 운임)",
+      "url": null
+    },
+    {
+      "text": "Cross, R. G. (1997). Revenue Management: Hard-Core Tactics for Market Domination. Broadway Books. (People Express 몰락과 American의 대응)",
+      "url": null
+    },
+    {
+      "text": "1986년 Texas Air의 People Express 인수 관련 당시 보도 (예: The New York Times, 1986년 9월)",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "American의 Ultimate Super Saver 운임 도입 시점을 1985년 1월로 적었습니다. Talluri & van Ryzin(2004)과 Cross(1997)로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "할인 운임 조건(사전 구매, 환불 불가, 최소 체류)은 일반적인 표현으로만 적었습니다. 사전 구매 일수 등 정확한 조건은 자료마다 다를 수 있어 숫자를 넣지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "People Express는 1981년 운항을 시작했고 1986년 Texas Air에 인수되었습니다(이후 Continental에 통합). 인수 연도를 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "\"3년간 약 14억 달러\" 효과는 Smith 외(1992) Interfaces 논문 초록에 나오는 American 자체 추정치입니다. 원문 표현(기간, 추정 방식)을 게시 전에 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Donald Burr의 유명한 회고 발언은 정확한 인용을 확인하기 어려워 넣지 않았습니다. 사내 법무팀과 수리업체 사례는 모두 가상입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Pricing · Company story",
+      "title": "The cheapest airline lost. The smarter one won.",
+      "body": [
+        "In the early 1980s, a young airline called People Express flew with famously low, simple fares. Travelers loved it. Bigger airlines looked slow and expensive next to it.",
+        "American Airlines didn't win by being cheaper on every seat. It won by deciding, flight by flight, *how many* seats to sell cheap."
+      ],
+      "image": {
+        "label": "Airplane cabin with seats in two colors",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 비행기 객실을 위에서 내려다본 모습. 좌석 일부는 노란색(할인), 일부는 파란색(정가). 실제 항공사 로고와 도장은 쓰지 않음.",
+        "url": "assets/images/eco-07-09-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "It's 1984. A rival is undercutting you.",
+      "body": [
+        "You run a big airline. A low-cost rival sells seats on your routes for far less than your standard fare. Many of your flights still leave with empty seats. But your most valuable customers, business travelers, book late and pay full price.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Cut fares on every seat to match the rival",
+            "verdict": "risky",
+            "feedback": "You win back bargain hunters, but business travelers who would have paid full fare now pay less too. Your costs are higher than the rival's, so this race is hard to win."
+          },
+          {
+            "key": "B",
+            "text": "Keep full fares and compete on service",
+            "verdict": "partial",
+            "feedback": "You protect your best customers' fares. But the empty seats keep flying empty, and price-sensitive travelers keep leaving."
+          },
+          {
+            "key": "C",
+            "text": "Match the low fare, but only on a limited number of seats per flight, with rules attached",
+            "verdict": "best",
+            "feedback": "You fill seats that would fly empty without giving full-fare travelers a discount. It works only if you can predict demand flight by flight."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "Cheap seats, but only some of them.",
+      "body": [
+        "In January 1985, American launched **Ultimate Super Saver** fares, priced to match or beat People Express. Two twists made them different.",
+        "First, only a limited number of seats on each flight got the low fare, set using booking data from American's computer reservation system. Second, the cheap fares came with rules: book well ahead, no refunds, minimum stays. Business travelers, who book late and change plans, still paid full fare.",
+        "People Express couldn't respond flight by flight. Its losses grew, and in 1986 it was sold to Texas Air."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Yield management",
+      "body": [
+        "**Yield management**, now usually called revenue management, means deciding how much of a fixed, perishable capacity to sell at each price, and to whom.",
+        "An empty seat after takeoff is worth nothing. So the goal is to sell seats that would go empty at a low price, while *protecting* seats for the customers who will pay more later."
+      ],
+      "image": {
+        "label": "Seats on one flight split into price buckets",
+        "aspectRatio": "16:9",
+        "brief": "한 항공편의 좌석 100개를 막대 하나로 표현하고 세 구간으로 나눔. \"Full fare, held for late bookers\", \"Mid fare\", \"Low fare, limited\". 시간 축(출발 60일 전 → 출발일)에 따라 저가 구간이 줄어드는 모습. 로고 없음.",
+        "url": "assets/images/eco-07-09-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Four moves behind every flight.",
+      "body": [
+        "American's system repeated a few steps for every flight, every day:"
+      ],
+      "list": [
+        "**Forecast:** how many full-fare travelers will book late?",
+        "**Protect:** hold back that many seats from the discount",
+        "**Fence:** add rules that low-fare buyers accept and late buyers won't",
+        "**Adjust:** open or close cheap seats as real bookings come in"
+      ],
+      "callout": "In a 1992 paper, American's team estimated these systems added about $1.4 billion in revenue over three years."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond airlines",
+      "title": "A legal team with a fixed number of hours.",
+      "illustrative": true,
+      "body": [
+        "A company's in-house legal team has about 300 hours a month. Routine contract reviews can wait a week. Urgent deal reviews can't, and a delay costs the business far more.",
+        "If the team fills its calendar first-come, first-served, routine work crowds out the urgent deals. So it protects some hours each week for rush requests. If those hours go unused by Thursday, they get released to the routine queue."
+      ],
+      "softwareNote": "Cloud providers do something similar: spare server capacity is sold cheaply as interruptible \"spot\" capacity, while customers who need guaranteed capacity pay more."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "It only works under certain conditions.",
+      "body": [
+        "Yield management fits when capacity is fixed, unsold units expire, and the extra cost of serving one more customer is low. It also needs fences that really separate customers. If business travelers could easily buy the cheap seats, the scheme leaks.",
+        "Forecasts can go wrong both ways. Protect too many seats and they fly empty. Protect too few and you turn away your best customers. And frequent price differences can feel unfair to customers who notice."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a heating repair company.",
+      "illustrative": true,
+      "body": [
+        "You have six technicians. In winter, same-day emergency calls pay a premium and come in unpredictably. A property manager offers a year-round contract for routine maintenance at a discount, enough to fill every slot on most days.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Sign it and fill every slot. Booked work beats empty hours",
+            "verdict": "risky",
+            "feedback": "Your calendar is full, but on cold days you'd turn away emergency calls worth far more. You've sold your best capacity at the lowest price."
+          },
+          {
+            "key": "B",
+            "text": "Sign it for a set number of slots booked ahead, and keep some capacity open each day for emergencies",
+            "verdict": "best",
+            "feedback": "You fill quiet hours at a fair price and protect room for high-value calls. It needs a rough forecast of how many emergencies to expect."
+          },
+          {
+            "key": "C",
+            "text": "Turn it down to keep everything open for emergencies",
+            "verdict": "partial",
+            "feedback": "You'll never miss an emergency, but in quiet weeks technicians sit idle. Those hours can't be sold later."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Don't just set prices. Decide how much to sell at each one.",
+      "body": [
+        "When capacity is fixed and expires, sell what would go unused cheaply, protect the rest for those who pay more, and use rules to keep the two apart.",
+        "**Try it today:** pick your busiest week. How much capacity went to your lowest-paying work, and what did it crowd out?"
+      ],
+      "next": "Next · Design three plans"
+    }
+  ]
+}

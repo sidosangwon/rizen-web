@@ -1,0 +1,261 @@
+{
+  "id": "OPS-05-07",
+  "unitId": "OPS-05",
+  "categoryId": "OPS",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "Open a new store",
+  "readerTitle": "Opening day is set by one chain of tasks",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.2,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (소매점 2호점 오픈, 지역 물류센터 이전) · 모든 일정과 수치는 설명용",
+  "insight": "새 매장 오픈 날짜는 할 일 목록 전체가 아니라 서로 이어진 한 줄의 작업이 정한다. 위험은 큰 오픈 하루에 몰지 말고 작은 단계로 나눠 일찍 드러낸다.",
+  "misconception": "늦어진 일은 다 똑같이 급하고, 오픈은 첫날 한 번에 크게 해야 한다.",
+  "relatedLessonIds": [
+    "OPS-05-03",
+    "OPS-05-05"
+  ],
+  "sources": [
+    {
+      "text": "프로젝트 관리의 표준 개념 (주공정 경로, 여유 시간, 단계적 출시)",
+      "url": null
+    },
+    {
+      "text": "모든 일정과 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "주공정 일정 계산: 인테리어 공사 1~4주, 전기 검사 5주, 소방 점검 6주, 상품 입고·진열 7~8주, 9주 차 첫날 오픈 = 총 8주. 공사가 1주 늦으면 뒤 작업이 모두 밀려 10주 차 오픈이 됩니다.",
+      "status": "open"
+    },
+    {
+      "note": "여유 시간 계산: 선반은 4주 차 말 도착 예정, 7주 차 진열에 필요하므로 여유 2주. 2주 늦어도 6주 차 말 도착으로 오픈 날짜에 영향 없음. 직원 채용은 대체 채용에 약 3주, 8주 차 교육 전까지 완료 가능.",
+      "status": "open"
+    },
+    {
+      "note": "소방 점검 예약 기간, 검사 절차는 나라와 지역마다 다릅니다. 카드에는 특정 법규가 아닌 일반적인 예시로만 썼습니다.",
+      "status": "open"
+    },
+    {
+      "note": "물류센터 사례: 컨베이어 설치가 2주 늦어지는 상황은 가상 예시입니다. 수작업 피킹으로 한 노선 먼저 시작하면 첫 단계가 컨베이어에 묶이지 않는다는 논리만 설명합니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Projects · Everyday scene",
+      "title": "Opening day is set by one chain of tasks",
+      "illustrative": true,
+      "body": [
+        "Maya runs a successful home-goods shop. She has signed a lease for a second store and announced the opening: eight weeks from today.",
+        "Her task list has 40 items, from paint colors to the fire inspection. Three weeks in, some tasks start running late. They don't all matter equally."
+      ],
+      "image": {
+        "label": "Empty shop under renovation with a long task list on the wall",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 공사 중인 빈 매장, 벽에 붙은 긴 할 일 목록 종이. 창문에 \"Opening soon\" 표지. 실제 브랜드 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Three things slip in one week.",
+      "illustrative": true,
+      "body": [
+        "The builder says the fit-out will finish a week late. The shelving supplier says delivery is two weeks late. One new hire quits before starting.",
+        "Shelves aren't needed until setup in week 7. Staff training is in week 8. Which problem threatens opening day?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The shelving, because it's the longest delay",
+            "verdict": "risky",
+            "feedback": "Two weeks sounds worst, but the shelves had two weeks of spare time. They still arrive before setup. Spending energy here leaves the real threat alone."
+          },
+          {
+            "key": "B",
+            "text": "The fit-out, because the inspections can't start until it's done",
+            "verdict": "best",
+            "feedback": "This is the **critical path** at work. Electrical checks, the fire inspection and setup all wait on the builder, so one lost week moves opening day by one week."
+          },
+          {
+            "key": "C",
+            "text": "The new hire, because trained staff are hard to find",
+            "verdict": "partial",
+            "feedback": "Worth acting on soon, but a replacement can be hired and trained in the five weeks left. It only becomes urgent if that spare time runs out."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The chain",
+      "title": "Four tasks that wait on each other.",
+      "illustrative": true,
+      "body": [
+        "Each task starts only when the one before it ends. Together they fill all eight weeks, with no spare time. Shelving and hiring run alongside and have room to slip."
+      ],
+      "breakdown": [
+        {
+          "value": "Weeks 1–4",
+          "label": "Fit-out",
+          "detail": "Walls, floors, lighting",
+          "highlight": true
+        },
+        {
+          "value": "Week 5",
+          "label": "Electrical sign-off",
+          "detail": "Needs finished walls",
+          "highlight": false
+        },
+        {
+          "value": "Week 6",
+          "label": "Fire inspection",
+          "detail": "Booked ahead, needs sign-off",
+          "highlight": false
+        },
+        {
+          "value": "Weeks 7–8",
+          "label": "Stock and setup",
+          "detail": "Needs a passed inspection",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept at work",
+      "title": "Protect the longest chain first.",
+      "body": [
+        "The **critical path** is the longest chain of tasks that depend on each other. It sets the earliest possible finish date.",
+        "For Maya, that means calling the builder today. Can a second crew work weekends? Can she book the inspector for the earliest slot after sign-off? Each day saved on the chain is a day saved on opening.",
+        "Then she checks the chain again every week, because a side task that slips too far can become the new critical path."
+      ],
+      "image": {
+        "label": "Timeline with one highlighted chain and shorter side bars",
+        "aspectRatio": "16:9",
+        "brief": "간트 차트 스타일 타임라인. 공사 → 전기 검사 → 소방 점검 → 진열로 이어지는 한 줄은 진한 색으로 강조. 선반 배송, 채용은 옅은 색 막대로 옆에 두고 뒤쪽에 \"spare time\" 빈 칸 표시.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How should the store open?",
+      "illustrative": true,
+      "body": [
+        "The inspection passes. Maya has a local newspaper ad ready and a ribbon-cutting planned. The till system and staff are brand new.",
+        "How does she open?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Full grand opening on day one, with ads and a crowd",
+            "verdict": "risky",
+            "feedback": "Maximum buzz, but every untested part meets its biggest test at once. A frozen till or confused staff happens in front of the most people."
+          },
+          {
+            "key": "B",
+            "text": "A quiet week for neighbors and regulars, then the grand opening",
+            "verdict": "best",
+            "feedback": "This is **small steps vs big bang**. Problems show up while the stakes are small, and she fixes them before the crowd arrives."
+          },
+          {
+            "key": "C",
+            "text": "Wait to open until everything feels perfect",
+            "verdict": "partial",
+            "feedback": "Fewer surprises, but rent is already running, and some problems only appear with real customers. Waiting doesn't find them."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "What the quiet week finds",
+      "title": "Cheap mistakes instead of public ones.",
+      "illustrative": true,
+      "body": [
+        "In the soft-opening week, the card reader drops connection near the back wall. The checkout line blocks the front door. One product nobody can find sells out on day two.",
+        "Each fix takes an afternoon. On grand-opening day with a crowd, each would have been a bad first impression."
+      ],
+      "softwareNote": "Software teams do the same with a beta or a release to 5% of users first. Bugs reach a few people who expect them, not every customer at once."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Small steps and short paths have costs.",
+      "body": [
+        "Some steps can't be split. An inspection passes or it doesn't, so it stays on the chain no matter what.",
+        "A soft opening costs a week of rent with fewer sales, and early visitors still form opinions. Keep it short and invite people who will forgive rough edges.",
+        "And speeding up the critical path often costs money, like weekend crews. Pay it only when the later date costs more."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a new warehouse.",
+      "illustrative": true,
+      "body": [
+        "A food distributor is moving to a bigger regional warehouse. The plan: switch all 12 delivery routes the day the new conveyor system is finished. The conveyor supplier now says it's two weeks late.",
+        "What should the operations manager do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Push the full switch back two weeks and keep the plan",
+            "verdict": "partial",
+            "feedback": "Safe and simple, but it keeps the conveyor on the critical path and still puts all 12 routes at risk on one day."
+          },
+          {
+            "key": "B",
+            "text": "Start one route now with hand picking, add routes as the conveyor comes online",
+            "verdict": "best",
+            "feedback": "Moving in **small steps** takes the conveyor off the **critical path** for the first stage. The team learns the new building on one route before the rest arrive."
+          },
+          {
+            "key": "C",
+            "text": "Switch all routes on the original date with hand picking",
+            "verdict": "risky",
+            "feedback": "The date holds, but hand picking for 12 routes in an unfamiliar building is a big bang with no test run. Late deliveries hit every customer at once."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "A big system migration works the same way: move one team or one customer group first, while the rest stays on the old system."
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Guard the chain, then open in steps.",
+      "body": [
+        "Two ideas from this unit did the work. The **critical path** showed which delay moves opening day. **Small steps vs big bang** turned launch day into a series of cheap tests.",
+        "**Try it today:** take your next project and circle the tasks that must wait for another task. Is the longest chain the one you're watching most closely?"
+      ],
+      "next": "Next · Launch a website"
+    }
+  ]
+}

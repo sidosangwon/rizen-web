@@ -1,0 +1,287 @@
+{
+  "id": "ECO-05-10",
+  "unitId": "ECO-05",
+  "categoryId": "ECO",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Fix a menu that underperforms",
+  "readerTitle": "Everyone picks the cheapest package. Now what?",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.4,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (사무실 단체 점심 케이터링, B2B 서비스 + 식음료) · 모든 수치와 결과는 설명용",
+  "insight": "메뉴가 안 팔릴 때 가격을 내리기 전에, 고객이 먼저 보는 숫자와 비교 대상, '무료'가 붙는 자리를 바꿔 본다.",
+  "misconception": "원하는 상품이 안 팔리면 그 상품의 가격을 내리거나 싼 상품을 없애야 한다.",
+  "relatedLessonIds": [
+    "ECO-05-01",
+    "ECO-05-03"
+  ],
+  "sources": [
+    {
+      "text": "Tversky, A. & Kahneman, D. (1974). Judgment under Uncertainty: Heuristics and Biases. Science. (앵커링 개념 배경)",
+      "url": null
+    },
+    {
+      "text": "Huber, J., Payne, J. W. & Puto, C. (1982). Adding Asymmetrically Dominated Alternatives. Journal of Consumer Research. (디코이 효과 개념 배경)",
+      "url": null
+    },
+    {
+      "text": "Shampanier, K., Mazar, N. & Ariely, D. (2007). Zero as a Special Price. Marketing Science. (무료의 힘 개념 배경)",
+      "url": null
+    },
+    {
+      "text": "모든 수치와 결과는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치와 결과는 설명용 가상 수치입니다. 1인당 음식 매출 계산: 변경 전 0.70×$14 + 0.20×$19 + 0.10×$25 = $9.80 + $3.80 + $2.50 = $16.10. 변경 후 0.35×$14 + 0.05×$18 + 0.50×$19 + 0.10×$25 = $4.90 + $0.90 + $9.50 + $2.50 = $17.80. 배달비는 계산에서 제외했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "가격 차이 확인: Basic $14 → Classic $19 = $5 차이. 디코이 'Basic + dessert' $18 → Classic $19 = $1 차이. 차트 합계 변경 전 70+20+10=100%, 변경 후 35+5+50+10=100%.",
+      "status": "open"
+    },
+    {
+      "note": "'무료가 같은 금액의 할인보다 강하게 끈다'는 문장은 Shampanier, Mazar & Ariely(2007)의 일반적 결론을 단순화한 표현입니다. 구체적 효과 크기는 쓰지 않았습니다. 게시 전 논문 요지를 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "세 가지 개입의 결과(주문 비중 변화)는 실제 연구 결과가 아니라 시뮬레이션용 가상 결과입니다. 카드에 'Say you…'와 illustrative 라벨로 표시했습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Pricing psychology · Simulation",
+      "title": "Everyone picks the cheapest package. Now what?",
+      "illustrative": true,
+      "body": [
+        "Lena runs a catering business that delivers lunch to offices. Her menu has three packages: **Basic** at $14 a person, **Classic** at $19 and **Premium** at $25.",
+        "Classic is the lunch she's proudest of, and it leaves her a healthy margin. Yet about 7 in 10 orders are Basic. Your job: help her fix the menu without cutting a single price."
+      ],
+      "image": {
+        "label": "Office lunch spread with three package cards, one stacked much higher",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 사무실 회의 테이블 위 케이터링 도시락. 옆에 세 장의 패키지 카드 'Basic $14', 'Classic $19', 'Premium $25'. 'Basic' 카드 앞에만 주문서가 높이 쌓여 있음. 실제 브랜드 로고 없음.",
+        "url": "assets/images/eco-05-10-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 3",
+      "title": "The menu starts at $14.",
+      "illustrative": true,
+      "body": [
+        "Her PDF menu and website list the packages cheapest first: Basic, Classic, Premium. Office managers read from the top and often stop at the first option that fits the budget.",
+        "What's your first move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Lower Classic to $17 to close the gap with Basic",
+            "verdict": "partial",
+            "feedback": "Some clients would switch up. But you give away $2 on every Classic order, including from clients who happily paid $19."
+          },
+          {
+            "key": "B",
+            "text": "List the packages from most to least expensive",
+            "verdict": "best",
+            "feedback": "Buyers now see $25 first, so $19 feels moderate and $14 feels thin. Same prices, a different first number."
+          },
+          {
+            "key": "C",
+            "text": "Drop Basic so every order starts at $19",
+            "verdict": "risky",
+            "feedback": "Some clients will upgrade. Others with a fixed budget will call a cheaper caterer, and you lose them entirely."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 3",
+      "title": "Classic still looks like a stretch.",
+      "illustrative": true,
+      "body": [
+        "Say you chose to reorder. Classic orders tick up, but Basic still leads.",
+        "Basic is sandwiches and salad. Classic adds hot mains and dessert. Many buyers can't tell if that $5 jump is worth it. What do you add?"
+      ],
+      "image": {
+        "label": "Menu with four packages, a new option sitting just below Classic",
+        "aspectRatio": "16:9",
+        "brief": "메뉴판 인포그래픽. 위에서부터 'Premium $25', 'Classic $19', 'Basic + dessert $18', 'Basic $14'. 'Basic + dessert'는 흐리게, 'Classic'은 강조 테두리. Classic과 $18 옵션 사이에 '+$1: hot mains' 작은 화살표.",
+        "url": "assets/images/eco-05-10-c3.jpg"
+      },
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "A new \"Basic + dessert\" option at $18",
+            "verdict": "best",
+            "feedback": "Few will pick it. Its job is to make Classic, with hot mains *and* dessert for $1 more, look like the obvious upgrade."
+          },
+          {
+            "key": "B",
+            "text": "More sides in Basic, so it feels generous",
+            "verdict": "risky",
+            "feedback": "Clients will like it, but you've made the cheapest package even more tempting and squeezed your thinnest margin."
+          },
+          {
+            "key": "C",
+            "text": "A \"Most popular\" badge on Classic",
+            "verdict": "partial",
+            "feedback": "Labels do guide the eye. But Basic is the most popular, so the badge isn't true. A \"Chef's pick\" label would be honest."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 3",
+      "title": "The $30 line at the bottom.",
+      "illustrative": true,
+      "body": [
+        "Say you chose to add the $18 option. Classic is gaining.",
+        "But every quote ends with a $30 delivery fee, and office managers often push back on that line, not on the food. What do you change?"
+      ],
+      "image": {
+        "label": "A quote with the delivery fee line crossed out and marked free",
+        "aspectRatio": "16:9",
+        "brief": "견적서 클로즈업. 'Classic × 30 people $570' 아래 'Delivery $30' 줄에 줄이 그어지고 'FREE' 스탬프. 옆의 'Basic' 견적서에는 배달비가 그대로 남아 있음. 실제 로고 없음.",
+        "url": "assets/images/eco-05-10-c4.jpg"
+      },
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Cut the fee to $15 on all orders",
+            "verdict": "partial",
+            "feedback": "Cheaper, but it's still a fee buyers notice and question. You lose $15 an order and steer no one."
+          },
+          {
+            "key": "B",
+            "text": "Free delivery on Classic and Premium; Basic keeps the fee",
+            "verdict": "best",
+            "feedback": "*Free* gets far more attention than a small discount, and now it sits on the package you want to sell. You give up $30 only on orders that earn you more."
+          },
+          {
+            "key": "C",
+            "text": "Free delivery on every order",
+            "verdict": "risky",
+            "feedback": "Buyers will love it, but you lose $30 on every Basic order, your thinnest margin, and nothing nudges anyone up."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "chart",
+      "eyebrow": "What happened",
+      "title": "Same prices, a different mix.",
+      "illustrative": true,
+      "body": [
+        "Say you made all three moves. Two months later, here's how orders split.",
+        "Food revenue per person rises from about **$16.10 to $17.80**, and no price went up."
+      ],
+      "chart": {
+        "unit": "%",
+        "groups": [
+          {
+            "label": "Before",
+            "rows": [
+              {
+                "label": "Basic $14",
+                "value": 70,
+                "highlight": false
+              },
+              {
+                "label": "Classic $19",
+                "value": 20,
+                "highlight": false
+              },
+              {
+                "label": "Premium $25",
+                "value": 10,
+                "highlight": false
+              }
+            ]
+          },
+          {
+            "label": "After",
+            "rows": [
+              {
+                "label": "Basic $14",
+                "value": 35,
+                "highlight": false
+              },
+              {
+                "label": "Basic + dessert $18",
+                "value": 5,
+                "highlight": false
+              },
+              {
+                "label": "Classic $19",
+                "value": 50,
+                "highlight": true
+              },
+              {
+                "label": "Premium $25",
+                "value": 10,
+                "highlight": false
+              }
+            ]
+          }
+        ]
+      },
+      "softwareNote": "A pricing page works the same way. Show the top plan first, add an option that makes your target plan a clear step up, and put the free extra, like setup help, on the plan you want customers to choose.",
+      "image": {
+        "label": "Same prices, a different mix.",
+        "aspectRatio": "4:3",
+        "brief": "Labeled HTML chart from the lesson numbers",
+        "url": "assets/images/eco-05-10-chart.png"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "You changed three things at once.",
+      "body": [
+        "Lena can't tell which move did the work. To find out, she'd change one thing at a time and compare a few weeks before and after.",
+        "These nudges also move only buyers who were close to deciding. They can't save a lunch clients don't enjoy. And the decoy must be a real option you'll happily serve. Office managers order every week, and they notice games."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Change what buyers see before you change the price.",
+      "body": [
+        "Each decision used one idea from this unit:"
+      ],
+      "list": [
+        "**Most expensive first:** *anchoring*. The first price sets the reference.",
+        "**Basic + dessert at $18:** the *decoy effect*. A nearly-as-good option makes the target look like a bargain.",
+        "**Free delivery on Classic:** the *power of free*. Zero pulls harder than a small discount, so put it where you want buyers to go."
+      ],
+      "callout": "**Try it today:** open your own menu or price list. Which price does a customer see first, and is it the one you want them to compare against?",
+      "next": "Next · Pricing by what it's worth, not what it costs"
+    }
+  ]
+}

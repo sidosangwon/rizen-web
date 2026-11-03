@@ -1,0 +1,242 @@
+{
+  "id": "OPS-05-10",
+  "unitId": "OPS-05",
+  "categoryId": "OPS",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Your project is three months behind",
+  "readerTitle": "Three months late: four calls that decide what happens next",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.1,
+  "caseKinds": [
+    "illustrative",
+    "real_observation"
+  ],
+  "caseNote": "가상 시뮬레이션 (지역 유통업체의 창고 이전 + 외부 구축업체(B2B 서비스)) · 브룩스의 법칙(실제 관찰) 인용",
+  "insight": "늦은 프로젝트는 '얼마나 늦었나'보다 '무엇이 끝 날짜를 정하나'와 '무엇을 포기할지'를 의도적으로 고르는 일이다.",
+  "misconception": "프로젝트가 늦어지면 사람과 돈을 더 넣고 모든 작업을 서두르면 따라잡을 수 있다.",
+  "relatedLessonIds": [
+    "OPS-05-03",
+    "OPS-05-01"
+  ],
+  "sources": [
+    {
+      "text": "Brooks, F. P. (1975). The Mythical Man-Month: Essays on Software Engineering. Addison-Wesley. (늦은 프로젝트에 인력을 추가하면 더 늦어진다는 관찰)",
+      "url": null
+    },
+    {
+      "text": "Hartley Supply와 모든 일정·수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "일정 계산 확인: 8월 중순 + 12주 = 11월 초~중순 데이터 이전 완료, 이후 테스트·교육 2~3주 = 12월 1일 전후 가동. 원래 계획 9월 1일 대비 3개월 지연과 일치합니다.",
+      "status": "open"
+    },
+    {
+      "note": "브룩스의 법칙은 원래 소프트웨어 프로젝트에 대한 관찰입니다. 카드 문구는 '경향이 있다(tends to)'로 일반화해 과장하지 않았는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "가상 회사명 'Hartley Supply'가 실제 유통업체 상호와 겹치지 않는지 게시 전 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Simulation",
+      "title": "Your project is three months behind",
+      "illustrative": true,
+      "body": [
+        "You run operations at Hartley Supply, a regional distributor that delivers to about 120 independent grocery and hardware shops. A year ago you started moving into a bigger warehouse with a new warehouse system, set up by an outside implementation firm.",
+        "The plan said September 1. It's mid-August, and the honest status report says December 1. That's three months late, landing in your busiest season. You have four calls to make."
+      ],
+      "image": {
+        "label": "Half-finished warehouse with a calendar showing a slipped date",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 반쯤 설치된 선반이 있는 넓은 창고, 앞쪽 벽에 큰 달력. '9월 1일'에 빨간 X, 화살표가 '12월 1일'을 가리킴. 실제 기업 로고·상표 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Call 1 of 4",
+      "title": "Everything looks late. Where do you start?",
+      "illustrative": true,
+      "body": [
+        "Racking is six weeks behind. Signs aren't up. Staff training hasn't started. Moving product and customer records into the new system is ten weeks behind."
+      ],
+      "image": {
+        "label": "Chain of tasks with one long path highlighted",
+        "aspectRatio": "16:9",
+        "brief": "작업 흐름도 인포그래픽. 'Racking', 'Signs', 'Data move', 'Testing', 'Training', 'Go-live' 박스를 화살표로 연결. 'Data move → Testing → Training → Go-live' 경로만 굵은 색으로 강조, 나머지는 옅게.",
+        "url": null
+      },
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Add crews to racking and signs, the most visible delays",
+            "verdict": "risky",
+            "feedback": "The warehouse would look ready sooner, but the end date wouldn't move. You'd spend money on tasks that weren't holding anything up."
+          },
+          {
+            "key": "B",
+            "text": "Map which tasks must finish before others can start, and find the chain that sets the end date",
+            "verdict": "best",
+            "feedback": "The longest chain runs through the data move: no records, no testing, no training. Racking can finish weeks before the system is ready."
+          },
+          {
+            "key": "C",
+            "text": "Ask every team to work Saturdays until it's caught up",
+            "verdict": "partial",
+            "feedback": "Effort rises everywhere, including on tasks with time to spare. People tire out before the one task that matters gets real help."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Call 2 of 4",
+      "title": "Say you chose B. The data move sets the date.",
+      "illustrative": true,
+      "body": [
+        "The implementation firm says the data move needs six more weeks. You check their record: so far, each phase has taken about twice as long as they quoted.",
+        "What do you plan around?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Six weeks. They're the experts, and you've told them it's urgent",
+            "verdict": "risky",
+            "feedback": "You'd promise customers a date with a known bias built in. When it slips again, you lose their trust a second time."
+          },
+          {
+            "key": "B",
+            "text": "A range: six weeks at best, about twelve likely, based on their record",
+            "verdict": "best",
+            "feedback": "Twelve weeks ends the data move in mid-November. After testing and training, go-live lands around December 1. Painful, but now the plan is honest."
+          },
+          {
+            "key": "C",
+            "text": "Replace the firm with one that promises four weeks",
+            "verdict": "risky",
+            "feedback": "A new team must learn your data from scratch, and its four weeks is an untested quote too. You'd likely reset the clock."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Call 3 of 4",
+      "title": "Say you chose B. December 1 is the real date.",
+      "illustrative": true,
+      "body": [
+        "December is when shops order the most. Switching systems then risks missed deliveries at the worst moment.",
+        "You can't keep the full system, the original budget and a pre-peak date all at once. Which do you give up?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Budget: pay the firm to add people and push for early November",
+            "verdict": "risky",
+            "feedback": "New people need time to learn your data, and experienced ones lose time teaching them. Fred Brooks observed back in 1975 that adding people to a late project tends to make it later."
+          },
+          {
+            "key": "B",
+            "text": "Time: move go-live to mid-January, after peak, and tell customers and your landlord now",
+            "verdict": "best",
+            "feedback": "You pay rent on both buildings a while longer. In return, peak season runs on the system your team already knows, and nobody is surprised."
+          },
+          {
+            "key": "C",
+            "text": "Scope: go live December 1 with half the features, add the rest later",
+            "verdict": "partial",
+            "feedback": "Cutting features is often the right lever. Here it still puts the switch in your busiest weeks, because the data move, not the features, sets the date."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Call 4 of 4",
+      "title": "Say you chose B. It's January. How do you switch?",
+      "illustrative": true,
+      "body": [
+        "Everything has been tested. The firm suggests moving all 120 shops to the new system over one weekend. Your team suggests starting with one delivery route of 15 shops."
+      ],
+      "image": {
+        "label": "One delivery route lit up on a map, others waiting",
+        "aspectRatio": "16:9",
+        "brief": "지역 지도 위 배송 경로 8개. 그중 하나만 밝은 색으로 'Week 1' 라벨, 나머지는 회색으로 'Next'. 트럭 아이콘은 실제 브랜드 도장 없이 단색.",
+        "url": null
+      },
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "One weekend, all shops. Get it over with",
+            "verdict": "risky",
+            "feedback": "Fast if nothing goes wrong. If a problem shows up Monday, every shop feels it at once, with no old process to fall back on."
+          },
+          {
+            "key": "B",
+            "text": "One route for two weeks, then add routes as problems get fixed",
+            "verdict": "best",
+            "feedback": "Early mistakes reach 15 shops, not 120, and you fix them while the old system serves the rest. It takes a few weeks longer."
+          },
+          {
+            "key": "C",
+            "text": "Run old and new systems side by side for every shop for a month",
+            "verdict": "partial",
+            "feedback": "Very safe on paper, but your team enters every order twice. Errors creep in from the double work, and people burn out."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "Software teams call this a staged rollout: release to a small share of users, watch for errors, then widen. One big release is faster only when nothing goes wrong."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Moving the date isn't always an option.",
+      "body": [
+        "Here, time was the cheapest thing to give up. Sometimes it's the most expensive. A lease that ends, a trade show or a contract deadline can fix the date, and then scope or budget has to give instead.",
+        "The critical chain also moves. Once the data move speeds up, another task, such as training, can become the one that sets the end date. Check it every week, not once."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A late project is a set of choices, not a disaster.",
+      "body": [
+        "Each call used one idea from this unit:"
+      ],
+      "list": [
+        "**Where to start:** the critical path. Only some delays move the end date.",
+        "**Which estimate:** estimating. Trust the track record over the quote.",
+        "**What to give up:** scope, time and cost. Pick the trade-off on purpose.",
+        "**How to switch:** small steps vs big bang. Limit how many people one mistake can reach."
+      ],
+      "callout": "**Try it today:** pick one project that's running late. Name the single task that, if it finished tomorrow, would move the end date. Is that where your effort is going?",
+      "next": "Next · A new unit starts tomorrow"
+    }
+  ]
+}

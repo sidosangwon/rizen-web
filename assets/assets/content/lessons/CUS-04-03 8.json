@@ -1,0 +1,245 @@
+{
+  "id": "CUS-04-03",
+  "unitId": "CUS-04",
+  "categoryId": "CUS",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "Fake door tests",
+  "readerTitle": "The button that leads nowhere, on purpose",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (골판지 상자 제조 공장, 프로젝트 관리 앱) · 모든 수치는 설명용",
+  "insight": "관심이 있는지 묻지 말고, 아직 없는 제품의 '문'을 실제 고객 앞에 달아 두고 몇 명이 열어 보려 하는지 센다.",
+  "misconception": "고객이 설문에서 '쓰겠다'고 답하면 수요가 있다는 뜻이다. 수요를 알려면 먼저 만들어 봐야 한다.",
+  "relatedLessonIds": [
+    "CUS-01-06",
+    "CUS-04-05"
+  ],
+  "sources": [
+    {
+      "text": "린 스타트업 실무에서 널리 쓰는 일반 개념 (fake door / painted door test)",
+      "url": null
+    },
+    {
+      "text": "Savoia, A. (2019). The Right It. HarperOne. ('Fake Door' 프리토타입 소개, 배경 참고용)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 설명용 가상 수치입니다. 계산: 클릭 18 ÷ 주문 페이지 방문 고객 1,200 = 1.5%, 연락처 남김 9 ÷ 1,200 = 0.75%. 설문 '쓰겠다' 45%는 가정값입니다.",
+      "status": "open"
+    },
+    {
+      "note": "Savoia의 책에 'Fake Door' 기법이 소개되어 있는지 게시 전 원문으로 확인하세요. 카드 본문에는 인용하지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "고객을 속이는 표시나 결제를 받는 방식은 국가별 소비자 보호 규정에 걸릴 수 있어 카드에서는 '돈을 받지 말고 바로 사실을 알린다'는 원칙만 다뤘습니다. 법률 조언은 하지 않습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Everyday scene",
+      "title": "The button that leads nowhere, on purpose",
+      "body": [
+        "You click \"Same-day delivery\" on a supplier's order page. Instead of a form, you see: *\"We don't offer this yet. You've just helped us decide whether to.\"*",
+        "It feels like a dead end. For the business, your click was the most honest answer it could get."
+      ],
+      "image": {
+        "label": "A door painted on a brick wall with a hand reaching for the handle",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 벽돌 벽에 그려진 문, 손 하나가 손잡이를 잡으려는 순간. 문 위에 작은 'Coming soon' 표지. 실제 브랜드 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Should you buy the $80,000 printer?",
+      "illustrative": true,
+      "body": [
+        "Your plant makes plain shipping boxes for small online shops. A machine for custom-printed boxes would cost about $80,000. In a survey, many customers said they'd like printed boxes.",
+        "What's your next step?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Call your top 20 customers and ask how often they'd order",
+            "verdict": "partial",
+            "feedback": "You'll learn their reasons, which is useful. But you're still collecting opinions, and people are generous with yes when it costs them nothing."
+          },
+          {
+            "key": "B",
+            "text": "Add a \"Custom printed boxes: get a price\" button to your order page and count clicks for three weeks",
+            "verdict": "best",
+            "feedback": "Cheap and fast, and it measures what customers do at the moment they order. You give up some detail, and you must tell clickers honestly that it's not ready."
+          },
+          {
+            "key": "C",
+            "text": "Lease the machine for a year to test it properly",
+            "verdict": "risky",
+            "feedback": "You'd learn the most, but you pay for the answer before knowing the question is worth asking. A year of lease costs can sink a small plant."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "What happened",
+      "title": "Most said yes. Few walked through the door.",
+      "illustrative": true,
+      "body": [
+        "Over three weeks, 1,200 customers used the order page. Only 18 clicked the button. It led to: *\"We don't make printed boxes yet. Want us to tell you if we do?\"* Nine left their details.",
+        "The plant now had nine serious leads, not hundreds. Its next step: talk to those nine before buying anything."
+      ],
+      "chart": {
+        "unit": "%",
+        "groups": [
+          {
+            "label": "Custom printed boxes",
+            "rows": [
+              {
+                "label": "Said \"I'd use it\" in survey",
+                "value": 45,
+                "highlight": false
+              },
+              {
+                "label": "Clicked the button",
+                "value": 1.5,
+                "highlight": true
+              },
+              {
+                "label": "Left contact details",
+                "value": 0.75,
+                "highlight": false
+              }
+            ]
+          }
+        ]
+      },
+      "image": {
+        "label": "Most said yes. Few walked through the door.",
+        "aspectRatio": "4:3",
+        "brief": "Labeled HTML chart from the lesson numbers",
+        "url": "assets/images/cus-04-03-chart.png"
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Fake door tests",
+      "body": [
+        "A **fake door test** puts the entrance to an offer in front of real customers before the thing behind it exists. Then you count how many try to walk through.",
+        "It works because it swaps a question (*\"Would you use this?\"*) for an action taken in the middle of a real decision. Saying yes is free. Clicking while you're busy ordering means something."
+      ],
+      "image": {
+        "label": "Two paths: a speech bubble saying yes versus a hand pressing a button",
+        "aspectRatio": "16:9",
+        "brief": "좌우 비교 인포그래픽. 왼쪽: 'Would you use it?'에 'Yes!' 말풍선이 잔뜩. 오른쪽: 주문 화면 속 버튼을 누르는 손 몇 개만. 오른쪽 숫자가 작지만 더 선명하게 강조됨.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Five steps to a fair test.",
+      "body": [
+        "A fake door is only as good as its setup."
+      ],
+      "list": [
+        "**One offer per door:** test printed boxes, not printed boxes plus faster delivery",
+        "**Real moments:** place it where customers already make decisions",
+        "**Decide the bar first:** write down what click rate means \"go\"",
+        "**Be honest at once:** the next screen says it isn't ready",
+        "**Follow up:** the people who clicked are your first interviews"
+      ],
+      "callout": "Set the bar before you look, or any number will look like a yes."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond buttons",
+      "title": "A door can be a line on a price sheet.",
+      "body": [
+        "Fake doors aren't only digital. A freight company can add \"weekend pickup: ask us\" to its rate sheet. A bakery can chalk a new cake on the board with \"order for Friday.\" Then count who asks.",
+        "One detail changes what you learn: **the price**. A door with no price measures curiosity. A door that shows $1.20 per printed box measures something much closer to demand."
+      ],
+      "softwareNote": "In software, the door is often a menu item or a plan on the pricing page, shown to a small share of users so you can compare them with everyone else."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Every click is a small disappointment.",
+      "body": [
+        "Someone wanted something and got a \"not yet.\" Do that to a few customers for a short time and most won't mind. Leave the door up for months and trust wears thin. Never take money or promise a date.",
+        "Also, a click is interest, not a purchase. A low number can mean the button was hard to see, not that no one cares. A high number still needs a stronger test, like asking people to pay in advance."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a project management app.",
+      "illustrative": true,
+      "body": [
+        "Your app helps small agencies track projects. Users keep mentioning syncing invoices to accounting software. Building it would take your team about three months.",
+        "How do you test demand?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Show a \"Sync to accounting\" menu item to 10% of users for two weeks, with an honest \"not ready yet\" screen and an early-access sign-up",
+            "verdict": "best",
+            "feedback": "Small, short and honest, with a group to compare against. You only learn interest, so plan a follow-up with the people who sign up."
+          },
+          {
+            "key": "B",
+            "text": "Show the menu item to every user and keep it up until enough clicks come in",
+            "verdict": "risky",
+            "feedback": "You'll get plenty of data, but every user keeps hitting a dead end with no end date. Trust erodes, and you never set a bar for \"enough.\""
+          },
+          {
+            "key": "C",
+            "text": "Email all users asking whether they'd use an accounting sync",
+            "verdict": "partial",
+            "feedback": "Quick and polite, and replies can explain why. But it measures opinions, which run far higher than real use."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Build the door before the room.",
+      "body": [
+        "Before you build, put the entrance in front of real customers and count who tries to walk in. Be honest with everyone who does.",
+        "**Try it today:** pick one idea you've been asked about. Write where its door could go, what it would say, and what number would make you build it."
+      ],
+      "next": "Next · Why doing it by hand first can beat building"
+    }
+  ]
+}

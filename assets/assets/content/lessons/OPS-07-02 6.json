@@ -1,0 +1,259 @@
+{
+  "id": "OPS-07-02",
+  "unitId": "OPS-07",
+  "categoryId": "OPS",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "Probability times impact",
+  "readerTitle": "The scariest risk is rarely the biggest one",
+  "format": "two_businesses",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 두 개 (급여 대행 회사, 배관 회사) · 모든 수치는 설명용",
+  "insight": "위험은 느낌이 아니라 '일어날 확률 × 일어났을 때의 피해'로 같은 저울에 올려 비교한다. 다만 살아남을 수 없는 피해는 곱셈과 별도로 다룬다.",
+  "misconception": "가장 무서운 위험이나 가장 자주 귀찮게 하는 위험이 가장 큰 위험이다.",
+  "relatedLessonIds": [
+    "OPS-07-01",
+    "OPS-07-03"
+  ],
+  "sources": [
+    {
+      "text": "위험관리의 표준 개념 (기대손실 = 발생 확률 × 영향, 위험 매트릭스)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "급여 대행 회사 계산: 데이터 유출 1% × $300,000 = $3,000, 급여 지연 연 6회 × $1,500 = $9,000, 최대 고객 이탈 20% × $60,000(잃는 이익) = $12,000.",
+      "status": "open"
+    },
+    {
+      "note": "백업 시스템: 연 $4,000 비용으로 지연이 6회→2회, 기대비용 $9,000 → $3,000, 절감 $6,000. 순이익 $2,000.",
+      "status": "open"
+    },
+    {
+      "note": "배관 회사 계산: 재방문 연 40회 × $250 = $10,000, 수석 기사 퇴사 20% × $30,000 = $6,000, 밴 고장 연 2회 × $1,500 = $3,000, 누수 피해 청구 2% × $100,000 = $2,000.",
+      "status": "open"
+    },
+    {
+      "note": "적용 문제: A 체크리스트·교육 $3,000, 재방문 절반 → 절감 $5,000. B 보너스 $4,000, 퇴사 확률 20%→10% → 절감 $3,000. C 보험 해지 절약 $1,200, 그러나 $100,000 청구 시 회사 존립 위험. 특정 국가의 보험 의무 여부는 다루지 않음.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Risk · Two businesses",
+      "title": "The scariest risk is rarely the biggest one",
+      "illustrative": true,
+      "body": [
+        "Dana runs a 12-person payroll firm. She loses sleep over a data breach. Marco runs a plumbing company with six vans. What bugs him most is the van that keeps breaking down.",
+        "Both are watching the wrong risk. Their fears aren't silly. They're just sizing risks by feel."
+      ],
+      "image": {
+        "label": "Two business owners, each with a worry cloud over their head",
+        "aspectRatio": "4:3",
+        "brief": "화면을 반으로 나눠 왼쪽은 사무실의 급여 대행 회사 대표(머리 위 구름에 자물쇠 아이콘), 오른쪽은 작업복 차림의 배관 회사 대표(구름에 고장 난 밴). 따뜻한 플랫 일러스트. 실제 로고·상표 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You can fix one risk this quarter.",
+      "illustrative": true,
+      "body": [
+        "You're Dana. Your payroll firm has time and budget to tackle one risk properly. Your rough estimates for the coming year:",
+        "Data breach: 1% chance, $300,000 if it happens. Payroll delayed by a system glitch: about 6 times a year, $1,500 in credits each time. Your biggest client leaves: 20% chance, $60,000 in lost profit."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The data breach. It's the one that could ruin you",
+            "verdict": "partial",
+            "feedback": "Right that it can't be ignored, but its expected yearly cost is the smallest here. A rare disaster is often better handled by insurance than by your whole quarter."
+          },
+          {
+            "key": "B",
+            "text": "The payroll delays. They happen all the time",
+            "verdict": "risky",
+            "feedback": "Frequent problems feel urgent because you see them. But each hit is small, so the yearly total isn't the largest."
+          },
+          {
+            "key": "C",
+            "text": "Keeping your biggest client",
+            "verdict": "best",
+            "feedback": "It's neither the scariest nor the noisiest, but chance times cost makes it the biggest. Next card shows the math."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Multiply, then compare.",
+      "illustrative": true,
+      "body": [
+        "The scariest risk came last. The most annoying one came second. The quiet one Dana barely thought about came first."
+      ],
+      "breakdown": [
+        {
+          "value": "$3,000",
+          "label": "Data breach",
+          "detail": "1% × $300,000",
+          "highlight": false
+        },
+        {
+          "value": "$9,000",
+          "label": "Payroll delays",
+          "detail": "6 a year × $1,500",
+          "highlight": false
+        },
+        {
+          "value": "$12,000",
+          "label": "Biggest client leaves",
+          "detail": "20% × $60,000",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Probability times impact",
+      "body": [
+        "Every risk has two sizes: **how likely** it is, and **how much it hurts** when it happens. Multiply them and you get its *expected cost*, what it costs you on average per year.",
+        "This puts very different risks on one scale. A rare disaster and a weekly annoyance can finally be compared side by side."
+      ],
+      "image": {
+        "label": "A grid with likelihood on one axis and impact on the other",
+        "aspectRatio": "16:9",
+        "brief": "위험 매트릭스 인포그래픽. 가로축 \"How likely\", 세로축 \"How much it hurts\". 오른쪽 위 칸이 진한 색. 점 세 개: \"Breach\"(왼쪽 위), \"Delays\"(오른쪽 아래), \"Client leaves\"(가운데 위쪽, 가장 큰 점).",
+        "url": null
+      },
+      "softwareNote": "In a software business, the same math compares a rare full outage with a small bug that hits some users every week. The weekly bug often costs more over a year, even though the outage gets the post-mortem."
+    },
+    {
+      "index": 5,
+      "type": "chart",
+      "eyebrow": "The second business",
+      "title": "For Marco, the boring risk wins.",
+      "illustrative": true,
+      "body": [
+        "Marco runs the same math on his plumbing company. Here the top risk is the frequent, small one: jobs his team has to go back and redo for free.",
+        "Gut feel picked the scary risk for Dana and the noisy one for Marco. The multiplication picked differently in each business."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Expected cost per year",
+            "rows": [
+              {
+                "label": "Callbacks to redo jobs (40 × $250)",
+                "value": 10000,
+                "highlight": true
+              },
+              {
+                "label": "Lead technician quits (20% × $30,000)",
+                "value": 6000,
+                "highlight": false
+              },
+              {
+                "label": "Van breakdowns (2 × $1,500)",
+                "value": 3000,
+                "highlight": false
+              },
+              {
+                "label": "Water-damage claim (2% × $100,000)",
+                "value": 2000,
+                "highlight": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How to use it",
+      "title": "Rough numbers are enough.",
+      "illustrative": true,
+      "body": [
+        "You won't know the real odds. That's fine. The goal is ranking, not precision. Even \"about 1 in 5\" and \"roughly $50,000\" will sort a list better than a hunch.",
+        "Then compare each fix with what it saves. A $4,000 backup system that cuts Dana's delays from six a year to two saves **$6,000** in expected cost. That's worth doing. A fix that costs more than it saves usually isn't."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Averages hide the risks that end you.",
+      "body": [
+        "Dana's breach has a small expected cost: $3,000. But if it happens, $300,000 could close a 12-person firm. You don't live the average. You live the one year it happens.",
+        "So use the multiplication to rank everyday risks. For anything you couldn't survive, look at **impact alone** and cap it with insurance, limits or by avoiding it.",
+        "Also be humble about rare events. A 1% guess is often just a guess."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Marco has $5,000 to spend on risk.",
+      "illustrative": true,
+      "body": [
+        "Using his numbers from the chart, which move is best?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "A $3,000 job checklist and training that halves callbacks",
+            "verdict": "best",
+            "feedback": "It saves about $5,000 a year for $3,000. It targets the biggest expected cost and pays for itself."
+          },
+          {
+            "key": "B",
+            "text": "A $4,000 retention bonus that halves the chance his lead tech quits",
+            "verdict": "partial",
+            "feedback": "It saves about $3,000 in expected cost for $4,000. It may still help morale, but on risk alone it costs more than it saves."
+          },
+          {
+            "key": "C",
+            "text": "Drop water-damage insurance to save $1,200, since the expected cost is only $2,000",
+            "verdict": "risky",
+            "feedback": "The average looks small, but one $100,000 claim could sink the company. This is the kind of risk to judge by impact alone."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Size every risk twice: how likely, and how bad.",
+      "body": [
+        "Multiply the two to rank your risks on one scale. Then handle the ones you couldn't survive separately, however rare they seem.",
+        "**Try it today:** list your top five risks. Next to each, write a rough chance per year and a rough cost. Multiply. Is the top of the list the one you worry about most?"
+      ],
+      "next": "Next · When to pay someone else to carry a risk"
+    }
+  ]
+}

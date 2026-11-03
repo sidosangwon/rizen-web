@@ -1,0 +1,279 @@
+{
+  "id": "ENT-05-10",
+  "unitId": "ENT-05",
+  "categoryId": "ENT",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Six months of cash left",
+  "readerTitle": "Six months of cash, four decisions",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (식당용 예약·대기 관리 앱 스타트업). 고객은 동네 식당이고 회사는 소프트웨어 사업. 모든 수치는 설명용입니다.",
+  "insight": "현금이 6개월 남았을 때 첫 할 일은 돈을 구하는 것이 아니라, 지금 추세로 손익분기에 닿는지 계산해 무엇이 얼마나 바뀌어야 하는지 아는 것이다.",
+  "misconception": "현금이 바닥나면 투자 유치나 비용 삭감부터 서둘러야 한다. 기능을 더 만들면 고객이 남는다.",
+  "relatedLessonIds": [
+    "ENT-05-05",
+    "ENT-05-02"
+  ],
+  "sources": [
+    {
+      "text": "Graham, P. (2015). Default Alive or Default Dead? paulgraham.com",
+      "url": "http://paulgraham.com/aord.html"
+    },
+    {
+      "text": "Graham, P. (2013). Do Things that Don't Scale. paulgraham.com",
+      "url": "http://paulgraham.com/ds.html"
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "시작 상황: 식당 40곳 × 월 $100 = 매출 $4,000, 비용 $15,000, 월 소진 $11,000. 현금 $66,000 ÷ $11,000 = 6개월.",
+      "status": "open"
+    },
+    {
+      "note": "결정 1: 월 순증 5곳이면 6개월 후 40 + 30 = 70곳, 매출 $7,000 < 비용 $15,000 → default dead. 비용 $2,000 절감 후 $13,000, 손익분기 130곳. 마케터 채용 시 $20,000 → 200곳. 파트타이머 $2,000 채용 시 $15,000 → 150곳.",
+      "status": "open"
+    },
+    {
+      "note": "고객 수 추이: 1~2개월 +5(가입 15 − 해지 10) → 50곳, 3~4개월 +11(15 − 4) → 72곳, 5~6개월 +16(20 − 4) → 104곳. 비용은 1~4개월 $13,000, 5~6개월 $15,000.",
+      "status": "open"
+    },
+    {
+      "note": "현금: 월 소진 8,500 + 8,000 + 6,900 + 5,800 + 6,200 + 4,600 = $40,000. $66,000 − $40,000 = $26,000 남음. 6개월차 소진 $15,000 − $10,400 = $4,600. 7개월 120곳(소진 $3,000), 8개월 136곳($1,400), 9개월 152곳(흑자 $200). 9개월차 현금 약 $21,800, 카드에는 'about $21,000'로 표기.",
+      "status": "open"
+    },
+    {
+      "note": "결정 4의 C(채용 없음): 4개월차 72곳에서 월 +11, 비용 $13,000이면 10개월차에 138곳으로 130곳을 넘습니다. 카드의 'around month 10'과 맞습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Entrepreneurship · Simulation",
+      "title": "Six months of cash, four decisions",
+      "illustrative": true,
+      "body": [
+        "You and a co-founder run a small app that manages waitlists and bookings for neighborhood restaurants. Forty restaurants pay $100 a month.",
+        "The bank shows $66,000. You spend $15,000 a month and bring in $4,000. At this rate, the money runs out in six months.",
+        "Four decisions follow. Each one builds on the last."
+      ],
+      "image": {
+        "label": "Restaurant host stand with a tablet and a calendar counting down six months",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 조명의 동네 식당 입구. 호스트 스탠드 위 태블릿에 대기 명단 화면, 옆 벽에 6장짜리 달력이 한 장씩 넘어가는 모습. 실제 앱이나 브랜드 로고는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 4",
+      "title": "Where do you start?",
+      "illustrative": true,
+      "body": [
+        "Each month about 15 restaurants sign up and 10 cancel. Your co-founder wants to start pitching investors tomorrow."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Start pitching investors this week",
+            "verdict": "risky",
+            "feedback": "Investors will ask whether the business works. With 10 of every 15 new customers leaving, the honest answer is *not yet*, and pitching eats the weeks you need to fix it."
+          },
+          {
+            "key": "B",
+            "text": "Project month by month: at today's growth, do you break even before the cash runs out?",
+            "verdict": "best",
+            "feedback": "At +5 restaurants a month, revenue reaches $7,000 in month six against $15,000 in costs. You're on track to run out. Now you know how much must change, and you cut $2,000 in tools and founder pay you can live without."
+          },
+          {
+            "key": "C",
+            "text": "Lay off your engineer to stretch the runway",
+            "verdict": "partial",
+            "feedback": "You buy months but freeze the product just when it needs fixing. Cutting before you know what must change is guessing."
+          }
+        ],
+        "afterReveal": "Say you chose B. Costs are now $13,000 a month, so breaking even means 130 paying restaurants."
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 4",
+      "title": "Which number do you check every Monday?",
+      "illustrative": true,
+      "body": [
+        "Your dashboard shows signups, daily app sessions, features shipped and paying restaurants. You'll pick one to steer by."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "New signups each month",
+            "verdict": "partial",
+            "feedback": "Signups matter, but you already get 15 a month. Doubling them while 10 still leave just fills a leaky bucket faster."
+          },
+          {
+            "key": "B",
+            "text": "Paying restaurants, after cancellations",
+            "verdict": "best",
+            "feedback": "It's the number that reaches 130 or doesn't. And it points straight at the leak: 10 cancellations a month."
+          },
+          {
+            "key": "C",
+            "text": "Daily app sessions",
+            "verdict": "risky",
+            "feedback": "Sessions can rise while owners quietly decide to cancel. Activity isn't revenue."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 4",
+      "title": "Why do 10 restaurants leave each month?",
+      "illustrative": true,
+      "body": [
+        "Say you chose B. The cancellation form mostly says \"not using it.\" Your engineer wants to build the top three features from the wish list."
+      ],
+      "image": {
+        "label": "Founder training a new host at a busy restaurant",
+        "aspectRatio": "16:9",
+        "brief": "금요일 밤 붐비는 식당. 창업자가 호스트 스탠드 옆에서 새로 온 젊은 호스트에게 태블릿 사용법을 가르치는 장면. 뒤편 서랍에 반쯤 들어간 다른 태블릿이 보임. 로고 없음.",
+        "url": null
+      },
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Build the top three requested features",
+            "verdict": "risky",
+            "feedback": "Two months of work on a guess. Most owners who cancelled never asked for features. They just stopped opening the app."
+          },
+          {
+            "key": "B",
+            "text": "Spend Friday and Saturday nights inside restaurants, and call every owner who cancelled",
+            "verdict": "best",
+            "feedback": "Within a week you see it: hosts change often, nobody trains the new ones, and the tablet ends up in a drawer. You start training every new host in person. Cancellations fall from 10 to 4 a month."
+          },
+          {
+            "key": "C",
+            "text": "Offer cancelling restaurants two months free",
+            "verdict": "partial",
+            "feedback": "Some stay a little longer, at a loss. The reason they stopped using it is still there."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 4 of 4",
+      "title": "Growth is up. Your evenings are gone.",
+      "illustrative": true,
+      "body": [
+        "Say you chose B. You now add 11 restaurants a month. But training visits eat both founders' nights, and sales calls slip. Who do you hire?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "An experienced marketer, full time, at $7,000 a month",
+            "verdict": "risky",
+            "feedback": "New signups would arrive faster than anyone can train them. Costs jump to $20,000, and breakeven moves from 130 to 200 restaurants."
+          },
+          {
+            "key": "B",
+            "text": "A former restaurant manager, part time at $2,000 a month, to run training visits",
+            "verdict": "best",
+            "feedback": "She takes over the job you've proven matters most. Founders go back to selling, and signups rise to 20 a month. Breakeven moves to 150 restaurants, but you grow 16 a month."
+          },
+          {
+            "key": "C",
+            "text": "No one. Just work harder",
+            "verdict": "partial",
+            "feedback": "Cheapest on paper, and the math might still work, around month 10. But it rests on two exhausted founders with no slack for anything going wrong."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "breakdown",
+      "eyebrow": "Month six",
+      "title": "Where the best choices leave you.",
+      "illustrative": true,
+      "breakdown": [
+        {
+          "value": "40 → 104",
+          "label": "Paying restaurants",
+          "detail": "Net growth rose from +5 to +16 a month",
+          "highlight": false
+        },
+        {
+          "value": "10 → 4",
+          "label": "Cancellations a month",
+          "detail": "In-person host training fixed the leak",
+          "highlight": false
+        },
+        {
+          "value": "$11,000 → $4,600",
+          "label": "Monthly burn",
+          "detail": "Cash going out minus cash coming in",
+          "highlight": false
+        },
+        {
+          "value": "~Month 9",
+          "label": "Breakeven",
+          "detail": "150 restaurants, with about $21,000 still in the bank",
+          "highlight": true
+        }
+      ],
+      "callout": "You started *default dead*: on track to run out before breaking even. If growth holds, you're now **default alive**."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A projection is only as good as its assumptions.",
+      "body": [
+        "Two good months are not a trend. Restaurants open and close, and quiet seasons hit them all at once. Re-run the math every month, and keep a version where growth stalls.",
+        "The same four calls work far from software. A café owner with six months of savings can project the month she breaks even, pick the one number that matters, stand behind the counter at rush hour, and hire for the job she has already proven needs doing."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "With six months of cash, first find out how much has to change.",
+      "body": [
+        "Each decision used one idea from this unit:"
+      ],
+      "list": [
+        "**Decision 1:** Default alive or default dead? Do the math before you act.",
+        "**Decision 2:** Focus on one number, the one that decides survival.",
+        "**Decision 3:** Talk to customers and do things that don't scale.",
+        "**Decision 4:** Your first hires take over work you've already proven matters."
+      ],
+      "callout": "**Try it today:** write down your monthly costs, revenue and growth. In which month do you break even? Is it before the cash runs out?",
+      "next": "Next · On to the next unit"
+    }
+  ]
+}

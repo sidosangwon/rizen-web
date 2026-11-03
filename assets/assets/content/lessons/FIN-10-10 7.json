@@ -1,0 +1,231 @@
+{
+  "id": "FIN-10-10",
+  "unitId": "FIN-10",
+  "categoryId": "FIN",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Spot the red flags",
+  "readerTitle": "The meal-kit deal that looked too good: spot the red flags",
+  "format": "everyday_scene",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (케이터링 주방 + 밀키트 구독 앱) · 모든 수치는 설명용",
+  "insight": "재무 경고 신호는 거짓말의 증거가 아니라 '어떤 질문을 더 해야 하는지'와 '조건을 어떻게 짜야 하는지'를 알려주는 신호다.",
+  "misconception": "매출이 빠르게 늘고 이익이 났다고 하면 거래 상대로 믿어도 된다.",
+  "relatedLessonIds": [
+    "FIN-10-01",
+    "FIN-10-03"
+  ],
+  "sources": [
+    {
+      "text": "재무제표 분석의 표준 개념 (수익 인식, 현금흐름과 이익의 차이, 매출채권 연령 분석, 조정 지표, 내부 통제)",
+      "url": null
+    },
+    {
+      "text": "모든 회사와 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 가상입니다. 연간 구독 계산: 12월에 판매한 연간 구독 $500,000 중 한 달분만 제공했다면 인식 가능한 금액은 500,000 ÷ 12 ≈ $41,700. 실제로 번 매출 ≈ $1,200,000 − $500,000 + $41,700 = $741,700 (약 $740,000).",
+      "status": "open"
+    },
+    {
+      "note": "조정 이익 계산: 'Adjusted profit' $150,000에서 매달 반복되는 출시 마케팅 $120,000와 상한 키트 환불 $60,000를 다시 빼면 150,000 − 120,000 − 60,000 = −$30,000.",
+      "status": "open"
+    },
+    {
+      "note": "매출채권: 기업 고객 미수금이 $90,000에서 $180,000로 두 배, 그중 $70,000가 120일 이상 연체라는 설정. 모두 가상 수치입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Simulation",
+      "title": "The meal-kit deal that looked too good",
+      "illustrative": true,
+      "body": [
+        "You run a catering kitchen. A fast-growing meal-kit app wants you to cook 2,000 kits a week for it.",
+        "The pitch deck says revenue tripled to $1.2 million and the company is profitable. The catch: you'd buy $80,000 of new equipment, and they'd pay you 60 days after each delivery."
+      ],
+      "image": {
+        "label": "A catering kitchen with a phone showing a rising sales chart",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 스테인리스 케이터링 주방 작업대 위에 밀키트 상자가 쌓여 있고, 옆에 놓인 스마트폰 화면에 가파르게 오르는 매출 그래프. 그래프 끝에 작은 물음표. 실제 앱 로고나 브랜드는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 4",
+      "title": "Where did $1.2 million come from?",
+      "illustrative": true,
+      "body": [
+        "You ask for detail. About $500,000 came from annual plans sold in a December holiday sale. The app counted the full year as revenue right away.",
+        "What do you do with the $1.2 million figure?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Accept it. Customers paid, so the money is real",
+            "verdict": "risky",
+            "feedback": "The cash arrived, but the meals mostly haven't. The app still owes eleven months of kits, and you'd be the one cooking them."
+          },
+          {
+            "key": "B",
+            "text": "Ask how much was for meals already delivered",
+            "verdict": "best",
+            "feedback": "Only about one month of those plans was delivered. Revenue actually earned so far is closer to $740,000. Growth is real, but far smaller."
+          },
+          {
+            "key": "C",
+            "text": "Ask for the number of active subscribers instead",
+            "verdict": "partial",
+            "feedback": "Useful, but subscriber counts can be inflated too. It doesn't tell you how much revenue was earned."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 4",
+      "title": "Profitable, but the bank balance is falling.",
+      "illustrative": true,
+      "body": [
+        "Say you chose B. Next, you notice the app reports a profit, yet its cash fell for six months. Money owed by its office-lunch clients doubled to $180,000. Some of it is over 120 days late.",
+        "What's your next move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Trust the profit. Late payers usually pay eventually",
+            "verdict": "risky",
+            "feedback": "Profit counts sales when they're made, not when they're paid. If $70,000 is four months late, some of it may never arrive, and the app will pay you late too."
+          },
+          {
+            "key": "B",
+            "text": "Ask for the cash flow statement and a list of who owes what, by age",
+            "verdict": "best",
+            "feedback": "Now you see the gap: sales are booked, but cash isn't coming in. That tells you how likely your own invoices are to be paid on time."
+          },
+          {
+            "key": "C",
+            "text": "Skip the analysis and demand payment upfront",
+            "verdict": "partial",
+            "feedback": "It protects you for now, but you still don't know if the business will last long enough to justify $80,000 of equipment."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 4",
+      "title": "\"Adjusted profit: $150,000\"",
+      "illustrative": true,
+      "body": [
+        "Say you chose B again. The founder points to *adjusted profit*. It leaves out $120,000 of \"one-time launch marketing\" and $60,000 of refunds for spoiled kits.",
+        "Looking closer, the launch marketing has run every single month."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Use the adjusted number. Startups need to invest in growth",
+            "verdict": "risky",
+            "feedback": "A cost that repeats every month isn't one-time. Neither are refunds in a food business. Leaving them out hides what the business really costs to run."
+          },
+          {
+            "key": "B",
+            "text": "Add back the costs that keep recurring",
+            "verdict": "best",
+            "feedback": "$150,000 − $120,000 − $60,000 = a $30,000 loss. Not fatal, but a very different company from the one in the deck."
+          },
+          {
+            "key": "C",
+            "text": "Ignore every adjusted number they show you",
+            "verdict": "partial",
+            "feedback": "Safe, but you lose information. Some adjustments are fair. The skill is checking which costs are truly unusual."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 4 of 4",
+      "title": "Who checks the books?",
+      "illustrative": true,
+      "body": [
+        "Say you chose B. Last question: the co-founder keeps the books alone. No outside accountant has ever reviewed them, and the founder hesitates to share bank statements.",
+        "Your $80,000 decision is due Friday."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Sign as offered. The growth is still impressive",
+            "verdict": "risky",
+            "feedback": "You'd carry 60 days of unpaid cooking plus the equipment loan, for a company whose numbers no one has independently checked."
+          },
+          {
+            "key": "B",
+            "text": "Offer a smaller trial: weekly payment, a deposit, and bank statements before scaling up",
+            "verdict": "best",
+            "feedback": "You keep the upside if the app is sound and limit your loss if it isn't. Their answer to these terms is itself information."
+          },
+          {
+            "key": "C",
+            "text": "Walk away",
+            "verdict": "partial",
+            "feedback": "Zero risk, but also zero upside. Messy books are common in young companies, and the right terms can make the deal safe."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A red flag is a question, not a verdict.",
+      "body": [
+        "Nothing here proves the founders lied. Young companies often count revenue too early or skip outside reviews out of inexperience, not fraud.",
+        "The point of spotting red flags is to **ask sharper questions and set safer terms**. Accusing a partner too fast can cost you a good deal and a relationship."
+      ],
+      "softwareNote": "Subscription businesses meet the first flag often: annual plans bring cash in on day one, but the revenue is earned month by month as the service is delivered."
+    },
+    {
+      "index": 7,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Each flag pointed to a question worth asking.",
+      "body": [
+        "Before you trust someone's numbers, check what was earned, what was collected, what was left out, and who checked it."
+      ],
+      "list": [
+        "**Decision 1:** revenue that isn't real yet (counted before it's earned)",
+        "**Decision 2:** cash and profit disagree, and customers who don't pay",
+        "**Decision 3:** adjusted numbers that drop recurring costs",
+        "**Decision 4:** weak oversight, with no independent check"
+      ],
+      "callout": "**Try it today:** take the last set of numbers a partner or supplier gave you. Ask one question from each line above.",
+      "next": "Next · Why two honest sets of books can disagree"
+    }
+  ]
+}

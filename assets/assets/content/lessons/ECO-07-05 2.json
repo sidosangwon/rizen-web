@@ -1,0 +1,235 @@
+{
+  "id": "ECO-07-05",
+  "unitId": "ECO-07",
+  "categoryId": "ECO",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Freemium",
+  "readerTitle": "Why most of your customers should pay nothing",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative",
+    "real_observation"
+  ],
+  "caseNote": "가상 사례 (회계 사무소의 온라인 장부 도구, 사내 데이터팀) + 실제 관찰 (상설 전시 무료·특별전 유료 박물관) · 모든 수치는 설명용",
+  "insight": "무료 버전은 선물이 아니라 고객을 모으는 비용이다. 무료와 유료의 경계는 고객이 성장해서 더 많은 가치를 얻는 순간 자연스럽게 넘게 되는 곳에 긋는다.",
+  "misconception": "무료로 많이 퍼뜨리면 일부는 알아서 돈을 낸다. 또는 무료 버전은 일단 약하게 만들어야 유료 전환이 잘 된다.",
+  "relatedLessonIds": [
+    "ECO-05-05",
+    "ECO-02-02"
+  ],
+  "sources": [
+    {
+      "text": "프리미엄(freemium) 가격 구조에 대한 일반적인 경영·가격 전략 개념",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "3번 카드 계산: 무료 사용자 1,000곳 × 월 $0.50 = $500, 유료 전환 40곳(4%) × 월 $30 = $1,200, $1,200 − $500 = $700. 4%는 설명용 가정이며 업계 평균 전환율로 제시하지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "6번 카드의 박물관 사례는 특정 기관 이름 없이 '많은 박물관'으로 일반화했습니다. 상설 전시 무료·특별전 유료 구조는 여러 국립 박물관에서 볼 수 있으나, 특정 기관을 예로 들 경우 게시 전 현재 요금 정책을 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "'대부분의 무료 사용자는 끝까지 돈을 내지 않는다'는 일반적 서술입니다. 구체적 전환율 통계는 의도적으로 넣지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Pricing · Everyday scene",
+      "title": "Why most of your customers should pay nothing",
+      "body": [
+        "Look at the apps on your phone. You probably use several every week and have never paid for them.",
+        "For the businesses behind them, that isn't a failure. Most of their customers are *meant* to pay nothing. A few pay for everyone."
+      ],
+      "image": {
+        "label": "A phone screen full of free apps, one with a small gold badge",
+        "aspectRatio": "4:3",
+        "brief": "손에 든 스마트폰 화면에 앱 아이콘 12개. 대부분 회색 'FREE' 태그, 한 개만 작은 금색 'PRO' 배지. 실제 앱 로고나 상표는 쓰지 말고 단순한 도형 아이콘으로.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Where should the free version end?",
+      "illustrative": true,
+      "body": [
+        "You run a bookkeeping firm. You've built a simple online tool where small businesses track invoices and expenses. Running it costs you very little per extra customer.",
+        "You want it to bring in paying clients. How do you price it?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Free forever up to 20 invoices a month; pay $30 a month beyond that",
+            "verdict": "best",
+            "feedback": "Small customers stay and build a habit at little cost to you. The ones who grow hit the limit exactly when the tool matters most to them."
+          },
+          {
+            "key": "B",
+            "text": "Free forever, unlimited, and hope users hire your firm for tax work",
+            "verdict": "risky",
+            "feedback": "You win goodwill and lots of users, but there is no line anyone needs to cross. Many happy users may never pay."
+          },
+          {
+            "key": "C",
+            "text": "Free for the first 30 days, then $30 a month",
+            "verdict": "partial",
+            "feedback": "You find out quickly who will pay. But small businesses not ready yet simply leave, instead of staying until they grow into a paying client."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What happens",
+      "title": "A year later, most users still pay nothing.",
+      "illustrative": true,
+      "body": [
+        "Nearly all users stay free. The ones who upgrade are those who grew: they hired staff, sent more invoices, and their records already live in your tool. Moving would be a hassle, so they pay."
+      ],
+      "breakdown": [
+        {
+          "value": "1,000",
+          "label": "Free users",
+          "detail": "Small businesses using the tool",
+          "highlight": false
+        },
+        {
+          "value": "−$500",
+          "label": "Cost of free users",
+          "detail": "About $0.50 each per month",
+          "highlight": false
+        },
+        {
+          "value": "+$1,200",
+          "label": "Paying users",
+          "detail": "40 upgrade at $30 a month",
+          "highlight": false
+        },
+        {
+          "value": "$700",
+          "label": "Left each month",
+          "detail": "Before counting tax clients they bring",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Freemium",
+      "body": [
+        "**Freemium** means a basic version is free forever, and a premium version is paid. The name blends *free* and *premium*.",
+        "The free version isn't charity. It replaces part of your marketing budget. Instead of paying to find customers, you pay to serve free users, and some of them grow into paying ones."
+      ],
+      "softwareNote": "In software, free users can also spread the product. When a free user shares a file or invites a colleague, the newcomer arrives at almost no cost, so each free user may bring in others."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "The whole model lives in one line.",
+      "body": [
+        "Most freemium offers draw the line between free and paid in one of three ways:"
+      ],
+      "list": [
+        "**How much:** a cap on use, like 20 invoices a month",
+        "**What:** extra features, like reports or support",
+        "**How many people:** free for one person, paid for a team"
+      ],
+      "callout": "A good line is crossed when the customer is getting more value, not when they're being punished.",
+      "softwareNote": "In software these are often called usage limits, feature gates and seats."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond apps",
+      "title": "Free entry, paid extras.",
+      "body": [
+        "Freemium isn't only digital. Many museums let anyone see the permanent collection for free and charge for special exhibitions. Free visits build the habit; the keenest visitors pay for more.",
+        "A consulting firm can do the same. It publishes useful research for free, and the clients who want answers for their own situation pay for custom work."
+      ],
+      "image": {
+        "label": "A museum hall open to all, with a ticketed door to a special exhibition",
+        "aspectRatio": "16:9",
+        "brief": "밝은 박물관 로비. 왼쪽 넓은 전시실은 'Free' 표지판과 많은 관람객, 오른쪽 작은 문 앞에 'Special exhibition · Ticket' 표지와 몇 명의 관람객. 실제 박물관 이름이나 로고는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Free only works when free is cheap.",
+      "body": [
+        "Freemium depends on each extra free user costing you almost nothing. If every free user needs a person's time, like a free consultation, costs grow with every sign-up and can sink you.",
+        "The line is also hard to move. Make free too generous and nobody upgrades. Too weak and nobody stays. Taking away something people got for free later feels like a loss, and they notice."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now you lead a data team inside a company.",
+      "illustrative": true,
+      "body": [
+        "Every department wants reports from your team. Requests pile up, and the loudest managers get served first. Leadership lets you charge work to other departments' budgets.",
+        "What do you set up?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Standard dashboards free for everyone; custom analysis billed to the requesting department",
+            "verdict": "best",
+            "feedback": "Everyone gets the basics and the habit of using data. Custom work now has a price, so departments ask only for what they truly value."
+          },
+          {
+            "key": "B",
+            "text": "Keep everything free and work through requests in order",
+            "verdict": "risky",
+            "feedback": "No one is turned away, but nothing limits demand. Your team stays a bottleneck and big projects wait behind small ones."
+          },
+          {
+            "key": "C",
+            "text": "Charge departments for everything, including standard dashboards",
+            "verdict": "partial",
+            "feedback": "Demand drops fast. But some teams go back to their own spreadsheets, and you lose the users who would later have asked for bigger projects."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Give most customers a free start, and charge where they grow.",
+      "body": [
+        "Freemium works when free users are cheap to serve and the paid line sits where customers get more value.",
+        "**Try it today:** list what you could offer for free at almost no cost. Then ask: when a customer grows, what would they need next?"
+      ],
+      "next": "Next · Should customers pay once or every month?"
+    }
+  ]
+}

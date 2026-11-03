@@ -1,0 +1,282 @@
+{
+  "id": "SAL-04-10",
+  "unitId": "SAL-04",
+  "categoryId": "SAL",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Negotiate your salary",
+  "readerTitle": "Four decisions that decide your salary",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.1,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (호텔 레스토랑 주방 관리자가 가사 청소 서비스 회사의 운영 관리자 자리를 두고 연봉 협상) · 모든 인물과 수치는 설명용",
+  "insight": "연봉 협상의 승부는 대화 중의 말솜씨보다 대화 전에 정한 대안과 하한선, 그리고 상대가 내건 숫자 뒤의 이유를 묻는 데서 갈린다.",
+  "misconception": "연봉 협상은 기본급 숫자 하나를 두고 누가 더 버티느냐의 싸움이다. 처음 부른 숫자는 끝까지 지켜야 한다.",
+  "relatedLessonIds": [
+    "SAL-04-01",
+    "SAL-04-05"
+  ],
+  "sources": [
+    {
+      "text": "Fisher, R. & Ury, W. (1981). Getting to Yes. BATNA 개념의 출처",
+      "url": null
+    },
+    {
+      "text": "Galinsky, A. & Mussweiler, T. (2001). First offers as anchors. Journal of Personality and Social Psychology. 첫 제안의 앵커링 효과",
+      "url": null
+    },
+    {
+      "text": "인물, 회사, 급여 수치는 모두 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 급여 수치는 설명용 가상 수치이며 특정 지역이나 직종의 실제 시세가 아닙니다. 계산 확인: 대안(잔류) $55,000 + 주중 근무의 가치 약 $3,000 = 하한선 $58,000. 최종 기본급 $60,000 − 하한선 $58,000 = $2,000. 6개월 후 조건 충족 시 $65,000.",
+      "status": "open"
+    },
+    {
+      "note": "첫 제안의 앵커링 효과는 Galinsky & Mussweiler(2001) 등 협상 연구에서 반복 확인된 내용입니다. 카드에는 구체적 효과 크기를 적지 않았습니다. 인용 서지 정보를 게시 전에 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "연봉 협상 관행은 나라, 업종, 노조·공공부문 급여 체계에 따라 크게 다릅니다. Watch out 카드에 이 한계를 적었고, 특정 국가의 노동법 조언은 담지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Negotiation · Simulation",
+      "title": "Four decisions that decide your salary",
+      "illustrative": true,
+      "body": [
+        "Dana runs the kitchen at a busy hotel restaurant. A growing home-cleaning company wants her as its operations manager: scheduling crews, handling complaints, keeping bookings full.",
+        "The interview went well. Now comes the part most people dread: talking about money. You'll make four calls for her, one after another."
+      ],
+      "image": {
+        "label": "A kitchen manager in an apron looking at a job offer letter",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 앞치마를 두른 주방 관리자가 주방 뒤편에서 휴대폰 속 채용 제안 화면을 보고 있음. 한쪽에는 냄비와 주문표, 다른 쪽 창밖으로 청소 도구를 실은 작은 밴. 실제 회사 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "text",
+      "eyebrow": "The setup",
+      "title": "What Dana knows before the call",
+      "illustrative": true,
+      "body": [
+        "Before the call, Dana writes down the facts."
+      ],
+      "list": [
+        "**Today:** $52,000 a year, with weekend shifts",
+        "**If she stays:** the hotel has offered $55,000",
+        "**The market:** similar operations jobs in her city are posted at $58,000–$68,000",
+        "**The new job:** weekdays only, which matters to her family"
+      ],
+      "callout": "The cleaning company knows none of this yet."
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 4",
+      "title": "What should Dana settle before the call?",
+      "illustrative": true,
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The number she'd love to get, so she can aim high",
+            "verdict": "partial",
+            "feedback": "A good target, but a dream number doesn't tell her when to say no. Without a floor, anything close to it will feel acceptable."
+          },
+          {
+            "key": "B",
+            "text": "Nothing yet. Hear their offer first, then react",
+            "verdict": "risky",
+            "feedback": "She stays flexible but gives up control. Any offer will sound fine in the moment, even one below what staying would pay."
+          },
+          {
+            "key": "C",
+            "text": "Her best option if this falls through, and the lowest package she'd accept",
+            "verdict": "best",
+            "feedback": "Her fallback is staying at $55,000 with weekends. Weekdays off are worth about $3,000 a year to her, so her floor is $58,000. Now she knows when to walk."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 4",
+      "title": "Say you chose C. The owner asks: \"What are you expecting?\"",
+      "illustrative": true,
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "\"$68,000, based on posted roles and my experience running a team of twelve.\"",
+            "verdict": "best",
+            "feedback": "A specific first number with a reason pulls the talk toward it. The owner may counter, but from near $68,000, not $55,000."
+          },
+          {
+            "key": "B",
+            "text": "\"Whatever you think is fair.\"",
+            "verdict": "risky",
+            "feedback": "Polite, but it hands the owner the first number. If they say $54,000, Dana starts below her own floor."
+          },
+          {
+            "key": "C",
+            "text": "\"Somewhere between $58,000 and $68,000.\"",
+            "verdict": "partial",
+            "feedback": "It sounds flexible, but the owner will hear $58,000. Dana has just opened with her floor."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 4",
+      "title": "Say you chose A. The owner replies: \"Our cap for this role is $60,000.\"",
+      "illustrative": true,
+      "body": [
+        "That's above Dana's floor, but well below her ask."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Accept $60,000. It clears her floor",
+            "verdict": "partial",
+            "feedback": "A safe deal, but she stops at the owner's position without learning why it's there. Value may be left on the table."
+          },
+          {
+            "key": "B",
+            "text": "Hold firm at $68,000 or walk away",
+            "verdict": "risky",
+            "feedback": "She protects her number but may lose a job she wants over a figure the owner truly can't move this year."
+          },
+          {
+            "key": "C",
+            "text": "Ask what's behind the cap, then look at other terms",
+            "verdict": "best",
+            "feedback": "The owner explains: the other managers earn $60,000, and cash is tight before the spring rush. That opens room for a raise tied to results, or extra time off."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Decision 4 of 4",
+      "title": "Say you chose C. Here's the new offer.",
+      "illustrative": true,
+      "body": [
+        "**$60,000** to start. A written review at six months, rising to $65,000 if she cuts missed bookings to an agreed target. Five extra paid days off. The owner needs an answer by Friday."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Accept. It clears her floor and beats staying",
+            "verdict": "best",
+            "feedback": "The base alone is $2,000 above her floor, before the review and the days off. She gets a good deal and starts with goodwill."
+          },
+          {
+            "key": "B",
+            "text": "Keep pushing for $68,000. That was her number",
+            "verdict": "risky",
+            "feedback": "Her first number was an anchor, not a limit. Pushing past a deal that already works can cost the trust she'll need on day one."
+          },
+          {
+            "key": "C",
+            "text": "Mention the hotel's counteroffer to squeeze out a little more",
+            "verdict": "partial",
+            "feedback": "It might add a bit, but the hotel offered less than this. If the owner asks for the figure, the leverage is gone."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "breakdown",
+      "eyebrow": "Where it landed",
+      "title": "The deal had to fit between two limits.",
+      "illustrative": true,
+      "breakdown": [
+        {
+          "value": "$55,000",
+          "label": "Staying at the hotel",
+          "detail": "Dana's best alternative",
+          "highlight": false
+        },
+        {
+          "value": "$58,000",
+          "label": "Dana's floor",
+          "detail": "Alternative plus the value of weekdays off",
+          "highlight": false
+        },
+        {
+          "value": "$60,000",
+          "label": "Agreed base",
+          "detail": "The owner's real cap this year",
+          "highlight": true
+        },
+        {
+          "value": "$65,000",
+          "label": "After six months",
+          "detail": "If missed bookings hit the target",
+          "highlight": false
+        },
+        {
+          "value": "$68,000",
+          "label": "Dana's opening ask",
+          "detail": "The anchor that set the range",
+          "highlight": false
+        }
+      ],
+      "softwareNote": "In software jobs the extra terms often include equity, a signing bonus or remote days. Same move: when the base is capped, ask why, then trade on what costs the company less than it's worth to you."
+    },
+    {
+      "index": 8,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "These moves have limits.",
+      "body": [
+        "An ambitious first number needs a real reason behind it. A number pulled from the air can make you look unprepared or unrealistic.",
+        "You'll work with this person every day. Bluffing about other offers or squeezing every dollar can win the call and cost the relationship.",
+        "And some employers can't negotiate at all: fixed pay scales, union contracts or public-sector bands. There, the extra terms may be the only room you have."
+      ]
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Know your floor, name a number, then ask why.",
+      "body": [
+        "Each of Dana's decisions used one idea from this unit."
+      ],
+      "list": [
+        "**Before the call:** your best alternative sets your walk-away point",
+        "**First number:** a reasoned anchor shapes the whole range",
+        "**\"Our cap is $60,000\":** ask about interests behind the position, then expand the pie",
+        "**The final offer:** say yes when it sits inside the zone where both sides gain"
+      ],
+      "callout": "**Try it today:** write down your best alternative to a deal you're working on, and the lowest terms you'd accept. Then list two things besides price you could trade.",
+      "next": "Next · A new unit begins"
+    }
+  ]
+}

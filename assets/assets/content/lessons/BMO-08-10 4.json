@@ -1,0 +1,238 @@
+{
+  "id": "BMO-08-10",
+  "unitId": "BMO-08",
+  "categoryId": "BMO",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "A new technology halves your price",
+  "readerTitle": "Your rival's robot charges half. Now what?",
+  "format": "everyday_scene",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (레스토랑 예약 전화 대행 업체 Tablebook과 AI 전화 상담 경쟁사) · 모든 인물과 수치는 설명용",
+  "insight": "새 기술이 가격을 반으로 낮추면 싸워야 할 상대는 가격이 아니다. 가치가 어디로 옮겨 가는지 따라가서 아직 귀한 부분에서 돈을 받아야 한다.",
+  "misconception": "값싼 기술이 나오면 가격을 맞추거나 사람의 손길을 내세워 버티는 것 중 하나를 골라야 한다.",
+  "relatedLessonIds": [
+    "BMO-08-03",
+    "BMO-08-06"
+  ],
+  "sources": [
+    {
+      "text": "모든 인물, 업체명, 수치는 설명용 가상 예시",
+      "url": null
+    },
+    {
+      "text": "유닛 BMO-08의 개념 레슨(기술 확산, 일의 재설계, 한계비용 0, 자동화와 사람의 역할, 가치 획득)을 종합한 시뮬레이션",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Tablebook, 고객 식당 40곳, 월 $600, 경쟁사 월 $300은 모두 가상 수치입니다. 실제 AI 예약 전화 서비스의 시장 가격은 확인하지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "통화 분류 계산: 2,000건 중 10건에 8건이 단순 통화이면 1,600건, 나머지 400건이 복잡한 통화입니다. 카드에는 비율만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "\"새 기술은 계속 좋아지고 싸지는 경향이 있다\"는 일반적 경향으로만 적었고 특정 통계를 인용하지 않았습니다. AI 응대 사실 고지 등 국가별 법적 요건은 다루지 않습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business models · Simulation",
+      "title": "Your rival's robot charges half. Now what?",
+      "illustrative": true,
+      "body": [
+        "You run Tablebook, a small team that answers phones and takes reservations for 40 local restaurants. Each restaurant pays you $600 a month.",
+        "This morning, three owners forwarded you the same ad: an AI phone agent that books tables around the clock for $300 a month. Over the next four decisions, you choose what happens to your business."
+      ],
+      "image": {
+        "label": "A small call team beside a glowing phone robot with a half-price tag",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 왼쪽에 헤드셋을 쓴 직원 세 명이 앉은 작은 예약 데스크, 오른쪽에 \"$300\" 가격표를 단 반짝이는 전화기 로봇. 뒤쪽에 식당 간판 몇 개. 실제 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 4",
+      "title": "Owners are asking for a discount.",
+      "illustrative": true,
+      "body": [
+        "Your callers are friendly and know each restaurant well. But the AI agent sounds natural, never sleeps, and costs half.",
+        "What's your first move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Match $300 right away and keep everything else the same",
+            "verdict": "risky",
+            "feedback": "You keep clients this month, but your cost per call hasn't changed. Half the revenue with the same payroll means losing money from day one."
+          },
+          {
+            "key": "B",
+            "text": "Hold your price and stress the human touch",
+            "verdict": "partial",
+            "feedback": "Some owners will stay for a while. But new tools tend to keep getting better and cheaper, so the quality gap you're counting on is likely to shrink."
+          },
+          {
+            "key": "C",
+            "text": "Try the agent yourself on real calls and sort which calls owners care about most",
+            "verdict": "best",
+            "feedback": "You learn what the machine does well before betting the business on a guess. It costs a few weeks, and every later choice gets better information."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 4",
+      "title": "Say you chose to test. Here's what you found.",
+      "illustrative": true,
+      "body": [
+        "Over two weeks you sort 2,000 calls. About 8 in 10 are routine: opening hours, a table for two, a change of time. The agent handles them fine.",
+        "The other 2 in 10 are messy: groups of 12, severe allergies, complaints, private events. These are the calls owners talk about, and they bring in the biggest bills. How do you split the work?"
+      ],
+      "image": {
+        "label": "A stack of calls split 80/20 into routine and complex",
+        "aspectRatio": "16:9",
+        "brief": "전화 아이콘 더미가 두 갈래로 나뉨. 큰 쪽(80%)은 \"Routine\" 라벨로 로봇에게, 작은 쪽(20%)은 \"Complex\" 라벨로 사람에게. 작은 쪽에 케이크, 단체 테이블, 알레르기 경고 아이콘.",
+        "url": null
+      },
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Let the agent take every call",
+            "verdict": "risky",
+            "feedback": "It's the cheapest setup, but the hard calls are where one mistake costs a restaurant a big party or a sick guest. You'd automate the part owners value most."
+          },
+          {
+            "key": "B",
+            "text": "Use the agent only after hours and keep people on everything else",
+            "verdict": "partial",
+            "feedback": "Safe and simple. But you keep paying people for thousands of routine calls a machine handles just as well."
+          },
+          {
+            "key": "C",
+            "text": "The agent takes routine calls and hands complex ones to a person, details already filled in",
+            "verdict": "best",
+            "feedback": "Machines for the repeatable, people for judgment and high stakes. Callers get speed and care, and your team spends its time where it matters."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 4",
+      "title": "Say you chose the split. The tool is new. The job isn't.",
+      "illustrative": true,
+      "body": [
+        "A month later, the agent is live. But your team still works the same shifts, waiting by the phones.",
+        "Complex calls arrive in bursts, so people sit idle for long stretches. What do you change?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep the shifts as they are, since quality is up",
+            "verdict": "risky",
+            "feedback": "Nothing breaks, but you pay for the old way of working on top of a new tool. Costs stay high while prices keep falling."
+          },
+          {
+            "key": "B",
+            "text": "Cut the team in half to match the lower call volume",
+            "verdict": "partial",
+            "feedback": "Payroll drops fast. But you also lose people who could create new value, and complex calls may wait too long at peak times."
+          },
+          {
+            "key": "C",
+            "text": "Rebuild the job: each person owns a set of restaurants, follows up every big-group inquiry and fills cancellations from a waitlist",
+            "verdict": "best",
+            "feedback": "The work shifts from answering phones to winning bookings. Each person now brings in money owners can see."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 4 of 4",
+      "title": "Say you rebuilt the job. Now set the price.",
+      "illustrative": true,
+      "body": [
+        "Routine calls now cost you almost nothing extra. One more call to the agent costs pennies. Your rival has the same kind of tool, so the price of routine booking will keep falling.",
+        "Meanwhile, your team is filling tables owners used to lose. How do you charge?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep $600 for everything, because the service is better",
+            "verdict": "risky",
+            "feedback": "Owners can compare. They'll see $300 for the routine part elsewhere and wonder what the other $300 buys."
+          },
+          {
+            "key": "B",
+            "text": "Drop to $300 for everything to match the rival",
+            "verdict": "partial",
+            "feedback": "You stay competitive, but you give away the booking team, the part rivals can't easily copy, for free."
+          },
+          {
+            "key": "C",
+            "text": "Price routine booking near the rival, and charge separately for the booking team based on tables it fills",
+            "verdict": "best",
+            "feedback": "The savings on routine calls go to owners, as they would anyway. You earn on what stays scarce: judgment and relationships that bring in money."
+          }
+        ],
+        "afterReveal": null
+      },
+      "callout": "A low price on the part anyone can copy. A real price on the part only you do well."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Today's hard calls become tomorrow's routine.",
+      "body": [
+        "The line between routine and complex keeps moving. As AI agents improve, some calls only people handle today will become easy for machines. The booking team must keep finding new value, not defend old tasks.",
+        "Charging on tables filled also needs trust. Owners must believe your numbers, so agree on how a booking is counted before you send the first bill."
+      ],
+      "softwareNote": "If you build the AI agent, the same logic applies to you. When several companies offer similar voice tools, competition hands the savings to customers. Value tends to stay with whoever owns the scarce piece, such as restaurant data, integrations or trust."
+    },
+    {
+      "index": 7,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Cheaper technology moves the value. Follow it.",
+      "body": [
+        "Each decision you made maps to an idea from this unit:"
+      ],
+      "list": [
+        "**Decision 1 · How technology spreads:** new tools keep improving, so learn what they do well before you match or ignore them.",
+        "**Decision 2 · What to automate:** machines for repeatable work, people for judgment and high stakes.",
+        "**Decision 3 · Redesign the work:** a new tool inside an old job only adds cost. Rebuild the job around it.",
+        "**Decision 4 · Zero marginal cost and who captures value:** when extra units cost almost nothing and rivals share the tool, savings flow to customers. Charge for what stays scarce."
+      ],
+      "callout": "**Try it today:** list five tasks customers pay you for. Mark the ones a cheap tool could do within a year. Where will your price come from then?",
+      "next": "Next · A new unit in Business Models begins"
+    }
+  ]
+}

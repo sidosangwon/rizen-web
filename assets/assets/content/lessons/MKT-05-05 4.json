@@ -1,0 +1,267 @@
+{
+  "id": "MKT-05-05",
+  "unitId": "MKT-05",
+  "categoryId": "MKT",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Viral growth",
+  "readerTitle": "Two million views, zero growth: what viral really means",
+  "format": "counterexample",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative",
+    "real_company"
+  ],
+  "caseNote": "가상 사례 (선물 가게, 사내 분석팀 대시보드) + 실제 기업 (Hotmail의 이메일 서명) · 수치는 모두 설명용",
+  "insight": "바이럴 성장은 한 번 크게 퍼지는 사건이 아니라, 고객이 제품을 쓰는 행위 자체가 다음 고객을 데려오는 구조다. 그 비율(K)이 1보다 작아도 다른 모든 고객 확보를 몇 배로 키운다.",
+  "misconception": "바이럴은 영상이나 캠페인이 한 번 크게 터지는 것이다. K가 1을 넘지 못하면 바이럴은 의미가 없다.",
+  "relatedLessonIds": [
+    "MKT-05-01",
+    "MKT-05-04"
+  ],
+  "sources": [
+    {
+      "text": "바이럴 계수(K)와 등비급수 배수 1/(1−K): 성장 마케팅의 표준 개념",
+      "url": null
+    },
+    {
+      "text": "Hotmail의 이메일 하단 초대 문구에 관한 공개 자료 (창업자·투자자 인터뷰, 업계 기사)",
+      "url": null
+    },
+    {
+      "text": "선물 가게, 사내 대시보드 사례와 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "계산 확인: K = 고객당 선물 2개 × 수신자 전환율 25% = 0.5. 광고 고객 1,000명의 총 고객 = 1,000 × 1/(1−0.5) = 2,000명 (1,000 + 500 + 250 + 125 + …). 차트: K=0 → 1,000, K=0.2 → 1,250, K=0.5 → 2,000, K=0.8 → 5,000.",
+      "status": "open"
+    },
+    {
+      "note": "Hotmail: 보낸 모든 이메일 하단에 무료 계정 가입을 권하는 문구가 붙었다는 점은 널리 알려져 있습니다. 가입자 수와 기간 등 구체적 수치는 출처마다 달라 카드에 넣지 않고 \"grew very fast with little advertising\"으로만 적었습니다. 게시 전 1차 출처로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "\"K가 1을 넘는 상태는 드물고 오래가지 않는다\"는 일반적 관찰로 표현했습니다. 특정 통계를 인용하지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Growth · Counterexample",
+      "title": "Two million views, zero growth",
+      "illustrative": true,
+      "body": [
+        "A home goods shop posts a funny video. It gets two million views. Sales jump for a week, then fall back to normal.",
+        "Across town, a small gift shop never goes viral once. Yet it grows every month, and most new customers arrive without a single ad."
+      ],
+      "image": {
+        "label": "A spiking line next to a steadily rising line",
+        "aspectRatio": "4:3",
+        "brief": "두 가게를 나란히. 왼쪽 가게 위에는 한 번 치솟았다 바로 꺼지는 그래프와 조회수 아이콘. 오른쪽 작은 선물 가게 위에는 작은 계단처럼 꾸준히 올라가는 그래프. 실제 SNS 로고나 브랜드는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "One growth push for your gift shop",
+      "illustrative": true,
+      "body": [
+        "You run a gift shop with a small online store. You have budget for one growth push this quarter.",
+        "Which is most likely to keep bringing in new customers?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Hire a creator to make a stunt video built to go viral",
+            "verdict": "risky",
+            "feedback": "You might get a big spike in attention. But viewers rarely become buyers who bring more buyers, so the spike fades."
+          },
+          {
+            "key": "B",
+            "text": "Ship every gift in a branded box with a card giving the recipient a code for their first order",
+            "verdict": "best",
+            "feedback": "Every sale now puts your shop in front of a new person who already likes what they got. Growth repeats with each order instead of happening once."
+          },
+          {
+            "key": "C",
+            "text": "Run a giveaway: share our post to enter",
+            "verdict": "partial",
+            "feedback": "Shares spread your name widely. But people who enter for a prize often don't buy, and the spreading stops when the giveaway ends."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Follow 1,000 customers.",
+      "illustrative": true,
+      "body": [
+        "Say 1,000 customers come from ads. They bring 500. Those bring 250, then 125, and so on. In the end, 1,000 ad customers become about **2,000** customers."
+      ],
+      "breakdown": [
+        {
+          "value": "2",
+          "label": "Gifts per customer",
+          "detail": "Each buyer sends two gifts on average",
+          "highlight": false
+        },
+        {
+          "value": "25%",
+          "label": "Recipients who buy",
+          "detail": "One in four uses the code",
+          "highlight": false
+        },
+        {
+          "value": "0.5",
+          "label": "New customers per customer",
+          "detail": "2 × 25%",
+          "highlight": true
+        },
+        {
+          "value": "×2",
+          "label": "Total from ads",
+          "detail": "1,000 becomes about 2,000",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Viral growth",
+      "body": [
+        "**Viral growth** happens when using your product puts it in front of new people, so customers bring in customers.",
+        "It's different from word of mouth, where people choose to talk, and from referrals, where you ask and reward. Here the spread is built into normal use. The gift box travels because the gift does.",
+        "The key number is the **viral coefficient**, or K: how many new customers each customer brings. Here K is 0.5."
+      ],
+      "image": {
+        "label": "A chain: customer, gift box, new customer, gift box",
+        "aspectRatio": "16:9",
+        "brief": "연쇄 다이어그램. 고객 → 선물 상자 → 받은 사람이 새 고객이 됨 → 다시 선물 상자. 각 단계에 \"2 gifts\", \"25% buy\" 라벨. 상자에는 가상의 가게 이름만, 실제 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "chart",
+      "eyebrow": "The twist",
+      "title": "K below 1 still multiplies everything.",
+      "illustrative": true,
+      "body": [
+        "Many people think viral only counts if K is above 1, when growth feeds itself forever. That's rare and rarely lasts.",
+        "But any K multiplies your other growth. The total is roughly your ad customers × 1 ÷ (1 − K). At 0.8, every ad customer becomes five."
+      ],
+      "chart": {
+        "unit": "count",
+        "groups": [
+          {
+            "label": "Total customers from 1,000 ad customers",
+            "rows": [
+              {
+                "label": "K = 0",
+                "value": 1000,
+                "highlight": false
+              },
+              {
+                "label": "K = 0.2",
+                "value": 1250,
+                "highlight": false
+              },
+              {
+                "label": "K = 0.5",
+                "value": 2000,
+                "highlight": true
+              },
+              {
+                "label": "K = 0.8",
+                "value": 5000,
+                "highlight": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "A real example",
+      "title": "Every email was an ad.",
+      "body": [
+        "Hotmail, one of the first free web email services, added a short line at the bottom of every message its users sent: an invitation to get a free account.",
+        "Using the product advertised it. Each email reached someone new, from a friend they trusted. Hotmail grew very fast with little advertising.",
+        "The famous video in the hook had huge reach but a K near zero. Viewers watched, but didn't become customers who reached others."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Viral loops can break or backfire.",
+      "body": [
+        "**K falls as you grow.** Once most people nearby have seen your box, fewer new ones are left to reach.",
+        "Pushy spreading costs trust. Auto-sent invites and spammy messages may lift K for a month, then make people avoid you.",
+        "And spread is not success. If the people a loop brings in don't stay, you're filling a leaky bucket faster."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a team inside a big company.",
+      "illustrative": true,
+      "body": [
+        "You lead an analytics team at a large company. You built a dashboard tool and want 40 other teams to use it. You can't hire marketers.",
+        "What's most likely to spread it?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "A company-wide email and a live demo at the next all-hands",
+            "verdict": "partial",
+            "feedback": "You'll get a burst of sign-ups. But it's a one-time spike. Nothing in it brings the next team in."
+          },
+          {
+            "key": "B",
+            "text": "Make every shared report a live link that lets the viewer see their own team's data in one click",
+            "verdict": "best",
+            "feedback": "Each report your users send becomes an invitation for a new team. Use creates the next user, so adoption keeps spreading."
+          },
+          {
+            "key": "C",
+            "text": "Ask leadership to require every team to adopt it",
+            "verdict": "risky",
+            "feedback": "You get logins fast. You also get people who use it because they must, and they won't pull anyone else in."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Viral is a loop, not a moment.",
+      "body": [
+        "Ask how each customer's normal use could reach the next customer. A modest K, kept steady, beats one big spike.",
+        "**Try it today:** list the moments when a customer shows, sends or shares your product with someone else. Pick one and make it easier for that person to become a customer."
+      ],
+      "next": "Next · Growth experiments: testing what actually moves the number"
+    }
+  ]
+}

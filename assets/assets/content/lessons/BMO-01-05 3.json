@@ -1,0 +1,237 @@
+{
+  "id": "BMO-01-05",
+  "unitId": "BMO-01",
+  "categoryId": "BMO",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Margins",
+  "readerTitle": "Amazon's quiet profit engine: why a dollar of sales isn't a dollar",
+  "format": "company_story",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.2,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Amazon 2023 연간 실적: AWS와 나머지 사업) + 가상 적용 (포장 상자 제조사)",
+  "insight": "매출의 크기는 사업의 중요도를 말해 주지 않는다. 매출 1달러에서 얼마가 남는지(마진)를 봐야 어디서 돈을 버는지 보인다.",
+  "misconception": "매출이 큰 사업이 돈도 더 많이 번다. 그리고 마진은 높을수록 무조건 좋다.",
+  "relatedLessonIds": [
+    "BMO-01-04",
+    "BMO-01-06"
+  ],
+  "sources": [
+    {
+      "text": "Amazon.com, Inc. Form 10-K for fiscal year 2023 (segment information: North America, International, AWS)",
+      "url": "https://ir.aboutamazon.com/annual-reports-proxies-and-shareholder-letters/default.aspx"
+    },
+    {
+      "text": "포장 상자 제조사 사례와 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Amazon 2023 10-K 수치 재확인 필요: 총매출 $574.8B, 총영업이익 $36.9B, AWS 매출 $90.8B, AWS 영업이익 $24.6B. 나머지(북미+해외) 매출 574.8 − 90.8 = $484.0B, 영업이익 36.9 − 24.6 = $12.2B(북미 약 $14.9B, 해외 약 −$2.7B).",
+      "status": "open"
+    },
+    {
+      "note": "계산: AWS 영업이익률 24.6 ÷ 90.8 = 27.1%(약 27센트), 나머지 12.2 ÷ 484.0 = 2.5%(약 2.5센트). AWS 매출 비중 90.8 ÷ 574.8 = 15.8%(약 6분의 1), 영업이익 비중 24.6 ÷ 36.9 = 66.7%(약 3분의 2).",
+      "status": "open"
+    },
+    {
+      "note": "'나머지' 부문에는 온라인·오프라인 매장뿐 아니라 광고, 구독(Prime), 판매자 서비스가 포함됩니다. 광고는 마진이 높은 것으로 알려져 있으나 Amazon이 부문별 이익을 따로 공개하지 않으므로 카드에는 수치를 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "가상 제조사 계산: 일반 상자 $2,000,000 × 8% = $160,000, 맞춤 인쇄 상자 $600,000 × 35% = $210,000. 합계 매출 $2.6M, 매출총이익 $370,000.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business models · Company story",
+      "title": "Amazon's quiet profit engine",
+      "body": [
+        "In 2023, Amazon brought in about $575 billion in sales. Most of that came from selling and shipping goods.",
+        "Yet about two-thirds of its operating profit came from a part of the company most shoppers never see: renting out computing power to other businesses."
+      ],
+      "image": {
+        "label": "A huge warehouse next to a small, glowing server room",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 왼쪽에 상자가 가득한 거대한 물류창고, 오른쪽에 작은 서버실. 서버실 쪽에서 금화가 더 많이 흘러나오는 장면. 실제 기업 로고, 화살표 미소 마크, 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which part made more profit?",
+      "body": [
+        "Amazon reports its business in parts. In 2023:",
+        "**The store side** (selling, shipping, ads, subscriptions) had about $484 billion in sales. **AWS**, its cloud computing arm, had about $91 billion.",
+        "Which part made more operating profit, the money left after running the business?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The store side. It sold more than five times as much",
+            "verdict": "risky",
+            "feedback": "Size feels like the safe bet. But sales only tell you how much money came in, not how much of it stayed."
+          },
+          {
+            "key": "B",
+            "text": "AWS, by a wide margin",
+            "verdict": "best",
+            "feedback": "Right. AWS made about $24.6 billion. The much bigger store side made about $12.2 billion."
+          },
+          {
+            "key": "C",
+            "text": "Roughly the same, since big sales balance out lower prices",
+            "verdict": "partial",
+            "feedback": "Good instinct that the gap in sales doesn't mean a gap in profit. But the smaller part earned about twice as much."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "Small in sales, big in profit.",
+      "body": [
+        "AWS was about one in six dollars of Amazon's sales, and about two in three dollars of its operating profit."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Sales, 2023 ($ billions)",
+            "rows": [
+              {
+                "label": "Store side",
+                "value": 484,
+                "highlight": false
+              },
+              {
+                "label": "AWS",
+                "value": 91,
+                "highlight": false
+              }
+            ]
+          },
+          {
+            "label": "Operating profit, 2023 ($ billions)",
+            "rows": [
+              {
+                "label": "Store side",
+                "value": 12.2,
+                "highlight": false
+              },
+              {
+                "label": "AWS",
+                "value": 24.6,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Margin",
+      "body": [
+        "**Margin** is the share of each sales dollar you keep after costs, shown as a percentage.",
+        "On the store side, each dollar of sales left about 2.5 cents of operating profit. At AWS, each dollar left about 27 cents. Same dollar coming in, ten times more staying.",
+        "You'll often see two versions. **Gross margin** counts only the cost of what you sold. **Operating margin** also subtracts the cost of running the business, like staff and offices."
+      ],
+      "image": {
+        "label": "Two dollar bills: a thin slice kept vs a thick slice kept",
+        "aspectRatio": "16:9",
+        "brief": "지폐 두 장을 나란히. 왼쪽 지폐는 아주 얇은 조각만 초록색으로 표시 \"2.5¢ kept\", 오른쪽 지폐는 4분의 1 이상이 초록색 \"27¢ kept\". 나머지 부분은 회색으로 \"Costs\" 라벨.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Margin depends on what each sale drags along.",
+      "body": [
+        "Ask what has to happen every time you make one more sale."
+      ],
+      "list": [
+        "**Selling goods:** buy the item, store it, pack it, ship it. Costs grow almost as fast as sales.",
+        "**Renting computing power:** data centers are expensive to build, but once built, many more customers can share them. Each new dollar of sales needs much less new cost.",
+        "**Price power:** customers who depend on a service and find switching hard leave more room to charge."
+      ],
+      "callout": "Two businesses can grow sales at the same speed and keep very different amounts."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A thin margin isn't always a problem.",
+      "body": [
+        "A low margin can be a deliberate choice. Low prices can bring huge volume and loyal customers, and many retailers and distributors run on thin margins on purpose. A thin margin on very large sales can still pay the bills.",
+        "Percent and dollars tell different stories. Forty percent of a tiny business pays fewer bills than five percent of a huge one.",
+        "And a very high margin draws rivals, who may try to win your customers by cutting price."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a box factory.",
+      "illustrative": true,
+      "body": [
+        "You make cardboard boxes. Plain stock boxes bring in $2 million a year at an 8% gross margin: $160,000. Custom printed boxes bring in $600,000 at a 35% margin: $210,000.",
+        "You're setting next year's goal for the sales team. Which goal do you pick?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Grow total sales 20%, whatever the product",
+            "verdict": "risky",
+            "feedback": "Easy to track, but most of that growth will likely come from stock boxes, the easiest sale. You could hit the goal and barely grow profit."
+          },
+          {
+            "key": "B",
+            "text": "Grow gross profit dollars, and pay sales bonuses on profit, not sales",
+            "verdict": "best",
+            "feedback": "This steers effort toward custom work without throwing away the stock box business. You still need to check that the factory has room for more printing jobs."
+          },
+          {
+            "key": "C",
+            "text": "Drop stock boxes and sell only custom work",
+            "verdict": "partial",
+            "feedback": "The margin percentage would jump. But you'd give up $160,000 a year and the steady orders that keep machines busy."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Ask what each dollar keeps, not just how many dollars come in.",
+      "body": [
+        "Sales show how big a business is. Margin shows where the money is actually made.",
+        "**Try it today:** list your two or three main products or services. For each, estimate sales and what's left after the costs of delivering it. Is your biggest seller also your biggest earner?"
+      ],
+      "next": "Next · Why some companies own the factory and others rent it"
+    }
+  ]
+}

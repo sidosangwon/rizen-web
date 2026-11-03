@@ -1,0 +1,225 @@
+{
+  "id": "THK-01-01",
+  "unitId": "THK-01",
+  "categoryId": "THK",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "First principles thinking",
+  "readerTitle": "Why many ramen shops in Japan have no one to take your order",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5,
+  "caseKinds": [
+    "real_observation",
+    "real_company",
+    "anecdote",
+    "illustrative"
+  ],
+  "caseNote": "실제 관찰 (일본 라멘 가게의 식권 자판기) + 실제 기업 일화 (IKEA 납작 포장) + 가상 사례 (국숫집, 소프트웨어 체험판)",
+  "insight": "'원래 이렇게 한다'는 관행과 '반드시 그래야 하는' 기본 조건을 나누면, 관행을 빼고 더 단순한 방법을 다시 조립할 수 있다.",
+  "misconception": "잘되는 가게나 경쟁사가 하는 방식을 따라 하는 것이 가장 안전하고 합리적인 방법이다.",
+  "relatedLessonIds": [
+    "THK-01-08",
+    "THK-01-09"
+  ],
+  "sources": [
+    {
+      "text": "일본 라멘·소바 가게의 식권 자판기(食券機) 사용: 일반적으로 알려진 관찰",
+      "url": null
+    },
+    {
+      "text": "IKEA 공식 역사 자료: 납작 포장(flat-pack) 가구의 시작과 Gillis Lundgren 일화",
+      "url": null
+    },
+    {
+      "text": "국숫집과 소프트웨어 체험판 사례는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "일본의 많은 라멘 가게가 입구의 식권 자판기로 주문과 결제를 받는다는 점은 일반적인 관찰입니다. 비율 같은 수치는 쓰지 않았습니다. 게시 전에 표현('many')이 과하지 않은지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "IKEA 납작 포장 일화: 1950년대 직원 Gillis Lundgren이 테이블을 차에 싣기 위해 다리를 뗐다는 이야기는 IKEA가 직접 소개하지만 각색되었을 수 있습니다. 카드에 'a story IKEA itself tells'와 'may be polished'로 일화임을 밝혔습니다. 연도와 인물 이름을 IKEA 자료로 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "국숫집(12석), SaaS 체험판(14일, 첫 데이터 연결 약 3주) 상황은 모두 가상입니다. 수치나 성과 주장은 넣지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Everyday scene",
+      "title": "Why many ramen shops in Japan have no one to take your order",
+      "body": [
+        "Walk into many small ramen shops in Japan and nobody greets you with a menu. Instead, a machine by the door sells you a ticket. You hand it to the cook and sit down.",
+        "No server, no bill at the end. It looks odd at first. It's actually a lesson in questioning how things are \"supposed\" to be done."
+      ],
+      "image": {
+        "label": "Ticket machine at the entrance of a small noodle shop",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 조명의 작은 라멘 가게 입구. 버튼이 여러 개 달린 식권 자판기 앞에 손님 한 명, 뒤로 카운터석과 김이 나는 그릇. 실제 브랜드명, 로고, 읽을 수 있는 상호는 쓰지 않음.",
+        "url": "assets/images/thk-01-01-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Your noodle bar jams up at lunch.",
+      "illustrative": true,
+      "body": [
+        "You run a 12-seat noodle bar. At lunch, the kitchen keeps up fine. But customers wait to order, wait for their bowl, then wait again to pay. Your one server is always running.",
+        "What do you change first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Hire a second server for the lunch rush",
+            "verdict": "partial",
+            "feedback": "It eases the rush, but it adds a wage and keeps every step that caused the waiting. You've made the old process bigger, not simpler."
+          },
+          {
+            "key": "B",
+            "text": "Have customers order and pay at the door before they sit",
+            "verdict": "best",
+            "feedback": "This removes two waits at once and frees the server for food. You give up some table-side service, which matters less in a quick lunch spot."
+          },
+          {
+            "key": "C",
+            "text": "Add four more seats to serve more people",
+            "verdict": "risky",
+            "feedback": "More seats bring more orders and more bills to the same busy server. The lines get longer, not shorter."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What's going on",
+      "title": "The ticket machine skips the \"usual\" steps.",
+      "body": [
+        "A typical restaurant works like this: seat the guest, take the order, cook, serve, bring the bill, take payment. Most owners copy this because every restaurant does it.",
+        "The ticket machine asks a different question: what does a noodle shop *actually need*? The kitchen must know the order. The shop must get paid. That's it.",
+        "A machine does both before the customer sits down. The staff can focus on the one thing only people can do: **cook good noodles fast**."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "First principles thinking",
+      "body": [
+        "**First principles thinking** means breaking a problem down to what must be true, then building a solution back up from there.",
+        "Its opposite is reasoning by copying: \"others do it this way, so we will too.\" Copying is fast and often fine. But it carries along habits that no longer serve a purpose.",
+        "The key move is to separate **fundamentals** (things that must happen) from **conventions** (things that just usually happen)."
+      ],
+      "image": {
+        "label": "A tower of blocks split into must-have and habit",
+        "aspectRatio": "16:9",
+        "brief": "블록 탑 인포그래픽. 왼쪽은 'How it's usually done' 탑(블록마다 'Take order', 'Serve', 'Bring bill' 등). 오른쪽은 'Must-have' 블록 두 개('Kitchen knows the order', 'Shop gets paid')만 남기고 새로 쌓은 더 낮고 단단한 탑. 회색 블록은 관행, 진한 색 블록은 기본 조건.",
+        "url": "assets/images/thk-01-01-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Three questions, in order.",
+      "body": [
+        "You can apply it to almost any routine in your business:"
+      ],
+      "list": [
+        "**What do we do now?** Write the steps down, plainly.",
+        "**What is each step for?** Name the need behind it.",
+        "**Which needs are real?** Keep those. Treat the rest as optional.",
+        "**How would we meet only the real needs?** Build a new version from scratch."
+      ],
+      "callout": "The goal isn't to be different. It's to stop paying for steps nobody needs.",
+      "softwareNote": "In software, conventions hide in onboarding flows, pricing pages and sign-up forms. Ask what each field or screen is *for*, and many turn out to exist only because a competitor has them."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond restaurants",
+      "title": "Does furniture need to travel assembled?",
+      "body": [
+        "In a story IKEA itself tells, an employee in the 1950s took the legs off a table so it would fit in a car. The story may be polished, but the idea stuck.",
+        "Furniture needs to be sturdy in your home. It doesn't need to be built when it leaves the factory. Shipping it flat means smaller boxes, cheaper transport and less damage.",
+        "The convention was \"furniture arrives finished.\" The fundamental was only \"furniture works at home.\""
+      ],
+      "image": {
+        "label": "An assembled table next to its flat-pack box",
+        "aspectRatio": "16:9",
+        "brief": "왼쪽에 조립된 나무 테이블, 오른쪽에 같은 테이블이 부품으로 분해되어 납작한 상자에 담긴 모습. 상자가 작은 승용차 트렁크에 쏙 들어가는 작은 삽화 추가. 실제 브랜드 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/thk-01-01-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Some conventions exist for good reasons.",
+      "body": [
+        "Rebuilding from scratch takes time. You can't do it for every decision, so save it for the routines that cost you the most.",
+        "Also, a step that looks pointless may be doing a hidden job. In a fine-dining restaurant, the server taking your order *is* part of the product. A ticket machine there would remove the very thing guests pay for.",
+        "Before you cut a convention, find out why it started."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software company.",
+      "illustrative": true,
+      "body": [
+        "You sell scheduling software to clinics. Every competitor offers a 14-day free trial, so you do too. But most clinics need about three weeks just to connect their calendars and patient lists. Many trials end before customers see any value.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep the 14-day trial. It's what customers expect",
+            "verdict": "risky",
+            "feedback": "It feels safe because everyone does it. But the trial ends before its purpose, showing value, is met, so you lose buyers you could have won."
+          },
+          {
+            "key": "B",
+            "text": "Ask what the trial is for, then design around that: help set up first, and start the clock once data is connected",
+            "verdict": "best",
+            "feedback": "You keep the real goal, letting clinics see value before paying, and drop the arbitrary 14 days. It costs more setup help up front."
+          },
+          {
+            "key": "C",
+            "text": "Stretch the trial to 30 days",
+            "verdict": "partial",
+            "feedback": "Better than 14 days, but it's still copying the trial format and guessing a number. Clinics that connect slowly will still run out of time."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Ask what must be true, not what is usually done.",
+      "body": [
+        "Separate the needs that are real from the habits that came along with them. Then build only what the real needs require.",
+        "**Try it today:** pick one routine your customers sit through, like ordering, checking in or signing up. Write each step and what it's for. Circle any step whose only reason is \"everyone does it.\""
+      ],
+      "next": "Next · And then what? Seeing the effects behind the first effect"
+    }
+  ]
+}

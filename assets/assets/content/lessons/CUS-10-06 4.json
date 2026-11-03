@@ -1,0 +1,249 @@
+{
+  "id": "CUS-10-06",
+  "unitId": "CUS-10",
+  "categoryId": "CUS",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "When famous findings don't replicate",
+  "readerTitle": "24 jams, 6 jams, and the trouble with famous studies",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft_review",
+  "estimatedMinutes": 3.9,
+  "caseKinds": [
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 연구 (Iyengar & Lepper 2000, 이후 메타분석) + 가상 사례 (찻잎 가게, 진열 위치 실험)",
+  "insight": "유명한 연구 결과는 내 사업의 법칙이 아니라 검증할 가설이다.",
+  "misconception": "선택지가 많으면 항상 덜 팔린다. 논문이나 블로그에 나온 효과는 내 사업에도 그대로 나타난다.",
+  "relatedLessonIds": [
+    "CUS-05-04",
+    "THK-11-05"
+  ],
+  "sources": [
+    {
+      "text": "Iyengar & Lepper (2000). When Choice Is Demotivating. J. of Personality and Social Psychology.",
+      "url": null
+    },
+    {
+      "text": "Scheibehenne, Greifeneder & Todd (2010). Can There Ever Be Too Many Options? A Meta-Analytic Review of Choice Overload. J. of Consumer Research.",
+      "url": null
+    },
+    {
+      "text": "Chernev, Böckenholt & Goodman (2015). Choice Overload: A Conceptual Review and Meta-Analysis. J. of Consumer Psychology.",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "원 연구 수치(24종 vs 6종, 멈춘 비율 60% vs 40%, 멈춘 사람 중 구매 3% vs 30%)는 Iyengar & Lepper(2000) 연구 1의 결과입니다.",
+      "status": "open"
+    },
+    {
+      "note": "Scheibehenne 외(2010) 메타분석은 50개 실험을 묶었고, 평균 효과 크기가 거의 0이었습니다. 효과가 아예 없다는 결론이 아니라 조건에 따라 달라진다는 결론입니다. 카드에도 그렇게 썼습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Chernev 외(2015)가 제시한 조건(선택지의 복잡성, 결정 과제의 어려움, 선호의 불확실성, 결정 목표)을 쉬운 말로 풀었습니다. 표현을 단순하게 하면서 조건 목록을 줄였습니다.",
+      "status": "open"
+    },
+    {
+      "note": "CUS-05-04 \"Choice overload\" 레슨과 겹치지 않도록, 이 레슨은 선택 과부하 자체보다 연구 결과를 해석하는 법에 초점을 둡니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Counterexample",
+      "title": "24 jams, 6 jams, and the trouble with famous studies",
+      "body": [
+        "You've probably heard it: give people too many choices and they buy less. The proof is usually a study about jam.",
+        "The study was real. The rule people took from it is shakier."
+      ],
+      "image": {
+        "label": "A long table of jam jars, one shopper walking away",
+        "aspectRatio": "4:3",
+        "brief": "시식 테이블에 잼 병 24개가 빼곡히 놓여 있고, 쇼핑객 한 명이 빈손으로 지나가는 장면. 3D 클레이 스타일, 따뜻한 색감.",
+        "url": "assets/images/cus-10-06-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "A consultant wants you to cut your range.",
+      "illustrative": true,
+      "body": [
+        "You run a tea shop that stocks 60 teas. A consultant cites the jam study and tells you to cut down to 10.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Cut to 10. The research is clear",
+            "verdict": "risky",
+            "feedback": "The research is less clear than it sounds, as you'll see. And cutting 50 products is hard to undo if you're wrong."
+          },
+          {
+            "key": "B",
+            "text": "Keep the range, add a 'start here' shelf of 6, and test both",
+            "verdict": "best",
+            "feedback": "This tests the idea in your own shop. If simplifying helps, you'll see it. If it doesn't, you've lost little."
+          },
+          {
+            "key": "C",
+            "text": "Add more teas. More choice, more sales",
+            "verdict": "partial",
+            "feedback": "Possibly, but that's also a guess. And every product you add brings its own inventory costs."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The original study",
+      "title": "24 jams vs 6 jams",
+      "body": [
+        "In 2000, Sheena Iyengar and Mark Lepper set up a tasting table in a California grocery store. Some days it had 24 jams, other days 6."
+      ],
+      "chart": {
+        "unit": "%",
+        "groups": [
+          {
+            "label": "Shoppers who stopped at the table",
+            "rows": [
+              {
+                "label": "24 jams",
+                "value": 60,
+                "highlight": false
+              },
+              {
+                "label": "6 jams",
+                "value": 40,
+                "highlight": false
+              }
+            ]
+          },
+          {
+            "label": "Of those, share who bought",
+            "rows": [
+              {
+                "label": "24 jams",
+                "value": 3,
+                "highlight": false
+              },
+              {
+                "label": "6 jams",
+                "value": 30,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "callout": "More choice drew more people in, but far fewer of them bought. It became one of the most quoted findings in business."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "What happened next",
+      "title": "Other researchers struggled to find the same effect.",
+      "body": [
+        "In 2010, Benjamin Scheibehenne and colleagues combined 50 experiments on choice overload. On average, the effect was close to **zero**.",
+        "Some studies found more choice hurt sales. Others found it helped. Many found little difference.",
+        "A 2015 review found choice overload does appear, but only under certain conditions."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "When famous findings don't replicate",
+      "body": [
+        "A finding **replicates** when other researchers repeat the study and get a similar result. Many famous results in psychology and marketing replicate weakly, or only under narrow conditions.",
+        "Common reasons: small samples, one specific setting, and the fact that surprising results get published and shared more than unsurprising ones."
+      ],
+      "image": {
+        "label": "One bold result, many faint repeats",
+        "aspectRatio": "16:9",
+        "brief": "큰 굵은 막대 하나(원 연구) 옆에 작고 흐린 막대 여러 개(재현 실험). 일부는 위로, 일부는 아래로 향함.",
+        "url": "assets/images/cus-10-06-c5.jpg"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "So when does it happen?",
+      "title": "Choice overload depends on the situation.",
+      "list": [
+        "**The options are hard to compare.** Many features, no clear differences.",
+        "**People don't know what they want yet.**",
+        "**The decision feels difficult or risky.**",
+        "**People want to decide quickly.**"
+      ],
+      "callout": "A shopper who already knows they want Earl Grey isn't overwhelmed by 60 teas."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Don't swing to the opposite rule.",
+      "body": [
+        "Weak replication doesn't prove the original idea false. It shows the idea is **conditional**. Too many confusing options can still hurt.",
+        "The mistake is treating any single study, or any \"psychology hack\", as a law for your business."
+      ],
+      "softwareNote": "Online, the same habit looks like copying another company's A/B test, such as a button color that \"lifted sales 21%\". Run it on your own traffic before you change anything."
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "A trade magazine says eye-level shelves lift sales 30%.",
+      "illustrative": true,
+      "body": [
+        "It cites one retailer's results. Your store manager wants to rearrange every shelf this weekend. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Rearrange everything now. 30% is huge",
+            "verdict": "risky",
+            "feedback": "One retailer, one report, unknown conditions. A big number from someone else's store is a reason to test, not to act."
+          },
+          {
+            "key": "B",
+            "text": "Try it in a few aisles first and compare",
+            "verdict": "best",
+            "feedback": "Cheap, reversible, and it tells you about your customers, not theirs."
+          },
+          {
+            "key": "C",
+            "text": "Ignore it. Shelf position never matters",
+            "verdict": "partial",
+            "feedback": "The effect may be smaller than claimed, but \"never\" is also an untested rule. If a test is cheap, run it."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A famous study is a hypothesis for your business, not a rule.",
+      "body": [
+        "Before using a research finding, ask three questions: How big was the study? Has anyone repeated it? Do its conditions match yours?",
+        "**Try it today:** think of one rule you follow because you read it somewhere. How could you test it in your own business?"
+      ],
+      "next": "Next · Persuasion vs manipulation"
+    }
+  ]
+}

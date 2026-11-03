@@ -1,0 +1,251 @@
+{
+  "id": "THK-01-08",
+  "unitId": "THK-01",
+  "categoryId": "THK",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "Rebuild a product's cost from scratch",
+  "readerTitle": "What is a $18 cutting board actually made of?",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.2,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (선물 가게의 도마, 식당의 하우스 드레싱) · 모든 수치는 설명용",
+  "insight": "공급가는 남이 정한 숫자일 뿐이다. 부품부터 원가를 다시 쌓으면 협상 근거가 생긴다. 다만 그 숫자는 바닥값이므로 안전 여유를 더해서 계획해야 한다.",
+  "misconception": "원가를 처음부터 계산하면 그 숫자가 곧 내가 낼 수 있는 진짜 가격이다. 비교는 다른 공급업체 견적끼리만 하면 된다.",
+  "relatedLessonIds": [
+    "THK-01-01",
+    "THK-01-05"
+  ],
+  "sources": [
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "도마 계산: 목재 $3 + 가공 $3 + 오일·라벨 $0.50 + 운송 $1.50 = $8.00. 유통가 $18과의 차이는 $10.",
+      "status": "open"
+    },
+    {
+      "note": "계획 원가: $8.00 + 불량(약 10%) $0.90 + 발주·검수에 드는 본인 시간 $1.00 + 추가 여유 $1.10 = $11.00. $18 대비 $7 차이. 불량 10% 반영 시 $8 ÷ 0.9 = $8.89이므로 $0.90으로 반올림했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "드레싱 계산: 재료 리터당 $3, 조리 인건비 시급 $20 × 15분 ÷ 4리터 = 리터당 $1.25, 합계 $4.25. 구매가 $12/리터.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Everyday scene",
+      "title": "What is a $18 cutting board actually made of?",
+      "illustrative": true,
+      "body": [
+        "Mina runs a small gift shop. Her best seller is a wooden cutting board. She buys it from a distributor for $15 and sells it for $35.",
+        "This month the distributor's new price list says $18. Mina picks up a board and turns it over. It's a piece of wood, some oil and a paper label."
+      ],
+      "image": {
+        "label": "A shop owner holding a wooden cutting board next to a price list",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 조명의 작은 선물 가게 계산대. 주인이 나무 도마를 뒤집어 보고 있고, 옆에 \"$15\"에 줄이 그어지고 \"$18\"로 바뀐 가격표 종이. 실제 브랜드 로고나 상표는 넣지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "The price just went up 20%.",
+      "illustrative": true,
+      "body": [
+        "Mina's margin on the board shrinks from $20 to $17. She wants to respond before her next order.",
+        "What should she do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Get quotes from two other distributors and pick the cheapest",
+            "verdict": "partial",
+            "feedback": "Useful, but she'd only compare one price list with another. If all distributors charge around $18, she learns nothing about what the board should cost."
+          },
+          {
+            "key": "B",
+            "text": "Work out what the board costs to make, part by part",
+            "verdict": "best",
+            "feedback": "This is **first principles thinking**: break the product into parts whose costs you can check. It gives her a number that doesn't come from anyone's price list."
+          },
+          {
+            "key": "C",
+            "text": "Raise her shelf price to $38 and move on",
+            "verdict": "risky",
+            "feedback": "Fast, and it protects her margin for now. But she accepts the new cost without knowing whether it's fair, and her customers pay for it."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "Rebuilding the cost",
+      "title": "Mina calls a local woodworking shop.",
+      "illustrative": true,
+      "body": [
+        "Built from parts, the board comes to about **$8**. The distributor charges $18. That $10 gap isn't all profit. It pays for their storage, sales staff and returns. But now Mina knows what she's paying for."
+      ],
+      "breakdown": [
+        {
+          "value": "$3.00",
+          "label": "Wood",
+          "detail": "Hardwood offcut, one board's worth",
+          "highlight": false
+        },
+        {
+          "value": "$3.00",
+          "label": "Cutting and sanding",
+          "detail": "Local workshop quote, per board",
+          "highlight": false
+        },
+        {
+          "value": "$0.50",
+          "label": "Oil and label",
+          "detail": "Finish plus a printed tag",
+          "highlight": false
+        },
+        {
+          "value": "$1.50",
+          "label": "Delivery",
+          "detail": "Shared van to her shop",
+          "highlight": false
+        },
+        {
+          "value": "$8.00",
+          "label": "Built from parts",
+          "detail": "Compared with $18 from the distributor",
+          "highlight": true
+        }
+      ],
+      "softwareNote": "Software teams can do the same with a tool they pay for per seat. List what it actually does for you, then price each piece: hosting, the features you use, support. You may find you pay for far more than you need."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The idea at work",
+      "title": "A price list is someone else's answer.",
+      "body": [
+        "The $18 started with the distributor's costs and goals, then got rounded to what the market accepts. Comparing it with other distributors only checks one guess against another.",
+        "**First principles** means going down to things you can verify: what the wood costs, what an hour of sanding costs, what a van trip costs. Those facts don't depend on anyone's price list.",
+        "Even if Mina never switches suppliers, she now has an honest number to negotiate with."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Mina is ready to order direct.",
+      "illustrative": true,
+      "body": [
+        "The workshop agrees to make boards for her. The minimum order is 100 boards, paid upfront. She's drafting her plan.",
+        "Which cost per board should she plan with?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "$8, the number she calculated",
+            "verdict": "risky",
+            "feedback": "It's the best case. Any warped board, late delivery or hour she spends checking stock pushes the real cost above it. A plan built on the floor price breaks easily."
+          },
+          {
+            "key": "B",
+            "text": "About $11: $8 plus allowances for defects, her time and a cushion",
+            "verdict": "best",
+            "feedback": "This is a **margin of safety**: plan with a number that still works when things go wrong. At $11 she still saves $7 a board against $18."
+          },
+          {
+            "key": "C",
+            "text": "Stay with the distributor. Going direct is too risky",
+            "verdict": "partial",
+            "feedback": "It avoids the upfront cash and the hassle. But she gives up a likely $7 a board, and she's ignoring a number she just worked to find."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The number you rebuild is always too low.",
+      "body": [
+        "A cost built from parts leaves out the work that holds the parts together. Lists are tidy. Real life adds:"
+      ],
+      "list": [
+        "**Defects:** some boards crack or arrive stained",
+        "**Cash tied up:** 100 boards paid weeks before they sell",
+        "**Your time:** ordering, checking and chasing late deliveries",
+        "**Lost services:** the distributor took returns and kept stock for you"
+      ],
+      "callout": "Use the scratch number to question a price. Add a margin before you bet on it."
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a restaurant's house dressing.",
+      "illustrative": true,
+      "body": [
+        "A restaurant buys its house dressing ready-made at $12 a litre. The chef rebuilds the cost. Oil, vinegar, mustard and herbs come to about $3 a litre. A cook paid $20 an hour makes 4 litres in 15 minutes, which adds $1.25 a litre.",
+        "What should the owner do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Switch today. $4.25 against $12 is an easy win",
+            "verdict": "risky",
+            "feedback": "The first-principles math is right, but $4.25 has no margin. Spoiled batches, a busy cook skipping prep or a taste that changes from day to day would all eat into the savings."
+          },
+          {
+            "key": "B",
+            "text": "Plan at about $6 a litre to cover waste and busy days, and test it for a month",
+            "verdict": "best",
+            "feedback": "**First principles** found the gap. A **margin of safety** keeps the plan realistic. A short test shows whether the cushion is big enough before the restaurant drops its supplier."
+          },
+          {
+            "key": "C",
+            "text": "Keep buying. It's only a dressing",
+            "verdict": "partial",
+            "feedback": "Fair if the restaurant uses very little, since the savings may not be worth the effort. At larger volumes, it's leaving real money on the table every week."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "The same check applies to building a tool in-house instead of paying for it. Developer time is easy to count. Bug fixes, updates and the person who leaves are the costs that need a margin."
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Rebuild the cost, then add a cushion.",
+      "body": [
+        "Break a product into parts you can price yourself. Then plan with a number that survives a bad week.",
+        "**Try it today:** pick one thing you buy in bulk. List its parts and price each one. Compare the total with what you pay, then add 30% and compare again."
+      ],
+      "list": [
+        "**First principles** (THK-01-01): price the parts, not the price list",
+        "**Margin of safety** (THK-01-05): plan above the floor so mistakes don't sink the plan"
+      ],
+      "next": "Next · SpaceX rethinks the cost of a rocket"
+    }
+  ]
+}

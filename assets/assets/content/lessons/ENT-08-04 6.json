@@ -1,0 +1,242 @@
+{
+  "id": "ENT-08-04",
+  "unitId": "ENT-08",
+  "categoryId": "ENT",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "What your company is worth to a buyer",
+  "readerTitle": "Two noodle shops, same profit, very different price",
+  "format": "everyday_scene",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.1,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (국수 가게 두 곳, 치과용 예약 앱) · 모든 수치와 배수는 설명용",
+  "insight": "회사의 가치는 지금까지의 노력이나 매출이 아니라, 주인이 떠난 뒤에도 구매자가 믿고 가져갈 수 있는 미래의 이익이다.",
+  "misconception": "이익이 같으면 회사 가치도 같다. 내가 오래 공들인 만큼 회사 값이 올라간다.",
+  "relatedLessonIds": [
+    "ENT-08-02",
+    "ENT-08-06"
+  ],
+  "sources": [
+    {
+      "text": "기업 가치평가의 표준 개념 (미래 현금흐름, 위험에 따른 이익 배수)",
+      "url": null
+    },
+    {
+      "text": "모든 수치와 배수는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 설명용 가상 수치입니다. 계산: A 가게 $120,000 × 1.5 = $180,000, B 가게 $120,000 × 3 = $360,000, 차이 2배. 배수 1.5와 3은 실제 시장 평균이 아니라 위험 차이를 보여주기 위한 예시입니다. 카드에도 실제 배수는 업종과 시기에 따라 크게 다르다고 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "분할 지급(earn-out) 설명은 일반적인 거래 구조 수준으로만 다뤘습니다. 특정 국가의 법률·세무 조언이 되지 않도록 표현을 다시 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Exits · Everyday scene",
+      "title": "Two noodle shops, same profit, very different price",
+      "illustrative": true,
+      "body": [
+        "Two noodle shops sit on the same street. Each one earns about $120,000 a year in profit after paying all its costs.",
+        "Both owners decide to sell in the same month. One gets an offer twice as high as the other. Nothing about the noodles explains the gap."
+      ],
+      "image": {
+        "label": "Two similar noodle shops side by side on one street",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 일러스트. 같은 거리에 나란히 있는 비슷한 국수 가게 두 곳. 왼쪽은 주인 한 명이 혼자 주방과 계산대를 오가며 바쁨, 오른쪽은 직원들이 일하고 주인은 문 앞에서 여유롭게 서 있음. 각 가게 위에 \"$120k profit\" 같은 작은 표지. 실제 브랜드나 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You're the buyer. Which shop is worth more?",
+      "illustrative": true,
+      "body": [
+        "**Shop A:** the owner cooks every bowl herself. The broth recipe lives in her head. Regulars come to chat with her. The lease ends next year.",
+        "**Shop B:** the owner works two days a week. A trained head cook runs the kitchen from written recipes. The lease runs eight more years."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Shop A. Loyal regulars are hard to build",
+            "verdict": "risky",
+            "feedback": "The loyalty is real, but it's loyalty to her. When she leaves, the recipe, the regulars and maybe the location could leave too."
+          },
+          {
+            "key": "B",
+            "text": "Shop B. Its profit doesn't depend on the owner",
+            "verdict": "best",
+            "feedback": "Right. You'd be buying profit that keeps coming after the owner walks away, in a location you can count on for years."
+          },
+          {
+            "key": "C",
+            "text": "The same. $120,000 is $120,000",
+            "verdict": "partial",
+            "feedback": "Same profit today, yes. But a buyer pays for profit in the coming years, and the chance of keeping it differs a lot."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Same profit, different price.",
+      "illustrative": true,
+      "body": [
+        "Buyers often think of price as yearly profit times a **multiple**: how many years of profit they'll pay up front. The less sure they are of that profit, the lower the multiple. These multiples are made up for the example."
+      ],
+      "breakdown": [
+        {
+          "value": "$120,000",
+          "label": "Yearly profit",
+          "detail": "The same for both shops",
+          "highlight": false
+        },
+        {
+          "value": "× 1.5",
+          "label": "Shop A multiple",
+          "detail": "Profit may leave with the owner",
+          "highlight": false
+        },
+        {
+          "value": "$180,000",
+          "label": "Shop A price",
+          "detail": "Buyer prices in the risk",
+          "highlight": false
+        },
+        {
+          "value": "× 3",
+          "label": "Shop B multiple",
+          "detail": "Team, recipes and lease stay",
+          "highlight": false
+        },
+        {
+          "value": "$360,000",
+          "label": "Shop B price",
+          "detail": "Twice as much for the same profit",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "You sell future profit, not past effort",
+      "body": [
+        "To a buyer, your company is worth **the profit they expect to keep in the years ahead, adjusted for how sure they can be of it**.",
+        "Your years of work, your late nights and your love for the place don't appear in that number. What counts is what keeps running the day after the buyer gets the keys.",
+        "Shop A's owner built something wonderful. But much of its value is her, and she isn't part of the sale."
+      ],
+      "image": {
+        "label": "A scale weighing future profit against risk",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 저울 한쪽에 \"Future profit\"이라 적힌 동전 더미, 다른 쪽에 \"Risk\"라 적힌 추. 추가 무거울수록 가격표 숫자가 작아지는 모습. 단순하고 깔끔한 플랫 스타일.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "What makes a buyer more sure.",
+      "body": [
+        "Buyers look for signs that profit will continue without you."
+      ],
+      "list": [
+        "**Owner can step away:** a team and written processes run the work",
+        "**Many customers:** no single client brings in most of the money",
+        "**Repeat revenue:** contracts, subscriptions or steady regulars",
+        "**Secure basics:** long leases, reliable suppliers, key staff who stay",
+        "**Clean books:** numbers a stranger can check and trust"
+      ],
+      "callout": "Each one moves the multiple, often more than a small rise in profit would.",
+      "softwareNote": "In software, buyers look closely at churn, the share of users who cancel each month. A product with yearly contracts and low churn is worth far more than one with the same revenue but customers who leave fast."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "A wider view",
+      "title": "Different buyers, different worth.",
+      "illustrative": true,
+      "body": [
+        "Worth depends on who is buying. A first-time owner can only count on the profit the shop makes today.",
+        "A noodle chain down the road sees more. It could share its central kitchen, buy ingredients cheaper and add the shop to its delivery app. It expects higher profit from the same shop, so it may pay more.",
+        "That's why the same company can get very different offers. Each buyer prices the future *they* can create."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The headline price isn't the whole deal.",
+      "body": [
+        "Real multiples vary widely by industry, size and the mood of the market. Rules of thumb from a friend's sale may not fit yours.",
+        "And price comes with terms. When buyers are unsure, they often pay part later, only if the business hits targets after the sale. A high number paid mostly later can be worth less than a lower one paid in full today.",
+        "For any real sale, get advice from an accountant and a lawyer who know your local rules."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a scheduling app.",
+      "illustrative": true,
+      "body": [
+        "You run an app that dental clinics use to book patients. It makes $300,000 a year in profit. You plan to sell in two years.",
+        "You personally write most of the code and close every sale. Which project would raise its value most?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Build a big new feature set to grow revenue 10%",
+            "verdict": "partial",
+            "feedback": "Growth helps, but if you're still the only one who can build and sell, the buyer's biggest worry stays."
+          },
+          {
+            "key": "B",
+            "text": "Hire a small team for sales and support, and document how the code works",
+            "verdict": "best",
+            "feedback": "This costs some profit now, but it shows the business runs without you. That lifts the multiple on every dollar of profit."
+          },
+          {
+            "key": "C",
+            "text": "Cut all marketing to make this year's profit look bigger",
+            "verdict": "risky",
+            "feedback": "Profit jumps briefly, but a buyer sees growth stall and new users dry up. Lower confidence can cost more than the saving adds."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Your company is worth what keeps working without you.",
+      "body": [
+        "A buyer pays for future profit they can count on. The surer it is, and the less it depends on you, the more each dollar of profit is worth.",
+        "**Try it today:** imagine you disappear for three months. Write down the three things that would break first. Those are the first things a buyer will discount."
+      ],
+      "next": "Next · What happens the day after you sell"
+    }
+  ]
+}

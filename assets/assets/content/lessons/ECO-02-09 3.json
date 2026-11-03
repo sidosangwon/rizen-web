@@ -1,0 +1,256 @@
+{
+  "id": "ECO-02-09",
+  "unitId": "ECO-02",
+  "categoryId": "ECO",
+  "order": 9,
+  "type": "case",
+  "conceptTag": "Ford's Model T and the moving assembly line",
+  "readerTitle": "The Model T got cheaper every year. Then it stopped selling.",
+  "format": "counterexample",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Ford Model T, General Motors) + 가상 적용 (급여 관리 소프트웨어)",
+  "insight": "규모의 경제는 공짜가 아니다. 단위당 원가를 낮추는 거대한 고정 투자는 제품을 '똑같이' 만드는 데서 나오고, 고객이 원하는 것이 바뀌면 그 투자가 족쇄가 된다.",
+  "misconception": "단위당 원가를 가장 낮게 만드는 회사가 결국 시장을 이긴다.",
+  "relatedLessonIds": [
+    "ECO-02-03",
+    "ECO-02-01"
+  ],
+  "sources": [
+    {
+      "text": "Ford Motor Company, corporate history: Model T (1908) and the moving assembly line at Highland Park (1913)",
+      "url": null
+    },
+    {
+      "text": "The Henry Ford (museum), Model T and assembly line history resources",
+      "url": null
+    },
+    {
+      "text": "Henry Ford with Samuel Crowther, My Life and Work (1922), the 'any color so long as it is black' line",
+      "url": null
+    },
+    {
+      "text": "Alfred P. Sloan Jr., My Years with General Motors (1964), GM's product range, annual model changes and the 1920s competition with Ford",
+      "url": null
+    },
+    {
+      "text": "David A. Hounshell, From the American System to Mass Production, 1800–1932 (1984), assembly times, the Model T's decline and the Model A changeover",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "1908년 Model T 투어링카 가격 $850, 1920년대 중반 기본 모델 $300 미만(Ford 자료에는 1925년 $260 등으로 나옴)은 Ford 공식 역사와 The Henry Ford 자료로 확인하세요. 카드에는 '$850 → under $300'로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "섀시 조립 시간 '12시간 이상 → 약 1.5시간(93분)'은 Ford 공식 역사와 Hounshell(1984)에 나오는 수치입니다. 자료마다 분 단위가 조금씩 다르므로 '12+ hours', '~1.5 hours'로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "1927년까지 1,500만 대 이상 생산, 마지막 Model T 생산 1927년 5월, Model A로 전환하며 공장이 수개월 멈춘 점(Model A는 1927년 말 출시)을 Ford 공식 역사로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "'1927년 Chevrolet가 Ford 판매량을 앞섰다'는 Sloan(1964)과 Hounshell(1984) 등에서 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "검정색 인용문은 My Life and Work(1922)에 나오는 문장을 줄여 인용했습니다. 원문: 'Any customer can have a car painted any colour that he wants so long as it is black.' 공저자(Samuel Crowther)가 있다는 점도 참고하세요.",
+      "status": "open"
+    },
+    {
+      "note": "GM 브랜드들이 부품을 공유했다는 내용과 Model A가 잘 팔렸다는 내용은 일반적인 수준으로만 적었습니다. 구체적인 수치는 넣지 않았습니다. Sloan(1964)과 Hounshell(1984)로 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Costs · Counterexample",
+      "title": "The Model T got cheaper every year. Then it stopped selling.",
+      "body": [
+        "In 1908, a Ford Model T touring car cost $850. By the mid-1920s, a basic Model T sold for under $300, and Ford had built more than 15 million of them.",
+        "Then, in 1927, Ford stopped making it and shut its factories for months. The thing that made the car so cheap also made it hard to change."
+      ],
+      "image": {
+        "label": "Rows of identical black early cars on a factory floor",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 1910~20년대풍의 똑같은 검은색 자동차 수십 대가 공장 바닥에 줄지어 있고, 한쪽 구석에 색깔 있는 신형 차 한 대가 서 있음. 실제 Ford·GM 로고나 엠블럼은 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Demand is outrunning your factory.",
+      "body": [
+        "It's around 1912. You make one car, and it sells faster than your workers can build it. Teams still assemble each car by walking around a frame that stays in one place.",
+        "What's your next move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Raise the price. Demand is clearly higher than supply",
+            "verdict": "partial",
+            "feedback": "You'd earn more per car right away. But the market stays small, mostly people who could already afford a car."
+          },
+          {
+            "key": "B",
+            "text": "Add more models to reach more kinds of buyers",
+            "verdict": "risky",
+            "feedback": "More buyers, yes. But every new model needs its own parts, tools and training, so your cost per car stays high."
+          },
+          {
+            "key": "C",
+            "text": "Spend heavily on machines and a new line built for this one car, then cut the price",
+            "verdict": "best",
+            "feedback": "Roughly what Ford did. It's a huge up-front cost that only pays off if you sell a lot of identical cars. Keep that *if* in mind."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What happened",
+      "title": "Move the car, not the workers.",
+      "breakdown": [
+        {
+          "value": "12+ hrs",
+          "label": "Chassis assembly before",
+          "detail": "Teams built each car in one spot",
+          "highlight": false
+        },
+        {
+          "value": "~1.5 hrs",
+          "label": "Chassis assembly after",
+          "detail": "With the moving line, by 1914",
+          "highlight": true
+        },
+        {
+          "value": "$850 → <$300",
+          "label": "Price",
+          "detail": "1908 to the mid-1920s",
+          "highlight": false
+        },
+        {
+          "value": "15M+",
+          "label": "Cars built",
+          "detail": "By the end in 1927",
+          "highlight": false
+        }
+      ],
+      "callout": "In 1913, at its Highland Park plant, Ford began pulling cars past workers. Each worker repeated one small task, again and again."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Economies of scale",
+      "body": [
+        "**Economies of scale** means your cost per unit falls as you make more.",
+        "Ford's moving line and special machines cost a fortune up front. That's a fixed cost: it stays the same whether you build ten thousand cars or a million. Spread over millions of identical cars, it shrinks to a small amount per car.",
+        "Lower costs let Ford cut prices. Lower prices sold more cars. More cars spread the fixed cost even thinner."
+      ],
+      "image": {
+        "label": "Loop: big investment, more cars, lower cost, lower price",
+        "aspectRatio": "16:9",
+        "brief": "순환 화살표 인포그래픽. \"Big fixed investment\" → \"Cost per car falls\" → \"Lower price\" → \"More cars sold\" → 다시 \"Cost per car falls\". 한쪽에 큰 기계 덩어리가 작은 조각들로 나뉘어 차 위에 하나씩 올라가는 그림.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The twist",
+      "title": "Then the buyers changed.",
+      "body": [
+        "By the mid-1920s, many families already owned a car. The next buyer wanted something better, not just something cheap.",
+        "General Motors, led by Alfred Sloan, offered a range of brands from Chevrolet up to Cadillac. It added new styling every year, colors and buying on credit. The Model T barely changed.",
+        "In 1927, Chevrolet outsold Ford. Ford ended the Model T that May and closed its plants for months to retool for the new Model A."
+      ],
+      "image": {
+        "label": "One unchanged black car beside a lineup of varied colorful cars",
+        "aspectRatio": "16:9",
+        "brief": "왼쪽에 똑같은 검은 차 한 대, 오른쪽에 색과 크기가 다른 차 다섯 대가 계단식으로 늘어선 그림(저가→고가). 실제 브랜드 로고와 엠블럼은 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Why it happened",
+      "title": "The machines only knew one car.",
+      "body": [
+        "Ford's low cost came from doing one thing the same way, millions of times. Machines and tools built for one car couldn't simply make a different one. Changing the product meant rebuilding much of the investment.",
+        "In his 1922 memoir, Ford wrote that a customer could have any color he wanted *so long as it is black*. That sameness wasn't a side effect. **It was the cost model.**"
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Scale didn't fail. Rigid scale did.",
+      "body": [
+        "GM used scale too. Its brands could share many parts behind different looks, so it got low costs and variety at the same time. Ford recovered as well: the Model A sold well.",
+        "The lesson isn't to avoid big investments. Scale pays best when customers want the same thing for a long time. When their wants are shifting, keep some flexibility, even if each unit costs a bit more."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's payroll software.",
+      "illustrative": true,
+      "body": [
+        "Your payroll app serves small restaurants. Every customer gets the same product, so serving one more costs you almost nothing.",
+        "Now retail chains are asking for it, but they need different shift rules and reports. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep one product and say no to every change",
+            "verdict": "risky",
+            "feedback": "Your cost per customer stays lowest. But if the market moves toward needs like these, you risk becoming the Model T."
+          },
+          {
+            "key": "B",
+            "text": "Build a custom version for each big chain",
+            "verdict": "partial",
+            "feedback": "You win the deals, but each version needs its own code, testing and support. Your cost advantage quietly disappears."
+          },
+          {
+            "key": "C",
+            "text": "Keep one shared core and add settings customers can switch on",
+            "verdict": "best",
+            "feedback": "Like GM's shared parts: most of the cost stays spread across everyone, and customers still get variety. Building the settings costs more up front."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Scale makes each unit cheaper by making every unit the same.",
+      "body": [
+        "That's a great deal while customers want the same thing. It turns into a trap when they stop.",
+        "**Try it today:** list your two or three biggest fixed investments. For each, ask: if customers wanted something different next year, could it adapt?"
+      ],
+      "next": "Next · Would you take a big order at a low price?"
+    }
+  ]
+}

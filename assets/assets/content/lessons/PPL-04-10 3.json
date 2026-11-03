@@ -1,0 +1,248 @@
+{
+  "id": "PPL-04-10",
+  "unitId": "PPL-04",
+  "categoryId": "PPL",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Design a team bonus",
+  "readerTitle": "Four choices that make or break a team bonus",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (배관·난방 수리 회사: 가정 수리팀 + 사무실 건물 유지보수 계약팀) · 모든 수치와 인물은 설명용",
+  "insight": "팀 보너스는 금액보다 설계가 중요하다. 누구에게, 어떤 숫자로, 어떻게 나누고, 언제 보여 주는지 네 가지 선택이 행동을 바꾼다.",
+  "misconception": "보너스는 많이 주기만 하면 성과가 오른다. 매출처럼 측정하기 쉬운 숫자 하나에 걸면 충분하다.",
+  "relatedLessonIds": [
+    "PPL-04-03",
+    "PPL-04-06"
+  ],
+  "sources": [
+    {
+      "text": "보상 설계의 일반 원칙 (팀 vs 개인 인센티브, 상충 지표, 절차 공정성, 보상 시점)",
+      "url": null
+    },
+    {
+      "text": "모든 인물, 회사, 수치는 설명용 가상 사례",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 설명용 가상 수치입니다. 연간 보너스 예산 $30,000 ÷ 4분기 = 분기당 $7,500으로 카드 4의 금액과 맞습니다.",
+      "status": "open"
+    },
+    {
+      "note": "'규칙을 미리 알면 분배를 더 잘 받아들인다'는 절차 공정성 연구의 일반적 결론을 단순화한 문장입니다. 특정 연구 수치는 인용하지 않았습니다. PPL-04-03 레슨의 표현과 일치하는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "테크니션 대사와 1분기 변화는 가상 장면입니다. 실제 결과처럼 읽히지 않도록 'Say you chose' 표현과 illustrative 라벨을 유지했습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Motivation · Simulation",
+      "title": "Four choices that make or break a team bonus",
+      "illustrative": true,
+      "body": [
+        "Dana runs a plumbing and heating company with 12 technicians. Half fix homes. Half service office buildings on yearly contracts.",
+        "Last year she paid commission on every job. Revenue rose. So did angry calls. Techs grabbed quick, well-paid jobs and left messy ones for whoever was last at the yard. Free return visits to fix rushed work kept climbing.",
+        "This year Dana has **$30,000** for a team bonus instead. You're helping her design it."
+      ],
+      "image": {
+        "label": "Plumbing vans at a yard, one messy job ticket left on the board",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 아침의 작업장 마당에 수리 밴 여러 대. 게시판에 작업 티켓이 붙어 있고, 깔끔한 티켓들은 모두 떼어졌는데 얼룩진 '복잡한 작업' 티켓 하나만 남아 있음. 실제 회사 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 4",
+      "title": "Who should the bonus reward?",
+      "illustrative": true,
+      "body": [
+        "Home and office crews share one dispatcher and one fleet of vans. On busy days they cover for each other."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Each technician, based on their own jobs",
+            "verdict": "risky",
+            "feedback": "You keep the hustle, and the cherry-picking. Nobody gains by taking the hard job or helping a colleague finish."
+          },
+          {
+            "key": "B",
+            "text": "Each crew separately: one pool for home, one for offices",
+            "verdict": "partial",
+            "feedback": "Each crew pulls together. But lending a tech to the other crew now shrinks your own pool, so busy days get worse."
+          },
+          {
+            "key": "C",
+            "text": "One pool for the whole company",
+            "verdict": "best",
+            "feedback": "The work is shared, so the reward is too. Covering for a colleague now helps your bonus. The risk is that some people coast."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 4",
+      "title": "What number decides the size of the pool?",
+      "illustrative": true,
+      "body": [
+        "Say you chose one company-wide pool. Now pick the number that makes it grow or shrink."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Total revenue",
+            "verdict": "risky",
+            "feedback": "Easy to track, but it rewards upselling and rushing. Last year's problem comes back, just shared."
+          },
+          {
+            "key": "B",
+            "text": "Profit on jobs after parts and labor, minus the cost of every free return visit",
+            "verdict": "best",
+            "feedback": "Profit pushes efficient work. Subtracting return visits makes rushed work cost the pool. Two numbers that pull against each other are harder to game."
+          },
+          {
+            "key": "C",
+            "text": "Average customer review score",
+            "verdict": "partial",
+            "feedback": "It points at quality. But reviews about prices or wait times, which techs don't control, can swing it."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 4",
+      "title": "How do you split it?",
+      "illustrative": true,
+      "body": [
+        "Say you chose profit minus return visits. The first quarter ends well: the pool is $7,500.",
+        "Two techs work part-time. One is an apprentice on lower pay."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The same amount for everyone",
+            "verdict": "partial",
+            "feedback": "Simple, and it feels united. But full-timers notice that someone working half the hours gets the same share."
+          },
+          {
+            "key": "B",
+            "text": "In proportion to each person's base pay",
+            "verdict": "risky",
+            "feedback": "It looks neutral, but the best-paid get the most from a result everyone built. The apprentice learns that rank beats effort."
+          },
+          {
+            "key": "C",
+            "text": "In proportion to hours worked, with the rule shared before the quarter starts",
+            "verdict": "best",
+            "feedback": "Effort and reward line up, and nobody is surprised. People accept a split more easily when they knew the rule in advance."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 4 of 4",
+      "title": "When and how do people see it?",
+      "illustrative": true,
+      "body": [
+        "Say you chose to split by hours. One question left: timing."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Pay it all in one lump at year end",
+            "verdict": "risky",
+            "feedback": "A big payment feels good. But in March, nobody links today's careful repair to money in December."
+          },
+          {
+            "key": "B",
+            "text": "Pay quarterly, and post the running pool on a board at the yard each week",
+            "verdict": "best",
+            "feedback": "People see their work move the number while it still matters. The board also gives Dana a weekly moment to thank whoever saved a return visit."
+          },
+          {
+            "key": "C",
+            "text": "Pay monthly",
+            "verdict": "partial",
+            "feedback": "Fast feedback, but small sums and weather-driven swings make it feel random. One slow month can punish good work."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How it played out",
+      "title": "Small habits start to change.",
+      "illustrative": true,
+      "body": [
+        "Say you chose all four. In the first quarter, techs start calling each other before closing a job: \"Did you check the valve under the sink?\"",
+        "During a cold snap, the office crew lends two people to the home crew, because helping now pays. Hard jobs still aren't popular, but dodging them no longer earns anything.",
+        "One tech says the board is the first time he's seen what a return visit **actually costs**."
+      ],
+      "image": {
+        "label": "Weekly scoreboard at the yard showing the bonus pool growing",
+        "aspectRatio": "16:9",
+        "brief": "작업장 벽에 걸린 화이트보드. 주별 막대가 점점 올라가는 'Team pool' 그래프와 아래쪽에 빨간색 'Return visits −$' 칸. 테크니션 두 명이 커피를 들고 보드를 보며 이야기하는 모습. 실제 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A team bonus can't fix everything.",
+      "body": [
+        "**Free riders:** if one person coasts, everyone's pool shrinks and resentment builds. That's a management problem. Deal with it directly, not through the formula.",
+        "**Size:** if the bonus becomes a big part of pay, people argue about the formula instead of the work. Keep it meaningful but modest.",
+        "**Stability:** keep the rules for at least a year. Changing them every quarter teaches people that the rules are up for negotiation."
+      ],
+      "softwareNote": "The same four choices apply to a software team. A team bonus on new sign-ups invites heavy discounting, so pair it with a counterweight such as customers still paying after 90 days."
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Design the bonus around the behavior you want.",
+      "body": [
+        "Each decision you made maps to an idea from this unit."
+      ],
+      "list": [
+        "**Who:** reward the unit that shares the work, or you pay people to stop helping each other (incentives across teams)",
+        "**What:** pair a goal with a counterweight, or people hit the number and miss the point (when incentives backfire)",
+        "**How to split:** link shares to effort and publish the rule in advance (fairness)",
+        "**When:** pay soon and make progress visible, so money and thanks arrive together (recognition)"
+      ],
+      "callout": "**Try it today:** take any bonus or target your business uses. Write down the easiest way someone could hit it while doing worse work. If you can find one, add a counterweight.",
+      "next": "Next · Why people stay quiet in meetings, and what it costs"
+    }
+  ]
+}

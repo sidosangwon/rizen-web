@@ -1,0 +1,282 @@
+{
+  "id": "THK-04-05",
+  "unitId": "THK-04",
+  "categoryId": "THK",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "The risk of ruin",
+  "readerTitle": "Same deal, two owners: why one should say no",
+  "format": "two_businesses",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.2,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (소형 완구 도매상 vs 지역 유통사, 레스토랑 2호점) + 실제 연구 (Kelly, 1956 베팅 크기 공식)를 짧게 언급 · 모든 수치는 설명용",
+  "insight": "같은 거래라도 손실이 사업을 끝낼 수 있는지에 따라 좋은 베팅이 되기도 하고 위험한 베팅이 되기도 한다. 평균보다 먼저 '실패해도 살아남는가'를 묻는다.",
+  "misconception": "기대값이 플러스이고 이길 확률이 높으면 크게 걸수록 좋다.",
+  "relatedLessonIds": [
+    "THK-04-02",
+    "THK-01-05"
+  ],
+  "sources": [
+    {
+      "text": "Kelly, J. L. (1956). A New Interpretation of Information Rate. Bell System Technical Journal, 35(4), 917–926.",
+      "url": null
+    },
+    {
+      "text": "모든 사업 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "기대값 계산: 0.8 × $20,000 − 0.2 × $30,000 = $16,000 − $6,000 = +$10,000. 이득 $20,000 = 재판매 $50,000 − 구매 $30,000.",
+      "status": "open"
+    },
+    {
+      "note": "차트 수치: 소형 도매상 $40,000 − $30,000 = $10,000, 지역 유통사 $400,000 − $30,000 = $370,000. 실패 시 재고 가치를 0으로 단순화했습니다(카드에는 'nearly worthless').",
+      "status": "open"
+    },
+    {
+      "note": "반복 확률: 다섯 번 모두 성공할 확률 0.8^5 = 0.32768, 한 번 이상 실패할 확률 1 − 0.328 ≈ 0.67(67%). 각 거래가 독립이라는 가정입니다.",
+      "status": "open"
+    },
+    {
+      "note": "Kelly(1956)가 Bell Labs에서 장기 성장률을 최대화하는 베팅 비율을 제시했다는 서술을 원문으로 확인하세요. 카드에는 '자금 대비 베팅 크기를 정하는 아이디어'로만 일반적으로 적었습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Two businesses",
+      "title": "Same deal, two owners: why one should say no",
+      "illustrative": true,
+      "body": [
+        "Two businesses are offered the exact same deal. It wins four times out of five, and on average it makes money.",
+        "For one owner, it's a smart bet. For the other, it's the most dangerous decision of the year. The deal is the same. The difference is what a loss would do to each of them."
+      ],
+      "image": {
+        "label": "Two shop owners holding the same contract, one standing on a wide platform, one on a narrow ledge",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 두 사업가가 똑같은 계약서를 들고 있음. 한 명은 넓고 튼튼한 받침대 위에, 다른 한 명은 좁은 절벽 끝에 서 있음. 계약서는 동일하게 보이도록. 실제 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/thk-04-05-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "A big holiday lot at a bargain price.",
+      "illustrative": true,
+      "body": [
+        "You run a small toy wholesaler with $40,000 in the bank. A supplier offers a large lot of holiday stock for $30,000.",
+        "You think there's an 80% chance you resell it for $50,000. If the trend fades, there's a 20% chance it's nearly worthless. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Buy the whole lot. The odds are clearly in your favor",
+            "verdict": "risky",
+            "feedback": "The average outcome is good, but one bad season leaves you with $10,000 and bills to pay. You'd be betting the business on a four-in-five chance."
+          },
+          {
+            "key": "B",
+            "text": "Buy about a third of the lot, for roughly $10,000",
+            "verdict": "best",
+            "feedback": "You give up some upside, but a flop now costs $10,000 instead of $30,000. You stay in business to make the next bet."
+          },
+          {
+            "key": "C",
+            "text": "Pass. Anything that can lose money is too risky",
+            "verdict": "partial",
+            "feedback": "You're safe, but you skip a bet that pays off most of the time. The question isn't whether you can lose. It's how much."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "On average, the deal looks good.",
+      "illustrative": true,
+      "body": [
+        "Taken many times, this deal earns about $10,000 each time. That's what expected value says. But you don't get many tries if the first flop empties your bank account."
+      ],
+      "breakdown": [
+        {
+          "value": "80%",
+          "label": "It sells",
+          "detail": "Gain $20,000",
+          "highlight": false
+        },
+        {
+          "value": "20%",
+          "label": "It flops",
+          "detail": "Lose $30,000",
+          "highlight": false
+        },
+        {
+          "value": "+$10,000",
+          "label": "Average outcome",
+          "detail": "0.8 × $20k − 0.2 × $30k",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "chart",
+      "eyebrow": "Two businesses",
+      "title": "Now give the same deal to a bigger business.",
+      "illustrative": true,
+      "body": [
+        "A regional distributor with $400,000 in the bank gets the identical offer. Here's the cash each business has before the deal, and after a flop."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Small toy wholesaler",
+            "rows": [
+              {
+                "label": "Cash before",
+                "value": 40000,
+                "highlight": false
+              },
+              {
+                "label": "Cash after a flop",
+                "value": 10000,
+                "highlight": true
+              }
+            ]
+          },
+          {
+            "label": "Regional distributor",
+            "rows": [
+              {
+                "label": "Cash before",
+                "value": 400000,
+                "highlight": false
+              },
+              {
+                "label": "Cash after a flop",
+                "value": 370000,
+                "highlight": false
+              }
+            ]
+          }
+        ]
+      },
+      "callout": "Same odds, same dollars. For one, a dent. For the other, possibly the end."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The risk of ruin",
+      "body": [
+        "**Risk of ruin** is the chance that a loss leaves you unable to keep going: no cash for wages, no money for stock, no business.",
+        "Ordinary losses hurt and then heal. Ruin is different, because it also ends every future bet. So a good average isn't enough. First ask: *if this goes wrong, am I still standing?*"
+      ],
+      "image": {
+        "label": "A board game path where one square sends the player off the board entirely",
+        "aspectRatio": "16:9",
+        "brief": "보드게임 판 일러스트. 대부분의 칸은 '+' 또는 '−' 작은 숫자, 한 칸만 판 밖으로 떨어지는 구멍이 있고 'Game over' 라벨. 플레이어 말이 그 칸 근처에 서 있음.",
+        "url": "assets/images/thk-04-05-c5.jpg"
+      },
+      "softwareNote": "A startup with 12 months of runway that spends 9 months of cash on one launch campaign faces the same math. If the launch flops, there's no money left to learn from it and try again."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Rare bad luck becomes likely with repetition.",
+      "illustrative": true,
+      "body": [
+        "A 20% chance of a flop sounds small. But businesses face bets like this again and again.",
+        "Take this kind of deal five times, and the chance of at least one flop is about **67%**. If a single flop is fatal, you probably won't make it through five.",
+        "That's why professional bettors and investors size each bet to their total funds, an idea John Kelly worked out at Bell Labs in 1956."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Where it hides",
+      "title": "Ruin often sits outside the deal itself.",
+      "body": [
+        "The question is the same everywhere: what is the worst realistic case, and can you survive it? Watch for these:"
+      ],
+      "list": [
+        "**One customer** who makes up most of your sales",
+        "**A personal guarantee** on a lease or loan",
+        "**A single supplier** you can't replace quickly",
+        "**One big bet** that uses most of your cash"
+      ],
+      "callout": "The fix is usually sizing, not skipping: make it smaller, shorter or shared."
+    },
+    {
+      "index": 8,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "You can be too careful, and too sure of the worst case.",
+      "body": [
+        "Refusing every bet that can hurt has a cost too. A business that never risks anything rarely grows. The goal is to keep losses survivable, not to avoid all losses.",
+        "Also, worst cases are often worse than owners guess. A flop can arrive together with a slow season or a late customer payment. Leave room beyond the worst case you can picture."
+      ]
+    },
+    {
+      "index": 9,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a second restaurant.",
+      "illustrative": true,
+      "body": [
+        "Your restaurant is doing well and you have $60,000 saved. A landlord offers a great corner spot. The fit-out costs $50,000, and the 10-year lease needs your personal guarantee.",
+        "You expect it to succeed more often than not. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Sign. A busy corner and a proven menu make it a good bet",
+            "verdict": "risky",
+            "feedback": "It may well work. But if it fails, the fit-out money is gone and you personally owe years of rent, which could sink the first restaurant too."
+          },
+          {
+            "key": "B",
+            "text": "Push for a shorter lease without a personal guarantee, or test the area with a pop-up first",
+            "verdict": "best",
+            "feedback": "You may pay more rent or grow more slowly, but a failure becomes a setback instead of the end. The first restaurant stays safe."
+          },
+          {
+            "key": "C",
+            "text": "Skip it and keep all the cash in the bank",
+            "verdict": "partial",
+            "feedback": "Nothing can go wrong, but you also pass on a likely win. The problem was the size of the downside, not the idea."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 10,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Never take a bet you can't afford to lose.",
+      "body": [
+        "A good average only helps if you survive long enough to collect it. Size each bet so the worst case still leaves you able to play again.",
+        "**Try it today:** list your three biggest commitments. For each, write the worst realistic outcome and how many months of cash you'd have left."
+      ],
+      "next": "Next · Why \"once in a century\" keeps happening"
+    }
+  ]
+}

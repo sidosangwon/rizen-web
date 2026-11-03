@@ -1,0 +1,269 @@
+{
+  "id": "CUS-06-08",
+  "unitId": "CUS-06",
+  "categoryId": "CUS",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "Reduce churn in a subscription box",
+  "readerTitle": "The snack box that arrived too often",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.1,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (사무실 간식 구독 서비스, 공작기계 소모품 공급사) · 모든 수치는 설명용",
+  "insight": "구독 해지는 상품이 싫어서가 아니라 배송 리듬이 고객의 실제 소비 리듬과 어긋나서 생기는 경우가 많다. 해지율을 코호트로 쪼개 보면 그 어긋남이 보인다.",
+  "misconception": "해지를 막으려면 해지하려는 고객에게 할인을 주거나 상품 구성을 더 다양하게 바꾸면 된다.",
+  "relatedLessonIds": [
+    "CUS-06-03",
+    "CUS-06-04"
+  ],
+  "sources": [
+    {
+      "text": "고객 유지 분석의 표준 개념 (코호트 분석, 자연 사용 빈도, 해지율의 복리 효과)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "월 해지율 6%가 12개월 이어지면 0.94^12 ≈ 0.476, 약 48% 유지. 3%면 0.97^12 ≈ 0.694, 약 69% 유지. 카드 6의 수치와 일치합니다.",
+      "status": "open"
+    },
+    {
+      "note": "6주 간격 배송 시 연간 박스 수: 52 ÷ 6 ≈ 8.7개(카드에는 \"about 8 or 9\"). 월 배송은 12개.",
+      "status": "open"
+    },
+    {
+      "note": "카드 3의 코호트 유지율(48%, 79%, 88%)은 모두 설명용 가상 수치입니다. 실제 업계 평균처럼 읽히지 않도록 illustrative 표시를 유지하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Retention · Everyday scene",
+      "title": "The snack box that arrived too often",
+      "illustrative": true,
+      "body": [
+        "Maya runs a service that delivers a monthly box of coffee and snacks to offices. Customers rate the boxes highly.",
+        "Yet about 6% of offices cancel every month. Her first idea is a discount for anyone who tries to leave. Before she spends money on that, she wants to know *who* is leaving, and *when*."
+      ],
+      "image": {
+        "label": "Unopened snack boxes stacked in an office kitchen",
+        "aspectRatio": "4:3",
+        "brief": "작은 사무실 탕비실. 뜯지 않은 간식 박스가 두세 개 쌓여 있고, 그 위로 새 박스를 든 배송 기사가 들어오는 장면. 따뜻한 일러스트 톤. 실제 브랜드 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Where should Maya start?",
+      "illustrative": true,
+      "body": [
+        "She has a list of every customer, the month they signed up, their office size and the month they cancelled, if they did. What's her best first move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Offer 15% off to every office that clicks cancel",
+            "verdict": "partial",
+            "feedback": "It may save some accounts, but it costs money on every save and doesn't tell her why they wanted to leave."
+          },
+          {
+            "key": "B",
+            "text": "Group offices by sign-up month and size, then see when each group drops off",
+            "verdict": "best",
+            "feedback": "This is **cohort** thinking. One average churn number hides which customers leave and when, and that's where the cause usually shows."
+          },
+          {
+            "key": "C",
+            "text": "Add more variety to the box so it feels fresh",
+            "verdict": "risky",
+            "feedback": "It changes the product without knowing what's wrong. If variety isn't the problem, she pays more per box and churn stays the same."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "What the cohorts showed",
+      "title": "Small offices leave early. Big ones stay.",
+      "illustrative": true,
+      "body": [
+        "Maya looks at each group four months after sign-up. The overall 6% hides a sharp split by office size. Most small offices that leave do so in months two and three."
+      ],
+      "chart": {
+        "unit": "%",
+        "groups": [
+          {
+            "label": "Still subscribed after 4 months",
+            "rows": [
+              {
+                "label": "Under 15 staff",
+                "value": 48,
+                "highlight": true
+              },
+              {
+                "label": "15–50 staff",
+                "value": 79,
+                "highlight": false
+              },
+              {
+                "label": "Over 50 staff",
+                "value": 88,
+                "highlight": false
+              }
+            ]
+          }
+        ]
+      },
+      "image": {
+        "label": "Small offices leave early. Big ones stay.",
+        "aspectRatio": "4:3",
+        "brief": "Labeled HTML chart from the lesson numbers",
+        "url": "assets/images/cus-06-08-chart.png"
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Why they leave",
+      "title": "The box was on the wrong clock.",
+      "illustrative": true,
+      "body": [
+        "Maya reads the cancellation notes from small offices. The same words keep coming up: \"too much piling up.\"",
+        "A 10-person office takes about six weeks to finish a box. A monthly schedule means a new box arrives before the old one is gone. Each delivery feels like waste, not a treat.",
+        "This is **natural usage frequency**: every product has a pace at which customers actually use it. When delivery runs faster than use, people cancel even though they like the product."
+      ],
+      "image": {
+        "label": "Two timelines: monthly deliveries vs six-week use",
+        "aspectRatio": "16:9",
+        "brief": "두 개의 가로 타임라인. 위는 \"Deliveries\" 4주마다 박스 아이콘, 아래는 \"Box used up\" 6주마다 빈 박스 아이콘. 두 줄의 간격이 점점 벌어지며 박스가 쌓이는 모습을 표현.",
+        "url": null
+      },
+      "softwareNote": "The same mismatch hits software. A reporting tool that people need once a quarter, billed monthly, gives users two \"paid for nothing\" months in every three, and that's when they cancel."
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How should Maya fix it for small offices?",
+      "illustrative": true,
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Send a smaller box every month",
+            "verdict": "partial",
+            "feedback": "It reduces the pile-up, but it guesses at the right size. Offices still run on different rhythms, and some will feel shortchanged."
+          },
+          {
+            "key": "B",
+            "text": "Let each office choose delivery every 4, 6 or 8 weeks, suggested by how fast they ran out",
+            "verdict": "best",
+            "feedback": "This matches delivery to each office's **natural usage frequency**. The box arrives just as the old one runs out, so it feels useful instead of wasteful."
+          },
+          {
+            "key": "C",
+            "text": "Add a pause button and leave the schedule as it is",
+            "verdict": "partial",
+            "feedback": "Pausing helps the most annoyed customers. But it makes them do the work, and each pause is a reminder that the default is wrong."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "breakdown",
+      "eyebrow": "Why it's worth it",
+      "title": "Small monthly changes grow over a year.",
+      "illustrative": true,
+      "body": [
+        "Churn **compounds**. Each month you lose a share of the customers who are left. Suppose the new schedule halves churn to 3%. The gap after a year is far bigger than three points."
+      ],
+      "breakdown": [
+        {
+          "value": "48%",
+          "label": "6% monthly churn",
+          "detail": "Share of offices still subscribed after 12 months",
+          "highlight": false
+        },
+        {
+          "value": "69%",
+          "label": "3% monthly churn",
+          "detail": "Share still subscribed after 12 months",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A slower box earns less per year.",
+      "body": [
+        "An office on a six-week schedule gets about 8 or 9 boxes a year instead of 12. If those offices would have stayed anyway, slowing them down just cuts revenue. Offer the option to the groups that leave, not to everyone.",
+        "And check the cohort split before trusting it. Small offices may also differ in how they found you or what they were promised. Office size might not be the real cause."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's blades for machine shops.",
+      "illustrative": true,
+      "body": [
+        "You supply replacement cutting blades to small machine shops on a subscription. Blades ship every quarter. Many shops cancel after the first year, saying they have \"a drawer full of spares.\" What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Group shops by machine hours, then ship when blades actually wear out",
+            "verdict": "best",
+            "feedback": "Cohorts show which shops use blades slowly. Matching shipments to their real wear rate fixes the cause, though you'll ship fewer blades to light users."
+          },
+          {
+            "key": "B",
+            "text": "Move everyone to two-year contracts with an exit fee",
+            "verdict": "risky",
+            "feedback": "Churn looks lower on paper, but the drawer still fills up. Shops leave angry when the contract ends and tell other shops why."
+          },
+          {
+            "key": "C",
+            "text": "Email a reminder a week before each shipment",
+            "verdict": "partial",
+            "feedback": "It lets shops skip a box, which helps. But the schedule is still wrong, and you rely on busy people to act every quarter."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "In software, the version of this is matching billing or check-ins to when customers get value, such as charging per report run instead of per month."
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Find who leaves and when, then match their rhythm.",
+      "body": [
+        "This lesson used three ideas. **Cohorts** showed which customers were leaving. **Natural usage frequency** explained why. **Compounding churn** showed why a small fix is worth it.",
+        "**Try it today:** take your recurring customers and group them by one trait, such as size or sign-up month. Which group leaves first, and how often do they really use what you sell?"
+      ],
+      "next": "Next · How Starbucks turned coffee runs into a habit"
+    }
+  ]
+}

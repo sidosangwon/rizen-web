@@ -1,0 +1,236 @@
+{
+  "id": "PPL-09-08",
+  "unitId": "PPL-09",
+  "categoryId": "PPL",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "Organize a 100-person startup",
+  "readerTitle": "Your startup hit 100 people. Your org chart is still from 20.",
+  "format": "everyday_scene",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (급여 소프트웨어·온보딩 서비스 스타트업, 케이터링 스타트업) · 모든 수치는 설명용",
+  "insight": "100명 규모의 조직 설계는 두 가지 질문으로 정리된다. 무엇을 기준으로 팀을 묶을지(기능 vs 사업부), 그리고 각 관리자가 몇 명을 맡고 몇 단계를 둘지(관리 폭과 계층)다.",
+  "misconception": "회사가 커지면 큰 회사의 조직도를 그대로 가져오거나, 고객군마다 사업부를 나누는 것이 자연스러운 다음 단계다.",
+  "relatedLessonIds": [
+    "PPL-09-01",
+    "PPL-09-03"
+  ],
+  "sources": [
+    {
+      "text": "조직 설계의 표준 개념 (기능별·사업부별 조직, 관리 폭과 계층)",
+      "url": null
+    },
+    {
+      "text": "모든 수치와 회사는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "가상 스타트업 인원 구성: 엔지니어 30 + 온보딩·지원 35 + 영업 20 + 기타 15 = 100명.",
+      "status": "open"
+    },
+    {
+      "note": "재설계 조직도 계산: 창업자 1 + 부문장 6 + 팀장 10 + 실무자 83 = 100명. 팀장 1명당 약 8명(83 ÷ 10 = 8.3). 창업자의 직속 보고자 14명 → 6명. 부문장이 팀장 1~3명과 일부 실무자를 직접 맡는다는 가정입니다.",
+      "status": "open"
+    },
+    {
+      "note": "관리 폭(한 관리자가 맡는 인원)의 적정 수치는 업무 성격에 따라 크게 다르며 보편적 정답이 없습니다. 카드에는 특정 연구 수치를 인용하지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "People · Everyday scene",
+      "title": "Your startup hit 100 people. Your org chart is still from 20.",
+      "illustrative": true,
+      "body": [
+        "Monday, 9 a.m. The founder of a payroll software startup opens her calendar. Fourteen one-on-ones this week. Fourteen people report straight to her.",
+        "A sales rep waits two days for her answer on a discount. A support lead waits for a hiring yes. The company grew five times. The org chart didn't change."
+      ],
+      "image": {
+        "label": "A founder's calendar packed with one-on-ones",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 책상 위 노트북 화면에 일주일 캘린더가 빈틈없이 \"1:1\" 블록으로 가득 참. 창업자 뒤로 작은 사람 인형들이 줄을 서서 기다림. 실제 앱 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/ppl-09-08-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Split into divisions, or keep functions?",
+      "illustrative": true,
+      "body": [
+        "The startup sells one payroll product plus setup help to small businesses. Its 100 people: 30 engineers, 35 onboarding and support staff, 20 in sales, 15 in finance and admin.",
+        "New customers stall between sales and onboarding. The founder wonders about splitting into two divisions: restaurants and retail. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Split into two customer divisions, each with its own engineers, sales and support",
+            "verdict": "risky",
+            "feedback": "*Functional vs divisional:* divisions pay off when customer groups need different products. Here you'd split 30 engineers across one codebase and copy every scarce role twice."
+          },
+          {
+            "key": "B",
+            "text": "Keep teams by function, and make one person own the whole new-customer journey across them",
+            "verdict": "best",
+            "feedback": "*Functional vs divisional:* one product means shared skill is worth more than separate units. An owner fixes the handoff without splitting the company."
+          },
+          {
+            "key": "C",
+            "text": "Keep teams by function and add a weekly meeting of all team heads to sort out handoffs",
+            "verdict": "partial",
+            "feedback": "The meeting surfaces problems, but no one owns them. Stalled customers still end up on the founder's desk."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "The concept at work",
+      "title": "Group people by what the strategy needs.",
+      "body": [
+        "A **functional** structure groups people by skill: all engineers together, all support together. It builds depth and avoids duplicate roles. Its weak spot is the gaps between teams.",
+        "A **divisional** structure groups people by customer, product or place. Each unit moves fast, but it copies roles and splits expertise.",
+        "With one product and one kind of customer, the startup's problem is a gap between teams, not a need for separate businesses. So it keeps functions and closes the gap."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Fourteen people report to the founder.",
+      "illustrative": true,
+      "body": [
+        "Decisions queue up behind her. She wants fewer direct reports without slowing the company down. Which plan fits?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Hire a COO and have all 14 report to that person instead",
+            "verdict": "partial",
+            "feedback": "*Spans and layers:* this frees the founder, but only moves the overload one box down. The COO now has a span of 14 plus a new layer."
+          },
+          {
+            "key": "B",
+            "text": "Name 6 function heads; each manages a few team leads of about 8 people",
+            "verdict": "best",
+            "feedback": "*Spans and layers:* the founder's span drops to 6, and each lead can coach a team of 8. One extra layer, used where it carries real weight."
+          },
+          {
+            "key": "C",
+            "text": "Hire 5 senior VPs from big companies, each with 2 or 3 managers under them",
+            "verdict": "risky",
+            "feedback": "*Spans and layers:* narrow spans stack up layers fast. Every decision climbs more steps, and you pay for managers who barely manage."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "breakdown",
+      "eyebrow": "The new chart",
+      "title": "Same 100 people, shorter queues.",
+      "illustrative": true,
+      "breakdown": [
+        {
+          "value": "1",
+          "label": "Founder",
+          "detail": "Span drops from 14 to 6",
+          "highlight": false
+        },
+        {
+          "value": "6",
+          "label": "Function heads",
+          "detail": "Sales, onboarding, support, engineering, product, finance",
+          "highlight": false
+        },
+        {
+          "value": "10",
+          "label": "Team leads",
+          "detail": "About 8 people each",
+          "highlight": true
+        },
+        {
+          "value": "83",
+          "label": "Frontline",
+          "detail": "Two steps from a decision, not one long queue",
+          "highlight": false
+        }
+      ],
+      "callout": "The goal isn't a pretty chart. It's that most decisions get made close to the work.",
+      "softwareNote": "In software teams, spans often differ by function. Support teams doing similar work can run wider; engineering teams with complex, varied work often need narrower spans and more senior leads."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A new chart is a cost, not a cure.",
+      "body": [
+        "Every structure change moves people's bosses, habits and loyalties. Expect weeks of slower work while new leads find their feet.",
+        "Don't promote your best individual workers into team leads by default. Leading 8 people is a different job.",
+        "And plan to look again. A structure that fits 100 people may strain at 200, especially if the strategy changes, such as launching a second product."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a catering startup.",
+      "illustrative": true,
+      "body": [
+        "A 100-person catering company runs kitchens in three cities. One city serves offices, one weddings, one hospitals. Each has its own clients and menus.",
+        "Every menu change waits for the head chef at headquarters. Clients complain about slow replies. How should you organize?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep one central kitchen team, sales team and delivery team across all three cities",
+            "verdict": "risky",
+            "feedback": "*Functional vs divisional:* shared functions build skill, but these markets are very different. Every local question still climbs to headquarters."
+          },
+          {
+            "key": "B",
+            "text": "Give each city a lead who runs its kitchen, sales and delivery; keep food safety and purchasing shared",
+            "verdict": "best",
+            "feedback": "*Functional vs divisional:* different customers justify divisions. Keeping safety and purchasing shared protects standards and buying power."
+          },
+          {
+            "key": "C",
+            "text": "Make each city fully separate, with its own recipes, suppliers and safety rules",
+            "verdict": "partial",
+            "feedback": "Each city moves fast, but you lose bulk buying and one safety standard. A single mistake can hurt all three brands."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Decide how to group people, then how many each leader carries.",
+      "body": [
+        "You used two ideas. **Functional vs divisional:** group by skill when customers need the same thing, by market when they don't. **Spans and layers:** give leaders a team they can really lead, and add layers only where they carry weight.",
+        "**Try it today:** count your direct reports and the steps between you and the frontline. Where do decisions wait longest?"
+      ],
+      "next": "Next · How Alfred Sloan's divisions remade General Motors"
+    }
+  ]
+}

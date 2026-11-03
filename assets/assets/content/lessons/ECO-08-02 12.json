@@ -1,0 +1,223 @@
+{
+  "id": "ECO-08-02",
+  "unitId": "ECO-08",
+  "categoryId": "ECO",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "Discounting",
+  "readerTitle": "The discount that filled the calendar and emptied the till",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.3,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (가정 청소 서비스, B2B 회계·IT 관리 서비스) · 모든 수치는 설명용",
+  "insight": "할인은 쓰는 모든 고객에게 돈을 내주지만, 수익은 할인 때문에 행동을 바꾼 고객에게서만 나온다. 할인은 '얼마나 깎나'보다 '누구에게, 무엇과 맞바꿔 주나'로 판단한다.",
+  "misconception": "할인으로 판매량이 늘었으면 할인이 성공한 것이다.",
+  "relatedLessonIds": [
+    "ECO-08-03",
+    "ECO-07-03"
+  ],
+  "sources": [
+    {
+      "text": "가격 전략의 표준 개념 (증분 판매와 '어차피 살 고객'에 대한 보조, 조건부 할인)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "청소 서비스 계산: 평소 200건 × ($120 − $60) = $12,000. 전체 25% 할인 후 240건 × ($90 − $60) = $7,200. 감소 $4,800 = 40%. 신규 40건 기여 +$1,200, 기존 200건 손실 200 × $30 = −$6,000, 합계 −$4,800.",
+      "status": "open"
+    },
+    {
+      "note": "신규 고객 한정 $30 할인 시: 기존 200건 $12,000 그대로 + 신규 40건 × $30 = $1,200, 합계 $13,200. 신규 고객이 같은 40건 들어온다는 가정입니다.",
+      "status": "open"
+    },
+    {
+      "note": "B2B 계산: 월 $4,000 × 15% = $600, 연 $7,200. 8% 할인은 월 $320, 연 $3,840. 카드 문장에서 수치 확인.",
+      "status": "open"
+    },
+    {
+      "note": "청소 건당 비용 $60에는 인건비와 소모품만 포함하고 카드 수수료 등은 단순화를 위해 뺐습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Pricing · Counterexample",
+      "title": "The discount that filled the calendar and emptied the till",
+      "illustrative": true,
+      "body": [
+        "A home cleaning company had a slow January. The owner cut every price by 25%.",
+        "Bookings went up 20%. The team was busier than in any January before. And the month left 40% less money than doing nothing would have."
+      ],
+      "image": {
+        "label": "A packed booking calendar next to a nearly empty cash jar",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 왼쪽에 칸이 빽빽하게 찬 월간 예약 달력, 오른쪽에 동전이 바닥에만 조금 남은 유리 저금통. 청소 도구(대걸레, 스프레이병)가 달력 옆에 기대어 있음. 실제 브랜드 로고 없음.",
+        "url": "assets/images/eco-08-02-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "January is slow. How do you discount?",
+      "illustrative": true,
+      "body": [
+        "You run a home cleaning service: about 200 cleans a month at $120, mostly regular clients. Each clean costs you about $60 in staff time and supplies.",
+        "You want more bookings this month. Which discount do you pick?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "25% off every clean in January, for everyone",
+            "verdict": "risky",
+            "feedback": "It's simple and draws new clients. But your 200 regulars would have booked anyway, and each of them now pays $30 less."
+          },
+          {
+            "key": "B",
+            "text": "$30 off the first clean, for new clients only",
+            "verdict": "best",
+            "feedback": "The money goes only to people who weren't booking before. Your regulars keep paying full price, so every new job is pure gain."
+          },
+          {
+            "key": "C",
+            "text": "25% off weekday-morning slots, your quietest times, for everyone",
+            "verdict": "partial",
+            "feedback": "It fills idle hours, which is smart. But many regulars will simply move their usual clean into the cheaper slot."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What happened",
+      "title": "Where the money went with 25% off for everyone.",
+      "illustrative": true,
+      "body": [
+        "Before: 200 cleans leaving $60 each, or **$12,000**. After: 240 cleans leaving $30 each, or $7,200. The 40 new jobs were real. They just cost far less than the gift to everyone else."
+      ],
+      "breakdown": [
+        {
+          "value": "+$1,200",
+          "label": "New clients",
+          "detail": "40 extra cleans × $30 left each",
+          "highlight": false
+        },
+        {
+          "value": "−$6,000",
+          "label": "Regular clients",
+          "detail": "200 cleans that would have happened anyway × $30 less",
+          "highlight": false
+        },
+        {
+          "value": "−$4,800",
+          "label": "Net result",
+          "detail": "A busier month that earned 40% less",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "A discount pays everyone, but earns only from some.",
+      "body": [
+        "**Discounting** means selling below your normal price to win a sale. Every customer who uses the discount gets the money. But you only gain from the ones it actually changes: people who buy now, buy more, or buy at all because of it.",
+        "Sales you would have made anyway are not wins. They're **giveaways**. A good discount is aimed so that as little of it as possible lands on those customers."
+      ],
+      "image": {
+        "label": "A funnel of discount coins, most falling on customers who were already buying",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 위에서 할인 동전이 쏟아지고, 아래에 사람 두 그룹. 큰 그룹 \"Would have bought anyway\"에 동전 대부분이 떨어지고, 작은 그룹 \"Changed by the discount\"에만 초록 체크 표시. 단순한 플랫 스타일.",
+        "url": "assets/images/eco-08-02-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Three ways to aim a discount.",
+      "body": [
+        "Before offering money off, decide who should get it and what you get back."
+      ],
+      "list": [
+        "**Fence it:** only new customers, only first orders, only idle times that regulars can't easily switch into",
+        "**Trade it:** give a lower price in exchange for something you value, like a longer commitment, payment upfront or flexible scheduling",
+        "**Cap it:** limit it by date or quantity so it can't quietly become the new normal price"
+      ],
+      "callout": "Ask of every discount: who gets this who would have paid full price?",
+      "softwareNote": "Software companies often trade a discount for commitment: about two months free on an annual plan paid upfront. The customer saves money, and the company gets cash now and fewer cancellations."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Fences have costs too.",
+      "body": [
+        "Loyal clients can feel cheated when strangers get a better deal. A new-client-only offer may need a small thank-you for regulars, or it can cost you trust.",
+        "Fences also leak. Regulars can sign up under a partner's name, and conditions that feel like hoops can put off the very people you wanted.",
+        "And a discount only helps if you can serve the extra work. If it means turning away full-price jobs, the gain shrinks fast."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now a client asks you for 15% off.",
+      "illustrative": true,
+      "body": [
+        "Your firm provides outsourced bookkeeping and IT support. A business client pays $4,000 a month and its one-year contract is up for renewal. Their manager asks for 15% off, which would cost you $7,200 a year.",
+        "What do you offer?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Agree to 15% off to keep a good client",
+            "verdict": "risky",
+            "feedback": "You probably keep them, but you give away $7,200 for nothing in return, and you teach them that asking works every year."
+          },
+          {
+            "key": "B",
+            "text": "Hold the price and remind them of the value you deliver",
+            "verdict": "partial",
+            "feedback": "This protects your price and may work if they're happy. If they have a real alternative, you risk losing $48,000 a year to save $7,200."
+          },
+          {
+            "key": "C",
+            "text": "Offer 8% off if they sign for two years and pay quarterly upfront",
+            "verdict": "best",
+            "feedback": "You give up $3,840 a year but get a longer commitment and earlier cash. The discount buys you something instead of leaking away."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Discount for the sales you'd lose, not the ones you'd get anyway.",
+      "body": [
+        "More sales doesn't mean the discount worked. Count what it cost on the customers who would have paid full price.",
+        "**Try it today:** look at your last discount. Estimate how many buyers would have bought anyway, and what you gave them in total."
+      ],
+      "next": "Next · How promotions teach customers to wait"
+    }
+  ]
+}

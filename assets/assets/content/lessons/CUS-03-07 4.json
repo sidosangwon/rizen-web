@@ -1,0 +1,276 @@
+{
+  "id": "CUS-03-07",
+  "unitId": "CUS-03",
+  "categoryId": "CUS",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "Is this café at product-market fit?",
+  "readerTitle": "The line was out the door. Is this café really working?",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (동네 카페, 반려견 미용실 예약 앱) · 모든 수치는 설명용",
+  "insight": "카페가 시장에 맞는지는 개업 첫 주의 줄이 아니라, 처음 온 손님이 몇 달 뒤에도 다시 오는지와 그 비율이 멈추는 지점으로 판단한다.",
+  "misconception": "줄이 길고 리뷰가 좋고 매출이 오르면 제품-시장 적합성을 찾은 것이다.",
+  "relatedLessonIds": [
+    "CUS-03-03",
+    "CUS-03-06"
+  ],
+  "sources": [
+    {
+      "text": "제품-시장 적합성과 리텐션 곡선에 대한 일반적인 개념 (이 유닛의 CUS-03-03, CUS-03-06 개념 레슨)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 설명용 가상 수치입니다. 차트 값(주말 첫 방문 고객 100% → 2개월 차 15% → 3개월 차 8% → 4개월 차 7%, 평일 아침 첫 방문 고객 100% → 55% → 50% → 49%)이 3번·5번 카드 문장과 일치하는지 확인했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "앱 사례: 첫 주 가입 3,000곳은 가상 수치입니다. 카드에 비율을 따로 적지 않아 계산 확인은 필요 없습니다.",
+      "status": "open"
+    },
+    {
+      "note": "이 레슨은 적용 레슨이므로 새 개념을 소개하지 않습니다. 사용한 개념은 CUS-03-03(리텐션)과 CUS-03-06(가짜 신호)입니다. 개념 레슨의 용어 정의와 표현이 일치하는지 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Everyday scene",
+      "title": "The line was out the door. Is this café really working?",
+      "illustrative": true,
+      "body": [
+        "Maya opened her café four months ago. On opening weekend the line reached the corner. Local food accounts posted photos. The reviews average 4.8 stars.",
+        "Sales are still growing. Her friends say she's nailed it. But Maya has noticed something: she rarely sees the same weekend faces twice."
+      ],
+      "image": {
+        "label": "A busy café with a long line on opening weekend",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 작은 동네 카페 앞에 긴 줄, 사람들이 휴대폰으로 사진을 찍는 장면. 카운터 뒤 주인은 미소 짓지만 살짝 궁금한 표정. 실제 브랜드 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which number should Maya check first?",
+      "illustrative": true,
+      "body": [
+        "Maya has a till that records sales and a free loyalty card that about half her customers use. She wants to know if the café truly fits its market."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Monthly sales, which are up every month so far",
+            "verdict": "partial",
+            "feedback": "Sales matter, but rising totals can come from a stream of new, curious visitors. They hide whether anyone comes back."
+          },
+          {
+            "key": "B",
+            "text": "How many first-time loyalty customers return in later months",
+            "verdict": "best",
+            "feedback": "This is **retention as the real signal**. Repeat visits show the café solved a real need, not just sparked curiosity."
+          },
+          {
+            "key": "C",
+            "text": "The average review rating",
+            "verdict": "risky",
+            "feedback": "Reviews are easy to collect and feel good. But early reviews often come from fans and friends, a classic **false sign of fit**."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "What the loyalty cards show",
+      "title": "Two groups, two very different curves.",
+      "illustrative": true,
+      "body": [
+        "Maya sorts her loyalty customers by when they first visited. Weekend visitors mostly came once. Weekday morning customers kept coming."
+      ],
+      "chart": {
+        "unit": "%",
+        "groups": [
+          {
+            "label": "First visit on a weekend",
+            "rows": [
+              {
+                "label": "Month 1",
+                "value": 100,
+                "highlight": false
+              },
+              {
+                "label": "Month 2",
+                "value": 15,
+                "highlight": false
+              },
+              {
+                "label": "Month 3",
+                "value": 8,
+                "highlight": false
+              },
+              {
+                "label": "Month 4",
+                "value": 7,
+                "highlight": false
+              }
+            ]
+          },
+          {
+            "label": "First visit on a weekday morning",
+            "rows": [
+              {
+                "label": "Month 1",
+                "value": 100,
+                "highlight": false
+              },
+              {
+                "label": "Month 2",
+                "value": 55,
+                "highlight": true
+              },
+              {
+                "label": "Month 3",
+                "value": 50,
+                "highlight": true
+              },
+              {
+                "label": "Month 4",
+                "value": 49,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept at work · False signs of fit",
+      "title": "The buzz was real. The fit wasn't.",
+      "body": [
+        "The weekend crowds were mostly drawn by novelty: a new place, nice photos, a reason to try something. That kind of interest shows up fast and fades just as fast.",
+        "Long opening lines, glowing early reviews and rising sales all looked like fit. They were **false signs**: proof that people were curious, not proof that they needed the café."
+      ],
+      "image": {
+        "label": "Opening-day balloons deflating beside a café door",
+        "aspectRatio": "16:9",
+        "brief": "카페 문 옆에 'Grand opening' 풍선이 천천히 바람이 빠지는 모습. 한쪽에는 사진 찍는 손님 실루엣이 사라지고, 다른 쪽에는 출근 복장 손님 몇 명이 꾸준히 들어옴. 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Concept at work · Retention",
+      "title": "Look for the curve that goes flat.",
+      "body": [
+        "The weekday morning curve drops at first, then holds near 50%. A curve that stops falling means a group of customers has made the café part of their routine.",
+        "That flat line is the real signal. Maya doesn't have fit with *everyone*. She has early signs of fit with commuters who want good coffee on the way to work."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What should Maya do next?",
+      "illustrative": true,
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Run a weekend discount to bring the crowds back",
+            "verdict": "risky",
+            "feedback": "It may fill the room again, but discounts create another **false sign of fit**. The crowd may leave when the deal does."
+          },
+          {
+            "key": "B",
+            "text": "Serve weekday regulars better and watch whether their curve holds",
+            "verdict": "best",
+            "feedback": "She builds on the one group whose **retention** has flattened. Earlier opening or faster ordering can strengthen it, and the curve tells her if it worked."
+          },
+          {
+            "key": "C",
+            "text": "Add a brunch menu to win back weekend visitors",
+            "verdict": "partial",
+            "feedback": "It might work, but it spends effort on the group that didn't stick. Test it small before betting on it."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A flat curve isn't the whole answer.",
+      "body": [
+        "Four months is short, and seasons change habits. Loyalty cards only show the customers who use them.",
+        "Some regulars may come back because the café is simply the closest one, not because they love it. And a flat curve only helps if that group spends enough to cover rent and staff."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a booking app for dog groomers.",
+      "illustrative": true,
+      "body": [
+        "Your app helps dog groomers take bookings. After a launch post goes viral, 3,000 grooming shops sign up in the first week. Most log in once. Which number tells you most about fit?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The 3,000 signups in week one",
+            "verdict": "risky",
+            "feedback": "Launch-day signups are a **false sign of fit**. They show the post spread, not that groomers rely on the app."
+          },
+          {
+            "key": "B",
+            "text": "The share of week-one shops still taking bookings in week eight",
+            "verdict": "best",
+            "feedback": "This is **retention as the real signal**. If that share stops falling, some groomers have built the app into how they work."
+          },
+          {
+            "key": "C",
+            "text": "How many feature requests users send",
+            "verdict": "partial",
+            "feedback": "Requests show engagement and can guide you. But people who left rarely send them, so the number hides who quietly quit."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "In software, the café's loyalty card becomes a cohort table: users grouped by signup week, tracked by whether they still use the product."
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Fit shows up in who comes back, not who shows up.",
+      "body": [
+        "Concepts used: **Retention as the real signal** (look for a curve that goes flat) and **False signs of fit** (buzz, reviews and early sales can mislead).",
+        "**Try it today:** pick the customers who first bought from you three months ago. Count how many bought again last month."
+      ],
+      "next": "Next · Is this app at product-market fit?"
+    }
+  ]
+}

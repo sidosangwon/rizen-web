@@ -1,0 +1,240 @@
+{
+  "id": "ECO-10-04",
+  "unitId": "ECO-10",
+  "categoryId": "ECO",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Signaling",
+  "readerTitle": "Why a promise beats a claim",
+  "format": "two_businesses",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative",
+    "real_research",
+    "real_company"
+  ],
+  "caseNote": "가상 사례 (화물 운송사, 일정관리 앱, 식당용 재고 소프트웨어) + 실제 연구 (Spence 1973) + 실제 기업 (Hyundai 보증 프로그램)",
+  "insight": "말은 누구나 똑같이 할 수 있다. 믿게 만드는 것은 약한 쪽이 따라 하기에는 너무 비싼 행동이다.",
+  "misconception": "품질이 좋으면 그렇다고 분명하게 말하면 된다. 고객이 믿지 않으면 더 크게, 더 자주 말하면 된다.",
+  "relatedLessonIds": [
+    "ECO-10-05",
+    "ECO-10-06"
+  ],
+  "sources": [
+    {
+      "text": "Spence, M. (1973). Job Market Signaling. The Quarterly Journal of Economics, 87(3), 355–374.",
+      "url": null
+    },
+    {
+      "text": "The Nobel Prize in Economic Sciences 2001 (Akerlof, Spence, Stiglitz), nobelprize.org",
+      "url": null
+    },
+    {
+      "text": "Hyundai Motor America, America's Best Warranty (10-year/100,000-mile powertrain limited warranty) 도입 관련 회사 자료",
+      "url": null
+    },
+    {
+      "text": "운송사·앱·재고 소프트웨어 사례와 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "계산 확인: 월 100건 × $2,000 = 월 매출 $200,000. 믿을 만한 운송사 지연 2% = 2건 × $2,000 = $4,000 (매출의 2%). 믿기 어려운 운송사 지연 15% = 15건 × $2,000 = $30,000 (매출의 15%). 모두 가상 수치입니다.",
+      "status": "open"
+    },
+    {
+      "note": "Spence의 논문은 1973년 QJE 게재, 2001년 노벨 경제학상을 Akerlof, Stiglitz와 공동 수상했습니다. 게시 전 다시 확인하세요. 카드에는 교육 신호 이론을 단순화해 설명했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Hyundai의 10년/10만 마일 파워트레인 보증은 미국에서 1998년 말(1999년형 모델)부터 도입된 것으로 알려져 있습니다. 도입 연도와 '당시 경쟁사 대비 훨씬 길었다'는 표현을 회사 자료로 확인하세요. 판매 증가 수치는 확인 전이라 쓰지 않았고, 보증이 회복의 한 요인이었다고만 적었습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Economics · Two businesses",
+      "title": "Why a promise beats a claim",
+      "illustrative": true,
+      "body": [
+        "Two trucking firms pitch a parts maker for the same contract. Both slides say \"98% on-time.\"",
+        "One slide has an extra line: *If a load arrives late, you don't pay for it.*",
+        "The parts maker chose that firm. The extra line wasn't a discount. It was evidence."
+      ],
+      "image": {
+        "label": "Two identical pitch slides, one with an extra promise line",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 회의 테이블 위에 거의 같은 슬라이드 두 장. 둘 다 \"98% on-time\"이라는 큰 글씨. 오른쪽 슬라이드에만 \"Late? You don't pay.\" 한 줄이 추가되어 빛나 보임. 배경에 트럭 미니어처. 실제 회사 로고 사용 금지.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Your trucks really are on time.",
+      "illustrative": true,
+      "body": [
+        "You run a regional freight carrier. Your on-time record is genuinely better than your rivals'. But every carrier says the same thing.",
+        "A large manufacturer is choosing a carrier. How do you make them believe you?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Put your 98% on-time rate in big type on every slide and your website",
+            "verdict": "risky",
+            "feedback": "It's true, but your weakest rival can print the same number for free. The buyer can't tell your claim from theirs."
+          },
+          {
+            "key": "B",
+            "text": "Price 10% below the rival to win the trial",
+            "verdict": "partial",
+            "feedback": "You may win on price, but it says nothing about reliability. Some buyers even read a low price as a sign of corners being cut."
+          },
+          {
+            "key": "C",
+            "text": "Promise to waive the fee on any load that arrives late",
+            "verdict": "best",
+            "feedback": "This costs you little because you're rarely late. A rival who is often late can't afford to match it, so the promise tells the buyer something."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Same promise, very different price.",
+      "illustrative": true,
+      "breakdown": [
+        {
+          "value": "$200,000",
+          "label": "Monthly revenue, each firm",
+          "detail": "100 loads × $2,000",
+          "highlight": false
+        },
+        {
+          "value": "$4,000",
+          "label": "Reliable carrier pays",
+          "detail": "2 late loads waived = 2% of revenue",
+          "highlight": true
+        },
+        {
+          "value": "$30,000",
+          "label": "Unreliable carrier pays",
+          "detail": "15 late loads waived = 15% of revenue",
+          "highlight": false
+        }
+      ],
+      "callout": "Anyone can *say* \"98%.\" Only the firm that really delivers it can afford to *promise* it."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Signaling",
+      "body": [
+        "**Signaling** means using an action to reveal something the other side can't check directly, such as quality or reliability. A plain claim costs the same for everyone, so it proves little. Economists call it *cheap talk*.",
+        "A signal works when it is **cheaper for the strong to send than for the weak**.",
+        "Economist Michael Spence showed this in 1973 with education: a degree tells employers something partly because it is harder to finish for people who would struggle at the job. He shared the 2001 Nobel Prize for this work."
+      ],
+      "image": {
+        "label": "A speech bubble versus a weighted promise on a scale",
+        "aspectRatio": "16:9",
+        "brief": "좌우 비교 인포그래픽. 왼쪽: 가벼운 말풍선 \"Cheap talk\"가 저울 위에 떠 있음. 오른쪽: 무거운 추 \"Costly signal\"이 저울을 아래로 누름. 추 옆에 작은 글씨로 \"cheap for the strong, costly for the weak\".",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "A real example",
+      "title": "A warranty as a bet on your own cars.",
+      "body": [
+        "In the late 1990s, Hyundai had a weak reputation for quality in the US. Ads saying \"our cars are better now\" would have changed few minds.",
+        "Instead it offered a 10-year, 100,000-mile warranty on the engine and drivetrain, much longer than most rivals offered then. If the cars still broke often, the repair bills would have been enormous.",
+        "So buyers could read the warranty as a bet only a confident company would make. It was one part of a wider turnaround, not the whole story."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Business two",
+      "title": "The same game in software.",
+      "illustrative": true,
+      "body": [
+        "Two scheduling apps both promise \"set up in an afternoon.\" One requires a sales call and a yearly contract before you can try it. The other gives full access for 30 days, no card needed.",
+        "The open trial is a **signal**. A confusing product loses money on trials, because most people quit before paying. Only a team that trusts its product to win people over alone can afford to let them test it alone."
+      ],
+      "image": {
+        "label": "Locked door with a contract versus an open door with a trial key",
+        "aspectRatio": "16:9",
+        "brief": "두 개의 문. 왼쪽 문은 자물쇠와 \"Sales call + 1-year contract\" 표지. 오른쪽 문은 열려 있고 손잡이에 \"30-day full access\" 열쇠가 걸려 있음. 노트북 화면 속 일정 앱은 가상의 UI로, 실제 브랜드 금지.",
+        "url": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A signal fails when the weak can afford it too.",
+      "body": [
+        "If buyers rarely claim refunds, a weak firm can offer the same guarantee and gamble that nobody asks. When every company in an industry offers free trials, a trial no longer separates anyone.",
+        "Signals also cost real money, even for the strong. Choose the cheapest one that the weak still can't copy. And always honor it: one refused claim can undo the whole message."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now you sell software to restaurants.",
+      "illustrative": true,
+      "body": [
+        "Your startup sells inventory software to restaurants. Your setup really is faster than the big incumbent's. But owners have heard \"easy setup\" many times before.",
+        "Which move best proves it?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Put \"Set up in one day\" at the top of every ad",
+            "verdict": "risky",
+            "feedback": "Clear and true, but it's cheap talk. The incumbent's ads say almost the same thing, so owners discount both."
+          },
+          {
+            "key": "B",
+            "text": "Promise: running in 7 days, or your first 3 months are free",
+            "verdict": "best",
+            "feedback": "Cheap for you because you hit 7 days, painful for anyone who can't. You give up some revenue on rare misses to gain belief."
+          },
+          {
+            "key": "C",
+            "text": "Book the biggest booth at the national restaurant trade show",
+            "verdict": "partial",
+            "feedback": "A big spend signals you have money and plan to stay. It doesn't signal that setup is fast, which is the doubt you need to remove."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Proof is what's too expensive to fake.",
+      "body": [
+        "Customers believe actions that would hurt a weaker business, not claims anyone can make.",
+        "**Try it today:** write down the one claim you most want customers to believe. Then design a promise that would cost you little but would cost a rival who can't deliver a lot."
+      ],
+      "next": "Next · Why tying your own hands can win the deal"
+    }
+  ]
+}

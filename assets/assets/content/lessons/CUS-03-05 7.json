@@ -1,0 +1,276 @@
+{
+  "id": "CUS-03-05",
+  "unitId": "CUS-03",
+  "categoryId": "CUS",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Pivot or persevere",
+  "readerTitle": "Sales tripled. Why changing course may still be right",
+  "format": "numbers_twist",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (중소 건설사 대상 기장 대행 서비스, 친환경 포장 상자 제조사) · 모든 수치는 설명용. 개념 출처는 Eric Ries, The Lean Startup",
+  "insight": "계속할지 방향을 틀지는 매출 총액이 아니라, 시도할 때마다 핵심 비율이 움직이는지로 판단한다.",
+  "misconception": "매출이 늘고 있으면 계속 가면 되고, 매출이 정체되면 방향을 바꿔야 한다. 피벗은 처음부터 다시 시작하는 것이다.",
+  "relatedLessonIds": [
+    "CUS-03-03",
+    "CUS-04-06"
+  ],
+  "sources": [
+    {
+      "text": "Ries, E. (2011). The Lean Startup. Crown Business. (pivot or persevere, pivot의 정의와 유형)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Ries의 피벗 정의는 원문 인용이 아니라 '제품·전략·성장 방식에 대한 새로운 핵심 가설을 시험하기 위한 구조화된 방향 수정'이라는 취지로 풀어 썼습니다. 게시 전 원문 표현을 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "기장 대행 사례 수치(월 매출 $4,000→$14,000, 영업 통화 월 40→140건, 계약률 10% 유지, 3개월 유지율 30% 유지)는 설명용입니다. 매출은 고객 누적과 이탈을 정밀하게 모델링한 값이 아니며, '노력이 늘어서 매출이 늘었다'는 방향만 보여줍니다. 통화 수 3.5배, 매출 3.5배로 맞췄습니다(140÷40=3.5, 14,000÷4,000=3.5).",
+      "status": "open"
+    },
+    {
+      "note": "차트의 두 회사 계약률(A: 10% 고정, B: 4→6→8→10→12%)과 포장 제조사 재주문율(15→22→31→38%)은 설명용 가상 수치입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Numbers twist",
+      "title": "Sales tripled. Why changing course may still be right",
+      "illustrative": true,
+      "body": [
+        "A small bookkeeping service for builders grew monthly revenue from $4,000 to $14,000 in six months.",
+        "The founder is thinking about changing who the business serves. That sounds reckless. The numbers underneath say it might be the smart move."
+      ],
+      "image": {
+        "label": "A rising revenue line next to a flat line",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 사무실 책상 위 화이트보드에 가파르게 올라가는 초록 선과, 그 아래 완전히 평평한 회색 선. 창업자가 평평한 선을 손가락으로 가리키는 모습. 실제 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Keep going, or change course?",
+      "illustrative": true,
+      "body": [
+        "You run that bookkeeping service. Revenue has more than tripled. But you also hired a second salesperson and tripled your sales calls.",
+        "You tried five changes to the offer. Through all of them, 1 in 10 calls became a client, and only 3 in 10 clients stayed past three months."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep going. Revenue is growing fast",
+            "verdict": "risky",
+            "feedback": "You keep momentum, but the growth comes from more effort, not a better offer. Costs will keep rising with it."
+          },
+          {
+            "key": "B",
+            "text": "Change one core part, like who you serve, and keep what you've learned",
+            "verdict": "best",
+            "feedback": "You give up a familiar plan to test a new one, while keeping your skills, tools and lessons. That's the idea in this lesson."
+          },
+          {
+            "key": "C",
+            "text": "Shut it down and start a new business",
+            "verdict": "partial",
+            "feedback": "You stop wasting effort, but you throw away six months of learning that a smaller change could reuse."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Growth came from effort, not from the offer.",
+      "illustrative": true,
+      "body": [
+        "Revenue and calls both grew 3.5 times. The **rates** did not move at all. Five changes, zero effect."
+      ],
+      "breakdown": [
+        {
+          "value": "$4k → $14k",
+          "label": "Monthly revenue",
+          "detail": "Looks like a winner",
+          "highlight": false
+        },
+        {
+          "value": "40 → 140",
+          "label": "Sales calls a month",
+          "detail": "Effort grew just as fast",
+          "highlight": false
+        },
+        {
+          "value": "10% → 10%",
+          "label": "Calls that become clients",
+          "detail": "Flat through five changes",
+          "highlight": true
+        },
+        {
+          "value": "30% → 30%",
+          "label": "Clients still there at 3 months",
+          "detail": "Flat too",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Pivot or persevere",
+      "body": [
+        "**Persevere** means keeping your core plan and improving it. **Pivot** means changing one core assumption, such as the customer, the problem or how you charge, while keeping what you learned.",
+        "Eric Ries made the question central in *The Lean Startup*. The test is simple: when you make a change, does the rate that matters move? If it keeps rising, persevere. If changes stop moving it, pivot."
+      ],
+      "softwareNote": "In software, the rate is often the share of new users still active after a few weeks. If release after release leaves that number flat, more ad spend won't fix it."
+    },
+    {
+      "index": 5,
+      "type": "chart",
+      "eyebrow": "The twist",
+      "title": "The slower business is the one to back.",
+      "illustrative": true,
+      "body": [
+        "Firm B earns less today. But every change it makes lifts its close rate. Firm A's changes do nothing."
+      ],
+      "chart": {
+        "unit": "%",
+        "groups": [
+          {
+            "label": "Firm A: calls that become clients",
+            "rows": [
+              {
+                "label": "Month 1",
+                "value": 10,
+                "highlight": false
+              },
+              {
+                "label": "Month 3",
+                "value": 10,
+                "highlight": false
+              },
+              {
+                "label": "Month 5",
+                "value": 10,
+                "highlight": true
+              }
+            ]
+          },
+          {
+            "label": "Firm B: calls that become clients",
+            "rows": [
+              {
+                "label": "Month 1",
+                "value": 4,
+                "highlight": false
+              },
+              {
+                "label": "Month 3",
+                "value": 8,
+                "highlight": false
+              },
+              {
+                "label": "Month 5",
+                "value": 12,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "callout": "Judge the direction of the rate, not the size of the total."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "A pivot keeps most of the business.",
+      "body": [
+        "A good pivot changes one big thing and reuses the rest:"
+      ],
+      "list": [
+        "**New customer:** same service, sold to restaurants instead of builders",
+        "**New problem:** same clients, but solve cash flow instead of bookkeeping",
+        "**New way to charge:** a fixed monthly fee instead of hourly",
+        "**Zoom in:** turn the one feature people love into the whole offer"
+      ],
+      "callout": "Starting over is not a pivot. It throws away what you learned."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Decide the test before you see the results.",
+      "body": [
+        "Early numbers are noisy. Ten sales calls can't tell you much, so pivoting after a bad week is just guessing.",
+        "Pivoting too often is also a trap. A new direction every month means no idea gets a fair test.",
+        "Before each change, write down the rate you expect to move, by how much, and the date you'll decide."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a box factory.",
+      "illustrative": true,
+      "body": [
+        "You make eco-friendly shipping boxes for small online shops. Revenue has been flat for four months because you paused marketing.",
+        "Meanwhile you lowered prices, sped up delivery and added sizes. Repeat orders rose from 15% to 22%, 31%, then 38%. An adviser says flat revenue means it's time to pivot to wholesale."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Persevere, and start spending on growth again",
+            "verdict": "best",
+            "feedback": "Each change moved the rate that matters, so the offer is improving. Revenue was flat because effort was flat."
+          },
+          {
+            "key": "B",
+            "text": "Pivot to wholesale, since revenue isn't growing",
+            "verdict": "risky",
+            "feedback": "You'd chase a bigger market but abandon an offer that is clearly getting stronger with each change."
+          },
+          {
+            "key": "C",
+            "text": "Keep tweaking the offer with no end date",
+            "verdict": "partial",
+            "feedback": "Improving is good, but without a target and a deadline you can't tell when it's time to grow or to stop."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Persevere while changes move the rate. Pivot when they stop.",
+      "body": [
+        "Totals tell you how hard you're pushing. Rates tell you whether the plan is working.",
+        "**Try it today:** pick the one rate that matters most to your business. List your last three changes and whether each one moved it."
+      ],
+      "next": "Next · When good numbers lie about fit"
+    }
+  ]
+}

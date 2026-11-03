@@ -1,0 +1,273 @@
+{
+  "id": "THK-08-03",
+  "unitId": "THK-08",
+  "categoryId": "THK",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "Simpson's paradox",
+  "readerTitle": "Better on every route, worse in total",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (운송사 비교, 앱 온보딩) + 실제 연구 (1986년 BMJ 신장결석 치료 비교). 기업 사례로 검증된 심슨의 역설 수치를 찾기 어려워 형식을 numbers_twist로 바꿈",
+  "insight": "합계 비교를 믿기 전에 양쪽이 같은 구성(믹스)을 맡았는지부터 본다. 합계는 실력보다 구성을 재고 있을 수 있다.",
+  "misconception": "전체 평균이 높은 쪽이 더 잘하는 쪽이다. 모든 그룹에서 나아졌다면 전체도 당연히 나아진다.",
+  "relatedLessonIds": [
+    "THK-08-02",
+    "THK-11-02"
+  ],
+  "sources": [
+    {
+      "text": "Charig, C.R., Webb, D.R., Payne, S.R., Wickham, J.E. (1986). Comparison of treatment of renal calculi by open surgery, percutaneous nephrolithotomy, and extracorporeal shockwave lithotripsy. BMJ 292:879–882.",
+      "url": null
+    },
+    {
+      "text": "Julious, S.A., Mullee, M.A. (1994). Confounding and Simpson's paradox. BMJ 309:1480.",
+      "url": null
+    },
+    {
+      "text": "운송사와 앱 온보딩 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "운송사 계산: Swift 근거리 810/900=90%, 장거리 50/100=50%, 합계 860/1,000=86%. Ridge 근거리 95/100=95%, 장거리 630/900=70%, 합계 725/1,000=72.5%.",
+      "status": "open"
+    },
+    {
+      "note": "신장결석 수치는 Julious & Mullee(1994)가 정리한 Charig 등(1986) 자료 기준: 작은 결석 개복 81/87(93%) vs 경피적 신쇄석술 234/270(87%), 큰 결석 개복 192/263(73%) vs 경피적 55/80(69%), 전체 개복 273/350(78%) vs 경피적 289/350(83%). 원문과 대조 필요.",
+      "status": "open"
+    },
+    {
+      "note": "앱 온보딩 계산: 이전 검색·추천 800×14%=112, 소셜 광고 200×4%=8, 합계 120/1,000=12%. 이후 검색·추천 400×16%=64, 소셜 광고 600×6%=36, 합계 100/1,000=10%.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Numbers twist",
+      "title": "Better on every route, worse in total",
+      "illustrative": true,
+      "body": [
+        "Your quarterly report compares two freight carriers. Swift Freight delivered on time 86% of the time. Ridge Haulage managed only 72.5%. Easy call.",
+        "Except Ridge was more punctual than Swift on short trips. And on long trips. Both facts are true at once."
+      ],
+      "image": {
+        "label": "Two delivery trucks with a scoreboard that seems to contradict itself",
+        "aspectRatio": "4:3",
+        "brief": "트럭 두 대가 나란히 서 있고 위에 점수판. 큰 글씨로 \"Overall: Swift 86% / Ridge 72.5%\", 그 아래 작은 줄 두 개에서는 Ridge가 모두 앞섬. 보는 사람이 고개를 갸웃하게 만드는 구도. 실제 운송사 로고나 상표 사용 금지.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which carrier gets the contract?",
+      "illustrative": true,
+      "body": [
+        "You run logistics for a parts maker. Each carrier handled 1,000 shipments last quarter. Swift: 86% on time. Ridge: 72.5% on time.",
+        "The contract renewal is due Friday. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Give all the volume to Swift. The gap is big",
+            "verdict": "risky",
+            "feedback": "Fast and decisive, but you are trusting a total without knowing what each carrier was asked to carry. A 13-point gap can come from the work, not the carrier."
+          },
+          {
+            "key": "B",
+            "text": "Ask for on-time rates split by route type before deciding",
+            "verdict": "best",
+            "feedback": "It costs a day, but it checks whether both carriers faced the same jobs. The next card shows why that day matters."
+          },
+          {
+            "key": "C",
+            "text": "Split volume 50/50 to hedge your bets",
+            "verdict": "partial",
+            "feedback": "It limits the damage if you're wrong, but it skips the question. You may keep paying for the weaker carrier on the routes where it's weakest."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "Split by route, Ridge wins both times.",
+      "illustrative": true,
+      "body": [
+        "Swift got 900 local runs and 100 long-haul runs. Ridge got the reverse: 100 local, 900 long-haul. Long-haul is much harder to deliver on time for anyone."
+      ],
+      "chart": {
+        "unit": "%",
+        "groups": [
+          {
+            "label": "Local runs",
+            "rows": [
+              {
+                "label": "Swift",
+                "value": 90,
+                "highlight": false
+              },
+              {
+                "label": "Ridge",
+                "value": 95,
+                "highlight": true
+              }
+            ]
+          },
+          {
+            "label": "Long-haul runs",
+            "rows": [
+              {
+                "label": "Swift",
+                "value": 50,
+                "highlight": false
+              },
+              {
+                "label": "Ridge",
+                "value": 70,
+                "highlight": true
+              }
+            ]
+          },
+          {
+            "label": "All shipments",
+            "rows": [
+              {
+                "label": "Swift",
+                "value": 86,
+                "highlight": true
+              },
+              {
+                "label": "Ridge",
+                "value": 72.5,
+                "highlight": false
+              }
+            ]
+          }
+        ]
+      },
+      "callout": "The total mostly measured *which routes* each carrier got, not how well it drove them."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Simpson's paradox",
+      "body": [
+        "**Simpson's paradox** is when a pattern holds inside every group but flips when you add the groups together.",
+        "It needs two ingredients. The groups have very different results: long-haul is far harder than local. And the two sides you compare have very different mixes of those groups.",
+        "Ridge carried 90% of the hard routes. Swift carried 90% of the easy ones. Add it up and the easier workload looks like better performance."
+      ],
+      "image": {
+        "label": "Two stacked bars showing different mixes of easy and hard work",
+        "aspectRatio": "16:9",
+        "brief": "막대 두 개. Swift 막대는 대부분 연한 색(\"Local, easy\")에 위쪽 조금만 진한 색(\"Long-haul, hard\"). Ridge 막대는 반대로 대부분 진한 색. 제목 \"Same job? No.\" 단순한 플랫 인포그래픽, 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Real research",
+      "title": "It shows up in medicine, too.",
+      "body": [
+        "A 1986 study in the *BMJ* compared two kidney stone treatments. Overall, a newer, less invasive procedure succeeded 83% of the time, against 78% for open surgery.",
+        "Split by stone size, open surgery did better in both groups: 93% vs 87% for small stones, 73% vs 69% for large ones.",
+        "Why? Surgeons tended to use open surgery for the large, harder stones. The less invasive method got more of the easy cases, so its total looked better."
+      ],
+      "image": {
+        "label": "Small and large stones sorted into two treatment paths",
+        "aspectRatio": "16:9",
+        "brief": "작은 돌과 큰 돌이 두 갈래 길로 나뉘어 들어가는 그림. 한쪽 길(\"Open surgery\")에는 큰 돌이 많고, 다른 쪽(\"Less invasive\")에는 작은 돌이 많음. 의료 느낌은 가볍게, 피나 수술 장면은 넣지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where else",
+      "title": "Anywhere the mix differs, the total can lie.",
+      "body": [
+        "Watch for it whenever two sides didn't face the same work or the same customers."
+      ],
+      "list": [
+        "**Sales reps:** the one with big-company accounts may close a lower share overall yet beat everyone in each segment",
+        "**Factories:** a plant making harder parts can show more defects while running cleaner lines",
+        "**Branches:** a store in a tougher neighborhood can trail on every total and lead on every like-for-like",
+        "**Month vs month:** a shift in customer types can move the total while nothing else changed"
+      ],
+      "callout": "Before comparing totals, ask: did both sides face the same mix?",
+      "softwareNote": "After a mobile launch, overall retention can drop even while mobile and desktop retention both rise, simply because more users now arrive on mobile, where retention is lower."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Don't slice until something flips.",
+      "body": [
+        "Cut data enough ways and some slice will reverse by pure chance. Split by a factor you can explain *before* you look, such as difficulty, customer type or channel.",
+        "And the split isn't always the right answer. If your own decision caused the mix to change, for example a new price pushing customers to a cheaper plan, the total may be the honest view. Ask what made the mix differ. The cleanest fix is an experiment that assigns groups at random, so the mix stays equal."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software app.",
+      "illustrative": true,
+      "body": [
+        "You launched a new onboarding flow. Trial-to-paid conversion fell from 12% to 10%. The same month, marketing started social ads, and social ad trials jumped from 20% to 60% of signups.",
+        "Within channels: search and referral went from 14% to 16%. Social ads went from 4% to 6%. Your CEO wants to roll back the new flow."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Roll it back. Conversion fell after launch",
+            "verdict": "risky",
+            "feedback": "Simple and safe-sounding, but conversion rose in both channels. You'd undo a real improvement because the traffic mix shifted."
+          },
+          {
+            "key": "B",
+            "text": "Keep the flow and report conversion by channel from now on",
+            "verdict": "best",
+            "feedback": "You keep a change that helped every group, and you stop mix shifts from fooling the next review. The cost is a slightly more complex report."
+          },
+          {
+            "key": "C",
+            "text": "Keep the flow, but cut social ads since they drag conversion down",
+            "verdict": "partial",
+            "feedback": "You've spotted the mix shift, but low conversion alone doesn't make a channel bad. Judge the ads on what each paying customer costs, not on the overall rate."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "When the mix differs, check each group before trusting the total.",
+      "body": [
+        "A total can reward the side with the easier work. Split by the factor that differs most, and see if the winner changes.",
+        "**Try it today:** pick one comparison you rely on, two teams, two stores or two months. Split it by the one factor that differs most between them. Does the ranking hold?"
+      ],
+      "next": "Next · The customers who never show up in your data"
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "id": "PPL-05-02",
+  "unitId": "PPL-05",
+  "categoryId": "PPL",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "Team size",
+  "readerTitle": "Why two more cooks made the kitchen slower",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.4,
+  "caseKinds": [
+    "illustrative",
+    "real_research",
+    "anecdote"
+  ],
+  "caseNote": "가상 사례 (레스토랑 주방, 소프트웨어 스타트업) + 실제 연구 (Ringelmann 줄다리기 실험, Brooks의 법칙) + 일화 (Amazon '피자 두 판' 팀)",
+  "insight": "사람을 한 명 더하면 손은 하나 늘지만 서로 맞춰야 할 연결은 그보다 빠르게 늘어난다. 팀 크기는 결과가 아니라 설계하는 대상이다.",
+  "misconception": "사람을 두 배로 늘리면 일도 두 배로 빨라진다. 일이 밀리면 기존 팀에 사람을 더 넣는 것이 해결책이다.",
+  "relatedLessonIds": [
+    "PPL-05-03",
+    "PPL-09-03"
+  ],
+  "sources": [
+    {
+      "text": "Ringelmann, M. (1913). Recherches sur les moteurs animés: Travail de l'homme. Annales de l'Institut National Agronomique.",
+      "url": null
+    },
+    {
+      "text": "Latané, B., Williams, K., & Harkins, S. (1979). Many hands make light the work: The causes and consequences of social loafing. Journal of Personality and Social Psychology.",
+      "url": null
+    },
+    {
+      "text": "Brooks, F. P. (1975). The Mythical Man-Month: Essays on Software Engineering. Addison-Wesley.",
+      "url": null
+    },
+    {
+      "text": "Amazon '피자 두 판' 팀 규칙: 여러 언론과 Amazon 관련 서적에 Jeff Bezos의 원칙으로 전해지는 일화",
+      "url": null
+    },
+    {
+      "text": "주방·스타트업 사례와 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "연결 수 계산식 n(n−1)/2: 3명 3, 4명 6, 6명 15, 8명 28, 10명 45, 12명 66. 4→6명은 인원 +50%, 연결 6→15는 +150%. 6명 팀 두 개는 팀 안 연결 15+15=30(12명 한 팀 66 대비). 모두 다시 확인했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Ringelmann 실험은 1913년 발표되었고 실험 자체는 그보다 앞선 시기에 진행되었습니다. 인원이 늘수록 1인당 당기는 힘이 줄었다는 결론만 쓰고 구체적 퍼센트는 쓰지 않았습니다. 원인이 조율 손실과 노력 감소(사회적 태만, Latané 외 1979) 둘 다라는 설명이 원 연구와 맞는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Brooks의 법칙 인용 \"Adding manpower to a late software project makes it later\"는 The Mythical Man-Month(1975) 원문 문구입니다. 게시 전 원문을 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Amazon '피자 두 판' 규칙은 일화로 표시했습니다(\"reportedly\"). 정확한 출처와 시기가 확실하지 않으므로 수치나 연도는 쓰지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "People · Everyday scene",
+      "title": "Why two more cooks made the kitchen slower",
+      "illustrative": true,
+      "body": [
+        "Saturday nights were a mess. Four cooks on the line, tickets piling up. So the owner added two more cooks.",
+        "The next Saturday, plates came out *slower*. More people were bumping into each other, asking who had the risotto, and plating the same order twice."
+      ],
+      "image": {
+        "label": "Six cooks crowded on one kitchen line",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 좁은 주방 라인에 요리사 6명이 붐비며 서로 부딪히고, 머리 위에 말풍선 \"Who's on table 7?\"가 여러 개 겹쳐 있음. 주문 티켓이 줄줄이 밀려 있음. 실제 브랜드 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Brunch is backing up too.",
+      "illustrative": true,
+      "body": [
+        "You run a busy brunch spot. Four cooks share one line, and the weekend wait for food is creeping past 30 minutes. You can afford two more cooks.",
+        "What do you do with them?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Add both to the main line so everyone helps on every dish",
+            "verdict": "risky",
+            "feedback": "You gain hands but every cook now has more people to check with. The extra coordination can eat the extra capacity, as the owner found on Saturday."
+          },
+          {
+            "key": "B",
+            "text": "Set them up as a separate two-person station that fully owns eggs and pancakes",
+            "verdict": "best",
+            "feedback": "You get the extra hands while keeping each group small. The cost is one clear handoff between stations, which is far cheaper than everyone talking to everyone."
+          },
+          {
+            "key": "C",
+            "text": "Skip hiring and pay the four current cooks to stay longer",
+            "verdict": "partial",
+            "feedback": "It avoids new coordination, but it doesn't add capacity at the peak, and tired cooks slow down too."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "People add up. Connections multiply.",
+      "body": [
+        "Every pair of people on a team is a possible conversation, handoff or mix-up. Going from 4 to 6 cooks is 50% more people but **150% more connections**."
+      ],
+      "chart": {
+        "unit": "count",
+        "groups": [
+          {
+            "label": "Connections between people on one team",
+            "rows": [
+              {
+                "label": "3 people",
+                "value": 3,
+                "highlight": false
+              },
+              {
+                "label": "4 people",
+                "value": 6,
+                "highlight": false
+              },
+              {
+                "label": "6 people",
+                "value": 15,
+                "highlight": true
+              },
+              {
+                "label": "8 people",
+                "value": 28,
+                "highlight": false
+              },
+              {
+                "label": "10 people",
+                "value": 45,
+                "highlight": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Team size",
+      "body": [
+        "**Team size** shapes how much work a team can do, not just because of how many hands it has, but because of how many links it must keep up.",
+        "The number of pairs is *n × (n − 1) ÷ 2*. Each new person adds one more pair of hands and a link to everyone already there. Past a point, the team spends more time coordinating than cooking, building or selling."
+      ],
+      "image": {
+        "label": "Small network vs dense tangled network",
+        "aspectRatio": "16:9",
+        "brief": "두 개의 네트워크 그림 비교. 왼쪽은 점 4개와 선 6개로 깔끔한 모양 \"4 people · 6 links\", 오른쪽은 점 10개와 선 45개가 촘촘히 얽힌 모양 \"10 people · 45 links\". 오른쪽은 복잡하고 엉킨 느낌으로.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "More hands, less per hand.",
+      "body": [
+        "In experiments published in 1913, French engineer Max Ringelmann had people pull on a rope alone and in groups. As groups grew, each person pulled with **less force on average**. Later researchers traced this to two causes: poorer coordination and people easing off when their effort is harder to see.",
+        "In software, Fred Brooks put it bluntly in 1975: \"Adding manpower to a late software project makes it later.\" New people need training, and every addition creates more communication."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where it applies",
+      "title": "Big organizations are built from small teams.",
+      "body": [
+        "The answer isn't to stay tiny. It's to grow by adding small teams, each owning a clear piece of work, instead of growing one big team.",
+        "Kitchens do this with stations. Shops split floor staff by section. At Amazon, Jeff Bezos reportedly wanted teams small enough to be fed by two pizzas, a story often retold and probably simplified.",
+        "The links between teams still exist, but there are far fewer of them."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Small has its own costs.",
+      "body": [
+        "A two-person team falls apart when one is sick. Very small teams may lack a needed skill, and a single person can become a bottleneck.",
+        "Splitting also only helps if the work can be split. If every dish needs every station, you've just moved the chaos to the handoffs. Draw team lines where the work naturally separates."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software startup.",
+      "illustrative": true,
+      "body": [
+        "Your 12 engineers work as one team. The daily standup takes 45 minutes, and people keep waiting on each other's code reviews. Releases are slipping.",
+        "What's your move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Hire four more engineers to catch up",
+            "verdict": "risky",
+            "feedback": "Sixteen people means 120 links instead of 66, plus onboarding. This is Brooks's law in action: the team likely slows down before it speeds up."
+          },
+          {
+            "key": "B",
+            "text": "Split into two teams of six, each owning one part of the product",
+            "verdict": "best",
+            "feedback": "Links inside teams drop from 66 to 30, and standups shrink. You'll need to manage the few handoffs between the two teams carefully."
+          },
+          {
+            "key": "C",
+            "text": "Hire a project manager to coordinate all 12",
+            "verdict": "partial",
+            "feedback": "A coordinator can smooth the traffic, but it treats the symptom. The 66 links are still there, now running through one busy person."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "When work slows, look at the links before adding hands.",
+      "body": [
+        "Each new person adds capacity and coordination. Grow by adding small teams with clear ownership, not by making one team bigger.",
+        "**Try it today:** count the people who must agree before your team's most common piece of work is done. If it's more than five or six, ask how the work could be split."
+      ],
+      "next": "Next · Who owns what: roles and accountability"
+    }
+  ]
+}

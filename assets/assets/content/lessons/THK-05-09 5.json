@@ -1,0 +1,219 @@
+{
+  "id": "THK-05-09",
+  "unitId": "THK-05",
+  "categoryId": "THK",
+  "order": 9,
+  "type": "case",
+  "conceptTag": "NASA's Challenger launch decision",
+  "readerTitle": "The night the question was asked backwards: inside the Challenger launch decision",
+  "format": "counterexample",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5,
+  "caseKinds": [
+    "real_company",
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 사건 (NASA, Morton Thiokol, 1986년 챌린저호) + 실제 연구 (Vaughan 1996) + 가상 적용 (소프트웨어 데이터 이전, 연회 주방)",
+  "insight": "되돌릴 수 없는 결정에서는 '위험하다는 증거가 있는가'가 아니라 '안전하다는 증거가 있는가'를 물어야 한다. 불확실성은 진행할 이유가 아니라 멈출 이유다.",
+  "misconception": "실패한다는 증거가 없으면 진행해도 된다. 지금까지 문제없이 성공했다면 안전하다는 뜻이다.",
+  "relatedLessonIds": [
+    "THK-05-01",
+    "THK-05-02"
+  ],
+  "sources": [
+    {
+      "text": "Report of the Presidential Commission on the Space Shuttle Challenger Accident (Rogers Commission), 1986: 발사 전날 텔레컨퍼런스, 53°F 권고, 발사 시 약 36°F, O-링 밀봉 실패 원인",
+      "url": null
+    },
+    {
+      "text": "Rogers Commission Report, Appendix F: R. P. Feynman, 'Personal Observations on the Reliability of the Shuttle'",
+      "url": null
+    },
+    {
+      "text": "Vaughan, D. (1996). The Challenger Launch Decision: Risky Technology, Culture, and Deviance at NASA. University of Chicago Press.",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "발사일 1986년 1월 28일, 발사 약 73초 후 기체 분해, 승무원 7명 사망, 원인은 오른쪽 고체 로켓 부스터 이음부 O-링 밀봉 실패(저온으로 악화). Rogers Commission 보고서로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Thiokol 엔지니어들이 이전 최저 발사 온도인 53°F 미만에서는 발사하지 말 것을 권고했고, 발사 시 기온은 약 36°F로 이전 어떤 발사보다 약 15°F 낮았다는 내용은 Rogers Commission 보고서 기준입니다.",
+      "status": "open"
+    },
+    {
+      "note": "'안전함을 증명하라'에서 '위험함을 증명하라'로 입증 책임이 뒤바뀌었다는 서술은 Boisjoly 등 증언과 Rogers Commission 보고서에 근거합니다. 직접 인용은 피하고 의역했습니다. 게시 전 해당 장을 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Thiokol 경영진이 회의를 잠시 중단하고 내부 논의 후 권고를 뒤집었다는 내용, 이전 비행들(특히 1985년 1월 저온 발사)에서 O-링 손상이 관찰되었다는 내용을 보고서로 확인하세요. 구체적 손상 횟수는 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "발사가 이미 여러 차례 연기되었다는 점은 보고서에 나오지만 정확한 횟수는 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Feynman 인용문 'For a successful technology, reality must take precedence over public relations, for nature cannot be fooled.'는 Appendix F 마지막 문장입니다. 원문과 정확히 대조하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Decisions · Counterexample",
+      "title": "The night the question was asked backwards",
+      "body": [
+        "January 1986. The night before space shuttle Challenger was due to launch, engineers at the company that built its rocket boosters asked NASA to wait.",
+        "The next morning was forecast to be far colder than any shuttle launch before it. By the end of the call, the answer had changed to go. How that happened is a lesson for every business that makes decisions it can't undo."
+      ],
+      "image": {
+        "label": "A launch pad at dawn with frost on the railings",
+        "aspectRatio": "4:3",
+        "brief": "새벽의 발사대를 차분한 톤으로. 난간과 구조물에 서리와 고드름, 멀리 실루엣으로만 보이는 우주왕복선. 비극을 자극적으로 표현하지 말 것. NASA 로고나 실제 마크는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "The engineers are worried. They can't prove it.",
+      "body": [
+        "You manage the launch. The booster engineers say cold makes the rubber seals in the booster joints stiff, so they may not seal in time. Seals were damaged on some earlier flights, worst on the coldest one.",
+        "Their data is thin. They can't show the seals *will* fail. The launch has already slipped several times. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Launch. Without evidence of failure, there's no solid reason to delay again",
+            "verdict": "risky",
+            "feedback": "This keeps the schedule, but it treats missing evidence as safety. On a decision you can't reverse, uncertainty should count against going."
+          },
+          {
+            "key": "B",
+            "text": "Wait until temperatures are back inside the range already flown",
+            "verdict": "best",
+            "feedback": "You lose a day or more and some credibility on schedule. You keep the decision inside conditions where you have actual evidence."
+          },
+          {
+            "key": "C",
+            "text": "Launch, but ask the engineers to study cold seals for future flights",
+            "verdict": "partial",
+            "feedback": "Good instinct to learn more, but the study comes after the one flight where the risk is highest. The timing is backwards."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "The recommendation flipped overnight.",
+      "body": [
+        "The engineers at Morton Thiokol recommended no launch below 53°F, the coldest temperature a shuttle had flown. NASA managers pushed back. Thiokol's managers paused the call, talked privately, and returned with a recommendation to launch.",
+        "Challenger lifted off at about 36°F. Some 73 seconds later it broke apart, and all seven crew members died. The presidential commission found that a seal in the right booster joint had failed, made worse by the cold."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Who has to prove what",
+      "body": [
+        "Normally, a flight went ahead only if the engineers could show it was safe. That night, according to testimony to the commission, the question flipped: the engineers had to show it was **unsafe**.",
+        "That flip is the core lesson. The **burden of proof** should match how reversible a decision is. For a choice you can undo, \"show me it's a problem\" is fine. For a one-way door, the default is no until the evidence says yes."
+      ],
+      "image": {
+        "label": "A scale: 'prove it's safe' versus 'prove it's unsafe'",
+        "aspectRatio": "16:9",
+        "brief": "저울 일러스트. 왼쪽 접시에 \"Prove it's safe\", 오른쪽에 \"Prove it's unsafe\". 가운데 받침대에 \"Can we undo this?\" 라벨. 단순한 플랫 스타일.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Why it felt safe",
+      "title": "Past success looked like proof.",
+      "body": [
+        "Damaged seals had been seen before, and every flight had come home. Each safe return made the damage feel more acceptable. Sociologist Diane Vaughan called this the **normalization of deviance**: small departures from the design slowly start to feel normal.",
+        "But surviving a risk is not evidence the risk is small. Physicist Richard Feynman, who served on the commission, ended his report: \"For a successful technology, reality must take precedence over public relations, for nature cannot be fooled.\""
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond rockets",
+      "title": "The same flip happens in ordinary work.",
+      "illustrative": true,
+      "body": [
+        "A software team plans a database migration that deletes the old records once the copy finishes. An engineer says a few edge cases haven't been tested. The release is late. A manager asks, \"Do you have a case that actually breaks?\"",
+        "That is Challenger's question in small form. A feature behind a switch you can turn off can ship on \"no known problems.\" A step that destroys data should ship on \"tested and backed up.\" Same team, different burden of proof."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Not every decision deserves this caution.",
+      "body": [
+        "Most business decisions can be reversed. Demanding proof of safety for all of them makes a team slow and timid.",
+        "The skill is sorting. Ask what happens if you're wrong and whether you can undo it. Save the strict standard for choices with severe, permanent downsides. And watch the pressure that pushes people to relax it: deadlines, past delays and a run of good luck."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a wedding banquet.",
+      "illustrative": true,
+      "body": [
+        "You run a hotel kitchen. Tonight is a wedding for 200. This morning, the walk-in fridge's log shows it ran warm for part of the night. The seafood starter was inside.",
+        "Your sous-chef says it looks and smells fine, and nobody can prove it's spoiled. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Serve it. It passes inspection and replacing it is expensive",
+            "verdict": "risky",
+            "feedback": "You save money and time, but you've accepted 'no proof of harm' on a choice you can't take back once 200 guests have eaten."
+          },
+          {
+            "key": "B",
+            "text": "Discard it and switch to a starter you can source or make safely today",
+            "verdict": "best",
+            "feedback": "It costs money and a scramble. It keeps an irreversible risk off the plates, and you can explain the change to the couple."
+          },
+          {
+            "key": "C",
+            "text": "Serve it, but cook it longer to be safe",
+            "verdict": "partial",
+            "feedback": "Extra cooking helps with some risks, but not all. It feels like a fix while leaving the real question unanswered."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "For decisions you can't undo, make the case for going, not for stopping.",
+      "body": [
+        "Challenger shows how easily a team slides from \"prove it's safe\" to \"prove it's unsafe,\" especially under deadline.",
+        "**Try it today:** pick one decision on your plate. Ask: can we undo it? If not, write down what evidence would show it's safe, and check whether you have it."
+      ],
+      "next": "Next · Run a pre-mortem on a launch"
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "id": "FIN-07-02",
+  "unitId": "FIN-07",
+  "categoryId": "FIN",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "Debt vs equity",
+  "readerTitle": "Same $300,000, two right answers: when to borrow and when to sell a share",
+  "format": "two_businesses",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (주방용품 도매 유통업체, 신제품 포장재 제조업체, 구독형 소프트웨어 회사) · 모든 수치는 설명용",
+  "insight": "부채냐 지분이냐는 '어느 쪽이 싸냐'가 아니라 '위험을 누가 지느냐'의 선택이다. 현금 흐름이 꾸준하면 빌리고, 불확실하면 위험을 나눌 동업자를 들인다.",
+  "misconception": "지분을 지키는 게 최선이니 빌릴 수 있으면 무조건 빌린다. 또는 투자금은 갚을 필요가 없으니 공짜 돈이다.",
+  "relatedLessonIds": [
+    "FIN-07-03",
+    "FIN-07-04"
+  ],
+  "sources": [
+    {
+      "text": "기업재무의 표준 개념 (부채와 자기자본의 구분, 고정 상환 의무와 잔여 청구권)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "대출 상환액 계산: $300,000, 연 8%, 5년 원리금 균등 상환. 300,000 × 0.08 ÷ (1 − 1.08^−5) = 24,000 ÷ 0.3194 ≈ $75,136/년. 카드에는 약 $75,000로 표기했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "차트 수치: 금융 비용 전 현금 창출액이 나쁜 해 $40,000, 좋은 해 $400,000이라는 가정. 투자자 지분 25% 몫은 각각 $10,000, $100,000. 투자자 몫은 '지급 의무'가 아니라 '소유한 몫'이라는 점을 본문에 명시했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "대출의 담보·개인 보증, 파산 시 채권자 우선 변제는 일반 원칙으로만 서술했습니다. 국가별 법 제도 차이는 다루지 않습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Two businesses",
+      "title": "Same $300,000, two right answers",
+      "illustrative": true,
+      "body": [
+        "Two owners in the same town each need $300,000 this spring. One runs a kitchen-supply distributor. The other makes packaging and wants to launch a new compostable line.",
+        "Same amount, same bank, same week. Yet the smart move for one is to borrow, and the smart move for the other is to sell part of the company."
+      ],
+      "image": {
+        "label": "Two business owners each holding an identical bag of money",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 왼쪽에 상자가 쌓인 창고 앞의 도매업자, 오른쪽에 기계 앞의 제조업자. 둘 다 똑같은 크기의 돈 자루를 들고 있고, 각각 다른 갈림길 표지판(\"Borrow\" / \"Sell a share\")을 보고 있음. 실제 로고나 상표 없음.",
+        "url": "assets/images/fin-07-02-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Who should borrow, and who should sell a share?",
+      "illustrative": true,
+      "body": [
+        "**The distributor** has sold to the same 200 restaurants for nine years. Orders are steady. The money buys more stock for a second warehouse.",
+        "**The manufacturer** has a promising new product, but no customers for it yet. The money buys a machine and two years of selling.",
+        "How should each one raise the $300,000?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Both borrow. Keeping 100% of the company is always worth it",
+            "verdict": "risky",
+            "feedback": "The distributor would be fine. The manufacturer would owe fixed payments from day one on a product that may earn nothing for two years."
+          },
+          {
+            "key": "B",
+            "text": "The distributor borrows; the manufacturer sells a share",
+            "verdict": "best",
+            "feedback": "Steady orders can carry fixed payments, so the distributor keeps full ownership. The manufacturer gives up a slice but gains a partner who waits if the launch is slow."
+          },
+          {
+            "key": "C",
+            "text": "The distributor sells a share; the manufacturer borrows",
+            "verdict": "risky",
+            "feedback": "This flips the logic. The distributor gives away future profits it could have kept, and the manufacturer takes on payments it may not be able to make."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "The same $300,000 in a bad year and a great year",
+      "illustrative": true,
+      "body": [
+        "A 5-year loan at 8% costs about $75,000 a year, whatever happens. Selling 25% of the company costs no fixed payments, but the investor owns a quarter of whatever the business earns."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Bad year: business makes $40,000",
+            "rows": [
+              {
+                "label": "Owed to lender",
+                "value": 75000,
+                "highlight": true
+              },
+              {
+                "label": "Investor's 25% share",
+                "value": 10000,
+                "highlight": false
+              }
+            ]
+          },
+          {
+            "label": "Great year: business makes $400,000",
+            "rows": [
+              {
+                "label": "Owed to lender",
+                "value": 75000,
+                "highlight": false
+              },
+              {
+                "label": "Investor's 25% share",
+                "value": 100000,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "callout": "In a bad year, debt hurts most. In a great year, equity costs most."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Debt vs equity",
+      "body": [
+        "**Debt** means borrowing. You promise fixed payments on a schedule, good year or bad. The lender doesn't own any of your business, and once the loan is repaid, the deal is over.",
+        "**Equity** means selling part of the ownership. There are no fixed payments. Instead, the investor shares in whatever happens, the losses and the profits, for as long as they own that slice."
+      ],
+      "image": {
+        "label": "A fixed staircase of payments next to a pie with one slice removed",
+        "aspectRatio": "16:9",
+        "brief": "좌우 비교 인포그래픽. 왼쪽 \"Debt\": 똑같은 높이의 계단(매달 같은 상환액)이 끝에서 멈춤. 오른쪽 \"Equity\": 회사 파이에서 한 조각이 투자자에게 넘어가 있고, 파이가 커지면 조각도 같이 커지는 모습.",
+        "url": "assets/images/fin-07-02-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "The real question is who carries the risk.",
+      "body": [
+        "With debt, the risk stays with you. The lender gets paid first, so your cash must reliably cover the payments. With equity, the risk is shared. The investor only does well if you do.",
+        "So match the money to the cash flow. The distributor has nine years of repeat orders, and its stock can even back the loan. The manufacturer's new line might take off, stall or fail. Its uncertainty belongs with someone who has agreed to share it."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Wider view",
+      "title": "It's the project, not just the company.",
+      "body": [
+        "The same business can need both kinds of money. A restaurant might borrow for a new oven, because the oven can be resold and the restaurant already has customers. It might bring in a partner to open an untested second concept.",
+        "Steady, predictable returns lean toward debt. Uncertain, slow or all-or-nothing returns lean toward equity."
+      ],
+      "softwareNote": "Most early software startups raise equity because revenue is unpredictable and most of the value sits years ahead. Once a subscription business has steady recurring revenue and low churn, borrowing becomes a real option."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Each one fails in its own way.",
+      "body": [
+        "Debt fails suddenly. Miss payments and the lender can claim assets, and small-business loans often come with a personal guarantee from the owner. Borrowing for a risky project can turn a slow start into a crisis.",
+        "Equity fails slowly. The share you sell is usually permanent, and you gain a co-owner with a voice in big decisions. If the business does well, that slice can end up costing far more than any loan would have."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software company.",
+      "illustrative": true,
+      "body": [
+        "Your subscription software for dental clinics brings in $80,000 a month. Few customers cancel, and the business already covers its costs.",
+        "You need $400,000 to hire engineers for features your customers keep requesting. How do you fund it?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Sell 25% to an investor so there are no payments to worry about",
+            "verdict": "partial",
+            "feedback": "Safe in a bad year, but you give up a quarter of a steady, growing business forever to avoid payments your cash could likely cover."
+          },
+          {
+            "key": "B",
+            "text": "Borrow, with payments sized well within your monthly cash",
+            "verdict": "best",
+            "feedback": "Your recurring revenue is exactly the kind of steady cash that carries debt. You keep full ownership, as long as the payments leave room for a slow quarter."
+          },
+          {
+            "key": "C",
+            "text": "Borrow as much as any lender offers and hire twice as many engineers",
+            "verdict": "risky",
+            "feedback": "Steady revenue supports some debt, not unlimited debt. If hiring runs ahead of sales, fixed payments quickly eat the cushion."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Borrow against what's steady. Share what's uncertain.",
+      "body": [
+        "Debt keeps ownership but leaves all the risk with you. Equity shares the risk but also the reward, usually for good.",
+        "**Try it today:** for your next big spend, write down how sure you are of the cash it will bring back, and when. Then ask whether a fixed payment fits that answer."
+      ],
+      "next": "Next · What money really costs"
+    }
+  ]
+}

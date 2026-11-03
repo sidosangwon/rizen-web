@@ -1,0 +1,244 @@
+{
+  "id": "THK-03-06",
+  "unitId": "THK-03",
+  "categoryId": "THK",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Incentive-caused bias",
+  "readerTitle": "Never ask a barber if you need a haircut",
+  "format": "two_businesses",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 연구 (Levitt & Syverson 2008 부동산 중개인, Cain·Loewenstein·Moore 2005 이해충돌 공개) + 가상 사례 (철물점, 임대업자, 조경 업체)",
+  "insight": "조언을 평가할 때는 내용보다 먼저 '이 사람은 내가 예라고 하면 무엇을 얻는가'를 묻고, 그 사람의 보수와 무관한 확인 수단을 하나 붙인다.",
+  "misconception": "정직한 사람은 보수 구조와 상관없이 객관적으로 조언한다. 이해관계를 밝히기만 하면 문제가 해결된다.",
+  "relatedLessonIds": [
+    "THK-03-02",
+    "THK-06-05"
+  ],
+  "sources": [
+    {
+      "text": "Munger, C. (1995). The Psychology of Human Misjudgment (Harvard School speech).",
+      "url": null
+    },
+    {
+      "text": "Levitt, S. D., & Syverson, C. (2008). Market Distortions When Agents Are Better Informed: The Value of Information in Real Estate Transactions. Review of Economics and Statistics, 90(4).",
+      "url": null
+    },
+    {
+      "text": "Cain, D. M., Loewenstein, G., & Moore, D. A. (2005). The Dirt on Coming Clean: Perverse Effects of Disclosing Conflicts of Interest. Journal of Legal Studies, 34(1).",
+      "url": null
+    },
+    {
+      "text": "철물점, 임대업자, 조경 업체 사례와 $400,000 주택 계산은 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Levitt & Syverson(2008) 수치: 중개인 본인 소유 주택은 약 10일(논문상 약 9.5일) 더 오래 시장에 있었고 약 3.7% 더 비싸게 팔렸다는 결과. 카드에는 'about 10 days', 'roughly 3–4%'로 적었습니다. 원문 표로 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "5번 카드 계산(가상): $400,000 주택을 2.5% 더 받으면 $10,000. 중개인 개인 몫을 1.5%로 가정하면 $10,000 × 1.5% = $150. 미국 수수료 구조는 지역·계약마다 다르므로 '가정'으로 표시했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Cain·Loewenstein·Moore(2005) 실험 결과 요약('공개해도 편향이 줄지 않고 때로는 더 커졌으며, 듣는 사람은 충분히 할인하지 못했다')이 원문과 맞는지 확인하세요. 실험실 연구라는 점을 카드에 밝혔습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Munger의 1995년 강연에서 이 편향을 'incentive-caused bias'로 다룬 점을 확인하세요. 직접 인용은 쓰지 않았습니다. 'Never ask a barber if you need a haircut'은 흔한 속담으로만 썼고 특정인에게 귀속하지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Two businesses",
+      "title": "Never ask a barber if you need a haircut",
+      "illustrative": true,
+      "body": [
+        "Two businesses, two questions. A hardware store owner asks her top salesperson which paint to stock. A landlord asks a heating contractor whether the boiler needs replacing.",
+        "Both advisors are honest. Both answers lean toward how they get paid. And neither advisor can feel the lean."
+      ],
+      "image": {
+        "label": "A salesperson and a contractor each giving advice, with a coin tipping their speech bubbles",
+        "aspectRatio": "4:3",
+        "brief": "화면을 반으로 나눈 일러스트. 왼쪽은 철물점 페인트 진열대 앞 직원, 오른쪽은 보일러 앞 수리 기사. 두 사람의 말풍선이 각각 작은 동전 무게 때문에 살짝 기울어져 있음. 실제 브랜드 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/thk-03-06-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Your best seller loves the new paint.",
+      "illustrative": true,
+      "body": [
+        "You own a hardware store. Dana, your best salesperson, urges you to give a new premium paint brand a full aisle. \"Customers love it,\" she says.",
+        "The paint brand pays store staff a $2 bonus for every can they sell. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Go with Dana. She talks to customers all day",
+            "verdict": "risky",
+            "feedback": "You use her real customer knowledge, but you can't tell how much of her enthusiasm the $2 is adding. Neither can she."
+          },
+          {
+            "key": "B",
+            "text": "Ignore her. The bonus makes her opinion worthless",
+            "verdict": "partial",
+            "feedback": "You avoid the bias but throw away the judgment of your best seller. She may well be right."
+          },
+          {
+            "key": "C",
+            "text": "Give it one shelf for a month and track sales, returns and margin",
+            "verdict": "best",
+            "feedback": "You keep her insight and check it with numbers that don't depend on anyone's bonus."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "The second business",
+      "title": "Meanwhile, at the boiler.",
+      "illustrative": true,
+      "body": [
+        "Across town, a landlord with 12 apartments calls a heating contractor about a noisy boiler. The contractor earns little on a repair and much more on a new install. He recommends replacing it.",
+        "He isn't scheming. He has seen old boilers fail, and those stories come to mind first. A repair feels riskier to him than it would to someone paid the same either way."
+      ],
+      "callout": "Different businesses, same pattern: the advisor's pay leans on the advice."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Incentive-caused bias",
+      "body": [
+        "**Incentive-caused bias** is the tendency for people's judgment to drift toward what they are rewarded for, usually without noticing. Investor Charlie Munger put it near the top of his 1995 talk on the psychology of human misjudgment.",
+        "The key word is *judgment*. This is mostly not about lying. Honest people sincerely come to believe what pays them. That's why asking \"Are you sure?\" rarely helps. They are sure."
+      ],
+      "image": {
+        "label": "A balance scale tipped by a small coin on one side",
+        "aspectRatio": "16:9",
+        "brief": "3D 클레이 스타일 저울. 한쪽 접시에는 'Repair', 다른 쪽에는 'Replace' 라벨. 'Replace' 쪽에 작은 동전 하나가 올라가 저울이 기울어 있음. 배경은 단순하게.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "breakdown",
+      "eyebrow": "The evidence",
+      "title": "Agents sell their own homes differently.",
+      "body": [
+        "Economists Steven Levitt and Chad Syverson studied home sales near Chicago. When agents sold **their own** homes, they waited about 10 days longer and got roughly 3–4% more than for similar client homes.",
+        "The reason is simple math. In an illustrative $400,000 sale, waiting for a better price adds a lot for the owner and very little for the agent."
+      ],
+      "breakdown": [
+        {
+          "value": "$10,000",
+          "label": "Extra from waiting",
+          "detail": "2.5% more on a $400,000 home, to the owner",
+          "highlight": true
+        },
+        {
+          "value": "$150",
+          "label": "Agent's share of that",
+          "detail": "Assuming the agent personally keeps 1.5%",
+          "highlight": false
+        },
+        {
+          "value": "Weeks",
+          "label": "Agent's cost of waiting",
+          "detail": "More showings, more calls, no pay until it sells",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where else it hides",
+      "title": "It works inside your company too.",
+      "body": [
+        "Look anywhere pay is tied to a yes, a number or a choice."
+      ],
+      "list": [
+        "A manager whose bonus depends on beating the forecast sets a modest forecast",
+        "A team asked to judge the project it proposed rates it a success",
+        "A supplier's \"free assessment\" finds you need the supplier's product"
+      ],
+      "callout": "Nobody here has to be dishonest for the answer to be bent.",
+      "softwareNote": "A sales rep paid on signed contract value may honestly believe a deep discount on a three-year deal is good for the company. The cost shows up later, in renewal prices the rep isn't paid on."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "An incentive doesn't make advice wrong.",
+      "body": [
+        "The people with a stake often know the most. Dana may be right about the paint. So check advice, don't just dismiss it.",
+        "Disclosure is not a cure either. In lab experiments by Cain, Loewenstein and Moore, advisors who revealed a conflict of interest sometimes gave *more* biased advice, and listeners didn't adjust enough.",
+        "And remember that your own pay and pride bend your judgment too."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a landscaping business.",
+      "illustrative": true,
+      "body": [
+        "You run a landscaping company with three crews. The service tech from your equipment dealer says your five mowers are worn out and should be replaced. The dealer pays its techs a commission on new equipment sales.",
+        "What's your best next step?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Pay an independent mechanic by the hour to inspect two of the mowers",
+            "verdict": "best",
+            "feedback": "It costs a little time and money, but you get an opinion from someone paid the same whatever you decide."
+          },
+          {
+            "key": "B",
+            "text": "Ask the tech to confirm in writing that he earns commission, then follow his advice",
+            "verdict": "partial",
+            "feedback": "You learn about the conflict, but knowing it doesn't tell you how much it shaped his view. Disclosure alone rarely corrects the lean."
+          },
+          {
+            "key": "C",
+            "text": "Ignore him and run the mowers until they break",
+            "verdict": "risky",
+            "feedback": "You avoid a biased sale, but a breakdown mid-season could cost jobs worth more than a mower. He may be right."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Before weighing advice, ask how the advisor gets paid.",
+      "body": [
+        "Incentives bend honest judgment. The fix isn't distrust. It's one check that doesn't depend on the advisor's reward.",
+        "**Try it today:** list three people whose advice you rely on. Next to each, write what they gain if you say yes. Where it's a lot, add one independent check."
+      ],
+      "next": "Next · A meeting where everyone agrees"
+    }
+  ]
+}

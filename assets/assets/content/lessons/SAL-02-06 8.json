@@ -1,0 +1,228 @@
+{
+  "id": "SAL-02-06",
+  "unitId": "SAL-02",
+  "categoryId": "SAL",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Teaching the customer something new",
+  "readerTitle": "The rival is 3% cheaper. Her empty shelves cost more.",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.3,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (철물점과 유통업체, 회사 안의 IT팀) · 모든 수치는 설명용 · 개념 배경은 Dixon & Adamson (2011)",
+  "insight": "고객이 이미 아는 문제로 경쟁하면 가격 싸움이 된다. 고객이 아직 재지 않은 비용을 보여주면 판단 기준 자체가 바뀐다.",
+  "misconception": "좋은 영업은 고객의 말을 잘 듣고 원하는 것을 맞춰 주는 것이다. 고객이 가격을 말하면 가격 문제다.",
+  "relatedLessonIds": [
+    "SAL-02-01",
+    "SAL-02-03"
+  ],
+  "sources": [
+    {
+      "text": "Dixon, M. & Adamson, B. (2011). The Challenger Sale. Portfolio/Penguin. (CEB의 영업 담당자 대규모 조사를 바탕으로, 높은 성과자는 고객에게 그들의 사업에 대해 새로운 것을 가르친다고 주장)",
+      "url": null
+    },
+    {
+      "text": "철물점, 유통업체, IT팀 사례와 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "계산 확인: 경쟁사 할인 $100,000 × 3% = $3,000. 베스트셀러 소매 매출 $150,000 × 품절 10% = 놓친 매출 $15,000. 매출총이익률 40% 가정 시 $15,000 × 40% = $6,000. 주 2회 배송으로 품절을 3분의 2 줄인다는 가정: $6,000 × 2/3 = $4,000 > $3,000.",
+      "status": "open"
+    },
+    {
+      "note": "정합성 확인: 베스트셀러 소매 $150,000의 도매 원가는 $150,000 × 60% = $90,000으로 연간 구매액 $100,000 안에 들어갑니다. 품절 시 고객이 대체 상품을 사지 않는다는 단순화 가정이며, 6번 카드에서 이 한계를 밝혔습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Dixon & Adamson(2011)의 내용을 4번 카드에서 일반적으로만 서술했습니다. 조사 규모나 비율 같은 수치는 쓰지 않았습니다. 게시 전 원서 표현과 맞는지 확인하세요. 브랜드명 'Challenger'는 본문에 쓰지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Sales · Numbers twist",
+      "title": "The rival is 3% cheaper. Her empty shelves cost more.",
+      "illustrative": true,
+      "body": [
+        "A hardware store owner tells her distributor that a rival is 3% cheaper. She's right about the price.",
+        "But she's watching the wrong number. A bigger cost sits in her own aisles, and nobody has added it up."
+      ],
+      "image": {
+        "label": "A store shelf with a few empty gaps among full rows",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 철물점 진열대에 나사, 테이프, 전구가 가득한데 군데군데 빈 칸이 보임. 빈 칸 위에 작은 물음표 태그. 계산대 쪽에 \"3% cheaper\"라고 적힌 작은 전단지. 실제 브랜드 로고는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "She'll switch unless you do something.",
+      "illustrative": true,
+      "body": [
+        "You're the distributor. She buys $100,000 a year from you. The rival delivers once a week. You deliver twice a week, but it costs a bit more.",
+        "She says: \"Match their price or I'm moving.\" What's your move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Match the 3% to keep the account",
+            "verdict": "risky",
+            "feedback": "You keep her, but you give up $3,000 a year. You also confirm that price is the only thing worth comparing."
+          },
+          {
+            "key": "B",
+            "text": "Ask her more about what she needs from a supplier",
+            "verdict": "partial",
+            "feedback": "Good habit, but she'll likely say \"lower prices.\" Customers can't tell you about a cost they've never noticed."
+          },
+          {
+            "key": "C",
+            "text": "Show her a cost in her own store that she hasn't measured",
+            "verdict": "best",
+            "feedback": "This changes what she's comparing. It works only if the cost is real and your offer actually reduces it. Next card shows the math."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Add up the empty shelves.",
+      "illustrative": true,
+      "body": [
+        "Her best sellers from you bring in $150,000 a year at retail. Her own records show they're out of stock about one day in ten. Twice-weekly delivery could cut those gaps by two-thirds.",
+        "The saving she asked for is smaller than the loss she couldn't see."
+      ],
+      "breakdown": [
+        {
+          "value": "$3,000",
+          "label": "Rival's discount",
+          "detail": "3% of $100,000 a year",
+          "highlight": false
+        },
+        {
+          "value": "$15,000",
+          "label": "Sales lost to empty shelves",
+          "detail": "10% of $150,000",
+          "highlight": false
+        },
+        {
+          "value": "$6,000",
+          "label": "Profit lost",
+          "detail": "She keeps 40% of each sale",
+          "highlight": false
+        },
+        {
+          "value": "$4,000",
+          "label": "Profit won back",
+          "detail": "Two-thirds of the gaps filled",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Teaching the customer something new",
+      "body": [
+        "**Teaching the customer something new** means showing them a cost, risk or chance in their own business that they hadn't seen, so they judge the options differently.",
+        "She came in comparing prices. She leaves comparing profit. Your price didn't change. Her yardstick did.",
+        "In *The Challenger Sale* (2011), Matthew Dixon and Brent Adamson drew on a large study of sales reps. They argued that top performers often teach customers something about their business instead of only answering their requests."
+      ],
+      "image": {
+        "label": "A scale shifting from price tags to profit",
+        "aspectRatio": "16:9",
+        "brief": "저울 인포그래픽. 왼쪽은 \"Price per case\" 라벨이 붙은 가격표 두 장이 거의 같은 무게. 오른쪽 장면에서는 저울 접시가 \"Profit per year\"로 바뀌고 한쪽이 확실히 기움. 단순한 플랫 일러스트.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Three moves that make the lesson land.",
+      "body": [
+        "A good teaching moment has a shape:"
+      ],
+      "list": [
+        "**Start with their view:** repeat what they believe, fairly. \"Price matters, and they are cheaper.\"",
+        "**Use their numbers:** her sales records, her empty shelves. Not your brochure.",
+        "**Lead to your strength:** the hidden cost should be one you're better at fixing than rivals."
+      ],
+      "callout": "If the lesson points to a problem anyone could solve, you've just trained your rival's customer.",
+      "softwareNote": "A software seller might pull a prospect's own data to show how many hours staff spend retyping orders between two systems. The lesson is about the prospect's week, not the product's features."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Teaching can backfire.",
+      "body": [
+        "The math must be true and checkable. Here, some customers facing an empty shelf buy a similar item instead, so the real loss may be smaller. Say so. One inflated number ruins the whole case.",
+        "Tone matters too. \"You've been doing it wrong\" makes people defend themselves. \"Here's something stores like yours often miss\" invites them in.",
+        "And you can't teach what you haven't learned. Ask questions first, then teach."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now you're the IT team asking for budget.",
+      "illustrative": true,
+      "body": [
+        "You run IT support at a large company. You want to replace 300 aging laptops. The finance director sees only the purchase price and says it can wait another year.",
+        "How do you make your case?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Show the new laptops' speed tests and features",
+            "verdict": "risky",
+            "feedback": "It's about your solution, not her problem. Faster machines sound nice, but nothing here changes how she weighs the cost."
+          },
+          {
+            "key": "B",
+            "text": "Use help-desk records to show the staff hours lost to slow, failing machines, priced in salary",
+            "verdict": "best",
+            "feedback": "Her own company's numbers reveal a cost she isn't tracking. It takes work to gather, but it turns \"spend\" into \"stop losing.\""
+          },
+          {
+            "key": "C",
+            "text": "Point out that similar companies replace laptops every three to four years",
+            "verdict": "partial",
+            "feedback": "Shows the request is normal, which helps. But it doesn't show what waiting costs this company, so it's easy to postpone."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Change what the customer is measuring.",
+      "body": [
+        "When a customer compares you on a number you'll lose, find the cost they haven't counted, prove it with their own data, and make sure it's one you fix best.",
+        "**Try it today:** list one cost your customers carry but rarely measure. Can you estimate it in dollars from records they already have?"
+      ],
+      "next": "Next · Sell to a school"
+    }
+  ]
+}

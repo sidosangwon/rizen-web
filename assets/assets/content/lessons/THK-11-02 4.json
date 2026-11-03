@@ -1,0 +1,247 @@
+{
+  "id": "THK-11-02",
+  "unitId": "THK-11",
+  "categoryId": "THK",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "Ratios and their denominators",
+  "readerTitle": "Your booking rate went up. Your bookings went down.",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (청소 서비스 회사, 배관 회사, 식당) · 모든 수치는 설명용",
+  "insight": "비율이 움직이면 먼저 분자와 분모 중 무엇이 움직였는지, 그리고 분모가 내가 판단하려는 대상이 맞는지 확인한다.",
+  "misconception": "비율이 오르면 사업이 좋아진 것이다. 비율만 보면 실제 숫자는 볼 필요가 없다.",
+  "relatedLessonIds": [
+    "THK-11-03",
+    "THK-08-02"
+  ],
+  "sources": [
+    {
+      "text": "비율, 분자·분모 해석에 관한 기본 통계 개념",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "청소 회사 계산: 이전 50 ÷ 200 = 25%, 이후 40 ÷ 100 = 40%. 예약 건수는 50 → 40으로 20% 감소, 견적 요청은 50% 감소.",
+      "status": "open"
+    },
+    {
+      "note": "배관 회사 계산: 전체 불만 30건 ÷ 1,500건 = 2%. 신입 기술자 6건 ÷ 100건 = 6%. 나머지 기술자 24건 ÷ 1,400건 ≈ 1.7%. 신입의 불만 비중 6 ÷ 30 = 20%.",
+      "status": "open"
+    },
+    {
+      "note": "식당 계산: 이전 400테이블 × $60 = $24,000, 이후 280테이블 × $75 = $21,000. 평균 객단가 +25%, 매출 −$3,000(−12.5%).",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Numbers twist",
+      "title": "Your booking rate went up. Your bookings went down.",
+      "illustrative": true,
+      "body": [
+        "A home cleaning company changes how it handles quotes. A month later, the booking rate jumps from 25% to 40%.",
+        "The team celebrates. Then the owner looks at the calendar, and it has fewer jobs on it than before."
+      ],
+      "image": {
+        "label": "A rising percentage next to a half-empty job calendar",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 왼쪽에 위로 올라가는 큰 \"40%\" 숫자와 축하 깃발, 오른쪽에 빈칸이 많은 월간 일정표. 청소 도구(양동이, 걸레)가 옆에 놓여 있음. 실제 회사 로고는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "The rate jumped. What do you check first?",
+      "illustrative": true,
+      "body": [
+        "You run the cleaning company. Last month you started asking every customer for a short phone call before you send a quote.",
+        "Your sales lead reports: \"Booking rate went from 25% to 40%.\" Before you make the phone call permanent, what do you want to know?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Nothing more. A 15-point jump is huge, so roll it out",
+            "verdict": "risky",
+            "feedback": "You act fast, but you're trusting a percentage without knowing what it's a percentage of. A rate can rise while the business shrinks."
+          },
+          {
+            "key": "B",
+            "text": "How many quote requests and bookings there were, before and after",
+            "verdict": "best",
+            "feedback": "This shows which part of the ratio moved. It takes two minutes and tells you whether you gained customers or just lost the ones who didn't book."
+          },
+          {
+            "key": "C",
+            "text": "Whether the 40% holds for another month",
+            "verdict": "partial",
+            "feedback": "Waiting guards against a lucky month. But another month of the same ratio still won't tell you whether bookings rose or fell."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "The bottom of the ratio fell by half.",
+      "illustrative": true,
+      "body": [
+        "Before: 50 bookings out of 200 requests, or 25%. After: 40 out of 100, or **40%**.",
+        "The phone call scared off many people who asked for quotes. Some of them would have booked. The rate went up because the bottom number shrank faster than the top. Real bookings fell 20%."
+      ],
+      "chart": {
+        "unit": "count",
+        "groups": [
+          {
+            "label": "Before the phone call",
+            "rows": [
+              {
+                "label": "Quote requests",
+                "value": 200,
+                "highlight": false
+              },
+              {
+                "label": "Bookings",
+                "value": 50,
+                "highlight": false
+              }
+            ]
+          },
+          {
+            "label": "After the phone call",
+            "rows": [
+              {
+                "label": "Quote requests",
+                "value": 100,
+                "highlight": true
+              },
+              {
+                "label": "Bookings",
+                "value": 40,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Every ratio has a top and a bottom",
+      "body": [
+        "A ratio is one count divided by another. The top is the **numerator**: the thing you counted. The bottom is the **denominator**: the group you counted it out of.",
+        "When a ratio moves, either number could have caused it. A higher booking rate can mean more bookings, or simply fewer requests. The percentage alone can't tell you which."
+      ],
+      "image": {
+        "label": "A fraction with the bottom number shrinking",
+        "aspectRatio": "16:9",
+        "brief": "분수 모양 인포그래픽. 위쪽 \"Bookings 50 → 40\"은 거의 그대로, 아래쪽 \"Requests 200 → 100\"은 눈에 띄게 작아짐. 결과 \"25% → 40%\"가 위로 올라가는 화살표. 단순하고 밝은 색.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Three questions for any rate.",
+      "body": [
+        "Whenever someone shows you a percentage or a \"per\" number, ask:"
+      ],
+      "list": [
+        "**What's on top and what's on the bottom?** Say it out loud: bookings out of requests.",
+        "**Which one moved?** Look at both raw counts, before and after.",
+        "**Is the bottom the right group?** It should be the people or things you're actually judging."
+      ],
+      "callout": "A ratio is a summary. The two counts are the story.",
+      "softwareNote": "An app that cuts low-quality ad traffic often sees its trial-to-paid rate climb. Check the count of paying users too. The rate can rise while total sign-ups, and revenue, fall."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Pick the bottom on purpose",
+      "title": "The same complaints, two different stories.",
+      "illustrative": true,
+      "body": [
+        "A plumbing firm got 30 complaints out of 1,500 jobs last quarter. That's 2%, which looks fine.",
+        "Six complaints were about one new technician. Out of all complaints, that's 20%. But he did only 100 jobs, so his complaint rate is **6%**. Everyone else is around 1.7%.",
+        "Dividing by *all complaints* hides the problem. Dividing by *his jobs* shows it, because his jobs are the group you're judging."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A smaller bottom isn't always bad.",
+      "body": [
+        "Sometimes shrinking the denominator is the point. If the phone call filtered out people who never book, your staff now spend less time on dead-end quotes. That time has value too.",
+        "So don't just flip from \"rate up, good\" to \"count down, bad.\" Look at both numbers, then at what each one costs you.",
+        "And watch tiny denominators. Three bookings out of five is 60%, but that number can swing wildly next week."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a restaurant.",
+      "illustrative": true,
+      "body": [
+        "You dropped your cheap lunch menu. Your manager reports that the average spend per table rose from $60 to $75, up 25%.",
+        "You also see that tables served fell from 400 a month to 280. What's the best read?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep the change. Each table now spends 25% more",
+            "verdict": "risky",
+            "feedback": "The average rose because the cheaper tables left the denominator. Monthly sales went from $24,000 to $21,000."
+          },
+          {
+            "key": "B",
+            "text": "Multiply it back out: sales fell $3,000. Then check whether quieter lunches cut costs by more",
+            "verdict": "best",
+            "feedback": "You see the real drop in sales and still give the change a fair test. Fewer tables may mean fewer staff hours, which could make up the gap."
+          },
+          {
+            "key": "C",
+            "text": "Bring the cheap menu back right away",
+            "verdict": "partial",
+            "feedback": "You protect sales, but you skip the cost side. If lunch staffing fell a lot, the change might still leave you ahead."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Before you trust a rate, look under it.",
+      "body": [
+        "A ratio can rise because the bottom shrank, and it can mislead if the bottom is the wrong group. Check both counts and ask \"out of what?\"",
+        "**Try it today:** pick one percentage you report every month. Write down its top and bottom counts for the last two months. Which one moved?"
+      ],
+      "next": "Next · When a small sample is just noise"
+    }
+  ]
+}

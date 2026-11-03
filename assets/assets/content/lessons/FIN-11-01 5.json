@@ -1,0 +1,238 @@
+{
+  "id": "FIN-11-01",
+  "unitId": "FIN-11",
+  "categoryId": "FIN",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Accrual vs cash accounting",
+  "readerTitle": "Was November a bad month, or just the month you paid?",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (생활용품 매장, B2B 컨설팅 회사) · 모든 수치는 설명용",
+  "insight": "한 달의 성과는 돈이 오간 시점이 아니라 매출을 번 시점과 그 매출에 쓰인 비용을 맞춰서 본다.",
+  "misconception": "통장 잔고가 줄어든 달은 손해 본 달이고, 늘어난 달은 돈을 번 달이다.",
+  "relatedLessonIds": [
+    "FIN-02-01",
+    "FIN-11-02"
+  ],
+  "sources": [
+    {
+      "text": "재무회계의 표준 개념 (현금주의, 발생주의, 수익·비용 대응 원칙)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "매장 계산(가상): 현금주의 11월 $12,000 − $30,000 − $8,000 = −$26,000, 12월 $48,000 − $8,000 = +$40,000. 발생주의 11월 $12,000 − $6,000 − $8,000 = −$2,000, 12월 $48,000 − $24,000 − $8,000 = +$16,000. 두 달 합계는 두 방식 모두 +$14,000으로 같습니다. 재고 원가 $6,000 + $24,000 = $30,000.",
+      "status": "open"
+    },
+    {
+      "note": "컨설팅 계산(가상): 3개월 프로젝트 $90,000, 작업이 균등하게 진행된다고 가정하면 월 $30,000. 발생주의 3·4·5월 각 $30,000, 현금주의는 6월에 $90,000.",
+      "status": "open"
+    },
+    {
+      "note": "\"많은 나라에서 일정 규모 이상의 기업은 발생주의를 써야 한다\"는 일반적 서술만 했습니다. 특정 국가의 기준이나 금액 한도는 쓰지 않았습니다. 게시 전 표현이 과하지 않은지 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Everyday scene",
+      "title": "Was November a bad month, or just the month you paid?",
+      "illustrative": true,
+      "body": [
+        "A home goods store owner checks the bank account. November: down $26,000. December: up $40,000.",
+        "One month looks like a disaster, the next like a triumph. Neither picture is true. The store did the same work both months. It just paid and got paid at different times."
+      ],
+      "image": {
+        "label": "Shop owner looking at a bank app with a big red month and a big green month",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 일러스트. 생활용품 매장 카운터에서 주인이 휴대폰 은행 앱을 보는 장면. 화면에 11월은 큰 빨간 막대, 12월은 큰 초록 막대. 뒤쪽 선반에는 연말 상품 상자가 가득. 실제 은행·브랜드 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How did November really go?",
+      "illustrative": true,
+      "body": [
+        "In November the store paid a supplier $30,000 for holiday stock. It sold a fifth of that stock in November for $12,000 and the rest in December for $48,000. Rent and staff cost $8,000 each month.",
+        "The bank shows November at −$26,000. What's the best way to judge the month?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Trust the bank. November lost money, so cut staff hours",
+            "verdict": "risky",
+            "feedback": "The bank shows when cash moved, not how the month performed. Cutting staff before your busiest month would punish November for a December purchase."
+          },
+          {
+            "key": "B",
+            "text": "Count the cost of each item in the month it was sold",
+            "verdict": "best",
+            "feedback": "This lines up each sale with the cost of the goods behind it. You see how the month actually performed, though you must still track the cash you've tied up."
+          },
+          {
+            "key": "C",
+            "text": "Skip monthly results and only look at the yearly total",
+            "verdict": "partial",
+            "feedback": "The yearly total is the same either way, so you avoid the distortion. But you lose the monthly signal that tells you early when something is going wrong."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Same two months, two stories.",
+      "illustrative": true,
+      "body": [
+        "Under the second view, November used $6,000 of stock and December used $24,000. Both views add up to **$14,000** over the two months. Only the timing differs."
+      ],
+      "breakdown": [
+        {
+          "value": "−$26,000",
+          "label": "November, by cash",
+          "detail": "$12,000 in − $30,000 stock − $8,000 costs",
+          "highlight": false
+        },
+        {
+          "value": "+$40,000",
+          "label": "December, by cash",
+          "detail": "$48,000 in − $8,000 costs",
+          "highlight": false
+        },
+        {
+          "value": "−$2,000",
+          "label": "November, matched",
+          "detail": "$12,000 − $6,000 stock used − $8,000",
+          "highlight": true
+        },
+        {
+          "value": "+$16,000",
+          "label": "December, matched",
+          "detail": "$48,000 − $24,000 stock used − $8,000",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Cash accounting vs accrual accounting",
+      "body": [
+        "**Cash accounting** records money when it actually moves: in when a customer pays, out when you pay a bill.",
+        "**Accrual accounting** records revenue when you earn it and costs when they help you earn it, even if no cash has moved yet. Matching costs to the sales they produced is the heart of it.",
+        "Same business, same total. The difference is which month gets the credit."
+      ],
+      "image": {
+        "label": "Two timelines: cash moments vs earning moments",
+        "aspectRatio": "16:9",
+        "brief": "두 줄 타임라인 인포그래픽. 위쪽 \"Cash\" 줄에는 돈 봉투 아이콘이 결제 날짜에만 찍혀 있고, 아래쪽 \"Accrual\" 줄에는 같은 금액이 실제로 판매한 달에 나뉘어 찍혀 있음. 두 줄 끝에 같은 합계 \"$14,000\".",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Where the two methods split.",
+      "body": [
+        "Accrual moves amounts to the month they belong to:"
+      ],
+      "list": [
+        "**Invoice sent, not yet paid:** revenue now, cash later",
+        "**Year of insurance paid in January:** one-twelfth is a cost each month",
+        "**March electricity billed in April:** a March cost",
+        "**Stock bought ahead:** a cost only when it sells"
+      ],
+      "callout": "Cash shows when money moved. Accrual shows when the work happened.",
+      "softwareNote": "A customer who pays $1,200 upfront for an annual plan looks like a $1,200 month on a cash basis. Accrual counts $100 a month as you deliver the service, so a big month of annual sign-ups doesn't fake a growth spurt."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Wider view",
+      "title": "Each method answers a different question.",
+      "body": [
+        "Cash accounting answers: *can I pay my bills this month?* It's simple, and many small businesses keep their books this way.",
+        "Accrual answers: *is this business actually earning money?* In many countries, larger companies are required to use it, because investors and lenders need to compare one period with the next.",
+        "Smart owners read both. Accrual tells you how you're doing. Cash tells you whether you'll survive long enough to find out."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Accrual can look healthy while the bank runs dry.",
+      "body": [
+        "Accrual profit includes money customers owe but haven't paid. If they pay late or never, the profit was real on paper only.",
+        "It also takes judgment: when exactly was a sale earned? How much stock was used? Each estimate is a place where errors, or wishful thinking, can creep in.",
+        "So never read an accrual profit without checking the cash beside it."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a consulting firm.",
+      "illustrative": true,
+      "body": [
+        "Your firm signs a $90,000 project in March. The team does the work evenly over March, April and May. The client pays the full amount in June.",
+        "Under accrual accounting, how much revenue did the firm earn in April?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "$0, because no money came in",
+            "verdict": "risky",
+            "feedback": "That's the cash view. It would show three empty months and one huge June, hiding that the team was fully busy and earning all along."
+          },
+          {
+            "key": "B",
+            "text": "$30,000, a third of the work was done",
+            "verdict": "best",
+            "feedback": "Revenue follows the work, so April gets its share. The trade-off: you're carrying $90,000 of unpaid work, so watch your cash until June."
+          },
+          {
+            "key": "C",
+            "text": "$0 in April, since all $90,000 counted when the deal was signed",
+            "verdict": "risky",
+            "feedback": "Signing is a promise, not work delivered. Booking it all in March would make one month look spectacular and the next two look idle."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Judge a month by what it earned, not by what it paid.",
+      "body": [
+        "Cash accounting tracks when money moves. Accrual tracks when value is earned and matches costs to it. Use accrual to judge performance and cash to stay alive.",
+        "**Try it today:** pick your last unusual month. List one big payment or receipt in it, and write down which month that money really belongs to."
+      ],
+      "next": "Next · When does a sale actually count?"
+    }
+  ]
+}

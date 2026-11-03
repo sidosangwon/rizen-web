@@ -1,0 +1,267 @@
+{
+  "id": "THK-08-10",
+  "unitId": "THK-08",
+  "categoryId": "THK",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "The new design 'won'. Ship it?",
+  "readerTitle": "The new store layout 'won'. Do you roll it out?",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (카페 카운터가 있는 차·간식 소매 체인) · 모든 수치는 설명용",
+  "insight": "'이겼다'는 결과는 무엇과 비교했는지, 누구에게서 이겼는지, 어떤 지표로 이겼는지를 확인한 뒤에야 결정 근거가 된다.",
+  "misconception": "시범 매장 매출이 올랐으면 새 디자인이 효과가 있는 것이고, 평균이 오르면 모든 매장에 적용해도 된다.",
+  "relatedLessonIds": [
+    "THK-08-06",
+    "THK-08-02"
+  ],
+  "sources": [
+    {
+      "text": "통제 실험, 평균의 함정, 선행·후행 지표에 관한 표준 개념 (이 유닛의 앞선 레슨들)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "1단계: 시범 매장 +14%, 나머지 8개 매장 +11%. 차이 3%p가 새 배치의 효과로 추정할 수 있는 최대치이며, 매장 선택이 무작위가 아니므로 이 값도 확실하지 않다는 점을 카드에 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "2단계: 매장별 결과 +17%, +4%, −1%, 0%의 평균 = (17 + 4 − 1 + 0) ÷ 4 = 5%. 모두 같은 기간 대조 매장 대비 수치입니다.",
+      "status": "open"
+    },
+    {
+      "note": "3단계: 통근 매장에서 음료 판매 −8%, 진열대 판매 증가로 총매출은 대조 매장과 비슷(−1%, 0%). 모든 수치는 가상이며 서로 모순되지 않는지 다시 확인했습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking with data · Simulation",
+      "title": "The new store layout 'won'. Do you roll it out?",
+      "illustrative": true,
+      "body": [
+        "You run ten tea-and-snack shops, each with a small café counter. A designer moved the counter from the front to the back, so customers walk past the shelves to reach it.",
+        "Two shops tried it in November. Sales rose **14%** over October. The designer says: ship it to all ten."
+      ],
+      "image": {
+        "label": "A small shop with the café counter moved to the back",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 작은 차·간식 가게의 위에서 본 단면도. 입구에서 안쪽 카페 카운터까지 진열대 사이로 점선 동선. 오른쪽 위에 \"+14%\" 말풍선. 실제 브랜드 로고 없음.",
+        "url": "assets/images/thk-08-10-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 3",
+      "title": "Sales are up 14%. What do you do first?",
+      "illustrative": true,
+      "body": [
+        "The designer picked the two pilot shops: your busiest, downtown. Rolling out costs about two weeks of work per shop."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Roll it out to all ten before the spring rush",
+            "verdict": "risky",
+            "feedback": "You move fast, but November is gift season. If every shop rose anyway, you'd pay for ten refits based on the calendar, not the layout."
+          },
+          {
+            "key": "B",
+            "text": "Check how the unchanged shops did in the same month",
+            "verdict": "best",
+            "feedback": "It costs one afternoon with the sales report. It tells you how much of the 14% would have happened without the change."
+          },
+          {
+            "key": "C",
+            "text": "Ask customers in the pilot shops if they like the new layout",
+            "verdict": "partial",
+            "feedback": "You learn something about the experience. But liking isn't buying, and you only hear from people who came in."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "Say you chose B",
+      "title": "The other shops rose too.",
+      "illustrative": true,
+      "body": [
+        "The eight unchanged shops grew **11%** in the same month. So the layout explains at most about 3 points, not 14.",
+        "Even that is shaky. The pilot shops were hand-picked busy stores, so they may simply have had a better month."
+      ],
+      "chart": {
+        "unit": "%",
+        "groups": [
+          {
+            "label": "Sales change, November vs October",
+            "rows": [
+              {
+                "label": "Pilot shops (2)",
+                "value": 14,
+                "highlight": true
+              },
+              {
+                "label": "Unchanged shops (8)",
+                "value": 11,
+                "highlight": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 3",
+      "title": "A fair test says +5%. Ship it now?",
+      "illustrative": true,
+      "body": [
+        "Say you ran a proper test. Four shops, picked at random, got the new layout. Four similar shops stayed the same. After six weeks, the new-layout shops beat the others by **5%** on average."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Yes. A fair test with a clear average gain is enough",
+            "verdict": "risky",
+            "feedback": "The test was fair, but one average can hide very different shops. You might refit stores where the layout hurts."
+          },
+          {
+            "key": "B",
+            "text": "Look at each of the four shops before deciding",
+            "verdict": "best",
+            "feedback": "Ten minutes of work. You find out whether the gain is everywhere or in one place."
+          },
+          {
+            "key": "C",
+            "text": "Keep testing for six more months to be sure",
+            "verdict": "partial",
+            "feedback": "More data helps, but it delays any gain and keeps four shops half-decided. Look closer at what you already have first."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "breakdown",
+      "eyebrow": "Say you chose B",
+      "title": "One shop carried the average.",
+      "illustrative": true,
+      "body": [
+        "The 5% came almost entirely from the shop near the university. Students browse, and the snack wall now sits at the door. In commuter shops, people want a quick drink. Walking to the back slowed them down."
+      ],
+      "breakdown": [
+        {
+          "value": "+17%",
+          "label": "Shop A",
+          "detail": "Near a university, lots of browsing",
+          "highlight": true
+        },
+        {
+          "value": "+4%",
+          "label": "Shop B",
+          "detail": "Shopping street",
+          "highlight": false
+        },
+        {
+          "value": "−1%",
+          "label": "Shop C",
+          "detail": "Train station, commuters",
+          "highlight": false
+        },
+        {
+          "value": "0%",
+          "label": "Shop D",
+          "detail": "Office district, commuters",
+          "highlight": false
+        }
+      ],
+      "softwareNote": "An app A/B test can fool you the same way. A 5% lift in sign-ups may come entirely from new visitors, while long-time users quietly use the product less."
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 3",
+      "title": "The commuter shops look flat. Is flat safe?",
+      "illustrative": true,
+      "body": [
+        "In shops C and D, café drink sales fell **8%**. Extra snack sales roughly made up for it, so total sales look flat. Many drink buyers are morning regulars who come in four or five times a week."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Roll out everywhere. Flat totals mean no harm",
+            "verdict": "risky",
+            "feedback": "Totals are flat today, but fewer regular visits now usually mean lower sales later. You'd find out in the yearly numbers, too late to undo cheaply."
+          },
+          {
+            "key": "B",
+            "text": "Use the layout in browsing shops only, and track regulars' weekly visits",
+            "verdict": "best",
+            "feedback": "You keep the clear win where it works and protect your most loyal customers. Watching visits warns you before sales fall."
+          },
+          {
+            "key": "C",
+            "text": "Drop the new layout everywhere",
+            "verdict": "partial",
+            "feedback": "Safe for regulars, but you give up a 17% gain in shops where browsing is the whole point."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Fair tests have limits too.",
+      "body": [
+        "With four shops on each side, a local road closure or a new competitor can swing a result by several points. Treat small differences as a hint, not proof.",
+        "Six weeks also catches novelty. A new layout can lift sales simply because it's new.",
+        "And testing costs time. For cheap changes you can easily undo, like a new shelf sign, just try it and watch."
+      ],
+      "image": {
+        "label": "Small test groups with one store swayed by a local event",
+        "aspectRatio": "16:9",
+        "brief": "가게 아이콘 8개를 두 줄(새 배치 4, 기존 배치 4)로 배치. 그중 한 가게 옆에만 \"Road works\" 공사 표지판과 흔들리는 막대 그래프. 차분한 톤의 인포그래픽, 로고 없음.",
+        "url": "assets/images/thk-08-10-c7.jpg"
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A win only counts once you know: compared to what, for whom, and measured how.",
+      "body": [
+        "Each decision used one idea from this unit."
+      ],
+      "list": [
+        "**Decision 1:** compare against shops that didn't change, and don't let anyone hand-pick the test stores. *Controlled experiments, selection bias*",
+        "**Decision 2:** split the average before you trust it. *Averages hide the story*",
+        "**Decision 3:** watch what predicts future sales, not just today's total. *Leading vs lagging indicators*"
+      ],
+      "callout": "**Try it today:** pick the last change you called a success. Write down what you compared it to and which customers it helped.",
+      "next": "Next · When today's win costs you tomorrow"
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "id": "FIN-05-03",
+  "unitId": "FIN-05",
+  "categoryId": "FIN",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "Scenario planning",
+  "readerTitle": "Your forecast is one future. Plan for three.",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative",
+    "real_company"
+  ],
+  "caseNote": "가상 사례 (레스토랑, 소프트웨어 스타트업) + 실제 기업 (Shell의 시나리오 플래닝) · 레스토랑과 스타트업 수치는 모두 설명용",
+  "insight": "시나리오 플래닝의 목적은 미래를 맞히는 것이 아니라, 나쁜 경우에도 살아남을 결정을 고르고 언제 계획을 바꿀지 미리 정해 두는 것이다.",
+  "misconception": "가장 그럴듯한 예측 하나를 잘 세우면 충분하다. 매출이 25% 줄면 이익도 25%쯤 준다.",
+  "relatedLessonIds": [
+    "FIN-05-02",
+    "FIN-02-06"
+  ],
+  "sources": [
+    {
+      "text": "Wack, P. (1985). Scenarios: Uncharted Waters Ahead. Harvard Business Review.",
+      "url": null
+    },
+    {
+      "text": "레스토랑과 소프트웨어 스타트업의 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "레스토랑 계산: 변동비 40%이므로 매출의 60%가 남음. 기본 $60,000 × 0.6 = $36,000 − 고정비 $30,000 = +$6,000. 나쁜 경우 $45,000 × 0.6 = $27,000 − $30,000 = −$3,000. 좋은 경우 $75,000 × 0.6 = $45,000 − $30,000 = +$15,000. 매출 ±25%에 이익은 ±$9,000. $15,000(좋은 경우)은 기본 $6,000의 2배 이상이 맞음.",
+      "status": "open"
+    },
+    {
+      "note": "테라스 공사: 저축 $20,000 − $15,000 = $5,000. 나쁜 경우 월 −$3,000이면 $5,000 ÷ $3,000 ≈ 1.7개월(두 달 미만). 트리거 $55,000: $55,000 × 0.6 = $33,000 − $30,000 = +$3,000.",
+      "status": "open"
+    },
+    {
+      "note": "스타트업 계산: 현금 $600,000 ÷ 월 $50,000 = 12개월, ÷ 월 $75,000 = 8개월. 9개월 차에 투자 유치를 시작하면 나쁜 경우 이미 현금이 바닥난 뒤라는 점이 선택지 A의 근거.",
+      "status": "open"
+    },
+    {
+      "note": "Shell 사례: 1970년대 초 Shell 기획팀(Pierre Wack 등)이 석유 공급 충격 시나리오를 미리 검토해 1973년 석유 위기에 비교적 빨리 대응했다고 흔히 전해짐. Wack(1985)을 다시 확인하고, '위기를 예측했다'가 아니라 '가능성을 미리 검토했다'는 표현을 유지할 것. 대응 성과에 대한 구체적 수치는 카드에 넣지 않음.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Numbers twist",
+      "title": "Your forecast is one future. Plan for three.",
+      "illustrative": true,
+      "body": [
+        "Maya's restaurant forecast says $60,000 in sales a month. At that level she makes a healthy profit.",
+        "She's about to spend $15,000 of her $20,000 savings on a new patio. The forecast might be right. What matters more is what happens if it isn't."
+      ],
+      "image": {
+        "label": "A restaurant owner looking at three diverging paths",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 레스토랑 주인이 가게 앞에 서 있고, 발밑에서 길이 세 갈래로 갈라짐. 각 길 끝에 작은 표지판 \"Bad\", \"Base\", \"Good\". 실제 브랜드 로고나 간판 문구는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What if sales come in 25% low?",
+      "illustrative": true,
+      "body": [
+        "Maya's fixed costs are $30,000 a month for rent, staff and insurance. Food, packaging and card fees take about 40% of every sale.",
+        "At $60,000 in sales, she keeps $6,000 a month. If sales come in 25% below forecast, what is her monthly profit?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "About $4,500. Profit falls 25% too",
+            "verdict": "risky",
+            "feedback": "It feels fair, but fixed costs don't shrink when sales do. The whole drop lands on a thin profit."
+          },
+          {
+            "key": "B",
+            "text": "About break-even",
+            "verdict": "partial",
+            "feedback": "Right that the drop hits harder than 25%. It's worse than break-even, though."
+          },
+          {
+            "key": "C",
+            "text": "A loss of about $3,000",
+            "verdict": "best",
+            "feedback": "Yes. $45,000 in sales leaves $27,000 after food and fees. That's $3,000 short of the $30,000 in fixed costs."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Same restaurant, three futures.",
+      "illustrative": true,
+      "body": [
+        "Sales moved 25% each way. Profit moved **$9,000** each way: from a loss to more than double the plan."
+      ],
+      "breakdown": [
+        {
+          "value": "−$3,000",
+          "label": "Bad case: $45,000 sales",
+          "detail": "$27,000 left after food and fees, minus $30,000 fixed",
+          "highlight": true
+        },
+        {
+          "value": "+$6,000",
+          "label": "Base case: $60,000 sales",
+          "detail": "$36,000 left, minus $30,000 fixed",
+          "highlight": false
+        },
+        {
+          "value": "+$15,000",
+          "label": "Good case: $75,000 sales",
+          "detail": "$45,000 left, minus $30,000 fixed",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Scenario planning",
+      "body": [
+        "**Scenario planning** means running your numbers for several possible futures, usually a bad case, a base case and a good case, instead of just one.",
+        "A forecast is your best single guess. Scenarios show the range around it. The goal isn't to predict which one happens. It's to choose plans you can survive in all of them, and to decide in advance what you'll do if things go one way or the other."
+      ],
+      "image": {
+        "label": "One forecast line fanning out into three",
+        "aspectRatio": "16:9",
+        "brief": "선 그래프 인포그래픽. 왼쪽에서 한 줄로 시작한 매출선이 오른쪽으로 갈수록 세 갈래(Bad, Base, Good)로 벌어짐. Bad 선 아래에 빨간 \"Loss\" 영역 표시.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "What it changes",
+      "title": "The patio looks different now.",
+      "illustrative": true,
+      "body": [
+        "In the base case, the patio is fine. Maya has $5,000 left and earns $6,000 a month.",
+        "In the bad case, she has $5,000 left and loses $3,000 a month. That's less than two months of cushion.",
+        "So she changes the plan, not the dream. She'll build the patio in two phases, and start phase two only if sales stay above $55,000 for a full month."
+      ],
+      "callout": "Decide the trigger before you need it."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where it comes from",
+      "title": "Shell didn't predict the oil shock.",
+      "body": [
+        "In the early 1970s, planners at the oil company Shell, including Pierre Wack, worked through several futures. One was a sudden squeeze on oil supply.",
+        "When the 1973 oil crisis hit, Shell is often credited with responding faster than many rivals. The story is sometimes told as a prediction. It wasn't. Wack's point was that managers had already thought through what that world would look like, so they recognized it sooner."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Scenarios can become theater.",
+      "body": [
+        "The base case tends to drift toward hope. Ask whether your bad case is one you've actually seen before, like a slow season or a lost client, not a cartoon disaster.",
+        "Don't average the three and plan on the middle. That hides the risk you built them to see.",
+        "And keep it to two or three. Ten scenarios with no trigger attached are just more spreadsheets."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software startup.",
+      "illustrative": true,
+      "body": [
+        "Your startup has $600,000 in the bank and plans to spend $50,000 more than it earns each month. That's 12 months of runway. If new sales are slow, the gap grows to $75,000, which is 8 months.",
+        "You plan to hire two engineers and raise money around month 9. What's the best plan?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Follow the base case: hire both, start raising at month 9",
+            "verdict": "risky",
+            "feedback": "It works if the base case holds. In the bad case, the money runs out at month 8, before you've even started raising."
+          },
+          {
+            "key": "B",
+            "text": "Plan for the bad case only: freeze hiring",
+            "verdict": "partial",
+            "feedback": "You'll survive the bad case. But if sales go well, you've slowed down exactly when you could have grown."
+          },
+          {
+            "key": "C",
+            "text": "Hire one now. Hire the second only if new sales hit a set target by month 3, and start raising by month 5 either way",
+            "verdict": "best",
+            "feedback": "You keep moving in the base and good cases, and your triggers protect you in the bad one. The decision is made before the pressure arrives."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Don't bet the business on your best guess.",
+      "body": [
+        "Run the bad, base and good cases. Choose moves you can survive in all three, and write down what would make you change course.",
+        "**Try it today:** take your biggest planned expense this year. Recalculate your monthly profit with sales 20% lower. Would you still make it? If not, set the trigger now."
+      ],
+      "next": "Next · Why the plan and the result never match"
+    }
+  ]
+}

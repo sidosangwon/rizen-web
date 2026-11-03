@@ -1,0 +1,254 @@
+{
+  "id": "SAL-04-08",
+  "unitId": "SAL-04",
+  "categoryId": "SAL",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "Negotiate a supplier contract",
+  "readerTitle": "Your supplier just raised prices 12%. What do you do before you reply?",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (주방 가구 제조사와 경첩 공급사, 소프트웨어 스타트업과 이메일 발송 서비스) · 모든 수치는 설명용",
+  "insight": "공급 계약 협상은 가격 숫자 싸움이 아니라, 내 대안을 먼저 계산하고 상대가 가격 뒤에서 정말 원하는 것을 찾아 교환하는 일이다.",
+  "misconception": "공급사가 가격을 올리면 '깎아 달라'고 버티거나 중간에서 반씩 양보하는 것 말고는 방법이 없다.",
+  "relatedLessonIds": [
+    "SAL-04-01",
+    "SAL-04-05"
+  ],
+  "sources": [
+    {
+      "text": "협상론의 표준 개념 (BATNA, 이익과 입장의 구분). Fisher, R. & Ury, W. Getting to Yes (1981)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "경첩 계산: 현재 $2.00 × 50,000개 = $100,000. 12% 인상 $2.24 × 50,000 = $112,000. 대체 공급사 $2.12 × 50,000 = $106,000 + 일회성 전환 비용 $4,000 = 첫해 $110,000, 개당 $2.20. 이 값을 물러설 선(walk-away point)으로 사용.",
+      "status": "open"
+    },
+    {
+      "note": "합의안: 5% 인상 $2.10 × 50,000 = $105,000. 제안가 대비 $7,000 절감, 대안 대비 $5,000 절감. 결제 기한 45일→15일 단축은 제조사에게 현금 부담이라는 점을 Watch out 카드에 명시.",
+      "status": "open"
+    },
+    {
+      "note": "소프트웨어 사례의 30% 인상, 2년 계약, 엔지니어 6주 이전 기간은 모두 가상 수치입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Negotiation · Everyday scene",
+      "title": "Your supplier just raised prices 12%. What do you do before you reply?",
+      "illustrative": true,
+      "body": [
+        "Mara runs a small kitchen cabinet workshop. She buys 50,000 hinges a year at $2.00 each.",
+        "This morning her supplier emailed: from next quarter, $2.24. \"Steel costs are up. Please confirm by Friday.\" Her first instinct is to fire back a firm no."
+      ],
+      "image": {
+        "label": "Workshop owner reading a price-increase email beside a box of hinges",
+        "aspectRatio": "4:3",
+        "brief": "작은 목공 작업장. 여성 사장이 노트북 화면의 이메일(\"+12%\" 강조)을 보고 있고, 옆 작업대에 경첩 상자가 쌓여 있음. 따뜻한 조명, 실제 브랜드 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What should Mara do first?",
+      "illustrative": true,
+      "body": [
+        "She has until Friday. Which move comes first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Reply right away: \"We can't accept any increase\"",
+            "verdict": "risky",
+            "feedback": "It sounds strong, but she doesn't yet know what happens if they say no. A hard line without a backup is a bluff."
+          },
+          {
+            "key": "B",
+            "text": "Get quotes from other suppliers and work out what switching would really cost",
+            "verdict": "best",
+            "feedback": "This is her **best alternative (BATNA)**. Knowing what she gets if talks fail tells her how hard she can push."
+          },
+          {
+            "key": "C",
+            "text": "Accept to protect a good relationship",
+            "verdict": "partial",
+            "feedback": "The relationship matters, but she gives up $12,000 a year without learning if a better deal was possible."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Her alternative isn't just the other quote.",
+      "illustrative": true,
+      "body": [
+        "A second supplier quotes $2.12. But switching means testing samples and adjusting jigs, about $4,000 one time. So her real alternative costs **$2.20 per hinge** in year one. Any deal above that is worse than walking away."
+      ],
+      "breakdown": [
+        {
+          "value": "$112,000",
+          "label": "Accept the increase",
+          "detail": "$2.24 × 50,000 hinges",
+          "highlight": false
+        },
+        {
+          "value": "$106,000",
+          "label": "Other supplier's price",
+          "detail": "$2.12 × 50,000 hinges",
+          "highlight": false
+        },
+        {
+          "value": "+$4,000",
+          "label": "Cost to switch",
+          "detail": "Samples, testing, new jigs",
+          "highlight": false
+        },
+        {
+          "value": "$110,000",
+          "label": "Real alternative",
+          "detail": "Her walk-away line: $2.20 each",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept at work",
+      "title": "A real alternative changes the tone.",
+      "body": [
+        "Mara now knows she can leave and be only a little worse off. She doesn't need to threaten. She can say calmly that she has another option and would prefer to stay.",
+        "Notice the alternative is weaker than it first looked. The $2.12 quote alone would have made her overconfident. Counting the switching cost kept her **BATNA** honest."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "\"Steel is up. Twelve percent is final.\"",
+      "illustrative": true,
+      "body": [
+        "In the meeting, the sales manager won't move on price. What does Mara say?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "\"Match the other quote, or we leave.\"",
+            "verdict": "partial",
+            "feedback": "Backed by a real alternative, so it's not a bluff. But it's position against position, and it may end a working relationship over a few cents."
+          },
+          {
+            "key": "B",
+            "text": "\"Help me understand what's driving this. What would make next year easier for you?\"",
+            "verdict": "best",
+            "feedback": "This looks past their **position** (12%) to their **interests**, the needs behind it. Interests can often be met in ways that cost you less than price."
+          },
+          {
+            "key": "C",
+            "text": "\"Let's meet in the middle at 6%.\"",
+            "verdict": "risky",
+            "feedback": "Quick, but she trades without knowing what they need. She may give up more than necessary."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "What came out",
+      "title": "The problem wasn't the price.",
+      "illustrative": true,
+      "body": [
+        "The supplier buys steel months ahead. Late payments and unpredictable orders were squeezing their cash. Mara's real need was a stable cost, because she prints her price list once a year.",
+        "They agreed: a 12-month volume commitment with quarterly forecasts, payment in 15 days instead of 45, and **+5% locked for the year**. That's $105,000, below both the offer and her alternative."
+      ],
+      "image": {
+        "label": "Two sides of a table trading items: forecast, faster payment, locked price",
+        "aspectRatio": "16:9",
+        "brief": "협상 테이블 양쪽에 두 사람. 가운데로 카드 세 장이 오감: \"12-month forecast\", \"Pay in 15 days\", \"+5% locked\". 단순한 플랫 일러스트, 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Every trade has a cost.",
+      "body": [
+        "Paying in 15 days means Mara's cash leaves 30 days sooner. She needs to be sure her bank balance can handle it.",
+        "A volume commitment is a promise. If orders drop, she may still owe for hinges she can't use. And an alternative only gives you power if you'd truly use it. Never reveal your walk-away line."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software vendor.",
+      "illustrative": true,
+      "body": [
+        "Your startup sends app emails through a vendor. At renewal they ask for 30% more and a two-year contract. Moving to another provider would take your engineers about six weeks. What's your move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Tell them you'll switch tomorrow unless they drop the increase",
+            "verdict": "risky",
+            "feedback": "Six weeks of migration makes this a bluff. If they call it, you lose credibility or pay anyway."
+          },
+          {
+            "key": "B",
+            "text": "Price out the migration, then ask why two years matters to them and trade the longer term for a smaller increase",
+            "verdict": "best",
+            "feedback": "You know your **BATNA**, and you've found their **interest**: predictable revenue. Giving them that can buy you a lower price."
+          },
+          {
+            "key": "C",
+            "text": "Sign the two-year deal to avoid a messy migration",
+            "verdict": "partial",
+            "feedback": "You avoid disruption, but you lock in the higher price for two years without testing what they'd accept."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Know your exit, then ask what they need.",
+      "body": [
+        "Two ideas did the work in this lesson:"
+      ],
+      "list": [
+        "**Your best alternative (BATNA):** cost out what happens if talks fail, including switching costs",
+        "**Interests vs positions:** ask what's behind the number, then trade on it"
+      ],
+      "callout": "**Try it today:** pick your biggest supplier. Write down what switching would really cost you, and one thing they might value besides price.",
+      "next": "Next · Camp David: interests behind positions"
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "id": "BMO-06-07",
+  "unitId": "BMO-06",
+  "categoryId": "BMO",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "A coffee subscription",
+  "readerTitle": "The coffee club that couldn't get past 400",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (원두 정기배송 로스터리, 사무실 커피 공급 B2B 서비스) · 모든 수치는 설명용",
+  "insight": "구독 사업은 '얼마나 들어오나'보다 '얼마나 머무나'로 천장이 정해지고, 연간 할인은 물건이 매달 나가는 사업에서 더 비싸다.",
+  "misconception": "신규 가입이 꾸준하면 구독 사업은 계속 큰다. 연간 결제는 할인을 줘도 무조건 이득이다.",
+  "relatedLessonIds": [
+    "BMO-06-02",
+    "BMO-06-04"
+  ],
+  "sources": [
+    {
+      "text": "구독 사업의 표준 개념 (이탈률과 정상 상태 고객 수, 월간·연간 결제)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "정상 상태 고객 수 = 월 신규 ÷ 월 이탈률. 40 ÷ 0.10 = 400명, 이탈률 5%면 40 ÷ 0.05 = 800명. 현재 400명 × 10% = 월 40명 이탈로 신규 40명과 같음.",
+      "status": "open"
+    },
+    {
+      "note": "평균 구독 기간 ≈ 1 ÷ 월 이탈률 = 1 ÷ 0.10 = 10개월(근사치). 월간 고객 기대 매출 $20 × 10 = $200, 봉투당 원가 $8(원두·포장·배송) × 10 = $80, 남는 돈 $120.",
+      "status": "open"
+    },
+    {
+      "note": "연간 $200: 12봉 × $8 = $96, 남는 돈 $104. 연간 $228: $228 − $96 = $132. 정가 $240 대비 $200은 고객 1명당 연 $40 할인.",
+      "status": "open"
+    },
+    {
+      "note": "B2B: 50곳 × 2% = 월 1곳 이탈, 신규 3곳 → 순증 월 2곳. 천장 3 ÷ 0.02 = 150곳, 이탈률 1%면 300곳. 15% 할인 비용 50곳 × $500 × 0.15 = 월 $3,750.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business models · Everyday scene",
+      "title": "The coffee club that couldn't get past 400",
+      "illustrative": true,
+      "body": [
+        "A small roaster ships a bag of fresh beans to subscribers every month for $20. Forty new people sign up every month, like clockwork.",
+        "A year later, the roaster still has about 400 subscribers. Nothing is broken. Nobody is complaining. So where did the growth go?"
+      ],
+      "image": {
+        "label": "A coffee bag on a doorstep, with a counter stuck at 400",
+        "aspectRatio": "4:3",
+        "brief": "현관 앞에 놓인 원두 봉투 하나. 옆에 디지털 카운터가 \"400\"에서 멈춰 있고, 한쪽 문으로 사람들이 들어오고 다른 쪽 문으로 같은 수만큼 나가는 장면. 실제 브랜드 로고 없음.",
+        "url": "assets/images/bmo-06-07-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Why has the club stopped growing?",
+      "illustrative": true,
+      "body": [
+        "The roaster has 400 subscribers. It signs up 40 new ones each month. About 10% of subscribers cancel each month.",
+        "What's the best explanation?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The local market is saturated",
+            "verdict": "partial",
+            "feedback": "Possible someday, but signups haven't slowed. The numbers already explain the stall without it."
+          },
+          {
+            "key": "B",
+            "text": "Cancellations now equal signups",
+            "verdict": "best",
+            "feedback": "Right. This is **the math of retention**: 10% of 400 is 40 cancellations a month, exactly matching the 40 new signups."
+          },
+          {
+            "key": "C",
+            "text": "The $20 price is too high",
+            "verdict": "risky",
+            "feedback": "Cutting price would shrink what each bag earns, and 40 people a month are happily paying it. The leak is on the way out, not the way in."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Every subscription business has a ceiling.",
+      "illustrative": true,
+      "body": [
+        "Divide new signups by the monthly cancellation rate. That's where the customer count settles. The roaster isn't failing. It has simply arrived."
+      ],
+      "breakdown": [
+        {
+          "value": "40",
+          "label": "New per month",
+          "detail": "Steady signups",
+          "highlight": false
+        },
+        {
+          "value": "10%",
+          "label": "Cancel per month",
+          "detail": "Share of subscribers who leave",
+          "highlight": false
+        },
+        {
+          "value": "400",
+          "label": "Ceiling",
+          "detail": "40 ÷ 10%",
+          "highlight": true
+        },
+        {
+          "value": "800",
+          "label": "Ceiling at 5%",
+          "detail": "Same signups, half the cancellations",
+          "highlight": false
+        }
+      ],
+      "callout": "Halving cancellations doubles the ceiling without one extra ad."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Applying it",
+      "title": "Ask why people leave.",
+      "illustrative": true,
+      "body": [
+        "The roaster calls ten people who cancelled. Most say the same thing: unopened bags were piling up in the cupboard. They liked the coffee. They just drank less than a bag a month.",
+        "So the fix isn't a louder ad. It's letting people choose every six weeks, or skip a month with one tap.",
+        "A skipped month earns nothing. But a customer who skips and stays keeps the ceiling high. A customer who cancels is gone."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Should the roaster sell an annual plan?",
+      "illustrative": true,
+      "body": [
+        "Monthly is $20. Each bag costs $8 in beans, packaging and shipping. At 10% monthly cancellation, the average subscriber stays about 10 months and leaves $120 after costs.",
+        "The roaster is considering a prepaid year. What's the smartest version?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "$200 a year (two months free), pushed as the main option",
+            "verdict": "risky",
+            "feedback": "You get cash up front, but 12 bags cost $96, so you keep $104. That's less than the $120 from an average monthly customer, and your loyal $240 customers switch too."
+          },
+          {
+            "key": "B",
+            "text": "$228 a year (one month free), next to monthly with easy skips",
+            "verdict": "best",
+            "feedback": "This is **annual vs monthly** with real costs counted. You keep $132 a year, gain committed customers, and don't give away much to people who'd stay anyway."
+          },
+          {
+            "key": "C",
+            "text": "No annual plan; it only complicates things",
+            "verdict": "partial",
+            "feedback": "Simple, and no discount leaks. But you give up upfront cash that could buy green beans in bulk, and a year of commitment."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Annual discounts cost more when you ship something.",
+      "body": [
+        "The customers most likely to pay for a year are the ones who would have stayed a year anyway. For them, the discount is pure giveaway: $40 each at $200.",
+        "And every extra month means another bag of real coffee leaving the building. Prepaid money also comes with a promise. If someone moves away in month three, you may owe a refund."
+      ],
+      "softwareNote": "In software, an extra month of service costs almost nothing to deliver, so annual discounts are cheaper to give. The loyal-customer giveaway still applies."
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's an office coffee service.",
+      "illustrative": true,
+      "body": [
+        "You supply beans and machine upkeep to offices for $500 a month. You have 50 office clients. About 2% cancel each month, roughly one office. Your one salesperson signs 3 new offices a month.",
+        "Where should next quarter's effort go?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Hire a second salesperson",
+            "verdict": "best",
+            "feedback": "**The math of retention** says your ceiling is 3 ÷ 2% = 150 offices. You're at 50 and growing by 2 a month, so more signups raise the count fastest right now."
+          },
+          {
+            "key": "B",
+            "text": "Launch a program to cut cancellations to 1%",
+            "verdict": "partial",
+            "feedback": "It lifts the ceiling to 300, which matters later. But with churn already low and the ceiling far off, it adds less this quarter than new clients."
+          },
+          {
+            "key": "C",
+            "text": "Move every client to an annual contract at 15% off",
+            "verdict": "risky",
+            "feedback": "**Annual vs monthly** cuts both ways: clients who rarely leave would cost you $3,750 a month in discounts to prevent about one cancellation."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "Software companies run the same check: divide monthly new signups by monthly churn to see whether growth or retention is the bottleneck."
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Know your ceiling before you choose your fix.",
+      "body": [
+        "You used two ideas. **The math of retention:** signups ÷ cancellation rate shows where you'll stall, and whether to fix the way in or the way out. **Annual vs monthly:** a prepaid plan is only a win once you count what each extra month costs to deliver.",
+        "**Try it today:** take last month's new customers and divide by the share who left. Is your ceiling near or far?"
+      ],
+      "next": "Next · A software subscription"
+    }
+  ]
+}

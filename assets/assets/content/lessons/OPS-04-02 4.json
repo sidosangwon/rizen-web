@@ -1,0 +1,225 @@
+{
+  "id": "OPS-04-02",
+  "unitId": "OPS-04",
+  "categoryId": "OPS",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "Objectives and key results",
+  "readerTitle": "Why Google's goals came with a built-in yes-or-no test",
+  "format": "company_story",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Google, John Doerr의 OKR 도입) + 가상 적용 (철물점 체인, 포장·출고 공장)",
+  "insight": "좋은 목표는 할 일 목록이 아니라, 끝났을 때 '해냈다'를 숫자로 판정할 수 있는 결과 묶음이다.",
+  "misconception": "OKR은 분기 할 일 목록에 숫자를 붙인 것이다. 일을 다 끝내면 목표도 이룬 것이다.",
+  "relatedLessonIds": [
+    "OPS-04-01",
+    "OPS-04-03"
+  ],
+  "sources": [
+    {
+      "text": "Doerr, J. (2018). Measure What Matters. Portfolio/Penguin.",
+      "url": null
+    },
+    {
+      "text": "Google re:Work, \"Guide: Set goals with OKRs\"",
+      "url": "https://rework.withgoogle.com/guides/set-goals-with-okrs/"
+    },
+    {
+      "text": "Grove, A. (1983). High Output Management. Random House.",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Doerr가 1999년 Google에 OKR을 소개했고, 당시 직원 수가 수십 명 규모였다는 내용은 Measure What Matters에 근거합니다. 정확한 인원은 책에서 '30명 남짓'으로 알려져 있어 카드에는 \"a few dozen\"으로만 적었습니다. 게시 전 원문 확인 필요.",
+      "status": "open"
+    },
+    {
+      "note": "\"I will [objective] as measured by [key results]\" 공식은 Doerr의 책과 강연에서 널리 인용됩니다. 문구가 원문과 일치하는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Google re:Work 가이드의 0.0~1.0 채점과 '도전적 목표는 평균 0.6~0.7이면 좋다'는 설명을 확인하세요. 해당 페이지 URL이 현재도 유효한지도 확인 필요.",
+      "status": "open"
+    },
+    {
+      "note": "OKR을 보상·평가와 직접 연결하지 말라는 조언은 re:Work 가이드와 Doerr의 책에 나옵니다. 품질 지표와 수량 지표를 짝지으라는 생각은 Grove의 High Output Management에서 나온 것으로, 카드에는 일반적으로만 서술했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "철물점 체인과 포장 공장 사례의 수치(재방문 30%→40%, 정시 출고 88%→95%, 오류 1%)는 모두 설명용 가상 수치입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Execution · Company story",
+      "title": "Why Google's goals came with a built-in yes-or-no test",
+      "body": [
+        "In 1999, investor John Doerr visited a young startup called Google. It had only a few dozen people. He brought a goal-setting method he had learned years earlier at Intel.",
+        "The founders adopted it. Google has used it for decades since. The method fits on one line, and its power is in how it forces you to finish that line."
+      ],
+      "image": {
+        "label": "A whiteboard with one goal and three measurable results under it",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 작은 회의실 화이트보드에 큰 글씨로 목표 한 줄, 그 아래 체크박스 달린 숫자 항목 세 줄. 사람 몇 명이 둘러서 있음. 실제 회사 로고·상표·실존 인물 얼굴 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which one proves the goal is met?",
+      "illustrative": true,
+      "body": [
+        "You run six hardware stores. This quarter's goal: *make our stores the place people come back to.*",
+        "You can track one number to know whether it worked. Which do you pick?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Launch a loyalty card in every store by June",
+            "verdict": "partial",
+            "feedback": "It's concrete and has a deadline. But you could launch it on time and still have no one come back. It measures your effort, not the result."
+          },
+          {
+            "key": "B",
+            "text": "Repeat customers rise from 30% to 40% of sales",
+            "verdict": "best",
+            "feedback": "If this number moves, the goal is true, however you got there. It leaves your team free to try the loyalty card, better advice or anything else."
+          },
+          {
+            "key": "C",
+            "text": "Every store manager completes customer-service training",
+            "verdict": "risky",
+            "feedback": "Training may help, but it's a task you control, not an outcome. You'd count a win the day the last course ends."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What Doerr taught",
+      "title": "Finish the sentence with a number.",
+      "body": [
+        "Doerr's pitch to Google boiled down to one sentence: *I will* [objective] *as measured by* [key results].",
+        "The first half says where you're going. The second half says how you'll know you arrived. If you can't finish the second half with something you can check, the goal is still a wish.",
+        "That second half is what most goal-setting skips."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Objectives and key results",
+      "body": [
+        "**Objectives and key results (OKRs)** pair one clear, inspiring goal with a few measurable results that show it's been reached.",
+        "The objective is words: *make our stores the place people come back to.* The **key results** are numbers: repeat customers from 30% to 40%. Doerr learned the method at Intel, where Andy Grove used it to keep a fast-growing company pointed the same way."
+      ],
+      "image": {
+        "label": "One objective at the top, three measurable key results below",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 맨 위 깃발 아이콘과 \"Objective: where we're going\", 아래로 화살표 세 개가 \"Key result 1/2/3: how we'll know\" 계기판 아이콘으로 연결. 각 계기판에 \"30% → 40%\" 같은 시작값과 목표값 표시.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "A few habits make it work.",
+      "body": [
+        "Teams that use OKRs well tend to follow the same habits:"
+      ],
+      "list": [
+        "**Few:** one to three objectives, each with about three to five key results",
+        "**Results, not tasks:** a key result is something that changes, not something you do",
+        "**Short cycles:** set them for a quarter, then score and reset",
+        "**Stretch:** Google's own guide scores results from 0 to 1 and treats about 0.6 to 0.7 on ambitious goals as a good outcome",
+        "**Visible:** everyone can see everyone's OKRs"
+      ],
+      "softwareNote": "A product team might write: *make onboarding effortless*, measured by new users finishing setup rising from 55% to 75%. \"Ship the new setup wizard\" is a task on the way there, not a key result."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The test",
+      "title": "If every number hits, is the goal true?",
+      "body": [
+        "This is the quick check for any key result. Imagine you hit it. Would anyone doubt the objective was met?",
+        "If the loyalty card launched but repeat visits stayed flat, nobody would say people now come back. So the launch is a task. It belongs on a plan, under the OKR.",
+        "This keeps teams honest. Busy weeks feel like progress. Key results show whether the busyness worked."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Numbers can be bent.",
+      "body": [
+        "Tie OKRs to bonuses and people set targets they know they'll hit. That's why Google's guide and Doerr both advise keeping them separate from pay reviews.",
+        "A single number also invites shortcuts. Push \"orders shipped\" alone and quality slips. Andy Grove's fix was to pair a measure of quantity with a measure of quality, so gaming one shows up in the other.",
+        "And ten objectives means no focus at all."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a packaging plant.",
+      "illustrative": true,
+      "body": [
+        "You run a plant that packs and ships orders for food brands. Objective: *customers can count on every order.*",
+        "Which set of key results fits best?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "On-time shipments from 88% to 95%, and order errors below 1%",
+            "verdict": "best",
+            "feedback": "Both are outcomes customers feel, and they check each other. Rushing to hit the on-time number would push errors up, and you'd see it."
+          },
+          {
+            "key": "B",
+            "text": "On-time shipments from 88% to 99%",
+            "verdict": "partial",
+            "feedback": "A real outcome, but alone it invites rushing. You might ship faster and wrong, which customers won't count on either."
+          },
+          {
+            "key": "C",
+            "text": "Buy two new scanners, hire two packers, retrain the night shift",
+            "verdict": "risky",
+            "feedback": "Sensible steps, but all tasks. You could finish every one and still ship late. They belong in the plan beneath the key results."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "The same pairing works for a software team: release speed matched with a cap on bugs reported after release."
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A goal is done when the numbers say so, not when the tasks are.",
+      "body": [
+        "Write the objective in words. Then write a few results that would prove it, and test each one: if it hits, is the goal true?",
+        "**Try it today:** take one goal your team has now. Finish the sentence \"as measured by…\" with two numbers, one for quantity and one for quality."
+      ],
+      "next": "Next · The numbers you watch every week"
+    }
+  ]
+}

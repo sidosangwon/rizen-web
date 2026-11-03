@@ -1,0 +1,254 @@
+{
+  "id": "ECO-05-02",
+  "unitId": "ECO-05",
+  "categoryId": "ECO",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "Charm pricing and the left-digit effect",
+  "readerTitle": "$9.99 vs $10.00. One cent. Why does the gap feel bigger?",
+  "format": "counterexample",
+  "level": 1,
+  "language": "en",
+  "status": "draft_review",
+  "estimatedMinutes": 4.4,
+  "caseKinds": [
+    "real_research",
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 연구 (Anderson & Simester 2003, Lacetera et al. 2012, Wadhwa & Zhang 2015) + 실제 기업 (JCPenney 2012) + 가상 사례 (웨딩 촬영, 충전기)",
+  "insight": "가격 끝자리는 \"싸다\" 또는 \"믿을 만하다\"는 메시지를 보낸다.",
+  "misconception": "$9.99가 싸 보이는 건 앵커링 때문이다. 언제나 .99로 끝나는 가격이 낫다.",
+  "relatedLessonIds": [
+    "ECO-05-01",
+    "ECO-06-04"
+  ],
+  "sources": [
+    {
+      "text": "Anderson & Simester (2003). Effects of $9 Price Endings on Retail Sales. Quantitative Marketing and Economics.",
+      "url": null
+    },
+    {
+      "text": "Thomas & Morwitz (2005). Penny Wise and Pound Foolish: The Left-Digit Effect in Price Cognition. J. of Consumer Research.",
+      "url": null
+    },
+    {
+      "text": "Lacetera, Pope & Sydnor (2012). Heuristic Thinking and Limited Attention in the Car Market. American Economic Review.",
+      "url": null
+    },
+    {
+      "text": "J.C. Penney Company, Form 10-K (FY2012)",
+      "url": null
+    },
+    {
+      "text": "Wadhwa & Zhang (2015). This Number Just Feels Right. J. of Consumer Research.",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "처음 받은 목업의 퀴즈(\"$9.99가 싸게 느껴지는 건 가격 앵커링 때문\")는 개념이 틀렸습니다. 이 레슨의 9번 카드에서 그 혼동 자체를 문제로 만들었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "JCPenney 매출 감소(약 25%)는 FY2011 $17.26B → FY2012 $12.98B 기준입니다. 원인은 단수가격 폐지 하나가 아니라 세일·쿠폰 폐지와 함께 일어났다는 점을 카드에 명시했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "JCPenney 로고와 매장 사진은 상표 사용 여부를 검토해야 합니다. 일러스트로 대체하는 것을 권장합니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Pricing · Lesson 2",
+      "title": "$9.99 vs $10.00. One cent. Why does the gap feel bigger?",
+      "body": [
+        "Retailers have used prices ending in 9 for over a century. Is it a real effect, or a habit nobody questions?",
+        "Let's test your instinct against real data."
+      ],
+      "image": {
+        "label": "Sneaker with $9.99 and $10.00 tags",
+        "aspectRatio": "4:3",
+        "brief": "목업 3번 화면처럼 흰 스니커즈 위에 빨간 \"$9.99\" 태그, 옆에 회색 \"$10.00\" 태그. 두 태그의 크기는 같게.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Three catalogs, three prices.",
+      "body": [
+        "A US clothing retailer mailed different versions of its catalog to different customers. The same women's dress was listed at **$34**, **$39**, or **$44**.",
+        "Which price sold the most dresses?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "$34, because it's the cheapest",
+            "verdict": "risky",
+            "feedback": "Reasonable guess, but no. The $34 version sold fewer dresses than the $39 one, even though it was $5 cheaper."
+          },
+          {
+            "key": "B",
+            "text": "$39",
+            "verdict": "best",
+            "feedback": "Correct. In Anderson and Simester's 2003 field experiment, the $39 dress outsold both $34 and $44. The higher price sold more units than the lower one."
+          },
+          {
+            "key": "C",
+            "text": "$44, because a higher price signals quality",
+            "verdict": "risky",
+            "feedback": "It sold the fewest. Quality signals matter, but here the price ending in 9 won."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The left-digit effect",
+      "body": [
+        "We read prices left to right and give the first digit the most weight. $2.99 gets filed as \"two-something\" before we finish reading it.",
+        "So $2.99 vs $3.00 can feel like a one-dollar gap, not a one-cent gap. Researchers call this the **left-digit effect**. Prices ending in .99 or .95 are called **charm prices**."
+      ],
+      "image": {
+        "label": "Big \"2\" and small \".99\"",
+        "aspectRatio": "16:9",
+        "brief": "타이포그래피 비주얼. 아주 큰 \"2\"와 작은 \".99\". 왼쪽에서 오른쪽으로 시선이 흐르며 점점 흐려지는 그라데이션.",
+        "url": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "A second reason",
+      "title": "A 9 also says \"deal\".",
+      "body": [
+        "In the same research, Anderson and Simester found that prices ending in 9 also work as a **signal**. Shoppers have learned that 9-endings often show up on sale items.",
+        "That's useful for a discount store. It's a problem when you want to look premium. We'll come back to that in two cards."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Outside the store",
+      "title": "It even moves used-car prices.",
+      "body": [
+        "Economists Lacetera, Pope and Sydnor studied more than 22 million used-car auction sales. A car with 79,900 miles and one with 80,100 miles are practically the same car.",
+        "Prices didn't fall smoothly with mileage. They dropped in sudden steps at every 10,000-mile mark. Buyers read odometers the way shoppers read price tags: left digit first."
+      ],
+      "image": {
+        "label": "Odometers: 79,900 vs 80,100",
+        "aspectRatio": "16:9",
+        "brief": "자동차 주행거리계 두 개를 나란히. \"79,900\"과 \"80,100\". 두 번째 계기판 아래에 작은 가격 하락 화살표.",
+        "url": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "When it backfired",
+      "title": "JCPenney dropped the .99s. Then the shoppers left.",
+      "body": [
+        "In 2012, new CEO Ron Johnson replaced constant sales and coupons with \"Fair and Square\" everyday pricing, using whole-dollar prices like $10 instead of $9.99.",
+        "Revenue fell about 25% that year. Johnson was out by April 2013.",
+        "Dropping .99 wasn't the only cause. Removing sales also removed the \"was\" prices that anchored every deal (Lesson 1). Shoppers lost both signals at once."
+      ],
+      "image": {
+        "label": "Department store price tags: $9.99 → $10",
+        "aspectRatio": "16:9",
+        "brief": "백화점 가격표가 \"$9.99\"에서 \"$10\"으로 바뀌는 비포/애프터 일러스트. 실제 로고는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Round prices win when the purchase is emotional.",
+      "body": [
+        "A 2015 study by Monica Wadhwa and Kuangjie Zhang found that round prices like $100 feel \"right\" for purchases driven by feelings, while precise prices like $98.76 fit purchases driven by calculation.",
+        "That's why luxury watches, wedding packages and tasting menus rarely end in .99. A 9 says \"bargain\", which is the wrong message for them."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Two products, two price endings.",
+      "illustrative": true,
+      "body": [
+        "You're pricing a **premium wedding photography package** at around $3,000 and a **phone charger** sold on Amazon at around $20.",
+        "Which combination fits best?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "$2,999 and $19.99",
+            "verdict": "partial",
+            "feedback": "The charger is right. But $2,999 tells a couple they're getting a deal on their wedding photos, which is the wrong message for a premium service."
+          },
+          {
+            "key": "B",
+            "text": "$3,000 and $19.99",
+            "verdict": "best",
+            "feedback": "Yes. A round price for the emotional, high-trust purchase. A charm price for the product people compare on a search results page."
+          },
+          {
+            "key": "C",
+            "text": "$3,000 and $20",
+            "verdict": "partial",
+            "feedback": "The wedding price is right. The charger sits next to dozens of near-identical listings, where $19.99 reads as noticeably cheaper than $20."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "choice",
+      "eyebrow": "Quick check",
+      "title": "Is $9.99 vs $10 an example of price anchoring?",
+      "body": [
+        "These two ideas get mixed up a lot, even in professional marketing content."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Yes",
+            "verdict": "risky",
+            "feedback": "Not quite. Anchoring needs a reference number that a price is compared to, like the $429 bread maker. $9.99 works on its own because of how we read digits. That's the left-digit effect."
+          },
+          {
+            "key": "B",
+            "text": "No, it's the left-digit effect",
+            "verdict": "best",
+            "feedback": "Right. Anchoring is comparison with a reference number. The left-digit effect is about how we read the number itself."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 10,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Match the price ending to the message.",
+      "body": [
+        "**.99** says value and deal. Use it where customers compare prices side by side.",
+        "**Round numbers** say quality and confidence. Use them where the purchase is emotional or premium.",
+        "**Try it today:** list your top 3 products. Does each price ending send the message you want?"
+      ],
+      "next": "Next · The option nobody buys"
+    }
+  ]
+}

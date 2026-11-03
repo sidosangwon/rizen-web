@@ -1,0 +1,246 @@
+{
+  "id": "MKT-06-02",
+  "unitId": "MKT-06",
+  "categoryId": "MKT",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "Choosing channels",
+  "readerTitle": "Cheap inquiries, expensive customers: how to compare channels",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 3.9,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (산업용 철제 선반 제조사, 치과용 예약 소프트웨어) · 모든 수치는 설명용",
+  "insight": "채널은 문의 한 건이 아니라 실제 고객 한 명을 얻는 비용, 그 고객의 가치, 그 채널이 더 데려올 수 있는 고객 수로 비교한다.",
+  "misconception": "문의(리드)를 가장 싸게, 가장 많이 가져오는 채널이 가장 좋은 채널이다.",
+  "relatedLessonIds": [
+    "MKT-06-01",
+    "MKT-06-03"
+  ],
+  "sources": [
+    {
+      "text": "마케팅의 표준 개념 (고객 획득 비용, 전환율, 고객 생애 가치)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "선반 제조사 계산: 온라인 광고 $12,000 ÷ 600건 = 문의당 $20, 600 × 1% = 6명, $12,000 ÷ 6 = $2,000. 우편 $12,000 ÷ 200 = $60, 200 × 4% = 8명, $12,000 ÷ 8 = $1,500. 전시회 $12,000 ÷ 60 = $200, 60 × 15% = 9명, $12,000 ÷ 9 = 약 $1,333. 문의당 비용은 광고가 전시회의 1/10.",
+      "status": "open"
+    },
+    {
+      "note": "소프트웨어 계산: 검색 광고 $5,000 ÷ 20명 = $250, 6개월 × $100 = $600 (약 2.4배). 협회 뉴스레터 $5,000 ÷ 15명 = 약 $333, 24개월 × $100 = $2,400 (약 7.2배). 가치는 단순화를 위해 매출 기준이며 원가와 할인율은 반영하지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "모든 수치는 가상입니다. 실제 업종 평균 전환율처럼 읽히지 않도록 카드에 illustrative 라벨을 유지하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Marketing · Numbers twist",
+      "title": "Cheap inquiries, expensive customers",
+      "illustrative": true,
+      "body": [
+        "A small maker of steel warehouse shelving has $12,000 to spend on finding customers.",
+        "Online ads bring in inquiries for about $20 each. A trade show booth works out to about $200 per inquiry. One looks ten times cheaper. It isn't."
+      ],
+      "image": {
+        "label": "A cheap price tag on a pile of inquiries, a pricey tag on a few handshakes",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 왼쪽에 \"$20\" 가격표가 붙은 커다란 이메일 봉투 더미, 오른쪽에 \"$200\" 가격표가 붙은 작은 악수 아이콘 몇 개. 배경은 창고 선반. 실제 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which channel won customers most cheaply?",
+      "illustrative": true,
+      "body": [
+        "You make custom steel shelving for warehouses. Here is what each $12,000 brought in last year:",
+        "Online ads: 600 inquiries, 1 in 100 bought. Direct mail to warehouse managers: 200 inquiries, 4 in 100 bought. A trade show: 60 inquiries, 15 in 100 bought."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Online ads. They bring ten times more inquiries for the money",
+            "verdict": "risky",
+            "feedback": "Ads win on inquiries, but only 6 of 600 bought. Each customer cost $2,000, the most of the three."
+          },
+          {
+            "key": "B",
+            "text": "Direct mail. A good balance of volume and quality",
+            "verdict": "partial",
+            "feedback": "A solid middle: 8 customers at $1,500 each. Cheaper than ads, but not the cheapest."
+          },
+          {
+            "key": "C",
+            "text": "The trade show, despite the fewest inquiries",
+            "verdict": "best",
+            "feedback": "Only 60 inquiries, but 9 became customers. That's about $1,333 each, the lowest of the three."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "The ranking flips.",
+      "illustrative": true,
+      "body": [
+        "Per inquiry, ads looked ten times cheaper than the show. Per paying customer, they were the most expensive channel."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Cost per inquiry",
+            "rows": [
+              {
+                "label": "Online ads",
+                "value": 20,
+                "highlight": true
+              },
+              {
+                "label": "Direct mail",
+                "value": 60,
+                "highlight": false
+              },
+              {
+                "label": "Trade show",
+                "value": 200,
+                "highlight": false
+              }
+            ]
+          },
+          {
+            "label": "Cost per paying customer",
+            "rows": [
+              {
+                "label": "Online ads",
+                "value": 2000,
+                "highlight": false
+              },
+              {
+                "label": "Direct mail",
+                "value": 1500,
+                "highlight": false
+              },
+              {
+                "label": "Trade show",
+                "value": 1333,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Choosing channels by cost per customer",
+      "body": [
+        "A **channel** is any route by which customers find you and buy: ads, shows, sales calls, shops, partners.",
+        "To choose between them, divide what you spent by the paying customers it brought. That's the **cost per customer**. Inquiries, clicks and visitors are steps on the way, not the result.",
+        "Then set that number against what a customer is worth to you."
+      ],
+      "image": {
+        "label": "Three funnels of different widths ending in similar drops",
+        "aspectRatio": "16:9",
+        "brief": "깔때기 3개를 나란히. 왼쪽(Online ads)은 입구가 아주 넓고 출구가 가늘다. 오른쪽(Trade show)은 입구가 좁지만 출구가 굵다. 각 출구 아래에 \"$2,000\", \"$1,500\", \"$1,333\" 라벨.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Second twist",
+      "title": "The cheapest channel runs out.",
+      "illustrative": true,
+      "body": [
+        "The trade show happens twice a year, with a fixed crowd. Paying for a bigger booth won't double the buyers.",
+        "Ads work differently. Spend more and more inquiries arrive, though each one usually gets pricier as you reach less interested people."
+      ],
+      "list": [
+        "What does one paying customer cost here?",
+        "What is that customer worth?",
+        "How many more customers can this channel deliver?"
+      ],
+      "callout": "Fill the cheapest channel until it stops giving, then move to the next."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Early channel numbers are rough.",
+      "body": [
+        "Nine customers is a small number. One big order or one bad show can swing the result.",
+        "Customers also touch several channels. A buyer who saw your ad, then visited your booth, gets credited to only one of them.",
+        "And some channels pay off slowly. Show contacts may buy months later. Judge a channel over a full buying cycle, not a single month."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's software for dental clinics.",
+      "illustrative": true,
+      "body": [
+        "Your scheduling app costs clinics $100 a month. Each $5,000 spent brought:",
+        "Search ads: 250 free trials, 20 paying clinics, staying about 6 months. A dental association newsletter: 50 trials, 15 paying clinics, staying about 24 months. Where should next quarter's budget go?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Search ads. Five times the trials for the same money",
+            "verdict": "risky",
+            "feedback": "Trials aren't customers. Search customers cost $250 and bring about $600; newsletter customers cost about $333 and bring about $2,400."
+          },
+          {
+            "key": "B",
+            "text": "The newsletter, as far as its audience allows, while keeping search running",
+            "verdict": "best",
+            "feedback": "You put money where each customer returns the most, and keep a channel that can grow once the newsletter's readers are used up."
+          },
+          {
+            "key": "C",
+            "text": "Split the budget evenly to stay safe",
+            "verdict": "partial",
+            "feedback": "It avoids betting wrong, but leaves your best channel underfunded while it still has room to grow."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Compare channels by the customers they win, not the attention they get.",
+      "body": [
+        "Cost per customer, what that customer is worth, and how many more the channel can bring. Those three numbers turn a channel debate into arithmetic.",
+        "**Try it today:** take your two main channels. Divide last quarter's spend on each by the paying customers it brought."
+      ],
+      "next": "Next · Why the right channel depends on what you sell"
+    }
+  ]
+}

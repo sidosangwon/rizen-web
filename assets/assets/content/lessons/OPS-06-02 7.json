@@ -1,0 +1,249 @@
+{
+  "id": "OPS-06-02",
+  "unitId": "OPS-06",
+  "categoryId": "OPS",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "The cost of poor quality",
+  "readerTitle": "A 2% defect rate: $800 a month, or $13,000?",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (금속 브래킷 공장, 소프트웨어 회사) · 모든 수치는 설명용. 개념은 Juran·Feigenbaum의 품질 비용 이론에 근거",
+  "insight": "불량의 비용은 개수가 아니라 어디서 발견되느냐로 정해진다. 고객에게 닿은 소수의 불량이 비용 대부분을 만든다.",
+  "misconception": "불량 비용은 폐기한 부품 값(스크랩 보고서의 숫자)이다. 예방과 검사 비용은 아낄수록 이익이다.",
+  "relatedLessonIds": [
+    "OPS-06-01",
+    "OPS-06-06"
+  ],
+  "sources": [
+    {
+      "text": "Juran, J. M. (1951). Quality Control Handbook. McGraw-Hill.",
+      "url": null
+    },
+    {
+      "text": "Feigenbaum, A. V. (1956). Total Quality Control. Harvard Business Review.",
+      "url": null
+    },
+    {
+      "text": "ASQ, Cost of Quality (prevention, appraisal, internal and external failure)",
+      "url": "https://asq.org/quality-resources/cost-of-quality"
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "계산 확인: 불량 10,000 × 2% = 200개. 기계에서 발견 120 × $4 = $480, 최종 검사 50 × $12 = $600, 고객 도달 30 × $400 = $12,000, 합계 $13,080. 스크랩 보고서 200 × $4 = $800, 13,080 ÷ 800 = 16.35배('over 16 times'). 고객 도달 비중 30 ÷ 200 = 15%, 비용 비중 12,000 ÷ 13,080 = 91.7%(약 92%).",
+      "status": "open"
+    },
+    {
+      "note": "예방 사례: 센서가 유출 30개 중 20개를 기계에서 잡음. 개당 $400 → $4, 절감 20 × $396 = $7,920, 센서 비용 $2,000/월. 모든 수치는 가상입니다.",
+      "status": "open"
+    },
+    {
+      "note": "Juran이 1950년대에 품질 비용 개념을 널리 알렸다는 서술과, 예방·평가·내부 실패·외부 실패 4분류가 Feigenbaum(1956)에서 비롯되었다는 점을 게시 전 확인하세요. 카드에는 '널리 쓰이는 분류'로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "ASQ Cost of Quality 페이지 URL이 유효한지 게시 전 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Numbers twist",
+      "title": "A 2% defect rate: $800 a month, or $13,000?",
+      "illustrative": true,
+      "body": [
+        "A metal parts plant makes 10,000 brackets a month. About 2% come out bad. Each bracket costs $4 to make.",
+        "On the scrap report, that's $800. The real bill depends on one thing the report doesn't show: *where* each bad part was caught."
+      ],
+      "image": {
+        "label": "A bin of scrapped brackets beside a small price tag",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 공장 바닥의 작은 폐기 상자에 금속 브래킷 몇 개와 \"$800\" 가격표. 상자 뒤로 훨씬 큰 그림자가 벽에 드리워져 있고 그림자에 \"?\" 표시. 실제 회사 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What do the bad brackets really cost?",
+      "illustrative": true,
+      "body": [
+        "Of the 200 bad brackets each month, 120 are caught at the machine and scrapped. 50 are found at final inspection, after painting and packing. 30 reach customers, who need a rushed replacement and must sort their stock to find the bad ones.",
+        "Roughly what do bad parts cost the plant each month?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "About $800, the cost of the parts themselves",
+            "verdict": "risky",
+            "feedback": "This treats every bad part as $4 of material, as if all were caught at the machine. Parts caught later carry far more cost."
+          },
+          {
+            "key": "B",
+            "text": "About $2,000, allowing for repainting and repacking",
+            "verdict": "partial",
+            "feedback": "Right that later costs more, but this stops at the factory door. The 30 parts that escaped cost far more than the rest."
+          },
+          {
+            "key": "C",
+            "text": "Over $10,000",
+            "verdict": "best",
+            "feedback": "Yes. Most of the cost sits in the few parts that reached customers. The next card shows the math."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Follow the 200 bad brackets.",
+      "illustrative": true,
+      "body": [
+        "The 30 escaped parts are 15% of the defects but about **92% of the cost**. The total is over 16 times the scrap report."
+      ],
+      "breakdown": [
+        {
+          "value": "$480",
+          "label": "Caught at the machine",
+          "detail": "120 parts × $4 of scrap",
+          "highlight": false
+        },
+        {
+          "value": "$600",
+          "label": "Caught at final inspection",
+          "detail": "50 parts × $12: material, paint, packing, labor",
+          "highlight": false
+        },
+        {
+          "value": "$12,000",
+          "label": "Reached customers",
+          "detail": "30 parts × $400: rush freight, replacement, customer sorting, admin",
+          "highlight": true
+        },
+        {
+          "value": "$13,080",
+          "label": "Total per month",
+          "detail": "Compared with $800 on the scrap report",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The cost of poor quality",
+      "body": [
+        "**The cost of poor quality** is all the money a business spends because work wasn't done right the first time: scrap, rework, extra checks, returns, refunds and lost customers.",
+        "Quality pioneer Joseph Juran helped popularize the idea in the 1950s. A widely used way to sort these costs has four buckets:"
+      ],
+      "list": [
+        "**Prevention:** training, better tools, design fixes",
+        "**Appraisal:** inspections and tests",
+        "**Internal failure:** scrap and rework before shipping",
+        "**External failure:** returns, refunds, complaints, lost reorders"
+      ],
+      "callout": "The last bucket is often the biggest and the hardest to see.",
+      "softwareNote": "Prevention is code review and automated tests. Internal failure is a bug found before release. External failure is the bug users hit: support tickets, refunds, churn and engineers pulled off planned work."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Why late defects cost so much.",
+      "body": [
+        "Every step a bad part passes through adds work to something that will be scrapped or redone. Paint, packing and freight are all spent on a part nobody can use.",
+        "Once it leaves your building, the cost spills into other people's time: your customer's staff sorting stock, your team on the phone, a rush truck. Then come costs no report records, like the reorder that quietly goes to a competitor."
+      ],
+      "image": {
+        "label": "Iceberg: scrap above water, failure costs below",
+        "aspectRatio": "16:9",
+        "brief": "빙산 인포그래픽. 수면 위 작은 부분에 \"Scrap\". 수면 아래 큰 부분에 위에서부터 \"Rework\", \"Rush freight\", \"Customer sorting\", \"Staff time\", 맨 아래 가장 크게 \"Lost reorders\". 깔끔한 플랫 스타일.",
+        "url": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Moving the money",
+      "title": "Spend earlier, spend less.",
+      "illustrative": true,
+      "body": [
+        "Suppose a $2,000-a-month sensor at the machine catches 20 of the 30 parts that used to escape. Those 20 now cost $4 each instead of $400.",
+        "Savings: 20 × $396 = **$7,920** a month, against $2,000 spent. Prevention shows up as a new line on the budget. Often it is cheaper than the failure it replaces, which never had its own line."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Not every flaw is worth preventing.",
+      "body": [
+        "Prevention and checks cost money too. Past a point, each extra check catches fewer problems than it costs, and it slows the work.",
+        "Focus on defects customers notice or that are expensive to fix late. A scratch on a hidden surface may not deserve a $2,000 sensor. And treat your estimates as rough: the goal is to see where the money goes, not to get the number exact."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software company.",
+      "illustrative": true,
+      "body": [
+        "Your team ships updates weekly. Last month, three bugs in the payment page reached users. Each meant refunds, a flood of support tickets and engineers dropping planned work to patch it.",
+        "Your lead wants to cut testing time to ship features faster. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Ship faster and fix bugs as users report them",
+            "verdict": "risky",
+            "feedback": "You gain speed on paper, but every bug becomes an external failure: refunds, tickets and lost trust. Patching later also eats the time you saved."
+          },
+          {
+            "key": "B",
+            "text": "Add automated tests and a review step for the payment code",
+            "verdict": "best",
+            "feedback": "This puts money into prevention where failures cost the most. A few releases slow down slightly to avoid the most expensive kind of bug."
+          },
+          {
+            "key": "C",
+            "text": "Hire more support staff to handle bug reports faster",
+            "verdict": "partial",
+            "feedback": "This softens the damage for users, but it spends more on failure instead of reducing it. The bugs keep coming."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A defect's cost depends on where it's caught.",
+      "body": [
+        "The scrap report shows the cheapest defects. The expensive ones are those your customers find.",
+        "**Try it today:** pick one recent mistake that reached a customer. List every cost it caused, from refunds to staff hours. Then ask where it could have been caught earlier."
+      ],
+      "next": "Next · Why experts still use checklists"
+    }
+  ]
+}

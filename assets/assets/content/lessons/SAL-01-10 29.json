@@ -1,0 +1,261 @@
+{
+  "id": "SAL-01-10",
+  "unitId": "SAL-01",
+  "categoryId": "SAL",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Run a discovery call",
+  "readerTitle": "The caterer who asked one more question",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.1,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션: 케이터링 업체 대표가 대기업 지역 운영팀 담당자와 탐색 통화를 진행 · 모든 인물과 수치는 설명용",
+  "insight": "탐색 통화의 목적은 견적을 묻는 질문에 답하는 것이 아니라, 그 질문 뒤에 있는 진짜 문제와 결정 구조를 찾는 것이다.",
+  "misconception": "고객이 가격과 수량을 이미 정해서 물어보면, 빨리 견적을 보내는 것이 가장 좋은 응대다.",
+  "relatedLessonIds": [
+    "SAL-01-05",
+    "SAL-01-04"
+  ],
+  "sources": [
+    {
+      "text": "영업의 표준 개념 (탐색 질문, 의사결정자 확인, 다음 단계 합의)",
+      "url": null
+    },
+    {
+      "text": "모든 인물과 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 인물, 회사, 수치는 가상입니다. 계산 확인: 80명 × $20 = $1,600, 80명 × $24 = $1,920, 차이 $320.",
+      "status": "open"
+    },
+    {
+      "note": "이 레슨은 시뮬레이션이라 새 개념을 가르치기보다 유닛 개념(돕는 영업, 자격 확인, 탐색, 클로징)을 연결합니다. 테이크어웨이의 개념 매핑이 SAL-01 형제 레슨의 정의와 맞는지 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Selling · Simulation",
+      "title": "The caterer who asked one more question",
+      "illustrative": true,
+      "body": [
+        "Maya runs a small catering business. An email arrives from Daniel, an operations lead at a regional office of a large logistics company.",
+        "\"Need a quote for lunch for 80 people next month. Can you do $20 a head?\"",
+        "She has a 20-minute call with him tomorrow. You're Maya. Each choice you make shapes what happens next."
+      ],
+      "image": {
+        "label": "A caterer at a kitchen counter reading an email on her phone",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 일러스트. 케이터링 주방 카운터에서 앞치마를 두른 여성이 휴대폰 이메일을 읽고 있음. 화면에 \"Lunch for 80 · $20 a head?\" 문구. 뒤로 쟁반과 보온 용기. 실제 브랜드 로고 없음.",
+        "url": "assets/images/sal-01-10-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 4",
+      "title": "How do you open the call?",
+      "illustrative": true,
+      "body": [
+        "Daniel picks up and says, \"Thanks for making time. So, what can you do for 80 people?\""
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Walk him through your three lunch menus and their prices",
+            "verdict": "risky",
+            "feedback": "He gets clear options fast, but you're now competing on menus and price before you know what he needs. Most caterers can match a menu."
+          },
+          {
+            "key": "B",
+            "text": "Ask what the lunch is for, and what would make it a great day for him",
+            "verdict": "best",
+            "feedback": "You give up a quick answer for context. He starts telling you things the email never said."
+          },
+          {
+            "key": "C",
+            "text": "Confirm the date, headcount and budget, then promise a quote by tonight",
+            "verdict": "partial",
+            "feedback": "Efficient and polite. But these facts were already in the email, so you learn almost nothing new."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 4",
+      "title": "Say you chose B. Daniel opens up.",
+      "illustrative": true,
+      "body": [
+        "\"It's our quarterly all-hands. Last time the caterer showed up 40 minutes late and the food ran out. My VP noticed.\"",
+        "What do you do next?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Reassure him: \"That won't happen with us,\" and offer 10% off",
+            "verdict": "risky",
+            "feedback": "It sounds kind, but a promise and a discount don't fix his worry. You've cut your price before learning what he values."
+          },
+          {
+            "key": "B",
+            "text": "Ask what happened that day, what it cost him, and what has to go right this time",
+            "verdict": "best",
+            "feedback": "He explains: food must be set up by 11:30, nobody can go hungry, and he needs to look good to his VP. Now you know the real job."
+          },
+          {
+            "key": "C",
+            "text": "Note it and move on to dietary needs",
+            "verdict": "partial",
+            "feedback": "Dietary needs matter, but you skipped past the biggest clue in the call. His fear is the thing he's really buying a fix for."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 4",
+      "title": "Say you chose B. Then the budget comes up.",
+      "illustrative": true,
+      "body": [
+        "\"Honestly, $20 a head is my limit.\" Running on time with extra food would cost you about $24 a head."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Agree to $20 and quietly trim portions to make it work",
+            "verdict": "risky",
+            "feedback": "You win the order but risk the exact failure he fears: food running out. One bad lunch could cost you every future order."
+          },
+          {
+            "key": "B",
+            "text": "Ask where the $20 came from and who else signs off",
+            "verdict": "best",
+            "feedback": "You learn finance copied the last caterer's price, and his VP approves anything over budget. The limit isn't fixed; it's a guess."
+          },
+          {
+            "key": "C",
+            "text": "Hold at $24 and explain that quality costs more",
+            "verdict": "partial",
+            "feedback": "You protect your margin, but he has no story to take to his VP. A fair price still needs a reason the buyer can repeat."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 4 of 4",
+      "title": "Say you chose B. Five minutes left.",
+      "illustrative": true,
+      "body": [
+        "Daniel says, \"This is helpful. Send me something?\""
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "\"Sure, I'll email a quote. Let me know what you think.\"",
+            "verdict": "risky",
+            "feedback": "Easy for both of you. But your quote now waits in his inbox next to cheaper ones, with no date and no VP in the loop."
+          },
+          {
+            "key": "B",
+            "text": "Sum up what you heard, then agree on a two-option proposal by Thursday and a short call with his VP's input on Friday",
+            "verdict": "best",
+            "feedback": "He hears his own problem back, which builds trust. And the deal now has a date, a next step and the real decision-maker."
+          },
+          {
+            "key": "C",
+            "text": "Ask him to confirm the booking today to hold the date",
+            "verdict": "partial",
+            "feedback": "Direct, and sometimes right. Here he can't approve $24 alone, so pushing now forces a \"no\" or a cheaper choice."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "breakdown",
+      "eyebrow": "What the call uncovered",
+      "title": "Same customer. Very different picture.",
+      "illustrative": true,
+      "body": [
+        "Maya sends two options: a $20 core lunch ($1,600), and a **$24 \"on-time\" lunch** with staff on site from 11:00 and extra food ($1,920). Daniel shows his VP the second one. The extra $320 now reads as insurance, not a markup."
+      ],
+      "breakdown": [
+        {
+          "value": "Lunch for 80",
+          "label": "What the email said",
+          "detail": "A quantity and a date",
+          "highlight": false
+        },
+        {
+          "value": "No repeat of last time",
+          "label": "The real need",
+          "detail": "On time, nobody hungry",
+          "highlight": true
+        },
+        {
+          "value": "$20 was a guess",
+          "label": "The budget",
+          "detail": "Copied from the last caterer",
+          "highlight": false
+        },
+        {
+          "value": "The VP",
+          "label": "Who decides",
+          "detail": "Approves anything over budget",
+          "highlight": true
+        }
+      ],
+      "softwareNote": "A software trial user who emails \"How much for 80 seats?\" works the same way. Ask what the tool replaces and what went wrong before. Find out who approves the spend before you send the price."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Questions can help or annoy.",
+      "body": [
+        "Discovery works because the customer gets something too: a clearer plan and a seller who understands them. A list of scripted questions with no listening feels like an interview.",
+        "Match the depth to the deal. A regular customer reordering the same lunch just wants the price. And never use what you learn to pressure someone. Daniel trusted Maya with his worry. Using it to upsell him a plan he didn't need would end that trust."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "The email tells you what they asked. The call tells you what they need.",
+      "body": [
+        "Each choice in this call used an idea from this unit:"
+      ],
+      "list": [
+        "**Opening with his goal:** selling is helping",
+        "**Digging into last time:** discovery",
+        "**Asking where $20 came from and who signs:** qualifying",
+        "**Ending with a dated next step:** closing"
+      ],
+      "callout": "**Try it today:** before your next sales call, write one question about the customer's goal and one about who else decides.",
+      "next": "Next · Selling Basics continues at level 2"
+    }
+  ]
+}

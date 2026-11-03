@@ -1,0 +1,215 @@
+{
+  "id": "PPL-09-02",
+  "unitId": "PPL-09",
+  "categoryId": "PPL",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "Centralize or decentralize",
+  "readerTitle": "The bank where the branch decides",
+  "format": "company_story",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (스웨덴 Handelsbanken의 분권화) + 가상 적용 (B2B 컨설팅 회사, 소프트웨어 회사 안의 디자인 팀)",
+  "insight": "집중이냐 분권이냐는 회사 전체를 두고 한 번 정하는 문제가 아니다. 결정 하나하나마다 '정보가 어디에 있는가'와 '실수의 비용이 다른 곳에 번지는가'를 물어 결정 권한을 둘 자리를 정한다.",
+  "misconception": "사고가 나면 본사가 모든 결정을 승인하게 하는 것이 안전하다. 반대로 자율을 주려면 모든 것을 현장에 맡겨야 한다.",
+  "relatedLessonIds": [
+    "PPL-09-01",
+    "PPL-09-04"
+  ],
+  "sources": [
+    {
+      "text": "Wallander, J. (2003). Decentralisation: Why and How to Make It Work. The Handelsbanken Way. SNS Förlag.",
+      "url": null
+    },
+    {
+      "text": "Hope, J. & Fraser, R. (2003). Beyond Budgeting. Harvard Business School Press (Handelsbanken 사례).",
+      "url": null
+    },
+    {
+      "text": "Svenska Handelsbanken, annual reports (decentralised, branch-based way of working)",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Jan Wallander가 1970년 무렵 위기 상황에서 CEO가 되어 지점 중심 분권화를 도입하고 전통적 예산을 없앴다는 내용을 Wallander(2003)와 Handelsbanken 자료로 확인하세요. 카드에는 연도를 'around 1970'으로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "현재도 Handelsbanken이 전통적 예산 없이 운영하는지, 지점장이 지역 고객 대출을 결정하는지 최신 연차보고서로 확인하세요. 카드에는 성과 수치나 '몇 년 연속' 같은 주장을 넣지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "큰 대출은 지점 한도를 넘으면 지역·본사 신용위원회로 올라가고, 리스크 규칙과 IT는 중앙에서 관리한다는 설명이 정확한지 확인하세요. 카드 6에서는 일반적 표현으로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "컨설팅 회사와 소프트웨어 회사 디자인 팀 사례는 설명용 가상 사례입니다. 수치는 없습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "People · Company story",
+      "title": "The bank where the branch decides",
+      "body": [
+        "At Handelsbanken, one of Sweden's largest banks, a local branch manager can decide whether to lend to the bakery down the street. Head office doesn't sign off.",
+        "The bank built this way of working around 1970 and still describes itself in simple terms: *the branch is the bank*. Most banks went the other way."
+      ],
+      "image": {
+        "label": "A small bank branch with decision arrows pointing inward, not up to a tower",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 작은 동네 은행 지점 안에서 지점장과 동네 빵집 주인이 악수. 멀리 본사 빌딩이 있지만 화살표는 본사로 올라가지 않고 지점 안에서 끝남. 실제 은행 로고·간판 사용 금지.",
+        "url": "assets/images/ppl-09-02-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "One office signed a bad deal.",
+      "illustrative": true,
+      "body": [
+        "You run a consulting firm with offices in eight cities. Each office writes its own client proposals. Last quarter, one office priced a big contract so low that it lost money for a year.",
+        "Your finance lead wants a fix. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Every proposal must be approved by head office from now on",
+            "verdict": "risky",
+            "feedback": "You stop the next bad deal, but every small proposal now waits in a queue with people who don't know the client. Good offices lose speed to fix one office's mistake."
+          },
+          {
+            "key": "B",
+            "text": "Leave it alone. Offices know their clients best",
+            "verdict": "partial",
+            "feedback": "You keep speed and local knowledge, but nothing stops the same mistake from happening again, possibly bigger."
+          },
+          {
+            "key": "C",
+            "text": "Offices decide within a price floor and deal-size limit. Bigger deals go to head office",
+            "verdict": "best",
+            "feedback": "Most decisions stay close to the client, and only the rare deal that can hurt the whole firm goes up. That's the idea in this lesson."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "How it started",
+      "title": "A crisis that moved decisions down.",
+      "body": [
+        "Around 1970, Handelsbanken was in trouble. Its new CEO, Jan Wallander, concluded that head office was too far from customers to make good lending calls.",
+        "He pushed decisions to the branches and dropped traditional budgets. A branch manager meets the customer, knows the local economy, and sees early when a business starts to struggle.",
+        "His bet: the person with the best information should make the decision, as long as they also live with the result."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Centralize or decentralize",
+      "body": [
+        "**Centralizing** means decisions are made in one place, usually the top or a central team. **Decentralizing** means they're made close to the work: in offices, branches or teams.",
+        "Centralizing buys consistency, control and scale. Decentralizing buys speed, local knowledge and ownership. You can't max out both, so the real question is *which* decisions go where."
+      ],
+      "image": {
+        "label": "A balance scale: control and scale on one side, speed and local knowledge on the other",
+        "aspectRatio": "16:9",
+        "brief": "저울 인포그래픽. 왼쪽 접시 \"Centralize: consistency, control, scale\", 오른쪽 접시 \"Decentralize: speed, local knowledge, ownership\". 가운데 받침에 \"Which decision?\" 라벨.",
+        "url": "assets/images/ppl-09-02-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Two questions for every decision.",
+      "body": [
+        "Instead of picking a side for the whole company, ask two things about each decision:"
+      ],
+      "list": [
+        "**Where is the information?** If it lives with the customer or the local team, push the decision there.",
+        "**Does a mistake spill over?** If one bad call can hurt everyone, or the decision needs one standard or bulk buying, keep it central."
+      ],
+      "callout": "Local knowledge and small spillover: decentralize. Shared risk or scale: centralize."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Wider view",
+      "title": "Even the decentralized bank keeps some things central.",
+      "body": [
+        "Handelsbanken's branches decide on everyday local lending. But loans above a branch's limit go up to regional or central credit committees, and risk rules and IT are run centrally. A large bad loan, or a security hole, would hurt the whole bank.",
+        "The same split works elsewhere. A restaurant group might set the menu and buy ingredients centrally, while each manager decides staffing and shifts, because that depends on the neighborhood and the weather."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Each side has a hidden cost.",
+      "body": [
+        "Decentralizing only works with capable local people, clear limits and honest numbers on how each unit performs. Without them, you get duplicated work, uneven quality and quiet risk-taking.",
+        "Centralizing fails more quietly. Decisions slow down, the center loses touch with customers, and good local people stop thinking for themselves.",
+        "Many companies swing back and forth after each problem. Fixing the specific decision usually beats flipping the whole structure."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a design team inside a software company.",
+      "illustrative": true,
+      "body": [
+        "Your software company has five product teams. Each hired its own designer. Users now see five different button styles and three shades of the brand color. The CEO asks you to fix it."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Move all designers into one central team that takes requests from product teams",
+            "verdict": "partial",
+            "feedback": "Consistency improves fast, but designers lose daily contact with users and engineers, and product teams wait in a queue for every screen."
+          },
+          {
+            "key": "B",
+            "text": "Keep designers in product teams, but create one shared design system that a small central group owns",
+            "verdict": "best",
+            "feedback": "The decision that spills over, how the brand looks, goes central. The decisions that need user knowledge stay with each team."
+          },
+          {
+            "key": "C",
+            "text": "Leave it. Each team knows its users best",
+            "verdict": "risky",
+            "feedback": "Teams keep their speed, but users experience one product, not five. The inconsistency grows with every new screen."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Put each decision where the information is, unless a mistake hurts everyone.",
+      "body": [
+        "Centralize what needs one standard, scale or tight risk control. Decentralize what depends on knowing the customer.",
+        "**Try it today:** list five decisions your team makes often. For each, write who has the best information and who pays if it goes wrong. Is the decision sitting with the right person?"
+      ],
+      "next": "Next · How many people should one manager lead?"
+    }
+  ]
+}

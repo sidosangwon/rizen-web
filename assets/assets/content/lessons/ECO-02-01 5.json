@@ -1,0 +1,243 @@
+{
+  "id": "ECO-02-01",
+  "unitId": "ECO-02",
+  "categoryId": "ECO",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Fixed vs variable costs",
+  "readerTitle": "The rent is due even when nobody comes in",
+  "format": "numbers_twist",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (철물점 원예 코너, 가구 공방) · 모든 수치는 설명용",
+  "insight": "비용을 볼 때는 '얼마인가'보다 '이 결정을 하면 실제로 사라지는가'를 먼저 묻는다. 고정비와 변동비는 결정과 기간에 따라 나뉜다.",
+  "misconception": "보고서에서 적자인 부문을 닫거나 '원가'보다 싼 외주를 쓰면 그만큼 이익이 늘어난다.",
+  "relatedLessonIds": [
+    "ECO-02-02",
+    "ECO-02-06"
+  ],
+  "sources": [
+    {
+      "text": "관리회계의 표준 개념 (고정비·변동비 구분, 회피 가능 원가, 제조·구매 결정)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "원예 코너 계산: 매출 $6,000 − 상품 $3,600 − 시간제 인력 $1,000 = $1,400. 배분된 임대료·매니저 급여 $2,200을 빼면 −$800(보고서상 적자). 코너를 닫아도 $2,200은 남으므로 매장 전체 이익은 $1,400 감소.",
+      "status": "open"
+    },
+    {
+      "note": "가구 공방 계산: 목재·부품 $40 + 시간제 조립 인건비 $25 = 회피 가능 원가 $65. 배분된 임대료·기계 $35를 더하면 보고서상 원가 $100. 외주가 $80 − $65 = 프레임당 $15 더 비쌈(임대료와 기계 비용이 그대로 남는다는 가정).",
+      "status": "open"
+    },
+    {
+      "note": "고정비·변동비 구분 예시(임대료, 보험, 급여제 매니저 = 고정 / 재고, 포장, 카드 수수료, 물량에 맞춘 시간제 인력 = 변동)는 일반적 분류이며, 계약 조건에 따라 달라질 수 있음을 카드에 밝혔습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Economics · Numbers twist",
+      "title": "The rent is due even when nobody comes in",
+      "illustrative": true,
+      "body": [
+        "Your hardware store's monthly report says the garden corner loses $800 a month.",
+        "Closing it looks like an easy way to earn $800 more. Before you do, follow where the money actually goes."
+      ],
+      "image": {
+        "label": "Zero sales today. Rent is still due.",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 작은 철물점 안쪽의 원예 코너(화분, 흙 포대, 물뿌리개). 코너 위에 빨간 \"−$800\" 표지판. 매장 천장 위로 \"Rent\"라고 적힌 큰 지붕이 매장 전체를 덮고 있음. 실제 브랜드 로고 없음.",
+        "url": "assets/images/eco-02-01-hook.png"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Close the garden corner?",
+      "illustrative": true,
+      "body": [
+        "The corner sells $6,000 a month. Plants and supplies cost $3,600. Part-time staff hours for it cost $1,000. The report also gives it $2,200 as its share of rent and the manager's salary. Result: −$800.",
+        "Your lease and manager stay either way. If you close the corner, what happens to the store's total profit?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "It rises by about $800",
+            "verdict": "risky",
+            "feedback": "That only works if the $2,200 of rent and salary disappears with the corner. It doesn't, so the other sections would have to carry it."
+          },
+          {
+            "key": "B",
+            "text": "It falls by about $1,400",
+            "verdict": "best",
+            "feedback": "Right. The corner leaves $1,400 after its own costs, and that money was helping pay the rent. Close it and the $1,400 is gone, but the rent isn't."
+          },
+          {
+            "key": "C",
+            "text": "It stays about the same",
+            "verdict": "partial",
+            "feedback": "Good instinct that the report's loss isn't real savings. But the corner was adding money, not breaking even, so closing it costs you."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Split the costs that leave from the ones that stay.",
+      "illustrative": true,
+      "body": [
+        "The −$800 is real on paper. But **$2,200 of it stays** whether the corner exists or not. What closing actually removes is the $1,400 the corner brings in."
+      ],
+      "breakdown": [
+        {
+          "value": "$6,000",
+          "label": "Sales",
+          "detail": "What customers pay each month",
+          "highlight": false
+        },
+        {
+          "value": "−$3,600",
+          "label": "Plants and supplies",
+          "detail": "Goes away if you close",
+          "highlight": false
+        },
+        {
+          "value": "−$1,000",
+          "label": "Part-time staff hours",
+          "detail": "Goes away if you close",
+          "highlight": false
+        },
+        {
+          "value": "$1,400",
+          "label": "Left over",
+          "detail": "Lost if you close",
+          "highlight": true
+        },
+        {
+          "value": "−$2,200",
+          "label": "Share of rent and manager",
+          "detail": "Stays if you close",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Fixed vs variable costs",
+      "body": [
+        "**Fixed costs** stay the same no matter how much you sell in a period: rent, insurance, a salaried manager, loan payments.",
+        "**Variable costs** rise and fall with each sale or each unit you make: stock, materials, packaging, card fees, hourly staff booked to match demand.",
+        "Reports often spread fixed costs across products to show a full \"cost.\" That is useful for pricing, but it hides which costs a decision can actually change."
+      ],
+      "softwareNote": "Servers, payment fees and support per customer are mostly variable. Engineering salaries are mostly fixed. Cutting a little-used feature saves little unless the team shrinks or moves to other work."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How to sort",
+      "title": "One question sorts most costs.",
+      "body": [
+        "Ask: *If I sold nothing next month, would I still pay this?*"
+      ],
+      "list": [
+        "**Yes, in full:** fixed. Rent, insurance, software subscriptions, salaried staff.",
+        "**No:** variable. Stock, materials, shipping, sales commissions.",
+        "**Partly:** mixed. Electricity, a delivery van, staff with a minimum number of hours. Split these into the part that stays and the part that moves."
+      ],
+      "callout": "Mixed costs are common. Splitting them roughly is better than calling them all one thing."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "A second twist",
+      "title": "\"Fixed\" depends on the time window.",
+      "body": [
+        "This month, your rent is fixed. When the lease is up for renewal, it becomes a choice. A smaller shop or a sublet could make it shrink.",
+        "The same goes for salaries, machines and contracts. Over a week, almost everything is fixed. Over five years, almost everything can change.",
+        "So the useful question is not \"Is this cost fixed?\" but **\"Is it fixed for this decision, over this period?\"**"
+      ],
+      "image": {
+        "label": "Timeline where costs turn from locked to unlocked",
+        "aspectRatio": "4:3",
+        "brief": "가로 타임라인 인포그래픽. 왼쪽 \"This month\"에는 \"Rent\", \"Manager\", \"Machines\" 아이콘에 자물쇠가 잠겨 있고, 오른쪽 \"Lease renewal\", \"Next year\"로 갈수록 자물쇠가 하나씩 열림. 깔끔한 플랫 일러스트.",
+        "url": "assets/images/eco-02-01-timeline.png"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Fixed costs still have to be paid.",
+      "body": [
+        "Ignoring fixed costs for one decision doesn't make them free. Across the whole business, sales must cover them, or you lose money every month.",
+        "Space has value too. If a better product or a paying tenant could use the garden corner, its $1,400 must be compared with that option, not with zero.",
+        "And if closing the corner lets you move to a smaller store, part of the rent becomes a cost you can avoid."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a furniture workshop.",
+      "illustrative": true,
+      "body": [
+        "Your report says each chair frame costs $100: wood and hardware $40, hourly assembly labor $25, and $35 as its share of the workshop lease and machines.",
+        "A supplier offers to make the frames for $80 each. Your lease and machines would stay. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Accept. It saves $20 per frame",
+            "verdict": "risky",
+            "feedback": "Only $65 per frame goes away when you stop making them. Paying $80 instead costs $15 more per frame, and the lease is still due."
+          },
+          {
+            "key": "B",
+            "text": "Decline for now, unless the freed space and machines can earn money elsewhere",
+            "verdict": "best",
+            "feedback": "You keep the cheaper option today. If the space could take on more profitable work or the lease could shrink, the math changes and outsourcing may win."
+          },
+          {
+            "key": "C",
+            "text": "Accept for half the frames to test the supplier",
+            "verdict": "partial",
+            "feedback": "Testing a backup supplier has real value. But each outsourced frame still costs $15 more, so treat it as the price of the test."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Before you cut, ask which costs actually go away.",
+      "body": [
+        "A cost per unit mixes costs that leave with the decision and costs that stay. Only the ones that leave belong in the comparison.",
+        "**Try it today:** list your ten biggest monthly costs. Next to each, write F, V or M (mixed) using one question: would I still pay this if I sold nothing next month?"
+      ],
+      "next": "Next · What does one more unit really cost?"
+    }
+  ]
+}

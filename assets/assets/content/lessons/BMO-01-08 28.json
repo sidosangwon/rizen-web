@@ -1,0 +1,268 @@
+{
+  "id": "BMO-01-08",
+  "unitId": "BMO-01",
+  "categoryId": "BMO",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "Draw the business model of a newspaper",
+  "readerTitle": "Who really paid for the newspaper on the café table?",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "real_observation",
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 관찰 (인쇄 신문 산업의 수익·비용 구조 변화) + 실제 기업 (The New York Times) + 가상 적용 (지역 신문, 레시피 앱)",
+  "insight": "인쇄 신문은 독자에게 뉴스를 판 사업이라기보다 광고주에게 독자의 주의를 판 사업이었다. 비즈니스 모델을 그릴 때는 지불자에게 더 싼 대안이 생기면 어느 칸이 무너지는지도 함께 본다.",
+  "misconception": "신문은 독자가 내는 구독료로 운영된다. 온라인으로 옮기면 인쇄비가 사라지니 사업이 더 좋아진다.",
+  "relatedLessonIds": [
+    "BMO-01-02",
+    "BMO-01-04"
+  ],
+  "sources": [
+    {
+      "text": "Pew Research Center, State of the News Media (미국 신문 광고·발행 부수 추이)",
+      "url": null
+    },
+    {
+      "text": "The New York Times Company, annual reports (구독 매출과 광고 매출 비교)",
+      "url": null
+    },
+    {
+      "text": "지역 신문과 레시피 앱 사례는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "\"인쇄 시대의 많은 대도시 신문은 매출 대부분을 광고에서 얻었다\"는 Pew 등 업계 자료로 다시 확인하세요. 정확한 비율은 신문·연도마다 달라 카드에는 숫자를 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "안내 광고(구인·자동차·부동산)가 무료 또는 저가 웹사이트로 옮겨 갔고, 온라인 디스플레이 광고가 독자당 인쇄 광고보다 훨씬 싸게 팔렸다는 서술을 업계 자료로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "The New York Times가 현재 광고보다 구독에서 더 많은 매출을 낸다는 내용은 최신 연간 보고서로 게시 직전에 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "뉴스룸 비용은 부수와 관계없이 대체로 고정, 종이·잉크·인쇄·배달은 부수에 따라 변한다는 구분은 단순화한 설명입니다. 인쇄 설비와 장기 인쇄 계약은 단기적으로 고정비처럼 움직일 수 있어 7번 카드 피드백에 반영했습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business models · Everyday scene",
+      "title": "Who really paid for the newspaper on the café table?",
+      "body": [
+        "Someone left a newspaper by the window of a café. You read it with your coffee and paid nothing for it. The café paid a small price for the copy.",
+        "Yet reporters, editors, a printing press and a fleet of delivery vans made it. Let's draw the business model behind it, using three tools from this unit."
+      ],
+      "image": {
+        "label": "A folded newspaper beside a coffee cup on a café table",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 아침 햇살이 드는 카페 창가 테이블. 접힌 신문과 라테 한 잔. 신문 뒤로 희미하게 기자, 인쇄기, 배달 트럭이 겹쳐 보이는 일러스트. 실제 신문 제호나 로고는 쓰지 않음.",
+        "url": "assets/images/bmo-01-08-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Who paid most of the bill?",
+      "body": [
+        "Picture a typical big-city printed newspaper in the 1990s. Reporters, paper, ink, printing, delivery.",
+        "Which group paid for most of it?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Readers, through subscriptions and the cover price",
+            "verdict": "partial",
+            "feedback": "Readers did pay, and their money mattered. But many print papers earned most of their revenue elsewhere. This is **who uses vs who pays**: the reader was the user, not the main payer."
+          },
+          {
+            "key": "B",
+            "text": "Advertisers, including people placing small classified ads",
+            "verdict": "best",
+            "feedback": "Right. Readers used the paper, and advertisers paid much of the bill to reach them. **Who uses vs who pays** splits these two roles apart."
+          },
+          {
+            "key": "C",
+            "text": "Cafés, hotels and offices that buy copies for others",
+            "verdict": "risky",
+            "feedback": "The café is just another buyer paying the cover price, like a reader. Bulk buyers add copies, but they were never the main source of money."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "Step 1 · Users and payers",
+      "title": "The paper sold the same pages twice.",
+      "body": [
+        "Draw two boxes. **Readers** get news. **Advertisers** get those readers' attention.",
+        "The paper sold its pages once to readers for a small price, then again to advertisers as a way to reach those readers. That's why papers tracked how many copies they sold so carefully. More readers meant advertisers would pay more."
+      ],
+      "image": {
+        "label": "Diagram: newspaper in the middle, readers on one side, advertisers on the other",
+        "aspectRatio": "16:9",
+        "brief": "가운데 신문 아이콘. 왼쪽 \"Readers\"로 뉴스 화살표가 가고 작은 동전 화살표가 돌아옴. 오른쪽 \"Advertisers\"로 \"Attention\" 화살표가 가고 큰 동전 화살표가 돌아옴. 동전 크기 차이로 누가 더 많이 내는지 표현. 숫자는 넣지 않음.",
+        "url": "assets/images/bmo-01-08-c3.jpg"
+      }
+    },
+    {
+      "index": 4,
+      "type": "breakdown",
+      "eyebrow": "Step 2 · Revenue streams",
+      "title": "List every way money came in.",
+      "breakdown": [
+        {
+          "value": "Readers",
+          "label": "Subscriptions",
+          "detail": "Paid ahead for daily delivery",
+          "highlight": false
+        },
+        {
+          "value": "Readers",
+          "label": "Single copies",
+          "detail": "Newsstands, shops, cafés",
+          "highlight": false
+        },
+        {
+          "value": "Businesses",
+          "label": "Display ads",
+          "detail": "Stores, car dealers, brands",
+          "highlight": false
+        },
+        {
+          "value": "Everyone",
+          "label": "Classified ads",
+          "detail": "Jobs, cars, homes for sale",
+          "highlight": true
+        }
+      ],
+      "callout": "Two streams came from readers, two from advertisers. Classifieds turned out to be the weak point."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Step 3 · Cost structure",
+      "title": "Two piles of cost.",
+      "body": [
+        "The **newsroom** of reporters, editors and photographers costs about the same whether the paper prints 10,000 copies or 100,000.",
+        "Paper, ink, printing and delivery grow with every copy.",
+        "So a bigger circulation spread the newsroom across more readers and raised what advertisers would pay. Scale rewarded the biggest paper in town."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "What changed",
+      "title": "The readers stayed. Many payers left.",
+      "body": [
+        "The internet hit the payer side. Classified ads moved to free or cheap websites. Online display ads sold for far less per reader than print ads did.",
+        "Going online removed printing and delivery costs, but the newsroom pile stayed. Some papers moved the bill back to readers. The New York Times, for example, now earns more from subscriptions than from advertising."
+      ],
+      "softwareNote": "A free app funded by ads has the same picture: users read, advertisers pay, and the engineers are the newsroom, a cost that doesn't shrink when ad prices fall."
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Your call · cost structure",
+      "title": "Half the print readers are gone.",
+      "illustrative": true,
+      "body": [
+        "A local paper's print circulation falls by half over a few years. The owner asks which costs will shrink on their own, without anyone deciding to cut them."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Paper, ink, printing and delivery",
+            "verdict": "best",
+            "feedback": "These grow and shrink with copies. **Cost structure** tells you that the rest, mostly the newsroom, stays put unless someone cuts it."
+          },
+          {
+            "key": "B",
+            "text": "Newsroom salaries",
+            "verdict": "risky",
+            "feedback": "The newsroom costs the same for fewer readers. Cutting it saves money but weakens the thing readers and advertisers came for."
+          },
+          {
+            "key": "C",
+            "text": "Almost nothing, because printing contracts are fixed",
+            "verdict": "partial",
+            "feedback": "Long contracts and the press itself can delay savings. But paper, ink and delivery still fall with each copy not printed."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A drawing is a snapshot.",
+      "body": [
+        "The print model was drawn correctly for decades. It didn't break because anyone misread it. It broke because advertisers found cheaper ways to reach the same people.",
+        "When you draw a model, add one question to each box: what happens if this group gets a better alternative? The box that depends on others having no choice is usually the riskiest."
+      ]
+    },
+    {
+      "index": 9,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a free recipe app.",
+      "illustrative": true,
+      "body": [
+        "Your recipe app is free and funded by ads. A team of five builds it. Usage is steady, but ad income per user keeps falling.",
+        "What's the strongest move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Show more ads on every recipe page",
+            "verdict": "risky",
+            "feedback": "It squeezes the same payer harder. Short-term income may rise, but users may leave, and advertisers pay for users."
+          },
+          {
+            "key": "B",
+            "text": "Keep a free version and add a paid plan for heavy cooks",
+            "verdict": "best",
+            "feedback": "This adds a revenue stream from users themselves. It changes **who pays** so you rely less on one group."
+          },
+          {
+            "key": "C",
+            "text": "Cut the team to three people",
+            "verdict": "partial",
+            "feedback": "It reduces a fixed cost, as cost structure suggests, but slower updates can shrink the audience both payers care about."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 10,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Draw who uses, who pays, and what each costs.",
+      "body": [
+        "You used three tools: **who uses vs who pays**, revenue streams, and cost structure. Together they showed why the newspaper thrived and where it was exposed.",
+        "**Try it today:** draw your business in three boxes: users, payers, and costs that do or don't grow with sales. Then ask which payer has the most attractive alternative."
+      ],
+      "next": "Next · Is McDonald's really a burger company?"
+    }
+  ]
+}

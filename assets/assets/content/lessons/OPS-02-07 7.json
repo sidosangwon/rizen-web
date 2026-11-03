@@ -1,0 +1,265 @@
+{
+  "id": "OPS-02-07",
+  "unitId": "OPS-02",
+  "categoryId": "OPS",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "A restaurant kitchen at rush hour",
+  "readerTitle": "Why the kitchen gets slower when everyone works harder",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.1,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (식당 주방, 배관 수리 업체, 소프트웨어 도입 컨설팅사) · 대기 시간 곡선은 표준 대기행렬 이론(M/M/1) 공식으로 계산한 상대값",
+  "insight": "러시아워 주방의 지연은 게으름이 아니라 큰 묶음과 여유 없는 가동률에서 나온다. 같은 두 가지 원리가 서비스 사업의 대기 시간도 결정한다.",
+  "misconception": "모두가 쉬지 않고 일하고 한 번에 많이 처리할수록 고객이 빨리 받는다.",
+  "relatedLessonIds": [
+    "OPS-02-03",
+    "OPS-02-05"
+  ],
+  "sources": [
+    {
+      "text": "표준 대기행렬 이론 (M/M/1 모델): 평균 대기 시간은 가동률 u에 대해 u/(1−u)에 비례",
+      "url": null
+    },
+    {
+      "text": "모든 사례와 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "차트 값은 u/(1−u)로 계산한 상대 대기 시간입니다. 50% → 0.5/0.5 = 1, 70% → 0.7/0.3 ≈ 2.3, 80% → 0.8/0.2 = 4, 90% → 0.9/0.1 = 9, 95% → 0.95/0.05 = 19. 단순 모델(무작위 도착, 단일 서버)이라는 점을 카드에 '단순 모델'로 밝혔습니다.",
+      "status": "open"
+    },
+    {
+      "note": "주방, 배관 업체, 컨설팅사 사례는 모두 가상입니다. 실제 업계 통계나 수치를 쓰지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Everyday scene",
+      "title": "Why the kitchen gets slower when everyone works harder",
+      "illustrative": true,
+      "body": [
+        "Friday, 7:30 pm. Every cook is moving fast. Nobody is standing still. Tickets hang in a long row above the pass.",
+        "Yet food is reaching tables more slowly than at 6 pm, when the kitchen felt half asleep. Two ideas from this unit explain why, and both apply far outside restaurants."
+      ],
+      "image": {
+        "label": "Busy kitchen line with a long row of order tickets",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 저녁 러시의 식당 주방. 요리사 세 명이 모두 바쁘게 움직이고, 주문 티켓이 길게 줄지어 걸려 있음. 벽시계는 7:30. 실제 브랜드나 로고 없음.",
+        "url": "assets/images/ops-02-07-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "The grill cook wants to save time.",
+      "illustrative": true,
+      "body": [
+        "Burger orders arrive every minute or two. Your grill cook suggests waiting until 12 orders pile up, then cooking them all at once. \"Fewer trips, less wasted motion.\"",
+        "What do you tell them?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Good idea. Cook in batches of 12",
+            "verdict": "risky",
+            "feedback": "You save a few steps, but the first table waits for eleven more orders before its burger even starts. That's **batch size** at work: big batches add waiting."
+          },
+          {
+            "key": "B",
+            "text": "Cook in small batches of two or three as orders arrive",
+            "verdict": "best",
+            "feedback": "Each table waits only for a couple of orders, and a mistake spoils three burgers, not twelve. Small batches keep food moving."
+          },
+          {
+            "key": "C",
+            "text": "Batch only during the rush, when it's busiest",
+            "verdict": "partial",
+            "feedback": "Tempting, but the rush is exactly when long waits hurt most. Big batches stretch the line at the worst moment."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What's going on",
+      "title": "Big batches make everyone wait for the last order.",
+      "illustrative": true,
+      "body": [
+        "In a batch of 12, the first burger sits on the board until the twelfth ticket arrives. Fries for that table go cold. The server hovers at the pass.",
+        "This is **batch size**, from earlier in the unit: the more you group work together, the longer each item waits for the others.",
+        "Batching feels efficient because the cook moves less. But the customer doesn't care about the cook's steps. They care about when their plate arrives."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "At 6 pm, one cook stands around.",
+      "illustrative": true,
+      "body": [
+        "Your owner notices that one of three line cooks is idle for long stretches early in the evening. She wants to cut that shift and keep the kitchen \"fully used.\"",
+        "What's your advice?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Cut the shift. Idle time is wasted wages",
+            "verdict": "risky",
+            "feedback": "You save one wage, but two cooks at near full load can't absorb a rush of tables. That's **the utilization trap**: the busier the line, the faster waits explode."
+          },
+          {
+            "key": "B",
+            "text": "Keep the cook. Give them prep work they can drop when tickets spike",
+            "verdict": "best",
+            "feedback": "You get useful work from quiet minutes and keep spare capacity for the rush. Slack that can switch over is the cheapest buffer."
+          },
+          {
+            "key": "C",
+            "text": "Keep the cook, but schedule prep so they're never idle",
+            "verdict": "partial",
+            "feedback": "Busy on paper, but if their prep can't wait, they're not free when the 7:30 rush hits. The spare capacity disappears."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "Waits don't grow evenly. They explode.",
+      "body": [
+        "In a simple model of a busy line, average waiting time rises slowly at first, then sharply as the line nears 100% busy.",
+        "Going from 80% to 95% busy doesn't add a little wait. It makes the wait almost **five times** longer."
+      ],
+      "chart": {
+        "unit": "count",
+        "groups": [
+          {
+            "label": "Relative wait time by how busy the line is",
+            "rows": [
+              {
+                "label": "50% busy",
+                "value": 1,
+                "highlight": false
+              },
+              {
+                "label": "70% busy",
+                "value": 2.3,
+                "highlight": false
+              },
+              {
+                "label": "80% busy",
+                "value": 4,
+                "highlight": false
+              },
+              {
+                "label": "90% busy",
+                "value": 9,
+                "highlight": false
+              },
+              {
+                "label": "95% busy",
+                "value": 19,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "callout": "That idle cook at 6 pm is what keeps 7:30 from falling apart.",
+      "image": {
+        "url": "assets/images/ops-02-07-info.png"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond the kitchen",
+      "title": "A plumber's Friday quotes.",
+      "illustrative": true,
+      "body": [
+        "A plumbing company writes all its job quotes on Friday afternoons. It feels tidy: one block of desk time a week.",
+        "But a customer who calls on Monday waits four days for a price. Many call a rival in the meantime. Switching to quotes within a day, a batch size of one, wins jobs the company was losing without noticing.",
+        "Same lesson as the grill: grouping work saves the business effort and costs the customer time."
+      ],
+      "image": {
+        "label": "Stack of quotes waiting until Friday versus quotes sent same day",
+        "aspectRatio": "16:9",
+        "brief": "좌우 비교 일러스트. 왼쪽: 달력의 금요일 칸에 견적서가 높이 쌓여 있고 고객들이 기다림. 오른쪽: 견적서가 매일 한 장씩 바로 고객에게 날아감. 실제 회사 로고 없음.",
+        "url": "assets/images/ops-02-07-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Small batches and slack both have costs.",
+      "body": [
+        "Some work has a real setup cost. Heating an oven for bread or setting up a machine can make larger batches sensible. Shrink batches where setup is cheap first.",
+        "Slack costs money too. You don't need spare capacity all day, only enough to handle the peaks. Flexible staff, cross-training and prep that can wait let you keep a buffer without paying for empty hours."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software implementation firm.",
+      "illustrative": true,
+      "body": [
+        "Your firm sets up business software for clients. All six consultants are booked 100%. New clients start together once a month. Launches keep slipping, and every urgent bug derails someone's week.",
+        "What do you change?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep everyone fully booked and add a waitlist for new clients",
+            "verdict": "risky",
+            "feedback": "Every billable hour is used, but at full load each surprise turns into a long delay. That's the utilization trap again."
+          },
+          {
+            "key": "B",
+            "text": "Leave about a fifth of hours unbooked and start new clients every week",
+            "verdict": "best",
+            "feedback": "Unbooked hours absorb urgent bugs, and weekly starts shrink the batch so no client waits up to a month. Both concepts at once."
+          },
+          {
+            "key": "C",
+            "text": "Start new clients weekly but keep everyone fully booked",
+            "verdict": "partial",
+            "feedback": "Smaller batches cut the wait to start, but with no slack, launches still slip whenever something breaks."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Fast service needs small batches and spare capacity.",
+      "body": [
+        "You used two ideas from this unit: **batch size**, because grouping work makes each item wait for the rest, and **the utilization trap**, because waits explode as a team nears 100% busy.",
+        "**Try it today:** find one task you save up and do in a batch. Ask what it would take to do it as it arrives."
+      ],
+      "next": "Next · A team with too much work in progress"
+    }
+  ]
+}

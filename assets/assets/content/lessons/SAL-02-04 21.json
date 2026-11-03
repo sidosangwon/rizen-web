@@ -1,0 +1,252 @@
+{
+  "id": "SAL-02-04",
+  "unitId": "SAL-02",
+  "categoryId": "SAL",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Many decision makers",
+  "readerTitle": "The buyer said yes. The deal still died.",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (물류 창고 장비 판매, 식당 POS, 협업 소프트웨어) + 실제 연구 (CEB/Gartner의 B2B 구매 그룹 연구)",
+  "insight": "큰 거래는 한 사람의 '예'로 끝나지 않는다. 거절할 수 있는 사람이 여럿이고, 그들은 각자 다른 이유가 있어야 '예'라고 한다.",
+  "misconception": "담당자가 마음에 들어 하면 거래는 거의 성사된 것이다. 결정권자 한 명만 설득하면 된다.",
+  "relatedLessonIds": [
+    "SAL-02-03",
+    "SAL-02-05"
+  ],
+  "sources": [
+    {
+      "text": "Schmidt, K., Adamson, B. & Bird, A. (2015). Making the Consensus Sale. Harvard Business Review, March 2015 (CEB 연구: 일반적인 B2B 구매에 공식적으로 관여하는 인원 평균 5.4명)",
+      "url": "https://hbr.org/2015/03/making-the-consensus-sale"
+    },
+    {
+      "text": "Gartner, The B2B Buying Journey (복잡한 B2B 솔루션 구매 그룹은 보통 6~10명의 의사결정자로 구성)",
+      "url": "https://www.gartner.com/en/sales/insights/b2b-buying-journey"
+    },
+    {
+      "text": "창고 장비, 식당, 소프트웨어 사례와 인물은 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "HBR 2015 'Making the Consensus Sale'의 '평균 5.4명' 수치를 원문에서 다시 확인하세요. 카드에는 '5.4 people'로 적고 2015년 연구라고 밝혔습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Gartner의 '6~10명' 수치는 Gartner B2B Buying Journey 페이지 기준입니다. 게시 직전 문구와 URL이 바뀌지 않았는지 확인하세요. 카드에는 'six to ten'으로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "CEB 연구에서 구매 인원이 늘수록 구매 가능성이 떨어진다는 내용은 일반적인 표현('the harder it gets to agree')으로만 썼습니다. 구체적 비율은 넣지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Sales · Counterexample",
+      "title": "The buyer said yes. The deal still died.",
+      "illustrative": true,
+      "body": [
+        "Dana sells conveyor systems to warehouses. After three meetings, a distributor's operations director shook her hand: \"This is exactly what we need. Send the contract.\"",
+        "Dana forecast the deal as won. Six weeks later it was gone, and the director still loved the product."
+      ],
+      "image": {
+        "label": "A handshake in a warehouse, with several people watching from the side",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 물류 창고 안에서 영업 담당자와 운영 책임자가 악수하고 있고, 뒤쪽 그늘에 재무 담당, IT 담당, 안전 관리자, 현장 반장 등 4~5명이 팔짱을 끼고 지켜보는 장면. 실제 회사 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/sal-02-04-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "\"Send the contract.\" What do you do next?",
+      "illustrative": true,
+      "body": [
+        "You're Dana. The operations director is keen, and the system costs about as much as a new truck fleet. He says he'll take it from here.",
+        "What's your next move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Send the contract today and follow up next week",
+            "verdict": "risky",
+            "feedback": "Fast and polite, but you hand the rest of the sale to someone who isn't a salesperson. Any question he can't answer stalls the deal."
+          },
+          {
+            "key": "B",
+            "text": "Ask who else has to be comfortable before it's signed, and offer to help with each of them",
+            "verdict": "best",
+            "feedback": "It takes longer up front, but you learn who can still say no while you can still help. That's the idea in this lesson."
+          },
+          {
+            "key": "C",
+            "text": "Offer a discount if they sign this month",
+            "verdict": "partial",
+            "feedback": "Urgency can help, but you give away margin without knowing what is actually blocking the signature."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What happened",
+      "title": "Six people. Six different questions.",
+      "illustrative": true,
+      "body": [
+        "The director passed the contract around. Nobody had heard from Dana, so each person found their own reason to wait."
+      ],
+      "breakdown": [
+        {
+          "value": "Ops director",
+          "label": "\"Will it speed up the floor?\"",
+          "detail": "Yes, and he was sold",
+          "highlight": false
+        },
+        {
+          "value": "Finance",
+          "label": "\"When does it pay back?\"",
+          "detail": "No numbers in the proposal",
+          "highlight": true
+        },
+        {
+          "value": "IT",
+          "label": "\"Does it talk to our stock system?\"",
+          "detail": "Nobody asked them",
+          "highlight": true
+        },
+        {
+          "value": "Safety",
+          "label": "\"New injury risks?\"",
+          "detail": "Wanted a site review",
+          "highlight": false
+        },
+        {
+          "value": "Shift leads",
+          "label": "\"Who retrains my team?\"",
+          "detail": "Quietly against it",
+          "highlight": false
+        },
+        {
+          "value": "Purchasing",
+          "label": "\"Did we compare quotes?\"",
+          "detail": "Asked for two more bids",
+          "highlight": false
+        }
+      ],
+      "callout": "Finance and IT said *not yet*. That was enough.",
+      "softwareNote": "In software deals the same cast appears: the team that uses it, IT security, finance, legal for the data terms, and purchasing. A security review nobody planned for is one of the most common reasons deals slip."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Many decision makers",
+      "body": [
+        "Bigger purchases are rarely decided by one person. They're decided by a **buying group**: everyone who uses, pays for, approves, checks or can block the purchase.",
+        "Each person judges a different risk. The user wants it to work. Finance wants it to pay off. IT, safety or legal want nothing to break.",
+        "Dana sold to one person. The company bought as a group."
+      ],
+      "image": {
+        "label": "One product in the center, with arrows from six people each holding a different question",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 가운데 컨베이어 장비 아이콘, 주변에 6명의 인물 아이콘이 둘러싸고 각자 말풍선을 가짐: \"Faster?\", \"Payback?\", \"Compatible?\", \"Safe?\", \"Who trains us?\", \"Best price?\". 한 명만 초록색 체크, 나머지는 회색 물음표.",
+        "url": "assets/images/sal-02-04-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "The group is bigger than you think.",
+      "body": [
+        "In a 2015 Harvard Business Review article, researchers at CEB reported that an average of **5.4 people** were formally involved in a typical business purchase. Gartner puts the group for complex purchases at six to ten.",
+        "The research also found that the more people involved, the harder it gets to agree. Each person brings their own goals, and doing nothing is often the easiest thing they can all accept.",
+        "So the competitor you lose to most is often *no decision at all*."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond big companies",
+      "title": "Even a small restaurant buys as a group.",
+      "illustrative": true,
+      "body": [
+        "A family restaurant looks at a new ordering and payment system. The owner signs the check. But the head chef worries about orders printing in the kitchen. The floor manager worries about busy Fridays. The accountant wants the reports to match the books.",
+        "None of them has to say *yes*. Any of them can make the owner hesitate.",
+        "The pattern scales down: whoever lives with the decision has a voice in it."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Don't go around your contact.",
+      "body": [
+        "Mapping the group is not the same as cornering everyone. Emailing the CFO behind your contact's back can cost you the one person who trusted you. Ask *with* them: \"Who else will need to feel good about this, and how can I help you with them?\"",
+        "Not every voice weighs the same. Some people can veto, others only influence. Spend time where a *no* would end the deal.",
+        "And more people means a longer sale. Plan for it rather than pretending it won't happen."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software rollout.",
+      "illustrative": true,
+      "body": [
+        "You sell a design collaboration tool. A marketing lead has 15 people on a free trial and they love it. She wants to roll it out to 300 seats across the company.",
+        "What's your best next step?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Send her a 300-seat quote to forward to her boss",
+            "verdict": "risky",
+            "feedback": "Quick, but the quote lands with people who never saw the product and have their own questions. It's Dana's mistake in a new setting."
+          },
+          {
+            "key": "B",
+            "text": "Ask her who reviews new software, then prepare a security summary and a short payback note for finance",
+            "verdict": "best",
+            "feedback": "You give each likely blocker the answer they need before they ask. It takes more work now and saves weeks of silence later."
+          },
+          {
+            "key": "C",
+            "text": "Invite more teams into the free trial so demand pushes the deal through",
+            "verdict": "partial",
+            "feedback": "More happy users helps, but users can't approve security or budget. Enthusiasm doesn't answer IT's checklist."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "One yes isn't a deal. Find everyone who can say no.",
+      "body": [
+        "A purchase is approved by a group, and each person needs their own reason to agree. Map them early, with your contact's help.",
+        "**Try it today:** pick your biggest open deal. List every person who will use, pay for, check or approve it. Next to each name, write the one question they need answered."
+      ],
+      "next": "Next · Finding the person who sells for you when you're not in the room"
+    }
+  ]
+}

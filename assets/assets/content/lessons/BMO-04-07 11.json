@@ -1,0 +1,222 @@
+{
+  "id": "BMO-04-07",
+  "unitId": "BMO-04",
+  "categoryId": "BMO",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "Does a dating app have network effects?",
+  "readerTitle": "Millions of members, twelve people nearby: the network inside a dating app",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "illustrative",
+    "real_company",
+    "real_observation"
+  ],
+  "caseNote": "가상 사례 (데이팅 앱 창업, 청소 예약 플랫폼) + 실제 기업 문구 (Hinge의 'designed to be deleted') + 일반적 관찰 (여러 앱 동시 사용)",
+  "insight": "데이팅 앱의 네트워크 효과는 전체 가입자 수가 아니라 내 근처의 잘 맞는 사람 수로 생기며, 사람이 늘수록 오히려 나빠지기도 한다.",
+  "misconception": "가입자가 많은 데이팅 앱일수록 무조건 더 좋고, 한 번 커지면 따라잡을 수 없다.",
+  "relatedLessonIds": [
+    "BMO-04-04",
+    "BMO-04-05"
+  ],
+  "sources": [
+    {
+      "text": "Hinge, brand campaign and company materials (\"designed to be deleted\")",
+      "url": null
+    },
+    {
+      "text": "앱 장면, 창업 계획, 청소 예약 플랫폼은 설명용 가상 사례",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Hinge가 'designed to be deleted'라는 문구를 공식 마케팅에 쓴 시기와 현재 사용 여부를 게시 전에 Hinge 자료로 확인하세요. 카드에는 연도를 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "사용자가 여러 데이팅 앱을 동시에 쓰는 경향은 일반적 관찰로만 적었고 수치는 넣지 않았습니다. 수치를 추가하려면 1차 출처가 필요합니다.",
+      "status": "open"
+    },
+    {
+      "note": "훅 카드의 '12 people within 10 miles'는 가상 수치입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business models · Everyday scene",
+      "title": "Millions of members, twelve people nearby",
+      "illustrative": true,
+      "body": [
+        "Your friend moves to a small town and downloads a dating app. The app store page says *millions of members*.",
+        "She sets her distance to 10 miles and her age range to her thirties. Twelve profiles appear. By Thursday she has seen them all.",
+        "Millions of members did nothing for her. So does this app have network effects, or not?"
+      ],
+      "image": {
+        "label": "Phone showing a nearly empty map of nearby profiles",
+        "aspectRatio": "4:3",
+        "brief": "스마트폰 화면에 지도가 있고, 반경 원 안에 프로필 점이 몇 개뿐. 화면 위쪽에 큰 글씨로 \"Millions of members\". 따뜻한 일상 톤의 일러스트. 실제 앱 로고와 UI는 쓰지 않음.",
+        "url": "assets/images/bmo-04-07-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Your investor wants one million users.",
+      "illustrative": true,
+      "body": [
+        "You're launching a dating app. Your investor says: \"Network effects kick in once we pass one million users. Spend whatever it takes to get there.\"",
+        "Which plan do you choose?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "A national ad campaign to hit one million sign-ups fast",
+            "verdict": "risky",
+            "feedback": "You'd hit the headline number, spread thin across hundreds of towns. This ignores **local vs global networks**: each user only feels the people near them."
+          },
+          {
+            "key": "B",
+            "text": "Launch city by city, moving on only once each city has plenty of active local members",
+            "verdict": "best",
+            "feedback": "This treats the app as many small local networks and fills each one before the next. Slower on the headline number, stronger where users actually feel it."
+          },
+          {
+            "key": "C",
+            "text": "Launch nationwide but let people match with anyone in the country",
+            "verdict": "partial",
+            "feedback": "The pool looks bigger, but most matches live too far away to meet. A bigger network on paper, not a more useful one."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What the user feels",
+      "title": "One app, thousands of small networks",
+      "body": [
+        "A dating app's value comes from people you could actually date: nearby, in your age range, looking for what you want.",
+        "So the network splits into many small pools, by city, age and intent. A million users spread across a country can mean a dozen in your pool. A rival with fewer users, all in your city, can feel bigger.",
+        "This is **local vs global networks**. What matters is how full *your* pool is, not the total."
+      ],
+      "image": {
+        "label": "One large circle broken into many small city circles",
+        "aspectRatio": "16:9",
+        "brief": "큰 원 하나(\"1,000,000 users\")가 작은 원 여러 개로 쪼개진 인포그래픽. 각 작은 원에 \"City · age · looking for\" 라벨. 한 원은 꽉 차 있고 다른 원은 거의 비어 있음.",
+        "url": "assets/images/bmo-04-07-c3.jpg"
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Growth is working. Complaints are rising.",
+      "illustrative": true,
+      "body": [
+        "Your app is now popular in one city. But reviews are turning. Some users say their inbox is flooded with low-effort messages. Others say nobody replies. Fake profiles are creeping in.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Push more marketing; a bigger pool will fix it",
+            "verdict": "risky",
+            "feedback": "More users can add more of the same noise. This is a case of **when networks get worse**: past a point, extra people crowd the good ones out."
+          },
+          {
+            "key": "B",
+            "text": "Add limits: daily like caps, profile checks, clear filters for what people want",
+            "verdict": "best",
+            "feedback": "You may grow a bit slower, but each new member adds value instead of noise. You're managing quality, not just size."
+          },
+          {
+            "key": "C",
+            "text": "Charge everyone a fee to cut the volume",
+            "verdict": "partial",
+            "feedback": "A fee can filter out spammers, but it also drives away good members and shrinks thin local pools. A blunt tool for a targeted problem."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Why more can be worse",
+      "title": "Crowding is part of the network",
+      "body": [
+        "In many networks, each new member helps. In dating, a new member can also mean more messages to sort, more competition for the same few profiles, and more bad actors.",
+        "Popular profiles get buried in attention. Others get ignored. Both groups start leaving.",
+        "That's why many dating apps spend so much effort on limits, verification and matching. They're not just adding people. They're keeping the network worth joining."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The best users leave when it works.",
+      "body": [
+        "Hinge built a brand around being *designed to be deleted*. That's honest: a dating app succeeds when two of its users stop using it.",
+        "So the network keeps losing its happiest members and must keep refilling. Many people also use several apps at once, so no single app owns them.",
+        "The network effect is real, but leaky. It protects a local lead less than the member count suggests."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a booking platform for home cleaners.",
+      "illustrative": true,
+      "body": [
+        "You run an app that matches homeowners with cleaners in one city. A national rival has ten times more cleaners in total and is entering your city.",
+        "How worried should you be?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Very. Their total size will win",
+            "verdict": "risky",
+            "feedback": "Total size matters less than it looks. Homeowners only care about cleaners who can reach their street this week. That's **local vs global networks** again."
+          },
+          {
+            "key": "B",
+            "text": "Compare local depth: cleaners per neighborhood, booking speed, repeat customers",
+            "verdict": "best",
+            "feedback": "This measures the network customers actually feel. If you're denser and faster where it counts, their national count doesn't help them here."
+          },
+          {
+            "key": "C",
+            "text": "Sign up as many cleaners as possible, without checks",
+            "verdict": "risky",
+            "feedback": "You'd win on numbers but risk no-shows and bad cleans. That's **when networks get worse**: weak members make the whole network less trusted."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Count the network the customer feels.",
+      "body": [
+        "We used two ideas. **Local vs global networks:** value comes from the nearby, relevant pool, not the total. **When networks get worse:** past a point, more people can mean more noise and less trust.",
+        "**Try it today:** pick one customer and count how many people on the other side they could realistically use this week. Is that number growing, and is its quality holding?"
+      ],
+      "next": "Next · Does a restaurant have network effects?"
+    }
+  ]
+}

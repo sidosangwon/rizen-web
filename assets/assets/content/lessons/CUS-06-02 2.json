@@ -1,0 +1,287 @@
+{
+  "id": "CUS-06-02",
+  "unitId": "CUS-06",
+  "categoryId": "CUS",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "Churn and why it compounds",
+  "readerTitle": "Growing with a hole in the bucket",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (기장 대행 회사, 수영장 관리 업체) · 모든 수치는 설명용",
+  "insight": "이탈은 고정된 숫자가 아니라 비율이라서 사업이 커질수록 함께 커지고, 결국 '매달 새 고객 수 ÷ 이탈률'에서 성장이 멈춘다.",
+  "misconception": "매달 새 고객이 꾸준히 들어오면 고객 수도 꾸준히 늘어난다. 월 3~5% 이탈은 작은 숫자라 신경 쓸 필요가 없다.",
+  "relatedLessonIds": [
+    "CUS-06-01",
+    "CUS-06-03"
+  ],
+  "sources": [
+    {
+      "text": "고객 이탈률(churn rate)과 정상 상태(steady state) 고객 수의 표준 계산",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "기장 대행 회사: 시작 100곳, 매달 신규 10곳, 월 이탈 5%. N(t) = 200 − 100 × 0.95^t. 0.95^12 = 0.540 → 12개월 146곳, 0.95^24 = 0.292 → 24개월 171곳, 0.95^36 = 0.158 → 36개월 184곳. 이탈이 없으면 100 + 10 × 36 = 460곳. 이탈을 매달 5곳 고정으로 잘못 보면 100 + 5 × 36 = 280곳.",
+      "status": "open"
+    },
+    {
+      "note": "상한선(ceiling) = 매달 신규 ÷ 월 이탈률. 10 ÷ 0.05 = 200, 10 ÷ 0.025 = 400. 평균 유지 기간 ≈ 1 ÷ 이탈률: 5%면 20개월, 2.5%면 40개월.",
+      "status": "open"
+    },
+    {
+      "note": "유지율 비교: 0.95^12 = 54.0%, 0.97^12 = 69.4%, 0.95^24 = 29.2%, 0.97^24 = 48.1%. 24개월 차이 48 − 29 = 19%p. 소프트웨어 노트의 월 3% → 1년 후 약 69% 유지(약 30% 이탈).",
+      "status": "open"
+    },
+    {
+      "note": "수영장 관리: 시작 250곳, 월 이탈 4%(첫 달 10곳), 매달 신규 12곳. 상한선 12 ÷ 0.04 = 300. N(12) = 300 − 50 × 0.96^12 = 300 − 50 × 0.613 = 약 269곳. 이탈 무시 시 250 + 144 = 394곳. 이탈 10곳 고정 가정 시 250 + 2 × 12 = 274곳.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Numbers twist",
+      "title": "Growing with a hole in the bucket",
+      "illustrative": true,
+      "body": [
+        "A small bookkeeping firm signs 10 new business clients every month. It never misses. The owner expects a steady climb.",
+        "Three years later, the firm is barely bigger than it was after two. Nothing went wrong with sales. The problem was a number that looked too small to worry about."
+      ],
+      "image": {
+        "label": "A bucket being filled while water leaks from a hole",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 수도꼭지에서 물이 일정하게 양동이로 들어가고, 양동이 옆 작은 구멍에서 물이 새어 나감. 물 높이가 중간쯤에서 멈춰 있는 느낌. 실제 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Where will the firm be in three years?",
+      "illustrative": true,
+      "body": [
+        "You have 100 clients. You add 10 new ones every month. Each month, about 5% of your clients leave: they close, switch firms or do it themselves.",
+        "If nothing changes, how many clients will you have after 36 months?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "About 460: 100 plus 10 a month",
+            "verdict": "risky",
+            "feedback": "That's the number with no one leaving. It counts every new client and ignores the ones walking out the back door."
+          },
+          {
+            "key": "B",
+            "text": "About 280: you gain 10 and lose 5 each month",
+            "verdict": "partial",
+            "feedback": "Good instinct to subtract losses. But 5% of 100 is 5; 5% of 180 is 9. Losses grow as you grow, so the net gain keeps shrinking."
+          },
+          {
+            "key": "C",
+            "text": "About 185, and stuck below 200",
+            "verdict": "best",
+            "feedback": "Right. Each month you lose 5% of a bigger base, until losses equal the 10 you add. The next card shows the climb flattening."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "Same sales effort, very different curve.",
+      "illustrative": true,
+      "body": [
+        "With no churn, the firm adds 120 clients a year. With 5% monthly churn, it adds 46 in year one, 25 in year two and 13 in year three."
+      ],
+      "chart": {
+        "unit": "count",
+        "groups": [
+          {
+            "label": "After 1 year",
+            "rows": [
+              {
+                "label": "No one leaves",
+                "value": 220,
+                "highlight": false
+              },
+              {
+                "label": "5% leave each month",
+                "value": 146,
+                "highlight": true
+              }
+            ]
+          },
+          {
+            "label": "After 2 years",
+            "rows": [
+              {
+                "label": "No one leaves",
+                "value": 340,
+                "highlight": false
+              },
+              {
+                "label": "5% leave each month",
+                "value": 171,
+                "highlight": true
+              }
+            ]
+          },
+          {
+            "label": "After 3 years",
+            "rows": [
+              {
+                "label": "No one leaves",
+                "value": 460,
+                "highlight": false
+              },
+              {
+                "label": "5% leave each month",
+                "value": 184,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Churn compounds",
+      "body": [
+        "**Churn rate** is the share of customers who leave in a period. Here, 5% a month.",
+        "Because it's a percentage, it hits a bigger base every time you grow. Growth stops when the number leaving equals the number arriving. That point is your **ceiling**: new customers per month divided by churn rate.",
+        "For the firm: 10 ÷ 5% = 200 clients. Selling harder moves the ceiling. Selling the same never gets past it."
+      ],
+      "image": {
+        "label": "Line rising and flattening under a dotted ceiling at 200",
+        "aspectRatio": "16:9",
+        "brief": "단순한 선 그래프. 선이 100에서 시작해 빠르게 오르다 점점 완만해지며 점선 \"Ceiling: 200\"에 다가감. 옆에 \"10 new ÷ 5% churn = 200\" 공식 라벨.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "breakdown",
+      "eyebrow": "A second twist",
+      "title": "Small monthly gaps grow into big ones.",
+      "illustrative": true,
+      "body": [
+        "Compare two firms that differ by just 2 points of monthly churn. After two years, the gap is 19 points. Monthly churn always looks small. It's the months that stack."
+      ],
+      "breakdown": [
+        {
+          "value": "54%",
+          "label": "Still here after 1 year",
+          "detail": "Losing 5% a month",
+          "highlight": false
+        },
+        {
+          "value": "69%",
+          "label": "Still here after 1 year",
+          "detail": "Losing 3% a month",
+          "highlight": false
+        },
+        {
+          "value": "29%",
+          "label": "Still here after 2 years",
+          "detail": "Losing 5% a month",
+          "highlight": true
+        },
+        {
+          "value": "48%",
+          "label": "Still here after 2 years",
+          "detail": "Losing 3% a month",
+          "highlight": true
+        }
+      ],
+      "softwareNote": "Subscription apps usually report churn monthly. A 3% monthly rate looks harmless on a dashboard, but it means losing about 30% of paying users within a year."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Halve churn, double the ceiling.",
+      "illustrative": true,
+      "body": [
+        "If the firm cut churn from 5% to 2.5%, its ceiling would jump from 200 to **400 clients**, with the same 10 new clients a month.",
+        "Each client would also stay about twice as long on average: roughly 40 months instead of 20. That's twice the fees from every client you worked to win.",
+        "The same math runs a lawn care route, a hair salon or an IT support contract. Anything people pay for again and again has a ceiling."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "One average churn rate hides a lot.",
+      "body": [
+        "Churn is rarely steady. New customers often leave faster than long-time ones, so a single average can mislead you. Splitting customers by when they joined helps, and that's the next lesson.",
+        "The ceiling also assumes new customers keep arriving at the same pace.",
+        "And not every loss hurts. Losing a client who costs more to serve than they pay can raise profit even as your count falls."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a pool cleaning company.",
+      "illustrative": true,
+      "body": [
+        "You have 250 homeowners on weekly service. Every month, about 4% cancel, roughly 10 this month. Your ads reliably bring in 12 new customers a month.",
+        "Where are you heading if nothing changes?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Up about 144 a year, to roughly 394",
+            "verdict": "risky",
+            "feedback": "That counts every new customer and none of the cancellations. It's the plan that leads to hiring too many cleaners."
+          },
+          {
+            "key": "B",
+            "text": "Up 2 a month, to about 274 in a year, and climbing",
+            "verdict": "partial",
+            "feedback": "Close for year one. But losses rise as the base grows, so the climb doesn't continue. It flattens out."
+          },
+          {
+            "key": "C",
+            "text": "Slow growth that stalls near 300",
+            "verdict": "best",
+            "feedback": "Yes: 12 ÷ 4% = 300. To grow past it, you must either win more customers each month or lose fewer. Busier crews alone won't do it."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Churn is a percentage, so it grows with you.",
+      "body": [
+        "Your new customers per month divided by your churn rate tells you where growth will stop. Small changes in churn move that ceiling a lot.",
+        "**Try it today:** divide customers lost last month by customers you had at the start of the month. Then divide your monthly new customers by that rate. That's your ceiling."
+      ],
+      "next": "Next · Why your average customer doesn't exist"
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "id": "ECO-06-10",
+  "unitId": "ECO-06",
+  "categoryId": "ECO",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Price a new product launch",
+  "readerTitle": "Your team's new service needs a price by Friday",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (대형 상업 청소 회사 안의 신규 사업팀이 B2B 실내 공기질 관리 서비스를 출시) · 모든 수치는 설명용",
+  "insight": "출시 가격은 숫자 하나가 아니라 세 가지 결정이다. 바닥(원가)과 천장(고객의 차선책) 사이에서 어디서 시작할지, 경쟁이 붙었을 때 어디를 지킬지를 정하는 일이다.",
+  "misconception": "신제품 가격은 원가에 마진을 붙이거나 경쟁사 가격에 맞추면 된다. 경쟁사가 내리면 따라 내려야 한다.",
+  "relatedLessonIds": [
+    "ECO-06-01",
+    "ECO-06-06"
+  ],
+  "sources": [
+    {
+      "text": "가격 전략의 표준 개념 (가치 기반 가격, 원가 가산, 경쟁 기반, 스키밍, 침투, 프리미엄 가격)",
+      "url": null
+    },
+    {
+      "text": "모든 수치와 상황은 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 설명용 가상 수치입니다. 원가 가산: $180 × 1.4 = $252. 고객의 차선책: 필터 교체 $300 + 분기 공기질 점검 $1,500 ÷ 3 = 월 $500, 합계 월 $800.",
+      "status": "open"
+    },
+    {
+      "note": "사이트당 월 공헌이익: $650 − $180 = $470, $550 − $180 = $370, $350 − $180 = $170, $299 − $180 = $119. 연간 수용량 40곳, 관심 고객 120곳이라는 가정입니다.",
+      "status": "open"
+    },
+    {
+      "note": "소프트웨어 노트의 '추가 사용자 비용이 거의 0에 가깝다'는 일반적 경향으로만 서술했습니다. 서버·지원 비용이 큰 제품은 예외일 수 있습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Pricing · Simulation",
+      "title": "Your team's new service needs a price by Friday",
+      "illustrative": true,
+      "body": [
+        "You lead a three-person team inside a commercial cleaning company. Your new service is ready: air-quality sensors in client offices, plus monthly filter changes.",
+        "The launch deck is finished except for one slide. The price. Three people already have strong opinions about it."
+      ],
+      "image": {
+        "label": "A launch slide with a blank price box",
+        "aspectRatio": "4:3",
+        "brief": "회의실 화면에 출시 발표 슬라이드가 떠 있고, 가격 칸만 비어 있음 (\"$___ / site / month\"). 테이블 위에 작은 공기질 센서와 필터. 사람 세 명이 각자 다른 숫자가 적힌 포스트잇을 들고 있음. 실제 기업 로고는 쓰지 않음.",
+        "url": "assets/images/eco-06-10-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "breakdown",
+      "eyebrow": "The setup",
+      "title": "The numbers on your desk.",
+      "illustrative": true,
+      "body": [
+        "Finance wants cost plus 40%. Sales wants to match the rival. Five facility managers you interviewed told you what they pay today."
+      ],
+      "breakdown": [
+        {
+          "value": "$180",
+          "label": "Your cost per site",
+          "detail": "Technician time, filters, sensor lease, per month",
+          "highlight": false
+        },
+        {
+          "value": "$300",
+          "label": "Rival's price",
+          "detail": "An HVAC firm. Filter changes only, no monitoring",
+          "highlight": false
+        },
+        {
+          "value": "$800",
+          "label": "Client's next-best option",
+          "detail": "$300 for filters plus a $1,500 quarterly air audit",
+          "highlight": true
+        },
+        {
+          "value": "40",
+          "label": "Sites you can serve",
+          "detail": "Two technicians, first year",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 1",
+      "title": "Where do you start the price?",
+      "illustrative": true,
+      "body": [
+        "You need one monthly price per site. Which number do you build from?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Cost plus 40%: about $252",
+            "verdict": "risky",
+            "feedback": "Easy to defend inside the company, but it puts you below a rival that does less. You leave most of the $800 value with the client and signal \"budget option.\""
+          },
+          {
+            "key": "B",
+            "text": "Match the rival at $300",
+            "verdict": "partial",
+            "feedback": "It feels safe, but the rival sells only filters. Matching its price tells clients your monitoring is worth nothing extra."
+          },
+          {
+            "key": "C",
+            "text": "Start from the $800 alternative and price below it",
+            "verdict": "best",
+            "feedback": "Clients save money versus what they buy today, and you keep a healthy share of the value you create. Cost becomes your floor, not your price."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 2",
+      "title": "Say you started from value.",
+      "illustrative": true,
+      "body": [
+        "You settle on about $550 as the long-run price. Then the parent company's sales team sends you 120 interested clients. You can serve only 40 this year.",
+        "How do you launch?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Intro price of $299 to sign as many as possible",
+            "verdict": "risky",
+            "feedback": "You fill 40 scarce slots at $119 a month each instead of $370, and turn away buyers who'd pay more. Raising the price later will feel like a broken promise."
+          },
+          {
+            "key": "B",
+            "text": "Launch at $650 for the most demanding offices, then step down as you add technicians",
+            "verdict": "best",
+            "feedback": "Scarce capacity goes to the clients who value it most, at $470 a month each. Plan the price steps in advance so later cuts look like a schedule, not panic."
+          },
+          {
+            "key": "C",
+            "text": "Charge $550 to everyone from day one",
+            "verdict": "partial",
+            "feedback": "Simple and fair-looking. But with three buyers for every slot, whoever signs first gets a bargain they'd have paid more for."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 3",
+      "title": "Say you launched at $650.",
+      "illustrative": true,
+      "body": [
+        "All 40 slots fill. Six months later, the HVAC rival adds a basic sensor and drops to $350. Two clients forward you its flyer.",
+        "What now?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Cut to $350 to keep everyone",
+            "verdict": "risky",
+            "feedback": "Your margin per site falls from $470 to $170, and the rival can cut again. You've started a price war on its terms."
+          },
+          {
+            "key": "B",
+            "text": "Hold at $650 and show the difference: monthly reports, same-day response, one vendor with cleaning",
+            "verdict": "best",
+            "feedback": "If the difference is real, the clients who chose you for it stay, and your margin stays. You may lose a few price-shoppers, and that's an acceptable cost."
+          },
+          {
+            "key": "C",
+            "text": "Add a $350 filters-only plan next to the full service",
+            "verdict": "partial",
+            "feedback": "It could catch price-shoppers. But some $650 clients may trade down, and you're now competing on the rival's ground."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "What you just did",
+      "title": "Every launch price sits between a floor and a ceiling.",
+      "body": [
+        "Your cost is the **floor**: below it, every sale loses money. The customer's next-best option is the **ceiling**: above it, they'd rather keep what they have. Competitor prices show where customers will compare you.",
+        "Timing decides where you start in that range. Scarce capacity and eager buyers point high. A race for share, or a product that gets better with more users, points low."
+      ],
+      "image": {
+        "label": "A price band from $180 floor to $800 ceiling",
+        "aspectRatio": "16:9",
+        "brief": "가로 막대 하나. 왼쪽 끝 \"Floor: your cost $180\", 오른쪽 끝 \"Ceiling: client's next-best option $800\". 중간에 \"Rival $300\" 작은 표시, \"Launch $650\"과 \"Long-run $550\" 화살표. 바닥과 천장 사이 구간을 강조.",
+        "url": "assets/images/eco-06-10-c6.jpg"
+      },
+      "softwareNote": "In software the floor is often close to zero, since one more user costs little. That makes cost-plus almost useless and puts the weight on value and on the alternatives customers compare you with."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "High launch prices have conditions.",
+      "body": [
+        "Starting high works when early buyers truly value it most and rivals can't copy quickly. Tell early clients up front that prices will change, or a later cut feels like a betrayal.",
+        "Holding a premium works only if the difference is real and visible to the buyer. If the rival's reports match yours next year, your $650 becomes a gap to explain, not a reason to pay."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A launch price is three decisions, not one.",
+      "body": [
+        "Here's how your calls map to this unit:"
+      ],
+      "list": [
+        "**Decision 1 → Value-based pricing.** Start from the customer's next-best option. Cost-plus and competitor prices are guardrails, not answers.",
+        "**Decision 2 → Price skimming vs penetration.** Scarce capacity and eager buyers favor starting high and stepping down.",
+        "**Decision 3 → Premium pricing.** Hold the price when the difference is real, and show it."
+      ],
+      "callout": "**Try it today:** for one product, write down its floor (your cost), its ceiling (the customer's next-best option) and where your price sits between them.",
+      "next": "Next · Why three options often sell better than one"
+    }
+  ]
+}

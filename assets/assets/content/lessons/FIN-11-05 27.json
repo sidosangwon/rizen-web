@@ -1,0 +1,236 @@
+{
+  "id": "FIN-11-05",
+  "unitId": "FIN-11",
+  "categoryId": "FIN",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Assets vs expenses",
+  "readerTitle": "How WorldCom turned $3.8 billion of phone bills into 'investments'",
+  "format": "company_story",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (WorldCom, 2002년 회계 부정) + 가상 적용 (사내 운영팀, 매장 12곳의 소매 체인) · 계산 수치는 설명용",
+  "insight": "같은 돈을 써도 자산으로 기록하느냐 비용으로 기록하느냐에 따라 올해 이익이 달라진다. 기준은 '다음 해에도 이 지출이 사업에 도움이 되는가'이고, 현금은 어느 쪽이든 똑같이 나간다.",
+  "misconception": "지출을 자산으로 기록하면 돈을 아낀 것이거나 사업이 더 좋아진 것이다. 자산과 비용의 구분은 회계 담당자의 형식일 뿐이다.",
+  "relatedLessonIds": [
+    "FIN-11-03",
+    "FIN-11-06"
+  ],
+  "sources": [
+    {
+      "text": "WorldCom press release, June 25, 2002: announcement that about $3.8 billion of line costs had been improperly recorded as capital expenditures",
+      "url": null
+    },
+    {
+      "text": "U.S. SEC v. WorldCom, Inc., complaint filed June 26, 2002",
+      "url": null
+    },
+    {
+      "text": "Report of Investigation by the Special Investigative Committee of the Board of Directors of WorldCom, Inc. (Beresford, Katzenbach & Rogers, 2003)",
+      "url": null
+    },
+    {
+      "text": "자산·비용 구분은 재무회계의 표준 개념. 4·7·8번 카드의 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "WorldCom이 2002년 6월 25일에 약 38억 달러의 회선 비용(line costs)을 자본적 지출로 잘못 기록했다고 발표한 내용을 1차 자료로 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "내부감사팀(Cynthia Cooper 주도)이 문제를 찾아낸 경위와, 2002년 7월 파산 신청 시점을 확인하세요. 이후 밝혀진 전체 왜곡 규모는 약 110억 달러로 알려져 있습니다. 카드에는 'about $11 billion'으로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "계산 확인 (가상): 매출 $10.0M − 비용 $9.5M = 이익 $0.5M. $1.0M을 5년 자산으로 바꾸면 올해 비용 = $9.5M − $1.0M + $0.2M = $8.7M, 이익 = $1.3M. 현금 지출은 두 경우 모두 동일.",
+      "status": "open"
+    },
+    {
+      "note": "교육훈련비와 광고비는 국제회계기준과 미국 회계기준 모두에서 일반적으로 발생 시점에 비용으로 처리합니다. 소프트웨어 개발비는 조건을 충족하면 일부를 자산으로 기록할 수 있습니다. 특정 국가 세무 기준은 다루지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Company story",
+      "title": "How WorldCom turned $3.8 billion of phone bills into 'investments'",
+      "body": [
+        "In 2002, WorldCom was one of America's largest phone and internet companies. Then it admitted that about $3.8 billion of ordinary operating costs had been recorded as long-term investments.",
+        "Not a single dollar of cash was hidden. The company only changed one label, and that turned losses into reported profits."
+      ],
+      "image": {
+        "label": "A stack of bills relabeled as a building block",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 'Bills'라고 적힌 영수증 더미에 누군가 'Investment' 라벨을 덧붙이는 장면. 뒤쪽에 전화선과 통신탑 실루엣. 실제 회사 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/fin-11-05-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which spending is an asset?",
+      "illustrative": true,
+      "body": [
+        "You run the operations team inside a large manufacturer. This quarter your team spent $50,000 three different ways. Finance asks which one should be recorded as an asset rather than a cost of this quarter."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "$50,000 of repairs that keep old machines running",
+            "verdict": "risky",
+            "feedback": "Repairs keep things working as they were. They don't add future benefit, so they count as a cost of this period."
+          },
+          {
+            "key": "B",
+            "text": "$50,000 for a new machine that will run for five years",
+            "verdict": "best",
+            "feedback": "The machine will keep producing for years and the company owns it. That future benefit is what makes spending an asset."
+          },
+          {
+            "key": "C",
+            "text": "$50,000 for a training program that will help the team for years",
+            "verdict": "partial",
+            "feedback": "Good instinct about future benefit. But staff can leave and the benefit is hard to measure, so training is usually recorded as a cost right away."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "Costs used up today, booked as if they lasted years.",
+      "body": [
+        "WorldCom paid other phone companies to carry its customers' calls on their networks. These **line costs** were used up the moment the calls went through.",
+        "Instead of recording them as costs, staff moved them into the account for long-term equipment. Profit jumped. A small internal audit team, led by Cynthia Cooper, traced the entries and raised the alarm.",
+        "The company filed for bankruptcy within weeks. The total misstatement eventually grew to about $11 billion."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Assets vs expenses",
+      "body": [
+        "An **asset** is spending that will keep benefiting the business in future periods, and that the business controls. An **expense** is spending that is used up now.",
+        "The test is simple: will this still be working for us next year? A new oven, a delivery van or a warehouse lease deposit, yes. Electricity, rent for this month or a repair, no.",
+        "Assets sit on the balance sheet and their cost is spread over the years they help. Expenses reduce this period's profit in full."
+      ],
+      "image": {
+        "label": "Spending split into two paths: this year vs future years",
+        "aspectRatio": "16:9",
+        "brief": "동전 더미가 두 갈래 길로 나뉘는 인포그래픽. 왼쪽 'Expense: used up now'는 올해 달력 한 장으로, 오른쪽 'Asset: helps for years'는 여러 해 달력에 조금씩 나뉘어 들어감.",
+        "url": "assets/images/fin-11-05-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Same cash, different profit.",
+      "illustrative": true,
+      "body": [
+        "A business has $10M in sales and $9.5M in costs. It moves $1M of those costs into assets, spread over five years. This year it records only $0.2M of that $1M. Profit **more than doubles** and cash doesn't change at all."
+      ],
+      "breakdown": [
+        {
+          "value": "$1.0M",
+          "label": "Cash spent",
+          "detail": "Exactly the same either way",
+          "highlight": false
+        },
+        {
+          "value": "$0.5M",
+          "label": "Profit, booked as expense",
+          "detail": "$10.0M − $9.5M",
+          "highlight": false
+        },
+        {
+          "value": "$1.3M",
+          "label": "Profit, booked as asset",
+          "detail": "$10.0M − $8.7M",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where it shows up",
+      "title": "Inside companies, the label decides whose budget pays.",
+      "body": [
+        "Many companies keep two budgets: one for **capital spending** on assets, one for running costs. A team that has used up its running budget is tempted to call a repair an \"upgrade\".",
+        "That isn't fraud on WorldCom's scale. But it hides the real cost of running the team and makes this year look cheaper than it was."
+      ],
+      "softwareNote": "Accounting rules can allow part of the cost of building software to be recorded as an asset. That is legitimate, but a company that records more developer time as an asset shows higher profit than one that records it all as cost."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The reverse mistake costs too.",
+      "body": [
+        "Recording real investments as expenses makes a good year look bad, and can scare off a lender or a buyer. It also hides how much the business owns.",
+        "Many businesses set a small threshold and simply expense anything below it. That keeps the books simple.",
+        "And an asset is only as real as its future benefit. A machine that no longer works is not worth what you paid for it."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a chain of 12 stores.",
+      "illustrative": true,
+      "body": [
+        "This year you spent $80,000 on new refrigerated display cases that should last eight years, $80,000 on repainting and deep cleaning, and $80,000 on a holiday ad campaign. You're preparing numbers for the bank. What do you record as assets?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Only the display cases",
+            "verdict": "best",
+            "feedback": "You own them and they'll sell product for years. Profit looks lower now, but the bank sees numbers it can trust."
+          },
+          {
+            "key": "B",
+            "text": "The display cases and the ad campaign, because the brand lasts",
+            "verdict": "partial",
+            "feedback": "Ads may help for a while, but the benefit can't be measured or controlled, so they're normally treated as an expense. Counting them inflates this year's profit."
+          },
+          {
+            "key": "C",
+            "text": "All three, to show the bank a stronger year",
+            "verdict": "risky",
+            "feedback": "Profit would rise by most of $160,000 on paper with no extra cash. If the bank notices, you lose its trust along with the loan."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Ask whether spending will still be working next year.",
+      "body": [
+        "If yes, it's an asset and its cost is spread over time. If no, it's an expense today. The label moves profit between years, never cash.",
+        "**Try it today:** list your five biggest purchases this year. Mark each one: still helping us next year, or used up already?"
+      ],
+      "next": "Next · Is this profit as good as it looks?"
+    }
+  ]
+}

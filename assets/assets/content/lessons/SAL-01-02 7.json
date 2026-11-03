@@ -1,0 +1,227 @@
+{
+  "id": "SAL-01-02",
+  "unitId": "SAL-01",
+  "categoryId": "SAL",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "The pipeline",
+  "readerTitle": "Why 100 inquiries became only 10 bookings",
+  "format": "numbers_twist",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 3.9,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (레스토랑 프라이빗 이벤트, 소프트웨어 무료 체험) · 모든 수치는 설명용",
+  "insight": "매출 목표는 단계별 전환율의 곱이다. 맨 위에 손님을 더 붓기 전에 가장 크게 새는 단계를 먼저 고치면 같은 결과를 더 싸게 얻는다.",
+  "misconception": "판매를 늘리려면 문의나 리드를 더 많이 모으는 것이 먼저다.",
+  "relatedLessonIds": [
+    "SAL-01-03",
+    "SAL-01-04"
+  ],
+  "sources": [
+    {
+      "text": "영업 관리의 표준 개념 (파이프라인 단계, 단계별 전환율, 역산)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "레스토랑 계산: 문의 100 × 25% = 시식·방문 25, × 80% = 견적 20, × 50% = 예약 10. 전체 전환율 10%. 목표 15건 ÷ 10% = 문의 150건. 첫 단계를 38%로 올리면 100 × 0.38 × 0.8 × 0.5 = 15.2건(약 15건). 마감률만 올릴 경우 15 ÷ 20 = 75% 필요.",
+      "status": "open"
+    },
+    {
+      "note": "소프트웨어 계산: 체험 300 × 20% = 설정 완료 60, × 50% = 상담 30, × 50% = 구매 15. A안 600 × 0.2 × 0.5 × 0.5 = 30. B안 300 × 0.4 × 0.5 × 0.5 = 30. C안 300 × 0.2 × 0.5 × 1.0 = 30.",
+      "status": "open"
+    },
+    {
+      "note": "문의에서 예약까지 약 6주가 걸린다는 내용은 설명용 가정입니다. 실제 기간은 업종마다 다르다고 본문에 적었습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Sales · Numbers twist",
+      "title": "Why 100 inquiries became only 10 bookings",
+      "illustrative": true,
+      "body": [
+        "A restaurant gets about 100 private-event inquiries a month. Birthdays, team dinners, small weddings.",
+        "Only 10 turn into booked events. The owner wants 15. The obvious fix is more inquiries. The numbers point somewhere cheaper."
+      ],
+      "image": {
+        "label": "A funnel of event inquiries narrowing to a few bookings",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 위쪽에 이메일·전화 아이콘 100개가 쏟아져 들어가는 깔때기, 아래로 갈수록 좁아지고 맨 아래에는 예약 확정 카드 10장. 깔때기 윗부분 옆면에 구멍이 나 아이콘이 많이 새어 나가는 모습. 실제 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You want 15 events a month, not 10.",
+      "illustrative": true,
+      "body": [
+        "Of 100 inquiries, 25 come in for a tasting or visit. Of those, 20 ask for a proposal. Half of those book.",
+        "What do you try first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Spend more on ads to get 150 inquiries",
+            "verdict": "partial",
+            "feedback": "The math works: 150 inquiries at the same rates gives 15 events. But you pay for 50% more leads while 75 of every 100 still slip away."
+          },
+          {
+            "key": "B",
+            "text": "Find out why 75 of 100 inquiries never come in for a tasting",
+            "verdict": "best",
+            "feedback": "That's the biggest leak. Fixing it uses inquiries you already paid for. Next card shows how small a change is enough."
+          },
+          {
+            "key": "C",
+            "text": "Offer a discount so more proposals turn into bookings",
+            "verdict": "risky",
+            "feedback": "You'd need 75% of proposals to book instead of 50%, and every event would earn less. You'd be fixing the stage that already works best."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Follow 100 inquiries.",
+      "illustrative": true,
+      "body": [
+        "Overall, 10 in 100 book. Now raise only the first step, from 25 to about 38 tastings. The rest stays the same: 38 × 80% × 50% ≈ **15 events**. Same result as 50% more inquiries."
+      ],
+      "breakdown": [
+        {
+          "value": "100",
+          "label": "Inquiries",
+          "detail": "Emails, calls, web forms",
+          "highlight": false
+        },
+        {
+          "value": "25",
+          "label": "Tastings",
+          "detail": "Only 25% come in. 75 are lost here",
+          "highlight": true
+        },
+        {
+          "value": "20",
+          "label": "Proposals",
+          "detail": "80% of tastings ask for a quote",
+          "highlight": false
+        },
+        {
+          "value": "10",
+          "label": "Bookings",
+          "detail": "50% of proposals sign",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The pipeline",
+      "body": [
+        "A **pipeline** is the path a customer takes from first contact to paying, split into stages. Each stage has a **conversion rate**: the share who move on to the next one.",
+        "Sales are those rates multiplied together. That means improving any stage lifts the final number just as much as filling the top. You also see exactly where customers leave."
+      ],
+      "image": {
+        "label": "Four connected stages with a percentage on each link",
+        "aspectRatio": "16:9",
+        "brief": "가로로 이어진 파이프 네 칸: \"Inquiry\", \"Tasting\", \"Proposal\", \"Booking\". 칸 사이 연결부에 \"25%\", \"80%\", \"50%\" 라벨. 첫 연결부가 가장 가늘고 물이 새는 모습으로 강조.",
+        "url": null
+      },
+      "softwareNote": "The same stages appear as sign-up, setup, demo and purchase. Product analytics often shows each rate automatically, so the biggest leak is usually visible in a dashboard."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How to use it",
+      "title": "Work backward from your goal.",
+      "illustrative": true,
+      "body": [
+        "Divide your target by your overall rate. Fifteen events at 10% means 150 inquiries. Now you know what the top of the pipeline must hold.",
+        "Add time. If an inquiry takes about six weeks to become a booking, this month's inquiries are next quarter's events. A quiet inbox today shows up as empty tables later. The lag differs by business, so measure your own."
+      ],
+      "image": {
+        "label": "Calendar showing inquiries today turning into events weeks later",
+        "aspectRatio": "16:9",
+        "brief": "달력 두 장. 왼쪽 이번 달 달력에 문의 아이콘들, 화살표로 6주 뒤 오른쪽 달력의 이벤트 테이블 아이콘으로 이어짐. \"~6 weeks\" 라벨.",
+        "url": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The rates are not fixed laws.",
+      "body": [
+        "Push one stage too hard and the next one can drop. If you pressure every inquiry into a tasting, you may get more tastings from people who were never going to book.",
+        "Small numbers wobble. Twenty proposals a month can swing from 40% to 60% by chance. Track several months before you act.",
+        "Define each stage the same way every time, or the rates mean nothing."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a scheduling app.",
+      "illustrative": true,
+      "body": [
+        "Each month, 300 people start a free trial. 20% finish setup. Half of those book a call. Half of the calls buy. That's 15 new customers. You want 30.",
+        "Which plan is most realistic?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Double ad spend to get 600 trials",
+            "verdict": "partial",
+            "feedback": "It gets you to 30, but doubles your cost, and extra users from ads are often less ready to buy than the first 300."
+          },
+          {
+            "key": "B",
+            "text": "Help new users finish setup, lifting it from 20% to 40%",
+            "verdict": "best",
+            "feedback": "Setup is where 80% of users quit, so it has the most room. Doubling that one rate also doubles sales, using trials you already have."
+          },
+          {
+            "key": "C",
+            "text": "Offer a big discount on every sales call",
+            "verdict": "risky",
+            "feedback": "To reach 30 this way, every single call would have to buy. You'd cut your price and still fall short."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Sales are a chain of rates. Fix the weakest link first.",
+      "body": [
+        "Map your stages, count how many move through each, and work backward from your goal before you buy more leads.",
+        "**Try it today:** write down your last month's numbers for each stage, from first contact to paid. Circle the step where the most people drop out."
+      ],
+      "next": "Next · Where your next customers come from"
+    }
+  ]
+}

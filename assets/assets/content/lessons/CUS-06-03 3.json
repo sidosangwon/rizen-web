@@ -1,0 +1,272 @@
+{
+  "id": "CUS-06-03",
+  "unitId": "CUS-06",
+  "categoryId": "CUS",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "Cohorts",
+  "readerTitle": "Same retention number, opposite futures",
+  "format": "two_businesses",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (청소 서비스, 사내 분석팀, 회계 소프트웨어) · 모든 수치는 설명용",
+  "insight": "전체 평균은 오래된 고객과 새 고객을 섞어 버린다. 시작 시점별로 묶어 같은 나이에 비교해야 사업이 나아지는지 나빠지는지 보인다.",
+  "misconception": "전체 유지율이나 전체 고객 수가 그대로면 고객 유지는 괜찮은 것이다.",
+  "relatedLessonIds": [
+    "CUS-06-02",
+    "CUS-03-03"
+  ],
+  "sources": [
+    {
+      "text": "코호트 분석은 고객 분석과 인구학에서 쓰는 표준 방법 (시작 시점이 같은 집단을 시간에 따라 추적)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 설명용 가상 수치입니다. 3번 차트: 1월 시작 90→78→72%, 4월 시작 85→62%, 7월 시작 80→50%. 최근 집단일수록 같은 시점 유지율이 낮아지는 흐름이 일관되는지 확인했습니다. 7월 집단은 아직 6개월이 지나지 않아 6개월 값이 없습니다.",
+      "status": "open"
+    },
+    {
+      "note": "전체 유지율이 거의 그대로였다는 설명은 '오래된 충성 고객이 고객 기반의 대부분을 차지한다'는 가정에 기댑니다. 실제로는 소폭 하락이 나타날 수 있어 카드에 'barely moved'로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "주의 카드의 작은 집단 예시: 12명 중 1명 이탈 = 약 8%p 변화 (1 ÷ 12 = 8.3%).",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Two businesses",
+      "title": "Same retention number, opposite futures",
+      "illustrative": true,
+      "body": [
+        "A home cleaning company and a company's internal analytics team both watch one number: how many of their customers keep coming back. For both, it has barely moved in a year.",
+        "One is quietly sinking. The other is getting steadily better. The headline number can't tell them apart."
+      ],
+      "image": {
+        "label": "Two identical flat lines hiding different trends underneath",
+        "aspectRatio": "4:3",
+        "brief": "두 개의 대시보드가 나란히 있고 둘 다 같은 평평한 선과 \"75%\" 숫자를 보여줌. 왼쪽 대시보드 아래로는 내려가는 화살표들이, 오른쪽 아래로는 올라가는 화살표들이 반투명하게 비침. 실제 로고나 브랜드는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Your retention looks stable.",
+      "illustrative": true,
+      "body": [
+        "You run a home cleaning service. About 75% of clients book again each month, the same as last year. A spring promotion brought in lots of new clients.",
+        "You're about to hire two more cleaners. What do you check first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Nothing. Stable retention plus new clients means growth",
+            "verdict": "risky",
+            "feedback": "It saves time, but a stable average can hide newer clients leaving much faster than older ones."
+          },
+          {
+            "key": "B",
+            "text": "Group clients by the month they started and compare how many still book after three months",
+            "verdict": "best",
+            "feedback": "This compares new clients with older ones at the same age, so you see whether recent clients behave differently. Next card shows what it reveals."
+          },
+          {
+            "key": "C",
+            "text": "Send a satisfaction survey to current clients",
+            "verdict": "partial",
+            "feedback": "Useful for detail, but you only hear from people who stayed. The ones who left are the story."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "What the groups show",
+      "title": "Each new group leaves faster.",
+      "illustrative": true,
+      "body": [
+        "Long-time clients almost never leave, and they make up most of the base. So the overall number barely moved. Underneath, every newer group is dropping off faster than the one before."
+      ],
+      "chart": {
+        "unit": "%",
+        "groups": [
+          {
+            "label": "Started in January",
+            "rows": [
+              {
+                "label": "Month 1",
+                "value": 90,
+                "highlight": false
+              },
+              {
+                "label": "Month 3",
+                "value": 78,
+                "highlight": false
+              },
+              {
+                "label": "Month 6",
+                "value": 72,
+                "highlight": false
+              }
+            ]
+          },
+          {
+            "label": "Started in April",
+            "rows": [
+              {
+                "label": "Month 1",
+                "value": 85,
+                "highlight": false
+              },
+              {
+                "label": "Month 3",
+                "value": 62,
+                "highlight": true
+              }
+            ]
+          },
+          {
+            "label": "Started in July",
+            "rows": [
+              {
+                "label": "Month 1",
+                "value": 80,
+                "highlight": false
+              },
+              {
+                "label": "Month 3",
+                "value": 50,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "image": {
+        "label": "Each new group leaves faster.",
+        "aspectRatio": "4:3",
+        "brief": "Labeled HTML chart from the lesson numbers",
+        "url": "assets/images/cus-06-03-chart.png"
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Cohorts",
+      "body": [
+        "A **cohort** is a group of customers who started at the same time, such as everyone whose first clean was in April. Cohort analysis tracks each group separately and compares them at the same age: month 3 of April's group against month 3 of January's.",
+        "An average mixes loyal veterans with brand-new arrivals. Cohorts separate them, so you see whether *recent* customers are better or worse than earlier ones. Here, the half-price spring offer attracted one-off bargain hunters."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The second business",
+      "title": "A flat line that hid good news.",
+      "illustrative": true,
+      "body": [
+        "Inside a large retailer, an analytics team built a sales dashboard. Monthly users stayed flat at about 200 for a year. Leadership asked whether to shut it down.",
+        "The team grouped managers by when they were trained. The pilot group got a buggy early version and kept drifting away. Each later group stuck around longer after fixes and better training.",
+        "Old users leaving and new users staying canceled out. The total hid real progress."
+      ],
+      "image": {
+        "label": "Cohort table with later rows getting greener",
+        "aspectRatio": "16:9",
+        "brief": "코호트 표 인포그래픽. 행은 \"Pilot\", \"Wave 2\", \"Wave 3\", \"Wave 4\", 열은 \"Month 1\", \"Month 3\", \"Month 6\". 아래 행으로 갈수록 칸 색이 연한 빨강에서 진한 초록으로 바뀜. 표 위에는 평평한 \"Total users\" 선이 따로 있음.",
+        "url": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How to use it",
+      "title": "Three steps to your first cohort view.",
+      "body": [
+        "You don't need special software. A spreadsheet works."
+      ],
+      "list": [
+        "**Pick a starting point:** first purchase, first visit, signup, or training date",
+        "**Group by period:** month or quarter, whatever gives groups of a decent size",
+        "**Check the same ages:** what share is still active after 1, 3 and 6 months"
+      ],
+      "callout": "Then read down each column. Are newer groups doing better or worse at the same age? You can also group by where customers came from or what they bought first.",
+      "softwareNote": "Software teams build cohort tables by signup month as routine. Splitting them by acquisition channel or pricing plan often explains a shift faster than any average does."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Cohorts show what changed, not why.",
+      "body": [
+        "Small groups are noisy. In a cohort of 12, one lost client moves the number by about 8 points. Merge months until groups are big enough to trust.",
+        "Young cohorts haven't had time to leave, so don't compare a two-month-old group with a year-old one. Seasons matter too: holiday customers may behave differently from spring ones.",
+        "And a weaker cohort is a clue, not a diagnosis. You still have to find the cause."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's an accounting app.",
+      "illustrative": true,
+      "body": [
+        "You sell a monthly subscription accounting app to small firms. Users who signed up in the first quarter: 70% still paying after six months. Third-quarter signups: 52%.",
+        "In the third quarter you also started advertising on a discount deals website. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Stop the deals-site ads right away",
+            "verdict": "partial",
+            "feedback": "It may be the right call, but you'd be guessing. If the drop came from something else, like a pricing change, you'd cut a working channel."
+          },
+          {
+            "key": "B",
+            "text": "Split the third-quarter cohort by signup channel before deciding",
+            "verdict": "best",
+            "feedback": "It costs a little time and shows whether deals-site users leave faster than others who signed up the same quarter."
+          },
+          {
+            "key": "C",
+            "text": "Relax. Total paying users are still rising",
+            "verdict": "risky",
+            "feedback": "New signups can keep the total rising while each group leaves faster. That works only as long as you keep paying to replace them."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Compare customers at the same age, not all at once.",
+      "body": [
+        "Averages blend old and new customers. Cohorts show whether the business you're running now keeps customers better or worse than before.",
+        "**Try it today:** list customers by the month they first bought. For the last six months, count how many bought again within 90 days. Which month stands out?"
+      ],
+      "next": "Next · Why some customers should come back weekly and others once a year"
+    }
+  ]
+}

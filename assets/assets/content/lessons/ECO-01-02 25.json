@@ -1,0 +1,245 @@
+{
+  "id": "ECO-01-02",
+  "unitId": "ECO-01",
+  "categoryId": "ECO",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "Scarcity",
+  "readerTitle": "Why the product with the best margin can lose the shelf",
+  "format": "numbers_twist",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.4,
+  "caseKinds": [
+    "illustrative",
+    "real_observation"
+  ],
+  "caseNote": "가상 사례 (철물점 계산대 선반, 대기업 사내 개발팀) + 실제 관찰 (소매업의 면적당 매출 지표) · 모든 수치는 설명용",
+  "insight": "무엇이 부족한지 먼저 찾고, 모든 선택지를 그 부족한 자원 한 단위가 벌어들이는 돈으로 비교한다.",
+  "misconception": "마진이 가장 높은 제품, 가치가 가장 큰 프로젝트를 고르면 된다. 희소성은 돈이 부족할 때만의 문제다.",
+  "relatedLessonIds": [
+    "ECO-01-01",
+    "ECO-01-03"
+  ],
+  "sources": [
+    {
+      "text": "관리회계의 표준 개념 (제약 자원 단위당 공헌이익으로 순위 매기기)",
+      "url": null
+    },
+    {
+      "text": "소매업의 일반적 성과 지표 (면적당 매출, sales per square foot)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "선반 계산: 양초 2개 × $12 = 피트당 주 $24, 충전기 10개 × $4 = $40, 건전지 20개 × $1.50 = $30. 10피트 기준 각각 주 $240, $400, $300. 모두 가상 수치입니다.",
+      "status": "open"
+    },
+    {
+      "note": "사내 팀 계산: 통합 $120k ÷ 6주 = 주당 $20k, 온보딩 수정 $40k ÷ 1주 = $40k, 리포트 $45k ÷ 2주 = $22.5k, 보관 자동화 $60k ÷ 3주 = $20k. 작은 세 개 합계 1 + 2 + 3 = 6주, $40k + $45k + $60k = $145k. 모두 가상 수치입니다.",
+      "status": "open"
+    },
+    {
+      "note": "'소매업체들이 오래전부터 면적당 매출을 추적해 왔다'는 일반적 관찰로만 적었습니다. 특정 기업이나 수치는 인용하지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "레스토랑 예시(긴 코스 요리가 빠른 회전 메뉴보다 덜 벌 수 있다)는 가능성으로만 표현한 설명용 예시입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Economics · Numbers twist",
+      "title": "Why the product with the best margin can lose the shelf",
+      "illustrative": true,
+      "body": [
+        "A candle earns the store $12. A phone charger earns $4.",
+        "Both want the same small shelf by the checkout. The obvious pick is the candle. The shelf disagrees."
+      ],
+      "image": {
+        "label": "A short checkout shelf with candles, chargers and batteries competing for space",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 계산대 옆 좁은 선반 하나에 양초, 휴대폰 충전기, 건전지 상자가 서로 밀치며 자리를 차지하려는 장면. 선반 위에 줄자가 놓여 있음. 실제 브랜드 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/eco-01-02-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Who gets the shelf?",
+      "illustrative": true,
+      "body": [
+        "You run a hardware store with 10 feet of shelf by the checkout. Profit here means what's left after the product's cost.",
+        "Each week, one foot of shelf sells: 2 candles at $12 profit each, or 10 chargers at $4, or 20 packs of batteries at $1.50. Which product gets the whole shelf?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Candles: the highest profit per item",
+            "verdict": "risky",
+            "feedback": "You win on every single sale but lose on space. Candles sell slowly, so each foot earns only $24 a week."
+          },
+          {
+            "key": "B",
+            "text": "Chargers: the middle profit, but fast sellers",
+            "verdict": "best",
+            "feedback": "Each foot earns $40 a week, the most of the three. You give up big wins per sale to earn more from the shelf itself."
+          },
+          {
+            "key": "C",
+            "text": "Batteries: they sell the most units",
+            "verdict": "partial",
+            "feedback": "Good instinct to look at speed, not just margin. But units aren't profit: each foot earns $30, less than chargers."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Measure by the foot, not by the item.",
+      "illustrative": true,
+      "body": [
+        "Across all 10 feet: candles earn **$240** a week, chargers **$400**. The best margin per item earns the least per foot."
+      ],
+      "breakdown": [
+        {
+          "value": "$24",
+          "label": "Candles",
+          "detail": "2 a week × $12 profit, per foot",
+          "highlight": false
+        },
+        {
+          "value": "$30",
+          "label": "Batteries",
+          "detail": "20 a week × $1.50 profit, per foot",
+          "highlight": false
+        },
+        {
+          "value": "$40",
+          "label": "Chargers",
+          "detail": "10 a week × $4 profit, per foot",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Scarcity",
+      "body": [
+        "**Scarcity** means you want more than you have. Every business has something it can't quickly get more of: shelf space, staff hours, cash, seats, machine time.",
+        "The twist: once something is scarce, judge each option by what it earns *per unit of that scarce thing*. Here the scarce thing is shelf, so the right number is **profit per foot**, not profit per sale."
+      ],
+      "image": {
+        "label": "Three products ranked by profit per foot instead of profit per item",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 왼쪽은 '개당 이익' 기준 순위(양초 1위), 오른쪽은 '선반 1피트당 이익' 기준 순위(충전기 1위). 가운데 화살표로 순위가 뒤집히는 모습 강조. 로고 없음.",
+        "url": "assets/images/eco-01-02-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Find the bottleneck first.",
+      "body": [
+        "Ask one question: if I had more of one thing tomorrow, what would grow profit most? That thing is your scarce resource.",
+        "Retailers have long tracked sales per square foot for this reason. Accountants use the same method for factories: rank products by margin per unit of the limited resource, such as machine hours.",
+        "Things you have plenty of don't deserve the same attention. Measure everything against the one that's short."
+      ],
+      "softwareNote": "In software, the scarce thing is often engineering time, or space on a screen your users actually look at. A feature's total value matters less than its value per week of building."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Same idea, other places",
+      "title": "Every business has its own shelf.",
+      "body": [
+        "The scarce thing changes by business. The method doesn't."
+      ],
+      "list": [
+        "**Restaurant on Friday night:** seats per hour. A long tasting menu can earn less than quicker meals.",
+        "**Consultant:** billable hours. A small client can pay more per hour than a big one.",
+        "**Workshop:** machine time on the busiest machine.",
+        "**Delivery van:** space in the back on each route."
+      ],
+      "callout": "Name the shelf, then count per foot of it."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Per-foot numbers don't stay fixed.",
+      "body": [
+        "The first foot of chargers may sell 10 a week. The tenth foot may sell two. Customers only need so many, so test before giving everything to the winner.",
+        "The scarce thing also moves. Fill the shelf well and the limit may become cash or staff time.",
+        "And some value hides from per-foot math. A product that draws people in may sell other things on the way out."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a team inside a big company.",
+      "illustrative": true,
+      "body": [
+        "You lead an internal tools team at a large logistics company. You have 6 engineer-weeks left this quarter. Estimated yearly savings:"
+      ],
+      "list": [
+        "Carrier integration: $120k, takes 6 weeks",
+        "Onboarding fix: $40k, 1 week",
+        "Report automation: $45k, 2 weeks",
+        "Archive cleanup: $60k, 3 weeks"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Build the integration: the single biggest win",
+            "verdict": "risky",
+            "feedback": "It's the biggest project, but it earns $20k per week of your scarce time. It uses the whole quarter for $120k."
+          },
+          {
+            "key": "B",
+            "text": "Build the three smaller projects",
+            "verdict": "best",
+            "feedback": "Same 6 weeks, about $145k. You trade one headline win for more value per week, but check whether the estimates are solid."
+          },
+          {
+            "key": "C",
+            "text": "Ask for more engineers before choosing",
+            "verdict": "partial",
+            "feedback": "Worth raising for next quarter. New people rarely add capacity this quarter, so you still have to choose."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Find what's scarce, then measure everything per unit of it.",
+      "body": [
+        "The best option per sale or per project is often not the best use of the thing you're short on.",
+        "**Try it today:** name the one thing your business most needs more of this month. Rank your top three products or projects by what each earns per unit of it."
+      ],
+      "next": "Next · The real price of saying yes"
+    }
+  ]
+}

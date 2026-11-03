@@ -1,0 +1,241 @@
+{
+  "id": "BMO-06-01",
+  "unitId": "BMO-06",
+  "categoryId": "BMO",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Recurring vs one-time revenue",
+  "readerTitle": "The money that comes back without asking",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "일상 관찰 (개인 통장 내역) + 가상 사례 (상업용 청소 회사, 베이커리, 사진 편집 앱) · 모든 수치는 설명용",
+  "insight": "매출의 크기보다, 아무것도 하지 않았을 때 다음 달에도 그 돈이 들어오는지를 본다. 반복 매출은 '계속'이 기본값이고 일회성 매출은 '중단'이 기본값이다.",
+  "misconception": "1년 매출 합계가 같으면 같은 사업이다. 단골 손님이 자주 오면 그것이 반복 매출이다.",
+  "relatedLessonIds": [
+    "BMO-06-02",
+    "BMO-02-02"
+  ],
+  "sources": [
+    {
+      "text": "사업 모델의 표준 개념 (반복 매출과 일회성 매출의 구분)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "청소 회사 계산: 월 $700 × 12개월 = $8,400로, 일회성 $9,000보다 $600 적습니다. 3번 카드의 월별 금액(1달 차 $9,000 / $0, 계약 $700 / $700)이 2번 카드와 맞는지 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "\"인수자와 대출 기관이 예측 가능한 수입을 가진 사업에 더 높은 가치를 매기는 경우가 많다\"는 일반적 경향으로만 적었습니다. 구체적인 배수나 통계는 넣지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "사진 앱의 $60 일회성 가격과 월 $5 요금은 가상 수치입니다. 실제 기업 사례(예: Adobe)는 BMO-06-09와 겹치지 않도록 일부러 넣지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business models · Everyday scene",
+      "title": "Some money arrives before anyone decides anything.",
+      "body": [
+        "Look at last month's bank statement. The phone bill, the insurance, the gym. You didn't choose to pay them again. They just came.",
+        "Other charges, like a haircut or a new kettle, happened only because you decided to buy, again. For a business, that small difference changes almost everything."
+      ],
+      "image": {
+        "label": "A bank statement with some lines repeating every month",
+        "aspectRatio": "4:3",
+        "brief": "책상 위 종이 은행 거래 내역서 클로즈업. 'Phone', 'Insurance', 'Gym' 줄은 매달 같은 날짜에 반복되고 순환 화살표 아이콘으로 표시. 'Haircut', 'Kettle' 줄은 한 번씩만 나타나고 점 아이콘으로 표시. 실제 은행, 브랜드 로고는 쓰지 않음.",
+        "url": "assets/images/bmo-06-01-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "One open slot, two clients.",
+      "illustrative": true,
+      "body": [
+        "You run a commercial cleaning company with room for one more client this year.",
+        "Client A wants a one-time deep clean after an office renovation: **$9,000**, paid this month. Client B wants weekly cleaning at **$700 a month**, cancel with 30 days' notice. Which is worth more to your business?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Client A. More money, sooner, and no risk of cancelling",
+            "verdict": "neutral",
+            "feedback": "You get $9,000 now and a clean finish. But when the job ends, next month starts at zero and you have to sell again."
+          },
+          {
+            "key": "B",
+            "text": "Client B. Less this year, but it keeps coming",
+            "verdict": "neutral",
+            "feedback": "If they stay 12 months, that's $8,400, a bit less than A. But each month arrives without a new sale, so you can plan staff around it."
+          },
+          {
+            "key": "C",
+            "text": "Whichever leaves more profit after labor and supplies",
+            "verdict": "neutral",
+            "feedback": "A sensible test, and it matters. But it treats both as the same kind of money, and they aren't."
+          }
+        ],
+        "afterReveal": "The yearly totals are close. The real difference is what happens next month if nobody does anything."
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "Fast-forward",
+      "title": "Look at month two.",
+      "illustrative": true,
+      "body": [
+        "Winning each client took about the same effort. They leave you in very different places for month two."
+      ],
+      "breakdown": [
+        {
+          "value": "$9,000",
+          "label": "Client A, month 1",
+          "detail": "Paid in full, job done",
+          "highlight": false
+        },
+        {
+          "value": "$0",
+          "label": "Client A, month 2",
+          "detail": "Only if you win new work",
+          "highlight": false
+        },
+        {
+          "value": "$700",
+          "label": "Client B, month 1",
+          "detail": "First month of the contract",
+          "highlight": false
+        },
+        {
+          "value": "$700",
+          "label": "Client B, month 2",
+          "detail": "Arrives unless they cancel",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Recurring vs one-time revenue",
+      "body": [
+        "**Recurring revenue** comes again without a new sale. The customer has agreed to keep paying, so continuing is the default and stopping takes a decision.",
+        "**One-time revenue** ends with the sale. To earn it again, you have to win it again.",
+        "A simple test: if you did nothing next month, would the money still come?"
+      ],
+      "image": {
+        "label": "Two paths: a loop that returns and a line that stops",
+        "aspectRatio": "16:9",
+        "brief": "좌우 분할 인포그래픽. 왼쪽 'Recurring': 동전이 원형 고리를 따라 계속 돌아오는 모습, 라벨 'Continues unless someone stops it'. 오른쪽 'One-time': 동전 하나가 직선을 따라 가다가 끝에서 멈춤, 라벨 'Ends unless you sell again'. 단순한 플랫 스타일.",
+        "url": "assets/images/bmo-06-01-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Why the same dollar isn't worth the same.",
+      "body": [
+        "A one-time business starts every month at zero. A recurring business starts with last month's customers already paying. That changes how you run it:"
+      ],
+      "list": [
+        "**Planning:** you can hire or buy equipment against income you can see coming",
+        "**Selling:** each new client adds to the base instead of replacing last month's work",
+        "**Value:** buyers and lenders often value predictable income more highly"
+      ],
+      "callout": "One-time revenue runs to stand still. Recurring revenue builds."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where the line falls",
+      "title": "A regular is not a subscription.",
+      "illustrative": true,
+      "body": [
+        "A bakery regular who comes in every morning brings repeat revenue. It feels recurring. But every visit is a fresh choice, and a new café next door can end it without notice.",
+        "Revenue sits on a spectrum: one-time (a wedding cake), repeat (the daily croissant), recurring (a weekly bread order for a restaurant, billed monthly). Only the last one continues by default."
+      ],
+      "image": {
+        "label": "Three bakery items on a scale from one-time to recurring",
+        "aspectRatio": "16:9",
+        "brief": "가로 스펙트럼 막대. 왼쪽부터 웨딩 케이크('One-time'), 크루아상 한 개('Repeat'), 매주 배달되는 빵 상자와 달력('Recurring'). 오른쪽으로 갈수록 순환 화살표가 진해짐. 실제 브랜드 로고 없음.",
+        "url": "assets/images/bmo-06-01-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Recurring revenue is earned again every month.",
+      "body": [
+        "A contract lasts only as long as the customer keeps getting something. Stop delivering, and the default flips to cancel.",
+        "It also costs cash early. $700 a month brings in less than $9,000 now, while your own bills still arrive on time.",
+        "And some needs really are one-time. Nobody wants a subscription to moving house. Forcing one just adds friction."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a photo app.",
+      "illustrative": true,
+      "body": [
+        "You sell a photo-editing app for a one-time **$60**. Sales are steady, but every month starts from zero. You're thinking about moving to **$5 a month**.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Switch everyone to $5 a month and stop selling the $60 version",
+            "verdict": "risky",
+            "feedback": "You'd gain predictable income, but people who edit a few photos a year would pay more for the same app. Many may feel pushed and leave."
+          },
+          {
+            "key": "B",
+            "text": "Keep the $60 version and add a $5 monthly plan with ongoing extras, like cloud backup and new tools",
+            "verdict": "best",
+            "feedback": "The payment recurs because the value recurs. Users get a reason to keep paying, and one-time buyers aren't forced out."
+          },
+          {
+            "key": "C",
+            "text": "Keep only the $60 price and spend more on finding new buyers",
+            "verdict": "partial",
+            "feedback": "Simple and fair for people who want to own the app. But income stays a treadmill: each month's sales must be won from scratch."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Ask what happens next month if you do nothing.",
+      "body": [
+        "Recurring revenue continues by default. One-time revenue has to be won again. Equal totals can hide very different businesses.",
+        "**Try it today:** split last month's revenue into two piles: money that will come again without a new sale, and money you'll have to win again. How big is the first pile?"
+      ],
+      "next": "Next · Why losing a few customers a month hurts more than it sounds"
+    }
+  ]
+}

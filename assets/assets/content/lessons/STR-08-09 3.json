@@ -1,0 +1,240 @@
+{
+  "id": "STR-08-09",
+  "unitId": "STR-08",
+  "categoryId": "STR",
+  "order": 9,
+  "type": "case",
+  "conceptTag": "Google wasn't the first search engine",
+  "readerTitle": "Google was late to search. Why didn't that matter?",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Google, AltaVista, Yahoo, Excite, Lycos, GoTo.com/Overture) + 가상 적용 (물류 센서 제조사)",
+  "insight": "먼저 들어갔는지가 아니라, 먼저 들어가서 고객을 붙잡아 둘 무언가(전환 비용, 네트워크, 희소 자원)가 생겼는지를 본다.",
+  "misconception": "시장에 먼저 들어간 회사가 이긴다. 이미 강자가 있는 시장에는 늦었다.",
+  "relatedLessonIds": [
+    "STR-08-01",
+    "STR-08-02"
+  ],
+  "sources": [
+    {
+      "text": "Brin, S. & Page, L. (1998). The Anatomy of a Large-Scale Hypertextual Web Search Engine. Stanford University (PageRank 설명)",
+      "url": null
+    },
+    {
+      "text": "Google, company history ('Our story'): 1998년 9월 법인 설립, Stanford 연구 프로젝트에서 시작",
+      "url": null
+    },
+    {
+      "text": "Yahoo! and Google press release (June 2000): Google이 Yahoo 검색 결과를 제공하기로 한 계약",
+      "url": null
+    },
+    {
+      "text": "GoTo.com/Overture 역사 자료 및 언론 보도: 1998년 입찰 방식 검색 광고 도입",
+      "url": null
+    },
+    {
+      "text": "United States v. Google LLC, U.S. District Court for the District of Columbia, memorandum opinion (August 2024)",
+      "url": null
+    },
+    {
+      "text": "Lieberman, M. & Montgomery, D. (1988). First-Mover Advantages. Strategic Management Journal.",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "초기 검색엔진 출시 연도: WebCrawler·Lycos·Yahoo 1994년, AltaVista·Excite 1995년(Excite의 전신 Architext는 1993년). 카드에는 \"1994 and 1995\"로만 적었습니다. 게시 전 각 회사 연혁으로 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "1990년대 후반 경쟁사들이 뉴스·이메일·날씨 등을 붙인 '포털' 전략으로 간 것은 널리 기록된 내용이지만, 회사별 시점은 다릅니다. 카드에는 일반적으로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Yahoo가 2000년 6월 Google을 검색 결과 제공사로 선택한 계약은 양사 보도자료로 확인하세요. 시장 점유율 수치는 확실하지 않아 넣지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "GoTo.com(이후 Overture)의 입찰식 검색 광고는 1998년 시작. Google AdWords는 2000년 출시, 클릭당 과금과 광고 품질(클릭률) 반영은 2002년경 도입. 카드에는 \"later\", \"also weighed how often people clicked\"로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "2024년 8월 미국 연방지방법원 판결: Google이 브라우저·휴대폰 제조사와의 기본 검색엔진 계약 등을 통해 검색 독점을 불법 유지했다고 판단. 항소·구제 조치 진행 상황을 게시 직전에 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "\"1998년에는 앞으로 인터넷을 쓸 사람 대부분이 아직 온라인이 아니었다\"는 정성적 표현입니다. 구체적 수치는 넣지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Strategy · Counterexample",
+      "title": "Google wasn't the first search engine.",
+      "body": [
+        "WebCrawler, Lycos, Yahoo, AltaVista and Excite all launched in 1994 and 1995. Millions of people already used them.",
+        "Google was incorporated in September 1998, years behind. It went on to beat every one of them. Being first, it turns out, wasn't worth much here."
+      ],
+      "image": {
+        "label": "Old search boxes lined up, with a late plain one at the end",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 1990년대 풍 브라우저 창 다섯 개가 출발선에 줄지어 있고, 맨 끝에 늦게 도착한 아주 단순한 검색창 하나. 실제 회사 로고나 이름은 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "It's 1998. You have a better way to rank results.",
+      "body": [
+        "Several search engines are already well known and well funded. Their results are often cluttered or off-target. You and a co-founder have a method that ranks pages better.",
+        "What's your best move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Don't launch. The early players already own search",
+            "verdict": "risky",
+            "feedback": "You avoid a costly fight, but you assume their head start is locked in. Ask first what actually stops their users from leaving."
+          },
+          {
+            "key": "B",
+            "text": "Launch a plain search page and compete only on better results",
+            "verdict": "best",
+            "feedback": "Searchers can switch by typing a new address, so quality can win. The cost: you skip the extras that rivals use to hold attention."
+          },
+          {
+            "key": "C",
+            "text": "Launch a full portal with news and email to match the leaders",
+            "verdict": "partial",
+            "feedback": "You'd look like a serious rival. But you'd spread a small team thin and copy the leaders' weakest area: the search itself."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "The leaders drifted. Google stayed on one job.",
+      "body": [
+        "In the late 1990s, many search companies turned into portals, adding news, email, weather and shopping to keep visitors on their pages.",
+        "Google kept a nearly empty homepage. Its edge was **PageRank**: it ranked a page higher when many other pages linked to it, especially important ones.",
+        "Results got noticeably better. In 2000, Yahoo chose Google to power its own search results."
+      ],
+      "image": {
+        "label": "A crowded portal page beside a single search box",
+        "aspectRatio": "16:9",
+        "brief": "좌우 비교 일러스트. 왼쪽은 뉴스·날씨·쇼핑 배너로 꽉 찬 웹페이지, 오른쪽은 흰 바탕에 검색창 하나뿐인 페이지. 실제 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Being first only helps if something locks customers in.",
+      "body": [
+        "**First-mover advantage** is real only when the early lead turns into something that stays. Common locks:"
+      ],
+      "list": [
+        "**Switching costs:** leaving takes money, time or retraining",
+        "**Network effects:** each user makes it better for the others",
+        "**Scarce assets:** the best locations, suppliers or licenses",
+        "**Learning that stays hidden:** know-how rivals can't copy"
+      ],
+      "callout": "Early search had almost none of these. Switching took one new web address."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Why late worked",
+      "title": "The late mover got three gifts.",
+      "body": [
+        "**Free lessons.** The pioneers had shown what people searched for and what annoyed them.",
+        "**Better conditions.** The web had grown, so there were far more links to learn from. Link-based ranking works better on a bigger web.",
+        "**A market still ahead.** In 1998, most people who would ever search online weren't online yet. The leaders had a head start, not the whole market."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "It happened twice",
+      "title": "Google was late to search ads too.",
+      "body": [
+        "In 1998, GoTo.com (later Overture) began selling search ads ranked by how much advertisers bid.",
+        "Google's ad system came later. It also weighed how often people clicked on an ad, so useful ads could beat high bids.",
+        "Again, the first idea came from someone else. The better version, built when the market was still growing, took the prize."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Late isn't a strategy on its own.",
+      "body": [
+        "Many latecomers to search vanished. Google won with a clearly better product, not by waiting. Stories like this one hide the failures.",
+        "And once Google led, it built its own locks, including deals to be the default search engine in browsers and phones. In 2024, a US court ruled that Google used such deals to illegally keep its monopoly.",
+        "Leads without locks are rented. Leaders know it."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now you make sensors for warehouses.",
+      "illustrative": true,
+      "body": [
+        "You've built a better pallet-tracking sensor. Two rivals got there first.",
+        "Rival X sells tags that work with any scanner, bought month to month. Rival Y's tags run on a warehouse system customers spent months installing and training staff on. Which lead is harder to attack?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Rival X. It has sold to more warehouses for longer",
+            "verdict": "risky",
+            "feedback": "More customers looks strong, but they can switch next month. Time in market isn't a lock."
+          },
+          {
+            "key": "B",
+            "text": "Rival Y. Switching means redoing installation and training",
+            "verdict": "best",
+            "feedback": "Y's head start became a switching cost. Attack X first, or make moving from Y cheap, for example by doing the setup for free."
+          },
+          {
+            "key": "C",
+            "text": "Neither. A better sensor will beat both",
+            "verdict": "partial",
+            "feedback": "True against X, where quality alone can win. Against Y, a better sensor still asks customers to pay the cost of switching."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "The same test applies to apps. A tool people can swap in a minute has a thin lead. A tool holding a team's data, workflows and integrations has a thick one."
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Don't ask who was first. Ask what being first locked in.",
+      "body": [
+        "If nothing keeps customers from leaving, an early lead can be overtaken by a better product.",
+        "**Try it today:** pick your strongest rival. List what would stop one of their customers from switching to you tomorrow. If the list is short, their lead is smaller than it looks."
+      ],
+      "next": "Next · Launch now or wait? You make the call."
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "id": "SAL-05-03",
+  "unitId": "SAL-05",
+  "categoryId": "SAL",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "Many issues at once",
+  "readerTitle": "Why splitting the difference leaves money on the table",
+  "format": "numbers_twist",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "illustrative",
+    "anecdote",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (식당과 빵 공급업체, 회사 안의 마케팅팀과 데이터팀) + 오렌지 일화 + 협상 연구(고정 파이 편향)의 일반적 설명 · 점수는 모두 설명용",
+  "insight": "쟁점이 여럿이면 각 쟁점을 반씩 나누지 말고, 내가 덜 중요하게 여기는 쟁점을 상대가 더 중요하게 여기는 쟁점과 맞바꾸면 양쪽 모두 더 많이 얻는다.",
+  "misconception": "공정한 협상은 모든 쟁점에서 중간 지점을 찾는 것이고, 쟁점은 하나씩 차례로 정리하는 게 깔끔하다.",
+  "relatedLessonIds": [
+    "SAL-05-01",
+    "SAL-05-04"
+  ],
+  "sources": [
+    {
+      "text": "Thompson, L., & Hastie, R. (1990). Social perception in negotiation. Organizational Behavior and Human Decision Processes. (고정 파이 편향)",
+      "url": null
+    },
+    {
+      "text": "Fisher, R., & Ury, W. (1981). Getting to Yes. (오렌지 일화의 대표적 출처 중 하나)",
+      "url": null
+    },
+    {
+      "text": "식당·빵집, 마케팅팀·데이터팀 사례와 점수는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "점수 계산 확인: 식당 가치 배분 = 배송 시간 50, 가격 40, 결제 조건 10. 빵집 = 결제 조건 50, 가격 40, 배송 시간 10. 전부 반씩 나누면 각자 25+20+5 = 50점. 맞바꾸면 식당 50+20+0 = 70점, 빵집 50+20+0 = 70점. 합계 100 → 140, 각자 50 → 70(+40%).",
+      "status": "open"
+    },
+    {
+      "note": "Thompson & Hastie(1990) 연구는 많은 협상자가 상대의 우선순위가 자기와 정반대라고 가정한다(고정 파이 편향)는 결과로 알려져 있습니다. 구체적인 비율은 카드에 쓰지 않았습니다. 게시 전에 원문으로 표현을 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "오렌지 일화는 Mary Parker Follett 등 여러 출처에 변형이 있는 우화입니다. 카드에 'an old story told in negotiation classes'로 일화임을 밝혔습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Negotiation · Numbers twist",
+      "title": "Why splitting the difference leaves money on the table",
+      "illustrative": true,
+      "body": [
+        "A restaurant and its bread supplier argue over three things: price, delivery time and payment terms.",
+        "They meet in the middle on every one. It feels fair. By the numbers in this lesson, both sides walk away with about 30% less than they could have had."
+      ],
+      "image": {
+        "label": "Restaurant owner and baker at a table with three sliders",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 일러스트. 식당 주인과 제빵사가 작은 테이블에 마주 앉아 있고, 테이블 위에 \"Price\", \"Delivery time\", \"Payment terms\" 라벨이 붙은 슬라이더 3개. 세 슬라이더 모두 정확히 가운데에 멈춰 있음. 실제 브랜드나 로고 없음.",
+        "url": "assets/images/sal-05-03-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Three issues, one supplier.",
+      "illustrative": true,
+      "body": [
+        "You run a busy brunch restaurant. Your bakery wants a higher price per loaf, payment in 7 days instead of 30, and delivery at 10 a.m.",
+        "You need bread by 6 a.m. before brunch starts. How do you negotiate?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Settle price first, then move on to the other two",
+            "verdict": "risky",
+            "feedback": "It feels orderly, but once price is closed you have nothing left to trade. Each later issue becomes a tug-of-war."
+          },
+          {
+            "key": "B",
+            "text": "Meet them halfway on all three",
+            "verdict": "partial",
+            "feedback": "Quick and fair-looking. But you give up half of what you care about most to win half of what you barely care about."
+          },
+          {
+            "key": "C",
+            "text": "Ask what matters most to them, then offer fast payment for early delivery",
+            "verdict": "best",
+            "feedback": "If cash flow matters most to them and timing matters most to you, you each get your top issue. Next card shows the numbers."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Score each deal out of 100.",
+      "illustrative": true,
+      "body": [
+        "Say the restaurant gives delivery time 50 points, price 40 and payment terms 10. The bakery cares in reverse: payment 50, price 40, delivery 10.",
+        "Splitting everything gives each side **50**. Trading delivery for payment, and splitting only price, gives each side **70**."
+      ],
+      "breakdown": [
+        {
+          "value": "50 / 50",
+          "label": "Split every issue",
+          "detail": "Each side gets half of everything",
+          "highlight": false
+        },
+        {
+          "value": "+50",
+          "label": "Early delivery",
+          "detail": "Restaurant's top issue, costs the bakery 10",
+          "highlight": false
+        },
+        {
+          "value": "+50",
+          "label": "Payment in 7 days",
+          "detail": "Bakery's top issue, costs the restaurant 10",
+          "highlight": false
+        },
+        {
+          "value": "70 / 70",
+          "label": "Trade, then split price",
+          "detail": "Same issues, 40% more value each",
+          "highlight": true
+        }
+      ],
+      "callout": "Nobody gave in. The total just grew from 100 to 140."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Trading across issues",
+      "body": [
+        "When a deal has several issues, the two sides rarely care about them equally. **Trading across issues** means giving ground on what matters less to you in return for what matters more.",
+        "Negotiators sometimes call this *logrolling*. It only works when issues are on the table together. One issue at a time, every move is a straight win or loss."
+      ],
+      "image": {
+        "label": "Two scales showing different weights for the same three issues",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 왼쪽은 식당, 오른쪽은 빵집의 막대 3개(Delivery, Price, Payment). 식당은 Delivery가 가장 길고, 빵집은 Payment가 가장 김. 두 긴 막대를 화살표로 맞바꾸는 모습.",
+        "url": "assets/images/sal-05-03-c4.jpg"
+      },
+      "softwareNote": "A software contract has the same shape: seat price, contract length, upfront payment, onboarding help. A buyer who wants a low monthly price may happily sign for two years, which is worth more to the seller than the discount costs."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Why we miss it",
+      "title": "We assume the pie is fixed.",
+      "body": [
+        "An old story told in negotiation classes: two sisters split an orange in half. One wanted the juice, the other the peel for baking. Each could have had the whole thing.",
+        "Research backs up the story's point. Leigh Thompson and Reid Hastie found that many negotiators assume the other side wants the opposite of them on every issue. This is called the **fixed-pie bias**, and it hides trades that would help both sides."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How to do it",
+      "title": "Put everything on the table first.",
+      "body": [
+        "A few habits make trades visible:"
+      ],
+      "list": [
+        "**List all issues** before agreeing to any one",
+        "**Ask about priorities:** \"Which of these matters most to you?\"",
+        "**Rank your own** issues before you walk in",
+        "**Offer two or three packages** of equal value to you, and see which they pick"
+      ],
+      "callout": "Their choice between packages tells you what they value."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Trades need real differences.",
+      "body": [
+        "If both sides care most about the same thing, like price, there is less to trade. Some deals really are a split.",
+        "Sharing priorities also carries risk. A hard bargainer may pretend not to care about your top issue to make you pay for it. Learn their priorities by asking and watching their choices, and reveal yours gradually.",
+        "And don't invent fake issues to trade away. People notice, and it costs trust."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's two teams in one company.",
+      "illustrative": true,
+      "body": [
+        "You lead marketing. You need a sales dashboard from the data team before a launch in three weeks. They say eight weeks; they're overloaded.",
+        "You learn they mostly dread maintaining one-off dashboards forever. What do you propose?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Ask your boss to make the dashboard their top priority",
+            "verdict": "risky",
+            "feedback": "You may get the date, but the data team pays the whole cost. The next request gets harder."
+          },
+          {
+            "key": "B",
+            "text": "Meet in the middle at five or six weeks",
+            "verdict": "partial",
+            "feedback": "Fair on paper, but it misses your launch and ignores their real worry."
+          },
+          {
+            "key": "C",
+            "text": "Cut the scope and have your team own upkeep, in return for three weeks",
+            "verdict": "best",
+            "feedback": "You get your top issue, the date. They get theirs, no long-term upkeep. Both sides end up ahead."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Don't split each issue. Trade between them.",
+      "body": [
+        "When a deal has several parts, find what each side cares about most and swap. Meeting in the middle on everything often leaves both sides worse off.",
+        "**Try it today:** pick a deal you're working on. List every issue and score how much each matters to you out of 100. Then guess the other side's scores."
+      ],
+      "next": "Next · How to get a stuck negotiation moving again"
+    }
+  ]
+}

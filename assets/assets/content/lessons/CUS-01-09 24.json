@@ -1,0 +1,236 @@
+{
+  "id": "CUS-01-09",
+  "unitId": "CUS-01",
+  "categoryId": "CUS",
+  "order": 9,
+  "type": "case",
+  "conceptTag": "M-Pesa and sending money home in Kenya",
+  "readerTitle": "M-Pesa was built for loan repayments. Kenyans used it to send money home.",
+  "format": "counterexample",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.4,
+  "caseKinds": [
+    "real_company",
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Safaricom M-Pesa, 케냐 · Vodacom M-Pesa, 남아공) + 실제 연구 (Suri & Jack 2016) + 가상 적용 (식당)",
+  "insight": "고객이 제품을 '어떤 일'에 쓰는지는 만든 사람의 설계가 아니라 고객의 실제 행동이 알려준다. 계획 밖의 사용은 오류가 아니라 신호일 수 있다.",
+  "misconception": "제품은 설계한 용도대로 쓰여야 하고, 계획에 없던 사용은 범위 밖의 잡음이다. 한 시장에서 성공한 제품은 다른 시장에서도 같은 이유로 성공한다.",
+  "relatedLessonIds": [
+    "CUS-01-02",
+    "CUS-01-06"
+  ],
+  "sources": [
+    {
+      "text": "Hughes, N. & Lonie, S. (2007). M-PESA: Mobile Money for the 'Unbanked'. Innovations: Technology, Governance, Globalization, MIT Press. (파일럿의 원래 목적, 파일럿 사용자의 예상 밖 사용, 영국 DFID 지원)",
+      "url": null
+    },
+    {
+      "text": "Suri, T. & Jack, W. (2016). The long-run poverty and gender impacts of mobile money. Science, 354(6317).",
+      "url": null
+    },
+    {
+      "text": "Jack, W. & Suri, T. (2014). Risk Sharing and Transactions Costs: Evidence from Kenya's Mobile Money Revolution. American Economic Review.",
+      "url": null
+    },
+    {
+      "text": "Safaricom, M-Pesa company history (2007 출시, 'Send money home' 캠페인)",
+      "url": null
+    },
+    {
+      "text": "Vodacom 발표 및 언론 보도 (2016), 남아공 M-Pesa 서비스 종료",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "파일럿(2005~2006년경)이 마이크로파이낸스 대출 상환용으로 설계되었고(Faulu Kenya 등 참여), 사용자들이 송금·결제 등 다른 용도로 쓰기 시작했다는 내용은 Hughes & Lonie(2007)로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "정식 출시 시점(2007년 3월)과 'Send money home' 메시지는 Safaricom 공식 자료로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "사용자 수는 구체 수치 대신 'millions of Kenyans within a few years'로만 적었습니다. 게시 전 연도별 수치가 필요하면 Safaricom 연차보고서로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Suri & Jack(2016): M-Pesa 접근성이 케냐 가구의 약 2%(약 19만 4천 가구)를 극빈에서 벗어나게 했다는 추정, 여성 가구주 가구에서 효과가 더 컸다는 결과. 원문 수치를 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "이전 송금 방식(버스 기사·지인 편 현금 전달, 우편환 등)은 Jack & Suri(2014) 및 Hughes & Lonie(2007)의 일반 서술을 바탕으로 정성적으로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "남아공 M-Pesa는 2010년 출시, 2016년 종료(Vodacom 발표). 실패 원인으로 높은 은행 접근성과 기존 대안이 흔히 언급되나 해석은 다양하므로 카드에는 'often pointed to'로 완화해 적었습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Counterexample",
+      "title": "M-Pesa was built for loan repayments. Kenyans used it to send money home.",
+      "body": [
+        "In the mid-2000s, Kenya's mobile operator Safaricom tested a way to move money by text message. The plan was narrow: help microfinance customers repay small loans.",
+        "Then the people in the pilot started doing something nobody had planned."
+      ],
+      "image": {
+        "label": "A basic phone sending money from a city to a rural village",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 도시의 작은 상점 앞에서 피처폰을 든 사람, 점선 화살표가 들판의 시골 마을 집으로 이어짐. 화살표 위에 작은 동전 아이콘. 실제 통신사 로고나 브랜드 색상은 쓰지 않음.",
+        "url": "assets/images/cus-01-09-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Your pilot users are going off-script.",
+      "body": [
+        "You run the pilot. It was designed so borrowers could repay loans by phone. But you notice users sending money to relatives, paying for things and moving cash for safety on trips.",
+        "You're preparing the national launch. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Stay focused on loan repayments. That's what the system was built and approved for",
+            "verdict": "risky",
+            "feedback": "You keep a clear, tested use case. But you'd be launching around the job a few people needed, not the one many people were already doing."
+          },
+          {
+            "key": "B",
+            "text": "Rebuild the launch around person-to-person transfers",
+            "verdict": "best",
+            "feedback": "You follow what customers actually did. The cost is redesigning the product, the pitch and the cash network around a job you didn't plan for."
+          },
+          {
+            "key": "C",
+            "text": "Launch loan repayments, and add transfers later if demand grows",
+            "verdict": "partial",
+            "feedback": "Lower risk on day one. But the first message customers hear shapes what they think the product is for."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "Safaricom changed the pitch to \"send money home.\"",
+      "body": [
+        "M-Pesa launched in Kenya in 2007 as a way to send money to another phone. The message was simple: **send money home**.",
+        "Customers paid cash to a local agent, often a shop that already sold phone airtime. The money arrived as a text. The receiver collected cash from an agent in their own town.",
+        "Millions of Kenyans signed up within a few years. Most had no bank account."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Customers decide what job your product does.",
+      "body": [
+        "People *hire* a product to get a job done in their lives. That job is set by their situation, not by your plan.",
+        "Many Kenyans worked in cities and supported family in rural villages. Sending money there was a real, repeated job. The loan repayment was a job for a lender's process.",
+        "The pilot users didn't explain this in a survey. They **showed it with their behavior**."
+      ],
+      "image": {
+        "label": "Designed use versus actual use, side by side",
+        "aspectRatio": "16:9",
+        "brief": "좌우 비교 인포그래픽. 왼쪽 \"Designed for: loan repayments\"는 작고 흐린 화살표 하나. 오른쪽 \"Used for: sending money home\"은 도시에서 여러 시골 집으로 퍼지는 굵은 화살표들. 로고 없음.",
+        "url": "assets/images/cus-01-09-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Why it worked",
+      "title": "The old way to send money home was slow and risky.",
+      "body": [
+        "Before M-Pesa, people often sent cash with bus drivers, friends or relatives travelling home, or used slower formal services. Money could be lost, delayed or stolen.",
+        "M-Pesa beat that alternative on speed, cost and safety. Economists Tavneet Suri and William Jack later estimated that access to M-Pesa lifted about **2% of Kenyan households** out of extreme poverty, with larger effects for households headed by women."
+      ],
+      "softwareNote": "Usage data often shows customers leaning on a side feature far more than the \"main\" one. Before you prune it, ask what job it's doing for them."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The counterexample",
+      "title": "Same product, different job: South Africa.",
+      "body": [
+        "Vodacom launched M-Pesa in South Africa in 2010. It closed the service in 2016.",
+        "The technology was similar. The customers' situation was not. Far more South Africans already had bank accounts and other ways to move money. Analysts often pointed to that as a key reason.",
+        "A product doesn't carry its job with it. The job lives in the customer's life."
+      ],
+      "image": {
+        "label": "Two maps: one full of arrows, one quiet",
+        "aspectRatio": "16:9",
+        "brief": "두 지역 지도 실루엣을 나란히. 왼쪽은 송금 화살표가 촘촘함, 오른쪽은 은행 건물 아이콘이 많고 화살표는 거의 없음. 국가 국기나 실제 로고는 쓰지 않음.",
+        "url": "assets/images/cus-01-09-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Not every surprise is a signal.",
+      "body": [
+        "M-Pesa also had conditions that helped: Safaricom was the dominant operator, airtime shops could become agents, and the regulator let the service run.",
+        "An unexpected use matters when it repeats, spreads to new people and replaces something painful. A few odd uses by enthusiasts may just be noise. Watch for frequency, not novelty."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a restaurant.",
+      "illustrative": true,
+      "body": [
+        "You launched a family meal box for Sunday dinners. Sunday orders are flat. But the same box keeps selling on weeknights, mostly to parents ordering after work, and many reorder weekly.",
+        "What's your next move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Push Sunday harder with ads and a discount",
+            "verdict": "risky",
+            "feedback": "You stay true to the plan, but spend money fighting the behavior you can see instead of serving it."
+          },
+          {
+            "key": "B",
+            "text": "Talk to weeknight buyers, then test a weeknight version",
+            "verdict": "best",
+            "feedback": "You follow a repeated job: dinner for tired parents. It costs some menu and kitchen changes, but you build on proven demand."
+          },
+          {
+            "key": "C",
+            "text": "Drop the box. It missed its target",
+            "verdict": "partial",
+            "feedback": "Cutting losers is healthy, but this one isn't losing. It found a different customer than you expected."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Your plan names the product. Your customers name the job.",
+      "body": [
+        "When people use what you built in a way you didn't expect, and keep doing it, look closely before you correct them.",
+        "**Try it today:** list three ways customers use your product that you never planned. Which one happens most often?"
+      ],
+      "next": "Next · Interview a customer without leading them"
+    }
+  ]
+}

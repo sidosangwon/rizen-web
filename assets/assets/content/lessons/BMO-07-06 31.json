@@ -1,0 +1,235 @@
+{
+  "id": "BMO-07-06",
+  "unitId": "BMO-07",
+  "categoryId": "BMO",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Platform risk",
+  "readerTitle": "Your fee went up 10 points. Your profit fell by half.",
+  "format": "numbers_twist",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.3,
+  "caseKinds": [
+    "illustrative",
+    "real_company"
+  ],
+  "caseNote": "가상 사례 (번역 에이전시, 쇼핑몰용 앱) + 실제 기업 (Twitter의 2023년 서드파티 앱 차단) · 가상 수치는 설명용",
+  "insight": "플랫폼 위험은 수수료율이 아니라 '내가 통제하지 못하는 규칙 하나에 걸린 이익의 비율'로 잰다. 마진이 얇을수록 작은 규칙 변경이 이익을 크게 깎는다.",
+  "misconception": "플랫폼 수수료가 10%p 오르면 이익도 10% 정도 줄 뿐이다. 우리가 플랫폼에 돈을 벌어 주니 플랫폼이 우리를 함부로 대하지 않을 것이다.",
+  "relatedLessonIds": [
+    "BMO-07-03",
+    "BMO-07-07"
+  ],
+  "sources": [
+    {
+      "text": "번역 에이전시와 쇼핑몰용 앱의 모든 수치는 설명용 가상 예시",
+      "url": null
+    },
+    {
+      "text": "Twitter의 서드파티 클라이언트 차단(2023년 1월) 및 Twitterrific 종료 공지 (The Iconfactory 블로그, 2023년 1월)",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "계산 확인: 플랫폼 매출 $400,000 − 번역가·프로젝트 비용 $280,000(70%) − 수수료 10% $40,000 = $80,000. 수수료 20%일 때 $400,000 − $280,000 − $80,000 = $40,000. 감소율 ($80,000 − $40,000) ÷ $80,000 = 50%.",
+      "status": "open"
+    },
+    {
+      "note": "Twitter가 2023년 1월 사전 공지 없이 Tweetbot, Twitterrific 등 서드파티 앱의 API 접근을 막았고, Twitterrific이 같은 달 서비스 종료를 발표한 사실을 게시 전 원문으로 확인하세요. Twitterrific 출시는 2007년으로 알려져 있어 '약 16년'으로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "쇼핑몰 앱 사례의 '신규 고객 60%'는 가상 수치입니다. 특정 앱 마켓의 실제 정책을 암시하지 않도록 플랫폼 이름을 쓰지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business models · Numbers twist",
+      "title": "Your fee went up 10 points. Your profit fell by half.",
+      "illustrative": true,
+      "body": [
+        "A small translation agency gets most of its work through one online marketplace for business services. Clients find it there, pay there and leave reviews there.",
+        "One morning, the marketplace emails a short notice: its fee is going from 10% to 20% of each order. It sounds like a small change. It isn't."
+      ],
+      "image": {
+        "label": "An email notice about a fee change on a laptop screen",
+        "aspectRatio": "4:3",
+        "brief": "사무실 책상 위 노트북 화면에 짧은 이메일: \"Fee update: 10% → 20%\". 화면 옆 커피잔과 서류 더미. 실제 플랫폼 로고나 상표는 쓰지 않음. 차분하지만 긴장감 있는 조명.",
+        "url": "assets/images/bmo-07-06-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How much of your profit disappears?",
+      "illustrative": true,
+      "body": [
+        "Last year the marketplace brought you $400,000 of work. Translators and project costs take 70% of that. The marketplace took 10%.",
+        "Now the fee doubles to 20%. How much of the profit from that work is gone?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "About 10%, since the fee rose 10 points",
+            "verdict": "risky",
+            "feedback": "It feels proportional, but the extra fee comes straight out of a thin slice of profit, not out of the whole order."
+          },
+          {
+            "key": "B",
+            "text": "About half",
+            "verdict": "best",
+            "feedback": "Right. You kept $80,000 before and $40,000 after. The next card shows why."
+          },
+          {
+            "key": "C",
+            "text": "Very little, because you'll raise your prices",
+            "verdict": "partial",
+            "feedback": "Possible if every rival faces the same fee. But clients compare prices on the same page, and you only control one side of that decision."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Follow the $400,000.",
+      "illustrative": true,
+      "body": [
+        "The fee rose by $40,000. Your profit was only $80,000, so **half of it** went to the platform. The thinner your margin, the harder each rule change hits."
+      ],
+      "breakdown": [
+        {
+          "value": "$400,000",
+          "label": "Work through the marketplace",
+          "detail": "What clients paid",
+          "highlight": false
+        },
+        {
+          "value": "−$280,000",
+          "label": "Translators and project costs",
+          "detail": "70% of the work",
+          "highlight": false
+        },
+        {
+          "value": "−$40,000 → −$80,000",
+          "label": "Platform fee",
+          "detail": "10% before, 20% after",
+          "highlight": false
+        },
+        {
+          "value": "$80,000 → $40,000",
+          "label": "What you keep",
+          "detail": "Down 50%",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Platform risk",
+      "body": [
+        "**Platform risk** is the danger that a platform you don't control changes its rules, and a big part of your business goes with it.",
+        "Two things set the size of the risk: how much of your profit flows through the platform, and how freely the platform can change the terms. The agency had both: most of its work, and terms it could not negotiate."
+      ],
+      "image": {
+        "label": "A business standing on a floor owned by someone else",
+        "aspectRatio": "16:9",
+        "brief": "작은 가게 건물이 커다란 손바닥 위에 올려져 있는 일러스트. 손바닥 옆에 다이얼 두 개: \"Share of profit through platform\", \"Platform's freedom to change rules\". 실제 로고 없음.",
+        "url": "assets/images/bmo-07-06-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "A real case",
+      "title": "When access disappears overnight.",
+      "body": [
+        "In January 2023, Twitter cut off the third-party apps that people used to read their feeds, reportedly with little warning. Popular apps such as Tweetbot and Twitterrific stopped working.",
+        "Twitterrific's makers announced it was shutting down after about 16 years. The app was well made and well loved. That didn't matter. Everything it did depended on access that someone else could switch off."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Four levers a platform can pull.",
+      "body": [
+        "Fees are only one of them. A platform can change:"
+      ],
+      "list": [
+        "**Price:** a higher cut of every sale",
+        "**Reach:** a new ranking or feed rule that hides you",
+        "**Access:** closed data, a banned account, a new review policy",
+        "**Competition:** its own version of what you sell"
+      ],
+      "callout": "Platforms tend to pull these levers when sellers have the fewest other options."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Leaving isn't automatically safer.",
+      "body": [
+        "Platforms often bring you customers more cheaply than you could find them alone. Walking away to avoid risk can cost more than the risk itself.",
+        "Building your own channels also takes money and years. The goal isn't zero dependence. It's knowing your share, setting a limit you can survive, and moving customers into a direct relationship where the rules allow it."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's software.",
+      "illustrative": true,
+      "body": [
+        "You sell a shipping-label app inside a large online-store platform's app marketplace. About 60% of your new users find you there, and growth is strong.",
+        "The platform has just hired a team to build shipping tools. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Leave the marketplace before the platform competes with you",
+            "verdict": "risky",
+            "feedback": "You avoid one future risk by giving up 60% of your new users today. That's likely the bigger loss."
+          },
+          {
+            "key": "B",
+            "text": "Keep growing there, but build direct ties: your own site, email updates, and features that work beyond this one platform",
+            "verdict": "best",
+            "feedback": "You keep the cheap growth while shrinking the share that depends on one set of rules. It costs effort, but it buys options."
+          },
+          {
+            "key": "C",
+            "text": "Stay focused. Your app earns the platform money, so it won't hurt you",
+            "verdict": "partial",
+            "feedback": "Being useful helps, but a platform can still change ranking or launch its own tool when that pays it more."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Know how much of your profit lives under someone else's rules.",
+      "body": [
+        "A platform can be a great channel and a single point of failure at the same time. The thinner your margin, the more one rule change matters.",
+        "**Try it today:** list where your last 20 customers came from. If one platform brought more than half, work out what you'd keep if its fee doubled."
+      ],
+      "next": "Next · Should you build on a platform you don't control?"
+    }
+  ]
+}

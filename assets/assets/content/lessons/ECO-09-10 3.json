@@ -1,0 +1,287 @@
+{
+  "id": "ECO-09-10",
+  "unitId": "ECO-09",
+  "categoryId": "ECO",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "A recession hits your business",
+  "readerTitle": "A recession hits your business: four calls in twelve months",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.2,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (주택 수리·리모델링 + 사무실 유지보수 계약을 함께 하는 12인 업체) · 모든 수치는 설명용",
+  "insight": "불황은 모든 매출을 똑같이 줄이지 않는다. 미룰 수 있는 지출부터 줄고, 경기는 다시 돌아온다. 그래서 줄일 것과 지킬 것을 나눠야 한다.",
+  "misconception": "불황이 오면 가격을 내리고 인력을 크게 줄이는 것이 가장 안전한 대응이다.",
+  "relatedLessonIds": [
+    "ECO-09-05",
+    "ECO-09-03"
+  ],
+  "sources": [
+    {
+      "text": "거시경제학의 표준 개념 (경기 순환, 불황기 내구재·재량 지출 감소, 중앙은행 금리 정책)",
+      "url": null
+    },
+    {
+      "text": "모든 수치와 업체는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "차트 수치 계산: 이전 월매출 $60,000 + $25,000 + $15,000 = $100,000. 6개월 후 $30,000 + $24,000 + $15,000 = $69,000. 감소율 31%이며, 카드에는 'about 30%'로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "'불황기에는 미룰 수 있는 큰 지출(리모델링 등)이 필수 수리보다 먼저 줄어든다'는 일반적 경향으로만 서술했습니다. 불황마다 다르며 Watch out 카드에서 한계를 밝혔습니다.",
+      "status": "open"
+    },
+    {
+      "note": "'중앙은행은 불황기에 금리를 내리는 경우가 많지만 인플레이션이 높으면 그렇지 않을 수 있다'는 일반론입니다. 특정 국가나 시기를 언급하지 않았습니다. 법률·세무·투자 조언은 포함하지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Economics · Simulation",
+      "title": "The phone rings less. But not evenly.",
+      "illustrative": true,
+      "body": [
+        "You run Rivera Home & Office: 12 people who do home repairs, kitchen and bath remodels, and maintenance contracts for office buildings.",
+        "The news says a recession has started. This month, three families postponed their remodels. Burst pipes still get fixed, though. You have four decisions ahead over the next year."
+      ],
+      "image": {
+        "label": "Work van parked outside a house, half-empty schedule board inside",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 주택 앞에 작업용 밴, 옆에 일정표 보드가 있고 'Remodel' 칸은 비어 가고 'Repair' 칸은 차 있음. 실제 브랜드 로고나 상표 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 · Month 1",
+      "title": "Remodels are being postponed.",
+      "illustrative": true,
+      "body": [
+        "Remodels are 60% of your revenue. Repairs are 25%. Office contracts are 15%. What do you do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Cut all prices 20% to win back remodel customers",
+            "verdict": "risky",
+            "feedback": "Families aren't waiting for a lower price. They're worried about their jobs. Remodels stay postponed, and you now earn less on repairs people needed anyway."
+          },
+          {
+            "key": "B",
+            "text": "Move crew time and marketing toward repairs, maintenance and small upgrades",
+            "verdict": "best",
+            "feedback": "These jobs hold up because they can't wait. You keep crews busy at normal prices and keep a list of postponed remodels to call back later."
+          },
+          {
+            "key": "C",
+            "text": "Stay the course and spend more advertising remodels",
+            "verdict": "partial",
+            "feedback": "It keeps your brand visible, but you're spending to reach people who have decided to wait. Some ad money is wasted until confidence returns."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "Six months later",
+      "title": "The drop landed on what could wait.",
+      "illustrative": true,
+      "body": [
+        "Say you chose B. Monthly revenue is down about 30%, but almost all of the fall came from one line."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Before",
+            "rows": [
+              {
+                "label": "Remodels",
+                "value": 60000,
+                "highlight": false
+              },
+              {
+                "label": "Repairs",
+                "value": 25000,
+                "highlight": false
+              },
+              {
+                "label": "Office contracts",
+                "value": 15000,
+                "highlight": false
+              }
+            ]
+          },
+          {
+            "label": "Month 6",
+            "rows": [
+              {
+                "label": "Remodels",
+                "value": 30000,
+                "highlight": true
+              },
+              {
+                "label": "Repairs",
+                "value": 24000,
+                "highlight": false
+              },
+              {
+                "label": "Office contracts",
+                "value": 15000,
+                "highlight": false
+              }
+            ]
+          }
+        ]
+      },
+      "callout": "In a **recession**, spending that people can postpone falls first. Spending they can't avoid holds up."
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 2 · Month 6",
+      "title": "Cash is running thin.",
+      "illustrative": true,
+      "body": [
+        "Rent, insurance, van loans and your core crew cost the same every month. At this pace, your cash lasts about four months. How do you cut?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Lay off 5 of your 12 people now",
+            "verdict": "risky",
+            "feedback": "Cash improves fast. But you lose trained people you will need when the economy recovers, and rehiring and retraining in a recovery costs more."
+          },
+          {
+            "key": "B",
+            "text": "Cut what flexes: drop subcontractors, freeze hiring, trim overtime, offer voluntary shorter weeks",
+            "verdict": "best",
+            "feedback": "Costs fall with revenue while your skilled crew stays. Your cash now lasts about a year, long enough for most downturns to turn."
+          },
+          {
+            "key": "C",
+            "text": "Draw your full credit line and change nothing",
+            "verdict": "partial",
+            "feedback": "It buys time. But if the downturn lasts longer than you hoped, you face the same problem later, plus debt and interest."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 3 · Month 9",
+      "title": "Your biggest office client wants 15% off.",
+      "illustrative": true,
+      "body": [
+        "Say you chose B. Now a property manager who runs eight buildings says their tenants are cutting back. Cut your maintenance fee 15%, or they'll look for someone cheaper."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Agree to the 15% cut",
+            "verdict": "risky",
+            "feedback": "You keep the client but lose margin on every visit. Other clients will hear about it and ask for the same."
+          },
+          {
+            "key": "B",
+            "text": "Offer a trade: fewer visits for a lower fee, or today's rate locked in for two years",
+            "verdict": "best",
+            "feedback": "The client gets savings or certainty. You protect your price per visit and gain a contract that runs through the downturn."
+          },
+          {
+            "key": "C",
+            "text": "Refuse and hold your price",
+            "verdict": "partial",
+            "feedback": "Your price stays firm, but you may lose a steady account when steady accounts matter most."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "Software clients in a downturn cut seats or ask for discounts. A smaller plan or a discount tied to an annual commitment usually beats a plain price cut."
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Decision 4 · Month 12",
+      "title": "Signs of a turn.",
+      "illustrative": true,
+      "body": [
+        "Say you chose B again. The central bank has cut interest rates, and your bank offers cheaper loans. A rival is closing and selling two vans. Two of its skilled carpenters need work. Remodel inquiries are up a little."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Borrow heavily, buy everything and launch a big remodel campaign",
+            "verdict": "risky",
+            "feedback": "Cheap money makes this tempting. But demand is only starting to come back. If recovery is slow, you carry big loan payments on half-used assets."
+          },
+          {
+            "key": "B",
+            "text": "Hire the two carpenters and buy one van, mostly with cash",
+            "verdict": "best",
+            "feedback": "You add skilled people who are hard to find in a boom, at a good price, without betting the business on how fast the recovery comes."
+          },
+          {
+            "key": "C",
+            "text": "Wait until remodels are fully back",
+            "verdict": "partial",
+            "feedback": "It's the safest choice. But by then, other firms will have hired those carpenters and bought the vans."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "For a software company, the same moment can mean hiring strong engineers laid off elsewhere while keeping enough cash for a slow recovery."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Real recessions are messier than this story.",
+      "body": [
+        "You rarely know a recession has started until months in, because official data arrives late. Each one is different in length and in which customers it hits. In some, business clients cut before households do.",
+        "Central banks don't always cut rates either. When inflation is high, they may keep rates high during a slowdown. Plan for a longer downturn than you expect, and treat cheap loans as a bonus, not a given."
+      ],
+      "image": {
+        "label": "Road with fog ahead and a van driving slowly",
+        "aspectRatio": "16:9",
+        "brief": "3D 클레이 스타일. 안개 낀 도로를 작업용 밴이 헤드라이트를 켜고 천천히 달림. 앞이 잘 안 보인다는 느낌. 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "In a downturn, cut what flexes and protect what's hard to rebuild.",
+      "list": [
+        "**Decision 1 · Recessions and income:** postponable spending falls first, so follow the demand that can't wait.",
+        "**Decision 2 · Business cycles and fixed costs:** downturns end, so trim flexible costs before trained people.",
+        "**Decision 3 · Pricing under pressure:** trade a price cut for scope or commitment.",
+        "**Decision 4 · Interest rates and policy:** lower rates and a rival's sale reward early, measured moves."
+      ],
+      "callout": "**Try it today:** sort your revenue into what customers could postpone and what they can't. That split is your recession forecast.",
+      "next": "Next · Why rivals make choices that hurt them all"
+    }
+  ]
+}

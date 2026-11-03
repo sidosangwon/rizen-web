@@ -1,0 +1,257 @@
+{
+  "id": "FIN-05-01",
+  "unitId": "FIN-05",
+  "categoryId": "FIN",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Budgets",
+  "readerTitle": "The agency that grew 20% and kept less money",
+  "format": "company_story",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.4,
+  "caseKinds": [
+    "illustrative",
+    "real_company"
+  ],
+  "caseNote": "가상 사례 (12명 규모 디자인 에이전시, 냉난방 설비 업체) + 실제 기업 (Handelsbanken의 예산 폐지, 일반적 서술만)",
+  "insight": "예산은 내년에 쓸 돈을 맞히는 예측이 아니라, 압박이 없을 때 미리 내려 두는 우선순위 결정이다.",
+  "misconception": "예산은 회계용으로 내년 지출을 추정해 두는 숫자표일 뿐이고, 하나하나 합리적인 지출을 승인하면 전체도 합리적이다.",
+  "relatedLessonIds": [
+    "FIN-05-02",
+    "FIN-05-04"
+  ],
+  "sources": [
+    {
+      "text": "관리회계의 표준 개념 (예산 편성, 예산과 예측의 구분)",
+      "url": null
+    },
+    {
+      "text": "Wallander, J. (1999). Budgeting — an unnecessary evil. Scandinavian Journal of Management.",
+      "url": null
+    },
+    {
+      "text": "에이전시와 설비 업체의 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "에이전시 계산: 작년 이익 $120k + 매출 증가 $200k − 새 지출 $290k = $30k. 새 지출 $95k + $80k + $45k + $30k + $40k = $290k. 그 밖의 비용은 변하지 않았다고 단순화했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "예산 예시: 목표 매출 $1.3M − 남길 이익 $150k = 쓸 수 있는 돈 $1.15M. 단순 계산을 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Handelsbanken: Jan Wallander가 1970년대 초 CEO로 취임한 뒤 전통적 연간 예산을 없앴다는 내용은 Wallander의 글과 Beyond Budgeting 관련 자료에 나옵니다. 게시 전 연도와 표현을 1차 자료로 다시 확인하세요. 카드에는 '1970s'로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "설비 업체: 연간 마케팅 예산 $24k 중 7월까지 $20k 사용. 매출이 계획보다 앞서 있다는 설정은 가상입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Company story",
+      "title": "The agency that grew 20% and kept less money",
+      "illustrative": true,
+      "body": [
+        "A 12-person design agency had its best sales year ever. Revenue rose from $1.0M to $1.2M.",
+        "Profit fell from $120k to $30k. Nobody had made a bad decision. That was the problem."
+      ],
+      "image": {
+        "label": "Rising revenue bar next to a shrinking profit bar",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 작은 디자인 스튜디오 책상 위에 매출 막대(위로 성장)와 이익 막대(쪼그라듦)가 나란히 서 있다. 대표가 두 막대를 보며 머리를 긁는 모습. 실제 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How would you stop this happening again?",
+      "illustrative": true,
+      "body": [
+        "During the year, requests arrived one at a time: a senior hire, freelancers for a rush, new software, a nicer office. Each one made sense when it was asked for.",
+        "The owner wants next year to end differently. What's the best fix?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The owner personally approves every expense over $500",
+            "verdict": "risky",
+            "feedback": "You gain control but become a bottleneck. And you're still judging each request alone, which is how this year went wrong."
+          },
+          {
+            "key": "B",
+            "text": "Before the year starts, decide the profit to keep and how much each area may spend",
+            "verdict": "best",
+            "feedback": "You trade some flexibility for a clear limit set in advance. Every request can then be weighed against the others, not just on its own."
+          },
+          {
+            "key": "C",
+            "text": "Cut all non-salary spending by 15%",
+            "verdict": "partial",
+            "feedback": "Quick and easy to explain. But a flat cut hits useful and wasteful spending equally, and it doesn't say what the business is trying to achieve."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What happened",
+      "title": "Five reasonable yeses.",
+      "illustrative": true,
+      "body": [
+        "Revenue added $200k. The yeses added $290k. Profit: $120k + $200k − $290k = **$30k**."
+      ],
+      "breakdown": [
+        {
+          "value": "$95k",
+          "label": "Senior hire",
+          "detail": "To handle bigger clients",
+          "highlight": false
+        },
+        {
+          "value": "$80k",
+          "label": "Freelancers",
+          "detail": "To cover a busy spring",
+          "highlight": false
+        },
+        {
+          "value": "$45k",
+          "label": "Office refit",
+          "detail": "To impress new clients",
+          "highlight": false
+        },
+        {
+          "value": "$30k",
+          "label": "Software tools",
+          "detail": "Three new subscriptions",
+          "highlight": false
+        },
+        {
+          "value": "$40k",
+          "label": "Travel and events",
+          "detail": "Two conferences, client visits",
+          "highlight": false
+        },
+        {
+          "value": "$290k",
+          "label": "Total new spending",
+          "detail": "More than the extra revenue",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Budgets",
+      "body": [
+        "A **budget** is a plan, made before a period starts, that sets how much the business intends to earn and spend, by category, to reach a goal.",
+        "The key word is *intends*. A budget isn't a guess about the future. It's a set of **decisions made in advance**, while you're calm and can see every option side by side."
+      ],
+      "image": {
+        "label": "Spending requests laid out side by side on one table",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 왼쪽은 요청 카드가 한 장씩 시간 순서로 떨어지는 모습(1월, 4월, 8월). 오른쪽은 같은 카드들이 한 테이블 위에 나란히 놓이고 위에 'Room to spend: $1.15M' 라벨. 오른쪽을 더 밝게.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Start from what you want to keep.",
+      "illustrative": true,
+      "body": [
+        "Next year, the agency plans backward:"
+      ],
+      "list": [
+        "**Revenue target:** $1.3M",
+        "**Profit to keep:** $150k",
+        "**Room to spend:** $1.15M",
+        "**Split it:** staff, freelancers, tools, travel, office"
+      ],
+      "callout": "The argument happens once, in January. In July, the question is simply: does this fit, and if not, what gives?",
+      "softwareNote": "For a startup spending investor money, the budget often starts from runway instead of profit: how many months the cash must last. The same logic applies. Decide the limit first, then fit the hires and tools inside it."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where it applies",
+      "title": "A bakery, a plumber, a marketing team.",
+      "body": [
+        "A bakery budgets flour, staff hours and one new oven. A plumbing firm budgets vans, training and ads. A marketing team inside a large company gets a budget and must choose between events and online ads.",
+        "The size changes. The job doesn't: a budget forces you to rank wants against each other before money is gone, instead of discovering the total at year end."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Budgets can create their own bad habits.",
+      "body": [
+        "Teams that fear losing unspent money rush to spend it in December. Managers set easy targets so they look good. A plan set in January can be wrong by March.",
+        "Sweden's Handelsbanken dropped traditional annual budgets in the 1970s and relied on other controls instead. The lesson isn't that budgets are bad. It's that a budget is a tool for good decisions, not a goal in itself."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a heating and cooling company.",
+      "illustrative": true,
+      "body": [
+        "Your firm installs and repairs heating systems. The year's marketing budget was $24k. By July you've spent $20k, because online ads are bringing in profitable jobs. Sales are ahead of plan.",
+        "Your office manager says to pause the ads until January. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Pause the ads. A budget is a budget",
+            "verdict": "risky",
+            "feedback": "You protect the plan but switch off a channel that's making money. Following the number can defeat the goal it was set for."
+          },
+          {
+            "key": "B",
+            "text": "Decide openly to raise marketing, funded by the extra sales or a cut elsewhere",
+            "verdict": "best",
+            "feedback": "You keep the working ads and the budget stays a real decision. Changing it on purpose is different from drifting past it."
+          },
+          {
+            "key": "C",
+            "text": "Keep running the ads and sort out the numbers at year end",
+            "verdict": "partial",
+            "feedback": "The ads keep working, but you're back to one yes at a time. That's how the agency lost its profit."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A budget is a decision, made before the pressure arrives.",
+      "body": [
+        "Decide what you want to keep, then choose what to spend on with all the options in front of you.",
+        "**Try it today:** write down the profit you want to keep next quarter. Subtract it from expected revenue. Is your planned spending inside that number?"
+      ],
+      "next": "Next · Why a forecast isn't a budget"
+    }
+  ]
+}

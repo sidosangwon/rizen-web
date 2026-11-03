@@ -1,0 +1,260 @@
+{
+  "id": "BMO-06-10",
+  "unitId": "BMO-06",
+  "categoryId": "BMO",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Switch to subscription?",
+  "readerTitle": "Four decisions behind a breakfast subscription",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.2,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (오피스 케이터링을 하는 베이커리 카페, B2B 고객) · 하나의 이야기로 이어지는 시뮬레이션 · 모든 수치는 설명용",
+  "insight": "구독 전환은 한 번의 결정이 아니라 누구에게, 어떻게 청구하고, 왜 떠나는지 묻고, 어떻게 함께 커갈지를 정하는 네 가지 결정의 연속이다.",
+  "misconception": "매출이 들쭉날쭉하면 모든 고객을 구독으로 바꾸기만 하면 안정된다.",
+  "relatedLessonIds": [
+    "BMO-06-02",
+    "BMO-06-03"
+  ],
+  "sources": [
+    {
+      "text": "반복 매출, 유지율, 확장 매출, 월간·연간 결제에 관한 표준 사업 모델 개념",
+      "url": null
+    },
+    {
+      "text": "모든 인물, 회사, 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 설명용 가상 수치입니다. 고객 수 일관성: 전체 오피스 25곳 = 매주 주문 12곳 + 가끔 주문 13곳. 구독 가입 10곳(연간 3곳, 월간 7곳), 3개월 후 2곳 해지, 이후 1곳이 작은 사이즈로 복귀해 6개월 후 9곳.",
+      "status": "open"
+    },
+    {
+      "note": "유지율 계산: 3개월마다 10곳 중 2곳(20%)이 떠나면 1년 후 남는 비율은 0.8^4 ≈ 0.41, 즉 절반 이상(약 59%)을 잃습니다. 카드에는 \"more than half\"로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "주당 $90, 연간 선결제 10% 할인, 대행사 비용 $500은 모두 가상 수치입니다. 실제 계산에는 쓰이지 않습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business models · Simulation",
+      "title": "Four decisions behind a breakfast subscription",
+      "illustrative": true,
+      "body": [
+        "Lena runs a bakery-café that also delivers breakfast platters to 25 local offices. Some order every week. Others order twice a year.",
+        "Her revenue swings from month to month, so she never knows how much flour to buy or how many bakers to schedule. A subscription looks like the fix. For the next four cards, you make her calls."
+      ],
+      "image": {
+        "label": "Baker packing breakfast platters for office delivery",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 이른 아침 베이커리 주방에서 제빵사가 크루아상과 과일이 담긴 플래터를 배달 상자에 담는 장면. 벽에 달력이 붙어 있고 주마다 주문 수가 들쭉날쭉하게 적혀 있음. 실제 브랜드 로고는 쓰지 않음.",
+        "url": "assets/images/bmo-06-10-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 4",
+      "title": "Who gets the subscription?",
+      "illustrative": true,
+      "body": [
+        "Twelve offices order almost every week. The other 13 order only for meetings and events.",
+        "Lena plans a weekly platter subscription at $90 a week. Who should she offer it to?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "All 25 offices, and stop taking one-off orders",
+            "verdict": "risky",
+            "feedback": "Simple to run, but the 13 occasional offices would pay for weeks they don't need. Most refuse, and some take their event orders elsewhere."
+          },
+          {
+            "key": "B",
+            "text": "The 12 weekly offices, and keep one-off catering for the rest",
+            "verdict": "best",
+            "feedback": "The subscription matches a need that already repeats. The occasional offices keep buying the way that suits them."
+          },
+          {
+            "key": "C",
+            "text": "All 25, with a big launch discount to get everyone in",
+            "verdict": "partial",
+            "feedback": "The sign-up list looks great. But the discount goes to weekly offices who'd pay anyway, and occasional ones cancel once they notice the unused weeks."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 4",
+      "title": "How should offices pay?",
+      "illustrative": true,
+      "body": [
+        "Say you offered it to the 12 weekly offices. Now pick the terms.",
+        "Office managers usually need a boss's sign-off for big commitments."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Annual contract only, paid up front, 10% off",
+            "verdict": "risky",
+            "feedback": "Lots of cash early if offices sign. But few managers can approve a full year with a new service, so only a handful say yes."
+          },
+          {
+            "key": "B",
+            "text": "Monthly with one month's notice to cancel, plus an optional annual prepay at 10% off",
+            "verdict": "best",
+            "feedback": "Easy to say yes, with a reward for those ready to commit. In this story, 10 of the 12 sign up, and 3 choose annual."
+          },
+          {
+            "key": "C",
+            "text": "Monthly, cancel any time, no annual option",
+            "verdict": "partial",
+            "feedback": "Easy to say yes, but nobody is rewarded for committing, and every office can walk away the day after a bad delivery."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 4",
+      "title": "Two offices cancel.",
+      "illustrative": true,
+      "body": [
+        "Say you chose flexible monthly billing. Three months in, 2 of the 10 offices have cancelled.",
+        "A marketing agency offers to find new office clients for $500. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Hire the agency and replace the two offices",
+            "verdict": "partial",
+            "feedback": "It refills the list, but if the reason they left stays, new offices leave too. Losing 2 in 10 every three months means losing more than half your subscribers in a year."
+          },
+          {
+            "key": "B",
+            "text": "Call the two who left, and the eight who stayed, to ask what isn't working",
+            "verdict": "best",
+            "feedback": "Both say the same thing: on work-from-home days the platter is too big and food goes to waste. Several who stayed had the same worry. That's fixable."
+          },
+          {
+            "key": "C",
+            "text": "Add a cancellation fee so offices think twice",
+            "verdict": "risky",
+            "feedback": "Fewer cancellations on paper, but offices feel trapped, complain to other managers, and leave at the first chance."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 4 of 4",
+      "title": "One size doesn't fit everyone.",
+      "illustrative": true,
+      "body": [
+        "Say you made the calls. Some offices want smaller platters on quiet days.",
+        "Meanwhile, one accounting firm has doubled its staff and asks whether Lena could also do lunch on Thursdays."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep one platter at one price to stay simple",
+            "verdict": "partial",
+            "feedback": "Easy to run, but shrinking offices keep cancelling and the growing firm buys lunch somewhere else."
+          },
+          {
+            "key": "B",
+            "text": "Offer small, regular and large platters, plus an optional Thursday lunch",
+            "verdict": "best",
+            "feedback": "Shrinking offices step down instead of leaving. Growing ones spend more, without Lena having to find a single new customer."
+          },
+          {
+            "key": "C",
+            "text": "Raise the price for everyone to make up for the lost offices",
+            "verdict": "risky",
+            "feedback": "Revenue rises for a month. Then the most price-sensitive offices leave, which deepens the very problem you just found."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "breakdown",
+      "eyebrow": "Six months later",
+      "title": "What changed for Lena.",
+      "illustrative": true,
+      "breakdown": [
+        {
+          "value": "9",
+          "label": "Offices still subscribed",
+          "detail": "10 signed up, 2 left, 1 came back on a smaller platter",
+          "highlight": true
+        },
+        {
+          "value": "2",
+          "label": "Offices that spend more",
+          "detail": "A larger platter or the Thursday lunch",
+          "highlight": false
+        },
+        {
+          "value": "13",
+          "label": "One-off clients kept",
+          "detail": "Still ordering for meetings and events",
+          "highlight": false
+        }
+      ],
+      "callout": "The biggest gain wasn't extra revenue. It was knowing it in advance: Lena now buys flour and plans shifts a month ahead.",
+      "softwareNote": "A software company faces the same four calls: which users have a recurring need, monthly versus annual plans, why users churn, and how accounts grow through extra seats or features."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A subscription is a promise, every single week.",
+      "body": [
+        "Lena now owes these offices a great platter every week, including the week a baker calls in sick. A bad delivery stings more when customers have paid in advance.",
+        "Each month, every office also decides again whether to keep paying. When budgets tighten, managers review **recurring costs** line by line, and nice-to-have services go first.",
+        "The switch worked only because these offices already ordered weekly. Without that habit, a subscription just adds a bill."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Switching to subscription is four decisions, not one.",
+      "body": [
+        "Each call in this story maps to an idea from this unit:"
+      ],
+      "list": [
+        "**Who to offer it to:** recurring revenue fits only a need that already repeats (recurring vs one-time revenue)",
+        "**How to bill:** monthly lowers the barrier, annual rewards commitment (annual vs monthly)",
+        "**Who left and why:** fixing the leak beats refilling the bucket (the math of retention)",
+        "**Sizes and add-ons:** existing customers can grow, or shrink, without leaving (expansion revenue)"
+      ],
+      "callout": "**Try it today:** list the customers who already buy from you on a regular rhythm. That list, not your whole customer base, is where a subscription could start.",
+      "next": "Next · A new unit begins"
+    }
+  ]
+}

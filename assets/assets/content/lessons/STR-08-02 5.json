@@ -1,0 +1,233 @@
+{
+  "id": "STR-08-02",
+  "unitId": "STR-08",
+  "categoryId": "STR",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "Fast followers",
+  "readerTitle": "The company that invented the CT scanner, then lost it",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "real_company",
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (EMI, GE, Siemens의 CT 스캐너) + 실제 연구 (Golder & Tellis 1993, Teece 1986) + 가상 적용 (청소 업체, 기장 대행 회사)",
+  "insight": "두 번째로 들어가는 쪽의 힘은 선발자가 낸 학습 비용을 건너뛰고, 선발자에게 없는 자산(유통, 신뢰, 서비스)을 더하는 데서 나온다. 단, 문이 열려 있는 동안 빨리 움직여야 한다.",
+  "misconception": "시장에 먼저 들어간 쪽이 이기고, 남을 따라 하는 것은 늦거나 게으른 전략이다.",
+  "relatedLessonIds": [
+    "STR-08-01",
+    "STR-08-03"
+  ],
+  "sources": [
+    {
+      "text": "The Nobel Prize in Physiology or Medicine 1979 (Allan M. Cormack, Godfrey N. Hounsfield)",
+      "url": "https://www.nobelprize.org/prizes/medicine/1979/summary/"
+    },
+    {
+      "text": "Teece, D. J. (1986). Profiting from technological innovation: Implications for integration, collaboration, licensing and public policy. Research Policy, 15(6).",
+      "url": null
+    },
+    {
+      "text": "Golder, P. N., & Tellis, G. J. (1993). Pioneer Advantage: Marketing Logic or Marketing Legend? Journal of Marketing Research, 30(2).",
+      "url": null
+    },
+    {
+      "text": "청소 업체, 기장 대행 회사 사례는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "1971년 첫 환자 뇌 CT 촬영(영국 Atkinson Morley's Hospital)과 Hounsfield의 1979년 노벨 생리의학상 공동 수상을 게시 전에 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "EMI의 의료 스캐너 사업 매각 시점: 1979년 Thorn과 합병 후 1980년 전후 GE 등에 매각된 것으로 알려져 있습니다. 카드에는 \"by around 1980\"으로 적었습니다. 정확한 연도와 인수자를 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "GE와 Siemens가 '몇 년 안에' 자체 스캐너를 판매했다는 표현이 맞는지 확인하세요. 구체 연도와 점유율은 일부러 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Golder & Tellis(1993): 약 50개 제품 범주, 진짜 선발자의 실패율 약 47%(\"nearly half\")라는 수치를 원문으로 확인하세요. 기저귀·카메라가 연구 범주에 포함되는지도 확인 필요.",
+      "status": "open"
+    },
+    {
+      "note": "Teece(1986)가 EMI CT 스캐너를 보완 자산(complementary assets) 부족 사례로 다룬 것을 원문으로 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Strategy · Counterexample",
+      "title": "The company that invented the CT scanner, then lost it",
+      "body": [
+        "In 1971, a machine built at EMI, the British company best known for music records, made the first CT scan of a patient's brain. Its inventor, Godfrey Hounsfield, later shared a Nobel Prize for it.",
+        "EMI was first, by years. By around 1980, it had sold its scanner business."
+      ],
+      "image": {
+        "label": "An early CT scanner standing alone in a hospital room",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 1970년대 느낌의 커다란 CT 스캐너 한 대가 빈 병원 방에 홀로 서 있고, 문 밖에서 더 큰 그림자 두 개가 다가오는 장면. 실제 기업 로고와 상표는 쓰지 않음.",
+        "url": "assets/images/str-08-02-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "A newcomer just launched something your customers might want.",
+      "illustrative": true,
+      "body": [
+        "You run a house-cleaning company with 20 crews. A small newcomer in your city just launched move-out cleaning for renters, with a promise: if the landlord withholds the deposit over cleaning, they come back free.",
+        "It's early, but people are talking. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Ignore it. It's a niche, and you're busy",
+            "verdict": "risky",
+            "feedback": "You keep your focus, but you give the newcomer time to own the idea and the landlord referrals that come with it."
+          },
+          {
+            "key": "B",
+            "text": "Copy it exactly, this week",
+            "verdict": "partial",
+            "feedback": "Speed is good, but an exact copy also copies their mistakes, and customers have no reason to pick you over the original."
+          },
+          {
+            "key": "C",
+            "text": "Study their reviews for a few weeks, then launch a better version using your crews and landlord contacts",
+            "verdict": "best",
+            "feedback": "You let them prove demand and reveal the weak spots, then bring capacity and relationships they don't have. The risk is waiting too long."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "How it played out",
+      "title": "The giants arrived with what EMI lacked.",
+      "body": [
+        "Hospitals loved the scanner. Demand was proven. Within a few years, large medical equipment makers, including General Electric and Siemens, were selling scanners of their own.",
+        "They already had what a hospital needs after the sale: sales teams who knew radiology departments, service engineers on call, and years of X-ray experience. EMI had the breakthrough. The followers had the business around it.",
+        "Economist David Teece later used EMI as a classic example of an inventor losing to companies with stronger supporting assets."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Fast followers",
+      "body": [
+        "A **fast follower** lets someone else go first, watches what works, then enters quickly with a better or better-delivered version.",
+        "The pioneer pays to prove customers want the thing, and makes its early mistakes in public. The follower skips that bill and spends its money on getting it right."
+      ],
+      "image": {
+        "label": "One runner clears a path through tall grass, a second runs fast along it",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽 스타일. 첫 번째 주자가 낫으로 수풀을 헤치며 땀을 흘리고, 두 번째 주자가 이미 정리된 길 위를 빠르게 달려 따라잡는 장면. 길 옆 표지판에 \"Proof of demand\", \"Mistakes made\" 라벨.",
+        "url": "assets/images/str-08-02-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "What the follower gets for free",
+      "body": [
+        "Every pioneer leaves useful clues behind."
+      ],
+      "list": [
+        "**Proof of demand:** someone already showed customers will pay",
+        "**A price reference:** customers now know roughly what it should cost",
+        "**The complaints:** early reviews tell you what to fix",
+        "**Educated customers:** the pioneer already explained what the thing is"
+      ],
+      "callout": "The follower's job is to add what the pioneer can't: reach, trust, service or a sharper product."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "Many pioneers don't last.",
+      "body": [
+        "In 1993, marketing researchers Peter Golder and Gerard Tellis traced the real history of about 50 product categories. Many brands people believed were pioneers turned out not to be first at all.",
+        "Among the true pioneers, **nearly half had failed**. The long-term leaders were often companies that entered later, once it was clear what customers wanted."
+      ],
+      "image": {
+        "label": "A timeline where the first flag falls and a later flag stands tall",
+        "aspectRatio": "16:9",
+        "brief": "가로 타임라인 그래픽. 맨 앞에 쓰러진 깃발 \"Pioneer\", 조금 뒤에 높이 선 깃발 \"Later leader\". 특정 수치나 브랜드 이름은 넣지 않음.",
+        "url": "assets/images/str-08-02-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Following only works while the door is open.",
+      "body": [
+        "If early customers get locked in, being second can mean being too late. That happens when switching is painful, or when each new customer makes the product better for the others, as with marketplaces.",
+        "And *fast* is the hard part. A follower that spends two years studying the pioneer has become a late entrant. Copying the surface without understanding why it works doesn't help either."
+      ],
+      "softwareNote": "Features are cheap to copy in software, so a follower's edge rarely comes from features alone. It comes from distribution, data or trust. Products with network effects, like messaging apps, can close the window quickly."
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a bookkeeping firm.",
+      "illustrative": true,
+      "body": [
+        "You run a bookkeeping firm serving 300 small businesses. Six months ago, a startup launched an app that does monthly bookkeeping automatically. Early users like the price but complain there's no human to call at tax time.",
+        "What's your move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Build your own app from scratch to match its features",
+            "verdict": "partial",
+            "feedback": "You'd own the product, but you'd be fighting on the pioneer's strongest ground, and building software takes the speed a follower needs."
+          },
+          {
+            "key": "B",
+            "text": "Offer your clients an existing bookkeeping tool plus your accountants on call, starting now",
+            "verdict": "best",
+            "feedback": "You fix the exact complaint and use assets the startup lacks: trust, people and 300 clients. You give up owning the software."
+          },
+          {
+            "key": "C",
+            "text": "Wait a couple of years to see if the app survives",
+            "verdict": "risky",
+            "feedback": "You avoid a wasted bet, but that's waiting, not following. Your clients may have switched by then."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Going second works when you learn fast and bring what the pioneer lacks.",
+      "body": [
+        "Let the pioneer prove the market. Then move quickly, fix what customers complain about, and lean on the assets you already have.",
+        "**Try it today:** pick a rival's new offering from the past year. Write down what it proved, what its customers complain about, and which of your strengths it lacks."
+      ],
+      "next": "Next · When waiting is the smartest move"
+    }
+  ]
+}

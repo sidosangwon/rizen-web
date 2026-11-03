@@ -1,0 +1,232 @@
+{
+  "id": "ENT-04-03",
+  "unitId": "ENT-04",
+  "categoryId": "ENT",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "How investors think",
+  "readerTitle": "Why an investor backs the loss-maker over the profitable shop",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (주방용품 매장 체인, 온라인 도매 플랫폼, 라멘 가게, 10개 투자 포트폴리오) + 벤처 수익 분포에 관한 실제 연구는 일반적으로만 서술",
+  "insight": "벤처 투자자는 '이 회사가 망하지 않을까'가 아니라 '잘되면 얼마나 커질 수 있나'를 묻는다. 소수의 큰 성공이 나머지 손실을 모두 메우기 때문이다.",
+  "misconception": "투자자는 가장 안전하고 이미 이익을 내는 사업을 좋아한다. 모든 투자자는 같은 기준으로 사업을 본다.",
+  "relatedLessonIds": [
+    "ENT-04-01",
+    "ENT-04-02"
+  ],
+  "sources": [
+    {
+      "text": "벤처캐피털 수익 분포 연구: 소수의 거래가 전체 수익의 대부분을 만든다는 분석 (예: Horsley Bridge 펀드 데이터를 인용한 Benedict Evans, 'In praise of failure', 2016; Correlation Ventures 분석)",
+      "url": null
+    },
+    {
+      "text": "포트폴리오, 라멘 가게, 매장 체인 수치는 모두 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "5번 카드는 연구 결과를 구체적 수치 없이 일반적으로만 서술했습니다. 수치를 넣으려면 원자료를 확인하세요. 흔히 인용되는 값: Horsley Bridge 1985~2014 데이터에서 약 6%의 거래가 수익의 약 60%를 만들었다는 내용, 그리고 거래의 절반가량이 원금 이하로 끝났다는 내용.",
+      "status": "open"
+    },
+    {
+      "note": "3번 카드 계산: $10M 펀드, $1M씩 10곳. 5곳 × $0 = $0, 3곳 × $1M = $3M, 1곳 × $3M = $3M, 1곳 × $20M = $20M. 합계 $26M = 2.6배. 가장 큰 성공을 빼면 $6M으로 원금 $10M보다 적음(손실). 가상 수치이며 수수료·기간은 단순화를 위해 제외.",
+      "status": "open"
+    },
+    {
+      "note": "8번 카드의 '연 20% 안팎의 꾸준한 수익'은 설명용 가정입니다. 특정 국가의 대출·투자 제도에 관한 조언으로 읽히지 않도록 일반적인 표현만 썼습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Raising money · Everyday scene",
+      "title": "Why an investor backs the loss-maker over the profitable shop",
+      "illustrative": true,
+      "body": [
+        "Two founders pitch the same investor on the same morning. One runs four profitable kitchenware stores. The other runs an online wholesale platform that loses money every month.",
+        "The investor backs the platform. She isn't being reckless. She's doing math the store owner never saw."
+      ],
+      "image": {
+        "label": "Two founders waiting outside an investor's office",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 대기실 의자에 두 창업자가 앉아 있음. 한 사람은 냄비·주걱이 담긴 상자를 들고 있고 그래프는 완만한 상승, 다른 사람은 노트북을 들고 있고 그래프는 아래로 꺾였다가 가파르게 치솟는 점선. 실제 로고나 상표 없음.",
+        "url": "assets/images/ent-04-03-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You have $1M to invest from a venture fund.",
+      "illustrative": true,
+      "body": [
+        "Pitch one: four kitchenware stores, profitable, growing about 10% a year. Very likely to be around in ten years.",
+        "Pitch two: an online platform where small shops order stock from wholesalers. Losing money. Maybe a 1-in-10 chance it becomes huge. Which fits your fund?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The kitchenware stores. Safe and already profitable",
+            "verdict": "risky",
+            "feedback": "You'd likely get your money back with a modest gain. But a fund full of modest gains rarely covers its many failures."
+          },
+          {
+            "key": "B",
+            "text": "The wholesale platform, if the huge outcome is believable",
+            "verdict": "best",
+            "feedback": "You accept likely failure in exchange for a small chance of a result big enough to pay for many losses. The next card shows why."
+          },
+          {
+            "key": "C",
+            "text": "Split it: $500K in each",
+            "verdict": "partial",
+            "feedback": "It feels balanced, but half your money now sits where it can't move the fund's results much, and the platform gets less fuel."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "One winner pays for nine.",
+      "illustrative": true,
+      "body": [
+        "A $10M fund puts $1M into each of ten companies. Total back: **$26M**, or 2.6 times the money. Remove the single biggest winner and the fund gets back $6M. It loses money."
+      ],
+      "breakdown": [
+        {
+          "value": "$0",
+          "label": "5 companies fail",
+          "detail": "Money gone",
+          "highlight": false
+        },
+        {
+          "value": "$3M",
+          "label": "3 return the money",
+          "detail": "$1M back from each",
+          "highlight": false
+        },
+        {
+          "value": "$3M",
+          "label": "1 triples",
+          "detail": "A solid success",
+          "highlight": false
+        },
+        {
+          "value": "$20M",
+          "label": "1 grows 20x",
+          "detail": "Makes the whole fund",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Investors think in portfolios, not single bets",
+      "body": [
+        "Venture investors know most of their bets will disappoint. Their results come from a **power law**: a few outliers earn more than all the others combined.",
+        "So the key question isn't \"Will this survive?\" It's \"If this works, could it be big enough to matter to my whole fund?\" A safe business that can only double rarely passes that test."
+      ],
+      "image": {
+        "label": "Ten bars, one towering over the rest",
+        "aspectRatio": "16:9",
+        "brief": "막대 10개 인포그래픽. 9개는 바닥에 붙거나 낮고, 1개만 화면 위까지 치솟음. 위에 \"Could this one return the fund?\" 문구. 단순하고 깔끔한 색.",
+        "url": "assets/images/ent-04-03-c4.jpg"
+      },
+      "softwareNote": "Software often fits this pattern because one more customer costs little to serve. That's why venture money crowds into software, and why investors ask about market size so early."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "The data looks lopsided.",
+      "body": [
+        "Studies of venture fund records keep finding the same shape. Many deals lose money or just return it. A small share of deals produces most of the gains.",
+        "This explains behavior that looks odd from outside. Investors may pass on a solid company, back a strange idea, or push founders to grow faster than feels comfortable. They're hunting for the rare outlier, because missing it costs more than losing on a few failures."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The other side",
+      "title": "A lender thinks the opposite way.",
+      "body": [
+        "A bank lender or a cautious local backer doesn't share in a huge win. They get their money back plus interest, at best.",
+        "So they care about downside: steady cash, assets, a record of paying bills. To them, the profitable kitchenware stores are the better deal, and the money-losing platform is too risky.",
+        "Same business, opposite verdicts. Before you pitch, work out **which logic** the person across the table uses."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Venture money comes with venture goals.",
+      "body": [
+        "If you take money from someone hunting outliers, you sign up for their goals. Expect pressure to grow fast and aim big, even when slower growth would be safer for you.",
+        "Inflating your story to sound like an outlier doesn't help either. Investors test big claims against real evidence, like customers who come back.",
+        "And plenty of excellent businesses will never be venture-shaped. That says nothing about their quality. It just means a different kind of money fits them."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a ramen shop.",
+      "illustrative": true,
+      "body": [
+        "Your ramen shop is busy and profitable. You want $300K to open a second location nearby. You expect it to earn steady returns, about 20% a year on the money, with little chance of becoming a national giant.",
+        "Who should you pitch?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "A venture fund, since they have the most money",
+            "verdict": "risky",
+            "feedback": "A steady 20% a year can't pay for a fund's many failures. Expect a quick no, or pressure to become something you don't want to be."
+          },
+          {
+            "key": "B",
+            "text": "A lender or local backers who value steady cash",
+            "verdict": "best",
+            "feedback": "Their logic matches your business: reliable returns, low downside. You give up the dream of a huge payout, which you weren't chasing anyway."
+          },
+          {
+            "key": "C",
+            "text": "A venture fund, pitched as \"the next 1,000-location chain\"",
+            "verdict": "risky",
+            "feedback": "It may get a meeting, but a claim you can't back with evidence usually falls apart. If it works, you've signed up for a growth race you didn't plan."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Venture investors buy the chance of a huge outcome, not safety.",
+      "body": [
+        "A few big wins pay for many losses, so they ask how big you could get. Lenders ask how safe you are. Pitch to the logic of the money you want.",
+        "**Try it today:** write one sentence on how big your business could realistically get. Then decide which kind of investor that sentence would excite."
+      ],
+      "next": "Next · What makes a pitch work"
+    }
+  ]
+}

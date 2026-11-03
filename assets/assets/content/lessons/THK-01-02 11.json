@@ -1,0 +1,242 @@
+{
+  "id": "THK-01-02",
+  "unitId": "THK-01",
+  "categoryId": "THK",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "Second-order thinking",
+  "readerTitle": "Free delivery grew sales 10%. Why did profit fall?",
+  "format": "numbers_twist",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (건축자재 도매 유통업체, 동네 레스토랑) · 모든 수치는 설명용",
+  "insight": "결정의 결과는 그 결정 자체가 아니라, 사람들이 그 결정에 맞춰 바꾸는 행동에서 나온다. 그래서 '그다음엔?'을 한 번 더 묻는다.",
+  "misconception": "매출이 늘면 이익도 비슷하게 는다. 결정의 효과는 첫 숫자에서 바로 보인다.",
+  "relatedLessonIds": [
+    "THK-06-04",
+    "THK-09-01"
+  ],
+  "sources": [
+    {
+      "text": "의사결정의 표준 개념 (1차 효과와 2차 효과). Howard Marks, The Most Important Thing (2011)의 'second-level thinking'과 같은 계열",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "변경 전: 고객 200곳 × 월 2회 = 400건, 건당 $1,000 → 매출 $400,000. 매출총이익 20% = $80,000. 배송비 400 × $60 = $24,000. 남는 돈 $80,000 − $24,000 = $56,000.",
+      "status": "open"
+    },
+    {
+      "note": "변경 후: 매출 10% 증가 → $440,000, 20% = $88,000. 평균 주문 $400 → 440,000 ÷ 400 = 1,100건. 배송비 1,100 × $60 = $66,000. 남는 돈 $88,000 − $66,000 = $22,000. 감소폭 (56,000 − 22,000) ÷ 56,000 = 60.7%로 '절반 이상'이 맞음.",
+      "status": "open"
+    },
+    {
+      "note": "Howard Marks의 'second-level thinking' 출처 표기는 게시 전에 원서로 다시 확인하세요. 카드 본문에는 인용하지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Numbers twist",
+      "title": "Free delivery grew sales 10%. Why did profit fall?",
+      "illustrative": true,
+      "body": [
+        "A building-supplies distributor dropped its $500 minimum for free delivery. Customers loved it. Sales went up 10% in a month.",
+        "The money left after delivery costs fell by more than half. Nothing went wrong with the plan. The customers simply did something new."
+      ],
+      "image": {
+        "label": "A delivery truck carrying one small box",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 커다란 배송 트럭 짐칸에 작은 상자 하나만 덩그러니 실려 있음. 뒤에 같은 트럭 여러 대가 줄지어 출발 대기. 실제 회사 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/thk-01-02-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Sales are up 10%. What happens next?",
+      "illustrative": true,
+      "body": [
+        "You supply 200 hardware shops. Each orders twice a month, about $1,000 a time, to reach the free-delivery minimum. Your margin is 20%, and each delivery costs you $60.",
+        "You scrap the minimum. Sales rise 10%. What happens to the money left after delivery costs?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "It rises about 10%, in line with sales",
+            "verdict": "risky",
+            "feedback": "That holds only if customers keep ordering the same way. The free delivery gives them a reason to change."
+          },
+          {
+            "key": "B",
+            "text": "It dips a little, because a few extra deliveries cost money",
+            "verdict": "partial",
+            "feedback": "Right that deliveries matter. But a few extra is too small an estimate once every shop rethinks how it orders."
+          },
+          {
+            "key": "C",
+            "text": "It could fall by more than half",
+            "verdict": "best",
+            "feedback": "Yes. Shops stop holding stock and order small and often. Sales grow a little, while deliveries nearly triple."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Same customers, new habits.",
+      "illustrative": true,
+      "body": [
+        "Before: $80,000 margin − $24,000 delivery = $56,000. After, the average order shrank from $1,000 to $400. Sales grew 10%. What was left fell 61%."
+      ],
+      "breakdown": [
+        {
+          "value": "$440,000",
+          "label": "Sales",
+          "detail": "Up 10% from $400,000",
+          "highlight": false
+        },
+        {
+          "value": "$88,000",
+          "label": "Margin at 20%",
+          "detail": "Up from $80,000",
+          "highlight": false
+        },
+        {
+          "value": "1,100",
+          "label": "Deliveries",
+          "detail": "Up from 400, at $400 per order",
+          "highlight": false
+        },
+        {
+          "value": "−$66,000",
+          "label": "Delivery cost",
+          "detail": "1,100 × $60, up from $24,000",
+          "highlight": false
+        },
+        {
+          "value": "$22,000",
+          "label": "Left over",
+          "detail": "Down from $56,000",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Second-order thinking",
+      "body": [
+        "A **first-order effect** is the direct result you aimed for: free delivery, more sales.",
+        "**Second-order thinking** asks \"and then what?\" It looks at how people react to your decision, and how their reactions change the result. Here, the shops rearranged their ordering around the new rule."
+      ],
+      "image": {
+        "label": "A chain: decision, reaction, real result",
+        "aspectRatio": "16:9",
+        "brief": "왼쪽에서 오른쪽으로 이어지는 도미노 3개. 첫 번째 \"Decision: free delivery\", 두 번째 \"Reaction: smaller orders\", 세 번째 \"Result: costs triple\". 세 번째 도미노가 가장 크게.",
+        "url": "assets/images/thk-01-02-c4.jpg"
+      },
+      "softwareNote": "An unlimited plan at a flat price looks like a simple pricing change. Then your heaviest users move to it first, and your server costs follow them."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Three questions that find the second step.",
+      "body": [
+        "First-order effects show up fast. Second-order effects arrive slowly, after people adjust. Before a decision, ask:"
+      ],
+      "list": [
+        "**Who changes behavior?** Customers, staff, suppliers, rivals",
+        "**What becomes the new normal?** Habits form around any rule you set",
+        "**What does it look like in six months?** Not in week one"
+      ],
+      "callout": "The answer to each question becomes the new thing to price in."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "It cuts both ways",
+      "title": "Some costly-looking moves pay off later.",
+      "illustrative": true,
+      "body": [
+        "Second-order thinking doesn't only warn you off. It can also rescue good ideas that look bad at first.",
+        "A shop that takes returns without argument loses money on some returns. But customers who know they can return things often buy with less hesitation. The first step costs money. The second step may earn more of it back.",
+        "The question is the same either way: what will people do differently because of this?"
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Don't chase consequences forever.",
+      "body": [
+        "Every effect has another effect after it. You can't trace them all, and trying will freeze you.",
+        "Look one or two steps ahead, and focus on the biggest change in behavior. When you still aren't sure, run the change small and in a way you can undo, then watch what people actually do. A one-month test in a single region would have shown the distributor its problem early."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a restaurant.",
+      "illustrative": true,
+      "body": [
+        "Your restaurant is full on Fridays and half empty on Tuesdays. You plan a two-for-one main course deal on Tuesday nights. What's the smartest way to go about it?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Launch it. Empty tables earn nothing, so any diner is a gain",
+            "verdict": "risky",
+            "feedback": "True for new diners. But regulars may simply move from full-price Fridays to half-price Tuesdays, and you'd earn less for the same meals."
+          },
+          {
+            "key": "B",
+            "text": "Run it for four weeks and track whether Friday bookings drop",
+            "verdict": "best",
+            "feedback": "You get the extra Tuesday diners and find out quickly whether they're new or just moved. It's small and easy to undo."
+          },
+          {
+            "key": "C",
+            "text": "Skip it. Discounts always train people to wait for deals",
+            "verdict": "partial",
+            "feedback": "A real risk, but not a certainty. Saying no protects your prices and gives up a chance to fill empty tables."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "The same check works for a software discount: see whether it brings in new customers or just moves existing ones to a cheaper plan."
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Ask \"and then what?\" before you decide.",
+      "body": [
+        "The result of a decision depends on how people change their behavior because of it, not only on the decision itself.",
+        "**Try it today:** pick one change you're planning. Write down who will act differently because of it, and what they'll do."
+      ],
+      "next": "Next · Inversion: start with how it could fail"
+    }
+  ]
+}

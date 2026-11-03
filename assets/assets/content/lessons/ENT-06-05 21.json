@@ -1,0 +1,235 @@
+{
+  "id": "ENT-06-05",
+  "unitId": "ENT-06",
+  "categoryId": "ENT",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Communicating at scale",
+  "readerTitle": "Why Amazon's meetings start in silence",
+  "format": "company_story",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "real_company",
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Amazon의 서술형 메모) + Brooks의 소통 경로 공식 + 가상 적용 (소프트웨어 스타트업, 물류 창고 팀)",
+  "insight": "회사가 커지면 메시지는 내가 없는 자리에서 전달되어야 한다. 그래서 글로 남기고, 이유를 붙이고, 지겨울 만큼 반복해야 한다.",
+  "misconception": "전체 회의에서 한 번 잘 발표하면 모두가 알고, 같은 뜻으로 이해한다.",
+  "relatedLessonIds": [
+    "ENT-06-04",
+    "ENT-06-08"
+  ],
+  "sources": [
+    {
+      "text": "Bezos, J. (2017). 2017 Letter to Shareholders, Amazon.com (six-page memos, silent reading at the start of meetings)",
+      "url": "https://www.aboutamazon.com/news/company-news/2017-letter-to-shareholders"
+    },
+    {
+      "text": "Brooks, F. P. (1975). The Mythical Man-Month. Addison-Wesley. (communication paths grow as n(n−1)/2)",
+      "url": null
+    },
+    {
+      "text": "소프트웨어 스타트업, 물류 창고 팀 사례는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "1번·5번 카드의 인용문 \"We don't do PowerPoint (or any other slide-oriented) presentations at Amazon. Instead, we write narratively structured six-page memos.\"는 2017년 주주서한 원문과 한 글자씩 대조해 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Bezos가 2004년 경영진에게 슬라이드 대신 서술형 메모를 쓰라고 지시했다는 내용은 여러 언론 보도에 근거합니다. 정확한 날짜는 카드에 쓰지 않고 \"in 2004\"로만 적었습니다. 게시 전 1차 자료를 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "소통 경로 계산: n(n−1)/2. 10명 = 10×9/2 = 45, 50명 = 50×49/2 = 1,225, 200명 = 200×199/2 = 19,900. 10명에서 200명은 인원 20배, 경로 약 442배(19,900 ÷ 45).",
+      "status": "open"
+    },
+    {
+      "note": "공식의 출처는 Brooks(1975)의 소프트웨어 프로젝트 논의입니다. 모든 쌍이 실제로 대화한다는 뜻이 아니라 잠재적 경로 수라는 점을 3번 카드에 밝혔습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Entrepreneurship · Company story",
+      "title": "Why Amazon's meetings start in silence",
+      "body": [
+        "At many Amazon senior meetings, nobody talks at first. Everyone reads a memo of up to six pages, quietly, around the table.",
+        "Jeff Bezos described it in his 2017 shareholder letter: \"We don't do PowerPoint (or any other slide-oriented) presentations at Amazon. Instead, we write narratively structured six-page memos.\"",
+        "It looks slow. It's a tool for a problem every growing company hits."
+      ],
+      "image": {
+        "label": "People reading printed memos in silence at a meeting table",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 회의 테이블에 여러 사람이 앉아 조용히 종이 문서를 읽고 있음. 꺼진 프로젝터 화면. 실제 회사 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/ent-06-05-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Your company just changed direction.",
+      "illustrative": true,
+      "body": [
+        "Your software startup grew from 15 to 90 people in a year. You've decided to pause a new product and put everyone on fixing problems for your biggest customers.",
+        "How do you make sure everyone gets it?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Explain it clearly once at the all-hands meeting",
+            "verdict": "partial",
+            "feedback": "Everyone hears your voice, which matters. But half the room is distracted, some are absent, and by next month people will retell it differently."
+          },
+          {
+            "key": "B",
+            "text": "Write a one-page note on what changes and why, then repeat it in meetings for weeks",
+            "verdict": "best",
+            "feedback": "It takes more of your time, but the message stays the same each time it's passed on, and people know the reason behind it."
+          },
+          {
+            "key": "C",
+            "text": "Brief your managers and let them pass it to their teams",
+            "verdict": "risky",
+            "feedback": "It's efficient, but each manager tells a slightly different version. Nine managers can mean nine priorities."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "People grow by adding. Conversations grow by multiplying.",
+      "body": [
+        "In 1975, Fred Brooks pointed out that the number of possible two-person links in a group is **n × (n − 1) ÷ 2**. That's every pair that could talk, not every pair that does.",
+        "Go from 10 people to 200, and the team is 20 times bigger. The possible links are about 440 times more."
+      ],
+      "breakdown": [
+        {
+          "value": "45",
+          "label": "10 people",
+          "detail": "Everyone can stay in the loop by talking",
+          "highlight": false
+        },
+        {
+          "value": "1,225",
+          "label": "50 people",
+          "detail": "Hallway chat starts to miss people",
+          "highlight": false
+        },
+        {
+          "value": "19,900",
+          "label": "200 people",
+          "detail": "No one can hear everything directly",
+          "highlight": true
+        }
+      ],
+      "callout": "Past a certain size, most people hear your message secondhand."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Communicating at scale",
+      "body": [
+        "**Communicating at scale** means building messages that travel without you. In a small team, you explain things in person and fix confusion on the spot. In a big one, your words get passed along by people you never talk to.",
+        "So the message has to hold up on its own: written down so it doesn't drift, carrying the *why* so people can make their own calls, and repeated until it sticks."
+      ],
+      "image": {
+        "label": "One message passing through many people, staying the same shape",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 왼쪽 한 사람이 든 종이 한 장이 여러 사람의 손을 거쳐 오른쪽까지 같은 모양으로 전달됨. 아래쪽에는 말풍선이 전달될수록 모양이 찌그러지는 대비 그림.",
+        "url": "assets/images/ent-06-05-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Why Amazon writes instead of presenting.",
+      "body": [
+        "In 2004, Bezos told his senior team to replace slide decks with written memos. In his 2017 letter, he explained that a good memo takes real effort, often a week or more of writing and rewriting.",
+        "Writing in full sentences forces the author to think the idea through. Bullet points can hide gaps. A memo can also be read by people who weren't in the room, and it says the same thing on the hundredth reading as on the first."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond software",
+      "title": "The same drift happens on a kitchen line.",
+      "illustrative": true,
+      "body": [
+        "A restaurant owner opens a third location. She tells the head chef to cut portion sizes to keep prices steady. The chef tells the line cooks, \"go a bit lighter.\" At the new site, a cook hears \"skimp,\" and complaints follow.",
+        "A short written note would have fixed it: the new portion in grams, and why it changed. When people know the reason, they can handle cases the rule didn't cover."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "More messages isn't better communication.",
+      "body": [
+        "If everything is sent as urgent, nothing is. Ten updates a week bury the one that matters. Pick a few messages and repeat those.",
+        "Written doesn't mean read, either. Check what people actually understood by asking them to say it back.",
+        "And writing has a cost. A six-page memo for every small decision would slow a company down. Save the heavy tools for decisions many people must carry out."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a warehouse team.",
+      "illustrative": true,
+      "body": [
+        "You manage a 40-person warehouse team inside a large logistics company. A new rule says heavy pallets must be loaded on the bottom shelf. It applies to all three shifts, starting Monday.",
+        "How do you roll it out?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Email the new rule to the whole team",
+            "verdict": "partial",
+            "feedback": "It's on record and quick. But many floor staff rarely read email, and a rule without a reason is easy to skip when things get busy."
+          },
+          {
+            "key": "B",
+            "text": "Write the rule and the reason on one page, have each shift lead cover it at shift start for two weeks, then check on the floor",
+            "verdict": "best",
+            "feedback": "It costs some minutes each shift, but every shift hears the same version, knows why it matters, and you can see whether it's working."
+          },
+          {
+            "key": "C",
+            "text": "Put up a poster by the loading dock",
+            "verdict": "risky",
+            "feedback": "It's visible, but posters fade into the background within days, and no one can ask it a question."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "At scale, your message has to work without you in the room.",
+      "body": [
+        "Write it down, include the why, and repeat it longer than feels necessary.",
+        "**Try it today:** pick one priority you've shared recently. Ask three people, at different levels, to explain it in their own words. Compare their answers with what you meant."
+      ],
+      "next": "Next · How to stay fast as you grow"
+    }
+  ]
+}

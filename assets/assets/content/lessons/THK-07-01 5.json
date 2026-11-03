@@ -1,0 +1,242 @@
+{
+  "id": "THK-07-01",
+  "unitId": "THK-07",
+  "categoryId": "THK",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Define the problem first",
+  "readerTitle": "Guests say the wait is too long. Which wait?",
+  "format": "numbers_twist",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative",
+    "anecdote"
+  ],
+  "caseNote": "가상 사례 (레스토랑, 레시피 앱) + 널리 전해지는 일화 (엘리베이터와 거울) · 모든 수치는 설명용",
+  "insight": "해결책을 찾기 전에 무엇이, 언제, 얼마나, 목표와 비교해 어떻게 잘못됐는지 적으면 엉뚱한 해결책에 돈을 쓰지 않는다.",
+  "misconception": "불만이 들리면 문제는 이미 분명하다. 바로 해결책을 고르면 된다. (\"직원이 더 필요하다\" 같은 말은 문제가 아니라 해결책이다.)",
+  "relatedLessonIds": [
+    "THK-07-02",
+    "THK-07-05"
+  ],
+  "sources": [
+    {
+      "text": "엘리베이터와 거울 일화: 경영·문제해결 문헌에서 여러 버전으로 전해지는 이야기 (원출처 불분명)",
+      "url": null
+    },
+    {
+      "text": "레스토랑과 레시피 앱 수치는 모두 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "레스토랑 수치는 가상입니다. 계산 확인: 주문까지 5분 + 음식 14분 + 계산 16분 = 총 35분. 가장 긴 대기는 주방(14분)이 아니라 계산(16분)입니다.",
+      "status": "open"
+    },
+    {
+      "note": "엘리베이터 거울 일화는 출처가 불분명하고 과장되었을 수 있습니다. 카드에 \"a story told in many versions\", \"reportedly\", \"may be embellished\"로 일화임을 표시했습니다. 특정 건물·회사명은 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "요리사 인건비 월 $3,500은 설명용 가정입니다. 실제 임금 수준을 주장하지 않습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Numbers twist",
+      "title": "Guests say the wait is too long. Which wait?",
+      "illustrative": true,
+      "body": [
+        "A busy neighborhood restaurant keeps hearing the same complaint on weekend nights: *the wait is too long*.",
+        "The owner is ready to hire another cook for $3,500 a month. It feels like the obvious fix. A stopwatch is about to show it would have been money spent on the wrong wait."
+      ],
+      "image": {
+        "label": "Restaurant table with a stopwatch beside the plates",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 저녁 레스토랑 테이블 위에 접시와 커다란 스톱워치. 손님 두 명이 시계를 보며 지루한 표정. 배경에 바쁜 주방. 실제 브랜드나 로고는 쓰지 않음.",
+        "url": "assets/images/thk-07-01-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What do you do first?",
+      "illustrative": true,
+      "body": [
+        "Reviews and comments say guests wait too long on Friday and Saturday nights. Your head chef says the kitchen is stretched. You have budget for one change this month.",
+        "What's your first move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Hire another cook to speed up the kitchen",
+            "verdict": "risky",
+            "feedback": "A cook speeds up the kitchen. If the long wait is somewhere else, you'd pay $3,500 a month and guests would still complain."
+          },
+          {
+            "key": "B",
+            "text": "Time each step of a meal for a few busy nights, then pick a fix",
+            "verdict": "best",
+            "feedback": "It delays the fix by a week but costs almost nothing, and it tells you which wait to fix. Next card shows what it found."
+          },
+          {
+            "key": "C",
+            "text": "Serve free bread so the wait feels shorter",
+            "verdict": "partial",
+            "feedback": "Cheap, and it can make the first wait feel shorter. It won't help if guests are annoyed at a different point in the meal."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Where the 35 minutes went.",
+      "illustrative": true,
+      "body": [
+        "The kitchen wasn't the biggest wait. Guests spent **16 minutes** waiting to pay, more than they waited for food. One server was carrying every bill to a single card machine by the bar."
+      ],
+      "breakdown": [
+        {
+          "value": "5 min",
+          "label": "Seated to order",
+          "detail": "Menus, drinks, ordering",
+          "highlight": false
+        },
+        {
+          "value": "14 min",
+          "label": "Order to food",
+          "detail": "The part the cook would fix",
+          "highlight": false
+        },
+        {
+          "value": "16 min",
+          "label": "Asking for the bill to paid",
+          "detail": "Waiting for the bill and the card machine",
+          "highlight": true
+        },
+        {
+          "value": "35 min",
+          "label": "Total waiting",
+          "detail": "Per table, busy weekend nights",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Define the problem first",
+      "body": [
+        "**Defining the problem** means writing down exactly what is wrong before you look for fixes: what is happening, when, how much, and compared with what you want.",
+        "A useful test: the statement should contain no solution. \"We need another cook\" is a solution in disguise. \"On weekend nights, guests wait about 16 minutes to pay, and we want it under 5\" is a problem.",
+        "The second version points straight at the bill, not the kitchen."
+      ],
+      "image": {
+        "label": "A vague complaint turned into a precise problem statement",
+        "aspectRatio": "16:9",
+        "brief": "좌우 비교 인포그래픽. 왼쪽 흐릿한 말풍선 \"The wait is too long\". 오른쪽 선명한 카드에 \"What: wait to pay / When: Fri–Sat nights / How much: 16 min / Goal: under 5 min\". 가운데 화살표.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "The way you state a problem picks your solutions.",
+      "body": [
+        "A story told in many versions: tenants of an office building complained the elevators were too slow. Stated as \"make the elevators faster,\" every option was costly.",
+        "Someone restated it as \"people are bored and impatient while they wait.\" Mirrors went up beside the elevators, and complaints reportedly dropped. The story may be embellished.",
+        "The lesson holds anyway. Each way of stating a problem opens some solutions and quietly hides others."
+      ],
+      "image": {
+        "label": "People checking themselves in a mirror beside elevator doors",
+        "aspectRatio": "16:9",
+        "brief": "3D 클레이 스타일. 엘리베이터 문 옆 큰 거울 앞에서 사람들이 머리를 정리하거나 넥타이를 고치는 장면. 엘리베이터 층수 표시는 그대로. 실제 건물이나 브랜드 표시는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where it shows up",
+      "title": "Spot the solution hiding in the sentence.",
+      "body": [
+        "Many \"problems\" in meetings are really fixes someone already likes. Try rewriting them:"
+      ],
+      "list": [
+        "\"We need more staff\" → which tasks are late, by how much, and when?",
+        "\"We need a new website\" → what are visitors failing to do, and how often?",
+        "\"We need to cut prices\" → which deals are we losing, to whom, and at what price gap?"
+      ],
+      "callout": "If the sentence names a fix, you haven't defined the problem yet."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Define it well enough, then move.",
+      "body": [
+        "Defining a problem should take minutes or days, not weeks. A few nights with a stopwatch was enough here. Some problems only get clear once you try something small, so write your best guess and revise it.",
+        "Also, a clear definition tells you *what* hurts, not *why*. Knowing guests wait 16 minutes to pay doesn't yet explain the cause. Finding causes is a separate step."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a recipe app.",
+      "illustrative": true,
+      "body": [
+        "App store reviews keep saying \"the app is slow.\" Your engineers propose rebuilding the backend, which would take about three months.",
+        "What do you do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Approve the rebuild. Speed matters to users",
+            "verdict": "risky",
+            "feedback": "You'd bet three months on a guess. If the slowness lives on one screen, most of the rebuild fixes nothing users notice."
+          },
+          {
+            "key": "B",
+            "text": "Find which screens are slow, on which devices, by how many seconds, against a target",
+            "verdict": "best",
+            "feedback": "It costs a few days of data before acting. It may show one search screen taking 8 seconds on older phones, a much smaller fix."
+          },
+          {
+            "key": "C",
+            "text": "Add friendly loading animations so waits feel shorter",
+            "verdict": "partial",
+            "feedback": "Like the mirrors, it's cheap and can ease mild waits. But if one screen takes 8 seconds, you've hidden the problem, not fixed it."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Write the problem down before you buy the fix.",
+      "body": [
+        "What is happening, when, how much, and compared with what goal. No solution in the sentence.",
+        "**Try it today:** take the next \"we need…\" you hear at work. Rewrite it as a problem with a number and a goal, then see if the original fix still makes sense."
+      ],
+      "next": "Next · Break a big problem into small parts"
+    }
+  ]
+}

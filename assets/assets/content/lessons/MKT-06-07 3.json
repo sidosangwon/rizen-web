@@ -1,0 +1,250 @@
+{
+  "id": "MKT-06-07",
+  "unitId": "MKT-06",
+  "categoryId": "MKT",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "A snack brand: supermarkets or online?",
+  "readerTitle": "Your snack sells for $4. Where should it be sold?",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.2,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "적용 레슨 · 가상 사례 (스낵 브랜드, 청소 서비스) · 모든 수치는 설명용",
+  "insight": "채널은 '얼마를 떼어 가나'가 아니라 '그 몫으로 무엇을 사 주고, 내 상품이 그 채널에 맞는가'로 고른다.",
+  "misconception": "중간 유통을 빼고 직접 팔면 유통 마진만큼 그대로 더 남는다.",
+  "relatedLessonIds": [
+    "MKT-06-05",
+    "MKT-06-03"
+  ],
+  "sources": [
+    {
+      "text": "유통 채널 마진과 채널 적합성에 관한 표준 마케팅 개념",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "슈퍼마켓 경로(가상): $4.00 − 소매 몫 $1.40(35%) − 유통사 $0.40 − 생산원가 $1.20 = 봉지당 $1.00.",
+      "status": "open"
+    },
+    {
+      "note": "온라인 박스(가상): 12봉지 $40 − 생산원가 $14.40(12 × $1.20) − 포장·배송 $9.00 − 결제 수수료 $1.20(3%) = 박스당 $15.40(봉지당 약 $1.28). 첫 주문 광고비 $20 반영 시 첫 박스 −$4.60.",
+      "status": "open"
+    },
+    {
+      "note": "손익 비교: 온라인 n박스 누적 15.40n − 20, 같은 봉지 수의 슈퍼마켓 누적 12n × $1.00 = 12n. 15.40n − 20 > 12n → n > 5.88, 즉 6번째 박스부터 온라인이 앞섭니다. 6박스: 온라인 $72.40 vs 슈퍼마켓 $72.00.",
+      "status": "open"
+    },
+    {
+      "note": "청소 서비스(가상): 방문당 $120 − 인건비·자재 $80 = $40. 플랫폼 수수료 20% = $24 → 남는 돈 $16. 격주 방문 연 26회 × $24 = 연 $624.",
+      "status": "open"
+    },
+    {
+      "note": "입점비(slotting fee), 브랜드가 부담하는 판촉 할인, 미판매 재고, 대금 지급 지연은 식품 소매에서 흔히 거론되는 비용이지만 수치는 넣지 않았습니다. 나라·체인별로 다르므로 일반적 표현만 유지하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Distribution · Apply",
+      "title": "Your snack sells for $4. Where should it be sold?",
+      "illustrative": true,
+      "body": [
+        "You make spiced chickpea crisps. In the supermarket they sit on the shelf at $4 a bag. After the store and the distributor take their share, you get $2.20.",
+        "A friend says: \"Sell online and keep the whole $4.\" It sounds obvious. The numbers say otherwise."
+      ],
+      "image": {
+        "label": "A snack bag on a supermarket shelf next to a shipping box",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 일러스트. 왼쪽은 슈퍼마켓 선반 위 병아리콩 스낵 봉지($4 가격표), 오른쪽은 같은 봉지 12개가 든 배송 박스. 가운데 갈림길 화살표. 실제 브랜드·매장 로고는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which channel leaves you more money?",
+      "illustrative": true,
+      "body": [
+        "Supermarket: each bag leaves you $1.00 after the store, distributor and making costs.",
+        "Online: you sell a 12-bag box for $40. You pay for packing, shipping and ads to win each new customer."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Online, because nobody takes a cut",
+            "verdict": "risky",
+            "feedback": "No middleman, but shipping, fees and ads replace their cut. This is **middlemen and their margins** at work: removing the middleman doesn't remove the work they did."
+          },
+          {
+            "key": "B",
+            "text": "The supermarket, because its cut is a fair price",
+            "verdict": "partial",
+            "feedback": "Often true for a cheap, impulse snack. But it ignores fans who buy again and again, where online can win."
+          },
+          {
+            "key": "C",
+            "text": "It depends on how many boxes an online customer buys",
+            "verdict": "best",
+            "feedback": "Right. Online pays for itself only through repeat orders. The next cards show where the line falls."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "Path one",
+      "title": "One bag through the supermarket",
+      "illustrative": true,
+      "body": [
+        "Small per bag, but the store brings the shoppers. You pay nothing to find them."
+      ],
+      "breakdown": [
+        {
+          "value": "$4.00",
+          "label": "Shelf price",
+          "detail": "What the shopper pays",
+          "highlight": false
+        },
+        {
+          "value": "−$1.40",
+          "label": "Supermarket",
+          "detail": "About 35% of the price",
+          "highlight": false
+        },
+        {
+          "value": "−$0.40",
+          "label": "Distributor",
+          "detail": "Warehousing and delivery to stores",
+          "highlight": false
+        },
+        {
+          "value": "−$1.20",
+          "label": "Making the bag",
+          "detail": "Chickpeas, oil, spice, packaging",
+          "highlight": false
+        },
+        {
+          "value": "$1.00",
+          "label": "Left for you",
+          "detail": "Per bag sold",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Path two",
+      "title": "One box sold online",
+      "illustrative": true,
+      "body": [
+        "A $40 box of 12 bags costs $14.40 to make, $9 to pack and ship, and $1.20 in card fees. That leaves **$15.40**, about $1.28 a bag. Better than the shelf.",
+        "But winning a new customer with ads costs about $20. The first box loses $4.60. Compared with selling the same bags in stores, a customer must buy **six boxes** before online comes out ahead."
+      ],
+      "image": {
+        "label": "A staircase of six boxes crossing a line",
+        "aspectRatio": "16:9",
+        "brief": "박스 6개가 계단처럼 쌓이고, 점선으로 된 '슈퍼마켓 수익선'을 6번째 박스에서 넘는 그래프형 일러스트. 첫 박스는 빨간색(−$4.60), 나머지는 초록색.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Concept at work",
+      "title": "Middlemen and their margins",
+      "body": [
+        "The supermarket's $1.40 isn't a tax. It buys shelf space, foot traffic, cold storage and the shopper who grabs your bag on the way to the checkout.",
+        "Going direct means doing all of that yourself. Ask what a middleman's cut pays for, and what it would cost you to replace it."
+      ],
+      "softwareNote": "App stores and marketplaces take a share of each sale. Skipping them saves the fee but means paying to be found some other way."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Concept at work",
+      "title": "Channel fit",
+      "body": [
+        "A $4 snack is cheap, bought on impulse and bought with other groceries. That fits a supermarket. Few people plan an online order for one bag of crisps.",
+        "Online fits a different buyer: the fan who eats a bag a day, the office stocking a kitchen, the person sending a gift. The **channel fit** question is which buyer you're serving, not which channel is better."
+      ],
+      "image": {
+        "label": "Two shoppers: impulse buyer and loyal fan",
+        "aspectRatio": "16:9",
+        "brief": "왼쪽은 장바구니를 든 채 계산대 앞에서 스낵을 집는 사람, 오른쪽은 문 앞에서 정기 배송 박스를 받는 사람. 각각 'Supermarket'과 'Online' 라벨. 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The shelf has hidden costs too.",
+      "body": [
+        "Supermarkets may charge fees to stock new products, expect you to fund discounts, send back stock that doesn't sell and pay weeks later.",
+        "So the $1.00 a bag can shrink. Run both paths with every cost included before you choose. Many brands start small in both and let the numbers decide."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a cleaning business.",
+      "illustrative": true,
+      "body": [
+        "Your regulars book a clean every two weeks at $120. Each visit leaves $40 after cleaner pay and supplies.",
+        "A booking platform can bring new customers. It takes 20% of every job booked through it, repeats included."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Join and send all bookings through it",
+            "verdict": "risky",
+            "feedback": "You fill your calendar, but each visit leaves $16 instead of $40. For a regular, that's $624 a year in fees. The **middleman's margin** repeats on work you'd have kept anyway."
+          },
+          {
+            "key": "B",
+            "text": "Use it to fill empty slots, and win regulars through referrals and local channels",
+            "verdict": "best",
+            "feedback": "The platform fits one-off and new customers; your own channels fit the regulars. That's **channel fit** and margin thinking together."
+          },
+          {
+            "key": "C",
+            "text": "Refuse. Never pay a middleman",
+            "verdict": "risky",
+            "feedback": "You keep the full $40, but empty slots earn nothing. The platform's cut buys customers you can't reach yet."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A channel's cut is a price. Ask what it buys.",
+      "body": [
+        "You used two ideas: **middlemen and their margins** (what the cut pays for) and **channel fit** (which buyer each channel suits).",
+        "**Try it today:** pick one channel you sell through. Write what it costs you per sale, and what you'd spend to do its job yourself."
+      ],
+      "next": "Next · A software tool: direct or through partners?"
+    }
+  ]
+}

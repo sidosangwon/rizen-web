@@ -1,0 +1,240 @@
+{
+  "id": "OPS-08-01",
+  "unitId": "OPS-08",
+  "categoryId": "OPS",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Inventory turnover",
+  "readerTitle": "Same sales, same profit. Why does one restaurant hold five times the stock?",
+  "format": "two_businesses",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (레스토랑 두 곳, IT 유지보수 회사) · 모든 수치는 설명용",
+  "insight": "재고는 선반 위에 쌓인 현금이다. 그 현금이 1년에 몇 번 매출로 돌아오는지(회전율)를 보면, 같은 이익을 내는 두 사업의 건강 상태가 전혀 다르게 보인다.",
+  "misconception": "이익률이 같고 재고가 떨어지지 않으면 재고를 얼마나 쌓아 두든 상관없다. 회전율은 높을수록 무조건 좋다.",
+  "relatedLessonIds": [
+    "FIN-02-05",
+    "OPS-08-02"
+  ],
+  "sources": [
+    {
+      "text": "관리회계·재무분석의 표준 개념 (재고회전율 = 매출원가 ÷ 평균 재고, 재고일수 = 365 ÷ 회전율)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "레스토랑 계산: A $300,000 ÷ $10,000 = 30회, 365 ÷ 30 ≈ 12.2일(약 12일). B $300,000 ÷ $50,000 = 6회, 365 ÷ 6 ≈ 60.8일(약 61일). 추가로 묶인 현금 $50,000 − $10,000 = $40,000. 재고 $1당 연간 원가 기준 판매액 A $30, B $6.",
+      "status": "open"
+    },
+    {
+      "note": "IT 회사 계산: $240,000 ÷ $80,000 = 3회, 365 ÷ 3 ≈ 121.7일(약 4개월). 카드에는 \"about four months\"로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "softwareNote의 '물류 대행 창고가 오래 머문 재고에 보관료를 부과한다'는 일반적 관행으로 서술했습니다. 특정 업체명·요율은 쓰지 않았습니다. 게시 전 표현이 과하지 않은지 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Two businesses",
+      "title": "Same sales, same profit. Why does one restaurant hold five times the stock?",
+      "illustrative": true,
+      "body": [
+        "Two restaurants on the same street each spend $300,000 a year on food and drink. Their menus earn similar margins. Their profits look alike.",
+        "Walk into the storerooms, though, and they look nothing alike. One has $10,000 of stock on its shelves. The other has $50,000."
+      ],
+      "image": {
+        "label": "Two storerooms side by side, one sparse, one packed",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 왼쪽은 선반이 가볍게 채워진 작은 창고, 오른쪽은 와인 상자와 식자재 박스가 천장까지 쌓인 창고. 두 문 앞에 같은 크기의 동전 더미를 놓아 이익이 같다는 점을 암시. 실제 브랜드 로고·라벨은 쓰지 않음.",
+        "url": "assets/images/ops-08-01-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which restaurant is in better shape?",
+      "illustrative": true,
+      "body": [
+        "Restaurant A buys fresh several times a week and keeps about $10,000 of stock. Restaurant B buys in bulk, keeps a deep wine cellar and holds about $50,000. B's owner says, \"We never run out.\"",
+        "Profits are about equal. Which business would you rather own?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "They're equal. Same sales, same profit",
+            "verdict": "risky",
+            "feedback": "The profit statement says they're equal. But B needs $40,000 more cash to earn the same profit, cash that could pay down debt or fund a new oven."
+          },
+          {
+            "key": "B",
+            "text": "Restaurant B. It never runs out and buys at bulk prices",
+            "verdict": "partial",
+            "feedback": "Never running out has real value, and bulk prices can help. But you pay for that safety with cash that sits still, plus storage space and spoilage risk."
+          },
+          {
+            "key": "C",
+            "text": "Restaurant A. Its stock turns back into sales much faster",
+            "verdict": "best",
+            "feedback": "Right. A earns the same profit with a fifth of the money tied up. The next card shows how to measure that speed."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "How often does the stock come back as sales?",
+      "illustrative": true,
+      "body": [
+        "Divide what each restaurant spends on food and drink in a year by the stock it holds. A empties and refills its shelves **30 times** a year. B does it **6 times**."
+      ],
+      "breakdown": [
+        {
+          "value": "30×",
+          "label": "Restaurant A",
+          "detail": "$300,000 ÷ $10,000 of stock",
+          "highlight": true
+        },
+        {
+          "value": "~12 days",
+          "label": "A: time on the shelf",
+          "detail": "365 ÷ 30",
+          "highlight": false
+        },
+        {
+          "value": "6×",
+          "label": "Restaurant B",
+          "detail": "$300,000 ÷ $50,000 of stock",
+          "highlight": false
+        },
+        {
+          "value": "~61 days",
+          "label": "B: time on the shelf",
+          "detail": "365 ÷ 6",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Inventory turnover",
+      "body": [
+        "**Inventory turnover** is how many times a year you sell through the stock you hold. Take what your sold goods cost you over a year, then divide by the average value of stock on hand.",
+        "Flip it around and you get **days on hand**: 365 divided by turnover. It tells you how long a typical item waits before a customer pays for it.",
+        "Use cost, not selling price, on both sides, so you compare like with like."
+      ],
+      "image": {
+        "label": "Coins cycling from shelf to register and back",
+        "aspectRatio": "4:3",
+        "brief": "순환 화살표 인포그래픽. \"Cash\" → \"Stock on shelf\" → \"Sale\" → 다시 \"Cash\". 왼쪽 원은 빠르게 30바퀴 도는 느낌(모션 라인 많음), 오른쪽 원은 느리게 6바퀴. 각 원 아래 \"30× a year\", \"6× a year\" 라벨.",
+        "url": "assets/images/ops-08-01-c4.jpg"
+      },
+      "softwareNote": "An online store runs the same math. Fulfillment warehouses often charge storage fees each month, and more for items that sit a long time, so slow stock costs you rent as well as cash."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Every turn brings the money back.",
+      "illustrative": true,
+      "body": [
+        "Each time stock sells, the money you spent on it returns, along with your margin. Then you spend it again.",
+        "For every $1 sitting on A's shelves, A sells $30 worth of food (at cost) in a year. For every $1 on B's shelves, B sells just $6. Same menu margins, but A's money works five times harder.",
+        "Slow stock adds quieter costs too: shelf space, spoiled produce, wine that gets damaged or goes missing."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond restaurants",
+      "title": "Service firms hold stock too.",
+      "illustrative": true,
+      "body": [
+        "An IT support company sells its time, yet keeps spare laptops, cables and parts for client repairs. A building maintenance firm keeps filters and fittings in its vans. Anything bought before a customer pays for it is inventory.",
+        "And one number for the whole business can hide a lot. B's fresh produce may turn every few days while its cellar barely moves. **Measure turnover by category**, and the slow corner usually jumps out."
+      ],
+      "image": {
+        "label": "Van and shelf of spare parts with day counters",
+        "aspectRatio": "4:3",
+        "brief": "정비 회사 창고 선반 일러스트. 부품 상자마다 작은 꼬리표: \"Cables · 9 days\", \"Laptops · 40 days\", \"Old printer parts · 300 days\". 마지막 꼬리표에 먼지 표현. 실제 제조사 로고는 쓰지 않음.",
+        "url": "assets/images/ops-08-01-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Faster isn't always better.",
+      "body": [
+        "Turnover rises when you hold less stock. Push it too far and you run out of the dish everyone ordered, or pay more for small, frequent deliveries.",
+        "Comparisons only work within an industry. A florist should turn stock far faster than a jeweler. That doesn't make the jeweler badly run.",
+        "Use the average stock over the year, not one snapshot. A count taken right after a big delivery makes any business look slow."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's an IT support firm.",
+      "illustrative": true,
+      "body": [
+        "Your firm installs about $240,000 of parts a year for business clients. You keep $80,000 of spares on hand, so stock turns three times a year, about four months on the shelf. Several clients pay you to fix problems within hours.",
+        "You want to free up cash. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Cut every spare part to the bare minimum",
+            "verdict": "risky",
+            "feedback": "Turnover jumps, but a missing part can break a same-day repair promise. You'd save cash and lose the clients who pay for speed."
+          },
+          {
+            "key": "B",
+            "text": "Check turnover part by part, clear out slow items, keep fast-moving critical spares",
+            "verdict": "best",
+            "feedback": "You release the cash stuck in parts nobody uses and keep the ones that protect your service promise. It takes an afternoon with the records."
+          },
+          {
+            "key": "C",
+            "text": "Take the supplier's bulk discount to lower your parts cost",
+            "verdict": "partial",
+            "feedback": "A lower price helps margins, but buying more at once ties up even more cash. It only pays if those parts actually sell quickly."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Stock is cash on a shelf. Count how fast it comes back.",
+      "body": [
+        "Two businesses can earn the same profit while one needs far more money to do it. Inventory turnover shows which one.",
+        "**Try it today:** take last year's cost of goods sold and divide it by your average stock value. Then do it again for your slowest category."
+      ],
+      "next": "Next · Running out vs. having too much"
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "id": "CUS-06-07",
+  "unitId": "CUS-06",
+  "categoryId": "CUS",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "Win back a gym's lapsed members",
+  "readerTitle": "The gym that stopped chasing everyone back",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (헬스장, 송장 앱, 포장재 공급사) · 모든 수치는 설명용",
+  "insight": "이탈 고객 되찾기는 할인 금액이 아니라, 언제 들어와 언제 발길을 끊었는지와 원래 사용 리듬이 어디서 깨졌는지를 보고 설계한다.",
+  "misconception": "떠난 고객에게는 모두 같은 할인 쿠폰을 보내면 되고, 해지한 순간이 이탈한 순간이다.",
+  "relatedLessonIds": [
+    "CUS-06-03",
+    "CUS-06-04"
+  ],
+  "sources": [
+    {
+      "text": "이 유닛의 개념 레슨: CUS-06-03 코호트, CUS-06-04 자연 사용 빈도",
+      "url": null
+    },
+    {
+      "text": "모든 수치와 사업은 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "3번 카드 합계: 190 + 80 + 70 + 40 = 380명. 훅 카드의 380명과 일치합니다. 모든 수치는 가상입니다.",
+      "status": "open"
+    },
+    {
+      "note": "'1월에 신규 가입이 몰린다'는 업계에서 흔히 말하는 관찰이지만, 특정 통계는 인용하지 않았습니다. 카드에서도 수치 없이 가상 헬스장의 패턴으로만 서술했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "주 2~3회 운동 빈도는 가상 헬스장의 '원래 사용 리듬' 설정일 뿐, 권장 운동량이나 업계 평균으로 제시하지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Everyday scene",
+      "title": "380 names and one discount code",
+      "illustrative": true,
+      "body": [
+        "Maya runs a neighborhood gym. Her software shows 380 people who cancelled in the past year.",
+        "Her plan is simple: email all of them a 50% comeback offer this Friday. It's quick, it's cheap to send, and it feels generous. It also treats 380 different stories as one."
+      ],
+      "image": {
+        "label": "Gym owner looking at a long list of former members",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 작은 동네 헬스장 카운터에서 주인이 노트북 속 긴 명단을 보고 있음. 화면에 \"50% OFF\" 이메일 초안. 뒤로 빈 러닝머신들. 실제 브랜드 로고는 쓰지 않음.",
+        "url": "assets/images/cus-06-07-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Where should Maya start?",
+      "illustrative": true,
+      "body": [
+        "She has one afternoon to plan the win-back before Friday's email goes out. What's the best first move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Send the 50% offer to all 380 now",
+            "verdict": "risky",
+            "feedback": "Fast, but a discount fixes only one reason for leaving: price. People who left for other reasons ignore it, and the rest learn that cancelling earns a deal."
+          },
+          {
+            "key": "B",
+            "text": "Split the list by when people joined and when they stopped coming",
+            "verdict": "best",
+            "feedback": "This is **cohorts** at work: groups that started at the same time often leave for the same reason, and each reason needs a different answer."
+          },
+          {
+            "key": "C",
+            "text": "Phone the 30 most recent cancellations first",
+            "verdict": "partial",
+            "feedback": "Recent leavers are easier to reach, and calls teach you a lot. But 30 calls won't show the pattern across all 380."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What the split showed",
+      "title": "Four groups, four reasons",
+      "illustrative": true,
+      "body": [
+        "Half the list joined in January and stopped within six weeks. One email could never have spoken to all four groups."
+      ],
+      "breakdown": [
+        {
+          "value": "190",
+          "label": "January joiners",
+          "detail": "Stopped coming by week 6",
+          "highlight": true
+        },
+        {
+          "value": "80",
+          "label": "Other new joiners",
+          "detail": "Gone within 3 months",
+          "highlight": false
+        },
+        {
+          "value": "70",
+          "label": "Long-time members",
+          "detail": "Moved, injured or changed jobs",
+          "highlight": false
+        },
+        {
+          "value": "40",
+          "label": "Left after a complaint",
+          "detail": "Broken equipment, class cancelled",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept at work · Cohorts",
+      "title": "The average hid the January problem.",
+      "illustrative": true,
+      "body": [
+        "Looked at as one list, Maya's gym had a vague \"people leave\" problem. Grouped by start month, it had a sharp one: **new members who never built a routine**.",
+        "That changes the offer. The January crowd didn't leave because of price. They left because the gym never became part of their week. Half off a habit they never formed is still a habit they don't have.",
+        "The 40 complaint leavers need something else: a personal apology and proof the issue is fixed."
+      ],
+      "image": {
+        "label": "Bars by join month, with January much taller",
+        "aspectRatio": "16:9",
+        "brief": "가입 월별 막대 그래프. 1월 막대만 유난히 높고 \"Stopped by week 6\" 라벨. 나머지 달은 낮게. 깔끔한 인포그래픽, 브랜드 로고 없음.",
+        "url": "assets/images/cus-06-07-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Concept at work · Natural usage frequency",
+      "title": "They left in week four, not month four.",
+      "illustrative": true,
+      "body": [
+        "A gym member who's getting value visits two or three times a week. That is the gym's **natural usage frequency**. Measured against it, Maya's January members were gone long before they cancelled. They kept paying for weeks after their last visit.",
+        "So the real win-back moment is the first quiet fortnight, while they're still members. Maya now flags anyone who misses two weeks and invites them to a fixed-time small-group class.",
+        "For lapsed January joiners, her offer is a four-week, twice-a-week starter group. It rebuilds the rhythm instead of cutting the price."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Try it · Software",
+      "title": "An invoicing app flags \"inactive\" users.",
+      "illustrative": true,
+      "body": [
+        "Small businesses use your app to send invoices, mostly in the last days of each month. Your team sends a \"We miss you\" message to anyone who hasn't logged in for 14 days.",
+        "Which rule should define a lapsing user?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep the 14-day rule for everyone",
+            "verdict": "risky",
+            "feedback": "Simple to run, but for a monthly tool, two quiet weeks is normal. You'd nag healthy users and train them to ignore you."
+          },
+          {
+            "key": "B",
+            "text": "Flag users who miss their usual month-end invoicing",
+            "verdict": "best",
+            "feedback": "That's **natural usage frequency**: judge silence against how often the product is meant to be used. A missed month-end run is the real warning."
+          },
+          {
+            "key": "C",
+            "text": "Wait until they cancel, then offer a discount",
+            "verdict": "partial",
+            "feedback": "Cancellation is a clear signal, but it comes late. By then, many have already moved their invoicing elsewhere."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Not everyone should be won back.",
+      "body": [
+        "Maya's 70 long-time members who moved away won't return for any offer. A warm thank-you and an easy way to rejoin later costs less and keeps goodwill.",
+        "Repeated discounts teach people to cancel and wait. And judge the win-back by cohort too: count how many returners are still coming at week eight, not how many clicked the email."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · Manufacturing",
+      "title": "A packaging supplier loses 30 accounts.",
+      "illustrative": true,
+      "body": [
+        "You sell boxes and pallet wrap to local businesses. Most customers reorder about every six weeks. Thirty accounts placed no order this year. Your sales manager wants to offer all of them 10% off.",
+        "What do you do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Send the 10% offer to all 30",
+            "verdict": "risky",
+            "feedback": "It's easy, but it cuts margin on accounts that left for reasons price won't fix, like a missed delivery or a closed shop."
+          },
+          {
+            "key": "B",
+            "text": "Group them by start date and missed reorders, then call each group about what changed",
+            "verdict": "best",
+            "feedback": "This combines **cohorts** and **natural usage frequency**. You find the pattern behind the losses and catch future accounts after one missed cycle, not a year."
+          },
+          {
+            "key": "C",
+            "text": "Chase only the five biggest accounts",
+            "verdict": "partial",
+            "feedback": "It protects the most revenue fast, but you won't learn why the other 25 left or how to stop the next wave."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "The same check works for a B2B software seat: if a team usually exports reports weekly and two weeks pass, that's your missed reorder."
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Win back the reason, not the list.",
+      "body": [
+        "This lesson used two ideas. **Cohorts** showed who left and why. **Natural usage frequency** showed when they really left, usually long before they cancelled.",
+        "**Try it today:** pull your last 20 lost customers. Note when each started and when their normal rhythm broke. Look for the group that shares a story."
+      ],
+      "next": "Next · Reduce churn in a subscription box"
+    }
+  ]
+}

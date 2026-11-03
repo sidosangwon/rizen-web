@@ -1,0 +1,250 @@
+{
+  "id": "BMO-03-06",
+  "unitId": "BMO-03",
+  "categoryId": "BMO",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Pay-per-use",
+  "readerTitle": "Same pricing switch, two very different months",
+  "format": "two_businesses",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "illustrative",
+    "real_observation"
+  ],
+  "caseNote": "가상 사례 (공유 주방, 이미지 처리 소프트웨어, 바닥 청소기 제조사) + 일반적 관찰 (렌터카·빨래방·전력 회사의 사용량 과금). 모든 수치는 설명용",
+  "insight": "사용량 과금의 핵심은 가격이 아니라 위험의 이동이다. 적게 쓸 위험을 고객 대신 판매자가 진다.",
+  "misconception": "사용량 과금은 고객에게 더 공정하므로 언제나 성장에 유리하다. 많이 쓰는 고객에게 더 받으니 매출도 늘어난다.",
+  "relatedLessonIds": [
+    "BMO-02-02",
+    "BMO-03-01"
+  ],
+  "sources": [
+    {
+      "text": "사용량 기반 과금(pay-per-use)의 일반적 개념. 렌터카, 빨래방, 전력 요금 등은 널리 알려진 관찰",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "공유 주방 계산: 시간당 $25 × 80시간 = $2,000. 손익분기 $1,200 ÷ $25 = 48시간. 신규 제빵사 10시간 × $25 = $250. 모두 가상 수치입니다.",
+      "status": "open"
+    },
+    {
+      "note": "소프트웨어 회사 월 매출(10월 $31,000, 11월 $44,000, 12월 $52,000, 1월 $27,000)은 설명용 가상 수치입니다. 연말 성수기 후 1월 하락이라는 패턴만 보여주려는 목적입니다.",
+      "status": "open"
+    },
+    {
+      "note": "7번 카드의 택시 미터 비유는 일반적 관찰로만 썼고 특정 연구를 인용하지 않았습니다. 연구 인용으로 바꾸려면 1차 출처를 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "바닥 청소기 사례: 시간당 요금 = 기계 원가와 서비스 비용을 예상 사용 시간으로 나눈 값이라는 원리만 제시하고 구체 숫자는 넣지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business models · Two businesses",
+      "title": "Same pricing switch, two very different months",
+      "illustrative": true,
+      "body": [
+        "A shared kitchen and a small software company made the same change. They stopped charging a flat monthly fee and started charging for what customers actually used.",
+        "The kitchen filled its quiet hours. The software company signed up customers faster than ever, then had its slowest month in a year."
+      ],
+      "image": {
+        "label": "A kitchen and a laptop, each with a running meter",
+        "aspectRatio": "4:3",
+        "brief": "화면을 반으로 나눈 일러스트. 왼쪽은 상업용 공유 주방에서 빵을 굽는 사람, 오른쪽은 노트북 화면에 이미지가 처리되는 모습. 양쪽 위에 똑같은 디지털 미터기가 숫자를 올리고 있음. 실제 브랜드나 로고는 쓰지 않음.",
+        "url": "assets/images/bmo-03-06-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Bakers want in, but not at $1,200.",
+      "illustrative": true,
+      "body": [
+        "You run a shared commercial kitchen. Food businesses pay $1,200 a month for unlimited hours. Your regulars use about 80 hours a month.",
+        "New bakers keep touring, then leaving. They need a few hours a week and can't commit to $1,200. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Switch everyone to $25 an hour",
+            "verdict": "partial",
+            "feedback": "Newcomers can start for a few hundred dollars. But a regular at 80 hours would now pay $2,000 and may look for a cheaper kitchen."
+          },
+          {
+            "key": "B",
+            "text": "Keep the flat fee and offer a discounted first month",
+            "verdict": "risky",
+            "feedback": "The discount only delays the problem. A baker who needs 10 hours a month still faces $1,200 in month two."
+          },
+          {
+            "key": "C",
+            "text": "Add a $25-an-hour option next to the membership",
+            "verdict": "best",
+            "feedback": "Newcomers pay only for the hours they use, and regulars keep their flat deal. Above 48 hours a month the membership is cheaper, so heavy users stay put."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "What happened",
+      "title": "Easier to start, bumpier to run.",
+      "illustrative": true,
+      "body": [
+        "The kitchen's hourly bakers booked the empty early mornings, often starting at 10 hours ($250) a month.",
+        "The software company resizes product photos for online shops. It moved from a $500 monthly plan to $1 per 1,000 images. Small shops signed up in minutes. But revenue now rose and fell with its customers' sales."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Software company revenue by month",
+            "rows": [
+              {
+                "label": "Oct",
+                "value": 31000,
+                "highlight": false
+              },
+              {
+                "label": "Nov",
+                "value": 44000,
+                "highlight": false
+              },
+              {
+                "label": "Dec",
+                "value": 52000,
+                "highlight": false
+              },
+              {
+                "label": "Jan",
+                "value": 27000,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "callout": "After the holiday rush, shops listed fewer products, and the bill shrank with them."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Pay-per-use",
+      "body": [
+        "**Pay-per-use** means customers pay in proportion to how much they use: hours, images, miles, washes. Use little, pay little.",
+        "The real shift is about risk. With a flat fee, the customer carries the risk of paying for something they barely use. With pay-per-use, **the seller carries that risk**. That makes it easier for customers to say yes, and it makes the seller's income less predictable."
+      ],
+      "image": {
+        "label": "A weight labelled 'risk of low use' moving from customer to seller",
+        "aspectRatio": "16:9",
+        "brief": "시소 인포그래픽. 왼쪽 'Flat fee'에서는 'Risk of low use'라고 적힌 추가 고객 쪽에, 오른쪽 'Pay-per-use'에서는 같은 추가 판매자 쪽에 놓여 있음. 단순한 플랫 스타일.",
+        "url": "assets/images/bmo-03-06-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Pick a meter that tracks value.",
+      "body": [
+        "The unit you charge for matters as much as the price. A good meter rises when the customer gets more out of you."
+      ],
+      "list": [
+        "**Kitchen hours:** more hours means more baking and more product to sell",
+        "**Images processed:** more images usually means the shop is listing more products",
+        "**Miles, loads, kilowatt-hours:** the long-standing meters of car hire, laundromats and power companies"
+      ],
+      "callout": "If the meter climbs while the customer's benefit stays flat, expect complaints and cancellations."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where it fits",
+      "title": "Best when use is uneven or uncertain.",
+      "body": [
+        "Pay-per-use works when customers can't predict how much they'll need, or when use comes in bursts. A new baker doesn't know if her cakes will sell. A new online shop doesn't know its traffic.",
+        "It works less well when use is steady and heavy. Those customers often prefer a flat price they can budget for, and many will pay a little extra for that certainty. That's why the kitchen kept its membership."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A visible meter changes behavior.",
+      "body": [
+        "When people can see the meter running, some use less than they'd like, the way riders watch a taxi fare tick up. Less use can mean less value, and less reason to stay.",
+        "Your costs don't shrink with usage, either. The kitchen pays rent in quiet months too. So many businesses blend models: a small base fee plus usage, a monthly cap, or prepaid bundles of hours."
+      ],
+      "image": {
+        "label": "A customer nervously watching a ticking meter",
+        "aspectRatio": "16:9",
+        "brief": "카페 테이블 위 노트북 옆에 커다란 택시 미터기가 놓여 있고, 사람이 손을 멈춘 채 미터기 숫자를 걱정스럽게 바라봄. 따뜻하고 약간 유머러스한 톤. 실제 로고 없음.",
+        "url": "assets/images/bmo-03-06-c7.jpg"
+      }
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now you make floor scrubbers.",
+      "illustrative": true,
+      "body": [
+        "You sell industrial floor-scrubbing machines to warehouses for $20,000 each. A large warehouse operator asks to pay per hour of scrubbing instead, with nothing upfront. Your machines already log their own hours.",
+        "How do you respond?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Agree, with an hourly rate plus a modest monthly minimum",
+            "verdict": "best",
+            "feedback": "The customer gets the low-risk start they asked for, and the minimum covers part of your machine cost if their usage drops. You share the risk instead of taking all of it."
+          },
+          {
+            "key": "B",
+            "text": "Agree, pricing each hour at the machine cost divided by expected hours",
+            "verdict": "partial",
+            "feedback": "The math works only if they use it as much as you expect. If the warehouse slows down, you've funded a $20,000 machine that barely runs."
+          },
+          {
+            "key": "C",
+            "text": "Decline, because metered pricing suits software, not machines",
+            "verdict": "risky",
+            "feedback": "Equipment is often a good fit, because the meter tracks real work done. Saying no may send this customer to a rival who says yes."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Pay-per-use moves the risk of low use onto you.",
+      "body": [
+        "It lowers the barrier to starting and ties your income to your customers' success. In return, you take on their slow months.",
+        "**Try it today:** look at how much your customers use you, month to month. If it swings widely, test a usage-based option for new customers only."
+      ],
+      "next": "Next · Why printers are cheap and ink is not"
+    }
+  ]
+}

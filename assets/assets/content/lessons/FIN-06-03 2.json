@@ -1,0 +1,279 @@
+{
+  "id": "FIN-06-03",
+  "unitId": "FIN-06",
+  "categoryId": "FIN",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "The value of future cash",
+  "readerTitle": "Same $500,000, different price tag",
+  "format": "two_businesses",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (공구 도매상, 신규 레스토랑, 소프트웨어 회사 인수 제안) · 모든 수치는 설명용",
+  "insight": "사업의 가치는 앞으로 벌 현금의 합계가 아니라, 그 현금이 언제 얼마나 확실하게 들어오는지를 반영한 오늘의 가치다.",
+  "misconception": "앞으로 벌어들일 현금 총액이 같으면 두 사업의 가치도 같다. 제안 금액이 크면 더 좋은 제안이다.",
+  "relatedLessonIds": [
+    "FIN-06-01",
+    "FIN-06-02"
+  ],
+  "sources": [
+    {
+      "text": "재무관리의 표준 개념 (현재가치, 현금흐름 할인법)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "할인율 10% 기준 할인계수: 1년 0.9091, 2년 0.8264, 3년 0.7513, 4년 0.6830, 5년 0.6209. 도매상: $100,000 × 3.7908 = $379,079(약 $379k). 차트 값 90,909 / 82,645 / 75,131 / 68,301 / 62,092.",
+      "status": "open"
+    },
+    {
+      "note": "레스토랑: $0 + $50,000×0.8264 = $41,322, $100,000×0.7513 = $75,131, $150,000×0.6830 = $102,452, $200,000×0.6209 = $124,184. 합계 $343,089(약 $343k). 두 사업 모두 현금 총액 $500,000, 매도 희망가 $360,000로 가정.",
+      "status": "open"
+    },
+    {
+      "note": "인수 제안: $1.3M을 1~3년 말에 $433,333씩 지급. 10% 기준 계수 합 2.4869 → $1,077,666(약 $1.08M). 20% 기준 계수 0.8333+0.6944+0.5787 = 2.1065 → $912,816(약 $0.91M).",
+      "status": "open"
+    },
+    {
+      "note": "5년 뒤 임대 종료로 이후 현금이 없다는 가정은 계산을 단순화하기 위한 설정입니다. 실제 가치평가에서는 이후 기간 가치(잔존가치)를 따로 다룹니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Two businesses",
+      "title": "Same $500,000, different price tag",
+      "illustrative": true,
+      "body": [
+        "Two businesses are for sale. Each will hand its owner $500,000 in cash over the next five years.",
+        "Both sellers ask the same price. One of them is a good deal. The other is not."
+      ],
+      "image": {
+        "label": "Two shopfronts with identical stacks of cash arriving at different times",
+        "aspectRatio": "4:3",
+        "brief": "왼쪽은 공구 도매 창고, 오른쪽은 작은 레스토랑. 각 가게 앞에 5년치 현금 더미. 도매상은 해마다 같은 높이, 레스토랑은 처음엔 낮고 점점 높아짐. 실제 브랜드나 로고는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which one is worth $360,000?",
+      "illustrative": true,
+      "body": [
+        "**A tool wholesaler** sends out $100,000 in cash every year for five years.",
+        "**A new restaurant** sends out nothing in year one, then $50,000, $100,000, $150,000 and $200,000.",
+        "Both sit on five-year leases that won't be renewed, so nothing comes after. Each seller asks $360,000. You could earn 10% a year elsewhere. Which do you buy?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Either one. Both return $500,000",
+            "verdict": "risky",
+            "feedback": "The totals match, but the dollars arrive at different times. Treating a year-five dollar like a year-one dollar overvalues the slow starter."
+          },
+          {
+            "key": "B",
+            "text": "The restaurant. Its cash is growing fast",
+            "verdict": "partial",
+            "feedback": "Growth matters, and it would matter more if the cash kept coming. Here the big years arrive last, when each dollar is worth the least today."
+          },
+          {
+            "key": "C",
+            "text": "The wholesaler. Its cash comes sooner",
+            "verdict": "best",
+            "feedback": "Right. Earlier cash is worth more today, so the wholesaler is worth more than $360,000 and the restaurant less. Next card shows the numbers."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "Each year's cash, in today's dollars",
+      "illustrative": true,
+      "body": [
+        "Shrink each year's cash for the 10% you could earn by waiting elsewhere. The wholesaler is worth about **$379,000** today. The restaurant is worth about **$343,000**.",
+        "At $360,000, one is a bargain and the other overpays by $17,000."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Tool wholesaler",
+            "rows": [
+              {
+                "label": "Year 1",
+                "value": 90909,
+                "highlight": true
+              },
+              {
+                "label": "Year 2",
+                "value": 82645,
+                "highlight": false
+              },
+              {
+                "label": "Year 3",
+                "value": 75131,
+                "highlight": false
+              },
+              {
+                "label": "Year 4",
+                "value": 68301,
+                "highlight": false
+              },
+              {
+                "label": "Year 5",
+                "value": 62092,
+                "highlight": false
+              }
+            ]
+          },
+          {
+            "label": "New restaurant",
+            "rows": [
+              {
+                "label": "Year 1",
+                "value": 0,
+                "highlight": false
+              },
+              {
+                "label": "Year 2",
+                "value": 41322,
+                "highlight": false
+              },
+              {
+                "label": "Year 3",
+                "value": 75131,
+                "highlight": false
+              },
+              {
+                "label": "Year 4",
+                "value": 102452,
+                "highlight": false
+              },
+              {
+                "label": "Year 5",
+                "value": 124184,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The value of future cash",
+      "body": [
+        "A business is worth the cash it will hand back to its owner, with each future amount converted into what it is worth **today**. That total is called **present value**.",
+        "You don't buy last year's profit. You buy a stream of future payments. Their value depends on how big they are, how soon they come and how sure you can be of them."
+      ],
+      "image": {
+        "label": "A timeline of cash payments shrinking as they move into the future",
+        "aspectRatio": "16:9",
+        "brief": "왼쪽 '오늘'에서 오른쪽 '5년 후'로 이어지는 타임라인. 같은 크기의 동전 더미가 미래로 갈수록 오늘 쪽으로 돌아오는 화살표를 따라 작아짐. 라벨 \"Worth today\".",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Three questions decide the value.",
+      "body": [
+        "Every future payment gets judged on three things:"
+      ],
+      "list": [
+        "**How much:** the cash the business can actually pay out, not its reported profit",
+        "**When:** the later it comes, the less it is worth today",
+        "**How sure:** shaky forecasts get shrunk harder than steady ones"
+      ],
+      "callout": "The restaurant loses on timing. It may lose on certainty too, since new restaurants are hard to forecast."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond buying a business",
+      "title": "The same math prices any stream of cash.",
+      "body": [
+        "A bakery owner choosing between a new oven and a cheaper used one is comparing streams of future savings. A distributor offering a big customer longer payment terms is pushing its own cash further out.",
+        "Whenever money arrives over time, ask what the whole stream is worth today, not what it adds up to."
+      ],
+      "softwareNote": "An annual plan paid upfront and twelve monthly payments can add up to the same revenue. The upfront cash is worth more today, and it can't be lost to cancellations along the way."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The answer is only as good as the forecast.",
+      "body": [
+        "Present value looks precise, but it rests on guesses about future cash. Nudge the restaurant's year-five number up or down and its value moves a lot.",
+        "Use it to compare options and test assumptions, not to produce one true price. If a deal only works with the most hopeful forecast, that tells you something too."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now you're selling a software company.",
+      "illustrative": true,
+      "body": [
+        "Two buyers want your small software business. One offers **$1 million in cash today**. The other offers **$1.3 million**, paid in three equal yearly amounts, but only if your product hits user targets after you hand it over.",
+        "Which way of comparing them makes sense?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Take $1.3 million. It's the bigger number",
+            "verdict": "risky",
+            "feedback": "At 10%, the three payments are worth about $1.08 million today, and that assumes every target is met. The real gap is much smaller than it looks."
+          },
+          {
+            "key": "B",
+            "text": "Always take cash today. Future money is a trap",
+            "verdict": "partial",
+            "feedback": "Safe and simple, but sometimes later money is worth more even after shrinking it. You'd want to check before walking away from it."
+          },
+          {
+            "key": "C",
+            "text": "Convert each offer to today's value, and shrink the uncertain one harder",
+            "verdict": "best",
+            "feedback": "At 20% for the risk of missed targets, the $1.3 million is worth about $0.91 million today, less than the $1 million offer. Now you're comparing like with like."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Value is future cash, counted in today's dollars.",
+      "body": [
+        "Two businesses with the same total cash can be worth very different amounts. Timing and certainty decide the gap.",
+        "**Try it today:** write down the cash your business, or one project, should bring in over the next three years. Mark which years you feel sure about and which are hopes."
+      ],
+      "next": "Next · Why a business \"sells for five times profit\""
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "id": "OPS-04-05",
+  "unitId": "OPS-04",
+  "categoryId": "OPS",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "The cost of doing too much",
+  "readerTitle": "Why starting everything finishes nothing sooner",
+  "format": "two_businesses",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 두 개 (디자인 에이전시, 가구 공방) + 가상 적용 (물류센터) + 실제 연구 (Leroy, 2009 '주의 잔여')",
+  "insight": "동시에 벌인 일 하나하나가 다른 모든 일을 늦춘다. 일을 빨리 끝내는 방법은 더 많이 시작하는 것이 아니라 더 적게 동시에 진행하는 것이다.",
+  "misconception": "여러 일을 한꺼번에 진행하면 모두 조금씩 앞으로 나아가니 결국 더 빨리 끝난다.",
+  "relatedLessonIds": [
+    "OPS-04-04",
+    "FIN-09-06"
+  ],
+  "sources": [
+    {
+      "text": "Leroy, S. (2009). Why is it so hard to do my work? The challenge of attention residue when switching between work tasks. Organizational Behavior and Human Decision Processes, 109(2), 168–181.",
+      "url": null
+    },
+    {
+      "text": "에이전시, 공방, 물류센터 사례와 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "계산 확인: 프로젝트 3개, 각 4주 분량(팀 전체 기준). 동시 진행 시 각 프로젝트에 팀 시간의 1/3씩 → 각각 12주, 세 개 모두 12주 차에 완료(전환 손실 제외). 순차 진행 시 4·8·12주 차 완료, 평균 완료 시점 (4+8+12)÷3 = 8주. 첫 청구 시점 4주 차 vs 12주 차.",
+      "status": "open"
+    },
+    {
+      "note": "Leroy(2009) 연구 내용을 일반적으로만 서술했습니다(끝내지 않은 일에서 넘어오면 이전 일에 대한 생각이 남아 다음 일의 수행이 떨어진다). 구체적 수치는 쓰지 않았습니다. 게시 전 원문 요지와 일치하는지 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Execution · Two businesses",
+      "title": "Why starting everything finishes nothing sooner",
+      "illustrative": true,
+      "body": [
+        "Two small design agencies. Same size team, same three client projects, same skills.",
+        "One starts all three projects on Monday so every client sees progress. The other works on one at a time.",
+        "By the end of the quarter, one of them has sent three invoices months earlier than the other. It's not the busy-looking one."
+      ],
+      "image": {
+        "label": "Two desks: one covered in half-done work, one with a single finished project",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 왼쪽 책상에는 반쯤 완성된 시안 서류가 여러 더미로 어지럽게 쌓여 있고, 오른쪽 책상에는 완성된 프로젝트 하나에 체크 표시와 리본. 실제 회사 로고 사용 금지.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Three clients, one team.",
+      "illustrative": true,
+      "body": [
+        "You run a four-person design agency. Three clients just signed. Each project needs about four weeks of your whole team's effort.",
+        "Every client wants to start now. How do you schedule the work?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Start all three now and split the team's time evenly",
+            "verdict": "risky",
+            "feedback": "Every client sees early movement, but every project now takes three times longer. Nobody gets finished work, and you get paid last."
+          },
+          {
+            "key": "B",
+            "text": "Put the whole team on one project, finish it, then the next",
+            "verdict": "best",
+            "feedback": "The first client gets work in four weeks and you invoice sooner. The cost: the other two wait, so you need to give them clear start dates."
+          },
+          {
+            "key": "C",
+            "text": "Run two at once and queue the third",
+            "verdict": "partial",
+            "feedback": "Better than three at once, but both active projects still take twice as long as they need to. Ask what the second one gains by starting now."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Same work, very different calendars.",
+      "illustrative": true,
+      "body": [
+        "Both agencies finish everything in week 12. But one-at-a-time delivers the average project **four weeks sooner** and gets cash in two months earlier. And that's before counting the time lost switching between projects."
+      ],
+      "breakdown": [
+        {
+          "value": "Week 12",
+          "label": "All at once: every project done",
+          "detail": "Each gets a third of the team, so each takes 12 weeks",
+          "highlight": false
+        },
+        {
+          "value": "Weeks 4, 8, 12",
+          "label": "One at a time: projects done",
+          "detail": "Full team on each, in order",
+          "highlight": false
+        },
+        {
+          "value": "8 vs 12",
+          "label": "Average weeks to finish",
+          "detail": "(4 + 8 + 12) ÷ 3 = 8",
+          "highlight": true
+        },
+        {
+          "value": "Week 4 vs 12",
+          "label": "First invoice",
+          "detail": "Finished work is what gets paid",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The cost of doing too much",
+      "body": [
+        "**The cost of doing too much** is the delay every extra active project adds to all the others. Starting something doesn't create more capacity. It just divides the capacity you have into thinner slices.",
+        "Half-done work earns nothing. Customers can't use it and you can't bill for it. The more you have open, the longer each piece sits unfinished."
+      ],
+      "image": {
+        "label": "One pipe of effort splitting into three thin streams",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 왼쪽에 굵은 파이프 하나가 \"Team time\"이라는 라벨과 함께 오른쪽으로 흐르며 세 갈래 가는 줄기로 나뉨. 각 줄기 끝의 진행 막대는 30%에 머물러 있음. 아래에는 굵은 줄기 하나가 100% 완료된 대비 그림.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Why it's worse than the math",
+      "title": "Switching has its own cost.",
+      "body": [
+        "The calendar math assumes switching is free. It isn't. Every time someone jumps between projects, they have to reload the details: where they left off, what the client said, what comes next.",
+        "Organizational researcher Sophie Leroy described this in 2009 as **attention residue**. When people move on from a task they haven't finished, part of their mind stays on it, and they do worse on the next one.",
+        "So the busy agency doesn't just finish later. It also does each project a little worse."
+      ],
+      "softwareNote": "A product team with eight features \"in progress\" ships none of them until each is done. Teams often get faster by setting a limit, such as no more than two features in progress at once."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The second business",
+      "title": "A furniture workshop with every order started.",
+      "illustrative": true,
+      "body": [
+        "A small workshop starts each custom order the day it arrives. Soon the floor is full of half-built tables and chairs.",
+        "Workers spend time searching for parts, moving pieces out of the way, and resetting machines between jobs. Finished furniture comes out slowly, so customers call to chase their orders, which takes even more time.",
+        "When the owner caps active orders at three, finished pieces start leaving the door every few days instead of every few weeks."
+      ],
+      "image": {
+        "label": "Workshop floor crowded with half-built furniture",
+        "aspectRatio": "16:9",
+        "brief": "3D 클레이 스타일. 공방 바닥에 반쯤 조립된 의자와 테이블이 빽빽하게 놓여 있고 작업자가 그 사이를 비집고 지나감. 한쪽에 \"Max 3 active orders\"라고 적힌 작은 화이트보드. 실제 브랜드 표시 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "One at a time isn't always right.",
+      "body": [
+        "Some waiting is built in. If a client takes a week to give feedback, or glue needs a day to dry, starting a second job keeps people from sitting idle. The goal is fewer projects open, not exactly one.",
+        "Waiting customers also need care. A client told \"we start on March 3\" is usually fine. A client who hears nothing feels ignored.",
+        "And the hard part is saying not yet to good work. That choice has a real cost, so make it on purpose."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a warehouse.",
+      "illustrative": true,
+      "body": [
+        "You manage a distribution center. You have five improvement projects: a new shelving layout, handheld scanners, safety training, a better returns process and a new shift schedule. Each would save money once it's done.",
+        "Your six supervisors already run daily operations. What's your plan?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Launch all five this month so savings start everywhere",
+            "verdict": "risky",
+            "feedback": "It looks ambitious, but each project gets a sliver of attention. Savings only arrive when a project is finished, so all five pay off late."
+          },
+          {
+            "key": "B",
+            "text": "Pick the one or two with the biggest payoff, finish them, then start the next",
+            "verdict": "best",
+            "feedback": "The first savings arrive months sooner and can fund the rest. The cost is telling people their project waits, with a date."
+          },
+          {
+            "key": "C",
+            "text": "Give each project to a different supervisor on top of their daily work",
+            "verdict": "partial",
+            "feedback": "Ownership is clear, but everyone still shares the same floor, budget and your attention. Five projects still compete for the same scarce time."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Start less, finish more.",
+      "body": [
+        "Every project you start slows down the ones already running. Finished work is what customers use and what pays you.",
+        "**Try it today:** list everything your team has in progress. Choose the one item that would help most if it were done, and pause one other until it is."
+      ],
+      "next": "Next · The weekly habits that keep a team on track"
+    }
+  ]
+}

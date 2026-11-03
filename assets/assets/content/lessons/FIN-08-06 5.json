@@ -1,0 +1,237 @@
+{
+  "id": "FIN-08-06",
+  "unitId": "FIN-08",
+  "categoryId": "FIN",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Inflation and real returns",
+  "readerTitle": "Two businesses grew 7%. Only one got bigger.",
+  "format": "two_businesses",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (식당, 소프트웨어 회사, 가구 공방) · 모든 수치는 설명용",
+  "insight": "성장률과 수익률은 그 돈으로 살 수 있는 것으로 읽어야 하고, 기준은 전국 평균 물가가 아니라 내 사업이 실제로 사는 것들의 가격 상승이다.",
+  "misconception": "매출이 7% 늘었으면 사업이 7% 커진 것이다. 이자가 붙는 계좌에 둔 돈은 줄어들지 않는다.",
+  "relatedLessonIds": [
+    "FIN-08-03",
+    "FIN-06-01"
+  ],
+  "sources": [
+    {
+      "text": "Fisher, I. (1930). The Theory of Interest. 명목 이자율과 실질 이자율의 관계 (피셔 방정식)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "두 사업 계산: 매출 $1,000,000 → $1,070,000(+7%). 전국 물가 4% 기준 실질 성장 1.07 ÷ 1.04 − 1 = 2.9%. 식당 자체 비용 상승 9% 기준 1.07 ÷ 1.09 − 1 = −1.8%. 소프트웨어 회사 자체 비용 상승 3% 기준 1.07 ÷ 1.03 − 1 = 3.9%.",
+      "status": "open"
+    },
+    {
+      "note": "현금 예비금: $100,000 × 1.04 = $104,000. 물가 6%일 때 1.04 ÷ 1.06 = 0.981, 즉 작년 기준 약 $98,100어치 구매력(약 −1.9%, 카드에는 \"about 2%\"). 고인플레이션 예: 1.50 ÷ 1.40 − 1 = 7.1%(단순 빼기 10%와 비교).",
+      "status": "open"
+    },
+    {
+      "note": "임금: 1.03 ÷ 1.05 − 1 = −1.9%(약 2% 실질 삭감). 10년 누적: 1.03^10 = 1.344, 1 ÷ 1.344 = 0.744, 약 26% 구매력 감소.",
+      "status": "open"
+    },
+    {
+      "note": "가구 공방 계약: 1년차 $500,000, 2년차 $510,000, 3년차 $520,200(연 2% 인상). 비용 연 5% 상승 시 3년차 비용 지수 1.05^2 = 1.1025. 1.0404 ÷ 1.1025 = 0.944, 약 6% 구매력 감소.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Two businesses",
+      "title": "Two businesses grew 7%. Only one got bigger.",
+      "illustrative": true,
+      "body": [
+        "A seaside restaurant and a small software company both closed the year with revenue up 7%. Both owners celebrated.",
+        "One of them is now running a smaller business than a year ago. The revenue line can't tell you which."
+      ],
+      "image": {
+        "label": "Two identical upward arrows labeled +7%, one quietly shrinking",
+        "aspectRatio": "4:3",
+        "brief": "왼쪽에 식당 건물, 오른쪽에 노트북 책상. 둘 위에 똑같은 \"+7%\" 화살표. 식당 쪽 화살표 그림자는 짧게 줄어들고 있고, 소프트웨어 쪽 그림자는 조금 길다. 실제 브랜드 로고 없음. 따뜻한 플랫 일러스트.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Did they really grow 7%?",
+      "illustrative": true,
+      "body": [
+        "Both went from $1,000,000 to $1,070,000 in revenue. General prices across the economy rose 4% that year.",
+        "The restaurant's own costs (food, wages, rent) rose 9%. The software company's costs (mostly salaries and servers) rose 3%. How should each owner judge the year?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Both grew 7%. The revenue numbers are identical",
+            "verdict": "risky",
+            "feedback": "Simple and easy to report, but it ignores that each dollar now buys less. Equal revenue growth hid very different years."
+          },
+          {
+            "key": "B",
+            "text": "Both grew about 3%, after the 4% general inflation",
+            "verdict": "partial",
+            "feedback": "A big step: you adjusted for prices. But the general figure is an average. Neither business buys the average basket."
+          },
+          {
+            "key": "C",
+            "text": "It depends on what each business has to buy with its money",
+            "verdict": "best",
+            "feedback": "Right. Against its own costs, the restaurant shrank and the software company grew. Next card shows the math."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Same 7%, three different answers.",
+      "illustrative": true,
+      "body": [
+        "The restaurant's revenue now buys about 1.8% less of the food, labor and space it runs on. It worked harder to stand still, then slipped back."
+      ],
+      "breakdown": [
+        {
+          "value": "+7.0%",
+          "label": "Revenue growth",
+          "detail": "What both owners reported",
+          "highlight": false
+        },
+        {
+          "value": "+2.9%",
+          "label": "After general inflation (4%)",
+          "detail": "1.07 ÷ 1.04 − 1",
+          "highlight": false
+        },
+        {
+          "value": "−1.8%",
+          "label": "Restaurant, after its own costs (9%)",
+          "detail": "1.07 ÷ 1.09 − 1",
+          "highlight": true
+        },
+        {
+          "value": "+3.9%",
+          "label": "Software company, after its own costs (3%)",
+          "detail": "1.07 ÷ 1.03 − 1",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Nominal vs real returns",
+      "body": [
+        "**Inflation** is the rise in prices over time, so the same dollar buys less. A **nominal** return is the change in dollars. A **real** return is the change in what those dollars can buy.",
+        "Quick rule: real return ≈ nominal return − inflation. For an exact answer, divide: (1 + nominal) ÷ (1 + inflation) − 1.",
+        "The economist Irving Fisher set out this link between money returns and real returns almost a century ago."
+      ],
+      "image": {
+        "label": "A stack of coins next to a shrinking shopping basket",
+        "aspectRatio": "16:9",
+        "brief": "왼쪽: 동전 더미가 \"$100,000 → $104,000\"로 조금 높아짐. 오른쪽: 같은 돈으로 살 수 있는 장바구니가 조금 작아짐. 가운데 라벨 \"Nominal +4%\" / \"Real −2%\". 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Money can grow and still shrink.",
+      "illustrative": true,
+      "body": [
+        "A business keeps a $100,000 reserve in an account paying 4%. Inflation runs at 6%. A year later the balance reads $104,000, but it buys what about $98,100 bought before. That's a real loss of about 2%.",
+        "Small gaps add up. At 3% inflation for ten years, money that sits still loses about **a quarter** of its buying power.",
+        "When inflation is high, use division, not subtraction. A 50% return with 40% inflation is about 7% real, not 10%."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Wider use",
+      "title": "Pick the right inflation rate.",
+      "body": [
+        "The general figure is an average across what households buy. Your business has its **own inflation rate**: the price rise in what you actually pay for.",
+        "It matters for people, too. A 3% raise in a year when prices rose 5% is a pay cut of about 2% in real terms. Your team will feel it even if the payslip says \"raise\"."
+      ],
+      "softwareNote": "Multi-year subscription deals at a flat price lose real value every year. Many software companies add a yearly price step to protect them, and watch salary inflation as their main cost index."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Adjusting is a tool, not a verdict.",
+      "body": [
+        "Inflation figures are estimates, and they get revised. Treat a real return as a rough guide, not a precise score.",
+        "Don't shop for the index that flatters you. Pick the one that matches your costs and stick with it, year after year.",
+        "And in low-inflation years the gap is small. The adjustment matters most when prices move fast or when you look across many years."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a furniture workshop.",
+      "illustrative": true,
+      "body": [
+        "A hotel chain offers your workshop a three-year contract: $500,000 in year one, rising 2% each year. Your costs for wood and skilled labor have been rising about 5% a year.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Sign it. A built-in 2% raise every year is generous",
+            "verdict": "risky",
+            "feedback": "The dollars grow, but your costs grow faster. By year three, each contract dollar covers about 6% less of your costs."
+          },
+          {
+            "key": "B",
+            "text": "Sign, but link yearly increases to an index of your main input costs",
+            "verdict": "best",
+            "feedback": "You keep a large, steady customer and protect your real income. The trade-off is a harder negotiation up front."
+          },
+          {
+            "key": "C",
+            "text": "Refuse. Long fixed contracts are always a trap",
+            "verdict": "partial",
+            "feedback": "You avoid the inflation risk, but lose three years of reliable work. The problem is the price terms, not the length."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Count growth in what money buys, not in dollars.",
+      "body": [
+        "A return only means something after inflation, and the inflation that matters is the rise in your own costs.",
+        "**Try it today:** take last year's revenue growth. Divide 1 plus that growth by 1 plus the rise in your three biggest costs. Is the answer above or below 1?"
+      ],
+      "next": "Next · Should a company take a big loan?"
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "id": "FIN-06-06",
+  "unitId": "FIN-06",
+  "categoryId": "FIN",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Why valuations swing",
+  "readerTitle": "Same business, two prices: why valuations swing",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative",
+    "real_research",
+    "real_observation"
+  ],
+  "caseNote": "가상 사례 (회계 사무소, 식당 그룹) + 실제 연구 (Shiller 1981) + 실제 관찰 (2022년 금리 상승기 성장주 하락)",
+  "insight": "가치평가가 크게 흔들리는 것은 사업이 바뀌어서가 아니라, 먼 미래에 대한 작은 가정이 바뀌기 때문이다. 숫자 하나보다 범위와 가정을 본다.",
+  "misconception": "가치가 크게 달라졌다면 둘 중 하나가 틀렸거나 사업 자체가 나빠진(좋아진) 것이다.",
+  "relatedLessonIds": [
+    "FIN-06-02",
+    "FIN-06-03"
+  ],
+  "sources": [
+    {
+      "text": "Shiller, R. J. (1981). Do Stock Prices Move Too Much to be Justified by Subsequent Changes in Dividends? American Economic Review, 71(3), 421–436.",
+      "url": null
+    },
+    {
+      "text": "성장 영구연금 공식 (가치 = 연간 현금 ÷ (요구수익률 − 성장률)), 재무관리 표준 개념",
+      "url": null
+    },
+    {
+      "text": "회계 사무소와 식당 그룹 사례의 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "계산: $200,000 ÷ (12% − 2%) = $2.0M, $200,000 ÷ (12% − 4%) = $2.5M, $200,000 ÷ (10% − 4%) = $3.33M. 최저 대비 최고 약 67% 차이.",
+      "status": "open"
+    },
+    {
+      "note": "처음 10년 현금의 현재가치 비중(요구수익률 12%, 성장률 4%): (1.04/1.12)^10 ≈ 0.477, 따라서 처음 10년 ≈ $2.5M × (1 − 0.477) ≈ $1.31M ≈ 52%. 카드에는 \"about half of the value comes after year 10\"으로 적음.",
+      "status": "open"
+    },
+    {
+      "note": "Shiller(1981)는 주가 변동이 이후 실제 배당 변화로 설명되는 수준보다 훨씬 크다는 결과를 제시함. 카드에는 일반적 표현으로만 적음. 게시 전 원문 요지 재확인.",
+      "status": "open"
+    },
+    {
+      "note": "2022년 금리 급등기에 수익이 나지 않는 고성장 기술주가 안정적 기업보다 대체로 더 크게 하락했다는 일반적 관찰. 구체 수치는 넣지 않음. 표현이 과하지 않은지 확인.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Everyday scene",
+      "title": "Same business, two prices: why valuations swing",
+      "illustrative": true,
+      "body": [
+        "Dana runs a bookkeeping firm. It brings in about $200,000 of cash a year, every year, for twenty clients who rarely leave.",
+        "In the same month, two buyers make offers. One says $2.0 million. The other says $3.3 million. Same books. Same clients. Same Dana."
+      ],
+      "image": {
+        "label": "Two offer letters with very different numbers on one desk",
+        "aspectRatio": "4:3",
+        "brief": "사무실 책상 위에 봉투 두 장이 놓여 있고, 한 장에는 \"$2.0M\", 다른 한 장에는 \"$3.3M\"이 크게 적혀 있음. 가운데에 같은 장부 한 권. 차분한 일러스트 톤, 실제 회사 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Why are the offers so far apart?",
+      "illustrative": true,
+      "body": [
+        "Both buyers saw the same financials. Neither is a fool. Dana wants to understand the gap before she replies.",
+        "What is the most likely explanation?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "One buyer made a math mistake",
+            "verdict": "risky",
+            "feedback": "Possible, but unlikely with careful buyers. Assuming an error means Dana learns nothing about what each buyer believes."
+          },
+          {
+            "key": "B",
+            "text": "They disagree a little about future growth and risk",
+            "verdict": "best",
+            "feedback": "Right. Small differences in what they expect, and what return they need, add up to a very big gap. The next card shows how."
+          },
+          {
+            "key": "C",
+            "text": "The higher buyer found extra profit Dana missed",
+            "verdict": "partial",
+            "feedback": "Worth asking, but the cash is the same for both. The gap comes from the future each buyer imagines, not from today's numbers."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Same $200,000. Three different futures.",
+      "illustrative": true,
+      "breakdown": [
+        {
+          "value": "$2.0M",
+          "label": "Buyer A",
+          "detail": "Wants a 12% yearly return, expects 2% growth",
+          "highlight": false
+        },
+        {
+          "value": "$2.5M",
+          "label": "Middle view",
+          "detail": "Wants 12%, expects 4% growth",
+          "highlight": false
+        },
+        {
+          "value": "$3.3M",
+          "label": "Buyer B",
+          "detail": "Wants 10%, expects 4% growth",
+          "highlight": true
+        }
+      ],
+      "callout": "A simple rule of thumb: value ≈ yearly cash ÷ (return the buyer needs − expected growth). Two points of difference moved the price by about 67%."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Valuations rest on the far future",
+      "body": [
+        "A valuation is today's price for all the cash a business will make in the future. Most of that cash is years away, so the number depends on guesses about growth and risk.",
+        "That makes value **sensitive to assumptions**. In Dana's middle case, about half of the value comes from cash earned after year 10. Nudge the guess about those distant years, and the whole price moves.",
+        "The business did not change. The view of its future did."
+      ],
+      "image": {
+        "label": "Bar of yearly cash stretching into the distance",
+        "aspectRatio": "16:9",
+        "brief": "가로로 길게 이어지는 연도별 현금 막대. 앞의 10년 막대는 진하고, 10년 이후 막대는 점점 흐려지며 멀리까지 이어짐. \"Years 1–10: about half\", \"After year 10: about half\" 라벨.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "Prices move more than businesses do.",
+      "body": [
+        "In 1981, economist Robert Shiller compared stock prices with the dividends companies actually paid later. Prices swung far more than those later payouts could justify.",
+        "His point was not that markets are silly. It was that prices track *expectations*, and expectations move faster than real cash.",
+        "The same thing happens in private deals. A buyer's mood, interest rates and recent news all shift the inputs, even when the business sits still."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Wider view",
+      "title": "Fast growers swing the hardest.",
+      "body": [
+        "The closer expected growth gets to the return a buyer needs, the more each point matters. A steady business with low growth barely moves when rates change. A fast grower can lose a big share of its value from a small change in rates.",
+        "That is why, when interest rates rose sharply in 2022, fast-growing companies with no profits yet generally fell much harder than steady ones."
+      ],
+      "softwareNote": "A software company valued on growth expected years from now is mostly far-future cash. A small cut in its growth forecast, or a rise in rates, can move its valuation far more than this quarter's results would suggest."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Swings don't make valuation useless.",
+      "body": [
+        "A number that moves is still useful if you know what moves it. Treat a valuation as a **range**, tied to clear assumptions, not a single truth.",
+        "Beware of picking the growth rate that gives the number you want. And the shortcut on card 3 breaks when expected growth gets close to the required return. The math then explodes, which is a sign the assumptions, not the business, are doing the work."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a restaurant group.",
+      "illustrative": true,
+      "body": [
+        "You own four restaurants and want to sell a 20% stake to an investor. Profit rose 10% this year. Yet the investor's valuation is 25% lower than one you heard last year.",
+        "What do you do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Assume the business got worse and start cutting costs",
+            "verdict": "risky",
+            "feedback": "Profit actually went up. Cutting costs to fix a problem that isn't in the business could hurt service and the very growth investors want."
+          },
+          {
+            "key": "B",
+            "text": "Ask which assumption changed, then test a range yourself",
+            "verdict": "best",
+            "feedback": "If the investor now needs a higher return or expects slower growth, you can argue the inputs, show evidence, or decide the timing is wrong."
+          },
+          {
+            "key": "C",
+            "text": "Refuse and wait, since valuations always bounce back",
+            "verdict": "partial",
+            "feedback": "Waiting can be wise if rates or mood drove the drop. But without knowing why, you may wait for a recovery that never comes."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A valuation is a view of the future, not a fact about today.",
+      "body": [
+        "When a value jumps or drops, ask which assumption changed before asking what changed in the business.",
+        "**Try it today:** estimate your business's yearly cash. Divide it by 8%, then by 6%. Notice how far apart the two answers are, and why."
+      ],
+      "next": "Next · Value a coffee chain"
+    }
+  ]
+}

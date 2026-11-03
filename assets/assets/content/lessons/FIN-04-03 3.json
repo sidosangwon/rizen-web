@@ -1,0 +1,263 @@
+{
+  "id": "FIN-04-03",
+  "unitId": "FIN-04",
+  "categoryId": "FIN",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "Product mix",
+  "readerTitle": "The sales team beat its target. So why did profit fall?",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (주방 설비 회사의 영업팀, B2B 청소 서비스 회사) · 모든 수치는 설명용",
+  "insight": "매출이 같아도 무엇을 팔았느냐에 따라 이익과 손익분기점이 달라진다. 매출 총액보다 판매 구성을 먼저 본다.",
+  "misconception": "매출이 늘면 이익도 늘고, 손익분기점은 한 번 계산하면 고정된 숫자다.",
+  "relatedLessonIds": [
+    "FIN-04-01",
+    "FIN-03-06"
+  ],
+  "sources": [
+    {
+      "text": "관리회계의 표준 개념 (제품 믹스, 가중평균 공헌이익률, 손익분기 매출 = 고정비 ÷ 공헌이익률)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "지난 분기: 프리미엄 $600k × 50% = $300k, 베이식 $400k × 20% = $80k, 합계 $380k, 평균 공헌이익률 38%. 고정비 $300k이면 이익 $80k.",
+      "status": "open"
+    },
+    {
+      "note": "이번 분기: 프리미엄 $330k × 50% = $165k, 베이식 $770k × 20% = $154k, 합계 $319k, 평균 공헌이익률 319 ÷ 1,100 = 29%. 이익 $319k − $300k = $19k.",
+      "status": "open"
+    },
+    {
+      "note": "손익분기 매출: $300k ÷ 0.38 = $789,474 (약 $790k), $300k ÷ 0.29 = $1,034,483 (약 $1.03M). 차이 약 $245k.",
+      "status": "open"
+    },
+    {
+      "note": "청소 회사: 정기 계약 $100k × 30% = $30k, 특수 청소 $70k × 50% = $35k. 같은 작업 인력 시간을 쓴다는 가정.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Everyday scene",
+      "title": "The sales team beat its target. So why did profit fall?",
+      "illustrative": true,
+      "body": [
+        "A sales manager at a kitchen equipment company walks into the quarterly review smiling. Revenue is up 10%. Costs like rent and salaries haven't changed.",
+        "The finance lead puts up one slide. Profit dropped from $80,000 to $19,000. Nobody made a mistake. Nobody gave away free stock. Something else changed."
+      ],
+      "image": {
+        "label": "Sales manager celebrating while a profit chart dips behind her",
+        "aspectRatio": "4:3",
+        "brief": "회의실 장면. 앞쪽에 영업 매니저가 \"Revenue +10%\" 그래프를 들고 웃고 있고, 뒤쪽 화면에는 \"Profit\" 막대가 크게 줄어든 그래프. 따뜻한 일러스트 스타일, 실제 회사 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What do you check first?",
+      "illustrative": true,
+      "body": [
+        "The team sells two lines: premium ovens and basic ovens. Revenue rose from $1.0M to $1.1M. Fixed costs stayed at $300,000 a quarter.",
+        "You have ten minutes before the meeting ends. Where do you look?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Whether fixed costs quietly crept up",
+            "verdict": "partial",
+            "feedback": "A sensible habit, but you already know they didn't. You'd spend your ten minutes confirming what isn't the problem."
+          },
+          {
+            "key": "B",
+            "text": "Which products made up this quarter's sales",
+            "verdict": "best",
+            "feedback": "Right. If the extra sales came from products that leave less money behind, revenue can rise while profit falls. Next card shows it."
+          },
+          {
+            "key": "C",
+            "text": "Whether the team simply needs to sell more",
+            "verdict": "risky",
+            "feedback": "More of the same sales could keep shrinking the margin. You'd work harder without knowing why profit fell."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "What happened",
+      "title": "Same team, different mix.",
+      "illustrative": true,
+      "body": [
+        "Premium ovens leave 50 cents of every dollar after the costs that come with each sale. Basic ovens leave 20 cents. This quarter, the team sold far more basic ovens.",
+        "What's left to pay fixed costs fell from $380,000 to $319,000, even on higher revenue."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Last quarter ($1.0M revenue)",
+            "rows": [
+              {
+                "label": "Left over from premium",
+                "value": 300000,
+                "highlight": false
+              },
+              {
+                "label": "Left over from basic",
+                "value": 80000,
+                "highlight": false
+              }
+            ]
+          },
+          {
+            "label": "This quarter ($1.1M revenue)",
+            "rows": [
+              {
+                "label": "Left over from premium",
+                "value": 165000,
+                "highlight": true
+              },
+              {
+                "label": "Left over from basic",
+                "value": 154000,
+                "highlight": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Product mix",
+      "body": [
+        "**Product mix** is the share each product or service makes up of your total sales.",
+        "Your overall margin is an average of each product's margin, weighted by how much of it you sell. Last quarter that average was 38 cents per dollar. This quarter it was 29 cents. Prices and costs never moved. Only the mix did."
+      ],
+      "image": {
+        "label": "Two jars filled with different blends of coins",
+        "aspectRatio": "16:9",
+        "brief": "두 개의 유리병. 왼쪽 병은 큰 금화(프리미엄)가 많고 작은 동전(베이식)이 적음, 라벨 \"38¢ per $1\". 오른쪽 병은 더 크지만 작은 동전이 대부분, 라벨 \"29¢ per $1\". 깔끔한 플랫 일러스트.",
+        "url": null
+      },
+      "softwareNote": "Mix shows up as plans and add-ons. A company selling both a subscription and hands-on setup services can grow revenue fast through services, while each new dollar leaves far less than a subscription dollar does."
+    },
+    {
+      "index": 5,
+      "type": "breakdown",
+      "eyebrow": "Why it matters",
+      "title": "The mix moved the break-even point.",
+      "illustrative": true,
+      "body": [
+        "Break-even revenue is fixed costs divided by what each dollar of sales leaves behind. Without touching a single cost, the team now needs about **$245,000 more revenue** just to stop losing money."
+      ],
+      "breakdown": [
+        {
+          "value": "$300k",
+          "label": "Fixed costs",
+          "detail": "Same both quarters",
+          "highlight": false
+        },
+        {
+          "value": "$790k",
+          "label": "Break-even, old mix",
+          "detail": "$300k ÷ 0.38",
+          "highlight": false
+        },
+        {
+          "value": "$1.03M",
+          "label": "Break-even, new mix",
+          "detail": "$300k ÷ 0.29",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How it drifts",
+      "title": "Mix usually changes without anyone deciding it.",
+      "body": [
+        "Teams paid on revenue sell whatever closes fastest. Cheaper products are often easier to sell, so the mix slides toward them quarter by quarter.",
+        "The same thing happens in a restaurant where staff push the cheapest dishes, or a firm where junior-friendly work crowds out specialist work. The fix is often simple: show the team **what each sale leaves behind**, not just its price, and reward that."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Low-margin products aren't always the villain.",
+      "body": [
+        "A basic product may bring in customers who later buy premium. It may use spare capacity that would sit idle. Dropping it can cost more than it saves.",
+        "And when time or space is the real limit, look at what each product leaves per hour or per square metre, not per dollar. A thin-margin item that's fast to deliver can beat a fat-margin one that's slow."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a commercial cleaning company.",
+      "illustrative": true,
+      "body": [
+        "Your crews have room for one more year-long client. Regular office cleaning leaves 30% after labour and supplies. Specialty work, like carpet and window deep cleans, leaves 50%. Both offers need the same crew hours.",
+        "Option one: a $100,000 regular contract. Option two: $70,000 of monthly specialty work."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Take the $100,000 contract. It's the bigger deal",
+            "verdict": "risky",
+            "feedback": "It adds more revenue but leaves $30,000. You'd grow the top line and shift your mix toward thinner work."
+          },
+          {
+            "key": "B",
+            "text": "Take the $70,000 specialty work",
+            "verdict": "best",
+            "feedback": "It leaves $35,000 using the same hours, so profit rises on less revenue. Check that the client will really book it every month."
+          },
+          {
+            "key": "C",
+            "text": "Take the contract now and push for a price rise next year",
+            "verdict": "partial",
+            "feedback": "A price rise could fix the margin, but you'd lock in the thinner mix for a year and the raise isn't certain."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Ask what you sold, not just how much.",
+      "body": [
+        "Two businesses with the same revenue can earn very different profits. The difference is the mix, and the mix quietly moves your break-even point.",
+        "**Try it today:** list your top three products or services. Write what each dollar of sales leaves behind, and what share of last month's revenue each made up."
+      ],
+      "next": "Next · Cut a dollar of cost, or sell a dollar more?"
+    }
+  ]
+}

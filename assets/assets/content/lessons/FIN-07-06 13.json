@@ -1,0 +1,244 @@
+{
+  "id": "FIN-07-06",
+  "unitId": "FIN-07",
+  "categoryId": "FIN",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Funding without giving up ownership",
+  "readerTitle": "The free $60,000 that would have cost $150,000",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5,
+  "caseKinds": [
+    "illustrative",
+    "real_company"
+  ],
+  "caseNote": "가상 사례 (B2B 서비스 에이전시, 회사 내부 팀) + 실제 기업 (Dell의 선결제·후지급 구조, 일반적 서술) · 수치는 모두 설명용",
+  "insight": "지분 투자의 가격은 사업이 잘될수록 커지고, 고객·공급업체·대출의 가격은 정해진 뒤 끝난다. 그래서 가장 싼 돈은 이미 내 상품을 원하는 사람에게서 나오는 경우가 많다.",
+  "misconception": "갚을 필요도 이자도 없는 투자금은 공짜 돈이다.",
+  "relatedLessonIds": [
+    "FIN-07-02",
+    "FIN-07-04"
+  ],
+  "sources": [
+    {
+      "text": "재무관리의 표준 개념 (비희석 자금 조달: 고객 선결제, 공급업체 신용, 보조금, 대출, 매출 연동 금융)",
+      "url": null
+    },
+    {
+      "text": "Dell의 주문 생산 모델과 마이너스 현금전환주기에 관한 일반적 서술 (예: Dell 연차 보고서, 1990년대 후반)",
+      "url": null
+    },
+    {
+      "text": "에이전시와 내부 팀 사례의 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "지분 계산: 기업가치 $1,500,000 × 10% = $150,000. 3년 뒤 기업가치 $1.5M은 가정이며 카드에 \"say\"로 표시했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "대출 계산: $60,000, 연 10%, 24개월 원리금 균등상환. 월 상환액 = 500 ÷ (1 − 1.008333^−24) ≈ $2,769, 총 상환 ≈ $66,450, 이자 ≈ $6,450. 카드에는 \"about $6,500\"으로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "선결제 계산: 정가 월 $10,500 × 6개월 = $63,000. 고객은 $60,000을 선결제하고, 할인액은 $3,000(약 4.8%, 카드에는 \"about 5%\")입니다.",
+      "status": "open"
+    },
+    {
+      "note": "Dell 사례: 1990년대 직접 판매·주문 생산 모델에서 고객 대금을 먼저 받고 공급업체에는 나중에 지급해 현금전환주기가 마이너스였다는 점은 널리 인용됩니다. 구체적인 일수는 적지 않았습니다. 게시 전 Dell 연차 보고서로 표현을 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Numbers twist",
+      "title": "The free $60,000 that would have cost $150,000",
+      "illustrative": true,
+      "body": [
+        "A small data agency needs $60,000 to hire a specialist before a new service launches. An investor offers the money for 10% of the firm.",
+        "No interest. No monthly payments. Nothing to pay back. It looks like the cheapest money on the table. Run the numbers three years out, and it's the most expensive."
+      ],
+      "image": {
+        "label": "A cheque for $60,000 whose shadow reads $150,000",
+        "aspectRatio": "4:3",
+        "brief": "책상 위에 \"$60,000\"이 적힌 수표 한 장. 수표의 그림자가 벽에 길게 드리워져 있고, 그림자 속 숫자는 \"$150,000\". 실제 은행·회사 로고는 쓰지 않음.",
+        "url": "assets/images/fin-07-06-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Where do you get the $60,000?",
+      "illustrative": true,
+      "body": [
+        "You run the agency. Revenue is steady and profitable, but cash is tight. Your largest client pays $10,500 a month on a retainer and is happy with your work.",
+        "Which way of raising $60,000 would you pick?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Take the investor's $60,000 for 10% of the firm",
+            "verdict": "risky",
+            "feedback": "You owe nothing if things go badly. But if things go well, you give up a tenth of every future profit and of the sale price, forever."
+          },
+          {
+            "key": "B",
+            "text": "Ask your largest client to prepay six months, $60,000 instead of $63,000",
+            "verdict": "best",
+            "feedback": "You give up $3,000 once and keep all of the firm. The catch: you now owe six months of work, and you depend more on one client."
+          },
+          {
+            "key": "C",
+            "text": "Take a two-year bank loan at 10% interest",
+            "verdict": "partial",
+            "feedback": "You keep full ownership, and the cost is capped. But the payments are due every month, even in a slow quarter."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Same $60,000. Three very different prices.",
+      "illustrative": true,
+      "body": [
+        "Say the agency grows and is worth $1.5 million in three years. The investor's 10% is then worth **$150,000**, and it keeps growing with every good year. The other two prices were fixed the day you signed."
+      ],
+      "breakdown": [
+        {
+          "value": "$150,000",
+          "label": "Investor",
+          "detail": "10% of a firm worth $1.5M, and still rising",
+          "highlight": false
+        },
+        {
+          "value": "≈$6,500",
+          "label": "Bank loan",
+          "detail": "Interest over two years at 10%",
+          "highlight": false
+        },
+        {
+          "value": "$3,000",
+          "label": "Client prepayment",
+          "detail": "About 5% off six months of work",
+          "highlight": true
+        }
+      ],
+      "softwareNote": "Annual plans paid upfront work the same way. A software company that offers two months free for paying a year in advance is raising cash from its users at a known, fixed price."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Non-dilutive funding",
+      "body": [
+        "**Non-dilutive funding** is money that doesn't buy a share of your business. You pay for it with a discount, a fee, interest or a promise to deliver, not with a slice of ownership.",
+        "The prepayment, the loan and a grant are all non-dilutive. The investor's offer is not: it shrinks your share of everything the business will ever earn."
+      ],
+      "image": {
+        "label": "A whole pie kept intact next to a pie with a slice removed",
+        "aspectRatio": "16:9",
+        "brief": "두 개의 파이 비교. 왼쪽 파이는 온전하고 옆에 작은 동전 몇 개(\"fixed price\")가 놓여 있음. 오른쪽 파이는 한 조각이 빠져 있고 빠진 조각이 점점 커지는 화살표(\"grows with success\"). 플랫 일러스트.",
+        "url": "assets/images/fin-07-06-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Equity gets more expensive the better you do.",
+      "body": [
+        "A loan or a discount has a price you know on day one. Equity's price depends on the future. If the business fails, the investor shares the loss. If it succeeds, they share the win, and you paid the most exactly when things went right.",
+        "Customer money can even fuel growth on its own. In the 1990s, Dell built computers to order. Customers generally paid when they ordered, while Dell paid many suppliers weeks later. Its customers, in effect, funded its stock."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Wider use",
+      "title": "Look first at people who already want what you sell.",
+      "body": [
+        "Most businesses have more non-dilutive options than they think:"
+      ],
+      "list": [
+        "**Customers:** deposits on custom orders, prepaid packages, gift cards, pre-orders",
+        "**Suppliers:** longer payment terms, so you sell before you pay",
+        "**Grants and competitions:** money for research, training or local hiring",
+        "**Lenders:** bank loans, equipment finance, or repayments tied to a share of monthly revenue"
+      ],
+      "callout": "Customer money has a bonus: it proves people want the thing before you build it."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Not owning less doesn't mean owing nothing.",
+      "body": [
+        "A prepayment is work you owe. If you can't deliver, you refund money you may have already spent. A loan must be repaid in a bad year. Grants come with rules and reports. Revenue-linked deals take a cut of every sale.",
+        "Equity has real strengths too: the investor shares the risk and may bring advice and contacts. For a risky idea with no revenue yet, it can be the only money that fits. Compare total cost and total risk, not just ownership."
+      ],
+      "image": {
+        "label": "A scale balancing a fixed price tag against obligations",
+        "aspectRatio": "16:9",
+        "brief": "저울 그림. 한쪽에는 \"Fixed price\" 가격표, 다른 쪽에는 \"Deliver the work\", \"Repay monthly\", \"Grant reports\" 꼬리표가 달린 작은 추들. 균형을 고민하는 느낌. 로고 없음.",
+        "url": "assets/images/fin-07-06-c7.jpg"
+      }
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now you lead a team inside a big company.",
+      "illustrative": true,
+      "body": [
+        "Your operations team wants $80,000 to build a scheduling tool. A senior vice president offers to fund it all from her budget, but she would then set the tool's priorities.",
+        "Inside a company, ownership means control over what gets built. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Take the VP's full budget and her priorities",
+            "verdict": "partial",
+            "feedback": "Fast and fully funded. But you've traded control of the roadmap, and her needs may not match the teams who use the tool daily."
+          },
+          {
+            "key": "B",
+            "text": "Ask the two departments that will use it to each commit part of their budget now, in return for their key features first",
+            "verdict": "best",
+            "feedback": "Like a client prepayment: the people who want the tool fund it, and their commitment proves demand. The cost is that you owe them delivery on a deadline."
+          },
+          {
+            "key": "C",
+            "text": "Wait a year and fund it slowly from your own small budget",
+            "verdict": "risky",
+            "feedback": "You keep full control, but the problem stays unsolved for a year, and someone else may build a competing tool first."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Before selling a slice, price the alternatives.",
+      "body": [
+        "Equity costs more the better you do. Customers, suppliers and lenders charge a price that is fixed and then ends.",
+        "**Try it today:** list three people who already benefit from your business, such as a big customer or a key supplier. For each, write one way they could fund your next step, and what it would cost you."
+      ],
+      "next": "Next · Fund a bakery's expansion"
+    }
+  ]
+}

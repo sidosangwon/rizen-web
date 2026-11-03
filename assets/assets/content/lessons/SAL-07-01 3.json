@@ -1,0 +1,235 @@
+{
+  "id": "SAL-07-01",
+  "unitId": "SAL-07",
+  "categoryId": "SAL",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Why partner",
+  "readerTitle": "Why a plumber's best salesperson might be a home inspector",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (배관 업체와 주택 점검사, 보험사 안의 신규 상품팀) · 모든 수치는 설명용",
+  "insight": "파트너십은 남이 이미 만들어 둔 자산(고객 접점, 신뢰, 역량)을 빌리는 일이다. 직접 만드는 비용과 시간이 빌리는 비용보다 클 때 파트너를 찾는다.",
+  "misconception": "수익을 나눠 주면 손해다. 혼자 다 하면 판매 한 건에서 더 많이 남는다.",
+  "relatedLessonIds": [
+    "SAL-07-02",
+    "SAL-07-03"
+  ],
+  "sources": [
+    {
+      "text": "경영 전략의 표준 개념 (make-or-buy, build vs. partner 판단)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "배관 업체 계산: 첫 작업 $300 − 작업 비용 $150 = $150. 광고 경로 $150 − $120 = $30. 소개 경로 $150 − $60 = $90. 90 ÷ 30 = 3배. 소개 수수료 $60은 작업 가격의 20%, 광고비 $120은 40%.",
+      "status": "open"
+    },
+    {
+      "note": "월 10건 기준: 광고비 $120 × 10 = $1,200, 소개 수수료 $60 × 10 = $600. 점검사가 월 40가구를 만나고 그중 25%가 예약한다는 가정(40 × 0.25 = 10건).",
+      "status": "open"
+    },
+    {
+      "note": "모든 수치와 업체, 팀은 가상입니다. 특정 업종의 평균 고객 획득 비용을 나타내지 않습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Sales · Numbers twist",
+      "title": "Why a plumber's best salesperson might be a home inspector",
+      "illustrative": true,
+      "body": [
+        "A small plumbing company pays about $120 in online ads to win each new customer.",
+        "A local home inspector meets 40 new homeowners a month. Many of them will need a plumber soon. She offers to send them your way for $60 per booked job.",
+        "Giving away part of every job feels like losing money. Let's check."
+      ],
+      "image": {
+        "label": "A home inspector handing a plumber's card to new homeowners",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 새 집 현관 앞에서 점검사가 클립보드를 들고 젊은 부부에게 배관공 명함을 건네는 장면. 뒤편에 작은 배관 트럭. 실제 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Where should your next new customers come from?",
+      "illustrative": true,
+      "body": [
+        "Your average first job is $300. Parts and labor cost $150. You want 10 more new customers a month.",
+        "Which path do you choose?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Spend more on your own ads, so you keep the whole job",
+            "verdict": "risky",
+            "feedback": "You keep full control, but each customer costs $120, twice the inspector's fee. Keeping the whole job is not the same as keeping more money."
+          },
+          {
+            "key": "B",
+            "text": "Take the inspector's offer and pay $60 per booked job",
+            "verdict": "best",
+            "feedback": "You pay for customers only when they book, and at half the cost. You do give up some control over how many referrals arrive."
+          },
+          {
+            "key": "C",
+            "text": "Hire a salesperson to knock on doors in new neighborhoods",
+            "verdict": "partial",
+            "feedback": "You build reach you own, which lasts. But a salary starts on day one, and it may take months to match what the inspector already has."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "Sharing the job leaves you three times more.",
+      "illustrative": true,
+      "body": [
+        "Ads: $300 − $150 − $120 = **$30** left from each first job.",
+        "Inspector: $300 − $150 − $60 = **$90** left.",
+        "For 10 customers a month, that's $600 in fees instead of $1,200 in ads."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Left from each first job",
+            "rows": [
+              {
+                "label": "Your own ads",
+                "value": 30,
+                "highlight": false
+              },
+              {
+                "label": "Inspector referral",
+                "value": 90,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Partner to borrow what's already built.",
+      "body": [
+        "A **partnership** lets you use something another business has already built, such as customers, trust or a skill, instead of building it yourself.",
+        "The question is simple: what would it cost, in money and time, to build this myself? If borrowing is cheaper and faster, partner.",
+        "The inspector spent years earning homeowners' trust. You get to use it for $60."
+      ],
+      "image": {
+        "label": "Two paths: building a bridge yourself vs. using an existing one",
+        "aspectRatio": "16:9",
+        "brief": "두 갈래 길 인포그래픽. 왼쪽은 \"Build it yourself\" 라벨과 함께 공사 중인 다리(시간·비용 아이콘), 오른쪽은 \"Borrow it\" 라벨과 함께 이미 완성된 다리를 건너는 배관공. 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "It's cheap for them, costly for you.",
+      "body": [
+        "Most partnerships borrow one of three things:"
+      ],
+      "list": [
+        "**Access:** people the partner already meets",
+        "**Trust:** a reputation that makes customers say yes",
+        "**Capability:** a skill or tool you'd need years to build"
+      ],
+      "callout": "For the inspector, passing on a name costs almost nothing. For you, earning that trust from scratch costs a lot. That gap is where partnerships pay.",
+      "softwareNote": "A small software tool can spend heavily to find users, or integrate with a larger platform its target users already open every day. The platform's audience is the borrowed asset."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Both sides",
+      "title": "A good partnership is not a favor.",
+      "illustrative": true,
+      "body": [
+        "The inspector isn't helping you out of kindness. Recommending a reliable plumber makes her own service more useful, and the fee is extra income for work she's already doing.",
+        "If only one side gains, the deal fades. Before you ask, work out what the partner gets and why it's cheap for them to give."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "What you borrow can be taken back.",
+      "body": [
+        "The inspector can switch to another plumber tomorrow. If most of your customers come through her, she sets the terms.",
+        "So ask whether the asset is core to your business. Borrow what's nice to have. Build what you can't afford to lose.",
+        "Partnerships also take time: calls, updates, fixing mistakes. Count that cost too."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now you lead a new team inside an insurer.",
+      "illustrative": true,
+      "body": [
+        "Your team launched a policy for small business owners. The company's regional sales team already visits about 2,000 small business clients a year, but your product isn't their priority.",
+        "How do you reach those customers?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Hire two salespeople of your own; it takes about six months",
+            "verdict": "partial",
+            "feedback": "You'd own the reach and control the pitch. But you'd pay to rebuild access the company already has, and lose half a year."
+          },
+          {
+            "key": "B",
+            "text": "Offer the regional team credit toward their targets for each policy they sell",
+            "verdict": "best",
+            "feedback": "You borrow relationships they've already built, and they gain something they care about. You give up some control over how your product is pitched."
+          },
+          {
+            "key": "C",
+            "text": "Email the regional team's clients directly without involving them",
+            "verdict": "risky",
+            "feedback": "It's fast and cheap. But you'd spend their trust without asking, and likely lose the team as a partner."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "The same logic applies to software teams inside big companies: reusing another team's sign-up flow or data is often faster than building your own, if they gain something too."
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Before you build it, ask who already has it.",
+      "body": [
+        "A partner's share looks like lost money. Compared with the cost and time of building the same thing, it's often the cheaper path.",
+        "**Try it today:** name one thing you need to grow, like customers, trust or a skill. Write down who already has it and what it would cost them to share."
+      ],
+      "next": "Next · Not all partnerships look the same"
+    }
+  ]
+}

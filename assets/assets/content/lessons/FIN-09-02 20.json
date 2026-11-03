@@ -1,0 +1,228 @@
+{
+  "id": "FIN-09-02",
+  "unitId": "FIN-09",
+  "categoryId": "FIN",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "Return on invested capital",
+  "readerTitle": "Same profit, five times the return: the number that tells them apart",
+  "format": "numbers_twist",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (금속 부품 공장, 일정 관리 앱, 물류 회사, 소프트웨어 회사) · 모든 수치는 설명용",
+  "insight": "이익의 크기가 아니라, 그 이익을 내기 위해 묶어 둔 돈 1달러가 얼마를 벌어 오는지로 사업과 투자를 비교한다.",
+  "misconception": "이익이 더 큰 사업이나 프로젝트가 더 좋은 사업이다. 이익만 나면 투자할 가치가 있다.",
+  "relatedLessonIds": [
+    "FIN-09-01",
+    "FIN-09-05"
+  ],
+  "sources": [
+    {
+      "text": "재무 분석의 표준 개념 (투하자본이익률 ROIC, 마진 × 자본 회전율 분해)",
+      "url": null
+    },
+    {
+      "text": "Koller, T., Goedhart, M., Wessels, D. Valuation: Measuring and Managing the Value of Companies (McKinsey & Company), ROIC 관련 장",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "훅·개념 카드 계산: 부품 공장 $1M ÷ $10M = 10%, 앱 회사 $1M ÷ $2M = 50%, 50 ÷ 10 = 5배.",
+      "status": "open"
+    },
+    {
+      "note": "첫 판단 문제: 창고 $400k ÷ $5M = 8%, 차량 개선 $150k ÷ $1M = 15%. 이익은 모두 세후 영업이익이라는 가정으로 단순화했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "작동 원리 카드: 마진 3% × 회전율 5 = 15%, 마진 15% × 회전율 1 = 15%. ROIC = (세후 영업이익 ÷ 매출) × (매출 ÷ 투하자본) 항등식에 근거합니다.",
+      "status": "open"
+    },
+    {
+      "note": "적용 문제: 서버 구매 $200k ÷ $2M = 10%, 연동 기능 $150k ÷ $500k = 30%, 예금 금리 4%는 가정치입니다. 특정 국가의 금리를 뜻하지 않습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Numbers twist",
+      "title": "Two businesses. Same profit. Not the same result.",
+      "illustrative": true,
+      "body": [
+        "A metal parts maker and a scheduling app each earned $1 million in profit last year. Both owners called it a great year.",
+        "One of them is doing five times better than the other. The profit line on their reports can't tell you which."
+      ],
+      "image": {
+        "label": "A factory and a laptop on a balance scale, each holding a $1M coin",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 저울 양쪽에 작은 공장 건물과 노트북이 있고, 각각 위에 \"$1M\" 동전이 하나씩 올려져 저울이 평형. 공장 아래에는 기계와 재고 상자가 잔뜩 쌓여 있고 노트북 아래는 거의 비어 있음. 실제 로고 없음.",
+        "url": "assets/images/fin-09-02-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Two projects for a logistics company",
+      "illustrative": true,
+      "body": [
+        "You run a regional logistics company. Your team brings two proposals. Profits are after tax.",
+        "**New warehouse:** costs $5M, adds $400,000 profit a year. **Fleet upgrade** (new trucks and route software): costs $1M, adds $150,000 a year. Which deserves your money first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The warehouse. It adds far more profit",
+            "verdict": "risky",
+            "feedback": "It adds the most dollars, but it also ties up five times the money. Bigger profit can hide a weaker return."
+          },
+          {
+            "key": "B",
+            "text": "The fleet upgrade, then look again at the warehouse",
+            "verdict": "best",
+            "feedback": "Each dollar in the fleet earns more than each dollar in the warehouse. You also keep $4M free for something better. The next card shows the math."
+          },
+          {
+            "key": "C",
+            "text": "Both. Each one makes money",
+            "verdict": "partial",
+            "feedback": "Making money isn't the bar. The question is whether it earns enough on the cash it locks up, compared with what else that cash could do."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Divide the profit by the money it needs.",
+      "illustrative": true,
+      "body": [
+        "The warehouse brings in more dollars. The fleet upgrade makes each dollar work almost twice as hard."
+      ],
+      "breakdown": [
+        {
+          "value": "8%",
+          "label": "New warehouse",
+          "detail": "$400,000 a year ÷ $5M invested",
+          "highlight": false
+        },
+        {
+          "value": "15%",
+          "label": "Fleet upgrade",
+          "detail": "$150,000 a year ÷ $1M invested",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Return on invested capital",
+      "body": [
+        "**Return on invested capital** (ROIC) is the profit a business earns from its operations, after tax, divided by the money tied up to run it. That money includes buildings, machines and equipment, plus cash stuck in inventory and unpaid customer invoices.",
+        "Back to the opening pair. The parts maker needs $10M in machines and stock to earn its $1M: a 10% return. The app needs $2M: a 50% return. Same profit, **five times** the return."
+      ],
+      "image": {
+        "label": "Profit on top of a fraction, invested capital below",
+        "aspectRatio": "16:9",
+        "brief": "간단한 인포그래픽. 분수 형태로 위에 \"Operating profit after tax\", 아래에 \"Money tied up: equipment + buildings + inventory + unpaid invoices\". 오른쪽에 \"= ROIC\". 아래쪽에 공장(10%)과 앱(50%) 막대 두 개를 작게 비교.",
+        "url": "assets/images/fin-09-02-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Two ways to earn a good return",
+      "illustrative": true,
+      "body": [
+        "ROIC is the result of two things multiplied together: how much profit each sale leaves (margin), and how many dollars of sales each dollar of capital produces (turnover)."
+      ],
+      "list": [
+        "**Thin margin, fast turnover:** a grocery store keeps 3 cents per dollar of sales, but its capital produces $5 of sales a year. 3% × 5 = 15%.",
+        "**Fat margin, slow turnover:** a machine builder keeps 15 cents per dollar, but needs $1 of capital for every $1 of sales. 15% × 1 = 15%."
+      ],
+      "callout": "To raise ROIC, earn more per sale or need less capital per sale."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where capital hides",
+      "title": "Not all invested money looks like a machine.",
+      "body": [
+        "Owners count the new truck. They often forget the stock sitting on shelves and the invoices customers haven't paid yet. That money is just as tied up.",
+        "A distributor that cuts inventory from three months to one month can raise its ROIC without selling a single extra unit. The profit stays the same, and the money underneath it shrinks."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A high return isn't the whole story.",
+      "body": [
+        "A 40% return on $50,000 adds less wealth than a 15% return on $5M. ROIC tells you how well money works, not how much money an idea can use.",
+        "The accounts can also mislead. Old, fully depreciated equipment makes a business look like it needs little capital until it must be replaced. And software firms often record what they spend building products as an expense, so their real invested capital looks smaller than it is."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software company with $2M.",
+      "illustrative": true,
+      "body": [
+        "Your software company has $2M to put to work. Option one: buy your own servers for $2M, saving about $200,000 a year in hosting fees after tax. Option two: spend $500,000 of engineering time on an integration that customers keep asking for, expected to add $150,000 a year in profit. Option three: keep the cash in the bank at 4%."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Buy the servers. The savings are almost guaranteed",
+            "verdict": "partial",
+            "feedback": "The savings are more certain, but they earn 10% and lock up all $2M in hardware that ages fast."
+          },
+          {
+            "key": "B",
+            "text": "Build the integration first and keep the rest flexible",
+            "verdict": "best",
+            "feedback": "About 30% on the money it uses, with $1.5M still free. The trade-off: the $150,000 is a forecast, so check it against real customer commitments."
+          },
+          {
+            "key": "C",
+            "text": "Keep it all in the bank until something better appears",
+            "verdict": "risky",
+            "feedback": "Safe, but 4% is far below what your own business can earn. Idle cash has a cost too: the return it isn't earning."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Judge profit by the money it needs.",
+      "body": [
+        "Profit tells you how much a business earns. Return on invested capital tells you how hard each dollar inside it is working, which is what matters when you decide where the next dollar goes.",
+        "**Try it today:** take one product line or location. Add up the equipment, inventory and unpaid invoices it ties up. Divide its yearly profit by that number."
+      ],
+      "next": "Next · What to do with profit you can't reinvest well"
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "id": "OPS-03-06",
+  "unitId": "OPS-03",
+  "categoryId": "OPS",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Resilience",
+  "readerTitle": "Two firms, one flood: why one was back in two days",
+  "format": "two_businesses",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.3,
+  "caseKinds": [
+    "illustrative",
+    "real_research",
+    "real_company"
+  ],
+  "caseNote": "가상 사례 (병원 청소 용역 업체 두 곳, 회사 안의 급여팀) + 실제 연구 (Simchi-Levi 외, 회복 시간·생존 시간) + 실제 기업 (2000년 Philips 공장 화재와 Nokia·Ericsson)",
+  "insight": "회복력은 사고를 피하는 능력이 아니다. 의존하는 것마다 '버틸 수 있는 시간'과 '되살리는 데 걸리는 시간'을 비교하고, 그 차이가 가장 큰 곳부터 메우는 일이다.",
+  "misconception": "회복력은 재고를 넉넉히 쌓아 두는 것이다. 지출이 큰 공급처일수록 위험도 크다.",
+  "relatedLessonIds": [
+    "OPS-03-03",
+    "OPS-03-05"
+  ],
+  "sources": [
+    {
+      "text": "Simchi-Levi, D., Schmidt, W., & Wei, Y. (2014). From Superstorms to Factory Fires: Managing Unpredictable Supply-Chain Disruptions. Harvard Business Review.",
+      "url": null
+    },
+    {
+      "text": "Sheffi, Y. (2005). The Resilient Enterprise. MIT Press. (2000년 Philips 앨버커키 공장 화재와 Nokia·Ericsson의 대응)",
+      "url": null
+    },
+    {
+      "text": "청소 업체와 급여팀 사례의 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "'time to recover'와 'time to survive' 개념은 Simchi-Levi 외(HBR 2014)와 관련 후속 연구(Ford 사례)에 나옵니다. 두 용어가 처음 등장한 문헌을 게시 전에 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Philips 공장 화재(2000년 3월, 미국 뉴멕시코 앨버커키): Nokia는 이상을 빨리 감지해 대체 공급을 확보했고, Ericsson은 단일 공급처에 의존해 큰 매출 손실을 입었다는 내용은 Sheffi(2005) 등 여러 자료에 나옵니다. 손실 금액은 자료마다 달라 카드에 쓰지 않았습니다. Ericsson이 이후 휴대폰 사업을 Sony와의 합작사로 넘긴 것(2001)은 화재 하나만의 결과가 아니므로 '여러 원인 중 하나'로만 표현했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "가상 수치 계산: Brightline은 재고 5일, 대체품 승인 약 4주(28일) → 공백 약 23일. Northway는 재고 5일, 전환 2일 → 공백 없음(3일 여유).",
+      "status": "open"
+    },
+    {
+      "note": "'위험이 가장 큰 품목이 지출이 큰 품목과 일치하지 않는 경우가 많다'는 문장은 Simchi-Levi 외의 Ford 분석에서 나온 관찰로 알려져 있습니다. 카드에는 수치 없이 일반 원칙으로만 적었습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Two businesses",
+      "title": "Two firms, one flood: why one was back in two days",
+      "illustrative": true,
+      "body": [
+        "Two cleaning contractors serve hospitals in the same city. Same size, same prices, same supplier for their disinfectant.",
+        "One night the supplier's warehouse floods. One firm is back to normal in two days. The other spends three weeks apologizing to clients. Neither saw the flood coming."
+      ],
+      "image": {
+        "label": "Two cleaning vans, one moving, one stuck",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 비 오는 거리에 똑같은 청소 업체 밴 두 대. 한 대는 병원으로 출발하고, 다른 한 대는 텅 빈 선반 앞에 멈춰 있음. 배경에 물에 잠긴 창고. 실제 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You run one of the two firms.",
+      "illustrative": true,
+      "body": [
+        "Hospitals only allow disinfectants they have approved. You have a budget for one change to protect your business from supply shocks. Which do you pick?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Triple your stock of every supply you use",
+            "verdict": "partial",
+            "feedback": "You buy time on everything, but you tie up cash and shelf space in items you could replace in an hour. And three times the stock still runs out eventually."
+          },
+          {
+            "key": "B",
+            "text": "Find the supplies that would take longest to replace, and get a backup approved for those",
+            "verdict": "best",
+            "feedback": "You spend little on the easy items and protect the one that could stop you for weeks. The next card shows why that matters."
+          },
+          {
+            "key": "C",
+            "text": "Negotiate a lower price with your single supplier and buy insurance",
+            "verdict": "risky",
+            "feedback": "Insurance may pay for some losses, but it doesn't clean a single hospital room. Clients care that the work gets done."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What happened",
+      "title": "The difference was a gap, not luck.",
+      "illustrative": true,
+      "body": [
+        "Both firms had five days of disinfectant on hand. **Northway** had already gotten a second product approved by its hospitals. **Brightline** had not, and a new approval took about four weeks."
+      ],
+      "breakdown": [
+        {
+          "value": "5 days",
+          "label": "How long stock lasts",
+          "detail": "Same for both firms",
+          "highlight": false
+        },
+        {
+          "value": "2 days",
+          "label": "Northway: time to switch",
+          "detail": "Backup already approved",
+          "highlight": false
+        },
+        {
+          "value": "28 days",
+          "label": "Brightline: time to switch",
+          "detail": "New product needs hospital approval",
+          "highlight": false
+        },
+        {
+          "value": "23 days",
+          "label": "Brightline's gap",
+          "detail": "Days with no approved disinfectant",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Resilience",
+      "body": [
+        "**Resilience** is a business's ability to keep serving customers through a disruption and recover quickly.",
+        "Researchers David Simchi-Levi and colleagues suggest two numbers for each thing you depend on. *Time to survive*: how long you can keep going without it. *Time to recover*: how long until it is back or replaced.",
+        "When time to recover is longer than time to survive, you have a gap. That gap is your real risk."
+      ],
+      "image": {
+        "label": "Two bars: time to survive vs time to recover",
+        "aspectRatio": "16:9",
+        "brief": "가로 막대 두 개 비교 인포그래픽. 위쪽 \"Time to survive 5 days\", 아래쪽 \"Time to recover 28 days\". 두 막대 끝 사이의 빈 구간을 붉은색으로 칠하고 \"The gap\" 라벨.",
+        "url": null
+      },
+      "softwareNote": "For a software company, a dependency might be one cloud region, one payment provider or one engineer who knows the billing code. Ask the same two questions about each."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Evidence",
+      "title": "A factory fire, two phone makers.",
+      "body": [
+        "In 2000, a fire hit a Philips chip plant in New Mexico. Nokia and Ericsson both bought parts from it.",
+        "Nokia spotted the delays early, pushed for answers and quickly lined up other sources. Ericsson depended on that plant with no ready backup, and lost months of phone sales.",
+        "Yossi Sheffi's book *The Resilient Enterprise* tells the story. It is often cited as one of several reasons Ericsson later moved its phone business into a joint venture with Sony."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "You can't back up everything.",
+      "body": [
+        "Backups cost money: second suppliers, extra approvals, spare stock, people trained twice. Do it for everything and you lose the efficiency that keeps prices low.",
+        "So rank by gap, not by spend. The riskiest item is often a cheap, boring one, like an approved disinfectant, that nobody watches.",
+        "And backups decay. An approved supplier you never order from may not be ready when you call. Use or test it now and then."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a payroll team inside a big company.",
+      "illustrative": true,
+      "body": [
+        "Your team pays 2,000 employees every month. Only one specialist, Dana, knows how to fix the payroll file when the bank rejects it. That happens a few times a year. Payroll must go out within two days.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Hire a second full-time specialist",
+            "verdict": "partial",
+            "feedback": "It closes the gap, but at a full salary for a task that happens a few times a year. A cheaper fix may do the same job."
+          },
+          {
+            "key": "B",
+            "text": "Have Dana write the steps down, train a colleague, and let the colleague handle the next rejection",
+            "verdict": "best",
+            "feedback": "Time to recover drops from weeks to hours, for a few days of work. Letting the colleague do a real fix keeps the backup from going stale."
+          },
+          {
+            "key": "C",
+            "text": "Leave it. Dana has never missed a payday",
+            "verdict": "risky",
+            "feedback": "That's a record of luck, not a plan. If Dana is away during a rejection, 2,000 people get paid late."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Resilience is measured in days.",
+      "body": [
+        "For anything you depend on, compare how long you can last without it with how long it takes to recover. Fix the biggest gaps first.",
+        "**Try it today:** list five things your business can't run without. Next to each, write two numbers: days you could survive, days to recover. Circle the biggest gap."
+      ],
+      "next": "Next · Follow a clothing brand's supply chain from fabric to shelf"
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "id": "OPS-07-04",
+  "unitId": "OPS-07",
+  "categoryId": "OPS",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Single points of failure",
+  "readerTitle": "How KFC ran out of chicken",
+  "format": "company_story",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.4,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (KFC UK 2018년 배송 대란, AWS S3 2017년 장애) + 가상 적용 (레스토랑 체인, 소프트웨어 회사)",
+  "insight": "위험은 사건이 아니라 구조에서 찾는다. '이것이 내일 멈추면 무엇이 같이 멈추는가'를 물으면 숨은 단일 장애점이 보인다.",
+  "misconception": "효율을 위해 한 곳으로 모으는 것은 순수한 이득이다. 백업이 두 개 있으면 안전하다.",
+  "relatedLessonIds": [
+    "OPS-07-02",
+    "OPS-07-06"
+  ],
+  "sources": [
+    {
+      "text": "BBC News and other UK press coverage of the KFC chicken shortage, February 2018",
+      "url": null
+    },
+    {
+      "text": "Amazon Web Services, Summary of the Amazon S3 Service Disruption in the Northern Virginia (US-EAST-1) Region, March 2017",
+      "url": "https://aws.amazon.com/message/41926/"
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "KFC UK는 2018년 2월 배송 계약을 Bidvest에서 DHL(QSL 협력)로 바꿨고, DHL은 Rugby의 단일 물류센터에서 배송했습니다. 이전 업체가 여러 곳의 창고를 썼다는 점과 정확한 창고 수는 게시 전 확인하세요. 카드에는 'several depots'로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "폐점 매장 수는 보도마다 다릅니다(수백 곳, 약 900개 매장 중). 카드에는 'hundreds of its roughly 900 UK restaurants'로 적었습니다. 매장 수 약 900개를 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "AWS S3 장애(2017년 2월 28일)는 디버깅 중 잘못 입력된 명령으로 예상보다 많은 서버가 제거되며 시작됐다고 AWS 공식 요약에 나옵니다. 영향받은 서비스 범위는 일반적으로만 서술했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "2번·8번 카드의 레스토랑 체인과 소프트웨어 회사는 설명용 가상 사례이며 수치를 쓰지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Company story",
+      "title": "How KFC ran out of chicken",
+      "body": [
+        "In February 2018, KFC in the UK had a problem no fried-chicken chain should ever have. It ran out of chicken.",
+        "Within days, hundreds of its roughly 900 UK restaurants had closed. The farms were fine. The cooks were fine. One link in the middle was not."
+      ],
+      "image": {
+        "label": "Empty fried-chicken bucket on a closed restaurant counter",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 불 꺼진 패스트푸드 매장 카운터 위에 빈 치킨 버킷 하나, 문에 'Closed' 팻말. 실제 KFC 로고, 빨간 줄무늬 버킷 디자인, 캐릭터는 쓰지 않음.",
+        "url": "assets/images/ops-07-04-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "One warehouse or several?",
+      "illustrative": true,
+      "body": [
+        "You run a chain of 40 restaurants. Deliveries come from three regional warehouses.",
+        "A logistics company offers to serve every restaurant from one new central hub. It's cheaper and simpler to manage. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Take the deal. One hub is cheaper and easier to control",
+            "verdict": "risky",
+            "feedback": "You save money every month. But if that hub stumbles, all 40 restaurants stop at once instead of a third of them."
+          },
+          {
+            "key": "B",
+            "text": "Take the deal, but keep a backup route ready and switch over gradually",
+            "verdict": "best",
+            "feedback": "You get most of the savings and still have somewhere to turn if the hub fails. The backup costs a little, like insurance you hope not to use."
+          },
+          {
+            "key": "C",
+            "text": "Refuse. Keep all three warehouses forever",
+            "verdict": "partial",
+            "feedback": "Safe, but you pay for three sites every month. A cheaper backup may protect you almost as well."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "Everything ran through one building.",
+      "body": [
+        "KFC had just moved its UK deliveries to a new logistics partner, DHL. The old supplier had used several depots. The new setup ran from a single distribution centre in Rugby, in central England.",
+        "When problems hit that one site in its first days, trucks stopped reaching restaurants across the country. There was no second route to fall back on.",
+        "KFC apologised publicly. It took weeks for deliveries to fully recover."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Single point of failure",
+      "body": [
+        "A **single point of failure** is one part of a business that, if it stops, stops everything that depends on it.",
+        "Notice what made KFC fragile. No single event was unusual. Warehouses have bad weeks. The danger was the *shape* of the system: every restaurant hung from one thread."
+      ],
+      "image": {
+        "label": "Many restaurants connected to one warehouse by a single line",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 왼쪽: 창고 3개가 각자 매장 여러 곳과 연결(하나가 꺼져도 나머지는 불 켜짐). 오른쪽: 창고 1개에 모든 매장이 연결, 창고가 꺼지자 모든 매장이 회색으로. 실제 로고 없음.",
+        "url": "assets/images/ops-07-04-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How to spot one",
+      "title": "Ask: if this stopped tomorrow, what stops with it?",
+      "body": [
+        "Single points of failure hide in plain sight. Look for anything you only have one of:"
+      ],
+      "list": [
+        "**One supplier** for a key ingredient or part",
+        "**One site** that handles all orders or production",
+        "**One person** who knows how a critical task works",
+        "**One system** that takes every payment",
+        "**One customer** who brings in most of your revenue"
+      ],
+      "callout": "If the answer is \"everything,\" you've found one."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Hidden versions",
+      "title": "Two of something can still be one.",
+      "body": [
+        "In February 2017, a mistyped command during routine work knocked out a major Amazon Web Services storage system in its Northern Virginia region. Many websites and apps slowed or failed for hours.",
+        "Plenty of those businesses had backups and spare servers. But they all sat in the same region. Two copies in one place share one weak spot.",
+        "The same goes for two suppliers who buy from the same factory, or two managers trained by the same retiring expert."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "You can't double everything.",
+      "body": [
+        "Redundancy costs money. A second warehouse, a second supplier or a trained stand-in all add cost and effort every month.",
+        "So rank your single points of failure by how bad a failure would be, then protect the worst ones first. And test the backup. A plan nobody has ever used often fails exactly when you need it."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software company.",
+      "illustrative": true,
+      "body": [
+        "Your 12-person software company sells billing tools. Only one engineer, Maya, knows how to release updates and fix the payment system when it breaks.",
+        "She's leaving for a three-week holiday next month. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Ask Maya to keep her laptop and stay reachable",
+            "verdict": "risky",
+            "feedback": "It costs nothing today. But you still depend on one person, now tired and far away, and she may not answer in time."
+          },
+          {
+            "key": "B",
+            "text": "Have Maya write down the steps and walk a colleague through a real release before she goes",
+            "verdict": "best",
+            "feedback": "It takes a few days of her time, but now two people can do the job, and the written steps outlast the holiday."
+          },
+          {
+            "key": "C",
+            "text": "Hire a contractor to cover while she's away",
+            "verdict": "partial",
+            "feedback": "Someone is on call, but without Maya's knowledge they may not know the system. Knowledge needs to be shared before it can be covered."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Find the one thing everything depends on.",
+      "body": [
+        "Risk often lives in the shape of your business, not in rare events. Spot what you have only one of, then protect the parts whose failure would hurt most.",
+        "**Try it today:** list five things your business can't run without. Circle any you have only one of. Pick one and plan a backup."
+      ],
+      "next": "Next · What to do in the first hours of a crisis"
+    }
+  ]
+}

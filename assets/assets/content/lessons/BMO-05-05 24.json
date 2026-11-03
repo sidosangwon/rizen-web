@@ -1,0 +1,236 @@
+{
+  "id": "BMO-05-05",
+  "unitId": "BMO-05",
+  "categoryId": "BMO",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Disintermediation",
+  "readerTitle": "Why a marketplace's best matches can walk out the door",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative",
+    "real_observation"
+  ],
+  "caseNote": "가상 사례 (도매 마켓플레이스, 반려견 산책 앱) + 실제 관찰 (반복 거래가 많은 마켓플레이스에서 플랫폼 밖 거래가 흔하다는 일반적 패턴) · 모든 수치는 설명용",
+  "insight": "좋은 연결이 반복될수록 플랫폼을 떠날 이유도 커진다. 그래서 마켓플레이스는 만남이 아니라 매번의 거래에서 가치를 줘야 한다.",
+  "misconception": "좋은 매칭을 많이 만들수록 마켓플레이스 매출은 자연스럽게 늘어난다. 이탈은 연락처 공유를 막으면 해결된다.",
+  "relatedLessonIds": [
+    "BMO-05-03",
+    "BMO-05-06"
+  ],
+  "sources": [
+    {
+      "text": "마켓플레이스 운영에서 널리 쓰이는 개념 (disintermediation, platform leakage)",
+      "url": null
+    },
+    {
+      "text": "모든 수치와 사례는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "도매 사례 계산: 플랫폼 경유 시 가게 $1,000 지불, 수수료 15% $150, 생산자 수령 $850. 직거래 10% 할인 시 가게 $900 지불(−$100 절약), 생산자 $900 수령(+$50). 연 12회 주문이면 플랫폼 손실 $150 × 12 = $1,800.",
+      "status": "open"
+    },
+    {
+      "note": "softwareNote의 프리랜서 플랫폼 '우회 금지 조항'은 업계의 일반적 관행으로만 서술했습니다. 특정 회사명이나 기간·수수료는 넣지 않았습니다. 게시 전 표현이 과장되지 않았는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "반복적·관계 중심 거래(청소, 과외, 산책 등)에서 플랫폼 이탈이 잦다는 내용은 일반적 관찰로 서술했습니다. 특정 기업의 실패 원인으로 단정하지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business models · Counterexample",
+      "title": "The marketplace's best matches were its worst customers.",
+      "illustrative": true,
+      "body": [
+        "A wholesale website connects independent shops with small food producers. A gift shop finds a local jam maker and orders through the site. The jam sells fast.",
+        "The second box arrives with a handwritten card: \"Order direct next time. Save 10%.\" The shop never orders through the site again."
+      ],
+      "image": {
+        "label": "Jam box with a handwritten card tucked inside",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 작은 가게 계산대 위에 잼 병이 든 배송 상자, 상자 안에 손글씨 카드 \"Order direct, save 10%\". 배경에 흐릿한 노트북 화면(웹사이트, 로고 없음). 실제 브랜드나 로고 사용 금지.",
+        "url": "assets/images/bmo-05-05-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Repeat orders keep vanishing.",
+      "illustrative": true,
+      "body": [
+        "You run that wholesale site and take 15% of each order. Your data shows a pattern: once a shop and a producer have traded twice, their orders on your site drop sharply.",
+        "What do you do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Hide phone numbers and emails, and ban sellers who share them",
+            "verdict": "risky",
+            "feedback": "It may slow leaks, but buyers and sellers need to talk. You annoy your best users, and the jam card still fits in the box."
+          },
+          {
+            "key": "B",
+            "text": "Add things that make every order easier: 60-day payment terms, returns, one invoice for all suppliers",
+            "verdict": "best",
+            "feedback": "It costs you money and effort to provide, but now staying on the site saves both sides something each time they order, not just the first time."
+          },
+          {
+            "key": "C",
+            "text": "Cut your fee from 15% to 8% on repeat orders",
+            "verdict": "partial",
+            "feedback": "It shrinks the reward for leaving, but a phone call is still free. You give up margin without giving a new reason to stay."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Going direct makes both sides richer.",
+      "illustrative": true,
+      "body": [
+        "The shop saves $100. The jam maker earns $50 more. The only loser is the site, which loses $150 an order, or **$1,800 a year** if the pair orders monthly."
+      ],
+      "breakdown": [
+        {
+          "value": "$1,000",
+          "label": "On the site",
+          "detail": "Shop pays; site keeps 15%, maker gets $850",
+          "highlight": false
+        },
+        {
+          "value": "$900",
+          "label": "Direct",
+          "detail": "Shop pays 10% less; maker keeps all of it",
+          "highlight": false
+        },
+        {
+          "value": "+$50",
+          "label": "Maker's gain",
+          "detail": "$900 instead of $850",
+          "highlight": false
+        },
+        {
+          "value": "−$150",
+          "label": "Site's loss",
+          "detail": "Every order that leaves",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Disintermediation",
+      "body": [
+        "An *intermediary* is a middleman. **Disintermediation** is when the two sides use a marketplace to find each other, then cut it out and deal directly.",
+        "Here's the twist. The better the match, the more likely it leaves. A happy shop and a reliable maker have every reason to keep trading, and no reason to keep paying someone to introduce them."
+      ],
+      "image": {
+        "label": "A bridge between two shops, with people walking around it",
+        "aspectRatio": "16:9",
+        "brief": "단순한 인포그래픽. 왼쪽 가게, 오른쪽 생산자, 가운데 다리(마켓플레이스). 첫 거래는 다리 위로, 이후 거래는 다리 옆 지름길 점선으로 오가는 모습. 다리 위에 \"15%\" 표지판.",
+        "url": "assets/images/bmo-05-05-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Some marketplaces leak more than others.",
+      "body": [
+        "Leaks are most likely when a few conditions stack up:"
+      ],
+      "list": [
+        "**Repeat deals** between the same two parties",
+        "**Large orders**, so the fee is worth avoiding",
+        "**A personal relationship**, so trust no longer needs the platform",
+        "**Easy to do alone**, once you have a phone number"
+      ],
+      "callout": "One-off purchases, like a hotel in a city you visit once, leak far less."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "What holds",
+      "title": "Marketplaces that keep deals earn their fee every time.",
+      "body": [
+        "Some charge for what they truly provide: a fee for the introduction, then little or nothing after. Others do real work on each deal, like payment protection, delivery, insurance or record-keeping.",
+        "The question to ask is simple: what would both sides lose if they went direct tomorrow?"
+      ],
+      "softwareNote": "Freelance platforms often ban moving clients off-site in their terms. What keeps work on the platform in practice tends to be the tools: contracts, held payments, time tracking and invoices that both sides would otherwise rebuild by hand."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Fighting leaks can cost more than the leaks.",
+      "body": [
+        "Blocking contact details frustrates honest users and can push your best sellers to leave entirely. Raising fees to make up lost revenue gives everyone a bigger reason to go direct.",
+        "And some leakage is fine. If your real value is the first match, charge clearly for that and accept that strong pairs will graduate."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a dog-walking app.",
+      "illustrative": true,
+      "body": [
+        "Your app matches dog owners with local walkers and takes 20% per walk. Most owners book the same walker three times a week. After a month, many stop booking through the app.",
+        "Which change best fits the problem?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep 20%, hide walker surnames, and warn owners not to pay in cash",
+            "verdict": "risky",
+            "feedback": "Easy to set up, but owners hand over house keys to these walkers. They'll swap numbers anyway and resent the app."
+          },
+          {
+            "key": "B",
+            "text": "Charge owners a monthly plan that includes insurance, live walk tracking and a backup walker on sick days",
+            "verdict": "best",
+            "feedback": "Each feature costs you something to run, but owners lose real protection by going direct, so the app is worth paying for every week."
+          },
+          {
+            "key": "C",
+            "text": "Charge a one-time matching fee and let pairs go free afterward",
+            "verdict": "partial",
+            "feedback": "Honest pricing for an introduction, but you give up the ongoing revenue from your most loyal pairs."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A marketplace must be worth it on the tenth deal, not just the first.",
+      "body": [
+        "If your only value is the introduction, your best matches will leave. Price the introduction, or add value to every deal.",
+        "**Try it today:** list what your customers would lose if they dealt directly with each other tomorrow. If the list is short, that's your leak."
+      ],
+      "next": "Next · How strangers learn to trust each other"
+    }
+  ]
+}

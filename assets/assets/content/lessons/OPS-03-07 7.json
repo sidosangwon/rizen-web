@@ -1,0 +1,247 @@
+{
+  "id": "OPS-03-07",
+  "unitId": "OPS-03",
+  "categoryId": "OPS",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "A clothing brand's supply chain",
+  "readerTitle": "Why a rainy week can make a clothing brand order three times too many jackets",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.3,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (의류 브랜드의 수요계획팀, 철물 체인의 물류센터) · 모든 수치는 설명용",
+  "insight": "공급망 결정은 주문서가 아니라 계산대 판매를 보고 내려야 하며, 상품마다 버퍼를 둘 곳과 빠르게 대응할 곳을 나눠야 한다.",
+  "misconception": "매장 주문이 늘면 수요가 늘어난 것이니 공장 주문도 그만큼 늘리면 된다. 재고 전략은 모든 상품에 하나로 정하면 된다.",
+  "relatedLessonIds": [
+    "OPS-03-03",
+    "OPS-03-04"
+  ],
+  "sources": [
+    {
+      "text": "공급망 관리의 표준 개념 (채찍 효과, 적시 생산 vs 예비 재고)",
+      "url": null
+    },
+    {
+      "text": "모든 인물, 회사, 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "3번 카드의 증폭 수치는 설명용 가상 수치입니다. 고객 +10% → 매장 주문 +30% → 지역 창고 주문 +60%로, 단계마다 주문이 커지는 흐름만 보여 줍니다. 실제 연구 수치처럼 읽히지 않도록 카드에 illustrative 표시를 했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "리드타임(원거리 공장 12주, 근거리 공방 3주, 선풍기 공급사 2주)은 모두 가정입니다. 실제 업계 평균으로 제시하지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Everyday scene",
+      "title": "One rainy week, three times the orders.",
+      "illustrative": true,
+      "body": [
+        "Mira leads the planning team at a mid-size outdoor clothing brand. After a wet week, a yellow rain jacket starts selling well in the north.",
+        "By Friday, the warehouse is asking for far more jackets than the stores ever sold. Somewhere between the shop floor and her desk, a small rise became a big one."
+      ],
+      "image": {
+        "label": "A yellow rain jacket on a rack, with order slips growing larger behind it",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 매장 옷걸이에 노란 우비 한 벌. 뒤쪽으로 주문서 종이가 단계마다 점점 커지며 이어짐 (작은 영수증 → 큰 주문서 → 거대한 주문서). 실제 브랜드 로고 없음.",
+        "url": "assets/images/ops-03-07-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Orders for the jacket are up 60%.",
+      "illustrative": true,
+      "body": [
+        "The regional warehouse wants 60% more yellow jackets next month. The factory needs 12 weeks to make them, and the rainy season may be over by then.",
+        "What should Mira's team do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Order 60% more now, before the factory fills up",
+            "verdict": "risky",
+            "feedback": "You'd secure stock fast, but you'd be reacting to orders, not sales. That is the **bullwhip effect**: small swings grow at every step, and the jackets may land after the rain stops."
+          },
+          {
+            "key": "B",
+            "text": "Pull register sales from the stores first, then size the order",
+            "verdict": "best",
+            "feedback": "This costs a day or two but shows real demand. Looking past orders to actual sales is how you stop the **bullwhip effect** from reaching the factory."
+          },
+          {
+            "key": "C",
+            "text": "Split the difference and order 30% more",
+            "verdict": "partial",
+            "feedback": "Less risk than A, but still a guess built on inflated orders. The number is only safer if it comes from sales data."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What the data showed",
+      "title": "Each step added its own cushion.",
+      "illustrative": true,
+      "body": [
+        "Shoppers bought only **10% more**. Each link ordered a little extra to be safe, and the extras stacked up."
+      ],
+      "breakdown": [
+        {
+          "value": "+10%",
+          "label": "Shoppers",
+          "detail": "Jackets actually sold at the registers",
+          "highlight": true
+        },
+        {
+          "value": "+30%",
+          "label": "Stores",
+          "detail": "Managers ordered extra so they wouldn't run out",
+          "highlight": false
+        },
+        {
+          "value": "+60%",
+          "label": "Warehouse",
+          "detail": "Saw store orders jump and added its own buffer",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept at work",
+      "title": "The bullwhip effect, up close",
+      "body": [
+        "Nobody lied. Each person made a sensible choice with the information in front of them: the orders from the step below.",
+        "That is the **bullwhip effect**. A flick at the handle becomes a crack at the tip. The fix is to share the same signal with everyone, which here means register sales.",
+        "Mira's team now gets weekly sell-through, the share of stock that actually sold, from every store."
+      ],
+      "image": {
+        "label": "A whip whose wave grows from store to warehouse to factory",
+        "aspectRatio": "16:9",
+        "brief": "채찍 그림 인포그래픽. 손잡이 쪽에 \"Shoppers\"(작은 물결), 가운데 \"Stores\", \"Warehouse\", 끝에 \"Factory\"(큰 물결). 물결이 점점 커지는 모습.",
+        "url": "assets/images/ops-03-07-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Planning next season: two very different products.",
+      "illustrative": true,
+      "body": [
+        "A plain black T-shirt sells steadily all year. A bold printed dress could be a hit or a flop.",
+        "The usual overseas factory is cheap but takes 12 weeks. A nearby workshop takes 3 weeks but charges more per piece. How should the team stock them?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Small, frequent orders for both, to keep stock lean",
+            "verdict": "partial",
+            "feedback": "Lean works for the dress. For the T-shirt, a 12-week factory and steady demand mean frequent small orders risk empty shelves on your most reliable seller."
+          },
+          {
+            "key": "B",
+            "text": "Keep a buffer of T-shirts from the far factory; make a small first batch of dresses and reorder nearby if they sell",
+            "verdict": "best",
+            "feedback": "This mixes **just in case** for the predictable item with near **just in time** for the risky one. You pay more per dress, but only for dresses people want."
+          },
+          {
+            "key": "C",
+            "text": "Order big on both so nothing ever runs out",
+            "verdict": "risky",
+            "feedback": "**Just in case** protects sales, but on an uncertain dress it can mean racks of markdowns and cash tied up in stock."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Concept at work",
+      "title": "Just in time and just in case can live in one brand.",
+      "illustrative": true,
+      "body": [
+        "The choice isn't one policy for the whole company. It's a choice per product.",
+        "Steady, predictable items with long lead times earn a buffer. Uncertain items with a fast option earn small bets and quick reorders.",
+        "Mira's team now sorts every product into one of two groups before placing a single order."
+      ],
+      "softwareNote": "An online store or app business makes the same split with computing capacity: reserve the steady baseline cheaply in advance, and buy extra on demand for spikes. And one big customer's one-off job can look like growth, which is the bullwhip effect in a dashboard."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Both fixes have a price.",
+      "body": [
+        "Sharing sales data needs systems and trust. Store managers may worry that honest numbers will cut their allocations.",
+        "The nearby workshop costs more per piece, so it only pays when it prevents bigger losses from markdowns.",
+        "And a buffer only helps if it sits in the right place. A thousand T-shirts in the wrong warehouse still leave a store's shelf empty."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a hardware chain before a heat wave.",
+      "illustrative": true,
+      "body": [
+        "You run the distribution center for 25 hardware stores. A heat wave is forecast in five days, and store orders for fans have tripled. The supplier needs two weeks to deliver more.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Ship every store what it asked for and order triple from the supplier",
+            "verdict": "risky",
+            "feedback": "Stores get fans fast, but tripled orders are inflated by fear. That's the **bullwhip effect**, and the reorder lands after the heat has passed."
+          },
+          {
+            "key": "B",
+            "text": "Send each store a share based on its own recent fan sales, and hold the rest centrally to move where fans actually sell",
+            "verdict": "best",
+            "feedback": "Sales data tames the **bullwhip effect**, and a central **just-in-case** buffer goes where demand shows up. You'll make some extra trips, but fewer fans sit unsold."
+          },
+          {
+            "key": "C",
+            "text": "Ship normal amounts until sales prove the spike is real",
+            "verdict": "partial",
+            "feedback": "This avoids overreacting but ignores a real, short window. By the time the proof arrives, the heat wave may be over."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Order from sales, and buffer by product.",
+      "body": [
+        "This lesson used two ideas. **The bullwhip effect:** react to what customers buy, not to what the step below orders. **Just in time vs just in case:** hold buffers for steady items, place small fast bets on uncertain ones.",
+        "**Try it today:** pick one product. Compare last month's orders from your customers or stores with what actually sold to end buyers. How big is the gap?"
+      ],
+      "next": "Next · An electronics maker's supply chain"
+    }
+  ]
+}

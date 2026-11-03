@@ -1,0 +1,263 @@
+{
+  "id": "FIN-08-03",
+  "unitId": "FIN-08",
+  "categoryId": "FIN",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "Compound growth",
+  "readerTitle": "Why 15% growth beats 10% by far more than 5 points",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.1,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (포장재 제조사, 구독형 소프트웨어) · 모든 수치는 설명용. 복리 계산과 72의 법칙은 표준 재무 개념",
+  "insight": "성장률의 작은 차이는 시간이 지나면 결과의 큰 차이가 된다. 같은 크기의 일회성 효과보다 매번 쌓이는 개선을 먼저 본다.",
+  "misconception": "성장률이 1.5배 높으면 20년 뒤 결과도 1.5배 정도 크다. 한 번에 크게 얻는 것이 작은 개선을 꾸준히 쌓는 것보다 낫다.",
+  "relatedLessonIds": [
+    "FIN-06-01",
+    "FIN-08-06"
+  ],
+  "sources": [
+    {
+      "text": "재무의 표준 개념 (복리 성장, 72의 법칙)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "제조사 계산: $10M × 1.10^5 = $16.1M, × 1.15^5 = $20.1M. × 1.10^10 = $25.9M, × 1.15^10 = $40.5M. × 1.10^20 = $67.3M, × 1.15^20 = $163.7M. 163.7 ÷ 67.3 = 2.43배 (약 2.4배).",
+      "status": "open"
+    },
+    {
+      "note": "72의 법칙: 72 ÷ 10 = 7.2년 (실제 1.1^7.2 ≈ 1.99), 72 ÷ 15 = 4.8년 (실제 1.15^4.8 ≈ 1.96). 근삿값이라는 점을 카드에 명시했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "월 성장: 1.05^12 = 1.796 (연 약 80%, 단순 합 60%). 월 이탈 3%: 0.97^12 = 0.694 (1년 뒤 약 69% 남음, 약 31% 감소). 50% 손실 후 회복: 0.5 × 2 = 1, 즉 100% 상승 필요.",
+      "status": "open"
+    },
+    {
+      "note": "구독 문제: 10,000명 기준, 신규 유입 없이 계산. A안 11,500 × 0.96^12 = 7,046, × 0.96^24 = 4,317. B안 10,000 × 0.97^12 = 6,938, × 0.97^24 = 4,814. 1년 차에는 A가 약 100명 앞서고 2년 차에는 B가 약 500명 앞섬.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Numbers twist",
+      "title": "Two factories, one small difference",
+      "illustrative": true,
+      "body": [
+        "Two packaging makers each have $10 million in sales. One grows 10% a year. The other grows 15%.",
+        "Five points apart. It sounds like a modest gap. Twenty years later, it is anything but modest."
+      ],
+      "image": {
+        "label": "Two factories, one growing much taller over time",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 나란히 선 두 공장 건물. 왼쪽은 층이 조금씩, 오른쪽은 층이 점점 더 빠르게 쌓여 훨씬 높아짐. 굴뚝 대신 위로 뻗는 화살표. 실제 기업 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How much bigger is the faster factory after 20 years?",
+      "illustrative": true,
+      "body": [
+        "Both start at $10 million. One grows 10% every year, the other 15%. Neither slows down.",
+        "After 20 years, how much larger is the 15% company?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "About 1.5 times larger, since 15 is 1.5 times 10",
+            "verdict": "risky",
+            "feedback": "It feels fair, but it treats growth like a fixed amount added each year. Each year's growth is earned on a bigger base."
+          },
+          {
+            "key": "B",
+            "text": "About 2.4 times larger",
+            "verdict": "best",
+            "feedback": "Right. The 10% company reaches about $67 million. The 15% company reaches about $164 million. The next card shows how."
+          },
+          {
+            "key": "C",
+            "text": "About 5 times larger",
+            "verdict": "partial",
+            "feedback": "Good instinct that the gap widens a lot. Over 20 years it comes to about 2.4 times. Stretch it to 40 years and it passes 5."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "The gap starts small, then runs away.",
+      "illustrative": true,
+      "body": [
+        "Sales in millions of dollars. At year 5 the two are only $4 million apart. By year 20 the gap is nearly $100 million."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Year 5 (millions)",
+            "rows": [
+              {
+                "label": "10% a year",
+                "value": 16.1,
+                "highlight": false
+              },
+              {
+                "label": "15% a year",
+                "value": 20.1,
+                "highlight": true
+              }
+            ]
+          },
+          {
+            "label": "Year 10 (millions)",
+            "rows": [
+              {
+                "label": "10% a year",
+                "value": 25.9,
+                "highlight": false
+              },
+              {
+                "label": "15% a year",
+                "value": 40.5,
+                "highlight": true
+              }
+            ]
+          },
+          {
+            "label": "Year 20 (millions)",
+            "rows": [
+              {
+                "label": "10% a year",
+                "value": 67.3,
+                "highlight": false
+              },
+              {
+                "label": "15% a year",
+                "value": 163.7,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Compound growth",
+      "body": [
+        "**Compound growth** means each period's growth is added to the base, so the next period grows from a bigger number. Growth earns growth.",
+        "A quick check is the *rule of 72*: divide 72 by the yearly rate to estimate how many years it takes to double. At 10%, about 7 years. At 15%, under 5. The faster company doubles more often, and every doubling is bigger than the last."
+      ],
+      "image": {
+        "label": "Doubling steps at 10% and 15% on a timeline",
+        "aspectRatio": "16:9",
+        "brief": "가로 타임라인 두 줄. 위 줄(10%)은 약 7년마다, 아래 줄(15%)은 약 5년마다 블록이 두 배로 커짐. 가운데에 \"72 ÷ rate = years to double\" 문구.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Short periods hide the effect, and it cuts both ways.",
+      "illustrative": true,
+      "body": [
+        "A software company growing 5% a month does not grow 60% a year. It grows about **80%**, because each month builds on the last.",
+        "The same math runs in reverse. Lose 3% of subscribers a month and about 31% are gone within a year. Every month you lose a share of a smaller base, but the losses keep stacking up."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where it shows up",
+      "title": "Anything that feeds on itself compounds.",
+      "body": [
+        "Profits that are put back into the business compound. So do customers who bring in more customers, a team that gets a little faster each quarter, or a factory that cuts scrap by a bit every year.",
+        "One-time wins do not. A big order or a single price rise lifts you once, then stops. The useful question is: *does this gain make the next gain easier?*"
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Compounding needs time, and no big losses.",
+      "body": [
+        "Rates rarely hold steady. Growth usually slows as a business gets bigger, so a plan that compounds 15% for 20 years is often a fantasy dressed up as a spreadsheet.",
+        "Large losses also break the chain. Fall 50% and you need a 100% gain just to get back to where you started. Steady progress usually beats a fast rate that sometimes collapses."
+      ],
+      "image": {
+        "label": "A rising curve interrupted by a steep drop",
+        "aspectRatio": "16:9",
+        "brief": "부드럽게 올라가는 복리 곡선이 중간에 절반으로 뚝 떨어진 뒤 다시 원래 높이까지 오래 걸려 올라가는 그래프. \"−50% needs +100%\" 라벨.",
+        "url": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a subscription app.",
+      "illustrative": true,
+      "body": [
+        "Your app has 10,000 paying subscribers. Each month 4% cancel. You have budget for one project this quarter.",
+        "Which one should you pick?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "A promotion that adds 1,500 subscribers right away",
+            "verdict": "partial",
+            "feedback": "It looks best at first and leads by about 100 subscribers after a year. But those new subscribers leak at 4% too, and by year two you are about 500 behind option B."
+          },
+          {
+            "key": "B",
+            "text": "Fix onboarding so monthly cancellations fall from 4% to 3%",
+            "verdict": "best",
+            "feedback": "A small change in a rate that repeats every month. It starts slower, then pulls ahead and keeps widening the gap for as long as it lasts."
+          },
+          {
+            "key": "C",
+            "text": "Run the same promotion again every year",
+            "verdict": "risky",
+            "feedback": "You keep paying for new subscribers while 4% of the base still leaves every month. You are refilling a leaking bucket instead of fixing the leak."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Small rates, repeated, beat big one-time wins.",
+      "body": [
+        "Over time, the growth rate matters more than the starting size, and a few points add up to multiples.",
+        "**Try it today:** find one number in your business that repeats every month, such as returns, cancellations or repeat orders. Ask what a one-point improvement would be worth after three years."
+      ],
+      "next": "Next · Leverage: borrowing to grow faster"
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "id": "FIN-09-05",
+  "unitId": "FIN-09",
+  "categoryId": "FIN",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Hurdle rates",
+  "readerTitle": "Why one hurdle rate quietly rewards your riskiest bets",
+  "format": "two_businesses",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 2개 (레스토랑 그룹, 소프트웨어 회사) · 모든 수치는 설명용",
+  "insight": "허들 레이트는 회사에 하나가 아니라 프로젝트의 위험만큼 달라야 한다. 모든 프로젝트에 같은 기준을 쓰면 위험한 프로젝트가 유리해진다.",
+  "misconception": "기준 수익률 하나를 정해 모든 프로젝트에 똑같이 적용하면 공정하고 엄격한 투자 원칙이 된다.",
+  "relatedLessonIds": [
+    "FIN-07-03",
+    "FIN-09-02"
+  ],
+  "sources": [
+    {
+      "text": "기업재무의 표준 개념 (허들 레이트, 자본비용, 위험 프리미엄)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수익률(12%, 14%, 15%, 22%)과 허들 값(8%, 10%, 12%, 20%, 25%)은 설명용 가상 수치입니다. 업계 표준이나 권장 수치로 읽히지 않도록 카드에 'say', 'for example'로 표시했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "비교 확인: 단일 기준 10%에서는 신규 매장 14% > 주방 12%. 위험별 기준에서는 주방 12% > 8%(통과), 신규 매장 14% < 20%(탈락). 소프트웨어: 서버 15% > 8%(통과), 신규 시장 22% > 12%(단일 기준 통과) 하지만 22% < 25%(위험별 기준 탈락).",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Two businesses",
+      "title": "Why one hurdle rate quietly rewards your riskiest bets",
+      "illustrative": true,
+      "body": [
+        "A restaurant group and a software company follow the same rule: fund any project expected to return more than 10% a year.",
+        "It sounds disciplined. One clear bar, applied to every idea. But a single bar has a blind spot. Over time, it can steer both companies toward their riskiest ideas and away from their safest good ones."
+      ],
+      "image": {
+        "label": "One high-jump bar with a chef and a programmer lining up to jump",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 높이뛰기 바 하나에 '10%' 표지. 앞에 요리사 캐릭터와 노트북을 든 개발자 캐릭터가 줄 서 있음. 실제 브랜드 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Two projects clear the bar. You can fund one.",
+      "illustrative": true,
+      "body": [
+        "You run four restaurants and have $400,000 to invest. Your rule: fund projects expected to return more than 10% a year.",
+        "A **kitchen upgrade** cuts energy and food waste. Expected return: 12% a year. You've done similar upgrades before. A **new restaurant** in a city you've never operated in is expected to return 14%, if the forecast holds."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Open the new restaurant. 14% beats 12%",
+            "verdict": "risky",
+            "feedback": "You get the bigger number on paper, but you treat a guess about a new city as if it were as solid as your own energy bills."
+          },
+          {
+            "key": "B",
+            "text": "Fund the kitchen upgrade. Its 12% is far more certain",
+            "verdict": "best",
+            "feedback": "You give up some possible upside but buy a return you can trust. The next card shows why the safer 12% is worth more."
+          },
+          {
+            "key": "C",
+            "text": "Split the money and do half of each",
+            "verdict": "partial",
+            "feedback": "Spreading money feels safe, but half a restaurant rarely works. You'd weaken the sure project to keep a risky one alive."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "Same projects, two kinds of bar.",
+      "illustrative": true,
+      "body": [
+        "Under one 10% bar, the new restaurant wins. But the forecasts aren't equally reliable. The kitchen numbers come from bills you already pay. The new restaurant's come from guesses about rent, staff and demand.",
+        "Give each project a bar that matches its risk, say 8% and 20%, and the answer flips."
+      ],
+      "chart": {
+        "unit": "%",
+        "groups": [
+          {
+            "label": "One bar for all",
+            "rows": [
+              {
+                "label": "Kitchen upgrade, expected",
+                "value": 12,
+                "highlight": false
+              },
+              {
+                "label": "New restaurant, expected",
+                "value": 14,
+                "highlight": false
+              },
+              {
+                "label": "Hurdle for both",
+                "value": 10,
+                "highlight": true
+              }
+            ]
+          },
+          {
+            "label": "Bar matched to risk",
+            "rows": [
+              {
+                "label": "Kitchen upgrade, expected",
+                "value": 12,
+                "highlight": false
+              },
+              {
+                "label": "Kitchen hurdle",
+                "value": 8,
+                "highlight": false
+              },
+              {
+                "label": "New restaurant, expected",
+                "value": 14,
+                "highlight": false
+              },
+              {
+                "label": "New restaurant hurdle",
+                "value": 20,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "image": {
+        "label": "Same projects, two kinds of bar.",
+        "aspectRatio": "4:3",
+        "brief": "Labeled HTML chart from the lesson numbers",
+        "url": "assets/images/fin-09-05-chart.png"
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Hurdle rate",
+      "body": [
+        "A **hurdle rate** is the minimum return a project must be expected to earn before you put money into it.",
+        "It starts with what your money costs: interest on loans, plus the return owners could earn elsewhere. Then it adds extra for risk. The more uncertain the project, the higher the bar, because a shaky 14% is worth less than a dependable 12%."
+      ],
+      "image": {
+        "label": "Three hurdles of rising height labeled low, medium and high risk",
+        "aspectRatio": "16:9",
+        "brief": "육상 트랙 위 허들 3개가 점점 높아짐. 라벨 'Low risk', 'Medium risk', 'High risk'. 바닥에 'Cost of money' 선이 깔려 있고 각 허들이 그 위에 추가된 높이로 표현됨.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it goes wrong",
+      "title": "One bar tilts you toward risk.",
+      "body": [
+        "When every project faces the same hurdle, risky ideas get an unfair edge. Uncertain projects tend to come with bigger, more hopeful forecasts. Safe ones, like cutting costs or fixing what you already run, show modest numbers and lose the contest.",
+        "Year after year, the company fills up with bets whose risk it never priced. Nobody chose to gamble. The rule did it for them."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Set the bar by the project, not the company.",
+      "body": [
+        "A simple method is to sort projects into a few risk tiers:"
+      ],
+      "list": [
+        "**Low risk:** cost cuts, repairs, upgrades you've done before. Bar close to your cost of money.",
+        "**Medium risk:** growing what already works, like adding seats to a busy location.",
+        "**High risk:** new cities, new products, new customers. Bar well above your cost of money."
+      ],
+      "callout": "The exact numbers are judgment calls. What matters is that the bar rises with uncertainty."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A bar can be gamed, or set too high.",
+      "body": [
+        "Teams learn the target. If the hurdle is 20%, expect plans that show 21%. Compare past forecasts with what actually happened before trusting new ones.",
+        "Set bars too high and good projects die while cash sits idle earning little. And a hurdle only says whether one project is worth doing. It doesn't tell you which of several winners deserves the money."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software company.",
+      "illustrative": true,
+      "body": [
+        "Your company-wide hurdle is 12%. Two projects pass it. Moving to cheaper servers is expected to return 15%, and the savings are easy to predict. Building a product for a new market is expected to return 22%, but no customer there has used it yet.",
+        "Your risk tiers would set bars of 8% for cost savings and 25% for new markets. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Fund both. Each beats the 12% company hurdle",
+            "verdict": "partial",
+            "feedback": "The server move is a clear yes. But the new market only passes because the single bar ignores its risk."
+          },
+          {
+            "key": "B",
+            "text": "Fund the server move, and run a small test in the new market first",
+            "verdict": "best",
+            "feedback": "You lock in the reliable return and spend a little to learn whether the 22% forecast is real before betting big."
+          },
+          {
+            "key": "C",
+            "text": "Fund only the new market. 22% is the biggest prize",
+            "verdict": "risky",
+            "feedback": "You chase the highest number and skip a near-certain return. That's the tilt toward risk a single bar creates."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Raise the bar as the risk rises.",
+      "body": [
+        "A hurdle rate is the return a project must beat to deserve your money. One bar for everything quietly favors your riskiest ideas.",
+        "**Try it today:** list your last three investments. Label each low, medium or high risk. Would each have cleared a bar matched to its risk?"
+      ],
+      "next": "Next · Saying no to good projects"
+    }
+  ]
+}

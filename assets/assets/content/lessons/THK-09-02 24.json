@@ -1,0 +1,227 @@
+{
+  "id": "THK-09-02",
+  "unitId": "THK-09",
+  "categoryId": "THK",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "Optionality",
+  "readerTitle": "Why Zara pays extra to decide later",
+  "format": "company_story",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Zara/Inditex의 근거리 생산과 늦은 결정) + 가상 적용 (아웃도어 의류 브랜드, 소프트웨어 회사의 클라우드 약정)",
+  "insight": "유연함은 공짜가 아니라 값을 치르고 사는 것이며, 미래가 불확실하고 곧 더 알게 될 때만 그 값을 할 가치가 있다.",
+  "misconception": "가장 싼 단가로 미리 확정하는 것이 언제나 효율적이다. 또는 반대로, 선택지는 많이 열어 둘수록 좋다.",
+  "relatedLessonIds": [
+    "THK-05-01",
+    "THK-11-06"
+  ],
+  "sources": [
+    {
+      "text": "Ghemawat, P. & Nueno, J. L. (2003). ZARA: Fast Fashion. Harvard Business School Case 703-497.",
+      "url": null
+    },
+    {
+      "text": "Ferdows, K., Lewis, M. A. & Machuca, J. A. D. (2004). Rapid-Fire Fulfillment. Harvard Business Review.",
+      "url": null
+    },
+    {
+      "text": "재무의 옵션 개념(권리는 있으나 의무는 없음)에 대한 표준 설명",
+      "url": null
+    },
+    {
+      "text": "재킷·클라우드 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Zara가 시즌 시작 전에 생산량의 일부만 미리 확정한다는 내용은 Ghemawat & Nueno(2003), Ferdows 외(2004)에 나옵니다. 정확한 비율은 자료와 시기마다 달라 카드에는 \"only part\"로만 적었습니다. 게시 전 원문 확인 필요.",
+      "status": "open"
+    },
+    {
+      "note": "Zara가 원단의 상당 부분을 염색하지 않은 상태로 사서 나중에 색을 정한다는 내용은 Ferdows 외(2004)에 근거합니다. 비율은 카드에 쓰지 않았습니다. 현재도 같은 방식인지 확인 필요.",
+      "status": "open"
+    },
+    {
+      "note": "Zara가 스페인·포르투갈·모로코 등 가까운 지역에서 생산 상당 부분을 하며 단가가 더 높다는 설명은 위 자료 기준입니다. 최근 생산 비중 변화가 있을 수 있으니 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "가상 재킷 계산: 전량 원거리 10,000벌 × ($36 − $30) = $60,000 절감. 분할안(원거리 6,000 + 근거리 4,000)의 추가 비용 4,000 × $6 = $24,000. 전량 근거리 추가 비용 $60,000.",
+      "status": "open"
+    },
+    {
+      "note": "클라우드 약정 할인율 35%는 설명용 가상 수치입니다. 실제 할인율은 제공사와 조건마다 다릅니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Company story",
+      "title": "Why Zara pays extra to decide later",
+      "body": [
+        "Zara makes much of its clothing in factories close to Spain, where costs are higher than in much of Asia. It has also bought much of its fabric plain, before choosing the colors.",
+        "Both choices cost money on every item. Both are the same bet: that the right to decide later is worth paying for."
+      ],
+      "image": {
+        "label": "Rolls of plain fabric next to a few dyed rolls",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 창고 선반에 흰색·회색 원단 롤이 가득하고, 옆에 몇 롤만 선명한 색으로 염색되어 있음. 위에 물음표가 떠 있는 달력. 실제 브랜드 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/thk-09-02-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Lock in cheap, or pay to wait?",
+      "illustrative": true,
+      "body": [
+        "You run an outdoor-clothing brand. For next winter, a distant factory offers $30 per jacket if you order all 10,000 now, colors fixed.",
+        "A nearby factory charges $36 but lets you order in batches and change colors with four weeks' notice. Next winter's trends are hard to call. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Order all 10,000 from the distant factory and save $60,000",
+            "verdict": "risky",
+            "feedback": "You save the most on paper. But if the colors miss, you're stuck with jackets you can only clear at a discount."
+          },
+          {
+            "key": "B",
+            "text": "Order 6,000 basics far away, and buy the rest nearby once early sales show what's selling",
+            "verdict": "best",
+            "feedback": "You pay the $6 premium only on the 4,000 jackets you're unsure about. That's $24,000 to avoid guessing on the risky part."
+          },
+          {
+            "key": "C",
+            "text": "Order everything from the nearby factory",
+            "verdict": "partial",
+            "feedback": "Maximum flexibility, but you pay $60,000 extra, including on black jackets you already knew would sell."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What Zara did",
+      "title": "Make a little, watch, then make more.",
+      "body": [
+        "Researchers who studied Zara reported that it commits only part of a season's production before the season starts. Stores report what customers buy and ask for. Nearby factories then make more of what's working, often within weeks.",
+        "Plain fabric works the same way. Color is often the hardest thing to predict, so Zara could wait and dye it once it knew.",
+        "Each item costs more to make. In return, Zara has to guess less and is left with less unsold stock to discount."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Optionality",
+      "body": [
+        "**Optionality** means having the right, but not the duty, to act later. You pay something now, such as a higher price, a fee or spare capacity, so you can choose after you learn more.",
+        "Zara isn't only buying clothes. It's buying the right to pick *which* clothes after customers show their hand. The word comes from finance, where an *option* is a paid right to buy or sell later."
+      ],
+      "image": {
+        "label": "A path splitting into three, with a small toll gate before the fork",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 한 갈래 길이 세 갈래로 나뉘기 직전에 작은 요금소가 있음. 요금소 위 라벨 \"Pay now\", 갈림길 위 라벨 \"Choose later\". 밝고 단순한 색감.",
+        "url": "assets/images/thk-09-02-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "When an option is worth its price",
+      "body": [
+        "Flexibility always costs something. It pays off when four things are true:"
+      ],
+      "list": [
+        "**The future is genuinely uncertain:** you can't call it today",
+        "**Being wrong is expensive:** unsold stock, a bad lease, a wasted build",
+        "**You'll learn before the option runs out:** early sales, a pilot, a first customer",
+        "**The premium is smaller than the mistake it prevents**"
+      ],
+      "callout": "If you already know the answer, flexibility is just an extra cost."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where else it shows up",
+      "title": "Small payments for big freedom",
+      "body": [
+        "A restaurant takes a two-year lease with the right to extend, instead of a ten-year lease at a lower rent. A factory builds with room for a second line it may never install. A firm hires contractors before committing to full-time roles.",
+        "Each pays a little more today so a wrong guess stays cheap."
+      ],
+      "softwareNote": "Software teams buy options too: paying on-demand cloud prices while usage is unpredictable, or keeping a feature behind a switch so it can be turned off without a rebuild."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "An option you never use is just a cost.",
+      "body": [
+        "Options expire, and every one has a price. Paying for flexibility you never use is waste.",
+        "Keeping every door open can also become a habit of never deciding. Teams that \"wait and see\" on everything move slowly and commit to nothing.",
+        "Zara's model works because it actually acts on what it learns, again and again through the season. The value of an option comes from the decision you make with it."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software company.",
+      "illustrative": true,
+      "body": [
+        "Your server usage has been steady for two years, growing slowly and predictably. Today you pay on-demand prices.",
+        "Your cloud provider offers a big discount, say 35%, if you commit to a fixed level of usage for three years. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Stay on demand. Flexibility is always worth keeping",
+            "verdict": "risky",
+            "feedback": "You're paying for an option you don't need. With usage this predictable, there's little left to learn by waiting."
+          },
+          {
+            "key": "B",
+            "text": "Commit to the level you're sure of, and keep any extra on demand",
+            "verdict": "best",
+            "feedback": "You take the discount on the certain part and pay for flexibility only on the uncertain part, just like the jacket split."
+          },
+          {
+            "key": "C",
+            "text": "Commit to three times today's usage for the deepest discount",
+            "verdict": "risky",
+            "feedback": "You lock in costs for growth you have no sign of. If it doesn't come, you pay for capacity you never use."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Pay to decide later only when later you'll know more.",
+      "body": [
+        "Commit cheaply to what you're sure of. Buy flexibility for the part you can't predict, and then use it.",
+        "**Try it today:** pick one big commitment coming up. Write down what you'd learn by waiting three months, and what waiting would cost."
+      ],
+      "next": "Next · The decision you'll regret not making"
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "id": "ECO-10-06",
+  "unitId": "ECO-10",
+  "categoryId": "ECO",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Repeated games and reputation",
+  "readerTitle": "Why medieval merchants could trust agents they never saw",
+  "format": "company_story",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "real_research",
+    "real_observation",
+    "illustrative"
+  ],
+  "caseNote": "실제 연구 (Greif의 마그레브 상인 연구, Axelrod의 반복 죄수의 딜레마 대회) + 실제 관찰 (eBay 평판 시스템) + 가상 적용 (수리 기사 고르기, 회사 안 팀 협업)",
+  "insight": "상대가 정직한 이유는 착해서가 아니라 미래의 거래가 남아 있고 다른 사람들이 지켜보기 때문이다. 신뢰를 만들려면 관계를 반복되게, 그리고 보이게 설계한다.",
+  "misconception": "사람을 믿을 수 있게 만드는 것은 계약서와 감시다. 한 번 손해 보더라도 정직하게 구는 건 순진한 선택이다.",
+  "relatedLessonIds": [
+    "ECO-10-02",
+    "ECO-10-08"
+  ],
+  "sources": [
+    {
+      "text": "Greif, A. (1989). Reputation and Coalitions in Medieval Trade: Evidence on the Maghribi Traders. Journal of Economic History, 49(4).",
+      "url": null
+    },
+    {
+      "text": "Greif, A. (1993). Contract Enforceability and Economic Institutions in Early Trade: The Maghribi Traders' Coalition. American Economic Review, 83(3).",
+      "url": null
+    },
+    {
+      "text": "Axelrod, R. (1984). The Evolution of Cooperation. Basic Books.",
+      "url": null
+    },
+    {
+      "text": "Edwards, J. & Ogilvie, S. (2012). Contract enforcement, institutions, and social capital: the Maghribi traders reappraised. Economic History Review.",
+      "url": null
+    },
+    {
+      "text": "eBay feedback forum, introduced in 1996 (Pierre Omidyar's founder letter)",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "마그레브 상인(11세기 지중해, 카이로 게니자 문서) 연합이 부정을 저지른 대리인을 집단으로 고용하지 않았다는 해석은 Greif의 것입니다. Edwards & Ogilvie(2012)는 법원 등 공식 제도도 쓰였다고 반박했습니다. 카드 3에 'historians still debate'로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Axelrod 대회: 1980년경 두 차례 컴퓨터 대회에서 Anatol Rapoport가 제출한 Tit for Tat가 모두 우승했다는 내용을 원문으로 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "eBay 피드백 제도의 도입 시기(1996년)를 게시 전에 확인하세요. 카드에는 수치를 넣지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "카드 5 계산(가상 수치): 정직한 거래 1회당 $100 × 앞으로 20회 = $2,000. 한 번 속여서 얻는 돈 $500. 2,000 > 500이므로 미래가 남아 있으면 정직이 이득. 마지막 거래에서는 잃을 미래가 $0이 되어 $500 > $0.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Economics · Company story",
+      "title": "Why medieval merchants could trust agents they never saw",
+      "body": [
+        "In the 11th century, merchants in Egypt shipped goods across the Mediterranean to agents in Sicily and beyond. The agent sold the cargo and sent back the money.",
+        "No phone. No police reaching that far. An agent could simply keep the money. Most didn't."
+      ],
+      "image": {
+        "label": "A merchant ship crossing the sea between two harbours, with letters passing between them",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 지중해를 건너는 작은 중세 상선, 양쪽 항구에 상인과 대리인이 서 있고 그 사이로 편지 여러 통이 날아다니는 모습. 실제 깃발이나 문장은 쓰지 않음.",
+        "url": "assets/images/eco-10-06-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which handyman will do the careful job?",
+      "illustrative": true,
+      "body": [
+        "Your bathroom needs retiling. Hidden shortcuts, like skipping waterproofing, won't show for a year. You have three quotes.",
+        "Who is most likely to do it properly?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The cheapest quote, from a crew working in town for one month",
+            "verdict": "risky",
+            "feedback": "You save money now, but they have little to lose. By the time the leak shows, they're gone."
+          },
+          {
+            "key": "B",
+            "text": "A local tiler who has done work for three neighbours in your building",
+            "verdict": "best",
+            "feedback": "Your neighbours are his next jobs. A shortcut on your floor could cost him the whole building. That's the idea in this lesson."
+          },
+          {
+            "key": "C",
+            "text": "Anyone, as long as you sign a detailed contract with a guarantee",
+            "verdict": "partial",
+            "feedback": "A contract helps, but enforcing it costs time and money. It works best alongside someone who wants your future business."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "Cheat one merchant, lose them all.",
+      "body": [
+        "Economist Avner Greif studied letters these traders left behind. He found they worked as a loose group. They shared news about agents in their letters.",
+        "If an agent cheated one merchant, the whole group could stop hiring him. One stolen cargo could cost a lifetime of work.",
+        "Historians still debate how much this mattered next to courts. But the logic is clear: honesty paid because the future was worth more than one theft."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Repeated games and reputation",
+      "body": [
+        "In a **repeated game**, the same players meet again and again. Cheating today wins once, then costs every future deal. Economists call this the *shadow of the future*.",
+        "**Reputation** stretches the game further. When others can see how you behaved, cheating one partner costs you deals with all of them.",
+        "So cooperation doesn't need saints. It needs a future and an audience."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "breakdown",
+      "eyebrow": "The agent's math",
+      "title": "Keep the cargo, or keep the career?",
+      "illustrative": true,
+      "body": [
+        "Twenty future trips outweigh one theft. But notice the last line: on the final trip, nothing is left to lose."
+      ],
+      "breakdown": [
+        {
+          "value": "+$500",
+          "label": "Cheat once",
+          "detail": "Keep one cargo's money",
+          "highlight": false
+        },
+        {
+          "value": "$100",
+          "label": "Each honest trip",
+          "detail": "What an agent earns per job",
+          "highlight": false
+        },
+        {
+          "value": "−$2,000",
+          "label": "Future lost",
+          "detail": "20 trips no one will give him",
+          "highlight": true
+        },
+        {
+          "value": "$0",
+          "label": "Last trip",
+          "detail": "No future left to lose",
+          "highlight": false
+        }
+      ],
+      "softwareNote": "eBay faced the same problem with strangers who would trade once. Its feedback scores, introduced in 1996, made each sale visible to every future buyer. A one-off sale became part of a repeated game."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "The simple strategy that kept winning.",
+      "body": [
+        "Around 1980, political scientist Robert Axelrod ran computer tournaments. Programs played a repeated prisoner's dilemma against each other, many rounds each.",
+        "The winner was the simplest entry, called *Tit for Tat*: cooperate first, then copy whatever the other player did last.",
+        "It was **nice** (never cheated first), quick to punish cheating, and quick to forgive. In long games, that pattern earned trust and avoided being exploited."
+      ],
+      "image": {
+        "label": "Two players trading moves round after round, mostly cooperating",
+        "aspectRatio": "16:9",
+        "brief": "두 캐릭터가 여러 라운드에 걸쳐 카드를 주고받는 인포그래픽. 대부분 초록색 '협력' 카드, 한 번 빨간 '배신' 카드가 나오자 상대도 다음 라운드에 빨간 카드, 그 다음엔 다시 초록으로 돌아옴.",
+        "url": "assets/images/eco-10-06-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Reputation fails when the game ends or no one sees.",
+      "body": [
+        "When everyone knows it's the last round, the shadow of the future disappears. Watch for an employee about to leave, a supplier about to close, or a business being sold.",
+        "Reputation also needs an audience. If bad behaviour stays hidden, it costs nothing.",
+        "And trust is slow to build but quick to lose. One visible shortcut can undo years of good work."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's two teams in one company.",
+      "illustrative": true,
+      "body": [
+        "You lead the analytics team. The product team needs two of your people for a week to rescue a launch. Helping puts your own quarterly target at risk.",
+        "You'll work with the product team for years, and team leads talk. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Decline politely. Your target is what you're measured on",
+            "verdict": "risky",
+            "feedback": "You protect this quarter, but the product team and its friends will remember who didn't help. Future requests from you get slower answers."
+          },
+          {
+            "key": "B",
+            "text": "Help, say clearly what it costs you, and ask for their support next time you need it",
+            "verdict": "best",
+            "feedback": "You cooperate first and make it visible, so it builds reputation. Naming the favour sets up reciprocity, like Tit for Tat."
+          },
+          {
+            "key": "C",
+            "text": "Help quietly and never mention it",
+            "verdict": "partial",
+            "feedback": "Generous, and it may build goodwill. But if no one sees it, and nothing is expected back, you risk becoming the team everyone leans on."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "People keep promises when the future is worth more than the shortcut.",
+      "body": [
+        "To get trust, make the relationship long and the behaviour visible. To judge risk, ask who has a future with you and who doesn't.",
+        "**Try it today:** list one partner, supplier or colleague whose game with you is ending soon. What would you check more carefully now?"
+      ],
+      "next": "Next · Two coffee shops and a price war"
+    }
+  ]
+}

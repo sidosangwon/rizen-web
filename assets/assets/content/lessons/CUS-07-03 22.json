@@ -1,0 +1,208 @@
+{
+  "id": "CUS-07-03",
+  "unitId": "CUS-07",
+  "categoryId": "CUS",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "Saying no to features",
+  "readerTitle": "The restaurant that said yes to every customer",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (동네 식당, 비스트로, 프로젝트 관리 소프트웨어) · 실제 기업이나 연구 수치는 쓰지 않음",
+  "insight": "기능 요청은 만들어 달라는 설계도가 아니라 문제가 있다는 신호다. 기능에는 '아니요'라고 하되, 그 뒤의 문제에는 '예'라고 답할 수 있다.",
+  "misconception": "고객이 원하는 것을 다 들어주는 것이 고객 중심이다. 거절하면 고객을 잃는다.",
+  "relatedLessonIds": [
+    "CUS-07-02",
+    "CUS-07-04"
+  ],
+  "sources": [
+    {
+      "text": "제품 관리와 운영의 일반 원리 (추가 기능의 유지 비용과 복잡성)",
+      "url": null
+    },
+    {
+      "text": "모든 사례와 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 사례(식당, 비스트로, 에이전시용 소프트웨어)는 가상입니다. 메뉴 1쪽→6쪽, 좌석 40석, 점심 20분, 매출 15% 등은 설명용 수치이며 계산이 필요한 부분은 없습니다.",
+      "status": "open"
+    },
+    {
+      "note": "실제 기업 사례(예: 메뉴가 짧은 패스트푸드 체인)를 넣고 싶다면 1차 출처로 메뉴 구성과 변화 이력을 확인한 뒤 추가하세요. 현재 본문에는 실제 기업 사실이 없습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Counterexample",
+      "title": "The restaurant that said yes to every customer",
+      "illustrative": true,
+      "body": [
+        "A small diner had a one-page menu and a line out the door. Then the owner started saying yes. A regular wanted a vegan wrap. Another wanted fish tacos. A family asked for kids' pancakes after noon.",
+        "Three years later the menu ran to six pages. Food came out slower, more of it went in the bin, and the line was gone. Every single yes had made a customer happy."
+      ],
+      "image": {
+        "label": "A one-page menu next to a thick six-page menu",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 일러스트. 왼쪽에 한 장짜리 깔끔한 메뉴판, 오른쪽에 여섯 장으로 두꺼워져 테이프로 덧붙인 메뉴판. 배경에 바쁜 주방과 쌓인 주문표. 실제 브랜드 로고 없음.",
+        "url": "assets/images/cus-07-03-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Your best regulars want two new dishes.",
+      "illustrative": true,
+      "body": [
+        "You run a 40-seat bistro known for a short lunch menu and getting office workers out in 20 minutes. A group of eight regulars asks you to add a gluten-free pasta and a vegan bowl.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Add both dishes permanently. They're loyal and they asked nicely",
+            "verdict": "risky",
+            "feedback": "You keep this group happy today, but you take on new ingredients, prep and waste forever, and every other lunch gets a little slower."
+          },
+          {
+            "key": "B",
+            "text": "Politely say no. The menu is the menu",
+            "verdict": "partial",
+            "feedback": "You protect your speed, but you learn nothing about what they need and may lose a table of eight."
+          },
+          {
+            "key": "C",
+            "text": "Ask what they're trying to eat, then offer a swap on dishes you already make",
+            "verdict": "best",
+            "feedback": "You solve their problem, perhaps with a gluten-free base or a plant-based version of an existing dish, without adding a new station to the kitchen."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What went wrong",
+      "title": "Each yes looked free. None of them were.",
+      "illustrative": true,
+      "body": [
+        "Back at the diner, each new dish brought its own ingredients, prep and storage space. Staff had more to learn, so new hires took longer to train. Rarely ordered items spoiled.",
+        "The cooks now juggled dozens of dishes instead of twelve. The classic breakfast that built the diner's name got slower and less consistent.",
+        "The owner never decided to become a worse restaurant. It happened one reasonable yes at a time."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Saying no to features",
+      "body": [
+        "**Saying no** means turning down a request for a new feature, dish or service, even a good one, because of what it costs to keep.",
+        "The cost isn't only building it. You pay for upkeep forever, and everyone else pays in complexity and slower service.",
+        "The key shift: a request tells you a customer has a **problem**. It doesn't tell you the right solution. You can say no to the feature and still say yes to the problem."
+      ],
+      "image": {
+        "label": "A request card splitting into 'problem' and 'solution'",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 손님의 요청 카드 \"Add a vegan bowl\"이 둘로 나뉨. 위쪽 \"The problem: I need a plant-based lunch\"는 밝게, 아래쪽 \"One possible solution\"은 흐리게. 옆에 여러 대안 화살표.",
+        "url": "assets/images/cus-07-03-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Three questions before you say yes.",
+      "body": [
+        "A good no starts with good questions."
+      ],
+      "list": [
+        "**Who is asking?** Are they the customers your business is built for, or a different group?",
+        "**What's the real problem?** Ask why until you reach the need behind the request.",
+        "**What does it cost to keep?** Count the upkeep, training and slowdown, not just the launch."
+      ],
+      "callout": "If an existing option can solve the problem, that's usually the cheapest yes."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond the kitchen",
+      "title": "Ways to say yes to the problem.",
+      "body": [
+        "A no doesn't have to end the conversation. You can point to something you already offer that does the job. You can handle it by hand for a while and see how many people really need it. You can recommend a partner who does it well.",
+        "Each path keeps your core simple while the customer still leaves with an answer. And if the same need keeps coming back, you now have evidence instead of a single request."
+      ],
+      "softwareNote": "In software, the cost of yes is code that must be tested, supported and kept working with every future change. A setting used by one customer still has to survive every update."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "No can become a bad habit.",
+      "body": [
+        "Saying no protects focus, but it can also hide stubbornness. If many of your core customers ask for the same thing, that's a signal your offer has a real gap.",
+        "Some things are simply expected. A restaurant with no option for common allergies may lose whole groups, not just one diner.",
+        "And how you say no matters. A curt refusal feels like you don't care. A no with a reason and an alternative often builds trust."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software product.",
+      "illustrative": true,
+      "body": [
+        "You sell project management software to small design agencies. Your biggest customer, about 15% of revenue, asks you to build full invoicing into the app. Nobody else has asked.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Build invoicing. This customer is too important to refuse",
+            "verdict": "risky",
+            "feedback": "You keep one big account happy, but invoicing is a whole product with taxes and payments to maintain, and it pulls your team away from what every other user needs."
+          },
+          {
+            "key": "B",
+            "text": "Find out why. If they need to bill tracked hours, offer an export to the accounting tools they already use",
+            "verdict": "best",
+            "feedback": "You solve the real problem at a fraction of the cost, and an export may help other agencies too."
+          },
+          {
+            "key": "C",
+            "text": "Say no and point them to a competitor that has invoicing",
+            "verdict": "partial",
+            "feedback": "Honest and focused, but you skip the cheap ways to help and risk losing 15% of your revenue."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Say no to the feature, yes to the problem.",
+      "body": [
+        "Every yes is paid for forever, by you and by every other customer. Treat requests as clues to a problem, then find the cheapest way to solve it.",
+        "**Try it today:** pick the last request you added or almost added. Write down the problem behind it, and one way you could have solved it with what you already have."
+      ],
+      "next": "Next · How products get bloated one small yes at a time"
+    }
+  ]
+}

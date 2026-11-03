@@ -1,0 +1,251 @@
+{
+  "id": "THK-02-10",
+  "unitId": "THK-02",
+  "categoryId": "THK",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Keep funding a failing project?",
+  "readerTitle": "The warehouse project that kept asking for one more check",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.5,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 시뮬레이션 (원예·생활용품 소매 체인의 물류창고 자동화 프로젝트) + 실제 연구 (Staw, 1976 몰입 상승) · 모든 수치는 설명용",
+  "insight": "실패하는 프로젝트를 계속할지는 한 번의 결정이 아니라 매몰비용, 확증, 계획 오류, 현상 유지라는 네 번의 작은 함정을 차례로 넘는 일이며, 각 단계에서 질문 하나씩만 바꾸면 된다.",
+  "misconception": "이미 큰돈을 쓴 프로젝트는 끝까지 가야 본전을 찾는다. 또는 예산을 넘긴 프로젝트는 즉시 접어야 한다.",
+  "relatedLessonIds": [
+    "THK-02-05",
+    "THK-02-04"
+  ],
+  "sources": [
+    {
+      "text": "Staw, B. M. (1976). Knee-deep in the big muddy: A study of escalating commitment to a chosen course of action. Organizational Behavior and Human Performance, 16(1), 27–44.",
+      "url": null
+    },
+    {
+      "text": "시뮬레이션의 회사, 프로젝트, 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "계산 확인: 일정 지연 비율 14 ÷ 8 = 1.75배. 업체 추정 4개월 × 1.75 = 7개월. 박스 상품 70% 처리 시 절감액 $250,000 × 0.7 = $175,000/년. 나머지 30% 완성 시 추가 절감 $75,000/년. 추가 비용 약 $500,000 ÷ $75,000 = 약 6.7년(카드에는 'about seven years'). 추가 비용 $500,000은 원래 요청 $300,000이 일정과 함께 늘어난다는 가정의 대략치($300,000 × 1.75 ≈ $525,000)입니다.",
+      "status": "open"
+    },
+    {
+      "note": "Staw(1976) 연구 요약 확인 필요: 처음 투자 결정을 직접 내렸고 결과가 나빴던 참가자가 그렇지 않은 참가자보다 같은 부서에 추가 자금을 더 많이 배정했다는 내용. 카드 6에 이 수준으로만 서술했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "'escalation of commitment(몰입 상승)'라는 용어가 Staw의 연구 흐름에서 쓰이는 표준 용어인지 게시 전 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Simulation",
+      "title": "Fourteen months, $900,000, and one more request.",
+      "illustrative": true,
+      "body": [
+        "You run a chain of 12 home and garden stores. A year ago you approved an automated picking system for your warehouse: $600,000, eight months, and about $250,000 a year saved on labor.",
+        "It's now month 14. You've spent $900,000. The system still isn't running. This morning the vendor asked for $300,000 more.",
+        "Four decisions follow. Make each one before you read on."
+      ],
+      "image": {
+        "label": "Half-built robotic shelving in a warehouse with a large invoice",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 반쯤 완성된 자동 피킹 선반과 로봇 팔이 있는 창고, 바닥에 길게 늘어진 청구서 두루마리. 한쪽에서는 직원들이 손수레로 여전히 수작업 피킹 중. 실제 기업 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/thk-02-10-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 4",
+      "title": "Do you sign the next check?",
+      "illustrative": true,
+      "body": [
+        "If the system works, it saves $250,000 a year. Your finance lead says, \"We're in too deep to stop now.\"",
+        "What should drive your decision?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The $900,000 already spent. Finishing is the only way to get it back",
+            "verdict": "risky",
+            "feedback": "That money is gone whether you continue or stop. Letting it decide means you keep paying to protect a loss you can't undo."
+          },
+          {
+            "key": "B",
+            "text": "Only the future: what the next dollars cost against what they bring back",
+            "verdict": "best",
+            "feedback": "This puts every option on equal footing. You may still continue, but for a reason that holds up."
+          },
+          {
+            "key": "C",
+            "text": "The overrun itself. It's 50% over budget, so stop",
+            "verdict": "partial",
+            "feedback": "Quick and decisive, but the past overrun isn't the reason to stop either. A late project can still be worth finishing."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 4",
+      "title": "Say you chose to judge the future. Then good news arrives.",
+      "illustrative": true,
+      "body": [
+        "Your project lead reports that in testing, the system picked 98% of orders correctly.",
+        "Then you notice the test used only your 50 best-selling items, during a quiet week in February. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Accept the result. 98% is strong",
+            "verdict": "risky",
+            "feedback": "It's the answer everyone hoped for, which is exactly why it deserves a hard look. An easy test can't tell you how the system handles a real spring rush."
+          },
+          {
+            "key": "B",
+            "text": "Run a test that could fail: full catalog, peak-day volume, and agree beforehand what result means stop",
+            "verdict": "best",
+            "feedback": "You look for evidence that could prove you wrong. Setting the stop line first keeps anyone from moving it later."
+          },
+          {
+            "key": "C",
+            "text": "Pay an outside consultant to review the report",
+            "verdict": "partial",
+            "feedback": "A fresh eye helps, but reviewing a weak test doesn't make it a strong one. You still need new evidence."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 4",
+      "title": "Say you ran the hard test. It half works.",
+      "illustrative": true,
+      "body": [
+        "Boxed goods go through smoothly. Odd shapes jam the system: hoses, bagged soil, rolled rugs. Those are 30% of orders.",
+        "The vendor says a fix takes four more months. Their first estimate was eight months. It's been fourteen. How long do you plan for?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Four months. They know their system best",
+            "verdict": "risky",
+            "feedback": "They do, and they've been optimistic every time. An estimate built only from the plan ignores the track record."
+          },
+          {
+            "key": "B",
+            "text": "About seven. Their last estimate ran 75% long, so assume this one might too",
+            "verdict": "best",
+            "feedback": "You plan from what actually happened, not what was promised. Fourteen ÷ eight is 1.75, and four months × 1.75 is seven."
+          },
+          {
+            "key": "C",
+            "text": "Four, but with a penalty in the contract if they're late",
+            "verdict": "partial",
+            "feedback": "Penalties sharpen the vendor's focus and recover some money. They don't make a hard engineering problem finish sooner."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 4 of 4",
+      "title": "Say you planned for seven months. Now the final call.",
+      "illustrative": true,
+      "body": [
+        "At that pace, the fix would likely cost around $500,000. Right now the system can already handle boxed orders, about 70% of the work. That alone saves about $175,000 a year.",
+        "Finishing the odd shapes would add, at best, $75,000 a year more."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Finish the full system. Half a solution feels like failure",
+            "verdict": "risky",
+            "feedback": "You'd spend about $500,000 to earn $75,000 a year, roughly seven years to pay back, on a vendor who has missed every date."
+          },
+          {
+            "key": "B",
+            "text": "Run it on boxed goods now, keep manual picking for odd shapes, stop extra spending",
+            "verdict": "best",
+            "feedback": "You start collecting $175,000 a year immediately and cap your risk. Stopping part of a project is a decision, not a defeat."
+          },
+          {
+            "key": "C",
+            "text": "Keep things as they are and revisit next quarter",
+            "verdict": "risky",
+            "feedback": "It feels safe, but waiting is also a choice. The system sits idle, the vendor keeps billing, and the same question returns with a bigger bill."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The pattern",
+      "title": "Four small traps, one big drift.",
+      "body": [
+        "Projects rarely fail in one bad decision. They drift through a series of reasonable-sounding ones. Researchers call this **escalation of commitment**: putting more into a course of action because you're already committed to it.",
+        "In a 1976 study, Barry Staw found that people who had made an original investment decision, and saw it go badly, put more new money into it than people who hadn't made that first call.",
+        "Being the one who said yes makes stopping feel personal."
+      ],
+      "image": {
+        "label": "A staircase going down, each step labeled with one bias",
+        "aspectRatio": "16:9",
+        "brief": "계단이 아래로 이어지는 인포그래픽. 계단 네 칸에 각각 \"Money already spent\", \"Only good news\", \"Trusting the plan\", \"Wait and see\" 라벨. 계단 아래로 갈수록 동전 더미가 작아짐. 각 칸 옆에 작은 출구 문이 열려 있음.",
+        "url": "assets/images/thk-02-10-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Not every late project should die.",
+      "body": [
+        "Some projects are late, over budget and still worth finishing. The test is always the same: does the remaining cost buy enough future value? Sometimes it clearly does.",
+        "Stopping has real costs too: contract penalties, staff who feel their work was wasted, and suppliers who trust you less. Count them honestly.",
+        "The easiest time to set a stop rule is at the start, before anyone's pride is invested."
+      ],
+      "softwareNote": "A half-finished rewrite of an app works the same way. The months already spent don't count. Ask what the remaining work buys, and whether a smaller release would deliver most of the value now."
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "At each step, ask about the future, not the past.",
+      "body": [
+        "Each decision in this story tested one bias from this unit:"
+      ],
+      "list": [
+        "**Decision 1 · Sunk cost fallacy:** money already spent shouldn't decide the next dollar",
+        "**Decision 2 · Confirmation bias:** run the test that could prove you wrong",
+        "**Decision 3 · Planning fallacy:** plan from the track record, not the promise",
+        "**Decision 4 · Status quo bias:** waiting is a choice with its own costs"
+      ],
+      "callout": "**Try it today:** pick one project you're funding. Write down what result, by what date, would make you stop.",
+      "next": "Next · Why a room full of smart people agrees too fast"
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "id": "FIN-05-10",
+  "unitId": "FIN-05",
+  "categoryId": "FIN",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Plan a year with uncertain sales",
+  "readerTitle": "Plan a year when you can't predict your sales",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.3,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (B2B 디자인 에이전시와 대형 유통사 안의 마케팅팀 고객) · 모든 수치는 설명용",
+  "insight": "불확실한 해의 계획은 숫자 하나를 맞히는 일이 아니라, 경우마다 할 일과 그 신호를 미리 정해 두고 실제 숫자를 보며 고쳐 가는 일이다.",
+  "misconception": "매출을 예측할 수 없으면 계획을 세워도 소용없다. 계획은 정확한 숫자 하나를 맞혀야 의미가 있다.",
+  "relatedLessonIds": [
+    "FIN-05-03",
+    "FIN-05-05"
+  ],
+  "sources": [
+    {
+      "text": "관리회계·재무계획의 표준 개념 (시나리오 계획, 계획 대비 실적, 롤링 포캐스트, 인력 계획)",
+      "url": null
+    },
+    {
+      "text": "모든 기업명과 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 설명용 가상 수치입니다. 시나리오: 작년 매출 $2.4M, 최대 고객 비중 30% = $720k. 이 고객이 지출을 절반으로 줄이면 $2.4M − $360k = $2.04M(카드에는 약 $2.0M). 기본 $2.5M, 높음 $3.0M. 현재 팀 비용 연 $2.2M이므로 낮은 경우 약 $200k 적자.",
+      "status": "open"
+    },
+    {
+      "note": "채용: 디자이너 2명 × 연 약 $100k = $200k 추가. 낮은 경우 비용 $2.4M vs 매출 $2.0M → 약 $400k 적자.",
+      "status": "open"
+    },
+    {
+      "note": "1분기: 계획 $2.5M ÷ 4 = $625k. 유통사 고객 분기 계획 $180k($720k ÷ 4), 실제 $95k. 나머지 고객 계획대로 $445k. 실적 $445k + $95k = $540k. 부족분 $85k, 계획 대비 13.6%(약 14%) 미달.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Simulation",
+      "title": "Plan a year when you can't predict your sales",
+      "illustrative": true,
+      "body": [
+        "Maya runs Northline, a 14-person design agency that works for other businesses. Last year it billed $2.4M.",
+        "Nearly a third came from one client: the in-house marketing team of a large home-goods retailer. That team just told her its parent company is reviewing every budget. Maya has to plan next year anyway. You'll make her four big calls."
+      ],
+      "image": {
+        "label": "Agency owner looking at a calendar full of question marks",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 작은 디자인 스튜디오 책상에 앉은 대표가 12개월 달력을 보고 있고, 달력 칸마다 물음표. 한쪽에 큰 고객사 건물 모형이 그림자처럼 드리움. 실제 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/fin-05-10-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 · The plan",
+      "title": "What kind of plan do you write?",
+      "illustrative": true,
+      "body": [
+        "Your current team and rent cost about $2.2M a year. The big client might renew, cut back, or grow. Two new clients are also talking to you."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "One best-guess number, $2.5M, and plan around it",
+            "verdict": "risky",
+            "feedback": "Simple to share, but it says nothing about what to do if the big client cuts back. You'd be making that call in a panic later."
+          },
+          {
+            "key": "B",
+            "text": "Three cases, low, base and high, each with actions and the signal that triggers them",
+            "verdict": "best",
+            "feedback": "More work up front. In return, the hard decisions get made calmly now, not in a rush mid-year."
+          },
+          {
+            "key": "C",
+            "text": "Wait until the client's budget review ends, then plan",
+            "verdict": "partial",
+            "feedback": "You'd plan with better facts, but you'd spend months hiring, spending and pricing with no plan at all."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "Say you chose three cases",
+      "title": "Each case comes with a trigger and a move.",
+      "illustrative": true,
+      "body": [
+        "The low case is the one that matters most. It runs about **$200k below** what the current team costs, so Maya knows ahead of time what she'd cut."
+      ],
+      "breakdown": [
+        {
+          "value": "~$2.0M",
+          "label": "Low",
+          "detail": "Big client halves its spend. Freeze hiring, cut freelancers.",
+          "highlight": true
+        },
+        {
+          "value": "$2.5M",
+          "label": "Base",
+          "detail": "Current clients renew. Run the plan as written.",
+          "highlight": false
+        },
+        {
+          "value": "$3.0M",
+          "label": "High",
+          "detail": "Two new clients sign. Add designers.",
+          "highlight": false
+        }
+      ],
+      "softwareNote": "In a subscription software business, the low case is often a list: which accounts renew this year, and on what dates. Each renewal date is a natural trigger to check."
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 2 · People",
+      "title": "The high case needs two more designers.",
+      "illustrative": true,
+      "body": [
+        "Each designer adds about $100k a year in cost. Good designers take two months to find. When do you hire?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Hire both now so you're ready for growth",
+            "verdict": "risky",
+            "feedback": "Ready for the high case, but in the low case costs hit $2.4M against $2.0M in sales. Salaries are the hardest cost to undo."
+          },
+          {
+            "key": "B",
+            "text": "Use freelancers now; hire one permanent designer when the first new client signs",
+            "verdict": "best",
+            "feedback": "Freelancers cost more per hour but can stop any month. Each hire is tied to signed work, not hope."
+          },
+          {
+            "key": "C",
+            "text": "Hire no one this year, whatever happens",
+            "verdict": "partial",
+            "feedback": "Safe on cost. But if both clients sign, an overloaded team misses deadlines and you may lose the new work."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 3 · First quarter",
+      "title": "Sales came in 14% below plan.",
+      "illustrative": true,
+      "body": [
+        "Say you chose freelancers. The quarter's plan was $625k; actual sales were $540k. The whole gap is the big client: its team paused two projects while head office reviews spending. Every other client is on plan. What now?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Hold steady. It's one quarter",
+            "verdict": "partial",
+            "feedback": "Avoids overreacting, but you ignore a clear signal. If the pause becomes a cut, you've lost three months to prepare."
+          },
+          {
+            "key": "B",
+            "text": "Switch to the low case right away: cut freelancers and all events",
+            "verdict": "risky",
+            "feedback": "Protects cash, but you'd shrink the whole business over one client's pause and risk the healthy accounts."
+          },
+          {
+            "key": "C",
+            "text": "Ask the client team when their budget is set, and lower the forecast for that client only",
+            "verdict": "best",
+            "feedback": "The gap has one cause, so the fix targets that cause. You also learn the date that decides your low case."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Decision 4 · Mid-year",
+      "title": "The client's new budget is in.",
+      "illustrative": true,
+      "body": [
+        "Say you asked. The retailer's team got a fixed budget from head office: half its usual agency spend until year end. Meanwhile, one new client signed. Your January plan no longer matches reality. How do you plan from here?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep steering by the January plan",
+            "verdict": "risky",
+            "feedback": "Easy, but every decision now rests on numbers you know are wrong."
+          },
+          {
+            "key": "B",
+            "text": "Throw out the January plan and write a new one",
+            "verdict": "partial",
+            "feedback": "Current numbers, but you lose the record of what you expected, so you can't learn why you missed."
+          },
+          {
+            "key": "C",
+            "text": "Keep January as the yardstick, and each quarter forecast the next 12 months",
+            "verdict": "best",
+            "feedback": "You keep score honestly and steer with fresh numbers. The 12-month view also covers the client's next budget cycle."
+          }
+        ],
+        "afterReveal": null
+      },
+      "callout": "Your client's budget calendar is part of your forecast. Pitch before their year is set, not after."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Scenarios and updates have costs too.",
+      "body": [
+        "Three cases only help if each has a clear trigger and action. Ten cases with no triggers is just worry in a spreadsheet.",
+        "Frequent updates can also become excuses. If the forecast always moves to match results, nobody ever misses. That's why the original plan stays as the yardstick.",
+        "And triggers work only if someone checks them on a schedule, not when it feels urgent."
+      ],
+      "image": {
+        "label": "Three signposts at a fork, each with a small flag",
+        "aspectRatio": "16:9",
+        "brief": "갈림길에 표지판 세 개 \"Low\", \"Base\", \"High\". 각 표지판 옆에 작은 깃발(신호)과 도구 상자(할 일)가 놓여 있음. 차분한 파스텔 톤. 로고 없음.",
+        "url": "assets/images/fin-05-10-c7.jpg"
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Decide in advance, then update on schedule.",
+      "body": [
+        "You can't predict an uncertain year. You can decide now what you'll do in each case, and check the real numbers often enough to switch in time.",
+        "**Try it today:** write your low case for next quarter in one line: what sales would be, the signal you'd see first, and the first cost you'd cut."
+      ],
+      "list": [
+        "**Decision 1:** three cases with triggers = *scenario planning*",
+        "**Decision 2:** hires tied to signed work = *planning headcount*",
+        "**Decision 3:** find the cause of the gap = *plan vs actual*",
+        "**Decision 4:** fixed yardstick plus fresh outlook = *rolling forecasts*"
+      ],
+      "next": "Next · Why $100 today beats $100 next year"
+    }
+  ]
+}

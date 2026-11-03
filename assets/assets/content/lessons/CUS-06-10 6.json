@@ -1,0 +1,271 @@
+{
+  "id": "CUS-06-10",
+  "unitId": "CUS-06",
+  "categoryId": "CUS",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Cut churn in half",
+  "readerTitle": "Half as many customers walking out: a year in four decisions",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션: 식품 운송용 온도 기록기 제조사 + 모니터링 앱 월 구독 · 모든 수치는 설명용",
+  "insight": "이탈률은 하나의 숫자가 아니라 여러 이유가 섞인 결과다. 누가, 언제, 왜 떠나는지 쪼개 보면 이유마다 다른 처방이 보인다.",
+  "misconception": "이탈을 반으로 줄이려면 할인이나 장기 계약처럼 모든 고객에게 한 번에 쓰는 큰 수단이 필요하다.",
+  "relatedLessonIds": [
+    "CUS-06-03",
+    "CUS-06-04"
+  ],
+  "sources": [
+    {
+      "text": "모든 기업, 고객, 수치는 설명용 가상 예시",
+      "url": null
+    },
+    {
+      "text": "유닛 CUS-06의 개념(코호트, 자연 사용 빈도, 서비스 회복 역설, 만족과 충성의 차이)을 적용한 시뮬레이션",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "월 이탈률 4%일 때 1년 유지율: 0.96^12 ≈ 0.613, 약 61명/100명. 월 2.1%일 때: 0.979^12 ≈ 0.775, 약 77명/100명. 카드 6 계산을 다시 확인해 주세요.",
+      "status": "open"
+    },
+    {
+      "note": "카드 6 분해: 4.0% − 1.2%p(계절 고객 일시정지) − 0.4%p(빠른 장애 대응) − 0.3%p(사용 감소 조기 연락) = 2.1%. 모두 가상 수치입니다.",
+      "status": "open"
+    },
+    {
+      "note": "서비스 회복 역설은 연구 결과가 엇갈립니다(CUS-06-05 참고). 카드 4와 7에서 '드물고 빠르게 처리될 때만'이라는 조건으로 표현했는지 확인해 주세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Simulation",
+      "title": "Half as many customers walking out: a year in four decisions",
+      "illustrative": true,
+      "body": [
+        "You run a small company that makes temperature loggers for chilled food shipments. Customers drop a logger into each truck and pay $39 a month for the app that tracks it.",
+        "Every month, 4 of every 100 customers cancel. Your board wants that cut in half this year. You have four decisions to make."
+      ],
+      "image": {
+        "label": "A small temperature logger on a pallet of chilled boxes in a truck",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 냉장 트럭 안 팔레트 위에 작은 온도 기록기가 놓여 있고, 옆에 휴대폰 앱 화면에 온도 그래프가 떠 있음. 트럭 문 밖으로 고객 아이콘 몇 개가 걸어 나가는 모습. 실제 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 4",
+      "title": "Where do you start?",
+      "illustrative": true,
+      "body": [
+        "You have 400 customers: food distributors, dairies and fruit growers. You know how many leave each month, but not who or why."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Offer 20% off to anyone who tries to cancel",
+            "verdict": "risky",
+            "feedback": "You save a few accounts but learn nothing about why they left. Customers soon learn that threatening to cancel gets a discount."
+          },
+          {
+            "key": "B",
+            "text": "Group customers by start month and type, then see who leaves and when",
+            "verdict": "best",
+            "feedback": "A clear pattern appears. Most cancellations come in October, almost all from fruit growers."
+          },
+          {
+            "key": "C",
+            "text": "Send a satisfaction survey to every customer",
+            "verdict": "partial",
+            "feedback": "You get opinions, mostly from happy customers. The people about to leave rarely answer."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 4",
+      "title": "The growers only ship in summer.",
+      "illustrative": true,
+      "body": [
+        "Say you grouped your customers. Growers ship fruit from June to September. They pay all year, cancel in October, and many sign up again in June, paying the setup fee twice.",
+        "What do you offer them?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Require 12-month contracts for new customers",
+            "verdict": "risky",
+            "feedback": "Churn drops on paper, but growers feel trapped paying for months they don't ship. Fewer of them sign up at all."
+          },
+          {
+            "key": "B",
+            "text": "A $5 off-season pause that keeps their loggers and data, with a one-tap restart",
+            "verdict": "best",
+            "feedback": "Growers stop cancelling and come back in June without the setup fee. Your plan now matches how often they need you."
+          },
+          {
+            "key": "C",
+            "text": "Add winter features so growers keep using the app",
+            "verdict": "partial",
+            "feedback": "Costly to build, and it fights reality. Nobody ships cold fruit in January."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 4",
+      "title": "A bad batch ships.",
+      "illustrative": true,
+      "body": [
+        "Say you launched the pause. In July, a batch of loggers goes out with a software bug that sends false temperature alarms. One dairy's truckload is held at a warehouse for six hours."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Fix the bug quietly in the next update",
+            "verdict": "risky",
+            "feedback": "Cheap today. But the dairy remembers the six hours, and silence looks like you didn't notice or didn't care."
+          },
+          {
+            "key": "B",
+            "text": "Call each affected customer within a day, replace the loggers and credit a month",
+            "verdict": "best",
+            "feedback": "It costs a few thousand dollars. The dairy's manager later tells peers how fast you fixed it, and none of the affected customers leave."
+          },
+          {
+            "key": "C",
+            "text": "Email an apology to all customers",
+            "verdict": "partial",
+            "feedback": "Honest, but slow and generic. The dairy needed a phone call, and unaffected customers now worry about a problem they never had."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 4 of 4",
+      "title": "88% say they're satisfied.",
+      "illustrative": true,
+      "body": [
+        "Say you handled the bad batch well. Your autumn survey says 88% of customers are satisfied. Yet a few customers who rated you highly still left last quarter."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Set a new goal: 95% satisfied",
+            "verdict": "risky",
+            "feedback": "You'd chase a number that didn't predict who left. Satisfied customers still switch when a cheaper option shows up."
+          },
+          {
+            "key": "B",
+            "text": "Flag accounts whose loggers haven't reported in three weeks, and call them",
+            "verdict": "best",
+            "feedback": "Falling use shows up weeks before a cancellation. Your team catches customers who changed routes or lost a driver, while there's still time to help."
+          },
+          {
+            "key": "C",
+            "text": "Interview every customer who cancels",
+            "verdict": "partial",
+            "feedback": "You learn useful reasons, but only after the customer is already gone."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "breakdown",
+      "eyebrow": "One year later",
+      "title": "Where the churn went.",
+      "illustrative": true,
+      "body": [
+        "No single move halved churn. Each fix matched one reason customers left. At 4% a month, about 61 of every 100 customers stay a full year. At 2.1%, about 77 do."
+      ],
+      "breakdown": [
+        {
+          "value": "4.0%",
+          "label": "Monthly churn before",
+          "detail": "One average hiding several reasons",
+          "highlight": false
+        },
+        {
+          "value": "−1.2 pts",
+          "label": "Seasonal pause",
+          "detail": "Growers pause instead of cancelling",
+          "highlight": false
+        },
+        {
+          "value": "−0.4 pts",
+          "label": "Fast recovery",
+          "detail": "Failures handled within a day",
+          "highlight": false
+        },
+        {
+          "value": "−0.3 pts",
+          "label": "Usage alerts",
+          "detail": "Quiet accounts called early",
+          "highlight": false
+        },
+        {
+          "value": "2.1%",
+          "label": "Monthly churn after",
+          "detail": "Close to half",
+          "highlight": true
+        }
+      ],
+      "callout": "The average told you *how much*. Splitting it told you *what to do*."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Every fix has a catch.",
+      "body": [
+        "A pause can hide churn. Count paused customers separately, or you'll fool yourself about how many will really come back.",
+        "Generous recovery works only when failures are rare and fixes are fast. If bad batches keep shipping, no phone call saves you. Fix the factory first.",
+        "And usage alerts help only if someone acts on them. A flag nobody calls is just another report."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Split churn by its reasons, then fix each one.",
+      "body": [
+        "Each decision used one idea from this unit:"
+      ],
+      "list": [
+        "**Group by cohort** to find who leaves and when",
+        "**Match natural usage frequency** so customers aren't paying for months they don't need you",
+        "**Recover fast** when you fail, because a well-handled mistake can build trust",
+        "**Satisfaction is not loyalty:** watch behavior, not just survey scores"
+      ],
+      "callout": "**Try it today:** list your last ten lost customers. Next to each, write when they joined and the month they left. Look for a pattern.",
+      "next": "Next · Where is your product going, and who decides?"
+    }
+  ]
+}

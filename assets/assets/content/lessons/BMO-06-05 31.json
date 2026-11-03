@@ -1,0 +1,227 @@
+{
+  "id": "BMO-06-05",
+  "unitId": "BMO-06",
+  "categoryId": "BMO",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Customer lifetime",
+  "readerTitle": "The car dealer who saw $332,000 in every customer",
+  "format": "company_story",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.2,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Sewell 자동차 딜러, Carl Sewell의 책) + 가상 적용 (가사 청소 서비스, 일정 관리 앱)",
+  "insight": "고객 한 명은 한 번의 거래가 아니라 여러 해에 걸친 구매의 흐름이다. 그래서 '이번 거래에서 얼마 남나'가 아니라 '얼마나 오래 머무나'를 먼저 묻는다.",
+  "misconception": "첫 거래에서 손해 보는 고객 확보 비용은 무조건 나쁜 지출이다.",
+  "relatedLessonIds": [
+    "BMO-06-02",
+    "CUS-06-01"
+  ],
+  "sources": [
+    {
+      "text": "Sewell, C. & Brown, P. B. (1990). Customers for Life. Doubleday.",
+      "url": null
+    },
+    {
+      "text": "평균 고객 수명 ≈ 1 ÷ 월 이탈률: 구독·반복 매출 분석의 표준 근사식",
+      "url": null
+    },
+    {
+      "text": "청소 서비스와 일정 관리 앱 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Carl Sewell이 『Customers for Life』(1990)에서 고객 한 명의 평생 가치를 약 $332,000로 추정했다는 내용을 원문으로 확인하세요. 수치가 판본마다 다르면 카드 문구를 'more than $300,000'로 바꿉니다.",
+      "status": "open"
+    },
+    {
+      "note": "Sewell이 댈러스의 캐딜락 딜러였다는 점, 이 추정에 차량 구매와 정비·서비스 비용이 포함됐다는 점을 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "청소 서비스 계산: 격주 방문 → 18개월 ≈ 39회(18 × 52/24 ≈ 39), 39 × $40 = $1,560. 확보 비용 $150 회수: 4회 방문 × $40 = $160, 약 2개월.",
+      "status": "open"
+    },
+    {
+      "note": "앱 계산: 월 이탈률 8% → 평균 수명 1 ÷ 0.08 = 12.5개월, × $25 = $312.50. 이탈률 4% → 25개월, × $25 = $625. 차이 $312.50 > 온보딩 비용 $200. 할인율(미래 돈의 가치)은 단순화를 위해 무시했습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business models · Company story",
+      "title": "The car dealer who saw $332,000 in every customer",
+      "body": [
+        "In his 1990 book *Customers for Life*, Dallas car dealer Carl Sewell did an odd sum. He added up every car and every service visit a loyal customer might buy from him over a lifetime.",
+        "His estimate was about $332,000. The person at the counter wasn't one sale. They were decades of sales, if they stayed."
+      ],
+      "image": {
+        "label": "One customer followed by a long trail of future purchases",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 자동차 매장 카운터 앞의 고객 한 명 뒤로 작은 자동차, 정비 공구, 영수증들이 시간순으로 길게 줄지어 이어짐. 실제 자동차 브랜드 로고나 엠블럼은 쓰지 않음.",
+        "url": "assets/images/bmo-06-05-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Is $150 too much for one new customer?",
+      "illustrative": true,
+      "body": [
+        "You run a house cleaning service. Clients pay $120 a visit, every two weeks. After wages and supplies, each visit leaves you $40.",
+        "A local lead site offers you new clients for $150 each. The first visit only earns $40. Do you sign up?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "No. You lose $110 on every new client",
+            "verdict": "risky",
+            "feedback": "True for the first visit only. You protect this month's cash, but you may turn away clients who would earn you far more over time."
+          },
+          {
+            "key": "B",
+            "text": "First check how long your clients usually stay",
+            "verdict": "best",
+            "feedback": "The deal is good or bad depending on that one number. It takes a little digging, but it turns a guess into a decision."
+          },
+          {
+            "key": "C",
+            "text": "Yes. Regular cleaning clients always come back",
+            "verdict": "partial",
+            "feedback": "Right that repeat visits matter. But clients from a lead site may stay for a shorter time than your referrals, so check before you assume."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Follow one cleaning client.",
+      "illustrative": true,
+      "body": [
+        "Your records show clients stay about 18 months on average. The $150 is paid back after four visits, in about two months. Everything after that is yours."
+      ],
+      "breakdown": [
+        {
+          "value": "$40",
+          "label": "Per visit",
+          "detail": "What each cleaning leaves after costs",
+          "highlight": false
+        },
+        {
+          "value": "× 39",
+          "label": "Visits",
+          "detail": "Every two weeks for about 18 months",
+          "highlight": false
+        },
+        {
+          "value": "$1,560",
+          "label": "Over the lifetime",
+          "detail": "What one average client leaves you",
+          "highlight": true
+        },
+        {
+          "value": "−$150",
+          "label": "To win them",
+          "detail": "The lead site's fee",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Customer lifetime",
+      "body": [
+        "**Customer lifetime** is how long a customer keeps buying from you. Multiply it by what each period leaves after costs, and you get what a customer is worth.",
+        "A quick estimate: if 5% of customers leave each month, the average one stays about 20 months (1 ÷ 0.05). Sewell's insight was to judge every decision against that whole stream, not the sale in front of him."
+      ],
+      "image": {
+        "label": "A single sale versus a long row of repeat sales",
+        "aspectRatio": "16:9",
+        "brief": "좌우 비교 인포그래픽. 왼쪽에는 동전 하나와 \"One visit: $40\", 오른쪽에는 시간축 위에 동전이 길게 쌓여 \"Lifetime: $1,560\". 오른쪽이 훨씬 크게 보이도록.",
+        "url": "assets/images/bmo-06-05-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it changes decisions",
+      "title": "Lifetime tells you what a customer is worth fighting for.",
+      "body": [
+        "Once you see the lifetime, small choices look different. A free fix for an angry customer costs a little today and protects years of future business.",
+        "Sewell argued exactly this: treat the customer so they come back for the next car, and the next service. The same sum tells you how much you can spend to win a customer, and how much to spend keeping one."
+      ],
+      "softwareNote": "Software teams compare customer lifetime value with the cost to win a customer. Because churn is tracked monthly, lifetime can be estimated early, then checked as real data comes in."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "An average lifetime can fool you.",
+      "body": [
+        "Averages hide spread. Some clients leave after one visit, others stay five years. Clients from a cheap lead source may behave very differently from referrals.",
+        "A young business has little history, so its lifetime figure is mostly a guess. Use margin, not price, in the sum. And money that arrives in year three is worth less, and less certain, than money today."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a scheduling app.",
+      "illustrative": true,
+      "body": [
+        "Your app costs $30 a month and leaves $25 after costs. About 8% of users cancel each month, so they stay about 12.5 months.",
+        "A setup call for each new user costs $200. Tests suggest it cuts monthly churn to 4%. Worth it?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "No. $200 is almost seven months of revenue",
+            "verdict": "risky",
+            "feedback": "It is a big upfront cost. But it ignores that users would now stay about 25 months instead of 12.5."
+          },
+          {
+            "key": "B",
+            "text": "Yes. Lifetime doubles, adding about $312 per user",
+            "verdict": "best",
+            "feedback": "Value rises from $312 to $625, well above the $200 cost. Keep checking that the churn drop holds beyond the test."
+          },
+          {
+            "key": "C",
+            "text": "Spend the $200 on ads for more new users instead",
+            "verdict": "partial",
+            "feedback": "More users helps, but each one still leaves after about a year. Longer lifetimes make every future ad dollar work harder too."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A customer is a stream, not a sale.",
+      "body": [
+        "How long customers stay decides what each one is worth, and what you can afford to spend winning and keeping them.",
+        "**Try it today:** estimate how long your average customer stays. Multiply by what each month or visit leaves after costs. Compare it with what you pay to win one."
+      ],
+      "next": "Next · Why people are cancelling their subscriptions"
+    }
+  ]
+}

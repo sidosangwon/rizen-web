@@ -1,0 +1,238 @@
+{
+  "id": "FIN-11-04",
+  "unitId": "FIN-11",
+  "categoryId": "FIN",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Money received before it's earned",
+  "readerTitle": "The record cash year that nearly sank a training firm",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (B2B 교육 회사, 컨설팅 리테이너, 대기업 내 서비스 사업부) · 모든 수치는 설명용",
+  "insight": "미리 받은 돈은 번 돈이 아니라 아직 갚지 않은 약속이다. 통장 잔고와 함께 '아직 해 줘야 할 일'을 같이 봐야 한다.",
+  "misconception": "고객이 돈을 냈으면 그 돈은 이미 내 수익이고 마음대로 써도 된다.",
+  "relatedLessonIds": [
+    "FIN-11-02",
+    "FIN-02-01"
+  ],
+  "sources": [
+    {
+      "text": "재무회계의 표준 개념 (선수수익·이연수익, 부채로 인식하고 의무 이행에 따라 수익으로 전환)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "교육 회사 계산: 패키지 40개 × $12,000 = $480,000 선수금. 패키지당 다음 해 진행 비용 $6,000 × 40 = $240,000. 창업자가 쓴 돈 $300,000 → 남은 현금 $180,000으로 진행 비용 $240,000을 감당하지 못함(부족분 $60,000, 다른 비용 제외).",
+      "status": "open"
+    },
+    {
+      "note": "리테이너 계산: $120,000 ÷ 12개월 = 월 $10,000. 1월 말 기준 번 돈 $10,000, 아직 갚아야 할 약속 $110,000. 6월 말 기준 번 돈 $60,000, 남은 약속 $60,000.",
+      "status": "open"
+    },
+    {
+      "note": "정비 계약 계산: 3년 = 12분기, $900,000 ÷ 12 = 분기당 $75,000. 단순화를 위해 서비스가 기간 내 고르게 제공된다고 가정했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "수익 인식 시점과 방식은 국가별 회계 기준과 계약 조건에 따라 다를 수 있습니다. 레슨은 원리만 다루며 특정 기준이나 세무 조언을 제공하지 않습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Counterexample",
+      "title": "The record cash year that nearly sank a training firm",
+      "illustrative": true,
+      "body": [
+        "A small corporate training firm ends December with more cash than ever. Clients have prepaid $480,000 for workshops to be held next year.",
+        "The founder pays bonuses and hires two people. By June, the firm can't cover the trainers it owes. Nothing went wrong with sales. Something went wrong with how the founder read the bank balance."
+      ],
+      "image": {
+        "label": "Bank balance soaring in December, then falling off a cliff by June",
+        "aspectRatio": "4:3",
+        "brief": "플랫 일러스트. 달력 위로 은행 잔고 선이 12월에 최고점을 찍고, 다음 해 6월로 갈수록 절벽처럼 떨어짐. 12월 위에는 축하 풍선, 6월 위에는 걱정하는 창업자. 실제 은행 로고 사용 금지.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "A client prepays a full year.",
+      "illustrative": true,
+      "body": [
+        "You run a consulting firm. A client signs a 12-month retainer and pays $120,000 up front in January. You'll do the same amount of work every month.",
+        "At the end of January, how much of that money have you actually earned?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "All $120,000. The cash is in the bank",
+            "verdict": "risky",
+            "feedback": "The cash is yours to hold, but you still owe eleven months of work. Treating it all as earned makes January look far better than it was."
+          },
+          {
+            "key": "B",
+            "text": "About $10,000, one month of work",
+            "verdict": "best",
+            "feedback": "Right. You've delivered one twelfth of what was paid for. The other $110,000 is a promise you still have to keep."
+          },
+          {
+            "key": "C",
+            "text": "Nothing until the year is over",
+            "verdict": "partial",
+            "feedback": "Cautious, and it avoids overstating. But you did deliver a month of real work, so ignoring it understates how the business is doing."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What went wrong",
+      "title": "The cash came now. The work came later.",
+      "illustrative": true,
+      "body": [
+        "Back at the training firm: 40 clients each paid $12,000 for a package of four workshops. That's $480,000, all for next year.",
+        "Running those workshops would cost about $6,000 per package in trainer fees and travel, or $240,000. The founder had already spent $300,000. Only $180,000 was left to pay for $240,000 of work.",
+        "The firm hadn't earned that money yet. It had **borrowed it from its clients**, and the bill was coming due."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Deferred revenue",
+      "body": [
+        "**Deferred revenue** (also called unearned revenue) is money a customer has paid for something you haven't delivered yet.",
+        "Accountants record it as something you owe, not as income. Each time you deliver part of the work, a slice moves from \"owed\" to \"earned.\"",
+        "Cash and earnings separate here. The bank says you're rich. Your promises say you're busy."
+      ],
+      "image": {
+        "label": "Coins moving from an 'Owed' jar to an 'Earned' jar month by month",
+        "aspectRatio": "16:9",
+        "brief": "두 개의 유리병. 왼쪽 병 라벨 \"Still owed\", 오른쪽 병 라벨 \"Earned\". 달력 한 장이 넘어갈 때마다 동전 한 묶음이 왼쪽에서 오른쪽으로 이동. 깔끔한 인포그래픽 스타일.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "The $120,000 retainer, month by month.",
+      "illustrative": true,
+      "body": [
+        "By June, half is earned and half is still owed. The bank balance alone never shows that split."
+      ],
+      "breakdown": [
+        {
+          "value": "$120,000",
+          "label": "Cash received",
+          "detail": "Paid in January",
+          "highlight": false
+        },
+        {
+          "value": "$10,000",
+          "label": "Earned each month",
+          "detail": "$120,000 ÷ 12 months",
+          "highlight": false
+        },
+        {
+          "value": "$110,000",
+          "label": "Still owed, end of January",
+          "detail": "Eleven months of work to deliver",
+          "highlight": true
+        },
+        {
+          "value": "$60,000",
+          "label": "Still owed, end of June",
+          "detail": "Six months of work to deliver",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where else it shows up",
+      "title": "Prepayment is everywhere, and it's often good.",
+      "body": [
+        "Gift cards, wedding deposits, annual gym fees, event tickets and service contracts all work this way. Customers fund you before you spend a cent on delivery.",
+        "That's a real advantage. Used well, prepaid cash pays for the work itself, so you need less outside money. The mistake is only in treating it as profit."
+      ],
+      "softwareNote": "Annual plans paid up front are deferred revenue too. A software company can show a large cash balance while most of it covers months of service it still owes users, including servers and support."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Ask three questions before you spend it.",
+      "list": [
+        "**What will delivery cost?** Set that aside first.",
+        "**Can customers ask for refunds?** A cancellation turns \"owed\" into cash going back out.",
+        "**Will new prepayments keep coming?** Growth can hide the gap. When sales slow, the old promises remain."
+      ],
+      "callout": "Exact accounting rules vary by country and contract. The principle doesn't: unearned money is a debt of work."
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now you run a division inside a big company.",
+      "illustrative": true,
+      "body": [
+        "Your service division at an equipment maker sold three-year maintenance plans this quarter. Customers paid $900,000 up front. Your engineers will make visits over the full three years.",
+        "Head office asks what to report as this quarter's results. What do you say?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Report $900,000 and ask for a bigger hiring budget",
+            "verdict": "risky",
+            "feedback": "Your quarter looks spectacular, but the next eleven quarters carry visit costs with no matching income. The division will look like it collapsed."
+          },
+          {
+            "key": "B",
+            "text": "Report about $75,000 earned, show the rest as owed, and protect cash for future visits",
+            "verdict": "best",
+            "feedback": "$900,000 ÷ 12 quarters = $75,000. Your results match the work done, and future engineers have money waiting for them."
+          },
+          {
+            "key": "C",
+            "text": "Report nothing until the plans end",
+            "verdict": "partial",
+            "feedback": "Nothing gets overstated, but you hide real work your team delivered. Head office may cut a division that's actually performing."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Money paid in advance is a promise, not a profit.",
+      "body": [
+        "Prepaid cash is useful fuel. Spend it as if you still owe the work, because you do.",
+        "**Try it today:** add up what customers have paid you for things you haven't delivered yet. Compare it with the cash you're holding."
+      ],
+      "next": "Next · When spending money isn't an expense"
+    }
+  ]
+}

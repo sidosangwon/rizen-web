@@ -1,0 +1,242 @@
+{
+  "id": "THK-07-02",
+  "unitId": "THK-07",
+  "categoryId": "THK",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "Break problems into parts",
+  "readerTitle": "Two late problems, one way to crack them",
+  "format": "two_businesses",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 2개 (음료 유통업체의 배송 지연, 소프트웨어 회사 채용팀의 채용 지연) + 가상 적용 (제조사 재무팀) · 모든 수치는 설명용",
+  "insight": "큰 문제는 한 번에 풀지 않는다. 겹치지 않고 빠짐없는 부분으로 나누면 '모든 걸 고치기'가 '바뀐 한 부분 찾기'로 바뀐다.",
+  "misconception": "큰 문제에는 큰 해결책이 필요하다. 문제를 보면 바로 해결책 아이디어부터 모아야 한다.",
+  "relatedLessonIds": [
+    "THK-07-01",
+    "THK-07-03"
+  ],
+  "sources": [
+    {
+      "text": "문제 분해(이슈 트리, 프로세스 분해)는 경영 컨설팅과 문제 해결 교육의 표준 기법",
+      "url": null
+    },
+    {
+      "text": "Minto, B. The Pyramid Principle (MECE 개념이 널리 알려진 출처로 자주 인용됨)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "배송 단계 계산: 이전 2 + 6 + 3 + 5 = 16시간, 현재 2 + 26 + 3 + 5 = 36시간. 늘어난 20시간은 모두 '피킹 대기' 단계에서 발생합니다.",
+      "status": "open"
+    },
+    {
+      "note": "채용 단계 계산: 소싱 20일 + 서류 10일 + 면접 39일 + 오퍼 승인 21일 = 90일. 오퍼 승인 21일은 설명용 가정입니다.",
+      "status": "open"
+    },
+    {
+      "note": "MECE라는 용어의 기원을 Barbara Minto와 McKinsey로 돌리는 설명이 흔하지만, 카드에는 기원을 단정하지 않고 'consultants often call this MECE'라고만 적었습니다. 게시 전 표현을 한 번 더 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Two businesses",
+      "title": "Two late problems, one way to crack them",
+      "illustrative": true,
+      "body": [
+        "A drinks distributor hears it every week: \"Your deliveries are late.\" Across town, the head of recruiting at a software company hears: \"Hiring takes forever.\"",
+        "Both managers called a meeting. Both meetings ended with a list of twenty fixes and no idea which one mattered."
+      ],
+      "image": {
+        "label": "Two managers facing a giant tangled knot",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 왼쪽은 창고 앞 유통업체 매니저, 오른쪽은 사무실 채용 담당자. 두 사람 앞에 각각 거대한 엉킨 실뭉치가 있고, 실뭉치에 \"Late deliveries\", \"Slow hiring\" 라벨. 실제 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/thk-07-02-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Customers say deliveries are late.",
+      "illustrative": true,
+      "body": [
+        "You run a regional drinks distributor. Shops order by noon and expect delivery the next day. Lately, many orders arrive a day later than that.",
+        "Your drivers blame traffic. What do you do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Lease two more trucks so routes are shorter",
+            "verdict": "risky",
+            "feedback": "It's a real fix for a road problem. But you'd pay for trucks before knowing whether the road is where the time goes."
+          },
+          {
+            "key": "B",
+            "text": "Split the trip from order to shop into steps and time each one",
+            "verdict": "best",
+            "feedback": "It costs a few days of tracking. In return, you find out which step got slower instead of guessing."
+          },
+          {
+            "key": "C",
+            "text": "Ask customers which deliveries were late",
+            "verdict": "partial",
+            "feedback": "Useful for seeing who is affected. But it tells you which orders were late, not where inside your business the time was lost."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What they found",
+      "title": "The trucks were fine.",
+      "illustrative": true,
+      "body": [
+        "Order to shop used to take about **16 hours**. Now it takes 36. Every extra hour is in one step: orders sitting in the warehouse, waiting to be picked."
+      ],
+      "breakdown": [
+        {
+          "value": "2 h",
+          "label": "Order entered",
+          "detail": "Same as before",
+          "highlight": false
+        },
+        {
+          "value": "26 h",
+          "label": "Waiting to be picked",
+          "detail": "Was 6 hours",
+          "highlight": true
+        },
+        {
+          "value": "3 h",
+          "label": "Picking and loading",
+          "detail": "Same as before",
+          "highlight": false
+        },
+        {
+          "value": "5 h",
+          "label": "On the road",
+          "detail": "Same as before",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Break the problem into parts",
+      "body": [
+        "**Breaking a problem into parts** means splitting one big, vague problem into smaller pieces you can check one at a time.",
+        "Good parts pass two tests. They **don't overlap**, so nothing gets counted twice. And together they **cover the whole**, so nothing hides in a gap. Consultants often call this *MECE*: mutually exclusive, collectively exhaustive.",
+        "\"Deliveries are late\" can't be fixed. \"Orders wait 26 hours to be picked\" can."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Three common ways to split.",
+      "body": [
+        "Most problems can be cut in one of these ways:"
+      ],
+      "list": [
+        "**By steps:** order, pick, load, drive. Good for anything that flows from start to finish.",
+        "**By formula:** sales = customers × orders per customer × average order. Good for numbers.",
+        "**By group:** region, product, customer type. Good when the problem may live in one corner."
+      ],
+      "callout": "Pick the split where you can measure each part.",
+      "softwareNote": "A drop in sign-ups splits the same way: visitors × share who start sign-up × share who finish. Each part points to a different team and a different fix."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The second business",
+      "title": "Hiring took 90 days. One step took 21.",
+      "illustrative": true,
+      "body": [
+        "The recruiting lead split hiring into its stages: finding candidates, screening, interviews, offer.",
+        "Finding took 20 days, screening 10, interviews 39. Interviews looked like the culprit, and they were long. But the surprise was the offer: **21 days** waiting for sign-off from two busy executives. Good candidates took other jobs in that gap.",
+        "A one-week approval rule fixed more than any new job board would have."
+      ],
+      "image": {
+        "label": "Hiring timeline split into four stages",
+        "aspectRatio": "16:9",
+        "brief": "가로 타임라인 인포그래픽. 4개 구간 \"Finding 20 days\", \"Screening 10 days\", \"Interviews 39 days\", \"Offer sign-off 21 days\". 마지막 구간에 모래시계 아이콘과 강조색. 실제 회사 로고는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Splitting can go wrong.",
+      "body": [
+        "Some causes live *between* parts. The warehouse might be slow because sales started promising rush orders that jump the queue. Each step looks like its own problem, but the cause is how they interact.",
+        "Splitting can also become a hobby. Stop when a part is small enough that you know who would fix it and how you'd check.",
+        "And a bad split hides the answer. If two parts overlap, people argue about whose problem it is."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a finance team.",
+      "illustrative": true,
+      "body": [
+        "You lead the finance team at a furniture maker. The monthly report used to be ready on day 5 of the month. Now it's day 12, and leadership is annoyed.",
+        "How do you split the problem?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "By person: see which team member is slowest",
+            "verdict": "risky",
+            "feedback": "It's easy to measure, but people share tasks, so the parts overlap. It also turns a process question into blame."
+          },
+          {
+            "key": "B",
+            "text": "By step: collect data, check it, adjust, review, send, and time each",
+            "verdict": "best",
+            "feedback": "The steps don't overlap and they cover the whole month-end. You'll see where the seven extra days went."
+          },
+          {
+            "key": "C",
+            "text": "Into \"data problems\" and \"people problems\"",
+            "verdict": "partial",
+            "feedback": "It's a start, but the two groups overlap. A late sales file is both, so the team will argue about where it belongs."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Don't fix the big problem. Find the part that changed.",
+      "body": [
+        "Split the problem into pieces that don't overlap and cover the whole. Then measure each piece before choosing a fix.",
+        "**Try it today:** take one problem your team keeps talking about. Write its steps on a single line and put a number under each one."
+      ],
+      "next": "Next · Start with a hypothesis"
+    }
+  ]
+}

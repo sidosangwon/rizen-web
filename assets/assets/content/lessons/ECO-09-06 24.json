@@ -1,0 +1,226 @@
+{
+  "id": "ECO-09-06",
+  "unitId": "ECO-09",
+  "categoryId": "ECO",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "How central banks and governments respond",
+  "readerTitle": "The rate cut that didn't refill the showroom",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "illustrative",
+    "real_observation",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (가전 유통사, 레스토랑) + 실제 관찰 (2008년 미국 금리 인하와 실업률, 2020년 영국 Eat Out to Help Out) + 실제 연구 (Friedman의 정책 시차)",
+  "insight": "정책 대응은 발표일에 오지 않는다. 고객과 은행을 거쳐 몇 달에서 몇 년 뒤에 도착하므로, 발표가 아니라 그 경로를 보고 계획한다.",
+  "misconception": "경기가 나빠지면 중앙은행과 정부가 나서서 곧바로 수요를 되살려 준다. 금리가 내려가면 다음 분기 매출이 오른다.",
+  "relatedLessonIds": [
+    "ECO-09-02",
+    "ECO-09-05"
+  ],
+  "sources": [
+    {
+      "text": "Federal Reserve press release, 16 December 2008 (federal funds target range 0 to 0.25%)",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20081216b.htm"
+    },
+    {
+      "text": "U.S. Bureau of Labor Statistics, unemployment rate series (peak of 10.0% in October 2009)",
+      "url": "https://data.bls.gov/timeseries/LNS14000000"
+    },
+    {
+      "text": "Friedman, M. (1961). The Lag in Effect of Monetary Policy. Journal of Political Economy, 69(5).",
+      "url": null
+    },
+    {
+      "text": "HM Treasury, Eat Out to Help Out scheme guidance (August 2020)",
+      "url": null
+    },
+    {
+      "text": "가전 유통사와 레스토랑 사례는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Fed가 2008년 12월 16일 기준금리 목표 범위를 0~0.25%로 내린 사실, 미국 실업률이 2009년 10월 10.0%로 정점을 찍은 사실을 게시 전 원자료로 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "\"long and variable lags\" 표현은 Friedman에게서 널리 인용되는 문구입니다. 정확한 최초 출처(1961년 논문 또는 그 이전 저작)를 확인하세요. 카드에는 출처 연도를 적지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "\"중앙은행들이 금리 변화의 효과가 완전히 나타나는 데 1~2년 걸린다고 설명한다\"는 일반적 서술입니다. Bank of England 등 중앙은행 설명 자료로 표현을 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Eat Out to Help Out: 2020년 8월, 월~수요일, 1인당 최대 £10까지 식사비 50% 지원. 세부 조건을 HM Treasury 자료로 확인하세요. 효과 크기에 대한 수치는 일부러 넣지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "소프트웨어 노트의 '금리가 오르면 구매자가 좌석 수를 줄이고 영업 주기가 길어진다'는 일반적 경향 서술이며 특정 통계를 인용하지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Economy · Counterexample",
+      "title": "The rate cut that didn't refill the showroom",
+      "illustrative": true,
+      "body": [
+        "The headline said it plainly: the central bank cuts rates by a full point, and the government promises support for households.",
+        "A regional appliance seller read it as a green light. She ordered extra fridges and washers for spring. Spring came. The showroom stayed quiet, and the warehouse stayed full."
+      ],
+      "image": {
+        "label": "A full appliance warehouse next to an empty showroom",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 왼쪽은 상자가 천장까지 쌓인 창고, 오른쪽은 손님 없는 가전 매장. 벽에 걸린 TV 화면에 \"Rates cut\" 헤드라인. 실제 브랜드 로고는 쓰지 않음.",
+        "url": "assets/images/eco-09-06-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Rates just fell. How big is your spring order?",
+      "illustrative": true,
+      "body": [
+        "You distribute appliances to 40 local shops. Sales dropped 15% this winter as people worried about jobs. This week the central bank cut rates sharply and the government announced a household support package.",
+        "Your spring order is due Friday. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Order 30% more. Cheaper loans plus government money means a rebound",
+            "verdict": "risky",
+            "feedback": "You'd be ready for a fast recovery. But if customers take months to feel the change, you carry costly stock and tie up cash when you need it most."
+          },
+          {
+            "key": "B",
+            "text": "Keep the order near winter levels, and agree with suppliers on a quick top-up if early signs improve",
+            "verdict": "best",
+            "feedback": "You give up a little upside if demand jumps early. In return you match stock to what customers actually do, not to what the news promises."
+          },
+          {
+            "key": "C",
+            "text": "Cut the order 30%. Bad news means more bad news",
+            "verdict": "partial",
+            "feedback": "It protects cash. But the policy response does eventually arrive, and empty shelves then would hand sales to rivals."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "The money took the long road.",
+      "illustrative": true,
+      "body": [
+        "A rate cut doesn't hand anyone a fridge. First banks lower their loan and card rates. Then households notice their payments shrink. Then, once they stop fearing for their jobs, they replace the old washer.",
+        "Each step takes time. Meanwhile, worried customers did what worried people do: they saved. The policy was working. It just hadn't reached the showroom yet."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Two toolkits for the whole economy",
+      "body": [
+        "When spending slumps or prices run hot, two players respond. The **central bank** uses *monetary policy*: it moves short-term interest rates to make borrowing cheaper or dearer. The **government** uses *fiscal policy*: it changes spending and taxes.",
+        "Both aim at the same thing, total demand across the economy. Neither reaches your customers directly. They work through banks, jobs, wages and confidence, and that takes time."
+      ],
+      "image": {
+        "label": "Two policy pipes feeding customers through banks and jobs",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 왼쪽에 \"Central bank: interest rates\", \"Government: spending & taxes\" 두 개의 수도꼭지. 물이 \"Banks\", \"Jobs & wages\", \"Confidence\" 파이프를 거쳐 오른쪽 \"Your customers\" 컵에 천천히 떨어짐. 파이프에 시계 아이콘.",
+        "url": "assets/images/eco-09-06-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "Long and variable lags",
+      "body": [
+        "Economist Milton Friedman famously warned that monetary policy works with **long and variable lags**. Central banks themselves often say the full effect of a rate change takes a year or two.",
+        "The US shows it clearly. The Federal Reserve cut its key rate to nearly zero in December 2008. Unemployment kept rising for ten more months, peaking at 10% in October 2009. The help was real. It was also late."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The other direction",
+      "title": "Sometimes slower sales are the point.",
+      "body": [
+        "When inflation runs high, central banks raise rates *to cool spending*. If your customers buy less after a hike, the policy is doing its job. Don't wait for a rescue that isn't coming.",
+        "Government help can also be narrow. In August 2020, the UK's Eat Out to Help Out paid half of diners' meal bills, up to £10 a head, Monday to Wednesday. Restaurants got a real boost, for one month. Policy help is often targeted and temporary."
+      ],
+      "softwareNote": "Software companies feel rates through budgets and funding. When rates rise, buyers tend to trim seats and stretch sales cycles. When rates fall, that loosens, but slowly, with the same lags."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Don't try to out-guess the central bank.",
+      "body": [
+        "Lags cut both ways. If you freeze until the news looks good, you may miss the recovery that the policy already set in motion.",
+        "Policy also targets the national economy, not your street. A local plant closing or a new competitor can matter more than any rate move. Watch your own early signals, such as orders, bookings and customer questions, instead of betting on the next announcement."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a restaurant.",
+      "illustrative": true,
+      "body": [
+        "You own a busy bistro. The central bank has raised rates several times to fight inflation, and says it may hold them there. A landlord offers you a second site. Your bank would lend the build-out cost at a variable rate.",
+        "How do you plan?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Sign now. Rates always come down soon after they peak",
+            "verdict": "risky",
+            "feedback": "You lock in the site early. But if rates stay high for a year or more, your loan costs rise while diners, the target of the hikes, cut back."
+          },
+          {
+            "key": "B",
+            "text": "Test the numbers assuming today's rates last 18 months and diners spend less, then seek a fixed rate or a smaller fit-out",
+            "verdict": "best",
+            "feedback": "You might lose this site to a bolder bidder. In exchange, the plan survives the policy working exactly as intended."
+          },
+          {
+            "key": "C",
+            "text": "Drop expansion until the central bank cuts rates",
+            "verdict": "partial",
+            "feedback": "Safe, but cuts arrive before demand recovers. By the time it feels good, the best sites may be gone."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Policy arrives by the slow road, not the headline.",
+      "body": [
+        "Central banks and governments respond to slumps and inflation, but their help travels through banks, jobs and confidence. Plan for the delay, and remember some moves are meant to slow you down.",
+        "**Try it today:** list three early signals in your own business that would show demand turning. Decide what you'd do when each one moves."
+      ],
+      "next": "Next · What higher rates mean for a small business"
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "id": "FIN-02-03",
+  "unitId": "FIN-02",
+  "categoryId": "FIN",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "Working capital",
+  "readerTitle": "The $300,000 cushion that couldn't cover payroll",
+  "format": "counterexample",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (금속 부품 공장, 식료품점, 소프트웨어 회사) · 모든 수치는 설명용",
+  "insight": "운전자본은 쌓아 둔 여유 자금이 아니라 사업을 돌리느라 고객과 재고에 묶여 있는 돈이며, 매출이 늘면 함께 늘어나 현금을 더 요구한다.",
+  "misconception": "운전자본이 클수록 재무가 튼튼하고, 이익이 나는 성장은 스스로 자금을 마련한다.",
+  "relatedLessonIds": [
+    "FIN-02-02",
+    "FIN-02-05"
+  ],
+  "sources": [
+    {
+      "text": "재무회계의 표준 개념 (운전자본 = 유동자산 − 유동부채)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "공장 운전자본: 현금 $20,000 + 매출채권 $200,000 + 재고 $150,000 − 매입채무 $70,000 = $300,000. 월 매출 $100,000 × 60일 결제 = 매출채권 약 $200,000로 맞춤.",
+      "status": "open"
+    },
+    {
+      "note": "매출 50% 증가 시: 매출채권 $300,000, 재고 $225,000, 매입채무 $105,000. 현금 제외 운전자본 280,000 → 420,000, 추가로 묶이는 돈 $140,000. 현금 $20,000로는 부족하다는 계산 확인.",
+      "status": "open"
+    },
+    {
+      "note": "식료품점과 선납 캠프의 음(−) 운전자본은 일반적인 업종 특성을 설명한 것으로 특정 기업의 수치가 아닙니다. 문장에 \"often\"으로 일반화 수준을 낮췄습니다.",
+      "status": "open"
+    },
+    {
+      "note": "소프트웨어 사례: 연간 선불 → 분기 후불(분기 종료 60일 뒤) 전환 시 매출은 같아도 현금 수취가 늦어져 운전자본이 늘어난다는 질적 설명입니다. 구체 수치는 넣지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Counterexample",
+      "title": "The $300,000 cushion that couldn't cover payroll",
+      "illustrative": true,
+      "body": [
+        "A metal parts maker gets good news from its accountant: **$300,000 in working capital**. The business looks safe.",
+        "Two weeks later, payroll is due: $40,000. The bank account holds $20,000.",
+        "Nobody made a mistake. Both numbers were true at the same time."
+      ],
+      "image": {
+        "label": "Factory owner holding a thick report next to a nearly empty cash box",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 공장 사무실에서 사장이 \"Working capital $300,000\"라고 적힌 두꺼운 보고서를 들고 있고, 책상 위 현금함은 거의 비어 있음. 뒤편에 금속 부품 상자가 쌓여 있음. 실제 로고나 상표 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "A big new customer wants in.",
+      "illustrative": true,
+      "body": [
+        "You run a metal parts plant with $100,000 in monthly sales. Customers pay 60 days after delivery.",
+        "A new customer would lift your sales by 50%, at your usual margin and the same 60-day terms. Your balance sheet shows $300,000 in working capital. What's your first move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Say yes. $300,000 in working capital covers the extra work",
+            "verdict": "risky",
+            "feedback": "You win the order, but that $300,000 is mostly money customers owe and steel on shelves. You may not be able to buy materials or pay wages before the new customer pays."
+          },
+          {
+            "key": "B",
+            "text": "Say yes, but first line up funding for the cash the bigger order will tie up",
+            "verdict": "best",
+            "feedback": "You get the growth and avoid the cash gap in the first months. It costs some planning and maybe a credit line, which is cheaper than a missed payroll."
+          },
+          {
+            "key": "C",
+            "text": "Decline. Growing that fast is too risky",
+            "verdict": "partial",
+            "feedback": "You protect your cash, but you give up a profitable customer. The risk is real, yet it can usually be managed rather than avoided."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "Look inside",
+      "title": "What the $300,000 was made of.",
+      "illustrative": true,
+      "body": [
+        "Most of it was money the business was *waiting* for, or steel waiting to become parts. Only $20,000 could pay a bill this week."
+      ],
+      "breakdown": [
+        {
+          "value": "$20,000",
+          "label": "Cash",
+          "detail": "Can be spent today",
+          "highlight": true
+        },
+        {
+          "value": "$200,000",
+          "label": "Customers owe you",
+          "detail": "Arrives over the next 60 days",
+          "highlight": false
+        },
+        {
+          "value": "$150,000",
+          "label": "Stock",
+          "detail": "Steel and half-made parts",
+          "highlight": false
+        },
+        {
+          "value": "−$70,000",
+          "label": "You owe suppliers",
+          "detail": "Due within 30 days",
+          "highlight": false
+        },
+        {
+          "value": "$300,000",
+          "label": "Working capital",
+          "detail": "Big total, little cash",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Working capital",
+      "body": [
+        "**Working capital** is what a business will have soon minus what it must pay soon. In accounting terms: current assets (cash, money customers owe, stock) minus current liabilities (bills due within a year, like supplier invoices).",
+        "A more useful way to see it: working capital is **money tied up in running the business** day to day. Part of it is lent to customers. Part is parked in stock.",
+        "A big number can mean safety. It can also mean a lot of cash stuck where you can't spend it."
+      ],
+      "image": {
+        "label": "Coins flowing out to customers and a stockroom, a few coins returning",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 가운데 금고에서 동전이 \"Customers owe you\"와 \"Stock\" 상자로 흘러가 쌓여 있고, \"Suppliers\" 쪽에서 동전 몇 개만 금고로 돌아옴. 금고 안에는 동전이 조금만 남아 있음.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "chart",
+      "eyebrow": "The twist",
+      "title": "Grow 50%, and $140,000 more gets tied up.",
+      "illustrative": true,
+      "body": [
+        "With 50% more sales, customers owe you more and you hold more stock. Suppliers give you more credit too, but not enough to close the gap.",
+        "Before the first new customer pays, the business needs about $140,000 more in working capital. It has $20,000 in cash. Profitable growth still has to be paid for upfront."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Customers owe you",
+            "rows": [
+              {
+                "label": "Today",
+                "value": 200000,
+                "highlight": false
+              },
+              {
+                "label": "After +50% sales",
+                "value": 300000,
+                "highlight": true
+              }
+            ]
+          },
+          {
+            "label": "Stock",
+            "rows": [
+              {
+                "label": "Today",
+                "value": 150000,
+                "highlight": false
+              },
+              {
+                "label": "After +50% sales",
+                "value": 225000,
+                "highlight": true
+              }
+            ]
+          },
+          {
+            "label": "You owe suppliers",
+            "rows": [
+              {
+                "label": "Today",
+                "value": 70000,
+                "highlight": false
+              },
+              {
+                "label": "After +50% sales",
+                "value": 105000,
+                "highlight": false
+              }
+            ]
+          }
+        ]
+      },
+      "image": {
+        "label": "Grow 50%, and $140,000 more gets tied up.",
+        "aspectRatio": "4:3",
+        "brief": "Labeled HTML chart from the lesson numbers",
+        "url": "assets/images/fin-02-03-chart.png"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The flip side",
+      "title": "Some healthy businesses run below zero.",
+      "illustrative": true,
+      "body": [
+        "A grocery store often sells its milk within days but pays the dairy weeks later. A summer camp takes deposits in March for July. Customer cash arrives before the bills are due.",
+        "Here working capital can be **negative**, and that's not a warning sign. Growth brings cash in instead of tying it up.",
+        "Same measure, opposite meaning. What matters is what the number is made of, not how big it is."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Don't shrink the number by squeezing others.",
+      "body": [
+        "Paying suppliers late makes working capital look smaller. It can also cost you discounts, priority and trust. Cutting stock too far means missed orders.",
+        "Working capital is also a snapshot. A toy maker's looks very different in October than in January. Compare the same month year to year, and check what's inside the total."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software company.",
+      "illustrative": true,
+      "body": [
+        "Your software company bills customers a full year upfront. A large new client wants to pay quarterly, 60 days after each quarter ends.",
+        "Your sales lead says the yearly revenue is identical, so it makes no difference. What's the right read?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Agree. Same revenue, same business",
+            "verdict": "risky",
+            "feedback": "Revenue matches, but you'd go from getting cash early to waiting months after doing the work. Your working capital grows, and so does the cash you need."
+          },
+          {
+            "key": "B",
+            "text": "Accept, but price in the later payment and plan the cash you'll carry",
+            "verdict": "best",
+            "feedback": "You win the client and know the cost of funding them. A higher price or a deposit can offset the cash you'll be waiting for."
+          },
+          {
+            "key": "C",
+            "text": "Refuse any terms other than annual upfront",
+            "verdict": "partial",
+            "feedback": "Your cash stays strong, but rigid terms can lose big deals. The terms are a cost to price, not always a reason to walk away."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Working capital is cash at work, not cash in reserve.",
+      "body": [
+        "It shows how much money your business has tied up in customers and stock. When sales grow, it usually grows too, and you fund it first.",
+        "**Try it today:** write down what customers owe you, the stock you hold and what you owe suppliers. Then ask: if sales rose 20% next month, how much more cash would get tied up?"
+      ],
+      "next": "Next · Getting paid on time"
+    }
+  ]
+}

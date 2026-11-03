@@ -1,0 +1,220 @@
+{
+  "id": "FIN-10-06",
+  "unitId": "FIN-10",
+  "categoryId": "FIN",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Weak oversight",
+  "readerTitle": "The star trader nobody checked: how one desk sank Barings",
+  "format": "company_story",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Barings Bank, 1995년 파산) + 가상 적용 (제조사 구매팀, 철물점 체인)",
+  "insight": "감독이 약한지 볼 때는 사람을 믿을 만한지보다, 한 사람의 숫자를 독립된 누군가가 확인하는 구조가 있는지를 본다. 가장 잘나가는 사람이 가장 덜 확인받는 경우가 많다.",
+  "misconception": "믿을 만한 사람이 맡으면 견제 장치는 필요 없다. 내부 통제는 직원을 의심한다는 뜻이다.",
+  "relatedLessonIds": [
+    "FIN-10-05",
+    "FIN-10-09"
+  ],
+  "sources": [
+    {
+      "text": "Bank of England, Board of Banking Supervision (1995). Report of the Board of Banking Supervision Inquiry into the Circumstances of the Collapse of Barings.",
+      "url": null
+    },
+    {
+      "text": "Barings Bank 연혁 (1762년 설립, 1995년 ING에 매각)",
+      "url": null
+    },
+    {
+      "text": "직무 분리(segregation of duties)는 내부통제의 표준 원칙",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "손실 규모 약 £827 million은 널리 인용되는 수치입니다. Board of Banking Supervision 보고서 원문으로 다시 확인하세요. 카드에는 'about £827 million'으로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Leeson이 싱가포르에서 거래와 후선(결제·정산) 업무를 함께 맡았다는 점, 손실을 '88888' 오류 계좌에 숨겼다는 점은 BoBS 보고서와 주요 보도에 나옵니다. 게시 전 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "1994년 내부감사가 Leeson의 겸직을 분리하라고 권고했으나 실행되지 않았다는 내용은 보고서에 나오는 것으로 알려져 있습니다. 카드에는 'reportedly'로 적었습니다. 감사 시점(1994년 여름경)을 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "1762년 설립, 1995년 2월 파산, ING에 £1에 매각. 1995 − 1762 = 233년. 카드에는 'more than 230 years'로 적었습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Company story",
+      "title": "The star trader nobody checked",
+      "body": [
+        "In 1995, Barings, a British bank founded in 1762, collapsed in a matter of days.",
+        "It wasn't a market crash or a recession. It was one trader in Singapore, whose results looked so good that almost nobody asked how he made them."
+      ],
+      "image": {
+        "label": "A single trading desk lit up in a dark, empty office",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 어두운 사무실에 책상 하나만 불이 켜져 있고, 한 사람이 서류 더미 양쪽(거래 전표와 정산 장부)을 동시에 들고 있음. 은행 로고나 실제 상표는 쓰지 않음.",
+        "url": "assets/images/fin-10-06-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Your best buyer offers to do more.",
+      "illustrative": true,
+      "body": [
+        "You lead the purchasing team at a large manufacturer. The clerk who checked supplier invoices against deliveries just left.",
+        "Dana, your most reliable buyer, offers to take it on. She places the orders already and knows every supplier. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Accept. She's trustworthy and it saves a hire",
+            "verdict": "risky",
+            "feedback": "You save time and money, but now one person orders, checks and approves. Any mistake or shortcut in her work has no one left to catch it."
+          },
+          {
+            "key": "B",
+            "text": "Give the checking to someone else, even if it's slower",
+            "verdict": "best",
+            "feedback": "It costs some speed and training, but Dana's orders are now checked by someone who didn't place them. That protects the company and Dana."
+          },
+          {
+            "key": "C",
+            "text": "Let her do it, and you spot-check a few invoices each quarter",
+            "verdict": "partial",
+            "feedback": "Better than nothing. But rare, predictable checks catch little, and you'll mostly see what you already expect."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "He ran the trades and the records of the trades.",
+      "body": [
+        "Nick Leeson ran Barings' futures trading in Singapore. He also oversaw the back office, the team that records and settles each trade.",
+        "So when his bets lost money, he could hide the losses in an error account, numbered 88888, and report profits to London. Head office kept sending money to support his \"winning\" desk.",
+        "By February 1995 the hidden losses had reached **about £827 million**. The bank was sold for £1."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Weak oversight",
+      "body": [
+        "**Weak oversight** means someone's work and numbers are not checked by anyone independent of them.",
+        "The core fix is **separation of duties**: the person who does the work is not the person who records it, approves it, or checks it. When one person holds all those roles, the numbers you see are only as honest and accurate as that one person.",
+        "At Barings, the doer and the checker were the same man."
+      ],
+      "image": {
+        "label": "Four roles in a circle, all held by one figure versus four different figures",
+        "aspectRatio": "16:9",
+        "brief": "좌우 비교 인포그래픽. 왼쪽: 'Do', 'Record', 'Approve', 'Check' 네 칸을 한 사람이 모두 쥐고 있음(빨간색). 오른쪽: 네 칸을 서로 다른 네 사람이 맡고 화살표로 서로 확인(초록색).",
+        "url": "assets/images/fin-10-06-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "The warning signs were there.",
+      "body": [
+        "Barings had several chances to see the problem. An internal audit in 1994 reportedly recommended splitting Leeson's two roles. It didn't happen."
+      ],
+      "list": [
+        "**One person controls a whole process** from start to finish",
+        "**Strong results nobody can explain** simply",
+        "**Audit findings left open** because the person is too valuable to disrupt",
+        "**Money keeps flowing** to a unit without anyone checking the raw records"
+      ],
+      "callout": "The less anyone checked him, the better his numbers looked.",
+      "softwareNote": "The same pattern shows up when one engineer can write, approve and deploy their own code, or when one person can both add a vendor in the finance system and pay it. Requiring a second approver is the software version of a second set of eyes."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond banking",
+      "title": "It's usually about setup, not villains.",
+      "body": [
+        "Most weak-oversight problems aren't fraud. They're honest mistakes that nobody catches for months: a pricing error, a missed invoice, a stock count that drifts.",
+        "Look for the same signs anywhere. Numbers only one person understands. Books that are always late. Results that are oddly smooth. A key person who never takes a day off, because someone covering for them might notice something."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Checks cost something.",
+      "body": [
+        "Every extra approval slows work down. A small business can't hire four people for four roles.",
+        "The goal is not maximum control. It's that every important number gets looked at by *someone* other than the person who produced it. In a small business, that can be the owner reading the bank statements each month or rotating who counts the cash.",
+        "And frame checks as protection, not suspicion. Good people want their work verified."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a chain of hardware stores.",
+      "illustrative": true,
+      "body": [
+        "You run eight stores. At one store, the manager counts the cash, records the takings and makes the bank deposit alone. Their numbers are the most consistent in the chain, and they haven't taken a holiday in three years.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Hold the store up as a model for the others",
+            "verdict": "risky",
+            "feedback": "It rewards the manager, but consistency with no independent check proves nothing. You'd be praising numbers nobody has verified."
+          },
+          {
+            "key": "B",
+            "text": "Add a second person to the cash count, compare deposits to till records, and arrange cover so the manager takes a break",
+            "verdict": "best",
+            "feedback": "It adds a little work, but now someone else sees the raw numbers. If everything's fine, the manager is cleared and rested."
+          },
+          {
+            "key": "C",
+            "text": "Quietly install cameras over the counter",
+            "verdict": "partial",
+            "feedback": "It may deter theft at the till, but it doesn't check the records or deposits, and secret watching can damage trust if discovered."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "No important number should go unchecked by someone else.",
+      "body": [
+        "Trust the person, but verify the setup. Weak oversight is dangerous because it hides problems until they're large.",
+        "**Try it today:** list three processes where money moves in your business. For each, write who does the work and who checks it. Circle any where it's the same person."
+      ],
+      "next": "Next · Check a café before you buy it"
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "id": "PPL-07-10",
+  "unitId": "PPL-07",
+  "categoryId": "PPL",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Lead a team through layoffs",
+  "readerTitle": "Twelve jobs, one warehouse: leading a team through layoffs",
+  "format": "everyday_scene",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.3,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 시뮬레이션 (가정용품 소매 체인의 물류센터) + 실제 연구 (Brockner 등의 해고 생존자·절차 공정성 연구)",
+  "insight": "해고에서 결과는 바꾸기 어렵지만 과정은 리더가 정할 수 있다. 남는 사람들은 결과보다 과정을 보고 회사를 다시 믿을지 정한다.",
+  "misconception": "해고는 빠르고 조용하게 끝낼수록 덜 아프다. 끝나면 남은 사람들은 안도하고 다시 일에 집중한다.",
+  "relatedLessonIds": [
+    "PPL-07-05",
+    "PPL-04-03"
+  ],
+  "sources": [
+    {
+      "text": "Brockner, J., & Wiesenfeld, B. M. (1996). An integrative framework for explaining reactions to decisions: Interactive effects of outcomes and procedures. Psychological Bulletin.",
+      "url": null
+    },
+    {
+      "text": "Brockner, J. et al. (1994). Interactive effect of procedural justice and outcome negativity on victims and survivors of job loss. Academy of Management Journal.",
+      "url": null
+    },
+    {
+      "text": "물류센터 시나리오와 모든 인원 수는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Brockner & Wiesenfeld(1996)의 핵심 주장(결과가 나쁠수록 절차 공정성이 반응에 더 큰 영향을 준다)을 카드 6에 수치 없이 요약했습니다. 게시 전 원문 요지와 서지 정보를 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Brockner 외(1994) AMJ 논문의 제목·연도·저널을 확인하세요. 카드에는 연구자 이름만 쓰고 구체적 수치는 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "인원 계산: 60명 중 12명 감원 → 48명 잔류. 카드 2·5에서 일관되게 썼습니다.",
+      "status": "open"
+    },
+    {
+      "note": "해고 사전 통지·협의 의무는 나라마다 다릅니다. 카드 7에서 법률 조언이 아님을 밝히고 HR·법무 확인을 권했습니다. 특정 국가 법률은 언급하지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "People · Simulation",
+      "title": "Monday, 7 a.m. The forklift drivers already know.",
+      "illustrative": true,
+      "body": [
+        "You run the distribution center for a home-goods chain: 60 people, deliveries to 30 stores. Sales have been falling for a year.",
+        "Head office has decided to cut 12 warehouse jobs. The official announcement is in two weeks. On the loading dock, people are already whispering."
+      ],
+      "image": {
+        "label": "Warehouse workers talking quietly near a loading dock",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 이른 아침 물류센터 하역장. 지게차 옆에서 작업자 서너 명이 작은 목소리로 대화하고, 뒤쪽 사무실 유리창 너머로 관리자가 이들을 바라봄. 차분하고 약간 무거운 색감. 실제 회사 로고 없음.",
+        "url": "assets/images/ppl-07-10-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 · The rumors",
+      "title": "Someone asks you straight out: are there layoffs coming?",
+      "illustrative": true,
+      "body": [
+        "You can't share names or numbers yet. Head office hasn't said you must stay silent, but it hasn't said you can talk either.",
+        "What do you say?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Ask head office to announce sooner, and say nothing until then",
+            "verdict": "partial",
+            "feedback": "A shorter wait helps. But silence in the meantime lets the rumors write the story, and two of your best pickers start interviewing elsewhere."
+          },
+          {
+            "key": "B",
+            "text": "\"It's just rumors. Your jobs are safe.\"",
+            "verdict": "risky",
+            "feedback": "You buy one calm week. In two weeks, everyone learns you weren't telling the truth, and nothing you say after that is believed."
+          },
+          {
+            "key": "C",
+            "text": "Confirm changes are being discussed, say what you can't share yet, and give a date when you'll know more",
+            "verdict": "best",
+            "feedback": "It's uncomfortable, and people stay worried. But they hear it from you, and they learn your word holds."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 2 · Who goes",
+      "title": "Say you chose C. Now you must pick 12 names.",
+      "illustrative": true,
+      "body": [
+        "Head office leaves the choice to you. You know your people well. How do you decide?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Last in, first out: the 12 newest hires leave",
+            "verdict": "partial",
+            "feedback": "Simple and easy to explain. But you lose skills you need next year, including the two forklift trainers hired last spring."
+          },
+          {
+            "key": "B",
+            "text": "Pick them yourself, based on who you think performs best",
+            "verdict": "risky",
+            "feedback": "Fast, and you may even be right. But no one can see your reasons, so it looks like favoritism even when it isn't."
+          },
+          {
+            "key": "C",
+            "text": "Write criteria tied to the work ahead, such as skills, certifications and performance records, and have HR check the list",
+            "verdict": "best",
+            "feedback": "It takes days longer. But when someone asks \"why me?\", you have an answer that doesn't depend on whether they like you."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 3 · The announcement",
+      "title": "Say you chose C again. It's announcement day.",
+      "illustrative": true,
+      "body": [
+        "You have 12 hard conversations and 48 worried people waiting. How do you run the morning?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Send an all-staff email at 8 a.m., then meet people one by one",
+            "verdict": "risky",
+            "feedback": "Everyone gets the news at once. But 12 people learn they've lost their jobs from a phone screen, next to their coworkers."
+          },
+          {
+            "key": "B",
+            "text": "Meet each affected person privately yourself first, then hold a team meeting the same morning",
+            "verdict": "best",
+            "feedback": "It's a long, hard morning for you. But each person hears it face to face, and the team hears it before the rumors do."
+          },
+          {
+            "key": "C",
+            "text": "Hold the team meeting first, then pull people aside",
+            "verdict": "partial",
+            "feedback": "Everyone hears the same message. But 60 people then sit for hours wondering if they're next."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 4 · The weeks after",
+      "title": "Two weeks later, 48 people are doing the work of 60.",
+      "illustrative": true,
+      "body": [
+        "Say you chose B. The goodbyes are done. Now picking errors are up, the break room is quiet, and nobody volunteers for anything.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Give a rousing talk: \"We're leaner now. Let's prove we can do it.\"",
+            "verdict": "risky",
+            "feedback": "It sounds strong. To a tired team, it sounds like \"do more with less, and don't complain.\""
+          },
+          {
+            "key": "B",
+            "text": "Offer a stay bonus to a few key people",
+            "verdict": "partial",
+            "feedback": "It may keep those few. But it does nothing about the workload, and everyone notices who didn't get one."
+          },
+          {
+            "key": "C",
+            "text": "Show which tasks stop or change, and ask each crew what else to drop",
+            "verdict": "best",
+            "feedback": "It means admitting the old plan no longer works. In return, people see a job they can actually do, and they helped shape it."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The idea",
+      "title": "The people who stay are watching the process.",
+      "body": [
+        "Research by Joel Brockner and colleagues studied layoff *survivors*, the people who keep their jobs. A key finding: when the outcome is bad, people pay even closer attention to **how fairly it was handled**.",
+        "Your team can't change the 12 cuts. What they judge is whether they were told the truth, whether the choices had reasons, and whether people were treated with dignity. That judgment decides whether they trust you next time."
+      ],
+      "softwareNote": "In software companies, access to email and tools is often cut the moment a layoff starts. If accounts close before the conversation, people learn from a login screen. Where you can, have the conversation first."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Honest doesn't mean saying everything.",
+      "body": [
+        "Don't promise \"no more cuts\" unless you truly know. A broken promise undoes all the trust you built.",
+        "Notice and consultation rules differ by country and region. This lesson isn't legal advice. Check with HR or a lawyer before you say anything specific.",
+        "And this is heavy work for you too. Find someone outside the team to talk to, so your stress doesn't leak into every conversation."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "In a layoff, people remember how you did it.",
+      "body": [
+        "Each decision in this story draws on an idea from this unit:"
+      ],
+      "list": [
+        "**The rumors** → Leading in a crisis: say what you know, what you don't, and when you'll know more",
+        "**Who goes** → How leaders derail: deciding alone on gut feel looks like favoritism",
+        "**Announcement day** → Adapting your style: be direct and personal, not just efficient",
+        "**The weeks after** → Leading change: give the people who stay a new picture of the work"
+      ],
+      "callout": "**Try it today:** write down the three things you'd want to hear if your own job were at risk. Is anything stopping you from saying them to your team?",
+      "next": "Next · Why clear messages still get misheard"
+    }
+  ]
+}

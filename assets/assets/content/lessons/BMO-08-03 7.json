@@ -1,0 +1,225 @@
+{
+  "id": "BMO-08-03",
+  "unitId": "BMO-08",
+  "categoryId": "BMO",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "Redesign the work, not just the tool",
+  "readerTitle": "Why electric factories took 40 years to pay off",
+  "format": "company_story",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.1,
+  "caseKinds": [
+    "real_research",
+    "real_observation",
+    "illustrative"
+  ],
+  "caseNote": "실제 연구 (Paul David의 공장 전기화 연구, Devine의 동력 전달 연구) + 실제 관찰 (Solow의 컴퓨터 생산성 역설) + 가상 적용 (1900년 방직 공장, 배관·난방 서비스 회사). BMO-08-02(보완재)는 바깥에서 갖춰져야 할 것을 다루고, 이 레슨은 회사 안에서 일하는 방식을 다시 짜는 문제를 다룹니다.",
+  "insight": "새 도구의 가치는 대부분 도구 자체가 아니라, 그 도구를 중심으로 일을 다시 짤 때 나온다.",
+  "misconception": "더 좋은 도구로 바꾸기만 하면 성과는 저절로 오른다. 효과가 없으면 도구가 나쁜 것이다.",
+  "relatedLessonIds": [
+    "BMO-08-02",
+    "BMO-08-05"
+  ],
+  "sources": [
+    {
+      "text": "David, P. A. (1990). The Dynamo and the Computer: An Historical Perspective on the Modern Productivity Paradox. American Economic Review, 80(2), 355–361.",
+      "url": null
+    },
+    {
+      "text": "Devine, W. D. Jr. (1983). From Shafts to Wires: Historical Perspective on Electrification. Journal of Economic History, 43(2), 347–372.",
+      "url": null
+    },
+    {
+      "text": "Solow, R. (1987, July 12). We'd Better Watch Out. New York Times Book Review.",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Edison의 Pearl Street 발전소 가동은 1882년입니다. 전기 모터가 미국 공장 동력에서 큰 비중을 차지하고 제조업 생산성이 크게 오른 시기를 1920년대로 본 것은 David(1990)의 주장입니다. 제목의 \"40 years\"는 1882년~1920년대를 대략 표현한 것이므로 게시 전 원문과 대조하세요.",
+      "status": "open"
+    },
+    {
+      "note": "1900년경 전기 모터가 공장 동력에서 차지한 비중(David는 5% 미만으로 제시한 것으로 기억됨)은 확인 전이라 카드에는 \"a small share\"로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "단위 구동(unit drive)으로 가능해진 변화(단층 구조, 작업 흐름에 따른 배치, 채광, 기계별 독립 운전)는 Devine(1983)과 David(1990)를 근거로 일반적으로 서술했습니다. 원문 표현을 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Solow 인용문 \"You can see the computer age everywhere but in the productivity statistics\"의 정확한 문구와 게재 정보(NYT Book Review, 1987년 7월 12일)를 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "방직 공장과 배관·난방 회사는 설명용 가상 사례입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business models · Company story",
+      "title": "Why electric factories took 40 years to pay off",
+      "body": [
+        "Edison opened his first power station in New York in 1882. Electric motors were cleaner, quieter and more flexible than steam engines.",
+        "Yet for decades, factories that switched to electricity got only a little more productive. The big jump in US manufacturing came in the 1920s. The technology wasn't the problem. The way the factories were set up was."
+      ],
+      "image": {
+        "label": "A factory hall with one long spinning shaft and belts dropping to every machine",
+        "aspectRatio": "4:3",
+        "brief": "1900년경 공장 내부 일러스트. 천장을 가로지르는 긴 회전축 하나에서 가죽 벨트 수십 개가 아래 기계들로 내려옴. 한쪽 끝에 증기기관 대신 새 전기 모터 하나가 놓여 있지만 나머지 구조는 그대로. 실제 회사 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/bmo-08-03-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You own a mill in 1900.",
+      "illustrative": true,
+      "body": [
+        "One big steam engine turns a long shaft that runs through your three-story building. Leather belts carry power from the shaft to every loom. Machines sit wherever the shaft can reach them.",
+        "You've decided to go electric. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Swap the steam engine for one large electric motor that turns the same shaft",
+            "verdict": "partial",
+            "feedback": "Quick and cheap, and you save some fuel. But you keep every limit of the old layout, so most of the gain stays on the table."
+          },
+          {
+            "key": "B",
+            "text": "Put a small motor on each machine and rearrange the floor around the flow of work",
+            "verdict": "best",
+            "feedback": "This is where the real gains were. It costs more and disrupts work, and it often made most sense when building or rebuilding a plant."
+          },
+          {
+            "key": "C",
+            "text": "Wait until electricity is cheaper than coal",
+            "verdict": "risky",
+            "feedback": "You avoid the cost of switching, but you judge the tool only by its running cost. Rivals who rethink their floors pull ahead anyway."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "Most owners swapped the engine and kept the shaft.",
+      "body": [
+        "Replacing steam with one big motor was the common first step. The building, the belts and the layout stayed the same, so output barely moved.",
+        "The payoff came when new factories were designed around electricity from the start. Each machine got its own motor. Buildings became single-story and full of light. Machines were placed in the order the work flowed.",
+        "Economist Paul David argued in 1990 that this slow redesign explains much of the long wait."
+      ],
+      "image": {
+        "label": "Before and after: a shaft-driven floor versus a floor laid out by workflow",
+        "aspectRatio": "16:9",
+        "brief": "좌우 비교 인포그래픽. 왼쪽: 다층 건물, 천장 회전축에 매달린 기계들이 축을 따라 일렬. 오른쪽: 밝은 단층 건물, 기계마다 작은 모터, 원자재→가공→포장 순서로 화살표가 흐르는 배치. 로고 없음.",
+        "url": "assets/images/bmo-08-03-c3.jpg"
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Redesign the work, not just the tool",
+      "body": [
+        "A new tool rarely pays off by doing the old job a bit better. **Most of its value comes from changing how the work is organized around it.**",
+        "Swapping in a new tool gives you the old process, slightly cheaper. Redesigning asks a different question: now that this tool exists, how should the work be done?"
+      ],
+      "softwareNote": "A team that adds an AI coding assistant but keeps the same planning, review and testing steps often sees small gains. The bigger change comes when they rethink who writes, who checks and how work moves between them."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "What the motor on each machine made possible.",
+      "body": [
+        "Once power no longer came from one shaft, many old rules disappeared."
+      ],
+      "list": [
+        "**Layout followed the work,** not the shaft",
+        "One broken belt no longer stopped the whole floor",
+        "Machines ran only when needed, not all day",
+        "Owners could add machines one at a time as demand grew",
+        "Lighter, brighter buildings were cheaper to build"
+      ],
+      "callout": "None of these came from the motor alone. They came from rethinking the factory."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "It happened again",
+      "title": "The computer took the same path.",
+      "body": [
+        "In 1987, economist Robert Solow wrote that you could see the computer age everywhere but in the productivity statistics.",
+        "Paul David pointed to the dynamo as a likely parallel. Many offices used computers to type, file and copy the same paper forms faster. Larger gains tended to show up later, as businesses redesigned how orders, stock and records moved, rather than speeding up each old step."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Redesign has a real price.",
+      "body": [
+        "Rebuilding a process costs money and time, and output can drop while people learn. When your existing setup still works, a simple swap can be a sensible first step.",
+        "Redesign also fails when it's done from a desk. The people who do the work know which steps matter and which only exist because of the old tool. Change the work with them, not to them."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a plumbing and heating company.",
+      "illustrative": true,
+      "body": [
+        "You have 12 technicians. Three months ago you bought a scheduling app for their phones. Little has changed. The office still takes calls, writes paper job sheets, then types them into the app. Technicians still phone in for their next job.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Run more training so everyone uses all the app's features",
+            "verdict": "partial",
+            "feedback": "Better skills help a little. But if the paper sheets and phone calls stay, the app is just one more step on top of the old process."
+          },
+          {
+            "key": "B",
+            "text": "Rebuild the day: customers book slots online, technicians get jobs and parts lists on the phone and invoice on site, the office handles exceptions",
+            "verdict": "best",
+            "feedback": "This changes the work, not just the screen. It takes weeks of disruption and needs the technicians' input to get right."
+          },
+          {
+            "key": "C",
+            "text": "Drop the app. It isn't saving any time",
+            "verdict": "risky",
+            "feedback": "You save the subscription, but you judge the tool by a process it was never allowed to change."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "The same pattern shows up when a software company adds a support chatbot but keeps every ticket routed to the same queue. Value appears when the team redesigns which questions people handle at all."
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A new tool pays off when the work changes around it.",
+      "body": [
+        "Before judging a new tool, ask which steps exist only because of the old one.",
+        "**Try it today:** pick one tool you added in the past year. Write down three steps your team still does exactly as before. Which of them would you design differently if you were starting from scratch?"
+      ],
+      "next": "Next · What to automate and what to keep human"
+    }
+  ]
+}

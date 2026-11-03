@@ -1,0 +1,205 @@
+{
+  "id": "CUS-10-07",
+  "unitId": "CUS-10",
+  "categoryId": "CUS",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "Audit a checkout page for dark patterns",
+  "readerTitle": "The room was $140. The checkout said $183.",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.1,
+  "caseKinds": [
+    "illustrative",
+    "real_observation"
+  ],
+  "caseNote": "가상 사례 (30실 호텔 예약 페이지, 장부 대행 회사 가입 페이지) + 실제 관찰 (Harry Brignull의 다크 패턴 분류) · 모든 수치는 설명용",
+  "insight": "결제 페이지의 요소 하나하나를 '고객이 다 알아도 통하는가'와 '고객이 차분히 생각해도 고를 방향인가, 쉽게 되돌릴 수 있는가' 두 질문으로 걸러낼 수 있다.",
+  "misconception": "전환율을 올리는 장치는 모두 좋은 설계다. 반대로, 넛지를 전부 없애면 중립적인 페이지가 된다.",
+  "relatedLessonIds": [
+    "CUS-10-02",
+    "CUS-10-04"
+  ],
+  "sources": [
+    {
+      "text": "Harry Brignull, 'dark patterns' 용어 제안(2010) 및 deceptive.design 분류 (fake urgency, sneak into basket, drip pricing, confirmshaming, hard to cancel)",
+      "url": "https://www.deceptive.design"
+    },
+    {
+      "text": "호텔·장부 대행 사례와 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "계산 확인: 객실 $140 + 조식 $18 + 서비스 수수료 $25 = $183 (hook 제목). 개선 후 표시 가격 $140 + $25 = $165 (5번 카드).",
+      "status": "open"
+    },
+    {
+      "note": "Harry Brignull이 2010년에 'dark patterns'라는 용어를 만들었다는 점, 현재 사이트명이 deceptive.design이라는 점을 게시 전 다시 확인하세요. 카드의 패턴 이름은 그의 분류를 쉬운 말로 옮긴 것입니다.",
+      "status": "open"
+    },
+    {
+      "note": "숨은 수수료·자동 갱신 등에 대한 규제는 나라마다 다릅니다. 레슨은 특정 국가의 법률 조언을 하지 않으며, 7번 카드에서 현지 규정을 확인하라고만 안내합니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Everyday scene",
+      "title": "The room was $140. The checkout said $183.",
+      "illustrative": true,
+      "body": [
+        "You book a hotel room online. A timer says your price is held for 9:59. A $18 breakfast box is already ticked. On the last screen, a $25 \"service fee\" appears.",
+        "Each trick might lift bookings this week. Together they teach guests not to trust the next price you show them."
+      ],
+      "image": {
+        "label": "Hotel checkout screen with a timer, a ticked box and a late fee",
+        "aspectRatio": "4:3",
+        "brief": "노트북 화면 속 호텔 예약 결제 페이지. 상단에 빨간 카운트다운 타이머 \"9:59\", 이미 체크된 \"Breakfast +$18\" 상자, 마지막 단계에 갑자기 나타난 \"Service fee $25\". 총액이 $140에서 $183으로 바뀌는 모습. 실제 호텔·예약 사이트 로고 사용 금지.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Audit your own booking page.",
+      "illustrative": true,
+      "body": [
+        "You run a 30-room hotel and you're reviewing your own booking page before the busy season.",
+        "Which element would you keep exactly as it is?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "\"2 rooms left at this rate,\" pulled from live inventory",
+            "verdict": "best",
+            "feedback": "It's true and helps guests decide. In terms of **persuasion vs manipulation**, it still works when the guest knows exactly why it's there."
+          },
+          {
+            "key": "B",
+            "text": "Breakfast pre-ticked, because most guests add it anyway",
+            "verdict": "partial",
+            "feedback": "A default that matches what most people want can be a **nudge that helps**. But only if the price shows in the total and unticking is obvious."
+          },
+          {
+            "key": "C",
+            "text": "The $25 service fee, shown only on the last screen",
+            "verdict": "risky",
+            "feedback": "It makes the room look cheaper by hiding cost until guests are invested. It only works if the guest doesn't see it coming, which makes it manipulation."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "The audit tool",
+      "title": "Two questions for every element.",
+      "body": [
+        "This unit gave you two tools. Run each element of a checkout page through both."
+      ],
+      "list": [
+        "**Would it still work if the customer fully understood it?** If yes, it's persuasion. If it relies on missing, misreading or forgetting, it's manipulation. *(Persuasion vs manipulation)*",
+        "**Does it point where the customer would go on reflection, and is it easy to undo?** Then it's a nudge that helps. *(Nudges that help customers)*"
+      ],
+      "callout": "An element that fails either question is a candidate for removal."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "What to look for",
+      "title": "Where the usual suspects hide.",
+      "body": [
+        "Designer Harry Brignull coined the term *dark patterns* for designs that trick people into choices they didn't mean to make. On checkout pages, look for:"
+      ],
+      "list": [
+        "**Fake urgency:** timers that reset, stock counts that aren't real",
+        "**Sneaking into the basket:** extras added without asking",
+        "**Drip pricing:** fees revealed step by step",
+        "**Confirmshaming:** \"No thanks, I don't like saving money\"",
+        "**Hard exits:** easy to sign up, hard to cancel"
+      ],
+      "image": {
+        "label": "Checkout page with five suspect spots circled",
+        "aspectRatio": "16:9",
+        "brief": "일반적인 결제 페이지 와이어프레임 위에 돋보기 아이콘 다섯 개. 각각 타이머, 자동으로 담긴 상품, 뒤늦은 수수료 줄, 민망한 거절 버튼, 작은 글씨의 해지 링크를 가리킴. 차분한 톤, 실제 브랜드 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "After the audit",
+      "title": "The hotel page, fixed.",
+      "illustrative": true,
+      "body": [
+        "The timer goes, because rooms aren't really held. The live \"2 rooms left\" stays. Breakfast moves to an unticked box with its price beside it.",
+        "The $25 fee moves into the room rate, so guests see **$165** from the first screen.",
+        "The headline price looks higher. But the price guests see is the price they pay, and that's what earns the next booking."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a bookkeeping firm's signup page.",
+      "illustrative": true,
+      "body": [
+        "Your firm sells monthly bookkeeping to small businesses through an online signup. Your growth lead proposes three changes to lift sign-ups.",
+        "Which one would you ship?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Default to annual billing with the saving shown, and monthly one click away",
+            "verdict": "best",
+            "feedback": "Labeled, easy to switch and close to what most customers pick anyway: a **nudge that helps**. A short refund window covers the few who regret it."
+          },
+          {
+            "key": "B",
+            "text": "Change the decline button to \"No thanks, I'll do my own taxes at midnight\"",
+            "verdict": "risky",
+            "feedback": "It may win a few clicks, but it works through embarrassment, not information. It fails the **persuasion vs manipulation** test in a business built on trust."
+          },
+          {
+            "key": "C",
+            "text": "Add a pre-ticked 30-day payroll trial that turns paid unless cancelled",
+            "verdict": "partial",
+            "feedback": "A trial can be genuinely useful. Pre-ticked with silent billing, it earns mostly from people who forget. Untick it, or send a clear reminder before the first charge."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Expect the conversion number to dip.",
+      "body": [
+        "Removing dark patterns often lowers sign-ups or order size at first. Some of those sales would have come back as refunds, chargebacks or angry reviews. Track those next to conversion, along with repeat purchases.",
+        "Don't overcorrect either. Every page has a default and an order, so there's no neutral design. And rules on hidden fees and auto-renewal differ by country, so check what applies where you sell."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Audit every element with two questions.",
+      "body": [
+        "Concepts used: **persuasion vs manipulation** (would it still work if they understood it?) and **nudges that help customers** (does it point where they'd go on reflection, and is it easy to undo?).",
+        "**Try it today:** buy something through your own checkout as a new customer. Screenshot each step and mark every element pass or fail."
+      ],
+      "next": "Next · Judge a 'psychology hack' blog post"
+    }
+  ]
+}

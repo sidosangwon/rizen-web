@@ -1,0 +1,215 @@
+{
+  "id": "CUS-04-09",
+  "unitId": "CUS-04",
+  "categoryId": "CUS",
+  "order": 9,
+  "type": "case",
+  "conceptTag": "Dropbox's demo video",
+  "readerTitle": "What Dropbox's famous demo video really tested",
+  "format": "counterexample",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Dropbox, 2007~2008년 데모 영상) + 가상 적용 (접이식 물류 상자 제조사)",
+  "insight": "데모는 '사람들이 원하는가'만 시험한다. Dropbox 영상은 제품 개발을 대신한 것이 아니라, 만들기와 나란히 수요라는 다른 가정을 시험했다.",
+  "misconception": "제품을 만들지 말고 영상부터 만들면 된다. 대기자 명단이 길면 사업이 된다는 뜻이다.",
+  "relatedLessonIds": [
+    "CUS-04-01",
+    "CUS-04-02"
+  ],
+  "sources": [
+    {
+      "text": "Ries, E. (2011). The Lean Startup. Crown Business. Dropbox 데모 영상과 대기자 명단 증가(약 5,000명→약 75,000명)에 대한 Drew Houston의 설명 인용",
+      "url": null
+    },
+    {
+      "text": "Drew Houston, \"Dropbox: Startup Lessons Learned\" 발표 (Startup Lessons Learned Conference, 2010). 기존 대안(이메일, USB)과 설명하기 어려운 제품이라는 문제",
+      "url": null
+    },
+    {
+      "text": "Dropbox, Inc. Form S-1 (SEC, 2018). 이후 상장 기업으로 성장했다는 사실 확인용",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "대기자 명단 5,000명→75,000명 '하룻밤 사이' 수치는 The Lean Startup에 인용된 Houston 본인의 설명입니다. 독립 검증 수치가 아니므로 카드에 'by Houston's account'로 적었습니다. 원문 표현을 게시 전 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "영상 시기: 첫 데모 영상은 2007년(Y Combinator 지원·Hacker News 공개), Digg를 겨냥한 영상은 2008년 초로 알려져 있습니다. 카드에는 '2008'과 'a later version'으로만 적었습니다. 날짜를 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "영상 속 소프트웨어가 실제로 작동하는 초기 버전이었다는 점은 Houston의 발표와 Ries의 서술에 근거합니다. 영상에 '내부 농담'이 많았다는 점도 Ries의 서술이며, 구체적인 농담 내용은 적지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "2번 카드의 상황 설명(2007년, 사람들이 이메일·USB로 충분하다고 반응)은 Houston 발표 내용을 일반적으로 요약한 것이며 선택지는 가상입니다. 8번 카드 상자 제조사는 전부 가상 사례이며 수치는 쓰지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Counterexample",
+      "title": "What Dropbox's famous demo video really tested",
+      "body": [
+        "In 2008, a short video showed files quietly syncing from one computer to another. The product was still in private beta.",
+        "It became one of the most retold stories in startups: test your idea before you build it. The usual retelling skips the most useful part."
+      ],
+      "image": {
+        "label": "A laptop screen showing a short demo video of files syncing",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 노트북 화면에 재생 중인 영상 플레이어, 화면 안에서 파일 아이콘이 다른 컴퓨터로 날아가는 모습. 화면 옆에 사람 아이콘이 점점 길어지는 줄. 실제 Dropbox 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/cus-04-09-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Your product is hard to explain.",
+      "body": [
+        "It's 2007. You're building software that keeps a folder in sync across all your computers. An early version works. Making it reliable for everyone will take a long time.",
+        "When you describe it, people shrug. They already email files to themselves or carry USB sticks. How do you find out if people really want it?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Finish the full product for every computer, then launch",
+            "verdict": "risky",
+            "feedback": "You'd learn the answer for sure, but only after spending a long time on something people might not want."
+          },
+          {
+            "key": "B",
+            "text": "Survey people: would you use automatic file sync?",
+            "verdict": "partial",
+            "feedback": "Cheap and fast, but people already told you they're fine with email. Words about a product they can't picture won't tell you much."
+          },
+          {
+            "key": "C",
+            "text": "Record a short video of it working and ask viewers to join a waiting list",
+            "verdict": "best",
+            "feedback": "People see the experience instead of imagining it, and joining the list is a small action you can count. Next card shows what happened."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "A screencast and a very long line.",
+      "body": [
+        "Drew Houston, Dropbox's co-founder, recorded a simple screencast: his screen, his voice, files appearing on another machine.",
+        "A later version was aimed at Digg, a tech news site, and packed with in-jokes for that crowd. By Houston's account, quoted in Eric Ries's *The Lean Startup*, the beta waiting list jumped from about 5,000 to about **75,000** people overnight."
+      ],
+      "image": {
+        "label": "A waiting list growing from a short line to a huge crowd",
+        "aspectRatio": "16:9",
+        "brief": "왼쪽에 짧은 줄(\"About 5,000\"), 오른쪽에 화면 밖까지 이어지는 긴 줄(\"About 75,000\"). 가운데 재생 버튼 아이콘. 실제 로고나 사이트 이름 표시는 쓰지 않음.",
+        "url": "assets/images/cus-04-09-c3.jpg"
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "A demo test answers one question.",
+      "body": [
+        "A **demo test** shows the product working, often on video, and asks people to take a small action, like joining a list. It's a form of minimum viable product: the smallest thing that answers your riskiest question.",
+        "Dropbox's riskiest question wasn't only \"Can we build sync?\" It was \"Will people care, when they think they already have a solution?\" Watching sync happen answered that better than any description could."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The twist",
+      "title": "The video didn't replace building.",
+      "body": [
+        "The story is often told as \"make a video instead of a product.\" That's not what happened. The video showed real, early software. It let people see the experience the finished product promised.",
+        "The video tested **demand**. The engineering work tested whether the team could deliver. Dropbox needed both answers, and worked on them side by side rather than one instead of the other."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Why it worked here",
+      "title": "Three conditions made the video powerful.",
+      "body": [
+        "The video wasn't magic. It fit the situation:"
+      ],
+      "list": [
+        "**Hard to explain, easy to show:** sync sounds dull and looks surprising",
+        "**The right audience:** tech fans who felt the pain of scattered files",
+        "**A clear next step:** joining a list took seconds and could be counted"
+      ],
+      "callout": "Remove any one, and a video tells you much less."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A waiting list is not a customer.",
+      "body": [
+        "Joining a list costs a few seconds and an email address. It shows interest, not willingness to pay.",
+        "A big list can also hide a narrow audience. Tech fans may love what ordinary buyers ignore. And no video can tell you whether you can deliver at a price that works. Treat sign-ups as permission to test the next assumption, not as proof of a business."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a folding shipping crate.",
+      "illustrative": true,
+      "body": [
+        "Your small factory has designed a plastic crate that folds flat when empty, saving truck space on return trips. Mass production needs a costly steel mold. You have one hand-built prototype.",
+        "Warehouse managers say it \"sounds useful.\" What's your next step?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Order the mold and start production",
+            "verdict": "risky",
+            "feedback": "You bet the biggest cost on polite interest. If buyers don't order, the mold is money you can't get back."
+          },
+          {
+            "key": "B",
+            "text": "Post a demo video of the prototype and count sign-ups",
+            "verdict": "partial",
+            "feedback": "Seeing it fold beats describing it, so you'll learn about interest. But sign-ups are cheap, and a video can't show whether the crate survives real handling."
+          },
+          {
+            "key": "C",
+            "text": "Show the prototype on video to buyers, ask for small deposits on a first batch, and stress-test it in a real warehouse",
+            "verdict": "best",
+            "feedback": "Deposits test commitment, and the warehouse trial tests delivery. It costs more time than a video alone, but it answers both risks before the mold."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "The same split applies to apps: a demo video can test whether users want a feature, while a paid pilot and a working prototype test whether they'll pay and whether you can build it."
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Show it working, then ask for a step that costs something.",
+      "body": [
+        "A demo can prove people want something long before it's finished. It can't prove they'll pay or that you can deliver.",
+        "**Try it today:** write down the one assumption your next idea depends on most. Then name the cheapest demo that would let a customer show you, not tell you, that it's true."
+      ],
+      "next": "Next · Test an idea in one week with $500"
+    }
+  ]
+}

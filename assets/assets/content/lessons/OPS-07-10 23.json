@@ -1,0 +1,238 @@
+{
+  "id": "OPS-07-10",
+  "unitId": "OPS-07",
+  "categoryId": "OPS",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "A crisis hits",
+  "readerTitle": "7:40 a.m. Monday: the order system is down and the trucks come at 3",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.1,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (금속 부품 제조사의 주문·출고 소프트웨어 장애) · 회사, 인물, 수치 모두 설명용",
+  "insight": "위기 대응은 하나의 큰 결정이 아니다. 사실 확인, 알리기, 핵심 업무 지키기, 재발 막기를 순서대로 결정하는 일이다.",
+  "misconception": "위기가 오면 모두가 즉시 뛰어들어 모든 것을 평소처럼 되살리는 것이 최선이다. 끝나면 원인 업체만 바꾸면 된다.",
+  "relatedLessonIds": [
+    "OPS-07-05",
+    "OPS-07-06"
+  ],
+  "sources": [
+    {
+      "text": "리스크 관리와 사업 연속성의 일반 원칙 (위기 대응 책임자 지정, 핵심 업무 우선순위, 단일 장애점 제거)",
+      "url": null
+    },
+    {
+      "text": "모든 회사, 인물, 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치(직원 60명, 주문 300건, 긴급 주문 40건, 장애 30시간)는 설명용 가상 수치입니다. 카드 간 숫자가 일치하는지 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "특정 국가의 법적 신고 의무(예: 데이터 유출 시 신고)는 다루지 않습니다. 이 시나리오는 데이터 유출이 아닌 공급업체 서비스 장애로 설정했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "운송사의 웹 예약으로 라벨을 만드는 우회 방법은 일반적인 예시입니다. 실제 가능 여부는 운송사마다 다르므로 카드에 특정 업체를 적지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Risk · Simulation",
+      "title": "7:40 a.m. Monday: the order system is down and the trucks come at 3",
+      "illustrative": true,
+      "body": [
+        "You run a 60-person company that makes metal fasteners for repair shops and factories. Every order, pick list and shipping label runs through one cloud software system.",
+        "This morning it won't load. The vendor's status page says \"investigating.\" No time estimate. 300 orders are waiting, and the carrier's trucks arrive at 3 p.m.",
+        "You'll make four calls today. Each one builds on the last."
+      ],
+      "image": {
+        "label": "Warehouse at dawn with a frozen screen and an empty loading dock",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 이른 아침 창고. 포장대 위 모니터에 로딩 아이콘만 돌고, 뒤로 빈 출고장과 \"3:00 PM\" 시계. 직원 몇 명이 화면을 바라봄. 실제 소프트웨어나 운송사 로고는 쓰지 않음.",
+        "url": "assets/images/ops-07-10-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 · The first hour",
+      "title": "Everyone is looking at you.",
+      "illustrative": true,
+      "body": [
+        "Staff are gathering by the packing tables. Your IT person is rebooting computers. A salesperson is already on the phone with a customer.",
+        "What do you do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Wait for the vendor's fix and ask staff to stand by",
+            "verdict": "risky",
+            "feedback": "You lose the morning hoping. If the fix takes a day, you'll face the 3 p.m. trucks with no plan and nothing packed."
+          },
+          {
+            "key": "B",
+            "text": "Put one person in charge, gather facts for 30 minutes, then meet",
+            "verdict": "best",
+            "feedback": "You trade a little speed for a clear picture: what still works, which orders are urgent, what the vendor knows. One owner means one plan."
+          },
+          {
+            "key": "C",
+            "text": "Let everyone jump in on their own: IT fixes, sales calls, warehouse improvises",
+            "verdict": "partial",
+            "feedback": "The energy is real, but customers hear three different stories and two teams pick the same orders. Effort without a plan creates new problems."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 2 · What to tell customers",
+      "title": "Say you put one person in charge. Now it's 9:00.",
+      "illustrative": true,
+      "body": [
+        "The facts: the outage hits many of the vendor's clients and could last a day. Of your 300 orders, 40 are for factories whose machines stop without your parts.",
+        "What do you tell customers?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Call the 40 urgent customers and stay quiet with the rest",
+            "verdict": "partial",
+            "feedback": "You protect the customers who matter most today. The other 260 find out when tracking never updates, and they wonder what else you didn't say."
+          },
+          {
+            "key": "B",
+            "text": "Tell everyone now: what happened, what you know, what you don't, and when the next update comes",
+            "verdict": "best",
+            "feedback": "Admitting \"we don't know yet\" feels weak, but a promised noon update builds trust. Urgent customers can plan, and nobody is surprised."
+          },
+          {
+            "key": "C",
+            "text": "Say it will be fixed by lunch so nobody panics",
+            "verdict": "risky",
+            "feedback": "It calms people for three hours. Then you break a promise you never controlled, and every update after that is doubted."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 3 · Keep shipping",
+      "title": "Say you told everyone. It's 10:30 and still down.",
+      "illustrative": true,
+      "body": [
+        "Your team finds a way around the system. The sales inbox holds every order confirmation. The carrier lets you book shipments and print labels on its own website.",
+        "How do you use it?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Don't. Pause all shipping until the system is back",
+            "verdict": "risky",
+            "feedback": "No mistakes, but nothing ships. Forty factories may stop their machines, and you lose a day you can't get back."
+          },
+          {
+            "key": "B",
+            "text": "Run the 40 urgent orders on paper, hold the rest",
+            "verdict": "best",
+            "feedback": "Slower work on fewer orders keeps errors low and keeps your most critical customers running. The other 260 wait a day, as you already told them."
+          },
+          {
+            "key": "C",
+            "text": "Push all 300 orders through on paper by 3 p.m.",
+            "verdict": "partial",
+            "feedback": "Heroic, and some will ship. But rushed hand-written pick lists mean wrong parts, and a wrong part costs more than a late one."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "If you run a software business, the crisis is often your own outage. The same order applies: one person in charge, an honest status update with a next-update time, then keep the most critical features or customers working first."
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 4 · The week after",
+      "title": "Say you shipped the 40. The system came back after 30 hours.",
+      "illustrative": true,
+      "body": [
+        "All 40 urgent orders arrived on time. The rest shipped a day late. Now your team wants to make sure this never hurts this much again.",
+        "What do you change?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Switch to a different software vendor",
+            "verdict": "partial",
+            "feedback": "It might be more reliable, but switching is costly and any vendor can go down. You'd still have one system that everything depends on."
+          },
+          {
+            "key": "B",
+            "text": "Keep the vendor, but build a backup: a daily export of open orders, a ready paper-process kit, and a practice run each quarter",
+            "verdict": "best",
+            "feedback": "Small, steady costs turn today's lucky improvising into a plan. The system can still fail, but the business no longer stops when it does."
+          },
+          {
+            "key": "C",
+            "text": "Buy business interruption insurance and move on",
+            "verdict": "risky",
+            "feedback": "Insurance may cover some lost money. It won't stop your customers' machines next time, and they're the ones who'll remember."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Backups cost something too.",
+      "body": [
+        "A paper process is slower and more error-prone. It works for 40 orders, not for 3,000. And a plan nobody has practiced tends to fail the day you need it.",
+        "Don't protect against everything. Weigh how likely a failure is against how much it would hurt. A system that runs every order deserves a backup. A rarely used report tool probably doesn't."
+      ],
+      "image": {
+        "label": "A simple backup kit on a shelf next to a calendar",
+        "aspectRatio": "16:9",
+        "brief": "선반 위에 \"Backup kit\" 상자: 출력된 주문 목록, 빈 피킹 리스트 양식, 연락처 카드. 옆 벽걸이 달력에 분기마다 \"Practice\" 표시. 차분한 색감, 로고 없음.",
+        "url": "assets/images/ops-07-10-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A crisis is four decisions, in order.",
+      "body": [
+        "Each call you made maps to an idea from this unit:"
+      ],
+      "list": [
+        "**Decision 1 → Crisis response:** one owner, facts before action",
+        "**Decision 2 → Crisis response:** say what you know, what you don't, and when you'll update",
+        "**Decision 3 → Keeping the business running:** protect the most critical work first",
+        "**Decision 4 → Single points of failure:** add a backup, sized by probability times impact"
+      ],
+      "callout": "**Try it today:** name the one system or supplier your business can't run without. Write down what you'd do in the first hour if it failed.",
+      "next": "Next · A new unit begins"
+    }
+  ]
+}

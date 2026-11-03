@@ -1,0 +1,247 @@
+{
+  "id": "ECO-04-01",
+  "unitId": "ECO-04",
+  "categoryId": "ECO",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Price elasticity",
+  "readerTitle": "Why a 15% price cut shrank a box maker's revenue",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.3,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (골판지 상자 제조사, 팀 일정관리 앱) · 모든 수치는 설명용",
+  "insight": "가격을 바꾸기 전에 '얼마나 싸게/비싸게'보다 '고객이 얼마나 반응할까'를 먼저 묻는다. 같은 제품도 고객이 다르면 반응이 다르다.",
+  "misconception": "가격을 내리면 판매량이 늘어 매출이 오른다. 가격을 올리면 고객이 떠나 매출이 준다.",
+  "relatedLessonIds": [
+    "ECO-04-02",
+    "ECO-08-02"
+  ],
+  "sources": [
+    {
+      "text": "미시경제학의 표준 개념 (수요의 가격탄력성 = 수요량 변화율 ÷ 가격 변화율)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "일반 상자 계산: 가격 $1.00 → $0.85(−15%), 판매량 100,000 → 103,000(+3%). 매출 $100,000 → 0.85 × 103,000 = $87,550(−12.45%, 카드에는 −12%). 재료비 상자당 $0.60 가정 시 남는 돈 0.40 × 100,000 = $40,000 → 0.25 × 103,000 = $25,750(−35.6%, 카드에는 −36%·\"more than a third\"). 탄력성 3 ÷ 15 = 0.2.",
+      "status": "open"
+    },
+    {
+      "note": "인쇄 상자 계산: $2.00 → $1.80(−10%), 주문 +25%. 매출 2.00N → 1.80 × 1.25N = 2.25N(+12.5%). 탄력성 25 ÷ 10 = 2.5. 원가 $1.40 가정 시 상자당 $0.60 → $0.40, 0.40 × 1.25 = $0.50(원래 주문 한 건당), 0.50 ÷ 0.60 = 0.833 → 이익 −16.7%(카드에는 17%).",
+      "status": "open"
+    },
+    {
+      "note": "앱 계산: $20 → $24(+20%), 가입 −5%. 100명 × $20 = $2,000, 95명 × $24 = $2,280(+14%). 탄력성 5 ÷ 20 = 0.25.",
+      "status": "open"
+    },
+    {
+      "note": "수요를 움직이는 요인 목록(대체재, 예산 비중, 전환 비용, 시간)은 교과서 표준 설명입니다. 필수재·사치재 구분은 형제 레슨 ECO-04-02에서 다루므로 여기서는 제외했습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Pricing · Counterexample",
+      "title": "Why a 15% price cut shrank a box maker's revenue",
+      "illustrative": true,
+      "body": [
+        "A maker of plain shipping boxes cut its price by 15% to win more orders. Orders rose by 3%.",
+        "Revenue fell. Profit fell by more than a third. The plan was logical. The customers just didn't behave the way it assumed."
+      ],
+      "image": {
+        "label": "Stacks of cardboard boxes beside a falling revenue arrow",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 공장 바닥에 평범한 골판지 상자가 쌓여 있고, 상자 더미 위에 \"−15%\" 가격표. 옆에는 아래로 꺾이는 매출 화살표. 실제 기업 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/eco-04-01-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Will a cheaper box sell more boxes?",
+      "illustrative": true,
+      "body": [
+        "You sell plain shipping boxes at $1.00 each, about 100,000 a month. Your customers are food and electronics makers. A box is about 1% of what their products cost, and switching suppliers means re-testing boxes on their packing lines.",
+        "You're thinking of cutting the price to $0.85. What happens?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Orders jump by 20% or more, and revenue rises",
+            "verdict": "risky",
+            "feedback": "That's the hopeful version. It assumes customers want more boxes, but they only need as many as they have products to ship."
+          },
+          {
+            "key": "B",
+            "text": "Orders barely move, and revenue falls",
+            "verdict": "best",
+            "feedback": "Right. A cheaper box doesn't make customers ship more goods, and switching is a hassle. You give up 15c on every box and gain few new ones."
+          },
+          {
+            "key": "C",
+            "text": "Orders rise just enough to keep revenue about flat",
+            "verdict": "partial",
+            "feedback": "You'd need about 18% more boxes just to break even on revenue. With these customers, nothing points to that kind of jump."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What happened",
+      "title": "The month after the cut.",
+      "illustrative": true,
+      "body": [
+        "Customers ship as many boxes as they have products to ship. A cheaper box doesn't create more products."
+      ],
+      "breakdown": [
+        {
+          "value": "−15%",
+          "label": "Price",
+          "detail": "$1.00 → $0.85 per box",
+          "highlight": false
+        },
+        {
+          "value": "+3%",
+          "label": "Boxes sold",
+          "detail": "100,000 → 103,000",
+          "highlight": false
+        },
+        {
+          "value": "−12%",
+          "label": "Revenue",
+          "detail": "$100,000 → $87,550",
+          "highlight": false
+        },
+        {
+          "value": "−36%",
+          "label": "Left after materials",
+          "detail": "$40,000 → $25,750, with materials at $0.60 a box",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Price elasticity",
+      "body": [
+        "**Price elasticity** measures how strongly the amount people buy reacts to a change in price. Divide the % change in quantity by the % change in price.",
+        "Here: 3% ÷ 15% = 0.2. Below 1, demand is *inelastic*: price cuts lose revenue and price rises gain it. Above 1, demand is *elastic*, and the reverse is true."
+      ],
+      "image": {
+        "label": "A stiff spring and a stretchy spring under the same price push",
+        "aspectRatio": "16:9",
+        "brief": "두 개의 스프링 비교 인포그래픽. 같은 크기의 손이 \"Price −15%\"로 누르는데, 왼쪽 단단한 스프링은 거의 안 늘어남(\"Inelastic: 0.2\"), 오른쪽 부드러운 스프링은 크게 늘어남(\"Elastic: 2.5\"). 단순한 색 블록 스타일.",
+        "url": "assets/images/eco-04-01-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "What makes demand stretch or stiffen.",
+      "body": [
+        "A few things decide how much buyers react to a price change:"
+      ],
+      "list": [
+        "**Substitutes:** can buyers easily get something similar elsewhere?",
+        "**Share of budget:** is your price a big or tiny part of what they spend?",
+        "**Switching effort:** does changing supplier take testing, contracts or retraining?",
+        "**Time:** buyers often react more over months than over days"
+      ],
+      "callout": "The box maker's customers had little reason to react, so the cut bought almost nothing."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The flip side",
+      "title": "Same factory, different customers.",
+      "illustrative": true,
+      "body": [
+        "The company also sells printed boxes to small online shops at $2.00. These buyers compare quotes online and can switch with a few clicks.",
+        "A 10% cut there brought 25% more orders. Elasticity: 25% ÷ 10% = **2.5**. Revenue rose 12.5%.",
+        "Same boxes, same factory. The cut failed in one market and worked in the other, because the buyers were different."
+      ],
+      "image": {
+        "label": "Two customer groups reacting differently to the same price tag",
+        "aspectRatio": "16:9",
+        "brief": "화면을 반으로 나눔. 왼쪽은 대형 공장 구매 담당자 한 명이 가격표를 보고도 무덤덤함(\"+3%\"). 오른쪽은 노트북 앞 소규모 온라인 판매자 여러 명이 몰려옴(\"+25%\"). 실제 로고·상표 없음.",
+        "url": "assets/images/eco-04-01-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Elastic doesn't mean profitable.",
+      "illustrative": true,
+      "body": [
+        "Say each printed box costs $1.40 to make. Before the cut, each left $0.60. After, $0.40. Even with 25% more orders, that's $0.50 per original order instead of $0.60. Revenue up, profit down about 17%.",
+        "Elasticity also moves. It changes at different price levels, over time, and when rivals match you. Test on a small group before changing prices for everyone."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software subscription.",
+      "illustrative": true,
+      "body": [
+        "Your team-planning app costs $20 per user a month. For one month, you show $24 to half of new sign-ups. That group signs up 5% less often than the $20 group.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep $20. Losing 5% of sign-ups is too costly",
+            "verdict": "risky",
+            "feedback": "That protects sign-up numbers but leaves money on the table: 95 users at $24 bring $2,280, versus $2,000 from 100 users at $20."
+          },
+          {
+            "key": "B",
+            "text": "Move new customers to $24 and track cancellations for a few months",
+            "verdict": "best",
+            "feedback": "An elasticity of about 0.25 says demand is inelastic near this price. Tracking cancellations checks whether paying users react more slowly than new sign-ups."
+          },
+          {
+            "key": "C",
+            "text": "Jump straight to $30, since users barely react",
+            "verdict": "partial",
+            "feedback": "The direction is right, but a test between $20 and $24 says little about $30. Buyers often get more sensitive as the price climbs."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Before you change a price, ask how much buyers will react.",
+      "body": [
+        "Price elasticity tells you whether a cut buys real volume or just gives money away, and whether a rise drives customers off or simply earns more.",
+        "**Try it today:** pick one product. Write down how easily your customers could switch, how big your price is in their budget, and how you think they'd react to a 10% change."
+      ],
+      "next": "Next · Why some purchases barely flinch at price"
+    }
+  ]
+}

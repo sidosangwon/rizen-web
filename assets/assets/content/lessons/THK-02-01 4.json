@@ -1,0 +1,256 @@
+{
+  "id": "THK-02-01",
+  "unitId": "THK-02",
+  "categoryId": "THK",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Confirmation bias",
+  "readerTitle": "Twelve great days and the numbers nobody counted",
+  "format": "numbers_twist",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (생활용품 매장, 금속 브래킷 공장) + 실제 연구 (Wason 1960, 2-4-6 과제) · 매장과 공장 수치는 설명용",
+  "insight": "내 생각을 지지하는 사례가 얼마나 많은지가 아니라, 내가 틀렸다면 무엇이 보여야 하는지를 확인할 때 믿음이 검증된다.",
+  "misconception": "내 생각을 뒷받침하는 사례가 많이 모이면 그 생각이 맞다는 증거다.",
+  "relatedLessonIds": [
+    "THK-04-03",
+    "THK-02-02"
+  ],
+  "sources": [
+    {
+      "text": "Wason, P. C. (1960). On the failure to eliminate hypotheses in a conceptual task. Quarterly Journal of Experimental Psychology, 12(3), 129–140.",
+      "url": null
+    },
+    {
+      "text": "Nickerson, R. S. (1998). Confirmation bias: A ubiquitous phenomenon in many guises. Review of General Psychology, 2(2), 175–220.",
+      "url": null
+    },
+    {
+      "text": "매장·공장 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "매장 계산: 디스플레이 설치 20일 중 좋은 날 12일 = 12 ÷ 20 = 60%, 미설치 30일 중 좋은 날 18일 = 18 ÷ 30 = 60%. 총 50일 = 20 + 30, 좋은 날 합계 30일, 부진한 날 8 + 12 = 20일. 모두 가상 수치입니다.",
+      "status": "open"
+    },
+    {
+      "note": "Wason 2-4-6 과제 설명(참가자가 규칙에 맞는 숫자 조합만 시험하는 경향, 실제 규칙은 '증가하는 세 수')을 원문으로 다시 확인하세요. 정확한 정답률 수치는 카드에 넣지 않고 'many'로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "5번 카드 예시 조합(8-10-12, 20-22-24, 1-5-20)은 설명을 위해 고른 것이며 원 논문의 실제 참가자 응답을 인용한 것이 아닙니다. 문구가 인용처럼 읽히지 않는지 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Numbers twist",
+      "title": "Twelve great days and the numbers nobody counted",
+      "illustrative": true,
+      "body": [
+        "Maya runs a home goods store. Last month she built a bold new window display, and she's sure it lifts sales.",
+        "She keeps a list: 12 strong sales days since it went up. That looks like proof. The numbers that aren't on her list tell a different story."
+      ],
+      "image": {
+        "label": "Store owner holding a short list in front of a bright window display",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 생활용품 매장의 화려한 쇼윈도 앞에서 매장 주인이 짧은 메모지(체크 표시 12개)를 자랑스럽게 들고 있음. 뒤쪽 그림자 속에 아무도 보지 않는 두꺼운 장부가 놓여 있음. 실제 브랜드 로고 사용 금지.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which numbers would show if the display works?",
+      "illustrative": true,
+      "body": [
+        "Over 50 days, the display was up for 20 and down for 30 while the window was repainted. A \"good day\" means sales above Maya's usual target.",
+        "What do you need to check?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The good days while the display was up",
+            "verdict": "risky",
+            "feedback": "It's the number that feels like proof. But 12 good days means little until you know how many good days happened without the display."
+          },
+          {
+            "key": "B",
+            "text": "Good and slow days while the display was up",
+            "verdict": "partial",
+            "feedback": "Better: you'd see 12 good and 8 slow days. But you still can't tell whether that beats normal without the days it was down."
+          },
+          {
+            "key": "C",
+            "text": "Good and slow days, both with and without the display",
+            "verdict": "best",
+            "feedback": "Yes. Only by comparing both periods can you see whether the display changed anything. Next card shows what Maya found."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "Same rate, with or without it.",
+      "illustrative": true,
+      "body": [
+        "With the display: 12 of 20 days were good, **60%**. Without it: 18 of 30, also **60%**.",
+        "Maya's list was true. It was just one corner of the table. The display may look lovely, but these numbers give no sign that it sells more."
+      ],
+      "chart": {
+        "unit": "count",
+        "groups": [
+          {
+            "label": "Display up (20 days)",
+            "rows": [
+              {
+                "label": "Good days",
+                "value": 12,
+                "highlight": true
+              },
+              {
+                "label": "Slow days",
+                "value": 8,
+                "highlight": false
+              }
+            ]
+          },
+          {
+            "label": "Display down (30 days)",
+            "rows": [
+              {
+                "label": "Good days",
+                "value": 18,
+                "highlight": false
+              },
+              {
+                "label": "Slow days",
+                "value": 12,
+                "highlight": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Confirmation bias",
+      "body": [
+        "**Confirmation bias** is the habit of looking for, noticing and remembering evidence that supports what you already believe, while skipping evidence that could prove you wrong.",
+        "Maya didn't lie or fudge anything. She simply counted the days that fit her idea. The days that didn't fit never made it onto the list, so they never got a vote."
+      ],
+      "image": {
+        "label": "A four-cell table with only one cell lit up",
+        "aspectRatio": "16:9",
+        "brief": "2×2 표 인포그래픽. 가로 \"Display up / Display down\", 세로 \"Good day / Slow day\". 왼쪽 위 칸(12)만 밝게 빛나고 돋보기가 비추고 있으며, 나머지 세 칸(8, 18, 12)은 회색으로 흐릿하게 처리.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "The 2-4-6 puzzle",
+      "body": [
+        "In 1960, psychologist Peter Wason showed people three numbers, 2-4-6, and said they followed a rule. To find it, they could suggest other sets of three and hear yes or no.",
+        "Many guessed \"even numbers rising by two\" and tested sets like 8-10-12 or 20-22-24. Every answer was yes, so they felt sure. The real rule was simply \"any three rising numbers.\"",
+        "What they rarely tried were **tests that could prove them wrong**, like 1-5-20."
+      ],
+      "image": {
+        "label": "Cards showing 2-4-6, 8-10-12 and an untried 1-5-20",
+        "aspectRatio": "16:9",
+        "brief": "숫자 카드 세 장. \"2-4-6\", \"8-10-12\"에는 초록 체크 표시, 옆에 뒤집힌 채 아무도 손대지 않은 카드 \"1-5-20\"이 물음표와 함께 놓여 있음. 깔끔한 플랫 일러스트.",
+        "url": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where it shows up",
+      "title": "It hides in everyday calls.",
+      "body": [
+        "Once you believe something, it quietly decides which facts you go looking for:"
+      ],
+      "list": [
+        "**Hiring:** a strong first impression, then interview questions that confirm it",
+        "**Suppliers:** remembering every late delivery from the vendor you already distrust",
+        "**Pricing:** reading a few happy reviews after a price rise and calling it a success"
+      ],
+      "callout": "The fix is one question: what would I expect to see if I were wrong?",
+      "softwareNote": "A team sure a feature drives retention looks at users who use it and stay. The full check also counts users who use it and still churn, and users who stay without ever touching it."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Doubting everything isn't the answer.",
+      "body": [
+        "You can't switch this bias off, and testing every belief would freeze you. Save the extra effort for decisions that are costly or hard to undo.",
+        "A fair comparison can also mislead. Maya's 50 days are a small sample, and weather or paydays could blur the picture. The goal is an honest look at all the evidence, not a perfect verdict."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a factory.",
+      "illustrative": true,
+      "body": [
+        "You run a plant that makes metal brackets. Your quality lead is sure the night shift causes most defects and brings you a folder of 40 night-shift defect reports.",
+        "Before you change anything on nights, what do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Ask for more night-shift reports to strengthen the case",
+            "verdict": "risky",
+            "feedback": "A thicker folder feels stronger, but it's the same corner of the table. It never shows how the day shift compares."
+          },
+          {
+            "key": "B",
+            "text": "Compare defects per 1,000 brackets on each shift, and check what else differs, like machines or material batches",
+            "verdict": "best",
+            "feedback": "This looks for evidence that could prove the idea wrong. If day shift has a similar rate, or defects trace to one machine, you avoid blaming the wrong people."
+          },
+          {
+            "key": "C",
+            "text": "Move your best day supervisor to nights to fix it",
+            "verdict": "partial",
+            "feedback": "Cheap to try, and it may help if the idea is right. But you'd act on an untested belief and might never learn the real cause."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Look for the evidence that could prove you wrong.",
+      "body": [
+        "Supporting examples are easy to find for almost any belief. The useful evidence is usually the comparison you didn't want to make.",
+        "**Try it today:** pick one belief about your business, like \"most new customers come from referrals.\" Write down what you'd expect to see if it were false, then go check."
+      ],
+      "next": "Next · Why studying winners can teach you the wrong lesson"
+    }
+  ]
+}

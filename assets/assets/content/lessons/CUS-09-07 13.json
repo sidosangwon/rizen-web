@@ -1,0 +1,261 @@
+{
+  "id": "CUS-09-07",
+  "unitId": "CUS-09",
+  "categoryId": "CUS",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "Sell software to a hospital",
+  "readerTitle": "The nurse said yes. Why is there still no deal?",
+  "format": "everyday_scene",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.3,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (병원 간호 근무표 소프트웨어, 호텔 조식용 베이커리) · 실제 기업·수치 없음",
+  "insight": "기관에 파는 일은 한 사람을 설득하는 일이 아니라, 거절할 수 있는 모든 사람의 걱정을 하나씩 덜어 주는 일이다.",
+  "misconception": "제품을 가장 좋아하는 실사용자가 '사겠다'고 하면 거래는 거의 끝난 것이다.",
+  "relatedLessonIds": [
+    "CUS-09-02",
+    "CUS-09-03"
+  ],
+  "sources": [
+    {
+      "text": "B2B 구매 행동의 표준 개념 (구매 위원회, 구매자가 느끼는 위험)",
+      "url": null
+    },
+    {
+      "text": "모든 장면은 설명용 가상 사례",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "병원 구매 절차(IT 보안 검토, 조달, 재무 승인 등)는 나라와 기관마다 다릅니다. 카드에는 특정 국가의 법·규정을 언급하지 않고 일반적인 역할만 적었습니다. 게시 전 '일반적 묘사'로 읽히는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "수치나 통계는 사용하지 않았습니다. '수개월'처럼 기간을 표현한 부분이 과장으로 읽히지 않는지 검토하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Apply",
+      "title": "The nurse said yes. Why is there still no deal?",
+      "illustrative": true,
+      "body": [
+        "You sell an app that builds nurse shift schedules. A nurse manager at a city hospital tries the demo and lights up. \"This would save me hours every week. We want it.\"",
+        "Months later, you're still waiting. Nobody said no. Nobody signed either."
+      ],
+      "image": {
+        "label": "A happy nurse manager holding a tablet, a long hallway of closed office doors behind her",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 앞쪽에 태블릿을 들고 웃는 간호 관리자, 뒤로 길게 이어진 복도에 닫힌 문 여러 개(문패: Finance, IT, Procurement). 실제 병원·회사 로고 없음.",
+        "url": "assets/images/cus-09-07-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "She wants it. What's your next move?",
+      "illustrative": true,
+      "body": [
+        "The nurse manager is keen, but she doesn't control the budget or the hospital's computer systems.",
+        "What do you do right after the great demo?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Send her the contract and ask her to push it through",
+            "verdict": "risky",
+            "feedback": "It feels fast, but she can't sign alone. The contract lands on desks of people you've never met, with questions she can't answer."
+          },
+          {
+            "key": "B",
+            "text": "Ask her who else must approve, and what each of them worries about",
+            "verdict": "best",
+            "feedback": "This is the **buying committee** at work. You trade a quick close for a map of every person who can stop the deal."
+          },
+          {
+            "key": "C",
+            "text": "Offer a big discount if they sign this month",
+            "verdict": "partial",
+            "feedback": "A deadline can create urgency, but price is rarely what's blocking a hospital. You give up margin without removing the real objections."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "Who's in the room",
+      "title": "One yes, many possible no's.",
+      "illustrative": true,
+      "body": [
+        "Each person judges the same app by a different question. Your champion only answers one of them."
+      ],
+      "breakdown": [
+        {
+          "value": "Champion",
+          "label": "Nurse manager",
+          "detail": "Will this save my team time?",
+          "highlight": true
+        },
+        {
+          "value": "Budget",
+          "label": "Finance",
+          "detail": "Is it in this year's plan, and what does it cost over time?",
+          "highlight": false
+        },
+        {
+          "value": "Safety",
+          "label": "IT security",
+          "detail": "Is patient and staff data safe? Does it connect to our systems?",
+          "highlight": false
+        },
+        {
+          "value": "Terms",
+          "label": "Procurement",
+          "detail": "Does the contract meet our rules for suppliers?",
+          "highlight": false
+        },
+        {
+          "value": "Approval",
+          "label": "Head of nursing",
+          "detail": "Will staff accept it, and who is accountable if it fails?",
+          "highlight": false
+        }
+      ],
+      "callout": "Most of these people will never open the app."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept at work",
+      "title": "Buying committees: arm your champion.",
+      "illustrative": true,
+      "body": [
+        "In a **buying committee**, several people share the decision. Usually any one of them can block it, and none can approve it alone.",
+        "So your job changes. Instead of more demos for the nurse manager, give her what each colleague needs: a cost sheet for finance, a security summary for IT, standard contract terms for procurement.",
+        "She walks into each meeting with answers, not just enthusiasm."
+      ],
+      "image": {
+        "label": "A champion handing different folders to four colleagues",
+        "aspectRatio": "16:9",
+        "brief": "간호 관리자가 네 사람에게 서로 다른 색의 폴더를 건네는 장면. 폴더 라벨: \"Cost\", \"Security\", \"Contract\", \"Rollout plan\". 실제 로고 없음.",
+        "url": "assets/images/cus-09-07-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "IT asks the 3 a.m. question.",
+      "illustrative": true,
+      "body": [
+        "The IT security lead asks: \"What happens if your system goes down at 3 a.m., right before a shift change?\"",
+        "How do you answer?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Show your strong uptime record and say outages are rare",
+            "verdict": "partial",
+            "feedback": "Evidence helps, but \"rare\" isn't \"never.\" You answer how likely failure is, not what happens to her when it occurs."
+          },
+          {
+            "key": "B",
+            "text": "Propose a pilot on one ward, an offline backup of each schedule, a named support contact and an easy exit",
+            "verdict": "best",
+            "feedback": "This is **risk in business buying**. You make a bad outcome small and survivable, so saying yes is no longer a gamble for her."
+          },
+          {
+            "key": "C",
+            "text": "Ask the nurse manager to escalate to senior leaders and skip IT",
+            "verdict": "risky",
+            "feedback": "You might save weeks. But you turn a careful reviewer into an opponent, and she still has a veto later."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Concept at work",
+      "title": "Risk: shrink the downside, not just the odds.",
+      "body": [
+        "For a business buyer, a bad choice lands on them personally. If schedules vanish, it's the IT lead who explains why nurses didn't know their shifts.",
+        "People in that position often prefer the familiar option, even when yours is better. So lower what they could lose: start small, keep a fallback, offer references from similar hospitals, and make leaving easy.",
+        "The bigger the first step you ask for, the bigger the fear you must answer."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Committees cost you time and money.",
+      "body": [
+        "Selling this way is slow. Before you chase a hospital, check that you can afford months of meetings before the first payment.",
+        "Pilots need an end. Agree up front what success looks like and when the decision happens, or a free trial can drift on for a year.",
+        "And never promise safeguards you can't deliver. One broken promise to a risk-averse buyer can end the relationship."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a bakery and a hotel group.",
+      "illustrative": true,
+      "body": [
+        "You bake pastries. The head chef at a hotel group tastes them and wants them for breakfast at all eight hotels. Purchasing and each hotel's manager must agree too.",
+        "What's your best next step?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Ask the chef to introduce you to purchasing, and offer a two-week trial at one hotel with a backup delivery plan",
+            "verdict": "best",
+            "feedback": "You use both ideas: the chef helps you reach the **committee**, and a small trial with a fallback lowers the **risk** of empty breakfast trays."
+          },
+          {
+            "key": "B",
+            "text": "Cut your price so purchasing can't say no",
+            "verdict": "partial",
+            "feedback": "Purchasing will like the price, but hotel managers worry about late deliveries, not cost. You lose margin and the main fear remains."
+          },
+          {
+            "key": "C",
+            "text": "Go straight to the group's director with free samples for all eight hotels",
+            "verdict": "risky",
+            "feedback": "It looks bold, but skipping the chef and purchasing can make them feel bypassed. A big first step also makes failure big."
+          }
+        ],
+        "afterReveal": null
+      },
+      "callout": "Same pattern, different product.",
+      "softwareNote": "The hospital app and the bakery face the same two hurdles: several people who can say no, and a buyer who fears being blamed."
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Win every 'no' before you ask for the 'yes'.",
+      "body": [
+        "You used two ideas. **Buying committees:** find everyone who can block the deal and give your champion an answer for each. **Risk in business buying:** make a bad outcome small with pilots, fallbacks and easy exits.",
+        "**Try it today:** pick one business customer you're chasing. List every person who could say no, and next to each name write the one thing they fear."
+      ],
+      "next": "Next · Sell packaging to a food company"
+    }
+  ]
+}

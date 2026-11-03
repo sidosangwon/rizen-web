@@ -1,0 +1,244 @@
+{
+  "id": "STR-02-03",
+  "unitId": "STR-02",
+  "categoryId": "STR",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "Supplier power",
+  "readerTitle": "The cheapest supplier can become the most expensive one",
+  "format": "counterexample",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative",
+    "real_observation"
+  ],
+  "caseNote": "가상 사례 (전동 킥보드 제조사, AI 기능을 쓰는 소프트웨어 회사) + 실제 관찰 (PC 산업의 공급자 구조, 일반적 서술)",
+  "insight": "공급자의 힘은 공급자의 크기가 아니라 내가 떠나기 얼마나 어려운가에서 나온다. 계약할 때 가격보다 '나갈 문'을 먼저 본다.",
+  "misconception": "공급자는 그냥 납품업체일 뿐이고, 가장 싼 곳 하나에 몰아주는 것이 언제나 효율적이다.",
+  "relatedLessonIds": [
+    "STR-02-01",
+    "STR-02-02"
+  ],
+  "sources": [
+    {
+      "text": "Porter, M. (1979). How Competitive Forces Shape Strategy. Harvard Business Review.",
+      "url": null
+    },
+    {
+      "text": "Porter, M. (2008). The Five Competitive Forces That Shape Strategy. Harvard Business Review.",
+      "url": null
+    },
+    {
+      "text": "킥보드·소프트웨어 사례의 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "킥보드 계산: 이전 $500 − $340 − $80 = $80, 이후 $500 − $340 − $100 = $60. 컨트롤러 가격 인상 $80 → $100은 25% 인상, 대당 남는 돈 감소 $20 ÷ $80 = 25%. 모두 가상 수치입니다.",
+      "status": "open"
+    },
+    {
+      "note": "PC 산업 서술(PC 제조사들이 치열하게 경쟁하는 동안 운영체제의 Microsoft와 칩의 Intel이 이익의 큰 몫을 가져갔다)은 경영 문헌에서 널리 쓰이는 관찰입니다. 구체 수치는 넣지 않았습니다. 게시 전 표현이 과하지 않은지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Porter의 다섯 가지 힘에서 공급자 힘의 조건(공급자 집중도, 전환 비용, 대체 투입물 부재, 구매자가 공급자 매출에서 차지하는 비중, 전방 통합 위협)을 2008년 HBR 글 기준으로 다시 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Strategy · Counterexample",
+      "title": "The cheapest supplier can become the most expensive one",
+      "illustrative": true,
+      "body": [
+        "A scooter maker found a parts supplier that was 15% cheaper than anyone else. It signed an exclusive deal and designed its products around that one part.",
+        "Two years later, sales were up. Profit per scooter was down. Nothing had gone wrong in the factory."
+      ],
+      "image": {
+        "label": "Scooter factory line with one oversized parts box",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 킥보드 조립 라인 옆에 거대한 부품 상자 하나가 라인 전체를 내려다보고 있음. 상자에는 \"Only supplier\" 라벨. 실제 브랜드 로고는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "A great price, with strings attached.",
+      "illustrative": true,
+      "body": [
+        "You make electric scooters. A supplier offers motor controllers at $80 instead of the usual $94, if you buy only from them and build your circuit boards around their custom chip.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Sign it. A 15% saving on a key part is hard to beat",
+            "verdict": "risky",
+            "feedback": "You save $14 a scooter today, but redesigning later would take months. You've handed the supplier the power to set tomorrow's price."
+          },
+          {
+            "key": "B",
+            "text": "Take the price, but keep a standard design and a second supplier tested",
+            "verdict": "best",
+            "feedback": "You pay a little for testing and design work, and in return you can walk away. That threat keeps the low price honest."
+          },
+          {
+            "key": "C",
+            "text": "Refuse and keep splitting orders between two suppliers at $94",
+            "verdict": "partial",
+            "feedback": "You stay flexible, but you pay $14 more on every scooter for protection you might get more cheaply."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "Two years later",
+      "title": "The supplier raised the price 25%.",
+      "illustrative": true,
+      "body": [
+        "Switching would mean redesigning the boards, which takes nine months. The supplier knew that. What you keep per scooter fell from $80 to **$60**."
+      ],
+      "breakdown": [
+        {
+          "value": "$500",
+          "label": "Price",
+          "detail": "What the customer pays",
+          "highlight": false
+        },
+        {
+          "value": "−$340",
+          "label": "Other costs",
+          "detail": "Frame, battery, labor, shipping",
+          "highlight": false
+        },
+        {
+          "value": "−$100",
+          "label": "Controller",
+          "detail": "Was $80 before the increase",
+          "highlight": false
+        },
+        {
+          "value": "$60",
+          "label": "Left per scooter",
+          "detail": "Down from $80",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Supplier power",
+      "body": [
+        "**Supplier power** is how much your suppliers can raise prices, cut quality or change terms without losing you as a customer.",
+        "It's one of the five forces that decide how much profit an industry keeps. When suppliers are strong, they take a share of your margin, no matter how well you run your business.",
+        "The scooter maker didn't pick a bad supplier. It picked a deal that made leaving expensive."
+      ],
+      "image": {
+        "label": "Profit pie with a supplier taking a slice",
+        "aspectRatio": "16:9",
+        "brief": "이익을 나타내는 파이 하나. 공급자를 상징하는 손이 파이 조각을 가져가고, 그 손에 연결된 쇠사슬이 회사 건물에 묶여 있음. 텍스트는 \"Your margin\" 하나만.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "When suppliers hold the cards.",
+      "body": [
+        "Suppliers tend to be powerful when:"
+      ],
+      "list": [
+        "**Few of them exist,** so you have nowhere else to go",
+        "**Switching is costly:** redesigns, retraining, new approvals",
+        "Their input is **hard to replace** with something else",
+        "You're a **small share** of their sales",
+        "They could **do your job** themselves"
+      ],
+      "callout": "Most of these depend on choices you make, not just on the supplier."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond one factory",
+      "title": "A whole industry can work for its suppliers.",
+      "body": [
+        "The PC industry is a classic example. Many computer makers competed hard on price. Meanwhile, two suppliers, Microsoft for the operating system and Intel for the chips, are widely seen as having captured much of the industry's profit.",
+        "Customers wanted those parts by name, and few alternatives existed. So the makers fought over thin margins while the suppliers set prices.",
+        "The same pattern appears with a single port, a single licensed ingredient, or one app store."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Staying free isn't free.",
+      "body": [
+        "A second supplier costs money: testing, smaller orders, lost volume discounts. For a minor part, one supplier is often the right call.",
+        "And a single supplier can be a real partner. Long contracts, shared plans and being an important customer to them all reduce the risk.",
+        "The goal isn't to avoid relying on anyone. It's to know where you depend on someone and to keep that dependence a choice."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software company.",
+      "illustrative": true,
+      "body": [
+        "Your app's best feature runs on one outside AI provider's service. Your engineers built it tightly around that provider's tools. The provider just announced higher prices next quarter.",
+        "What's your best move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Build a thin layer so the feature can run on two or more providers",
+            "verdict": "best",
+            "feedback": "It costs some engineering time, but it turns a price hike into a negotiation. You can now credibly walk away."
+          },
+          {
+            "key": "B",
+            "text": "Lock in today's price with a two-year contract",
+            "verdict": "partial",
+            "feedback": "You buy time and a known cost, but in two years you'll be even more dependent, and they'll know it."
+          },
+          {
+            "key": "C",
+            "text": "Start building your own AI model to replace them",
+            "verdict": "risky",
+            "feedback": "You'd remove the supplier, but at a cost far above the price increase, and it pulls your team away from your actual product."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "In software, suppliers are often platforms: cloud hosts, payment processors, app stores and APIs. Switching costs hide in code, not contracts."
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A supplier's power is your cost of leaving.",
+      "body": [
+        "When you compare suppliers, look past the price. Ask how hard it would be to walk away next year.",
+        "**Try it today:** list your three biggest inputs. For each, write how long it would take to switch to someone else. Anything over a few months needs a backup plan."
+      ],
+      "next": "Next · Substitutes: the competitor that doesn't look like one"
+    }
+  ]
+}

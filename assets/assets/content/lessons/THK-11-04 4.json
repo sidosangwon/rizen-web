@@ -1,0 +1,243 @@
+{
+  "id": "THK-11-04",
+  "unitId": "THK-11",
+  "categoryId": "THK",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Is the effect big enough to matter?",
+  "readerTitle": "The test worked. The rollout would have lost money.",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (상업용 청소 회사, 레스토랑) + 실제 연구 (미국통계학회 2016년 p값 성명)",
+  "insight": "효과가 '진짜인가'와 '할 가치가 있는가'는 다른 질문이다. 효과의 크기를 규모와 비용 옆에 놓고 돈으로 환산해야 결정할 수 있다.",
+  "misconception": "테스트에서 효과가 우연이 아니라고 확인되면 도입하면 된다. 반대로 작은 효과는 무시해도 된다.",
+  "relatedLessonIds": [
+    "THK-11-03",
+    "THK-11-06"
+  ],
+  "sources": [
+    {
+      "text": "Wasserstein, R. L. & Lazar, N. A. (2016). The ASA Statement on p-Values: Context, Process, and Purpose. The American Statistician, 70(2).",
+      "url": "https://doi.org/10.1080/00031305.2016.1154108"
+    },
+    {
+      "text": "청소 회사와 레스토랑의 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "청소 회사 계산: 통화 비용 4,000곳 × 연 4회 × $15 = $240,000. 효과 4,000곳 × 2%p = 80곳 유지 × 연 이익 $2,400 = $192,000. 순손실 $192,000 − $240,000 = −$48,000.",
+      "status": "open"
+    },
+    {
+      "note": "'우연이 아니다'라는 표현 근거: 그룹당 2,000곳, 해지율 10% vs 8%. 차이의 표준오차 √(0.1×0.9/2000 + 0.08×0.92/2000) ≈ 0.0091, z ≈ 0.02/0.0091 ≈ 2.2로 통상 기준(5%)에서 유의합니다. 재확인 필요.",
+      "status": "open"
+    },
+    {
+      "note": "레스토랑 계산: 월 6,000테이블 × 2%p = 디저트 120개 추가 × 공헌이익 $4 = 월 $480, 연 약 $5,760.",
+      "status": "open"
+    },
+    {
+      "note": "ASA 성명의 원칙 5 문구('A p-value, or statistical significance, does not measure the size of an effect or the importance of a result')를 게시 전 원문과 대조하세요. 카드에는 의역으로 적었습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Counterexample",
+      "title": "The test worked. The rollout would have lost money.",
+      "illustrative": true,
+      "body": [
+        "A cleaning company ran a careful year-long test. Check-in calls really did keep more clients from leaving. The result was not luck.",
+        "Rolling the calls out to every client would still have cost about $48,000 a year.",
+        "Being sure an effect exists is one question. Knowing it's worth having is another."
+      ],
+      "image": {
+        "label": "A trophy labeled 'Proven' sitting on a shrinking pile of coins",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 'Proven'이라고 적힌 작은 트로피가 동전 더미 위에 놓여 있고, 동전 더미 아래쪽이 조금씩 새어 나가는 모습. 실제 기업 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "The check-in calls are a proven winner.",
+      "illustrative": true,
+      "body": [
+        "You run a commercial cleaning company with 4,000 office clients. For a year, half got a check-in call every quarter. The other half didn't.",
+        "Cancellations: 10% without calls, 8% with calls. Your analyst confirms the gap is real, not chance. What do you do next?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Roll the calls out to every client. The test proved they work",
+            "verdict": "risky",
+            "feedback": "You act on a real effect, but you skip the question of what it's worth. Proven and profitable are not the same thing."
+          },
+          {
+            "key": "B",
+            "text": "Put a dollar value on the 2-point drop and compare it with the cost of the calls",
+            "verdict": "best",
+            "feedback": "This turns 'it works' into 'it pays' or 'it doesn't'. It takes an hour of math and can save a costly rollout."
+          },
+          {
+            "key": "C",
+            "text": "Run the test another year to be even more certain",
+            "verdict": "partial",
+            "feedback": "More data shrinks your doubt about whether the effect is real. But that doubt is already small. The open question is size versus cost."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Price the effect.",
+      "illustrative": true,
+      "body": [
+        "Each kept client earns about $2,400 a year in profit. Each call costs about $15 in staff time. The effect is real, and it is **smaller than its cost**."
+      ],
+      "breakdown": [
+        {
+          "value": "80",
+          "label": "Clients kept",
+          "detail": "2 points fewer cancellations × 4,000 clients",
+          "highlight": false
+        },
+        {
+          "value": "+$192,000",
+          "label": "Profit kept",
+          "detail": "80 clients × $2,400 a year",
+          "highlight": false
+        },
+        {
+          "value": "−$240,000",
+          "label": "Cost of calls",
+          "detail": "4,000 clients × 4 calls × $15",
+          "highlight": false
+        },
+        {
+          "value": "−$48,000",
+          "label": "Net per year",
+          "detail": "A real effect that loses money",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Real is not the same as big enough",
+      "body": [
+        "A test answers two different questions. *Is the effect real?* That's what \"statistically significant\" means: the result is unlikely to be pure chance.",
+        "*Is it big enough to matter?* That's **practical significance**. You find it by turning the effect into money, time or customers, then setting it against the cost of getting it.",
+        "The cleaning test passed the first question and failed the second."
+      ],
+      "image": {
+        "label": "Two gates: 'Is it real?' and 'Is it worth it?'",
+        "aspectRatio": "16:9",
+        "brief": "길 위에 문 두 개가 차례로 서 있는 인포그래픽. 첫 번째 문 'Is it real?'은 열려 있고, 두 번째 문 'Is it worth it?' 앞에 저울(왼쪽 'Effect × scale', 오른쪽 'Cost')이 놓여 있음.",
+        "url": null
+      },
+      "softwareNote": "With thousands of users, a tiny lift, like 0.1% more sign-ups, can pass as \"significant\". Ask what that lift earns per year, then compare it with the engineering and upkeep the change needs."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "Statisticians made this point officially.",
+      "body": [
+        "In 2016, the American Statistical Association issued a formal statement on how test results get misread. One of its six principles: a p-value, the usual measure of \"significance\", does not tell you how large an effect is or how important it is.",
+        "The reason is simple. With enough data, even a trivial difference becomes measurable. Significance tells you how sure you can be. Only the size, in real units, tells you whether to care."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where it applies",
+      "title": "Small isn't bad. Big isn't good.",
+      "body": [
+        "Size only means something next to scale and cost:"
+      ],
+      "list": [
+        "**Small effect, almost free:** often worth doing",
+        "**Big effect, very expensive:** may still lose money",
+        "**Small effect, huge volume:** can add up to a lot"
+      ],
+      "callout": "The real test: effect × how often it happens − what it costs.",
+      "softwareNote": "In software, the cost side is easy to forget. A change that adds code also adds testing, support and future maintenance for years."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Your math can be too harsh.",
+      "body": [
+        "Count the full value. A kept cleaning client may stay for years, not one. At three years of profit, the calls might pay off.",
+        "Look for a cheaper version. A check-in email at $1 might keep most of the effect for a fraction of the cost.",
+        "And remember that measured effects are estimates. Work out the result at the low and high end of the likely range before you decide."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's three restaurants.",
+      "illustrative": true,
+      "body": [
+        "Your servers tested one extra line at the end of the meal: \"Our pastry chef made a lemon tart today.\" Dessert orders rose from 20% of tables to 22%.",
+        "You serve about 6,000 tables a month. Each dessert leaves about $4 after its costs. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Drop it. Two points is too small to bother with",
+            "verdict": "risky",
+            "feedback": "Small, yes. But 120 extra desserts a month is about $480 for a sentence that costs nothing. You'd give up free money."
+          },
+          {
+            "key": "B",
+            "text": "Make the line standard. It costs almost nothing",
+            "verdict": "best",
+            "feedback": "A small effect against a near-zero cost is a clear win, about $5,700 a year. Keep an eye on whether guests start to find it pushy."
+          },
+          {
+            "key": "C",
+            "text": "Hire a dessert server for $2,500 a month to push harder",
+            "verdict": "risky",
+            "feedback": "You'd need the effect to grow more than fivefold just to break even. Scaling the cost doesn't scale the effect."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Ask \"how much is it worth?\" not just \"does it work?\"",
+      "body": [
+        "A real effect can lose money, and a tiny one can be a bargain. The decision comes from putting the size in dollars next to the cost.",
+        "**Try it today:** pick one change you made because \"it worked\". Write down the effect in dollars per year and what it costs to keep doing."
+      ],
+      "next": "Next · Why peeking at a test too early fools you"
+    }
+  ]
+}

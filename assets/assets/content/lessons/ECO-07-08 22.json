@@ -1,0 +1,239 @@
+{
+  "id": "ECO-07-08",
+  "unitId": "ECO-07",
+  "categoryId": "ECO",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "Design ticket prices for a museum",
+  "readerTitle": "Same paintings, different prices: pricing a museum ticket",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.4,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (시립 미술관, 사내 영상팀, 타일 유통업체) · 모든 수치는 설명용",
+  "insight": "티켓 가격 하나를 정하는 일은 '누가' 내는가와 '언제' 오는가라는 두 개의 레버를 함께 설계하는 일이다.",
+  "misconception": "방문객을 늘리려면 모두에게 가격을 낮추면 된다. 같은 상품에는 누구에게나 같은 가격을 받아야 공정하다.",
+  "relatedLessonIds": [
+    "ECO-07-03",
+    "ECO-07-04"
+  ],
+  "sources": [
+    {
+      "text": "가격 차별(price discrimination)과 시간대별 가격(dynamic pricing)에 대한 표준 경제학 개념",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "가상 수치 계산 확인: $20에서 $15로 내리면 매출을 유지하려면 방문객이 20 ÷ 15 = 1.33배, 즉 약 33% 늘어야 합니다(방문객 한 명당 추가 비용은 거의 없다고 가정).",
+      "status": "open"
+    },
+    {
+      "note": "softwareNote의 '클라우드 업체가 남는 서버 용량을 더 싸게 판다'는 일반적 설명입니다. 특정 기업명이나 할인율은 쓰지 않았습니다. 게시 전 표현이 과하지 않은지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "실제 미술관의 요금 정책(자율 기부 입장, 거주자 할인 등)은 특정 기관 사례로 쓰지 않았습니다. 실제 사례를 추가하려면 해당 기관 공식 자료로 확인해야 합니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Pricing · Everyday scene",
+      "title": "Same paintings, different prices: pricing a museum ticket",
+      "illustrative": true,
+      "body": [
+        "A city museum charges $20 a ticket. On Saturdays the line wraps around the block by noon. On Tuesdays the guards outnumber the visitors.",
+        "The paintings are the same both days. The single price is the problem."
+      ],
+      "image": {
+        "label": "Museum gallery split between a crowded Saturday and an empty Tuesday",
+        "aspectRatio": "4:3",
+        "brief": "한 미술관 전시실을 좌우로 나눈 일러스트. 왼쪽은 'Saturday' 사람으로 꽉 찬 모습, 오른쪽은 'Tuesday' 경비원 한 명만 서 있는 텅 빈 모습. 입구에 '$20' 가격판 하나. 실제 미술관 이름이나 로고, 실존 명화는 쓰지 않음.",
+        "url": "assets/images/eco-07-08-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "The board wants more visitors.",
+      "illustrative": true,
+      "body": [
+        "You run the museum. The board wants more students and local families to visit, without losing ticket revenue.",
+        "Which move do you make first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Cut the ticket to $15 for everyone",
+            "verdict": "risky",
+            "feedback": "Every visitor who would gladly pay $20 now pays $15. You'd need about 33% more visitors just to stand still."
+          },
+          {
+            "key": "B",
+            "text": "Keep $20, and charge students and seniors $10 with ID",
+            "verdict": "best",
+            "feedback": "This is **price discrimination**: a lower price for the groups you want, held apart by an ID check. Full-price visitors still pay full price."
+          },
+          {
+            "key": "C",
+            "text": "Make the first Sunday of each month free for everyone",
+            "verdict": "partial",
+            "feedback": "It draws a crowd, but many free visitors would have paid, and it adds people to a weekend that's already full."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "Concept at work",
+      "title": "Price discrimination needs a fence.",
+      "body": [
+        "**Price discrimination** means charging different customers different prices for the same thing, based on what each group is willing or able to pay.",
+        "It only works with a **fence**: a rule that separates the groups and that people can't easily cross. A student card, a local address, a school group booking. Without a fence, everyone claims the discount and you're back to option A."
+      ],
+      "image": {
+        "label": "Ticket desk with two lanes separated by an ID check",
+        "aspectRatio": "16:9",
+        "brief": "매표소 앞에 두 줄. 한 줄은 'Adult $20', 다른 줄은 'Student / Senior $10'. 두 줄 사이에 낮은 울타리와 'Show ID' 표지판. 단순하고 밝은 플랫 일러스트.",
+        "url": "assets/images/eco-07-08-c3.jpg"
+      }
+    },
+    {
+      "index": 4,
+      "type": "breakdown",
+      "eyebrow": "Second lever",
+      "title": "Price the day, not just the person.",
+      "illustrative": true,
+      "body": [
+        "Saturdays sell out. Tuesdays don't. Many visitors are flexible, so a different price by day moves some of them. This is a simple form of **dynamic pricing**: price follows demand over time."
+      ],
+      "breakdown": [
+        {
+          "value": "$16",
+          "label": "Weekday adult",
+          "detail": "Fills the quiet days",
+          "highlight": true
+        },
+        {
+          "value": "$24",
+          "label": "Weekend adult",
+          "detail": "For those who want the busy day",
+          "highlight": false
+        },
+        {
+          "value": "$10",
+          "label": "Student or senior",
+          "detail": "Any day, with ID",
+          "highlight": false
+        }
+      ],
+      "callout": "The schedule is posted in advance, so nobody is surprised at the door.",
+      "softwareNote": "Software uses both levers too: student and nonprofit plans behind a verification fence, and cloud providers selling spare server capacity more cheaply when demand is low."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Fair matters more than clever.",
+      "body": [
+        "A museum isn't a concert. If weekend prices climb too high, families who can only come on Saturdays feel shut out, and the mission suffers.",
+        "Prices that change hour by hour feel like gouging. A posted weekday and weekend price feels fair.",
+        "Fences cost money too. Checking every ID slows the line. Keep the rules few and easy to explain."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Try it · team inside a company",
+      "title": "Everyone wants the video team at once.",
+      "illustrative": true,
+      "body": [
+        "Your company's in-house video team charges other departments $1,500 per shoot day. Every department books the last two weeks of each quarter. The first weeks sit empty, and the team is burning out.",
+        "What do you change?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Charge more for end-of-quarter days and less for early-quarter days",
+            "verdict": "best",
+            "feedback": "This is **dynamic pricing** by time. Departments with flexible deadlines move early, and the rush shrinks without a ban."
+          },
+          {
+            "key": "B",
+            "text": "Keep the rate and book first come, first served",
+            "verdict": "partial",
+            "feedback": "It feels fair, but nothing nudges anyone to move. The crunch stays, and the fastest bookers win."
+          },
+          {
+            "key": "C",
+            "text": "Raise the rate on every day",
+            "verdict": "risky",
+            "feedback": "Demand falls all year, including in the weeks that were already empty. The peak barely changes."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · retail and distribution",
+      "title": "Contractors and homeowners at one counter.",
+      "illustrative": true,
+      "body": [
+        "You run a tile and flooring distributor. Contractors buy every week and compare prices hard. Homeowners buy once. Both ask for a discount at the counter.",
+        "How do you set prices?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Give the discount to anyone who asks",
+            "verdict": "risky",
+            "feedback": "A fence anyone can cross isn't a fence. Soon nobody pays list price, and the discount becomes your real price."
+          },
+          {
+            "key": "B",
+            "text": "Trade prices for registered contractor accounts, list price for walk-ins",
+            "verdict": "best",
+            "feedback": "**Price discrimination** with a clear fence: the account. You keep frequent buyers loyal and still earn full price from one-time shoppers."
+          },
+          {
+            "key": "C",
+            "text": "One middle price for everyone",
+            "verdict": "partial",
+            "feedback": "Simple and easy to defend, but contractors may drift to cheaper rivals, and homeowners pay less than they would have."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Ask who pays, and when.",
+      "body": [
+        "Two ideas did the work here. **Price discrimination**: different prices for different groups, held apart by a fence. **Dynamic pricing**: different prices for different times, so flexible customers fill the quiet hours.",
+        "**Try it today:** write down your busiest and quietest times, and one group who would buy more at a lower price. What simple fence would keep that price for them alone?"
+      ],
+      "next": "Next · How American Airlines learned to sell the same seat at many prices"
+    }
+  ]
+}

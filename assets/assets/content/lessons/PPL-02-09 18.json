@@ -1,0 +1,253 @@
+{
+  "id": "PPL-02-09",
+  "unitId": "PPL-02",
+  "categoryId": "PPL",
+  "order": 9,
+  "type": "case",
+  "conceptTag": "Google's Project Oxygen",
+  "readerTitle": "Google tried to prove managers don't matter. Its data disagreed.",
+  "format": "company_story",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Google, Project Oxygen) + 가상 적용 (회계법인, 물류센터)",
+  "insight": "좋은 관리는 타고난 성격이나 실무 실력이 아니라 이름 붙이고 측정하고 연습할 수 있는 행동들의 묶음이다.",
+  "misconception": "가장 실무를 잘하는 사람이 가장 좋은 관리자가 되며, 뛰어난 인재들에게 관리자는 오히려 방해가 된다.",
+  "relatedLessonIds": [
+    "PPL-02-01",
+    "PPL-02-06"
+  ],
+  "sources": [
+    {
+      "text": "Garvin, D. A. (2013). How Google Sold Its Engineers on Management. Harvard Business Review, December 2013. (2002년 관리자 제거 실험, Project Oxygen의 방법과 후속 조치)",
+      "url": "https://hbr.org/2013/12/how-google-sold-its-engineers-on-management"
+    },
+    {
+      "text": "Bryant, A. (2011, March 12). Google's Quest to Build a Better Boss. The New York Times. (8가지 행동 목록과 기술 역량이 마지막이라는 점)",
+      "url": "https://www.nytimes.com/2011/03/13/business/13hire.html"
+    },
+    {
+      "text": "Bock, L. (2015). Work Rules! Twelve. (상향 피드백 설문과 관리자 개선)",
+      "url": null
+    },
+    {
+      "text": "Google re:Work, manager research guide (2018년 개정된 10가지 행동)",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "2002년 엔지니어링 관리자 제거 실험이 몇 달 만에 끝났다는 내용과 직원들이 비용 처리, 갈등 등 사소한 일까지 창업자에게 가져갔다는 내용은 Garvin(2013) HBR 기사 기준입니다. 원문 표현을 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Project Oxygen 시작 시점은 자료에 따라 2008~2009년으로 다릅니다. 카드에는 \"around 2009\"와 \"late 2000s\"로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "분석에 쓴 데이터(성과 평가, 직원 설문, 우수 관리자 추천, 상·하위 관리자 인터뷰)와 결과(좋은 관리자의 팀이 성과·만족·잔류가 높음)는 Garvin(2013)과 NYT(2011) 기준입니다. 관찰 건수 같은 구체적 수치는 의도적으로 넣지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "8가지 행동의 문구와 순서는 NYT(2011) 목록 기준으로 짧게 바꿔 썼습니다. 원문과 대조하세요.",
+      "status": "open"
+    },
+    {
+      "note": "상향 피드백 설문 주기(연 2회)와 '하위 관리자 다수가 개선됐다'는 내용은 Google 자체 보고(Bock, Garvin) 기준입니다. 개선 비율 수치는 넣지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "2018년 개정에서 협업(collaborates across Google)과 의사결정(strong decision maker) 항목이 추가됐다는 내용은 Google re:Work 자료로 게시 전에 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Managing others · Company story",
+      "title": "Google tried to prove managers don't matter. Its data disagreed.",
+      "body": [
+        "In the late 2000s, Google's people analytics team tested a belief common among its engineers: managers are overhead, at best a necessary evil.",
+        "The data said the opposite. And the skill engineers admired most landed at the bottom of the list."
+      ],
+      "image": {
+        "label": "An org chart with the manager boxes fading out, then glowing back",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 엔지니어 캐릭터들 위로 조직도가 떠 있고, 관리자 상자들이 반투명하게 사라졌다가 다시 밝게 빛나는 장면. 실제 회사 로고, 색상 배색, 건물은 쓰지 않음.",
+        "url": "assets/images/ppl-02-09-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Your engineers think managers get in the way.",
+      "body": [
+        "You run a fast-growing tech company. Many of your best engineers see managers as meetings, approvals and politics. Some want fewer of them.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Flatten: remove most managers and let engineers self-organize",
+            "verdict": "risky",
+            "feedback": "You gain goodwill and speed at first. But questions about direction, careers and conflicts still need an owner, and nobody has the job."
+          },
+          {
+            "key": "B",
+            "text": "Keep the managers and send them all to a leadership course",
+            "verdict": "partial",
+            "feedback": "It signals that management matters. But skeptical engineers may dismiss a generic course, and you still don't know which behaviors matter in your company."
+          },
+          {
+            "key": "C",
+            "text": "Study your own data: do teams with better managers do better, and what do those managers do?",
+            "verdict": "best",
+            "feedback": "Slower, but it answers the doubters in their own language: evidence. That's the path Google took."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "Google had already tried option A.",
+      "body": [
+        "In 2002, Google briefly removed its engineering managers. The flat setup lasted only a few months. People brought everything, from expense questions to disputes, straight to the founders.",
+        "Around 2009, a project called **Project Oxygen** studied managers using performance reviews, employee surveys and award nominations, then interviewed top- and bottom-rated managers.",
+        "The finding: teams with better managers tended to perform better, and their people were happier and more likely to stay."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The findings",
+      "title": "Eight behaviors of Google's best managers",
+      "body": [
+        "The team turned what the best managers did into a list, roughly in order of importance:"
+      ],
+      "list": [
+        "Is a good coach",
+        "Empowers the team and doesn't micromanage",
+        "Shows interest in people's success and well-being",
+        "Is productive and results-oriented",
+        "Communicates well and listens",
+        "Helps with career development",
+        "Has a clear vision and strategy for the team",
+        "**Has key technical skills** to advise the team"
+      ],
+      "callout": "Technical skill, the trait engineers prized most, came last.",
+      "softwareNote": "This is software's classic trap: promoting the best engineer and expecting the team to follow. Google's list suggests the code skill matters, but mainly as a way to advise others."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Management is a set of behaviors.",
+      "body": [
+        "**Managing others** isn't a personality type or a prize for being the best doer. It's a set of behaviors you can name, observe and practice.",
+        "Look at Google's list. Coaching, not micromanaging, caring, giving direction, helping careers. Most are about people, not the work itself.",
+        "So a brilliant expert can be a poor manager. And an average one can learn to be a good one."
+      ],
+      "image": {
+        "label": "Two columns: doing the work vs helping others do it",
+        "aspectRatio": "16:9",
+        "brief": "두 칸 인포그래픽. 왼쪽 \"Doing the work\"(혼자 노트북 앞에서 일하는 사람), 오른쪽 \"Helping others do it\"(코칭, 1:1 대화, 방향 제시 아이콘). 오른쪽 칸을 더 크게 강조. 로고 없음.",
+        "url": "assets/images/ppl-02-09-c5.jpg"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How it worked",
+      "title": "Then they made it measurable.",
+      "body": [
+        "Google turned the list into an **upward feedback survey**. Team members rated their manager on each behavior, typically twice a year. Managers got a private report, and training targeted their weakest areas.",
+        "Google has reported that many low-scoring managers improved. The list worked because it was specific. \"Be a better leader\" is hard to act on. \"Hold regular career conversations\" is not."
+      ],
+      "image": {
+        "label": "A manager reading a private feedback report with eight bars",
+        "aspectRatio": "16:9",
+        "brief": "관리자 한 명이 개인 피드백 리포트를 보는 장면. 리포트에 행동 8개 막대가 있고 한두 개만 짧음. 짧은 막대 옆에 작은 화살표로 '연습할 곳' 느낌. 실제 회사 로고나 UI 디자인은 쓰지 않음.",
+        "url": "assets/images/ppl-02-09-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Beyond tech",
+      "title": "The same trap at an accounting firm.",
+      "illustrative": true,
+      "body": [
+        "A mid-size accounting firm promotes its sharpest auditor to lead a team. She still reviews every file herself, quietly fixes juniors' mistakes and skips one-on-ones.",
+        "Clients get clean work. Her juniors stop learning, and two of them leave.",
+        "Her technical skill was never the problem. She was promoted for one set of behaviors and needed a different set."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Google's list is a starting point, not a law.",
+      "body": [
+        "The list came from Google's own people, mostly well-paid knowledge workers. In your business, the order may differ.",
+        "The data showed patterns, not proof that each behavior causes results. Surveys capture how people feel, which can be skewed.",
+        "Even Google revised the list in 2018, adding collaboration and decision-making. And technical skill stayed on it. It just isn't enough on its own."
+      ]
+    },
+    {
+      "index": 9,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a distribution center.",
+      "illustrative": true,
+      "body": [
+        "You need a new shift supervisor for a crew of 20 pickers. Your fastest, most accurate picker wants the job but prefers to work alone. Another picker is steady, not the fastest, and already trains new hires and flags problems early.",
+        "Whom do you promote?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The fastest picker. The crew respects skill, and they'll set the pace",
+            "verdict": "risky",
+            "feedback": "You reward great work, but you may lose your best picker and gain a reluctant supervisor. Speed shows doing skill, not managing skill."
+          },
+          {
+            "key": "B",
+            "text": "The steady picker who already coaches, and ask the crew to rate them on a few behaviors after three months",
+            "verdict": "best",
+            "feedback": "You pick for behaviors they already show and check them with feedback from the people they lead. The fastest picker stays where they shine."
+          },
+          {
+            "key": "C",
+            "text": "The fastest picker, plus a supervisor training course",
+            "verdict": "partial",
+            "feedback": "Training can build habits, so this can work. But you're starting with someone who'd rather not coach, which makes the course an uphill climb."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 10,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Good managers are made of habits, not titles.",
+      "body": [
+        "Google expected data to show managers don't matter. Instead it showed which management behaviors do, and that they can be learned.",
+        "**Try it today:** write down three behaviors you'd want your team to rate you on. Ask one person how often you actually do them."
+      ],
+      "next": "Next · Your top performer is struggling"
+    }
+  ]
+}

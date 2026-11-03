@@ -1,0 +1,215 @@
+{
+  "id": "ECO-09-07",
+  "unitId": "ECO-09",
+  "categoryId": "ECO",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "What higher rates mean for a small business",
+  "readerTitle": "When the bank raises rates, who pays?",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.4,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (주택 리모델링 업체, 철물·자재 도매상) · 모든 수치는 설명용",
+  "insight": "금리 인상은 내 대출 이자만이 아니라 고객의 구매 결정과 재고·외상처럼 돈이 묶여 있는 모든 곳에 비용으로 들어온다.",
+  "misconception": "금리가 오르면 내 대출 이자만 조금 늘어날 뿐이다. 매출이 줄면 가격을 내려 수요를 되찾으면 된다.",
+  "relatedLessonIds": [
+    "ECO-09-02",
+    "ECO-09-06"
+  ],
+  "sources": [
+    {
+      "text": "거시경제 표준 개념 (금리의 전달 경로, 중앙은행의 긴축 정책)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "리모델링 업체 신용한도: $150,000 × 5% = $7,500, × 9% = $13,500, 차이 $6,000/년. 고객 대출: $40,000 × 5% = $2,000, × 9% = $3,600 (단순 연이자, 상환 구조 무시).",
+      "status": "open"
+    },
+    {
+      "note": "도매상 재고: $300,000 × 5% = $15,000, × 9% = $27,000, 차이 $12,000/년. 느리게 팔리는 재고 $100,000을 줄이면 9% 기준 연 $9,000 절약.",
+      "status": "open"
+    },
+    {
+      "note": "금리 인상의 효과가 경제 전반에 나타나기까지 수개월 이상 걸린다는 일반적 설명만 썼습니다. 구체적 기간은 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "고정금리·변동금리 선택은 일반 원리로만 다루고 특정 국가의 금융·투자 조언은 하지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Economy · Everyday scene",
+      "title": "When the bank raises rates, who pays?",
+      "illustrative": true,
+      "body": [
+        "Maya runs a small kitchen remodeling business. Her crew is good, her reviews are great, and her prices haven't changed.",
+        "Then, in one week, three customers call to postpone their projects. None of them complain about her work. They all mention the same thing: their loan just got more expensive."
+      ],
+      "image": {
+        "label": "A contractor on the phone beside an unfinished kitchen",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 반쯤 완성된 주방에서 작업복 차림의 여성 사업가가 전화를 받으며 난감한 표정. 벽 달력에 'Postponed'라고 적힌 메모 세 장. 실제 로고나 상표 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Bookings are down. What's Maya's first move?",
+      "illustrative": true,
+      "body": [
+        "Maya also has a $150,000 credit line with a variable rate, meaning the rate moves when market rates move. It just went from 5% to 9%.",
+        "What should she do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Cut prices 15% to win back the postponed jobs",
+            "verdict": "risky",
+            "feedback": "Her price didn't change; her customers' **cost of borrowing** did. A discount shrinks her margin just as her own interest bill rises, and it may not close the gap for buyers."
+          },
+          {
+            "key": "B",
+            "text": "Map every place rates touch her business, then offer smaller, phased projects",
+            "verdict": "best",
+            "feedback": "This treats **interest rates** as the price of money that reaches her debt, her customers and her cash flow. Phased jobs let customers borrow less at a time."
+          },
+          {
+            "key": "C",
+            "text": "Wait. Rates always come back down",
+            "verdict": "partial",
+            "feedback": "Rates do move in cycles, but nobody knows the timing. Meanwhile her credit line costs $6,000 more a year."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The three channels",
+      "title": "Higher rates reach a business three ways.",
+      "illustrative": true,
+      "body": [
+        "Most owners only watch the first line. The other two are often bigger."
+      ],
+      "breakdown": [
+        {
+          "value": "+$6,000",
+          "label": "Your debt",
+          "detail": "$150,000 credit line: 5% to 9% a year",
+          "highlight": false
+        },
+        {
+          "value": "+$1,600",
+          "label": "Your customers' debt",
+          "detail": "Yearly interest on a $40,000 remodel loan rises from $2,000 to $3,600",
+          "highlight": true
+        },
+        {
+          "value": "Slower",
+          "label": "Money that waits",
+          "detail": "Unpaid invoices and stock on shelves cost more to carry",
+          "highlight": false
+        }
+      ],
+      "softwareNote": "In software, the second channel shows up as customers cutting budgets and taking longer to sign. Investors also value distant future profits less, so raising money gets harder."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Why it's happening",
+      "title": "The slowdown is the point.",
+      "body": [
+        "Central banks usually raise rates to fight inflation. Higher rates make borrowing costlier, so people and businesses spend less, and price rises cool down.",
+        "So when Maya's customers delay big projects, the policy is working as intended. It isn't a strange side effect.",
+        "Two lessons follow. **First, the slowdown is real**, not a blip. Second, it arrives with a delay. Effects often build over many months, so the quiet period may last longer than the first rate rise suggests."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Who feels it first",
+      "title": "Borrowed-money purchases slow first.",
+      "body": [
+        "Rates hit hardest where customers pay with loans: homes, remodels, cars, machinery, furniture, business equipment.",
+        "Everyday purchases like haircuts, groceries and repairs that can't wait slow down less.",
+        "So the useful question isn't \"Are rates up?\" It's **\"How many of my customers borrow to buy from me?\"** A plumber fixing leaks and a contractor building extensions can face the same rate rise and very different years."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a hardware wholesaler.",
+      "illustrative": true,
+      "body": [
+        "Leo supplies building materials to local contractors. He keeps $300,000 of stock, funded by a credit line now at 9%. That's $27,000 a year just to hold it, up from $15,000.",
+        "Contractors are buying less. What should he do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Stock up now, before suppliers raise prices",
+            "verdict": "risky",
+            "feedback": "That bet may pay off if prices jump, but every extra dollar of stock now carries a 9% **interest cost** while demand is falling."
+          },
+          {
+            "key": "B",
+            "text": "Trim slow-moving items, keep fast sellers deep, ask suppliers for faster delivery",
+            "verdict": "best",
+            "feedback": "Cutting $100,000 of slow stock saves about $9,000 a year. He keeps what contractors need daily, so he doesn't lose them."
+          },
+          {
+            "key": "C",
+            "text": "Stop all new orders until rates fall",
+            "verdict": "partial",
+            "feedback": "It saves interest fast, but empty shelves send contractors to rivals. When the **cycle turns**, they may not come back."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "The same logic applies to a software company's cash: long annual deals paid late or heavy upfront spending cost more when money itself is pricier."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Don't overreact to one rate move.",
+      "body": [
+        "Higher rates have an upside: cash in the bank earns more, and weaker rivals may pull back.",
+        "Locking in a fixed rate buys certainty, but usually at a higher price. If rates fall, you're stuck paying more.",
+        "And rates move in cycles that nobody times well. Plan for a range of rates, not a single guess. Cut the costs that rates expose, but keep the parts of the business customers will need when demand returns."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Find every place your business borrows or waits.",
+      "body": [
+        "You used two ideas here. **Interest rates** are the price of money, and that price reaches your debt, your customers' loans and your stock. **Central bank responses** explain why: the slowdown is intended, and it arrives with a delay.",
+        "**Try it today:** list your debt, how many customers borrow to buy from you, and how much cash sits in stock or unpaid invoices."
+      ],
+      "next": "Next · Pricing in a year of high inflation"
+    }
+  ]
+}

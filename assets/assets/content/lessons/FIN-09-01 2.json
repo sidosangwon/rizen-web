@@ -1,0 +1,224 @@
+{
+  "id": "FIN-09-01",
+  "unitId": "FIN-09",
+  "categoryId": "FIN",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Capital allocation",
+  "readerTitle": "The fairest way to split profit may be the worst one",
+  "format": "counterexample",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (홈서비스 회사, 소프트웨어 회사의 제품 조직) + 실제 연구 (McKinsey의 예산 재배분 연구, 일반적으로만 서술)",
+  "insight": "이익을 어디에 쓸지는 '이 돈이 어디서 벌렸나'나 '공평한가'가 아니라 '다음 1달러가 어디서 가장 많이 벌까'를 모든 용처와 나란히 비교해 정한다.",
+  "misconception": "번 돈은 그 돈을 번 부서에 돌려주거나, 공평하게 똑같이 나누는 것이 안전하고 합리적이다. 작년 예산을 조금씩 늘려 주는 것은 결정을 안 한 것이다.",
+  "relatedLessonIds": [
+    "FIN-09-02",
+    "FIN-09-03"
+  ],
+  "sources": [
+    {
+      "text": "Hall, S., Lovallo, D. & Musters, R. (2012). How to put your money where your strategy is. McKinsey Quarterly.",
+      "url": null
+    },
+    {
+      "text": "홈서비스 회사와 소프트웨어 제품 조직의 수치는 모두 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "계산 확인: 균등 배분 = HVAC $40k + 배관 $15k + 조경 $5k = 연 $60k. 대안 = HVAC 2개 팀 $40k + $40k + 대출 상환 $100k × 9% = $9k → 연 $89k. 차이 $29k. 두 번째 HVAC 팀도 같은 수익을 낸다는 것은 수요가 충분하다는 가정이며 카드에 명시했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "McKinsey(2012) 연구는 카드에 일반적으로만 서술했습니다(많은 기업의 부문별 예산이 해마다 거의 그대로이고, 더 많이 재배분한 기업의 주주수익률이 대체로 높았다). 표본 규모(약 1,600개 미국 기업, 1990~2005년), '3분의 1이 거의 재배분하지 않음', '수익률 약 30% 높음' 같은 구체 수치는 원문 확인 전까지 넣지 않았습니다. 또한 상관관계이지 인과가 아니라는 점을 카드에 적었습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Counterexample",
+      "title": "The fairest way to split profit may be the worst one",
+      "illustrative": true,
+      "body": [
+        "A home services company has a good year: $300,000 of profit to put back into the business. It runs three lines: heating and cooling, plumbing and landscaping.",
+        "The owner gives each line $100,000. Nobody argues. Everyone feels treated fairly. It is also the decision that quietly costs the most."
+      ],
+      "image": {
+        "label": "A pile of cash cut into three equal stacks",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 작업복 차림의 사장이 책상 위 돈다발을 자로 재듯 똑같이 세 덩어리로 나누고 있고, 각 덩어리 앞에 작은 아이콘(에어컨 실외기, 배관 렌치, 잔디깎이). 실제 회사 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Where should the $300,000 go?",
+      "illustrative": true,
+      "body": [
+        "Heating and cooling (HVAC) is booked weeks ahead. Plumbing is steady. Landscaping earned the most profit this year, but its season is short and demand is flat. The company also has a bank loan at 9% interest.",
+        "How do you decide where the money goes?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Split it evenly so every team gets a fair share",
+            "verdict": "risky",
+            "feedback": "You keep the peace and avoid a hard conversation. But you pay for it by putting a third of the money where it earns the least."
+          },
+          {
+            "key": "B",
+            "text": "Give most of it to landscaping, since it earned the most",
+            "verdict": "partial",
+            "feedback": "Rewarding what worked feels right. But where profit came from last year says little about where the next dollar will earn the most."
+          },
+          {
+            "key": "C",
+            "text": "Estimate what each use would earn, including paying down the loan, and fund the best ones first",
+            "verdict": "best",
+            "feedback": "This takes more work and may leave a team with nothing this year. It's also the only option that compares every use side by side."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What happened",
+      "title": "What each $100,000 earns per year",
+      "illustrative": true,
+      "breakdown": [
+        {
+          "value": "$40k",
+          "label": "HVAC crew",
+          "detail": "A van, tools and a trained tech for jobs already waiting",
+          "highlight": true
+        },
+        {
+          "value": "$15k",
+          "label": "Plumbing van",
+          "detail": "A bit more capacity for steady demand",
+          "highlight": false
+        },
+        {
+          "value": "$5k",
+          "label": "Landscaping gear",
+          "detail": "Newer mowers for a flat, seasonal market",
+          "highlight": false
+        },
+        {
+          "value": "$9k",
+          "label": "Pay down loan",
+          "detail": "9% interest you no longer pay, with no risk",
+          "highlight": false
+        }
+      ],
+      "callout": "The even split earns **$60k a year**. Two HVAC crews plus paying down the loan earns **$89k**, if demand can fill the second crew."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Capital allocation",
+      "body": [
+        "**Capital allocation** is deciding where each available dollar goes next: growing one part of the business, another part, paying down debt, keeping a cash cushion, or paying it out to the owners.",
+        "The key word is *next*. The question isn't what each team deserves. It's which use of the next dollar will earn the most, compared with every other use on the table."
+      ],
+      "image": {
+        "label": "One dollar facing five arrows to different uses",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 가운데 동전 하나에서 다섯 갈래 화살표: \"Grow line A\", \"Grow line B\", \"Pay down debt\", \"Keep as cushion\", \"Pay owners\". 각 화살표 끝에 작은 저울 아이콘을 놓아 서로 비교한다는 느낌을 줌.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "Most budgets barely move.",
+      "body": [
+        "Researchers at McKinsey looked at how large US companies split money across their businesses over many years. For many companies, each unit's share barely changed from one year to the next. Last year's budget, plus a little, became this year's budget.",
+        "The companies that shifted more money toward their best opportunities tended to deliver better returns to shareholders. That's a link, not proof of cause. But it suggests that **standing still is also a choice**, and often an expensive one."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Wider use",
+      "title": "It's not only about money.",
+      "body": [
+        "The same habit shows up wherever something scarce gets shared out. A clinic gives each doctor the same number of new-patient slots. A manager splits new hires evenly across teams. A shop gives every product the same shelf space.",
+        "Each case has a hidden option too: *don't spend it at all*. Paying down debt or keeping cash is a real use with a real return. It belongs on the list next to every growth idea."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Your estimates are guesses.",
+      "body": [
+        "The numbers behind each option are forecasts, and the people asking for money tend to be optimistic. Ask what each estimate assumes, and how it would look if it came in at half.",
+        "Putting everything into one bet also adds risk. If HVAC demand drops, both crews sit idle.",
+        "And people matter. A team that gets nothing every year may lose its best staff. Explain the reasoning, and fund small tests where the future is unclear."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now you lead product at a software company.",
+      "illustrative": true,
+      "body": [
+        "Next year you can hire four engineers. Last year each of your three teams got one or two. Team A's feature is what customers ask for most in sales calls. Team B maintains a stable product with few complaints. Team C is testing an unproven new idea.",
+        "How do you decide?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Give each team one engineer and the fourth to the team that pushes hardest",
+            "verdict": "risky",
+            "feedback": "It's quick and avoids conflict. But it rewards the loudest request rather than the best use of four expensive hires."
+          },
+          {
+            "key": "B",
+            "text": "Ask each lead what one more engineer would deliver, compare them, and fund the strongest, even if that's uneven",
+            "verdict": "best",
+            "feedback": "It takes longer and may leave Team B with no new hire. In exchange, each hire goes where it's likely to matter most, and you can revisit next quarter."
+          },
+          {
+            "key": "C",
+            "text": "Put all four on Team C's new idea, since that's where future growth is",
+            "verdict": "partial",
+            "feedback": "Betting on the future can be right. But four people on an unproven idea is a big bet. One or two could test it first."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Send each dollar where it earns the most next.",
+      "body": [
+        "An even split or last year's budget feels safe, but it's still a choice, often a costly one. Put every use side by side, including paying down debt or holding cash, and fund the best first.",
+        "**Try it today:** list three things you could spend your next $10,000 on. Next to each, write what you expect it to earn in a year. Is your current plan funding the top one?"
+      ],
+      "next": "Next · Which of your investments earn their keep?"
+    }
+  ]
+}

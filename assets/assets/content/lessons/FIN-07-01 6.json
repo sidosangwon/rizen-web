@@ -1,0 +1,263 @@
+{
+  "id": "FIN-07-01",
+  "unitId": "FIN-07",
+  "categoryId": "FIN",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Bootstrapping",
+  "readerTitle": "Same profit, same truck: why one owner waits 15 months and another waits two",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.3,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (푸드트럭, 치과용 예약 소프트웨어) · 모든 수치는 설명용",
+  "insight": "자력 성장(부트스트래핑)의 속도는 이익의 크기보다 고객 돈이 언제 들어오느냐에 달려 있다. 고객이 먼저 내는 돈이 가장 싼 성장 자금이 될 수 있다.",
+  "misconception": "외부 투자나 대출 없이 키우려면 이익을 모을 때까지 기다리는 수밖에 없다.",
+  "relatedLessonIds": [
+    "FIN-07-02",
+    "FIN-11-04"
+  ],
+  "sources": [
+    {
+      "text": "부트스트래핑과 고객 선수금(예약금, 선결제) 활용은 창업 재무의 일반 개념",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "푸드트럭 저축 기간: $60,000 ÷ $4,000 = 15개월. 사장 급여 $1,000 감축 시 $60,000 ÷ $5,000 = 12개월. 예약금 경로의 '약 2개월'은 30건 예약을 받는 데 걸리는 기간이라는 가정입니다.",
+      "status": "open"
+    },
+    {
+      "note": "케이터링 예약금: 30건 × $4,000 = $120,000 예약, 50% 예약금 = $60,000. 잔금 건당 $2,000 ≥ 행사 비용 $1,600, 당일 남는 돈 $400. 건당 총 남는 돈 $4,000 − $1,600 = $2,400.",
+      "status": "open"
+    },
+    {
+      "note": "소프트웨어: 정상가 $40 × 12개월 = $480/년, 선결제 첫해 $300. 100곳 × $300 = $30,000 = 추정 개발비. 할인 폭 $180 × 100곳 = $18,000은 첫해 기회비용으로 볼 수 있습니다.",
+      "status": "open"
+    },
+    {
+      "note": "예약금·선결제는 회계상 아직 번 돈이 아닌 부채(선수금)입니다. 국가별 회계·세무 처리는 다루지 않습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Numbers twist",
+      "title": "Same profit, same truck, very different wait",
+      "illustrative": true,
+      "body": [
+        "Two food truck owners each clear $4,000 a month after paying themselves. Each wants a second truck that costs $60,000. Neither wants a loan or an investor.",
+        "The first owner saves and buys it in 15 months. The second buys it in about two. Same profit, no borrowed money."
+      ],
+      "image": {
+        "label": "Two food trucks with different calendars above them",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 똑같은 푸드트럭 두 대. 왼쪽 트럭 위에는 15장이 넘어가는 달력, 오른쪽 트럭 위에는 2장만 넘어간 달력과 옆에 새 트럭 한 대. 실제 브랜드 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How do you get the second truck sooner?",
+      "illustrative": true,
+      "body": [
+        "Your truck leaves $4,000 a month. Offices keep asking if you cater events. The second truck costs $60,000, and you want to keep the business fully yours.",
+        "What's the fastest sensible path?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Cut your own pay and costs hard, and save faster",
+            "verdict": "partial",
+            "feedback": "It helps a little: an extra $1,000 a month gets you there in 12 months instead of 15. But it costs you, and it doesn't change the basic speed limit."
+          },
+          {
+            "key": "B",
+            "text": "Sell catering packages now and ask for a 50% deposit",
+            "verdict": "best",
+            "feedback": "Customers pay before you serve them, so their money funds the truck. You trade a promise to deliver for cash today."
+          },
+          {
+            "key": "C",
+            "text": "Put the truck on a credit card and pay it off from profit",
+            "verdict": "risky",
+            "feedback": "You get the truck at once, but that's borrowing at a high rate. If a slow season hits, the payments don't wait."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Follow the deposits.",
+      "illustrative": true,
+      "body": [
+        "The deposits buy the truck. The balance paid on each event day covers the food and staff for that event. The truck is paid for before the first event is served."
+      ],
+      "breakdown": [
+        {
+          "value": "$120,000",
+          "label": "Booked",
+          "detail": "30 office events at $4,000 each",
+          "highlight": false
+        },
+        {
+          "value": "$60,000",
+          "label": "Deposits in hand",
+          "detail": "50% paid at booking",
+          "highlight": true
+        },
+        {
+          "value": "$2,000",
+          "label": "Balance per event",
+          "detail": "Paid on the day",
+          "highlight": false
+        },
+        {
+          "value": "$1,600",
+          "label": "Cost per event",
+          "detail": "Food and staff, covered by the balance",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Bootstrapping",
+      "body": [
+        "**Bootstrapping** means growing a business with its own money: the founder's savings and what customers pay, instead of outside investors or large loans.",
+        "You keep full ownership and control. The cost is speed. A bootstrapped business can only grow as fast as cash comes in.",
+        "The twist: *how much* you earn sets one limit. *When* customers pay sets another, and it's often easier to change."
+      ],
+      "image": {
+        "label": "A growth curve fed by a pipe of customer payments",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 사업을 나타내는 화분에 \"Customer payments\"라고 적힌 물뿌리개로 물을 주는 그림. 물뿌리개 앞쪽에 \"Paid earlier\" 화살표. 외부 투자 상징(돈가방)은 회색으로 비켜 있음.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Three sources of bootstrap fuel",
+      "body": [
+        "Bootstrapped businesses pull on three levers, often at once."
+      ],
+      "list": [
+        "**Profit you keep:** money left after costs that stays in the business",
+        "**Customers who pay earlier:** deposits, pre-orders, memberships, annual plans",
+        "**Costs that wait or flex:** renting before buying, paying suppliers on normal terms, hiring as sales arrive"
+      ],
+      "callout": "The second lever is the one most owners forget they have."
+    },
+    {
+      "index": 6,
+      "type": "chart",
+      "eyebrow": "The twist",
+      "title": "Months until the second truck",
+      "illustrative": true,
+      "body": [
+        "Profit barely moves the timeline. Changing when customers pay moves it a lot."
+      ],
+      "chart": {
+        "unit": "count",
+        "groups": [
+          {
+            "label": "Months to raise $60,000",
+            "rows": [
+              {
+                "label": "Save profit only",
+                "value": 15,
+                "highlight": false
+              },
+              {
+                "label": "Save, plus $1,000 pay cut",
+                "value": 12,
+                "highlight": false
+              },
+              {
+                "label": "50% catering deposits",
+                "value": 2,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A deposit is a promise, not profit.",
+      "body": [
+        "Deposits are money you haven't earned yet. If events get cancelled, you may owe refunds after the cash is already a truck. Keep a cushion, and set clear cancellation terms.",
+        "Bootstrapping also has a speed cost. In markets where the first big player wins, a funded rival can outspend you while you wait for cash. Self-funding fits best when customers will pay early and the race isn't winner-takes-all."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's software for dental clinics.",
+      "illustrative": true,
+      "body": [
+        "400 clinics use your booking software. Many ask for a reminder add-on. Building it would take about $30,000 of developer time. You'd charge $40 a month for it.",
+        "How do you fund it?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Spend your savings to build it, then launch",
+            "verdict": "risky",
+            "feedback": "You keep everything, but you risk your own money before knowing how many clinics will actually pay."
+          },
+          {
+            "key": "B",
+            "text": "Offer the first year at $300, paid upfront, before you build",
+            "verdict": "best",
+            "feedback": "100 prepaid clinics cover the $30,000 and prove the demand. You give up $180 per clinic in year one and take on a delivery promise."
+          },
+          {
+            "key": "C",
+            "text": "Raise money from an angel investor to build it faster",
+            "verdict": "partial",
+            "feedback": "Fast, and useful if a rival is close behind. But you'd give up a share of the company for a project your customers could fund."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A bootstrapped business grows at the speed of its cash.",
+      "body": [
+        "Before looking for outside money, ask whether your customers would pay you sooner. Early payments can fund growth and prove demand at the same time.",
+        "**Try it today:** write down one thing you sell where a customer could pay a deposit, pre-order or prepay. What would that cash let you do this quarter?"
+      ],
+      "next": "Next · Borrow it or sell a slice?"
+    }
+  ]
+}

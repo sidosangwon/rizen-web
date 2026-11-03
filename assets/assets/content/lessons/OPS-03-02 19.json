@@ -1,0 +1,243 @@
+{
+  "id": "OPS-03-02",
+  "unitId": "OPS-03",
+  "categoryId": "OPS",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "Inventory",
+  "readerTitle": "The full fridge that still ran out of food",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative",
+    "real_observation"
+  ],
+  "caseNote": "가상 사례 (식당, 소프트웨어 제품팀) + 린 생산에서 널리 쓰이는 '강물과 바위' 비유 · 모든 수치는 설명용",
+  "insight": "재고는 '얼마나 많이'가 아니라 '어떤 시간 차이를 메우는가'로 판단한다. 품목마다 다시 채우는 데 걸리는 시간과 수요의 출렁임에 맞춰야 한다.",
+  "misconception": "재고를 많이 쌓아 둘수록 안전하다. 재고는 창고에 쌓인 완제품만을 뜻한다.",
+  "relatedLessonIds": [
+    "OPS-03-03",
+    "FIN-02-05"
+  ],
+  "sources": [
+    {
+      "text": "운영관리의 표준 개념 (재고의 세 형태: 원자재, 재공품, 완제품 / 안전재고)",
+      "url": null
+    },
+    {
+      "text": "린 생산에서 쓰이는 '재고는 문제를 가리는 물'이라는 비유 (도요타 생산방식 관련 문헌에 흔히 등장)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "갈비찜 계산: 평균 하루 20인분 × 재주문~조리 3일 = 60인분. 바쁜 기간 하루 30인분이면 3일간 90인분, 차이 30인분이 여유분. 목표 재고 60 + 30 = 90인분.",
+      "status": "open"
+    },
+    {
+      "note": "'강물과 바위' 비유는 도요타 생산방식과 린 문헌에서 자주 쓰이지만 특정 인물의 발언으로 단정하지 않았습니다. 카드에는 'a common metaphor in lean manufacturing'으로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "식당과 제품팀 사례는 모두 가상입니다. 3번 카드의 '채소 일주일치, 갈비 이틀치'도 설명용 설정입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Counterexample",
+      "title": "The full fridge that still ran out of food",
+      "illustrative": true,
+      "body": [
+        "Every Saturday night, a busy bistro runs out of its best dish, the braised short rib, by 8 p.m.",
+        "Every Monday morning, the same bistro throws out crates of wilted greens. Its walk-in fridge has never been fuller. It has never felt less prepared."
+      ],
+      "image": {
+        "label": "An overfull restaurant fridge with one empty shelf",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 식당 워크인 냉장고 안. 채소 상자가 천장까지 꽉 차 있고 일부는 시들어 있음. 가운데 'Short rib'이라고 적힌 선반 하나만 텅 비어 있음. 실제 브랜드 로고 없음.",
+        "url": "assets/images/ops-03-02-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You keep running out. What do you change?",
+      "illustrative": true,
+      "body": [
+        "You own the bistro. Guests are annoyed when the short rib sells out. Your chef says the kitchen needs more stock on hand.",
+        "What do you do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Order about 30% more of everything, to be safe",
+            "verdict": "risky",
+            "feedback": "You'd stop some sellouts, but you'd also throw out 30% more greens. More stock in the wrong places costs money without adding safety."
+          },
+          {
+            "key": "B",
+            "text": "Check each item: how long it takes to restock, and how much demand swings",
+            "verdict": "best",
+            "feedback": "This takes an hour of work instead of a bigger order. It shows which items need more stock and which need much less."
+          },
+          {
+            "key": "C",
+            "text": "Drop the short rib from the menu",
+            "verdict": "partial",
+            "feedback": "Sellouts would stop, but you'd lose your best seller. A smaller menu can help, but this treats a stock problem as a menu problem."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What was going on",
+      "title": "Lots of stock. Wrong places.",
+      "illustrative": true,
+      "body": [
+        "The greens arrive fresh every morning, yet the bistro kept about a week of them. That stock covered a gap that didn't exist.",
+        "The short rib is the opposite. Ordering the meat and braising it takes three days. The kitchen kept only about two days' worth.",
+        "The fridge wasn't too small or too big. Its contents just didn't match **how long each item takes to replace**."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Inventory",
+      "body": [
+        "**Inventory** is anything you've bought or made that hasn't been sold yet. It exists to cover a gap: the time between when you can get something and when a customer wants it.",
+        "It comes in three forms. *Raw materials* are inputs, like flour or meat. *Work in progress* is half-made, like a braise on the stove. *Finished goods* are ready to sell.",
+        "The useful question isn't \"how much do we have?\" It's \"what gap is this covering?\""
+      ],
+      "image": {
+        "label": "Three boxes: raw materials, work in progress, finished goods",
+        "aspectRatio": "16:9",
+        "brief": "왼쪽에서 오른쪽으로 흐르는 인포그래픽. 'Raw materials'(생고기, 채소) → 'Work in progress'(냄비 속 조림) → 'Finished goods'(접시에 담긴 요리). 각 단계 사이에 작은 시계 아이콘으로 '시간 차이'를 표시.",
+        "url": "assets/images/ops-03-02-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "breakdown",
+      "eyebrow": "How it works",
+      "title": "Sizing one item's inventory",
+      "illustrative": true,
+      "body": [
+        "The cushion is called **safety stock**. Greens restock daily, so they need about a day's worth, not a week's."
+      ],
+      "breakdown": [
+        {
+          "value": "20",
+          "label": "Portions a day",
+          "detail": "Average short rib sales",
+          "highlight": false
+        },
+        {
+          "value": "3 days",
+          "label": "Time to replace",
+          "detail": "Order the meat, then braise it",
+          "highlight": false
+        },
+        {
+          "value": "60",
+          "label": "Covers a normal stretch",
+          "detail": "20 a day × 3 days",
+          "highlight": false
+        },
+        {
+          "value": "+30",
+          "label": "Cushion for busy days",
+          "detail": "A busy stretch runs 30 a day",
+          "highlight": false
+        },
+        {
+          "value": "90",
+          "label": "Target stock",
+          "detail": "What to have on hand when you reorder",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond the fridge",
+      "title": "Inventory hides in places you don't count.",
+      "body": [
+        "A tailor's half-finished suits are inventory. So are a contractor's materials sitting on a job site, or a printer's pallets of paper.",
+        "Each has the same costs as food in a fridge. It takes up space, ties up money, and can go stale, break or go out of style before it's sold."
+      ],
+      "softwareNote": "Code that's written but not shipped is work in progress. It cost money to build, it earns nothing yet, and it can go stale as the rest of the product changes around it."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Less isn't automatically better.",
+      "body": [
+        "Cutting inventory too far just moves the cost. Empty shelves mean lost sales and guests who don't come back. The right size depends on how reliable your suppliers are, which the next lesson covers.",
+        "A common metaphor in lean manufacturing pictures inventory as water in a river. High water hides the rocks: late suppliers, slow prep, bad forecasts. Lowering it shows the problems, but you have to be ready to fix them."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software team.",
+      "illustrative": true,
+      "body": [
+        "Your product team has finished 12 new features. Marketing wants to hold them all for a big launch in three months.",
+        "What do you do with the finished work?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Ship each feature as it's ready, and save the launch for the story",
+            "verdict": "best",
+            "feedback": "Customers get value now and you learn which features matter. You give up some launch-day splash, but marketing can still tell the story later."
+          },
+          {
+            "key": "B",
+            "text": "Keep building so the launch is even bigger",
+            "verdict": "risky",
+            "feedback": "The pile of unshipped work grows. Bugs and wrong guesses stay hidden longer and cost more to fix when they surface."
+          },
+          {
+            "key": "C",
+            "text": "Hold them for the launch, but test each with a small group of users now",
+            "verdict": "partial",
+            "feedback": "You get early feedback and still have a big launch. But most customers wait three months for work that's already done."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Inventory should cover a real gap, not a vague fear.",
+      "body": [
+        "Size each item to how long it takes to replace and how much demand swings. More stock in the wrong place is cost, not safety.",
+        "**Try it today:** pick three things you keep in stock. For each, write how long it takes to replace and how many days' worth you're holding."
+      ],
+      "next": "Next · Just in time or just in case?"
+    }
+  ]
+}

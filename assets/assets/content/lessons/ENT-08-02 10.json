@@ -1,0 +1,235 @@
+{
+  "id": "ENT-08-02",
+  "unitId": "ENT-08",
+  "categoryId": "ENT",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "Being acquired",
+  "readerTitle": "The $10 million offer that paid $5 million",
+  "format": "counterexample",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (B2B 마케팅 에이전시, 일정 관리 앱) · 모든 수치는 설명용",
+  "insight": "인수 제안은 가격 하나가 아니라 조건의 묶음이다. 그 돈이 확정된 것인지, 내가 통제할 수 있는 것에 달렸는지를 먼저 본다.",
+  "misconception": "인수 제안은 발표 금액이 큰 쪽이 더 좋은 제안이다.",
+  "relatedLessonIds": [
+    "ENT-08-04",
+    "ENT-08-10"
+  ],
+  "sources": [
+    {
+      "text": "인수합병 거래 구조의 일반 개념 (클로징 시 현금, 언아웃, 이연 지급, 주식 지급, 에스크로)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "계산 확인: 제안 A $4M 현금 + 언아웃 $6M 중 $1M 수령 = 총 $5M. 제안 B $7M 전액 현금. 차이 $7M − $5M = $2M. 언아웃 달성률 1/6 ≈ 17%는 가상 수치입니다.",
+      "status": "open"
+    },
+    {
+      "note": "앱 사례: $2M 현금 + $3M 언아웃 = 발표 금액 $5M. 선택지 B의 예시 조건은 설명용이며 실제 협상 결과를 보장하지 않습니다.",
+      "status": "open"
+    },
+    {
+      "note": "언아웃 분쟁이 흔하다는 일반적 서술만 하고 구체적 통계는 넣지 않았습니다. 특정 국가의 법률·세무 조언은 다루지 않으며, 7번 카드에서 전문가 상담을 권합니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Entrepreneurship · Counterexample",
+      "title": "The $10 million offer that paid $5 million",
+      "illustrative": true,
+      "body": [
+        "Maya built a marketing agency with 40 staff and loyal B2B clients. Two buyers made offers. She took the bigger one: $10 million.",
+        "Three years later, she had received $5 million in total. The smaller offer would have paid her $7 million on the day she signed."
+      ],
+      "image": {
+        "label": "A large check that shrinks as it moves through time",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. \"$10M\"이라고 적힌 큰 수표가 왼쪽에서 오른쪽으로 가며 조각이 떨어져 나가고, 오른쪽 끝에는 \"$5M\"만 남음. 실제 회사 로고나 은행 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Two offers for your agency.",
+      "illustrative": true,
+      "body": [
+        "**Offer A:** $10 million. $4 million in cash when the deal closes, plus up to $6 million over three years if the agency hits revenue targets.",
+        "**Offer B:** $7 million, all in cash when the deal closes.",
+        "What do you do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Take Offer A. $10 million is clearly more",
+            "verdict": "risky",
+            "feedback": "You get the bigger headline, but only $4 million of it is certain. The rest depends on a future you may no longer run."
+          },
+          {
+            "key": "B",
+            "text": "Take Offer B. Cash now beats promises",
+            "verdict": "partial",
+            "feedback": "You lock in $7 million and sleep well. But if the targets in A were easy and in your control, you might leave money behind."
+          },
+          {
+            "key": "C",
+            "text": "Find out exactly what the $6 million depends on, and who controls it",
+            "verdict": "best",
+            "feedback": "This turns a price comparison into a risk comparison. It costs a little time and maybe some awkward questions."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What happened",
+      "title": "Where the other $5 million went.",
+      "illustrative": true,
+      "body": [
+        "The buyer merged Maya's sales team into its own, moved two big clients to its in-house team, and raised prices. Revenue at \"her\" agency fell. The targets were missed. She had agreed to all of it in the contract."
+      ],
+      "breakdown": [
+        {
+          "value": "$10M",
+          "label": "Headline price",
+          "detail": "The number in the announcement",
+          "highlight": false
+        },
+        {
+          "value": "$4M",
+          "label": "Cash at close",
+          "detail": "Paid on signing day",
+          "highlight": false
+        },
+        {
+          "value": "$1M",
+          "label": "Earnout received",
+          "detail": "Out of a possible $6M",
+          "highlight": false
+        },
+        {
+          "value": "$5M",
+          "label": "What she actually got",
+          "detail": "$2M less than Offer B",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Being acquired means selling control, on terms",
+      "body": [
+        "When you are **acquired**, another company buys your business and takes control of it. From that day, the buyer decides on staff, prices, clients and budgets.",
+        "So an offer is not one number. It is a package of terms. Part may be cash at closing. Part may be paid later, paid in the buyer's shares, or held back in case problems appear.",
+        "An **earnout** is a payment that depends on future results, usually revenue or profit after the sale."
+      ],
+      "image": {
+        "label": "A price tag that opens into several labeled parts",
+        "aspectRatio": "16:9",
+        "brief": "가격표 하나가 펼쳐지며 네 칸으로 나뉨: \"Cash at close\", \"Paid later\", \"Buyer's shares\", \"Earnout\". 첫 칸만 단단한 색, 나머지는 점선 테두리로 불확실함을 표현.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Why buyers offer more, later.",
+      "body": [
+        "Buyers and sellers often disagree on what the future looks like. The founder believes growth will continue. The buyer is not sure.",
+        "An earnout bridges the gap. The buyer can announce a big number while paying it only if the good future arrives. That moves risk from buyer to seller.",
+        "The catch: after the sale, the seller no longer controls the business that has to hit the target. The buyer's choices can help the numbers, or quietly sink them."
+      ],
+      "callout": "Ask of every dollar: is it certain, and who controls it?"
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The other side",
+      "title": "When deferred money works fine.",
+      "illustrative": true,
+      "body": [
+        "Earnouts are not traps by design. They tend to work when the target is clear, the seller keeps real control over what drives it, and the contract limits what the buyer can change.",
+        "A small engineering firm that stays a separate unit, keeps its own clients and staff, and is measured on its own revenue has a fair shot at its earnout.",
+        "Maya's problem was not the earnout itself. It was a target tied to a business the buyer was free to reshape."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Cash at close isn't the whole story either.",
+      "body": [
+        "An all-cash offer may be lower for good reasons, and some buyers won't pay more without a link to results.",
+        "Money is also only one term. Promises about your staff, your role and your customers matter, and they are often harder to enforce than payments.",
+        "Deal terms and taxes differ by country. Before signing, get advice from people who do these deals for a living."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a scheduling app.",
+      "illustrative": true,
+      "body": [
+        "A larger software company offers $5 million for your scheduling app: $2 million in cash, plus $3 million if active users of the combined product grow 50% in two years.",
+        "The buyer's team will rebuild your app inside its own platform. What do you push for?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Raise the headline to $6 million, same structure",
+            "verdict": "risky",
+            "feedback": "A bigger number looks like a win, but the extra money sits in the part you can't control. Their rebuild decides whether users grow."
+          },
+          {
+            "key": "B",
+            "text": "More cash at close, or a target you still control, even if the total drops",
+            "verdict": "best",
+            "feedback": "You may give up some upside, but more of the price becomes real. A slightly smaller deal you can count on often beats a bigger one you can't."
+          },
+          {
+            "key": "C",
+            "text": "Accept as is. The buyer wants the users to grow too",
+            "verdict": "partial",
+            "feedback": "Their goals may overlap with yours, but not fully. They can hit their own goals while missing your target, and the contract is what pays you."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Judge an offer by what's certain, not what's announced.",
+      "body": [
+        "Once you sell, someone else runs the business. Any money tied to the future depends on their choices, not yours.",
+        "**Try it today:** imagine an offer for your business. Split it into money you'd get on day one and money that depends on later results. Next to each later dollar, write who would control it."
+      ],
+      "next": "Next · Going public"
+    }
+  ]
+}

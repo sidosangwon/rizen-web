@@ -1,0 +1,219 @@
+{
+  "id": "THK-07-03",
+  "unitId": "THK-07",
+  "categoryId": "THK",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "Start with a hypothesis",
+  "readerTitle": "Why collecting all the data first can leave you with no answer",
+  "format": "counterexample",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (가정 청소 업체, 대형 소매업체 고객지원팀) · 의사의 감별 진단과 컨설팅의 가설 주도 문제 해결은 일반적 관행으로만 언급",
+  "insight": "데이터를 모으기 전에 '가장 그럴듯한 답'을 먼저 적으면, 무엇을 볼지와 무엇을 무시해도 되는지가 정해진다.",
+  "misconception": "선입견 없이 데이터를 전부 모아 보면 답이 저절로 드러난다. 추측부터 하는 것은 비과학적이다.",
+  "relatedLessonIds": [
+    "THK-07-02",
+    "THK-02-01"
+  ],
+  "sources": [
+    {
+      "text": "Rasiel, E. (1999). The McKinsey Way. McGraw-Hill. (초기 가설로 문제 해결을 시작하는 방식)",
+      "url": null
+    },
+    {
+      "text": "의학의 감별 진단(differential diagnosis): 가능한 원인 목록을 세우고 검사로 좁혀 가는 표준 임상 관행",
+      "url": null
+    },
+    {
+      "text": "청소 업체와 고객지원팀 사례 및 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "청소 업체 사례(예약 15% 감소, 3주, 40개 열 스프레드시트)와 고객지원팀 사례(처리 시간 30% 증가, 티켓 12,000건)는 모두 설명용 가상 수치입니다.",
+      "status": "open"
+    },
+    {
+      "note": "6번 카드의 의사 비유는 감별 진단의 일반적 설명입니다. 특정 연구 수치는 인용하지 않았습니다. 의학 감수자에게 표현이 과장되지 않았는지 확인받으세요.",
+      "status": "open"
+    },
+    {
+      "note": "컨설팅 회사들이 가설 주도 접근을 가르친다는 서술은 Rasiel(1999) 등에 근거한 일반적 서술입니다. 특정 회사의 내부 교육 내용으로 단정하지 않도록 카드에서 회사명을 쓰지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Counterexample",
+      "title": "Three weeks of data. No answer.",
+      "illustrative": true,
+      "body": [
+        "Maria runs a home cleaning company. Bookings fell 15% in two months, so she did the careful thing: she pulled every number she had.",
+        "Three weeks later she had a spreadsheet with 40 columns and still no idea what was wrong. The problem wasn't too little data. It was starting without a guess."
+      ],
+      "image": {
+        "label": "Owner buried in a huge spreadsheet",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 작은 사무실 책상에 앉은 청소 업체 사장이 바닥까지 늘어진 거대한 스프레드시트 출력물에 파묻혀 있음. 책상 옆에 청소 도구 바구니. 실제 브랜드 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Bookings are down 15%. Where do you start?",
+      "illustrative": true,
+      "body": [
+        "You run a cleaning company with 12 cleaners and about 300 regular customers. Bookings have dropped for two months. You have a few days to spare on this.",
+        "What do you do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Pull every report and survey all customers, then look for patterns",
+            "verdict": "partial",
+            "feedback": "Thorough, but slow. Without knowing what you're looking for, most of that data won't point anywhere."
+          },
+          {
+            "key": "B",
+            "text": "Write down your best guess at the cause, then find the quickest check that could prove it wrong",
+            "verdict": "best",
+            "feedback": "You may guess wrong, but you'll know within days. Each check either answers the question or rules out a cause."
+          },
+          {
+            "key": "C",
+            "text": "Cut prices 10% now, since price is the usual reason",
+            "verdict": "risky",
+            "feedback": "Fast action, but it's a guess you never tested. If price isn't the cause, you lose margin and bookings stay down."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "One guess did what 40 columns couldn't.",
+      "illustrative": true,
+      "body": [
+        "A friend asked Maria a simple question: what changed two months ago? She had reshuffled cleaner schedules to cut travel time.",
+        "That gave her a guess: *customers who lost their regular cleaner stopped booking.* She checked it in one afternoon, comparing rebooking rates for customers who kept their cleaner with those who didn't.",
+        "The gap was large. The answer had been in her data all along. She just hadn't known which two columns to compare."
+      ],
+      "image": {
+        "label": "Two groups of customers compared side by side",
+        "aspectRatio": "16:9",
+        "brief": "간단한 인포그래픽. 왼쪽은 'Kept their cleaner' 그룹(집 아이콘 대부분 초록 체크), 오른쪽은 'Got a new cleaner' 그룹(집 아이콘 다수가 회색으로 빠짐). 숫자는 넣지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Start with a hypothesis",
+      "body": [
+        "A **hypothesis** is your best guess at the answer, stated clearly enough that evidence could prove it wrong. You write it down *before* you collect data.",
+        "It isn't a conclusion. It's a tool for deciding what to look at. Facts are endless. A guess tells you which few matter, and which you can ignore for now.",
+        "Maria's data didn't change. Her question did."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Guess, then try to break it.",
+      "body": [
+        "A hypothesis is useful only if you test it quickly. The loop is short:"
+      ],
+      "list": [
+        "**State it:** \"Bookings fell because customers lost their regular cleaner.\"",
+        "**If true, you'd see:** those customers rebook far less often",
+        "**If false, you'd see:** no difference between the groups",
+        "**Run the cheapest check** that tells the two apart",
+        "**Keep, revise or drop it,** then guess again"
+      ],
+      "callout": "A wrong guess dropped in a day is progress, not failure.",
+      "softwareNote": "If sign-ups fall, guess first: \"the new pricing page confuses people.\" Then compare conversion before and after the change, instead of building a dashboard of every metric."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Why \"just look\" fails",
+      "title": "Good diagnosticians guess early.",
+      "body": [
+        "A doctor seeing a patient with chest pain doesn't order every test in the hospital. She lists the likely causes, then orders the tests that can tell them apart. Doctors call this a differential diagnosis.",
+        "Many consulting teams work the same way, writing a first answer on day one and spending the project trying to prove or disprove it.",
+        "Collecting everything feels open-minded. In practice, it often means drowning before you know what you're looking for."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A guess can harden into a belief.",
+      "body": [
+        "Once you've written a hypothesis, you'll want it to be right. That's how people end up noticing only the evidence that agrees.",
+        "Two habits help. Write down two or three competing guesses, not one. And decide in advance what result would make you drop yours.",
+        "If you know almost nothing about an area, spend a short time exploring first. A hypothesis needs some grounding to be a good guess."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now you lead a support team.",
+      "illustrative": true,
+      "body": [
+        "You manage customer support inside a large retailer. Average time to resolve a ticket rose 30% this quarter. Your director wants an explanation by Friday.",
+        "Last quarter the company changed its returns policy and you hired four new agents. What's your plan?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Audit all 12,000 tickets from this quarter across every field",
+            "verdict": "partial",
+            "feedback": "You might find the cause, but probably not by Friday. Without a guess, you won't know which fields to compare."
+          },
+          {
+            "key": "B",
+            "text": "Guess it's the returns policy, and also test new agents. Compare resolve times by ticket type and agent tenure",
+            "verdict": "best",
+            "feedback": "Two competing guesses, each with a quick check. You'll likely have an answer in a day, and you'll know which one is wrong."
+          },
+          {
+            "key": "C",
+            "text": "Tell the director it's the new hires and book extra training",
+            "verdict": "risky",
+            "feedback": "Confident and quick, but untested. If returns tickets are the real cause, training won't help and you've blamed your new team."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Guess first. Then try to prove yourself wrong.",
+      "body": [
+        "A clear best guess turns a pile of data into a few useful checks.",
+        "**Try it today:** pick one problem you're stuck on. Write one sentence that starts \"I think the cause is…\" and one check that would prove it wrong."
+      ],
+      "next": "Next · Why a few causes drive most of the results"
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "id": "BMO-01-07",
+  "unitId": "BMO-01",
+  "categoryId": "BMO",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "Draw the business model of a gym",
+  "readerTitle": "Draw a gym's business model on one napkin",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (동네 헬스장, 사내 교육팀, 협업 소프트웨어) + 실제 연구 (DellaVigna & Malmendier, 2006) · 모든 수치는 설명용",
+  "insight": "헬스장처럼 비용 대부분이 고정된 사업에서는 수익원을 비용이 생기는 방식에 맞춰 설계해야 한다. 고정비는 정액으로, 이용할 때마다 드는 비용은 이용한 만큼 받는다.",
+  "misconception": "매출이 같으면 어느 수익원을 키우든 이익도 똑같이 늘어난다.",
+  "relatedLessonIds": [
+    "BMO-01-03",
+    "BMO-01-04"
+  ],
+  "sources": [
+    {
+      "text": "DellaVigna, S. & Malmendier, U. (2006). Paying Not to Go to the Gym. American Economic Review, 96(3), 694–719.",
+      "url": null
+    },
+    {
+      "text": "헬스장, 사내 교육팀, 소프트웨어 회사의 수치는 모두 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "헬스장 가상 수치: 회원 800명 × $40 = $32,000, PT $6,000, 가입비·음료 $2,000, 합계 $40,000. 고정비는 임대료 $12,000 + 장비 리스 $4,000 + 직원 $10,000 + 공과금·청소 $4,000 = $30,000. 트레이너 몫은 PT 매출의 60%인 $3,600. 이익은 $40,000 − $30,000 − $3,600 = $6,400.",
+      "status": "open"
+    },
+    {
+      "note": "판단 문제 1: 회원 50명 × $40 = $2,000, 회원당 추가 비용 약 $2 × 50 = $100이므로 약 $1,900가 남음. PT $2,000 증가 시 트레이너 60% 지급 후 $800가 남음. 음료는 원가율 50% 가정으로 $1,000가 남음.",
+      "status": "open"
+    },
+    {
+      "note": "DellaVigna & Malmendier 연구는 월 회원권 이용자 상당수가 1회권을 샀다면 더 적게 냈을 것이라는 결과입니다. 카드에는 구체 수치 없이 일반적으로만 서술했습니다. 게시 전 원문 표현을 다시 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business models · Apply",
+      "title": "Draw a gym's business model on one napkin",
+      "illustrative": true,
+      "body": [
+        "In January the neighborhood gym is packed. By March the 7 a.m. crowd is half the size, yet the monthly payments keep coming in.",
+        "Sketch how this gym makes money and you'll see why. You'll use two ideas from this unit: **revenue streams** and **cost structure**."
+      ],
+      "image": {
+        "label": "A napkin sketch of a gym with money arrows in and out",
+        "aspectRatio": "4:3",
+        "brief": "카페 냅킨 위에 펜으로 그린 헬스장 스케치. 왼쪽에서 'Memberships', 'Training', 'Drinks' 화살표가 들어오고, 오른쪽으로 'Rent', 'Staff', 'Equipment' 화살표가 나감. 실제 헬스장 브랜드나 로고는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "The owner wants $2,000 more profit a month.",
+      "illustrative": true,
+      "body": [
+        "The gym has 800 members at $40 a month. Trainers keep 60% of every personal training session they run. Drinks cost about half their price. Rent, staff and equipment cost the same however many people come.",
+        "Each option below adds $2,000 in monthly sales. Which one adds the most profit?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Sign up 50 more members at $40",
+            "verdict": "best",
+            "feedback": "This is **cost structure** at work. The gym's costs are almost all fixed, so nearly all of the $2,000 stays. The catch is room at peak hours."
+          },
+          {
+            "key": "B",
+            "text": "Sell $2,000 more personal training",
+            "verdict": "partial",
+            "feedback": "It's a real **revenue stream**, but each session carries its own cost. Trainers take 60%, so only $800 is left."
+          },
+          {
+            "key": "C",
+            "text": "Sell $2,000 more smoothies and protein bars",
+            "verdict": "risky",
+            "feedback": "Easy to sell, but each drink costs about half its price. About $1,000 stays, and the stock takes counter space and staff time."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The sketch",
+      "title": "Where the money comes from, and where it goes.",
+      "illustrative": true,
+      "body": [
+        "Revenue: $40,000 a month. Fixed costs: $30,000. Trainer pay: $3,600. Profit: **$6,400**. Four out of five revenue dollars come from one stream."
+      ],
+      "breakdown": [
+        {
+          "value": "$32,000",
+          "label": "Memberships",
+          "detail": "800 members × $40, paid whether they come or not",
+          "highlight": true
+        },
+        {
+          "value": "$6,000",
+          "label": "Personal training",
+          "detail": "Trainers keep 60%",
+          "highlight": false
+        },
+        {
+          "value": "$2,000",
+          "label": "Joining fees and drinks",
+          "detail": "Small, and some costs come with each sale",
+          "highlight": false
+        },
+        {
+          "value": "−$30,000",
+          "label": "Fixed costs",
+          "detail": "Rent, equipment leases, staff, utilities",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Cost structure",
+      "title": "An empty treadmill costs the same as a busy one.",
+      "illustrative": true,
+      "body": [
+        "Most of the gym's costs are **fixed**. Rent, leases and front-desk staff cost the same whether a member comes twenty times a month or never.",
+        "So once those costs are covered, each new member is almost pure profit. That's why gyms push so hard on sign-ups and on keeping people subscribed."
+      ],
+      "image": {
+        "label": "Row of treadmills, one in use, same cost tag on each",
+        "aspectRatio": "16:9",
+        "brief": "러닝머신 다섯 대가 일렬로 있고 한 대만 사람이 사용 중. 모든 러닝머신 위에 같은 가격표 '$ fixed'가 붙어 있음. 밝은 플랫 일러스트, 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The hidden capacity",
+      "title": "The model works because not everyone shows up at once.",
+      "body": [
+        "A gym with room for 150 people can sell 800 memberships because visits spread across the day, and many members come less than they planned.",
+        "Economists Stefano DellaVigna and Ulrike Malmendier studied US gym members and found that many on monthly contracts would have paid less by buying single visits. They had overestimated how often they would go."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Revenue from people who don't come is fragile.",
+      "body": [
+        "Members who stop coming eventually notice the charge and cancel. A model that depends on non-use is always slowly losing members.",
+        "Crowding is the other limit. Add members past what the 6 p.m. rush can handle and regulars leave. Your **fixed costs** then stay the same while your best revenue walks out."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a training team inside a manufacturer.",
+      "illustrative": true,
+      "body": [
+        "You run a company's in-house training team: four salaried trainers and one leased classroom. Finance says departments must now pay for training out of their own budgets.",
+        "How should you charge them?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "A price per seat, per course",
+            "verdict": "partial",
+            "feedback": "It feels fair, but your **cost structure** is almost all fixed. In a tight year departments cut seats, your revenue drops and your costs don't."
+          },
+          {
+            "key": "B",
+            "text": "A yearly flat fee per department, plus a charge for custom courses",
+            "verdict": "best",
+            "feedback": "Like a gym membership, the flat fee covers fixed costs steadily. The extra **revenue stream** prices the work that takes extra trainer time."
+          },
+          {
+            "key": "C",
+            "text": "Keep it free and cut two courses to save money",
+            "verdict": "risky",
+            "feedback": "Cutting courses barely moves costs when trainers are salaried. You lose value without fixing how the team is paid for."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · software",
+      "title": "Now it's a team collaboration app.",
+      "illustrative": true,
+      "body": [
+        "Your app charges a flat monthly fee per seat. Servers and staff are mostly fixed costs. But a new feature, automatic meeting transcripts, costs you real money every time someone uses it, and a few heavy users run it all day.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep one flat price and absorb the cost",
+            "verdict": "risky",
+            "feedback": "Simple for users, but the cost grows with use while your revenue doesn't. Your heaviest users become your least profitable."
+          },
+          {
+            "key": "B",
+            "text": "Raise the flat price for everyone",
+            "verdict": "partial",
+            "feedback": "It covers the cost, but light users pay for heavy users. Some may cancel over a feature they rarely touch."
+          },
+          {
+            "key": "C",
+            "text": "Keep the flat plan and charge for transcription by the hour",
+            "verdict": "best",
+            "feedback": "This is the gym's personal-training move. The flat fee covers fixed costs, and a separate **revenue stream** follows the cost that comes with each use."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Charge the way your costs behave.",
+      "body": [
+        "You used two ideas here. **Revenue streams:** list every way money comes in. **Cost structure:** see which costs stay fixed and which come with each use. Fixed costs suit flat fees. Per-use costs suit per-use prices.",
+        "**Try it today:** sketch your business on a napkin. Put each revenue stream on the left and each cost on the right. Mark which costs grow with every sale."
+      ],
+      "next": "Next · Draw the business model of a newspaper"
+    }
+  ]
+}

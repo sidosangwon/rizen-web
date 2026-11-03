@@ -1,0 +1,225 @@
+{
+  "id": "THK-02-04",
+  "unitId": "THK-02",
+  "categoryId": "THK",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "The planning fallacy",
+  "readerTitle": "The opera house that opened ten years late",
+  "format": "company_story",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "real_observation",
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 사례 (시드니 오페라하우스 건설) + 실제 연구 (Buehler 외 1994) + 가상 적용 (마케팅 에이전시, 레스토랑 2호점)",
+  "insight": "일정과 예산은 내 계획의 단계를 더해서가 아니라, 비슷한 일이 실제로 얼마나 걸렸는지에서 출발해 잡는다.",
+  "misconception": "계획을 더 자세히 세우면 일정이 정확해진다. 이번 프로젝트는 지난번과 다르니 지난 지연은 참고할 필요가 없다.",
+  "relatedLessonIds": [
+    "THK-04-01",
+    "THK-05-03"
+  ],
+  "sources": [
+    {
+      "text": "Kahneman, D. & Tversky, A. (1979). Intuitive prediction: Biases and corrective procedures. TIMS Studies in Management Science, 12, 313–327.",
+      "url": null
+    },
+    {
+      "text": "Buehler, R., Griffin, D. & Ross, M. (1994). Exploring the \"planning fallacy\": Why people underestimate their task completion times. Journal of Personality and Social Psychology, 67(3), 366–381.",
+      "url": null
+    },
+    {
+      "text": "Sydney Opera House, official history (design competition 1957, construction 1959, opening 1973)",
+      "url": null
+    },
+    {
+      "text": "Flyvbjerg, B. (2006). From Nobel Prize to project management: Getting risks right. Project Management Journal, 37(3). (reference class forecasting, outside view)",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "시드니 오페라하우스: 1957년 설계 공모 선정, 당초 목표 1963년 완공·약 A$7백만, 실제 1973년 10월 개관·약 A$1억 2백만. 자료마다 초기 예산 표기(£3.5백만 ≈ A$7백만)가 다르므로 공식 역사 자료로 다시 확인하세요. 102 ÷ 7 ≈ 14.6배.",
+      "status": "open"
+    },
+    {
+      "note": "착공 1959년(설계 미완성 상태), Jørn Utzon 사임 1966년. 공식 역사 자료로 확인 필요.",
+      "status": "open"
+    },
+    {
+      "note": "Buehler 외(1994) 졸업논문 연구: 평균 예상 약 33.9일, 실제 약 55.5일, 예상 기한 내 완료 약 30%, '최악의 경우' 예상 평균 약 48.6일. 원문 수치를 다시 확인하세요. 카드에는 반올림해 34일, 56일, 49일로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "'planning fallacy'라는 용어는 Kahneman & Tversky(1979)에서 처음 쓰였다는 것이 통설입니다. 원문 확인 필요.",
+      "status": "open"
+    },
+    {
+      "note": "에이전시 선택지 B의 버퍼 계산: 6주 → 7주는 약 17% 증가(카드에는 'small cushion'으로만 표기). 지난 프로젝트 9·10·12주는 계획 대비 50~100% 초과. 모두 가상 수치.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Company story",
+      "title": "The opera house that opened ten years late",
+      "body": [
+        "In 1957, Sydney chose a bold design for a new opera house. The plan was to finish by 1963 for about A$7 million.",
+        "It opened in 1973. The final bill was about A$102 million. The people behind it weren't careless. They made a mistake almost everyone makes."
+      ],
+      "image": {
+        "label": "Harbour opera house half-built, with a calendar flipping from 1963 to 1973",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 조개껍데기 모양 지붕의 오페라하우스가 비계에 둘러싸여 반쯤 지어진 모습. 옆에 큰 달력이 1963에서 1973으로 넘어가는 모션. 실제 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/thk-02-04-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How long should you promise?",
+      "illustrative": true,
+      "body": [
+        "You run a small marketing agency. A client wants a new brand identity and website. Your team lists every task and adds them up: 6 weeks.",
+        "Your last three similar projects took 9, 10 and 12 weeks. Each had its own surprise. What deadline do you give the client?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "6 weeks. This plan is more detailed than the last ones",
+            "verdict": "risky",
+            "feedback": "A detailed plan feels safe, but the last three felt detailed too. You'd win trust today and likely spend it around week seven."
+          },
+          {
+            "key": "B",
+            "text": "7 weeks: the plan plus a small buffer",
+            "verdict": "partial",
+            "feedback": "Better than no buffer. But a one-week cushion is small next to your own history of running 50% or more over."
+          },
+          {
+            "key": "C",
+            "text": "About 10 weeks, based on how long similar projects actually took",
+            "verdict": "best",
+            "feedback": "You may sound slower than a rival. But you're planning from what happens, not from what you hope will happen."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "Sydney's surprises weren't really surprising.",
+      "body": [
+        "Construction started in 1959, before the design was finished. Nobody yet knew how to build the famous roof shells. Solving that alone took years.",
+        "Costs rose, politics got tense, and the architect, Jørn Utzon, resigned in 1966. Each problem felt like bad luck. But a huge, first-of-its-kind building running into problems was close to certain."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The planning fallacy",
+      "body": [
+        "The **planning fallacy** is our habit of underestimating how long a task will take and what it will cost, even when we know similar tasks ran late. Daniel Kahneman and Amos Tversky named it in 1979.",
+        "The cause is the *inside view*. We picture our own steps going roughly to plan. Delays, sick days and rework don't feel like part of the plan, so they never make it in."
+      ],
+      "image": {
+        "label": "Inside view: a straight path. Outside view: winding paths of past projects",
+        "aspectRatio": "16:9",
+        "brief": "좌우 분할 인포그래픽. 왼쪽 \"Inside view\": 출발점에서 목표까지 곧게 뻗은 한 줄. 오른쪽 \"Outside view\": 비슷한 과거 프로젝트 여러 개의 구불구불하고 더 긴 경로가 겹쳐 보임. 오른쪽 경로들의 끝이 왼쪽보다 훨씬 멀리 있음.",
+        "url": "assets/images/thk-02-04-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "Even the worst case was too hopeful.",
+      "body": [
+        "In a 1994 study, Roger Buehler and colleagues asked students when they would finish their final-year thesis. The average guess was about 34 days. The average actual time was about 56.",
+        "Only about 30% finished by their own estimate. Even their *if everything goes badly* guesses, about 49 days, were too short. The students knew past projects had run late. They just believed this one would be different."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How to fix it",
+      "title": "Start from the outside view.",
+      "body": [
+        "Before looking at your own plan, ask how long similar projects usually take. Researchers call this the **outside view**."
+      ],
+      "list": [
+        "**Find comparisons:** past jobs like this one, yours or other people's",
+        "**Start from their real results:** time, cost, how often they ran over",
+        "**Then adjust:** only for specific, real differences in this project"
+      ],
+      "callout": "Your plan tells you the best path. Past projects tell you the usual one.",
+      "softwareNote": "Software teams meet this constantly. Checking how long past features of similar size actually took gives a better starting point than adding up task estimates."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The outside view has its own traps.",
+      "body": [
+        "It only works if the comparisons are fair. Ten past jobs that were much smaller than this one will still mislead you.",
+        "Honest estimates also cost something. A longer quote can lose a bid to a rival who promises less. Often the better move is to quote a range or cut scope, not to pad silently. And a buffer nobody manages tends to get used up early."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a restaurant.",
+      "illustrative": true,
+      "body": [
+        "You're opening a second location. The contractor says the fit-out will take 8 weeks.",
+        "You need to set an opening date, hire staff and book a launch night. What's your plan?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Open at week 8. The contractor does this for a living",
+            "verdict": "risky",
+            "feedback": "Contractors plan from the inside view too. If it runs late, you pay new staff to wait and cancel a launch you've already promoted."
+          },
+          {
+            "key": "B",
+            "text": "Ask the contractor and other owners how long recent fit-outs really took, and set the date from that",
+            "verdict": "best",
+            "feedback": "It takes a few calls and may push your date back. In return, staff, rent and marketing line up with a date you can actually hit."
+          },
+          {
+            "key": "C",
+            "text": "Open at week 9 to leave one week spare",
+            "verdict": "partial",
+            "feedback": "A buffer helps, but one week is a guess. Without real past fit-outs to compare, you can't tell if it's enough."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Plan from what usually happens, not what should happen.",
+      "body": [
+        "Start with how long similar projects really took. Then adjust for what's truly different this time.",
+        "**Try it today:** pick one deadline you've set. Find two or three past projects like it and check how long they actually took."
+      ],
+      "next": "Next · Why money already spent pulls you into bad decisions"
+    }
+  ]
+}

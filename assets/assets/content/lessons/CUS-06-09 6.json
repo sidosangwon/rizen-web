@@ -1,0 +1,234 @@
+{
+  "id": "CUS-06-09",
+  "unitId": "CUS-06",
+  "categoryId": "CUS",
+  "order": 9,
+  "type": "case",
+  "conceptTag": "Starbucks Rewards",
+  "readerTitle": "Starbucks changed what earns a star, and chose which customers to keep",
+  "format": "company_story",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.4,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Starbucks Rewards 2016년 적립 방식 변경) + 가상 적용 (포장재 유통업체). 3번 카드의 음료 가격은 설명용 가상 수치",
+  "insight": "로열티 프로그램이 무엇을 세느냐(방문, 금액, 주문 수)가 어떤 고객에게 돈을 써서 붙잡을지를 결정한다.",
+  "misconception": "로열티 프로그램은 모든 단골에게 똑같이 고마움을 표시하는 중립적인 장치다.",
+  "relatedLessonIds": [
+    "CUS-06-04",
+    "CUS-05-06"
+  ],
+  "sources": [
+    {
+      "text": "Starbucks Stories & News, Starbucks Rewards program changes announcement (February 2016; changes effective April 2016)",
+      "url": null
+    },
+    {
+      "text": "News coverage of customer reaction to the 2016 change (e.g., CNBC, The Wall Street Journal, February 2016)",
+      "url": null
+    },
+    {
+      "text": "Starbucks Stories & News, tiered Rewards redemption announcement (2019) and Rewards redemption changes (February 2023)",
+      "url": null
+    },
+    {
+      "text": "Starbucks annual reports (Form 10-K) and earnings releases: Rewards membership, share of U.S. sales, mobile order and stored value",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "2016년 이전 구조(구매 1건당 별 1개, Gold 회원은 별 12개에 무료 음료 1잔)와 2016년 4월 이후 구조(1달러당 별 2개, 별 125개에 무료 음료 또는 음식)를 Starbucks 2016년 2월 발표문으로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "고객이 별을 더 모으려고 주문을 나눠 결제했다는 내용은 2016년 당시 언론 보도와 Starbucks 설명에 널리 나옵니다. 카드에는 'widely reported'로 적었습니다. 원문 표현을 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "3번 카드 계산(가격은 가상): 기존 방식 $2.50 × 12회 = $30, $6 × 12회 = $72. 새 방식 $2.50 커피는 1회 별 5개, 125 ÷ 5 = 25회, 25 × $2.50 = $62.50. $6 라테는 1회 별 12개, 125 ÷ 12 = 10.4이므로 11회, 11 × $6 = $66.",
+      "status": "open"
+    },
+    {
+      "note": "Rewards 회원이 미국 직영 매장 매출에서 차지하는 비중은 구체 수치를 쓰지 않고 'a large share'로만 적었습니다. 게시 전 최신 10-K나 실적 발표로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "2019년 단계별 교환 도입과 2023년 일부 보상의 필요 별 개수 인상, 그에 대한 고객 불만 보도를 확인하세요. 카드에는 구체 수치 없이 적었습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Company story",
+      "title": "Starbucks changed what earns a star, and chose which customers to keep",
+      "body": [
+        "In 2016, Starbucks changed one rule in its rewards program: what gets counted.",
+        "Before, every purchase earned a star, whether it was a cheap coffee or a big order for the office. After, stars followed dollars. Some of its most frequent customers were angry. Starbucks kept the change anyway."
+      ],
+      "image": {
+        "label": "A coffee cup on a counter with a tally of stars beside it",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 카운터 위에 테이크아웃 컵 하나, 옆에 별 스티커 도장판. 한쪽은 '방문 횟수' 체크 표시, 다른 쪽은 '동전 더미'로 바뀌는 모습. 실제 로고, 사이렌 마크, 브랜드 색상은 쓰지 않음.",
+        "url": "assets/images/cus-06-09-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "It's 2015. Your program counts visits.",
+      "body": [
+        "Members earn one star per purchase. Twelve stars earn a free drink. It's widely reported that some customers pay for each item separately to collect more stars, and lines slow down. Meanwhile, a customer who buys a big order gets the same star as someone buying one small coffee.",
+        "What do you change?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep one star per visit, but limit how often stars can be earned",
+            "verdict": "neutral",
+            "feedback": "This stops order-splitting and keeps your daily regulars happy. But big spenders still get no more than anyone else."
+          },
+          {
+            "key": "B",
+            "text": "Switch to stars per dollar spent",
+            "verdict": "neutral",
+            "feedback": "Rewards line up with revenue and splitting orders stops working. The cost: frequent customers with small orders now earn far more slowly."
+          },
+          {
+            "key": "C",
+            "text": "Keep stars per visit and add bonus stars for large orders",
+            "verdict": "neutral",
+            "feedback": "You try to reward both groups. The rules get harder to explain, and gaming moves to whatever threshold the bonus uses."
+          }
+        ],
+        "afterReveal": "Starbucks chose B. From April 2016, members earned 2 stars per dollar, and a free drink or food item took 125 stars."
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Same rule change, opposite effects.",
+      "illustrative": true,
+      "body": [
+        "Take two loyal customers with made-up prices. The small-order regular now needs about twice as many visits for a reward. The big spender needs slightly fewer."
+      ],
+      "breakdown": [
+        {
+          "value": "$30",
+          "label": "Coffee buyer, old rule",
+          "detail": "12 visits × $2.50",
+          "highlight": false
+        },
+        {
+          "value": "$62.50",
+          "label": "Coffee buyer, new rule",
+          "detail": "25 visits × $2.50 to reach 125 stars",
+          "highlight": true
+        },
+        {
+          "value": "$72",
+          "label": "Latte buyer, old rule",
+          "detail": "12 visits × $6",
+          "highlight": false
+        },
+        {
+          "value": "$66",
+          "label": "Latte buyer, new rule",
+          "detail": "11 visits × $6 to reach 125 stars",
+          "highlight": false
+        }
+      ],
+      "softwareNote": "Software has the same choice. Rewarding logins favors frequent light users. Rewarding seats or usage favors big accounts. Neither is neutral."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "What you count is who you keep.",
+      "body": [
+        "A loyalty program is a budget you spend on keeping certain customers. The **unit of reward**, whether visits, dollars or items, decides which customers get that budget.",
+        "Counting visits rewards frequency. Counting dollars rewards spending. Starbucks decided spending was the behavior worth paying for. It accepted that some daily, low-spend regulars would feel they had lost out."
+      ],
+      "image": {
+        "label": "Two scales: one weighs visits, one weighs dollars",
+        "aspectRatio": "16:9",
+        "brief": "두 개의 저울 인포그래픽. 왼쪽 저울은 'Visits' 라벨, 작은 컵 여러 개가 올라가 무거움. 오른쪽 저울은 'Dollars' 라벨, 큰 주문 봉투 하나가 무거움. 브랜드 로고 없음.",
+        "url": "assets/images/cus-06-09-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "The stars weren't the whole program.",
+      "body": [
+        "Rewards lived inside the Starbucks app, next to mobile ordering and a prepaid balance. Members could order ahead, skip the line and pay without a wallet. Each feature made the next visit easier.",
+        "Starbucks regularly reports that Rewards members account for **a large share** of its U.S. store sales. Any rival can hand out points. A morning habit built around an app is much harder to copy."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Every rule change spends trust.",
+      "body": [
+        "Customers judge new rules against the old ones, so any cut feels like a loss. Starbucks reworked how rewards are redeemed in 2019 and raised the stars needed for several rewards in 2023. Each change drew public complaints.",
+        "Frequency also has value that dollars miss. A daily customer who spends little keeps the habit alive and may bring friends. And people learn to game any rule you choose, so watch what the new rule invites."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a packaging distributor.",
+      "illustrative": true,
+      "body": [
+        "You supply boxes and tape to local manufacturers. Your loyalty program gives a fixed credit on every order. Customers have started placing many small orders, and each one costs you a delivery run.",
+        "What should the program count instead?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep the per-order credit, but cap it per month",
+            "verdict": "partial",
+            "feedback": "The cap limits the damage quickly. But small orders still earn the same as full ones, so the costly behavior stays."
+          },
+          {
+            "key": "B",
+            "text": "Rebate on yearly volume, with a bonus for full-pallet orders",
+            "verdict": "best",
+            "feedback": "You reward both the spending and the order size that keep your delivery costs down. Expect complaints from small customers, so explain the change early."
+          },
+          {
+            "key": "C",
+            "text": "Drop the program and lower prices for everyone",
+            "verdict": "risky",
+            "feedback": "It ends the gaming, but you lose a tool for shaping behavior. Your best customers get nothing extra for staying."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Decide which behavior you're paying for before you reward it.",
+      "body": [
+        "Every loyalty rule favors some customers over others. Choose the behavior you want more of, then accept who loses out.",
+        "**Try it today:** pick one reward you offer, whether a discount, a rebate or a team bonus. Write down what it actually counts and who earns the most under it."
+      ],
+      "next": "Next · Cut churn in half"
+    }
+  ]
+}

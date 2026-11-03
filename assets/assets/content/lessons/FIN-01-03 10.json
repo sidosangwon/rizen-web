@@ -1,0 +1,254 @@
+{
+  "id": "FIN-01-03",
+  "unitId": "FIN-01",
+  "categoryId": "FIN",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "The cash flow statement",
+  "readerTitle": "Same cash in the bank, very different years",
+  "format": "two_businesses",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (배관 수리업, 사무실 IT 지원 B2B 업체, 소프트웨어 스타트업) · 모든 수치는 설명용",
+  "insight": "현금이 얼마나 늘었는지보다 그 현금이 어디서 왔는지(본업, 자산 매매, 차입·출자)를 봐야 사업의 체력이 보인다.",
+  "misconception": "통장 잔고가 늘었으면 좋은 한 해였다. 현금이 늘면 사업이 현금을 잘 벌고 있다는 뜻이다.",
+  "relatedLessonIds": [
+    "FIN-01-04",
+    "FIN-02-01"
+  ],
+  "sources": [
+    {
+      "text": "IFRS IAS 7 Statement of Cash Flows (영업·투자·재무활동 세 구분)",
+      "url": null
+    },
+    {
+      "text": "US GAAP ASC 230 Statement of Cash Flows",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "배관업: 영업 +$60,000 − 투자 $30,000(밴) − 재무 $10,000(대출 상환·사장 인출) = +$20,000. IT 지원 업체: 영업 −$25,000 − 투자 $5,000(노트북) + 재무 $50,000(은행 대출) = +$20,000. 두 회사 모두 순증가 $20,000로 일치함을 확인했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "소프트웨어 스타트업: 영업 −$200,000 − 투자 $20,000 + 재무 $400,000 = +$180,000. 계산 확인.",
+      "status": "open"
+    },
+    {
+      "note": "분류 단순화: 대출 원금 상환과 사장 인출은 재무활동, 이자는 US GAAP에서 보통 영업활동입니다(IFRS는 선택 가능). 카드에서는 이자 구분을 다루지 않았습니다. 게시 전 표현이 오해를 주지 않는지 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Two businesses",
+      "title": "Same cash in the bank, very different years",
+      "illustrative": true,
+      "body": [
+        "Maria runs a plumbing company. Dev runs an IT support firm for small offices.",
+        "Both ended the year with exactly $20,000 more in the bank than they started with. Both felt relieved. Only one of them should."
+      ],
+      "image": {
+        "label": "Two identical bank balances with different stories behind them",
+        "aspectRatio": "4:3",
+        "brief": "화면을 반으로 나눠 왼쪽에 배관공 밴과 공구함, 오른쪽에 노트북과 사무실 서버 랙. 양쪽 위에 똑같은 통장 잔고 \"+$20,000\" 말풍선. 오른쪽 말풍선 뒤에만 은행 건물 그림자가 살짝 보이게. 실제 은행·브랜드 로고 사용 금지.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which business earned more cash from its work?",
+      "illustrative": true,
+      "body": [
+        "You know two more facts. This year Maria paid $30,000 cash for a new van. Dev took out a $50,000 bank loan.",
+        "Both still ended up $20,000 ahead. Which one generated more cash from actually doing the work?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Dev's firm. It had $50,000 extra to work with",
+            "verdict": "risky",
+            "feedback": "That $50,000 came from a bank, not from customers. Borrowed cash fills the account but has to be paid back."
+          },
+          {
+            "key": "B",
+            "text": "Maria's company. It paid for a van and still came out ahead",
+            "verdict": "best",
+            "feedback": "Right. Her work had to produce enough cash to cover the van and still leave $20,000. Dev's account only grew because of the loan."
+          },
+          {
+            "key": "C",
+            "text": "They're equal. Both are up $20,000",
+            "verdict": "partial",
+            "feedback": "The ending number is the same, but it hides where the cash came from. That's exactly what this lesson is about."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Same total, opposite sources.",
+      "illustrative": true,
+      "body": [
+        "Add each business's three lines and both reach **+$20,000**. But Maria's work produced cash, while Dev's work used it up."
+      ],
+      "breakdown": [
+        {
+          "value": "+$60,000",
+          "label": "Maria · from the work",
+          "detail": "Customers paid for repairs, minus wages and parts",
+          "highlight": true
+        },
+        {
+          "value": "−$30,000",
+          "label": "Maria · long-term things",
+          "detail": "Bought a new van",
+          "highlight": false
+        },
+        {
+          "value": "−$10,000",
+          "label": "Maria · lenders and owner",
+          "detail": "Loan repayments and her own pay-outs",
+          "highlight": false
+        },
+        {
+          "value": "−$25,000",
+          "label": "Dev · from the work",
+          "detail": "Paid staff before clients paid him",
+          "highlight": true
+        },
+        {
+          "value": "−$5,000",
+          "label": "Dev · long-term things",
+          "detail": "Bought laptops for new hires",
+          "highlight": false
+        },
+        {
+          "value": "+$50,000",
+          "label": "Dev · lenders and owner",
+          "detail": "New bank loan",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The cash flow statement",
+      "body": [
+        "The **cash flow statement** shows the actual money that came in and went out over a period, sorted into three buckets.",
+        "*Operating:* cash from running the business, like customer payments, wages and supplies. *Investing:* cash spent on or received from long-lasting things, like vans, machines or equipment. *Financing:* cash from or to lenders and owners, like loans, repayments and owner money in or out.",
+        "The bank balance tells you *how much* changed. This statement tells you *why*."
+      ],
+      "image": {
+        "label": "Three pipes flowing into one bank account",
+        "aspectRatio": "16:9",
+        "brief": "가운데 통장(금고) 하나에 파이프 세 개가 연결된 인포그래픽. 파이프 라벨 \"Operating\", \"Investing\", \"Financing\". 각 파이프에 들어오는 화살표와 나가는 화살표를 함께 표시. 깔끔한 플랫 스타일.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Why Dev's work burned cash.",
+      "illustrative": true,
+      "body": [
+        "Dev's firm grew fast. He hired technicians and paid them every two weeks. His business clients paid invoices 60 days later.",
+        "So the more work he won, the more cash went out before any came back. His jobs may even be profitable on paper. But profit and cash move on different schedules, and the gap was filled by the bank.",
+        "Maria's customers pay when the job is done. Her work funds her van and her loan payments without help."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Reading the pattern",
+      "title": "The signs of the three buckets tell a story.",
+      "body": [
+        "Look at whether each bucket is positive or negative. Common patterns:"
+      ],
+      "list": [
+        "**Operating +, investing −, financing −:** the work pays for growth and debt. Usually healthy.",
+        "**Operating −, financing +:** the business runs on borrowed or invested money.",
+        "**Investing +:** the business sold equipment or property. Ask whether it is raising cash by shrinking."
+      ],
+      "callout": "Start with operating. It shows whether the business can stand on its own.",
+      "softwareNote": "Early software startups often show negative operating cash and positive financing from investors. That's normal for a while. The key question is how many months the money lasts and when operating cash turns positive."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "One year can mislead.",
+      "body": [
+        "Negative operating cash isn't always bad. A growing or seasonal business can dip for good reasons, like Dev's slow-paying clients.",
+        "Positive operating cash isn't always good either. You can boost it for a while by paying suppliers late or skipping repairs. That cash comes back to bite later.",
+        "Read several periods side by side, and ask what is driving each bucket."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software startup.",
+      "illustrative": true,
+      "body": [
+        "Your startup's year: operating −$200,000, investing −$20,000, financing +$400,000 from investors. Cash is up $180,000.",
+        "A board member says, \"Great year, cash is up.\" What's the right read?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Agree. More cash means the business is getting stronger",
+            "verdict": "risky",
+            "feedback": "The cash rose only because investors added $400,000. The product itself used $200,000."
+          },
+          {
+            "key": "B",
+            "text": "The work used $200,000. Track how long investor money lasts and when operating turns positive",
+            "verdict": "best",
+            "feedback": "This keeps the investor money in view as fuel, not proof of health, and focuses the team on the bucket that matters."
+          },
+          {
+            "key": "C",
+            "text": "Cut spending until operating cash is positive",
+            "verdict": "partial",
+            "feedback": "It protects cash, but investors funded you to grow. Cutting too hard can stall the growth the money was meant to buy."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Ask where the cash came from, not just how much.",
+      "body": [
+        "Two identical bank balances can hide a business that funds itself and one that runs on loans.",
+        "**Try it today:** take last month's bank statement. Sort each large line into three piles: the work, long-lasting things, and lenders or owners. Which pile carried you?"
+      ],
+      "next": "Next · How the three statements connect"
+    }
+  ]
+}

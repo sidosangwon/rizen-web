@@ -1,0 +1,244 @@
+{
+  "id": "CUS-08-05",
+  "unitId": "CUS-08",
+  "categoryId": "CUS",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Expectations vs experience",
+  "readerTitle": "Why the faster delivery got the worse review",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.3,
+  "caseKinds": [
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 연구 (Oliver 1980 기대-불일치 이론, Parasuraman·Zeithaml·Berry 1985 서비스 갭 모델) + 가상 사례 (화물 운송사 두 곳, 소프트웨어 기능 출시 일정) · 수치는 모두 설명용",
+  "insight": "고객은 경험을 절대 기준이 아니라 자신이 기대한 것과 비교해 평가한다. 그래서 약속은 경험만큼 중요한 설계 대상이다.",
+  "misconception": "더 빠르고 더 좋게 해 주면 고객 만족은 저절로 올라간다.",
+  "relatedLessonIds": [
+    "CUS-08-02",
+    "CUS-05-05"
+  ],
+  "sources": [
+    {
+      "text": "Oliver, R. L. (1980). A Cognitive Model of the Antecedents and Consequences of Satisfaction Decisions. Journal of Marketing Research, 17(4).",
+      "url": null
+    },
+    {
+      "text": "Parasuraman, A., Zeithaml, V. A., & Berry, L. L. (1985). A Conceptual Model of Service Quality and Its Implications for Future Research. Journal of Marketing, 49(4).",
+      "url": null
+    },
+    {
+      "text": "운송사와 소프트웨어 사례의 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "운송사 사례는 가상입니다. 계산: A사 약속 2일 − 실제 3일 = 1일 늦음, B사 약속 5일 − 실제 4일 = 1일 빠름. A사가 실제로는 1일 더 빨랐습니다(3일 vs 4일). 평점 수치는 지어내지 않았고 방향만 서술했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Oliver(1980)는 만족이 기대와 그 기대가 확인·불일치된 정도에 따라 결정된다는 기대-불일치 모델을 제시했습니다. 카드에서는 'experience minus expectation'으로 단순화했으니 표현이 과하지 않은지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Parasuraman 외(1985)의 갭 모델은 고객이 기대한 서비스와 인식한 서비스의 차이를 서비스 품질로 봅니다. 기대의 원천(구전, 개인적 필요, 과거 경험, 기업 커뮤니케이션)이 논문 내용과 맞는지 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Numbers twist",
+      "title": "Why the faster delivery got the worse review",
+      "illustrative": true,
+      "body": [
+        "Two freight companies move the same pallets on the same route. One gets them there in three days. The other takes four.",
+        "The slower one gets the happier customers. Nothing went wrong with its trucks. Something went right with one sentence it said before the trip."
+      ],
+      "image": {
+        "label": "Two delivery trucks, the slower one greeted with a smile",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 같은 도로를 달리는 화물 트럭 두 대. 앞선 트럭 도착지에는 팔짱 낀 창고 직원, 뒤따르는 트럭 도착지에는 엄지를 든 직원. 실제 운송사 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/cus-08-05-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which customer is happier?",
+      "illustrative": true,
+      "body": [
+        "Firm A promises delivery in 2 days. The pallets arrive in 3.",
+        "Firm B promises delivery in 5 days. The pallets arrive in 4.",
+        "Both customers fill in a short survey. Which one rates the delivery higher?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Firm A's customer. Three days beats four.",
+            "verdict": "risky",
+            "feedback": "The goods did arrive sooner. But the customer planned around day two, so day three feels like a broken promise."
+          },
+          {
+            "key": "B",
+            "text": "Firm B's customer. The pallets came early.",
+            "verdict": "best",
+            "feedback": "Right. The customer planned for day five, and day four felt like a gift. The next card shows why."
+          },
+          {
+            "key": "C",
+            "text": "About the same. One day apart either way.",
+            "verdict": "partial",
+            "feedback": "The gap is one day in both cases. But one gap points down and one points up, and customers feel the direction."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Same gap, opposite sign.",
+      "illustrative": true,
+      "body": [
+        "Firm A was faster by a day. It was also late by a day. Firm B was slower, and early. The customer scored the gap, not the clock."
+      ],
+      "breakdown": [
+        {
+          "value": "2 → 3 days",
+          "label": "Firm A",
+          "detail": "Promised 2, delivered 3",
+          "highlight": false
+        },
+        {
+          "value": "−1 day",
+          "label": "Firm A gap",
+          "detail": "Late against the promise",
+          "highlight": false
+        },
+        {
+          "value": "5 → 4 days",
+          "label": "Firm B",
+          "detail": "Promised 5, delivered 4",
+          "highlight": false
+        },
+        {
+          "value": "+1 day",
+          "label": "Firm B gap",
+          "detail": "Early against the promise",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Expectations vs experience",
+      "body": [
+        "Customers don't judge what happened on its own. They judge it against what they **expected** to happen.",
+        "Satisfaction is roughly *experience minus expectation*. Beat the expectation and people feel pleased. Fall short and they feel let down, even when the result is objectively good.",
+        "Marketing researcher Richard Oliver described this in 1980 as *expectation disconfirmation*: satisfaction depends on whether reality confirms, beats or misses what people expected."
+      ],
+      "image": {
+        "label": "A scale weighing 'Expected' against 'Experienced'",
+        "aspectRatio": "16:9",
+        "brief": "저울 인포그래픽. 왼쪽 접시 \"Expected\", 오른쪽 접시 \"Experienced\". 오른쪽이 더 무거우면 웃는 얼굴, 가벼우면 실망한 얼굴이 아래에 표시됨.",
+        "url": "assets/images/cus-08-05-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Where expectations come from.",
+      "body": [
+        "Service researchers Parasuraman, Zeithaml and Berry described service quality as the gap between what customers expect and what they perceive. Those expectations are built before the customer ever meets you."
+      ],
+      "list": [
+        "**Your promises:** quotes, ads, sales pitches",
+        "**Your price:** paying more raises the bar",
+        "**Past visits:** last time's free upgrade becomes this time's baseline",
+        "**Other people:** reviews and word of mouth"
+      ],
+      "callout": "You control half of this list. Most businesses only manage the experience."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The other side",
+      "title": "Raising expectations has a cost.",
+      "illustrative": true,
+      "body": [
+        "A bold headline, a premium price or a generous one-off gesture all lift the bar. The next experience has to clear it.",
+        "Picture a restaurant that gives a regular a free dessert three visits in a row. On the fourth visit, the same great meal without dessert feels a little worse. Nothing changed in the kitchen. The expectation moved.",
+        "So every promise is a decision about how future experiences will be judged."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Underpromising has limits too.",
+      "body": [
+        "Customers choose you *before* they experience you, based on the promise. Quote ten days when rivals quote four, and you may never get the chance to delight anyone.",
+        "Padding also gets found out. Customers who always see early arrivals start expecting them, and your buffer disappears.",
+        "And early isn't always better. A warehouse with no space for pallets on day four may not thank you. The goal is an honest, reliable promise, not a low one."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software feature.",
+      "illustrative": true,
+      "body": [
+        "Your biggest client asks when a requested integration will ship. Your team usually ships work like this in 4 to 8 weeks.",
+        "What do you tell them?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "\"Four weeks.\" It's possible, and it keeps them excited.",
+            "verdict": "risky",
+            "feedback": "You win a happy call today. But most outcomes land after week four, so you've set up a likely miss with your biggest client."
+          },
+          {
+            "key": "B",
+            "text": "\"Within eight weeks, with an update every two.\"",
+            "verdict": "best",
+            "feedback": "An honest outer date makes an earlier ship feel like a win, and regular updates keep expectations current as things change."
+          },
+          {
+            "key": "C",
+            "text": "\"No date yet. We'll tell you when it's live.\"",
+            "verdict": "partial",
+            "feedback": "You avoid a broken promise. But the client fills the silence with their own guess, and that guess is usually sooner than yours."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Customers grade you against your promise.",
+      "body": [
+        "Manage the expectation as carefully as the experience. An honest promise you beat often wins more than a fast one you miss.",
+        "**Try it today:** pick one promise your business makes, like a delivery date or a wait time. Check how often you beat it, hit it and miss it."
+      ],
+      "next": "Next · Why being good every time beats being great sometimes"
+    }
+  ]
+}

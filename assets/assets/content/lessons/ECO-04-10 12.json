@@ -1,0 +1,256 @@
+{
+  "id": "ECO-04-10",
+  "unitId": "ECO-04",
+  "categoryId": "ECO",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Will customers stay if prices rise 10%?",
+  "readerTitle": "Raise prices 10%: who stays, who walks?",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (재사용 운반 상자 제조·물류 회사와 그 회사의 추적 앱 구독) · 모든 수치는 설명용",
+  "insight": "가격 인상의 결과는 '고객'이 아니라 고객별 대안, 지출 비중, 시간에 따라 갈린다. 그래서 고객을 나눠서, 충분히 오래 지켜보며 판단한다.",
+  "misconception": "고객에게 물어보면 몇 명이 떠날지 알 수 있고, 인상 후 한 달 동안 아무도 안 떠나면 더 올려도 된다.",
+  "relatedLessonIds": [
+    "ECO-04-01",
+    "ECO-08-01"
+  ],
+  "sources": [
+    {
+      "text": "미시경제학의 표준 개념 (가격 탄력성의 결정 요인: 대체재, 지출 비중, 시간)",
+      "url": null
+    },
+    {
+      "text": "모든 수치와 회사는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "상자 계산 확인: 기존 가격 $20 − 변동비 $12 = 공헌이익 $8. 인상 후 $22 − $12 = $10. 같은 이익을 내는 판매량 8 ÷ 10 = 0.8, 즉 판매량이 20% 줄어도 이익 동일. 매출은 100개 × $20 = $2,000에서 80개 × $22 = $1,760으로 줄어듦.",
+      "status": "open"
+    },
+    {
+      "note": "앱 구독: $200 → $220 (+10%). 60일 사전 공지와 갱신 시점 적용은 설명용 설정입니다.",
+      "status": "open"
+    },
+    {
+      "note": "'단기보다 장기에 수요가 더 탄력적이다'는 일반 원리로 서술했으며 특정 연구 수치는 인용하지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Pricing · Simulation",
+      "title": "Raise prices 10%: who stays, who walks?",
+      "illustrative": true,
+      "body": [
+        "You run a company that makes reusable plastic crates and rents them to food producers. You deliver them, collect them and wash them. You also sell a small app that tracks where every crate is.",
+        "Plastic, fuel and wages are all up. You need prices about 10% higher. Over the next few cards, you make the calls."
+      ],
+      "image": {
+        "label": "Stacks of crates on a truck, with a phone showing a tracking map",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 색깔 있는 플라스틱 운반 상자가 트럭 짐칸에 쌓여 있고, 옆에 상자 위치가 점으로 표시된 지도 화면의 휴대폰. 상자 위에 \"+10%\" 태그가 살짝 붙어 있음. 실제 기업 로고 없음.",
+        "url": "assets/images/eco-04-10-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1",
+      "title": "How do you predict who will stay?",
+      "illustrative": true,
+      "body": [
+        "Before any letter goes out, you want a sense of how customers will react. Your sales lead has three ideas."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Email a survey: \"Would you still buy if prices rose 10%?\"",
+            "verdict": "partial",
+            "feedback": "Quick and cheap. But people answer surveys differently from how they act, and some will say \"no\" just to push back on the price."
+          },
+          {
+            "key": "B",
+            "text": "Sort customers by how easily they could switch: their other options, what share of their costs crates are, and how hard it is to change",
+            "verdict": "best",
+            "feedback": "This looks at the forces that actually drive reactions. It takes an afternoon with your account list, and it shows you where the risk sits."
+          },
+          {
+            "key": "C",
+            "text": "Raise prices for everyone and see what happens",
+            "verdict": "risky",
+            "feedback": "You learn the truth fast, but you learn it by losing customers you might have kept."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "Say you chose B",
+      "title": "First, how many crates can you afford to lose?",
+      "illustrative": true,
+      "body": [
+        "Same profit at 80 crates as at 100. So you could lose up to **20% of volume** and still earn the same, even though revenue drops from $2,000 to $1,760.",
+        "How sensitive buyers are to price is called **price elasticity**. Your job now is to find out who is sensitive."
+      ],
+      "breakdown": [
+        {
+          "value": "$20",
+          "label": "Old price per crate rental",
+          "detail": "$8 left after $12 of costs that come with each rental",
+          "highlight": false
+        },
+        {
+          "value": "$22",
+          "label": "New price (+10%)",
+          "detail": "$10 left after the same $12",
+          "highlight": false
+        },
+        {
+          "value": "8 ÷ 10",
+          "label": "Break-even volume",
+          "detail": "80 rentals at $10 = 100 rentals at $8",
+          "highlight": false
+        },
+        {
+          "value": "−20%",
+          "label": "Volume you can lose",
+          "detail": "Before profit falls below today",
+          "highlight": true
+        }
+      ],
+      "callout": "Lose more than that and the raise costs you money. Lose less and it pays."
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 2",
+      "title": "Your list splits into two groups.",
+      "illustrative": true,
+      "body": [
+        "**A grocery chain** rents 40% of your crates. Crates are a visible cost line for them, and two rivals have already sent them quotes.",
+        "**Small farms** rent the rest. Crates are a tiny part of their costs, and no one else near them offers pickup and washing. What do you do?"
+      ],
+      "image": {
+        "label": "One big buyer on a seesaw against many small farms",
+        "aspectRatio": "16:9",
+        "brief": "시소 일러스트. 한쪽에는 큰 마트 건물 하나(경쟁사 견적서 두 장을 들고 있음), 다른 쪽에는 작은 농장 여러 개. 마트 쪽에 \"Many options\", 농장 쪽에 \"Few options\" 라벨. 실제 로고 없음.",
+        "url": "assets/images/eco-04-10-c4.jpg"
+      },
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Raise 10% for everyone. Same rule, no arguments",
+            "verdict": "partial",
+            "feedback": "Simple and easy to explain. But the chain is the customer most able to leave, and losing 40% of volume is twice what your math allows."
+          },
+          {
+            "key": "B",
+            "text": "Raise farms 10%. Offer the chain 5% in exchange for a two-year volume commitment",
+            "verdict": "best",
+            "feedback": "You get the full raise where buyers have few options and lock in the account that could walk. The cost: the chain learns it can bargain, so be ready for that next time."
+          },
+          {
+            "key": "C",
+            "text": "Raise farms 15% and freeze the chain's price",
+            "verdict": "risky",
+            "feedback": "Farms have fewer options, not none. A bigger jump invites them to shop around, and a freeze tells the chain you back down easily."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 3",
+      "title": "The app looks easy. Raise it again?",
+      "illustrative": true,
+      "body": [
+        "Say you chose B. You also raised the tracking app from $200 to $220 a month per site, with 60 days' notice.",
+        "One month later, cancellations are normal. Your team says users clearly don't care. They want another 10%."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Yes. No one left, so demand isn't price sensitive",
+            "verdict": "risky",
+            "feedback": "Most users haven't hit renewal yet, or looked for alternatives. Stacking a second raise now could trigger the exits the first one was quietly building."
+          },
+          {
+            "key": "B",
+            "text": "Wait through a full renewal cycle. Track cancellations, downgrades and sites removed",
+            "verdict": "best",
+            "feedback": "Reactions grow over time as customers find and test other options. Waiting costs a few months of extra revenue but shows you the real answer."
+          },
+          {
+            "key": "C",
+            "text": "Roll the raise back to be safe",
+            "verdict": "risky",
+            "feedback": "You give up money you're probably able to earn, and you signal that your prices aren't firm."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Your sorting is a guess, not a measurement.",
+      "body": [
+        "Who can switch changes. A rival might open a washing depot near your farms next year. A cheap tracking tool could appear. The chain's quotes could get better.",
+        "Sorting customers by risk only tells you where to look. Keep checking real behavior: who renews, who orders less, who starts asking for quotes.",
+        "And charging groups differently only works if you can explain why. A farm that hears the chain got 5% will want a reason."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "Six months later.",
+      "illustrative": true,
+      "body": [
+        "The chain signed for two years. A few farms complained, and almost all stayed. App renewals came in slightly lower than before, well within what the higher price covered.",
+        "The raise worked not because customers \"accepted\" it, but because you priced each group by how easily it could leave."
+      ],
+      "image": {
+        "label": "A simple chart line rising gently with a few dips",
+        "aspectRatio": "16:9",
+        "brief": "부드러운 선 그래프. 6개월 동안 이익 선이 완만하게 오르고, 중간에 작은 하락 두 번. 아래에 \"Chain: signed\", \"Farms: stayed\", \"App: small dip at renewal\" 메모 스티커.",
+        "url": "assets/images/eco-04-10-c7.jpg"
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Price sensitivity lives in each customer's options.",
+      "body": [
+        "Each decision used one idea from this unit:"
+      ],
+      "list": [
+        "**Decision 1:** elasticity depends on substitutes, share of spending and switching effort, not on what people say",
+        "**Decision 2:** different groups have different willingness to pay, so one price change lands differently",
+        "**Decision 3:** demand gets more sensitive over time, so judge a raise over a full cycle"
+      ],
+      "callout": "**Try it today:** list your ten biggest customers. Next to each, write how many real alternatives they have. Start any price review there.",
+      "next": "Next · Supply and demand: where prices come from"
+    }
+  ]
+}

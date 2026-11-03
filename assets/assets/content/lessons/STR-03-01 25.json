@@ -1,0 +1,246 @@
+{
+  "id": "STR-03-01",
+  "unitId": "STR-03",
+  "categoryId": "STR",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Cost leadership",
+  "readerTitle": "Two cleaning companies, one price war: why only one shrugged",
+  "format": "two_businesses",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "illustrative",
+    "real_company"
+  ],
+  "caseNote": "가상 사례 (청소 업체 두 곳, 건축 자재 유통업체) + 실제 기업 언급 (Aldi) · 수치는 모두 설명용",
+  "insight": "원가 우위는 가격을 낮추는 결정이 아니라 일하는 방식을 설계해 원가 구조 자체를 낮추는 것이고, 그래야 가격을 자유롭게 고를 수 있다.",
+  "misconception": "원가 우위 전략이란 가장 싼 가격을 매기거나 직원 임금과 품질을 깎는 것이다.",
+  "relatedLessonIds": [
+    "STR-03-04",
+    "ECO-02-03"
+  ],
+  "sources": [
+    {
+      "text": "Porter, M. E. (1980). Competitive Strategy. Free Press. (본원적 전략 중 원가 우위)",
+      "url": null
+    },
+    {
+      "text": "Aldi 운영 방식에 대한 일반적인 보도 (적은 품목 수, 자체 브랜드 중심, 카트 보증금 방식)",
+      "url": null
+    },
+    {
+      "text": "청소 업체와 유통업체 수치는 모두 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "청소 업체 계산: SparkClean 인건비 3시간 × $20 = $60, 이동 $15, 소모품 $8, 관리 $7 = 합계 $90. Tidy Route 인건비 2.5시간 × $20 = $50, 이동 $5, 소모품 $6, 관리 $3 = 합계 $64. $120일 때 남는 돈 $30 vs $56, $99일 때 $9 vs $35.",
+      "status": "open"
+    },
+    {
+      "note": "Aldi 관련 문장은 '일반 슈퍼마켓보다 훨씬 적은 품목', '대부분 자체 브랜드', '고객이 카트를 직접 반납'으로만 적었습니다. 구체적인 품목 수나 수익성 수치는 쓰지 않았습니다. 국가별 운영 방식 차이가 있으니 게시 전에 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Porter(1980)의 원가 우위 정의('산업 내 최저 원가 생산자')를 쉬운 말로 풀어 썼습니다. 원문 인용은 하지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Strategy · Two businesses",
+      "title": "Two cleaning companies, one price war",
+      "illustrative": true,
+      "body": [
+        "SparkClean and Tidy Route clean homes in the same town. Both charge $120 a visit. Both get good reviews.",
+        "Then a new rival arrives charging $99. One owner shrugs and keeps working. The other spends the night redoing the math. The difference isn't in their prices."
+      ],
+      "image": {
+        "label": "Two cleaning vans facing a $99 sign",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 같은 동네에 청소 업체 밴 두 대가 나란히 서 있고, 앞에 \"$99\" 표지판. 한 운전자는 여유로운 표정, 다른 운전자는 계산기를 들고 걱정하는 표정. 실제 회사 로고는 쓰지 않음.",
+        "url": "assets/images/str-03-01-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You run SparkClean. A rival offers $99.",
+      "illustrative": true,
+      "body": [
+        "Each clean costs you about $90 in staff time, driving, supplies and admin. At $120 you keep $30. The new rival charges $99, and some customers are asking about it.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Match the $99 price right away",
+            "verdict": "risky",
+            "feedback": "You keep your customers, but each clean now leaves $9. One slow month or a fuel price rise and you're working for free."
+          },
+          {
+            "key": "B",
+            "text": "Redesign how the work gets done so each clean costs less, then decide on price",
+            "verdict": "best",
+            "feedback": "Slower to pay off, but it changes what you can afford. Lower costs give you room whether you match the rival or not."
+          },
+          {
+            "key": "C",
+            "text": "Hold at $120 and advertise your quality",
+            "verdict": "partial",
+            "feedback": "This can work if customers clearly see a difference worth $21. If they don't, you lose them slowly while your costs stay the same."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Same price. Very different costs.",
+      "illustrative": true,
+      "breakdown": [
+        {
+          "value": "$50",
+          "label": "Staff time",
+          "detail": "2.5 hours with a set checklist (SparkClean: $60)",
+          "highlight": false
+        },
+        {
+          "value": "$5",
+          "label": "Driving",
+          "detail": "Each day's jobs in one neighborhood (SparkClean: $15)",
+          "highlight": false
+        },
+        {
+          "value": "$6",
+          "label": "Supplies",
+          "detail": "One standard kit, bought in bulk (SparkClean: $8)",
+          "highlight": false
+        },
+        {
+          "value": "$3",
+          "label": "Admin",
+          "detail": "Online booking, no phone tag (SparkClean: $7)",
+          "highlight": false
+        },
+        {
+          "value": "$64",
+          "label": "Tidy Route cost per clean",
+          "detail": "SparkClean: $90",
+          "highlight": true
+        }
+      ],
+      "callout": "At $99, Tidy Route still keeps **$35** a clean. SparkClean keeps $9. Nobody at Tidy Route earns less. The work is just organized differently."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Cost leadership",
+      "body": [
+        "**Cost leadership** means being the lowest-cost provider in your market for an offer customers see as comparable. The strategist Michael Porter named it in 1980 as one of the basic ways to compete.",
+        "Notice the word: lowest *cost*, not lowest *price*. Tidy Route charged the same $120 as SparkClean. Its advantage was hidden in routes, checklists and booking. Price is a decision you can change tomorrow. Cost is a structure you build over time."
+      ],
+      "image": {
+        "label": "Price line above two different cost stacks",
+        "aspectRatio": "16:9",
+        "brief": "막대 두 개를 나란히. 둘 다 같은 높이의 점선 \"Price $120\" 아래에 있음. 왼쪽 막대(SparkClean)는 원가 $90로 높고 남는 부분이 얇음, 오른쪽(Tidy Route)은 원가 $64로 낮고 남는 부분이 두꺼움. 남는 부분을 강조색으로.",
+        "url": "assets/images/str-03-01-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Where lower costs come from",
+      "body": [
+        "Cost advantages rarely come from one trick. They come from choices about how the work is done:"
+      ],
+      "list": [
+        "**Density:** more work in less space, like clustered routes",
+        "**Simplicity:** fewer options, one standard kit, a short menu",
+        "**Scale:** buying and producing in larger amounts",
+        "**Repetition:** doing the same task often enough to get fast at it",
+        "**Design:** building the offer so it's cheap to deliver from the start"
+      ],
+      "callout": "Cutting wages or quality isn't on this list. That lowers cost until customers or staff notice.",
+      "softwareNote": "Serving one more user often costs little, so the gap shows up in sales, support and onboarding. A product simple enough for customers to set up alone can be priced well below rivals who need a sales team for every deal."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond cleaning",
+      "title": "Lower cost gives you choices.",
+      "body": [
+        "A cost leader can charge the same as rivals and earn more, or charge less and still earn enough. In a price war, it's the last one standing.",
+        "Discount grocer Aldi is a well-known example. Its stores carry a far smaller range than a typical supermarket, mostly its own brands, and customers return their own carts. Each choice removes a cost, and together they let it keep prices low without the store being a loss."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Only one business can be cheapest.",
+      "body": [
+        "In most markets, there's room for one true cost leader. If two firms chase it, they often end up in a price war that hurts both.",
+        "Customers must also accept the trade-offs. Tidy Route's set checklist works only if clients don't want custom requests. Cut something they value, and the savings walk out the door with them.",
+        "And a single trick, like one good supplier deal, is easy to copy. Lasting cost advantages come from many choices working together."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a building-supply distributor.",
+      "illustrative": true,
+      "body": [
+        "You supply about 8,000 products to local contractors. Three rivals sell similar goods at similar prices. You want to become the lowest-cost distributor in the region.",
+        "Which move builds a real cost advantage?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Offer 10% off everything for a quarter to win share",
+            "verdict": "risky",
+            "feedback": "You'll gain orders, but your costs haven't changed, so each sale earns less. Rivals can match the discount tomorrow."
+          },
+          {
+            "key": "B",
+            "text": "Cut to the 3,000 fastest-selling items, deliver on fixed weekly routes, take orders online",
+            "verdict": "best",
+            "feedback": "Less stock, fuller trucks and less phone time lower the cost of every order. You'll lose some contractors who need the rare items, which is the trade-off."
+          },
+          {
+            "key": "C",
+            "text": "Negotiate a one-time bulk discount from your biggest supplier",
+            "verdict": "partial",
+            "feedback": "It helps this year, but it's one deal, not a structure. Rivals can negotiate the same, and the edge fades when the deal ends."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Lower prices are a choice. Lower costs are an advantage.",
+      "body": [
+        "Cost leadership is built into how the work is done, which is why it lets you choose your price instead of being forced into one.",
+        "**Try it today:** list the three biggest costs in one job or sale. For each, ask what would have to change in the way the work is organized to cut it by 20%."
+      ],
+      "next": "Next · Why some customers happily pay more"
+    }
+  ]
+}

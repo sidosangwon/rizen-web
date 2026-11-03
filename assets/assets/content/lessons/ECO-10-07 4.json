@@ -1,0 +1,254 @@
+{
+  "id": "ECO-10-07",
+  "unitId": "ECO-10",
+  "categoryId": "ECO",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "Two coffee shops and a price war",
+  "readerTitle": "The coffee shop across the street just put up a $4 sign",
+  "format": "everyday_scene",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.2,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (길 하나를 사이에 둔 두 카페, 미용실용 예약 앱 두 개) · 모든 수치는 설명용",
+  "insight": "가격 전쟁은 '이번 한 번'의 게임이 아니라 매일 반복되는 게임이다. 먼저 깎지 않되, 깎으면 따라 하고, 돌아오면 같이 돌아가는 태도가 양쪽 모두를 높은 가격에 머물게 한다.",
+  "misconception": "경쟁자보다 먼저 가격을 내리면 손님을 뺏어 이긴다. 또는 경쟁자가 깎아도 무시하고 버티는 것이 가장 점잖고 안전한 대응이다.",
+  "relatedLessonIds": [
+    "ECO-10-02",
+    "ECO-10-06"
+  ],
+  "sources": [
+    {
+      "text": "게임 이론의 표준 개념 (죄수의 딜레마, 반복 게임과 맞대응 전략)",
+      "url": null
+    },
+    {
+      "text": "모든 수치와 가게 이름은 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "보수표 계산 확인: 둘 다 $5 → 각 $1,000/일, 혼자 인하 → 인하한 쪽 $1,300 / 버틴 쪽 $600, 둘 다 $4 → 각 $700. 상대가 버티면 인하 1,300 > 1,000, 상대가 인하하면 인하 700 > 600이므로 인하가 우월 전략이고, 둘 다 인하(700)가 둘 다 유지(1,000)보다 나쁨 → 죄수의 딜레마 구조 성립.",
+      "status": "open"
+    },
+    {
+      "note": "5번 카드 계산: 먼저 인하 시 이틀간 +$300/일 = +$600. 이후 둘 다 $4이면 기준 대비 −$300/일, 30일이면 −$9,000. '이틀 만에 이득을 다 반납'은 600 ÷ 300 = 2일로 맞음.",
+      "status": "open"
+    },
+    {
+      "note": "7번 카드의 담합 관련 문장은 특정 국가 법률 조언이 아닌 일반적 경고로만 썼습니다. 'illegal in many countries' 표현이 적절한지 검토 바랍니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Pricing · Everyday scene",
+      "title": "The coffee shop across the street just put up a $4 sign",
+      "illustrative": true,
+      "body": [
+        "Mira runs a café on a busy corner. Across the street is Bean Bar. For two years, both have sold lattes for $5 and split the morning crowd.",
+        "This week, Mira is tempted to cut to $4 and grab Bean Bar's customers. Bean Bar's owner is probably thinking the same thing."
+      ],
+      "image": {
+        "label": "Two cafés facing each other across a street",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 길 하나를 사이에 두고 마주 보는 작은 카페 두 곳. 한쪽 창가에 \"Latte $5\", 다른 쪽 주인이 \"$4\" 표지판을 들고 망설이는 모습. 실제 카페 브랜드 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Should Mira cut first?",
+      "illustrative": true,
+      "body": [
+        "Mira's regulars like her, but many commuters just pick the cheaper cup. A $4 latte would pull a lot of them across the street.",
+        "What should she do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Cut to $4 now, before Bean Bar does",
+            "verdict": "risky",
+            "feedback": "She wins a few good days, but Bean Bar will match, and then both sell at $4. This is the **prisoner's dilemma**: the move that looks smart alone leaves both worse off."
+          },
+          {
+            "key": "B",
+            "text": "Stay at $5 and never react to anything Bean Bar does",
+            "verdict": "partial",
+            "feedback": "She avoids starting a war, which is good. But if Bean Bar cuts, ignoring it means losing customers every day, and Bean Bar has no reason to stop."
+          },
+          {
+            "key": "C",
+            "text": "Stay at $5, but match any cut quickly and go back to $5 when Bean Bar does",
+            "verdict": "best",
+            "feedback": "This uses the fact that they meet every morning. In a **repeated game**, a quick, fair response makes cutting pointless, so neither side has a reason to start."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Four possible mornings",
+      "illustrative": true,
+      "body": [
+        "Each number is what a shop keeps per day after ingredients. Whatever Bean Bar does, Mira earns more by cutting. Bean Bar sees the same thing. So both cut, and both end up at $700."
+      ],
+      "breakdown": [
+        {
+          "value": "$1,000 each",
+          "label": "Both stay at $5",
+          "detail": "The crowd splits as it always has",
+          "highlight": true
+        },
+        {
+          "value": "$1,300 / $600",
+          "label": "Mira cuts, Bean Bar stays",
+          "detail": "Mira steals commuters for a while",
+          "highlight": false
+        },
+        {
+          "value": "$600 / $1,300",
+          "label": "Bean Bar cuts, Mira stays",
+          "detail": "The same story, reversed",
+          "highlight": false
+        },
+        {
+          "value": "$700 each",
+          "label": "Both cut to $4",
+          "detail": "Same customers, lower prices",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept at work · 1",
+      "title": "A prisoner's dilemma on one street corner",
+      "body": [
+        "In a **prisoner's dilemma**, each player's best move on its own is to defect, here by cutting the price. But when both defect, both are worse off than if they had held back.",
+        "No one has to be greedy or foolish for this to happen. Each owner is just doing the math for one week. The trap is in the setup, not in the people."
+      ],
+      "image": {
+        "label": "Two-by-two grid of outcomes with the both-cut box highlighted",
+        "aspectRatio": "16:9",
+        "brief": "2×2 보수표 인포그래픽. 행은 Mira (Stay $5 / Cut $4), 열은 Bean Bar. 칸마다 일일 이익. \"Both cut $700 / $700\" 칸에 화살표가 몰려 들어가는 모습을 강조하고, \"Both stay $1,000 / $1,000\" 칸은 손이 닿지 않는 듯 흐리게.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Concept at work · 2",
+      "title": "But they play again tomorrow.",
+      "illustrative": true,
+      "body": [
+        "The dilemma above is a one-shot game. Mira and Bean Bar play every morning for years. That changes the math. This is a **repeated game**: what you do today shapes what your rival does tomorrow.",
+        "If Mira cuts first and Bean Bar matches two days later, she gains $600. After that, both sit at $700 instead of $1,000. She gives back the whole gain in two days. A month of that costs each shop about $9,000.",
+        "Seen this way, cutting first is a bad trade."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Your call · it happened",
+      "title": "Bean Bar put up the $4 sign anyway.",
+      "illustrative": true,
+      "body": [
+        "Monday morning, Bean Bar's chalkboard says \"Lattes $4.\" Mira's line is already shorter. What now?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Match $4 right away, and go back to $5 as soon as Bean Bar does",
+            "verdict": "best",
+            "feedback": "This is the classic answer in a **repeated game**: respond in kind, then forgive. Bean Bar learns that cutting wins nothing, and the way back to $5 stays open."
+          },
+          {
+            "key": "B",
+            "text": "Go to $3.50 to teach Bean Bar a lesson",
+            "verdict": "risky",
+            "feedback": "It feels strong, but it deepens the **prisoner's dilemma**. Bean Bar will likely answer at $3.50 or lower, and both shops lose more each day."
+          },
+          {
+            "key": "C",
+            "text": "Hold at $5 and hope regulars stay loyal",
+            "verdict": "partial",
+            "feedback": "Some will. But Mira loses about $400 a day, and Bean Bar is rewarded for cutting. A rival that gains from cutting has every reason to keep doing it."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "When the long game stops working",
+      "body": [
+        "Matching and forgiving only works if both sides care about the future. A shop that is about to close, or a newcomer that wants to grab share at any cost, may keep cutting no matter what you do.",
+        "A real cost advantage changes things too. If Bean Bar can truly make lattes cheaper, a war is not a bluff.",
+        "And never agree on prices with a rival. That is illegal in many countries. Everything here is about your own moves, made on your own."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's two booking apps for hair salons.",
+      "illustrative": true,
+      "body": [
+        "Your app and a rival's app both charge salons $40 a month. The rival just launched 50% off the first year for new salons, promoted in the same trade groups you use.",
+        "How do you respond?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Cut every plan to $20 a month, for new and current customers",
+            "verdict": "risky",
+            "feedback": "This turns a small promotion into a full **prisoner's dilemma**, and your current customers now pay half. Prices are hard to raise again once users get used to them."
+          },
+          {
+            "key": "B",
+            "text": "Offer a matching new-salon deal in the same channels, and end it when theirs ends",
+            "verdict": "best",
+            "feedback": "A targeted, time-limited match shows you will respond, without cutting revenue from existing users. In a **repeated game**, that makes their promotion less worth repeating."
+          },
+          {
+            "key": "C",
+            "text": "Ignore the deal and ship new features instead",
+            "verdict": "partial",
+            "feedback": "Better features help over time. But if the rival keeps winning sign-ups at no cost, they have no reason to stop discounting."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Don't start the war. Answer it fairly. Leave the way back open.",
+      "body": [
+        "Two ideas did the work here. The **prisoner's dilemma** explains why price wars start even between sensible owners. **Repeated games** explain how to stop them: match quickly, then return as soon as your rival does.",
+        "**Try it today:** pick your closest competitor. Write down what you would do the day they cut prices, and what would make you go back up."
+      ],
+      "next": "Next · Negotiate with a long-term supplier"
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "id": "PPL-09-01",
+  "unitId": "PPL-09",
+  "categoryId": "PPL",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Functional vs divisional",
+  "readerTitle": "Why splitting into divisions made a factory slower to profit",
+  "format": "counterexample",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.4,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (포장재 제조사, 소프트웨어 회사) + 실제 연구 (Chandler의 기업사 연구, DuPont)",
+  "insight": "조직 구조는 어떤 대화를 팀 안에서 쉽게 하고 어떤 대화를 팀 경계를 넘어 어렵게 할지 고르는 일이다. 기능별 구조와 사업부별 구조는 서로 반대의 비용을 치른다.",
+  "misconception": "회사가 커지면 사업부제로 바꾸는 것이 정답이다. 사업부제가 고객에 더 가까우니 항상 더 낫다.",
+  "relatedLessonIds": [
+    "PPL-09-02",
+    "PPL-09-04"
+  ],
+  "sources": [
+    {
+      "text": "Chandler, A. D. (1962). Strategy and Structure: Chapters in the History of the American Industrial Enterprise. MIT Press.",
+      "url": null
+    },
+    {
+      "text": "포장재 제조사와 소프트웨어 회사 사례는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Chandler(1962)가 DuPont이 1920년대 초 제품군 확대 후 중앙 기능별 구조에서 사업부 구조로 바꾼 과정을 다룬다는 내용을 원문으로 재확인하세요. 카드에는 연도를 \"early 1920s\"로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "포장재 제조사의 견적 기간(9일→3일), 구매 담당 3명, 기계 1대 등 수치는 모두 설명용 가상 수치입니다.",
+      "status": "open"
+    },
+    {
+      "note": "PPL-09-09(GM 사례)와 겹치지 않도록 GM과 Sloan은 언급하지 않았습니다. PPL-09-05(재조직)와 겹치지 않도록 재조직 실행 방법은 다루지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "People · Counterexample",
+      "title": "Why splitting into divisions made a factory slower to profit",
+      "illustrative": true,
+      "body": [
+        "A packaging maker had three product lines: food boxes, store displays and shipping crates. Customers complained that quotes took nine days.",
+        "So the new CEO split the company into three divisions. A year later, quotes were fast. Margins were worse."
+      ],
+      "image": {
+        "label": "One factory split into three color-coded zones",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 골판지 공장 내부를 위에서 본 장면. 바닥에 세 가지 색 테이프로 구역이 나뉘어 있고, 가운데 큰 기계 한 대에 세 구역의 작업자가 동시에 손을 뻗고 있음. 실제 기업 로고나 상표 없음.",
+        "url": "assets/images/ppl-09-01-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Quotes take nine days. What do you change?",
+      "illustrative": true,
+      "body": [
+        "You run the 200-person plant. Sales, design, production planning and purchasing each serve all three product lines. Every quote waits in each department's queue.",
+        "All three lines share one expensive cardboard machine and buy the same raw board."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Split into three product divisions, each with its own sales, design, planning and purchasing",
+            "verdict": "risky",
+            "feedback": "Quotes get faster because one team owns each product. But you split your buying power three ways and give one machine three bosses."
+          },
+          {
+            "key": "B",
+            "text": "Keep the departments and set a target to cut quote time in half",
+            "verdict": "partial",
+            "feedback": "You keep shared skills and scale. But a target doesn't remove the handoffs that cause the wait."
+          },
+          {
+            "key": "C",
+            "text": "Group sales and design by product line, and keep planning and purchasing as shared teams",
+            "verdict": "best",
+            "feedback": "Customer-facing work moves fast where products differ. Work that depends on the shared machine and bulk buying stays together."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What happened",
+      "title": "The CEO chose the full split.",
+      "illustrative": true,
+      "body": [
+        "Speed went up. Almost everything that depended on scale got worse."
+      ],
+      "breakdown": [
+        {
+          "value": "9 → 3 days",
+          "label": "Quote time",
+          "detail": "One team owned each customer",
+          "highlight": false
+        },
+        {
+          "value": "3 buyers",
+          "label": "Purchasing",
+          "detail": "Smaller orders, weaker discounts on board",
+          "highlight": false
+        },
+        {
+          "value": "1 machine",
+          "label": "Shared equipment",
+          "detail": "Three planners fought over the schedule",
+          "highlight": true
+        },
+        {
+          "value": "1 expert",
+          "label": "Best engineer",
+          "detail": "Could only work for one division",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Functional vs divisional",
+      "body": [
+        "A **functional structure** groups people by skill: all salespeople together, all engineers together, all buyers together.",
+        "A **divisional structure** groups people by what they deliver: a product, a customer type or a region. Each division gets its own mix of skills.",
+        "Neither is the grown-up version of the other. They are two different bets."
+      ],
+      "image": {
+        "label": "Two org charts side by side",
+        "aspectRatio": "16:9",
+        "brief": "조직도 두 개를 나란히. 왼쪽 \"Functional\": 맨 위 CEO 아래 Sales, Design, Production, Purchasing 상자. 오른쪽 \"Divisional\": CEO 아래 Food boxes, Displays, Crates 상자, 각 상자 안에 작은 기능 아이콘 네 개. 단순한 플랫 일러스트.",
+        "url": "assets/images/ppl-09-01-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Every structure makes some talks easy and others hard.",
+      "body": [
+        "People inside the same box talk daily. People across boxes need meetings, rules and a boss to settle fights."
+      ],
+      "list": [
+        "**Functional:** experts learn from each other and share machines and buying power. But one customer's order crosses many handoffs, and only the top leader owns profit.",
+        "**Divisional:** one leader owns a product from sale to delivery and can decide fast. But skills get copied, experts get isolated, and divisions compete for anything shared."
+      ],
+      "callout": "Ask which conversations matter most, then put those people in the same box."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "When divisions win",
+      "title": "Divisions pay off when products truly differ.",
+      "body": [
+        "Historian Alfred Chandler studied how large US firms organized. He described how DuPont, after adding very different product lines in the early 1920s, found its central departments overloaded. Top managers could not judge so many unlike businesses at once. Divisions fixed that.",
+        "The packaging maker's lines were different too, but they shared a machine and a raw material. Where the work overlaps, the seams of a divisional structure hurt."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The seam moves. It never disappears.",
+      "body": [
+        "Mixing the two, as option C did, is common. But every mix creates a new border where someone must settle disputes, such as who gets the machine on Friday.",
+        "Whichever you choose, plan the bridges: shared targets, a clear owner for each shared resource, and regular time for experts to meet across teams. A structure without bridges breaks along its seams."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software company.",
+      "illustrative": true,
+      "body": [
+        "Your 60-person company sells two apps: payroll software for accountants and a shift-scheduling app for restaurants. One engineering team and one marketing team serve both.",
+        "The users are different, the code shares little, and the two product leads fight over engineers every sprint."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Create two product teams, each with its own engineers, designers and marketers; keep finance and HR shared",
+            "verdict": "best",
+            "feedback": "The products barely overlap, so you lose little scale and end the fight over engineers. Watch that the two teams still share good practices."
+          },
+          {
+            "key": "B",
+            "text": "Keep one engineering team and vote on priorities each quarter",
+            "verdict": "partial",
+            "feedback": "You keep engineers learning from each other. But the vote just moves the fight to a meeting, and both products wait."
+          },
+          {
+            "key": "C",
+            "text": "Split engineering further by skill: backend, frontend, mobile",
+            "verdict": "risky",
+            "feedback": "Each specialty may get stronger. But every feature now crosses three more handoffs, and the two products still compete for all of them."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Group people by the conversations that matter most.",
+      "body": [
+        "Functional structures buy skill and scale. Divisional structures buy speed and ownership. Each pays for it at the seams.",
+        "**Try it today:** list the three handoffs that slow your work most. Would grouping by skill or by product put those people in the same team?"
+      ],
+      "next": "Next · Who should make the call: head office or the front line?"
+    }
+  ]
+}

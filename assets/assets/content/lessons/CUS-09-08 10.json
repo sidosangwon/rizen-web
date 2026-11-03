@@ -1,0 +1,250 @@
+{
+  "id": "CUS-09-08",
+  "unitId": "CUS-09",
+  "categoryId": "CUS",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "Sell packaging to a food company",
+  "readerTitle": "The cheaper packaging that costs a food maker more",
+  "format": "everyday_scene",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (포장 필름 공급사와 식품 제조사, 재사용 상자와 식품 유통사) · 모든 수치는 설명용",
+  "insight": "B2B 영업에서 '비싸다'는 대답은 결론이 아니다. 가격만 보는 한 사람의 점수표일 뿐이다. 구매에 관여하는 사람마다 쓰는 숫자를 찾아 총비용으로 다시 써 주면 대답이 바뀐다.",
+  "misconception": "구매 담당자가 비싸다고 하면 가격을 내리는 수밖에 없다.",
+  "relatedLessonIds": [
+    "CUS-09-02",
+    "CUS-09-04"
+  ],
+  "sources": [
+    {
+      "text": "B2B 마케팅·구매 관리의 표준 개념 (구매 의사결정 집단, 총소유비용)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "연 100만 팩 기준 가상 수치입니다. 필름 원가: 기존 $0.040 × 1,000,000 = $40,000, 신제품 $0.043 × 1,000,000 = $43,000, 차이 +$3,000 (+7.5%).",
+      "status": "open"
+    },
+    {
+      "note": "라인 정지: 기존 연 50회 × $300 = $15,000, 신제품 연 10회 × $300 = $3,000, 절감 $12,000. 폐기: 기존 8,000팩 × $1.50 = $12,000, 신제품 3,000팩 × $1.50 = $4,500, 절감 $7,500.",
+      "status": "open"
+    },
+    {
+      "note": "총비용: 기존 $40,000 + $15,000 + $12,000 = $67,000, 신제품 $43,000 + $3,000 + $4,500 = $50,500. 순절감 $3,000 − $12,000 − $7,500 = −$16,500.",
+      "status": "open"
+    },
+    {
+      "note": "재사용 상자 사례(카드 7)는 수치 없이 개념만 다룹니다. 실제 수명, 세척비, 회수 운송비는 업체마다 크게 다르므로 구체적인 숫자를 넣지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Everyday scene",
+      "title": "The cheaper packaging that costs a food maker more",
+      "illustrative": true,
+      "body": [
+        "You make plastic film for food packs. A snack maker runs your rival's film, and it tears on their packing line about once a week.",
+        "Your film is stronger. It's also 7.5% more per roll. The purchasing manager reads your quote and says one word: \"Expensive.\""
+      ],
+      "image": {
+        "label": "A torn film roll stopping a snack packing line",
+        "aspectRatio": "4:3",
+        "brief": "식품 포장 라인 장면. 컨베이어 위 과자 봉지들이 멈춰 있고, 필름 롤 한 곳이 찢어져 있음. 옆에 서류를 든 구매 담당자가 가격표를 보고 있음. 실제 브랜드 로고와 제품명은 쓰지 않음.",
+        "url": "assets/images/cus-09-08-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Purchasing says your price is too high.",
+      "illustrative": true,
+      "body": [
+        "The purchasing manager is measured on price per roll. Your film costs $0.043 per pack. The current one costs $0.040.",
+        "What do you do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Cut your price to $0.040 to match",
+            "verdict": "risky",
+            "feedback": "You might win the order, but you give away your margin and teach the customer that your extra strength is worth nothing."
+          },
+          {
+            "key": "B",
+            "text": "Ask who else is affected by the film, and meet them",
+            "verdict": "best",
+            "feedback": "This is the **buying committee** at work. Production and quality also live with the film every day, and they count different costs than purchasing does."
+          },
+          {
+            "key": "C",
+            "text": "Send purchasing a detailed spec sheet on tear strength",
+            "verdict": "partial",
+            "feedback": "The facts are right, but they go to the one person whose scorecard doesn't reward them. Tear strength matters most to people who never see your quote."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "Who's in the room",
+      "title": "Five people, five different questions.",
+      "illustrative": true,
+      "body": [
+        "A packaging decision at a food company rarely belongs to one person. Each member of the **buying committee** judges your film by a different number."
+      ],
+      "list": [
+        "**Purchasing:** price per roll",
+        "**Production:** line stops and speed",
+        "**Quality:** leaks, recalls, food-safety approval",
+        "**Marketing:** how the pack looks on the shelf",
+        "**Finance:** the total spend for the year"
+      ],
+      "callout": "Purchasing said no to a price. Nobody has said no to fewer line stops yet.",
+      "softwareNote": "Selling software to a company works the same way. The buyer sees the license fee, IT sees setup and security work, and the team using it sees hours saved. Each needs its own number."
+    },
+    {
+      "index": 4,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Count the whole cost, not the roll.",
+      "illustrative": true,
+      "body": [
+        "At one million packs a year, your film costs **$3,000 more**. The current film also causes about 50 line stops a year at $300 each, and 8,000 leaky packs worth $1.50 each. On a trial, yours cut that to 10 stops and 3,000 packs.",
+        "This is **total cost of ownership**: price plus every cost that comes with using the product."
+      ],
+      "breakdown": [
+        {
+          "value": "+$3,000",
+          "label": "Film",
+          "detail": "$43,000 instead of $40,000",
+          "highlight": false
+        },
+        {
+          "value": "−$12,000",
+          "label": "Line stops",
+          "detail": "10 stops instead of 50",
+          "highlight": false
+        },
+        {
+          "value": "−$7,500",
+          "label": "Scrapped packs",
+          "detail": "3,000 instead of 8,000",
+          "highlight": false
+        },
+        {
+          "value": "−$16,500",
+          "label": "Net per year",
+          "detail": "$50,500 total vs $67,000",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How do you bring the numbers back?",
+      "illustrative": true,
+      "body": [
+        "The production manager loves the trial results. But purchasing still signs the order, and their bonus is tied to unit price.",
+        "What's your next move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Skip purchasing and take the numbers to the plant director",
+            "verdict": "risky",
+            "feedback": "You may win this order and lose the buyer for years. In a **buying committee**, the person you went around still has a vote next time."
+          },
+          {
+            "key": "B",
+            "text": "Give purchasing a one-page total-cost sheet, signed off by production",
+            "verdict": "best",
+            "feedback": "Now purchasing can defend a higher price with **total cost of ownership** and a colleague's support. You've turned their risk into their win."
+          },
+          {
+            "key": "C",
+            "text": "Offer a discount on another product so purchasing still shows a saving",
+            "verdict": "partial",
+            "feedback": "It respects purchasing's scorecard, but you pay for it. A clear total-cost case might have done the same job for free."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Your savings are only a promise.",
+      "body": [
+        "A total-cost sheet built on your own estimates is easy to doubt. The numbers count only when they come from the customer's line, measured the way they measure.",
+        "Agree on the test before you run it: how many shifts, how stops are logged, who counts scrap. If the savings turn out smaller, say so. A sheet that was honest once gets believed the next time."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now you sell reusable crates.",
+      "illustrative": true,
+      "body": [
+        "A regional grocery distributor ships produce in single-use cardboard boxes. Your plastic crates cost many times more each but last for many trips. The warehouse manager is keen. Finance asks for the case.",
+        "What do you send?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Cost per trip over the crate's life, including washing and return trucking, plus less bruised produce and less waste hauling",
+            "verdict": "best",
+            "feedback": "This is honest **total cost of ownership**. Including washing and return costs makes the case believable to finance, the committee member most likely to check it."
+          },
+          {
+            "key": "B",
+            "text": "A strong story about cutting cardboard waste",
+            "verdict": "partial",
+            "feedback": "It may win over a sustainability lead, but finance asked a money question. A **buying committee** needs each member's own reason."
+          },
+          {
+            "key": "C",
+            "text": "A big launch discount on the first order of crates",
+            "verdict": "risky",
+            "feedback": "It shrinks the upfront price but leaves the real question open: will the crates pay back? Finance still has nothing to check."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "\"Too expensive\" is one person's number.",
+      "body": [
+        "This lesson used two ideas. **Buying committees:** find everyone who lives with the product and learn what each one measures. **Total cost of ownership:** add up price plus every cost of using it, and let the customer test the numbers.",
+        "**Try it today:** pick one business customer. List who touches your product there and the one number each of them cares about."
+      ],
+      "next": "Next · 'Nobody gets fired for buying IBM'"
+    }
+  ]
+}

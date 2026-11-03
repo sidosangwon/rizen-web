@@ -1,0 +1,276 @@
+{
+  "id": "CUS-03-10",
+  "unitId": "CUS-03",
+  "categoryId": "CUS",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Do you have product-market fit?",
+  "readerTitle": "300 orders in week one. Do you have product-market fit?",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.3,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (도시락 주방 '미나'의 창업 이야기) · 모든 수치는 설명용",
+  "insight": "제품-시장 적합성은 '얼마나 많이 왔나'가 아니라 '특정 집단이 밀어붙이지 않아도 다시 오는가'로 확인한다.",
+  "misconception": "출시 직후 주문이 폭발하고 칭찬 댓글이 많으면 제품-시장 적합성을 찾은 것이다.",
+  "relatedLessonIds": [
+    "CUS-03-03",
+    "CUS-03-04"
+  ],
+  "sources": [
+    {
+      "text": "제품-시장 적합성, 재구매·리텐션, 시장 좁히기, 피벗 판단에 관한 표준 창업 개념",
+      "url": null
+    },
+    {
+      "text": "모든 인물, 사업, 수치는 설명용 가상 시나리오",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "4주 차 재구매율 계산: 회사원 13/160 ≈ 8%, 학생 5/90 ≈ 6%, 병원 야간 근무자 23/50 = 46%, 전체 41/300 ≈ 14%. 3번 카드 차트와 4번 카드의 '23명' 표현이 일치하는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "5번 카드의 단골 140명, 두 달 전 시작한 고객의 60% 유지, 남은 자금 약 3개월은 모두 가상 수치입니다. 2번 카드의 '약 6개월치 자금'에서 4주 대기 및 3개월 운영 후 약 3개월이 남는 흐름이 대략 맞는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "'매우 실망할 것' 질문(Sean Ellis 테스트)은 CUS-03-09(Superhuman)에서 다루므로 여기서는 수치 기준(40%) 없이 일반적으로만 언급했습니다. 중복 여부를 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Simulation",
+      "title": "300 orders in week one. Do you have product-market fit?",
+      "illustrative": true,
+      "body": [
+        "Mina runs a small kitchen that sells boxed meals, ordered through a simple web page. A local food account posted about her launch, and a half-price first box did the rest.",
+        "Three hundred orders. Glowing comments. A friend says it's time to rent a second kitchen. For the next few minutes, you're Mina."
+      ],
+      "image": {
+        "label": "A small kitchen counter stacked high with meal boxes",
+        "aspectRatio": "4:3",
+        "brief": "작은 주방 조리대에 도시락 박스가 높이 쌓여 있고, 옆 스마트폰 화면에 주문 알림이 쏟아지는 장면. 따뜻한 일러스트 스타일. 실제 브랜드 로고나 SNS 로고는 쓰지 않음.",
+        "url": "assets/images/cus-03-10-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 3",
+      "title": "What tells you the launch worked?",
+      "illustrative": true,
+      "body": [
+        "Your friend wants you to sign a lease on a second kitchen this month. You have savings for about six months. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Sign the lease. 300 orders is real demand",
+            "verdict": "risky",
+            "feedback": "You move fast, but you're betting rent on orders that a discount and one post may have bought. If people don't come back, you carry two kitchens' costs."
+          },
+          {
+            "key": "B",
+            "text": "Wait four weeks and count who orders again at full price",
+            "verdict": "best",
+            "feedback": "You lose a month of speed but learn whether people need the meals or just tried them. Repeat buying at full price is hard to fake."
+          },
+          {
+            "key": "C",
+            "text": "Send a survey asking customers how much they love it",
+            "verdict": "partial",
+            "feedback": "Cheap and quick, and you'll hear kind words. But people who say they love something don't always buy it again."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "What happened",
+      "title": "Say you waited. Most people didn't come back.",
+      "illustrative": true,
+      "body": [
+        "Four weeks later, only 14% of first-time buyers had ordered again at full price. Then you split them by who they were.",
+        "One small group stood out: night-shift staff at the hospital nearby. Nearly half kept ordering, often twice a week."
+      ],
+      "chart": {
+        "unit": "%",
+        "groups": [
+          {
+            "label": "Still ordering in week 4, by customer type",
+            "rows": [
+              {
+                "label": "Office workers (160 first orders)",
+                "value": 8,
+                "highlight": false
+              },
+              {
+                "label": "Students (90)",
+                "value": 6,
+                "highlight": false
+              },
+              {
+                "label": "Hospital night shift (50)",
+                "value": 46,
+                "highlight": true
+              },
+              {
+                "label": "All customers (300)",
+                "value": 14,
+                "highlight": false
+              }
+            ]
+          }
+        ]
+      },
+      "image": {
+        "label": "Average reorder rate hides the night-shift segment",
+        "aspectRatio": "4:3",
+        "brief": "Infographic. Overall 14% vs hospital night shift 46%.",
+        "url": "assets/images/cus-03-10-info.png"
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 3",
+      "title": "Where do you put your effort?",
+      "illustrative": true,
+      "body": [
+        "Office workers were your biggest group. Night-shift staff were your most loyal. Your kitchen, time and money can't serve both well."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Add more dishes to win back office workers",
+            "verdict": "risky",
+            "feedback": "You aim at the biggest group, but they already showed they can take you or leave you. A bigger menu adds cost and blurs what you're for."
+          },
+          {
+            "key": "B",
+            "text": "Build around night-shift staff: late delivery to the hospital, meals that keep through a 12-hour shift",
+            "verdict": "best",
+            "feedback": "You give up most of your launch crowd to serve the 23 people who clearly need you. Small, but it's the only group already coming back on its own."
+          },
+          {
+            "key": "C",
+            "text": "Run a second discount to bring everyone back",
+            "verdict": "partial",
+            "feedback": "You'll get a burst of orders and learn little new. A discount tests whether people like a deal, not whether they need you."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Three months later",
+      "title": "Say you chose the night shift. The drop-off stopped.",
+      "illustrative": true,
+      "body": [
+        "You moved delivery to 10 p.m. and 2 a.m., rewrote the menu around food that stays good in a staff fridge, and dropped everything else.",
+        "Now 140 regulars order each week. Of the people who started two months ago, 60% still order, and that share has stopped falling. Staff at two other hospitals are asking when you'll come to them.",
+        "The catch: revenue is still small, and you have about three months of savings left."
+      ],
+      "image": {
+        "label": "A line that falls, then flattens out",
+        "aspectRatio": "16:9",
+        "brief": "재구매 고객 비율 선 그래프. 처음에는 가파르게 떨어지다가 중간부터 수평으로 평평해지는 곡선. 평평해지는 구간에 작은 병원 건물 아이콘과 \"Still ordering\" 라벨. 실제 병원 로고 없음.",
+        "url": "assets/images/cus-03-10-c5.jpg"
+      }
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 3",
+      "title": "Change direction or keep going?",
+      "illustrative": true,
+      "body": [
+        "A catering company offers you steady corporate event work with bigger orders. Or you could push further into hospitals. Which do you pick?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Switch to corporate catering for bigger, safer orders",
+            "verdict": "risky",
+            "feedback": "Steadier cash, but you'd walk away from the one group that keeps coming back and start your search for customers again."
+          },
+          {
+            "key": "B",
+            "text": "Expand to the two hospitals that asked, with the same offer, and track each one's repeat rate",
+            "verdict": "best",
+            "feedback": "Slower than a big contract, but each new hospital tests whether your fit travels. If their numbers match the first, you have something you can grow."
+          },
+          {
+            "key": "C",
+            "text": "Add daytime office lunches to use the idle kitchen",
+            "verdict": "partial",
+            "feedback": "A sensible use of space that may bring cash. But it splits your attention just when your core group needs you most. Better later than now."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Say you expanded. Customers started pulling.",
+      "illustrative": true,
+      "body": [
+        "Six weeks later, both new hospitals look like the first one. Repeat orders hold, and staff bring in colleagues on their own. Asked how they'd feel if you closed, many regulars say they'd be really upset.",
+        "That is **product-market fit**: a specific group of customers keeps buying, without being pushed, because what you sell solves a real problem for them.",
+        "Before fit, you push customers to buy. After it, you struggle to keep up."
+      ],
+      "image": {
+        "label": "Arrows flipping from pushing to pulling",
+        "aspectRatio": "16:9",
+        "brief": "두 장면 비교 인포그래픽. 왼쪽 \"Before fit\": 사장이 무거운 도시락 수레를 손님 쪽으로 힘겹게 밀고 있음. 오른쪽 \"After fit\": 손님들이 수레를 끌어당기고 사장이 뒤따라 뛰어감. 단순한 플랫 일러스트.",
+        "url": "assets/images/cus-03-10-c7.jpg"
+      }
+    },
+    {
+      "index": 8,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Fit belongs to a group, and it can fade.",
+      "body": [
+        "Mina has fit with hospital night shifts, not with office workers. Fit belongs to a group of customers, not to your product in general. Change the group and you're testing again.",
+        "It isn't permanent either. A new all-night hospital cafeteria could weaken it fast. And small numbers mislead: 23 loyal customers is a clue, not proof, until the pattern repeats somewhere new."
+      ],
+      "softwareNote": "The launch spike is the same trap. A wave of signups from one launch post is Mina's 300 orders. Fit shows when the share of each month's new users still active weeks later stops falling."
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Fit is people coming back, not people showing up.",
+      "body": [
+        "Each decision matched one idea from this unit:"
+      ],
+      "list": [
+        "**Decision 1 · Retention over buzz:** a discounted launch spike shows curiosity. Repeat buying at full price shows need.",
+        "**Decision 2 · Narrowing your market:** the small group that keeps coming back is worth more than the big group that tried you once.",
+        "**Decision 3 · Pivot or persevere:** when one group is pulling, test whether it repeats elsewhere before chasing different customers."
+      ],
+      "callout": "**Try it today:** take the customers who first bought from you three months ago. How many bought again? Split them by type and look for the group that stayed.",
+      "next": "Next · Which of your beliefs could sink you?"
+    }
+  ]
+}

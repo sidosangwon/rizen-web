@@ -1,0 +1,253 @@
+{
+  "id": "OPS-02-05",
+  "unitId": "OPS-02",
+  "categoryId": "OPS",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "The utilization trap",
+  "readerTitle": "Why a fully booked team makes customers wait longer",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (가정 수리 업체, 지역 유통 창고) + 대기행렬 이론의 표준 결과 (M/M/1, Kingman 공식)",
+  "insight": "사람과 설비를 100% 가깝게 바쁘게 만드는 것은 효율이 아니라, 예상 밖의 일을 흡수할 여유를 없애 대기 시간을 폭발시키는 일이다.",
+  "misconception": "놀고 있는 시간은 낭비다. 가동률이 높을수록 일이 더 빨리, 더 많이 처리된다.",
+  "relatedLessonIds": [
+    "OPS-02-06",
+    "OPS-01-03"
+  ],
+  "sources": [
+    {
+      "text": "대기행렬 이론의 표준 결과: M/M/1 대기행렬에서 평균 대기 시간은 처리 시간 × u/(1−u)에 비례 (운영관리 교과서 공통 내용)",
+      "url": null
+    },
+    {
+      "text": "Kingman, J. F. C. (1961). The single server queue in heavy traffic. Mathematical Proceedings of the Cambridge Philosophical Society, 57(4).",
+      "url": null
+    },
+    {
+      "text": "업체와 창고 사례 및 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "차트 수치는 M/M/1 모델의 u/(1−u) 비율로 계산하고 가동률 50%를 1로 둔 상대값입니다. 50%: 0.5/0.5 = 1, 75%: 0.75/0.25 = 3, 80%: 0.8/0.2 = 4, 90%: 0.9/0.1 = 9, 95%: 0.95/0.05 = 19. 실제 업무는 도착과 처리 시간의 변동 정도에 따라 배수가 달라지므로 카드에 'simple model'이라고 밝혔습니다.",
+      "status": "open"
+    },
+    {
+      "note": "2번 카드 정답: 75%에서 95%로 올리면 3 → 19, 약 6배(19 ÷ 3 ≈ 6.3). 카드에는 'about six times'로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Kingman 공식은 대기 시간이 가동률 항 u/(1−u)과 도착·처리 시간의 변동성에 함께 비례한다는 근사식입니다. 5번 카드 설명이 이 내용과 맞는지 게시 전 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Everyday scene",
+      "title": "Why a fully booked team makes customers wait longer",
+      "illustrative": true,
+      "body": [
+        "A home repair company has four technicians. The owner is proud: almost every hour of their day is booked.",
+        "Yet customers now wait a week for a visit. A burst pipe on Tuesday can't be seen until Friday. Busier crews, slower service. How?"
+      ],
+      "image": {
+        "label": "A packed technician schedule next to a long list of waiting customers",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 왼쪽에는 빈칸 없이 꽉 찬 주간 일정표, 오른쪽에는 길게 늘어진 대기 고객 목록과 물이 새는 파이프 아이콘. 실제 회사 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Fill the gaps in the schedule?",
+      "illustrative": true,
+      "body": [
+        "Your technicians are busy about 75% of their working day. A consultant says the gaps are waste and you should book them up to 95%.",
+        "Calls keep arriving at random, and jobs vary in length. What happens to the average customer's wait?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "It stays about the same. The same crew is just doing more",
+            "verdict": "risky",
+            "feedback": "You'd earn from more booked hours, but you'd lose the gaps that soaked up long jobs and surprise calls. Those gaps were doing real work."
+          },
+          {
+            "key": "B",
+            "text": "It rises a little, maybe 20–30%",
+            "verdict": "partial",
+            "feedback": "Right direction. But waits don't grow in a straight line as a team gets busier. Near the top, they climb much faster."
+          },
+          {
+            "key": "C",
+            "text": "It grows several times over, roughly six times in a simple model",
+            "verdict": "best",
+            "feedback": "Yes. Going from 75% to 95% busy can multiply waits many times when work arrives unevenly. The next card shows the curve."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The curve",
+      "title": "Waits explode near 100%.",
+      "body": [
+        "In a simple queueing model, average wait grows with *busy ÷ idle*. At 50% busy, call the wait 1. Each step toward full looks small. The wait does not."
+      ],
+      "chart": {
+        "unit": "count",
+        "groups": [
+          {
+            "label": "Relative wait by how busy the team is",
+            "rows": [
+              {
+                "label": "50% busy",
+                "value": 1,
+                "highlight": false
+              },
+              {
+                "label": "75% busy",
+                "value": 3,
+                "highlight": false
+              },
+              {
+                "label": "80% busy",
+                "value": 4,
+                "highlight": false
+              },
+              {
+                "label": "90% busy",
+                "value": 9,
+                "highlight": false
+              },
+              {
+                "label": "95% busy",
+                "value": 19,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "callout": "From 90% to 95% busy, the wait roughly doubles.",
+      "image": {
+        "label": "Waits explode near 100%.",
+        "aspectRatio": "4:3",
+        "brief": "Labeled HTML chart from the lesson numbers",
+        "url": "assets/images/ops-02-05-chart.png"
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The utilization trap",
+      "body": [
+        "**Utilization** is the share of time a person or machine is busy. The **utilization trap** is treating high utilization as the goal, when the customer cares about speed.",
+        "When work arrives unevenly, idle time is not waste. It is the buffer that absorbs surprises. Remove it, and every surprise turns into a delay for everyone behind it."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Delays pile up and never get paid back.",
+      "body": [
+        "One job runs an hour long. Two emergency calls land at once. With some slack, the crew catches up by afternoon.",
+        "At 95% busy, there is no afternoon gap. The delay rolls into tomorrow, then the next day. A team that is almost always busy rarely gets the chance to clear its backlog.",
+        "Queueing research says waits depend on two things: **how busy you are** and how much the work varies. The more uneven the work, the earlier the curve turns steep."
+      ],
+      "image": {
+        "label": "Two schedules: one with gaps absorbing a long job, one without",
+        "aspectRatio": "16:9",
+        "brief": "두 개의 하루 일정 막대 비교. 위쪽은 중간중간 빈칸이 있어 길어진 작업이 빈칸에 흡수됨. 아래쪽은 빈칸이 없어 길어진 작업이 뒤의 작업을 모두 밀어내고 다음 날로 넘어가는 화살표.",
+        "url": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where else",
+      "title": "The same trap in other places",
+      "list": [
+        "**Accounting firms in tax season:** fully booked staff mean one tricky client delays a dozen others",
+        "**Hospital beds:** wards run near full have no room for the next ambulance",
+        "**Delivery fleets:** every truck on the road means one breakdown cancels a route"
+      ],
+      "callout": "Wherever work arrives at random, full means slow.",
+      "softwareNote": "Servers running near full capacity respond slowly long before they crash. An engineering team booked solid on planned work can't fix an urgent bug without delaying everything else."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Slack has a cost, and not every place needs it.",
+      "body": [
+        "Idle hours still cost wages and equipment. The trap matters most when work arrives unpredictably and waiting is costly, like emergency repairs or same-day orders.",
+        "If work is steady and can wait, such as a factory line with a planned backlog, running close to full can be fine.",
+        "So don't aim for a utilization number. Watch what customers feel, like wait time or on-time delivery, and keep only as much slack as that requires."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a distribution warehouse.",
+      "illustrative": true,
+      "body": [
+        "Your regional warehouse promises same-day shipping to shops. Packers are busy 92% of the time on average, but orders spike on Mondays. Late shipments are rising.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Cut one packer. On quieter days some stand idle",
+            "verdict": "risky",
+            "feedback": "You save one wage but push the team even closer to full. Monday delays would grow sharply and more shops would get late orders."
+          },
+          {
+            "key": "B",
+            "text": "Add flexible help for Mondays and track on-time shipping, not packer busyness",
+            "verdict": "best",
+            "feedback": "You pay for extra hours only when the spike hits, and you measure what shops actually care about. Average utilization drops a little, and that's the point."
+          },
+          {
+            "key": "C",
+            "text": "Ask packers to work overtime every Monday",
+            "verdict": "partial",
+            "feedback": "It adds capacity at the right time, but tired staff make more errors and the team still has no room for surprises."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A little idle time keeps the whole system fast.",
+      "body": [
+        "When work arrives unevenly, pushing people toward 100% busy makes customers wait far longer. Manage for speed, not busyness.",
+        "**Try it today:** pick one team or machine. Estimate how busy it is, then check how long customers wait for it. If it's above 85% busy and waits are growing, you may be in the trap."
+      ],
+      "next": "Next · What really happens while customers wait"
+    }
+  ]
+}

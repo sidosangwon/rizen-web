@@ -1,0 +1,228 @@
+{
+  "id": "SAL-04-06",
+  "unitId": "SAL-04",
+  "categoryId": "SAL",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Expanding the pie",
+  "readerTitle": "Why splitting the difference can leave money on the table",
+  "format": "counterexample",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.4,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (원예용품점과 유통업체, 가구 제조사와 화물 운송사) + 실제 연구 (Thompson & Hastie, 1990, 고정 파이 인식). 모든 수치는 설명용",
+  "insight": "협상은 정해진 파이를 나누는 일만이 아니다. 양쪽이 서로 다르게 중요하게 여기는 조건을 맞바꾸면 나누기 전에 파이를 키울 수 있다.",
+  "misconception": "상대가 얻는 만큼 내가 잃는다. 그러니 가격을 반씩 양보해 중간에서 만나는 것이 가장 공정하고 좋은 합의다.",
+  "relatedLessonIds": [
+    "SAL-04-05",
+    "SAL-04-03"
+  ],
+  "sources": [
+    {
+      "text": "Thompson, L., & Hastie, R. (1990). Social perception in negotiation. Organizational Behavior and Human Decision Processes, 47(1), 98–123.",
+      "url": null
+    },
+    {
+      "text": "협상론의 표준 개념 (통합적 협상, 가치 창출과 가치 분배)",
+      "url": null
+    },
+    {
+      "text": "모든 사례 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Thompson & Hastie(1990)는 많은 협상자가 상대의 이해관계가 자신과 정반대라고 가정한다는 '고정 파이 인식'을 보고했습니다. 구체적인 비율은 카드에 넣지 않았습니다. 게시 전 논문 제목, 권호, 쪽수를 원문으로 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "원예용품점 계산: 2,000개. 반씩 양보한 합의 $9.50, 3월 배송. 1월 한 트럭 일괄 배송 시 유통업체 보관·취급비 개당 $0.60 절감 → 새로 생기는 가치 $0.60 × 2,000 = $1,200. 가격 $9.20이면 가게는 개당 $0.30 × 2,000 = $600 절약, 유통업체는 $9.20 + $0.60 = $9.80 상당으로 $9.50 대비 개당 $0.30 × 2,000 = $600 이득. 합계 $1,200 일치.",
+      "status": "open"
+    },
+    {
+      "note": "가구 제조사·운송사 사례는 가상이며 별도 계산 없이 선택지 논리만 다룹니다. 운송 요금 $1,500·$1,200·$1,350은 설명용 수치입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Negotiation · Counterexample",
+      "title": "Why splitting the difference can leave money on the table",
+      "illustrative": true,
+      "body": [
+        "A garden store owner and a distributor argue for an hour over planters. He offers $9 each. She wants $10. They shake hands at $9.50 and both feel it was fair.",
+        "It wasn't a bad deal. But a better one for *both* of them was sitting right there, and neither one asked about it."
+      ],
+      "image": {
+        "label": "Two people shaking hands over a stack of planters",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 원예용품점 창고에서 두 사람이 화분 더미 위로 악수하는 장면. 둘 사이 탁자 위 파이 접시가 정확히 반으로 잘려 있고, 옆에 아무도 보지 않는 더 큰 파이 하나가 놓여 있음. 실제 브랜드 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You're $1 apart on price.",
+      "illustrative": true,
+      "body": [
+        "You run a garden store and want 2,000 planters for spring. The distributor asks $10 each. Your limit feels like $9. Talks have stalled.",
+        "What's your next move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Offer to meet in the middle at $9.50",
+            "verdict": "partial",
+            "feedback": "It closes the deal quickly and feels fair. But it only divides the money already on the table and never looks for more."
+          },
+          {
+            "key": "B",
+            "text": "Hold firm at $9 and say you'll walk",
+            "verdict": "risky",
+            "feedback": "It might win you a few cents. It also risks losing the deal and turns the talk into a contest of nerves."
+          },
+          {
+            "key": "C",
+            "text": "Ask what else matters to them: timing, volume, payment, delivery",
+            "verdict": "best",
+            "feedback": "It takes a few more minutes, but it can uncover terms that are cheap for one side and valuable to the other. That's where extra value hides."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What they missed",
+      "title": "The deal hidden behind the price.",
+      "illustrative": true,
+      "body": [
+        "The distributor needed warehouse space before spring. Shipping everything in one truck in January would save her **$0.60 a planter**. The store had an empty back room in January.",
+        "At $9.20 with January delivery, both sides beat the $9.50 deal by $600."
+      ],
+      "breakdown": [
+        {
+          "value": "$1,200",
+          "label": "New value created",
+          "detail": "$0.60 saved × 2,000 planters",
+          "highlight": true
+        },
+        {
+          "value": "+$600",
+          "label": "Store gains",
+          "detail": "Pays $9.20 instead of $9.50",
+          "highlight": false
+        },
+        {
+          "value": "+$600",
+          "label": "Distributor gains",
+          "detail": "$9.20 plus $0.60 saved beats $9.50",
+          "highlight": false
+        }
+      ],
+      "softwareNote": "Software deals hide the same kind of value. A vendor may value cash up front or a public case study more than a higher price. A buyer may value a locked-in rate for budget planning. An annual prepay at a small discount can leave both better off."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Expanding the pie",
+      "body": [
+        "**Expanding the pie** means creating extra value in a deal before you divide it. You do it by trading things the two sides value differently.",
+        "January delivery cost the store almost nothing and saved the distributor real money. That difference was the whole opportunity.",
+        "The mistake is the **fixed-pie assumption**: believing that anything the other side gains, you must lose."
+      ],
+      "image": {
+        "label": "A small pie growing into a larger pie before being sliced",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 왼쪽: 작은 파이가 반으로 잘린 그림, 라벨 \"Split the difference\". 오른쪽: 화살표를 따라 커진 파이가 잘린 그림, 라벨 \"Trade differences, then split\". 커진 부분에 \"January delivery\" 라벨.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Why we miss it",
+      "title": "Most people assume the pie is fixed.",
+      "body": [
+        "In a 1990 study, psychologists Leigh Thompson and Reid Hastie found that many negotiators assumed the other side wanted exactly the opposite of what they wanted. Often it wasn't true. Their interests overlapped, or one side barely cared about an issue the other cared about a lot.",
+        "Value usually hides in differences like these:"
+      ],
+      "list": [
+        "**Timing:** who needs it sooner or later",
+        "**Volume:** who gains from bigger or steadier orders",
+        "**Risk:** who can carry uncertainty more cheaply",
+        "**Payment:** who needs cash now, who can wait"
+      ],
+      "callout": "Price is just one term. The more terms on the table, the more room to trade."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A bigger pie still gets sliced.",
+      "body": [
+        "Creating value doesn't end the bargaining. Someone still decides who gets the extra $1,200. If you reveal everything you value and the other side reveals nothing, they can claim most of it.",
+        "Extra terms also add complexity. A deal with ten moving parts is harder to check and easier to get wrong.",
+        "And the trick only works when real differences exist. If both sides truly care only about price, there's nothing to trade."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a freight contract.",
+      "illustrative": true,
+      "body": [
+        "You make furniture and ship one truckload a week. A freight company quotes $1,500 per load. You want $1,200. In passing, their manager mentions that their trucks often sit idle on Tuesdays.",
+        "What do you propose?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Commit to a fixed Tuesday pickup every week for a lower rate",
+            "verdict": "best",
+            "feedback": "You fill their quiet day and give them steady work, which may cost you little if Tuesday suits your production. Both sides gain before you even discuss the split."
+          },
+          {
+            "key": "B",
+            "text": "Say you have other quotes and push for $1,200",
+            "verdict": "risky",
+            "feedback": "A real alternative helps. But leading with pressure ignores the value their idle Tuesdays could create and may sour a long relationship."
+          },
+          {
+            "key": "C",
+            "text": "Settle at $1,350, halfway between",
+            "verdict": "partial",
+            "feedback": "Quick and fair-looking. It divides the current pie but leaves the Tuesday opportunity untouched."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Grow the pie before you split it.",
+      "body": [
+        "When a deal stalls on price, ask what each side values differently. Trade those differences first, then divide what you've created.",
+        "**Try it today:** pick one supplier or customer deal. List three terms besides price that might matter more to them than to you."
+      ],
+      "next": "Next · Negotiate a shop's rent"
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "id": "BMO-03-01",
+  "unitId": "BMO-03",
+  "categoryId": "BMO",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Razors and blades",
+  "readerTitle": "Why the pitcher is cheap and the filters are not",
+  "format": "two_businesses",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (정수기 피처 유통사 두 곳, 카드 단말기 스타트업) + 실제 연구 (Picker의 Gillette 분석) · 가상 수치는 설명용",
+  "insight": "기본 제품의 가격은 그 자체로 손익을 따지는 숫자가 아니라, 반복 구매 고객을 얻는 비용이다. 반복 구매가 나에게 돌아올 때만 성립한다.",
+  "misconception": "기본 제품을 싸게 팔고 소모품을 비싸게 받으면 저절로 돈이 된다. 또는 원가 이하로 파는 제품은 무조건 손해다.",
+  "relatedLessonIds": [
+    "BMO-03-05",
+    "BMO-03-09"
+  ],
+  "sources": [
+    {
+      "text": "Picker, R. C. (2011). The Razors-and-Blades Myth(s). University of Chicago Law Review, 78(1), 225–255.",
+      "url": null
+    },
+    {
+      "text": "정수기 피처와 카드 단말기 사례의 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "계산 확인: 플랜 A 피처 $15 − 원가 $18 = −$3, 필터 $9 − $2 = $7. 플랜 B 피처 $30 − $18 = +$12, 필터 $4 − $2 = $2. 필터 2개: A = −3 + 14 = $11, B = 12 + 4 = $16. 필터 12개(2년): A = −3 + 84 = $81, B = 12 + 24 = $36. 손익 분기: 7n − 3 = 12 + 2n → n = 3. 필터 4개부터 A가 유리.",
+      "status": "open"
+    },
+    {
+      "note": "Picker(2011)의 결론 확인 필요: Gillette 특허 기간(약 1904~1921년)에는 면도기를 비교적 높은 가격에 팔았고, 면도기 가격을 크게 낮춘 것은 특허 만료(1921년) 이후였다는 내용. 카드 문장은 일반적인 수준으로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "게임 콘솔이 원가 근처나 이하로 팔린 적이 많다는 내용은 일반적 서술로만 사용. 특정 기종이나 수치는 넣지 않았습니다. 사무실 커피 머신 무상 설치 모델도 일반적 관행으로만 서술.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business models · Two businesses",
+      "title": "Why the pitcher is cheap and the filters are not",
+      "illustrative": true,
+      "body": [
+        "Two distributors sell the same water filter pitcher to the same shops. One sells it below what it costs to make. The other makes a healthy profit on every pitcher.",
+        "Two years later, the one losing money on pitchers has earned more than twice as much per customer. In a different town, it would have lost."
+      ],
+      "image": {
+        "label": "A water pitcher on one side of a scale, a stack of filter cartridges on the other",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 저울 왼쪽에 정수기 피처 하나, 오른쪽에 필터 카트리지가 높이 쌓여 있고 오른쪽이 아래로 기울어 있음. 실제 브랜드 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/bmo-03-01-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How would you price it?",
+      "illustrative": true,
+      "body": [
+        "Each pitcher costs you $18 to make. Each filter cartridge costs $2 and lasts about two months.",
+        "Plan A: pitcher $15, cartridges $9. Plan B: pitcher $30, cartridges $4. Which plan earns more per customer?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Plan A. Cheap pitchers win more customers, and cartridges pay it back",
+            "verdict": "neutral",
+            "feedback": "You gain customers and a big margin on every refill, but you start each customer $3 in the hole and need them to keep coming back."
+          },
+          {
+            "key": "B",
+            "text": "Plan B. Earn your profit up front, on every sale",
+            "verdict": "neutral",
+            "feedback": "You're safe even if a customer never buys a refill, but you give up most of the money from loyal, long-term users."
+          },
+          {
+            "key": "C",
+            "text": "Mix them: pitcher $22, cartridges $6",
+            "verdict": "neutral",
+            "feedback": "A middle path limits the risk of each plan, and also limits the upside of each."
+          }
+        ],
+        "afterReveal": "There is no single answer. It depends on one thing: how many cartridges each customer buys from you."
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "Two outcomes",
+      "title": "Same plans, different customers.",
+      "illustrative": true,
+      "body": [
+        "Plan A loses $3 on the pitcher and keeps $7 per cartridge. Plan B keeps $12 on the pitcher and $2 per cartridge. Here is profit per customer."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Customer buys 2 cartridges",
+            "rows": [
+              {
+                "label": "Plan A: cheap pitcher",
+                "value": 11,
+                "highlight": false
+              },
+              {
+                "label": "Plan B: pricey pitcher",
+                "value": 16,
+                "highlight": true
+              }
+            ]
+          },
+          {
+            "label": "Customer buys 12 cartridges (2 years)",
+            "rows": [
+              {
+                "label": "Plan A: cheap pitcher",
+                "value": 81,
+                "highlight": true
+              },
+              {
+                "label": "Plan B: pricey pitcher",
+                "value": 36,
+                "highlight": false
+              }
+            ]
+          }
+        ]
+      },
+      "callout": "From the fourth cartridge on, Plan A pulls ahead.",
+      "image": {
+        "label": "Cheap pitcher loses early, wins over two years",
+        "aspectRatio": "4:3",
+        "brief": "2 cartridges pricey $16 vs cheap $11; 12 cartridges cheap $81 vs pricey $36.",
+        "url": "assets/images/bmo-03-01-info.png"
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Razors and blades",
+      "body": [
+        "**Razors and blades** is a model where you sell the base item cheaply, sometimes below cost, and earn your profit on the refills customers buy again and again.",
+        "The name comes from shaving: a cheap handle, then years of paid blades. The key shift is how you see the base item. Its low price is not a loss on a sale. It is the cost of **winning a stream of future purchases**."
+      ],
+      "image": {
+        "label": "A cheap handle followed by a long line of refill packs over time",
+        "aspectRatio": "16:9",
+        "brief": "가로 타임라인 인포그래픽. 왼쪽 끝에 작은 \"−$3\" 라벨이 붙은 손잡이, 오른쪽으로 \"+$7\" 라벨이 붙은 리필 팩이 여러 개 이어짐. 끝에 누적 금액 막대가 올라감. 로고 없음.",
+        "url": "assets/images/bmo-03-01-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "Even the famous story is more complicated.",
+      "body": [
+        "Gillette is the classic example. But legal scholar Randal Picker went back to the old records. He found that while Gillette's razor patents lasted, its razor was not cheap at all.",
+        "Low razor prices became common after the patent ran out in 1921, when other firms could sell razors and compete for the blades too.",
+        "The lesson: the model depends less on a clever price than on what keeps the blade money coming to you."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where else it shows up",
+      "title": "Base item cheap, repeat item paid.",
+      "body": [
+        "Video game consoles have often been sold near or below cost, with money made on games. Some coffee suppliers place machines in offices for free and sell the beans. Many equipment makers earn steady money from parts and servicing.",
+        "The shape is always the same: a one-time purchase that creates a need for many later purchases."
+      ],
+      "softwareNote": "A company may sell a device or setup cheaply, then charge a monthly subscription or a fee on every transaction. The device is the handle. The recurring fee is the blade."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The refills must come back to you.",
+      "body": [
+        "If a cheaper compatible cartridge appears, your customers keep your money-losing pitcher and buy their refills elsewhere. You funded a rival's customer.",
+        "It also fails if customers stop using the product, or if they notice the total cost and feel tricked. People who resent the refill price tell others.",
+        "So ask first: what makes them buy *my* refill, for years, and feel fine about it?"
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a payments startup.",
+      "illustrative": true,
+      "body": [
+        "You sell card readers to small shops. Each reader costs you $40. You plan to sell it for $10 and earn a small fee on every card payment.",
+        "What should you check first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Whether shops can easily use the reader with a rival's payment service",
+            "verdict": "best",
+            "feedback": "This decides everything. If shops can keep your $10 reader and route payments elsewhere, the fees, your blades, never arrive."
+          },
+          {
+            "key": "B",
+            "text": "How to cut the reader's cost from $40 to $25",
+            "verdict": "partial",
+            "feedback": "A cheaper reader shrinks the loss per shop, but it doesn't tell you whether the payment fees will ever pay it back."
+          },
+          {
+            "key": "C",
+            "text": "A higher fee per payment, to recover the $30 loss fast",
+            "verdict": "risky",
+            "feedback": "You'd recover the loss sooner from loyal shops, but a high fee gives every shop a reason to switch before you do."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "Here the blade is digital: a fee on each payment. Card readers are the handle."
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A cheap base item is only worth it if the refills come back to you.",
+      "body": [
+        "Judge the base price by the repeat purchases it brings, and by what keeps those purchases yours.",
+        "**Try it today:** find one product you sell that leads to repeat purchases. Count how many follow, on average, and how many go to someone else."
+      ],
+      "next": "Next · How giving it away for free can still be a business"
+    }
+  ]
+}

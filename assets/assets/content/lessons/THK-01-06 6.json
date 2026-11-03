@@ -1,0 +1,204 @@
+{
+  "id": "THK-01-06",
+  "unitId": "THK-01",
+  "categoryId": "THK",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "The map is not the territory",
+  "readerTitle": "The report says one thing. The floor says another.",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.2,
+  "caseKinds": [
+    "illustrative",
+    "real_company"
+  ],
+  "caseNote": "가상 사례 (레스토랑 좌석, 사내 제품팀 대시보드) + 실제 기업 관행 (Toyota의 현지현물) + 개념 출처 (Korzybski)",
+  "insight": "보고서, 계획, 대시보드는 사업 그 자체가 아니라 사업을 줄여 그린 지도다. 지도와 현장이 어긋날 때는 현장이 맞다.",
+  "misconception": "데이터가 많고 정교할수록 현장을 직접 볼 필요가 줄어든다.",
+  "relatedLessonIds": [
+    "THK-06-05",
+    "THK-08-02"
+  ],
+  "sources": [
+    {
+      "text": "Korzybski, A. (1933). Science and Sanity. 'A map is not the territory' 표현의 출처",
+      "url": null
+    },
+    {
+      "text": "Liker, J. (2004). The Toyota Way. 현지현물(genchi genbutsu, 직접 가서 보기) 원칙",
+      "url": null
+    },
+    {
+      "text": "레스토랑과 제품팀 사례는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Korzybski가 이 표현을 처음 쓴 시점은 1931년 학회 발표, 1933년 저서 출간으로 알려져 있습니다. 카드에는 'in the early 1930s'로만 적었습니다. 게시 전 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Toyota의 genchi genbutsu를 'go and see for yourself'로 옮겼습니다. The Toyota Way 원문 표현과 맞는지 확인하세요. 구체 수치나 일화는 넣지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "가상 수치 확인: 좌석 60석 중 6석이 기피석이면 실제 54석. 온보딩 완료율 92%는 설명용 가상 수치입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Everyday scene",
+      "title": "The spreadsheet said 60 seats. Guests knew it had 54.",
+      "illustrative": true,
+      "body": [
+        "A restaurant's booking plan counts 60 seats. On paper, Friday is full at 60.",
+        "But six of those seats sit next to the kitchen door. Regulars ask to move. New guests sit, wince, and leave early. The plan was accurate. It just wasn't the restaurant."
+      ],
+      "image": {
+        "label": "Floor plan with 60 seats, six near the kitchen door shaded",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 일러스트. 왼쪽은 깔끔한 좌석 배치도(60석), 오른쪽은 같은 공간의 실제 장면. 주방 문 옆 6석은 배치도에선 평범하지만 실제 장면에선 김이 나오고 직원이 오가며 손님이 불편해함. 실제 상호나 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "The dashboard is green. Support is not.",
+      "illustrative": true,
+      "body": [
+        "You lead a product team inside a larger software company. Your dashboard says 92% of new users complete onboarding, the best number all year.",
+        "Yet support tickets about setup problems keep rising. You have one week before the quarterly review. What do you do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Trust the dashboard. It covers thousands of users, while tickets come from a vocal few",
+            "verdict": "risky",
+            "feedback": "Big numbers feel safer than a handful of complaints. But if the dashboard measures the wrong thing, more data just repeats the same mistake."
+          },
+          {
+            "key": "B",
+            "text": "Sit with five new customers and watch them set up the product",
+            "verdict": "best",
+            "feedback": "It costs a few hours and proves nothing statistically. But it shows you what the number actually counts, which no amount of charts can."
+          },
+          {
+            "key": "C",
+            "text": "Add more tracking events so the dashboard shows each setup step",
+            "verdict": "partial",
+            "feedback": "A more detailed map can help later. But you'd still be building it without knowing what the old one missed."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What they found",
+      "title": "\"Completed\" meant \"clicked the last screen.\"",
+      "illustrative": true,
+      "body": [
+        "Watching real customers, the team saw it within an hour. Many people got stuck, hit **Skip**, and landed on the final screen. The dashboard counted them as done.",
+        "The number measured a click. What the team cared about was people actually getting set up. The map and the ground had drifted apart, and nobody noticed, because everyone was looking at the map."
+      ],
+      "image": {
+        "label": "A green dashboard next to a frustrated customer clicking Skip",
+        "aspectRatio": "16:9",
+        "brief": "화면 분할. 왼쪽은 초록색 '92% Completed' 대시보드, 오른쪽은 노트북 앞에서 막혀 'Skip' 버튼을 누르는 사용자. 두 화면 사이에 작은 틈. 실제 소프트웨어 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The map is not the territory",
+      "body": [
+        "The philosopher Alfred Korzybski put it this way in the early 1930s: **a map is not the territory it represents**.",
+        "In business, maps are everywhere: budgets, forecasts, dashboards, org charts, floor plans, even your own picture of who your customers are. They are useful *because* they leave things out. A map as detailed as the land would be useless.",
+        "The danger starts when you forget you're holding a map."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Three ways maps drift from the ground.",
+      "body": [
+        "Every map simplifies. Most errors come from one of three gaps:"
+      ],
+      "list": [
+        "**It leaves things out:** 60 seats, but not which ones guests avoid",
+        "**It goes stale:** drawn last year, used today",
+        "**It records what's easy to count:** clicks, not whether setup worked"
+      ],
+      "callout": "Toyota built a habit around this: *genchi genbutsu*, or \"go and see for yourself,\" before deciding."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Don't throw the map away.",
+      "body": [
+        "Walking the floor is slow and expensive, and what you see in one visit can be a fluke. Five customers can mislead you too.",
+        "The goal isn't to replace reports with gut feel. It's to treat each report as a claim about reality, and check it now and then, especially when it disagrees with what people on the ground are saying. Use the map to decide where to look, and the territory to decide whether the map still holds."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's table 12.",
+      "illustrative": true,
+      "body": [
+        "You own a busy restaurant. Your booking system, based on months of data, says table 12 can seat two parties every Friday night.",
+        "But Friday after Friday, table 12's second party waits 20 minutes. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Add 15 minutes to every booking slot in the restaurant",
+            "verdict": "partial",
+            "feedback": "It will likely ease the wait at table 12. But you'd give up capacity at every table to fix a problem you haven't seen yet."
+          },
+          {
+            "key": "B",
+            "text": "Work a Friday shift on the floor and watch table 12 before changing anything",
+            "verdict": "best",
+            "feedback": "One evening costs little, and you may learn the real cause, like a draft, a slow section, or guests who linger by the window."
+          },
+          {
+            "key": "C",
+            "text": "Keep the plan, since the data is solid, and ask staff to turn tables faster",
+            "verdict": "risky",
+            "feedback": "It respects months of data. But it assumes the map is right and the people living the territory are wrong."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Every report is a picture of the business, not the business.",
+      "body": [
+        "When the numbers and the people on the ground disagree, go look before you decide.",
+        "**Try it today:** pick one number you check every week. This week, go see the thing it measures with your own eyes, and note one thing the number doesn't show."
+      ],
+      "next": "Next · Should a café add delivery?"
+    }
+  ]
+}

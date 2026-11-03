@@ -1,0 +1,244 @@
+{
+  "id": "CUS-07-06",
+  "unitId": "CUS-07",
+  "categoryId": "CUS",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "The aha moment",
+  "readerTitle": "The trial that sold itself on day 14",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.4,
+  "caseKinds": [
+    "illustrative",
+    "anecdote"
+  ],
+  "caseNote": "가상 사례 (재사용 운송 상자 제조사, 청구서 앱) + 널리 전해지는 일화 (Facebook 초기 성장팀) · 수치는 모두 설명용",
+  "insight": "고객이 계속 쓸지는 가입이나 첫 구매가 아니라 가치를 처음 직접 느끼는 순간에 정해진다. 그러니 그 순간까지 가는 길을 짧게 만드는 게 기능을 더하는 것보다 효과가 크다.",
+  "misconception": "체험 물량을 늘리거나 기능을 더 많이 보여주면 전환율이 오른다.",
+  "relatedLessonIds": [
+    "CUS-03-03",
+    "CUS-05-02"
+  ],
+  "sources": [
+    {
+      "text": "상자 제조사와 청구서 앱 사례, 모든 수치는 설명용 가상 예시",
+      "url": null
+    },
+    {
+      "text": "Facebook 초기 성장팀의 \"10일 안에 친구 7명\" 목표는 Chamath Palihapitiya의 강연 등에서 널리 인용되는 일화",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "계산 확인: 체험 고객 200곳 중 반환 루프 완료 80곳 → 재주문 48곳(60%), 미완료 120곳 → 재주문 12곳(10%), 합계 60곳 = 30%. 체험 규모별: 100상자 체험 100곳 중 29곳(29%), 500상자 체험 100곳 중 31곳(31%), 합계 60곳으로 위 수치와 일치.",
+      "status": "open"
+    },
+    {
+      "note": "Facebook \"10일 안에 친구 7명\"은 출처마다 표현이 조금씩 다르고 사후에 단순화된 이야기일 수 있습니다. 카드에는 \"reportedly\"와 \"simplified\"로 일화임을 밝혔습니다. 게시 전에 원 강연 출처를 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Numbers twist",
+      "title": "The trial that sold itself on day 14",
+      "illustrative": true,
+      "body": [
+        "A maker of reusable plastic shipping crates gives distributors free trial batches. Some get 100 crates. Some get 500.",
+        "Bigger trials should win more orders. They didn't. What predicted a reorder had nothing to do with how many crates arrived."
+      ],
+      "image": {
+        "label": "Stacked reusable crates on a loading dock, one stack returning on a truck",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 물류 창고 하역장에 접이식 플라스틱 운송 상자가 쌓여 있고, 트럭 한 대가 상자를 싣고 돌아오는 장면. 돌아오는 상자 위에 작은 체크 표시. 실제 브랜드 로고는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Only 30% of trials turn into orders.",
+      "illustrative": true,
+      "body": [
+        "You run sales at the crate maker. A distributor's trial lasts 30 days. Crates only save money when they go out to a store and come back to be used again.",
+        "You have budget for one change. Which do you pick?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Make every trial 500 crates so customers see the full scale",
+            "verdict": "risky",
+            "feedback": "Bigger trials cost more to ship and feel generous. But more crates sitting in a warehouse don't show anyone the savings."
+          },
+          {
+            "key": "B",
+            "text": "Send a detailed brochure on durability and cost savings",
+            "verdict": "partial",
+            "feedback": "It explains the value clearly. Reading about savings is weaker than watching your own crates come back."
+          },
+          {
+            "key": "C",
+            "text": "Help each customer send one batch out and get it back within two weeks",
+            "verdict": "best",
+            "feedback": "This aims straight at the moment the value becomes real. It costs staff time, which is the trade-off."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "One full loop beat five times the crates.",
+      "illustrative": true,
+      "body": [
+        "Of 200 trial customers, 80 completed a return loop in 30 days. Trial size barely mattered: 29% versus 31%. Whether crates came back mattered six times as much."
+      ],
+      "chart": {
+        "unit": "%",
+        "groups": [
+          {
+            "label": "Reordered, by what happened in the trial",
+            "rows": [
+              {
+                "label": "Crates went out and came back",
+                "value": 60,
+                "highlight": true
+              },
+              {
+                "label": "Crates never completed a loop",
+                "value": 10,
+                "highlight": false
+              }
+            ]
+          },
+          {
+            "label": "Reordered, by trial size",
+            "rows": [
+              {
+                "label": "100 crates",
+                "value": 29,
+                "highlight": false
+              },
+              {
+                "label": "500 crates",
+                "value": 31,
+                "highlight": false
+              }
+            ]
+          }
+        ]
+      },
+      "image": {
+        "label": "One full loop beat five times the crates.",
+        "aspectRatio": "4:3",
+        "brief": "Labeled HTML chart from the lesson numbers",
+        "url": "assets/images/cus-07-06-chart.png"
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The aha moment",
+      "body": [
+        "The **aha moment** is the first time a customer personally feels the value they paid for. Not when they sign up. Not when the box arrives. When the product does its job for them.",
+        "For the crate maker, it's the day a batch comes back clean and ready to ship again, and the customer realizes they didn't buy cardboard this week.",
+        "Customers who reach it tend to stay. Customers who don't tend to drift away quietly."
+      ],
+      "image": {
+        "label": "A customer timeline with sign-up, delivery and the aha moment marked",
+        "aspectRatio": "16:9",
+        "brief": "가로 타임라인 인포그래픽. 왼쪽부터 \"Sign up\", \"Delivery\", \"First use\", 그리고 크게 강조된 \"Aha: crates come back\". 그 뒤로 \"Reorder\"로 이어지는 굵은 선. 아하 지점 이전에 이탈하는 점선 화살표 몇 개.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How to find it",
+      "title": "Compare customers who stayed with those who left.",
+      "body": [
+        "Look at what stayers did early that leavers didn't. Pick an action that is the value itself, not a sign of curiosity.",
+        "Facebook's early growth team reportedly found that new users who connected with about seven friends in their first ten days usually stayed. The story is often simplified, but the method is the point: find the moment, then remove everything between a new customer and that moment."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond crates",
+      "title": "Every business has one, and it's rarely day one.",
+      "list": [
+        "**A gym:** the first week a member notices they feel stronger, not the day they get a key card",
+        "**An accounting firm:** the first monthly report that answers a question the owner had",
+        "**A meal kit:** the first dinner cooked in under 30 minutes that the family actually liked"
+      ],
+      "callout": "Ask: what does the customer need to experience, not receive?"
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The moment can be a symptom, not a cause.",
+      "body": [
+        "Customers who completed a loop may simply have been the motivated ones. Pushing reluctant customers through it won't automatically make them reorder.",
+        "Test it. Give half your new trials hands-on help to reach the moment, and compare their results to the other half.",
+        "And avoid shallow stand-ins like \"logged in three times.\" Those are easy to boost without anyone feeling more value."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's an invoicing app.",
+      "illustrative": true,
+      "body": [
+        "Freelancers sign up for your app to get paid faster. Many create an account, look around and never come back.",
+        "Where should you steer every new user in their first session?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "A guided tour of all twelve features",
+            "verdict": "risky",
+            "feedback": "Users see everything the app can do. They still haven't felt any of it, and the tour delays the moment that counts."
+          },
+          {
+            "key": "B",
+            "text": "Completing their profile and uploading a logo",
+            "verdict": "partial",
+            "feedback": "It makes invoices look professional and feels like progress. But a polished profile doesn't put money in anyone's account."
+          },
+          {
+            "key": "C",
+            "text": "Sending a real invoice to a real client, then showing when it's paid",
+            "verdict": "best",
+            "feedback": "Getting paid is the value. Skipping setup steps to get there faster may mean plainer first invoices, which is a fair trade."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Shorten the road to the moment value becomes real.",
+      "body": [
+        "Customers decide whether to stay after they feel the value, not after they buy. More features or bigger trials rarely help if they don't get people there sooner.",
+        "**Try it today:** write down the moment your customers first feel your product working. Then list every step between sign-up and that moment, and cross out one."
+      ],
+      "next": "Next · Five customer requests, and room to build only two"
+    }
+  ]
+}

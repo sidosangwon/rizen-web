@@ -1,0 +1,224 @@
+{
+  "id": "ECO-06-07",
+  "unitId": "ECO-06",
+  "categoryId": "ECO",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "Price a new candle brand",
+  "readerTitle": "Three numbers on the table: pricing a new candle",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.2,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (생활용품 회사 안의 신규 캔들 브랜드 팀, 기프트숍 체인 바이어) · 모든 수치는 설명용",
+  "insight": "원가는 바닥, 경쟁 제품은 기준점, 고객 가치는 천장. 가격은 하나의 공식이 아니라 세 숫자가 각자 맡은 역할을 함께 보고 정한다.",
+  "misconception": "원가에 정해진 마진을 붙이면 '공정하고 안전한' 가격이 나온다.",
+  "relatedLessonIds": [
+    "ECO-06-01",
+    "ECO-06-02"
+  ],
+  "sources": [
+    {
+      "text": "가격 전략의 표준 개념 (원가 기반, 경쟁 기반, 가치 기반 가격)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 설명용 가상 수치입니다. 계산: 소매가 $24 → 도매가 $12(소매점이 판매가의 절반을 가져간다는 가정) − 제조원가 $6 = 브랜드 몫 $6. 소매가 $32 → 도매가 $16 − $6 = $10. 10 ÷ 6 ≈ 1.67배.",
+      "status": "open"
+    },
+    {
+      "note": "'소매점이 도매가의 약 두 배로 판다'는 가정은 여러 소매 업종의 흔한 관행으로만 설명했고, 특정 비율을 업계 통계로 제시하지 않았습니다. 카드에도 'in this example'로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "5번 카드의 선물 고객 테스트 결과는 가상 사례입니다. 실제 연구나 통계로 읽히지 않도록 구체적 비율을 쓰지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Pricing · Apply",
+      "title": "Three numbers on the table: pricing a new candle",
+      "illustrative": true,
+      "body": [
+        "A home-goods company gives a small team one job: launch a candle brand and sell it through gift-shop chains.",
+        "Three numbers land on the table. Each candle costs **$6** to make. Similar candles on the shelf sell for $18 to $40. And finance has already filled in a price: $24.",
+        "Which number should decide?"
+      ],
+      "image": {
+        "label": "Three sticky notes beside a candle: $6, $18–$40, $24",
+        "aspectRatio": "4:3",
+        "brief": "회의 테이블 위에 유리병 캔들 하나. 옆에 포스트잇 세 장: \"Cost $6\", \"Shelf $18–$40\", \"Finance $24\". 따뜻한 조명, 3D 클레이 스타일. 실제 브랜드 로고나 상표 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How do you set the shelf price?",
+      "illustrative": true,
+      "body": [
+        "You lead the launch team. The candle has a hand-poured look and comes in a gift box. Most early buyers say they would give it as a present.",
+        "Finance wants a decision this week."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Use finance's $24: double the cost to sell to stores, and stores double it again",
+            "verdict": "partial",
+            "feedback": "That's **cost-plus pricing**. It guarantees you never sell below cost, but it ignores what gift buyers would pay, so it can leave money on the table."
+          },
+          {
+            "key": "B",
+            "text": "Price at $28, the middle of the shelf",
+            "verdict": "partial",
+            "feedback": "That's **competitor-based pricing**. It keeps you from looking strange, but the middle of the shelf is an average, not your customer."
+          },
+          {
+            "key": "C",
+            "text": "Start with what gift buyers would pay, then check it against cost and the shelf",
+            "verdict": "best",
+            "feedback": "That's **value-based pricing**, with cost as the floor and competitors as a reality check. It takes more work, but each number does its own job."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Where a $24 candle's money goes.",
+      "illustrative": true,
+      "body": [
+        "In this example, the store keeps half of what the shopper pays. So the team's share is small: **$6** per candle to pay for marketing, salaries and profit."
+      ],
+      "breakdown": [
+        {
+          "value": "$24",
+          "label": "Shelf price",
+          "detail": "What the shopper pays",
+          "highlight": false
+        },
+        {
+          "value": "−$12",
+          "label": "Store's share",
+          "detail": "The store buys at $12",
+          "highlight": false
+        },
+        {
+          "value": "−$6",
+          "label": "Making it",
+          "detail": "Wax, jar, wick, scent, box",
+          "highlight": false
+        },
+        {
+          "value": "$6",
+          "label": "Left for the brand",
+          "detail": "Before marketing and team costs",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Putting it together",
+      "title": "Three numbers, three different jobs.",
+      "body": [
+        "**Cost** is the floor. Below $6 to make, plus the store's share, every sale loses money. It tells you where not to go, not where to stop.",
+        "**The shelf** is the reference. Shoppers compare you with the candles beside you.",
+        "**Value to the buyer** is the ceiling. A gift has to look generous, so gift buyers often care less about a few dollars."
+      ],
+      "image": {
+        "label": "A price range: floor, reference band, ceiling",
+        "aspectRatio": "16:9",
+        "brief": "세로 눈금자 인포그래픽. 아래쪽 \"Floor: cost\", 가운데 띠 \"Reference: the shelf\", 위쪽 \"Ceiling: value to the buyer\". 가격이 이 범위 안 어디에 놓일지 화살표로 표시.",
+        "url": null
+      },
+      "softwareNote": "A new app works the same way. Server costs set a low floor, rival apps set the reference, and the time or money it saves a customer sets the ceiling. Because the floor is so low, cost-plus thinking often underprices software badly."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "What the team found",
+      "title": "Gift buyers didn't flinch at $32.",
+      "illustrative": true,
+      "body": [
+        "The team put the boxed candle on a test shelf with gift candles at $30 to $40. At $32, shoppers picked it about as often as at $24.",
+        "At $32, the store buys at $16. The brand keeps **$10** per candle instead of $6, about two-thirds more, from the same wax and the same jar.",
+        "Cost-plus would never have found that $4. It only looks down at the floor."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The ceiling only holds if everything says \"gift.\"",
+      "body": [
+        "Value isn't fixed. It depends on the box, the scent, the label and where the candle sits. Put a $32 candle in a plain wrapper and shoppers see a pricey everyday candle.",
+        "The store also matters. Its staff and shelf choices shape what your candle is compared with.",
+        "And launch prices stick. Starting high is easier than raising prices later, but only if the product earns it."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · the retail side",
+      "title": "The buyer offers two shelves.",
+      "illustrative": true,
+      "body": [
+        "A gift-shop chain's buyer likes the candle. She offers a spot in the everyday home aisle, next to $18 candles, or a smaller spot in the gift section, next to $35 boxed sets.",
+        "Which do you choose?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Everyday aisle, priced at $24 to move more units",
+            "verdict": "partial",
+            "feedback": "You'd sell more, but you'd keep $6 a candle instead of $10 and train shoppers to see it as an everyday item."
+          },
+          {
+            "key": "B",
+            "text": "Gift section, boxed, at $32",
+            "verdict": "best",
+            "feedback": "The neighbors make $32 look fair, which is **competitor-based pricing** working for you, and gift buyers are the ones who value it most."
+          },
+          {
+            "key": "C",
+            "text": "Everyday aisle, still at $32",
+            "verdict": "risky",
+            "feedback": "Next to $18 candles, $32 looks overpriced. The shelf reference works against the value you built."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Let each number do its own job.",
+      "body": [
+        "This lesson used three pricing ideas together: **cost-plus** set the floor, **competitor-based** pricing set the reference, and **value-based** pricing found the ceiling.",
+        "**Try it today:** pick one product. Write its floor, its closest shelf neighbors, and what its best customer would pay. Where does your current price sit?"
+      ],
+      "next": "Next · Price a consulting service"
+    }
+  ]
+}

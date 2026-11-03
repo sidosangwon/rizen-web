@@ -1,0 +1,268 @@
+{
+  "id": "FIN-01-10",
+  "unitId": "FIN-01",
+  "categoryId": "FIN",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Read a startup's numbers",
+  "readerTitle": "Your friend's startup grew almost 4x. Read the numbers before you invest.",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (앱으로 주간 식단을 파는 밀프렙 스타트업) · 모든 수치는 설명용",
+  "insight": "매출 성장이라는 헤드라인 하나가 아니라 손익계산서, 현금흐름표, 재무상태표를 차례로 읽어야 사업의 실제 모습이 보인다.",
+  "misconception": "매출이 빠르게 늘고 통장에 돈이 있으면 사업은 괜찮다.",
+  "relatedLessonIds": [
+    "FIN-01-04",
+    "FIN-02-06"
+  ],
+  "sources": [
+    {
+      "text": "재무회계의 표준 개념 (손익계산서, 현금흐름표, 재무상태표, 매출총이익률과 순이익률)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "손익: 매출 $30,000 − 식자재·포장·배달 $18,000 = 매출총이익 $12,000(40%). $12,000 − 임대료·인건비·앱·마케팅 $15,000 = 순손실 $3,000(−10%).",
+      "status": "open"
+    },
+    {
+      "note": "현금: 순손실 $3,000 + 장비 구입 $9,000 = 현금 감소 $12,000. 단순화를 위해 감가상각과 기타 운전자본 변동은 무시했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "런웨이: $25,000 − 공급업체 대금 $6,000 − 대출 상환 $8,000 = $11,000 ÷ 월 $3,000 ≈ 3.7개월(4개월 미만). 공급업체 대금만 뺀 경우 $19,000 ÷ $3,000 ≈ 6.3개월. 단순 계산 $25,000 ÷ $3,000 ≈ 8.3개월.",
+      "status": "open"
+    },
+    {
+      "note": "투자 여부에 대한 법률·세무 조언이 아니라 재무제표 읽기 연습으로만 다룹니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Simulation",
+      "title": "Your friend's startup grew almost 4x. Read the numbers before you invest.",
+      "illustrative": true,
+      "body": [
+        "Your friend Dana runs a meal-prep startup. She cooks healthy lunches in a rented kitchen and sells weekly plans through her own app.",
+        "She asks you to invest $20,000. Her pitch has one big number: monthly revenue up from $8,000 to $30,000 in six months. You have four questions to ask. Choose well."
+      ],
+      "image": {
+        "label": "A pitch slide with a steep revenue line next to lunch boxes",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 주방 테이블 위에 도시락 상자들과 노트북. 노트북 화면에 가파르게 오르는 매출 그래프와 \"$8,000 → $30,000\" 문구. 실제 브랜드 로고는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 4",
+      "title": "What do you ask first?",
+      "illustrative": true,
+      "body": [
+        "Revenue is clearly growing. Dana is excited and wants an answer this week."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "How fast can it keep growing?",
+            "verdict": "risky",
+            "feedback": "You hear an exciting forecast, but you still don't know if each sale makes or loses money. Growth multiplies whatever is underneath it."
+          },
+          {
+            "key": "B",
+            "text": "What's left after costs? Show me last month's income statement.",
+            "verdict": "best",
+            "feedback": "Revenue is what customers pay. Profit is what stays. Asking for the income statement turns one headline into the full story of the month."
+          },
+          {
+            "key": "C",
+            "text": "How many people downloaded the app?",
+            "verdict": "partial",
+            "feedback": "Downloads show interest, not money. Useful later, but they can rise while the business loses more."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 4",
+      "title": "The margin is shrinking.",
+      "illustrative": true,
+      "body": [
+        "Say you chose B. Last month: revenue $30,000. Food, packaging and delivery $18,000, so **gross profit** is $12,000, or 40%. Rent, staff, app and marketing cost $15,000. Net loss: $3,000.",
+        "Dana adds: \"Six months ago our gross margin was 50%. Bigger volume will fix the loss.\" What do you ask?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Fair. More orders spread the rent and staff costs",
+            "verdict": "partial",
+            "feedback": "Rent does spread out. But if each order keeps leaving less, more orders won't close the gap as fast as she hopes."
+          },
+          {
+            "key": "B",
+            "text": "Why does each order leave less than it used to?",
+            "verdict": "best",
+            "feedback": "She admits growth came from free delivery on every plan. Food costs haven't changed, but delivery now eats a bigger slice. Part of the growth was bought with margin."
+          },
+          {
+            "key": "C",
+            "text": "Cut marketing so the next month shows a profit",
+            "verdict": "risky",
+            "feedback": "The loss vanishes on paper for a month, and so does the growth. The shrinking margin is still there."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 4",
+      "title": "The bank fell faster than the loss.",
+      "illustrative": true,
+      "body": [
+        "Say you chose B. Dana plans to charge for delivery on small orders. Next you look at the bank.",
+        "The loss last month was $3,000. But the bank balance fell by $12,000. What explains the gap?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Something is being hidden. Walk away",
+            "verdict": "risky",
+            "feedback": "Big gaps deserve questions, not panic. You'd lose a possibly good deal over an answer that was easy to find."
+          },
+          {
+            "key": "B",
+            "text": "Open the cash flow statement and find spending missing from the income statement",
+            "verdict": "best",
+            "feedback": "It shows $9,000 for a second oven and a used van. Equipment counts as an asset, so its cost hits profit slowly over years. The cash left all at once."
+          },
+          {
+            "key": "C",
+            "text": "Customers must be paying late",
+            "verdict": "partial",
+            "feedback": "A common cause in many businesses, but Dana's customers prepay in the app. Checking the statement beats guessing."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 4 of 4",
+      "title": "How long will the money last?",
+      "illustrative": true,
+      "body": [
+        "Say you chose B. Dana says: \"We have $25,000 in the bank. At a $3,000 monthly loss, that's eight months.\"",
+        "The **balance sheet** also lists $6,000 owed to suppliers this month and an $8,000 loan payment due in two months."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "About eight months, as she says",
+            "verdict": "risky",
+            "feedback": "That treats all $25,000 as free. $14,000 of it is already promised to others, so the business could run short much sooner."
+          },
+          {
+            "key": "B",
+            "text": "Under four months, after the bills already owed",
+            "verdict": "best",
+            "feedback": "$25,000 − $6,000 − $8,000 leaves $11,000. At $3,000 a month, that's under four months. Your $20,000 would buy time, not a cushion."
+          },
+          {
+            "key": "C",
+            "text": "About six months",
+            "verdict": "partial",
+            "feedback": "You counted the supplier bill but not the loan. Closer, but still too hopeful."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "breakdown",
+      "eyebrow": "The full picture",
+      "title": "One headline, three statements.",
+      "illustrative": true,
+      "breakdown": [
+        {
+          "value": "$30,000",
+          "label": "Revenue",
+          "detail": "Income statement: the headline",
+          "highlight": false
+        },
+        {
+          "value": "−$3,000",
+          "label": "Net profit",
+          "detail": "Income statement: after all costs",
+          "highlight": false
+        },
+        {
+          "value": "−$12,000",
+          "label": "Cash change",
+          "detail": "Cash flow statement: includes $9,000 of equipment",
+          "highlight": false
+        },
+        {
+          "value": "$11,000",
+          "label": "Cash really free",
+          "detail": "Balance sheet: after $14,000 already owed",
+          "highlight": true
+        }
+      ],
+      "softwareNote": "A software startup reads the same way: gross margin after hosting and support, cash spent on yearly tool contracts, and customers' prepaid annual plans sitting on the balance sheet as money not yet earned."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "One month is only a snapshot.",
+      "body": [
+        "Equipment is bought in lumps, so a single month can look worse, or better, than the trend. Ask for six to twelve months side by side.",
+        "Early statements are often put together by the founder, not checked by an accountant. Ask how the numbers were made before trusting them.",
+        "And runway math assumes nothing changes. A price rise or a new loss changes it fast."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Growth is the headline. The three statements are the story.",
+      "body": [
+        "Each question you asked used a different part of this unit:"
+      ],
+      "list": [
+        "**Decision 1:** revenue vs profit, read on the income statement",
+        "**Decision 2:** gross vs net margin, and why each sale matters",
+        "**Decision 3:** the cash flow statement, where equipment shows up",
+        "**Decision 4:** the balance sheet, where money already owed hides"
+      ],
+      "callout": "**Try it today:** take your own last month. Write revenue, net profit, the change in your bank balance, and what you already owe. Do the four tell the same story?",
+      "next": "Next · Profit vs cash"
+    }
+  ]
+}

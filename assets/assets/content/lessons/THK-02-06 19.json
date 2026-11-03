@@ -1,0 +1,277 @@
+{
+  "id": "THK-02-06",
+  "unitId": "THK-02",
+  "categoryId": "THK",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Status quo bias",
+  "readerTitle": "The supplier you would never pick today",
+  "format": "numbers_twist",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 연구 (Johnson & Goldstein 2003 장기기증 기본값, Madrian & Shea 2001 퇴직연금 자동가입, Samuelson & Zeckhauser 1988) + 가상 사례 (레스토랑 린넨 업체, 소프트웨어 회사 협업 도구)",
+  "insight": "'그대로 두기'도 하나의 선택이다. 현재 상태를 후보 중 하나로 놓고, 오늘 처음 고른다면 무엇을 고를지 물으면 비교가 공정해진다.",
+  "misconception": "아무것도 바꾸지 않으면 결정을 하지 않은 것이고, 따라서 위험도 없다.",
+  "relatedLessonIds": [
+    "THK-02-05",
+    "THK-05-01"
+  ],
+  "sources": [
+    {
+      "text": "Johnson, E. J., & Goldstein, D. (2003). Do Defaults Save Lives? Science, 302(5649), 1338–1339.",
+      "url": null
+    },
+    {
+      "text": "Madrian, B. C., & Shea, D. F. (2001). The Power of Suggestion: Inertia in 401(k) Participation and Savings Behavior. Quarterly Journal of Economics, 116(4), 1149–1187.",
+      "url": null
+    },
+    {
+      "text": "Samuelson, W., & Zeckhauser, R. (1988). Status Quo Bias in Decision Making. Journal of Risk and Uncertainty, 1, 7–59.",
+      "url": null
+    },
+    {
+      "text": "레스토랑과 소프트웨어 회사 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Johnson & Goldstein(2003) 온라인 실험 수치: 옵트인 조건 42%, 옵트아웃 조건 82%, 직접 선택(중립) 조건 79%. 원문 표와 다시 대조하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Madrian & Shea(2001): 자동가입 도입 후 신규 입사자 가입률 약 86%, 도입 전 비슷한 근속 기간 집단 약 37%. 원문의 비교 집단 정의와 수치를 확인하세요. 카드에는 'about'으로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "'status quo bias' 용어를 Samuelson & Zeckhauser(1988)가 이름 붙였다는 서술을 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "린넨 계산: $1,400 − $1,050 = $350/월, × 12 = $4,200/년, 3년 $12,600.",
+      "status": "open"
+    },
+    {
+      "note": "협업 도구 계산: 기존 $18,000/년. 신규 $9,000/년 + 1회 이전 비용 $6,000 = 첫해 $15,000, 2년 합계 $24,000 vs 기존 $36,000 → 2년간 $12,000 절감.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Numbers twist",
+      "title": "Same question. One box moved. Twice the yes.",
+      "body": [
+        "In an online experiment, people were asked if they would be organ donors. When they had to tick a box to say yes, 42% agreed.",
+        "When they were donors unless they ticked a box to say no, 82% stayed donors. Nothing about the choice changed except which answer needed no action."
+      ],
+      "image": {
+        "label": "Two identical forms, one with a pre-ticked box",
+        "aspectRatio": "4:3",
+        "brief": "나란히 놓인 똑같은 서류 두 장. 왼쪽은 빈 체크박스, 오른쪽은 이미 체크된 박스. 오른쪽 서류 위에 손이 펜을 내려놓고 그대로 지나가는 모습. 실제 기관 로고나 문구는 쓰지 않음.",
+        "url": "assets/images/thk-02-06-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "A cheaper linen service calls.",
+      "illustrative": true,
+      "body": [
+        "Your restaurant has used the same linen service for eight years: $1,400 a month. A new company offers the same tablecloths and napkins, same delivery days, for $1,050. Their references check out.",
+        "Which question gives you the fairest comparison?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Is the new company good enough to be worth switching?",
+            "verdict": "partial",
+            "feedback": "Sensible, but it puts all the burden of proof on the newcomer. The current service never has to earn its place."
+          },
+          {
+            "key": "B",
+            "text": "If I had no linen service today, which one would I pick?",
+            "verdict": "best",
+            "feedback": "This puts both options on equal footing. You still count real switching costs, but the old one gets no free pass for being familiar."
+          },
+          {
+            "key": "C",
+            "text": "What could go wrong if I switch?",
+            "verdict": "risky",
+            "feedback": "Worth asking, but only half the picture. Staying also has a cost: about $4,200 a year that you never see leave."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "The default nearly doubled the yes.",
+      "body": [
+        "Johnson and Goldstein (2003) gave people the same organ donor question in three versions. Only the starting point changed.",
+        "When people had to choose with no default, 79% said yes. So the low number wasn't what people wanted. It was what happened when saying yes took effort."
+      ],
+      "chart": {
+        "unit": "%",
+        "groups": [
+          {
+            "label": "Agreed to be donors",
+            "rows": [
+              {
+                "label": "Must tick to join",
+                "value": 42,
+                "highlight": false
+              },
+              {
+                "label": "Must choose, no default",
+                "value": 79,
+                "highlight": false
+              },
+              {
+                "label": "Must tick to leave",
+                "value": 82,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Status quo bias",
+      "body": [
+        "**Status quo bias** is our pull toward keeping things as they are, even when another option would serve us better. Economists William Samuelson and Richard Zeckhauser named it in 1988.",
+        "It has a few roots. What we might lose feels bigger than what we might gain. The current option needs no explanation. And doing nothing doesn't feel like a decision, so it doesn't feel risky.",
+        "But staying is a choice too. It just has a quiet price tag."
+      ],
+      "image": {
+        "label": "A scale tilted toward a familiar box",
+        "aspectRatio": "16:9",
+        "brief": "저울 그림. 한쪽에 낡았지만 익숙한 상자(\"Current\"), 다른 쪽에 새 상자(\"New\"). 두 상자의 무게는 같은데 익숙한 상자 쪽으로 손가락 하나가 저울을 살짝 누르고 있음.",
+        "url": "assets/images/thk-02-06-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "breakdown",
+      "eyebrow": "The twist",
+      "title": "Run the decision in reverse.",
+      "illustrative": true,
+      "body": [
+        "Now flip it. Imagine you already used the $1,050 service. Would you pay **$4,200 more a year** to switch to the old one? Almost nobody would.",
+        "If you wouldn't switch toward it, staying with it needs a reason beyond habit."
+      ],
+      "breakdown": [
+        {
+          "value": "$1,400",
+          "label": "Current service",
+          "detail": "Per month, eight years running",
+          "highlight": false
+        },
+        {
+          "value": "$1,050",
+          "label": "New offer",
+          "detail": "Same items, same delivery days",
+          "highlight": false
+        },
+        {
+          "value": "$4,200",
+          "label": "Cost of staying, per year",
+          "detail": "$350 × 12 months",
+          "highlight": true
+        },
+        {
+          "value": "$12,600",
+          "label": "Over three years",
+          "detail": "Money that never shows up as a loss",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where else it shows up",
+      "title": "You set defaults for other people, too.",
+      "body": [
+        "The bias works on your customers and staff, not just on you. In a study of one US company, Madrian and Shea (2001) found that when new hires were enrolled in the retirement plan automatically, about 86% took part. Before, when they had to sign up, about 37% did at a similar point.",
+        "Your menu's standard side, your booking form's pre-set option, your contract's renewal terms: each one is a default. Many people will keep whatever you pick for them."
+      ],
+      "softwareNote": "Every pre-selected plan, notification setting and auto-renewal is a default. Many users never open settings, so the default often becomes the product they actually use."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Change isn't automatically better.",
+      "body": [
+        "Switching has real costs: training, setup, a shaky first month, a relationship you lose. Those belong in the comparison. Status quo bias is giving the current option extra weight *on top of* those costs.",
+        "The fix isn't to change everything. It's to judge both options by the same rules. And when you set defaults for customers, pick ones that serve them, not just you. People notice when a default was set against them."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software team's main tool.",
+      "illustrative": true,
+      "body": [
+        "Your software company has used one project tool for four years at $18,000 a year. A rival tool does what your team needs for $9,000 a year. Moving data and retraining would cost about $6,000 once.",
+        "What's the best way to decide?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep it. Everyone knows it, and migrations are painful",
+            "verdict": "risky",
+            "feedback": "Familiarity has value, but here it's being counted twice. Over two years, staying costs about $12,000 more, even after paying for the move."
+          },
+          {
+            "key": "B",
+            "text": "Switch now. It's half the price",
+            "verdict": "partial",
+            "feedback": "Probably the right direction, but ignoring the $6,000 move and the disruption is the opposite mistake. Price the switch honestly."
+          },
+          {
+            "key": "C",
+            "text": "Compare both as fresh choices, with the migration as a real cost",
+            "verdict": "best",
+            "feedback": "New tool: $15,000 in year one, then $9,000 a year. Old tool: $18,000 every year. Same rules for both, and the answer gets clear."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Keeping things as they are is a choice. Price it like one.",
+      "body": [
+        "Put the current option on the list with the others and ask which you would pick if you were starting today.",
+        "**Try it today:** pick one supplier, tool or routine you haven't questioned in a year. Ask: would I switch *to* this if I didn't already have it?"
+      ],
+      "image": {
+        "label": "A checklist with 'Keep as is' as one option",
+        "aspectRatio": "16:9",
+        "brief": "메모지 위의 선택지 목록. \"Option A\", \"Option B\", 그리고 \"Keep as is\"가 같은 크기의 체크박스로 나란히 적혀 있음. 세 박스 모두 비어 있고 펜이 옆에 놓여 있음.",
+        "url": "assets/images/thk-02-06-c9.jpg"
+      }
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "id": "ENT-02-07",
+  "unitId": "ENT-02",
+  "categoryId": "ENT",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "Open a café or buy one?",
+  "readerTitle": "The café that earns $60,000 a year, if you work 60 hours a week",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.2,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (카페 인수, 소규모 배송 회사, 소형 SaaS) · 모든 수치는 설명용",
+  "insight": "사업을 살 때 사는 것은 '이익'이 아니라 '주인 없이도 돌아가는 이익'이다. 판매자의 무급 노동을 빼고 나서 가격을 본다.",
+  "misconception": "이미 돈을 버는 가게를 사면 새로 차리는 것보다 무조건 안전하다. 장부의 이익이 곧 내가 받을 수익이다.",
+  "relatedLessonIds": [
+    "ENT-02-05",
+    "ENT-02-04"
+  ],
+  "sources": [
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    },
+    {
+      "text": "소규모 사업 인수 시 일반적인 실사 관행 (장부·임대차·주인 노동 확인). 특정 국가의 법률·세무 조언이 아님",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "계산 확인: 이익 $60,000 − 판매자 근무시간을 대체할 매니저 비용 $45,000 = $15,000. $15,000 ÷ 인수가 $120,000 = 연 12.5%. 모든 수치는 가상입니다.",
+      "status": "open"
+    },
+    {
+      "note": "매니저 연봉 $45,000(주 60시간 대체)은 설명용 가정입니다. 지역에 따라 크게 다르므로 카드에는 가정임을 밝혔습니다.",
+      "status": "open"
+    },
+    {
+      "note": "SaaS 사례: 월 매출 $3,000, 창업자 주 5시간은 가상 수치입니다. 업계 평균 배수나 이탈률 수치는 의도적으로 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "3번째 위치 개념(ENT-02-03)은 임대차 잔여 기간 언급으로만 가볍게 썼고, relatedLessonIds에는 실제 중심 개념 두 개(ENT-02-05, ENT-02-04)만 넣었습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Small business · Apply",
+      "title": "The café that earns $60,000 a year, if you work 60 hours a week",
+      "illustrative": true,
+      "body": [
+        "Maya has $150,000 saved. She can fit out an empty shop and open her own café. Or she can buy the busy café two streets away. The asking price is $120,000, and the seller says it makes $60,000 a year.",
+        "Buying looks like a shortcut: customers, staff and coffee machines on day one. The question is what that $60,000 really is."
+      ],
+      "image": {
+        "label": "A woman between an empty shop and a busy café",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 왼쪽은 텅 빈 가게(비닐 덮인 바닥, 공구), 오른쪽은 손님이 있는 아늑한 카페. 가운데 여성이 두 곳을 번갈아 보는 모습. 실제 브랜드 로고나 간판 문구 없음.",
+        "url": "assets/images/ent-02-07-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What does the $60,000 tell Maya?",
+      "illustrative": true,
+      "body": [
+        "The seller shows a tidy profit statement: $60,000 last year. Maya likes the place and the price feels reasonable.",
+        "What should she do with that number?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Accept it. Paying two years of profit sounds fair",
+            "verdict": "risky",
+            "feedback": "A price as a multiple of profit only makes sense once you know what the real profit is. You'd be pricing a number you haven't tested."
+          },
+          {
+            "key": "B",
+            "text": "Check it against bank statements and card-terminal records",
+            "verdict": "partial",
+            "feedback": "Essential, and it shows whether the money is real. But true records can still hide one big cost: the seller's own unpaid hours."
+          },
+          {
+            "key": "C",
+            "text": "Ask how many hours the seller works, and what it would cost to pay someone for them",
+            "verdict": "best",
+            "feedback": "This is **the owner's time trap** at work. If the profit depends on the owner's labor, part of it is a salary, not a return on your money."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Take out the owner's hidden salary.",
+      "illustrative": true,
+      "body": [
+        "The seller works the counter about 60 hours a week, unpaid. Say a manager for those hours costs $45,000 a year. Then the café earns **$15,000** for an owner who doesn't work in it. That's 12.5% a year on $120,000. Not bad, but it's a very different deal."
+      ],
+      "breakdown": [
+        {
+          "value": "$60,000",
+          "label": "Stated profit",
+          "detail": "What the seller reports",
+          "highlight": false
+        },
+        {
+          "value": "−$45,000",
+          "label": "Seller's hours",
+          "detail": "Cost to pay someone else for 60 hours a week (assumed)",
+          "highlight": false
+        },
+        {
+          "value": "$15,000",
+          "label": "Profit without the owner",
+          "detail": "What the $120,000 actually buys",
+          "highlight": true
+        }
+      ],
+      "softwareNote": "The same trap hides in small software products. A founder who answers every support email for free is a cost the profit statement doesn't show."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept at work",
+      "title": "What buying really gets you",
+      "body": [
+        "From **buying vs starting**: when you buy, you pay for risk already removed. The customers exist, the staff know the routine, the permits are in place. When you start, you choose everything yourself but earn little for months.",
+        "So the real question isn't \"which is cheaper?\" It's \"how much of the risk has the seller actually removed, and is it the part I'm paying for?\""
+      ],
+      "image": {
+        "label": "Two paths: build from scratch vs take over",
+        "aspectRatio": "16:9",
+        "brief": "두 갈래 길 인포그래픽. 왼쪽 'Start' 길은 길고 오르막(\"months with little revenue\", \"you choose everything\"), 오른쪽 'Buy' 길은 짧지만 중간에 물음표 상자(\"what transfers?\"). 로고 없음.",
+        "url": "assets/images/ent-02-07-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "What transfers",
+      "title": "Some things come with the keys. Some don't.",
+      "illustrative": true,
+      "body": [
+        "Before paying for a track record, Maya sorts what she is really buying:"
+      ],
+      "list": [
+        "**Equipment and fit-out:** transfers, but check its age",
+        "**Staff:** may stay, may follow the seller",
+        "**Regulars:** some come for the coffee, some for the seller",
+        "**The lease:** with 18 months left, the location may not be hers for long"
+      ],
+      "callout": "Pay full price only for what stays when the seller leaves."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Starting has hidden costs too.",
+      "body": [
+        "This lesson can make buying look risky. It isn't always. A new café also needs the owner's long hours, and it has no customers yet. Months of losses while you build up regulars are a real cost, even if no one writes them on a price tag.",
+        "And buying has risks this lesson doesn't cover, like debts or broken equipment. Get proper professional help to check the books and contracts before signing."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a delivery company.",
+      "illustrative": true,
+      "body": [
+        "You're offered a small local delivery business: six vans, steady profits. But the owner personally handles the three biggest customers, who bring in most of the revenue.",
+        "What do you negotiate?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "A lower price to cover the risk",
+            "verdict": "partial",
+            "feedback": "A discount helps, but it doesn't keep the customers. If they leave with the owner, you paid less for much less."
+          },
+          {
+            "key": "B",
+            "text": "The owner stays 6–12 months to hand over the customers, with part of the price paid only if they stay",
+            "verdict": "best",
+            "feedback": "This tackles **the owner's time trap** directly. You pay for relationships once they've moved to you, which is the risk **buying** was meant to remove."
+          },
+          {
+            "key": "C",
+            "text": "Walk away and start your own delivery firm",
+            "verdict": "risky",
+            "feedback": "You avoid the dependency, but you'd start with zero customers and still have to win those same contracts."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · digital",
+      "title": "A small app is for sale.",
+      "illustrative": true,
+      "body": [
+        "A one-person software product brings in $3,000 a month from subscribers. The founder says it takes five hours a week. You could build something similar yourself in about six months.",
+        "What's the smartest move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Buy it right away. Recurring revenue is safe",
+            "verdict": "risky",
+            "feedback": "Recurring only helps if users stay. Without checking churn, you may be buying a shrinking number."
+          },
+          {
+            "key": "B",
+            "text": "Buy it after checking how long users stay and logging the founder's real weekly hours",
+            "verdict": "best",
+            "feedback": "You get paying users on day one (**buying vs starting**) and test whether \"five hours\" hides more unpaid work (**owner's time trap**)."
+          },
+          {
+            "key": "C",
+            "text": "Build your own. You know how to code",
+            "verdict": "partial",
+            "feedback": "You keep full control and pay nothing upfront. But six months of building still leaves you with zero customers to find."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Buy the profit that stays when the owner leaves.",
+      "body": [
+        "Concepts used: **buying vs starting** (what risk you pay to remove) and **the owner's time trap** (how much profit is really the owner's unpaid work). The lease question drew on choosing a location.",
+        "**Try it today:** take your own business or one you admire. Subtract a fair wage for every hour the owner works. What's left?"
+      ],
+      "next": "Next · Franchise a gym or go independent?"
+    }
+  ]
+}

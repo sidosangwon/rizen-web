@@ -1,0 +1,225 @@
+{
+  "id": "BMO-03-08",
+  "unitId": "BMO-03",
+  "categoryId": "BMO",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "Free plan or free trial?",
+  "readerTitle": "Free forever or free for now? Two ways to give your service away",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.4,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (가정 청소 서비스, 기술자용 견적·청구 앱) · 모든 수치는 설명용",
+  "insight": "무료 플랜과 무료 체험은 같은 '무료'가 아니다. 무료 고객 한 명을 계속 서비스하는 비용이 얼마인지, 가치가 한 번에 보이는지 시간이 쌓여야 보이는지가 둘 중 무엇을 고를지 정한다.",
+  "misconception": "무료는 많이 줄수록 고객이 많이 모인다. 무료 플랜과 무료 체험은 기간만 다를 뿐 같은 전략이다.",
+  "relatedLessonIds": [
+    "BMO-03-02",
+    "BMO-03-05"
+  ],
+  "sources": [
+    {
+      "text": "BMO-03-02 (Free as a model), BMO-03-05 (Lock-in) 유닛 개념 레슨",
+      "url": null
+    },
+    {
+      "text": "모든 수치와 사업은 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "청소 서비스 계산: 정규 청소 가격 $120, 인건비·소모품 $60. 무료 월간 정리 30분 비용 $20 × 12개월 = 고객 1명당 연 $240, 기한 없음. 첫 청소 무료 비용 $60 1회. 정규 청소 1회가 남기는 돈 $120 − $60 = $60으로 체험 비용과 같음. 모두 가상 수치입니다.",
+      "status": "open"
+    },
+    {
+      "note": "앱 사례의 '무료 사용자 한 명당 비용은 몇 센트 수준'은 일반적 설명입니다. 특정 기업 수치가 아니며 서버·지원 비용 구조에 따라 달라질 수 있습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business models · Everyday scene",
+      "title": "Free forever or free for now? Two ways to give your service away",
+      "illustrative": true,
+      "body": [
+        "On one fridge, two offers. A cleaning company's flyer: *First clean free.* A banner in a phone app: *Free forever plan.*",
+        "Both give something away. They are very different bets, and picking the wrong one can quietly drain a business."
+      ],
+      "image": {
+        "label": "A fridge with a cleaning flyer and a phone showing a free plan banner",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 부엌 냉장고 문. 자석으로 붙은 청소 서비스 전단지 \"First clean free\"와, 냉장고 옆에 놓인 휴대폰 화면 \"Free forever plan\". 두 무료 표시가 대비되도록. 실제 브랜드 로고 없음.",
+        "url": "assets/images/bmo-03-08-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "A cleaning business wants new customers.",
+      "illustrative": true,
+      "body": [
+        "Maria runs a home cleaning service. A full clean sells for $120 and costs her $60 in staff time and supplies. She wants more weekly customers.",
+        "Which free offer should she use?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "A free plan: one free 30-minute tidy every month, for as long as you like",
+            "verdict": "risky",
+            "feedback": "**Free as a model** works when serving a free customer costs almost nothing. Here every free customer costs real staff time every month, and many will never upgrade."
+          },
+          {
+            "key": "B",
+            "text": "A trial: the first full clean is free, then customers book weekly",
+            "verdict": "best",
+            "feedback": "The cost is paid once, and customers see the full result in one visit. Free works here because it is short and shows the real thing."
+          },
+          {
+            "key": "C",
+            "text": "No free offer, just 10% off the first clean",
+            "verdict": "partial",
+            "feedback": "Safe and cheap, but a small discount rarely gets a doubtful customer to let a stranger into their home. It lowers the price, not the risk."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "Free as a model, at work",
+      "title": "What each free customer costs Maria.",
+      "illustrative": true,
+      "breakdown": [
+        {
+          "value": "$20",
+          "label": "Free monthly tidy",
+          "detail": "Staff time per visit, every month",
+          "highlight": false
+        },
+        {
+          "value": "$240",
+          "label": "Per free customer, per year",
+          "detail": "And it never ends",
+          "highlight": true
+        },
+        {
+          "value": "$60",
+          "label": "Free first clean",
+          "detail": "Paid once per new customer",
+          "highlight": false
+        },
+        {
+          "value": "$60",
+          "label": "One paid clean",
+          "detail": "$120 − $60 earns the trial back",
+          "highlight": false
+        }
+      ],
+      "callout": "A free plan costs you every month. A trial costs you once."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Two different bets",
+      "title": "A free plan gives less forever. A trial gives everything, briefly.",
+      "body": [
+        "A **free plan** is a smaller version people can keep using. It only works if each free customer costs you close to nothing, because most will stay free.",
+        "A **free trial** is the full product with a deadline. It costs more per person, but only for a short time. It works if customers can see the value before the deadline arrives.",
+        "So the first question is simple: what does one more free customer cost you each month?"
+      ],
+      "image": {
+        "label": "Two paths: a long thin line and a short thick bar",
+        "aspectRatio": "16:9",
+        "brief": "두 개의 길 인포그래픽. 위쪽 \"Free plan\"은 끝없이 이어지는 가는 선(작은 기능, 긴 기간), 아래쪽 \"Free trial\"은 짧고 두꺼운 막대(전체 기능, 짧은 기간) 끝에 \"Pay\" 문. 단순한 플랫 스타일.",
+        "url": "assets/images/bmo-03-08-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Lock-in, at work",
+      "title": "Does the value show up at once, or build up?",
+      "body": [
+        "Maria's value is visible in one afternoon: a clean house. A trial captures it neatly.",
+        "Some products get more useful the longer you use them. Your notes, client list or history pile up inside. That growing pile is **lock-in**: leaving gets harder over time.",
+        "When value builds slowly, a short trial ends before customers feel it. A free plan gives the lock-in time to grow, and the upgrade comes when they are already invested."
+      ],
+      "image": {
+        "label": "A stack of files growing inside an app over months",
+        "aspectRatio": "16:9",
+        "brief": "휴대폰 앱 안에 고객 카드와 청구서가 1개월, 3개월, 6개월에 걸쳐 점점 높게 쌓이는 장면. 옆에 청소 후 반짝이는 방 한 장면을 대비로(한 번에 보이는 가치). 로고 없음.",
+        "url": "assets/images/bmo-03-08-c5.jpg"
+      }
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's an app for plumbers and electricians.",
+      "illustrative": true,
+      "body": [
+        "Your app lets tradespeople send quotes, invoices and job reminders. Serving one free user costs you a few cents a month. The app gets more useful as users add clients and past jobs.",
+        "How should you give it away?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "A 14-day free trial of everything",
+            "verdict": "partial",
+            "feedback": "Easy to explain, but many users won't have enough jobs in two weeks to see the value. The trial ends before **lock-in** has time to build."
+          },
+          {
+            "key": "B",
+            "text": "A free plan for up to 5 clients, then pay as the business grows",
+            "verdict": "best",
+            "feedback": "Cheap to serve, so **free as a model** holds. Client history builds lock-in, and the limit hits when users are growing and can afford to pay."
+          },
+          {
+            "key": "C",
+            "text": "A free plan with everything unlimited, charge later",
+            "verdict": "risky",
+            "feedback": "Users get settled in, but there is no reason to upgrade. Charging for features they already had free feels like a trap, not a step up."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Both kinds of free have a cost.",
+      "body": [
+        "Free plans often attract many people who never pay. Even small costs add up, and support questions arrive from people who bring no revenue. Know how many free customers you can carry.",
+        "Trials can create pressure. A deadline that arrives before value shows feels like a sales trick.",
+        "And lock-in should come from real value, not from holding customers hostage. If people can't take their data or history with them, they may stay, but they stop trusting you."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Pick free by cost to serve and speed of value.",
+      "body": [
+        "Cheap to serve and value that builds over time: a free plan. Costly to serve and value that shows at once: a trial.",
+        "**Try it today:** write down what one free customer would cost you per month, and how long a new customer takes to see your value."
+      ],
+      "list": [
+        "**Free as a model:** free only pays when free customers cost little or convert soon",
+        "**Lock-in:** a free plan gives stored value time to grow before you ask for money"
+      ],
+      "next": "Next · Nespresso's machines and pods"
+    }
+  ]
+}

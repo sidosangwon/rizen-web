@@ -1,0 +1,231 @@
+{
+  "id": "OPS-03-09",
+  "unitId": "OPS-03",
+  "categoryId": "OPS",
+  "order": 9,
+  "type": "case",
+  "conceptTag": "Zara's fast-fashion supply chain",
+  "readerTitle": "Why Zara chose to guess less, not guess better",
+  "format": "company_story",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "real_company",
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Zara/Inditex) + 실제 연구 (Fisher 1997, Ferdows 외 2004) + 가상 적용 (베이커리 체인)",
+  "insight": "공급망이 빠르면 예측을 잘할 필요가 줄어든다. 리드타임을 줄이는 것은 미래를 덜 추측하는 방법이다.",
+  "misconception": "공급망의 목표는 언제나 단위 원가를 최저로 낮추는 것이고, 재고 문제는 예측을 더 정확하게 해서 푼다.",
+  "relatedLessonIds": [
+    "OPS-03-02",
+    "OPS-03-03"
+  ],
+  "sources": [
+    {
+      "text": "Ferdows, K., Lewis, M. A., & Machuca, J. A. D. (2004). Rapid-Fire Fulfillment. Harvard Business Review. (주 2회 매장 배송, 소량 생산, 시즌 전 생산 확정 비중이 낮다는 점)",
+      "url": null
+    },
+    {
+      "text": "Ghemawat, P., & Nueno, J. L. (2003). ZARA: Fast Fashion. Harvard Business School case. (근거리 생산, 중앙 물류, 매장 피드백 구조)",
+      "url": null
+    },
+    {
+      "text": "Inditex annual reports (근거리 생산 'proximity sourcing' 비중과 생산 국가: 스페인, 포르투갈, 모로코, 튀르키예)",
+      "url": null
+    },
+    {
+      "text": "Fisher, M. L. (1997). What Is the Right Supply Chain for Your Product? Harvard Business Review. (효율형 vs 대응형 공급망)",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "\"새 아이템이 몇 주 안에 매장에 도착\"은 자료마다 2~5주 등으로 다릅니다. 숫자 대신 \"a few weeks\"로만 썼습니다. 게시 전 Ferdows 외(2004)와 HBS 케이스로 재확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "근거리 생산 비중은 Inditex 연차보고서 기준으로 해마다 달라집니다(대략 절반 안팎으로 알려짐). 카드에는 \"a large share\"로만 적었습니다. 최신 보고서로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "주 2회 매장 배송은 Ferdows 외(2004)와 HBS 케이스에 나옵니다. 현재 운영과 다를 수 있으므로 \"about twice a week\" 및 과거형으로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "기본 상품(베이직)은 아시아 등 원거리·저가 공급처에서 생산한다는 점은 Ferdows 외(2004)에 서술되어 있습니다. 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Zara의 광고비가 업계 대비 낮다는 점은 널리 보도되었지만 이번 레슨에서는 다루지 않았습니다. 패스트패션의 환경 비판은 일반적 서술로만 썼습니다.",
+      "status": "open"
+    },
+    {
+      "note": "베이커리 체인 사례는 설명용 가상 사례이며 수치를 쓰지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Company story",
+      "title": "Why Zara chose to guess less, not guess better",
+      "body": [
+        "For decades, most clothing brands planned their collections many months ahead. They placed big orders, shipped them across oceans, and hoped they had guessed right.",
+        "Zara, the Spanish fashion chain, built its business around a different idea. Its stores got new deliveries about twice a week."
+      ],
+      "image": {
+        "label": "A clothing store being restocked from a small delivery van",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 작은 의류 매장 앞에 소형 배송 밴이 서 있고, 직원이 옷 몇 벌만 들고 들어가는 장면. 달력에 일주일에 두 번 체크 표시. 실제 브랜드 로고와 상표는 쓰지 않음.",
+        "url": "assets/images/ops-03-09-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Where should your clothes be made?",
+      "illustrative": true,
+      "body": [
+        "You run a growing fashion chain. Far-away factories make clothes cheaply, but orders take months to arrive. Factories near your headquarters cost more per item, but can deliver in weeks.",
+        "Trends change fast, and you often end up discounting what didn't sell. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Make everything far away. The lower cost per item is worth it",
+            "verdict": "risky",
+            "feedback": "You win on cost per item, but you must commit months ahead. When you guess wrong, discounts and leftover stock can eat the savings."
+          },
+          {
+            "key": "B",
+            "text": "Make trendy items nearby and steady basics far away",
+            "verdict": "best",
+            "feedback": "You pay more only where speed matters most. Basics sell predictably, so a long wait costs little there."
+          },
+          {
+            "key": "C",
+            "text": "Make everything nearby so you can react to anything",
+            "verdict": "partial",
+            "feedback": "You gain speed everywhere, but you pay the higher cost even on plain T-shirts that sell the same every season."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What Zara did",
+      "title": "It paid for speed where speed mattered.",
+      "body": [
+        "Zara kept **a large share of its production close to home**, in Spain and nearby countries such as Portugal, Morocco and Turkey. Basics with steady demand came more often from cheaper, distant suppliers.",
+        "Goods flowed through central warehouses in Spain to stores worldwide. New designs launched in small first runs. A new piece could reach stores in a few weeks, not months."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Lead time decides how much you have to guess",
+      "body": [
+        "**Lead time** is the time between deciding to make something and having it ready to sell. The longer it is, the further ahead you must forecast, and the more often you guess wrong.",
+        "In a 1997 essay, researcher Marshall Fisher argued that products with unpredictable demand need a **responsive supply chain**: one built for speed and flexibility rather than lowest cost."
+      ],
+      "image": {
+        "label": "Two timelines: a long one full of guesses, a short one with few",
+        "aspectRatio": "16:9",
+        "brief": "두 개의 가로 타임라인 비교. 위쪽 긴 타임라인(\"Order 6 months ahead\")에는 물음표가 많고, 아래 짧은 타임라인(\"Order a few weeks ahead\")에는 물음표가 하나뿐. 브랜드 로고 없음.",
+        "url": "assets/images/ops-03-09-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Sell first, then make more of what sells.",
+      "body": [
+        "A short lead time changed how Zara could decide:"
+      ],
+      "list": [
+        "**Store managers** reported what customers bought and asked for",
+        "**Designers** adjusted styles based on those reports",
+        "**Small first runs** limited the cost of a miss",
+        "**More stock** went to what sold; what didn't was dropped"
+      ],
+      "callout": "Instead of predicting a season, Zara could watch it and respond.",
+      "softwareNote": "Software teams use the same logic when they ship small changes often and watch usage. Short release cycles mean fewer big bets on what users might want."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The wider lesson",
+      "title": "Match the supply chain to the product.",
+      "body": [
+        "Zara did not make everything fast. Fisher's point was that one company can need two kinds of supply chain.",
+        "For steady products, such as basic T-shirts, cheap and slow works well, because forecasts are reliable. For products where demand is hard to predict, such as this season's trend, speed is worth paying for.",
+        "The mistake is running both kinds of product through the same chain."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Speed has a price.",
+      "body": [
+        "Making clothes nearby costs more per item, and frequent deliveries mean more transport. The model only pays off if fewer discounts and less unsold stock outweigh those costs.",
+        "It also demands tight coordination between stores, designers, factories and warehouses. And fast fashion faces criticism for encouraging people to buy and throw away more clothes. Speed is a tool, not a virtue."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a bakery chain.",
+      "illustrative": true,
+      "body": [
+        "You run ten bakeries supplied by one central kitchen. Bread sells steadily. New pastries are hit or miss, and unsold ones are thrown out at night.",
+        "How should the kitchen plan pastries?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Bake all pastries overnight in one big batch to keep costs low",
+            "verdict": "risky",
+            "feedback": "Each pastry costs less to make, but you commit before you know what sells, so waste can wipe out the savings."
+          },
+          {
+            "key": "B",
+            "text": "Bake bread overnight; send pastries in two smaller runs based on morning sales",
+            "verdict": "best",
+            "feedback": "Steady bread stays cheap, and the afternoon run follows real demand. You pay for an extra delivery to waste less."
+          },
+          {
+            "key": "C",
+            "text": "Stop new pastries and sell only what you can forecast",
+            "verdict": "partial",
+            "feedback": "Waste drops, but so does the variety that brings customers back. You avoid the guess by giving up the upside."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "When demand is hard to predict, shorten the wait.",
+      "body": [
+        "Better forecasts help, but a shorter lead time means you need to forecast less. Pay for speed where demand is uncertain, and stay cheap where it is steady.",
+        "**Try it today:** list your products. Mark each one steady or unpredictable. For the unpredictable ones, write down how far ahead you commit."
+      ],
+      "next": "Next · Your main supplier just failed"
+    }
+  ]
+}

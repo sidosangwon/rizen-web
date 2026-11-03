@@ -1,0 +1,224 @@
+{
+  "id": "CUS-07-02",
+  "unitId": "CUS-07",
+  "categoryId": "CUS",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "Prioritizing what to build",
+  "readerTitle": "Two to-do lists, one question: what does this hour buy?",
+  "format": "two_businesses",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 두 개 (식료품 체인 본사의 사내 데이터팀, 60석 비스트로) · 모든 수치는 설명용",
+  "insight": "우선순위는 '이 일이 할 가치가 있는가'가 아니라 '같은 시간으로 살 수 있는 다른 일보다 가치가 큰가'를 묻는 일이다. 가치를 노력으로 나누고, 기다리는 동안 잃는 가치까지 본다.",
+  "misconception": "가장 크게 요청하는 사람의 일이나 가장 빨리 끝나는 일부터 하면 된다. 할 가치가 있는 일이면 순서는 크게 중요하지 않다.",
+  "relatedLessonIds": [
+    "CUS-07-03",
+    "CUS-07-07"
+  ],
+  "sources": [
+    {
+      "text": "기회비용과 '지연 비용(cost of delay)' 개념. Reinertsen, D. (2009). The Principles of Product Development Flow.",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "데이터팀 계산: 40개 매장 × 하루 20분 = 800분 ≈ 13.3시간/일. 주 7일 영업 가정 시 5,600분 ≈ 93시간/주. 작업 1주당 가치: 대시보드 1시간 ÷ 6주 ≈ 0.17시간, 재주문 리포트 93시간 ÷ 2주 ≈ 47시간.",
+      "status": "open"
+    },
+    {
+      "note": "비스트로 계산: 주말에 돌려보내는 테이블 약 10개 × 테이블당 평균 $90 매출(가정) ≈ 주당 $900 매출 손실. 수치는 모두 가정이며 카드에는 테이블 수만 사용했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "'cost of delay'를 Reinertsen이 대중화했다는 설명은 게시 전 원서로 확인하세요. 카드 본문에는 인명 없이 'what product teams call cost of delay'로만 적었습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Two businesses",
+      "title": "Two to-do lists, one question: what does this hour buy?",
+      "illustrative": true,
+      "body": [
+        "A data team at a grocery chain's head office has 40 requests in its queue. Across town, a bistro owner has 12 ideas on a kitchen whiteboard.",
+        "Almost every item on both lists is a good idea. That's exactly the problem. Neither can do them all, and the order they pick decides what they get."
+      ],
+      "image": {
+        "label": "An office request board and a restaurant whiteboard side by side",
+        "aspectRatio": "4:3",
+        "brief": "화면을 좌우로 나눔. 왼쪽은 사무실 모니터 속 긴 요청 목록(포스트잇 카드 수십 장), 오른쪽은 주방 화이트보드에 손글씨 아이디어 목록. 가운데에 모래시계 하나. 실제 브랜드 로고 없음.",
+        "url": "assets/images/cus-07-02-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Three requests. Which goes first?",
+      "illustrative": true,
+      "body": [
+        "You lead the head-office data team. Three requests are waiting:",
+        "A vice president wants a custom dashboard. It takes 6 weeks and would save her about an hour a week. The stock reorder report is often wrong, so 40 store managers each spend 20 minutes a day fixing it. Repair takes 2 weeks. There are also ten small visual tweaks, one week in total."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The VP's dashboard. She's senior and asked twice",
+            "verdict": "risky",
+            "feedback": "You keep an important person happy, but you spend six weeks buying back one hour a week while stores keep losing time."
+          },
+          {
+            "key": "B",
+            "text": "Fix the reorder report",
+            "verdict": "best",
+            "feedback": "Two weeks of work gives back roughly 90 hours of manager time every week. Nobody important asked loudly, which is why it's easy to miss."
+          },
+          {
+            "key": "C",
+            "text": "The ten tweaks. Quick wins build momentum",
+            "verdict": "partial",
+            "feedback": "You'd finish fast and look productive. But speed alone isn't value, and the costly problem stays in place another week."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "What each week of work buys.",
+      "illustrative": true,
+      "breakdown": [
+        {
+          "value": "1 hr/wk",
+          "label": "VP dashboard",
+          "detail": "6 weeks of work, about 0.2 hours saved per week of effort",
+          "highlight": false
+        },
+        {
+          "value": "~93 hr/wk",
+          "label": "Reorder report fix",
+          "detail": "40 stores × 20 min × 7 days. 2 weeks of work, about 47 hours saved per week of effort",
+          "highlight": true
+        },
+        {
+          "value": "~0 hr/wk",
+          "label": "Visual tweaks",
+          "detail": "1 week of work, nicer screens, no time saved",
+          "highlight": false
+        }
+      ],
+      "callout": "The fix is worth over 200 times more per week of effort than the dashboard."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Prioritizing is comparing, not approving",
+      "body": [
+        "**Prioritizing what to build** means ranking work by the value it creates for the effort it takes, then doing the best ratio first.",
+        "The trap is judging each item alone. Alone, the dashboard is worth doing. The real question is whether it beats the other things the same six weeks could buy. Every yes spends time that can't be spent twice."
+      ],
+      "image": {
+        "label": "A two-by-two grid of value against effort",
+        "aspectRatio": "16:9",
+        "brief": "2×2 그리드. 세로축 \"Value\", 가로축 \"Effort\". 왼쪽 위 칸(높은 가치, 낮은 노력)에 \"Do first\"와 리포트 아이콘, 오른쪽 아래 칸(낮은 가치, 높은 노력)에 대시보드 아이콘. 단순한 플랫 일러스트.",
+        "url": "assets/images/cus-07-02-c4.jpg"
+      },
+      "softwareNote": "In a software product, the backlog is this same list. A feature's value might be hours saved, customers kept or deals won. Effort is engineering weeks. The ratio matters more than who filed the ticket."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Some items lose value while they wait.",
+      "body": [
+        "Value isn't fixed. The dashboard saves one hour a week whether it ships this month or next. The broken report costs about 90 hours every week it stays broken.",
+        "Product teams call this **cost of delay**: what you lose for each week something isn't done. Two items with the same value and effort aren't equal if one is bleeding money now. Ask \"what does waiting cost?\" alongside \"what is it worth?\""
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The second business",
+      "title": "The bistro has the same math.",
+      "illustrative": true,
+      "body": [
+        "The bistro owner's whiteboard says: launch weekend brunch, redo the menu cards, fix the Friday rush.",
+        "On busy nights, tickets pile up and food comes out late. Tables turn slowly, and the host turns away about ten parties a weekend. That's lost money every week.",
+        "Brunch might be bigger, but nobody knows yet. It's a guess that takes weeks of work. The rush problem is certain, costly and getting no cheaper."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The ratio favors small, safe bets.",
+      "body": [
+        "Value and effort are estimates, often rough ones. A tidy score can hide a wild guess.",
+        "Pure ratios also punish big, uncertain bets. A new product line almost never wins a value-per-week contest against a fix, yet some of those bets build the future.",
+        "Many teams handle this by keeping a share of their time for bigger bets, and ranking the rest strictly. Also check for dependencies: a low-value task that unlocks three others may belong first."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "You run the bistro. One month, one focus.",
+      "illustrative": true,
+      "body": [
+        "You have about a month of spare attention before the busy season. Which goes first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Launch weekend brunch. It could add a whole new revenue stream",
+            "verdict": "partial",
+            "feedback": "The upside may be big, but it's unproven and slow to build. A one-weekend trial could test it cheaply after the rush is fixed."
+          },
+          {
+            "key": "B",
+            "text": "Fix the Friday rush: a ticket rail and one person running the pass",
+            "verdict": "best",
+            "feedback": "About a week of setup wins back roughly ten tables every weekend, starting now. Certain value, low effort and a high cost of waiting."
+          },
+          {
+            "key": "C",
+            "text": "Redo the menu cards, because a regular complained",
+            "verdict": "risky",
+            "feedback": "It pleases one vocal guest and looks good. It does little for the parties you're turning away each weekend."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "The same choice shows up in apps: a flashy new module versus fixing a checkout step where customers drop off every day."
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Rank by value for effort, and count the cost of waiting.",
+      "body": [
+        "Good ideas are cheap. Time isn't. The question is never \"is this worth doing?\" but \"is this worth more than what else this time could buy?\"",
+        "**Try it today:** take your top five tasks. Next to each, write a rough value, the effort, and what one more week of waiting costs. Reorder the list."
+      ],
+      "next": "Next · Why saying no is part of the job"
+    }
+  ]
+}

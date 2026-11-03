@@ -1,0 +1,252 @@
+{
+  "id": "STR-02-06",
+  "unitId": "STR-02",
+  "categoryId": "STR",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Rivalry",
+  "readerTitle": "Same four rivals, two very different fights",
+  "format": "numbers_twist",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (오피스 지구 점심 가게 두 곳, 치과 예약 앱) · 모든 수치는 설명용",
+  "insight": "경쟁의 강도는 경쟁자의 수나 성격보다 산업 구조가 정한다. 시장이 멈추면 내 성장은 곧 경쟁자의 손실이 된다.",
+  "misconception": "경쟁이 치열한 건 경쟁자가 많거나 공격적이기 때문이다. 경쟁자 수가 같으면 싸움의 강도도 같다.",
+  "relatedLessonIds": [
+    "STR-02-01",
+    "ECO-08-06"
+  ],
+  "sources": [
+    {
+      "text": "Porter, M. (1979). How Competitive Forces Shape Strategy. Harvard Business Review.",
+      "url": null
+    },
+    {
+      "text": "Porter, M. (2008). The Five Competitive Forces That Shape Strategy. Harvard Business Review.",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "계산 확인: 두 지구 모두 하루 2,000끼 ÷ 4곳 = 가게당 500끼. North는 25% 성장해 2,500끼 ÷ 4 = 625끼(+125, +25%). South는 2,000끼 그대로이므로 한 가게가 10% 성장(500 → 550, +50)하려면 경쟁 가게들이 합쳐서 50끼를 잃어야 합니다.",
+      "status": "open"
+    },
+    {
+      "note": "경쟁 강도를 높이는 요인(비슷한 규모의 경쟁자 다수, 느린 산업 성장, 차별화 부족, 높은 고정비와 저장 불가능한 생산능력, 높은 철수 장벽)은 Porter(2008)의 rivalry 항목 정리를 따랐습니다. 게시 전 원문과 표현을 다시 대조하세요.",
+      "status": "open"
+    },
+    {
+      "note": "7번 카드의 '경쟁사와 가격을 합의하는 것은 많은 나라에서 불법'은 일반적 서술입니다. 특정 국가의 법률 조언처럼 읽히지 않는지 검토하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Strategy · Numbers twist",
+      "title": "Same four rivals, two very different fights",
+      "illustrative": true,
+      "body": [
+        "Two office districts. Each has four sandwich shops. Each shop sells about 500 lunches a day.",
+        "In one district, the owners chat over coffee and keep their prices steady. In the other, someone runs a new discount almost every month.",
+        "The number of rivals is the same. The difference is one number that most owners never check."
+      ],
+      "image": {
+        "label": "Two streets, each with four similar lunch shops",
+        "aspectRatio": "4:3",
+        "brief": "화면을 좌우로 나눈 일러스트. 왼쪽 거리에는 샌드위치 가게 4곳이 평화롭고 새 오피스 빌딩 공사 크레인이 보임. 오른쪽 거리에는 같은 가게 4곳에 '−20%', 'Deal!' 할인 배너가 가득. 실제 브랜드 로고는 쓰지 않음.",
+        "url": "assets/images/str-02-06-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Where does a growth goal start a fight?",
+      "illustrative": true,
+      "body": [
+        "**North:** new office towers are opening. Lunch demand grows 25% a year.",
+        "**South:** the offices are full and stable. Lunch demand is the same as last year.",
+        "Both have four similar sandwich shops. You own one, and you want 10% more lunches next year. Where will that goal set off a fight with your rivals?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "North. A growing market attracts more aggressive competition",
+            "verdict": "partial",
+            "feedback": "Growth can pull in new rivals later. But for the four shops already there, growth means everyone can gain without taking from anyone."
+          },
+          {
+            "key": "B",
+            "text": "South. Every new customer has to come from a rival",
+            "verdict": "best",
+            "feedback": "Right. When the total stops growing, your gain is someone else's loss, and they will respond. Next card shows the numbers."
+          },
+          {
+            "key": "C",
+            "text": "Both equally. Four rivals is four rivals",
+            "verdict": "risky",
+            "feedback": "Counting rivals feels like the right test, but it misses how the market around them is moving. The same four shops can behave very differently."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Follow the lunches.",
+      "illustrative": true,
+      "body": [
+        "In North, you hit your goal and nobody notices. In South, your extra 50 lunches are 50 lunches a rival used to sell, and **they will notice**."
+      ],
+      "breakdown": [
+        {
+          "value": "2,000",
+          "label": "Lunches a day, today",
+          "detail": "Four shops × 500 each, in both districts",
+          "highlight": false
+        },
+        {
+          "value": "+125",
+          "label": "North, per shop",
+          "detail": "Demand grows 25% to 2,500. Each shop sells 625 without taking from anyone",
+          "highlight": false
+        },
+        {
+          "value": "+50",
+          "label": "Your goal in South",
+          "detail": "10% more: 500 becomes 550",
+          "highlight": false
+        },
+        {
+          "value": "−50",
+          "label": "Your rivals in South",
+          "detail": "Demand stays at 2,000, so your gain is their loss",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Rivalry",
+      "body": [
+        "**Rivalry** is how hard the businesses already in a market fight each other for the same customers.",
+        "When rivalry is mild, competitors try to win with better products and service, and prices stay healthy. When it is intense, they cut prices, match each other's deals and spend more on ads. Much of the profit ends up with customers.",
+        "The key word is *intensity*. Rivalry is about how hard rivals fight, not how many there are."
+      ],
+      "image": {
+        "label": "A dial from mild to intense rivalry",
+        "aspectRatio": "16:9",
+        "brief": "반원형 계기판 인포그래픽. 왼쪽 'Mild'(초록), 오른쪽 'Intense'(빨강). 바늘 아래에 'North'와 'South' 두 개의 표시. South가 Intense 쪽에 위치.",
+        "url": "assets/images/str-02-06-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "What turns up the heat",
+      "body": [
+        "Rivalry gets more intense when the market has these features:"
+      ],
+      "list": [
+        "**Slow growth:** gains must come from rivals",
+        "**Similar products:** customers switch for a small price difference",
+        "**Rivals of similar size:** no one leads, so everyone pushes",
+        "**High fixed costs:** an empty table at 2 p.m. still pays rent, so filling it at any price looks tempting",
+        "**Hard to leave:** long leases and owned equipment keep weak players fighting"
+      ],
+      "callout": "These are features of the industry, not of the people running it.",
+      "softwareNote": "Software often has all five: similar features, near-zero cost per extra user, and high fixed costs in engineering. Once a category stops growing, rivals fight through free tiers and discounts."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Another twist",
+      "title": "Same flat market, a calmer fight",
+      "illustrative": true,
+      "body": [
+        "Now picture South again, still at 2,000 lunches a day. But this time the four shops sell ramen, salads, bakery items and sandwiches.",
+        "A ramen fan will not switch to salad to save 50 cents. Each shop competes mostly on its own kind of customer. Price cuts win fewer customers, so they happen less.",
+        "Growth stayed the same. **Differentiation**, meaning products that customers see as different, lowered the heat."
+      ],
+      "image": {
+        "label": "Four different food shops on one street",
+        "aspectRatio": "16:9",
+        "brief": "같은 거리에 라멘, 샐러드, 베이커리, 샌드위치 가게 4곳. 손님들이 각자 다른 가게로 가는 화살표. 할인 배너 없음. 실제 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/str-02-06-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Mild rivalry rarely lasts.",
+      "body": [
+        "North's 25% growth will slow one day. The shops that hired and expanded for growth will then have extra capacity to fill. That can make the fight harder than South's ever was.",
+        "Mild rivalry also draws in new competitors, a separate force covered in its own lesson.",
+        "And agreeing with rivals on prices is not the fix. In many countries it is illegal. The lasting answer is to change what you compete on."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a scheduling app.",
+      "illustrative": true,
+      "body": [
+        "Your app helps dental clinics book patients. Five apps offer similar features. Most clinics already use one, so the market has stopped growing. Clinics can export their data and switch in a day.",
+        "A rival just cut its price by 30%. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Match the 30% cut right away",
+            "verdict": "risky",
+            "feedback": "You keep your users this month. But in a flat market with similar products, the rival can cut again, and all five apps end up earning less."
+          },
+          {
+            "key": "B",
+            "text": "Build features for a niche, such as orthodontists, so you aren't compared on price",
+            "verdict": "best",
+            "feedback": "It takes time and you may lose some price-focused clinics. But it reduces how similar you look, which is one of the things driving the fight."
+          },
+          {
+            "key": "C",
+            "text": "Keep your price and spend more on ads",
+            "verdict": "partial",
+            "feedback": "You avoid a price war. But in a flat market, ads mostly move clinics between rivals, which is just another way of fighting."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Rivalry is set by the market's shape, not the number of rivals.",
+      "body": [
+        "When a market stops growing and products look alike, every gain comes from a rival. Expect a response before you push.",
+        "**Try it today:** check whether your market grew last year. Then name what customers would switch for: price, or something only you offer."
+      ],
+      "next": "Next · Put all five forces to work on a coffee shop"
+    }
+  ]
+}

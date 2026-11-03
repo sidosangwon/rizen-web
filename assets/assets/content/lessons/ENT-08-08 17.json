@@ -1,0 +1,256 @@
+{
+  "id": "ENT-08-08",
+  "unitId": "ENT-08",
+  "categoryId": "ENT",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "Weigh an acquisition offer for an app",
+  "readerTitle": "A $3 million offer for your app: what is it really worth?",
+  "format": "everyday_scene",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.2,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (애견 미용실 예약 앱, 기장 대행 회사) · 모든 수치는 설명용",
+  "insight": "인수 제안은 제시된 총액이 아니라 '이 인수자에게 내 회사가 얼마짜리인가'와 '그중 확실히 받는 돈이 얼마인가'라는 두 질문으로 읽는다.",
+  "misconception": "인수 제안은 총액이 큰 쪽이 좋은 제안이고, 내 회사의 가치는 내가 버는 이익으로 정해진다.",
+  "relatedLessonIds": [
+    "ENT-08-04",
+    "ENT-08-02"
+  ],
+  "sources": [
+    {
+      "text": "인수합병의 일반적인 거래 조건 (현금 지급, 주식 지급, 언아웃, 창업자 잔류 조건)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "앱 제안 구성 계산: 현금 $1.5M + 인수자 주식 $0.9M + 언아웃 $0.6M = $3.0M. 확실한 현금 비중 50%.",
+      "status": "open"
+    },
+    {
+      "note": "기장 대행 회사 제안 계산: 제안 1은 전액 현금 $1.2M, 제안 2는 현금 $0.6M + 언아웃 $0.9M = $1.5M. 제안 2의 확실한 현금은 $0.6M로 제안 1의 절반.",
+      "status": "open"
+    },
+    {
+      "note": "특정 국가의 세금·법률 조언을 피하려고 '거래 구조에 따라 세금이 달라질 수 있으니 전문가와 상의하라'는 일반적인 문장만 넣었습니다. 게시 전 표현을 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Exits · Apply",
+      "title": "A $3 million offer for your app",
+      "illustrative": true,
+      "body": [
+        "Priya built a booking app for dog groomers. About 1,200 salons pay for it each month. It brings in roughly $600,000 a year and keeps about $250,000 after costs.",
+        "On a Tuesday morning, an email arrives from a larger company that sells payment software to pet businesses. The subject line: **\"Offer to acquire, $3,000,000.\"**"
+      ],
+      "image": {
+        "label": "A laptop showing an email with a large offer amount",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 작은 작업실 책상 위 노트북 화면에 \"Offer to acquire: $3,000,000\" 메일. 옆에 강아지 미용 가위와 커피잔. 실제 회사 로고나 메일 서비스 로고는 쓰지 않음.",
+        "url": "assets/images/ent-08-08-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What should Priya compare $3 million against?",
+      "illustrative": true,
+      "body": [
+        "The buyer explains its plan: offer its payment service to every salon on Priya's app.",
+        "Before replying, Priya wants a yardstick. Which one matters most?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "What the app earns her on its own each year",
+            "verdict": "partial",
+            "feedback": "This is her walk-away point: below it, keeping the app may be better. But it says nothing about how much this buyer could afford to pay."
+          },
+          {
+            "key": "B",
+            "text": "What the buyer can earn from her 1,200 salons once it owns them",
+            "verdict": "best",
+            "feedback": "This is **what your company is worth to a buyer**. The buyer is paying for its own plan, not just her profit, and that sets how high it can go."
+          },
+          {
+            "key": "C",
+            "text": "The price a founder friend got for her app last year",
+            "verdict": "risky",
+            "feedback": "Easy to find, but a different app with a different buyer. It can anchor her far too low or far too high."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "Worth to a buyer",
+      "title": "Her salons are worth more to them than to her.",
+      "illustrative": true,
+      "body": [
+        "On her own, Priya earns from subscriptions. The buyer could earn from subscriptions *and* from every payment a salon takes, for years.",
+        "She can't see the buyer's spreadsheet, but she can estimate the gap. That gap between her value and theirs is the room to negotiate.",
+        "It also tells her who else to call. Any company that sells to pet businesses might want the same salons. A second interested buyer is the strongest reason for the first to pay more."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "breakdown",
+      "eyebrow": "Read the fine print",
+      "title": "Only half of the $3 million is certain.",
+      "illustrative": true,
+      "body": [
+        "The headline is one number. The offer is really three, and only the first lands in her bank account on signing day."
+      ],
+      "breakdown": [
+        {
+          "value": "$1.5M",
+          "label": "Cash at closing",
+          "detail": "Paid when the deal is signed",
+          "highlight": true
+        },
+        {
+          "value": "$0.9M",
+          "label": "Buyer's stock",
+          "detail": "Worth whatever their shares are worth later",
+          "highlight": false
+        },
+        {
+          "value": "$0.6M",
+          "label": "Earnout",
+          "detail": "Paid only if app revenue hits a target in 2 years",
+          "highlight": false
+        },
+        {
+          "value": "$3.0M",
+          "label": "Headline price",
+          "detail": "Plus: Priya must stay for 2 years",
+          "highlight": false
+        }
+      ],
+      "softwareNote": "Earnouts and stock are common in software deals because buyers are unsure the users will stay after the sale. That risk moves from the buyer to the founder."
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Priya can push on one thing. Which?",
+      "illustrative": true,
+      "body": [
+        "Her goal: pay off her house and fund her next project. She plans to stay the two years either way."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Ask for $3.5M with the same split",
+            "verdict": "risky",
+            "feedback": "A bigger headline feels like a win, but most of the extra would sit in stock and earnout. She'd gain on paper and add risk."
+          },
+          {
+            "key": "B",
+            "text": "Accept a lower total, around $2.8M, if more is cash at closing",
+            "verdict": "best",
+            "feedback": "She trades some upside for certainty, which fits her goal. **Being acquired** means judging the terms, not just the total."
+          },
+          {
+            "key": "C",
+            "text": "Accept as is; she'll work hard and hit the earnout",
+            "verdict": "risky",
+            "feedback": "Hard work helps, but after the sale the buyer controls pricing, budget and staff. Effort alone may not hit the target."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Being acquired",
+      "title": "After signing, it's their company.",
+      "illustrative": true,
+      "body": [
+        "Priya's earnout depends on app revenue. Yet the buyer plans to bundle her app with payments, maybe at a discount. That could help the buyer and still shrink *her* revenue number.",
+        "So before she signs, she asks three questions. Who sets prices? Can they cut her team? How exactly is the target measured?",
+        "If the answers put the target out of her hands, that $0.6M deserves little weight when she compares offers."
+      ],
+      "image": {
+        "label": "Founder handing car keys to a new driver",
+        "aspectRatio": "16:9",
+        "brief": "클레이 일러스트. 창업자가 작은 차의 열쇠를 큰 회사 직원에게 건네고, 차 계기판에 \"Earnout target\" 게이지. 운전대는 이제 새 주인이 잡고 있다는 느낌. 로고 없음.",
+        "url": "assets/images/ent-08-08-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Don't chase every last dollar of their value.",
+      "body": [
+        "No buyer will hand over all the value its plan might create. It is taking the risk that the plan fails. Pushing too hard can end the talks.",
+        "Stock can also fall, and terms that look equal can be taxed very differently depending on where you live. Get a lawyer and an accountant before signing.",
+        "And money isn't the only term. Two years working for someone else is part of the price too."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a bookkeeping firm.",
+      "illustrative": true,
+      "body": [
+        "Marco's firm does the books for 80 small businesses. Two offers arrive. A private investor offers **$1.2M, all cash**. A larger accounting firm offers **$1.5M**: $0.6M cash and $0.9M if clients stay for three years. That firm plans to move clients to its own office and raise fees."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Take the $1.5M. It's the bigger number",
+            "verdict": "risky",
+            "feedback": "Only $0.6M is certain, and the buyer's own fee increase could drive clients away and cut the earnout."
+          },
+          {
+            "key": "B",
+            "text": "Take the $1.2M in cash and move on",
+            "verdict": "partial",
+            "feedback": "Safe and certain. But the larger firm can likely earn more from his clients, so he may be leaving money on the table."
+          },
+          {
+            "key": "C",
+            "text": "Go back to the larger firm and ask for more cash at closing",
+            "verdict": "best",
+            "feedback": "His clients are worth most to the firm that can serve them at scale, and its fee plan threatens the earnout. Use the cash offer as leverage."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Ask what you're worth to them, then count what's certain.",
+      "body": [
+        "This lesson used two ideas: **what your company is worth to a buyer** sets how high an offer can go, and the terms of **being acquired** decide how much of that number you actually receive.",
+        "**Try it today:** list three companies that could earn more from your customers than you do. Write one sentence on why."
+      ],
+      "next": "Next · Ben & Jerry's sells to Unilever"
+    }
+  ]
+}

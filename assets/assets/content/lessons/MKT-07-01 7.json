@@ -1,0 +1,262 @@
+{
+  "id": "MKT-07-01",
+  "unitId": "MKT-07",
+  "categoryId": "MKT",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Paying for customers",
+  "readerTitle": "The $80 contact that cost $5,000",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (산업용 포장재 제조사의 전시회, 일정 관리 앱의 광고) · 모든 수치는 설명용",
+  "insight": "고객 확보 비용은 클릭이나 문의 한 건의 값이 아니라, 고객 한 명을 얻는 데 든 모든 돈이며, 매출이 아니라 그 고객이 남기는 돈과 회수 기간으로 판단한다.",
+  "misconception": "클릭당·문의당 비용이 싸면 마케팅이 효율적이다. 고객의 첫해 매출이 확보 비용보다 크면 이익이다.",
+  "relatedLessonIds": [
+    "MKT-07-02",
+    "MKT-07-10"
+  ],
+  "sources": [
+    {
+      "text": "마케팅·단위경제의 표준 개념 (고객 확보 비용, 공헌이익, 회수 기간)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "전시회 계산: 부스·출장 $24,000 ÷ 연락처 300개 = 연락처당 $80. 전체 비용 $24,000 + 후속 영업 $6,000 = $30,000 ÷ 신규 고객 6곳 = 고객당 $5,000. 전환율 6 ÷ 300 = 2%. 후속 영업을 빼면 $24,000 ÷ 6 = $4,000 (선택지 B).",
+      "status": "open"
+    },
+    {
+      "note": "회수 계산: 연 매출 $10,000 × 공헌이익률 30% = 연 $3,000 (월 $250). 회수 기간 $5,000 ÷ $250 = 20개월. 3년 유지 시 $3,000 × 3 = $9,000. 신규 고객 20곳 × $5,000 = $100,000.",
+      "status": "open"
+    },
+    {
+      "note": "앱 계산: 체험 가입당 $40 ÷ 전환율 10% = 유료 고객당 $400. 월 $25 − 고객당 비용 $5 = 월 $20. 회수 기간 $400 ÷ $20 = 20개월. 평균 18개월 유지 시 18 × $20 = $360 → 고객당 $40 손실. 연 매출 $25 × 12 = $300.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Marketing · Numbers twist",
+      "title": "The $80 contact that cost $5,000",
+      "illustrative": true,
+      "body": [
+        "A company that makes industrial packaging rents a booth at a trade show. Three days later, the sales team flies home with 300 business cards.",
+        "The show cost $24,000. That's $80 per contact. The sales manager calls it a bargain.",
+        "Six months later, the real number looks very different."
+      ],
+      "image": {
+        "label": "Stack of 300 business cards next to a small row of six signed contracts",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 왼쪽에 명함이 높게 쌓여 있고 \"300 contacts\" 라벨, 오른쪽에 서명된 계약서 6장만 작게 놓여 있음. 배경은 산업 전시회 부스와 골판지 상자. 실제 기업 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What did each new customer cost?",
+      "illustrative": true,
+      "body": [
+        "After the show, your sales rep spends weeks following up: calls, factory visits, free samples. That effort costs about $6,000.",
+        "In the end, six of the 300 contacts become customers. What did each new customer really cost?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "$80, the cost per contact",
+            "verdict": "risky",
+            "feedback": "That's the price of a business card, not a customer. Most contacts never buy, so this number makes the show look far cheaper than it was."
+          },
+          {
+            "key": "B",
+            "text": "$4,000, the show cost divided by six customers",
+            "verdict": "partial",
+            "feedback": "Closer, and the right idea. But it leaves out the $6,000 of follow-up, which you only spent because of the show."
+          },
+          {
+            "key": "C",
+            "text": "$5,000, all show and follow-up costs divided by six",
+            "verdict": "best",
+            "feedback": "Right. Every dollar spent to turn those contacts into buyers belongs in the count. Next card shows the math."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Follow the money to a signed customer.",
+      "illustrative": true,
+      "body": [
+        "Only 2% of contacts became customers. So the $80 contact was really a **$5,000 customer**."
+      ],
+      "breakdown": [
+        {
+          "value": "$24,000",
+          "label": "The show",
+          "detail": "Booth, stand, travel",
+          "highlight": false
+        },
+        {
+          "value": "+$6,000",
+          "label": "Follow-up",
+          "detail": "Calls, visits, samples",
+          "highlight": false
+        },
+        {
+          "value": "÷ 6",
+          "label": "New customers",
+          "detail": "Out of 300 contacts",
+          "highlight": false
+        },
+        {
+          "value": "$5,000",
+          "label": "Cost per customer",
+          "detail": "What winning one buyer took",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Customer acquisition cost",
+      "body": [
+        "**Customer acquisition cost** is everything you spend to win new customers in a period, divided by the number of customers you actually won.",
+        "Cost per click, per lead or per contact are only steps on the way. They look cheap because most of them never buy.",
+        "Count it all: ads, events, sales time, samples and sign-up discounts."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "chart",
+      "eyebrow": "A second twist",
+      "title": "Compare it to what a customer leaves, not what they pay.",
+      "illustrative": true,
+      "body": [
+        "Each new customer orders about $10,000 of packaging a year. Materials, labor and shipping take 70%, leaving $3,000 a year.",
+        "That's $250 a month against a $5,000 cost: **20 months** to earn it back. If customers stay three years, each leaves $9,000. The show worked, but not as well as \"$10,000 in sales for $5,000\" suggests."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Per new customer",
+            "rows": [
+              {
+                "label": "Cost to win",
+                "value": 5000,
+                "highlight": true
+              },
+              {
+                "label": "Year 1 sales",
+                "value": 10000,
+                "highlight": false
+              },
+              {
+                "label": "Year 1 left after costs",
+                "value": 3000,
+                "highlight": false
+              },
+              {
+                "label": "3 years left after costs",
+                "value": 9000,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "callout": "Sales are what customers pay you. What matters is what they leave you."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Paying for customers means paying in advance.",
+      "body": [
+        "You spend the $5,000 today. It comes back slowly, month by month. The time it takes is the **payback period**.",
+        "This is why growing fast with paid marketing can drain cash even when every customer is profitable. Win 20 customers this quarter and $100,000 goes out now, returning over almost two years."
+      ],
+      "image": {
+        "label": "Coins leaving at once, returning drip by drip over 20 months",
+        "aspectRatio": "16:9",
+        "brief": "타임라인 인포그래픽. 왼쪽 0개월 지점에서 큰 동전 더미가 한 번에 빠져나가고(\"−$5,000\"), 오른쪽으로 20개의 작은 동전이 한 달에 하나씩 돌아옴(\"+$250 / month\"). 20개월 지점에 \"Paid back\" 깃발.",
+        "url": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Lifetimes are guesses. Averages hide channels.",
+      "body": [
+        "\"Customers stay three years\" is an estimate. Young businesses often don't know yet, and an optimistic guess makes almost any spending look good. Payback, counted in months of real margin, is harder to fool.",
+        "Averages also mix channels. One way of finding customers might cost $2,000 per customer and another $12,000. Work out the cost for each channel on its own before deciding where to spend."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a scheduling app.",
+      "illustrative": true,
+      "body": [
+        "Online ads bring trial sign-ups at $40 each. One in ten trials becomes a paying user. The plan is $25 a month, and servers, payment fees and support cost about $5 per user.",
+        "Paying users stay about 18 months on average. The marketer wants to double the ad budget. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Double it. $40 a trial is cheap next to $300 a year in fees",
+            "verdict": "risky",
+            "feedback": "That compares a sign-up to revenue. Each paying user really costs $400 and leaves $20 a month, so 18 months returns $360. Doubling spend doubles the loss."
+          },
+          {
+            "key": "B",
+            "text": "Don't scale yet. Lift trial conversion or retention until users earn back more than they cost",
+            "verdict": "best",
+            "feedback": "Payback is 20 months but users leave after 18. Fixing conversion or retention turns the same ads into a channel worth growing."
+          },
+          {
+            "key": "C",
+            "text": "Stop all ads for good. Paying for users clearly doesn't work",
+            "verdict": "partial",
+            "feedback": "It stops a $40 loss per user, but gives up a channel that may work once conversion improves. The problem is the numbers, not paying for users."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A customer is worth buying when what they leave beats what they cost.",
+      "body": [
+        "Count every cost of winning a customer, then compare it to the margin they leave and how fast it comes back.",
+        "**Try it today:** pick one way you win customers. Add up last month's full cost, divide by the new customers it brought, and see how many months of margin it takes to earn back."
+      ],
+      "next": "Next · The customers you don't pay for"
+    }
+  ]
+}

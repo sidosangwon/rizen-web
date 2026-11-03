@@ -1,0 +1,232 @@
+{
+  "id": "THK-10-03",
+  "unitId": "THK-10",
+  "categoryId": "THK",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "The one-page memo",
+  "readerTitle": "Why a one-page memo takes longer to write, and saves more time",
+  "format": "numbers_twist",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.4,
+  "caseKinds": [
+    "illustrative",
+    "real_company",
+    "real_observation"
+  ],
+  "caseNote": "가상 사례 (리모델링 회사, B2B 시설관리 업체) + 실제 관찰 (Pascal의 문장, Amazon의 6페이지 메모) · 시간 수치는 모두 설명용",
+  "insight": "한 페이지 제한은 읽는 사람을 위한 배려이기 전에, 쓰는 사람이 무엇이 중요한지 고르게 만드는 사고 도구다.",
+  "misconception": "한 페이지 메모는 긴 문서를 줄여 쓴 요약본이고, 길고 자세할수록 더 철저한 문서다.",
+  "relatedLessonIds": [
+    "THK-10-01",
+    "THK-10-09"
+  ],
+  "sources": [
+    {
+      "text": "Blaise Pascal, Lettres provinciales (1657), 16th letter: \"I have made this longer than usual because I have not had time to make it shorter.\"",
+      "url": null
+    },
+    {
+      "text": "Jeff Bezos, Amazon 2017 Letter to Shareholders (six-page narrative memos)",
+      "url": null
+    },
+    {
+      "text": "모든 시간 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "시간 계산(가상): 긴 문서 = 작성 2시간 + 읽기 6명×30분 3시간 + 회의 7명×1시간 7시간 = 12시간. 한 페이지 = 작성 4시간 + 읽기 6명×5분 0.5시간 + 회의 7명×30분 3.5시간 = 8시간. 차이 4시간(약 33% 감소).",
+      "status": "open"
+    },
+    {
+      "note": "Pascal 문장은 『시골 친구에게 보내는 편지』 16번째 편지(1657)에 나옵니다. 영어 번역 표현은 판본마다 조금 다르므로 카드에는 의역 형태로 적었습니다. 게시 전 번역 문구를 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Amazon이 회의에서 파워포인트 대신 6페이지 서술형 메모를 쓴다는 내용은 Bezos의 2017년 주주서한에 나옵니다. 게시 전 원문으로 다시 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Numbers twist",
+      "title": "Why a one-page memo takes longer to write, and saves more time",
+      "illustrative": true,
+      "body": [
+        "A ten-page proposal takes two hours to write. A one-page version of the same idea takes four.",
+        "The short one costs twice as much to produce. Yet across the whole team, it usually saves hours, and it gets a decision made."
+      ],
+      "image": {
+        "label": "A thick stack of pages next to a single sheet",
+        "aspectRatio": "4:3",
+        "brief": "책상 위에 두꺼운 서류 더미와 종이 한 장이 나란히 놓여 있음. 종이 한 장 옆에는 더 큰 모래시계, 서류 더미 옆에는 작은 모래시계. 따뜻한 플랫 일러스트, 실제 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Your project manager sends ten pages.",
+      "illustrative": true,
+      "body": [
+        "You co-own a home renovation company. Your project manager wants to switch from hourly billing to fixed-price quotes. She sends the three partners a ten-page proposal.",
+        "Everyone is busy, and the partners' meeting is next week. What do you ask her for?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep the ten pages, but add a summary at the top",
+            "verdict": "partial",
+            "feedback": "Readers save time, but she never had to choose what matters most. The weak spots stay buried on page seven."
+          },
+          {
+            "key": "B",
+            "text": "One page: the decision, why, the costs and risks, what's needed. Details go in an appendix",
+            "verdict": "best",
+            "feedback": "It costs her more effort up front. In return, she has to commit to a recommendation, and the partners can judge it in minutes."
+          },
+          {
+            "key": "C",
+            "text": "Skip the document and talk it through at the meeting",
+            "verdict": "risky",
+            "feedback": "Faster for her, but nobody arrives having thought it through. The loudest partner tends to win, and there's no record of why you decided."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Count everyone's hours, not just the writer's.",
+      "illustrative": true,
+      "body": [
+        "Six readers and a seven-person meeting. The writer spends **twice as long**, and the team spends a third less time overall."
+      ],
+      "breakdown": [
+        {
+          "value": "2h → 4h",
+          "label": "Writing",
+          "detail": "Shorter takes longer to write",
+          "highlight": false
+        },
+        {
+          "value": "3h → 0.5h",
+          "label": "Reading",
+          "detail": "6 readers: 30 min each vs 5 min each",
+          "highlight": false
+        },
+        {
+          "value": "7h → 3.5h",
+          "label": "Meeting",
+          "detail": "7 people: 1 hour vs 30 minutes",
+          "highlight": false
+        },
+        {
+          "value": "12h → 8h",
+          "label": "Total team time",
+          "detail": "The extra writing pays for itself",
+          "highlight": true
+        }
+      ],
+      "softwareNote": "null"
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The one-page memo",
+      "body": [
+        "A **one-page memo** is a decision document with a hard length limit and a fixed shape: what we're deciding, what I recommend, why, what it costs, what could go wrong, and what happens next.",
+        "Everything else goes in an appendix that readers can open if they want.",
+        "The limit isn't mainly for the reader. It's for the writer. When only a few things fit, you have to decide which few things matter."
+      ],
+      "image": {
+        "label": "A single page divided into six labeled boxes",
+        "aspectRatio": "16:9",
+        "brief": "종이 한 장을 여섯 칸으로 나눈 인포그래픽. 칸마다 \"Decision\", \"Recommendation\", \"Why\", \"Cost\", \"Risks\", \"Next step\" 라벨. 종이 뒤로 \"Appendix\"라고 적힌 얇은 서류가 살짝 보임.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Cutting is where the thinking happens.",
+      "body": [
+        "The philosopher Blaise Pascal once apologized for a long letter, saying he hadn't had time to make it shorter. Cutting is hard because each cut is a judgment call. A one-page limit forces three of them:"
+      ],
+      "list": [
+        "**Pick one recommendation.** No room to list five options and hope someone chooses.",
+        "**Name the top reasons.** Two or three, not twelve.",
+        "**Face the main risk.** Hiding it would take space you don't have."
+      ],
+      "callout": "If you can't fill the page clearly, you may not be ready to decide yet.",
+      "softwareNote": "A product team asking to rebuild a feature can write one page: the problem in numbers, the proposed fix, the engineering weeks it needs, and what gets delayed. The roadmap details go in the appendix."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Short is not the same as simple.",
+      "body": [
+        "Some decisions really are complex. Amazon, for example, asks for longer six-page narrative memos for big meetings. The principle is the same: a fixed limit and full sentences, not a slide of bullet points.",
+        "The bigger danger is cutting the wrong things. A one-page memo that drops the risks and costs to stay upbeat is short and misleading. Trim background and history first, never the parts that could change the answer."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a facilities contract.",
+      "illustrative": true,
+      "body": [
+        "You run a commercial cleaning firm. You want a client's operations director to expand your contract to two more buildings at a higher monthly fee. Your draft runs to three pages.",
+        "What do you cut to fit one page?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Cut the section on transition risks so the pitch stays positive",
+            "verdict": "risky",
+            "feedback": "It reads better, but the director will spot the gap and trust the rest less. The risks are what she needs most to say yes."
+          },
+          {
+            "key": "B",
+            "text": "Move the account history and task-by-task checklist to an appendix",
+            "verdict": "best",
+            "feedback": "The page keeps the ask, the price, the reasons and the risks. She loses nothing she needs, and the detail is still there if she wants it."
+          },
+          {
+            "key": "C",
+            "text": "Shrink the font and margins until all three pages fit",
+            "verdict": "risky",
+            "feedback": "Technically one page, but you've skipped the choosing. It's as slow to read as before, and the ask is still hard to find."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A one-page limit makes you decide what matters.",
+      "body": [
+        "The page limit costs the writer more time and saves everyone else much more. Above all, it forces a clear recommendation, honest risks and a next step.",
+        "**Try it today:** take one proposal you're working on. Write it on a single page under six headings: decision, recommendation, why, cost, risks, next step. Notice what you had to leave out."
+      ],
+      "next": "Next · How to show what each option really costs"
+    }
+  ]
+}

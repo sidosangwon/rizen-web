@@ -1,0 +1,222 @@
+{
+  "id": "CUS-05-06",
+  "unitId": "CUS-05",
+  "categoryId": "CUS",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Loss aversion",
+  "readerTitle": "Why a 5-cent bag fee works and a 5-cent bonus doesn't",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 연구 (Homonoff 2018 비닐봉지 세금 vs 보너스, Kahneman·Knetsch·Thaler 1990 머그컵 실험) + 가상 적용 (사내 팀 근무제 변경). 이 개념은 같은 금액의 반전이 핵심이라 company_story 대신 numbers_twist로 바꿨습니다.",
+  "insight": "같은 금액이라도 '잃는 것'으로 보이면 '얻는 것'보다 훨씬 강하게 행동을 바꾼다. 그래서 무엇을 주느냐만큼 무엇을 빼앗는 것처럼 보이느냐가 중요하다.",
+  "misconception": "금액이 같으면 할인이든 추가 요금이든 고객 반응도 같다. 혜택을 하나 없애도 비슷한 가치의 혜택을 주면 사람들은 공평하다고 느낀다.",
+  "relatedLessonIds": [
+    "CUS-05-03",
+    "CUS-05-07"
+  ],
+  "sources": [
+    {
+      "text": "Homonoff, T. (2018). Can Small Incentives Have Large Effects? The Impact of Taxes versus Bonuses on Disposable Bag Use. American Economic Journal: Economic Policy, 10(4).",
+      "url": null
+    },
+    {
+      "text": "Kahneman, D. & Tversky, A. (1979). Prospect Theory: An Analysis of Decision under Risk. Econometrica.",
+      "url": null
+    },
+    {
+      "text": "Tversky, A. & Kahneman, D. (1992). Advances in Prospect Theory. Journal of Risk and Uncertainty.",
+      "url": null
+    },
+    {
+      "text": "Kahneman, D., Knetsch, J. & Thaler, R. (1990). Experimental Tests of the Endowment Effect and the Coase Theorem. Journal of Political Economy.",
+      "url": null
+    },
+    {
+      "text": "Gal, D. & Rucker, D. (2018). The Loss of Loss Aversion. Journal of Consumer Psychology.",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Homonoff(2018): 워싱턴 D.C.의 봉지당 5센트 세금은 일회용 봉지를 쓰는 고객 비율을 40%포인트 이상 줄였고, 메릴랜드 몽고메리 카운티 등 비교 지역의 장바구니 5센트 보너스는 거의 효과가 없었다는 내용. 정확한 수치와 비교 지역 설정을 논문 원문으로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "'손실이 같은 크기의 이득보다 약 두 배 강하게 느껴진다'는 Tversky & Kahneman(1992)의 추정치(λ≈2.25)에 근거합니다. 연구마다 값이 달라 카드에는 'roughly twice'로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "머그컵 실험: 머그를 받은 사람이 요구한 판매 가격이 사려는 사람의 지불 의사 가격의 약 두 배였다는 결과. 원문 수치(중앙값 약 $7 vs 약 $3 안팎)를 확인하세요. 카드에는 'about twice'로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Watch out 카드의 학계 논쟁은 Gal & Rucker(2018)를 근거로 일반적인 수준에서만 서술했습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Numbers twist",
+      "title": "Same five cents. Opposite results.",
+      "body": [
+        "Two places near Washington, D.C., tried to get shoppers to stop taking disposable bags. Both used exactly five cents.",
+        "One charged five cents for every disposable bag. The other paid shoppers five cents for every reusable bag they brought. On paper, it's the same deal."
+      ],
+      "image": {
+        "label": "Two checkout counters, one with a 5-cent fee sign and one with a 5-cent reward sign",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 나란히 있는 두 개의 마트 계산대. 왼쪽 계산대에는 \"−5¢ per bag\" 표지판과 비닐봉지, 오른쪽에는 \"+5¢ for your own bag\" 표지판과 장바구니. 실제 마트 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which one changed shopping habits more?",
+      "body": [
+        "A five-cent fee per disposable bag, or a five-cent bonus per reusable bag. The money is identical.",
+        "Which do you think cut disposable bag use more?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The bonus. People respond better to rewards than to penalties",
+            "verdict": "risky",
+            "feedback": "Rewards feel friendlier and avoid annoying customers. But in this study the bonus barely moved behavior."
+          },
+          {
+            "key": "B",
+            "text": "About the same. Five cents is five cents",
+            "verdict": "partial",
+            "feedback": "That's what a calculator says. It misses how differently people feel about paying versus earning the same amount."
+          },
+          {
+            "key": "C",
+            "text": "The fee, by a wide margin",
+            "verdict": "best",
+            "feedback": "Right. The fee cut disposable bag use sharply, while the bonus did almost nothing. Next card shows why."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "The fee worked. The bonus barely registered.",
+      "body": [
+        "Economist Tatiana Homonoff studied both policies. After D.C. started charging the fee, the share of shoppers taking a disposable bag fell by **more than 40 percentage points**.",
+        "The five-cent bonus for reusable bags had almost no effect. Shoppers simply ignored a small gain.",
+        "Nothing about the bags, the stores or the amount explains the gap. Only the framing changed: losing five cents versus gaining five cents."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Loss aversion",
+      "body": [
+        "**Loss aversion** means a loss feels stronger than a gain of the same size. In many studies, losing something hurts roughly twice as much as gaining it pleases.",
+        "Daniel Kahneman and Amos Tversky described it in 1979. People judge outcomes against a starting point, and dropping below that point weighs more than rising above it.",
+        "A bag fee drops shoppers below their starting point. A bonus nudges them slightly above it."
+      ],
+      "image": {
+        "label": "Lopsided scale: a small loss outweighs an equal gain",
+        "aspectRatio": "16:9",
+        "brief": "저울 인포그래픽. 왼쪽 접시에 \"Lose $5\", 오른쪽 접시에 \"Gain $5\". 같은 금액인데 왼쪽이 훨씬 아래로 기울어짐. 깔끔한 플랫 스타일.",
+        "url": null
+      },
+      "softwareNote": "This is why ending a free trial by removing features a user already set up stings more than inviting them to upgrade. \"You'll lose your saved projects\" moves people more than \"Unlock more projects.\""
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Once it's yours, it's worth more.",
+      "body": [
+        "In a 1990 experiment, Kahneman, Jack Knetsch and Richard Thaler gave coffee mugs to half the people in a room. Owners then asked for about **twice as much** to sell their mug as others were willing to pay for it.",
+        "Nothing about the mug changed. Owning it moved the starting point, so giving it up felt like a loss.",
+        "The same logic shows up in business: a perk customers already have, a feature they already use, a price they're already paying."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond customers",
+      "title": "It works inside your company too.",
+      "body": [
+        "Employees react to losing a perk, a budget line or a desk by the window far more strongly than they'd value gaining the same thing.",
+        "That's why a reorganization that is fair on paper can still feel like theft. People count what they gave up in full and discount what they got in return.",
+        "Leaders often explain changes in terms of total value. Teams hear the list of losses first."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Not every loss looms large.",
+      "body": [
+        "The effect is strongest when people feel something is truly theirs. Spending money they expected to spend, like paying a normal bill, often doesn't feel like a loss at all. Some researchers argue the effect is smaller and more situational than the famous \"twice as much\" suggests.",
+        "And framing can turn into manipulation. Inventing losses, like fake countdown timers or made-up \"last items,\" may work once. Customers notice, and trust is the bigger loss."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now you're changing your team's schedule.",
+      "illustrative": true,
+      "body": [
+        "You lead a 12-person operations team at a large company. Leadership wants to replace the team's Friday half-day with flexible hours across the week. On paper, the total time off is the same.",
+        "How do you roll it out?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Announce it plainly: Friday half-days end next month, flexible hours start",
+            "verdict": "risky",
+            "feedback": "Clear and fast. But people will hear \"we're taking your Friday\" first, and the equal gain will feel smaller than the loss."
+          },
+          {
+            "key": "B",
+            "text": "Offer a small one-time bonus to make up for the change",
+            "verdict": "partial",
+            "feedback": "It shows you see the cost. But because losses weigh more, a small gain rarely offsets taking away something people already own."
+          },
+          {
+            "key": "C",
+            "text": "Let people keep Fridays if they want, and offer flex hours as an option to try for a month",
+            "verdict": "best",
+            "feedback": "Nobody loses anything they have, so resistance drops. You give up a quick, uniform switch, but many may choose flex hours once they've tried it."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "People fight harder to keep than to gain.",
+      "body": [
+        "Before any change, ask what it looks like from the customer's or employee's starting point. What will they feel they are losing?",
+        "**Try it today:** pick one change you're planning, like a price, a policy or a feature. Write down everything someone could feel they lose, then find one way to let them keep it."
+      ],
+      "next": "Next · Why people stay with their bank"
+    }
+  ]
+}

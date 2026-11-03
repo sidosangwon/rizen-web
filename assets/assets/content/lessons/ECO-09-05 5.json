@@ -1,0 +1,242 @@
+{
+  "id": "ECO-09-05",
+  "unitId": "ECO-09",
+  "categoryId": "ECO",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Recessions",
+  "readerTitle": "When a recession comes, customers don't stop buying. They wait.",
+  "format": "two_businesses",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.2,
+  "caseKinds": [
+    "illustrative",
+    "real_observation"
+  ],
+  "caseNote": "가상 사례 (동네 비스트로, 소규모 대행사용 프로젝트 관리 소프트웨어) + 일반적인 경기침체 관찰 · 모든 수치는 설명용",
+  "insight": "경기침체는 매출을 고르게 깎지 않는다. 미룰 수 있는 지출과 더 싸게 바꿀 수 있는 지출부터 줄어든다. 그래서 '우리 매출 중 고객이 미룰 수 있는 부분은 어디인가'를 먼저 묻는다.",
+  "misconception": "불황이 오면 모든 고객이 똑같이 지출을 끊으니, 전 품목 가격을 내리거나 영업을 더 세게 밀면 된다.",
+  "relatedLessonIds": [
+    "ECO-09-03",
+    "ECO-09-10"
+  ],
+  "sources": [
+    {
+      "text": "NBER Business Cycle Dating Committee: 경기침체의 정의 (경제 전반에 퍼지고 몇 달 이상 지속되는 경제 활동의 뚜렷한 감소)",
+      "url": "https://www.nber.org/research/business-cycle-dating"
+    },
+    {
+      "text": "거시경제학의 일반적인 관찰: 경기침체기에는 내구재와 재량 지출이 필수 지출보다 더 크게 줄어든다 (예: 미국 BEA 개인소비지출 통계)",
+      "url": null
+    },
+    {
+      "text": "두 사업의 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "'GDP 2분기 연속 감소'는 널리 쓰이는 경험칙일 뿐 공식 정의는 아닙니다. 미국 NBER는 생산, 고용, 소득, 소비를 함께 보고 판단합니다. 카드 4의 문구가 이 차이를 정확히 반영하는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "NBER가 경기침체의 시작 시점을 몇 달 뒤에야 발표한다는 점(카드 7)을 확인하세요. 예: 2007년 12월에 시작된 침체를 2008년 12월에 발표했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "'경기침체기에 내구재와 재량 지출이 필수 지출보다 더 크게 줄어든다', '수리와 저가 대체재 수요가 상대적으로 버틴다'는 일반적 경향입니다. 모든 침체에 해당하지는 않으므로 카드에 'often'으로 적었습니다. 게시 전에 표현을 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "2020년 팬데믹 침체에서 식당 같은 대면 서비스업이 특히 크게 타격받았다는 점(카드 7)은 널리 보고된 내용입니다. 구체적인 수치는 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "카드 3의 비율(−5%, −30%, −40%, −35% 등)은 모두 가상 수치이며 실제 데이터처럼 읽히지 않도록 illustrative 라벨을 붙였습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Economy · Two businesses",
+      "title": "When a recession comes, customers don't stop buying. They wait.",
+      "illustrative": true,
+      "body": [
+        "A bistro and a small software company share a building. The news says the economy is shrinking, and both see sales fall.",
+        "They lose money in very different places. Neither owner guessed right about where."
+      ],
+      "image": {
+        "label": "A bistro and a software office in the same building, both with a falling sales line",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 2층 건물 단면. 1층은 따뜻한 조명의 비스트로, 2층은 노트북이 놓인 작은 사무실. 각 층 창문에 아래로 꺾이는 매출 선이 있지만 모양이 서로 다름. 실제 로고나 상표 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Your dinner bookings are down 15%.",
+      "illustrative": true,
+      "body": [
+        "You run the bistro. Layoffs are in the news. Regulars still come in, but less often, and the big tables have mostly stopped.",
+        "What's your first move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Cut prices 20% across the whole menu",
+            "verdict": "risky",
+            "feedback": "You win some visits back, but you give up margin on every customer, including the ones who would have paid full price anyway."
+          },
+          {
+            "key": "B",
+            "text": "Keep the menu, and add a cheaper set menu for weeknights",
+            "verdict": "best",
+            "feedback": "Customers who are cutting back can keep coming without trading down to somewhere else. Full-price diners can still order as before."
+          },
+          {
+            "key": "C",
+            "text": "Change nothing and wait for it to pass",
+            "verdict": "partial",
+            "feedback": "You protect your prices, but a recession can last many months. Regulars who form a new habit somewhere cheaper may not come back."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What happened",
+      "title": "Same recession, different holes.",
+      "illustrative": true,
+      "body": [
+        "At the bistro, visits barely fell. Orders got smaller. Upstairs, existing customers stayed, but **new deals stalled** as buyers said \"next quarter.\""
+      ],
+      "breakdown": [
+        {
+          "value": "−5%",
+          "label": "Bistro: visits",
+          "detail": "Regulars still come in, a bit less often",
+          "highlight": false
+        },
+        {
+          "value": "−30%",
+          "label": "Bistro: wine, dessert, big groups",
+          "detail": "The extras people can skip",
+          "highlight": true
+        },
+        {
+          "value": "−5%",
+          "label": "Software: renewals",
+          "detail": "The tool is built into daily work",
+          "highlight": false
+        },
+        {
+          "value": "−40%",
+          "label": "Software: new sales",
+          "detail": "Buyers postpone new commitments",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Recession",
+      "body": [
+        "A **recession** is a broad, lasting fall in economic activity, meaning output, jobs, income and spending. It spreads across many industries and lasts for months, not weeks.",
+        "A common rule of thumb is two quarters in a row of shrinking GDP. Official bodies, like the NBER in the US, look at a wider set of signals.",
+        "For a business, the key fact is this: people rarely stop spending. They **postpone** and they **trade down**."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Spending that can wait falls first.",
+      "body": [
+        "When people fear for their jobs, households and companies save more. They don't cut evenly. They cut what they can delay or swap for something cheaper.",
+        "New cars, renovations, upgrades and new contracts fall hard. Groceries, rent and tools already in daily use fall much less. As delayable sales drop, those businesses cut jobs too, and the slowdown spreads."
+      ],
+      "image": {
+        "label": "Spending sorted into 'can wait' and 'can't wait' piles",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 왼쪽 'Can wait' 더미(새 차, 리모델링, 와인 병, 새 계약서)는 크게 줄어들고, 오른쪽 'Can't wait' 더미(장바구니, 집 열쇠, 이미 쓰는 노트북)는 거의 그대로. 가운데에 걱정하는 사람 아이콘.",
+        "url": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The other side",
+      "title": "Trading down sends money somewhere.",
+      "body": [
+        "Money that leaves one business often lands in another. During recessions, cheaper substitutes often hold up better: discount grocers, takeaway over sit-down meals, repairs over replacements.",
+        "So the useful question isn't only \"will my sales fall?\" It's \"am I the thing people delay, or the thing they switch to?\" A business can be both, depending on the product line."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "No two recessions look the same.",
+      "body": [
+        "Each recession has a different cause. In 2020, a pandemic shut restaurants first, while many software tools grew. Patterns from one downturn may not repeat in the next.",
+        "You also learn late. Official dating of a recession often comes months after it began. And cutting too deep, like letting good staff go or dropping your best product, can leave you weak when demand returns."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's the software company.",
+      "illustrative": true,
+      "body": [
+        "You sell project software to small agencies. Renewals are steady, but new deals keep slipping. Buyers say budgets are frozen, and some customers ask to drop seats as they cut staff.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Hire two more salespeople to push the stalled deals",
+            "verdict": "risky",
+            "feedback": "You add fixed costs just as buyers are choosing to wait. More pressure rarely unfreezes a budget."
+          },
+          {
+            "key": "B",
+            "text": "Protect renewals first, and offer a small monthly plan that needs no budget approval",
+            "verdict": "best",
+            "feedback": "You defend the revenue that holds up and make a new purchase small enough not to postpone. You may earn less per account for a while."
+          },
+          {
+            "key": "C",
+            "text": "Offer 40% off for anyone who prepays a full year",
+            "verdict": "partial",
+            "feedback": "Cash now helps, but a big upfront payment is exactly the kind of commitment buyers are delaying. Existing customers may also take the discount."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "In a recession, find the sales your customers can delay.",
+      "body": [
+        "Recessions hit postponable and upgradable spending hardest. Habits and necessities hold up better. Plan around that, not around an even cut.",
+        "**Try it today:** split your revenue into three parts: what customers can't skip, what they can delay, and what they can swap for something cheaper. Which part is biggest?"
+      ],
+      "next": "Next · How central banks and governments respond"
+    }
+  ]
+}

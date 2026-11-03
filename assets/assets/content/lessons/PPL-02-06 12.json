@@ -1,0 +1,240 @@
+{
+  "id": "PPL-02-06",
+  "unitId": "PPL-02",
+  "categoryId": "PPL",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Coaching",
+  "readerTitle": "The two-minute answer that costs you 50 hours a year",
+  "format": "numbers_twist",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.4,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (신발 매장, 물류 창고) + 실제 연구 (생성 효과, Slamecka & Graf 1978) · 모든 수치는 설명용",
+  "insight": "코칭은 시간이 드는 친절이 아니라, 처음에 시간을 더 쓰고 나중에 반복되는 질문을 없애는 투자다.",
+  "misconception": "답을 바로 알려주는 것이 가장 빠르고 효율적이다. 코칭은 시간 여유가 있을 때나 하는 것이다.",
+  "relatedLessonIds": [
+    "PPL-02-04",
+    "PPL-02-03"
+  ],
+  "sources": [
+    {
+      "text": "Slamecka, N. J., & Graf, P. (1978). The generation effect: Delineation of a phenomenon. Journal of Experimental Psychology: Human Learning and Memory, 4(6), 592–604.",
+      "url": null
+    },
+    {
+      "text": "매장·창고 사례와 모든 시간 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "훅 계산: 하루 6번 × 2분 × 주 5일 × 52주 = 3,120분 = 52시간. 카드에는 \"more than 50 hours\"로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "분석 카드 계산: 알려주기 주당 6×2×5 = 60분. 코칭 1~2주차 주당 6×8×5 = 240분, 3주차부터 주당 2×2×5 = 20분. 1년 코칭 합계 2×240 + 50×20 = 1,480분 ≈ 24.7시간, 절약 3,120 − 1,480 = 1,640분 ≈ 27시간. 손익분기: 누적 11주차에 알려주기 660분 = 코칭 480 + 9×20 = 660분.",
+      "status": "open"
+    },
+    {
+      "note": "생성 효과(generation effect)는 스스로 만들어 낸 정보를 읽은 정보보다 더 잘 기억하는 경향입니다. 원 연구는 단어 기억 실험이므로 카드에서는 \"tend to remember\"로 일반화 수준만 적었습니다. 직장 코칭 효과를 직접 입증한 연구로 쓰지 않았는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "네 가지 질문 순서는 GROW 모델과 비슷하지만 상표·프레임워크 이름을 쓰지 않고 원리만 소개했습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "People · Numbers twist",
+      "title": "The two-minute answer that costs you 50 hours a year",
+      "illustrative": true,
+      "body": [
+        "Maya runs a busy shoe store. About six times a day, her shift lead Sam walks over: \"A customer wants this. What should I do?\"",
+        "Maya answers in two minutes. It feels efficient. Over a year, those quick answers add up to more than 50 hours. And Sam still asks."
+      ],
+      "image": {
+        "label": "A store manager answering the same question again and again",
+        "aspectRatio": "4:3",
+        "brief": "신발 매장 계산대 옆. 매니저가 직원의 질문에 답하는 같은 장면이 여러 겹으로 반복되어 겹쳐 보이고, 벽시계 바늘이 빠르게 돌아가는 모션 라인. 실제 브랜드 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Sam needs an answer.",
+      "illustrative": true,
+      "body": [
+        "Sam asks: a customer wants to return worn shoes without a receipt. What should he do?",
+        "You know the answer. You have five minutes before a delivery arrives."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Tell him: offer store credit, not a cash refund",
+            "verdict": "partial",
+            "feedback": "Fast and correct, and this customer is handled. But Sam learns the answer, not the thinking, so he'll be back with the next odd return."
+          },
+          {
+            "key": "B",
+            "text": "Ask: \"What do you think we should do, and why?\" Then add what he missed",
+            "verdict": "best",
+            "feedback": "It costs a few extra minutes now. In return, Sam practices the judgment he'll need when you aren't there."
+          },
+          {
+            "key": "C",
+            "text": "Tell him to read the returns policy and figure it out",
+            "verdict": "risky",
+            "feedback": "It saves your time, but Sam may guess wrong in front of the customer. He also learns that asking you is unwelcome."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Slower at first. Then much faster.",
+      "illustrative": true,
+      "body": [
+        "Assume coaching takes 8 minutes instead of 2. After two weeks, Sam handles four of every six questions on his own.",
+        "Coaching is behind until about **week 11**. After that, it wins every single week."
+      ],
+      "breakdown": [
+        {
+          "value": "60 min",
+          "label": "Telling, every week",
+          "detail": "6 questions × 2 min × 5 days. It never drops.",
+          "highlight": false
+        },
+        {
+          "value": "240 min",
+          "label": "Coaching, weeks 1–2",
+          "detail": "6 questions × 8 min × 5 days",
+          "highlight": false
+        },
+        {
+          "value": "20 min",
+          "label": "Coaching, from week 3",
+          "detail": "2 questions × 2 min × 5 days",
+          "highlight": false
+        },
+        {
+          "value": "≈27 hrs",
+          "label": "Saved in year one",
+          "detail": "52 hours of telling vs about 25 with coaching",
+          "highlight": true
+        }
+      ],
+      "callout": "(Card shown for illustration only.)",
+      "softwareNote": "(See next card.)"
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Coaching",
+      "body": [
+        "**Coaching** means helping someone get better at solving problems by asking questions that make them think, instead of handing them the answer.",
+        "It is different from feedback, which tells people how past work landed, and from delegating, which hands over a task. Coaching builds the judgment that makes delegating safe."
+      ],
+      "softwareNote": "A senior engineer who answers every \"how should I build this?\" in chat becomes the team's bottleneck. Asking \"What options did you consider?\" takes longer this week and frees their calendar later."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Four questions, in order.",
+      "body": [
+        "A simple coaching conversation moves through four questions:"
+      ],
+      "list": [
+        "**What's happening?** Get the facts first",
+        "**What do you want to happen?** Agree on the goal",
+        "**What could you do?** Ask for at least two options",
+        "**What will you do?** Let them choose, then add what they missed"
+      ],
+      "callout": "Why it sticks: psychologists call it the *generation effect*. People tend to remember answers they produce themselves better than answers they are handed.",
+      "softwareNote": "(See card 4.)"
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The bigger return",
+      "title": "Telling moves an answer. Coaching moves a way of thinking.",
+      "illustrative": true,
+      "body": [
+        "The time math undersells coaching. Three months later, a customer asks Sam about something Maya never covered.",
+        "Sam walks through the same four questions in his head and handles it. When Maya takes a week off, the store keeps running instead of waiting for her phone to ring."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Sometimes you should just tell.",
+      "list": [
+        "**Emergencies and safety:** give a clear instruction now. Talk it through later",
+        "**Complete beginners:** they can't find answers they've never seen. Teach the basics first",
+        "**Decisions you've already made:** steering someone to your answer with questions feels like a quiz. Say what you want"
+      ],
+      "callout": "Coaching pays back on problems that repeat. Spend the extra minutes there."
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a warehouse.",
+      "illustrative": true,
+      "body": [
+        "You supervise a distribution warehouse. Three people come to you in the same hour. Which one deserves a coaching conversation?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "A new hire, on day one, asks how the handheld scanner works",
+            "verdict": "partial",
+            "feedback": "Worth your time, but this is teaching, not coaching. They have nothing to reason from yet, so show them."
+          },
+          {
+            "key": "B",
+            "text": "An experienced packer asks how to cut breakage on fragile orders",
+            "verdict": "best",
+            "feedback": "It's a recurring problem, and they know the work better than anyone. Their own fix is likely to be good and to stick."
+          },
+          {
+            "key": "C",
+            "text": "A forklift driver asks if a pallet over the rated weight is fine to lift",
+            "verdict": "risky",
+            "feedback": "Asking \"what do you think?\" here wastes seconds on a safety risk. Say no clearly, then talk it through afterward."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Answer once, and you'll answer again tomorrow. Coach once, and the question starts to disappear.",
+      "body": [
+        "Coaching costs more today and less every week after.",
+        "**Try it today:** the next time someone brings you a question you've answered before, ask first: \"What do you think we should do?\""
+      ],
+      "next": "Next · Manage a café shift lead"
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "id": "SAL-04-02",
+  "unitId": "SAL-04",
+  "categoryId": "SAL",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "Your walk-away point",
+  "readerTitle": "The deal that cleared your floor and still lost money",
+  "format": "numbers_twist",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (금속 부품 제조사, 식당의 중고 밴 구매, 소프트웨어 기업) · 모든 수치는 설명용. 실제 기업 사례 대신 계산이 분명한 숫자의 반전 형식을 택함",
+  "insight": "협상의 하한선은 가격 하나가 아니라 거래 전체가 남기는 돈으로 정하고, 협상 테이블에 앉기 전에 적어 둔다.",
+  "misconception": "제시 가격이 내 최저 가격보다 높으면 받아들여도 되는 거래다.",
+  "relatedLessonIds": [
+    "SAL-04-01",
+    "SAL-04-03"
+  ],
+  "sources": [
+    {
+      "text": "Raiffa, H. (1982). The Art and Science of Negotiation. Harvard University Press. (reservation price 개념)",
+      "url": null
+    },
+    {
+      "text": "Fisher, R., & Ury, W. (1981). Getting to Yes. (BATNA와 하한선의 관계)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "브래킷 계산: 대안 $14,000 ÷ 10,000개 = 개당 $1.40, 하한 가격 $7.00 + $1.40 = $8.40. 제안 거래 $9.50 − $7.00 − $0.80 − $0.50 = $1.20 × 10,000 = $12,000 (< $14,000). 부대 조건 포함 실제 하한 $8.40 + $0.80 + $0.50 = $9.70.",
+      "status": "open"
+    },
+    {
+      "note": "중고 밴 계산: 다른 매장 $16,500 + 수리비 $800 = $17,300.",
+      "status": "open"
+    },
+    {
+      "note": "소프트웨어 계산: 500석 × $130 = $65,000, 맞춤 연동 비용 $15,000(엔지니어 2명 × 3주라는 가정), 1년 계약 순액 $65,000 − $15,000 = $50,000 (< 하한 $60,000). 정가 500석 × $150 = $75,000.",
+      "status": "open"
+    },
+    {
+      "note": "'reservation point'라는 용어가 Raiffa(1982)에서 reservation price로 쓰인 점을 게시 전 확인하세요. 카드에는 학자 이름 없이 일반 용어로만 적었습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Negotiation · Numbers twist",
+      "title": "The deal that cleared your floor and still lost money",
+      "illustrative": true,
+      "body": [
+        "A parts maker decided its lowest acceptable price was $8.40 a bracket. The buyer signed at $9.50.",
+        "The owner celebrated. Yet the deal left less money than simply saying no would have."
+      ],
+      "image": {
+        "label": "A handshake over a contract with a hidden crack in the floor",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 공장 사무실에서 두 사람이 계약서 위로 악수하고, 발밑 바닥에 \"$8.40\"이라고 적힌 선이 있는데 그 아래로 작은 금이 가 있음. 실제 기업 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/sal-04-02-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "The buyer offers more than your floor, with extras.",
+      "illustrative": true,
+      "body": [
+        "You make metal brackets. A buyer wants 10,000. Each costs you $7 to make. If you say no, a regular customer will use that machine time and leave you $14,000. So you set your floor at $8.40 a bracket.",
+        "The buyer offers $9.50, if you add free delivery and custom packaging. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Accept. $9.50 is well above your $8.40 floor",
+            "verdict": "risky",
+            "feedback": "You win the order fast, but your floor was set for a deal with no extras. The extras quietly come out of what you keep."
+          },
+          {
+            "key": "B",
+            "text": "Price the delivery and packaging first, then compare the whole deal to your floor",
+            "verdict": "best",
+            "feedback": "It slows the talk down a little, but you find out whether this package actually beats saying no. The next card shows it doesn't."
+          },
+          {
+            "key": "C",
+            "text": "Refuse. Too many concessions is a bad sign",
+            "verdict": "partial",
+            "feedback": "Caution protects you, but you may walk from a deal that could work with one extra removed or priced in."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Follow one bracket.",
+      "illustrative": true,
+      "body": [
+        "× 10,000 brackets = **$12,000**. Saying no would have left $14,000.",
+        "The $8.40 floor assumed no extras. With them, the real floor was $8.40 + $0.80 + $0.50 = **$9.70**."
+      ],
+      "breakdown": [
+        {
+          "value": "$9.50",
+          "label": "Price",
+          "detail": "What the buyer pays",
+          "highlight": false
+        },
+        {
+          "value": "−$7.00",
+          "label": "Making it",
+          "detail": "Metal, labor, machine time",
+          "highlight": false
+        },
+        {
+          "value": "−$0.80",
+          "label": "Free delivery",
+          "detail": "Trucking to the buyer",
+          "highlight": false
+        },
+        {
+          "value": "−$0.50",
+          "label": "Custom packaging",
+          "detail": "Their boxes and labels",
+          "highlight": false
+        },
+        {
+          "value": "$1.20",
+          "label": "Left per bracket",
+          "detail": "Less than the $1.40 the alternative leaves",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Your walk-away point",
+      "body": [
+        "Your **walk-away point** is the worst deal you will still accept. Past it, you are better off taking your alternative and leaving. It's also called the reservation point.",
+        "It comes from your best alternative, the subject of the last lesson, but it's not the same thing. The alternative is what you'll do if talks fail. The walk-away point is the line that tells you when to do it."
+      ],
+      "image": {
+        "label": "A line on a scale between 'accept' and 'walk away'",
+        "aspectRatio": "16:9",
+        "brief": "가로 눈금자 인포그래픽. 왼쪽은 \"Walk away\"(회색), 오른쪽은 \"Accept\"(초록). 가운데 굵은 세로선에 \"Walk-away point\" 라벨, 선 아래 작은 글씨로 \"= what your alternative leaves you\".",
+        "url": "assets/images/sal-04-02-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "How to set one that holds.",
+      "body": [
+        "A walk-away point protects you only if it measures the whole deal."
+      ],
+      "list": [
+        "**Start from your alternative:** what does saying no leave you?",
+        "**Turn it into one number:** money left after this deal's own costs",
+        "**Price every ask:** delivery, payment terms and extra work all move the line",
+        "**Write it down before you meet:** the room is the worst place to decide"
+      ],
+      "callout": "Check the whole package, not the headline price.",
+      "softwareNote": "In software, the extras are often custom features, extra support or longer free periods. Each one costs engineering or support time, so it belongs in the walk-away math too."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The other side",
+      "title": "It works when you're buying too.",
+      "illustrative": true,
+      "body": [
+        "A restaurant owner needs a used delivery van. A dealer asks $18,000. A similar van at another lot costs $16,500 but needs $800 of repairs. So her walk-away point is **$17,300**. Above that, she drives to the other lot.",
+        "If the dealer adds a warranty, her line moves up by what the warranty is worth to her, not by how good it sounds."
+      ],
+      "image": {
+        "label": "A van with two price tags and a repair wrench",
+        "aspectRatio": "16:9",
+        "brief": "두 대의 중고 밴이 나란히. 왼쪽 \"$18,000\", 오른쪽 \"$16,500 + $800 repairs\" 가격표와 렌치 아이콘. 가운데 \"Walk away above $17,300\" 표지판. 실제 자동차 브랜드 로고 없음.",
+        "url": "assets/images/sal-04-02-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A walk-away point is only as good as its inputs.",
+      "body": [
+        "Set it from your real alternative, not from hope. An imagined alternative gives you a line that either loses deals you should take or accepts ones you shouldn't.",
+        "And don't move it because you've already spent weeks on the talks. That time is gone either way. Change the line only when new facts change your alternative, and do it during a break, not across the table."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software deal.",
+      "illustrative": true,
+      "body": [
+        "You sell project software at $150 per seat per year. A large client wants 500 seats on a one-year contract. Your walk-away point is $60,000 a year after this deal's own costs.",
+        "They offer $130 a seat, $65,000, if your engineers build a custom integration. You estimate it costs $15,000 in engineering time. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Accept. $65,000 is above your $60,000 line",
+            "verdict": "risky",
+            "feedback": "The headline clears the line, but the integration leaves you $50,000. You'd be doing worse than your alternative while feeling like you won."
+          },
+          {
+            "key": "B",
+            "text": "Counter: $130 a seat works if the integration is paid separately or the contract runs longer",
+            "verdict": "best",
+            "feedback": "You keep the client in the conversation and reshape the package until it clears your line. The risk is they say no, which still leaves you no worse than your alternative."
+          },
+          {
+            "key": "C",
+            "text": "Walk away now. Any discount is too much",
+            "verdict": "partial",
+            "feedback": "You protect your price, but the discount alone was fine. The integration was the problem, and it could be priced in."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Decide where you'll stop before you start.",
+      "body": [
+        "A walk-away point turns \"is this a good deal?\" into one check: does the whole package beat my alternative?",
+        "**Try it today:** pick a deal you're negotiating now. Write your walk-away point as one number. Then list every extra the other side has asked for, and what each one costs you."
+      ],
+      "next": "Next · Where your limit and theirs overlap"
+    }
+  ]
+}

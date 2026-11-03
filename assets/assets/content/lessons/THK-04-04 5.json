@@ -1,0 +1,271 @@
+{
+  "id": "THK-04-04",
+  "unitId": "THK-04",
+  "categoryId": "THK",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Regression to the mean",
+  "readerTitle": "Why your worst branches got better on their own",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative",
+    "real_research",
+    "anecdote"
+  ],
+  "caseNote": "가상 사례 (레스토랑 체인, 구독 소프트웨어) + 실제 연구 (Galton의 키 연구) + 일화 (Kahneman의 비행 교관 이야기)",
+  "insight": "극단적인 결과 뒤의 개선이나 악화는 대부분 운이 평균으로 돌아온 것일 수 있으니, 아무 조치도 하지 않은 비교 집단과 견줘 본 뒤에 원인을 판단한다.",
+  "misconception": "최악의 결과 뒤에 조치를 했더니 좋아졌다면, 그 조치가 효과가 있었던 것이다.",
+  "relatedLessonIds": [
+    "THK-04-08",
+    "THK-11-03"
+  ],
+  "sources": [
+    {
+      "text": "Galton, F. (1886). Regression towards mediocrity in hereditary stature. Journal of the Anthropological Institute of Great Britain and Ireland, 15, 246–263.",
+      "url": null
+    },
+    {
+      "text": "Kahneman, D. (2011). Thinking, Fast and Slow. Farrar, Straus and Giroux. (비행 교관 일화, 17장)",
+      "url": null
+    },
+    {
+      "text": "레스토랑 체인과 구독 소프트웨어 수치는 모두 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "레스토랑 수치는 모두 가상입니다. 코칭한 지점 52%→61%(+9%p), 코칭 안 한 하위 지점 53%→60%(+7%p), 상위 5개 지점 78%→71%(−7%p). 두 하위 그룹 차이 약 2%p로 코칭 효과가 작다는 서사와 맞는지 확인했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Galton의 1886년 논문은 부모 키가 극단적일수록 자녀 키가 평균 쪽에 가깝다는 결과를 보고했습니다. 카드에는 수치 없이 일반적으로만 서술했습니다. 게시 전 원문 표현을 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "비행 교관 일화는 Kahneman이 Thinking, Fast and Slow와 노벨상 자서전(2002)에서 직접 소개한 이야기입니다. 이스라엘 공군 교관이라는 세부는 책 기준으로 확인하고, 카드에는 Kahneman이 전한 이야기라고 밝혔습니다.",
+      "status": "open"
+    },
+    {
+      "note": "구독 소프트웨어 이탈률 3%→6%→3.5%는 가상 수치입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Numbers twist",
+      "title": "Why your worst branches got better on their own",
+      "illustrative": true,
+      "body": [
+        "A restaurant group sends coaches to its five worst-rated branches. A month later, their ratings jump.",
+        "Case closed? The coaches deserve a bonus? Look at what happened to the branches nobody visited."
+      ],
+      "image": {
+        "label": "Restaurant branches on a map, some rising, some falling",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 작은 식당 건물 여러 채가 지도 위에 놓여 있고, 일부 위에는 위로 향한 초록 화살표, 일부에는 아래로 향한 화살표. 코치 캐릭터는 몇몇 건물 앞에만 서 있음. 실제 브랜드 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What does the jump prove?",
+      "illustrative": true,
+      "body": [
+        "You own 20 casual restaurants. Last month, five branches had the lowest share of five-star reviews: 52%. You sent coaches to them.",
+        "This month, those five averaged 61%. Your operations lead wants to coach every branch. What do you conclude?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Coaching works. Roll it out to all 20 branches",
+            "verdict": "risky",
+            "feedback": "You act fast on a clear-looking win. But you'd be paying for a program before checking whether the branches would have recovered anyway."
+          },
+          {
+            "key": "B",
+            "text": "Compare with low-rated branches that weren't coached before deciding",
+            "verdict": "best",
+            "feedback": "It costs a little time, but it separates the coaching effect from the natural bounce back. Next card shows what that comparison reveals."
+          },
+          {
+            "key": "C",
+            "text": "Ratings are just random. Ignore them",
+            "verdict": "partial",
+            "feedback": "Healthy doubt, but ratings aren't pure luck. Good branches do tend to stay good. You'd throw away a real signal along with the noise."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "Everyone moved toward the middle.",
+      "illustrative": true,
+      "body": [
+        "You actually had ten weak branches and coached only five. The other five rose almost as much. Meanwhile your top five fell, though nobody touched them."
+      ],
+      "chart": {
+        "unit": "%",
+        "groups": [
+          {
+            "label": "Worst 5, coached",
+            "rows": [
+              {
+                "label": "Last month",
+                "value": 52,
+                "highlight": false
+              },
+              {
+                "label": "This month",
+                "value": 61,
+                "highlight": true
+              }
+            ]
+          },
+          {
+            "label": "Next 5 weak, not coached",
+            "rows": [
+              {
+                "label": "Last month",
+                "value": 53,
+                "highlight": false
+              },
+              {
+                "label": "This month",
+                "value": 60,
+                "highlight": true
+              }
+            ]
+          },
+          {
+            "label": "Top 5, not coached",
+            "rows": [
+              {
+                "label": "Last month",
+                "value": 78,
+                "highlight": false
+              },
+              {
+                "label": "This month",
+                "value": 71,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "callout": "The coaching added about 2 points. The other 7 points would have come anyway."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Regression to the mean",
+      "body": [
+        "**Regression to the mean** means that when a result is extreme partly because of luck, the next result tends to land closer to average.",
+        "A branch's rating mixes real quality with luck: a rainy week, a sick chef, one harsh reviewer. The worst month usually includes bad luck. Luck rarely repeats, so next month looks better on its own.",
+        "It isn't a force pulling things back. It's just bad luck not showing up twice."
+      ],
+      "image": {
+        "label": "Dots scattered around a center line, extremes moving inward",
+        "aspectRatio": "16:9",
+        "brief": "단순한 인포그래픽. 가운데 가로선 \"Average\", 위아래로 흩어진 점들. 맨 위와 맨 아래 점에서 다음 달 점으로 이어지는 화살표가 가운데 선 쪽을 향함.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Where it came from",
+      "title": "Tall parents, slightly shorter children.",
+      "body": [
+        "In 1886, Francis Galton studied the heights of parents and their grown children. Very tall parents tended to have tall children, but less extreme than themselves. Very short parents had children closer to average too.",
+        "Daniel Kahneman told a story about flight instructors who believed praise made trainees worse and shouting made them better. After a great landing, the next one was usually worse. After a terrible one, usually better. The instructors' words had little to do with it."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where else it hides",
+      "title": "Any time you react to an extreme, watch the next result.",
+      "body": [
+        "The pattern shows up wherever luck plays a part:"
+      ],
+      "list": [
+        "**The star salesperson** has a weaker year after winning the award",
+        "**A new dish** sells hugely in launch week, then settles",
+        "**A new manager** is hired after a terrible quarter and looks like a hero",
+        "**A supplier** you dropped after one late delivery was usually on time"
+      ],
+      "callout": "React to the extreme, and you'll often take credit or blame for luck."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Not everything bounces back.",
+      "body": [
+        "The more luck in a result, the stronger the pull toward average. Results driven mostly by skill or structure stay put. A branch with a broken kitchen won't recover by waiting.",
+        "The average itself can also move. A new competitor next door can lower a branch's normal level for good.",
+        "So don't use this idea to dismiss real problems. Use it to ask a better question: compared with what?"
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a subscription app.",
+      "illustrative": true,
+      "body": [
+        "Your app's monthly churn, the share of paying users who cancel, is usually around 3%. In March it spiked to 6%. In April, the growth team sent win-back emails to at-risk users. April churn: 3.5%.",
+        "The team asks for triple the budget. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Approve it. Churn nearly halved",
+            "verdict": "risky",
+            "feedback": "The result looks strong, but churn was likely heading back toward 3% anyway. You might triple spending on something that did very little."
+          },
+          {
+            "key": "B",
+            "text": "Hold back some at-risk users from the emails next time and compare",
+            "verdict": "best",
+            "feedback": "It delays the decision a month, but a group that gets no emails shows what churn would do on its own. Then any gap is the real effect."
+          },
+          {
+            "key": "C",
+            "text": "Approve a smaller increase as a compromise",
+            "verdict": "partial",
+            "feedback": "It limits the downside, but you still don't know if the emails work. Splitting the difference doesn't answer the question."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "After an extreme result, expect the next one to be more ordinary.",
+      "body": [
+        "Before crediting a fix or blaming a person, compare with a similar group that got no fix.",
+        "**Try it today:** find a recent \"turnaround\" in your business. Ask what happened to similar cases nobody acted on."
+      ],
+      "next": "Next · Why a good bet can still wipe you out"
+    }
+  ]
+}

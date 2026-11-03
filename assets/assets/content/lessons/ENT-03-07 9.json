@@ -1,0 +1,256 @@
+{
+  "id": "ENT-03-07",
+  "unitId": "ENT-03",
+  "categoryId": "ENT",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "Two friends start a bakery",
+  "readerTitle": "Two friends start a bakery: what to agree before the first loaf",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.1,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (동네 빵집, B2B 마케팅 에이전시) · 모든 인물과 수치는 설명용",
+  "insight": "친구끼리 하는 창업일수록 지분은 시간에 걸쳐 얻게 하고, 누가 무엇을 최종 결정하는지는 사이가 좋을 때 미리 정해 둔다.",
+  "misconception": "친한 친구라면 50:50으로 나누고 모든 일을 함께 정하면 공평하고 충분하다.",
+  "relatedLessonIds": [
+    "ENT-03-03",
+    "ENT-03-04"
+  ],
+  "sources": [
+    {
+      "text": "창업자 지분 베스팅과 의사결정 권한 배분에 관한 일반적인 창업 실무 개념",
+      "url": null
+    },
+    {
+      "text": "모든 인물과 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "베스팅 계산: 4년(48개월) 베스팅, 1년 클리프, 이후 매월 균등 베스팅 가정. 18개월 시점 Maya의 확보 지분 = 50% × 18 ÷ 48 = 18.75%. 미확보 지분 = 50% − 18.75% = 31.25%.",
+      "status": "open"
+    },
+    {
+      "note": "\"4년 베스팅, 1년 클리프가 스타트업에서 흔하다\"는 일반적인 실무 관행으로 서술했습니다. 특정 통계는 쓰지 않았습니다. 게시 전 표현을 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "국가별 법률·세무 조언은 범위 밖입니다. 7번 카드에서 '나라마다 규칙이 다르니 현지 전문가와 문서화하라'는 일반적인 안내만 했습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Co-founders · Apply",
+      "title": "Two friends start a bakery",
+      "illustrative": true,
+      "body": [
+        "Jo is a gifted baker. Maya is great with numbers. They've been friends since school, and they each put in the same savings to open a small bakery.",
+        "Their whole agreement is a handshake: \"50/50, we decide everything together.\" It feels fair. It also leaves two big questions unanswered."
+      ],
+      "image": {
+        "label": "Two friends shaking hands in front of an empty bakery",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 일러스트. 아직 간판이 없는 작은 빵집 앞에서 두 친구가 악수. 한 명은 앞치마, 다른 한 명은 노트북을 들고 있음. 진열대는 비어 있음. 실제 브랜드 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How should they hold their shares?",
+      "illustrative": true,
+      "body": [
+        "Jo will bake full time. Maya will run the books and suppliers, and quit her office job once the bakery is stable. Both expect to stay for years.",
+        "Which ownership setup protects them best?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "50/50 from day one. They trust each other.",
+            "verdict": "risky",
+            "feedback": "Simple and friendly. But if one of them leaves early, they keep half the bakery the other one goes on building. Trust doesn't cover a change of plans."
+          },
+          {
+            "key": "B",
+            "text": "50/50, but each earns their half over four years of working in the bakery",
+            "verdict": "best",
+            "feedback": "This is **vesting**: ownership is earned over time. It stays fair even if life changes for one of them."
+          },
+          {
+            "key": "C",
+            "text": "Split by hours worked each month, recalculated as they go",
+            "verdict": "partial",
+            "feedback": "It rewards effort, but recounting ownership every month invites constant arguments. Vesting gets the fairness with one rule set once."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "Month 18",
+      "title": "Maya gets an offer she can't refuse.",
+      "illustrative": true,
+      "body": [
+        "Her old employer offers her a big promotion. She steps away from the bakery, and Jo carries on alone. Here is what Maya owns under each setup, assuming four-year vesting with a one-year *cliff* (nothing is earned before month 12)."
+      ],
+      "breakdown": [
+        {
+          "value": "50%",
+          "label": "No vesting",
+          "detail": "Maya keeps half, though Jo will do all the work from now on",
+          "highlight": false
+        },
+        {
+          "value": "18.75%",
+          "label": "With vesting",
+          "detail": "18 of 48 months earned: 50% × 18 ÷ 48",
+          "highlight": true
+        },
+        {
+          "value": "31.25%",
+          "label": "Returned",
+          "detail": "Unearned shares go back, ready for whoever replaces Maya",
+          "highlight": false
+        }
+      ],
+      "callout": "Vesting doesn't punish Maya. It matches ownership to the time she actually gave."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Second problem",
+      "title": "\"We decide everything together\" stops working.",
+      "illustrative": true,
+      "body": [
+        "Back to month 6, before Maya left. Jo wants a new sourdough line. Maya wants to raise croissant prices first. Each waits for the other to agree.",
+        "With a 50/50 split and no rules, every disagreement is a tie. Small choices sit for weeks. Jo starts quietly changing recipes without asking, and Maya notices."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How should they make decisions?",
+      "illustrative": true,
+      "body": [
+        "They agree they need a better way. Which works best?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep deciding everything together, just talk more",
+            "verdict": "risky",
+            "feedback": "More talking feels kind, but two equal votes still deadlock. Busy owners end up acting alone, which breaks trust faster."
+          },
+          {
+            "key": "B",
+            "text": "Each gets final say in their own area, and a short list of big decisions needs both",
+            "verdict": "best",
+            "feedback": "Clear **roles and decision rights** let daily choices move fast while protecting the choices that could sink the business."
+          },
+          {
+            "key": "C",
+            "text": "Jo works more hours, so Jo has the final say on everything",
+            "verdict": "partial",
+            "feedback": "Decisions get faster, but Maya loses any say over the money she's responsible for. Final say should follow the area, not the hours."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "What they wrote down",
+      "title": "One page, signed while they still got along.",
+      "illustrative": true,
+      "body": [
+        "They put it on a single page:"
+      ],
+      "list": [
+        "**Jo decides:** menu, recipes, kitchen staff schedule",
+        "**Maya decides:** prices, supplier contracts, the books",
+        "**Both must agree:** hiring, borrowing money, a second shop, selling the business",
+        "**If they're stuck:** a trusted mentor they both chose breaks the tie"
+      ],
+      "callout": "The sourdough launched in two weeks. The price rise went live a week later.",
+      "softwareNote": "In software startups, four-year vesting with a one-year cliff is a common default, and split areas often look like product versus sales. The same page works for an app as for a bakery."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Paper can't fix a mismatch in commitment.",
+      "body": [
+        "Vesting and decision rights make change fair. They don't make a reluctant partner committed. If one friend never planned to stay, have that talk first.",
+        "Cash is different from work, too. If one founder puts in much more money, that may need its own terms instead of being folded into the same vesting.",
+        "Rules on ownership differ by country. Write it down with a local professional."
+      ],
+      "image": {
+        "label": "A signed one-page agreement pinned on a bakery wall",
+        "aspectRatio": "16:9",
+        "brief": "빵집 주방 벽 코르크보드에 한 장짜리 합의서가 꽂혀 있고, 두 개의 서명. 옆에 밀가루 자국과 레시피 메모. 글씨는 읽히지 않게 흐릿하게. 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a marketing agency.",
+      "illustrative": true,
+      "body": [
+        "Two former colleagues start an agency for local businesses. Sam wins clients. Lee runs the projects and the freelancers. They want to split 50/50.",
+        "Which setup fits best?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "50/50 now, and they decide every deal and hire together",
+            "verdict": "risky",
+            "feedback": "Equal and open, but no **vesting** if one leaves, and every proposal waits on two people. Clients don't wait."
+          },
+          {
+            "key": "B",
+            "text": "50/50 earned over four years; Sam owns pricing and deals, Lee owns delivery and freelancers; contracts above a set size need both",
+            "verdict": "best",
+            "feedback": "**Vesting** keeps ownership fair over time, and clear **decision rights** let each move fast while big bets stay shared."
+          },
+          {
+            "key": "C",
+            "text": "50/50 earned over four years, but Sam decides everything since clients pay the bills",
+            "verdict": "partial",
+            "feedback": "The vesting is right. But Sam could promise work Lee can't deliver, and Lee has no say. Split final say by area."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Agree how ownership is earned and who decides what, before the first sale.",
+      "body": [
+        "This lesson used two ideas: **vesting**, so ownership follows the time each founder gives, and **roles and decision rights**, so daily choices move fast and big ones stay shared.",
+        "**Try it today:** write down three decisions in your business and who has the final say on each. If the answer is \"we'll see,\" decide now."
+      ],
+      "next": "Next · Three engineers start an app"
+    }
+  ]
+}

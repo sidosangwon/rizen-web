@@ -1,0 +1,249 @@
+{
+  "id": "SAL-03-05",
+  "unitId": "SAL-03",
+  "categoryId": "SAL",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Losing a deal well",
+  "readerTitle": "What a lost deal is still worth",
+  "format": "numbers_twist",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (주방용품 유통사와 식료품 체인, 사내 데이터팀) · 모든 수치와 확률은 설명용 가정",
+  "insight": "진 거래는 끝이 아니라 다음 거래의 시작이다. 지는 순간의 행동이 그 거래의 남은 가치를 정한다.",
+  "misconception": "진 거래는 가치가 0이다. 그러니 마지막 할인으로 붙잡거나, 아니면 바로 잊고 넘어가야 한다.",
+  "relatedLessonIds": [
+    "SAL-03-06",
+    "ECO-10-06"
+  ],
+  "sources": [
+    {
+      "text": "영업 실무의 일반 개념 (win-loss review, 실주 후 관계 관리)",
+      "url": null
+    },
+    {
+      "text": "모든 수치와 확률은 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "할인 계산: 연 매출 $200,000, 매출총이익률 25% → 원가 $150,000, 이익 $50,000. 8% 인하 시 매출 $184,000 − $150,000 = $34,000. 감소액 $16,000 = 이익의 32%. 같은 물량을 공급한다는 가정입니다.",
+      "status": "open"
+    },
+    {
+      "note": "기대값 계산: 재계약 시점에 돌아올 확률 1/4은 실제 통계가 아니라 설명용 가정입니다. 0.25 × $50,000 = 연 $12,500. 카드 문장에도 'suppose'로 가정임을 밝혔습니다.",
+      "status": "open"
+    },
+    {
+      "note": "'결정이 끝난 뒤 구매자가 더 솔직하게 이유를 말한다'는 주장은 연구 수치 없이 일반적 관찰로만 표현했습니다. 단정적 표현으로 바뀌지 않았는지 게시 전 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Sales · Numbers twist",
+      "title": "The buyer just said no. The deal isn't over.",
+      "illustrative": true,
+      "body": [
+        "A kitchen-supply distributor spent four months pitching a 12-store grocery chain. The account was worth $200,000 a year in sales.",
+        "Yesterday the buyer chose a rival that was 8% cheaper and signed a two-year contract. What the sales rep does in the next ten minutes decides what this \"no\" is worth."
+      ],
+      "image": {
+        "label": "A sales rep on the phone outside a grocery store",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 식료품 매장 하역장 앞에서 영업 담당자가 전화를 들고 서 있고, 옆에 주방용품 상자가 쌓인 배송 트럭. 표정은 실망보다 침착함. 실제 매장·브랜드 로고는 쓰지 않음.",
+        "url": "assets/images/sal-03-05-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You've lost. What now?",
+      "illustrative": true,
+      "body": [
+        "The buyer calls to say they're going with the other distributor. The contract is signed. Your margin on the account would have been 25%.",
+        "What do you do on this call?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Offer to beat the rival's price by 8% if they reconsider",
+            "verdict": "risky",
+            "feedback": "It might reopen the door, but it tells the buyer your first price was padded. And even if it works, you keep far less than you think."
+          },
+          {
+            "key": "B",
+            "text": "Thank them politely and move on to the next lead",
+            "verdict": "partial",
+            "feedback": "You stay on good terms and save time. But you learn nothing, and you leave no reason to talk again."
+          },
+          {
+            "key": "C",
+            "text": "Accept it, ask what decided it, offer a smooth handover and ask to check in before renewal",
+            "verdict": "best",
+            "feedback": "You give up the deal for now but keep the relationship, the lesson and a reason to return. The next cards put numbers on that."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Saving it with a discount costs a third of the profit.",
+      "illustrative": true,
+      "body": [
+        "An 8% price cut comes entirely out of your margin. Profit falls from $50,000 to **$34,000** a year, a 32% drop, on an account the buyer now knows you'll discount."
+      ],
+      "breakdown": [
+        {
+          "value": "$200,000",
+          "label": "Yearly sales",
+          "detail": "Before any discount",
+          "highlight": false
+        },
+        {
+          "value": "$50,000",
+          "label": "Profit at 25%",
+          "detail": "Sales minus $150,000 in costs",
+          "highlight": false
+        },
+        {
+          "value": "−$16,000",
+          "label": "The 8% cut",
+          "detail": "Same goods, same costs",
+          "highlight": false
+        },
+        {
+          "value": "$34,000",
+          "label": "Profit after the cut",
+          "detail": "32% less, every year",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Losing a deal well",
+      "body": [
+        "**Losing a deal well** means treating the lost deal as the start of the next conversation. You accept the decision, learn the real reason, make the switch easy and keep a reason to come back.",
+        "A desperate save trades profit for a deal. A burned bridge trades the future for a moment of frustration. Losing well trades a few hours for options."
+      ],
+      "image": {
+        "label": "Three doors: slammed, closed, left open",
+        "aspectRatio": "16:9",
+        "brief": "문 세 개를 나란히 그린 일러스트. 첫째 문은 쾅 닫힘(\"Burned bridge\"), 둘째는 조용히 닫힘(\"Moved on\"), 셋째는 살짝 열려 빛이 새어 나옴(\"Lost well\"). 셋째 문을 강조.",
+        "url": "assets/images/sal-03-05-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "breakdown",
+      "eyebrow": "The twist",
+      "title": "The lost account still has a value.",
+      "illustrative": true,
+      "body": [
+        "Suppose that, if you leave well, there's a 1 in 4 chance the chain comes back when the rival's contract ends. If you leave badly, that chance is close to zero. The open door is worth about **$12,500** a year in expected profit, before counting referrals and lessons."
+      ],
+      "breakdown": [
+        {
+          "value": "$50,000",
+          "label": "Profit if they return",
+          "detail": "At your full price",
+          "highlight": false
+        },
+        {
+          "value": "× 1 in 4",
+          "label": "Assumed chance",
+          "detail": "If you left on good terms",
+          "highlight": false
+        },
+        {
+          "value": "$12,500",
+          "label": "Expected value",
+          "detail": "Per year, for a few hours of effort",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Why the moment after \"no\" matters most.",
+      "body": [
+        "Once the decision is made, the pressure is gone. Buyers often speak more honestly about why you lost: price, delivery times, or a rep who didn't listen.",
+        "A smooth handover is remembered. If the rival stumbles, the buyer knows who to call. And buyers change jobs. The one you treated well may run purchasing somewhere else next year."
+      ],
+      "softwareNote": "When a trial user or prospect says no, ask one short question about why, make it easy to export their data, and keep them on a light update list. People who could leave easily tend to remember it when they reconsider."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Losing well is not giving up early.",
+      "body": [
+        "Fight hard while the decision is still open. Losing well starts only after the buyer has decided.",
+        "Don't turn the \"why did we lose?\" question into a disguised re-pitch. And don't chase every lost account forever. Check in at natural moments, like before a renewal, and keep your effort in proportion to what the account could be worth."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a team inside your company.",
+      "illustrative": true,
+      "body": [
+        "You lead the in-house analytics team. You pitched to run a customer study for the marketing department. Marketing chose an outside agency instead.",
+        "What's your best move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Ask your VP to overrule marketing and give you the project",
+            "verdict": "risky",
+            "feedback": "You might win this project, but marketing will remember being overruled. Future work may stop coming to you at all."
+          },
+          {
+            "key": "B",
+            "text": "Ask what tipped the choice, hand the agency your existing data, and offer a check-in at the halfway mark",
+            "verdict": "best",
+            "feedback": "You lose this project but learn what marketing values and become the helpful option if the agency falls short."
+          },
+          {
+            "key": "C",
+            "text": "Stay quiet and wait for the agency to struggle",
+            "verdict": "partial",
+            "feedback": "You may get called back if things go wrong. But slow help looks like a grudge, and you learn nothing about why you lost."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "How you lose decides what the loss is worth.",
+      "body": [
+        "A lost deal isn't zero. Accept it, learn why, make the switch easy and keep a reason to return.",
+        "**Try it today:** pick one deal you lost this year. Send a short note asking what decided it, with no pitch attached."
+      ],
+      "next": "Next · Why the real selling starts after the signature"
+    }
+  ]
+}

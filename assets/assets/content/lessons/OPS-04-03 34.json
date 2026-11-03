@@ -1,0 +1,245 @@
+{
+  "id": "OPS-04-03",
+  "unitId": "OPS-04",
+  "categoryId": "OPS",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "Key performance indicators",
+  "readerTitle": "Your business has a dashboard. Are you watching the right gauges?",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "real_observation",
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 관찰 (자동차 계기판) + 실제 연구 개념 (굿하트의 법칙) + 가상 사례 (청소 서비스, 물류 창고). 모든 사업 수치는 설명용",
+  "insight": "좋은 KPI는 결과를 늦게 알려주는 숫자가 아니라, 결과보다 먼저 움직이고 누군가 바로 다른 행동을 하게 만드는 몇 개의 숫자다.",
+  "misconception": "매출만 잘 보고 있으면 사업 상태를 알 수 있다. 숫자를 많이 볼수록 더 잘 통제할 수 있다.",
+  "relatedLessonIds": [
+    "OPS-04-02",
+    "OPS-04-06"
+  ],
+  "sources": [
+    {
+      "text": "Goodhart, C. (1975). Problems of Monetary Management: The U.K. Experience. (굿하트의 법칙 원전)",
+      "url": null
+    },
+    {
+      "text": "Strathern, M. (1997). 'Improving ratings': audit in the British University system. European Review. (\"측정이 목표가 되면 좋은 측정이 아니게 된다\"는 널리 알려진 표현)",
+      "url": null
+    },
+    {
+      "text": "청소 서비스와 창고 사례의 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "자동차에 센서가 '수십 개' 있다는 표현은 일반적인 설명입니다. 차종마다 차이가 크므로 구체적인 숫자는 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "굿하트의 법칙: 원래 표현은 통화 정책에 관한 것이며, 흔히 인용되는 문장은 Strathern(1997)이 정리한 것입니다. 카드에는 '경제학자 Charles Goodhart의 이름이 붙은 생각'으로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "재예약률 차트(62% → 58% → 51% → 44%)는 가상 수치입니다. 매출이 유지된 이유는 광고로 들어온 신규 고객이라는 설정입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Everyday scene",
+      "title": "Your business has a dashboard. Are you watching the right gauges?",
+      "body": [
+        "A modern car has dozens of sensors. Yet the dashboard in front of you shows only a few things: speed, fuel and a warning light or two.",
+        "That isn't a lack of data. It's a choice about which few numbers deserve your eyes while you drive. Most businesses never make that choice."
+      ],
+      "image": {
+        "label": "A simple car dashboard with three gauges lit",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 자동차 계기판 정면. 속도계, 연료계, 경고등 하나만 밝게 켜져 있고, 뒤쪽에 흐릿하게 수많은 센서 선이 엉켜 있음. 실제 자동차 브랜드 로고는 쓰지 않음.",
+        "url": "assets/images/ops-04-03-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "One number, every Monday.",
+      "illustrative": true,
+      "body": [
+        "You run a home cleaning company with five crews. Ads bring in new customers each week, and revenue is growing.",
+        "You have time to check just one number every Monday morning. Which one?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Total revenue last week",
+            "verdict": "partial",
+            "feedback": "It tells you the final score, but late. Revenue can look fine for months while the cause of a future drop is already building."
+          },
+          {
+            "key": "B",
+            "text": "Share of first-time customers who book a second clean within 30 days",
+            "verdict": "best",
+            "feedback": "This moves before revenue does, and it points to something you can fix: the quality of the first visit."
+          },
+          {
+            "key": "C",
+            "text": "Number of jobs completed last week",
+            "verdict": "risky",
+            "feedback": "It measures how busy the crews are, not how well the business is doing. Busy and leaking customers can happen at the same time."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "What happened",
+      "title": "Revenue stayed flat. This number didn't.",
+      "illustrative": true,
+      "body": [
+        "For four months, revenue barely moved. New customers from ads filled the gaps.",
+        "But fewer first-time customers were coming back. When the owner finally looked, a new crew lead had been rushing first visits since January. By the time revenue dipped, the damage was months old."
+      ],
+      "chart": {
+        "unit": "%",
+        "groups": [
+          {
+            "label": "First-time customers who rebooked within 30 days",
+            "rows": [
+              {
+                "label": "Jan",
+                "value": 62,
+                "highlight": false
+              },
+              {
+                "label": "Feb",
+                "value": 58,
+                "highlight": false
+              },
+              {
+                "label": "Mar",
+                "value": 51,
+                "highlight": false
+              },
+              {
+                "label": "Apr",
+                "value": 44,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Key performance indicators",
+      "body": [
+        "A **key performance indicator**, or KPI, is one of a few numbers you check regularly to see whether the work that matters most is going well.",
+        "The important word is *key*. A business can measure hundreds of things. KPIs are the handful you'd put on the dashboard, because a change in them should change what someone does this week."
+      ],
+      "image": {
+        "label": "Many numbers filtered down to three on a dashboard",
+        "aspectRatio": "16:9",
+        "brief": "깔때기 인포그래픽. 위쪽에 수많은 숫자 카드(매출, 작업 수, 리뷰 수, 광고비 등)가 쏟아지고, 아래로 걸러져 계기판에 숫자 3개만 남음. 그중 하나에 \"Rebooking rate\" 라벨.",
+        "url": "assets/images/ops-04-03-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How to pick one",
+      "title": "Three tests for a good KPI.",
+      "body": [
+        "Before you put a number on your dashboard, check it against three questions."
+      ],
+      "list": [
+        "**It's tied to what matters most:** if it improves, the business is truly healthier",
+        "**It moves early:** it changes before the final results do, so you have time to react",
+        "**Someone can act on it:** a person knows what to do differently when it drops"
+      ],
+      "callout": "Revenue usually passes only the first test. That's why it rarely works alone."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Wider view",
+      "title": "Fewer gauges, clearer driving.",
+      "body": [
+        "A bakery might watch unsold loaves at closing. A law firm might watch hours billed versus hours worked. Each is one number that reveals a lot.",
+        "Adding more KPIs feels safer, but it isn't. With twenty numbers, every meeting finds one that looks good and one that looks bad, and nobody knows which to act on. Three to five per team is a common, workable range."
+      ],
+      "softwareNote": "Software teams often celebrate signups. A better KPI is usually how many new users are still active a few weeks later, because it moves before revenue and points the team at onboarding."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Numbers can be gamed.",
+      "body": [
+        "An idea named after economist Charles Goodhart warns that once a number becomes a target, people start improving the number instead of the thing it measured.",
+        "Reward crews for rebooking rate alone, and some may push hard discounts on the first visit. Pair each KPI with a check on quality or cost, and talk about the story behind the number, not just the number."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a warehouse.",
+      "illustrative": true,
+      "body": [
+        "You run a small warehouse that packs and ships orders for online shops. Clients have started complaining, though you can't tell why.",
+        "Which KPI should your packing team see on the wall each day?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Boxes packed per hour",
+            "verdict": "risky",
+            "feedback": "Easy to measure and easy to push up. But rushing tends to raise wrong items and damage, which may be what clients are complaining about."
+          },
+          {
+            "key": "B",
+            "text": "Share of orders shipped complete, correct and on time",
+            "verdict": "best",
+            "feedback": "It captures what clients actually care about, it shows up daily, and the team can trace each miss to a cause they can fix."
+          },
+          {
+            "key": "C",
+            "text": "Total hours the team worked",
+            "verdict": "risky",
+            "feedback": "It tracks effort, not results. More hours could mean more work or more problems, and the number can't tell you which."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "The same trap exists in support teams: tickets closed per hour rises easily, while the share of customers whose problem stayed solved tells you far more."
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Watch a few numbers that move first and make someone act.",
+      "body": [
+        "Results like revenue tell you where you've been. A good KPI tells you where you're heading while there's still time to steer.",
+        "**Try it today:** write down the numbers you looked at last week. Circle the ones that made you do something differently. Those, or their replacements, are your KPIs."
+      ],
+      "next": "Next · Why the urgent keeps beating the important"
+    }
+  ]
+}

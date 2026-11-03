@@ -1,0 +1,234 @@
+{
+  "id": "ECO-02-03",
+  "unitId": "ECO-02",
+  "categoryId": "ECO",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "Economies of scale",
+  "readerTitle": "The factory that got bigger and more expensive",
+  "format": "counterexample",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative",
+    "real_observation"
+  ],
+  "caseNote": "가상 사례 (상자 공장, 동영상 편집 앱) + 실제 관찰 (Adam Smith의 핀 공장 묘사) · 모든 수치는 설명용",
+  "insight": "규모의 경제는 회사의 크기가 아니라 실제로 팔리는 물량에서 나온다. 늘린 설비를 채우지 못하면 커질수록 개당 원가가 오른다.",
+  "misconception": "공장이나 설비를 키우면 자동으로 개당 원가가 내려간다. 큰 회사가 원래 더 싸게 만든다.",
+  "relatedLessonIds": [
+    "ECO-02-01",
+    "ECO-02-04"
+  ],
+  "sources": [
+    {
+      "text": "Smith, A. (1776). An Inquiry into the Nature and Causes of the Wealth of Nations, Book I, Chapter 1 (pin factory)",
+      "url": null
+    },
+    {
+      "text": "경제학의 표준 개념 (규모의 경제, 고정비 분산)",
+      "url": null
+    },
+    {
+      "text": "상자 공장과 앱 사례의 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "상자 공장 계산: 확장 전 고정비 $30,000 ÷ 100,000개 = $0.30 + 변동비 $0.20 = $0.50. 확장 후 고정비 $45,000. 200,000개 판매 시 $45,000 ÷ 200,000 = $0.225 + $0.20 = $0.425(카드에는 $0.43). 110,000개 판매 시 $45,000 ÷ 110,000 = $0.409 + $0.20 = $0.609(카드에는 $0.61).",
+      "status": "open"
+    },
+    {
+      "note": "Smith의 핀 공장: 10명이 하루 48,000개 이상, 혼자서는 하루 20개도 못 만들 것이라는 서술을 원문으로 확인하세요. Smith의 묘사는 직접 관찰이 아니라 당시 프랑스 백과사전 자료에 기댔다는 지적이 있어 카드에 'described'로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "앱 계산: 종량제 사용자당 월 $1. 약정은 월 $20,000 고정(최대 50,000명). 5,000명일 때 $20,000 ÷ 5,000 = $4/명, 50,000명일 때 $0.40/명(60% 절감), 손익분기 20,000명($20,000 = 20,000 × $1). 작은 약정 월 $8,000 ÷ 5,000명 = $1.60/명.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Economics · Counterexample",
+      "title": "The factory that got bigger and more expensive",
+      "illustrative": true,
+      "body": [
+        "A box maker doubled its factory. Everyone knows bigger plants make things cheaper per unit.",
+        "A year later, each box cost more to make than before the expansion. Nothing broke. The machines ran fine. So what went wrong?"
+      ],
+      "image": {
+        "label": "A half-empty new factory floor next to a busy old one",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 왼쪽은 상자가 가득 쌓인 작은 생산 라인, 오른쪽은 새로 지은 큰 라인인데 기계 대부분이 멈춰 있고 상자가 몇 개뿐. 실제 기업 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Should you add a second production line?",
+      "illustrative": true,
+      "body": [
+        "Your plant makes 100,000 boxes a month at $0.50 each. A second line would double capacity. The equipment dealer says, \"Bigger plants are always cheaper per box.\"",
+        "When would the second line actually lower your cost per box?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Right away. Bigger plants are cheaper to run per box",
+            "verdict": "risky",
+            "feedback": "It sounds like common sense, but the new line adds cost every month whether you use it or not. Size alone lowers nothing."
+          },
+          {
+            "key": "B",
+            "text": "Only if you can sell most of the extra boxes",
+            "verdict": "best",
+            "feedback": "Right. The savings come from spreading costs over more boxes. No extra boxes, no savings. The next card shows the math."
+          },
+          {
+            "key": "C",
+            "text": "Once you get a bulk discount on cardboard",
+            "verdict": "partial",
+            "feedback": "Buying power is a real source of savings. But a small discount rarely covers the cost of a line that sits half idle."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Same factory, three outcomes.",
+      "illustrative": true,
+      "body": [
+        "Rent, machine leases and salaried staff cost $30,000 a month. Cardboard, ink and power add $0.20 per box. The second line raises the monthly costs to $45,000. Orders grew only to 110,000, so cost per box rose to **$0.61**."
+      ],
+      "breakdown": [
+        {
+          "value": "$0.50",
+          "label": "Before",
+          "detail": "$30,000 ÷ 100,000 boxes, plus $0.20",
+          "highlight": false
+        },
+        {
+          "value": "$0.43",
+          "label": "Bigger, and full",
+          "detail": "$45,000 ÷ 200,000 boxes, plus $0.20",
+          "highlight": false
+        },
+        {
+          "value": "$0.61",
+          "label": "Bigger, mostly empty",
+          "detail": "$45,000 ÷ 110,000 boxes, plus $0.20",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Economies of scale",
+      "body": [
+        "**Economies of scale** are the savings per unit that come from producing more. When volume rises, big costs that don't change with each unit get spread across more units, so each one carries less.",
+        "The box maker had the size but not the volume. Scale isn't about how big you are. It's about **how much you actually sell** through what you've built."
+      ],
+      "image": {
+        "label": "Fixed cost spread thinner as volume grows",
+        "aspectRatio": "16:9",
+        "brief": "가로로 긴 인포그래픽. 같은 크기의 고정비 블록이 왼쪽에서는 상자 2개 위에 두껍게, 오른쪽에서는 상자 8개 위에 얇게 나뉘어 얹혀 있음. 아래에 \"Same cost, more units, less per unit\" 문구.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Where the savings come from.",
+      "body": [
+        "Larger volume can lower cost per unit in three main ways:"
+      ],
+      "list": [
+        "**Spreading fixed costs:** one machine, one building or one design serves more units",
+        "**Specialization:** in 1776, Adam Smith described ten pin workers, each doing one step, making over 48,000 pins a day. Alone, he wrote, each might not make twenty",
+        "**Buying power:** big orders earn better prices from suppliers"
+      ],
+      "callout": "All three need volume. None of them come from size alone."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where it shows up",
+      "title": "From bakeries to apps.",
+      "body": [
+        "A bakery's oven costs the same whether it bakes 50 loaves or 500. A delivery van costs nearly the same running half full or full.",
+        "The pattern is strongest where most costs are paid up front. Building a product once and selling it many times spreads that first cost very thin."
+      ],
+      "softwareNote": "Software is the extreme case. Writing the code is almost all of the cost, and serving one more user costs very little. But a platform built for a million users that has two thousand carries the box maker's problem, only larger."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Building for scale is a bet on demand.",
+      "body": [
+        "Capacity costs you every month. Volume has to be earned. Expanding before demand arrives turns the savings upside down, as the box maker found.",
+        "Big fixed commitments also hurt more when sales fall, because the costs stay while the units shrink.",
+        "And savings don't grow forever. Past some size, coordination and complexity start adding cost. That's the next lesson."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a video-editing app.",
+      "illustrative": true,
+      "body": [
+        "You have 5,000 paying users. Pay-as-you-go hosting costs $1 per user a month.",
+        "A cloud provider offers a 3-year contract: $20,000 a month flat, enough for 50,000 users. At full use, that's $0.40 per user, 60% cheaper. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Sign now. At scale it's 60% cheaper",
+            "verdict": "risky",
+            "feedback": "At 5,000 users you'd pay $4 per user, four times today's cost, for three years. The savings only exist at a volume you don't have yet."
+          },
+          {
+            "key": "B",
+            "text": "Stay on pay-as-you-go and commit once you're near 20,000 users",
+            "verdict": "best",
+            "feedback": "At 20,000 users the flat deal costs the same as pay-as-you-go. You give up some savings while growing, but you only lock in once volume can carry the cost."
+          },
+          {
+            "key": "C",
+            "text": "Sign a smaller contract now: $8,000 a month for 20,000 users",
+            "verdict": "partial",
+            "feedback": "A smaller bet limits the damage, but at 5,000 users it still costs $1.60 per user versus $1 today. You're paying for capacity before the users arrive."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Scale saves money only when volume fills it.",
+      "body": [
+        "Bigger is cheaper per unit only when you sell enough to spread the costs. Before you expand, ask how many units you'll really sell, not how many you could make.",
+        "**Try it today:** pick your biggest fixed cost. Divide it by the units you sold last month, then by your full capacity. The gap is what unused scale costs you."
+      ],
+      "next": "Next · When getting bigger makes everything slower and costlier"
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "id": "MKT-07-10",
+  "unitId": "MKT-07",
+  "categoryId": "MKT",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Your cost per customer doubled",
+  "readerTitle": "Your cost per customer doubled. Now what?",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (포장재 제조사의 검색 광고) · 모든 수치는 설명용",
+  "insight": "고객 확보 비용이 올랐을 때는 평균이 아니라 마지막에 쓴 돈이 데려온 고객의 비용을 보고, 그것을 고객이 남기는 돈과 비교한다.",
+  "misconception": "고객당 비용이 두 배가 됐으면 광고 전체가 나빠진 것이니 예산을 통째로 줄여야 한다.",
+  "relatedLessonIds": [
+    "MKT-07-03",
+    "MKT-07-06"
+  ],
+  "sources": [
+    {
+      "text": "마케팅·관리회계의 표준 개념 (고객 확보 비용, 한계 비용, 고객 생애 가치, 홀드아웃 테스트)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "계산 확인: 작년 봄 $6,000 ÷ 50명 = $120. 이번 분기 $12,000 ÷ 50명 = $240. 첫 $6,000 ÷ 40명 = $150, 추가 $6,000 ÷ 10명 = $600. 40 + 10 = 50명.",
+      "status": "open"
+    },
+    {
+      "note": "고객 가치: 첫해 약 $400(박스 원가와 배송비 제외 후). $400 − $150 = $250 이익, $400 − $600 = −$200 손실. 브랜드명 광고 $1,000 ÷ 25명 = $40.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Marketing · Simulation",
+      "title": "Your cost per customer doubled. Now what?",
+      "illustrative": true,
+      "body": [
+        "You run Hollis, a small factory making insulated shipping boxes for bakeries and meal-kit makers. Most new customers find you through search ads.",
+        "Last spring, each new customer cost about $120 in ads. This quarter, the number is $240. Your co-owner wants to slash the ad budget today."
+      ],
+      "image": {
+        "label": "A factory desk with a report showing $120 crossed out and $240 circled",
+        "aspectRatio": "4:3",
+        "brief": "작은 포장재 공장 사무실 책상. 단열 박스가 쌓여 있고, 보고서에 \"$120\"이 줄 그어지고 \"$240\"이 빨간 원으로 표시됨. 실제 광고 플랫폼 로고는 쓰지 않음.",
+        "url": "assets/images/mkt-07-10-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 4",
+      "title": "What's your first move?",
+      "illustrative": true,
+      "body": [
+        "Ad spend rose from $6,000 to $12,000 a month over the year. New customers stayed at about 50 a month."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Cut the ad budget in half right away",
+            "verdict": "risky",
+            "feedback": "Costs drop fast, but you may cut your cheapest customers along with the expensive ones. You'd be acting before knowing where the money is leaking."
+          },
+          {
+            "key": "B",
+            "text": "Split the spending into slices and see what each slice brings in",
+            "verdict": "best",
+            "feedback": "It takes a few days, but it shows whether all the spending got worse or only part of it."
+          },
+          {
+            "key": "C",
+            "text": "Raise your bids to win back more clicks",
+            "verdict": "risky",
+            "feedback": "More volume, maybe, but at an even higher price per customer, before you know why it rose."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "Say you chose B",
+      "title": "The average was hiding two different stories.",
+      "illustrative": true,
+      "body": [
+        "Rivals now bid on the same keywords, so the first slice got pricier. But the real problem is the second slice. Each extra customer there cost **$600**. The $240 average blended a fair deal with a bad one."
+      ],
+      "breakdown": [
+        {
+          "value": "$150",
+          "label": "First $6,000",
+          "detail": "Brought 40 customers",
+          "highlight": false
+        },
+        {
+          "value": "$600",
+          "label": "Extra $6,000",
+          "detail": "Brought only 10 customers",
+          "highlight": true
+        },
+        {
+          "value": "$240",
+          "label": "Average",
+          "detail": "$12,000 ÷ 50 customers",
+          "highlight": false
+        }
+      ],
+      "softwareNote": "An app sees the same thing when cost per signup doubles. The cheapest audiences get used up first, so the last dollars buy the priciest users."
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 4",
+      "title": "Which slices are worth paying for?",
+      "illustrative": true,
+      "body": [
+        "Customers reorder. In their first year, a typical customer leaves about $400 after box and shipping costs."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Cut any spending above the old $120 benchmark",
+            "verdict": "partial",
+            "feedback": "Safe, but $120 was last year's price, not a limit. At $150, each customer still leaves $250."
+          },
+          {
+            "key": "B",
+            "text": "Keep the first slice, cut the extra $6,000",
+            "verdict": "best",
+            "feedback": "The first slice earns about $250 per customer. The extra slice loses about $200 on each one. You keep the profit and save $6,000 a month."
+          },
+          {
+            "key": "C",
+            "text": "Stop all ads, since a first order barely covers $150",
+            "verdict": "risky",
+            "feedback": "Judging by the first order ignores the reorders. You'd give up 40 profitable customers a month."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 4",
+      "title": "You have $6,000 a month back. Where does it go?",
+      "illustrative": true,
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Move it all to a new ad platform",
+            "verdict": "risky",
+            "feedback": "Untested channels can be cheap at first, but you'd bet the full amount before seeing a single result."
+          },
+          {
+            "key": "B",
+            "text": "Test a new channel small, and fund referrals and packing guides for food makers",
+            "verdict": "best",
+            "feedback": "Small tests limit the downside. Referrals and guides keep bringing customers after you stop paying for them."
+          },
+          {
+            "key": "C",
+            "text": "Keep it as profit",
+            "verdict": "partial",
+            "feedback": "Profit improves now, but growth stalls if the remaining ad slice gets pricier."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Decision 4 of 4",
+      "title": "Your cheapest ads look almost too good.",
+      "illustrative": true,
+      "body": [
+        "Three months on, ads on searches for your own name cost $1,000 a month and bring 25 customers: $40 each. Many of these people already knew you."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Spend more on them. $40 is your best deal",
+            "verdict": "partial",
+            "feedback": "Maybe. But if these buyers would have found you anyway, the real cost per extra customer is much higher."
+          },
+          {
+            "key": "B",
+            "text": "Pause them in a few regions for a month and compare",
+            "verdict": "best",
+            "feedback": "A small test shows how many sales the ads actually cause, for little risk."
+          },
+          {
+            "key": "C",
+            "text": "Cut them everywhere today",
+            "verdict": "risky",
+            "feedback": "You save $1,000, but a rival could start winning searches for your name."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "These numbers are estimates, not facts.",
+      "body": [
+        "Ten customers is a small sample. One slow month can make a slice look twice as costly. Check a few months before cutting.",
+        "The $400 customer value is a forecast. If reorders fall, every slice gets worse. And costs move with seasons and rivals, so the right budget this quarter may be wrong next quarter."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Ask what your last dollar bought, and what that customer is worth.",
+      "body": [
+        "Each decision used one idea from this unit:"
+      ],
+      "list": [
+        "**Split the spending:** diminishing returns hide inside averages",
+        "**Compare to customer value:** paying for customers only works if they leave more than they cost",
+        "**Fund referrals and guides:** organic growth keeps working after you stop paying",
+        "**Pause and compare:** check whether marketing caused the sale"
+      ],
+      "callout": "**Try it today:** split last month's ad spend into two halves and estimate the customers each half brought in.",
+      "next": "Next · A new unit begins"
+    }
+  ]
+}

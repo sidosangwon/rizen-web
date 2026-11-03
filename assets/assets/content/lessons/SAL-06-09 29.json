@@ -1,0 +1,216 @@
+{
+  "id": "SAL-06-09",
+  "unitId": "SAL-06",
+  "categoryId": "SAL",
+  "order": 9,
+  "type": "case",
+  "conceptTag": "Stripe's 'Collison installation'",
+  "readerTitle": "Stripe's founders didn't send a link. They asked for your laptop.",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Stripe, Paul Graham 에세이 기록) + 가상 적용 (소스 제조사와 식당 셰프)",
+  "insight": "\"써 볼게요\"는 고객이 아니라 약속일 뿐이다. 첫 사용까지의 간격을 창업자가 직접 메워야 그 약속이 고객이 된다.",
+  "misconception": "관심을 보인 사람에게 링크나 샘플을 보내 두면 알아서 써 볼 것이다. 그리고 확장되지 않는 수작업은 시간 낭비다.",
+  "relatedLessonIds": [
+    "SAL-06-02",
+    "CUS-01-06"
+  ],
+  "sources": [
+    {
+      "text": "Paul Graham, \"Do Things That Don't Scale\" (2013). 'Collison installation' 용어와 \"give me your laptop\" 일화의 출처",
+      "url": "http://paulgraham.com/ds.html"
+    },
+    {
+      "text": "Y Combinator company directory: Stripe (창업자 Patrick·John Collison, YC 참여)",
+      "url": "https://www.ycombinator.com/companies/stripe"
+    },
+    {
+      "text": "Stripe 공식 회사 소개 및 2011년 공개 출시 관련 보도",
+      "url": "https://stripe.com/about"
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "'Collison installation'과 \"Right then, give me your laptop\" 문구는 Paul Graham의 2013년 에세이에 나옵니다. 인용 문구가 원문과 정확히 같은지 게시 전에 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Stripe의 공개 출시 시점을 2011년으로 적었습니다. 초기 베타 시기의 정확한 연도와 고객 수는 적지 않았습니다. 확인 후 필요하면 보완하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Graham은 이 기법을 YC 안에서 쓰는 용어로 소개합니다. 일화가 얼마나 자주, 누구에게 쓰였는지에 대한 구체적 수치는 공개 자료가 없어 카드에 넣지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "소스 제조사와 셰프 사례는 설명용 가상 사례입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Founder selling · Counterexample",
+      "title": "Stripe's founders didn't send a link. They asked for your laptop.",
+      "body": [
+        "Most founders who hear \"Sure, I'd try it\" say thanks and promise to email a link.",
+        "Patrick and John Collison, the brothers who started the payments company Stripe, did something less polite and far more effective. It became a term at the startup program Y Combinator."
+      ],
+      "image": {
+        "label": "A founder's hands reaching for a stranger's open laptop",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 일러스트. 카페 테이블에서 한 사람이 노트북을 상대에게 돌려 건네고, 다른 사람이 웃으며 받아 타이핑하는 장면. 화면에는 단순한 코드 줄만. 실제 Stripe 로고나 브랜드 색 사용 금지.",
+        "url": "assets/images/sal-06-09-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "A developer says, \"I'd try your beta.\"",
+      "body": [
+        "You've built an early tool that lets websites accept online payments. It's still in private beta. At a meetup, a developer who runs a small online business hears your pitch and says it sounds interesting.",
+        "What do you do next?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Thank them, take their email, and send a beta link tonight",
+            "verdict": "risky",
+            "feedback": "Polite and easy for both of you. But the hard step, actually setting it up, is left to someone busy who only said \"interesting.\""
+          },
+          {
+            "key": "B",
+            "text": "Book a 30-minute demo call for next week",
+            "verdict": "partial",
+            "feedback": "You keep the conversation alive and learn more. But a week is long enough for the interest to cool, and a demo still isn't use."
+          },
+          {
+            "key": "C",
+            "text": "Ask to set it up with them right now, on their laptop",
+            "verdict": "best",
+            "feedback": "It feels pushy and costs you time. In return, a vague yes becomes a working setup before you leave the room."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "\"Right then, give me your laptop.\"",
+      "body": [
+        "In his 2013 essay \"Do Things That Don't Scale\", investor Paul Graham described how the Collisons won early users before Stripe's public launch in 2011.",
+        "Many founders, he wrote, ask \"Will you try our beta?\" and then offer to send a link. The Collisons didn't wait. When someone agreed to try Stripe, they'd say, as Graham tells it, **\"Right then, give me your laptop\"** and set them up on the spot.",
+        "At Y Combinator, this became known as the **Collison installation**."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The gap between yes and use",
+      "body": [
+        "A \"yes\" in conversation and a customer who actually uses what you sell are two different things. Between them sits a gap: finding the link, setting things up, changing a habit.",
+        "Early on, most of your interested prospects fall into that gap. Not because they lied, but because they're busy and the first step is the hardest.",
+        "**Closing the gap yourself**, right away, turns interest into real use. That's the job a founder can do better than any onboarding email."
+      ],
+      "image": {
+        "label": "Two cliffs labeled Yes and Using it, with a founder building the bridge",
+        "aspectRatio": "16:9",
+        "brief": "두 절벽 사이 협곡. 왼쪽 절벽 \"Said yes\", 오른쪽 절벽 \"Actually using it\". 협곡 아래로 이메일 봉투와 링크 아이콘이 떨어지고, 창업자 캐릭터가 직접 판자 다리를 놓아 고객을 건너게 하는 모습.",
+        "url": "assets/images/sal-06-09-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Why it works",
+      "title": "You win the customer and learn at the same time.",
+      "list": [
+        "**Timing:** interest is highest in the moment it's expressed",
+        "**Friction removed:** the setup steps that stop people get done for them",
+        "**Real feedback:** you watch where a real customer gets confused",
+        "**Commitment:** someone who has set something up is more likely to keep using it"
+      ],
+      "callout": "A setup you do together is worth more than ten links you send."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The counterexample",
+      "title": "\"It doesn't scale\" is the point.",
+      "body": [
+        "The usual advice is to build things that scale. Graham's essay argues the opposite for the very start: do the slow, manual work that big companies can't.",
+        "A founder can't install a product on a million laptops. But the first customers aren't a million. They're a handful of people whose real use teaches you what to fix.",
+        "The same move works far from software. An accountant who imports a new client's books on the first call. A trainer who books the first session before the person leaves the gym."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Don't let your hands hide a hard product.",
+      "body": [
+        "If customers only succeed when you're sitting next to them, the product may be too hard to set up alone. Write down every step where you had to help, then remove those steps from the product.",
+        "It also costs your time, which is limited. Save it for people who have already shown real interest.",
+        "And read the room. The point is helping someone do what they said they wanted, not pressuring someone who said no."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a chef and a jar of sauce.",
+      "illustrative": true,
+      "body": [
+        "You make a chili sauce and want restaurants as wholesale customers. A chef tastes it at a food fair and says, \"Nice. Send me a sample and I'll try it in the kitchen.\"",
+        "What's the best next step?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Ship a free sample box this week with a price sheet",
+            "verdict": "partial",
+            "feedback": "Cheap and easy. But the sample may sit on a shelf during a busy service, and you won't see how it gets used."
+          },
+          {
+            "key": "B",
+            "text": "Ask to come in before service, cook one dish with the chef, and set up a small first order",
+            "verdict": "best",
+            "feedback": "It takes a morning of your time. In return, the sauce is used on a real dish, you hear the chef's reactions, and a first order exists."
+          },
+          {
+            "key": "C",
+            "text": "Offer a 20% discount if they order within a month",
+            "verdict": "risky",
+            "feedback": "A discount gives a reason to buy later, but nothing helps them try it now. You give up margin without closing the gap."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A yes isn't a customer until they've used it.",
+      "body": [
+        "When someone says they'd try what you sell, do the first step with them, right then. Then fix whatever you had to help with.",
+        "**Try it today:** list three people who recently said they were interested. For each, write down the one step standing between them and real use, and offer to do it together."
+      ],
+      "next": "Next · Land your first 10 customers"
+    }
+  ]
+}

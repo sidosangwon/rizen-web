@@ -1,0 +1,226 @@
+{
+  "id": "BMO-02-03",
+  "unitId": "BMO-02",
+  "categoryId": "BMO",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "Commissions",
+  "readerTitle": "Why a booking platform can earn once and then disappear",
+  "format": "counterexample",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.1,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (청소 예약 플랫폼, 앱 아이디어 3개) + 실제 연구 (Levitt & Syverson, 부동산 중개인)",
+  "insight": "수수료는 거래가 일어날 때마다 내가 그 자리에 꼭 필요할 때만 계속 들어온다. 반복되는 단순한 관계에서는 고객과 공급자가 나를 건너뛴다.",
+  "misconception": "거래를 연결해 주면 그 뒤의 거래에서도 계속 수수료를 받을 수 있다. 거래량이 늘면 수수료 수익도 따라 는다.",
+  "relatedLessonIds": [
+    "BMO-05-03",
+    "BMO-02-02"
+  ],
+  "sources": [
+    {
+      "text": "Levitt, S. D. & Syverson, C. (2008). Market Distortions When Agents Are Better Informed: The Value of Information in Real Estate Transactions. Review of Economics and Statistics, 90(4).",
+      "url": null
+    },
+    {
+      "text": "청소 플랫폼과 앱 아이디어는 설명용 가상 사례",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "가상 수치 계산: 첫 청소 $100 × 20% = $20. 주 1회 × 50주 × $100 = $5,000, 그 20% = $1,000. 실제로 받은 돈은 첫 회 $20뿐.",
+      "status": "open"
+    },
+    {
+      "note": "Levitt & Syverson(2008): 중개인 본인 소유 주택이 약 3.7% 더 비싸게, 시장에 약 9.5일 더 오래 있다가 팔렸다는 결과. 게시 전 원문 수치를 다시 확인하세요. 카드에는 \"about 4%\"와 \"more than a week longer\"로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "연구 대상은 미국 시카고 지역 주택 거래입니다. 카드에는 특정 국가의 중개 수수료율을 적지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business models · Counterexample",
+      "title": "Why a booking platform can earn once and then disappear",
+      "illustrative": true,
+      "body": [
+        "A new platform matches homeowners with house cleaners and keeps 20% of each booking. Customers love it. Ratings are great.",
+        "Yet three months in, the founder notices something odd. New customers keep arriving, but almost none of them book a second time."
+      ],
+      "image": {
+        "label": "Cleaner and homeowner swapping phone numbers at the door",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 현관에서 청소 도우미와 집주인이 웃으며 휴대폰을 맞대 연락처를 교환하는 장면. 뒤쪽 벽에 걸린 태블릿 화면의 예약 앱이 쓸쓸하게 꺼져 가는 느낌. 실제 앱 로고 사용 금지.",
+        "url": "assets/images/bmo-02-03-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Your best customers stop booking through you.",
+      "illustrative": true,
+      "body": [
+        "You run the cleaning platform. After a good first clean, many customers simply call the cleaner directly and pay in cash.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Raise the commission to 30% to make more from each first booking",
+            "verdict": "risky",
+            "feedback": "You earn more per first visit, but you give both sides an even bigger reason to leave right after it."
+          },
+          {
+            "key": "B",
+            "text": "Ban sharing contact details and fine cleaners who take clients off the platform",
+            "verdict": "partial",
+            "feedback": "Rules slow the leak a little, but they're hard to enforce in someone's home and they annoy the cleaners you need."
+          },
+          {
+            "key": "C",
+            "text": "Make every repeat booking worth paying for: insurance, easy rescheduling, backup cleaners, payment handled",
+            "verdict": "best",
+            "feedback": "This costs you money to build, but it gives both sides a reason to keep you in the middle of every visit."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What happened",
+      "title": "One customer, one year.",
+      "illustrative": true,
+      "body": [
+        "The platform did the hard part: finding a trusted cleaner. Then it was paid for **one visit** out of fifty."
+      ],
+      "breakdown": [
+        {
+          "value": "$100",
+          "label": "First clean",
+          "detail": "Booked through the platform",
+          "highlight": false
+        },
+        {
+          "value": "$20",
+          "label": "Your 20%",
+          "detail": "The only fee you ever collect",
+          "highlight": true
+        },
+        {
+          "value": "$5,000",
+          "label": "The real relationship",
+          "detail": "Weekly cleans for 50 weeks",
+          "highlight": false
+        },
+        {
+          "value": "$1,000",
+          "label": "20% of that",
+          "detail": "What the relationship could have paid you",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Commissions",
+      "body": [
+        "A **commission** is a share of each deal you help make happen. No deal, no fee.",
+        "That's why sellers like it. They pay only when they earn, so it's easy to sign them up. And your income grows as their sales grow.",
+        "But there's a catch hidden in the definition: you're paid per deal, so you must be needed *for each deal*, not just the first one."
+      ],
+      "image": {
+        "label": "A middleman figure standing between buyer and seller, taking a slice of each coin",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 왼쪽 구매자, 오른쪽 판매자, 가운데 중개자. 동전이 지나갈 때마다 중개자가 작은 조각을 떼어 감. 아래쪽에 두 번째, 세 번째 동전이 중개자를 우회해 위로 직접 넘어가는 점선 화살표.",
+        "url": "assets/images/bmo-02-03-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Where it works",
+      "title": "Commissions thrive when each deal needs you again.",
+      "body": [
+        "Commissions work best where deals are rare, large or risky:"
+      ],
+      "list": [
+        "**Rare:** people sell a house a few times in their life, so there's no repeat relationship to take elsewhere",
+        "**Large:** a small share of a big deal still pays well",
+        "**Risky:** strangers need someone to hold the payment, check quality or handle disputes"
+      ],
+      "callout": "Weekly cleaning is frequent, small and low-risk after the first visit. That's the worst fit.",
+      "softwareNote": "App stores and resale marketplaces keep their commissions because each purchase runs through their payment, delivery and refunds. A freelancer platform faces the cleaner problem: once a client trusts a developer, they're tempted to work together directly."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A commission also shapes the agent's behavior.",
+      "body": [
+        "Whoever earns the commission is paid for closing, not for the best result.",
+        "Economists Steven Levitt and Chad Syverson studied home sales and found that agents' own houses sold for about 4% more and stayed on the market more than a week longer than clients' homes. A slightly higher price adds little to the agent's cut, but waiting costs them time.",
+        "So when you design or pay a commission, ask what it rewards."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Three app ideas. Which suits a commission?",
+      "illustrative": true,
+      "body": [
+        "You're choosing which marketplace app to build, and you want to earn a commission on each deal."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "An app for booking the same dog walker every weekday",
+            "verdict": "risky",
+            "feedback": "Easy to launch, but it's the cleaning story again: frequent, local and simple, so owners and walkers soon skip you."
+          },
+          {
+            "key": "B",
+            "text": "A marketplace for used pro camera gear, with checked listings and held payment",
+            "verdict": "best",
+            "feedback": "Each sale is one-off, valuable and risky between strangers. Your checks and held payment are worth paying for every single time."
+          },
+          {
+            "key": "C",
+            "text": "A platform matching companies with freelance developers for long projects",
+            "verdict": "partial",
+            "feedback": "The deals are big, but trust builds over months and clients may go direct. You'd need ongoing value, like contracts and payments, to keep earning."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A commission lasts only as long as you stay useful in each deal.",
+      "body": [
+        "Before choosing commissions, ask whether buyers and sellers would still need you on their tenth deal together.",
+        "**Try it today:** list where your money comes from. For any fee you take on deals, write down what you do that the two sides can't easily do without you."
+      ],
+      "next": "Next · How free things get paid for with attention"
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "id": "OPS-01-04",
+  "unitId": "OPS-01",
+  "categoryId": "OPS",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Standardization",
+  "readerTitle": "Why three great cooks can make a worse restaurant",
+  "format": "counterexample",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (라멘 가게, 소프트웨어 팀) + 실제 연구 (WHO 수술 안전 체크리스트, Haynes et al. 2009)",
+  "insight": "표준화는 실력 있는 사람을 묶어 두는 일이 아니라, 누가 일하든 고객이 같은 결과를 받게 하고 개선의 출발점을 만드는 일이다.",
+  "misconception": "실력 있는 사람들에게는 표준이 필요 없다. 각자 잘하는 방식대로 하게 두면 결과도 좋다.",
+  "relatedLessonIds": [
+    "OPS-01-01",
+    "OPS-01-06"
+  ],
+  "sources": [
+    {
+      "text": "Haynes, A. B. et al. (2009). A Surgical Safety Checklist to Reduce Morbidity and Mortality in a Global Population. New England Journal of Medicine, 360(5), 491–499.",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMsa0810119"
+    },
+    {
+      "text": "World Health Organization, Surgical Safety Checklist (19 items)",
+      "url": null
+    },
+    {
+      "text": "라멘 가게와 소프트웨어 팀 사례는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Haynes et al.(2009) 수치 확인 필요: 주요 합병증 11.0% → 7.0%, 원내 사망률 1.5% → 0.8%. 8개국 8개 병원(시애틀, 뉴델리 등), 2007년 10월~2008년 9월, 수술 약 7,688건(도입 전 3,733건, 도입 후 3,955건). 카드에는 \"nearly 8,000 operations\"로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "체크리스트 항목 수(19개)와 '환자와 수술 부위 확인' 같은 예시 항목이 WHO 체크리스트 원문과 맞는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "연구는 전후 비교 설계라 체크리스트만의 효과로 단정하기 어렵습니다. 카드 문구는 인과를 과장하지 않도록 'did better'로만 썼습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Counterexample",
+      "title": "Three great cooks, one dish, three different bowls.",
+      "illustrative": true,
+      "body": [
+        "A ramen shop had three skilled cooks. Each made the house ramen beautifully. Each made it differently. One salted the broth more. One cooked the noodles softer. One piled on extra toppings.",
+        "Regulars started asking who was cooking before they ordered. A first-time guest on Tuesday got a different meal from the one her friend raved about on Friday."
+      ],
+      "image": {
+        "label": "Three bowls of the same ramen that look different",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 같은 메뉴판 아래 라멘 세 그릇이 나란히 놓여 있는데, 국물 색, 면 굵기, 토핑 양이 각각 다름. 뒤에 요리사 세 명이 각자 자신 있게 팔짱을 낀 모습. 실제 가게 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Reviews say: \"It wasn't like last time.\"",
+      "illustrative": true,
+      "body": [
+        "You own the shop. Every cook is talented and every bowl tastes good, yet complaints about inconsistency keep growing.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Have your best cook make every bowl at busy times",
+            "verdict": "partial",
+            "feedback": "You get consistency at peak hours, but one person becomes the limit on how many bowls you can serve, and the other shifts stay inconsistent."
+          },
+          {
+            "key": "B",
+            "text": "Agree on one recipe with exact amounts, times and a plating photo, and train everyone on it",
+            "verdict": "best",
+            "feedback": "You give up a bit of each cook's personal style. In return, every guest gets the bowl they came back for, whoever is cooking."
+          },
+          {
+            "key": "C",
+            "text": "Ask each cook to taste more carefully before serving",
+            "verdict": "risky",
+            "feedback": "It sounds like a fix, but each cook will taste against their own idea of perfect. Three careful cooks still make three different bowls."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What went wrong",
+      "title": "Nobody was wrong. There were just three standards.",
+      "illustrative": true,
+      "body": [
+        "Each cook followed their own best version. Talent hid the problem: every bowl was good, so no one noticed that customers were buying a promise. They wanted the bowl they had last time.",
+        "Once the shop wrote down one recipe, the arguments changed. Instead of \"whose way is right?\", the cooks asked \"is this the best way?\" and tested changes together."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Standardization",
+      "body": [
+        "**Standardization** means agreeing on the best way you currently know to do a repeated task, writing it down, and having everyone do it that way.",
+        "A process lists the steps. A standard says exactly how each key step is done: how much, how long, and what \"done\" looks like.",
+        "The goal isn't sameness for its own sake. It's that the customer gets the same result no matter who is working."
+      ],
+      "image": {
+        "label": "A recipe card with grams, minutes and a plating photo",
+        "aspectRatio": "16:9",
+        "brief": "깔끔한 인포그래픽. 왼쪽에는 요리사 세 명에게서 서로 다른 화살표 세 개가 뻗어 나와 다른 그릇으로 감. 오른쪽에는 \"Broth 350 ml\", \"Noodles 90 sec\", \"Plating photo\"가 적힌 레시피 카드 하나를 거쳐 똑같은 그릇 세 개가 나옴.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "chart",
+      "eyebrow": "The evidence",
+      "title": "Even experts do better with a standard.",
+      "body": [
+        "From 2007 to 2008, researchers introduced the WHO's 19-item surgical safety checklist in eight hospitals in eight countries, from Seattle to New Delhi. They compared nearly 8,000 operations before and after.",
+        "The surgeons didn't suddenly gain skill. The checklist made sure simple steps, like confirming the patient and the procedure, happened every time."
+      ],
+      "chart": {
+        "unit": "%",
+        "groups": [
+          {
+            "label": "Major complications",
+            "rows": [
+              {
+                "label": "Before checklist",
+                "value": 11,
+                "highlight": false
+              },
+              {
+                "label": "After checklist",
+                "value": 7,
+                "highlight": true
+              }
+            ]
+          },
+          {
+            "label": "Deaths",
+            "rows": [
+              {
+                "label": "Before checklist",
+                "value": 1.5,
+                "highlight": false
+              },
+              {
+                "label": "After checklist",
+                "value": 0.8,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "callout": "Skill doesn't protect anyone from skipping a step.",
+      "image": {
+        "label": "Even experts do better with a standard.",
+        "aspectRatio": "4:3",
+        "brief": "Labeled HTML chart from the lesson numbers",
+        "url": "assets/images/ops-01-04-chart.png"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Why it matters",
+      "title": "What a standard buys you.",
+      "body": [
+        "Beyond consistency, a shared standard pays off in three ways:"
+      ],
+      "list": [
+        "**Same result, any shift:** customers stop depending on who is working",
+        "**Faster training:** a new hire learns one way, not three",
+        "**A baseline for improvement:** if everyone works differently, you can't tell whether a change actually helped"
+      ],
+      "callout": "A standard is where getting better starts, not where it ends."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Standardize what drives the result, not everything.",
+      "body": [
+        "Fix the steps customers notice or that cause failures, like broth salt and noodle time. Leave room for judgment where situations vary, like calming an upset guest. Over-scripted work makes staff feel like robots and breaks on cases the script never imagined.",
+        "And a standard nobody updates freezes yesterday's best. When someone finds a better way, change the standard so everyone gets it."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software team.",
+      "illustrative": true,
+      "body": [
+        "Your five engineers each release updates their own way. Some test on a staging server first, some don't. Some tell support before a release, some forget. Two releases this month took the app down for users.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Write a short release checklist covering the steps that caused outages, and update it after every incident",
+            "verdict": "best",
+            "feedback": "It locks in the few steps that matter and leaves engineers free elsewhere. Updating it after incidents keeps the standard improving."
+          },
+          {
+            "key": "B",
+            "text": "Require the most senior engineer to approve every release",
+            "verdict": "partial",
+            "feedback": "It may catch mistakes, but it relies on one person's memory and turns them into a queue every release has to wait in."
+          },
+          {
+            "key": "C",
+            "text": "Write a detailed 40-page release manual covering every possible case",
+            "verdict": "risky",
+            "feedback": "Thorough on paper, but people skim long documents and skip them under pressure. The key steps get buried."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Talent makes a great result once. A standard makes it every time.",
+      "body": [
+        "When customers are buying a repeatable result, agree on the one best way, write it down, and keep improving it.",
+        "**Try it today:** pick the task where customers most often say \"it wasn't like last time.\" Write down the three steps that matter most, with exact amounts, times or checks."
+      ],
+      "next": "Next · What quality really means"
+    }
+  ]
+}

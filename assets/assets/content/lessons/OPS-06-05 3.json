@@ -1,0 +1,285 @@
+{
+  "id": "OPS-06-05",
+  "unitId": "OPS-06",
+  "categoryId": "OPS",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Service consistency",
+  "readerTitle": "Why the same burger in two cities is the whole product",
+  "format": "company_story",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (McDonald's, 1950~60년대 Ray Kroc의 프랜차이즈 확장) + 가상 사례 (버거 매장 두 곳, 소프트웨어 고객지원팀) · 점수와 시간 수치는 모두 설명용",
+  "insight": "서비스 품질은 평균이 아니라 편차로 판단한다. 고객은 평균을 경험하지 않고, 자기가 받은 한 번을 경험한다.",
+  "misconception": "평균 만족도가 높으면 서비스가 좋은 것이다. 가끔 최고의 경험을 주면 가끔 실망을 줘도 상쇄된다.",
+  "relatedLessonIds": [
+    "OPS-06-04",
+    "OPS-06-06"
+  ],
+  "sources": [
+    {
+      "text": "McDonald's Corporation, company history (Ray Kroc, franchising from 1955, Hamburger University 1961)",
+      "url": null
+    },
+    {
+      "text": "Kroc, R. with Anderson, R. (1977). Grinding It Out: The Making of McDonald's.",
+      "url": null
+    },
+    {
+      "text": "점수 차트와 고객지원 응답 시간은 설명용 가상 수치",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Ray Kroc가 1955년 첫 프랜차이즈 매장을 열었고, 'Quality, Service, Cleanliness and Value(QSC&V)'를 운영 원칙으로 내세웠다는 내용을 McDonald's 공식 역사 자료로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Hamburger University 개교 연도(1961년, 일리노이주 Elk Grove Village 매장 지하)를 McDonald's 공식 자료로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "차트 계산: 안정적 매장 8+8+7+9+8=40, 평균 8. 들쭉날쭉한 매장 10+9+5+10+6=40, 평균 8. 두 매장 평균이 같다는 점을 다시 확인했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "'나쁜 경험이 좋은 경험보다 더 무겁게 기억된다'는 부정성 편향(negativity bias)을 일반적 경향으로만 서술했습니다. 특정 수치나 연구 결과는 인용하지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Company story",
+      "title": "Why the same burger in two cities is the whole product",
+      "body": [
+        "A traveler pulls off a highway in a town she has never seen. She picks a restaurant she has never been to.",
+        "She isn't taking a risk. She already knows what the fries will taste like. That certainty took decades of hard, unglamorous work to build."
+      ],
+      "image": {
+        "label": "Two identical burger trays in two different towns",
+        "aspectRatio": "4:3",
+        "brief": "화면을 반으로 나눠 왼쪽은 사막 도로변, 오른쪽은 눈 내린 마을. 양쪽 테이블에 똑같은 버거·감자튀김 쟁반이 같은 각도로 놓여 있음. 따뜻한 일러스트 스타일. 실제 브랜드 로고, 골든 아치, 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Two locations, same average score.",
+      "illustrative": true,
+      "body": [
+        "You run two burger restaurants. Both average 8 out of 10 in customer ratings.",
+        "At the first, almost every visit scores 7 to 9. At the second, ratings swing between 5 and 10. You have budget to improve only one this quarter. Where do you start?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Neither. Same average, same performance",
+            "verdict": "risky",
+            "feedback": "The average hides who got the 5. Those customers may not return, even though the number looks fine."
+          },
+          {
+            "key": "B",
+            "text": "The swinging location: find out what causes the bad visits and remove it",
+            "verdict": "best",
+            "feedback": "You may lose a few 10s, but every customer can now count on a good meal. That promise is what brings people back."
+          },
+          {
+            "key": "C",
+            "text": "The steady location: push it to hit 10s like the other one",
+            "verdict": "partial",
+            "feedback": "Raising the ceiling is worth doing later. Right now the second location is quietly losing customers on its bad nights."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "Look closer",
+      "title": "Same average. Very different customers.",
+      "illustrative": true,
+      "body": [
+        "Five visits at each location. Both add up to 40, an average of 8.",
+        "At the steady location, every guest leaves satisfied. At the other, two of five guests had a poor meal. They don't experience the average. They experience their visit."
+      ],
+      "chart": {
+        "unit": "count",
+        "groups": [
+          {
+            "label": "Steady location (score out of 10)",
+            "rows": [
+              {
+                "label": "Visit 1",
+                "value": 8,
+                "highlight": false
+              },
+              {
+                "label": "Visit 2",
+                "value": 8,
+                "highlight": false
+              },
+              {
+                "label": "Visit 3",
+                "value": 7,
+                "highlight": false
+              },
+              {
+                "label": "Visit 4",
+                "value": 9,
+                "highlight": false
+              },
+              {
+                "label": "Visit 5",
+                "value": 8,
+                "highlight": false
+              }
+            ]
+          },
+          {
+            "label": "Swinging location (score out of 10)",
+            "rows": [
+              {
+                "label": "Visit 1",
+                "value": 10,
+                "highlight": false
+              },
+              {
+                "label": "Visit 2",
+                "value": 9,
+                "highlight": false
+              },
+              {
+                "label": "Visit 3",
+                "value": 5,
+                "highlight": true
+              },
+              {
+                "label": "Visit 4",
+                "value": 10,
+                "highlight": false
+              },
+              {
+                "label": "Visit 5",
+                "value": 6,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Service consistency",
+      "body": [
+        "**Service consistency** means customers get the same good experience every time, whatever the day, the shift, the staff member or the location.",
+        "A customer isn't buying one meal. They are buying a promise about every future meal. Each visit either confirms the promise or breaks it.",
+        "People also tend to remember a bad experience more vividly than a good one. So one poor visit can undo several great ones."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The story",
+      "title": "Ray Kroc's obsession: the same fries everywhere.",
+      "body": [
+        "When Ray Kroc began franchising McDonald's in the 1950s, he wasn't chasing the best burger in America. He wanted a burger in one town to match the burger in the next.",
+        "He summed up the standard as QSC&V: quality, service, cleanliness and value. In 1961 he opened a training school, Hamburger University, so that owners and managers everywhere learned to run restaurants the same way.",
+        "The food was simple. **The reliability** was the product."
+      ],
+      "image": {
+        "label": "A map with identical restaurant pins spreading out",
+        "aspectRatio": "16:9",
+        "brief": "1950~60년대 레트로 포스터 스타일의 미국 지도. 똑같은 작은 식당 아이콘이 점점 퍼져 나가고, 아이콘마다 같은 버거 그림. 실제 McDonald's 로고, 골든 아치, 캐릭터는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Find where the bad visits come from.",
+      "body": [
+        "Bad visits rarely happen at random. They cluster around a few sources:"
+      ],
+      "list": [
+        "**People:** a new hire on the Saturday rush",
+        "**Shifts:** the closing crew skips steps the morning crew follows",
+        "**Inputs:** a supplier's product varies week to week",
+        "**Peaks:** quality holds at 20 orders an hour and breaks at 60"
+      ],
+      "callout": "Track the worst visits, not the average. Then fix the source that produces them."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Consistent isn't the same as good.",
+      "body": [
+        "A business can be reliably mediocre. Consistency only helps once the standard itself is worth repeating.",
+        "It can also go too far. Rigid scripts make staff sound like machines, and customers notice. The aim is a consistent *outcome*: the order is right, the wait is reasonable, the guest feels looked after. How a skilled person gets there can still flex.",
+        "Narrowing the spread may also mean fewer surprise 10s. That trade is usually worth it, but not for every business. A chef's tasting menu sells variety on purpose."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software support team.",
+      "illustrative": true,
+      "body": [
+        "Your app's support team answers tickets in 2 hours on average. Customers praise the speed. But one in twenty tickets waits more than three days, usually tricky ones that nobody wants to pick up. Those users often cancel.",
+        "What do you do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Hire two more agents to bring the average down to 1 hour",
+            "verdict": "partial",
+            "feedback": "Faster on average, but the tricky tickets may still sit. You'd pay for speed where customers are already happy."
+          },
+          {
+            "key": "B",
+            "text": "Set a maximum wait, and route any ticket nearing it to a senior person",
+            "verdict": "best",
+            "feedback": "This targets the long waits that drive cancellations. The average barely moves, but no user is forgotten for days."
+          },
+          {
+            "key": "C",
+            "text": "Offer white-glove support to your biggest accounts only",
+            "verdict": "risky",
+            "feedback": "It protects a few key users while everyone else still risks a three-day wait. The promise stays broken for most customers."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Customers don't get your average. They get one visit.",
+      "body": [
+        "Judge service by its worst common experience, not its mean. Shrinking the bad tail often wins more loyalty than adding more peaks.",
+        "**Try it today:** look at your last 20 customer interactions. Find the three worst. What did they have in common?"
+      ],
+      "next": "Next · Designing work so mistakes can't happen"
+    }
+  ]
+}

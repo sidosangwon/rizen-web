@@ -1,0 +1,250 @@
+{
+  "id": "ECO-01-10",
+  "unitId": "ECO-01",
+  "categoryId": "ECO",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Price your product during a shortage",
+  "readerTitle": "Half the butter, twice the line: running a bakery through a shortage",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.2,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 시뮬레이션 (동네 베이커리, 4단계 결정) + 실제 연구 (Kahneman·Knetsch·Thaler 1986 공정성 설문). 베이커리 수치는 모두 설명용",
+  "insight": "공급 부족 때의 결정은 가격 하나가 아니라 가격, 재료 배분, 고객 배분, 부족이 끝난 뒤의 약속이 이어진 묶음이다.",
+  "misconception": "공급이 부족하면 가격을 그대로 두는 것이 공정하고, 수요가 넘치면 최대한 올리는 것이 이득이다.",
+  "relatedLessonIds": [
+    "ECO-01-09",
+    "ECO-08-05"
+  ],
+  "sources": [
+    {
+      "text": "Kahneman, D., Knetsch, J. L., & Thaler, R. (1986). Fairness as a Constraint on Profit Seeking: Entitlements in the Market. American Economic Review, 76(4), 728–741.",
+      "url": null
+    },
+    {
+      "text": "베이커리 사례와 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "눈 삽 문항: 폭설 다음 날 철물점이 삽 가격을 $15에서 $20로 올린 것에 대해 응답자 82%가 불공정하다고 답함(n=107). 원문 표의 수치를 게시 전에 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "같은 연구에서 비용 상승을 가격에 반영하는 인상은 대체로 공정하다고 받아들여졌다는 결론. 카드에는 일반적 서술로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "버터 계산: 기존 $6.25/kg → 40% 상승 $8.75/kg. 크루아상 1개 버터 80g: $0.50 → $0.70(+$0.20). 가격 $4.00 → $4.25. 1kg당 크루아상 1000÷80 = 12.5개 × $2.40 = $30. 쿠키 버터 20g, 개당 남는 돈 $1.00, 1000÷20 = 50개 × $1.00 = $50. 차이 $20/kg.",
+      "status": "open"
+    },
+    {
+      "note": "공급 부족 시 가격 인상 규제(price gouging 법)는 국가·지역마다 다릅니다. 법률 조언이 되지 않도록 7번 카드에서 '지역 규칙을 확인하라'는 수준으로만 언급했습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Economics · Simulation",
+      "title": "Half the butter, twice the line.",
+      "illustrative": true,
+      "body": [
+        "You run a neighborhood bakery famous for its croissants. You sell 300 a day at $4.",
+        "On Monday your supplier calls. A dairy shortage means you'll get half your usual butter for about six weeks, and it will cost 40% more. Four decisions are coming. Make each one before you read on."
+      ],
+      "image": {
+        "label": "Bakery counter with a half-empty butter crate and a long line outside",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 동네 빵집 카운터 위에 반쯤 빈 버터 상자, 창밖으로 길게 늘어선 줄. 실제 브랜드 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/eco-01-10-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 4 · Price",
+      "title": "What happens to the croissant price?",
+      "illustrative": true,
+      "body": [
+        "Butter in each croissant used to cost $0.50. Now it costs $0.70. You'll bake only 150 a day, and they'll sell out by 9 a.m. whatever you charge."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep it at $4. Raising prices in a shortage feels wrong",
+            "verdict": "partial",
+            "feedback": "Customers stay happy, but you absorb the cost rise on fewer sales. The line, not the price, decides who gets a croissant, and people pay in waiting time."
+          },
+          {
+            "key": "B",
+            "text": "Raise it to $4.25, with a sign explaining butter costs and saying it's temporary",
+            "verdict": "best",
+            "feedback": "You cover the higher cost and tell people why. Most customers accept a raise that passes on a real cost they can see."
+          },
+          {
+            "key": "C",
+            "text": "Raise it to $7. They'll sell out anyway",
+            "verdict": "risky",
+            "feedback": "You'd earn more this month. But regulars read it as cashing in on a crisis, and they remember long after the butter returns."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "Why B works",
+      "title": "People judge *why* a price went up.",
+      "body": [
+        "In a 1986 survey, economists Daniel Kahneman, Jack Knetsch and Richard Thaler asked people about a hardware store that raised snow shovel prices from $15 to $20 the morning after a snowstorm. **82%** called it unfair.",
+        "Yet most people accepted price rises that passed on higher costs. Same higher price, different reason, different verdict.",
+        "Your $0.25 raise tracks your own cost. That's why the sign matters: it shows the reason."
+      ],
+      "image": {
+        "label": "Handwritten bakery window sign explaining a temporary price rise",
+        "aspectRatio": "16:9",
+        "brief": "빵집 창문에 붙은 손글씨 안내문: \"Butter costs are up. Croissants $4.25 until supply returns.\" 따뜻한 톤, 실제 로고 없음.",
+        "url": "assets/images/eco-01-10-c3.jpg"
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 4 · Ingredients",
+      "title": "Where should the scarce butter go?",
+      "illustrative": true,
+      "body": [
+        "Say you chose B. Now you have half the butter. A croissant uses 80g and leaves $2.40 after costs. A butter cookie uses 20g and leaves $1.00.",
+        "Per kilo of butter, that's $30 from croissants and $50 from cookies."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "All butter to croissants. They earn the most per item",
+            "verdict": "risky",
+            "feedback": "Per item, yes. But butter is what's scarce now, and every kilo spent this way gives up $20 you could have earned with cookies."
+          },
+          {
+            "key": "B",
+            "text": "Shift more butter to cookies, but keep a smaller daily croissant batch for regulars",
+            "verdict": "best",
+            "feedback": "You earn more from each kilo and keep the item people come in for. The question shifts from \"what earns most per item\" to \"what earns most per kilo.\""
+          },
+          {
+            "key": "C",
+            "text": "Cut every butter item by the same amount",
+            "verdict": "partial",
+            "feedback": "Simple and fair across the menu, but it ignores which products make the best use of the butter you have."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "A software product can run short too, for example of server capacity for a heavy AI feature. The same question applies: which customers and uses earn the most per unit of the scarce resource?"
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 4 · Customers",
+      "title": "Who gets the 100 croissants?",
+      "illustrative": true,
+      "body": [
+        "Say you chose B again. You bake 100 croissants a day. On day two, an office manager buys 40 at 7:05 a.m. Regulars arriving at 8 find an empty tray."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Stay first-come, first-served with no limit",
+            "verdict": "risky",
+            "feedback": "Easy to run, but it rewards whoever arrives first with the biggest order. The line gets longer and regulars stop coming."
+          },
+          {
+            "key": "B",
+            "text": "Open online preorders the night before, limit four per person, keep 30 for walk-ins",
+            "verdict": "best",
+            "feedback": "The limit removes the reason to bulk-buy, and preorders end the dawn line. Walk-ins still have a chance."
+          },
+          {
+            "key": "C",
+            "text": "Reserve them all for members of your loyalty app",
+            "verdict": "partial",
+            "feedback": "Regulars feel rewarded, but new customers, your future regulars, never get to try one."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Decision 4 of 4 · After",
+      "title": "Six weeks later, the butter is back.",
+      "illustrative": true,
+      "body": [
+        "Say you chose B. Deliveries and butter prices return to normal. Croissants still sell well at $4.25. What now?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep $4.25. Customers have shown they'll pay it",
+            "verdict": "risky",
+            "feedback": "You earn $0.25 more per croissant, but you break the promise on your sign. The next time you explain a price rise, fewer people will believe you."
+          },
+          {
+            "key": "B",
+            "text": "Go back to $4 as promised, and keep preorders if customers liked them",
+            "verdict": "best",
+            "feedback": "You give up a little margin and earn trust you can draw on in the next shortage. The useful parts of the crisis plan stay."
+          },
+          {
+            "key": "C",
+            "text": "Drop to $3.50 for a month to celebrate",
+            "verdict": "partial",
+            "feedback": "A nice gesture that brings people back, but it can reset what customers think a croissant should cost."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Shortage pricing has limits.",
+      "body": [
+        "This bakery sells a treat. For essentials like water, fuel or medicine after a disaster, even cost-based raises can look like exploitation. Many places also have rules on prices during declared emergencies, so check local rules first.",
+        "And a shortage only explains a price while it lasts. Tie every temporary change to a clear end, or customers will set the end date for you."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A shortage is four decisions, not one price.",
+      "body": [
+        "Each choice used an idea from this unit:"
+      ],
+      "list": [
+        "**Price → Supply and demand:** less supply pushes prices up, but the reason for a rise shapes how fair it feels",
+        "**Butter → Opportunity cost:** each kilo used one way can't be used another",
+        "**Customers → Incentives:** limits and preorders change how people behave",
+        "**After → Scarcity:** the higher price was tied to the shortage, so it ends with it"
+      ],
+      "callout": "**Try it today:** name the input your business could run short of. Write down which product earns the most per unit of it.",
+      "next": "Next · Why the price you pay depends on how many people pay it"
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "id": "THK-08-06",
+  "unitId": "THK-08",
+  "categoryId": "THK",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Controlled experiments",
+  "readerTitle": "Two businesses changed one thing. Only one knew if it worked.",
+  "format": "two_businesses",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (비스트로 메뉴 변경, 앱 온보딩 테스트, 홈 클리닝 예약 알림) · 모든 수치는 설명용",
+  "insight": "변화의 효과는 '전과 후'가 아니라 '같은 시기, 바꾼 쪽과 안 바꾼 쪽'을 비교해야 보인다.",
+  "misconception": "무언가를 바꾼 뒤 숫자가 올랐다면 그 변화 덕분이다. 실험은 큰 회사나 소프트웨어 회사만 할 수 있다.",
+  "relatedLessonIds": [
+    "THK-08-01",
+    "THK-08-10"
+  ],
+  "sources": [
+    {
+      "text": "실험 설계의 표준 개념 (대조군, 무작위 배정, 한 번에 한 가지 변수)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 설명용 가상 수치입니다. 앱 사례 계산: 전후 비교 36% − 30% = +6%p, 같은 달 대조군 비교 36% − 34% = +2%p. 즉 +6%p 중 4%p는 5월 자체(계절, 광고 등)의 효과.",
+      "status": "open"
+    },
+    {
+      "note": "비스트로 사례의 +12%, 옆 카페 +10%는 가상 수치입니다. 카드에 illustrative 표시가 되어 있는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "표본 크기와 테스트 조기 종료는 THK-11-03, THK-11-05에서 다루므로 Watch out 카드에서는 짧게 언급만 했습니다. 중복 여부를 검토하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Two businesses",
+      "title": "Two businesses changed one thing. Only one knew if it worked.",
+      "illustrative": true,
+      "body": [
+        "A bistro launched a new dinner menu. A fitness app launched a new sign-up flow. The same month, both saw their numbers climb.",
+        "The bistro owner celebrated. The app team found that most of the climb had nothing to do with their change. The difference wasn't luck or budget. It was how each one checked."
+      ],
+      "image": {
+        "label": "A bistro and a phone app side by side, both with rising arrows",
+        "aspectRatio": "4:3",
+        "brief": "화면을 반으로 나눠 왼쪽은 작은 비스트로 테이블과 새 메뉴판, 오른쪽은 스마트폰 속 가입 화면. 양쪽 위에 똑같이 올라가는 화살표. 오른쪽 화살표 옆에만 작은 돋보기. 실제 브랜드 로고 없이.",
+        "url": "assets/images/thk-08-06-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Did the new menu do it?",
+      "illustrative": true,
+      "body": [
+        "You run the bistro. You launched a new dinner menu on May 1. May dinner sales came in 12% higher than April.",
+        "Before you redesign your lunch menu the same way, how would you best check that the menu caused the rise?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Compare May with April. Up 12% is clear enough",
+            "verdict": "risky",
+            "feedback": "Quick and free, but May differs from April in weather, holidays and events. You can't separate the menu from everything else that changed."
+          },
+          {
+            "key": "B",
+            "text": "Compare this May with last May",
+            "verdict": "partial",
+            "feedback": "This removes the season, a real improvement. But this year has its own changes, like a new office nearby or a rival closing, and they still get mixed in."
+          },
+          {
+            "key": "C",
+            "text": "For six weeks, flip a coin each week to decide which menu runs, then compare",
+            "verdict": "best",
+            "feedback": "It takes time and some hassle. In return, weather, events and neighbors hit both menus alike, so the gap is mostly the menu itself."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "The street got busier, not just the bistro.",
+      "illustrative": true,
+      "body": [
+        "April had been rainy. May brought sunshine and a weekend food festival two blocks away.",
+        "The café next door, which changed nothing, was up about 10% too. So how much of the bistro's 12% came from the menu? Maybe a little. Maybe none. A before-and-after comparison can't say.",
+        "Every month carries its own weather, news and mood. When you compare two periods, you compare everything that differed between them, not just your change."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Controlled experiments",
+      "body": [
+        "A **controlled experiment** compares two groups at the same time, alike in every way except one: the change you want to test.",
+        "The group that keeps the old way is the **control group**. It shows what would have happened without your change. Whatever else is going on, sun or rain, ads or headlines, it hits both groups equally.",
+        "The key trick is random assignment. Let a coin, not your judgment, decide who gets which version. Then neither group is quietly better to begin with."
+      ],
+      "image": {
+        "label": "Customers split by a coin flip into two matching groups",
+        "aspectRatio": "16:9",
+        "brief": "가운데 큰 동전이 공중에 떠 있고, 손님 무리가 동전 아래에서 좌우 두 그룹으로 고르게 나뉨. 왼쪽 그룹 라벨 \"Control: old way\", 오른쪽 \"Test: one change\". 두 그룹 위에 같은 해와 구름 아이콘(같은 조건임을 표현).",
+        "url": "assets/images/thk-08-06-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "chart",
+      "eyebrow": "The second business",
+      "title": "The app ran both comparisons. Look at the gap.",
+      "illustrative": true,
+      "body": [
+        "The fitness app sent half of May's new users, chosen at random, to the new sign-up flow. The other half got the old one. The measure: the share who finished setting up a workout plan.",
+        "Before vs after said the new flow added **6 points**. The control group, same month, showed May itself added 4 of them. The new flow's real effect: **2 points**."
+      ],
+      "chart": {
+        "unit": "%",
+        "groups": [
+          {
+            "label": "Before vs after",
+            "rows": [
+              {
+                "label": "Old flow, April",
+                "value": 30,
+                "highlight": false
+              },
+              {
+                "label": "New flow, May",
+                "value": 36,
+                "highlight": true
+              }
+            ]
+          },
+          {
+            "label": "Same month, random split",
+            "rows": [
+              {
+                "label": "Old flow, May (control)",
+                "value": 34,
+                "highlight": false
+              },
+              {
+                "label": "New flow, May",
+                "value": 36,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Use it anywhere",
+      "title": "You don't need software to run one.",
+      "body": [
+        "Apps split users with a line of code. Any business can split something else:"
+      ],
+      "list": [
+        "**By day or week:** alternate menus, prices or displays on randomly chosen days",
+        "**By location:** try the change in some branches, keep others as they are",
+        "**By customer:** odd and even order numbers get different offers",
+        "**Decide the measure first:** pick the number you'll judge by before you start"
+      ],
+      "callout": "Same time, one difference, random split. That's the whole recipe."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Not everything can be split.",
+      "body": [
+        "Some changes affect everyone at once. You can't test a new shop name on half your street. Groups can also leak: if regulars compare notes, a discount for one table changes how the next table feels.",
+        "Experiments cost time, and small groups give noisy answers. A few dozen customers can swing either way by chance. Save formal tests for decisions that are costly to get wrong, and be fair when the change is a price customers might compare."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a home cleaning service.",
+      "illustrative": true,
+      "body": [
+        "Too many customers aren't home when your cleaners arrive. You want to test a reminder text sent the evening before. Which plan tells you whether the text works?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Text everyone this month, then compare no-shows with last month",
+            "verdict": "risky",
+            "feedback": "Simple to run, but holidays, weather and school breaks shift no-shows month to month. You'd measure the calendar as much as the text."
+          },
+          {
+            "key": "B",
+            "text": "Text only customers who missed a visit before, and track them",
+            "verdict": "partial",
+            "feedback": "It targets the problem, but these customers may improve on their own after a bad experience. With no matching group, you can't tell."
+          },
+          {
+            "key": "C",
+            "text": "Text bookings with odd numbers, not even ones, for a month, then compare",
+            "verdict": "best",
+            "feedback": "Both groups face the same month and the same cleaners. You give up some reminders for a month, and gain an answer you can trust."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "To know if a change worked, compare it with no change at the same time.",
+      "body": [
+        "Before and after mixes your change with everything else that moved. A random control group separates them.",
+        "**Try it today:** pick one change you're planning. Write down how you could give it to half your customers, chosen by chance, and what number you'd compare."
+      ],
+      "next": "Next · Did the campaign cause the sales?"
+    }
+  ]
+}

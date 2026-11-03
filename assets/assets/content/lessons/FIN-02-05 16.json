@@ -1,0 +1,241 @@
+{
+  "id": "FIN-02-05",
+  "unitId": "FIN-02",
+  "categoryId": "FIN",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Inventory ties up cash",
+  "readerTitle": "The cash sitting in a plumber's van",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (배관공, 철물점, 사내 현장 서비스 팀) · 모든 수치는 설명용",
+  "insight": "재고는 선반 위의 물건이 아니라 이미 써 버린 현금이다. 묶이는 돈은 보유량과 머무는 시간에 따라 커진다.",
+  "misconception": "대량 구매 할인은 무조건 이득이다. 재고는 언젠가 팔리니 돈을 잃는 게 아니다.",
+  "relatedLessonIds": [
+    "FIN-02-02",
+    "FIN-02-03"
+  ],
+  "sources": [
+    {
+      "text": "운영·재무관리의 표준 개념 (재고 보유 비용, 운전자본에 묶인 현금)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "배관공 계산: 월 10개 × 12개월 = 120개. 정가 120 × $40 = $4,800, 5% 할인가 $38 × 120 = $4,560, 절약 $240(월 $20). 잔고 $6,000 − $4,560 = $1,440, 급여 $4,000 대비 $2,560 부족.",
+      "status": "open"
+    },
+    {
+      "note": "재고 추적: 1개월 사용분 10 × $38 = $380. 6개월 후 남은 60개 × $38 = $2,280. 1년 동안 선반에 남은 평균 금액은 약 $2,280(처음 $4,560과 마지막 $0의 평균).",
+      "status": "open"
+    },
+    {
+      "note": "철물점 비교: 두 품목 모두 $1,000어치. 2주마다 다 팔리는 품목은 1년에 약 26번 회전, 1년에 한 번 팔리는 품목은 1회전. 설명용 가상 수치입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Everyday scene",
+      "title": "The cash sitting in a plumber's van",
+      "illustrative": true,
+      "body": [
+        "Open the back of a plumber's van. Shelves of valves, fittings, pipe and seals, sorted into little bins.",
+        "It looks like equipment. It's really money. Every part was paid for before any customer called, and some of it will ride around in that van for months before it earns a cent."
+      ],
+      "image": {
+        "label": "Open van with bins of parts, each bin showing a price tag",
+        "aspectRatio": "4:3",
+        "brief": "뒷문이 열린 서비스 밴 내부. 부품 상자마다 작은 가격표가 붙어 있고, 상자 몇 개에서는 지폐가 살짝 삐져나옴. 따뜻한 일러스트 톤. 실제 브랜드 로고나 차량 상표는 쓰지 않음.",
+        "url": "assets/images/fin-02-05-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "A discount on a year of valves.",
+      "illustrative": true,
+      "body": [
+        "You're a plumber. You use about 10 of one valve a month, at $40 each. Your supplier offers 5% off if you buy a full year's worth today: 120 valves for $4,560 instead of $4,800.",
+        "You have $6,000 in the bank. Payroll of $4,000 is due next Friday. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Take the deal. 5% off is $240 saved",
+            "verdict": "risky",
+            "feedback": "You save $240 over a year, but you'd have $1,440 left with a $4,000 payroll due in days. The saving is small next to the cash gap it opens."
+          },
+          {
+            "key": "B",
+            "text": "Keep buying one month's worth at full price",
+            "verdict": "partial",
+            "feedback": "Your cash stays safe and payroll gets paid. You give up the discount without asking whether a smaller deal is possible."
+          },
+          {
+            "key": "C",
+            "text": "Ask for a smaller discount on a standing monthly order",
+            "verdict": "best",
+            "feedback": "You may get part of the saving while paying only for what you use each month. Cash stays free for payroll and surprises."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "Follow the cash",
+      "title": "Where the $4,560 would go.",
+      "illustrative": true,
+      "body": [
+        "The discount pays you back slowly, $20 a month. The cash leaves all at once and comes back one valve at a time."
+      ],
+      "breakdown": [
+        {
+          "value": "$4,560",
+          "label": "Paid today",
+          "detail": "All 120 valves, up front",
+          "highlight": false
+        },
+        {
+          "value": "$380",
+          "label": "Used in month 1",
+          "detail": "10 valves turn into jobs",
+          "highlight": false
+        },
+        {
+          "value": "$2,280",
+          "label": "Still on the shelf at month 6",
+          "detail": "60 valves waiting for customers",
+          "highlight": true
+        },
+        {
+          "value": "$20",
+          "label": "Saving per month",
+          "detail": "$240 spread over a year",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Inventory ties up cash",
+      "body": [
+        "**Inventory** is anything you've paid for but haven't yet sold or used on a job: parts, ingredients, stock on shelves, raw materials.",
+        "Until a customer pays for it, that money is frozen. You can't spend it on payroll, rent or a better opportunity. Your profit report may look fine, because a part counts as a cost only when it's used. Your bank balance tells a different story."
+      ],
+      "image": {
+        "label": "Cash turning into boxes, then slowly back into cash",
+        "aspectRatio": "16:9",
+        "brief": "왼쪽에서 지폐 더미가 상자들로 바뀌고, 상자들이 컨베이어를 따라 아주 천천히 움직여 오른쪽 끝에서 다시 지폐로 바뀌는 흐름도. 중간 상자 구간이 길게 강조됨.",
+        "url": "assets/images/fin-02-05-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Two numbers decide how much cash is stuck.",
+      "body": [
+        "Cash tied up depends on how much you hold and how long it sits. Hold half as much, or move it twice as fast, and you free the same amount of cash."
+      ],
+      "list": [
+        "**How much:** the value of stock you keep on hand",
+        "**How long:** the time between paying for it and getting paid for it",
+        "**Hidden extras:** storage space, damage, theft, and parts that go out of date"
+      ],
+      "callout": "Stock that sits is cash that sleeps.",
+      "softwareNote": "Software has little physical stock, but prepaid commitments act the same way: a year of reserved server capacity or ad credits bought in bulk for a discount. Cash leaves now, value arrives slowly."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Same value, different speed",
+      "title": "Not all stock ties up cash equally.",
+      "illustrative": true,
+      "body": [
+        "A hardware store holds $1,000 of screws and $1,000 of a rare garden tool. The screws sell out every two weeks. The tool sells about once a year.",
+        "Both look like $1,000 on the shelf. But the screws turn back into cash about 26 times a year. The tool does it once. The store's cash problem isn't its stock in general. It's the **slow movers**."
+      ],
+      "image": {
+        "label": "Two shelves: one emptying fast, one gathering dust",
+        "aspectRatio": "16:9",
+        "brief": "두 개의 선반 비교. 왼쪽 나사 선반은 계속 비고 채워지는 움직임 표현, 오른쪽 정원 도구 하나는 먼지와 거미줄. 각 선반 아래 \"$1,000\" 라벨. 실제 브랜드 표시 없음.",
+        "url": "assets/images/fin-02-05-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Too little stock has costs too.",
+      "body": [
+        "Run too lean and a plumber drives across town for a missing part, or loses the job to someone who had it in the van. Running out can cost more than holding stock.",
+        "Bulk deals can also be worth it: when cash is plentiful, the item won't spoil or go out of date, and the discount beats what that cash could earn elsewhere. The aim is a deliberate amount of stock, not zero."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now you run a team inside a company.",
+      "illustrative": true,
+      "body": [
+        "You lead a field service team at a mid-size equipment maker. Your warehouse holds spare parts for repairs. Finance says cash is tight and asks you to cut the money sitting in parts.",
+        "What's your plan?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Cut every part by 30% across the board",
+            "verdict": "partial",
+            "feedback": "It frees cash fast and looks fair. But you'd run short on parts used every day while still holding slow ones nobody needs."
+          },
+          {
+            "key": "B",
+            "text": "Sort parts by how often they're used, keep fast movers and cut slow ones",
+            "verdict": "best",
+            "feedback": "You free the cash that was sleeping longest while protecting the repairs that happen every week. It takes an afternoon with the usage data."
+          },
+          {
+            "key": "C",
+            "text": "Stop stocking parts and order each one when a repair comes in",
+            "verdict": "risky",
+            "feedback": "Almost no cash tied up, but technicians wait days for parts and customers wait with them. The cost moves from finance to customer service."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Every item on the shelf is cash you've already spent.",
+      "body": [
+        "Judge stock by how much you hold and how long it sits, not just by what it cost per unit.",
+        "**Try it today:** walk your shelves, stockroom or van. Find the three items that have sat the longest and add up what you paid for them."
+      ],
+      "next": "Next · How long can your cash last?"
+    }
+  ]
+}

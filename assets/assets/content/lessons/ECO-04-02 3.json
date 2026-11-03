@@ -1,0 +1,230 @@
+{
+  "id": "ECO-04-02",
+  "unitId": "ECO-04",
+  "categoryId": "ECO",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "Necessities vs luxuries",
+  "readerTitle": "Why one firm's clients stayed when budgets shrank, and the other's left",
+  "format": "two_businesses",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (B2B 급여 대행사와 행사 기획사, 사내 데이터 팀) + 실제 연구 (엥겔의 법칙). 기업 사례 대신 두 사업 비교 형식이 업종 제안(B2B 서비스, 사내 팀)에 더 잘 맞아 형식을 바꿨습니다.",
+  "insight": "필수품과 사치품은 제품의 종류가 아니라 고객의 상황에서 정해진다. '이번 달에 이것 없이 지내면 고객에게 무슨 일이 생기나'로 판단한다.",
+  "misconception": "필수품과 사치품은 제품마다 정해져 있고, 우리 제품은 당연히 고객에게 꼭 필요한 것이다.",
+  "relatedLessonIds": [
+    "ECO-04-01",
+    "ECO-04-03"
+  ],
+  "sources": [
+    {
+      "text": "Engel, E. (1857). Die Productions- und Consumtionsverhältnisse des Königreichs Sachsen. (엥겔의 법칙: 소득이 오를수록 식비 비중이 줄어든다)",
+      "url": null
+    },
+    {
+      "text": "필수재·사치재 구분은 미시경제학 표준 개념",
+      "url": null
+    },
+    {
+      "text": "두 사업과 사내 팀 사례는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "엥겔의 법칙 출처 연도(1857)와 내용(소득이 오르면 식비 지출 총액은 늘 수 있지만 소득 대비 비중은 줄어든다)을 게시 전에 다시 확인하세요. 카드에는 구체적 수치를 넣지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "가상 사례의 '15% 예산 삭감', '8% 가격 인상', '20% 예산 삭감'은 설명용 가정이며 실제 데이터가 아닙니다. 결과도 수치 없이 서술했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "경제학 교과서에서 필수재/사치재는 주로 소득탄력성(1 미만/1 초과)으로 정의하고, 가격 민감도와도 연결해 설명합니다. 이 레슨은 '없이 지내는 비용'으로 쉽게 풀었고, 소득 측면의 자세한 내용은 ECO-04-03에 맡깁니다. 정의 문장이 교과서 정의와 충돌하지 않는지 검토하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Economics · Two businesses",
+      "title": "Same city, same budget cuts, opposite phones.",
+      "illustrative": true,
+      "body": [
+        "Two service firms share an office floor. One runs payroll for local companies. The other plans team retreats and client events.",
+        "When their clients tighten budgets, the payroll firm's phone barely changes. The events firm starts getting polite emails that say \"let's revisit next quarter.\" Same clients, same economy. Very different news."
+      ],
+      "image": {
+        "label": "Two office doors: a calm one and one with a pile of cancellation letters",
+        "aspectRatio": "4:3",
+        "brief": "같은 복도에 나란히 있는 두 사무실 문. 왼쪽 문(\"Payroll\")은 평온하고 전화기가 평소처럼 놓여 있음. 오른쪽 문(\"Events\")은 문틈으로 \"Postponed\" 봉투가 쌓여 있음. 따뜻한 플랫 일러스트, 실제 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Where can a price rise stick?",
+      "illustrative": true,
+      "body": [
+        "You run a firm that offers both services: monthly payroll and team-retreat planning. Your own costs are up, so you want to raise prices about 8%. Your clients have just cut their budgets by around 15%.",
+        "Where do you raise prices?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Raise both by 8%, to keep it simple and fair",
+            "verdict": "partial",
+            "feedback": "Simple to explain, and payroll clients will likely accept it. But retreat clients are already looking for things to cut, and you've just given them a reason."
+          },
+          {
+            "key": "B",
+            "text": "Raise payroll, hold retreat prices for now",
+            "verdict": "best",
+            "feedback": "Clients can't skip paying their staff, so payroll demand holds. Retreats are easy to postpone, so a higher price there mostly speeds up cancellations."
+          },
+          {
+            "key": "C",
+            "text": "Raise retreats more, since those clients spend freely on extras",
+            "verdict": "risky",
+            "feedback": "They spent freely when budgets were loose. Extras are the first line a finance team crosses out, and a price rise makes that easier."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What happened",
+      "title": "Ask what happens if the client goes without.",
+      "illustrative": true,
+      "body": [
+        "The two services weren't different in quality. They were different in what skipping them would cost the client."
+      ],
+      "breakdown": [
+        {
+          "value": "Payroll",
+          "label": "Skip one month",
+          "detail": "Staff go unpaid, penalties, people quit",
+          "highlight": true
+        },
+        {
+          "value": "Retreat",
+          "label": "Skip one quarter",
+          "detail": "A nice event moves to next year",
+          "highlight": false
+        },
+        {
+          "value": "Result",
+          "label": "Under budget pressure",
+          "detail": "Payroll stays, retreats get postponed",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Necessities vs luxuries",
+      "body": [
+        "In economics, a **necessity** is something people keep buying even when prices rise or money gets tight. A **luxury** is something they cut, shrink or delay first.",
+        "Neither word is about price tags or glamour. A plain service can be a luxury, and an expensive one can be a necessity. The test is simple: *what happens to this customer if they go without it this month?* The bigger the damage, the more it behaves like a necessity."
+      ],
+      "image": {
+        "label": "A scale: \"cost of going without\" on one side, \"cost of the purchase\" on the other",
+        "aspectRatio": "16:9",
+        "brief": "양팔 저울 인포그래픽. 한쪽 접시에 \"Cost of going without\", 다른 쪽에 \"Price\". 무거운 쪽이 필수품, 가벼운 쪽이 사치품이라는 라벨. 단순한 2색 일러스트.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "A pattern spotted in the 1850s.",
+      "body": [
+        "The German statistician Ernst Engel studied household budgets in the 1850s. He found that as families earned more, the *share* of their money spent on food fell, even if the amount rose. Food is a necessity: people buy it first and stop adding much once they have enough.",
+        "This became known as **Engel's law**. The same logic holds for businesses. Necessities get paid first. Luxuries get whatever is left, and lose it first when budgets shrink."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The twist",
+      "title": "The same service can be both.",
+      "illustrative": true,
+      "body": [
+        "Retreat planning is a luxury for a 20-person accounting office. For a company that uses its annual sales kickoff to launch new products and train its sales team, it's close to a necessity. Skipping it would cost them a quarter of selling.",
+        "So the label belongs to the **customer's situation**, not to your product. One price list can hold necessities and luxuries at the same time, depending on who is buying."
+      ],
+      "softwareNote": "A monitoring or backup tool is a necessity for a company whose app must never go down, and a nice extra for a team running an internal prototype. Same product, very different reactions to a price rise."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Necessity is not a blank check.",
+      "body": [
+        "Sellers tend to overrate how essential they are. Ask what customers would do without you, not what you think they need.",
+        "The label also moves. A necessity can become a luxury when a cheaper substitute appears, or when the customer's business changes.",
+        "And pressing too hard on a necessity breeds resentment. Customers who feel trapped stay for now, then leave the moment they can."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a team inside a company.",
+      "illustrative": true,
+      "body": [
+        "You lead the in-house data team. Finance now makes other departments pay for your work from their own budgets, and those budgets were just cut 20%.",
+        "Which service will see requests drop the most?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Month-end reports finance needs to close the books",
+            "verdict": "risky",
+            "feedback": "Finance can't close the books without them, so these requests will hold. Planning cuts here would misread your own demand."
+          },
+          {
+            "key": "B",
+            "text": "One-off \"nice to know\" analyses for senior leaders",
+            "verdict": "best",
+            "feedback": "Going without them costs little this month, so they're the first thing a squeezed budget drops. Plan for fewer of these and shift people elsewhere."
+          },
+          {
+            "key": "C",
+            "text": "The dashboard sales checks every morning to set targets",
+            "verdict": "partial",
+            "feedback": "It's used daily, so it feels essential. But sales could fall back on a spreadsheet, so demand may dip a little rather than collapse."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Necessity is decided by what going without would cost the customer.",
+      "body": [
+        "Before you raise prices or plan for a downturn, sort what you sell by how much each customer would suffer without it. That sorting tells you where demand will hold and where it will vanish.",
+        "**Try it today:** list your three biggest customers. For each, write what happens to them if they skip you for one month."
+      ],
+      "next": "Next · When incomes rise, which sales grow fastest?"
+    }
+  ]
+}

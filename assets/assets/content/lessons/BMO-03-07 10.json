@@ -1,0 +1,240 @@
+{
+  "id": "BMO-03-07",
+  "unitId": "BMO-03",
+  "categoryId": "BMO",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "Why printers are cheap and ink is not",
+  "readerTitle": "Why the printer costs less than its ink",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "real_observation",
+    "illustrative"
+  ],
+  "caseNote": "실제 관찰 (프린터 업계의 가격 구조, 잉크 탱크 프린터) + 가상 사례 (사무용품 매장, 카페 결제 단말기) · 수치는 모두 설명용",
+  "insight": "싼 본체와 비싼 소모품 모델은 잠금이 유지될 때만 돈이 된다. 그래서 고객을 묶는 장치보다 고객이 머물 이유가 더 오래 간다.",
+  "misconception": "본체를 싸게 팔고 소모품으로 벌면 언제나 남는 장사다. 고객을 기술적으로 묶어 두면 이익이 안전하다.",
+  "relatedLessonIds": [
+    "BMO-03-01",
+    "BMO-03-05"
+  ],
+  "sources": [
+    {
+      "text": "프린터 업계의 일반적 가격 구조(본체 저마진, 잉크 고마진)에 대한 업계 보도와 관찰",
+      "url": null
+    },
+    {
+      "text": "잉크 탱크(리필 병) 방식 프린터 제품군에 대한 제조사 공개 자료",
+      "url": null
+    },
+    {
+      "text": "모든 가격과 비용 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "3번 카드 계산(가상 수치, 유통 마진 등은 단순화를 위해 생략): 본체 $60 − 제조·배송 $70 = −$10. 잉크 3년간 6세트 × $40 = $240, 잉크 제조 원가 합계 $40 → 잉크 이익 $200. 합계 −$10 + $200 = $190.",
+      "status": "open"
+    },
+    {
+      "note": "5번 카드: 일부 제조사가 카트리지 칩과 펌웨어 업데이트로 타사 카트리지를 거부해 소송과 일부 국가 규제 당국의 제재를 받은 사례가 있다는 일반적 서술입니다. 특정 회사·금액·연도는 쓰지 않았습니다. 게시 전 대표 사례를 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "6번 카드: 본체를 더 비싸게 받고 잉크를 병으로 싸게 파는 잉크 탱크 프린터가 여러 제조사에서 판매된다는 내용을 확인하세요. 잉크 정기구독 서비스가 존재한다는 일반 서술도 확인 필요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business models · Everyday scene",
+      "title": "Why the printer costs less than its ink",
+      "illustrative": true,
+      "body": [
+        "You need a printer. The store has a decent one for $59. Next to it hangs a replacement set of ink cartridges for $45.",
+        "Two refills and you've paid more for ink than for the machine. Nobody in this aisle made a mistake. The price tags are doing exactly what they were designed to do."
+      ],
+      "image": {
+        "label": "A cheap printer next to an almost equally priced ink pack on a store shelf",
+        "aspectRatio": "4:3",
+        "brief": "전자제품 매장 선반. 왼쪽에 \"$59\" 가격표가 붙은 프린터, 오른쪽에 \"$45\" 가격표의 잉크 카트리지 묶음. 두 가격표 크기가 거의 같아 보이게. 실제 브랜드 로고와 상표는 쓰지 않음.",
+        "url": "assets/images/bmo-03-07-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You run an office-supply store.",
+      "illustrative": true,
+      "body": [
+        "A supplier offers a popular printer that leaves you only a few dollars of profit per unit. Its cartridges fit no other printer, and they leave you a healthy margin.",
+        "How do you handle it?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Stock the printer at a thin margin and keep its cartridges always in stock",
+            "verdict": "best",
+            "feedback": "This is **razors and blades** from the shelf side: the printer brings the customer, the cartridges bring them back. It only works if you never run out of refills."
+          },
+          {
+            "key": "B",
+            "text": "Skip it. A product that barely earns isn't worth the shelf space",
+            "verdict": "risky",
+            "feedback": "You judge the printer alone and miss years of cartridge sales that follow it. A rival store gets those return visits instead."
+          },
+          {
+            "key": "C",
+            "text": "Raise the printer price to earn a proper margin on it",
+            "verdict": "partial",
+            "feedback": "You earn more per printer but sell fewer, since shoppers compare that price everywhere. Fewer printers sold means fewer customers who need your refills later."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Follow one printer for three years.",
+      "illustrative": true,
+      "body": [
+        "Simplified, with made-up numbers. The sale everyone sees loses money. The sales nobody notices pay for everything."
+      ],
+      "breakdown": [
+        {
+          "value": "−$10",
+          "label": "Printer",
+          "detail": "Sold for $60, costs $70 to make and ship",
+          "highlight": false
+        },
+        {
+          "value": "$240",
+          "label": "Ink sales",
+          "detail": "6 cartridge sets × $40",
+          "highlight": false
+        },
+        {
+          "value": "−$40",
+          "label": "Ink cost",
+          "detail": "What those cartridges cost to make",
+          "highlight": false
+        },
+        {
+          "value": "$190",
+          "label": "Left over",
+          "detail": "Almost all of it comes from ink",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept at work · 1",
+      "title": "Razors and blades",
+      "body": [
+        "You met this model earlier: price the base item low, then earn on the refills it needs. The printer is the razor. The ink is the blade.",
+        "It works under two conditions. The refills must be bought again and again, and they must be tied to the base. A printer that used any ink would turn the $10 loss into a plain loss."
+      ],
+      "callout": "The model is a bet that the customer comes back for refills, and buys them from you."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Concept at work · 2",
+      "title": "Lock-in keeps the blades yours.",
+      "body": [
+        "Cheap compatible cartridges exist. So makers work to make switching awkward: special cartridge shapes, chips that the printer checks, warnings about warranties.",
+        "Some makers have pushed updates that made printers reject other brands' cartridges. That drew lawsuits and, in some countries, penalties from regulators. This is **lock-in** at work: the higher the cost of leaving, the safer the ink margin."
+      ],
+      "image": {
+        "label": "A cartridge with a small chip being checked by a printer",
+        "aspectRatio": "16:9",
+        "brief": "잉크 카트리지 단면 일러스트. 카트리지의 작은 칩과 프린터 내부를 연결하는 점선, 정품 카트리지는 초록 체크, 다른 카트리지는 빨간 X. 실제 브랜드 로고는 쓰지 않음.",
+        "url": "assets/images/bmo-03-07-c5.jpg"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The flip side",
+      "title": "Some printers do the opposite.",
+      "body": [
+        "Several makers also sell ink tank printers. The machine costs much more, and you refill it from cheap bottles of ink.",
+        "This turns the model around: earn on the base, not the refills. It appeals to people who print a lot and have done the math on cartridges. Ink subscriptions are another variation, closer to paying per page printed."
+      ],
+      "image": {
+        "label": "Two printers side by side: cheap with costly cartridges, pricey with cheap ink bottles",
+        "aspectRatio": "16:9",
+        "brief": "좌우 비교 일러스트. 왼쪽: 작은 가격표의 프린터 + 큰 가격표의 카트리지 더미. 오른쪽: 큰 가격표의 프린터 + 작은 가격표의 잉크 병. 실제 상표 없음.",
+        "url": "assets/images/bmo-03-07-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Lock-in that feels like a trap backfires.",
+      "body": [
+        "The cheap base is a loan to the customer, repaid through refills. If the lock-in breaks, through compatible refills, new rules or a rival model, the loan is never repaid.",
+        "Forced lock-in also costs trust. Customers who feel trapped stay only until they can leave, then warn others. Lock-in from convenience and quality lasts longer than lock-in from chips."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's software for cafés.",
+      "illustrative": true,
+      "body": [
+        "You sell a checkout app for cafés. It runs on a tablet and card reader. You earn a small fee on every card payment.",
+        "How do you price the hardware?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Give the hardware away, lock it to your payments only, and set a high fee",
+            "verdict": "risky",
+            "feedback": "Classic **razors and blades** with hard **lock-in**. It works until a rival offers the same free tablet with lower fees, then resentful cafés leave as soon as they can."
+          },
+          {
+            "key": "B",
+            "text": "Sell the hardware near cost, keep fees fair, and make menus, reports and staff training live in your app",
+            "verdict": "best",
+            "feedback": "A low base still brings cafés in, and the fees are the blades. The **lock-in** comes from how much work your app saves, so customers stay because they want to."
+          },
+          {
+            "key": "C",
+            "text": "Charge full price for the hardware and offer the lowest fees",
+            "verdict": "partial",
+            "feedback": "Safer cash today, with no loss to recover. But a big upfront bill slows sign-ups, and small cafés often can't afford it."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A cheap base only pays if customers keep buying the refills from you.",
+      "body": [
+        "**Concepts used:** razors and blades (earn on refills, not the base) and lock-in (what keeps those refills yours). The best lock-in is a reason to stay, not a wall.",
+        "**Try it today:** find one thing you sell that customers buy again. Ask what keeps them buying it from you: habit, quality, convenience, or only the hassle of leaving?"
+      ],
+      "next": "Next · Free plan or free trial?"
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "id": "ECO-02-10",
+  "unitId": "ECO-02",
+  "categoryId": "ECO",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Accept a low-price bulk order?",
+  "readerTitle": "The big order that pays less than it costs",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.6,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (식자재 유통업체 + 호텔 그룹의 대량 주문) · 모든 수치는 설명용",
+  "insight": "대량 특가 주문은 평균 원가가 아니라 그 주문이 '새로 더하는' 비용으로 판단하고, 그 계산은 남는 처리 능력 안에서만 성립한다.",
+  "misconception": "평균 원가보다 낮은 가격의 주문은 무조건 손해이고, 반대로 변동비만 넘으면 얼마든지 받아도 된다.",
+  "relatedLessonIds": [
+    "ECO-02-01",
+    "ECO-02-02"
+  ],
+  "sources": [
+    {
+      "text": "관리회계의 표준 개념 (고정비·변동비, 한계비용, 특별주문 의사결정)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "원가 구조: 변동비 $12.50(상품) + $1.50(포장·연료) = $14. 고정비 주당 $5,600 ÷ 주당 800상자 = 상자당 $7. 평균 원가 $14 + $7 = $21. 호텔가 $18 − $14 = 상자당 $4, 2,400상자 × $4 = $9,600.",
+      "status": "open"
+    },
+    {
+      "note": "처리 능력: 주당 여유 100상자 × 12주 = 1,200상자. 초과분 한계비용 $14 + $6 = $20. A안: 1,200 × $4 = $4,800, 1,200 × (−$2) = −$2,400, 합계 $2,400. B안: $4,800 + 1,200 × ($22 − $20) = $2,400, 합계 $7,200(초과분을 호텔이 거절하면 $4,800).",
+      "status": "open"
+    },
+    {
+      "note": "단골 가격: $26 − $14 = 상자당 $12. $18로 맞춰 주면 상자당 $4로 줄어듭니다.",
+      "status": "open"
+    },
+    {
+      "note": "1년 계약: 신규 고정비 주당 $2,400 ÷ 400상자 = 상자당 $6, 총비용 $20. $18이면 상자당 −$2 × 400 = 주당 −$800. $22이면 상자당 +$2 × 400 = 주당 +$800.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Costs · Simulation",
+      "title": "The big order that pays less than it costs",
+      "illustrative": true,
+      "body": [
+        "You run a small food distributor. Your van delivers oil, flour, rice and canned goods to 60 local restaurants.",
+        "A hotel group calls with the biggest order you've ever had. The catch: they want **$18 a case**. Your accountant says each case costs you $21."
+      ],
+      "image": {
+        "label": "Delivery van loaded with stacked food cases outside a hotel",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 작은 배송 밴 옆에 식자재 상자가 높이 쌓여 있고, 뒤로 호텔 건물. 상자 하나에 \"$18\" 가격표, 장부에 \"Cost $21\" 메모. 실제 브랜드 로고는 쓰지 않음.",
+        "url": "assets/images/eco-02-10-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1",
+      "title": "Yes or no?",
+      "illustrative": true,
+      "body": [
+        "The order: 2,400 cases over 12 weeks at $18. Regulars pay $26.",
+        "Your $21 has two parts: $14 that comes with each case (goods, packing, fuel) and $7 of rent, staff and van lease spread across every case. You pay that $7 either way."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Decline. $18 is below our $21 cost",
+            "verdict": "risky",
+            "feedback": "You avoid a loss that isn't real. Rent and staff get paid either way, so each case at $18 still leaves $4 you'd never see otherwise."
+          },
+          {
+            "key": "B",
+            "text": "Interested, but first check it fits our current capacity",
+            "verdict": "best",
+            "feedback": "Each case leaves $18 − $14 = $4. That holds only if you can deliver without adding costs. So you check."
+          },
+          {
+            "key": "C",
+            "text": "Counter at $21 so we break even",
+            "verdict": "partial",
+            "feedback": "Sounds safe, but your real floor is $14, not $21. Push too hard and the hotel walks, taking $4 a case with it."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "What one hotel case leaves you",
+      "illustrative": true,
+      "body": [
+        "The $7 of rent and staff isn't on this list. Saying yes doesn't add it. Saying no doesn't remove it. If nothing else changes: 2,400 × $4 = **$9,600**."
+      ],
+      "breakdown": [
+        {
+          "value": "$18.00",
+          "label": "Hotel price",
+          "detail": "Per case",
+          "highlight": false
+        },
+        {
+          "value": "−$12.50",
+          "label": "Goods",
+          "detail": "What you pay your supplier",
+          "highlight": false
+        },
+        {
+          "value": "−$1.50",
+          "label": "Packing and fuel",
+          "detail": "Comes with each delivery",
+          "highlight": false
+        },
+        {
+          "value": "$4.00",
+          "label": "Left over",
+          "detail": "Extra money toward rent and profit",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 2",
+      "title": "Say you chose B. Now the warehouse.",
+      "illustrative": true,
+      "body": [
+        "You ship 800 cases a week and can handle 900 with your van and crew. The hotel needs 200 a week.",
+        "The first 100 fit. The other 100 need overtime and a rented van, adding about $6 a case."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Take all 200 a week and absorb the overtime",
+            "verdict": "risky",
+            "feedback": "The 1,200 cases that fit earn $4,800. The 1,200 beyond capacity cost $20 each and lose $2,400. Lots of extra work for $2,400."
+          },
+          {
+            "key": "B",
+            "text": "Offer 100 a week at $18 and the rest at $22",
+            "verdict": "best",
+            "feedback": "The fitting cases earn $4,800. If the hotel takes the extra at $22, that's another $2,400. If not, you keep $4,800 with no overtime."
+          },
+          {
+            "key": "C",
+            "text": "Take all 200 and push some regular deliveries back a day",
+            "verdict": "risky",
+            "feedback": "No overtime, but you trade your $26 customers' reliability for $18 cases. Lose one regular and the deal can turn negative."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "What just happened",
+      "title": "Why the same case suddenly cost more",
+      "body": [
+        "Up to 900 cases a week, one more case costs $14. Past that, it costs $20, because overtime and a rented van come with it.",
+        "That's **marginal cost**: the cost of one more unit. It isn't constant. It jumps when you run out of room. So \"is the price above cost?\" needs a follow-up: above *which* cost, at *this* volume?"
+      ],
+      "image": {
+        "label": "Step chart: cost per extra case jumps from $14 to $20 at 900 cases",
+        "aspectRatio": "16:9",
+        "brief": "계단형 그래프. 가로축 \"Cases per week\", 세로축 \"Cost of one more case\". 900 지점까지 $14로 평평하다가 $20으로 한 계단 올라감. 계단 위치에 작은 렌트 밴과 시계(야근) 아이콘.",
+        "url": "assets/images/eco-02-10-c5.jpg"
+      },
+      "softwareNote": "Serving one more user costs almost nothing until you hit a step: a bigger server plan or another support hire. Before a big-account discount, check whether the deal fits current capacity or forces the next step."
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Decision 3",
+      "title": "Say you chose B. A regular calls.",
+      "illustrative": true,
+      "body": [
+        "The hotel signs. Word gets around. Rosa, who runs a busy trattoria and has paid $26 a case for six years, asks for the hotel price."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Match $18 for Rosa",
+            "verdict": "risky",
+            "feedback": "She's happy, but her cases drop from $12 left over to $4. Regular prices are what pay your rent and staff."
+          },
+          {
+            "key": "B",
+            "text": "Explain the hotel's terms: huge volume, quiet-day delivery, 12 weeks only",
+            "verdict": "best",
+            "feedback": "The low price is tied to conditions that keep costs down. Rosa sees it isn't favoritism, and your base price holds."
+          },
+          {
+            "key": "C",
+            "text": "Give her a small loyalty discount to keep the peace",
+            "verdict": "partial",
+            "feedback": "Fair for a valued customer, but you pay to fix what an explanation might solve for free. Others may ask next."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Decision 4",
+      "title": "Say you chose B. The hotel wants a year.",
+      "illustrative": true,
+      "body": [
+        "The hotel offers a full-year contract: 400 cases a week at $18.",
+        "That needs a second van, a driver and more space: about $2,400 a week in new fixed costs."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Sign. It grows the business by half",
+            "verdict": "risky",
+            "feedback": "Each case now carries $14 plus $6 of new costs: $20. At $18 you lose $800 a week, and your costs are built around one customer."
+          },
+          {
+            "key": "B",
+            "text": "Counter at $22 with a minimum-volume commitment",
+            "verdict": "best",
+            "feedback": "Each case leaves $2 after the new costs, about $800 a week. The minimum protects you if orders shrink after you hire."
+          },
+          {
+            "key": "C",
+            "text": "Decline and keep only the short deal",
+            "verdict": "partial",
+            "feedback": "No new risk, but you may walk away from a profitable account. A counteroffer costs nothing to try."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The $4 logic only works on spare room.",
+      "body": [
+        "Pricing near the cost of one more unit suits spare capacity and one-off deals. On average, your prices must also cover rent and staff, or the business slowly drains.",
+        "Once you hire or lease for a customer, those costs stop being \"paid anyway.\" They belong to that deal. And if that customer leaves, they stay with you."
+      ]
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Judge an order by what it adds, not by your average cost.",
+      "body": [
+        "A low-price bulk order is worth it when it covers the costs it adds, fits your spare capacity and stays fenced off from your regular price."
+      ],
+      "list": [
+        "**Decision 1 · Fixed vs variable costs:** the $7 of rent and staff gets paid either way.",
+        "**Decision 2 · Marginal cost:** one more case cost $14, until capacity ran out.",
+        "**Decision 3 · Fixed vs variable costs:** full-price customers carry the fixed costs, so the deal price can't spread.",
+        "**Decision 4 · Operating leverage:** new fixed costs for one customer raise your risk if they leave."
+      ],
+      "callout": "**Try it today:** write down how much more you could sell this month without overtime, hiring or new equipment. That's your room for special deals.",
+      "next": "Next · Why some sellers can't set their own price"
+    }
+  ]
+}

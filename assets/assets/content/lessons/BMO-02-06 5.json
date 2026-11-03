@@ -1,0 +1,236 @@
+{
+  "id": "BMO-02-06",
+  "unitId": "BMO-02",
+  "categoryId": "BMO",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Franchising",
+  "readerTitle": "Why a bakery might prefer $40,000 a store to $150,000",
+  "format": "numbers_twist",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.3,
+  "caseKinds": [
+    "illustrative",
+    "real_observation"
+  ],
+  "caseNote": "가상 사례 (베이커리 카페, 사내 교육팀) + 실제 관찰 (대형 외식·호텔 브랜드의 가맹 비중) · 수치는 모두 설명용",
+  "insight": "프랜차이즈는 매장당 이익을 줄이는 대신, 남의 자본과 남의 노력으로 더 빨리 넓히는 거래다. 매장당 이익이 아니라 내 돈 1달러당 이익으로 비교해야 보인다.",
+  "misconception": "직영점이 매장당 이익이 훨씬 크니 늘 더 좋은 선택이다. 또는 로열티는 가맹점 이익에서 떼는 것이라 가맹점은 늘 남는다.",
+  "relatedLessonIds": [
+    "BMO-02-05",
+    "BMO-01-06"
+  ],
+  "sources": [
+    {
+      "text": "프랜차이즈 사업 모델의 표준 개념 (가맹비, 매출 기준 로열티, 운영 매뉴얼)",
+      "url": null
+    },
+    {
+      "text": "McDonald's Corporation, Annual Report (Form 10-K): 가맹점 비중",
+      "url": null
+    },
+    {
+      "text": "베이커리와 사내 교육팀의 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "계산 확인: 로열티 6% × 매출 $1,000,000 = $60,000. 지원 비용 $20,000을 빼면 본사 순이익 $40,000. 직영점 이익 $150,000 ÷ 투자 $500,000 = 30%. 가맹점 이익 $150,000 − $60,000 = $90,000 ÷ $500,000 = 18%. 가맹 10곳 × $40,000 = $400,000, 시스템 구축비 $200,000 가정.",
+      "status": "open"
+    },
+    {
+      "note": "Watch out 계산: 매장 이익률 8%면 $80,000 − 로열티 $60,000 = $20,000 ÷ $500,000 = 4%.",
+      "status": "open"
+    },
+    {
+      "note": "\"맥도날드 매장의 대부분이 가맹점\"은 최근 10-K 기준 약 95%로 알려져 있습니다. 카드에는 정확한 비율 없이 \"the large majority\"로 적었습니다. 게시 전 최신 연차보고서로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "프랜차이즈 관련 법규(정보공개서 등)는 나라마다 다르므로 카드에서는 구체적 법률 조언 없이 일반적으로만 언급했습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business models · Numbers twist",
+      "title": "Why a bakery might prefer $40,000 a store to $150,000",
+      "illustrative": true,
+      "body": [
+        "Your bakery-café is a hit. It sells $1 million a year and keeps $150,000 in profit.",
+        "Strangers keep asking to open copies in their towns. Each copy would earn you about $40,000 a year. That sounds like a bad trade. The numbers say otherwise."
+      ],
+      "image": {
+        "label": "One bakery with copies appearing in other towns",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 가운데 작은 베이커리 카페 하나, 지도 위 여러 마을에 같은 모양의 가게가 점선으로 나타나는 장면. 각 가게 앞에 다른 주인 캐릭터. 실제 브랜드 로고나 간판 문구는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "$500,000 saved. How do you grow?",
+      "illustrative": true,
+      "body": [
+        "A new store costs $500,000. You have exactly that.",
+        "Option two: spend $200,000 on a manual, training and contracts, then let local owners open stores with their own money. Each pays you 6% of sales, about $60,000 a year. Supporting each store costs you about $20,000."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Open a second store yourself and keep all $150,000",
+            "verdict": "partial",
+            "feedback": "You keep full control and the full profit. But all your savings buy one store, so growth stays slow."
+          },
+          {
+            "key": "B",
+            "text": "Franchise: earn $40,000 per store, while owners fund the stores",
+            "verdict": "best",
+            "feedback": "Ten such stores earn you $400,000 a year on $200,000 of your money. It only works if you find good owners and the stores stay good."
+          },
+          {
+            "key": "C",
+            "text": "Wait until you can afford two stores at once",
+            "verdict": "risky",
+            "feedback": "Waiting feels safe, but it costs years of profit, and rivals may copy you first."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Same store, two owners.",
+      "illustrative": true,
+      "body": [
+        "Per store, owning wins: $150,000 vs $40,000. Per dollar *you* invest, franchising wins by a mile. You put no money into the store itself."
+      ],
+      "breakdown": [
+        {
+          "value": "$150,000",
+          "label": "Owned store profit",
+          "detail": "On $500,000 of your money: 30% a year",
+          "highlight": false
+        },
+        {
+          "value": "$60,000",
+          "label": "Franchise royalty",
+          "detail": "6% of $1 million in sales",
+          "highlight": false
+        },
+        {
+          "value": "−$20,000",
+          "label": "Your support cost",
+          "detail": "Training, visits, quality checks",
+          "highlight": false
+        },
+        {
+          "value": "$40,000",
+          "label": "Yours per franchised store",
+          "detail": "With $0 of your money in the store",
+          "highlight": true
+        },
+        {
+          "value": "$90,000",
+          "label": "Franchisee keeps",
+          "detail": "$150,000 − $60,000: 18% on their $500,000",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Franchising",
+      "body": [
+        "**Franchising** means renting out your whole way of running a business: the brand, recipes, systems and training. A local owner invests their own money, runs the location, and pays you an upfront fee plus a share of sales, called a **royalty**.",
+        "It goes further than licensing, which rents out one asset like a recipe or a name. A franchisee buys a tested business in a box."
+      ],
+      "image": {
+        "label": "A box labeled with brand, recipes, systems, training",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 열린 상자 안에 \"Brand\", \"Recipes\", \"Systems\", \"Training\" 아이콘. 상자에서 가맹점 주인에게 화살표, 반대 방향으로 \"Fee + % of sales\" 화살표. 실제 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Two things the franchisor gets besides fees.",
+      "body": [
+        "First, **other people's capital.** You grow without borrowing or waiting to save. That is why the large majority of McDonald's restaurants are run by franchisees, and why many big hotel brands own few of their buildings.",
+        "Second, **owner effort.** A franchisee has their own savings on the line. They tend to watch waste, staff and service more closely than a hired manager would."
+      ],
+      "softwareNote": "Software rarely franchises, because copying the product costs almost nothing. The closest cousin is a partner program: local firms sell, set up and support your product in their region and share the revenue."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Royalties come off sales, not profit.",
+      "illustrative": true,
+      "body": [
+        "The 6% is paid even in a bad month. If a store kept only 8% of sales as profit, the owner would keep $20,000 on $500,000. That is 4% a year for running a shop. Owners like that cut corners or quit.",
+        "You also lose direct control. One dirty location hurts every store with your name. And you can grow only as fast as you find good owners. Franchise rules also differ by country, so get local advice before you start."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a team inside a company.",
+      "illustrative": true,
+      "body": [
+        "You lead a four-person training team at headquarters. Your new-hire program cut early resignations, and twelve regional offices want it.",
+        "How do you spread it?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Run every session yourselves and hire more trainers",
+            "verdict": "partial",
+            "feedback": "Quality stays high, but your budget and headcount become the limit. Twelve offices could take years."
+          },
+          {
+            "key": "B",
+            "text": "Package a playbook, train one lead per office who runs it on their budget, and check results",
+            "verdict": "best",
+            "feedback": "This is franchising logic: local people supply the effort and money, you supply the system and the standards."
+          },
+          {
+            "key": "C",
+            "text": "Email the slides and let each office adapt them freely",
+            "verdict": "risky",
+            "feedback": "Fast and cheap, but with no training or checks, the program drifts. Soon it carries your name without your results."
+          }
+        ],
+        "afterReveal": null
+      },
+      "callout": "The franchisor's real product is the system, not the store."
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Franchising trades profit per location for speed with other people's money.",
+      "body": [
+        "Compare it per dollar you invest, not per store. Then check that the owner still earns a fair return after paying you.",
+        "**Try it today:** list three things in your business a stranger could run from a manual you wrote. Which one still depends on you personally?"
+      ],
+      "next": "Next · Five ways to make money from one newsletter"
+    }
+  ]
+}

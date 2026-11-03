@@ -1,0 +1,278 @@
+{
+  "id": "MKT-05-10",
+  "unitId": "MKT-05",
+  "categoryId": "MKT",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Design a referral program",
+  "readerTitle": "How to ask happy customers to bring a friend",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.5,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 시뮬레이션 (커피 로스터리의 매장 소매 + 사무실 납품) · 수치는 설명용 + 실제 연구 1건 (추천 고객의 가치)",
+  "insight": "추천 프로그램은 보상 금액이 아니라 누구에게, 언제, 양쪽에 무엇을 주느냐를 설계하는 일이다.",
+  "misconception": "추천 보상을 크게 걸면 추천이 늘고, 추천으로 들어온 사람 수가 많으면 성공이다.",
+  "relatedLessonIds": [
+    "MKT-05-04",
+    "MKT-05-02"
+  ],
+  "sources": [
+    {
+      "text": "Schmitt, P., Skiera, B., & Van den Bulte, C. (2011). Referral Programs and Customer Value. Journal of Marketing, 75(1).",
+      "url": null
+    },
+    {
+      "text": "로스터리 시나리오와 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Schmitt·Skiera·Van den Bulte(2011) 연구는 독일 은행의 추천 고객이 다른 신규 고객보다 이탈이 적고 가치가 높았다고 보고합니다. 카드에는 구체 수치 없이 \"more loyal and more valuable over the period studied\"로만 적었습니다. 게시 전 원문으로 표현을 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "계산 확인: 원두 한 봉지 원가 $4, 판매가 $15. 양쪽 무료 봉지 = 신규 고객 1명당 원가 $8. 친구 60명 × 2봉지 = 120봉지 × $4 = $480. 차트의 재구매율(55%, 35%, 15%)은 가상 수치이며, 55% × 60명 = 33명.",
+      "status": "open"
+    },
+    {
+      "note": "B2B 결정의 '회사마다 직원 개인 선물을 제한하는 경우가 많다'는 일반적 관행 설명입니다. 특정 국가의 법률 조언으로 읽히지 않도록 일반 표현을 유지했습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Growth · Simulation",
+      "title": "How to ask happy customers to bring a friend",
+      "illustrative": true,
+      "body": [
+        "Lena runs a small coffee roastery. She roasts beans in the back, sells bags in a front shop and drives a van to 30 office break rooms each week.",
+        "When she asks new shop customers how they found her, most say \"a friend.\" She wants more of that. Over four decisions, you'll design her referral program."
+      ],
+      "image": {
+        "label": "A small roastery shop with a delivery van outside",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 작은 커피 로스터리 매장 정면, 안쪽에 로스팅 기계, 계산대에서 손님이 원두 봉지를 받는 장면. 가게 앞에 작은 배송 밴. 실제 브랜드 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 4",
+      "title": "Who gets the referral card?",
+      "illustrative": true,
+      "body": [
+        "Lena prints cards that say \"Bring a friend.\" Now she must decide who gets one, and when."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Email the card to everyone on her mailing list at once",
+            "verdict": "partial",
+            "feedback": "It reaches the most people fast, but many on the list bought once and never came back. Few will vouch for coffee they barely remember."
+          },
+          {
+            "key": "B",
+            "text": "Hand a card to customers when they come back for a second bag",
+            "verdict": "best",
+            "feedback": "A second visit proves they like the coffee. You reach fewer people, but each one has a real reason to recommend you."
+          },
+          {
+            "key": "C",
+            "text": "Tuck a card into every first-time buyer's bag",
+            "verdict": "risky",
+            "feedback": "It's easy to do, but you're asking before they've tasted anything. People rarely recommend what they haven't tried."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 4",
+      "title": "What does the card offer?",
+      "illustrative": true,
+      "body": [
+        "Say you chose to give cards on the second visit. Now pick the reward. A bag of beans sells for $15 and costs Lena about $4 to roast and pack."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "$10 cash to the customer for each friend who buys",
+            "verdict": "risky",
+            "feedback": "Cash turns a friendly tip into a sales pitch, and it attracts people chasing money. It also costs full dollars, not product cost."
+          },
+          {
+            "key": "B",
+            "text": "A free bag for the friend's first visit, and a free bag for the customer when the friend buys",
+            "verdict": "best",
+            "feedback": "The customer gives a gift instead of asking a favor, and the friend has a reason to come in. It costs about $8 in beans per new customer."
+          },
+          {
+            "key": "C",
+            "text": "20% off the customer's next bag; nothing for the friend",
+            "verdict": "partial",
+            "feedback": "It thanks the customer, but the friend gets no reason to act. Sharing it feels like asking a favor for your own discount."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 4",
+      "title": "Is it working?",
+      "illustrative": true,
+      "body": [
+        "Say you chose the two free bags. After two months, 60 friends have come in with a card. Lena has given away 120 bags, about $480 in beans and packaging.",
+        "How should she judge the program?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "60 new customers is great. Print more cards",
+            "verdict": "partial",
+            "feedback": "Visits are a good start, but a free bag brings people in once. It says nothing yet about whether they become customers."
+          },
+          {
+            "key": "B",
+            "text": "Check how many referred friends buy a second bag, compared with other new customers",
+            "verdict": "best",
+            "feedback": "This measures what the $480 actually bought: customers who stay. It also tells you whether to grow the program or fix it."
+          },
+          {
+            "key": "C",
+            "text": "$480 in free coffee is too much. Stop the program",
+            "verdict": "risky",
+            "feedback": "You'd judge only the cost and ignore the value. If even a third of those friends keep buying, the beans pay for themselves quickly."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "chart",
+      "eyebrow": "What happened",
+      "title": "The second bag told the real story.",
+      "illustrative": true,
+      "body": [
+        "Referred friends came back far more often than other new customers. They arrived already trusting someone who liked the coffee.",
+        "Research points the same way. A study of referral customers at a German bank found they were more loyal and more valuable than other new customers over the period studied."
+      ],
+      "chart": {
+        "unit": "%",
+        "groups": [
+          {
+            "label": "New customers who bought a second bag within 60 days",
+            "rows": [
+              {
+                "label": "Came with a referral card",
+                "value": 55,
+                "highlight": true
+              },
+              {
+                "label": "Walked in on their own",
+                "value": 35,
+                "highlight": false
+              },
+              {
+                "label": "Came from a discount flyer",
+                "value": 15,
+                "highlight": false
+              }
+            ]
+          }
+        ]
+      },
+      "image": {
+        "label": "The second bag told the real story.",
+        "aspectRatio": "4:3",
+        "brief": "Labeled HTML chart from the lesson numbers",
+        "url": "assets/images/mkt-05-10-chart.png"
+      }
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Decision 4 of 4",
+      "title": "Now the offices on the van route.",
+      "illustrative": true,
+      "body": [
+        "Say you chose to track second bags. Referrals work in the shop, so Lena turns to wholesale. One office account is worth far more than a shop customer. And an office near her current route costs little extra to deliver to.",
+        "How should she ask offices to refer other offices?"
+      ],
+      "image": {
+        "label": "Map of a van route with new offices near existing stops",
+        "aspectRatio": "16:9",
+        "brief": "단순한 지도 인포그래픽. 배송 밴 경로가 선으로 이어지고 기존 사무실 정류장이 점으로 표시됨. 경로 바로 옆에 새 사무실 두 곳이 강조 색으로 추가됨. 실제 지명, 로고는 쓰지 않음.",
+        "url": null
+      },
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Use the shop card: a free bag for the office manager personally",
+            "verdict": "risky",
+            "feedback": "It ignores how businesses buy. Many companies limit personal gifts to staff, and the reward goes to one person rather than the account."
+          },
+          {
+            "key": "B",
+            "text": "Ask on a delivery day: the new office gets a free trial week, and the referring office gets extra beans for its break room",
+            "verdict": "best",
+            "feedback": "The trial lowers the new office's risk, and the reward goes to the whole office. Neighbors on the same route also make each van trip cheaper."
+          },
+          {
+            "key": "C",
+            "text": "Skip referrals for offices and hire a part-time sales rep",
+            "verdict": "partial",
+            "feedback": "A rep can open doors, but costs more and starts cold. A happy office manager is the most trusted voice another office will hear."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A referral program spreads what's already there.",
+      "body": [
+        "Rewards don't create enthusiasm. They give happy customers an easy reason to act. If the coffee or the deliveries slip, the program spreads disappointment faster.",
+        "Set simple limits too. Pay the reward only when the friend actually buys, and only once per new customer. Otherwise some people will refer themselves."
+      ],
+      "softwareNote": "The same rules apply to apps. Ask users after they've had their first real success with the product, reward both sides with the product itself, such as extra credit or features, and judge the program by whether referred users are still active weeks later."
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Ask the right people, at the right time, for a reward both sides want.",
+      "body": [
+        "Each of your four decisions used an idea from this unit:"
+      ],
+      "list": [
+        "**Card on the second visit:** activation. Ask after customers have felt the value.",
+        "**A gift for both sides:** referrals. The friend needs a reason to act, too.",
+        "**Count second bags:** retention and growth experiments. Judge by who stays, not who shows up.",
+        "**Offices on the route:** loops. Each new account cuts delivery costs and becomes the next referrer."
+      ],
+      "callout": "**Try it today:** list three customers who came back more than once. Ask each one what would make it easy to send you a friend.",
+      "next": "Next · A new unit begins in Marketing & Brand"
+    }
+  ]
+}

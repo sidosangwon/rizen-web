@@ -1,0 +1,205 @@
+{
+  "id": "STR-01-05",
+  "unitId": "STR-01",
+  "categoryId": "STR",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Trade-offs",
+  "readerTitle": "Why Aldi makes shopping a little harder on purpose",
+  "format": "company_story",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.2,
+  "caseKinds": [
+    "real_company",
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Aldi) + 실제 연구 (Porter 1996) + 가상 적용 (급여 대행 회사, 사내 IT 지원팀)",
+  "insight": "트레이드오프는 약점이 아니라 방어막이다. 무언가를 포기해야 얻을 수 있는 위치는 경쟁자도 같은 것을 포기해야만 따라올 수 있다.",
+  "misconception": "좋은 전략이라면 품질, 가격, 서비스를 모두 잡을 수 있다. 무언가를 포기하는 것은 실행력이 부족하다는 뜻이다.",
+  "relatedLessonIds": [
+    "STR-01-02",
+    "STR-01-06"
+  ],
+  "sources": [
+    {
+      "text": "Porter, M. (1996). What Is Strategy? Harvard Business Review. (trade-offs, straddling)",
+      "url": null
+    },
+    {
+      "text": "Aldi company websites (store format: own-label range, coin-deposit carts, shoppers bag their own groceries, products displayed in shipping cartons)",
+      "url": null
+    },
+    {
+      "text": "급여 대행 회사와 사내 IT 지원팀은 설명용 가상 사례",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Aldi의 코인 보증금 카트, 직접 장바구니 담기, 배송 박스째 진열, 자체 브랜드 중심 구성은 국가별로 운영이 다릅니다. 카드에는 \"at many Aldi stores\"로 적었습니다. 게시 전 Aldi 공식 자료로 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Aldi의 취급 품목 수와 자체 브랜드 비중은 자료마다 수치가 달라 구체적인 숫자를 쓰지 않고 \"a much smaller range, mostly own brands\"로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Porter(1996)가 트레이드오프를 전략의 필수 조건으로 설명하고, 양쪽을 동시에 취하려는 시도를 \"straddling\"이라고 부른 점을 원문으로 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Strategy · Company story",
+      "title": "Why Aldi makes shopping a little harder on purpose",
+      "body": [
+        "At many Aldi stores, you put a coin in to unlock a cart. You bag your own groceries. Products sit on the shelf in the boxes they were shipped in, and most carry Aldi's own labels.",
+        "None of this is an accident. Each small inconvenience is a choice. Together, they help keep prices low."
+      ],
+      "image": {
+        "label": "Grocery shelf stocked with products in open shipping cartons",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 마트 선반에 상품이 배송용 골판지 박스째 놓여 있고, 앞쪽에 동전을 꽂는 카트와 직접 장바구니에 물건을 담는 손님. 실제 Aldi 로고나 상표, 실제 브랜드 포장은 쓰지 않음.",
+        "url": "assets/images/str-01-05-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Your biggest client ever wants something different.",
+      "illustrative": true,
+      "body": [
+        "You run a 12-person payroll firm for small businesses. One standard package, a low monthly fee, and every question answered within a day.",
+        "A 400-employee company will sign if you add a dedicated account manager and custom monthly reports. It would be your biggest client. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Sign them and build the custom service",
+            "verdict": "risky",
+            "feedback": "You win a big contract, but your best people get pulled into custom work. Response times slip for the small clients your low fee was built around."
+          },
+          {
+            "key": "B",
+            "text": "Offer only the standard package, and accept they may walk",
+            "verdict": "best",
+            "feedback": "You may lose the deal, but you keep the speed and price your other clients came for. This lesson is about why that loss can be worth it."
+          },
+          {
+            "key": "C",
+            "text": "Sign them at a premium price, served by the same team",
+            "verdict": "partial",
+            "feedback": "The higher fee helps, but price doesn't create time. The same 12 people still have to serve two very different kinds of client."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "What Aldi gives up.",
+      "body": [
+        "Compared with a typical large supermarket, Aldi accepts real costs:"
+      ],
+      "list": [
+        "**Less choice:** a much smaller range, mostly own brands. Some shoppers won't find their favorite.",
+        "**Less service:** no one bags for you, and you return your own cart.",
+        "**Less display:** cartons instead of carefully styled shelves."
+      ],
+      "callout": "In return: fewer items to stock, fewer staff hours, and lower prices.",
+      "softwareNote": "Software makes the same choices. A tool that offers fewer settings and no custom setup can ship faster and charge less, but it will lose customers who need everything tailored."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Trade-offs",
+      "body": [
+        "A **trade-off** is a choice where getting more of one thing means getting less of another. Low prices or wide choice. Speed or customization.",
+        "In his 1996 essay \"What Is Strategy?\", Michael Porter argued that real strategy needs trade-offs. If a position cost you nothing, any rival could take it too.",
+        "Aldi didn't fail at offering choice. It chose not to."
+      ],
+      "image": {
+        "label": "A balance scale: low prices on one side, wide choice and service on the other",
+        "aspectRatio": "16:9",
+        "brief": "플랫 일러스트 저울. 한쪽 접시에 \"Low prices\", 다른 쪽 접시에 \"Wide choice\", \"Full service\". 한쪽이 내려가면 다른 쪽이 올라가는 모습. 로고 없음.",
+        "url": "assets/images/str-01-05-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Why giving things up protects you.",
+      "body": [
+        "Picture a big supermarket that wants Aldi's prices. It would have to cut its range and its service. But its loyal shoppers come *for* the range and service. Copying Aldi means losing them.",
+        "Porter called the half-way attempt **straddling**: adding a cheap option while keeping everything else. You carry the costs of both and fully satisfy neither group.",
+        "Your trade-off is the wall a rival has to climb."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Not every trade-off is real.",
+      "body": [
+        "Sometimes you can be faster *and* cheaper at once, by cutting waste or using better tools. That's efficiency, not strategy. Don't use \"trade-off\" as an excuse for sloppy work.",
+        "Trade-offs also shift. New technology can remove one that held for decades. Recheck yours every few years instead of treating it as a law."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a team inside a company.",
+      "illustrative": true,
+      "body": [
+        "You lead an 8-person IT support team in a 2,000-person company. Staff love that you fix laptop and login problems within an hour.",
+        "The finance department now wants two of your people for a six-month systems project. Leadership says, \"Do both.\" What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Agree and promise both the one-hour fixes and the project",
+            "verdict": "risky",
+            "feedback": "It avoids a hard conversation today. But with two fewer people, fix times will slip, and everyone will feel let down by a promise you couldn't keep."
+          },
+          {
+            "key": "B",
+            "text": "Show leadership the trade-off and ask them to choose what slows down",
+            "verdict": "best",
+            "feedback": "You turn a hidden cost into a visible decision. Whichever they pick, people know what to expect, and the choice is owned by those who set priorities."
+          },
+          {
+            "key": "C",
+            "text": "Take the project quietly and let fix times drift",
+            "verdict": "partial",
+            "feedback": "The project gets done, which may be right. But making the trade-off silently means staff discover it as bad service, not as a decision."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A position worth having costs you something.",
+      "body": [
+        "If your strategy gives up nothing, anyone can copy it. What you choose to be worse at is what protects what you're best at.",
+        "**Try it today:** finish this sentence about your business or team: \"We are deliberately worse at ___ so we can be better at ___.\" If you can't fill it in, you may be straddling."
+      ],
+      "next": "Next · What one type of plane tells you about Southwest's strategy"
+    }
+  ]
+}

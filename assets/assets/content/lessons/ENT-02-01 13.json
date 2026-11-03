@@ -1,0 +1,231 @@
+{
+  "id": "ENT-02-01",
+  "unitId": "ENT-02",
+  "categoryId": "ENT",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Small business vs startup",
+  "readerTitle": "Same sales, opposite plans: small business or startup?",
+  "format": "numbers_twist",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (나무 상자·팔레트 제조사, 배송 경로 앱, 물리치료 클리닉 예약 소프트웨어) · 모든 수치는 설명용 · 정의는 Paul Graham, Steve Blank의 글에서 인용",
+  "insight": "스몰 비즈니스와 스타트업을 가르는 것은 크기나 업종, 기술이 아니라 '처음부터 무엇을 하도록 설계했는가', 즉 성장 경로와 자금 구조다. 같은 숫자도 어느 경로냐에 따라 건강 신호가 되기도, 위기 신호가 되기도 한다.",
+  "misconception": "스타트업은 기술 회사이고 스몰 비즈니스는 작은 가게다. 적자는 무조건 나쁜 신호이고, 연 10% 성장은 무조건 좋은 신호다.",
+  "relatedLessonIds": [
+    "ENT-02-02",
+    "ENT-02-09"
+  ],
+  "sources": [
+    {
+      "text": "Graham, P. (2012). Startup = Growth. paulgraham.com",
+      "url": "http://www.paulgraham.com/growth.html"
+    },
+    {
+      "text": "Blank, S. & Dorf, B. (2012). The Startup Owner's Manual (스타트업 정의: 반복 가능하고 확장 가능한 비즈니스 모델을 찾는 임시 조직)",
+      "url": null
+    },
+    {
+      "text": "모든 사업 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Paul Graham 인용 \"A startup is a company designed to grow fast.\"는 2012년 에세이 'Startup = Growth'의 첫 문장입니다. 게시 전 원문 문구를 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Steve Blank의 정의(\"a temporary organization designed to search for a repeatable and scalable business model\")는 블로그와 저서에 여러 형태로 나옵니다. 카드에는 직접 인용 대신 풀어 쓴 표현을 썼습니다. 표현이 원뜻과 맞는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "계산 확인: 상자 제조사 $1M × 1.1^5 = $1.61M (1.61051). 앱 $1M × 2^5 = $32M. 물리치료 예약 소프트웨어 300곳 × 월 $100 × 12 = 연 $360,000.",
+      "status": "open"
+    },
+    {
+      "note": "벤처 투자자는 대부분의 투자가 실패하고 소수가 큰 수익을 내는 구조를 전제한다는 내용은 일반적인 설명으로만 썼고 구체적 비율은 넣지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Entrepreneurship · Numbers twist",
+      "title": "Same sales. One made $150k, one lost $400k. Both owners are happy.",
+      "illustrative": true,
+      "body": [
+        "A crate and pallet maker sold $1 million last year and kept $150,000 in profit. A delivery-routing app also sold $1 million and lost $400,000.",
+        "Neither owner is worried. That isn't a mistake. They built two different kinds of business, and the same numbers mean opposite things in each."
+      ],
+      "image": {
+        "label": "A wooden pallet and a phone with a route map, side by side on a scale",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 저울 양쪽에 나무 팔레트 더미와 배송 경로 지도가 뜬 스마트폰. 저울은 수평. 팔레트 위에 \"+$150k\", 스마트폰 위에 \"−$400k\" 꼬리표. 실제 로고나 앱 화면은 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "An investor wants your crate business to go national.",
+      "illustrative": true,
+      "body": [
+        "You run the crate and pallet maker: $1M in sales, $150k profit, growing about 10% a year from regular local customers.",
+        "An investor offers $2M for a quarter of the company. The plan: open plants in new regions, accept losses for three years, aim for ten times the sales. What do you do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Take it. Growth capital like this rarely comes twice",
+            "verdict": "risky",
+            "feedback": "You gain cash and ambition but give up profit, a quarter of the company and the right to grow slowly. If the market can't support ten times the sales, you're left with losses and a partner who expected more."
+          },
+          {
+            "key": "B",
+            "text": "Decline. A profitable business shouldn't take risks",
+            "verdict": "partial",
+            "feedback": "This may well be the right answer, and it keeps you in control. But you'd be deciding by habit, without checking whether a much bigger business is actually possible."
+          },
+          {
+            "key": "C",
+            "text": "First check whether crates can really grow tenfold: demand, shipping costs, competitors in each region",
+            "verdict": "best",
+            "feedback": "Crates are heavy and bulky, so they're usually made close to customers. The question isn't whether growth is good. It's whether this business can grow that fast at all."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Five years, two paths.",
+      "illustrative": true,
+      "breakdown": [
+        {
+          "value": "$1.61M",
+          "label": "Crate maker, +10% a year",
+          "detail": "$1M × 1.1⁵. Profitable every year, owner keeps 100%",
+          "highlight": false
+        },
+        {
+          "value": "$32M",
+          "label": "Routing app, doubling yearly",
+          "detail": "$1M × 2⁵. Losses paid by investors along the way",
+          "highlight": true
+        },
+        {
+          "value": "$1.61M",
+          "label": "Routing app, +10% a year",
+          "detail": "Same growth as the crate maker, but still losing money. A failure",
+          "highlight": false
+        }
+      ],
+      "callout": "10% growth is healthy for the crate maker and a crisis for the app. A $400k loss is the plan for the app and a crisis for the crate maker."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Small business vs startup",
+      "body": [
+        "A **small business** is built to earn a profit from a model that already works, and to grow at a pace its own cash allows.",
+        "A **startup** is built to find a model that can grow very fast, usually spending outside money long before profits arrive. Paul Graham put it simply: \"A startup is a company designed to grow fast.\" Steve Blank describes it as a temporary search for a business model that can repeat and scale.",
+        "Neither size, age nor technology decides which one you are. The design does."
+      ],
+      "image": {
+        "label": "Two paths: a steady staircase and a steep rocket line",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 왼쪽은 완만하게 올라가는 계단(\"Small business: profit first, steady growth\"), 오른쪽은 처음에 아래로 꺼졌다가 가파르게 솟는 J자 곡선(\"Startup: losses first, fast growth\"). 두 길의 출발점은 같은 \"$1M\".",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Who pays for growth sets the rules.",
+      "body": [
+        "A small business grows on money from customers and loans. Customers pay only for what they get today, and banks want steady repayment. So profit and cash come first.",
+        "A startup often grows on venture money. Those investors expect most of their bets to fail and a few to pay for all the rest. So each bet must have a real chance at a huge outcome. Once you take that money, slow and profitable is no longer good enough."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond the obvious",
+      "title": "A software company can be a small business.",
+      "illustrative": true,
+      "body": [
+        "Two developers sell a billing tool to dental offices. No investors, healthy profit, steady growth. That's a **small business** that happens to be software.",
+        "A team building a new kind of warehouse robot raises outside money, loses millions, and aims to sell worldwide. That's a startup that happens to be manufacturing.",
+        "The choice is about the path, not the product."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "\"Startup\" is not a promotion.",
+      "body": [
+        "The startup label can sound more ambitious, so people pick it for status. But the path carries real costs: most attempts fail, you give up ownership, and you answer to investors' timelines.",
+        "It's also hard to reverse. Once investors expect fast growth, a steady profitable business can look like a disappointment to them, even if it's a good life for you. Many small businesses grow large over decades without ever taking that trade."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's scheduling software.",
+      "illustrative": true,
+      "body": [
+        "Your booking tool serves 300 physical therapy clinics at $100 a month: $360,000 a year, profitable, growing slowly by word of mouth.",
+        "An investor wants to fund you to cover all kinds of health clinics, starting now. What's your move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Take the money and build for every clinic type at once",
+            "verdict": "risky",
+            "feedback": "You commit to fast growth before knowing other clinics want your tool. If they don't, you've traded a profitable business for a funded one that's losing money."
+          },
+          {
+            "key": "B",
+            "text": "Turn it down and keep growing from profits",
+            "verdict": "partial",
+            "feedback": "Safe and fully yours. But you may be leaving a much bigger opportunity untested."
+          },
+          {
+            "key": "C",
+            "text": "Try selling to two other clinic types first, then choose the path",
+            "verdict": "best",
+            "feedback": "A small test tells you whether fast growth is truly available. Then you pick the path the evidence supports, not the one that sounds bigger."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Decide which business you're building before you judge its numbers.",
+      "body": [
+        "A small business wins with profit and steady growth. A startup wins with very fast growth, paid for up front. The same numbers read differently on each path.",
+        "**Try it today:** write one line: \"My business is built to ___.\" Then check whether your funding, goals and last year's numbers all match that line."
+      ],
+      "next": "Next · Choosing what to start"
+    }
+  ]
+}

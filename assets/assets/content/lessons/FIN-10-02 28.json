@@ -1,0 +1,289 @@
+{
+  "id": "FIN-10-02",
+  "unitId": "FIN-10",
+  "categoryId": "FIN",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "Customers who don't pay",
+  "readerTitle": "Sales are up. So why is the money still out the door?",
+  "format": "everyday_scene",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (음료 도매상, 케이터링 업체) · 모든 수치는 설명용",
+  "insight": "매출이 늘 때는 매출보다 받을 돈(외상매출금)이 얼마나, 얼마나 오래 쌓이는지를 함께 본다. 받지 못한 매출은 돈이 아니라 약속이다.",
+  "misconception": "매출이 늘면 사업이 잘되는 것이고, 고객이 갚을 돈은 결국 다 들어온다.",
+  "relatedLessonIds": [
+    "FIN-10-01",
+    "FIN-10-03"
+  ],
+  "sources": [
+    {
+      "text": "재무 분석의 표준 개념 (외상매출금, 매출채권 회수일수 DSO, 연령 분석)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "도매상 계산: 작년 월매출 $100,000 ÷ 30일 = 일매출 약 $3,333, 외상 $100,000 ÷ $3,333 = 30일. 올해 월매출 $120,000 ÷ 30 = $4,000, 외상 $240,000 ÷ $4,000 = 60일. 매출 +20%, 외상 +140%.",
+      "status": "open"
+    },
+    {
+      "note": "연령 분석 차트 비율은 가상 수치입니다. 작년 80+15+4+1 = 100%, 올해 50+25+13+12 = 100%. 올해 90일 초과 금액 = $240,000 × 12% = $28,800.",
+      "status": "open"
+    },
+    {
+      "note": "'오래된 청구서일수록 회수 가능성이 낮다'는 일반 원칙으로만 서술했습니다. 회수율 관련 통계는 출처가 불확실해 넣지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Everyday scene",
+      "title": "Sales are up. So why is the money still out the door?",
+      "illustrative": true,
+      "body": [
+        "A drinks distributor delivers to 200 corner shops. Most pay at the end of the month. This year, sales grew 20%. The sales team is celebrating.",
+        "But the amount shops owe the business has more than doubled. The trucks are full, the invoices are out, and the cash is not coming back."
+      ],
+      "image": {
+        "label": "Delivery van with a growing stack of unpaid invoices",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 음료 상자를 가득 실은 배송 밴 옆에 \"UNPAID\" 도장이 찍힌 청구서 더미가 점점 높아지는 장면. 가게 간판과 음료에 실제 브랜드나 로고는 쓰지 않음.",
+        "url": "assets/images/fin-10-02-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Your sales manager wants a bonus.",
+      "illustrative": true,
+      "body": [
+        "You own the distributor. Monthly sales went from $100,000 to $120,000. Customers now owe you $240,000, up from $100,000 a year ago.",
+        "Your sales manager asks for a bonus for the growth. What do you do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Pay the bonus. Growth like this is what you hired for",
+            "verdict": "risky",
+            "feedback": "You reward the sales number, but you also reward whatever created it. If the growth came from selling to shops that can't pay, you're paying a bonus on money you may never see."
+          },
+          {
+            "key": "B",
+            "text": "Check how long customers take to pay and who owes the most",
+            "verdict": "best",
+            "feedback": "This tells you whether the growth is real cash on its way or a pile of promises. It costs a day of work before you decide on the bonus."
+          },
+          {
+            "key": "C",
+            "text": "Cut credit to every shop until the balance comes down",
+            "verdict": "partial",
+            "feedback": "It protects cash fast, but it punishes the shops that pay on time. You may lose good customers to fix a problem caused by a few."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Sales grew 20%. Unpaid money grew 140%.",
+      "illustrative": true,
+      "body": [
+        "Divide what customers owe by one day of sales. Last year, shops took about a month to pay. Now they take two. The business is quietly lending its customers twice as much money."
+      ],
+      "breakdown": [
+        {
+          "value": "$100,000",
+          "label": "Last year: owed",
+          "detail": "Monthly sales $100,000, about $3,333 a day",
+          "highlight": false
+        },
+        {
+          "value": "30 days",
+          "label": "Last year: days of sales unpaid",
+          "detail": "$100,000 ÷ $3,333",
+          "highlight": false
+        },
+        {
+          "value": "$240,000",
+          "label": "This year: owed",
+          "detail": "Monthly sales $120,000, about $4,000 a day",
+          "highlight": false
+        },
+        {
+          "value": "60 days",
+          "label": "This year: days of sales unpaid",
+          "detail": "$240,000 ÷ $4,000",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "When customers stop paying on time",
+      "body": [
+        "The money customers owe you for things already delivered is called **receivables**. The number of days of sales sitting unpaid is often called *days sales outstanding*.",
+        "When receivables grow much faster than sales, it is a **red flag**. The sale has been counted, but the cash hasn't arrived. Until it does, it's a promise, not money."
+      ],
+      "image": {
+        "label": "Two lines: sales rising gently, receivables rising steeply",
+        "aspectRatio": "16:9",
+        "brief": "단순한 선 그래프. \"Sales\" 선은 완만하게 오르고 \"Owed by customers\" 선은 가파르게 올라 둘 사이 간격이 벌어짐. 간격 부분을 붉은 음영으로 강조.",
+        "url": "assets/images/fin-10-02-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "chart",
+      "eyebrow": "Look closer",
+      "title": "The age of the money matters more than the total.",
+      "illustrative": true,
+      "body": [
+        "Sort what's owed by how old each invoice is. At this distributor, invoices over 90 days old went from 1% to 12% of the total, about $28,800. The older an invoice gets, the less likely it is to be paid in full."
+      ],
+      "chart": {
+        "unit": "%",
+        "groups": [
+          {
+            "label": "Last year",
+            "rows": [
+              {
+                "label": "0–30 days",
+                "value": 80,
+                "highlight": false
+              },
+              {
+                "label": "31–60 days",
+                "value": 15,
+                "highlight": false
+              },
+              {
+                "label": "61–90 days",
+                "value": 4,
+                "highlight": false
+              },
+              {
+                "label": "Over 90 days",
+                "value": 1,
+                "highlight": false
+              }
+            ]
+          },
+          {
+            "label": "This year",
+            "rows": [
+              {
+                "label": "0–30 days",
+                "value": 50,
+                "highlight": false
+              },
+              {
+                "label": "31–60 days",
+                "value": 25,
+                "highlight": false
+              },
+              {
+                "label": "61–90 days",
+                "value": 13,
+                "highlight": false
+              },
+              {
+                "label": "Over 90 days",
+                "value": 12,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Why it happens",
+      "title": "Slow payers usually point to a deeper problem.",
+      "body": [
+        "Receivables grow faster than sales for a few common reasons:"
+      ],
+      "list": [
+        "**Looser credit:** the team won sales by offering longer terms or selling to weaker shops",
+        "**Unhappy customers:** invoices are disputed because of short deliveries or damaged goods",
+        "**Struggling customers:** one big buyer is running out of cash",
+        "**Sales that aren't real:** orders booked early or invented to hit a target"
+      ],
+      "callout": "Each one starts in sales, but shows up first in what's owed.",
+      "softwareNote": "In software, watch for big annual contracts invoiced up front where the customer pays late or not at all. Unpaid invoices from customers who have stopped using the product often end as churn and write-offs."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Not every rise is a warning.",
+      "body": [
+        "Receivables jump naturally after a busy season, or when a big sale lands on the last day of the month. Compare the same month across years, not one month with the next.",
+        "A large, reliable customer on agreed 60-day terms can also lift the number without adding much risk. The question isn't only how much is owed, but by whom, and whether it's older than you agreed."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a catering business.",
+      "illustrative": true,
+      "body": [
+        "You cater office lunches and events. Three items show up in this month's report. Which deserves action first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Total owed rose sharply in December, your busiest month",
+            "verdict": "partial",
+            "feedback": "Worth checking against last December. A seasonal jump is normal if those invoices are still young."
+          },
+          {
+            "key": "B",
+            "text": "One office client owes $18,000, the oldest invoice is 120 days old, and they just booked two more events",
+            "verdict": "best",
+            "feedback": "Old debt plus new orders means your risk is growing. Ask for payment or a deposit before the next event. You may lose the bookings, but you stop lending more."
+          },
+          {
+            "key": "C",
+            "text": "Card payments from walk-in lunch customers take two days to arrive",
+            "verdict": "risky",
+            "feedback": "That money is almost certain to arrive. Spending your attention here leaves the real risk untouched."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A sale isn't finished until the money arrives.",
+      "body": [
+        "When sales grow, check whether what customers owe is growing faster, and how old it is.",
+        "**Try it today:** list everyone who owes you money. Divide the total by one day of sales, and circle every invoice older than your payment terms."
+      ],
+      "next": "Next · When profit says yes and the bank says no"
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "id": "THK-10-07",
+  "unitId": "THK-10",
+  "categoryId": "THK",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "Write a recommendation to your boss",
+  "readerTitle": "How to write a recommendation your boss can say yes to",
+  "format": "everyday_scene",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.2,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (비스트로의 월요일 점심 영업, 소프트웨어 출시 연기) · 모든 수치는 설명용",
+  "insight": "추천 메일은 정보 정리가 아니라 상사가 바로 결정할 수 있게 만드는 글이다. 답을 먼저 쓰고, 그 답의 대가를 스스로 밝힌다.",
+  "misconception": "배경부터 차근차근 설명해야 설득력이 생기고, 단점은 숨겨야 승인받기 쉽다.",
+  "relatedLessonIds": [
+    "THK-10-01",
+    "THK-10-04"
+  ],
+  "sources": [
+    {
+      "text": "모든 사례와 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "비스트로 수치는 가상입니다. 월요일 점심 매출 약 $400, 인건비·준비비 약 $550, 주당 약 $150 손실, 9시간 재배치. 계산을 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "소프트웨어 사례의 '테스트 사용자 5명 중 1명이 가입을 끝내지 못함'은 설명용 가상 수치입니다. 실제 통계처럼 읽히지 않도록 카드에 illustrative 표시를 했습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Everyday scene",
+      "title": "\"So what do you want me to do?\"",
+      "illustrative": true,
+      "body": [
+        "Maya, assistant manager at a small bistro, spent an evening writing to the owner. Three careful paragraphs on slow Monday lunches, staff hours and busy weekends.",
+        "The owner read it on her phone between deliveries and replied with one line: *\"So what do you want me to do?\"*",
+        "Maya had a clear recommendation. She just never wrote it down where anyone would find it."
+      ],
+      "image": {
+        "label": "Restaurant owner frowning at a long message on her phone",
+        "aspectRatio": "4:3",
+        "brief": "주방 뒷문 앞에서 식재료 상자를 든 채 휴대폰을 보는 식당 주인. 화면에는 긴 문단이 빽빽하고, 말풍선으로 \"So what do you want me to do?\"만 짧게 표시. 실제 브랜드 로고 없음.",
+        "url": "assets/images/thk-10-07-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How should Maya's rewrite begin?",
+      "illustrative": true,
+      "body": [
+        "Maya wants to close Monday lunch and move those staff hours to Friday and Saturday dinner, when the bistro turns guests away.",
+        "Which opening gives her the best chance of a quick, clear answer?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "\"Over the past two months I've been tracking our Monday lunch numbers…\"",
+            "verdict": "risky",
+            "feedback": "It shows effort, but the owner has to read to the end to learn what's being asked. That's the problem *lead with the answer* solves."
+          },
+          {
+            "key": "B",
+            "text": "\"I recommend we close Monday lunch and move those hours to weekend dinners. Can we decide by Friday?\"",
+            "verdict": "best",
+            "feedback": "**Lead with the answer:** the owner knows the ask and the deadline in one sentence. The reasons that follow now read as support, not suspense."
+          },
+          {
+            "key": "C",
+            "text": "\"Here are three options for Monday lunch. Which do you prefer?\"",
+            "verdict": "partial",
+            "feedback": "Options are useful, but this hands the thinking back to a busy owner. Pick one, then show the others as what you considered."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The rewrite",
+      "title": "Four lines the owner can read in a minute.",
+      "illustrative": true,
+      "body": [
+        "Same facts as before, in a new order. The answer comes first; everything after it earns its place by supporting or testing that answer."
+      ],
+      "breakdown": [
+        {
+          "value": "1",
+          "label": "The answer",
+          "detail": "Close Monday lunch, add 9 staff hours to weekend dinners",
+          "highlight": true
+        },
+        {
+          "value": "2",
+          "label": "Why",
+          "detail": "Monday lunch brings in about $400 and costs about $550 to run",
+          "highlight": false
+        },
+        {
+          "value": "3",
+          "label": "What it costs us",
+          "detail": "A few Monday regulars may stop coming",
+          "highlight": false
+        },
+        {
+          "value": "4",
+          "label": "The ask",
+          "detail": "Decide by Friday so the new rota starts next month",
+          "highlight": false
+        }
+      ],
+      "softwareNote": "The same four lines work for a pricing change or a hiring request. Teams that write in tools like chat or email get skimmed too, so the first line does most of the work."
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What should Maya say about the downside?",
+      "illustrative": true,
+      "body": [
+        "A handful of regulars love the quiet Monday lunch. Closing it could annoy them. How should line 3 handle this?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Leave it out. It only gives the owner a reason to say no",
+            "verdict": "risky",
+            "feedback": "The owner knows those regulars by name and will think of them anyway. If you skipped it, she'll wonder what else you skipped."
+          },
+          {
+            "key": "B",
+            "text": "Name it, compare it with the gain, and say how to soften it",
+            "verdict": "best",
+            "feedback": "**Presenting trade-offs:** you show what you give up, why the gain is bigger, and a plan to limit the loss, such as a regulars' discount on another weekday."
+          },
+          {
+            "key": "C",
+            "text": "List every risk she can think of, to look thorough",
+            "verdict": "partial",
+            "feedback": "Honest, but ten small risks bury the one that matters. Name the main cost clearly and drop the noise."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Why it works",
+      "title": "Naming the cost builds trust.",
+      "body": [
+        "A boss reading a recommendation is checking two things: is this a good idea, and can I trust this person's judgment?",
+        "When you raise the downside yourself, you answer both. You show you saw the cost, weighed it, and still think the gain is bigger. That is **the trade-off** in plain view.",
+        "A recommendation with no visible cost looks like a sales pitch. One with an honest cost looks like a decision already half made."
+      ],
+      "image": {
+        "label": "A balance scale with gain on one side and cost on the other",
+        "aspectRatio": "16:9",
+        "brief": "단순한 저울 일러스트. 무거운 쪽에 \"Busier weekends\", 가벼운 쪽에 \"Some Monday regulars\". 옆에 작은 메모지 \"Plan: regulars' discount\". 따뜻한 색감.",
+        "url": "assets/images/thk-10-07-c5.jpg"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Leading with the answer isn't faking certainty.",
+      "body": [
+        "If you're not sure, say so in the first line: *\"I lean toward closing Monday lunch, but want to test it for four weeks first.\"* That's still an answer.",
+        "Some bosses also need one line of context before the ask, especially if the topic is new to them. Add that one line, not three paragraphs.",
+        "And a trade-off should be real. Inventing a tiny cost to look balanced fools no one for long."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software launch.",
+      "illustrative": true,
+      "body": [
+        "You lead a product team. Launch is set for the 6th, timed with a conference demo. In testing, about 1 in 5 new users couldn't finish signing up.",
+        "You want to delay two weeks. Which first message to your CEO is strongest?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "\"I recommend moving launch to the 20th. We lose the conference demo, but we fix a sign-up bug that blocked 1 in 5 test users.\"",
+            "verdict": "best",
+            "feedback": "Both ideas at work: the answer leads, and the trade-off sits right beside it. The CEO can judge the demo against lost sign-ups in one read."
+          },
+          {
+            "key": "B",
+            "text": "\"Here's a full timeline of the bugs we found in testing.\"",
+            "verdict": "risky",
+            "feedback": "Useful detail for later, but the CEO has to guess what you want. Lead with the answer, then attach the timeline."
+          },
+          {
+            "key": "C",
+            "text": "\"Should we delay launch? There are pros and cons.\"",
+            "verdict": "partial",
+            "feedback": "It flags the issue, but without your recommendation or the specific cost. Your CEO asked you because you know the trade-off best."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "In software, the cost of a delay is often a missed moment, like a demo or a marketing push. Name that moment, not just \"two weeks.\""
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Make it easy to say yes, and safe to say no.",
+      "body": [
+        "A good recommendation lets your boss decide in one read, with the real cost already on the table.",
+        "**Try it today:** take a request you're about to send. Move your recommendation to the first line, and add one sentence on what it costs."
+      ],
+      "list": [
+        "**Lead with the answer:** the ask and the deadline come first",
+        "**Presenting trade-offs:** name the cost, compare it with the gain, show how to soften it"
+      ],
+      "next": "Next · Explain bad news to your team"
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "id": "ECO-07-10",
+  "unitId": "ECO-07",
+  "categoryId": "ECO",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Design three plans",
+  "readerTitle": "Three plans by Friday: pricing software for restaurants",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.4,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (식당용 예약 소프트웨어 스타트업). 고객은 식당, 판매자는 소프트웨어 회사라 두 업종을 한 이야기로 다룸. 모든 수치는 설명용.",
+  "insight": "요금제 세 개는 가격표가 아니라 질문 세 개에 대한 답이다. 무엇에 따라 가격이 커지는가, 누구를 위한 요금제인가, 단계별 가격 차이가 가치 차이와 맞는가.",
+  "misconception": "요금제는 기능을 조금씩 더 얹고 가격을 조금씩 올리면 된다. 단계가 많고 가격 차이가 작을수록 고객이 편하게 고른다.",
+  "relatedLessonIds": [
+    "ECO-07-01",
+    "ECO-07-02"
+  ],
+  "sources": [
+    {
+      "text": "가격 구조의 표준 개념 (가치 단위 과금, good-better-best 요금제, 고객 스스로 고르는 가격 차별, 앵커링)",
+      "url": null
+    },
+    {
+      "text": "모든 인물, 회사, 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 가격과 예약 한도는 설명용 가상 수치입니다. 요금제 간 비율 확인: Basic $39 → Plus $99 (약 2.5배) → Group $299 (약 3배). 카드 3, 4, 5의 숫자가 서로 일치하는지 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "출시 후 결과(카드 6)는 가상 서술이며 실제 전환율이나 통계를 암시하지 않도록 수치 없이 썼습니다. 실제 데이터처럼 읽히지 않는지 검토하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Pricing · Simulation",
+      "title": "Three plans by Friday",
+      "illustrative": true,
+      "body": [
+        "Mira built table-booking software for restaurants. Ten local places have used it free for six months. A small café, two busy bistros, a pizza chain with four sites.",
+        "Now the free beta ends. She needs three plans by Friday, and every choice will decide who stays, who upgrades and who leaves. You're making the calls."
+      ],
+      "image": {
+        "label": "A founder at a restaurant host stand with three blank price cards",
+        "aspectRatio": "4:3",
+        "brief": "식당 입구 예약 데스크 위 태블릿과 빈 가격 카드 세 장. 노트북을 든 창업자가 고민하는 장면. 따뜻한 조명의 레스토랑 배경. 실제 로고나 앱 화면 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 3",
+      "title": "What should the price grow with?",
+      "illustrative": true,
+      "body": [
+        "Mira's restaurants get more from the software when more diners book through it. Most share one tablet at the host stand."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Number of staff logins",
+            "verdict": "risky",
+            "feedback": "Common in software, but here nothing grows. One tablet means one login, so the four-site chain pays almost what the café pays, and staff start sharing passwords."
+          },
+          {
+            "key": "B",
+            "text": "Bands of monthly bookings handled",
+            "verdict": "best",
+            "feedback": "The bill grows with the value: filled tables. Bands keep it predictable, so owners don't feel taxed on each busy night."
+          },
+          {
+            "key": "C",
+            "text": "One flat fee per restaurant",
+            "verdict": "partial",
+            "feedback": "Easy to explain, but the tiny café and the 200-seat bistro pay the same. Set it high and you lose the café; set it low and you undercharge the bistro."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 3",
+      "title": "Say you chose booking bands. What else separates the plans?",
+      "illustrative": true,
+      "body": [
+        "Limits alone set the size of each plan. Now decide what makes each one worth picking."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Same features in every plan; only the booking limits differ",
+            "verdict": "partial",
+            "feedback": "Clear and fair, but a busy bistro losing money to no-shows has no reason to upgrade until it hits the limit."
+          },
+          {
+            "key": "B",
+            "text": "Build each plan around a type of restaurant: small café, busy dinner spot, multi-site group",
+            "verdict": "best",
+            "feedback": "Each owner sees a plan made for them. The bistro pays more for deposits and reminder texts because no-shows hurt it most."
+          },
+          {
+            "key": "C",
+            "text": "Every feature in every plan; higher plans get faster support",
+            "verdict": "risky",
+            "feedback": "Support costs you staff time on every upgrade, and most owners rarely need it. You'd give away the features they would pay for."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 3",
+      "title": "Say you chose plans by restaurant type. Now set the prices.",
+      "illustrative": true,
+      "body": [
+        "Basic, for small cafés, is $39 a month. What should Plus (busy dinner spots) and Group (several sites) cost?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Plus $59, Group $79",
+            "verdict": "risky",
+            "feedback": "Gentle steps feel friendly. But single restaurants jump to Group for $20 more, and the chain pays far less than the value it gets from four sites."
+          },
+          {
+            "key": "B",
+            "text": "Plus $99, Group $299",
+            "verdict": "best",
+            "feedback": "Each price matches what that restaurant gains. Group is priced for chains, and next to it Plus looks like a reasonable choice for a busy bistro."
+          },
+          {
+            "key": "C",
+            "text": "Plus $149, Group $159",
+            "verdict": "partial",
+            "feedback": "Plus becomes a decoy that makes Group look cheap. It may lift Group sales, but single restaurants who only need deposits feel pushed and may leave."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "breakdown",
+      "eyebrow": "Your plan sheet",
+      "title": "Three plans, three kinds of restaurant",
+      "illustrative": true,
+      "body": [
+        "Each step up adds what that kind of restaurant values most, not just more of the same."
+      ],
+      "breakdown": [
+        {
+          "value": "$39",
+          "label": "Basic",
+          "detail": "Up to 300 bookings a month. Online booking and table plan. For small cafés.",
+          "highlight": false
+        },
+        {
+          "value": "$99",
+          "label": "Plus",
+          "detail": "Up to 1,500 bookings. Adds deposits, reminder texts and a waitlist. For busy dinner spots.",
+          "highlight": true
+        },
+        {
+          "value": "$299",
+          "label": "Group",
+          "detail": "Up to 3 sites, no booking limit. Adds shared guest list and reports across sites.",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Launch week",
+      "title": "Customers sorted themselves.",
+      "illustrative": true,
+      "body": [
+        "Mira never asked anyone what they could afford. The café picked Basic. Both bistros picked Plus for the deposits. The pizza chain chose Group, then asked about a fourth site.",
+        "That's the quiet power of good plans. Each customer pays close to the value they get, because **they choose the plan that fits them**."
+      ],
+      "callout": "The same three questions work for a restaurant's own catering menu: price per guest, packages for office lunch vs wedding, and steps that match the value.",
+      "softwareNote": "In software, adding a customer costs little, so plan design, not cost, decides most of the margin."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Limits can feel like punishment.",
+      "illustrative": true,
+      "body": [
+        "Booking bands work until a café has a huge December and gets a surprise upgrade notice. Hard cut-offs on a good month feel like a penalty for success.",
+        "Give a grace period or a gentle warning. And treat launch prices as a first guess. After a few months, check which plan people pick and where they get stuck, then adjust."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Three plans answer three questions.",
+      "list": [
+        "**Decision 1 → Charging by the unit of value:** price grows with what the customer gains",
+        "**Decision 2 → Good, better, best:** each tier built for a different type of customer",
+        "**Decision 3 → Price steps and anchoring:** gaps that match value, with the top plan framing the middle"
+      ],
+      "callout": "**Try it today:** write down what your price grows with, who each option is for, and whether each step up is worth its gap.",
+      "next": "Next · Why rising costs push prices up"
+    }
+  ]
+}

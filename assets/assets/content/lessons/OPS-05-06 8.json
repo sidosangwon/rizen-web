@@ -1,0 +1,223 @@
+{
+  "id": "OPS-05-06",
+  "unitId": "OPS-05",
+  "categoryId": "OPS",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Post-mortems",
+  "readerTitle": "Why Etsy asked engineers to write up their own mistakes",
+  "format": "company_story",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "real_company",
+    "real_observation",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Etsy의 비난 없는 포스트모템) + 실제 관행 (미 육군 After Action Review) + 가상 사례 (온라인 상점, 레스토랑)",
+  "insight": "포스트모템의 목적은 책임자를 찾는 것이 아니라 '그때는 왜 그 선택이 합리적으로 보였는가'를 알아내 시스템을 고치는 것이다. 비난하면 정보가 사라진다.",
+  "misconception": "실수가 생기면 누가 잘못했는지 밝히고 책임을 묻는 것이 재발을 막는 길이다.",
+  "relatedLessonIds": [
+    "OPS-05-05",
+    "OPS-01-06"
+  ],
+  "sources": [
+    {
+      "text": "Allspaw, J. (2012). Blameless PostMortems and a Just Culture. Etsy Code as Craft blog.",
+      "url": null
+    },
+    {
+      "text": "Beyer, B. et al. (2016). Site Reliability Engineering, ch. 15 'Postmortem Culture: Learning from Failure'. O'Reilly / Google.",
+      "url": null
+    },
+    {
+      "text": "U.S. Army, A Leader's Guide to After-Action Reviews (Training Circular 25-20)",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Allspaw의 글 게시 시점(2012년 5월)과 당시 직함을 확인하세요. 카드에는 직함 대신 'who ran engineering operations at Etsy'로 일반적으로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Allspaw 글의 핵심 주장(처벌 걱정 없이 자세히 설명하게 해야 한다, 비난하면 사람들이 말을 아낀다)을 원문과 대조하세요. 직접 인용은 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "미 육군 AAR의 네 가지 질문(무엇을 계획했나, 실제로 무슨 일이 있었나, 왜 달랐나, 다음엔 무엇을 할까)을 TC 25-20 원문으로 확인하세요. 도입 시기는 확실하지 않아 'for decades'로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "온라인 상점(결제 40분 장애)과 레스토랑(120명 결혼식) 사례는 설명용 가상 사례입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Projects · Company story",
+      "title": "Why Etsy asked engineers to write up their own mistakes",
+      "body": [
+        "When something broke at Etsy, the online marketplace, the engineer involved was asked to explain exactly what they did, step by step, for the whole team to read.",
+        "The goal wasn't to find someone to punish. It was the opposite."
+      ],
+      "image": {
+        "label": "An engineer calmly drawing a timeline on a whiteboard for colleagues",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 한 사람이 화이트보드에 시간 순서 타임라인(점과 화살표)을 그리고, 동료들이 둘러앉아 메모하는 차분한 분위기. 손가락질하는 사람 없음. 실제 기업 로고 사용 금지.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Checkout went down for 40 minutes.",
+      "illustrative": true,
+      "body": [
+        "You run an online shop. On Friday afternoon, a developer pushes a small change and checkout breaks for 40 minutes. It's fixed now, and orders are flowing again.",
+        "What do you do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Find out who pushed the change and make clear it can't happen again",
+            "verdict": "risky",
+            "feedback": "It feels like accountability. But the next person who slips up will hide the details, and the real gaps stay open."
+          },
+          {
+            "key": "B",
+            "text": "Ban all changes on Fridays",
+            "verdict": "partial",
+            "feedback": "It may lower risk on one day. But it's a guess at the cause, made before you know what actually went wrong."
+          },
+          {
+            "key": "C",
+            "text": "Sit down with the team and write out what happened, minute by minute, and why each step made sense at the time",
+            "verdict": "best",
+            "feedback": "It costs an hour now. It shows you why the change slipped through, so you fix the system instead of one person."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What Etsy saw",
+      "title": "Blame makes people go quiet.",
+      "body": [
+        "In 2012, John Allspaw, who ran engineering operations at Etsy, wrote about why the company ran **blameless post-mortems**.",
+        "His argument: people who fear punishment stop telling the full story. They leave out the confusing screen, the shortcut everyone takes, the warning they ignored. Those details are exactly what you need to stop it happening again.",
+        "So Etsy let engineers give a full account of their mistakes without fear of being punished for it."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The post-mortem",
+      "body": [
+        "A **post-mortem** is a structured review after a project or incident ends. The team compares what was meant to happen with what did, and agrees what to change.",
+        "The key question is not \"who did this?\" It's \"why did this seem like the right thing to do at the time?\" If a sensible person made that choice, the next sensible person will too, unless something in the system changes."
+      ],
+      "softwareNote": "Google's book on site reliability engineering gives a whole chapter to blameless post-mortems. Many software teams now write one after every serious outage and share it widely."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Four questions, in order.",
+      "body": [
+        "The US Army has used a short version called the **After Action Review** for decades. It works for any team:"
+      ],
+      "list": [
+        "**What was supposed to happen?**",
+        "**What actually happened?**",
+        "**Why was there a difference?**",
+        "**What will we do differently next time?**"
+      ],
+      "callout": "Write the answers down, name an owner for each change, and set a date.",
+      "softwareNote": "For an outage, the second question usually becomes a timeline: when it started, when someone noticed, when it was fixed."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond disasters",
+      "title": "Review the wins too.",
+      "body": [
+        "Post-mortems aren't only for failures. A project that finished on time can teach as much as one that collapsed, and it's an easier place to build the habit.",
+        "Did it work because of good planning, or good luck? If you can't say, you can't repeat it.",
+        "The Army runs After Action Reviews after training exercises, not just after things go wrong. Small, regular reviews make the big, painful ones less frightening."
+      ],
+      "image": {
+        "label": "Two project cards side by side, one marked success and one marked failure, both being reviewed",
+        "aspectRatio": "16:9",
+        "brief": "플랫 일러스트. 왼쪽 카드에 체크 표시, 오른쪽 카드에 X 표시. 두 카드 모두 위에 돋보기가 놓여 있음. '둘 다 검토한다'는 느낌. 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A review nobody acts on is just a meeting.",
+      "body": [
+        "Many teams write a careful post-mortem, file it, and repeat the same mistake six months later. Without owners and dates, the lessons evaporate.",
+        "Hindsight is another trap. Once you know the ending, every warning sign looks obvious. Ask what people could actually see at the time.",
+        "And blameless doesn't mean nobody is responsible. Someone still owns each fix. It means you don't punish honest mistakes that the system made easy."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a wedding dinner.",
+      "illustrative": true,
+      "body": [
+        "Your restaurant catered a 120-guest wedding. Main courses came out 35 minutes late and some were cold. The bride's family complained. Your head chef blames a new line cook who fell behind.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Move the line cook off big events for now",
+            "verdict": "risky",
+            "feedback": "It's quick and visible. But if the real cause was planning, staffing or the oven, the next event fails the same way with a different cook."
+          },
+          {
+            "key": "B",
+            "text": "Gather the kitchen and front staff and walk through the night: the plan, what happened, why it differed, what changes",
+            "verdict": "best",
+            "feedback": "It takes time from a busy week. You might find the prep list assumed 80 guests, or plating was never timed for 120."
+          },
+          {
+            "key": "C",
+            "text": "Send the family a refund and move on",
+            "verdict": "partial",
+            "feedback": "It may repair the relationship. But it treats the cost, not the cause, and the next big booking carries the same risk."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "The same four questions work after a missed app release: what we planned to ship, what shipped, why they differed, and what changes next sprint."
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Fix the system, not the person.",
+      "body": [
+        "After a project or incident, ask why each choice made sense at the time. Honest answers are worth more than someone to blame.",
+        "**Try it today:** pick one recent project, good or bad. Answer the four questions in writing, and name one change with an owner and a date."
+      ],
+      "next": "Next · Opening a new store"
+    }
+  ]
+}

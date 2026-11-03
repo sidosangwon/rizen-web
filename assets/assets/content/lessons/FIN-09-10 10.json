@@ -1,0 +1,252 @@
+{
+  "id": "FIN-09-10",
+  "unitId": "FIN-09",
+  "categoryId": "FIN",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Allocate $10M of profit",
+  "readerTitle": "You have $10M of profit. Where should it go?",
+  "format": "everyday_scene",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (지역 냉난방·배관 서비스 회사 + 부품 유통업체 인수 제안) · 모든 수치는 설명용",
+  "insight": "이익을 어디에 쓸지는 '좋은 사업인가'가 아니라 '투자한 1달러가 기준 수익률을 넘는가'로 정하고, 기준을 넘는 곳이 없으면 주주에게 돌려주는 것도 좋은 배분이다.",
+  "misconception": "이익이 나는 좋은 사업이면 사들이는 게 맞고, 남은 현금은 어떻게든 회사 안에서 써야 한다.",
+  "relatedLessonIds": [
+    "FIN-09-02",
+    "FIN-09-05"
+  ],
+  "sources": [
+    {
+      "text": "기업재무의 표준 개념 (투하자본수익률, 기준 수익률, 재투자·환원 결정)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "지점: $1.5M 투자, 연 $375K → 375 ÷ 1,500 = 25%. 3개 지점 $4.5M, 연 $1.125M. 남은 현금 $10M − $4.5M = $5.5M.",
+      "status": "open"
+    },
+    {
+      "note": "유통업체: $8M에 연 $600K → 7.5%. $5M이면 600 ÷ 5,000 = 12%로 기준과 같음. $8M 인수 시 $5.5M만 남아 있으므로 $2.5M 부족(차입 필요).",
+      "status": "open"
+    },
+    {
+      "note": "본사 건물: $6M, 연 임대료 절감 $240K → 4%. $5.5M 대비 $0.5M 부족. 3단계 배분: 예비자금 $1.5M + 주주 배당 $4M = $5.5M.",
+      "status": "open"
+    },
+    {
+      "note": "12% 기준 수익률은 설명용 가정입니다. '비슷한 위험에서 주주가 다른 곳에서 기대할 수 있는 수준'이라는 설명은 일반 원리로만 썼습니다. 신규 지점이 자리 잡는 데 2~3년이 걸린다는 문장은 일반적 표현이며 특정 통계가 아닙니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Simulation",
+      "title": "Five people, one $10M decision",
+      "illustrative": true,
+      "body": [
+        "You run a home services company: heating, cooling and plumbing across a region. This year it earned $10M after tax, and the cash is sitting in the bank.",
+        "By Monday, people across the company have asked for it. Their requests add up to almost twice what you have."
+      ],
+      "image": {
+        "label": "A desk with a stack of cash and many outstretched hands",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 책상 위에 '$10M'이라고 적힌 돈 더미 하나, 그 주변으로 작업복·정장·안전조끼를 입은 손 다섯 개가 서류를 내밀고 있음. 실제 기업 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "text",
+      "eyebrow": "The setup",
+      "title": "The asks on your desk",
+      "illustrative": true,
+      "body": [
+        "You've set one rule: a project should earn at least **12% a year** on the money it uses. That's roughly what the owners could expect elsewhere for similar risk.",
+        "Here's what's been requested:"
+      ],
+      "list": [
+        "**Three new branches** in nearby towns: $4.5M",
+        "**Buy a parts distributor** with a warehouse and trucks: $8M",
+        "**A new head office** with a showroom: $6M",
+        "**Pay the owners** a dividend: any amount"
+      ],
+      "callout": "Total asks: $18.5M plus the dividend. You have $10M.",
+      "softwareNote": "A software company faces the same desk: hire another product team, buy a smaller rival, or return cash to shareholders. The same tests apply."
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Step 1 of 3",
+      "title": "How do you rank the asks?",
+      "illustrative": true,
+      "body": [
+        "Each branch costs $1.5M and, based on your current branches, earns about $375K a year once established. The distributor would add $600K a year. The office would save $240K a year in rent."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Rank by how much yearly profit each one adds",
+            "verdict": "partial",
+            "feedback": "The distributor wins at $600K, but it needs $8M to get there. Ranking by dollars alone favors big projects, not good ones."
+          },
+          {
+            "key": "B",
+            "text": "Rank by yearly profit per dollar invested",
+            "verdict": "best",
+            "feedback": "Branches earn 25%, the distributor 7.5%, the office 4%. Now you can see which money works hardest."
+          },
+          {
+            "key": "C",
+            "text": "Start with the office. The team is cramped and morale matters",
+            "verdict": "risky",
+            "feedback": "The pain is real, but it isn't the test. You'd lock $6M into a 4% return before checking anything better."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Step 2 of 3",
+      "title": "The distributor's owner calls.",
+      "illustrative": true,
+      "body": [
+        "Say you chose to rank by return per dollar. Branches clear your 12% bar easily, so you fund all three: $4.5M. That leaves $5.5M.",
+        "Now the distributor's owner presses. It's a solid, profitable business, and owning it would secure your parts supply. The price: $8M for $600K a year."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Buy it. It's profitable, and supply matters",
+            "verdict": "risky",
+            "feedback": "You'd borrow $2.5M to close and tie $8M to a 7.5% return, below your bar. A good business at the wrong price is a poor use of capital."
+          },
+          {
+            "key": "B",
+            "text": "Decline politely and keep buying parts from them",
+            "verdict": "best",
+            "feedback": "You keep the supply without owning the warehouse, and $5.5M stays free for something that clears your bar."
+          },
+          {
+            "key": "C",
+            "text": "Offer $5M instead",
+            "verdict": "partial",
+            "feedback": "At $5M, $600K is exactly 12%, so the math works. But the seller may refuse, and a deal that barely clears the bar leaves no room for mistakes."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Step 3 of 3",
+      "title": "What about the last $5.5M?",
+      "illustrative": true,
+      "body": [
+        "Say you passed on the distributor. You've checked: only these three towns have enough demand and staff for a strong branch. Any further branch looks closer to 8%."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Build the head office. The cash is right there",
+            "verdict": "risky",
+            "feedback": "That's $6M at 4%, and you'd still be $500K short. The owners could earn far more on that money elsewhere."
+          },
+          {
+            "key": "B",
+            "text": "Keep $1.5M for a slow season and pay $4M to the owners",
+            "verdict": "best",
+            "feedback": "The reserve protects the business. The owners can put $4M to work at returns you can't offer them right now."
+          },
+          {
+            "key": "C",
+            "text": "Keep all $5.5M in the bank until a better idea comes",
+            "verdict": "partial",
+            "feedback": "Safe, and sometimes wise. But bank interest sits well below 12%, and idle cash tends to attract weaker projects later."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "breakdown",
+      "eyebrow": "The result",
+      "title": "Where the $10M went",
+      "illustrative": true,
+      "breakdown": [
+        {
+          "value": "$4.5M",
+          "label": "Three branches",
+          "detail": "About 25% return, roughly $1.125M a year once established",
+          "highlight": true
+        },
+        {
+          "value": "$1.5M",
+          "label": "Reserve",
+          "detail": "Covers a slow season",
+          "highlight": false
+        },
+        {
+          "value": "$4M",
+          "label": "To the owners",
+          "detail": "Better than funding anything below 12%",
+          "highlight": false
+        },
+        {
+          "value": "$0",
+          "label": "Distributor and office",
+          "detail": "7.5% and 4%, both below the bar",
+          "highlight": false
+        }
+      ],
+      "callout": "Two of the four asks got nothing. Every dollar went to its best use, including back to the owners.",
+      "softwareNote": "In a software company, the same breakdown might fund one team with clear returns, keep runway in reserve, and skip an acquisition priced below the bar."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The numbers are estimates, not facts.",
+      "body": [
+        "New branches can take two or three years to reach full profit, and some never do. Check results against the plan each year.",
+        "The 12% bar is a judgment. Set it too high and you starve good projects. Set it too low and you fund weak ones.",
+        "And **strategic value** can be real. If parts shortages were costing you jobs, put a number on it. Don't let the word alone carry the decision."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Every dollar of profit needs a job worth doing.",
+      "body": [
+        "Here's how your three choices map to this unit:"
+      ],
+      "list": [
+        "**Step 1, rank by return per dollar:** return on invested capital",
+        "**Step 2, decline the distributor:** hurdle rates, and saying no to good projects",
+        "**Step 3, pay out what you can't use well:** reinvest, return or acquire"
+      ],
+      "callout": "**Try it today:** list your next three spending ideas. For each, write the money needed and the yearly profit it should bring. Divide. Which ones beat your bar?",
+      "next": "Next · Revenue that isn't real"
+    }
+  ]
+}

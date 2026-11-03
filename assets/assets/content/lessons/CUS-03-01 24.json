@@ -1,0 +1,217 @@
+{
+  "id": "CUS-03-01",
+  "unitId": "CUS-03",
+  "categoryId": "CUS",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "What product-market fit is",
+  "readerTitle": "Two businesses: one sells, the other gets bought",
+  "format": "two_businesses",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative",
+    "real_observation"
+  ],
+  "caseNote": "가상 사례 2개 (만두 가게, 프로젝트 관리 앱) + 가상 적용 (기장 대행) · 개념 정의는 Marc Andreessen(2007) 에세이 인용",
+  "insight": "제품-시장 적합성은 제품의 품질이 아니라 특정 고객 집단과의 맞물림이며, 내가 수요를 미는지 수요가 나를 끄는지로 느낄 수 있다.",
+  "misconception": "매출이 크거나 제품이 잘 만들어졌으면 제품-시장 적합성이 있는 것이다.",
+  "relatedLessonIds": [
+    "CUS-03-02",
+    "CUS-03-03"
+  ],
+  "sources": [
+    {
+      "text": "Andreessen, M. (2007, June 25). The Pmarca Guide to Startups, part 4: The only thing that matters. pmarchive.com",
+      "url": "https://pmarchive.com/guide_to_startups_part4.html"
+    },
+    {
+      "text": "만두 가게, 앱, 기장 대행 사례와 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Andreessen 정의 인용문 \"being in a good market with a product that can satisfy that market\"의 원문 표현과 2007년 게시일을 게시 전 원문에서 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "4번 카드의 \"the market pulls the product out of the company\"는 Andreessen 에세이 내용(좋은 시장에서는 시장이 스타트업에서 제품을 끌어낸다)을 의역한 것입니다. 직접 인용 부호를 쓰지 않았는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "용어의 최초 사용자는 Andy Rachleff로 알려져 있으나 카드에는 \"popularized\"로만 적어 최초 사용자 주장을 피했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "만두 가게 월 $12,000, 앱 월 $40,000 등 모든 수치는 설명용 가상 수치이며 계산이 필요한 내용은 없습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Two businesses",
+      "title": "Two businesses: one sells, the other gets bought",
+      "illustrative": true,
+      "body": [
+        "A dumpling counter earns $12,000 a month. A project-planning app earns $40,000.",
+        "On paper, the app is winning. But spend one week with each founder, and you'll notice something the revenue doesn't show."
+      ],
+      "image": {
+        "label": "A busy dumpling counter beside a laptop showing an ad dashboard",
+        "aspectRatio": "4:3",
+        "brief": "화면을 반으로 나눈 일러스트. 왼쪽은 점심시간 줄이 길게 선 작은 만두 가게, 오른쪽은 광고 대시보드를 띄운 노트북 앞에서 지친 창업자. 실제 브랜드나 로고는 쓰지 않음.",
+        "url": "assets/images/cus-03-01-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which one is closer to product-market fit?",
+      "illustrative": true,
+      "body": [
+        "**Dumpling counter, $12,000/month:** no ads. A line forms at noon and it sells out by 1:30 most days. Regulars bring coworkers.",
+        "**Project app, $40,000/month:** most new users arrive through paid ads and launch discounts. Many cancel within a few months, so the team keeps refilling the bucket."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The app. $40,000 a month proves people want it",
+            "verdict": "risky",
+            "feedback": "Revenue shows people paid once. It doesn't show whether they'd come without the ads and discounts, or stay after."
+          },
+          {
+            "key": "B",
+            "text": "The dumpling counter. Customers come without being pushed",
+            "verdict": "best",
+            "feedback": "Smaller, but demand is running ahead of supply. That pull is what this lesson is about."
+          },
+          {
+            "key": "C",
+            "text": "Impossible to say. They're too different in size",
+            "verdict": "partial",
+            "feedback": "Fair caution, since you'd want more data. But size isn't the question here. How customers arrive and whether they return tells you a lot."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "A week with each founder",
+      "title": "Different businesses, different problems.",
+      "illustrative": true,
+      "body": [
+        "Look at what keeps each founder up at night."
+      ],
+      "list": [
+        "**Dumpling founder:** how to make dough faster, add a second steamer and shorten the line",
+        "**App founder:** which ad to test next, how big a discount to offer, why last month's users left"
+      ],
+      "callout": "One founder pushes demand. The other is pulled along by it.",
+      "softwareNote": "In software, push often looks like rising ad spend per signup and a sales team chasing every deal. Pull looks like users inviting colleagues and complaining loudly when the product goes down."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Product-market fit",
+      "body": [
+        "**Product-market fit** means a specific group of customers wants what you offer so much that demand starts pulling your business forward.",
+        "Investor Marc Andreessen popularized the term in a 2007 essay. He defined it as \"being in a good market with a product that can satisfy that market.\" His point: when you have it, the market pulls the product out of the company. When you don't, no amount of pushing makes up for it."
+      ],
+      "image": {
+        "label": "A cart pushed uphill versus a cart pulled by a crowd",
+        "aspectRatio": "16:9",
+        "brief": "두 장면 비교 인포그래픽. 왼쪽: 한 사람이 혼자 수레를 언덕 위로 미는 모습 \"Push\". 오른쪽: 사람들이 줄을 잡고 수레를 끌어당기는 모습 \"Pull\". 단순한 플랫 스타일.",
+        "url": "assets/images/cus-03-01-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Fit belongs to the match, not the product.",
+      "illustrative": true,
+      "body": [
+        "Imagine the same dumplings, same recipe, same price, in an office park that empties at 5 p.m. and has a canteen already. The food hasn't changed. The fit has.",
+        "The app may be well built too. Its problem might not be quality at all. It may be serving people who don't feel the problem strongly enough to stay.",
+        "That's why fit has two halves: **a product** and **a group of customers** who badly want it."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Wider view",
+      "title": "Fit comes in degrees, and it can fade.",
+      "illustrative": true,
+      "body": [
+        "Fit isn't a switch that flips once. Early on, you may have strong pull from a few customers and none from the rest.",
+        "It can also slip. If the offices near the dumpling counter move to remote work, the noon line shrinks. The dumplings are just as good. The market around them changed.",
+        "So treat fit as something you keep checking, not a badge you earn once."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Fit is not the finish line.",
+      "body": [
+        "Fit doesn't guarantee profit. The dumpling counter can sell out daily and still lose money if rent eats every dollar.",
+        "It also doesn't promise size. You can have strong pull in a market too small to grow in.",
+        "And \"pull\" is a feeling at first. Founders who want fit badly tend to see it everywhere. Later lessons in this unit show how to check it with behavior, not hope."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a bookkeeping service.",
+      "illustrative": true,
+      "body": [
+        "You run a bookkeeping service for small businesses. Looking back at the last three months, which one suggests fit is forming?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Month 1: a record 30 new clients, after a 30% discount and a paid ad campaign",
+            "verdict": "risky",
+            "feedback": "Big numbers, but you pushed hard to get them. You don't yet know who would have come, or stayed, at full price."
+          },
+          {
+            "key": "B",
+            "text": "Month 2: only 8 new clients, but 6 were referrals and asked to start sooner",
+            "verdict": "best",
+            "feedback": "Fewer clients, but they came on their own and were eager. That's pull, even if it doesn't look impressive yet."
+          },
+          {
+            "key": "C",
+            "text": "Month 3: 40 clients filled in a survey saying they're satisfied",
+            "verdict": "partial",
+            "feedback": "Nice to hear, and worth keeping. But saying you're happy costs nothing. Referrals and urgency show what people actually do."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Fit is when customers pull, not when you push.",
+      "body": [
+        "Product-market fit is a match between a product and a specific group who badly want it. You feel it when demand runs ahead of your effort.",
+        "**Try it today:** list where your last ten customers came from. How many found you on their own or through someone else, and how many did you have to chase?"
+      ],
+      "next": "Next · The quiet signs that fit isn't there yet"
+    }
+  ]
+}

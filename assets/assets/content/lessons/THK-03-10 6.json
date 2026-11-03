@@ -1,0 +1,257 @@
+{
+  "id": "THK-03-10",
+  "unitId": "THK-03",
+  "categoryId": "THK",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Challenge your boss's favorite plan",
+  "readerTitle": "Your boss loves the plan. Your data doesn't.",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.6,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (지역 가정 수리 서비스 회사의 운영팀) · 인물, 수치, 결과 모두 설명용",
+  "insight": "상사의 계획에 반대할 때는 사람과 맞서지 말고, 같은 증거를 함께 보게 만든다. 질문, 데이터 분해, 이해관계 확인, 사전에 합의한 시험이 그 도구다.",
+  "misconception": "상사의 계획에 문제를 제기하려면 정면으로 반대하거나 윗선에 알려야 한다. 아무도 말하지 않으면 모두 동의한 것이다.",
+  "relatedLessonIds": [
+    "THK-03-01",
+    "THK-03-02"
+  ],
+  "sources": [
+    {
+      "text": "Janis, I. L. (1972). Victims of Groupthink. 집단사고 개념의 출처",
+      "url": null
+    },
+    {
+      "text": "모든 인물, 수치, 결과는 설명용 가상 시나리오",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "시나리오 전체가 가상입니다. 직원 60명, 크루 12팀, 출장비 $89, 이동 40분, 시험 6주는 모두 설명용 수치이며 실제 통계를 인용하지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "테이크어웨이에서 결정별로 연결한 개념(집단사고, 후광 효과, 인센티브 편향과 군중 행동, 권위 편향)의 정의가 THK-03-01~06 레슨의 표현과 일치하는지 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Simulation",
+      "title": "Your boss loves the plan. Your data doesn't.",
+      "illustrative": true,
+      "body": [
+        "Your director has just announced her favorite idea of the year. Around the table, everyone is nodding.",
+        "You're holding a report that says it might not work. The next four decisions are yours."
+      ],
+      "image": {
+        "label": "A manager holding a report while colleagues nod at a presentation",
+        "aspectRatio": "4:3",
+        "brief": "회의실 장면. 화면 앞에서 발표하는 디렉터, 고개를 끄덕이는 매니저들. 한 사람만 손에 보고서를 쥐고 망설이는 표정. 따뜻한 플랫 일러스트, 실제 로고 없음.",
+        "url": "assets/images/thk-03-10-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "text",
+      "eyebrow": "The setup",
+      "title": "A promise to every customer.",
+      "illustrative": true,
+      "body": [
+        "You manage operations at a regional home-repair company with 60 plumbers and electricians in 12 crews. Your director, Dana, wants a bold promise: **a technician at your door within two hours, or the $89 call-out fee is free.** She wants it live across the region in four weeks.",
+        "Your dispatch data tells a mixed story. On most days, crews make two hours easily. On Monday mornings and after storms, about half of calls take longer."
+      ],
+      "image": {
+        "label": "A map of service zones with arrival times marked",
+        "aspectRatio": "16:9",
+        "brief": "지역 서비스 지도. 도심 구역은 초록색 \"Under 2 hrs\", 외곽 구역은 주황색 \"Mondays: often over 2 hrs\". 밴 아이콘 몇 대. 실제 지명과 로고는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 1",
+      "title": "The room goes quiet.",
+      "illustrative": true,
+      "body": [
+        "Dana finishes: \"I think this is a winner. Any concerns?\" Six managers nod. Nobody speaks. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Stay quiet now and email Dana your data after the meeting",
+            "verdict": "partial",
+            "feedback": "Safer for you. But the room leaves believing everyone agrees, the plan gains momentum, and other people's doubts stay hidden."
+          },
+          {
+            "key": "B",
+            "text": "Say: \"Before we commit, can I share what dispatch shows on peak days?\"",
+            "verdict": "best",
+            "feedback": "You turn a private worry into a shared question about evidence. Once the numbers are up, two other managers admit they had doubts too."
+          },
+          {
+            "key": "C",
+            "text": "Say: \"This will never work on Mondays.\"",
+            "verdict": "risky",
+            "feedback": "Your point is fair, but it lands as a verdict against Dana. She defends the plan, and the room starts picking sides."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 2",
+      "title": "Say you shared the data. Then Dana mentions Marco.",
+      "illustrative": true,
+      "body": [
+        "\"Marco's crew already hits two hours almost every time,\" Dana says. \"If our best team can do it, everyone can.\" Marco is your top-rated crew lead. Everyone admires him."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Agree. Marco knows the field better than anyone",
+            "verdict": "risky",
+            "feedback": "You let one standout team speak for all 12. Marco's skill tells you nothing about the drive times in other areas."
+          },
+          {
+            "key": "B",
+            "text": "Ask to check arrival times for every crew, and what makes Marco's area different",
+            "verdict": "best",
+            "feedback": "Marco works the dense city core with short drives. Suburban crews often drive 40 minutes between jobs. The gap is geography, not effort."
+          },
+          {
+            "key": "C",
+            "text": "Ask Marco himself whether the other crews could do it",
+            "verdict": "partial",
+            "feedback": "He may answer honestly, but he only sees his own area. You get a respected opinion instead of the full picture."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 3",
+      "title": "Say you checked every crew. Now the agency speaks.",
+      "illustrative": true,
+      "body": [
+        "Dana invites the marketing agency that pitched the idea. They say rivals in nearby cities have launched similar guarantees: \"It's where the market is going.\" The agency would also run the launch campaign."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Go along. If rivals offer it, customers will expect it",
+            "verdict": "risky",
+            "feedback": "Copying rivals assumes they know something you don't. You still don't know if their guarantees make money or are quietly being cut back."
+          },
+          {
+            "key": "B",
+            "text": "Note how the agency gets paid, and ask your own industry contacts how rival guarantees are working",
+            "verdict": "best",
+            "feedback": "The agency earns from the campaign whether the promise works or not. That's not dishonest, but it tilts the advice. Your contacts say one rival quietly narrowed its guarantee to the city center."
+          },
+          {
+            "key": "C",
+            "text": "Ask the agency to show results from the other cities",
+            "verdict": "partial",
+            "feedback": "A good question, but the people answering are the ones selling the campaign. You'll hear the success stories first."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Decision 4",
+      "title": "Say you found the gap. It's still Dana's call.",
+      "illustrative": true,
+      "body": [
+        "At the final meeting, Dana still believes in the plan. You now have strong evidence that it works in the city and struggles in the suburbs. How do you make your case?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Recommend launching in the city core only",
+            "verdict": "partial",
+            "feedback": "Probably right on the facts. But it's your plan replacing hers, and Dana has to take your word for it, the way the team took hers."
+          },
+          {
+            "key": "B",
+            "text": "Propose a six-week trial in the city core and one suburb, with a pass mark agreed today",
+            "verdict": "best",
+            "feedback": "Dana keeps her idea and you keep the evidence in charge. Because the pass mark is set in advance, results decide, not rank."
+          },
+          {
+            "key": "C",
+            "text": "Take your data to the CEO before Dana decides",
+            "verdict": "risky",
+            "feedback": "It might stop the plan, but it costs you Dana's trust. The team learns that disagreeing means going over someone's head."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "Dana launched a better version of her own idea.",
+      "illustrative": true,
+      "body": [
+        "The city crews kept the two-hour promise on nearly every call. The suburban crew missed it most Monday mornings.",
+        "Dana launched the guarantee in the city core and a **same-day** promise in the suburbs. She told the team the trial had saved her from a costly promise. Nobody had to win an argument."
+      ],
+      "image": {
+        "label": "Two zones on a map: one with a two-hour badge, one with a same-day badge",
+        "aspectRatio": "16:9",
+        "brief": "도심 구역에는 \"2-hour promise\" 배지, 외곽 구역에는 \"Same-day promise\" 배지. 회의실에서 디렉터와 운영 매니저가 같은 화면을 함께 보는 작은 삽화. 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Challenging has a cost. Spend it wisely.",
+      "body": [
+        "Every challenge uses some of your credibility. Save the full process for decisions that are big or hard to undo. Small, reversible plans can simply be tried.",
+        "Your own view can be biased too. You may love your data the way Dana loved her plan. And sometimes the boss is right. The goal is a better decision, not winning."
+      ],
+      "softwareNote": "In a software company, the boss's favorite plan is often a feature. The same moves apply: share usage data as a question, check whether the loudest customer is typical, ask who gains from the advice, and release it to a small group of users first."
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Challenge the evidence, not the boss.",
+      "body": [
+        "Each decision you made answered a bias from this unit:"
+      ],
+      "list": [
+        "**Decision 1 · Groupthink:** silence in a meeting isn't agreement. Ask a question backed by data.",
+        "**Decision 2 · The halo effect:** one star performer doesn't speak for everyone.",
+        "**Decision 3 · Incentive-caused bias and herd behavior:** ask who gains from the advice, and whether rivals' moves actually work.",
+        "**Decision 4 · Authority bias:** let a test agreed in advance settle it, not rank."
+      ],
+      "callout": "**Try it today:** pick one plan in your business that everyone agreed to quickly. Write down what evidence would change your mind about it.",
+      "next": "Next · Why the usual outcome beats your gut feeling"
+    }
+  ]
+}

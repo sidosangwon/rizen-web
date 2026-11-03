@@ -1,0 +1,258 @@
+{
+  "id": "OPS-01-07",
+  "unitId": "OPS-01",
+  "categoryId": "OPS",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "Speed up a busy coffee counter",
+  "readerTitle": "The morning line isn't where the problem is",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (커피 카운터, 포장 창고, B2B 소프트웨어 온보딩) · 모든 수치는 설명용",
+  "insight": "줄이 보이는 곳이 아니라 시간당 처리량이 가장 낮은 단계에 사람과 돈을 넣어야 전체가 빨라진다.",
+  "misconception": "손님이 줄 서 있는 계산대를 늘리면 가게 전체가 빨라진다.",
+  "relatedLessonIds": [
+    "OPS-01-02",
+    "OPS-01-03"
+  ],
+  "sources": [
+    {
+      "text": "운영관리의 표준 개념 (병목, 단계별 처리 능력)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "커피 카운터 계산: 계산대 30초/건 → 3600÷30 = 시간당 120건. 바리스타 1명 75초/잔 → 3600÷75 = 48잔. 수요 70잔 − 48잔 = 시간당 22잔 부족. 픽업 10초 → 360건.",
+      "status": "open"
+    },
+    {
+      "note": "바 분업: 샷 40초 → 90잔/시간, 우유·마무리 45초 → 80잔/시간. 바 전체는 둘 중 낮은 80잔으로 수요 70잔보다 큼.",
+      "status": "open"
+    },
+    {
+      "note": "창고: 피커 5명 × 40건 = 200건, 포장 3명 × 40건 = 120건, 수요 150건. 피커 1명을 포장으로 옮기면 피킹 160건, 포장 160건으로 둘 다 150건 이상.",
+      "status": "open"
+    },
+    {
+      "note": "소프트웨어: 영업 주 30건 계약, 온보딩 주 15건 처리 → 주 15건씩 대기 고객 누적. 가상 수치입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Everyday scene",
+      "title": "The morning line isn't where the problem is",
+      "illustrative": true,
+      "body": [
+        "It's 8:15 a.m. at a busy coffee shop. The line at the till reaches the door, so the owner wants a second till.",
+        "But look past the till. A crowd stands at the pickup counter, waiting for drinks. The cashier is fast. Something else is slow."
+      ],
+      "image": {
+        "label": "Crowd waiting at a coffee pickup counter while the till is clear",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 일러스트. 계산대 앞은 손님 한 명뿐인데, 픽업 카운터 앞에 사람들이 몰려 시계를 보고 있음. 에스프레소 머신 뒤에 바리스타 한 명이 바쁘게 움직임. 실제 카페 브랜드 로고나 컵 디자인은 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You can add one person for the rush.",
+      "illustrative": true,
+      "body": [
+        "Right now one cashier takes orders and one barista makes every drink. You can afford one extra staff member from 7 to 9 a.m.",
+        "Where do you put them?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "On a second till, to shorten the visible line",
+            "verdict": "risky",
+            "feedback": "Orders get taken faster, but drinks don't. This is the **bottleneck** at work: speeding up a step that isn't the slowest just moves the crowd to pickup."
+          },
+          {
+            "key": "B",
+            "text": "Behind the bar, splitting drink-making with the barista",
+            "verdict": "best",
+            "feedback": "This adds **capacity** at the slowest step, so the whole shop serves more people per hour. The next card shows why."
+          },
+          {
+            "key": "C",
+            "text": "At pickup, calling names and handing out drinks",
+            "verdict": "partial",
+            "feedback": "Handoffs get smoother, but pickup was never slow. You add cost to a step with plenty of spare capacity."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Count each step per hour.",
+      "illustrative": true,
+      "body": [
+        "About 70 customers arrive per hour at peak. The bar can make only 48 drinks, so the wait grows by about 22 people every hour."
+      ],
+      "breakdown": [
+        {
+          "value": "120/hr",
+          "label": "Till",
+          "detail": "30 seconds per order",
+          "highlight": false
+        },
+        {
+          "value": "48/hr",
+          "label": "Bar",
+          "detail": "One barista, 75 seconds per drink",
+          "highlight": true
+        },
+        {
+          "value": "360/hr",
+          "label": "Pickup",
+          "detail": "10 seconds per handoff",
+          "highlight": false
+        },
+        {
+          "value": "70/hr",
+          "label": "Demand",
+          "detail": "Customers arriving at peak",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept at work · Bottlenecks",
+      "title": "The shop runs at the speed of the bar.",
+      "illustrative": true,
+      "body": [
+        "A **bottleneck** is the slowest step in a process. It sets the pace for everything else.",
+        "Here the shop can serve 48 people an hour, no matter how fast the till is. A second till would take orders at 240 an hour and still hand out 48 drinks. The line inside the door gets shorter. The crowd at pickup gets longer."
+      ],
+      "image": {
+        "label": "Funnel diagram: wide till, narrow bar, wide pickup",
+        "aspectRatio": "16:9",
+        "brief": "깔때기 모양 흐름도. 왼쪽 'Till 120/hr'는 넓은 관, 가운데 'Bar 48/hr'는 좁은 관, 오른쪽 'Pickup 360/hr'는 다시 넓은 관. 가운데 좁은 부분 앞에 컵 아이콘이 쌓여 있음.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Concept at work · Capacity",
+      "title": "Two people, two jobs at the bar.",
+      "illustrative": true,
+      "body": [
+        "**Capacity** is how much a step can handle in a set time. To raise it, add people or split the work.",
+        "With a second person, one pulls shots (40 seconds, or 90 an hour). The other steams milk and finishes drinks (45 seconds, or 80 an hour). The bar now makes 80 drinks an hour, more than the 70 who arrive. The pickup crowd stops growing."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Fix one bottleneck and another appears.",
+      "body": [
+        "The bar is still the slowest step at 80 an hour. If a new office opens nearby and demand reaches 90, the crowd returns.",
+        "There are hard limits too. The espresso machine has only so many spots to brew at once, and a third person behind a small bar gets in the way. Recount each step whenever demand or staffing changes."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a packing warehouse.",
+      "illustrative": true,
+      "body": [
+        "Five pickers each pull 40 orders an hour from shelves. Three packers each box 40 orders an hour. Labels print at 300 an hour. In the holiday peak, 150 orders arrive per hour.",
+        "What do you change first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Buy faster scanners for the pickers",
+            "verdict": "risky",
+            "feedback": "Picking already handles 200 an hour. Packing tops out at 120, so the **bottleneck** stays put and boxes pile up at the packing tables."
+          },
+          {
+            "key": "B",
+            "text": "Move one picker to a fourth packing table",
+            "verdict": "best",
+            "feedback": "Picking drops to 160 and packing rises to 160, both above 150. You rebalanced **capacity** toward the slow step without hiring."
+          },
+          {
+            "key": "C",
+            "text": "Pay the packers overtime every day of the peak",
+            "verdict": "partial",
+            "feedback": "It adds packing **capacity**, so it works. But it costs more and tires people out, while two spare pickers' worth of time sits unused."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software company.",
+      "illustrative": true,
+      "body": [
+        "Your sales team signs 30 new business customers a week. Your onboarding team can set up only 15 accounts a week. New customers wait longer each week, and some cancel before they start.",
+        "The CEO wants to hire two more salespeople. What do you suggest?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Hire the salespeople. More deals means more revenue",
+            "verdict": "risky",
+            "feedback": "Sales isn't the slow step. More deals just grow the waiting list at onboarding, the **bottleneck**, and more customers may cancel."
+          },
+          {
+            "key": "B",
+            "text": "Raise onboarding capacity first, with people or self-serve setup",
+            "verdict": "best",
+            "feedback": "This lifts **capacity** where work is stuck, so signed customers actually go live. Then check whether sales becomes the new limit."
+          },
+          {
+            "key": "C",
+            "text": "Give waiting customers a free month",
+            "verdict": "partial",
+            "feedback": "It may keep some from cancelling, but the wait keeps growing by 15 accounts a week. It treats the symptom, not the **bottleneck**."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Find the slowest step, then add capacity there.",
+      "body": [
+        "This lesson used two ideas. **Bottlenecks:** the slowest step sets the pace, and the visible line can hide it. **Capacity:** count what each step handles per hour, then add or move resources to the slow one.",
+        "**Try it today:** pick one process in your business. Write each step's hourly output next to demand. Circle the lowest number."
+      ],
+      "next": "Next · Fix an order-fulfillment flow"
+    }
+  ]
+}

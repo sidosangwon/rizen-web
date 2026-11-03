@@ -1,0 +1,211 @@
+{
+  "id": "STR-07-04",
+  "unitId": "STR-07",
+  "categoryId": "STR",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Vertical integration",
+  "readerTitle": "Why Ford owned a steel mill, and a rubber forest in Brazil",
+  "format": "company_story",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.3,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Ford의 River Rouge 공장과 Fordlândia, Inditex/Zara, Apple) + 가상 사례 (전기자전거 제조사, 원격진료 앱)",
+  "insight": "수직 계열화는 '중간 마진을 없애는 법'이 아니라, 우리 강점을 좌우하면서 시장에서 믿고 살 수 없는 단계만 골라 소유하는 결정이다.",
+  "misconception": "공급망의 더 많은 단계를 직접 소유할수록 중간 이윤이 사라져 원가가 내려가고 회사가 더 강해진다.",
+  "relatedLessonIds": [
+    "STR-07-06",
+    "ECO-02-01"
+  ],
+  "sources": [
+    {
+      "text": "The Henry Ford (museum), history of the Ford Rouge Complex",
+      "url": null
+    },
+    {
+      "text": "Grandin, G. (2009). Fordlandia: The Rise and Fall of Henry Ford's Forgotten Jungle City. Metropolitan Books.",
+      "url": null
+    },
+    {
+      "text": "Inditex annual reports (proximity sourcing)",
+      "url": null
+    },
+    {
+      "text": "Apple press release, November 2020: Apple unleashes M1",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "River Rouge 공장: 1917년 착공, 1920년대 후반 완성 규모. 제철소, 유리 공장, 발전소를 단지 안에 두고 원자재가 한쪽에서 들어와 완성차가 나갔다는 서술은 The Henry Ford 자료로 확인하세요. 카드에는 연도를 넣지 않고 '1920s'로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Fordlândia: 1928년 브라질 아마존에 설립, 잎마름병 등으로 고무 생산 실패, 1945년 브라질 정부에 큰 손실을 보고 매각. 날짜와 '큰 손실' 표현을 Grandin(2009)으로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Inditex의 '근접 생산(스페인·포르투갈·모로코·튀르키예 등)' 비중은 연도마다 다릅니다. 카드에는 구체 비율 없이 'a large share'로만 적었습니다. 최신 연차보고서로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Apple M1 칩 발표(2020년 11월)와 Mac에서 Intel 프로세서를 대체했다는 내용을 Apple 보도자료로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "전기자전거 회사와 원격진료 앱은 설명용 가상 사례이며 수치를 쓰지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Strategy · Company story",
+      "title": "Iron ore in one door, cars out the other.",
+      "body": [
+        "In the 1920s, Ford's River Rouge plant near Detroit took in raw materials at one end and sent finished cars out the other. It had its own steel mill, glass plant and power plant.",
+        "Ford even started a rubber plantation in the Brazilian rainforest. One of those bets paid off. The other became a famous failure."
+      ],
+      "image": {
+        "label": "Raw ore entering a huge factory, a car leaving the other side",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 거대한 공장 단면. 왼쪽에서 광석·석탄이 배로 들어오고, 공장 안에서 제철→유리→조립 단계가 이어져 오른쪽으로 1920년대풍 자동차가 나옴. 실제 회사 로고·엠블럼은 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Your battery supplier keeps letting you down.",
+      "illustrative": true,
+      "body": [
+        "You make electric bikes. A supplier buys battery cells, assembles them into packs and ships them to you. The packs arrive late, quality varies, and the pack's shape decides your bike's range and look.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Buy the supplier outright",
+            "verdict": "partial",
+            "feedback": "You gain control of the packs, but you also take on its whole factory, staff and other customers. That's a big bet to fix one problem."
+          },
+          {
+            "key": "B",
+            "text": "Build your own battery cell factory",
+            "verdict": "risky",
+            "feedback": "Cells are a huge-scale business that specialists already do well. You'd carry enormous fixed costs for a part that wasn't the problem."
+          },
+          {
+            "key": "C",
+            "text": "Assemble the packs yourself, and keep buying cells from two suppliers",
+            "verdict": "best",
+            "feedback": "You own the step that shapes your product and causes the delays, while still buying the commodity part. Control where it matters, flexibility where it doesn't."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "How it started",
+      "title": "Ford needed parts to arrive like clockwork.",
+      "body": [
+        "Ford's moving assembly line could build cars faster than suppliers could reliably deliver parts. One late shipment of steel or glass could stop the whole line.",
+        "So Ford brought those steps inside. Owning the steel mill and the glass plant meant the flow of materials matched the speed of the line.",
+        "For a mass producer, a steady supply wasn't a detail. It was the whole advantage."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Vertical integration",
+      "body": [
+        "**Vertical integration** means owning more of the steps between raw materials and the final customer, instead of buying them from other companies.",
+        "Moving toward your suppliers, like Ford's steel mill, is *backward* integration. Moving toward your customers, like a brewery opening its own pubs, is *forward* integration.",
+        "It's different from growing sideways into new products. You're taking over more of the chain you're already in."
+      ],
+      "image": {
+        "label": "A supply chain with arrows pointing backward and forward",
+        "aspectRatio": "16:9",
+        "brief": "가로로 이어진 공급망 인포그래픽: \"Raw materials\" → \"Parts\" → \"Assembly\" → \"Distribution\" → \"Customer\". 가운데 \"Your business\"가 강조되고, 왼쪽 화살표에 \"Backward\", 오른쪽 화살표에 \"Forward\" 라벨.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "When it pays",
+      "title": "Own the step that makes or breaks you.",
+      "body": [
+        "Integration tends to pay when a step is critical to your advantage and the market can't supply it reliably, or when steps need tight coordination.",
+        "Zara's parent, Inditex, keeps design and a large share of production in or near Spain. That costs more per garment than the cheapest far-off factories, but it lets the company restock stores with new styles within weeks. Speed is what it sells."
+      ],
+      "softwareNote": "Apple began designing its own chips for Macs in 2020, replacing Intel processors. It didn't build chip factories. It took over the design step, which shaped battery life and performance, and kept buying manufacturing."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "You also own every problem in that step.",
+      "body": [
+        "In 1928, Ford founded Fordlândia in Brazil to grow its own rubber. The trees fell to disease, the plantation struggled for years, and Ford sold it to the Brazilian government in 1945 at a heavy loss.",
+        "Owning a step means owning its **fixed costs**, its skills gap and its risks. You also lose the option to switch to a better or cheaper supplier. The middleman's margin was sometimes payment for expertise you don't have."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a telehealth app.",
+      "illustrative": true,
+      "body": [
+        "Your app connects patients with doctors by video. It rents cloud servers, buys video technology from a vendor and uses a payment processor. Your top complaint: calls freeze when patients have weak connections.",
+        "Which step should you bring in-house first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Run your own servers and data center",
+            "verdict": "risky",
+            "feedback": "You'd take on big fixed costs and a specialist job. Patients don't notice whose servers you use; they notice frozen calls."
+          },
+          {
+            "key": "B",
+            "text": "The video layer: how calls handle weak connections",
+            "verdict": "best",
+            "feedback": "It's the step users feel most and where the vendor falls short. Owning it can become your edge, while servers stay rented."
+          },
+          {
+            "key": "C",
+            "text": "Build your own payment processing",
+            "verdict": "risky",
+            "feedback": "Payments are a commodity that specialists do well, with heavy rules attached. It's costly work that customers won't value."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Own the steps that make you different. Buy the rest.",
+      "body": [
+        "Vertical integration pays when a step is critical to your advantage and the market can't deliver it well. Everywhere else, owning more just means carrying more.",
+        "**Try it today:** list the outside companies your business depends on. Mark the one whose failure would hurt customers most. Is it a commodity, or the heart of what you sell?"
+      ],
+      "next": "Next · When a company grows into something unrelated"
+    }
+  ]
+}

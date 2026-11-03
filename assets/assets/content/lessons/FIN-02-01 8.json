@@ -1,0 +1,244 @@
+{
+  "id": "FIN-02-01",
+  "unitId": "FIN-02",
+  "categoryId": "FIN",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Profit vs cash",
+  "readerTitle": "Profitable, and still out of cash",
+  "format": "numbers_twist",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (주방용품 도매업체, 인테리어 시공업체) · 모든 수치는 설명용",
+  "insight": "이익은 사업이 돈을 버는지를 알려주고, 현금은 이번 달을 버틸 수 있는지를 알려준다. 둘은 서로 다른 시계로 움직인다.",
+  "misconception": "이익이 났으면 그만큼 통장에 돈이 늘어 있다. 이익을 내는 사업은 돈이 떨어질 일이 없다.",
+  "relatedLessonIds": [
+    "FIN-02-02",
+    "FIN-01-03"
+  ],
+  "sources": [
+    {
+      "text": "재무회계의 표준 개념 (발생주의 이익과 현금 흐름의 차이)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "도매업체 계산: 이익 $60,000 − $45,000 − $10,000 = $5,000. 현금: 3월 입금 $0, 지출 $45,000 + $10,000 = $55,000. 기초 잔고 $40,000 − $55,000 = −$15,000. 상품을 3월에 사서 3월에 모두 판매했다고 가정해 매출원가와 매입액이 같습니다.",
+      "status": "open"
+    },
+    {
+      "note": "5월 입금 후: −$15,000 + $60,000 = $45,000 = 기초 $40,000 + 이익 $5,000. 4월에 다른 거래가 없다고 단순화했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "시공업체 계산: 계약 $30,000, 자재 $12,000 + 인건비 $12,000 = $24,000, 이익 $6,000. 잔고 $15,000 < 필요 $24,000, 부족분 $9,000. 단계 결제(30%/40%/30%): $15,000 + $9,000 = $24,000 → 공사 절반 후 $12,000 → 중도금 +$12,000 = $24,000 → 나머지 비용 후 $12,000 → 잔금 +$9,000 = $21,000 (= $15,000 + 이익 $6,000). 비용이 6주에 고르게 나간다고 가정.",
+      "status": "open"
+    },
+    {
+      "note": "\"Revenue is vanity, profit is sanity, cash is reality\"는 출처가 불분명한 업계 격언입니다. 카드에는 특정 인물에게 귀속하지 않고 \"an old saying\"으로만 적었습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Numbers twist",
+      "title": "Profitable, and still out of cash",
+      "illustrative": true,
+      "body": [
+        "Lena runs a small kitchenware distributor. In March she lands her biggest order ever and makes a profit.",
+        "At the end of the month, her bank account is overdrawn. Nothing went wrong. Nobody cheated her. The numbers just moved on two different clocks."
+      ],
+      "image": {
+        "label": "A profit report showing a gain next to a bank app showing a negative balance",
+        "aspectRatio": "4:3",
+        "brief": "창고 사무실 책상 위. 왼쪽에 초록색 \"+$5,000\"이 적힌 손익 보고서, 오른쪽에 빨간색 \"−$15,000\"이 뜬 휴대폰 은행 앱 화면. 뒤로 냄비·팬 상자가 쌓인 선반. 실제 은행·브랜드 로고는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What does the bank show at the end of March?",
+      "illustrative": true,
+      "body": [
+        "Lena starts March with $40,000 in the bank. She sells $60,000 of goods to a chain of shops, which will pay in 60 days.",
+        "She pays her supplier $45,000 for those goods on delivery, plus $10,000 for staff and the warehouse. Her accountant reports a March profit of $5,000."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "About $45,000: the $40,000 plus the $5,000 profit",
+            "verdict": "risky",
+            "feedback": "That would be true if every sale were paid the day it happened. Here the $60,000 hasn't arrived, but the costs have already left."
+          },
+          {
+            "key": "B",
+            "text": "About $40,000: the profit is only on paper for now",
+            "verdict": "partial",
+            "feedback": "Right that the profit isn't cash yet. But the money she paid out is very real, and it's already gone."
+          },
+          {
+            "key": "C",
+            "text": "About −$15,000: she's overdrawn",
+            "verdict": "best",
+            "feedback": "Yes. $55,000 went out and nothing came in. The profit is real, but it's sitting in a promise to pay, not in the bank."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Same month, two stories.",
+      "illustrative": true,
+      "body": [
+        "In May the shops pay $60,000, and the balance jumps to $45,000: the starting $40,000 plus the $5,000 profit. The profit was right all along. It was just **two months early**."
+      ],
+      "breakdown": [
+        {
+          "value": "$5,000",
+          "label": "March profit",
+          "detail": "$60,000 sales − $45,000 goods − $10,000 other costs",
+          "highlight": false
+        },
+        {
+          "value": "$0",
+          "label": "Cash in",
+          "detail": "The shops pay in 60 days",
+          "highlight": false
+        },
+        {
+          "value": "−$55,000",
+          "label": "Cash out",
+          "detail": "Supplier and staff paid in March",
+          "highlight": false
+        },
+        {
+          "value": "−$15,000",
+          "label": "Bank at month end",
+          "detail": "$40,000 − $55,000",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Profit vs cash",
+      "body": [
+        "**Profit** counts a sale when you make it, and counts the costs that belong to that sale at the same time. It answers: did this work earn money?",
+        "**Cash** counts money only when it actually moves in or out of your account. It answers: can I pay what's due this week?",
+        "Both describe the same business. They just record events at different moments."
+      ],
+      "image": {
+        "label": "Two clocks: one marks when a sale is made, one marks when money moves",
+        "aspectRatio": "16:9",
+        "brief": "시계 두 개를 나란히 배치. 왼쪽 \"Profit clock\"은 3월에 바늘이 \"Sale made\"를 가리킴. 오른쪽 \"Cash clock\"은 5월에 \"Money arrives\"를 가리킴. 두 시계 사이에 \"60 days\"라고 적힌 점선 화살표.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Where the two clocks drift apart.",
+      "body": [
+        "The gap almost always comes from timing. A few common causes:"
+      ],
+      "list": [
+        "**Customers pay later:** profit now, cash later",
+        "**Stock bought ahead:** cash out now, cost counted only when it sells",
+        "**Equipment:** cash out at once, cost spread over years in profit",
+        "**Loan repayments:** cash out, but not a cost at all",
+        "**Customer deposits:** cash in now, profit only once the work is done"
+      ],
+      "callout": "None of these are mistakes. They're just money and earnings arriving at different times.",
+      "softwareNote": "A software company selling annual plans paid upfront collects a year of cash on day one but earns the revenue month by month. Sell to large companies that pay 90 days after invoice, and the clocks flip the other way."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The twist",
+      "title": "Growth makes the gap bigger.",
+      "illustrative": true,
+      "body": [
+        "Say Lena's next order is twice as big. Profit doubles to $10,000. But she now has to pay out about $110,000 before a single dollar comes back.",
+        "The faster a business like this grows, the more cash it needs up front. That's how a company can be profitable, growing and still unable to pay its staff on Friday.",
+        "There's an old saying: *revenue is vanity, profit is sanity, cash is reality.*"
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Cash isn't the \"real\" number either.",
+      "body": [
+        "Plenty of cash can hide a business that loses money. Customer deposits, unpaid supplier bills or a fresh loan all fill the account without earning anything.",
+        "A full bank account can feel like success while every job loses a little. Profit tells you whether the business works. Cash tells you whether it survives until the profit arrives. Watch both, and never treat one as proof of the other."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a renovation contractor.",
+      "illustrative": true,
+      "body": [
+        "You're offered a $30,000 kitchen remodel. Materials cost $12,000 and crew wages $12,000, both paid during the six-week job. Profit: $6,000.",
+        "The client wants to pay everything on completion. You have $15,000 in the bank."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Take it as offered. It's clearly profitable",
+            "verdict": "risky",
+            "feedback": "The profit is real, but you'd need $24,000 before getting paid and you have $15,000. You could run dry in week four."
+          },
+          {
+            "key": "B",
+            "text": "Take it, but ask for 30% upfront, 40% halfway and 30% at the end",
+            "verdict": "best",
+            "feedback": "You keep the same $6,000 profit, but cash now arrives alongside costs. Your balance never drops below about $12,000."
+          },
+          {
+            "key": "C",
+            "text": "Turn it down. The cash risk is too high",
+            "verdict": "partial",
+            "feedback": "It protects your account, but you give up a good job. The problem is the timing of payment, and timing can often be negotiated."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "The same check applies to a software agency building a custom app: if the client pays on launch, your developers' salaries come out months before the money comes in."
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Profit says the business works. Cash says it makes it to Friday.",
+      "body": [
+        "A profitable sale only helps you once the money arrives. Until then, you're paying for it.",
+        "**Try it today:** take your next big order or project. Write down, week by week, when money goes out and when it comes in. Find the lowest point in your bank balance."
+      ],
+      "next": "Next · How long does a dollar take to come back?"
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "id": "CUS-05-02",
+  "unitId": "CUS-05",
+  "categoryId": "CUS",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "Friction",
+  "readerTitle": "The customers who give up before they buy",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (포장재 제조사의 재주문 과정, 경비 정산 앱) · 일상 장면은 일반적인 경험 묘사",
+  "insight": "고객을 잃는 순간은 '거절'이 아니라 '나중에 하지'다. 원하는 것과 실제 행동 사이의 단계·대기·불확실성을 하나씩 줄이면 가격을 건드리지 않고도 행동이 늘어난다.",
+  "misconception": "고객이 사지 않거나 다시 주문하지 않는 이유는 가격이나 제품이 마음에 들지 않아서다. 단계 하나쯤 더 있는 건 큰 문제가 아니다.",
+  "relatedLessonIds": [
+    "CUS-05-03",
+    "CUS-05-08"
+  ],
+  "sources": [
+    {
+      "text": "행동경제학의 일반 개념 (마찰, 'make it easy' 원칙). 배경 자료: Thaler, R. & Sunstein, C. (2008). Nudge. Yale University Press.",
+      "url": null
+    },
+    {
+      "text": "포장재 제조사와 경비 정산 앱은 설명용 가상 사례이며 모든 일정과 단계는 가상",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "레슨에 실제 통계나 연구 수치는 쓰지 않았습니다. 포장재 회사의 재주문 일정(Day 1~Day 4, 경쟁사 2분 재주문)은 모두 가상입니다. 3번 카드에 illustrative 표시를 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Nudge(2008)는 배경 자료로만 표기했고 카드에 직접 인용이나 수치는 없습니다. 게시 전 출처 표기 방식이 적절한지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "7번 카드의 '해지를 어렵게 만드는 것'은 신뢰 문제로만 다루었고 특정 국가 법률 언급은 피했습니다. 법률 조언으로 읽히지 않는지 검토하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Everyday scene",
+      "title": "The customers who give up before they buy",
+      "body": [
+        "You meant to book that dentist appointment. Then the phone line opened at 9, you were in a meeting, and it slid to next week.",
+        "You didn't decide against the dentist. You just never got around to it. Your customers do the same thing to you, and they almost never tell you."
+      ],
+      "image": {
+        "label": "A to-do note with one task carried over day after day",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 냉장고에 붙은 포스트잇 한 장 \"Book dentist\"가 월·화·수·목 달력 칸으로 계속 밀려 옮겨지는 모습. 따뜻하고 약간 유머러스한 톤. 실제 브랜드나 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Your best customers are reordering less.",
+      "illustrative": true,
+      "body": [
+        "You make shipping boxes. Your warehouse customers like your quality and your prices are fair. But reorders have slowed, and some customers now go weeks between orders.",
+        "To reorder, a customer emails for a quote, waits for a reply, signs a PDF and sends a purchase order. What do you try first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Cut prices by 5% for repeat orders",
+            "verdict": "risky",
+            "feedback": "It costs you margin on every order, and it fixes a problem customers may not have. If the quote still takes a day, the reorder still waits in someone's inbox."
+          },
+          {
+            "key": "B",
+            "text": "Let customers repeat a past order in one step, with the price shown up front",
+            "verdict": "best",
+            "feedback": "You keep your price and remove the waiting and paperwork between \"we need boxes\" and \"ordered\". It takes setup work, but it works on every order after that."
+          },
+          {
+            "key": "C",
+            "text": "Have a sales rep call each customer every month",
+            "verdict": "partial",
+            "feedback": "The calls catch some orders that would have slipped. But they add cost for you and an interruption for them, and the slow process behind the call stays the same."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What was happening",
+      "title": "Follow one reorder.",
+      "illustrative": true,
+      "body": [
+        "None of these steps is hard. Together they turn \"I'll order now\" into \"I'll do it later\". Meanwhile, a rival let buyers reorder online in about two minutes, and **later** often became *never*."
+      ],
+      "breakdown": [
+        {
+          "value": "Day 1",
+          "label": "Email for a quote",
+          "detail": "The buyer notices stock is low, between ten other tasks",
+          "highlight": false
+        },
+        {
+          "value": "Day 2",
+          "label": "Quote arrives",
+          "detail": "Now there's a PDF to print, sign and scan",
+          "highlight": false
+        },
+        {
+          "value": "Day 3",
+          "label": "Purchase order",
+          "detail": "Needs a manager's approval, who is travelling",
+          "highlight": false
+        },
+        {
+          "value": "Day 4+",
+          "label": "Order placed, maybe",
+          "detail": "Or the buyer tried the rival's site instead",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Friction",
+      "body": [
+        "**Friction** is anything that stands between wanting to do something and actually doing it: extra steps, waiting, missing information, or effort spent thinking.",
+        "The key point: friction rarely makes people say no. It makes them say *not now*. And every \"not now\" is a chance for something else to win their attention, or for the need to fade."
+      ],
+      "image": {
+        "label": "A path from 'want' to 'done' with small obstacles along it",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 왼쪽 \"Want\"에서 오른쪽 \"Done\"으로 가는 길 위에 작은 장애물 4개: 계단(Steps), 모래시계(Waiting), 물음표(Unknowns), 뇌 아이콘(Thinking). 길 중간에서 옆길로 빠지는 점선 화살표에 \"Not now\" 라벨.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Four kinds of friction to look for.",
+      "body": [
+        "When customers stall, the cause is usually one of these:"
+      ],
+      "list": [
+        "**Steps:** every form field, click, signature or trip adds a place to stop",
+        "**Waiting:** a reply tomorrow loses to an answer now",
+        "**Unknowns:** no price shown, unclear delivery date, \"what happens next?\"",
+        "**Thinking:** choices the customer must work out alone, like codes, sizes or specs"
+      ],
+      "callout": "Small frictions add up. Removing one rarely feels dramatic, but removing several can change behavior.",
+      "softwareNote": "In software, friction hides in logins that expire, settings people must find, and screens that ask for information you already have. Each one is a place where users drift away quietly."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The other direction",
+      "title": "Friction is a tool, not just a flaw.",
+      "body": [
+        "Friction works both ways. Remove it from what you *want* customers to do. Add a little where a mistake would be costly.",
+        "A wholesaler might add a confirmation step before an unusually large order ships. A bank asks you to confirm a big transfer. That pause protects the customer, and it builds trust.",
+        "The skill is choosing where friction goes, instead of letting it pile up by accident."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Not all friction should go.",
+      "body": [
+        "Some steps carry real value: a credit check, a safety question, a measurement that prevents the wrong part being shipped. Cut those and you trade fewer drop-offs for more errors and returns.",
+        "Making it hard to *leave* is also friction, and customers notice. It may keep some for a while, but it costs you trust and goodwill.",
+        "And don't guess. Look at where people actually stop before deciding which step to remove."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's an expense app.",
+      "illustrative": true,
+      "body": [
+        "Your app helps companies collect employee receipts. Finance teams love it, but employees submit receipts late, often weeks after a trip. Each receipt needs a photo upload on a laptop, then five fields typed by hand.",
+        "What do you change first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Send more reminder emails to late employees",
+            "verdict": "partial",
+            "feedback": "Reminders bring some people back, but each one still lands on the same slow laptop process. You raise the nagging without lowering the effort."
+          },
+          {
+            "key": "B",
+            "text": "Let employees snap the receipt on their phone, with fields filled in for them to check",
+            "verdict": "best",
+            "feedback": "It removes the trip to the laptop and most of the typing, right when the receipt is in their hand. The cost is building and checking the auto-fill."
+          },
+          {
+            "key": "C",
+            "text": "Add a required project code so finance gets better data",
+            "verdict": "risky",
+            "feedback": "Finance gains cleaner reports, but employees face one more thing to look up. Submissions could get even later, which hurts the finance team too."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Customers rarely say no. They say not now.",
+      "body": [
+        "Before cutting prices or adding reminders, count the steps, waits and unknowns between wanting and doing. Remove what doesn't protect the customer.",
+        "**Try it today:** buy, book or reorder from your own business as a customer would. Write down every moment you had to wait, type, guess or ask."
+      ],
+      "next": "Next · Why most people never change the setting"
+    }
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "id": "FIN-03-10",
+  "unitId": "FIN-03",
+  "categoryId": "FIN",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Are these unit economics healthy?",
+  "readerTitle": "Three yes-or-no calls for a growing cleaning company",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.1,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (가정용 청소 회사 → 사무실 청소 B2B 계약) · 모든 수치는 설명용",
+  "insight": "고객이 건강한지는 매출이 아니라 세 가지 질문으로 판단한다: 한 건이 무엇을 남기는가, 그 고객을 얻는 비용보다 많이 남기는가, 얼마 만에 회수하는가.",
+  "misconception": "매출이 늘고 큰 계약이 들어오면 사업이 건강한 것이다. 마케팅 비용은 고객이 내는 총매출과 비교하면 된다.",
+  "relatedLessonIds": [
+    "FIN-03-04",
+    "FIN-03-05"
+  ],
+  "sources": [
+    {
+      "text": "관리회계·단위경제의 표준 개념 (공헌이익, 고객 획득 비용, 고객 생애 가치, 회수 기간)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "방문 1회: $120 − $60(인건비) − $15(소모품·이동) − $5(예약·카드 수수료) = $40. 월 2회 방문 → 고객당 월 $80. 월 매출 $120 × 2 = $240.",
+      "status": "open"
+    },
+    {
+      "note": "획득 비용: 리드당 $25, 5건 중 1건 예약 → $25 × 5 = $125. 고객 가치: $80 × 10개월 = $800, $800 ÷ $125 = 6.4배('six times'). 10개월 매출 $240 × 10 = $2,400. 회수 기간 $125 ÷ $80 = 1.56개월(약 한 달 반).",
+      "status": "open"
+    },
+    {
+      "note": "사무실 계약: $2,000 − $1,500 = 월 $500. 중개 수수료 $3,000 ÷ $500 = 6개월 회수. 12개월 계약 시 $500 × 12 = $6,000 − $3,000 = $3,000 순이익. 3개월 후 해지 시 $1,500 − $3,000 = −$1,500. 대금은 매월 제때 들어온다고 단순화했습니다(결제 조건에 따른 현금 시차는 FIN-02에서 다룸).",
+      "status": "open"
+    },
+    {
+      "note": "할인 고객: 첫 방문 반값으로 $60 포기 → 실질 획득 비용 $125 + $60 = $185. 평균 3개월 유지 × $80 = $240. $240 − $185 = $55만 남음.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Simulation",
+      "title": "Three yes-or-no calls for a growing cleaning company",
+      "illustrative": true,
+      "body": [
+        "Maya runs a home cleaning company. She has 60 regular customers, a full calendar, and revenue that rises every month.",
+        "This week brings two offers: a lead website that promises more bookings, and an office contract worth $2,000 a month. Before she says yes, she wants to know if her customers are actually worth having. You'll make her calls."
+      ],
+      "image": {
+        "label": "Cleaning business owner at a desk with two offers",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 청소 도구가 담긴 밴 옆에서 사업주가 두 장의 서류를 들고 고민하는 장면. 한 장에는 집 아이콘, 다른 한 장에는 사무실 빌딩 아이콘. 실제 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/fin-03-10-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 3",
+      "title": "Which number shows if a customer is worth having?",
+      "illustrative": true,
+      "body": [
+        "Each home visit costs the customer $120. Most customers book twice a month. Maya's spreadsheet has many numbers. Which one should she check first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Revenue per customer: $240 a month",
+            "verdict": "partial",
+            "feedback": "It shows how big each customer is, not what they leave behind. Wages could eat most of that $240."
+          },
+          {
+            "key": "B",
+            "text": "What each visit leaves after the costs that come with it",
+            "verdict": "best",
+            "feedback": "This is the money that actually pays rent and salaries. Every other check builds on it."
+          },
+          {
+            "key": "C",
+            "text": "How fast total revenue is growing",
+            "verdict": "risky",
+            "feedback": "Growth feels like health, but a business can grow quickly while losing money on every sale. Growth just makes the loss bigger."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "Say you chose B",
+      "title": "Follow one visit.",
+      "illustrative": true,
+      "breakdown": [
+        {
+          "value": "$120",
+          "label": "Price",
+          "detail": "What the customer pays",
+          "highlight": false
+        },
+        {
+          "value": "−$60",
+          "label": "Cleaner wages",
+          "detail": "Paid for each visit",
+          "highlight": false
+        },
+        {
+          "value": "−$15",
+          "label": "Supplies and travel",
+          "detail": "Products, fuel, parking",
+          "highlight": false
+        },
+        {
+          "value": "−$5",
+          "label": "Fees",
+          "detail": "Booking and card fees",
+          "highlight": false
+        },
+        {
+          "value": "$40",
+          "label": "Left per visit",
+          "detail": "Pays rent, phone, Maya's salary",
+          "highlight": true
+        }
+      ],
+      "callout": "Twice a month, that's **$80 per customer per month**. This is the *contribution margin*."
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 3",
+      "title": "Is $125 too much to win a customer?",
+      "illustrative": true,
+      "body": [
+        "The lead site charges $25 for each lead. About 1 in 5 leads books, so each new customer costs $125 to win.",
+        "Maya's customers stay about 10 months on average. Should she buy leads?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "No. $125 is more than a whole visit",
+            "verdict": "risky",
+            "feedback": "That compares the cost to one visit. A customer keeps booking for months, so Maya would pass up customers who earn back their cost quickly."
+          },
+          {
+            "key": "B",
+            "text": "Yes. Each customer leaves about $800, over six times the cost",
+            "verdict": "best",
+            "feedback": "Right comparison: the cost to win against what the customer leaves after visit costs, over their whole stay."
+          },
+          {
+            "key": "C",
+            "text": "Yes. Each customer brings $2,400 in revenue",
+            "verdict": "partial",
+            "feedback": "Right answer, wrong number. Most of that $2,400 goes to wages and supplies, so this math would let her overpay for leads."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "chart",
+      "eyebrow": "Say you chose B",
+      "title": "Compare the right two numbers.",
+      "illustrative": true,
+      "body": [
+        "Against revenue, almost any marketing looks cheap. Against what's left, Maya sees her real ceiling: about $800 per customer.",
+        "She also earns back the $125 fast: $125 ÷ $80 is about a month and a half."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "One home customer, 10 months",
+            "rows": [
+              {
+                "label": "Cost to win",
+                "value": 125,
+                "highlight": false
+              },
+              {
+                "label": "Left after visit costs",
+                "value": 800,
+                "highlight": true
+              },
+              {
+                "label": "Total revenue",
+                "value": 2400,
+                "highlight": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 3 · B2B",
+      "title": "The office contract",
+      "illustrative": true,
+      "body": [
+        "A property manager offers $2,000 a month to clean an office building. Wages and supplies come to $1,500, leaving $500 a month.",
+        "The broker who found the deal wants $3,000 at signing. The client can cancel with 30 days' notice after month three."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Sign. It's $24,000 a year in revenue",
+            "verdict": "risky",
+            "feedback": "The fee takes six months of $500 to earn back. If the client cancels after three months, Maya is $1,500 down."
+          },
+          {
+            "key": "B",
+            "text": "Sign only with a 12-month minimum, or pay the broker monthly",
+            "verdict": "best",
+            "feedback": "She keeps the deal and makes sure the client stays long enough to repay the fee. Some brokers will say no, and that's useful information too."
+          },
+          {
+            "key": "C",
+            "text": "Decline. Home customers pay back much faster",
+            "verdict": "partial",
+            "feedback": "True, and fast payback is safer. But on good terms this contract still adds $3,000, so walking away costs money too."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Say you chose B",
+      "title": "Six months before the contract earns a cent.",
+      "illustrative": true,
+      "body": [
+        "The client agrees to 12 months. **Payback period** is how long a customer takes to return what it cost to win them. Here: $3,000 ÷ $500 = 6 months.",
+        "Months 7 to 12 add $3,000. A home customer pays back in under two months. The bigger customer looks better on revenue but ties up cash longer, so the contract terms matter as much as the price."
+      ],
+      "image": {
+        "label": "Timeline: six months to repay the fee, six months of gain",
+        "aspectRatio": "16:9",
+        "brief": "12칸 가로 타임라인. 1~6개월 칸은 회색으로 \"Paying back $3,000\", 7~12개월 칸은 초록색으로 \"+$3,000\". 3개월 칸 위에 작은 경고 표시 \"Cancel here = −$1,500\".",
+        "url": "assets/images/fin-03-10-c7.jpg"
+      }
+    },
+    {
+      "index": 8,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Averages can hide a weak group.",
+      "illustrative": true,
+      "body": [
+        "Maya's \"10 months\" is an average. When she split customers by how they found her, those who came through a half-price first visit stayed about 3 months.",
+        "That discount gives up $60, so those customers really cost $185 to win. Three months leaves $240. Only $55 is left over. Check each channel on its own, and remember that healthy units still need to be numerous enough to cover rent and salaries."
+      ],
+      "softwareNote": "Subscription software runs the same three checks: what each subscriber leaves after hosting and support, cost to win against that over their stay, and months to payback. Free trials and launch discounts often bring users who churn early, so split the numbers by channel."
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Three questions tell you if a customer is healthy.",
+      "body": [
+        "Each of Maya's calls used one idea from this unit:"
+      ],
+      "list": [
+        "**Decision 1:** what a sale leaves behind, the *contribution margin*",
+        "**Decision 2:** the cost to win a customer against what that customer is worth",
+        "**Decision 3:** the *payback period*, and whether the customer stays long enough to reach it"
+      ],
+      "callout": "**Try it today:** pick your newest customer. Write down what they cost to win, what they leave each month, and how many months until you're even.",
+      "next": "Next · How much must you sell before you earn a cent?"
+    }
+  ]
+}

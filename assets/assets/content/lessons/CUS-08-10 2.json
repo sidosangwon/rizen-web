@@ -1,0 +1,250 @@
+{
+  "id": "CUS-08-10",
+  "unitId": "CUS-08",
+  "categoryId": "CUS",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "A complaint about you goes viral",
+  "readerTitle": "Your company is trending, and not in a good way",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.2,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 시뮬레이션 (가정 수리 서비스 회사의 고객지원팀) + 서비스 회복 역설 관련 실제 연구 언급",
+  "insight": "바이럴 불만은 평판 문제가 아니라 고객 여정의 한 단계가 고장 났다는 신호다. 공개 대응보다 그 단계를 고치는 것이 진짜 해결이다.",
+  "misconception": "바이럴 불만은 홍보 위기이니 사실관계를 먼저 따지고, 게시물을 내리게 하거나 책임자를 징계하면 끝난다.",
+  "relatedLessonIds": [
+    "CUS-08-02",
+    "CUS-06-05"
+  ],
+  "sources": [
+    {
+      "text": "de Matos, C. A., Henrique, J. L., & Rossi, C. A. V. (2007). Service Recovery Paradox: A Meta-Analysis. Journal of Service Research.",
+      "url": null
+    },
+    {
+      "text": "McCollough, M. A., Berry, L. L., & Yadav, M. S. (2000). An Empirical Investigation of Customer Satisfaction After Service Failure and Recovery. Journal of Service Research.",
+      "url": null
+    },
+    {
+      "text": "시나리오의 회사, 고객, 수치는 모두 설명용 가상 사례",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "7번 카드의 연구 요약(메타분석에서 회복 후 만족도는 오를 수 있으나 재구매 의도·충성도에서는 효과가 약하거나 나타나지 않음)을 de Matos et al.(2007) 원문으로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "\"첫 번째의 비교적 가벼운 실패를 아주 잘 회복했을 때 주로 나타난다\"는 조건 요약이 McCollough et al.(2000) 등 선행 연구와 일치하는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "시나리오 수치(기술자 약 40명, 지난 한 달 미청취 메시지 20여 건, 바닥 건조 비용 수백 달러)는 모두 가상입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Simulation",
+      "title": "Your company is trending, and not in a good way",
+      "illustrative": true,
+      "body": [
+        "Saturday, 9:40 p.m. You lead the customer care team at a home repair company with about 40 technicians.",
+        "A customer has posted a video in a big local community group: water across her kitchen floor, one day after your plumber fixed a leak. *\"Called them three times. Nobody called back.\"*",
+        "By Sunday morning it has hundreds of comments and is spreading well beyond the group."
+      ],
+      "image": {
+        "label": "Phone screen showing a flooded kitchen post with many comments",
+        "aspectRatio": "4:3",
+        "brief": "어두운 거실에서 빛나는 스마트폰 화면. 물이 고인 부엌 사진이 올라간 게시물 아래로 댓글과 공유 아이콘 숫자가 계속 늘어나는 느낌. 실제 SNS 로고나 UI는 쓰지 말고 가상의 커뮤니티 앱으로.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 4",
+      "title": "What do you do first?",
+      "illustrative": true,
+      "body": [
+        "It's Sunday morning. You don't know the full story yet, and the technician is off until Monday."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Reply publicly now: apologize that she was left waiting, say you're calling her today, then call",
+            "verdict": "best",
+            "feedback": "You give up checking every fact first, but everyone watching sees someone is listening. The part that matters most, that nobody called back, is already true."
+          },
+          {
+            "key": "B",
+            "text": "Message her privately to sort it out, without replying in public",
+            "verdict": "partial",
+            "feedback": "Fixing it one-to-one is right. But under a growing post, the public still sees only silence."
+          },
+          {
+            "key": "C",
+            "text": "Wait until you've spoken to the technician on Monday",
+            "verdict": "risky",
+            "feedback": "You avoid saying something wrong, but a day of silence lets the post tell the story. It looks exactly like the non-response she complained about."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 4",
+      "title": "Say you replied and called. What do you offer?",
+      "illustrative": true,
+      "body": [
+        "On the phone she's calmer than her post. A fitting under the sink failed overnight. Her three calls went to a weekend voicemail box nobody checks. A floor-drying service quoted her a few hundred dollars."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Send the on-call plumber today, waive the bill and pay for the drying",
+            "verdict": "best",
+            "feedback": "It costs more than a warranty fix. It also solves her whole problem today, which is what she expected the first time."
+          },
+          {
+            "key": "B",
+            "text": "Book a free warranty repair for the first open slot, on Wednesday",
+            "verdict": "risky",
+            "feedback": "Fair by the policy, but it repeats the original failure: she waits again, with a wet floor."
+          },
+          {
+            "key": "C",
+            "text": "Offer a large voucher for future work",
+            "verdict": "partial",
+            "feedback": "Generous, but it asks her to trust you with more work before this problem is fixed."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 4",
+      "title": "The floor is dry. The post is still up.",
+      "illustrative": true,
+      "body": [
+        "The repair is done Sunday evening. She thanks you and says she'll update her post. Your marketing manager has ideas too."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "With her okay, post a short follow-up: what went wrong, what you fixed, what you'll change",
+            "verdict": "best",
+            "feedback": "Owning it in public invites a few more critics. It also turns the thread into proof of how you act when things go wrong."
+          },
+          {
+            "key": "B",
+            "text": "Ask her to delete the post now that it's resolved",
+            "verdict": "risky",
+            "feedback": "If she shares that request, it becomes the new story. And people who saw the complaint never see the fix."
+          },
+          {
+            "key": "C",
+            "text": "Let her update speak for itself and say nothing more",
+            "verdict": "partial",
+            "feedback": "Her words carry more weight than yours. But readers are still waiting to hear what you'll change."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 4 of 4",
+      "title": "Monday morning. What do you fix?",
+      "illustrative": true,
+      "body": [
+        "Your operations director wants the technician disciplined. Failed fittings are rare. The voicemail box is not: you find about two dozen unheard weekend messages from the past month."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Discipline the technician so everyone sees it was taken seriously",
+            "verdict": "risky",
+            "feedback": "It looks decisive but changes nothing. Next weekend, a caller still reaches a box nobody checks."
+          },
+          {
+            "key": "B",
+            "text": "Route after-hours calls to the on-call plumber and track every callback until it's closed",
+            "verdict": "best",
+            "feedback": "It costs on-call time and a new routine. It fixes the step that turned a normal repair problem into a public one."
+          },
+          {
+            "key": "C",
+            "text": "Remind all technicians to double-check fittings",
+            "verdict": "partial",
+            "feedback": "Sensible, but it targets the rare failure, not the common one."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "In software, the weekend voicemail box is often a support form that auto-replies, then sits in a queue nobody owns, or a ticket closed automatically after a few days."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "What the post was really about",
+      "title": "The leak wasn't the story. The silence was.",
+      "body": [
+        "Repairs fail sometimes, and customers often accept that. What made her angry was three unanswered calls when she needed you most.",
+        "That callback was a **moment of truth**: a point in the journey where the customer decides whether you can be trusted. The post simply showed thousands of people a broken step in your journey."
+      ],
+      "image": {
+        "label": "Customer journey line with one broken step highlighted",
+        "aspectRatio": "16:9",
+        "brief": "고객 여정 타임라인 인포그래픽. \"Booking\", \"Repair\", \"Problem returns\", \"Calls for help\", \"Callback\" 순서. \"Callback\" 단계만 끊어진 선과 빨간색으로 강조하고, 그 위에 작은 확성기 아이콘.",
+        "url": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A great recovery isn't a free pass.",
+      "body": [
+        "The **service recovery paradox** is the idea that a well-handled failure can leave customers happier than no failure at all. Research is mixed. A meta-analysis found satisfaction can rise after a strong recovery, but loyalty and repurchase intentions often don't.",
+        "It tends to work only for a first, fairly minor failure. If the same thing happens twice, it stops working.",
+        "And some viral posts are unfair. If facts are wrong, correct them once, calmly, without attacking the customer."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A viral complaint is a broken step, told in public.",
+      "body": [
+        "Each decision used an idea from this unit:"
+      ],
+      "list": [
+        "**Reply fast:** moments of truth. People judge you by what you do when it counts.",
+        "**Fix it fully:** expectations vs experience. Deliver what she expected the first time.",
+        "**Close the loop in public:** service as marketing. The fix is an ad, too.",
+        "**Fix the callback step:** the customer journey and consistency. Repair the process, not the person."
+      ],
+      "callout": "**Try it today:** call your own after-hours line or send your support form tonight. See how long the answer takes.",
+      "next": "Next · The person who uses it isn't always the one who pays"
+    }
+  ]
+}

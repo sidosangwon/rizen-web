@@ -1,0 +1,252 @@
+{
+  "id": "ECO-06-05",
+  "unitId": "ECO-06",
+  "categoryId": "ECO",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Penetration pricing",
+  "readerTitle": "Why Henry Ford kept cutting the price of a car that was already selling",
+  "format": "company_story",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Ford Model T, GM) + 가상 적용 (클리닉 예약 소프트웨어)",
+  "insight": "침투 가격은 싼 가격 자체가 아니라, 판매량이 늘수록 원가가 내려가거나 고객이 머무는 구조에 거는 투자다.",
+  "misconception": "가격을 낮게 시작하면 시장을 차지할 수 있고, 나중에 언제든 올리면 된다.",
+  "relatedLessonIds": [
+    "ECO-06-06",
+    "ECO-02-03"
+  ],
+  "sources": [
+    {
+      "text": "The Henry Ford (museum), Model T history: launch price, moving assembly line (1913), production totals",
+      "url": null
+    },
+    {
+      "text": "Dodge v. Ford Motor Co., 204 Mich. 459 (1919)",
+      "url": null
+    },
+    {
+      "text": "Ford Motor Company corporate history: end of Model T production (1927)",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Model T 출시 가격은 모델(투어링카 등)에 따라 $825~$850으로 자료마다 다릅니다. 카드에는 \"about $850\"로 적었습니다. 1920년대 중반 런어바웃 가격 $260 전후, 카드에는 \"under $300\"로 적었습니다. 게시 전 The Henry Ford 자료로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Model T 총 생산량 약 1,500만 대(1908~1927). 카드에는 \"more than 15 million\"으로 적었습니다. 정확한 수치(약 1,500만 대)를 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Dodge v. Ford: Dodge 형제가 1916년 소송 제기, 1919년 미시간 대법원이 특별 배당 지급을 명령. Ford가 가격 인하와 재투자를 우선하려 했다는 점은 판결문에 나옵니다. 직접 인용은 쓰지 않고 요약만 했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "1920년대 중반 GM이 다양한 모델·색상·연식 변경으로 점유율을 높였고 Ford가 1927년 Model T 생산을 끝냈다는 내용을 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "클리닉 소프트웨어 수치는 설명용 가상 수치입니다. $25 − $8 = 클리닉당 월 $17 남음, $7 − $8 = 클리닉당 월 $1 손실.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Pricing · Company story",
+      "title": "Why Henry Ford kept cutting the price of a car that was already selling",
+      "body": [
+        "The Ford Model T went on sale in 1908 for about $850. Buyers lined up.",
+        "Ford didn't raise the price. Over the next 15 years he cut it again and again, to under $300. Some of his own shareholders took him to court over it."
+      ],
+      "image": {
+        "label": "A price tag on an early car, crossed out and lowered several times",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 1900년대 초 검은색 자동차 옆에 큰 가격표. \"$850\"이 줄로 지워지고 아래로 점점 작은 숫자가 이어지다 \"$290\"에서 멈춤. 실제 자동차 브랜드 로고나 엠블럼은 쓰지 않음.",
+        "url": "assets/images/eco-06-05-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "A product most people can't afford yet.",
+      "illustrative": true,
+      "body": [
+        "Imagine it's 1909. You make a new product that most families have never owned. At $850, only well-off buyers can afford it, and they're buying.",
+        "Your factory could make far more. What price plan do you choose?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep $850 and enjoy the strong margins",
+            "verdict": "partial",
+            "feedback": "You earn a lot per sale and stay safe. But the market stays small, and so does your factory's output."
+          },
+          {
+            "key": "B",
+            "text": "Keep cutting the price, even a bit ahead of your costs, to reach ordinary families",
+            "verdict": "best",
+            "feedback": "You give up margin now to win far more buyers. If more volume lowers your cost per unit, each cut pays for the next one."
+          },
+          {
+            "key": "C",
+            "text": "Drop straight to what one unit costs to make",
+            "verdict": "risky",
+            "feedback": "You'd win buyers fast but leave nothing to fund new machines, wages or mistakes. A low price needs room to breathe."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What happened",
+      "title": "Ford chose volume.",
+      "body": [
+        "Ford priced for the many, not the few. Low prices brought huge demand. Huge demand justified a new way of building cars, which made each one cheaper."
+      ],
+      "breakdown": [
+        {
+          "value": "~$850",
+          "label": "1908",
+          "detail": "Model T launch price",
+          "highlight": false
+        },
+        {
+          "value": "1913",
+          "label": "Assembly line",
+          "detail": "Moving line cuts build time",
+          "highlight": false
+        },
+        {
+          "value": "<$300",
+          "label": "Mid-1920s",
+          "detail": "Price after repeated cuts",
+          "highlight": true
+        },
+        {
+          "value": "15M+",
+          "label": "Total built",
+          "detail": "By the end in 1927",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Penetration pricing",
+      "body": [
+        "**Penetration pricing** means launching at a low price on purpose to win many customers fast, then earning your profit from volume or from customers who stay.",
+        "It was a deliberate choice for Ford. When shareholders John and Horace Dodge sued in 1916, part of the fight was Ford's plan to keep cutting prices and reinvest instead of paying big special dividends. In 1919 the court sided with the Dodges on the dividends."
+      ],
+      "image": {
+        "label": "Low price arrow pushing into a large crowd of buyers",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 왼쪽에 작은 가격표, 오른쪽에 넓게 퍼진 고객 군중. 가격표에서 화살표가 군중 속으로 깊게 파고드는 모습. 상표나 로고 없음.",
+        "url": "assets/images/eco-06-05-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "The low price has to start a loop.",
+      "body": [
+        "A low price only makes sense if winning lots of customers changes your economics."
+      ],
+      "list": [
+        "**Low price** brings many more buyers",
+        "**More buyers** mean bigger volume",
+        "**Bigger volume** spreads the factory's cost over more units",
+        "**Lower cost per unit** makes the next price cut affordable"
+      ],
+      "callout": "Without the loop, a low price is just a smaller margin."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where it fits",
+      "title": "Look for businesses where size pays you back.",
+      "illustrative": true,
+      "body": [
+        "A parcel delivery firm entering a new city might price low to fill its vans. A van that drops 120 parcels on a route costs little more to run than one that drops 40, so volume lowers the cost per parcel.",
+        "Software works the same way, often more strongly. Serving one more customer costs little, and once a team has moved its data and habits into a tool, it rarely switches. There, the loop is **staying**, not just scale."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Low prices win customers, not loyalty.",
+      "body": [
+        "By the mid-1920s, General Motors was winning buyers with more models, colors and yearly updates. Cheap was no longer enough. Ford ended the Model T in 1927.",
+        "Penetration pricing has other costs too. Rivals can match your price. Buyers you won on price may leave for the next cheaper offer. And the low price becomes what everyone expects, so raising it later can feel unfair."
+      ],
+      "image": {
+        "label": "One plain black car facing a row of colorful cars",
+        "aspectRatio": "16:9",
+        "brief": "3D 클레이 스타일. 검은색 단순한 차 한 대가 여러 색과 모양의 차들과 마주 보고 있음. 고객 캐릭터들이 색색의 차 쪽으로 이동. 실제 브랜드 로고 없음.",
+        "url": "assets/images/eco-06-05-c7.jpg"
+      }
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's booking software for clinics.",
+      "illustrative": true,
+      "body": [
+        "You're launching scheduling software for small clinics. Established rivals charge $59 a month. Servers and support cost you about $8 per clinic each month.",
+        "Once a clinic loads its patients and staff calendars, it rarely switches. Which launch plan fits penetration pricing best?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Match rivals at $59 a month",
+            "verdict": "partial",
+            "feedback": "Safe margins, but a new name at the same price gives clinics little reason to go through the pain of switching."
+          },
+          {
+            "key": "B",
+            "text": "$25 a month, clearly labeled as a first-year launch price, then $45",
+            "verdict": "best",
+            "feedback": "Each clinic still leaves $17 a month, and setup makes them likely to stay. Saying upfront that the price will rise makes the later increase feel fair."
+          },
+          {
+            "key": "C",
+            "text": "$7 a month for everyone, to grab the market fast",
+            "verdict": "risky",
+            "feedback": "Every clinic you sign loses you about $1 a month. You'd grow faster and lose more, and attract buyers who leave for the next cheaper tool."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Price low only if winning big makes you stronger.",
+      "body": [
+        "Penetration pricing pays when more customers lower your costs or keep coming back. Without that, it's just a smaller margin.",
+        "**Try it today:** pick one product. Write down what happens to your cost per unit if sales doubled, and how likely a new customer is to stay a year."
+      ],
+      "next": "Next · Why some products launch at their highest price"
+    }
+  ]
+}

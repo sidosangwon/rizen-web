@@ -1,0 +1,253 @@
+{
+  "id": "CUS-10-05",
+  "unitId": "CUS-10",
+  "categoryId": "CUS",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "No single effect explains sales",
+  "readerTitle": "Did the 'only 3 slots left' line really work?",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (유리창 청소 업체, 기장 대행 회사) + 실제 연구 (Lewis & Rao 2015, 광고 효과 측정의 어려움)",
+  "insight": "매출이 움직였을 때 '무엇이 효과를 냈나'보다 '그때 무엇이 함께 바뀌었나'를 먼저 묻는다.",
+  "misconception": "매출이 오른 달에 바꾼 심리 기법 하나가 그 상승을 만든 원인이다.",
+  "relatedLessonIds": [
+    "CUS-10-03",
+    "CUS-10-06"
+  ],
+  "sources": [
+    {
+      "text": "Lewis, R. A., & Rao, J. M. (2015). The Unfavorable Economics of Measuring the Returns to Advertising. Quarterly Journal of Economics, 130(4), 1941–1973.",
+      "url": null
+    },
+    {
+      "text": "교란 변수(confounder)와 다중 원인: 통계·연구방법론의 표준 개념",
+      "url": null
+    },
+    {
+      "text": "유리창 청소 업체와 기장 대행 회사의 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "가상 수치 계산: 올해 2월 55건 → 3월 77건 = +40% (22 ÷ 55). 작년 2월 50건 → 3월 72건 = +44% (22 ÷ 50). 카드 1~3의 숫자가 서로 맞는지 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Lewis & Rao(2015): 미국 대형 소매·금융 회사의 대규모 온라인 광고 실험 다수를 분석했고, 개인 매출의 변동이 광고 효과보다 훨씬 커서 매우 큰 실험으로도 수익성을 신뢰성 있게 측정하기 어렵다는 결론입니다. 실험 수(약 25개)와 표본 규모는 카드에 구체 숫자로 쓰지 않았습니다. 게시 전 원문으로 요지를 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "기장 대행 사례의 '연말에 도움을 찾는 고객이 많다'는 일반적 설명으로만 썼습니다. 특정 국가의 세무 일정이나 통계는 넣지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Counterexample",
+      "title": "Did the 'only 3 slots left' line really work?",
+      "illustrative": true,
+      "body": [
+        "A small window-cleaning company adds one line to its booking page: *Only 3 slots left this week.*",
+        "The next month, bookings are up 40%. The owner tells every business friend she has: scarcity works. Put it on everything.",
+        "She may be right. But the number she is looking at can't tell her that yet."
+      ],
+      "image": {
+        "label": "Booking page with a small 'only 3 slots left' banner",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 휴대폰 화면 속 청소 예약 페이지에 작은 빨간 배너 \"Only 3 slots left this week\". 화면 옆에 위로 솟은 막대그래프와 자랑스러워하는 사장님 캐릭터. 실제 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Bookings jumped. What do you conclude?",
+      "illustrative": true,
+      "body": [
+        "You're the owner. Bookings went from 55 in February to 77 in March, the month the scarcity line went up.",
+        "What's your next move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Scarcity works. Add the line to every service and every ad",
+            "verdict": "risky",
+            "feedback": "Fast and confident. But if something else drove March, you'll spread a tactic that may do little, and you'll stop looking for the real cause."
+          },
+          {
+            "key": "B",
+            "text": "First list everything else that changed in March",
+            "verdict": "best",
+            "feedback": "It costs an hour and protects you from crediting the wrong thing. The next card shows what that list turns up."
+          },
+          {
+            "key": "C",
+            "text": "Remove the line in April and see if bookings drop",
+            "verdict": "partial",
+            "feedback": "Testing is the right instinct. But April has its own weather, season and word of mouth, so one month on and one month off still mixes causes."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "What else happened",
+      "title": "Last spring did the same thing.",
+      "illustrative": true,
+      "body": [
+        "Last year, with no scarcity line, bookings went from 50 in February to 72 in March. That's a 44% jump.",
+        "March is when people notice dirty windows. That same month, a happy customer posted in a neighborhood group, and a rival raised prices."
+      ],
+      "chart": {
+        "unit": "count",
+        "groups": [
+          {
+            "label": "February",
+            "rows": [
+              {
+                "label": "Last year",
+                "value": 50,
+                "highlight": false
+              },
+              {
+                "label": "This year",
+                "value": 55,
+                "highlight": false
+              }
+            ]
+          },
+          {
+            "label": "March",
+            "rows": [
+              {
+                "label": "Last year",
+                "value": 72,
+                "highlight": false
+              },
+              {
+                "label": "This year",
+                "value": 77,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Many causes, one number",
+      "body": [
+        "Sales are the sum of **many causes acting at once**: season, need, price, trust, reviews, how fast you reply, what rivals do. When a tactic changes at the same time as other things, the sales number can't tell you which one did the work.",
+        "The hidden extra causes are called **confounders**. The scarcity line may have helped a little, a lot or not at all. March alone can't say."
+      ],
+      "softwareNote": "A product launch, a pricing page change and a newsletter mention often land in the same week, and dashboards hand the credit to whichever one touched the user last. A/B tests help because both versions run at the same time, so season and press hit both equally."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "Even huge experiments struggle to hear the signal.",
+      "body": [
+        "Economists Randall Lewis and Justin Rao studied large online ad experiments run by big US companies. Their finding: what each person buys swings so much from week to week that even experiments with very large audiences often couldn't reliably tell whether a campaign paid off.",
+        "The effect of any single push is quiet. The everyday noise in sales is loud.",
+        "If careful tests with huge samples struggle, one good month at a small business is a whisper."
+      ],
+      "image": {
+        "label": "A small signal wave buried inside a large noisy wave",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 크게 출렁이는 회색 파도(\"Normal ups and downs\") 안에 작은 주황색 물결(\"Effect of one tactic\")이 겨우 보임. 돋보기로 작은 물결을 찾는 손. 간결한 플랫 스타일.",
+        "url": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where it applies",
+      "title": "Nudges sit on top of bigger drivers.",
+      "body": [
+        "Most customers decide on a few big things first:"
+      ],
+      "list": [
+        "**Need:** do they need it now?",
+        "**Price:** is it fair next to the alternatives?",
+        "**Trust:** do they believe you'll do a good job?",
+        "**Ease:** can they book or buy without hassle?"
+      ],
+      "callout": "Scarcity, social proof and clever framing can tip a close decision. They rarely create demand that isn't there. And the same goes for bad months: one slow month is rarely one mistake."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Don't swing to \"nothing can be known.\"",
+      "body": [
+        "Many causes doesn't mean no causes. A few cheap habits get you most of the way: compare with the same period last year, change one thing at a time, and run old and new side by side, by alternating weeks or customers.",
+        "Keep a simple log of what changed and when. It turns guessing into checking.",
+        "Match the effort to the stakes. A free, reversible tweak doesn't need proof. Rebuilding your whole sales process does."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a bookkeeping firm.",
+      "illustrative": true,
+      "body": [
+        "Your firm does bookkeeping for small businesses. In October you redesigned proposals to offer three packages instead of one quote. You won 5 of the next 6 deals.",
+        "Many owners look for help before year-end. A partner wants to rewrite the whole sales script around the new proposal. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Roll it out everywhere. Five of six is a clear win",
+            "verdict": "risky",
+            "feedback": "You move fast, but six deals in your busiest season can't separate the proposal from timing, referrals or deal size. A big rewrite rests on a small, mixed signal."
+          },
+          {
+            "key": "B",
+            "text": "Keep using it, but alternate old and new proposals for similar deals and compare in a few months",
+            "verdict": "best",
+            "feedback": "You keep a promising idea working while the season, referrals and deal size hit both versions alike. It's slower, but the rewrite will rest on evidence."
+          },
+          {
+            "key": "C",
+            "text": "Ignore it. Six deals mean nothing",
+            "verdict": "partial",
+            "feedback": "Healthy doubt, but you throw away a possibly useful idea. Small samples call for a fair test, not a shrug."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "When sales move, ask what else moved.",
+      "body": [
+        "Sales have many causes at once. A tactic only earns credit after you rule out the season, the price, the word of mouth and the rivals that changed alongside it.",
+        "**Try it today:** pick the last change you credited for a good month. Write down three other things that changed in that same month."
+      ],
+      "next": "Next · When famous findings don't replicate"
+    }
+  ]
+}

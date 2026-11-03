@@ -1,0 +1,237 @@
+{
+  "id": "FIN-08-01",
+  "unitId": "FIN-08",
+  "categoryId": "FIN",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Risk and return",
+  "readerTitle": "Same deal, two shops: why the bigger payoff isn't always the better bet",
+  "format": "two_businesses",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "illustrative",
+    "real_observation"
+  ],
+  "caseNote": "가상 사례 (주방용품 유통업체 두 곳, 운송 회사) + 일반적으로 관찰되는 현상 (위험한 대출자의 높은 금리, 주식과 국채의 장기 수익률 차이). 모든 수치는 설명용",
+  "insight": "수익은 위험을 떠안은 대가다. 그래서 거래는 평균 수익이 아니라 '가장 나쁜 경우를 버틸 수 있는가'로 판단한다.",
+  "misconception": "평균적으로 더 많이 버는 쪽이 항상 더 좋은 선택이다. 위험을 더 지면 수익도 반드시 더 커진다.",
+  "relatedLessonIds": [
+    "FIN-08-02",
+    "FIN-08-04"
+  ],
+  "sources": [
+    {
+      "text": "재무관리의 표준 개념 (위험과 기대수익의 관계, 위험 프리미엄)",
+      "url": null
+    },
+    {
+      "text": "모든 거래 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "유통 거래 계산: 거래 B 좋은 시즌 $100,000 − $60,000 = +$40,000, 나쁜 시즌 $50,000 − $60,000 = −$10,000. 확률 50:50 가정 시 기대값 0.5×40,000 + 0.5×(−10,000) = $15,000. 거래 A는 고정 $12,000.",
+      "status": "open"
+    },
+    {
+      "note": "운송 계산: 비용 마일당 $1.90. 고정 $2.00 → +$0.10, 변동 평균 $2.30 → +$0.40, 최저 $1.70 → −$0.20. 운임 범위는 실제 시장 데이터가 아닌 가상 수치입니다.",
+      "status": "open"
+    },
+    {
+      "note": "'장기적으로 주식이 국채보다 수익률이 높았지만 변동도 컸다'는 일반적으로 받아들여지는 관찰입니다. 특정 수치나 기간은 일부러 쓰지 않았습니다. 게시 전 표현이 과하지 않은지 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Two businesses",
+      "title": "Same deal, two shops: why the bigger payoff isn't always the better bet",
+      "illustrative": true,
+      "body": [
+        "Two kitchenware distributors get the same offer from the same supplier. Same products, same prices, same odds.",
+        "One should say yes. The other should say no. Neither is making a mistake."
+      ],
+      "image": {
+        "label": "Two identical warehouses facing the same offer",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 거의 똑같은 두 창고가 나란히 서 있고, 가운데에 같은 계약서 한 장이 떠 있음. 왼쪽 창고 옆에는 큰 금고, 오른쪽 창고 옆에는 작은 돼지저금통. 실제 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/fin-08-01-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "A sure $12,000 or a likely $15,000?",
+      "illustrative": true,
+      "body": [
+        "You distribute kitchenware. A supplier offers two deals for the holiday season.",
+        "**Deal A:** store and ship their stock for a flat fee of $12,000. **Deal B:** buy the stock outright for $60,000 and sell it yourself. A good season brings in $100,000. A bad one, and you clear it for $50,000. The odds look about even."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Deal A. A known $12,000 beats a gamble",
+            "verdict": "neutral",
+            "feedback": "You lock in your result and never lose sleep. The cost is the extra money a good season would have paid."
+          },
+          {
+            "key": "B",
+            "text": "Deal B. It pays more on average",
+            "verdict": "neutral",
+            "feedback": "On average it does: $15,000 versus $12,000. But no business lives the average. You live one season, good or bad."
+          },
+          {
+            "key": "C",
+            "text": "I'd need to know how much cash I have first",
+            "verdict": "neutral",
+            "feedback": "That's the question this lesson builds on. The deal is the same; what you can survive is not."
+          }
+        ],
+        "afterReveal": "Deal B earns more on average, but whether it's the better deal depends on whether you can absorb a $10,000 loss."
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Deal B's outcomes spread out.",
+      "illustrative": true,
+      "body": [
+        "Deal A gives one result. Deal B gives a range. Its average is higher, but so is the gap between best and worst: **$50,000**."
+      ],
+      "breakdown": [
+        {
+          "value": "$12,000",
+          "label": "Deal A, any season",
+          "detail": "Flat fee, no stock to sell",
+          "highlight": false
+        },
+        {
+          "value": "+$40,000",
+          "label": "Deal B, good season",
+          "detail": "$100,000 sales − $60,000 stock",
+          "highlight": false
+        },
+        {
+          "value": "−$10,000",
+          "label": "Deal B, bad season",
+          "detail": "$50,000 clearance − $60,000 stock",
+          "highlight": true
+        },
+        {
+          "value": "$15,000",
+          "label": "Deal B, average",
+          "detail": "Half of +$40,000 and half of −$10,000",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Risk and return",
+      "body": [
+        "**Return** is what you expect to earn. **Risk** is how far the real result can land from that expectation, especially on the downside.",
+        "The two usually travel together. A deal with a high return and no risk wouldn't last: everyone would rush in until the extra return disappeared. So higher expected returns tend to come with wider swings."
+      ],
+      "image": {
+        "label": "A narrow band of outcomes next to a wide one",
+        "aspectRatio": "16:9",
+        "brief": "두 개의 가로 띠 비교. 위쪽 'Deal A'는 $12,000 한 점에 좁게 모인 띠, 아래쪽 'Deal B'는 −$10,000부터 +$40,000까지 넓게 퍼진 띠이고 평균 $15,000 위치에 작은 표시. 음수 구간은 붉은색.",
+        "url": "assets/images/fin-08-01-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Return is payment for carrying risk.",
+      "body": [
+        "In Deal A, the supplier keeps the risk of unsold stock. So the supplier keeps most of the upside, and you get a smaller, safer fee. In Deal B, the risk moves to you, and so does the upside.",
+        "You see the same pattern everywhere. Lenders charge riskier borrowers higher interest. Over long periods, shares have generally earned more than government bonds, with much bigger swings along the way. **Whoever carries the risk expects to be paid for it.**"
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Two businesses",
+      "title": "Same deal, different answers.",
+      "illustrative": true,
+      "body": [
+        "Distributor one has $200,000 in the bank. A $10,000 loss is a bad month. Over many seasons, Deal B's higher average should win, so taking it makes sense.",
+        "Distributor two has $15,000 and payroll due in January. A bad season would leave it unable to pay staff. For this business, Deal B's average is irrelevant. **The question is not \"what do I earn on average?\" but \"can I survive the bad case?\"**"
+      ],
+      "image": {
+        "label": "A $10,000 loss shown as small for one firm, huge for the other",
+        "aspectRatio": "16:9",
+        "brief": "같은 크기의 빨간 블록 '−$10,000'이 왼쪽에서는 큰 현금 더미 옆에 작게, 오른쪽에서는 작은 현금 더미를 거의 다 덮는 모습. 실제 로고 없음.",
+        "url": "assets/images/fin-08-01-c6.jpg"
+      },
+      "softwareNote": "A software founder faces the same trade: a fixed-fee custom project pays a known amount, while building a product for many users could pay far more or nothing. The deciding question is how many months the company can last if the product earns nothing."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "More risk doesn't promise more return.",
+      "body": [
+        "Risk and return travel together in markets where people compete for good deals. That doesn't mean every risky bet pays well. Plenty of risky options have a *lower* average than the safe one. Those are just bad bets.",
+        "So check both sides. First, is the extra return real, or are you guessing the odds too kindly? Second, can you live with the worst realistic outcome?"
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a trucking company.",
+      "illustrative": true,
+      "body": [
+        "Running your trucks costs about $1.90 a mile. A big shipper offers you a year of work, paid one of two ways: a fixed $2.00 a mile, or the market rate, which has averaged $2.30 but has dropped as low as $1.70.",
+        "You have about two months of cash in reserve. What do you choose?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Fixed $2.00. Thin, but guaranteed",
+            "verdict": "best",
+            "feedback": "You give up the higher average to stay alive through a bad stretch. With two months of cash, that's the trade worth making."
+          },
+          {
+            "key": "B",
+            "text": "Market rate. It earns four times as much per mile on average",
+            "verdict": "risky",
+            "feedback": "True on average: $0.40 versus $0.10 a mile. But at $1.70 you lose $0.20 on every mile, and a few slow months could empty your reserve."
+          },
+          {
+            "key": "C",
+            "text": "Market rate now, and switch to fixed if prices fall",
+            "verdict": "partial",
+            "feedback": "Flexible in theory. But fixed rates usually drop when the market does, so the safe option may cost more by the time you need it."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Higher returns are payment for risk. Only take the risk you can survive.",
+      "body": [
+        "Compare deals by their range of outcomes, not just their average. Then ask who carries the risk, and whether you'd still be standing in the bad case.",
+        "**Try it today:** pick one decision on your desk. Write down its best case, its worst case, and how many months of cash you'd have left after the worst."
+      ],
+      "next": "Next · Why ten small bets can be safer than one big one"
+    }
+  ]
+}

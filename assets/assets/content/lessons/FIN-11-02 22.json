@@ -1,0 +1,242 @@
+{
+  "id": "FIN-11-02",
+  "unitId": "FIN-11",
+  "categoryId": "FIN",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "When revenue counts",
+  "readerTitle": "You signed a $40,000 job. How much did you earn?",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.4,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (주택 리모델링 업체, B2B 마케팅 에이전시) · 모든 수치는 설명용",
+  "insight": "매출은 계약서에 서명할 때나 돈이 들어올 때가 아니라, 약속한 일을 해냈을 때 생긴다. 그래서 '언제 무엇을 넘겨줬는가'로 매출을 센다.",
+  "misconception": "계약을 따내거나 돈을 받으면 그만큼 매출이 생긴 것이다.",
+  "relatedLessonIds": [
+    "FIN-11-01",
+    "FIN-11-04"
+  ],
+  "sources": [
+    {
+      "text": "IFRS 15 Revenue from Contracts with Customers (IASB)",
+      "url": null
+    },
+    {
+      "text": "ASC 606 Revenue from Contracts with Customers (FASB)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "리모델링 계산: 1월 30% × $40,000 = $12,000, 2월 45% = $18,000, 3월 25% = $10,000. 합계 $40,000. 12월 매출 $0(작업 미착수), 선금 $10,000은 아직 번 돈이 아님.",
+      "status": "open"
+    },
+    {
+      "note": "에이전시 계산: 웹사이트 구축 $90,000(4~6월 완료) + 12개월 지원 $30,000(7월 시작, 월 $2,500). 6월 말까지 인식 매출 $90,000, 남은 $30,000은 7월부터 매달 $2,500씩.",
+      "status": "open"
+    },
+    {
+      "note": "IFRS 15와 ASC 606이 '고객에게 약속한 재화·용역을 이전할 때 매출 인식', '여러 약속이 묶인 계약은 나눠서 인식', '기간에 걸친 인식 vs 한 시점 인식'이라는 원칙을 담고 있다는 서술을 게시 전 원문으로 확인하세요. 카드에는 기준 이름을 쓰지 않고 원리만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "세무상 매출 인식 시점은 나라와 사업 규모에 따라 회계와 다를 수 있습니다. 7번 카드에서 일반적으로만 언급하고 구체적 조언은 하지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Numbers twist",
+      "title": "You signed a $40,000 job. How much did you earn?",
+      "illustrative": true,
+      "body": [
+        "On December 20, a renovation contractor signs a $40,000 kitchen remodel. The customer pays a $10,000 deposit the same day.",
+        "The owner closes the year feeling great. But on paper, December's revenue from this job may be a surprise."
+      ],
+      "image": {
+        "label": "A signed contract next to an untouched kitchen",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 왼쪽에 서명된 계약서와 \"$40,000\" 숫자, 오른쪽에 아직 손대지 않은 낡은 주방. 벽 달력은 12월. 실제 브랜드 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/fin-11-02-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How much revenue belongs to December?",
+      "illustrative": true,
+      "body": [
+        "The contract is signed and $10,000 is in the bank. Work starts in January and should finish in March.",
+        "When the books close for December, how much revenue should this job show?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "$40,000. The deal is signed",
+            "verdict": "risky",
+            "feedback": "It makes December look strong, but none of the work is done yet. If the job is cancelled or runs late, that revenue was never real."
+          },
+          {
+            "key": "B",
+            "text": "$10,000. That's what was paid",
+            "verdict": "partial",
+            "feedback": "Cash is real, but it's cash for work you still owe. Counting it now puts revenue in the month before the work."
+          },
+          {
+            "key": "C",
+            "text": "$0. No work has been done yet",
+            "verdict": "best",
+            "feedback": "Right. The deposit is money you hold, not money you've earned. Revenue arrives as the kitchen gets built."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Revenue follows the work, month by month.",
+      "illustrative": true,
+      "body": [
+        "The cash came in December. The contract is dated December. But the revenue shows up in **January to March**, as the work gets done."
+      ],
+      "breakdown": [
+        {
+          "value": "$0",
+          "label": "December",
+          "detail": "Contract signed, deposit received, no work done",
+          "highlight": false
+        },
+        {
+          "value": "$12,000",
+          "label": "January",
+          "detail": "Demolition and plumbing, about 30% of the job",
+          "highlight": false
+        },
+        {
+          "value": "$18,000",
+          "label": "February",
+          "detail": "Cabinets and counters, about 45%",
+          "highlight": true
+        },
+        {
+          "value": "$10,000",
+          "label": "March",
+          "detail": "Finishing and handover, about 25%",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Revenue counts when you keep your promise",
+      "body": [
+        "**Revenue recognition** is the rule for when a sale shows up as revenue. The short version: revenue counts when you deliver what you promised the customer.",
+        "Signing a deal is a promise. Getting paid is cash. Neither is revenue on its own. The moment that matters is when the customer gets the thing, or the work, they paid for."
+      ],
+      "image": {
+        "label": "Three moments on a timeline, only one marked revenue",
+        "aspectRatio": "16:9",
+        "brief": "가로 타임라인 인포그래픽. 세 지점: \"Contract signed\", \"Cash received\", \"Work delivered\". 마지막 지점만 밝게 강조하고 \"Revenue\" 라벨. 앞 두 지점은 회색.",
+        "url": "assets/images/fin-11-02-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Two kinds of timing",
+      "body": [
+        "Ask one question: when does the customer actually get what they paid for?"
+      ],
+      "list": [
+        "**All at once:** a bakery sells a cake, a shop sells a lamp. Revenue counts when the customer takes it.",
+        "**Bit by bit:** a remodel, a cleaning contract, a year of bookkeeping. Revenue counts as the work is done, often by share of work completed or by month."
+      ],
+      "callout": "Same customer, same price. Different timing, because the delivery is different."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Going further",
+      "title": "One price, several promises",
+      "illustrative": true,
+      "body": [
+        "Many deals bundle more than one promise. Say the contractor sells the remodel plus a two-year maintenance plan for one price.",
+        "The remodel is delivered by March. The maintenance is delivered over two years. So the price is split between them, roughly by what each would sell for alone, and each part counts when it's delivered."
+      ],
+      "softwareNote": "A $12,000 annual software deal with paid setup is two promises. The setup counts when it's done, and the subscription counts month by month over the year, not on the day the invoice goes out."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "\"How much is done?\" is a judgment call.",
+      "body": [
+        "When revenue follows progress, someone has to estimate the progress. Call the kitchen 60% done when it's really 40%, and revenue moves forward into a month that didn't earn it. Profit looks better until the real costs catch up.",
+        "Keep the estimate tied to something checkable, like costs spent or milestones signed off. And note that tax rules on timing can differ from accounting rules and vary by country."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a marketing agency.",
+      "illustrative": true,
+      "body": [
+        "In March, your agency signs a $120,000 deal: a $90,000 website built April to June, plus $30,000 for 12 months of support starting in July. The client pays everything upfront.",
+        "How much revenue should the deal show by the end of June?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "$120,000. It's all paid",
+            "verdict": "risky",
+            "feedback": "Your bank balance is right, but a year of support is still owed. You'd show $30,000 of revenue for work not yet done."
+          },
+          {
+            "key": "B",
+            "text": "$90,000. The website is delivered, the support hasn't started",
+            "verdict": "best",
+            "feedback": "Each promise counts when it's kept. The remaining $30,000 arrives at about $2,500 a month from July."
+          },
+          {
+            "key": "C",
+            "text": "$0 until the whole contract ends next June",
+            "verdict": "partial",
+            "feedback": "Careful, but it hides three months of finished work. Your numbers would understate how busy and productive the spring really was."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Count revenue when you deliver, not when you sign or get paid.",
+      "body": [
+        "A signed contract is a promise and a deposit is cash. Revenue is the promise kept.",
+        "**Try it today:** take your biggest open job or contract. Write down what you've actually delivered so far, and how much of the price that delivered part is worth."
+      ],
+      "next": "Next · Why a new van doesn't hit profit all at once"
+    }
+  ]
+}

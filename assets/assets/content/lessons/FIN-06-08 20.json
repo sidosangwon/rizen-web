@@ -1,0 +1,220 @@
+{
+  "id": "FIN-06-08",
+  "unitId": "FIN-06",
+  "categoryId": "FIN",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "Buy a business at three times profit?",
+  "readerTitle": "Is a business for three years of profit a bargain?",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (비스트로 매물, 구독형 앱 매물) · 모든 수치는 설명용",
+  "insight": "'몇 배'라는 숫자는 사실이 아니라 결론이다. 무엇의 몇 배인지, 그 이익이 얼마나 오래 남을지를 먼저 따져야 싼지 비싼지 알 수 있다.",
+  "misconception": "이익의 3배면 3년 만에 본전을 뽑으니 무조건 싸다.",
+  "relatedLessonIds": [
+    "FIN-06-04",
+    "FIN-06-05"
+  ],
+  "sources": [
+    {
+      "text": "기업가치 평가의 표준 개념 (이익 배수, 가치 결정 요인: 지속성·성장·위험)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "비스트로 계산: 표시 이익 $120,000 − 대신 일할 매니저 인건비 $50,000 = $70,000. $360,000 ÷ $70,000 = 5.14배(약 5.1배). 임대료 $20,000 인상 시 이익 $50,000, $360,000 ÷ $50,000 = 7.2배. 매니저 인건비와 임대료 인상폭은 가정입니다.",
+      "status": "open"
+    },
+    {
+      "note": "앱 계산: 이익이 매년 20%씩 줄면 $100,000 + $80,000 + $64,000 = $244,000로 3년 합계가 매도가 $300,000보다 작습니다. 할인율은 적용하지 않은 단순 합계입니다.",
+      "status": "open"
+    },
+    {
+      "note": "'소규모 사업 매물은 사장 급여를 빼기 전 이익을 표시하는 경우가 많다', '소규모·사장 의존 사업은 낮은 배수에 거래되는 경향이 있다'는 일반적 설명으로만 썼고 구체적 수치는 넣지 않았습니다. 게시 전 표현이 과하지 않은지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "1번 카드의 '연 33% 수익'은 $120,000 ÷ $360,000 = 33.3%로, 표시 이익이 그대로 유지된다는 가정에서만 성립합니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Everyday scene",
+      "title": "A restaurant for three years of profit",
+      "illustrative": true,
+      "body": [
+        "The listing is short. Neighborhood bistro. Profit last year: $120,000. Asking price: $360,000.",
+        "Three years of profit and it's yours. That's a 33% return every year, *if* the profit is what it looks like, and *if* it lasts."
+      ],
+      "image": {
+        "label": "A bistro window with a for-sale sign and a price tag",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 조명의 작은 비스트로 창문에 'For sale' 안내문. 안내문 옆에 큰 가격표 \"$360,000 = 3× profit\". 가게 안에는 앞치마를 두른 사장 한 명이 주방과 홀을 동시에 오가는 모습. 실제 상호나 로고 없음.",
+        "url": "assets/images/fin-06-08-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What do you do first?",
+      "illustrative": true,
+      "body": [
+        "You visit. The owner cooks most nights and runs the floor, six days a week. The lease on the building has two years left.",
+        "You like the place and the price seems low."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Make an offer fast. Three times profit is cheap",
+            "verdict": "risky",
+            "feedback": "You'd move before a rival buyer, but you'd be paying a multiple of a number you haven't checked. A **valuation multiple** is only as good as the profit underneath it."
+          },
+          {
+            "key": "B",
+            "text": "Work out the profit after paying someone to do the owner's job, then read the lease",
+            "verdict": "best",
+            "feedback": "This tests both halves of the multiple: is the profit real for *you*, and will it last? That's **valuation multiples** and **what drives value** at work."
+          },
+          {
+            "key": "C",
+            "text": "Negotiate the price down to 2.5 times profit",
+            "verdict": "partial",
+            "feedback": "A lower price always helps. But you're still haggling over the seller's profit number, which may not be the one you'll earn."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "What the $120,000 really is.",
+      "illustrative": true,
+      "body": [
+        "The listed profit was counted *before* paying the owner, who works full time. Hire a manager to do that job, and $70,000 is left.",
+        "$360,000 ÷ $70,000 = about **5.1 times** profit. Same price, very different deal. If rent rises $20,000 when the lease renews, profit drops to $50,000 and the price becomes 7.2 times."
+      ],
+      "breakdown": [
+        {
+          "value": "$120,000",
+          "label": "Listed profit",
+          "detail": "Before paying the owner for their work",
+          "highlight": false
+        },
+        {
+          "value": "−$50,000",
+          "label": "Manager to replace the owner",
+          "detail": "Someone has to cook and run the floor",
+          "highlight": false
+        },
+        {
+          "value": "$70,000",
+          "label": "Profit for a buyer who doesn't work there",
+          "detail": "The number the multiple should use",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Applying · Valuation multiples",
+      "title": "Always ask: a multiple of *what*?",
+      "body": [
+        "A multiple is a shortcut: price divided by one year of profit. It lets you compare deals quickly.",
+        "But the shortcut hides a choice about which profit to use. Small business listings often show profit before the owner's pay, before needed repairs, or in an unusually good year. Each of those makes the multiple look smaller.",
+        "Before you judge a multiple, rebuild the profit **you** would actually take home."
+      ],
+      "image": {
+        "label": "Same price tag over two different profit bars",
+        "aspectRatio": "16:9",
+        "brief": "같은 가격표 \"$360,000\" 아래에 막대 두 개. 왼쪽 큰 막대 \"Seller's profit $120k → 3×\", 오른쪽 작은 막대 \"Your profit $70k → 5.1×\". 가격은 같은데 배수가 달라지는 점을 강조. 단순한 플랫 인포그래픽.",
+        "url": "assets/images/fin-06-08-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Applying · What drives value",
+      "title": "A low multiple is a forecast in disguise.",
+      "body": [
+        "What a business is worth depends on how much profit it will make, for how long, and how sure you can be. A multiple squeezes that whole forecast into one number.",
+        "Look at the bistro's risks. The lease could end or get pricier. Regulars may come for the owner, not the food. The recipes walk out the door with the cook.",
+        "Small, owner-run businesses often sell at low multiples for exactly this reason. **Three times profit isn't cheap if the profit may shrink.**"
+      ]
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a subscription app.",
+      "illustrative": true,
+      "body": [
+        "A developer is selling a small budgeting app. Profit last year: $100,000. Asking price: $300,000. It needs only a few hours of work a week, so owner pay isn't the issue.",
+        "Paying subscribers fell about 20% last year. Which question matters most?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "How fast are subscribers leaving, and why?",
+            "verdict": "best",
+            "feedback": "This is **what drives value**: the direction of profit. If profit keeps falling 20% a year, three years bring $100k + $80k + $64k = $244k, less than the price."
+          },
+          {
+            "key": "B",
+            "text": "Could I raise the price to lift profit?",
+            "verdict": "partial",
+            "feedback": "It might help, but a price rise can also speed up cancellations. Understand why people leave before you count on extra profit."
+          },
+          {
+            "key": "C",
+            "text": "Nothing more. Three times profit sounds cheap for software",
+            "verdict": "risky",
+            "feedback": "Comparing to other software deals ignores this app's decline. A **multiple** borrowed from growing businesses misleads you on a shrinking one."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "In digital businesses, check the trend in paying customers, how much revenue depends on one app store, platform or big client, and whether the code needs costly upkeep. Each one changes how long the profit lasts."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Sometimes three times really is a good deal.",
+      "body": [
+        "A low multiple usually prices in real risk. The seller isn't being foolish. But it can be a true bargain when you can fix what the seller can't: you're a chef who'll stay in the kitchen, or you can secure a long lease.",
+        "Just don't pay the seller for your own future work. If the deal only looks good after *your* effort and ideas, that extra value belongs to you, not in the price."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A multiple is a conclusion, not a fact.",
+      "body": [
+        "Used today: **valuation multiples** (price divided by a profit you trust) and **what drives value** (how long profit lasts, which way it's heading, how risky it is).",
+        "**Try it today:** take your own business's profit and subtract what it would cost to hire someone to do your job. Would you still pay three times that number?"
+      ],
+      "next": "Next · Peloton's valuation rise and fall"
+    }
+  ]
+}

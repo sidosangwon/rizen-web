@@ -1,0 +1,201 @@
+{
+  "id": "CUS-08-02",
+  "unitId": "CUS-08",
+  "categoryId": "CUS",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "Moments of truth",
+  "readerTitle": "The renovation that missed the moment that mattered",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 3.8,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (SAS, 얀 칼슨) + 가상 사례 (비스트로, 가계부 앱)",
+  "insight": "고객은 여정 전체의 평균이 아니라, 불확실하거나 문제가 생긴 몇 초의 순간으로 회사를 판단한다. 그 순간은 대개 현장 직원의 손에 있다.",
+  "misconception": "고객 경험을 좋게 하려면 모든 접점을 고르게 다듬으면 된다. 돈을 많이 쓸수록 경험이 좋아진다.",
+  "relatedLessonIds": [
+    "CUS-08-01",
+    "CUS-06-05"
+  ],
+  "sources": [
+    {
+      "text": "Carlzon, J. (1987). Moments of Truth. Ballinger. (스웨덴어 원서 Riv pyramiderna, 1985)",
+      "url": null
+    },
+    {
+      "text": "Normann, R. Service Management (1984) — 서비스 경영에서 'moment of truth' 용어를 먼저 쓴 것으로 알려짐",
+      "url": null
+    },
+    {
+      "text": "비스트로, 가계부 앱 사례와 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "칼슨의 책에 나오는 '고객 1,000만 명 × 직원 약 5명 접촉 × 평균 15초 = 연 5,000만 번의 진실의 순간' 서술을 원문으로 확인하세요. 카드에는 '1,000만 명, 약 5명, 약 15초'로만 적었습니다. 계산: 10,000,000 × 5 = 50,000,000.",
+      "status": "open"
+    },
+    {
+      "note": "칼슨이 SAS CEO에 취임한 연도(1981)와, 용어를 처음 만든 사람이 아니라 '대중화한' 사람이라는 표현이 맞는지 확인하세요. 용어 기원은 Richard Normann으로 알려져 있어 카드에 'popularized'로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "SAS 실적 회복의 구체적 수치는 확인되지 않아 카드에 넣지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Counterexample",
+      "title": "The renovation that missed the moment that mattered",
+      "illustrative": true,
+      "body": [
+        "A bistro owner spends months on new chairs, warmer lighting and a sharper menu. The food is better than ever.",
+        "The reviews barely move. One line keeps coming back: *\"We had a booking and stood at the door for five minutes. Nobody said hello.\"*"
+      ],
+      "image": {
+        "label": "Couple waiting at an empty host stand in a stylish bistro",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 새로 꾸민 세련된 비스트로 내부(따뜻한 조명, 새 의자)가 배경. 앞쪽 입구에 아무도 없는 안내 데스크와, 외투를 입은 채 어색하게 서 있는 커플. 직원들은 멀리서 바쁘게 움직임. 실제 상호나 로고는 쓰지 않음.",
+        "url": "assets/images/cus-08-02-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You can fix one thing this month.",
+      "illustrative": true,
+      "body": [
+        "The bistro has a small budget and a few hours of staff training left. Where do you put them?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Refine the menu and plating further, since food is why people come",
+            "verdict": "risky",
+            "feedback": "Food matters, but it's already strong. You improve what guests already like and leave the moment that sours their evening untouched."
+          },
+          {
+            "key": "B",
+            "text": "Make sure every guest is greeted at the door within seconds, and let the host offer a drink if the table isn't ready",
+            "verdict": "best",
+            "feedback": "Cheap and narrow, but it targets the moment guests decide whether they're welcome. It needs the host to have the authority to act."
+          },
+          {
+            "key": "C",
+            "text": "Send guests a survey after each visit to learn more",
+            "verdict": "partial",
+            "feedback": "Listening helps, but the reviews have already told you the answer. A survey delays the fix by weeks."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What went wrong",
+      "title": "The money went where the owner looked.",
+      "illustrative": true,
+      "body": [
+        "The owner judged the evening from the kitchen and the dining room. Guests judged it in the first minute, standing at the door, unsure if their booking existed.",
+        "Everything after that was seen through that first impression. Lovely chairs don't undo feeling ignored. **Polishing every part evenly** missed the one part that set the tone."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Moments of truth",
+      "body": [
+        "A **moment of truth** is a brief contact where the customer forms a lasting judgment about your business.",
+        "Jan Carlzon, who ran the airline SAS in the 1980s, popularized the idea. He reasoned that about 10 million passengers each met around five employees a year, for roughly 15 seconds each. In those short contacts, he wrote, the airline was made or broken in customers' eyes."
+      ],
+      "image": {
+        "label": "A long journey line with a few moments glowing brightly",
+        "aspectRatio": "16:9",
+        "brief": "고객 여정을 가로선으로 표현. 선 위에 작은 점(접점) 여러 개는 회색이고, 그중 3개만 크게 빛남: \"Greeted at the door\", \"Something goes wrong\", \"Paying the bill\". 실제 항공사 로고는 쓰지 않음.",
+        "url": "assets/images/cus-08-02-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How to spot them",
+      "title": "Truth shows up when the customer is unsure.",
+      "body": [
+        "Most contacts are routine. The decisive ones usually share a pattern:"
+      ],
+      "list": [
+        "**First contact:** the customer doesn't know yet if they can trust you",
+        "**Something breaks:** a delay, an error, a wrong order",
+        "**An off-script request:** a need your process didn't plan for"
+      ],
+      "callout": "These moments are often handled by your most junior staff. Carlzon's answer was to give frontline people the authority to fix problems on the spot."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Not every touchpoint is a moment of truth.",
+      "body": [
+        "If you call everything critical, nothing is. Guessing wrong spreads effort just as thin as before. Find the real moments in complaints, refund requests and the points where customers quit or ask for help.",
+        "And a great moment can't rescue a weak product. A warm greeting won't save bad food. Moments of truth decide how customers read your basics. They don't replace them."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a budgeting app.",
+      "illustrative": true,
+      "body": [
+        "Users connect their bank on day one. When the bank sync fails, most of those users never come back. The team has one sprint. What do they build?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "A redesigned dashboard with new charts",
+            "verdict": "risky",
+            "feedback": "It looks good in demos, but users who hit the sync error never see it. You polish the screen after the moment that lost them."
+          },
+          {
+            "key": "B",
+            "text": "A clear error message, a one-tap retry and a fast reply from a real person",
+            "verdict": "best",
+            "feedback": "It meets users at the exact moment they're deciding whether to trust you with their money. Less visible work, but it's where users are lost."
+          },
+          {
+            "key": "C",
+            "text": "A weekly tips email for all new users",
+            "verdict": "partial",
+            "feedback": "It may help users who already succeeded. The ones stuck at the failed sync rarely open it."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Customers judge you in a few seconds that matter.",
+      "body": [
+        "Find the moments when customers are unsure or something goes wrong, and make sure the person there can act.",
+        "**Try it today:** read your last ten complaints. Mark the exact moment each one started. Which moment shows up most?"
+      ],
+      "next": "Next · Why good service is your best advertising"
+    }
+  ]
+}

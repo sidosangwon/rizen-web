@@ -1,0 +1,245 @@
+{
+  "id": "ENT-06-10",
+  "unitId": "ENT-06",
+  "categoryId": "ENT",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Hire 50 people this year?",
+  "readerTitle": "Your sales just jumped 60%. Do you hire 50 people?",
+  "format": "everyday_scene",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.1,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (주방용품 도매·소매 회사 한 곳의 1년) · 모든 인물과 수치는 설명용",
+  "insight": "성장기의 채용은 '몇 명'을 정하는 문제가 아니라, 어떤 신호가 보일 때 누구를 먼저 뽑고, 그 사람들이 어떻게 빠르게 일하게 할지를 차례로 정하는 문제다.",
+  "misconception": "매출이 늘면 그만큼 사람을 한꺼번에 뽑아야 하고, 사람만 충분하면 성장 문제는 해결된다.",
+  "relatedLessonIds": [
+    "ENT-06-01",
+    "ENT-06-02"
+  ],
+  "sources": [
+    {
+      "text": "이 단원(ENT-06)의 개념 레슨: 조기 확장, 성장 앞선 채용, 창업자에서 CEO로, 프로세스 추가, 규모에서의 소통",
+      "url": null
+    },
+    {
+      "text": "모든 인물, 회사, 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 가상입니다. 직원 28명, 매출 60% 증가, 오배송 100건 중 1건→4건, 연말 채용 34명(28+34=62명)이 카드 사이에서 서로 맞는지 확인했습니다. 실제 통계로 읽히지 않도록 카드에 illustrative 표시를 했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "다음 레슨 예고 문구는 다음 단원 첫 레슨 제목이 확정되면 맞춰 바꾸세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Scaling · Simulation",
+      "title": "Your sales just jumped 60%. Do you hire 50 people?",
+      "illustrative": true,
+      "body": [
+        "Mara runs a kitchenware business: one warehouse, two shops of her own, and 120 independent stores that reorder from her. She has 28 staff.",
+        "Last year a regional chain started stocking her range. Sales rose 60%. Orders are shipping late. Her lender says, \"Hire 50 people this year, or you'll lose it.\"",
+        "You're Mara for the next four decisions."
+      ],
+      "image": {
+        "label": "A crowded warehouse with boxes piling up and a small team",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 작은 창고에 주방용품 상자가 천장까지 쌓여 있고, 직원 몇 명이 바쁘게 움직임. 한쪽 벽에 \"Late orders\" 메모가 붙은 화이트보드. 실제 브랜드 로고 없음.",
+        "url": "assets/images/ent-06-10-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 4",
+      "title": "The 50-person plan",
+      "illustrative": true,
+      "body": [
+        "The chain's orders are big, but it signed for one season only. Your other stores are reordering a bit more than last year. How do you plan hiring?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Hire all 50 by spring so you're ready for anything",
+            "verdict": "risky",
+            "feedback": "You'd clear the backlog fast. But payroll nearly triples before the chain renews, and if it doesn't, you're cutting people by autumn."
+          },
+          {
+            "key": "B",
+            "text": "Hire in waves, each one unlocked by a signal you set now: renewed contracts, backlog over a week, repeat orders",
+            "verdict": "best",
+            "feedback": "You grow staff as demand proves itself. You give up some speed, and the signals must be decided before emotions run high."
+          },
+          {
+            "key": "C",
+            "text": "Hire no one and pay overtime until things settle",
+            "verdict": "partial",
+            "feedback": "Cash stays safe. But tired people make mistakes, late orders keep coming, and the stores that loyally reorder start looking elsewhere."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 4",
+      "title": "Who goes first?",
+      "illustrative": true,
+      "body": [
+        "Say you chose waves. The backlog signal is already met, so wave one is 12 people.",
+        "Right now every purchase order, schedule change and customer complaint still goes through you. Who are the first 12?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "12 pickers and drivers to ship the backlog",
+            "verdict": "partial",
+            "feedback": "Boxes move faster this month. But 40 people now wait on your approval for everything, and you become the bottleneck."
+          },
+          {
+            "key": "B",
+            "text": "An operations manager and two shift leads first, then pickers",
+            "verdict": "best",
+            "feedback": "Shipping improves a few weeks later, but decisions stop queuing at your desk. Your job shifts from doing the work to building the team that does it."
+          },
+          {
+            "key": "C",
+            "text": "A head of marketing to keep growth coming",
+            "verdict": "risky",
+            "feedback": "More demand poured into a jammed warehouse means more late orders and angrier customers."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 4",
+      "title": "Mistakes are creeping in.",
+      "illustrative": true,
+      "body": [
+        "Say you hired the operations manager. Output is up. But wrong shipments rose from 1 in 100 orders to 4 in 100. Most errors happen at two steps: picking similar items and labeling boxes.",
+        "What do you add?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "A manager signs off on every order before it ships",
+            "verdict": "risky",
+            "feedback": "Errors drop, and so does speed. You've rebuilt the old bottleneck with a new name on it."
+          },
+          {
+            "key": "B",
+            "text": "A barcode scan at picking and a short checklist at labeling, nothing else",
+            "verdict": "best",
+            "feedback": "Process goes only where mistakes repeat. Everyone else keeps working the way they did."
+          },
+          {
+            "key": "C",
+            "text": "Remind everyone at the morning meeting to be careful",
+            "verdict": "partial",
+            "feedback": "Free and friendly. But with a third of the staff brand new, good intentions don't replace a system."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 4 of 4",
+      "title": "The new people don't know why.",
+      "illustrative": true,
+      "body": [
+        "Say you added scans and checklists. Errors fall back to about 1 in 100. By summer you're at 45 people.",
+        "Now you notice new staff chase whatever looks urgent. Two teams just promised the same truck to different customers."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Route all scheduling decisions back to you for consistency",
+            "verdict": "risky",
+            "feedback": "No more clashes, but everything slows to the speed of one person, and your managers stop deciding."
+          },
+          {
+            "key": "B",
+            "text": "A weekly note with three priorities and the reasons, plus one shared truck schedule each team owns",
+            "verdict": "best",
+            "feedback": "People decide on their own and still pull the same way. It costs you an hour a week of writing, every week."
+          },
+          {
+            "key": "C",
+            "text": "Trust managers to pass the message down",
+            "verdict": "partial",
+            "feedback": "Faster than doing it yourself, but each retelling drifts a little. By the third layer, the priorities differ."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where it landed",
+      "title": "Not 50 people. 34.",
+      "illustrative": true,
+      "body": [
+        "The chain renewed, so wave two went ahead. A slow autumn kept wave three on hold. Mara ended the year with 62 people, not 78.",
+        "Orders ship on time again. She spends her days on suppliers and the next big customer, not on truck schedules."
+      ],
+      "image": {
+        "label": "Staircase chart: staff added in steps as signals appear",
+        "aspectRatio": "16:9",
+        "brief": "계단형 그래프. 가로축은 월, 세로축은 직원 수. 신호가 생길 때마다 한 칸씩 오름. 계단 옆 라벨: \"Backlog signal\", \"Contract renewed\", \"Wave 3 on hold\". 점선으로 '50명 한꺼번에' 직선 경로를 비교로 표시.",
+        "url": "assets/images/ent-06-10-c6.jpg"
+      },
+      "softwareNote": "In a software company the waves might be unlocked by retention, not backlog: hire the second support team only when new customers keep paying for three months, not when signups spike."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Waves have costs too.",
+      "body": [
+        "Good hires can take months to find. If you wait for every signal, a competitor may serve the demand first.",
+        "Staged hiring works best when signals are clear and agreed in advance. If the demand is truly locked in, such as a signed multi-year contract, hiring ahead of it can be the right call.",
+        "The goal isn't to hire slowly. It's to hire **on evidence**, not on hope."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Scale in steps, and change how you lead at each step.",
+      "body": [
+        "Each decision matched one idea from this unit."
+      ],
+      "list": [
+        "**Waves, not 50 at once:** avoid premature scaling; hire ahead of growth only when it's proven",
+        "**Managers before more hands:** from founder to CEO",
+        "**Scans where errors repeat:** add process only where it pays",
+        "**Weekly priorities with reasons:** communicate at scale and keep your speed"
+      ],
+      "callout": "**Try it today:** write the three signals that would justify your next hire. Decide them before you need them.",
+      "next": "Next · A new unit begins"
+    }
+  ]
+}

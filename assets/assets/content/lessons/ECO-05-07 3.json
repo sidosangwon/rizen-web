@@ -1,0 +1,249 @@
+{
+  "id": "ECO-05-07",
+  "unitId": "ECO-05",
+  "categoryId": "ECO",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "Redesign a restaurant menu",
+  "readerTitle": "The $58 dish that sells the $32 one: redesigning a bistro menu",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (동네 비스트로 메뉴, 지역 화물 운송 회사) · 모든 수치는 설명용",
+  "insight": "메뉴의 가격 하나하나는 따로 팔리지 않는다. 각 가격은 옆에 놓인 가격을 기준으로 읽히므로, 거의 팔리지 않는 항목도 다른 항목을 팔기 위해 존재할 수 있다.",
+  "misconception": "메뉴의 각 항목은 그 항목의 판매량으로만 평가해야 한다. 잘 안 팔리는 비싼 메뉴나 어중간한 옵션은 빼는 게 맞다.",
+  "relatedLessonIds": [
+    "ECO-05-01",
+    "ECO-05-03"
+  ],
+  "sources": [
+    {
+      "text": "Tversky, A. & Kahneman, D. (1974). Judgment under Uncertainty: Heuristics and Biases. Science. (앵커링 개념의 배경)",
+      "url": null
+    },
+    {
+      "text": "Huber, J., Payne, J. W. & Puto, C. (1982). Adding Asymmetrically Dominated Alternatives. Journal of Consumer Research. (디코이 효과의 배경)",
+      "url": null
+    },
+    {
+      "text": "모든 사례와 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "와인 100ml당 가격 계산: 소 $9 ÷ 150ml = $6.00/100ml, 중 $14 ÷ 175ml = $8.00/100ml, 대 $15 ÷ 250ml = $6.00/100ml. 대는 중보다 $1 더 비싸고 75ml 더 많음. 선택지 B의 중 $10.50 ÷ 175ml = $6.00/100ml(비례 가격).",
+      "status": "open"
+    },
+    {
+      "note": "화물 운송: 2일 배송 $250 vs 익일 $260 차이 $10. Express 인하 시 $260 − $220 = $40 손실. 모든 수치는 가상.",
+      "status": "open"
+    },
+    {
+      "note": "카드에는 실제 연구 수치나 실제 식당 사례를 쓰지 않았습니다. 앵커링·디코이 효과가 메뉴에서 항상 같은 크기로 작동한다고 단정하지 않도록 'nudge' 수준으로 표현했는지 검토하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Pricing · Apply it",
+      "title": "The menu is the one salesperson who talks to every table.",
+      "illustrative": true,
+      "body": [
+        "Rosa runs a 40-seat neighborhood bistro. The food is good, the tables are full, and prices are fair. But the average check hasn't moved in a year.",
+        "She doesn't want to raise prices. She wants to redesign the menu, using two ideas from this unit."
+      ],
+      "image": {
+        "label": "A bistro owner marking up a printed menu with a pen",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 조명의 작은 비스트로 카운터. 주인이 인쇄된 메뉴판 위에 펜으로 동그라미와 화살표를 그리고 있음. 메뉴 글씨는 흐릿하게, 실제 브랜드나 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Where does the $58 steak go?",
+      "illustrative": true,
+      "body": [
+        "Rosa's chef wants to add a $58 steak for two to share. Her other mains run from $22 to $32.",
+        "Where should it go on the menu?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "At the top of the mains, the first price guests see",
+            "verdict": "best",
+            "feedback": "**Price anchoring** at work. Seen first, $58 becomes the reference point, and the $32 dishes below it look moderate. It earns its place even if few tables order it."
+          },
+          {
+            "key": "B",
+            "text": "At the bottom, so it doesn't scare anyone off",
+            "verdict": "partial",
+            "feedback": "Gentler, but by then guests have set their sense of 'normal' from the cheaper dishes. The anchor arrives too late to shape much."
+          },
+          {
+            "key": "C",
+            "text": "Leave it off. At that price it will barely sell",
+            "verdict": "risky",
+            "feedback": "Judging it only by its own sales misses what it does to the dishes around it. You lose the dish and the reference point."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "Why it works",
+      "title": "The expensive dish sets the ruler.",
+      "illustrative": true,
+      "body": [
+        "Few guests know what a steak *should* cost. They judge each price against the ones nearby, and the first big number they see becomes the ruler.",
+        "With the $58 steak on top, a $32 dish reads as a sensible middle choice, not the priciest thing on the page. Some tables will order the steak. More will feel fine ordering one step up.",
+        "That's **price anchoring**: the first price shapes how every later price feels."
+      ],
+      "image": {
+        "label": "Menu with a high-priced dish at the top and others below",
+        "aspectRatio": "16:9",
+        "brief": "메뉴판 일러스트. 맨 위 \"Steak for two $58\"에 굵은 테두리, 그 아래 $32, $28, $24, $22 요리가 나열됨. $58에서 아래로 내려오는 점선 자 눈금으로 '기준점' 느낌을 표현.",
+        "url": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Most guests order the small glass of wine.",
+      "illustrative": true,
+      "body": [
+        "Rosa sells house wine by the glass: 150 ml for $9 or 250 ml for $15. Most guests take the small one.",
+        "She'd like more guests to choose the large. What should she try?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Add a 175 ml glass at $14",
+            "verdict": "best",
+            "feedback": "The **decoy effect**. The middle glass costs almost as much as the large for far less wine, so the large suddenly looks like the smart buy. Few will order the medium. That's its job."
+          },
+          {
+            "key": "B",
+            "text": "Add a 175 ml glass at $10.50",
+            "verdict": "partial",
+            "feedback": "A fair middle option, and some guests will step up to it. But it gives a cheap step up and does little for the large glass."
+          },
+          {
+            "key": "C",
+            "text": "Drop the small glass so everyone buys large",
+            "verdict": "risky",
+            "feedback": "Some will pay more, but others will switch to soft drinks or skip wine. You lose sales to force a choice guests used to make freely."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Price per 100 ml shows what the decoy does.",
+      "illustrative": true,
+      "body": [
+        "Next to the medium, the large is just $1 more for 75 ml extra. Guests rarely do this math, but they feel it."
+      ],
+      "breakdown": [
+        {
+          "value": "$6.00",
+          "label": "Small · 150 ml for $9",
+          "detail": "Per 100 ml",
+          "highlight": false
+        },
+        {
+          "value": "$8.00",
+          "label": "Medium · 175 ml for $14",
+          "detail": "Per 100 ml, the decoy",
+          "highlight": false
+        },
+        {
+          "value": "$6.00",
+          "label": "Large · 250 ml for $15",
+          "detail": "Per 100 ml, now the obvious deal",
+          "highlight": true
+        }
+      ],
+      "softwareNote": "Software pricing pages use the same moves. An enterprise tier shown first anchors the others, and a middle plan can make the next one up look like the obvious pick. The next lesson works through one."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A menu can nudge. It can't cover for weak food.",
+      "body": [
+        "Both tools work only when guests don't feel played."
+      ],
+      "list": [
+        "**Anchors must be real.** List the steak only if the kitchen can cook it well and some guests truly want it.",
+        "**Decoys must be believable.** An option that looks absurd signals a trick and costs trust.",
+        "**Change one thing at a time.** Track the average check for a few weeks before the next change, so you know what worked."
+      ],
+      "callout": "If guests feel steered, the next visit costs more than this one earned."
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a freight company.",
+      "illustrative": true,
+      "body": [
+        "A regional freight firm moves pallets for business customers. Standard 5-day delivery costs $180 a pallet. Next-day Express costs $260 and earns more per run, but most customers pick Standard.",
+        "Which change is most likely to move them up?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Add 2-day delivery at $250",
+            "verdict": "best",
+            "feedback": "The **decoy effect** again. Two-day at $250 makes next-day for $10 more look like an easy upgrade. Offer it only if you can truly deliver it."
+          },
+          {
+            "key": "B",
+            "text": "Add 2-day delivery at $210",
+            "verdict": "partial",
+            "feedback": "A real middle option many will choose. It lifts revenue from Standard customers, but some who'd have paid $260 will step down to it."
+          },
+          {
+            "key": "C",
+            "text": "Cut Express to $220",
+            "verdict": "risky",
+            "feedback": "More customers may switch, but every one who'd have paid $260 now pays $40 less. You buy the shift with margin."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "For a software tool, the same test applies to plan tiers: does each plan make your preferred one look like the clear choice, or does it pull customers down?"
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Every price changes how the prices next to it look.",
+      "body": [
+        "You used two ideas from this unit: **price anchoring**, where the first high price sets the ruler, and the **decoy effect**, where an option few choose makes another look like the best deal.",
+        "**Try it today:** open your own menu, price list or quote. Which price does a customer see first? Which option makes the one you want to sell look like the smart choice?"
+      ],
+      "next": "Next · Redesign a software pricing page"
+    }
+  ]
+}

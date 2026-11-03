@@ -1,0 +1,253 @@
+{
+  "id": "CUS-02-06",
+  "unitId": "CUS-02",
+  "categoryId": "CUS",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Switching costs from the customer's side",
+  "readerTitle": "Why a 25% cheaper offer still loses",
+  "format": "numbers_twist",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (회계·장부 대행 회사, 사내 운영팀의 경비 정산 도구) + 실제 연구 (Burnham, Frels & Mahajan 2003의 전환 비용 유형). 모든 수치는 설명용",
+  "insight": "고객은 새 제안을 지금 내는 가격과 비교하지 않는다. 지금 가격에 '옮기는 비용'을 더한 것과 비교하며, 그 비용은 파는 쪽이 대신 줄여 줄 수 있다.",
+  "misconception": "더 싸고 더 좋으면 고객은 옮긴다. 안 옮기는 고객은 비합리적이거나 충성도가 높은 것이다.",
+  "relatedLessonIds": [
+    "CUS-02-05",
+    "CUS-09-04"
+  ],
+  "sources": [
+    {
+      "text": "Burnham, T. A., Frels, J. K., & Mahajan, V. (2003). Consumer switching costs: A typology, antecedents, and consequences. Journal of the Academy of Marketing Science, 31(2), 109–126.",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Burnham, Frels & Mahajan(2003)의 전환 비용 분류(절차적 procedural, 재무적 financial, 관계적 relational)와 서지 정보(JAMS 31권 2호)를 게시 전에 원문으로 확인하세요. 카드에는 세 가지 유형 이름만 쓰고 수치는 인용하지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "장부 대행 계산: 절감액 $12,000 − $9,000 = $3,000. 전환 비용 = 직원 40시간 × $50 = $2,000 + 사장 20시간 × $75 = $1,500 + 겹치는 한 달 $9,000 ÷ 12 = $750 + 위험 여유분 $1,000 = $5,250. 첫해 결과 $3,000 − $5,250 = −$2,250. 회수 기간 $5,250 ÷ $3,000 × 12 = 21개월.",
+      "status": "open"
+    },
+    {
+      "note": "전환 비용을 대신 떠안은 경우: 직원 시간 $2,000과 겹치는 달 $750을 회사가 부담하면 고객 비용은 $1,500 + $1,000 = $2,500. 첫해 결과 $3,000 − $2,500 = +$500.",
+      "status": "open"
+    },
+    {
+      "note": "사내 도구: 직원 1인당 월 10분 절약, 학습 1시간(60분) → 60 ÷ 10 = 6개월 후에야 본전. 200명 기준 월 2,000분(약 33시간) 절약.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Numbers twist",
+      "title": "Why a 25% cheaper offer still loses",
+      "illustrative": true,
+      "body": [
+        "Your firm offers a small manufacturer the same bookkeeping for $9,000 a year. Their current firm charges $12,000.",
+        "They say no. They aren't confused, and they aren't blindly loyal. They simply did different math than you did."
+      ],
+      "image": {
+        "label": "Two price tags, with a heavy box sitting on the cheaper one",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 가격표 두 개: \"$12,000\"과 \"$9,000\". 더 싼 가격표 위에 \"Moving\"이라고 적힌 무거운 상자가 얹혀 저울이 비싼 쪽으로 기울지 않음. 실제 회사 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "They like you. They still said \"not now.\"",
+      "illustrative": true,
+      "body": [
+        "You run a bookkeeping firm. A prospect pays their current firm $12,000 a year. You offer the same service for $9,000.",
+        "They're friendly, but they keep saying now isn't a good time. What do you change?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Cut the price to $7,500 so the saving is impossible to ignore",
+            "verdict": "risky",
+            "feedback": "A bigger saving can tip the balance, but you give up margin every year to solve a problem that mostly lives in the first few months."
+          },
+          {
+            "key": "B",
+            "text": "Offer to collect their records, run the handover and cover the first month",
+            "verdict": "best",
+            "feedback": "You spend effort once and remove the costs that made them hesitate. The next card shows what those costs look like."
+          },
+          {
+            "key": "C",
+            "text": "Wait and call back when their current contract ends",
+            "verdict": "partial",
+            "feedback": "Good timing lowers the cost of leaving. But the handover work will still be waiting for them when you call."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "The prospect's math, year one.",
+      "illustrative": true,
+      "body": [
+        "You saw a $3,000 saving. They saw a year-one loss of **$2,250**. At this rate, switching only pays for itself after about 21 months."
+      ],
+      "breakdown": [
+        {
+          "value": "+$3,000",
+          "label": "Yearly saving",
+          "detail": "$12,000 − $9,000",
+          "highlight": false
+        },
+        {
+          "value": "−$2,000",
+          "label": "Staff time",
+          "detail": "40 hours gathering records, at $50 an hour",
+          "highlight": false
+        },
+        {
+          "value": "−$1,500",
+          "label": "Owner time",
+          "detail": "20 hours learning a new process, at $75 an hour",
+          "highlight": false
+        },
+        {
+          "value": "−$750",
+          "label": "Overlap month",
+          "detail": "Paying the new firm while the old one finishes",
+          "highlight": false
+        },
+        {
+          "value": "−$1,000",
+          "label": "Risk allowance",
+          "detail": "A guess at the cost of mistakes during handover",
+          "highlight": false
+        },
+        {
+          "value": "−$2,250",
+          "label": "Year one",
+          "detail": "What switching actually does to them this year",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Switching costs",
+      "body": [
+        "**Switching costs** are everything a customer spends or gives up to move from what they use now to you, beyond your price. Time, effort, risk, fees, lost relationships.",
+        "Customers compare your offer to their current option *plus* the cost of getting out of it. So your offer must beat the old one by more than the switching cost, and usually within a time they care about."
+      ],
+      "image": {
+        "label": "Scale: yearly saving on one side, switching costs on the other",
+        "aspectRatio": "16:9",
+        "brief": "저울 인포그래픽. 왼쪽 접시에 \"Saving $3,000\" 동전 더미, 오른쪽 접시에 \"Staff time\", \"Owner time\", \"Overlap\", \"Risk\" 블록 네 개. 오른쪽이 더 무겁게 기울어짐.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Three kinds of cost, most of them invisible to you.",
+      "body": [
+        "Marketing researchers Burnham, Frels and Mahajan (2003) sorted switching costs into three groups:"
+      ],
+      "list": [
+        "**Procedural:** time and effort to search, set up and learn",
+        "**Financial:** fees, overlap payments, lost discounts or points",
+        "**Relational:** losing a person or team you already trust"
+      ],
+      "callout": "Only one of these shows up on your price list. The customer feels all three."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The twist",
+      "title": "You can pay the switching cost for them.",
+      "illustrative": true,
+      "body": [
+        "Suppose your firm gathers the records itself. You do this often, so it takes you far less time than it takes them. You also cover the overlap month.",
+        "Their cost drops to $1,500 of owner time plus the $1,000 risk allowance: **$2,500**. Now year one shows +$500, and every year after saves $3,000.",
+        "Same price. Different answer."
+      ],
+      "softwareNote": "In software, this looks like importing a customer's old data, keeping their existing links working, or setting up the account for them. A one-time effort for you can remove months of hesitation for them."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "High switching costs keep customers, not their goodwill.",
+      "body": [
+        "The same idea works in reverse. If your own customers stay mainly because leaving is painful, they aren't happy. They're stuck. They tend to leave the moment a rival makes switching easy.",
+        "Also, your estimate is not their estimate. Ask customers what moving would really involve. The cost they fear, like a botched year-end, may matter more than the hours."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's your own company's staff.",
+      "illustrative": true,
+      "body": [
+        "You lead an internal operations team. You built a new expense tool that saves each of 200 employees about 10 minutes a month over the old spreadsheet.",
+        "Learning it takes about an hour, and open reports must be re-entered by hand. Few people use it. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Make it mandatory from next month",
+            "verdict": "partial",
+            "feedback": "You get usage fast, but people still pay the full switching cost, and resentment can follow the tool for years."
+          },
+          {
+            "key": "B",
+            "text": "Import old reports automatically and run a 15-minute walkthrough",
+            "verdict": "best",
+            "feedback": "An hour of learning against 10 minutes saved means six months before anyone breaks even. Cut the cost of moving, and the payoff arrives in weeks."
+          },
+          {
+            "key": "C",
+            "text": "Add more features so the saving gets bigger",
+            "verdict": "risky",
+            "feedback": "More features often mean more to learn, which raises the switching cost you're trying to beat."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Customers buy the move, not just the product.",
+      "body": [
+        "A better offer only wins when its gain beats the cost of switching. Shrink that cost, and you often don't need to cut your price.",
+        "**Try it today:** pick one prospect who said \"not now.\" List the time, money and risk moving to you would cost them. Choose one item you could take off their plate."
+      ],
+      "next": "Next · Write a value proposition for a local gym"
+    }
+  ]
+}

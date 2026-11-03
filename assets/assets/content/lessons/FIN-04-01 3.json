@@ -1,0 +1,244 @@
+{
+  "id": "FIN-04-01",
+  "unitId": "FIN-04",
+  "categoryId": "FIN",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Break-even point",
+  "readerTitle": "How many cupcakes before you make a cent?",
+  "format": "counterexample",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.1,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (카페 납품용 컵케이크 제조 베이커리, 구독형 앱) · 모든 수치는 설명용",
+  "insight": "이익은 판매 한 건의 성질이 아니라 도달해야 하는 판매량이다. 고정비가 늘 때마다 그 기준선도 함께 움직인다.",
+  "misconception": "판매가가 원가보다 높으면 이익이 난다. 매출이 늘면 결국 흑자가 된다.",
+  "relatedLessonIds": [
+    "FIN-03-06",
+    "FIN-04-02"
+  ],
+  "sources": [
+    {
+      "text": "관리회계의 표준 개념 (손익분기점 = 고정비 ÷ 단위당 공헌이익)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "베이커리 기본 계산: 단위당 공헌이익 $2.00 − $0.80 = $1.20. 월 고정비 $12,000 (임대료, 제빵사 2명, 밴 리스, 오븐 대출 상환). 손익분기점 12,000 ÷ 1.20 = 10,000개. 8,000개 판매 시 8,000 × 1.20 = $9,600 − $12,000 = −$2,400.",
+      "status": "open"
+    },
+    {
+      "note": "선택지 오답 계산: 12,000 ÷ 2.00 = 6,000 (가격으로 나눈 경우), 12,000 ÷ 0.80 = 15,000 (변동비로 나눈 경우).",
+      "status": "open"
+    },
+    {
+      "note": "반례 계산: 고정비 +$3,000 → $15,000, 손익분기점 15,000 ÷ 1.20 = 12,500개. 12,000개 판매 시 12,000 × 1.20 = $14,400 − $15,000 = −$600.",
+      "status": "open"
+    },
+    {
+      "note": "새 고정비별 필요 판매량: 600 ÷ 1.20 = 500, 3,000 ÷ 1.20 = 2,500, 1,200 ÷ 1.20 = 1,000.",
+      "status": "open"
+    },
+    {
+      "note": "앱 계산: $20 − $4 = $16. 48,000 ÷ 16 = 3,000명. 영업 담당 채용 후 56,000 ÷ 16 = 3,500명. 급여만 메우는 데 8,000 ÷ 16 = 500명 (가격으로 나누면 8,000 ÷ 20 = 400명).",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Counterexample",
+      "title": "Every cupcake makes money. The bakery doesn't.",
+      "illustrative": true,
+      "body": [
+        "A small bakery makes cupcakes for local cafés. It sells each one for $2.00. Flour, butter, boxes and delivery fuel cost $0.80.",
+        "So every cupcake leaves $1.20. Last month the bakery sold 8,000 of them and still lost $2,400."
+      ],
+      "image": {
+        "label": "Rows of cupcakes on a bakery rack with a red loss figure above",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 톤의 작은 제빵 공장 내부. 컵케이크가 가득한 철제 랙과 배달용 상자들. 랙 위에 작은 칠판이 걸려 있고 \"Last month: −$2,400\"이라고 빨간 분필로 쓰여 있음. 실제 브랜드 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "When does the bakery stop losing money?",
+      "illustrative": true,
+      "body": [
+        "Rent, two bakers' wages, the van lease and the oven loan come to $12,000 a month. They stay the same whether the bakery makes 1 cupcake or 10,000.",
+        "How many cupcakes a month does it need to sell to stop losing money?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "About 6,000",
+            "verdict": "risky",
+            "feedback": "That divides fixed costs by the $2 price. But $0.80 of every cupcake goes to ingredients and delivery, so only $1.20 is left to pay the rent."
+          },
+          {
+            "key": "B",
+            "text": "About 10,000",
+            "verdict": "best",
+            "feedback": "Right. Each cupcake leaves $1.20 toward the $12,000. 12,000 ÷ 1.20 = 10,000."
+          },
+          {
+            "key": "C",
+            "text": "About 15,000",
+            "verdict": "partial",
+            "feedback": "A safe-sounding guess, but it divides by the $0.80 cost. What pays the fixed costs is the $1.20 left over, so the target is lower."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Why 8,000 cupcakes lose money.",
+      "illustrative": true,
+      "breakdown": [
+        {
+          "value": "$9,600",
+          "label": "Left over from sales",
+          "detail": "8,000 cupcakes × $1.20",
+          "highlight": false
+        },
+        {
+          "value": "−$12,000",
+          "label": "Fixed costs",
+          "detail": "Rent, wages, van, oven loan",
+          "highlight": false
+        },
+        {
+          "value": "−$2,400",
+          "label": "Result",
+          "detail": "2,000 cupcakes short of the line",
+          "highlight": true
+        }
+      ],
+      "callout": "At 10,000 cupcakes, the money left over is exactly $12,000. Each cupcake after that adds $1.20 of profit."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Break-even point",
+      "body": [
+        "The **break-even point** is the sales volume where you stop losing money but haven't made any yet. Below it, you lose. Above it, you profit.",
+        "Break-even = fixed costs ÷ what each sale leaves after its own costs.",
+        "So profit isn't something each sale has. It's a volume you have to reach first."
+      ],
+      "image": {
+        "label": "Graph where a rising sales line crosses a flat fixed-cost line",
+        "aspectRatio": "16:9",
+        "brief": "단순한 손익분기 그래프. 가로축 \"Cupcakes per month\", 세로축 \"$\". 수평선 \"Fixed costs $12,000\", 우상향 직선 \"Money left over from sales\". 두 선이 만나는 지점에 \"Break-even: 10,000\" 표시. 교차점 왼쪽 영역은 연한 빨강 \"Loss\", 오른쪽은 연한 초록 \"Profit\".",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The counterexample",
+      "title": "More sales, still a loss.",
+      "illustrative": true,
+      "body": [
+        "A café chain offers a big order. Sales would jump from 8,000 to 12,000 cupcakes a month. The owner celebrates: that's well past 10,000.",
+        "But baking and delivering 12,000 needs a third baker and a second van, costing $3,000 more each month. Fixed costs rise to $15,000, so break-even moves to **12,500**.",
+        "At 12,000 cupcakes, the bakery now loses $600. The growth moved the finish line."
+      ],
+      "image": {
+        "label": "A finish line being pushed further away as a delivery van approaches",
+        "aspectRatio": "16:9",
+        "brief": "일러스트. 배달 밴이 결승선 쪽으로 달리는데, 작업복 차림의 인물 둘(새 제빵사, 두 번째 밴)이 결승선 테이프를 뒤로 옮기고 있음. 원래 위치에 \"10,000\", 새 위치에 \"12,500\" 라벨. 실제 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Every new fixed cost has its own break-even.",
+      "illustrative": true,
+      "body": [
+        "Before adding any fixed cost, ask: how many extra sales pay for this alone? At $1.20 a cupcake:"
+      ],
+      "list": [
+        "A $600-a-month mixer needs **500** more cupcakes",
+        "A $1,200 marketing contract needs 1,000 more",
+        "A $3,000 baker and van need 2,500 more"
+      ],
+      "callout": "If you can't say where those extra sales will come from, the new cost moves you backward."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A break-even number is only as good as its guesses.",
+      "body": [
+        "It assumes price and per-unit costs hold steady. Win volume with a discount, and each sale leaves less, so break-even rises.",
+        "It ignores cash timing. Cafés that pay 60 days late can leave you short of cash even above break-even.",
+        "And it says nothing about demand. Needing 10,000 cupcakes doesn't mean 10,000 buyers exist."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a subscription app.",
+      "illustrative": true,
+      "body": [
+        "Your app charges $20 a month. Servers, payment fees and support cost about $4 per user. The team and tools cost $48,000 a month, so you break even at 3,000 paying users. You have 2,400.",
+        "A salesperson would cost $8,000 a month. When does hiring make sense?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Hire now. More sales effort always gets you closer to break-even",
+            "verdict": "risky",
+            "feedback": "You gain sales capacity, but the hire pushes break-even up to 3,500 users. Without enough new users, you end up further from profit."
+          },
+          {
+            "key": "B",
+            "text": "Hire only if they can realistically add well over 500 users who stay",
+            "verdict": "best",
+            "feedback": "500 users × $16 covers the $8,000 salary. Only users beyond that move you toward profit, and only if they don't cancel."
+          },
+          {
+            "key": "C",
+            "text": "Hire if they can add about 400 paying users",
+            "verdict": "partial",
+            "feedback": "That divides $8,000 by the $20 price. Each user leaves $16 after their own costs, so it takes 500 just to pay for the hire."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Profit starts at a number, not at a price.",
+      "body": [
+        "Break-even = fixed costs ÷ what each sale leaves after its own costs. Recheck it every time you add a fixed cost.",
+        "**Try it today:** add up one month of your fixed costs. Divide by what one typical sale leaves. Is your usual monthly volume above or below that line?"
+      ],
+      "next": "Next · The three levers that move profit"
+    }
+  ]
+}

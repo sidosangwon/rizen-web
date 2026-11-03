@@ -1,0 +1,237 @@
+{
+  "id": "FIN-06-01",
+  "unitId": "FIN-06",
+  "categoryId": "FIN",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "The time value of money",
+  "readerTitle": "Why a dollar today beats a dollar next year",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "illustrative",
+    "real_observation"
+  ],
+  "caseNote": "가상 사례 (사내 운영팀 프로젝트, 도매 공급처 결제 조건) + 실제 관찰 (조기 결제 할인 같은 흔한 거래 조건, 연간 선결제 할인 관행) · 모든 수치는 설명용",
+  "insight": "돈의 크기만큼 돈이 들어오는 시점도 가치다. 같은 금액이라도 먼저 받는 돈은 그동안 일을 할 수 있다.",
+  "misconception": "총액이 더 큰 쪽이 더 좋은 선택이다. 언제 받든 100달러는 100달러다.",
+  "relatedLessonIds": [
+    "FIN-06-02",
+    "FIN-08-03"
+  ],
+  "sources": [
+    {
+      "text": "재무관리의 표준 개념 (화폐의 시간 가치, 기회비용, 이자율)",
+      "url": null
+    },
+    {
+      "text": "조기 결제 할인 조건(예: 2/10 net 30)은 기업 간 거래에서 흔히 쓰이는 표준 표기",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "프로젝트 비교: A는 1년 차 말 $50,000, B는 3년 차 말 $52,000. A를 연 5%로 2년 굴리면 50,000 × 1.05 = 52,500, 52,500 × 1.05 = 55,125. 55,125 > 52,000. 연 2% 미만에서만 B가 앞섭니다 (50,000 × 1.02² = 52,020).",
+      "status": "open"
+    },
+    {
+      "note": "조기 결제 할인: 30일 대신 10일에 내면 20일 앞당겨 2% 절약. 1년 365일 ÷ 20일 = 18.25회, 2% × 18.25 = 36.5% (단순 연환산). 정확히는 2/98 × 18.25 ≈ 37.2%. 카드에는 \"roughly 36% a year\"로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "연간 선결제 할인이 소프트웨어 업계에서 흔하다는 서술은 일반적 관찰로만 썼습니다. 특정 기업이나 할인율은 언급하지 않습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Everyday scene",
+      "title": "Why a dollar today beats a dollar next year",
+      "body": [
+        "A regular customer asks your shop: \"Can I pay you next month instead? Same price.\" Most owners say yes and feel a small sting.",
+        "That sting is right. The price is the same, but the deal isn't. Money that arrives later is worth less than the same money now. This lesson shows why, and how to put a number on it."
+      ],
+      "image": {
+        "label": "Two identical bills, one today and one far away on a calendar",
+        "aspectRatio": "4:3",
+        "brief": "계산대 위에 같은 100달러 지폐 두 장. 하나는 손 바로 앞, 다른 하나는 멀리 달력 다음 달 칸 위에 작고 흐리게. 실제 화폐 디자인 대신 단순화한 지폐 일러스트, 로고 없음.",
+        "url": "assets/images/fin-06-01-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Two projects, same cost. Which one?",
+      "illustrative": true,
+      "body": [
+        "You run the operations team at a mid-sized company. You have budget for one project. Both cost the same today.",
+        "**Project A** saves $50,000, all of it landing at the end of year one. **Project B** saves $52,000, landing at the end of year three. Which do you pick?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Project B. It saves $2,000 more",
+            "verdict": "risky",
+            "feedback": "You gain $2,000 on paper but give up two extra years of using $50,000. As the next card shows, that time is worth more than $2,000."
+          },
+          {
+            "key": "B",
+            "text": "Project A. The money arrives two years sooner",
+            "verdict": "best",
+            "feedback": "Right. Money in hand can be put to work, and it isn't exposed to two more years of things going wrong. The next card shows the math."
+          },
+          {
+            "key": "C",
+            "text": "Either. They're close enough to be equal",
+            "verdict": "partial",
+            "feedback": "Good instinct to look past the bigger number. But two years is a long gap, and it tips the balance clearly."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Follow Project A's $50,000.",
+      "illustrative": true,
+      "body": [
+        "Say the company can earn just 5% a year on spare cash, by paying down a loan or funding other work. Project A's money gets two years to grow before B's money even shows up. It ends up about **$3,000 ahead**, before counting risk."
+      ],
+      "breakdown": [
+        {
+          "value": "$50,000",
+          "label": "End of year 1",
+          "detail": "Project A's savings arrive",
+          "highlight": false
+        },
+        {
+          "value": "$52,500",
+          "label": "End of year 2",
+          "detail": "After one year at 5%",
+          "highlight": false
+        },
+        {
+          "value": "$55,125",
+          "label": "End of year 3",
+          "detail": "After two years at 5%",
+          "highlight": true
+        },
+        {
+          "value": "$52,000",
+          "label": "Project B, year 3",
+          "detail": "Arrives only now",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The time value of money",
+      "body": [
+        "The **time value of money** means a sum you receive today is worth more than the same sum later. Three reasons stack up.",
+        "*Use:* money today can be spent, saved or invested right away. *Risk:* a promise of later money might not be kept. *Prices:* inflation can make later money buy less.",
+        "So timing isn't a detail next to the amount. It is part of the amount."
+      ],
+      "image": {
+        "label": "A coin growing larger along a timeline, while a later coin shrinks",
+        "aspectRatio": "16:9",
+        "brief": "가로 시간축 인포그래픽. 왼쪽 \"Today\" 동전에서 화살표 세 개가 나옴: \"Use it\", \"Less risk\", \"Prices rise\". 오른쪽 \"Later\" 동전은 같은 숫자지만 점점 흐려지고 작아짐.",
+        "url": "assets/images/fin-06-01-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Interest is the price of waiting.",
+      "body": [
+        "You see this idea everywhere once you look. A bank pays you interest because you let it use your money. A lender charges interest because you made it wait.",
+        "Landlords ask for rent in advance. Builders ask for deposits. Each one is choosing to hold money sooner rather than later.",
+        "An interest rate is simply the market's price for time. The longer the wait, the more that price adds up."
+      ],
+      "softwareNote": "Many software companies offer a discount for paying a year upfront instead of monthly. They are buying time: cash now, which they can spend on growth, in return for a little less revenue."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Wider view",
+      "title": "Time cuts both ways.",
+      "body": [
+        "When customers pay you later, you lose value, even at the same price. When you pay suppliers later, you gain it.",
+        "That is why payment terms, deposits and stock levels are money decisions, not admin. Offering 60-day terms to win a client is a real discount, whether or not it appears on the invoice.",
+        "Ask of any deal: *when* does the cash move, not just *how much*."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Sooner isn't always better.",
+      "body": [
+        "The edge from early money depends on what you can do with it. Cash that sits idle in a low-interest account earns little, so a much bigger later sum can still win.",
+        "Paying a lot to get money sooner can also backfire. Deep discounts for fast payment can cost more than the time is worth.",
+        "And the answer turns on the rate you assume. At 5%, Project A won. At under 2%, B would have edged ahead. Choosing that rate is the next lesson."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a wholesale supplier.",
+      "illustrative": true,
+      "body": [
+        "You run a hardware store. A supplier's invoice says: pay in 30 days, or take 2% off if you pay within 10 days.",
+        "You have the cash. It sits in a bank account earning about 4% a year. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Pay on day 30. Holding cash longer is always smart",
+            "verdict": "risky",
+            "feedback": "You keep the cash 20 more days, but give up 2% to do it. That's like paying roughly 36% a year for the wait."
+          },
+          {
+            "key": "B",
+            "text": "Take the discount and pay on day 10",
+            "verdict": "best",
+            "feedback": "Paying 20 days early earns 2%, roughly 36% a year, far more than your 4% account. The only reason to skip it is if the cash is needed for something even more urgent."
+          },
+          {
+            "key": "C",
+            "text": "Take it only if the bank pays less than 2% a year",
+            "verdict": "partial",
+            "feedback": "Right to compare the two, but the units don't match. The 2% is for 20 days, not a year, so it beats almost any account."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "When the cash moves is part of what it's worth.",
+      "body": [
+        "Compare money at the same point in time. Money that arrives sooner can work for you, carries less risk and holds its buying power.",
+        "**Try it today:** look at your next three invoices, in or out. Write down how many days the cash waits, and what that wait is worth to you."
+      ],
+      "next": "Next · How much less is next year's dollar worth?"
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "id": "FIN-05-04",
+  "unitId": "FIN-05",
+  "categoryId": "FIN",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Plan vs actual",
+  "readerTitle": "Same $3,000 overspend, two very different months",
+  "format": "two_businesses",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (청소 서비스, 원예 매장, 소프트웨어 회사) · 모든 수치는 설명용",
+  "insight": "계획과 실적의 차이는 판결이 아니라 질문이다. 차이를 '얼마나 많이 했나(물량)'와 '한 건당 얼마였나(단가·비율)'로 나눠야 무슨 일이 있었는지 보인다.",
+  "misconception": "예산을 넘으면 나쁜 것이고, 예산 안에 들어오면 잘한 것이다.",
+  "relatedLessonIds": [
+    "FIN-05-01",
+    "FIN-05-05"
+  ],
+  "sources": [
+    {
+      "text": "관리회계의 표준 개념 (차이 분석, 물량 차이와 가격·비율 차이 구분, 변동 예산)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "청소 서비스: 계획 200건 × $40 = $8,000, 실적 275건, 실제 비용 $11,000 ÷ 275 = 건당 $40. 물량 차이 (275 − 200) × $40 = $3,000, 단가 차이 ($40 − $40) × 275 = $0. 매출: 계획 200 × $120 = $24,000, 실적 275 × $120 = $33,000.",
+      "status": "open"
+    },
+    {
+      "note": "원예 매장: 매출 계획·실적 모두 $50,000. 상품원가 계획 60% × $50,000 = $30,000, 실적 $33,000 = 66%. 비율 차이 (66% − 60%) × $50,000 = $3,000, 물량 차이 $0. 매출총이익 계획 $20,000 → 실적 $17,000.",
+      "status": "open"
+    },
+    {
+      "note": "소프트웨어: 계획 10,000명 × $0.50 = $5,000, 실적 $6,250 (25% 초과), 사용자 10,000명 그대로 → 사용자당 $0.625.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Two businesses",
+      "title": "Same $3,000 overspend, two very different months",
+      "illustrative": true,
+      "body": [
+        "Two owners open their monthly reports. Both see the same red number: costs came in **$3,000 over plan**.",
+        "One of them just had a great month. The other has a problem that will keep costing money. The report alone can't tell you which is which."
+      ],
+      "image": {
+        "label": "Two monthly reports with the same red number",
+        "aspectRatio": "4:3",
+        "brief": "책상 위에 나란히 놓인 월간 보고서 두 장. 둘 다 같은 빨간 숫자 \"+$3,000 over plan\"에 동그라미. 왼쪽 보고서 옆에는 청소 도구 바구니, 오른쪽에는 화분. 한쪽 사장은 미소, 한쪽은 걱정하는 표정. 실제 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Your cleaning costs ran 37% over plan.",
+      "illustrative": true,
+      "body": [
+        "You run a home cleaning service. You planned $8,000 for cleaner pay and supplies this month. The bill came to $11,000.",
+        "What do you do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Cut overtime and cheaper supplies until costs are back on plan",
+            "verdict": "risky",
+            "feedback": "This acts fast, but you don't yet know why costs rose. If the cause was more jobs, you'd be cutting the very work that earns your money."
+          },
+          {
+            "key": "B",
+            "text": "Check how many cleanings you did compared with the plan",
+            "verdict": "best",
+            "feedback": "Costs that rise with each job should rise when jobs rise. Counting jobs first tells you whether this is growth or waste."
+          },
+          {
+            "key": "C",
+            "text": "Raise next month's budget to $11,000 so the report stops flagging it",
+            "verdict": "partial",
+            "feedback": "It may turn out to be the right number, but setting it without knowing the cause hides a problem if there is one."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "Business 1 · Cleaning",
+      "title": "More jobs, same cost per job.",
+      "illustrative": true,
+      "body": [
+        "The team did 275 cleanings, not 200. Each still cost **$40**. Revenue rose from a planned $24,000 to $33,000. The overspend is just the cost of a busier month."
+      ],
+      "breakdown": [
+        {
+          "value": "$8,000",
+          "label": "Plan",
+          "detail": "200 cleanings × $40",
+          "highlight": false
+        },
+        {
+          "value": "$11,000",
+          "label": "Plan at real volume",
+          "detail": "275 cleanings × $40",
+          "highlight": false
+        },
+        {
+          "value": "$11,000",
+          "label": "Actual",
+          "detail": "What the bill said",
+          "highlight": false
+        },
+        {
+          "value": "$0",
+          "label": "Real problem",
+          "detail": "Cost per job stayed on plan",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Business 2 · Garden store",
+      "title": "Same sales, more cost per dollar sold.",
+      "illustrative": true,
+      "body": [
+        "A garden store planned $50,000 in sales, with goods costing 60% of that: $30,000. Sales hit $50,000 exactly. But goods cost $33,000, or **66%** of sales.",
+        "Nothing extra was sold. Each dollar of sales simply cost more. That points to a supplier price rise, heavy markdowns, or plants that died or went missing. The store kept $17,000 instead of $20,000, and it will keep losing that until someone finds the cause."
+      ],
+      "image": {
+        "label": "Plant pots with rising price tags",
+        "aspectRatio": "16:9",
+        "brief": "원예 매장 진열대. 같은 화분 세 개가 있고, 원가 태그가 \"60¢\"에서 \"66¢\"로 바뀌는 모습(매출 1달러당 원가). 한 화분은 시들어 있음. 실제 브랜드나 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "chart",
+      "eyebrow": "The concept",
+      "title": "Plan vs actual: split the gap",
+      "illustrative": true,
+      "body": [
+        "**Plan vs actual** compares what you expected with what happened. The gap is called a *variance*. It only becomes useful once you split it in two:",
+        "**Volume:** you did more or less than planned. **Rate:** each unit cost (or earned) more or less than planned."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Cleaning service",
+            "rows": [
+              {
+                "label": "Volume",
+                "value": 3000,
+                "highlight": true
+              },
+              {
+                "label": "Rate",
+                "value": 0,
+                "highlight": false
+              }
+            ]
+          },
+          {
+            "label": "Garden store",
+            "rows": [
+              {
+                "label": "Volume",
+                "value": 0,
+                "highlight": false
+              },
+              {
+                "label": "Rate",
+                "value": 3000,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "image": {
+        "label": "Plan vs actual: split the gap",
+        "aspectRatio": "4:3",
+        "brief": "Labeled HTML chart from the lesson numbers",
+        "url": "assets/images/fin-05-04-chart.png"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Good-looking numbers need the same question.",
+      "body": [
+        "The split works in both directions. A marketing budget that comes in under plan may mean the campaign launched late, not that the team was thrifty. Revenue above plan may come from one big order that won't repeat.",
+        "So for every large gap, ask two things: did we do more or less than planned? And did each unit cost or earn what we expected? The first is usually about demand. The second is usually about how well the work is run."
+      ],
+      "image": {
+        "label": "A gap split into two arrows: volume and rate",
+        "aspectRatio": "16:9",
+        "brief": "계획 막대와 실적 막대 사이의 간격을 확대경으로 들여다보는 장면. 간격 안이 두 개의 화살표로 나뉘어 \"Volume: how much\", \"Rate: how much each\" 라벨. 단순한 플랫 인포그래픽.",
+        "url": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A variance is only as good as the plan.",
+      "body": [
+        "If the plan was a rough guess, a big gap may say more about the guess than about the team. Fix the plan, not the people.",
+        "Don't chase every line either. Small gaps are often noise. Pick a threshold, such as 10% or a set dollar amount, and dig only past it.",
+        "And never punish a team for volume-driven overspend. People learn to slow down busy months or pad their budgets."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software company.",
+      "illustrative": true,
+      "body": [
+        "You run a subscription app. You planned $5,000 for cloud hosting, based on 10,000 active users at $0.50 each. The bill came to $6,250, 25% over. Active users: 10,000, right on plan.",
+        "What's your read?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Approve it. Hosting bills grow as the product grows",
+            "verdict": "risky",
+            "feedback": "Users didn't grow, so this isn't a volume story. Cost per user rose from $0.50 to about $0.63, and that will repeat every month."
+          },
+          {
+            "key": "B",
+            "text": "Look at cost per active user and find what changed",
+            "verdict": "best",
+            "feedback": "This is a rate variance. A new feature, a forgotten test server or a pricing change at your provider is likely. Find it before it becomes the new normal."
+          },
+          {
+            "key": "C",
+            "text": "Order the team to get next month's bill back to $5,000",
+            "verdict": "partial",
+            "feedback": "The target is right, but an order without a cause can lead to cuts that slow the product for users."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Ask whether you did more, or paid more for each.",
+      "body": [
+        "A gap between plan and actual is a question, not a verdict. Split it into volume and rate before you praise or cut.",
+        "**Try it today:** take your biggest cost line from last month. Divide it by the number of sales, jobs or customers. Compare that per-unit cost with your plan."
+      ],
+      "next": "Next · Why some teams replan every month"
+    }
+  ]
+}

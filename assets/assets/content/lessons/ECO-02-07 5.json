@@ -1,0 +1,266 @@
+{
+  "id": "ECO-02-07",
+  "unitId": "ECO-02",
+  "categoryId": "ECO",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "Should a bakery take a big wholesale order?",
+  "readerTitle": "Should the bakery take the supermarket order?",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.3,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (동네 빵집과 지역 슈퍼마켓 체인, 소형 배송업체) · 모든 수치는 설명용",
+  "insight": "대량 주문은 한 덩어리로 판단하지 않는다. 남는 설비로 만드는 몫과 설비를 늘려야 하는 몫을 나눠 각각의 한계비용과 비교한다.",
+  "misconception": "주문 가격이 고정비까지 나눠 넣은 '단위 원가'보다 낮으면 손해다. 또는 재료비보다만 높으면 물량이 얼마든 이익이다.",
+  "relatedLessonIds": [
+    "ECO-02-01",
+    "ECO-02-02"
+  ],
+  "sources": [
+    {
+      "text": "미시경제학·관리회계의 표준 개념 (고정비·변동비 구분, 한계비용, 생산능력과 계단식 비용)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "빵집 기본 수치: 매장 판매 하루 300개 × $6, 개당 변동비(재료·포장) $1.50, 하루 고정비 $1,200. 고정비 배분 원가 = $1.50 + $1,200 ÷ 300 = $1.50 + $4.00 = $5.50. 정규 근무 시간의 오븐 생산능력 하루 400개.",
+      "status": "open"
+    },
+    {
+      "note": "주문 200개 × $3.50. 첫 100개(남는 생산능력): $3.50 − $1.50 = $2.00 × 100 = +$200. 다음 100개(추가 새벽 근무): 제빵사 초과근무 $240 + 오븐 에너지 $30 = $270 ÷ 100 = $2.70, 한계비용 $1.50 + $2.70 = $4.20, $3.50 − $4.20 = −$0.70 × 100 = −$70. 전체 주문 = $200 − $70 = +$130/일.",
+      "status": "open"
+    },
+    {
+      "note": "재협상: 두 번째 100개를 $4.80에 받으면 $4.80 − $4.20 = $0.60 × 100 = +$60, 합계 $200 + $60 = $260/일. 매장 고객이 슈퍼마켓으로 옮겨 가면 매장 판매 1개당 $6 − $1.50 = $4.50를 잃음.",
+      "status": "open"
+    },
+    {
+      "note": "배송 사례: 회계상 배분 원가 회당 $180, 귀로 화물의 추가 비용 약 $15(적재 시간·연료) → $60 − $15 = $45 남음. 전용 운행의 추가 비용 약 $120(기사 시간·연료) → $60 − $120 = −$60. 모두 설명용 가정.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Costs · Everyday scene",
+      "title": "Should the bakery take the supermarket order?",
+      "illustrative": true,
+      "body": [
+        "Mina's bakery sells 300 loaves a day at $6. A regional supermarket chain calls: they want 200 loaves a day, every day, at $3.50 each.",
+        "Her spreadsheet says each loaf costs her $5.50 to make. On paper, the offer loses money. The real answer is less simple, and it splits right down the middle of the order."
+      ],
+      "image": {
+        "label": "A baker holding a phone next to a rack of loaves",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 작은 빵집 주방에서 제빵사가 전화를 받고 있고, 옆 선반에 빵이 가득. 말풍선에 \"200 loaves a day at $3.50?\". 실제 슈퍼마켓 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/eco-02-07-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What should Mina say?",
+      "illustrative": true,
+      "body": [
+        "Ingredients and packaging cost $1.50 a loaf. Rent, the oven and her bakers' regular shifts cost $1,200 a day, whatever she bakes.",
+        "In a normal shift her oven can bake 400 loaves. She already bakes 300 for the shop."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "No. $3.50 is below her $5.50 cost per loaf",
+            "verdict": "risky",
+            "feedback": "The $5.50 includes rent and wages she pays anyway. Turning the order down keeps the spreadsheet tidy but leaves real money on the table."
+          },
+          {
+            "key": "B",
+            "text": "Yes, all 200. $3.50 is well above the $1.50 in ingredients",
+            "verdict": "partial",
+            "feedback": "Right for the first 100 loaves. But the oven only has room for 100 more, so the rest bring new costs that $1.50 doesn't capture."
+          },
+          {
+            "key": "C",
+            "text": "Take what fits in the spare oven time, and price the rest separately",
+            "verdict": "best",
+            "feedback": "This treats the order as two different jobs with two different costs. The next card shows why that matters."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "One order, two very different halves.",
+      "illustrative": true,
+      "body": [
+        "The extra 100 loaves need an early-morning shift: $240 in overtime plus $30 of oven energy. That adds **$2.70 a loaf**. Taking the whole order earns $130 a day. Taking only the first half earns $200."
+      ],
+      "breakdown": [
+        {
+          "value": "+$2.00",
+          "label": "First 100 loaves",
+          "detail": "$3.50 − $1.50 ingredients. Oven and staff are already paid.",
+          "highlight": true
+        },
+        {
+          "value": "+$200",
+          "label": "Per day, first half",
+          "detail": "100 × $2.00",
+          "highlight": false
+        },
+        {
+          "value": "−$0.70",
+          "label": "Next 100 loaves",
+          "detail": "$3.50 − ($1.50 + $2.70 extra shift)",
+          "highlight": false
+        },
+        {
+          "value": "−$70",
+          "label": "Per day, second half",
+          "detail": "100 × −$0.70",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept at work · Fixed vs variable costs",
+      "title": "The $5.50 is mostly money she spends anyway.",
+      "body": [
+        "Of the $5.50, only $1.50 rises with each loaf. That is the **variable cost**. The other $4.00 is her **fixed costs**, rent, oven and regular wages, spread over 300 loaves.",
+        "Spreading fixed costs is useful for setting shop prices. It misleads you on an extra order. Saying yes or no to the supermarket doesn't change the rent by a cent."
+      ],
+      "image": {
+        "label": "A loaf split into a small $1.50 slice and a large $4.00 slice",
+        "aspectRatio": "16:9",
+        "brief": "빵 한 덩이를 두 조각으로 자른 그림. 작은 조각 \"Changes with each loaf $1.50\", 큰 조각 \"Paid anyway: rent, oven, wages $4.00\". 큰 조각은 회색으로 흐리게 처리.",
+        "url": "assets/images/eco-02-07-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Concept at work · Marginal cost",
+      "title": "The next loaf doesn't always cost the same.",
+      "body": [
+        "**Marginal cost** is what one more unit adds to your total costs. While the oven has spare room, Mina's is $1.50.",
+        "Once the oven is full, the next loaf drags a whole extra shift with it. Her marginal cost jumps to $4.20. Costs often move in steps like this: flat until you hit capacity, then a sudden climb."
+      ],
+      "image": {
+        "label": "Step chart: cost per extra loaf jumps at 400 loaves",
+        "aspectRatio": "16:9",
+        "brief": "계단형 그래프. 가로축 \"Loaves per day\", 세로축 \"Cost of the next loaf\". 400개까지 $1.50로 평평하다가 400개에서 $4.20으로 뛰어오름. 400 지점에 \"Oven full\" 표시.",
+        "url": "assets/images/eco-02-07-c5.jpg"
+      },
+      "softwareNote": "Software has the same steps. Extra users cost almost nothing until a server tier, support team or database limit fills up. Then the next customer carries a big new cost."
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Mina wants to quote the second 100 loaves.",
+      "illustrative": true,
+      "body": [
+        "She'll happily take the first 100 at $3.50. What price should she ask for the 100 that need the early shift?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "$3.50, the same as the first 100, to keep it simple",
+            "verdict": "risky",
+            "feedback": "Simple, but each of those loaves costs $4.20 to make. She'd be paying $70 a day for the privilege of working longer."
+          },
+          {
+            "key": "B",
+            "text": "$4.20, exactly what each extra loaf costs",
+            "verdict": "partial",
+            "feedback": "No loss, but no gain either. She takes on an early shift and more risk for nothing."
+          },
+          {
+            "key": "C",
+            "text": "Above $4.20, say $4.80, or delivery on days the oven has room",
+            "verdict": "best",
+            "feedback": "Pricing against marginal cost makes the second half pay its own way: $60 a day more, for $260 in total."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Cheap today can get expensive later.",
+      "body": [
+        "Ignoring fixed costs works for spare capacity. If the order grows and Mina must buy a second oven or rent more space, those new fixed costs belong to this order, and $3.50 may not cover them.",
+        "Watch your own shop too. If regulars start buying her bread at the supermarket, each lost $6 shop sale costs her $4.50. One wholesale loaf at $3.50 earns only $2.00."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a delivery company.",
+      "illustrative": true,
+      "body": [
+        "Your vans drive goods from the city to suburban stores each morning, then drive back empty. A wholesaler offers $60 a trip to carry stock back to the city.",
+        "Your accountant says a trip costs $180 once drivers, fuel and van leases are spread in. Loading the return cargo adds about $15."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Decline. $60 is a third of what a trip costs",
+            "verdict": "risky",
+            "feedback": "The van makes the return trip anyway, with the driver already paid. Declining gives up about $45 a trip."
+          },
+          {
+            "key": "B",
+            "text": "Accept on return trips, and charge more for any extra trips",
+            "verdict": "best",
+            "feedback": "Return trips use spare capacity, so the marginal cost is $15. A dedicated trip adds around $120 in driver time and fuel, so $60 would lose money there."
+          },
+          {
+            "key": "C",
+            "text": "Accept, and add extra trips at $60 if they want more",
+            "verdict": "risky",
+            "feedback": "Same mistake as baking 400-plus loaves at $3.50. Beyond spare capacity, each extra trip costs more than it earns."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Split a big order where your capacity runs out.",
+      "body": [
+        "Price the part that fits in spare capacity against its true extra cost. Price the rest against the new costs it brings.",
+        "**Try it today:** find the point where your business runs out of room, whether ovens, vans, staff hours or servers. Write down what the next unit costs before and after that point."
+      ],
+      "list": [
+        "**Fixed vs variable costs:** the $5.50 'cost' was mostly rent and wages paid anyway",
+        "**Marginal cost:** the next loaf cost $1.50, then $4.20 once the oven was full"
+      ],
+      "next": "Next · Why software gets cheaper per user"
+    }
+  ]
+}

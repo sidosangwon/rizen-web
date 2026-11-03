@@ -1,0 +1,242 @@
+{
+  "id": "FIN-01-06",
+  "unitId": "FIN-01",
+  "categoryId": "FIN",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Gross vs net margin",
+  "readerTitle": "The shop that keeps 55 cents and 2 cents of every dollar",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.4,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (선물 가게, 장비 제조사의 부품팀) · 모든 수치는 설명용",
+  "insight": "매출총이익률은 '상품이 돈을 버는가', 순이익률은 '사업 전체가 돈을 버는가'를 묻는다. 둘 사이의 간격이 어디를 고쳐야 할지 알려준다.",
+  "misconception": "마진은 하나의 숫자다. 매출총이익률이 높으면 사업도 잘되고 있다.",
+  "relatedLessonIds": [
+    "FIN-01-05",
+    "FIN-01-07"
+  ],
+  "sources": [
+    {
+      "text": "재무회계의 표준 개념 (매출총이익, 매출원가, 순이익)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "선물 가게 계산: 매출 $400,000 − 매출원가 $180,000 = 매출총이익 $220,000 (55%). 임대료 $90,000 + 인건비 $100,000 + 기타 $22,000 = $212,000 (매출의 53%). 순이익 $8,000 = 2%. $100 기준: $100 − $45 = $55, $55 − $53 = $2.",
+      "status": "open"
+    },
+    {
+      "note": "단순화를 위해 세금을 제외했습니다. 엄밀한 순이익률은 이자와 세금까지 뺀 값입니다. 7번 카드에서 이 점을 밝혔습니다.",
+      "status": "open"
+    },
+    {
+      "note": "소프트웨어의 매출총이익률이 대체로 높다는 서술과 슈퍼마켓·보석상 비교는 구체적 수치 없이 일반론으로만 썼습니다. 수치를 넣으려면 출처를 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Everyday scene",
+      "title": "The shop that keeps 55 cents and 2 cents of every dollar",
+      "illustrative": true,
+      "body": [
+        "A gift shop owner buys a candle for $18 and sells it for $40. \"I make 55% on everything,\" she tells a friend.",
+        "At year end, her accountant says the shop kept 2 cents of each dollar it took in. Both of them are telling the truth."
+      ],
+      "image": {
+        "label": "A candle on a shop counter with two price tags: 55% and 2%",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 조명의 작은 선물 가게 계산대. 양초 하나에 꼬리표 두 개가 달려 있음: 큰 꼬리표 \"55%\", 아주 작은 꼬리표 \"2%\". 실제 브랜드 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Where do you look first?",
+      "illustrative": true,
+      "body": [
+        "The shop sells $400,000 a year. The goods it sold cost $180,000. After rent, staff and everything else, $8,000 is left.",
+        "The owner wants more profit. Where should she look first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Find a cheaper supplier to push the 55% higher",
+            "verdict": "partial",
+            "feedback": "It would help a little. But the products already earn a healthy 55%. Most of the money disappears later."
+          },
+          {
+            "key": "B",
+            "text": "Look hard at the $212,000 of rent, staff and other costs",
+            "verdict": "best",
+            "feedback": "That's where 53 of every 55 cents go. The products work. The costs of running the shop are eating the result."
+          },
+          {
+            "key": "C",
+            "text": "Raise every price by 10%",
+            "verdict": "risky",
+            "feedback": "It might work, but it treats a running-cost problem as a price problem. If customers drift away, she loses both."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Follow $100 of sales.",
+      "illustrative": true,
+      "body": [
+        "The first subtraction leaves **$55**. The second leaves **$2**. Two margins, two very different stories."
+      ],
+      "breakdown": [
+        {
+          "value": "$100",
+          "label": "Sales",
+          "detail": "What customers paid",
+          "highlight": false
+        },
+        {
+          "value": "−$45",
+          "label": "Cost of goods",
+          "detail": "What the sold items cost to buy",
+          "highlight": false
+        },
+        {
+          "value": "$55",
+          "label": "Gross profit",
+          "detail": "55% gross margin",
+          "highlight": true
+        },
+        {
+          "value": "−$53",
+          "label": "Running costs",
+          "detail": "Rent, staff, card fees, insurance",
+          "highlight": false
+        },
+        {
+          "value": "$2",
+          "label": "Net profit",
+          "detail": "2% net margin",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Gross margin vs net margin",
+      "body": [
+        "**Gross margin** is sales minus the cost of the goods you sold, as a share of sales. It asks: does the product itself make money?",
+        "**Net margin** is what's left after every cost, as a share of sales. It asks: does the whole business make money?",
+        "The gap between them is the cost of running the business: rent, salaries, marketing, interest."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Two margins, two different fixes.",
+      "body": [
+        "Reading both numbers together tells you where to work."
+      ],
+      "list": [
+        "**Low gross margin:** look at prices, suppliers, waste and which products you sell",
+        "**Healthy gross, low net:** look at rent, staff, marketing and other running costs",
+        "**Both low:** the product and the way you run it both need work"
+      ],
+      "callout": "One margin tells you how you're doing. Two tell you where to look.",
+      "softwareNote": "Software gross margins are often high, because serving one more user costs little. Net margins can still be negative, because engineers, sales and marketing all sit below the gross line."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Wider view",
+      "title": "A thin gross margin isn't always bad.",
+      "body": [
+        "A supermarket earns little on each item. It survives because it sells huge volumes through the same rent and staff.",
+        "A jeweler needs a fat gross margin. It may sell a few pieces a day and still pays for a prime location, security and skilled staff.",
+        "So compare your margins with similar businesses, and with your own past. Comparing a grocer's gross margin with a jeweler's tells you nothing."
+      ],
+      "image": {
+        "label": "Two stacked bars: grocer and jeweler",
+        "aspectRatio": "16:9",
+        "brief": "막대 두 개 비교 일러스트. 왼쪽 \"Grocer\"는 매출총이익 층이 얇고, 오른쪽 \"Jeweler\"는 매출총이익 층이 두껍지만 운영비 층도 두꺼움. 두 막대 모두 맨 위 순이익 층은 비슷하게 얇음. 수치 없음, 실제 상호 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Where the line sits is a choice.",
+      "body": [
+        "Businesses draw the gross line in different places. One shop counts delivery and packing as cost of goods. Another puts them under running costs. Same business, different gross margin.",
+        "Net margin moves with one-off items, interest and taxes, which we left out here to keep it simple. A single year can mislead. Check what's included before you compare, and look at several years."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a team inside a company.",
+      "illustrative": true,
+      "body": [
+        "You run the spare-parts team at an equipment maker. Finance reports your line at a 40% gross margin. After your share of head-office costs, its net margin is −3%.",
+        "An executive suggests closing the line. What do you say?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Agree. A negative net margin means it loses money",
+            "verdict": "risky",
+            "feedback": "Much of the head-office share, like the main building and the finance team, stays if you close. You'd lose the 40% gross profit that helps pay for it."
+          },
+          {
+            "key": "B",
+            "text": "Ask which costs below the gross line would actually disappear",
+            "verdict": "best",
+            "feedback": "This separates the product's own result from costs spread across every team. It tells you whether closing helps the company or just moves the costs."
+          },
+          {
+            "key": "C",
+            "text": "Raise parts prices 15% to make the net margin positive",
+            "verdict": "partial",
+            "feedback": "It may lift both margins, but it skips the real question. And loyal equipment customers may push back."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Gross margin asks if the product pays. Net margin asks if the business pays.",
+      "body": [
+        "Read them together. The gap between them shows what running the business costs.",
+        "**Try it today:** take last month's numbers. Work out your gross margin and your net margin, then write down the three biggest costs in the gap."
+      ],
+      "next": "Next · Read a café's profit and loss"
+    }
+  ]
+}

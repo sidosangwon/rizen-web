@@ -1,0 +1,257 @@
+{
+  "id": "CUS-10-03",
+  "unitId": "CUS-10",
+  "categoryId": "CUS",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "Lab results in the real world",
+  "readerTitle": "The study said 30%. Your restaurant got 8.",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.3,
+  "caseKinds": [
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 연구 (DellaVigna & Linos 2022, 넛지 유닛 실험) + 가상 사례 (식당 디저트 메뉴, 앱 온보딩) · 식당과 앱 수치는 설명용",
+  "insight": "연구 결과는 '효과가 있다/없다'보다 '내 사업에서는 얼마나 줄어들까'로 읽어야 한다.",
+  "misconception": "논문에서 30% 올랐다면 우리 가게에서도 30% 오른다. 반대로, 효과가 작아지면 그 연구는 틀린 것이다.",
+  "relatedLessonIds": [
+    "CUS-10-05",
+    "CUS-10-06"
+  ],
+  "sources": [
+    {
+      "text": "DellaVigna, S. & Linos, E. (2022). RCTs to Scale: Comprehensive Evidence from Two Nudge Units. Econometrica, 90(1).",
+      "url": null
+    },
+    {
+      "text": "List, J. A. (2022). The Voltage Effect. Currency.",
+      "url": null
+    },
+    {
+      "text": "식당·앱 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "DellaVigna & Linos(2022) 수치 확인 필요: 학술지 논문 평균 효과 8.7%p(상대 33.4%), 넛지 유닛 실험 평균 1.4%p(상대 8.0%). 넛지 유닛 표본은 미국 OES와 BIT North America의 실험 126건, 약 2,300만 명으로 기억함. 게시 전 원문으로 재확인.",
+      "status": "open"
+    },
+    {
+      "note": "'voltage drop'이라는 표현이 John List의 The Voltage Effect(2022)에서 쓰이는 용어인지 확인.",
+      "status": "open"
+    },
+    {
+      "note": "식당 계산(가상): 주 100개 디저트 × 30% = 30개, 메뉴를 보는 손님 절반 → 15개, 신기함이 사라져 다시 절반 → 7.5개, 약 8개(+8%). 앱 계산(가상): 2,000명 × 40% = 800명, 800 × 25% = 200명.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Numbers twist",
+      "title": "The study said 30%. Your restaurant got 8.",
+      "illustrative": true,
+      "body": [
+        "A restaurant owner reads about a study. A simple change to how desserts appear on a menu raised dessert orders by 30%.",
+        "She reprints her menus. A month later, dessert sales are up. Just not by 30%. The study wasn't fake. So where did the rest go?"
+      ],
+      "image": {
+        "label": "A big '+30%' sign shrinking into a small '+8%' on a dessert menu",
+        "aspectRatio": "4:3",
+        "brief": "식당 테이블 위 디저트 메뉴판. 위쪽에 큰 말풍선 \"+30%\"가 있고, 아래로 내려오며 점점 작아져 메뉴판 위에서는 작은 \"+8%\"가 됨. 따뜻한 조명, 실제 브랜드 로고 없음.",
+        "url": "assets/images/cus-10-03-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How many extra desserts should you plan for?",
+      "illustrative": true,
+      "body": [
+        "You sell about 100 desserts a week. A published study found a menu change lifted dessert orders by 30%. You make the same change.",
+        "How many extra desserts a week should you plan for?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "About 30. The study measured it carefully",
+            "verdict": "risky",
+            "feedback": "You'd stock and staff for demand that likely won't show up. Careful measurement in one setting doesn't mean the same size in yours."
+          },
+          {
+            "key": "B",
+            "text": "About 5 to 10, then check your own sales",
+            "verdict": "best",
+            "feedback": "You keep the upside but plan for the usual shrinkage. Your own numbers will tell you the real size."
+          },
+          {
+            "key": "C",
+            "text": "None. Lab results don't apply to real restaurants",
+            "verdict": "partial",
+            "feedback": "Healthy doubt, but you'd skip a cheap change that probably helps a little. Small and real is still worth having."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Follow the 30% into a real dining room.",
+      "illustrative": true,
+      "body": [
+        "The effect didn't vanish. It met real customers, who are busy, distracted and used to your menu. About **8 extra desserts**, or +8%."
+      ],
+      "breakdown": [
+        {
+          "value": "+30",
+          "label": "The study's promise",
+          "detail": "30% of your 100 weekly desserts",
+          "highlight": false
+        },
+        {
+          "value": "+15",
+          "label": "Only half see it",
+          "detail": "Many guests are full, rushed or never open the dessert page",
+          "highlight": false
+        },
+        {
+          "value": "+8",
+          "label": "Novelty fades",
+          "detail": "Regulars stop noticing after a few weeks, roughly halving it again",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The lab-to-field gap",
+      "body": [
+        "The **lab-to-field gap** is the drop between how big an effect looks in a study and how big it is with real customers.",
+        "In a study, people often face one decision, pay full attention and see the change for the first time. In your business, they're juggling a dozen things. The direction of the effect often survives. The size usually shrinks. Economist John List calls this kind of loss a *voltage drop*."
+      ],
+      "image": {
+        "label": "A tall bar labeled 'Study' next to a short bar labeled 'Your business'",
+        "aspectRatio": "16:9",
+        "brief": "왼쪽은 깔끔한 실험실 책상 위의 높은 막대 \"Study\", 오른쪽은 붐비는 가게 카운터 위의 낮은 막대 \"Your business\". 두 막대 사이 화살표에 \"Same direction, smaller size\" 라벨.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "chart",
+      "eyebrow": "The evidence",
+      "title": "Published nudges vs. nudges at scale",
+      "body": [
+        "Economists Stefano DellaVigna and Elizabeth Linos compared studies in academic journals with real trials run by two US government nudge units. Same kinds of ideas, very different sizes. The trials at scale showed about a quarter of the published effect."
+      ],
+      "chart": {
+        "unit": "%",
+        "groups": [
+          {
+            "label": "Average increase in the targeted behavior",
+            "rows": [
+              {
+                "label": "Academic journal studies",
+                "value": 33.4,
+                "highlight": false
+              },
+              {
+                "label": "Nudge unit trials at scale",
+                "value": 8,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "image": {
+        "label": "Journal nudges vs nudges at scale",
+        "aspectRatio": "4:3",
+        "brief": "33% published lift vs 8% at-scale government trials.",
+        "url": "assets/images/cus-10-03-info.png"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Why it shrinks",
+      "title": "Four filters between the lab and your till.",
+      "body": [
+        "Each one trims a little off the result."
+      ],
+      "list": [
+        "**Attention:** study participants notice the change; customers often don't",
+        "**Publication:** big, surprising results are more likely to get published",
+        "**Novelty:** new things work best while they're new",
+        "**Different people:** students in a study aren't your regulars"
+      ],
+      "callout": "None of this means the study was wrong. It means it was measured somewhere else."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Smaller isn't the same as useless.",
+      "body": [
+        "An 8% lift from reprinting menus is a good deal. Cheap changes can pay off even after shrinking.",
+        "This is also different from a result that fails to replicate at all. That's a separate problem. Here the effect is real but smaller. And the gap varies: sometimes a field result holds up well. You only know by testing it with your own customers."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's an app's setup flow.",
+      "illustrative": true,
+      "body": [
+        "Your app gets 2,000 signups a month. 40% finish setup. A blog cites a study where adding a progress bar raised completion by 25%. Your team wants to promise 200 more finished setups next month."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Ship it to everyone and commit to the 200 forecast",
+            "verdict": "risky",
+            "feedback": "Fast, but you'll likely miss the target and won't know what the bar actually did."
+          },
+          {
+            "key": "B",
+            "text": "Show it to half of new users for a few weeks and compare",
+            "verdict": "best",
+            "feedback": "You give up a little speed to learn the real size in your own product, with your own users."
+          },
+          {
+            "key": "C",
+            "text": "Skip it. A blog's study can't predict your users",
+            "verdict": "partial",
+            "feedback": "Right to doubt the 25%, but a cheap test costs little and could find a real, smaller gain."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Trust the direction. Test the size.",
+      "body": [
+        "A study tells you what can work somewhere. Your customers tell you how much it works here.",
+        "**Try it today:** take one tactic you've read about. Write down the promised lift, then guess how many of your customers will actually notice it."
+      ],
+      "next": "Next · Nudges that help customers"
+    }
+  ]
+}

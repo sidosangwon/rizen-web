@@ -1,0 +1,275 @@
+{
+  "id": "OPS-01-10",
+  "unitId": "OPS-01",
+  "categoryId": "OPS",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Your orders are running late",
+  "readerTitle": "The steel shop that promised 10 days and took 17",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (맞춤 철제 선반 제작·배송 공방, 온라인 주문) · 모든 수치는 설명용",
+  "insight": "주문이 늦어질 때는 모두를 더 일하게 하기 전에 주문 하나를 끝까지 따라가 가장 느린 단계를 찾고, 그 단계를 지키고, 그 단계의 시간을 갉아먹는 실수를 처음부터 막는다.",
+  "misconception": "주문이 밀리면 사람을 더 쓰거나 모두 더 빨리, 더 오래 일하면 해결된다.",
+  "relatedLessonIds": [
+    "OPS-01-02",
+    "OPS-01-06"
+  ],
+  "sources": [
+    {
+      "text": "Goldratt, E. M. & Cox, J. (1984). The Goal. 병목(제약) 관리의 고전적 설명",
+      "url": null
+    },
+    {
+      "text": "운영관리의 표준 개념 (프로세스 맵, 병목, 용량, 표준화, 원천 품질, 지속적 개선)",
+      "url": null
+    },
+    {
+      "text": "모든 수치와 회사는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 설명용 가상 수치입니다. 리드타임 계산: 실제 작업 약 4일(절단 1 + 용접 1 + 도장 1 + 포장 1) + 대기 13일 = 17일. 이후 12일 → 9일로 줄어드는 흐름이 카드 3~6 사이에서 일관되는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "재작업 비율: 처음 10건 중 1건(10%), 개선 후 50건 중 1건(2%). 성수기 수요 증가 30%는 가정입니다. 카드 간 숫자가 서로 맞는지 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "\"병목이 개선되면 다른 단계로 옮겨간다\"는 제약이론의 일반 원리로 서술했습니다. 특정 연구 수치는 인용하지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Simulation",
+      "title": "The steel shop that promised 10 days and took 17",
+      "illustrative": true,
+      "body": [
+        "You run a 12-person workshop that makes custom steel shelving. Customers design their units online, and you ship them by freight. Your website promises delivery in 10 days.",
+        "Lately the average is 17. Complaints are up, and two business customers have quietly stopped ordering. Your team already feels busy. Over the next few cards, you make the calls."
+      ],
+      "image": {
+        "label": "Workshop with a calendar showing late orders",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 작은 철제 가공 공방 내부, 벽에 걸린 달력에 빨간 표시가 여러 개, 출고 대기 중인 상자들. 실제 브랜드 로고 없음.",
+        "url": "assets/images/ops-01-10-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 4",
+      "title": "Orders are late. What's your first move?",
+      "illustrative": true,
+      "body": [
+        "Every station looks busy. Your team leads each have a different theory about the problem."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Add a Saturday shift for the whole team",
+            "verdict": "partial",
+            "feedback": "You get more hours, but you pay overtime at every station. If one step is holding things up, most of the extra work just piles up in front of it."
+          },
+          {
+            "key": "B",
+            "text": "Follow five recent orders from click to truck, timing each step and each wait",
+            "verdict": "best",
+            "feedback": "It costs a few days of watching, not money. You trade a quick fix for a clear picture of where the time actually goes."
+          },
+          {
+            "key": "C",
+            "text": "Replace the old laser cutter with a faster one",
+            "verdict": "risky",
+            "feedback": "A big spend based on a guess. If cutting isn't the slow step, finished parts will just reach the real problem sooner."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 4",
+      "title": "The pile in front of the oven",
+      "illustrative": true,
+      "body": [
+        "Say you chose to follow the orders. Hands-on work takes about 4 days. The other 13 are waiting, mostly in a pile of welded parts outside the powder-coating oven. The oven sits empty during lunch and while parts are hung on racks.",
+        "**The whole shop can only ship as fast as the oven.** What now?"
+      ],
+      "image": {
+        "label": "Process flow with a big pile before one step",
+        "aspectRatio": "16:9",
+        "brief": "왼쪽에서 오른쪽으로 흐르는 공정도: Cut → Weld → Coat → Pack → Truck. Coat 앞에만 부품 상자가 높이 쌓여 있고 나머지 단계 앞은 비어 있음.",
+        "url": "assets/images/ops-01-10-c3.jpg"
+      },
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Speed up cutting and welding so coating gets parts sooner",
+            "verdict": "risky",
+            "feedback": "The pile in front of the oven just grows. You'd add effort where it changes nothing."
+          },
+          {
+            "key": "B",
+            "text": "Keep the oven running nonstop: welders pre-hang parts on racks, and lunch breaks are staggered",
+            "verdict": "best",
+            "feedback": "Every hour the oven runs is an hour the whole shop gains. It costs some shuffling of jobs, not new equipment."
+          },
+          {
+            "key": "C",
+            "text": "Buy a second oven",
+            "verdict": "partial",
+            "feedback": "Right place, but a big cost. The oven you have still sits idle part of the day."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "In a software team, the oven is often code review or the one person who approves releases. Finished work waits there, and writing code faster only makes the queue longer."
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 4",
+      "title": "Some orders go through the oven twice.",
+      "illustrative": true,
+      "body": [
+        "Say you kept the oven running. Delivery drops to about 12 days. But about 1 in 10 orders comes back for recoating: wrong color, or a size misread from a customer's note. Each redo uses the very oven time you just freed up."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Add a final inspection before packing",
+            "verdict": "partial",
+            "feedback": "Fewer bad units reach customers. But the mistake is found after it has already used cutting, welding and oven time."
+          },
+          {
+            "key": "B",
+            "text": "Make the online form use fixed size and color options, and check each order once before cutting",
+            "verdict": "best",
+            "feedback": "Errors are stopped where they start, before they touch the slowest step. Customers lose a little freedom in how they describe orders."
+          },
+          {
+            "key": "C",
+            "text": "Ask everyone to read orders more carefully",
+            "verdict": "risky",
+            "feedback": "Free, and it feels responsible. But the same unclear notes keep arriving, so the same mistakes return."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 4 of 4",
+      "title": "Busy season is coming.",
+      "illustrative": true,
+      "body": [
+        "Say you fixed the order form. Redos fall to about 1 in 50, and delivery is near 9 days. Next quarter, you expect about 30% more orders."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Call it solved and move on to sales",
+            "verdict": "risky",
+            "feedback": "You save management time now. But nobody will notice when the pile starts growing again."
+          },
+          {
+            "key": "B",
+            "text": "Check whether the oven can handle 30% more, then hold a 15-minute weekly review of delivery time, pile size and redos",
+            "verdict": "best",
+            "feedback": "A small, steady habit that catches problems while they're cheap. It costs a quarter hour a week."
+          },
+          {
+            "key": "C",
+            "text": "Hire two more welders for the season",
+            "verdict": "risky",
+            "feedback": "You'd pay for more welded parts that can't get through the oven any faster."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "breakdown",
+      "eyebrow": "What changed",
+      "title": "Same team, same building, faster orders.",
+      "illustrative": true,
+      "body": [
+        "No new hires and no new machines. Each step came from seeing where orders actually waited."
+      ],
+      "breakdown": [
+        {
+          "value": "17 days",
+          "label": "Start",
+          "detail": "Only 4 days of real work",
+          "highlight": false
+        },
+        {
+          "value": "12 days",
+          "label": "Oven kept running",
+          "detail": "The slowest step stopped sitting idle",
+          "highlight": false
+        },
+        {
+          "value": "1 in 50",
+          "label": "Redos",
+          "detail": "Down from 1 in 10 after the form fix",
+          "highlight": false
+        },
+        {
+          "value": "9 days",
+          "label": "Now",
+          "detail": "Inside the 10-day promise",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The slowest step moves.",
+      "body": [
+        "Once the oven speeds up, packing or freight pickup may become the new bottleneck. That's why the weekly review matters more than any single fix.",
+        "Also, letting welders sit idle sometimes is fine. Busy stations everywhere aren't the goal; finished orders are.",
+        "And five orders is a small sample. Treat the first map as a starting guess, then keep checking."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Follow the order, find the slowest step, then protect it.",
+      "body": [
+        "Each call you made maps to an idea from this unit:"
+      ],
+      "list": [
+        "**Follow five orders:** see the process before fixing it",
+        "**Keep the oven running:** bottlenecks and capacity",
+        "**Fix the order form:** standardization and quality at the source",
+        "**Weekly review:** continuous improvement"
+      ],
+      "callout": "**Try it today:** follow one order from start to finish. Write down how long it is worked on, and how long it waits.",
+      "next": "Next · Where the time in your process really goes"
+    }
+  ]
+}

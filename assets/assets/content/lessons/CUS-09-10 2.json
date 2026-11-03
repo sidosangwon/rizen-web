@@ -1,0 +1,244 @@
+{
+  "id": "CUS-09-10",
+  "unitId": "CUS-09",
+  "categoryId": "CUS",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Your biggest customer wants a custom feature",
+  "readerTitle": "Your biggest customer wants something only they will use",
+  "format": "everyday_scene",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (레스토랑 그룹에 주방 재고 소프트웨어를 파는 회사) · 모든 인물, 수치, 사건은 설명용",
+  "insight": "큰 고객의 맞춤 요청은 받아 적을 주문이 아니라 하나의 구매 결정이다. 누가 원하고, 누가 쓰고, 누가 서명하는지, 그리고 그들이 무엇을 위험으로 느끼는지부터 본다.",
+  "misconception": "가장 큰 고객이 요청하면 무엇이든, 무료로라도 그대로 만들어 주는 것이 관계를 지키는 길이다.",
+  "relatedLessonIds": [
+    "CUS-09-01",
+    "CUS-07-03"
+  ],
+  "sources": [
+    {
+      "text": "이 유닛(CUS-09)의 개념: 구매자와 사용자, 구매 위원회, 기업 구매의 위험, 총소유비용, 신뢰와 관계",
+      "url": null
+    },
+    {
+      "text": "모든 수치와 사건은 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치(매출 비중 30%, 40개 매장, 고객 200곳, 개발 6주, 2주 지연)는 설명용 가상 수치입니다. 실제 통계로 읽히지 않도록 모든 시나리오 카드에 illustrative 표시를 했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "'나쁜 소식을 일찍 전하면 신뢰가 더 쌓일 수 있다'는 표현은 일반적인 관찰로만 썼습니다. 서비스 회복 역설(CUS-06-05) 연구 수치를 인용하지 않았습니다. 단정적 표현으로 바꾸지 마세요.",
+      "status": "open"
+    },
+    {
+      "note": "알레르기 관리는 국가마다 법적 요건이 다릅니다. 레슨은 법률 조언이 아니며, 특정 규제를 언급하지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Simulation",
+      "title": "Your biggest customer wants something only they will use",
+      "illustrative": true,
+      "body": [
+        "You run a small company that makes kitchen inventory software for restaurants. One customer, a 40-location restaurant group, brings in 30% of your revenue.",
+        "Their operations director emails: *\"We need a custom allergen dashboard built for us. Our contract renews in three months.\"*"
+      ],
+      "image": {
+        "label": "A founder reading an urgent email from a restaurant group",
+        "aspectRatio": "4:3",
+        "brief": "작은 사무실에서 노트북 화면의 이메일을 읽는 창업자. 화면 옆에 레스토랑 주방 사진, 달력에는 3개월 뒤 'Renewal' 표시. 긴장감 있는 따뜻한 일러스트. 실제 로고나 상표 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Step 1 of 4",
+      "title": "The email lands. What's your first move?",
+      "illustrative": true,
+      "body": [
+        "Your team could build the dashboard in about six weeks. None of your other 200 restaurant customers has asked for it."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Reply yes today and start building",
+            "verdict": "risky",
+            "feedback": "You keep the mood warm, but you're building to a description, not a problem. Six weeks of work may solve the wrong thing."
+          },
+          {
+            "key": "B",
+            "text": "Ask to talk with the director, two kitchen managers and whoever signs the renewal",
+            "verdict": "best",
+            "feedback": "It costs a week. In return you learn who wants this, who will use it, and who actually decides."
+          },
+          {
+            "key": "C",
+            "text": "Politely decline: you don't build custom features",
+            "verdict": "partial",
+            "feedback": "It protects your product, but you've said no before knowing what's behind the request. Your biggest customer hears \"we don't listen.\""
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Step 2 of 4",
+      "title": "Say you chose to ask. Three people, three wants.",
+      "illustrative": true,
+      "body": [
+        "A guest at one location had an allergic reaction last month. The director wants a dashboard to show the board. The kitchen managers want something simpler: allergen flags on each recipe and printed labels on prep containers. The finance director, who signs, wants the price not to rise.",
+        "What do you build?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The full custom dashboard, free, to secure the renewal",
+            "verdict": "risky",
+            "feedback": "You win the room, then maintain a one-off forever. Every future update must keep it working, and nobody pays you for that."
+          },
+          {
+            "key": "B",
+            "text": "Allergen flags and labels as a standard feature for every customer, plus a simple summary report for the director",
+            "verdict": "best",
+            "feedback": "Cooks get what they'll use, the director gets something to show, and your other customers get it too. One build, many payers."
+          },
+          {
+            "key": "C",
+            "text": "The full dashboard, priced as a custom project",
+            "verdict": "partial",
+            "feedback": "Honest about cost, but finance wanted no price rise. And you still own the upkeep long after the project fee is spent."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Step 3 of 4",
+      "title": "Say you chose the standard feature. Finance hesitates.",
+      "illustrative": true,
+      "body": [
+        "The finance director says: *\"A rival already offers allergen tracking. Why should we wait for yours?\"* Switching would be a big job for her team, but she has to defend this choice to the board."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Offer a discount to stay",
+            "verdict": "partial",
+            "feedback": "It lowers her cost but not her worry: what if your feature doesn't work? You give up margin and leave the real problem unsolved."
+          },
+          {
+            "key": "B",
+            "text": "Offer a pilot in five locations, with a clear yes-or-no date before renewal",
+            "verdict": "best",
+            "feedback": "It shrinks her risk. She doesn't bet 40 kitchens on a promise, and the board sees proof before money moves."
+          },
+          {
+            "key": "C",
+            "text": "Remind her how hard switching would be",
+            "verdict": "risky",
+            "feedback": "True, but it sounds like a threat. Business buyers remember who made them feel trapped, and they act on it at the next renewal."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Step 4 of 4",
+      "title": "Say you chose the pilot. Then week four goes wrong.",
+      "illustrative": true,
+      "body": [
+        "Label printing fails on older printers in two pilot kitchens. The fix needs two more weeks, past the date you promised."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Call the director today with the problem and a new date",
+            "verdict": "best",
+            "feedback": "Uncomfortable now, but she hears it from you, not from her cooks. Bad news told early can build more trust than a smooth project."
+          },
+          {
+            "key": "B",
+            "text": "Work weekends quietly and hope to hit the date",
+            "verdict": "risky",
+            "feedback": "If you make it, nobody knows. If you miss, she learns you hid a problem during a trial meant to test you."
+          },
+          {
+            "key": "C",
+            "text": "Launch on time with labels switched off in those two kitchens",
+            "verdict": "partial",
+            "feedback": "You keep the date, but two kitchens go without the part cooks wanted most. They'll tell the director anyway."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How it ended",
+      "title": "Renewal signed, and a feature everyone can use.",
+      "illustrative": true,
+      "body": [
+        "The fix shipped two weeks late. The pilot kitchens kept using the labels, and the group renewed all 40 locations at the same price.",
+        "Within a month, three other restaurant customers switched on allergen flags. The custom dashboard was never built, and nobody missed it."
+      ],
+      "image": {
+        "label": "Prep containers with printed allergen labels in a busy kitchen",
+        "aspectRatio": "16:9",
+        "brief": "레스토랑 주방 선반에 알레르기 라벨이 붙은 재료 용기들이 줄지어 있고, 요리사가 태블릿으로 레시피의 알레르기 표시를 확인하는 장면. 배경에 다른 식당 세 곳이 작은 아이콘으로 연결됨. 실제 로고나 상표 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Not every request should become a standard feature.",
+      "body": [
+        "This worked because the need was common. Every restaurant handles allergens. Some requests really are one customer's quirk. Then price the work clearly, or say no.",
+        "The same call faces a bakery whose hotel client wants a recipe only that hotel buys. And watch the dependence itself: when one customer is 30% of revenue, every request feels like a threat. **More customers** is the lasting fix."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Treat a big customer's request as a buying decision, not an order.",
+      "body": [
+        "Each step used one idea from this unit:"
+      ],
+      "list": [
+        "**Ask first:** the buyer, the users and the signer wanted different things (buyers vs users, buying committees)",
+        "**Build for many:** a one-off keeps costing long after it ships (total cost of ownership)",
+        "**Pilot:** shrink the buyer's risk, not just the price (risk in business buying)",
+        "**Call early:** bad news told first protects the relationship (trust and relationships)"
+      ],
+      "callout": "**Try it today:** take your biggest customer's last request. Write down who asked, who would use it, and who signs.",
+      "next": "Next · Are people really irrational?"
+    }
+  ]
+}

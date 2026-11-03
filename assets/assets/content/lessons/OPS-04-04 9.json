@@ -1,0 +1,239 @@
+{
+  "id": "OPS-04-04",
+  "unitId": "OPS-04",
+  "categoryId": "OPS",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Urgent vs important",
+  "readerTitle": "The 30-minute problem that cost 108 hours",
+  "format": "numbers_twist",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "illustrative",
+    "real_research",
+    "anecdote"
+  ],
+  "caseNote": "가상 사례 (부품 공장 포장 라인, 예약 앱 개발팀) + 실제 연구 (Zhu·Yang·Hsee 2018, 단순 긴급성 효과) + 일화 (아이젠하워 1954년 연설 인용). 모든 수치는 설명용입니다.",
+  "insight": "급한 일은 소리를 내고 중요한 일은 조용하다. 그래서 반복되는 작은 문제는 분기 단위로 비용을 계산하고, 중요한 일에는 따로 보호된 시간을 줘야 한다.",
+  "misconception": "급한 일을 빠르게 처리하고 있으면 중요한 일을 하고 있는 것이다. 작은 문제는 작은 비용이다.",
+  "relatedLessonIds": [
+    "OPS-04-05",
+    "OPS-04-06"
+  ],
+  "sources": [
+    {
+      "text": "Zhu, M., Yang, Y., & Hsee, C. K. (2018). The Mere Urgency Effect. Journal of Consumer Research, 45(3).",
+      "url": null
+    },
+    {
+      "text": "Dwight D. Eisenhower, Address at the Second Assembly of the World Council of Churches, Evanston, Illinois (1954)",
+      "url": null
+    },
+    {
+      "text": "공장과 소프트웨어 팀 수치는 모두 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "공장 계산: 고장 1회 30분 × 대기 인원 6명 = 3인시. 주 3회 = 주 9인시. 12주 = 108인시. 수리 4시간 대비 108 ÷ 4 = 27배. 모두 가상 수치입니다.",
+      "status": "open"
+    },
+    {
+      "note": "소프트웨어 계산: 티켓 주 40건 × 15분 = 주 600분 = 10시간. 12주 = 120시간. 수리 2일 집중 작업 ≈ 16시간(하루 8시간 가정).",
+      "status": "open"
+    },
+    {
+      "note": "Zhu·Yang·Hsee(2018)의 실험 결과 서술(마감이 짧은 과제를 보상이 더 큰 과제보다 자주 선택)이 논문 내용과 맞는지 원문으로 확인하세요. 카드에는 구체 수치를 넣지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "아이젠하워 인용은 1954년 노스웨스턴대 연설에서 '전직 대학 총장'의 말을 인용한 것으로 알려져 있습니다. 원 발언자는 불분명하므로 카드에 \"reportedly\"로 표기했습니다. 연설 원문으로 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Numbers twist",
+      "title": "The 30-minute problem that cost 108 hours",
+      "illustrative": true,
+      "body": [
+        "Three times a week, the packing line at a small parts factory jams. A worker clears it in about 30 minutes, and everyone gets back to work.",
+        "Nobody calls it a crisis. That is exactly why it never gets fixed."
+      ],
+      "image": {
+        "label": "Packing line stopped while workers wait",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 작은 공장의 포장 컨베이어가 멈춰 있고, 한 명이 걸린 상자를 빼내는 동안 다섯 명이 팔짱을 끼고 기다림. 벽시계가 30분을 가리킴. 실제 기업 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You have four free hours on Monday.",
+      "illustrative": true,
+      "body": [
+        "You manage a small parts factory. A good customer emails asking you to personally chase a rush order. Your shift lead could handle it, but the customer likes hearing from you.",
+        "Meanwhile the packing line keeps jamming. A worn guide rail is the likely cause. Replacing it would take your four hours. How do you spend Monday afternoon?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Chase the rush order yourself. It's the one with a deadline",
+            "verdict": "risky",
+            "feedback": "The customer gets a personal touch, but your shift lead could have done it. The jams keep stealing time, and next Monday will look the same."
+          },
+          {
+            "key": "B",
+            "text": "Hand the rush order to your shift lead and replace the rail",
+            "verdict": "best",
+            "feedback": "The customer still gets served, and you remove a cost that repeats every week. The next card shows how big that cost is."
+          },
+          {
+            "key": "C",
+            "text": "Chase the order now and schedule the rail for when things calm down",
+            "verdict": "partial",
+            "feedback": "It feels like doing both. But things rarely calm down, so the fix keeps sliding to next week."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "What a 30-minute jam really costs.",
+      "illustrative": true,
+      "breakdown": [
+        {
+          "value": "30 min",
+          "label": "Per jam",
+          "detail": "Six people wait while it's cleared",
+          "highlight": false
+        },
+        {
+          "value": "3 hrs",
+          "label": "Per jam, in people time",
+          "detail": "30 minutes × 6 workers",
+          "highlight": false
+        },
+        {
+          "value": "9 hrs",
+          "label": "Per week",
+          "detail": "3 jams a week",
+          "highlight": false
+        },
+        {
+          "value": "108 hrs",
+          "label": "Per quarter",
+          "detail": "12 weeks of jams",
+          "highlight": true
+        }
+      ],
+      "callout": "The fix: **4 hours** of your time and a spare part. Repeated, the small jam costs 27 times more than the repair.",
+      "softwareNote": "The same math hides in a flaky test or a slow deploy step. Each failure costs an engineer a few minutes, so nobody fixes it, until you multiply by every engineer, every day, for a quarter."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Urgent vs important",
+      "body": [
+        "**Urgent** means something demands attention now: a deadline, a ringing phone, a customer waiting. **Important** means it moves the business toward its goals or prevents real damage.",
+        "These are two separate questions. The rush order was urgent but not important for *you* to do. The rail was important but never urgent. Sort tasks on both and you get four boxes. The box that pays most, important but not urgent, is the one that gets skipped."
+      ],
+      "image": {
+        "label": "Two-by-two grid of urgent and important",
+        "aspectRatio": "16:9",
+        "brief": "2×2 매트릭스 인포그래픽. 가로축 \"Urgent\", 세로축 \"Important\". 왼쪽 위 칸(Important, not urgent)에 기어 교체 아이콘, 오른쪽 아래 칸(Urgent, not important)에 울리는 전화 아이콘. 왼쪽 위 칸만 강조색으로 표시하고 \"Pays most, done least\" 라벨.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Why it happens",
+      "title": "The urgent task keeps winning.",
+      "body": [
+        "Urgent tasks arrive with a signal: a deadline, a person waiting, a noise. Important ones usually arrive in silence.",
+        "In 2018, researchers Meng Zhu, Yang Yang and Christopher Hsee called this the **mere urgency effect**. In their experiments, people often chose tasks with tight deadlines over tasks that paid more but had no deadline.",
+        "The idea is older. Dwight Eisenhower reportedly quoted a college president in a 1954 speech: what is important is seldom urgent, and what is urgent is seldom important."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How to use it",
+      "title": "Give important work a slot of its own.",
+      "body": [
+        "Because important work never shouts, it needs protected time on the calendar, like a meeting with yourself that can't be moved.",
+        "For any repeat problem, ask three things: how often does it happen, what does each time cost, and what would the fix cost? Multiply the first two over a quarter and compare.",
+        "Hand urgent tasks to people who can do them. Keep your own hours for work only you can move."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Some urgent things really are important.",
+      "body": [
+        "A safety hazard, a stopped production line or your biggest customer's outage is both urgent and important. Drop everything.",
+        "The opposite trap exists too. \"Strategic work\" can become a way to avoid customers. And not every problem is worth fixing: a jam that happens twice a year may cost less than the repair. Run the numbers before you call something a fire or a project."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software team.",
+      "illustrative": true,
+      "body": [
+        "You lead five engineers at a booking app. A confusing signup step creates about 40 support tickets a week. Each takes 15 minutes, so about 10 hours a week.",
+        "Fixing the step would take one engineer two focused days. But engineers keep getting pulled into customer escalations. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Hire a part-time support person to answer tickets faster",
+            "verdict": "partial",
+            "feedback": "Users get faster replies, but you pay every week for a problem a two-day fix could remove."
+          },
+          {
+            "key": "B",
+            "text": "Block one engineer for two days, shielded from escalations, to fix the step",
+            "verdict": "best",
+            "feedback": "About 16 hours of work removes about 10 hours of tickets a week, and users stop getting stuck. The shield is what makes it actually happen."
+          },
+          {
+            "key": "C",
+            "text": "Add it to the backlog for when escalations slow down",
+            "verdict": "risky",
+            "feedback": "Escalations rarely slow down. Meanwhile the tickets quietly cost about 120 hours a quarter."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Urgency is loud. Importance is quiet.",
+      "body": [
+        "The task shouting for attention is rarely the one that moves the business. Price repeat problems over a quarter, and give important work protected time.",
+        "**Try it today:** name one small problem that keeps coming back. Estimate how often it happens and what each time costs. Multiply by 12 weeks."
+      ],
+      "next": "Next · Why ten priorities means none"
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "id": "ECO-02-06",
+  "unitId": "ECO-02",
+  "categoryId": "ECO",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Operating leverage",
+  "readerTitle": "Same sales, same profit. Then sales drop 20%.",
+  "format": "numbers_twist",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.4,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (두 식당, 소프트웨어 스타트업) · 모든 수치는 설명용",
+  "insight": "이익이 얼마나 출렁일지는 매출보다 비용 구조, 즉 고정비 비중이 정한다. 그리고 그 비중은 사업자가 고를 수 있다.",
+  "misconception": "매출이 20% 줄면 이익도 20% 정도 준다. 매출과 이익이 같은 두 사업은 위험도 같다.",
+  "relatedLessonIds": [
+    "ECO-02-01",
+    "ECO-02-08"
+  ],
+  "sources": [
+    {
+      "text": "관리회계의 표준 개념 (영업 레버리지, 고정비·변동비 구분, 공헌이익)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "기본 수치: 두 식당 모두 매출 $100,000, 이익 $10,000. 식당 A: 변동비 70% ($70,000) + 고정비 $20,000. 식당 B: 변동비 30% ($30,000) + 고정비 $60,000. 둘 다 100,000 − 변동비 − 고정비 = 10,000 확인.",
+      "status": "open"
+    },
+    {
+      "note": "매출 20% 감소($80,000): A = 80,000 − 56,000 − 20,000 = $4,000 (−60%). B = 80,000 − 24,000 − 60,000 = −$4,000 (−140%). 잃은 매출 $20,000 × 30% = $6,000 (A), × 70% = $14,000 (B).",
+      "status": "open"
+    },
+    {
+      "note": "매출 20% 증가($120,000): A = 120,000 − 84,000 − 20,000 = $16,000 (+60%). B = 120,000 − 36,000 − 60,000 = $24,000 (+140%).",
+      "status": "open"
+    },
+    {
+      "note": "배수(영업 레버리지도) = 공헌이익 ÷ 이익. A: 30,000 ÷ 10,000 = 3. B: 70,000 ÷ 10,000 = 7. 20% × 3 = 60%, 20% × 7 = 140%로 위 계산과 일치. 매출 +20% 시점의 B 배수: 84,000 ÷ 24,000 = 3.5.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Costs · Numbers twist",
+      "title": "Same sales, same profit. Then sales drop 20%.",
+      "illustrative": true,
+      "body": [
+        "Two restaurants each take in $100,000 a month and keep $10,000 in profit.",
+        "Restaurant A cooks in a shared kitchen rented by the hour and pays staff by the shift. Restaurant B has a big dining room on a long lease and a salaried team.",
+        "On paper they look identical. One bad season shows they are not."
+      ],
+      "image": {
+        "label": "Two restaurants side by side with equal profit stacks",
+        "aspectRatio": "4:3",
+        "brief": "두 식당을 나란히 배치. 왼쪽은 작은 공유 주방과 시간제 직원(시계 아이콘), 오른쪽은 넓은 홀과 정장 차림 직원들, 벽에 큰 임대 계약서. 각 식당 앞에 같은 높이의 동전 더미 \"$10,000\". 실제 브랜드 로고는 쓰지 않음.",
+        "url": "assets/images/eco-02-06-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What happens to Restaurant B's profit?",
+      "illustrative": true,
+      "body": [
+        "Restaurant B spends $60,000 a month on rent and salaries, no matter how busy it is. Food, drinks and card fees take another 30% of sales.",
+        "A slow season cuts sales 20%, from $100,000 to $80,000. What is B's profit now?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "About $8,000. Profit falls 20%, like sales",
+            "verdict": "risky",
+            "feedback": "It feels natural, but rent and salaries don't shrink when guests stay home. The whole drop lands on profit."
+          },
+          {
+            "key": "B",
+            "text": "About $4,000. Profit falls more than sales",
+            "verdict": "partial",
+            "feedback": "Right direction, and that is exactly what happens to Restaurant A. B gets hit harder."
+          },
+          {
+            "key": "C",
+            "text": "A loss of about $4,000",
+            "verdict": "best",
+            "feedback": "Yes. A 20% drop in sales turns a $10,000 profit into a $4,000 loss. The next card shows why."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Same change in sales. Very different results.",
+      "illustrative": true,
+      "body": [
+        "Each lost $100 of sales costs A only $30 of profit, because A also saves $70 on food and shift wages. B saves just $30, so it loses $70. On $20,000 of lost sales, that's $6,000 for A and $14,000 for B."
+      ],
+      "breakdown": [
+        {
+          "value": "$4,000",
+          "label": "A, sales −20%",
+          "detail": "Profit down 60%",
+          "highlight": false
+        },
+        {
+          "value": "−$4,000",
+          "label": "B, sales −20%",
+          "detail": "Profit down 140%, now a loss",
+          "highlight": true
+        },
+        {
+          "value": "$16,000",
+          "label": "A, sales +20%",
+          "detail": "Profit up 60%",
+          "highlight": false
+        },
+        {
+          "value": "$24,000",
+          "label": "B, sales +20%",
+          "detail": "Profit up 140%",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Operating leverage",
+      "body": [
+        "**Operating leverage** describes how strongly profit swings when sales change. The more of your costs are fixed, the bigger the swing, both down and up.",
+        "A quick way to measure it: divide what's left after the costs that come with each sale by your profit. For B, that's $70,000 ÷ $10,000 = **7**. Each 1% change in sales moves profit about 7%. For A, the multiplier is 3."
+      ],
+      "image": {
+        "label": "A lever: small push on sales, big swing on profit",
+        "aspectRatio": "16:9",
+        "brief": "시소형 지렛대 그림. 짧은 쪽에 \"Sales ±20%\" 작은 화살표, 긴 쪽에 \"Profit ±140%\" 큰 화살표. 받침점에 \"Fixed costs\" 라벨. 받침점이 긴 쪽에서 멀수록 흔들림이 커지는 느낌.",
+        "url": "assets/images/eco-02-06-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Where it shows up",
+      "title": "You choose your leverage.",
+      "body": [
+        "Operating leverage isn't a fact of your industry. It comes from choices: buy the oven or rent it, hire salaried staff or pay by the shift, sign a long lease or take a short one.",
+        "Airlines, hotels and factories usually run high leverage. Big costs come first, and each extra guest or unit is cheap. Consultants and caterers who pay per job usually run low.",
+        "Neither is better. High leverage pays off when sales grow. Low leverage survives when they fall."
+      ],
+      "softwareNote": "Software often has very high operating leverage. Building the product is a big fixed cost, while serving one more user costs little. That's why growing software firms can see profit jump, and shrinking ones can see it vanish fast."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The multiplier moves, and leverage needs cash.",
+      "body": [
+        "The multiplier isn't constant. It's largest near break-even, the point where profit is zero. After B's sales rise 20%, its multiplier falls from 7 to 3.5. Swings feel most violent when profit is thin.",
+        "High fixed costs also need a cash cushion. Rent is due in the bad month too.",
+        "And going variable has a price. Renting by the hour usually costs more per unit than owning, so low leverage gives up some upside."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software startup.",
+      "illustrative": true,
+      "body": [
+        "Your app has grown fast, but usage jumps around week to week. Your cloud provider offers a three-year committed contract. It's much cheaper per unit than paying as you go, but you pay the full amount even if users leave.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Sign the three-year contract now to lock in the lower price",
+            "verdict": "risky",
+            "feedback": "If growth continues, profit climbs fast. If usage drops, you're stuck with a fixed bill that eats your margin, just like Restaurant B's lease."
+          },
+          {
+            "key": "B",
+            "text": "Pay as you go for now, then commit only to the usage you're sure of",
+            "verdict": "best",
+            "feedback": "You keep costs flexible while demand is unpredictable, then take the savings on a steady base. You add leverage only where sales are reliable."
+          },
+          {
+            "key": "C",
+            "text": "Stay on pay-as-you-go permanently to stay safe",
+            "verdict": "partial",
+            "feedback": "Safe in a downturn, but once usage is steady you pay extra for flexibility you don't need."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Fixed costs turn small changes in sales into big changes in profit.",
+      "body": [
+        "Before signing a lease, a salary or a long contract, ask how steady your sales are. Add fixed costs where demand is reliable, and keep them variable where it isn't.",
+        "**Try it today:** mark each of your costs as fixed or variable. Then work out what your profit would be if sales fell 10% next month."
+      ],
+      "next": "Next · Should a bakery take a big wholesale order?"
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "id": "ECO-03-08",
+  "unitId": "ECO-03",
+  "categoryId": "ECO",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "Why airlines match each other's fares",
+  "readerTitle": "Three airlines, one fare: why prices move together",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "real_observation",
+    "illustrative"
+  ],
+  "caseNote": "실제 관찰 (항공권 검색 화면에서 같은 노선 운임이 비슷하게 움직이는 현상) + 가상 적용 (골판지 상자 제조사, 청구서 소프트웨어). 모든 수치는 설명용",
+  "insight": "가격을 따라 맞출지는 경쟁사의 행동이 아니라 두 가지 조건으로 판단한다. 고객 눈에 내 상품이 상품(commodity)처럼 보이는가, 그리고 시장에 서로를 지켜보는 판매자가 몇 명뿐인가.",
+  "misconception": "경쟁사가 가격을 내리면 무조건 따라 내리거나 더 내려야 한다. 또는 운임이 똑같으면 항공사끼리 몰래 담합한 것이다.",
+  "relatedLessonIds": [
+    "ECO-03-01",
+    "ECO-03-03"
+  ],
+  "sources": [
+    {
+      "text": "과점과 상품화 시장의 표준 경제학 개념 (가격 투명성, 상호 의존적 가격 결정)",
+      "url": null
+    },
+    {
+      "text": "US v. Airline Tariff Publishing Co. 외 (미국 법무부, 1992년 제소, 1993~1994년 동의 판결)",
+      "url": null
+    },
+    {
+      "text": "모든 수치(운임, 할인율)는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "미국 법무부가 1990년대 초 주요 항공사들이 공동 운임 공시 시스템(ATPCO)으로 가격 신호를 주고받았다고 제소했고, 항공사들은 잘못을 인정하지 않고 동의 판결로 합의했다는 내용입니다. 연도와 합의 방식을 게시 전 1차 자료로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "\"같은 노선 운임이 비슷하게 움직인다\"는 일반적 관찰로만 썼습니다. 특정 항공사, 특정 노선의 수치나 대응 속도는 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "가상 수치 확인: $189 → $149는 $40 인하(약 21%). 상자 제조사 8% 할인 제안은 설명용입니다. 계산이 필요한 다른 수치는 없습니다.",
+      "status": "open"
+    },
+    {
+      "note": "경쟁사와 가격을 논의하는 것이 불법이라는 문장은 일반적 원칙으로만 썼습니다. 특정 국가의 법률 조언으로 읽히지 않도록 표현을 유지하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Pricing · Everyday scene",
+      "title": "Three airlines, one fare",
+      "illustrative": true,
+      "body": [
+        "You search for a Friday morning flight. Three airlines fly the route. All three show **$189**.",
+        "Next week you search again. One airline has dropped to $149. By the afternoon, the other two show $149 as well.",
+        "It looks like a coincidence or a secret deal. Usually it's neither."
+      ],
+      "image": {
+        "label": "Flight search screen with three identical fares",
+        "aspectRatio": "4:3",
+        "brief": "휴대폰 항공권 검색 화면 일러스트. 서로 다른 색의 가상 항공사 세 곳이 나란히 있고 모두 \"$189\". 실제 항공사 로고, 이름, 도장은 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "A rival just cut the fare.",
+      "illustrative": true,
+      "body": [
+        "You run one of three airlines on this route. Your fare is $189. A rival drops to $149 for the same days and times.",
+        "Travelers compare all three on one screen. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Match $149 quickly on the same flights",
+            "verdict": "best",
+            "feedback": "You protect your bookings, and the rival gains no customers from cutting. With only a few sellers watching each other, a quick match makes the next cut less tempting. That's oligopoly logic."
+          },
+          {
+            "key": "B",
+            "text": "Hold $189 and promote your better legroom",
+            "verdict": "partial",
+            "feedback": "Some travelers will pay for comfort. But on a screen sorted by price, most see seats as interchangeable, so you may fly emptier planes."
+          },
+          {
+            "key": "C",
+            "text": "Undercut to $129 to win the route",
+            "verdict": "risky",
+            "feedback": "You may win a few days of bookings. Then rivals match again, and everyone flies at $129 for good. A short gain can start a long price war."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "Concept 1 at work",
+      "title": "To a price shopper, a seat is a commodity.",
+      "body": [
+        "A **commodity** is a product buyers see as the same, whoever sells it. Then price decides almost everything.",
+        "Most airline seats aren't truly identical. But on a search screen, a Friday 8 a.m. seat looks a lot like a Friday 8:30 a.m. seat. Prices are public and update constantly.",
+        "So a $40 gap doesn't last. The cheaper airline fills up and the others empty out, and they all notice within hours."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept 2 at work",
+      "title": "Few sellers means every move is watched.",
+      "body": [
+        "On most routes, only a handful of airlines compete. That is an **oligopoly**: a market with few sellers, where each one's price depends on what the others do.",
+        "In a market with hundreds of sellers, nobody reacts to your cut. Here, everyone does. If cuts are matched fast, cutting wins no customers and only lowers everyone's income.",
+        "So fares often end up moving together, without anyone talking to anyone."
+      ],
+      "image": {
+        "label": "Three sellers connected by watching arrows",
+        "aspectRatio": "16:9",
+        "brief": "가상 비행기 세 대(로고 없음)가 삼각형으로 배치되고, 서로를 향한 눈 모양 화살표로 연결. 가운데에 가격표 \"$149\" 하나. 차분한 플랫 일러스트.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Matching is fine. Agreeing is not.",
+      "body": [
+        "Reading a rival's public price and choosing to match it is normal competition. Discussing prices with rivals, or using signals to coordinate them, is illegal in many countries.",
+        "In the early 1990s, US regulators accused major airlines of using their shared fare-publishing system to signal price moves. The airlines settled without admitting wrongdoing.",
+        "Matching also has a cost: if customers truly prefer you, matching gives away money you didn't need to lose."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Try it · manufacturing",
+      "title": "Now you make cardboard boxes.",
+      "illustrative": true,
+      "body": [
+        "You are one of three box makers within delivery distance of a large warehouse district. Your biggest customer says a rival offered them **8% less**.",
+        "To this buyer, a box is a box. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Confirm the offer is real, then match it for this customer only",
+            "verdict": "best",
+            "feedback": "The product is close to a commodity, so you likely lose the account if you don't match. Keeping it to one customer avoids handing the cut to everyone, which in an oligopoly invites rivals to cut again."
+          },
+          {
+            "key": "B",
+            "text": "Cut your list price 10% for every customer",
+            "verdict": "risky",
+            "feedback": "You win the comparison today, but the other two makers see it and respond. Three sellers watching each other usually ends with everyone at the lower price."
+          },
+          {
+            "key": "C",
+            "text": "Refuse and point to your print quality",
+            "verdict": "partial",
+            "feedback": "Right if this buyer truly values print. For plain shipping boxes, they likely see you as interchangeable and will switch."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · software",
+      "title": "A rival halves its starter plan.",
+      "illustrative": true,
+      "body": [
+        "Your invoicing software is one of four serious options for small agencies. A rival cuts its starter plan in half.",
+        "Your users have years of client records and custom templates in your tool. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Halve your starter plan the same day",
+            "verdict": "risky",
+            "feedback": "This treats you like a commodity seller. Your users face real switching costs, so you'd give up revenue on many accounts to protect a few."
+          },
+          {
+            "key": "B",
+            "text": "Hold your price and watch new sign-ups and churn for a month",
+            "verdict": "best",
+            "feedback": "Few rivals still means you should watch closely. But stored data makes you less of a commodity, so you can wait for evidence before matching."
+          },
+          {
+            "key": "C",
+            "text": "Launch a stripped-down plan at the rival's new price",
+            "verdict": "partial",
+            "feedback": "It catches price-shoppers without cutting your main plan. The cost is a new plan to support, and some current users may downgrade."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Match when buyers see you as the same and rivals are few.",
+      "body": [
+        "This lesson used two ideas. **Commodities:** when buyers can't tell sellers apart, price gaps close fast. **Oligopolies:** when a few sellers watch each other, a quick match makes cutting pointless.",
+        "When customers do see a difference, matching gives money away.",
+        "**Try it today:** name your two closest rivals. If one cut prices 20% tomorrow, how many of your customers would actually notice and switch?"
+      ],
+      "next": "Next · How De Beers made a common stone feel rare"
+    }
+  ]
+}

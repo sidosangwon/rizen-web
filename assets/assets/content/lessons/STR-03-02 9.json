@@ -1,0 +1,236 @@
+{
+  "id": "STR-03-02",
+  "unitId": "STR-03",
+  "categoryId": "STR",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "Differentiation",
+  "readerTitle": "Different isn't better if nobody cares",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (팔레트 제조사, 치과용 예약 소프트웨어) · 모든 수치는 설명용",
+  "insight": "차별화는 제품이 얼마나 다른가가 아니라, 특정 고객이 그 차이에 차이를 만드는 비용보다 더 많이 낼 것인가로 판단한다.",
+  "misconception": "더 좋고 더 독특한 제품을 만들면 고객이 알아서 더 비싼 값을 낸다.",
+  "relatedLessonIds": [
+    "STR-03-01",
+    "ECO-04-04"
+  ],
+  "sources": [
+    {
+      "text": "Porter, M. (1985). Competitive Advantage: Creating and Sustaining Superior Performance. Free Press. (차별화 전략의 정의)",
+      "url": null
+    },
+    {
+      "text": "모든 사례와 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 설명용 가상 수치입니다. 1회 운송 고객: 플라스틱 $40 ÷ 1회 = 회당 $40, 나무 $12 ÷ 1회 = 회당 $12. 순환 고객: 플라스틱 $40 ÷ 50회 = 회당 $0.80, 나무 $12 ÷ 5회 = 회당 $2.40. 계산을 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "플라스틱 팔레트 50회, 나무 팔레트 5회 사용 수명은 설명을 위한 가정입니다. 실제 수명은 제품과 사용 환경에 따라 크게 다르므로 실제 수치처럼 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "차별화의 정의(고객이 가치 있게 여기는 독특함으로 프리미엄을 받되, 프리미엄이 추가 비용보다 커야 함)는 Porter(1985)의 설명을 쉬운 말로 옮긴 것입니다. 직접 인용은 하지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Strategy · Counterexample",
+      "title": "A better pallet nobody wanted to pay for",
+      "illustrative": true,
+      "body": [
+        "A pallet maker spends two years building a plastic pallet. It's lighter than wood, never splinters and lasts ten times longer. Every test says it beats the wooden pallets rivals sell.",
+        "It costs $40. Wood costs $12. The sales team expects the quality to sell itself. Six months later, the big customers are still buying wood."
+      ],
+      "image": {
+        "label": "Different only counts if customers will pay for it.",
+        "aspectRatio": "4:3",
+        "brief": "창고 바닥. 왼쪽에 반짝이는 파란 플라스틱 팔레트 하나, 오른쪽에 평범한 나무 팔레트가 높이 쌓여 있고 지게차는 나무 팔레트 쪽으로 향함. 실제 브랜드 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/str-03-02-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What should they have checked first?",
+      "illustrative": true,
+      "body": [
+        "Imagine you're advising the pallet maker before launch. You can run one more check. Which one matters most?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Whether rivals could copy the plastic pallet quickly",
+            "verdict": "partial",
+            "feedback": "Worth knowing later. But copying only matters if the difference is worth something in the first place."
+          },
+          {
+            "key": "B",
+            "text": "Whether customers would get enough value from it to pay well above $12",
+            "verdict": "best",
+            "feedback": "This is the test that decides everything else. A difference earns money only when buyers value it more than it costs to make."
+          },
+          {
+            "key": "C",
+            "text": "Whether it clearly beats wood in strength and lifespan tests",
+            "verdict": "risky",
+            "feedback": "It already did. Winning on the maker's scorecard says nothing about whether the buyer's scorecard looks the same."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What happened",
+      "title": "The pallet left on the truck and never came back.",
+      "illustrative": true,
+      "body": [
+        "Most big customers ship goods out on pallets to stores. The pallets rarely return. For them, a pallet makes **one trip**. Lasting fifty trips was a strength they would never use."
+      ],
+      "breakdown": [
+        {
+          "value": "$40",
+          "label": "Plastic pallet",
+          "detail": "Built to last about 50 trips",
+          "highlight": false
+        },
+        {
+          "value": "$12",
+          "label": "Wooden pallet",
+          "detail": "Lasts a few trips",
+          "highlight": false
+        },
+        {
+          "value": "1",
+          "label": "Trips per pallet",
+          "detail": "For a customer whose pallets don't come back",
+          "highlight": false
+        },
+        {
+          "value": "$40 vs $12",
+          "label": "Cost per trip",
+          "detail": "The better pallet cost this customer more than three times as much",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Differentiation",
+      "body": [
+        "**Differentiation** means being different in a way customers value enough to pay more for, or to choose you over rivals at the same price.",
+        "The key word is *value*. Michael Porter's version adds a second condition: the extra price must be larger than the extra cost of being different. Otherwise you've just made a more expensive product.",
+        "The pallet was different. For these customers, it wasn't valuable."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Three tests a difference must pass.",
+      "body": [
+        "Before betting on being different, check all three:"
+      ],
+      "list": [
+        "**It matters to the buyer:** it saves them money, time or risk, or it makes them look good",
+        "**The buyer can see it:** a benefit they can't notice or measure won't move a purchase",
+        "**The premium beats the cost:** what they'll pay extra is more than what it costs you to deliver"
+      ],
+      "callout": "Fail any one, and \"different\" becomes \"more expensive.\""
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Same pallet, different customer",
+      "title": "Then they found a customer who brought pallets back.",
+      "illustrative": true,
+      "body": [
+        "A food distributor runs its own trucks. Its pallets go out to its stores and return every week. One pallet might make fifty trips.",
+        "For this customer the math flips. Plastic works out to about $0.80 a trip. Wood, replaced every five trips, is about $2.40. No splinters in the food, either.",
+        "Nothing about the product changed. **Who it was for** changed. A difference is only valuable inside a particular customer's way of working."
+      ],
+      "image": {
+        "label": "A loop of trucks carrying the same pallet back and forth",
+        "aspectRatio": "4:3",
+        "brief": "원형 순환 화살표 인포그래픽. 창고 → 트럭 → 매장 → 트럭 → 창고로 같은 파란 팔레트가 돌아옴. 옆에 \"$0.80 per trip\" 라벨. 반대편에는 한 방향 화살표로 나가서 돌아오지 않는 나무 팔레트와 \"1 trip\" 라벨. 실제 로고 없음.",
+        "url": "assets/images/str-03-02-loop.png"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Customers saying \"nice\" isn't customers paying.",
+      "body": [
+        "Buyers often praise a difference in a demo or survey. Praise costs them nothing. The real signal is whether they pay the premium, again and again.",
+        "Differentiation also has an ongoing cost. You keep paying for the better materials, service or design, even when rivals catch up. Check whether the premium still covers that cost each year, not just at launch."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's software for dental clinics.",
+      "illustrative": true,
+      "body": [
+        "You sell appointment software to dental clinics. Rivals look much the same. You have one quarter to build something that sets you apart. Clinic owners tell you missed appointments are their biggest lost income.",
+        "Where do you spend the quarter?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Custom color themes and animated calendars that look great in demos",
+            "verdict": "risky",
+            "feedback": "Clearly different and fun to show. But it doesn't touch what clinics lose money on, so it's unlikely to justify a higher price."
+          },
+          {
+            "key": "B",
+            "text": "Automatic reminders that cut no-shows, with a report showing appointments saved",
+            "verdict": "best",
+            "feedback": "It hits a cost clinics already feel, and the report lets them see the value. That's a difference users will pay more for."
+          },
+          {
+            "key": "C",
+            "text": "Match every rival feature, one by one",
+            "verdict": "partial",
+            "feedback": "Closing gaps can stop you losing deals. But being the same as everyone gives buyers no reason to pay you more."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "In software, adding a feature is cheap, so it's tempting to differentiate on whatever is easiest to build. Start from what users measure and pay for instead."
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Be different where the customer keeps score.",
+      "body": [
+        "A difference is worth something only when a specific customer values it more than it costs you to deliver.",
+        "**Try it today:** name the one thing that makes your business different. Then write down which customer pays more for it, and how much more. If you can't fill in both, test it before you invest further."
+      ],
+      "next": "Next · Why serving fewer customers can make you stronger"
+    }
+  ]
+}

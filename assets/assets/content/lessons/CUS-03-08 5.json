@@ -1,0 +1,282 @@
+{
+  "id": "CUS-03-08",
+  "unitId": "CUS-03",
+  "categoryId": "CUS",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "Is this app at product-market fit?",
+  "readerTitle": "4,000 downloads and a rave review: is this app at fit?",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (소매점용 재고 주문 앱, 물류용 배송 확인 앱) · 모든 수치는 설명용",
+  "insight": "앱의 핏은 얼마나 많이 들어왔는지가 아니라, 들어온 고객이 쓰기를 멈추지 않는지로 판단한다.",
+  "misconception": "다운로드, 언론 보도, 높은 설문 점수, 큰 고객사의 시범 계약이 있으면 제품-시장 적합성을 찾은 것이다.",
+  "relatedLessonIds": [
+    "CUS-03-03",
+    "CUS-03-06"
+  ],
+  "sources": [
+    {
+      "text": "이 유닛의 개념 레슨: CUS-03-03 (리텐션이 진짜 신호), CUS-03-06 (가짜 핏 신호)",
+      "url": null
+    },
+    {
+      "text": "모든 앱, 회사, 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 설명용 가상 수치입니다. 3월 가입 매장 코호트: 1주차 100%, 4주차 45%, 8주차 22%, 12주차 10%. '10곳 중 1곳' 문구가 12주차 10%와 일치하는지 확인했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "비교용 '평평해지는 곡선'(100%, 55%, 42%, 40%)은 실제 앱 데이터가 아니라 모양을 보여주기 위한 가상 곡선입니다. 카드에 'shape only'로 표시했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "4,000 다운로드 중 12주차에 남은 비율을 따로 언급하지 않았습니다. 다운로드 수와 가입 매장 수를 같은 것으로 쓰지 않도록 문구를 다시 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Apply",
+      "title": "4,000 downloads and a rave review: is this app at fit?",
+      "illustrative": true,
+      "body": [
+        "Maya built an app that lets small corner shops reorder stock from wholesalers in a few taps.",
+        "In one month after a trade show: 4,000 downloads, a feature in a retail magazine, and a 4.6 out of 5 survey score. She is ready to hire three salespeople. First, let's check what those numbers really say."
+      ],
+      "image": {
+        "label": "A shop owner holding a phone beside half-empty shelves",
+        "aspectRatio": "4:3",
+        "brief": "동네 편의점 계산대 뒤에서 주인이 휴대폰으로 주문 앱을 보는 장면. 뒤 선반은 반쯤 비어 있음. 휴대폰 화면 옆에 '4,000 downloads', '4.6★' 말풍선이 떠 있음. 실제 앱이나 브랜드 로고는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which number tells Maya the most?",
+      "illustrative": true,
+      "body": [
+        "She can only track one number closely for the next month. Which one best shows whether shops truly need the app?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Downloads, now 4,000 and climbing",
+            "verdict": "risky",
+            "feedback": "Downloads measure how many people heard about the app, not how many needed it. This is a classic **false sign of fit**: a launch spike can come from one trade show."
+          },
+          {
+            "key": "B",
+            "text": "The 4.6 average survey score",
+            "verdict": "partial",
+            "feedback": "It shows people like the idea. But shops that quietly stopped using the app rarely answer surveys, so the score leans toward fans."
+          },
+          {
+            "key": "C",
+            "text": "The share of shops still ordering through the app eight weeks after joining",
+            "verdict": "best",
+            "feedback": "This is **retention as the real signal**. It counts what shops do when no one is watching, which is the closest thing to proof of need."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "What the data showed",
+      "title": "The line keeps falling.",
+      "illustrative": true,
+      "body": [
+        "Maya tracked every shop that joined in March. By week 12, only 1 in 10 still placed orders through the app. The curve never levels off.",
+        "The second line shows the shape fit tends to have: a drop at first, then a flat line of customers who stay."
+      ],
+      "chart": {
+        "unit": "%",
+        "groups": [
+          {
+            "label": "Maya's March shops",
+            "rows": [
+              {
+                "label": "Week 1",
+                "value": 100,
+                "highlight": false
+              },
+              {
+                "label": "Week 4",
+                "value": 45,
+                "highlight": false
+              },
+              {
+                "label": "Week 8",
+                "value": 22,
+                "highlight": false
+              },
+              {
+                "label": "Week 12",
+                "value": 10,
+                "highlight": true
+              }
+            ]
+          },
+          {
+            "label": "A curve that flattens (shape only)",
+            "rows": [
+              {
+                "label": "Week 1",
+                "value": 100,
+                "highlight": false
+              },
+              {
+                "label": "Week 4",
+                "value": 55,
+                "highlight": false
+              },
+              {
+                "label": "Week 8",
+                "value": 42,
+                "highlight": false
+              },
+              {
+                "label": "Week 12",
+                "value": 40,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept at work · Retention",
+      "title": "Look for the line that stops falling.",
+      "body": [
+        "Some customers always leave early. That is normal. What matters is whether the curve **flattens**: a group that keeps coming back week after week.",
+        "A flat line means the app does a job someone can't easily do without it. A line sliding toward zero means each new shop is just passing through, however many arrive."
+      ],
+      "image": {
+        "label": "Two retention curves, one sliding to zero, one flattening",
+        "aspectRatio": "16:9",
+        "brief": "그래프 두 개를 나란히. 왼쪽은 0을 향해 계속 떨어지는 곡선(라벨 'Passing through'), 오른쪽은 처음엔 떨어지다 평평해지는 곡선(라벨 'Staying'). 평평한 부분을 밝은 색으로 강조.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Concept at work · False signs",
+      "title": "Attention is not need.",
+      "illustrative": true,
+      "body": [
+        "Maya's three proud numbers all measure interest. The trade show brought curious owners. The magazine brought more. The survey reached the happiest ones.",
+        "**False signs of fit** feel like progress because they are real numbers that go up. But none of them answers the only question that matters: did shops change how they reorder stock, and keep doing it?"
+      ]
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Should Maya hire the salespeople?",
+      "illustrative": true,
+      "body": [
+        "She has the budget for three hires. Retention is sliding toward zero. What's the wiser next step?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Hire them now to keep the momentum going",
+            "verdict": "risky",
+            "feedback": "More sales would pour more shops into a curve that empties out. The false signs would grow while retention stays the same."
+          },
+          {
+            "key": "B",
+            "text": "Hold off, and call the shops still ordering in week 12 to learn why they stayed",
+            "verdict": "best",
+            "feedback": "The 10% who stayed hold the clue to real need. **Retention** tells Maya where to look before she spends on growth."
+          },
+          {
+            "key": "C",
+            "text": "Hold off, and build the five features the survey asked for",
+            "verdict": "partial",
+            "feedback": "Waiting is right, but survey wish lists come mostly from people who answer surveys. The shops that left may need something else entirely."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Measure at the right rhythm.",
+      "body": [
+        "Retention only means something if you measure it at the pace customers naturally buy. A shop reorders weekly, so weekly use is fair. An app for yearly tax filing would look broken on the same chart.",
+        "Small early groups are also noisy. Twenty shops leaving can be one bad month.",
+        "The same test works off-screen too. A wholesaler launching a new product line should watch reorders, not the first big order."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a delivery app for trucking firms.",
+      "illustrative": true,
+      "body": [
+        "Leo's app lets drivers record proof of delivery with a photo and signature. Which is the strongest sign of fit?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "A large distributor signed a paid six-month pilot for 300 drivers",
+            "verdict": "partial",
+            "feedback": "A paid pilot is better than praise, but the buyer signed, not the drivers. Until they keep using it after the pilot, it can still be a **false sign**."
+          },
+          {
+            "key": "B",
+            "text": "That distributor's CEO praised the app on stage at an industry event",
+            "verdict": "risky",
+            "feedback": "Public praise costs nothing and changes no routine. It's attention, a textbook **false sign of fit**."
+          },
+          {
+            "key": "C",
+            "text": "Twelve small hauliers use it on almost every delivery and call within an hour when it goes down",
+            "verdict": "best",
+            "feedback": "Steady daily use plus panic when it breaks is **retention** in its clearest form. These customers have built their work around it."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "In business software, the buyer and the daily user are often different people. Check retention among the users, not just the contract renewals."
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Fit shows up in who stays, not who arrives.",
+      "body": [
+        "You used two ideas: **retention as the real signal** (a curve that flattens) and **false signs of fit** (downloads, press, praise and pilots that measure attention).",
+        "**Try it today:** pick the customers who first bought from you two months ago. How many came back last week?"
+      ],
+      "next": "Next · How Superhuman measured its fit"
+    }
+  ]
+}

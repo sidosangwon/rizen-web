@@ -1,0 +1,239 @@
+{
+  "id": "OPS-08-10",
+  "unitId": "OPS-08",
+  "categoryId": "OPS",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Cut your product range in half?",
+  "readerTitle": "Half the menu, more of the profit? A catering simulation",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (기업 고객 대상 도시락·케이터링 업체) · 모든 수치는 설명용",
+  "insight": "고객이 느끼는 다양성은 상품 수에서 나오지만, 비용은 그 상품을 만드는 재료와 부품 수에서 나온다. 그래서 상품을 줄일 때도, 다양성을 되살릴 때도 기준은 '혼자만 쓰이는 재료'다.",
+  "misconception": "가장 안 팔리는 상품부터 잘라내면 된다. 상품 수를 줄이면 고객은 무조건 떠난다.",
+  "relatedLessonIds": [
+    "OPS-08-03",
+    "OPS-08-02"
+  ],
+  "sources": [
+    {
+      "text": "운영관리의 표준 개념 (상품 구색 복잡성 비용, 재고 회전, 품절과 과잉 재고의 균형)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 설명용 가상 수치입니다. 3번 카드 계산: 매출 감소 $38,000 − $36,500 = $1,500(약 4%), 매출의 약 40%가 식재료·포장비 이후 남는다고 가정하면 잃은 금액 $1,500 × 0.4 = $600. 폐기 감소 $2,400 − $1,300 = $1,100. 순효과 주당 약 +$500(인건비 절감은 제외).",
+      "status": "open"
+    },
+    {
+      "note": "닭고기 등 신선 단백질의 보관 기간을 '며칠'로만 표현했습니다. 구체적 일수는 국가·보관 방식마다 달라 적지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Simulation",
+      "title": "64 dishes, and a bin full of money",
+      "illustrative": true,
+      "body": [
+        "You run a catering company that delivers lunch to about 40 offices. Your menu has 64 dishes, built from 180 different ingredients.",
+        "Clients like the choice. But every Friday, about $2,400 of food goes in the bin, and your cooks spend mornings hunting for things. You're thinking about cutting the menu in half. You'll make three calls."
+      ],
+      "image": {
+        "label": "A catering table overflowing with dishes beside a bin of coins",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 케이터링 테이블에 수십 가지 요리가 넘치고, 옆에 금화로 가득 찬 쓰레기통이 있음. 실제 브랜드 로고 없음.",
+        "url": "assets/images/ops-08-10-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 3",
+      "title": "Which 32 dishes go?",
+      "illustrative": true,
+      "body": [
+        "You have each dish's sales, its costs, and the ingredients it needs. How do you choose what to cut?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Cut the 32 lowest sellers",
+            "verdict": "partial",
+            "feedback": "Quick and mostly right. But your only gluten-free dish is a low seller, and one office orders 30 lunches a day because of it. Cut it and you may lose the whole account."
+          },
+          {
+            "key": "B",
+            "text": "Rank dishes by what they leave after costs and how many ingredients only they use, then check which ones clients depend on",
+            "verdict": "best",
+            "feedback": "Slower, but you cut the dishes that cause the most waste and keep the few low sellers that hold accounts together."
+          },
+          {
+            "key": "C",
+            "text": "Keep every dish and buy ingredients in bulk to get better prices",
+            "verdict": "risky",
+            "feedback": "Cheaper per kilo, but more stock sitting in the fridge. Slow ingredients would spoil faster than you save."
+          }
+        ],
+        "afterReveal": "Say you chose B. Here's what happened next."
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What happened",
+      "title": "Sales dipped. Profit rose.",
+      "illustrative": true,
+      "breakdown": [
+        {
+          "value": "64 → 32",
+          "label": "Dishes",
+          "detail": "Kept the gluten-free and vegan anchors",
+          "highlight": false
+        },
+        {
+          "value": "180 → 95",
+          "label": "Ingredients",
+          "detail": "Many cut dishes used items nothing else needed",
+          "highlight": false
+        },
+        {
+          "value": "$2,400 → $1,300",
+          "label": "Weekly food waste",
+          "detail": "$1,100 a week saved",
+          "highlight": true
+        },
+        {
+          "value": "$38,000 → $36,500",
+          "label": "Weekly sales",
+          "detail": "Down about 4%",
+          "highlight": false
+        }
+      ],
+      "callout": "The lost sales would have left about $600 after food and packaging. The waste savings alone were $1,100."
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 3",
+      "title": "Your chicken bowl sells out by 11 a.m.",
+      "illustrative": true,
+      "body": [
+        "Customers who used to order cut dishes moved to your best sellers. Your chicken rice bowl now sells out by Wednesday morning. Office managers ordering for whole teams are annoyed. Chicken keeps only a few days."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Double the chicken order to be safe",
+            "verdict": "risky",
+            "feedback": "No more sellouts, but extra chicken spoils within days. You'd rebuild the waste you just removed."
+          },
+          {
+            "key": "B",
+            "text": "Track daily orders on the new menu, raise stock levels for the top five dishes, and take deliveries twice a week",
+            "verdict": "best",
+            "feedback": "Demand has shifted, so your old stock levels are wrong. Smaller, more frequent deliveries keep shelves full without piling up spoilage."
+          },
+          {
+            "key": "C",
+            "text": "Mark it sold out and suggest another dish",
+            "verdict": "partial",
+            "feedback": "Fine once. Repeated sellouts tell a business client you're unreliable, and they're placing orders for 30 people."
+          }
+        ],
+        "afterReveal": "Say you chose B. Sellouts stopped within two weeks."
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 3",
+      "title": "\"We're bored of the menu.\"",
+      "illustrative": true,
+      "body": [
+        "Your largest client eats your food four days a week. After two months, their office manager asks for more variety. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Add ten new dishes back",
+            "verdict": "risky",
+            "feedback": "The client is happy for a month. Then you're back to slow ingredients, crowded fridges and Friday waste."
+          },
+          {
+            "key": "B",
+            "text": "Run weekly specials made only from ingredients you already stock",
+            "verdict": "best",
+            "feedback": "The client sees new dishes. The kitchen sees the same 95 ingredients, now used more often, so they move through the fridge faster."
+          },
+          {
+            "key": "C",
+            "text": "Explain that the shorter menu keeps prices low",
+            "verdict": "partial",
+            "feedback": "True, and some clients accept it. But eating the same lunch every day is a real cost to them, and a rival can win them with variety."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The idea",
+      "title": "Customers count dishes. Costs count ingredients.",
+      "body": [
+        "Every product carries costs that don't show on its own price: an extra item to store, a step to train, another chance to run out or throw food away. A slow seller spreads those costs over very few sales.",
+        "The useful question isn't \"how many products?\" It's \"**how many inputs does each product need that nothing else uses?**\" Cut those, and you can still offer plenty of variety."
+      ],
+      "image": {
+        "label": "Many dishes linked to a small shared set of ingredients",
+        "aspectRatio": "4:3",
+        "brief": "왼쪽에 다양한 도시락 8개, 오른쪽에 재료 아이콘 10개. 대부분의 도시락이 같은 재료들에 선으로 이어지고, 재료 하나에만 선이 하나뿐(혼자 쓰이는 재료)으로 빨간 표시. 실제 브랜드나 로고 없음.",
+        "url": "assets/images/ops-08-10-c6.jpg"
+      },
+      "softwareNote": "The same logic applies to software plans and features. Customers see the list of options. Your team pays for every special setting, integration and plan that only a few customers use, in testing, support and bugs."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Some businesses sell the range itself.",
+      "body": [
+        "Cutting works when your remaining products can absorb most of the demand. A hardware store or a specialist bookshop is different: customers come because *you have the odd thing*. Cut the range and you cut the reason to visit.",
+        "Also look at who buys the slow items, not just how many. One low seller can hold an entire customer relationship together."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Cut the inputs, keep the reasons to buy.",
+      "body": [
+        "Each call you made connects to an idea from this unit:"
+      ],
+      "list": [
+        "**Decision 1:** the cost of too many products. Rank by hidden costs and by who depends on each item.",
+        "**Decision 2:** stockouts vs overstock. When demand shifts, reset stock levels and order smaller and more often.",
+        "**Decision 3:** inventory turnover. Variety built from shared ingredients makes stock move faster."
+      ],
+      "callout": "**Try it today:** list your ten slowest products. Next to each, write the inputs only it uses and the customers who buy it.",
+      "next": "Next · A new unit in Operations begins"
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "id": "THK-02-02",
+  "unitId": "THK-02",
+  "categoryId": "THK",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "Survivorship bias",
+  "readerTitle": "The customers who left know something your loyal ones don't",
+  "format": "two_businesses",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative",
+    "anecdote"
+  ],
+  "caseNote": "가상 사례 (청소 서비스 두 곳, 마케팅 대행사) + 전해지는 일화 (Abraham Wald와 폭격기 장갑)",
+  "insight": "성공한 쪽만 보고 결론을 내리기 전에, 걸러져서 보이지 않게 된 쪽이 누구인지 먼저 묻는다.",
+  "misconception": "남아 있는 고객이나 성공한 회사를 자세히 들여다보면 무엇이 잘 통하는지 알 수 있다.",
+  "relatedLessonIds": [
+    "THK-08-04",
+    "THK-02-01"
+  ],
+  "sources": [
+    {
+      "text": "Wald, A. (1943). A Method of Estimating Plane Vulnerability Based on Damage of Survivors. Statistical Research Group, Columbia University. Reprinted by the Center for Naval Analyses (1980).",
+      "url": null
+    },
+    {
+      "text": "Mangel, M. & Samaniego, F. (1984). Abraham Wald's Work on Aircraft Survivability. Journal of the American Statistical Association.",
+      "url": null
+    },
+    {
+      "text": "청소 서비스와 마케팅 대행사 사례, 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Wald 폭격기 이야기는 널리 알려진 형태(귀환기 총알 구멍 그림, 장교들과의 대화)가 단순화·각색된 것입니다. Wald가 생존 항공기 피해 자료로 취약성을 추정하는 보고서를 쓴 것은 사실이므로 카드에는 일화로 표시하고 '핵심 아이디어는 그의 것'으로만 적었습니다. 게시 전 Mangel & Samaniego(1984)로 표현을 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "청소 서비스(고객 300명, 지난해 해지 80명)와 대행사(치과 고객 5곳, 가정 예시 25곳 중 20곳 이탈) 수치는 모두 설명용 가상 수치입니다.",
+      "status": "open"
+    },
+    {
+      "note": "'옛 건물이 더 튼튼하게 지어졌다'는 예시는 생존 편향의 흔한 설명용 예시이며 특정 통계를 주장하지 않습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Two businesses",
+      "title": "The customers who left know something your loyal ones don't",
+      "illustrative": true,
+      "body": [
+        "Two house-cleaning companies in the same city ask the same question: why do customers stay with us?",
+        "One asks only the customers it still has. The other also calls the ones who cancelled. They get very different answers. Only one of them points to the real problem."
+      ],
+      "image": {
+        "label": "Two cleaning vans, one team on the phone with a crossed-out customer list",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 같은 거리에 청소 업체 밴 두 대. 왼쪽 팀은 웃는 고객들에게 설문지를 받고, 오른쪽 팀은 줄이 그어진 고객 명단을 보며 전화를 건다. 실제 회사 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/thk-02-02-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Where do you look first?",
+      "illustrative": true,
+      "body": [
+        "You run a home-cleaning service with 300 regular customers. About 80 cancelled last year.",
+        "You want to know what to fix first. Where do you look?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Survey your 300 current customers and fix what they rate lowest",
+            "verdict": "partial",
+            "feedback": "Easy and friendly. But you learn what bothers people who stayed anyway. The problems that made 80 people leave may not show up at all."
+          },
+          {
+            "key": "B",
+            "text": "Call a sample of the 80 who cancelled, then compare them with current customers",
+            "verdict": "best",
+            "feedback": "Slower and more awkward, but you hear from the people your question is really about. The comparison shows what's different about the ones who left."
+          },
+          {
+            "key": "C",
+            "text": "Study the best-reviewed cleaning company in town and copy it",
+            "verdict": "risky",
+            "feedback": "You see what a winner looks like today. You don't see the firms that did the same things and closed."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "Same question, two answers.",
+      "illustrative": true,
+      "body": [
+        "Company A heard from loyal customers: \"Your cleaners are lovely.\" So it spent money on friendlier service, something customers already liked.",
+        "Company B also called former customers. Many said the same thing: missed appointments and a different cleaner every visit. Loyal customers had put up with that. The leavers had not.",
+        "Company B fixed its scheduling. Company A polished what was already working."
+      ],
+      "image": {
+        "label": "Two columns: what loyal customers said vs what former customers said",
+        "aspectRatio": "16:9",
+        "brief": "좌우 두 칸 비교 인포그래픽. 왼쪽 \"Loyal customers\" 칸에 \"Friendly cleaners\" 말풍선, 오른쪽 \"Former customers\" 칸에 \"Missed visits\", \"New cleaner every time\" 말풍선. 오른쪽 말풍선을 강조 색으로.",
+        "url": "assets/images/thk-02-02-c3.jpg"
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Survivorship bias",
+      "body": [
+        "**Survivorship bias** means drawing conclusions only from the people, companies or things that made it through a filter, while ignoring the ones that didn't.",
+        "Here the filter was simple. Customers who hated missed appointments had already left. So asking only current customers meant asking a group already sorted to like you. Their answers were honest, just incomplete."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "A famous story",
+      "title": "The holes that weren't there.",
+      "body": [
+        "A story often told about World War II: the statistician Abraham Wald helped the US military decide where to add armor to bombers. In the popular version, returning planes had holes clustered on the wings and body, so officers wanted armor there.",
+        "Wald's point: planes hit in other places, like the engines, mostly never came back. The holes showed where a plane could be hit **and survive**.",
+        "The retelling is simplified. Wald's real reports were careful math. But the core idea is his."
+      ],
+      "image": {
+        "label": "A returning bomber with holes everywhere except the engines",
+        "aspectRatio": "16:9",
+        "brief": "단순한 평면 일러스트. 위에서 본 폭격기 실루엣에 날개와 동체에만 빨간 점이 찍혀 있고, 엔진 부분은 비어 있으며 점선 원으로 강조. 실제 군 마크나 기체 표식은 쓰지 않음.",
+        "url": "assets/images/thk-02-02-c5.jpg"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where else it shows up",
+      "title": "Once you see it, it's everywhere.",
+      "body": [
+        "The same filter hides the missing group in many places."
+      ],
+      "list": [
+        "**Founder advice:** you hear from those who succeeded, not the many who did the same things and failed.",
+        "**Old buildings:** \"they built them better back then.\" The badly built ones came down long ago.",
+        "**Top salespeople:** if they all do X, check whether the ones who quit did X too."
+      ],
+      "softwareNote": "An in-app survey only reaches active users. People who churned in their first week never see it, and they're often the ones who could explain your churn."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Don't throw out the survivors.",
+      "body": [
+        "Survivors still teach you something. The fix is not to ignore them but to **add the missing group** and compare.",
+        "That's harder than it sounds. People who left are hard to reach and often give polite, vague reasons. A handful of them can mislead you too.",
+        "And sometimes the missing group isn't in your data at all. Then the honest move is to say what you can't know."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a marketing agency.",
+      "illustrative": true,
+      "body": [
+        "You run a marketing agency for small firms. Your five longest-standing clients are all dental practices.",
+        "A partner says: \"Dentists love us. Let's specialize.\" What do you check first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Nothing. Five loyal clients is a clear signal, so specialize now",
+            "verdict": "risky",
+            "feedback": "You gain focus fast. But five who stayed say nothing about how many dentists you signed and lost along the way."
+          },
+          {
+            "key": "B",
+            "text": "Pull every client from the past five years and compare how long dentists stayed vs everyone else",
+            "verdict": "best",
+            "feedback": "If you signed 25 dentists and 20 left, the story flips. If they really do stay longer, now you have evidence, not just survivors."
+          },
+          {
+            "key": "C",
+            "text": "Interview the five dental clients about why they stay",
+            "verdict": "partial",
+            "feedback": "Useful for a future pitch. But they can't tell you whether dentists in general are a good fit for you."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Before learning from winners, ask who's missing.",
+      "body": [
+        "The people and businesses still standing are the ones a filter let through. To learn why, compare them with the ones it removed.",
+        "**Try it today:** pick one belief about what works in your business. Write down who would be missing from the evidence, and find one of them to ask."
+      ],
+      "next": "Next · Why we're surer than we should be"
+    }
+  ]
+}

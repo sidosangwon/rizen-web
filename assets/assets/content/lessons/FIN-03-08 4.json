@@ -1,0 +1,302 @@
+{
+  "id": "FIN-03-08",
+  "unitId": "FIN-03",
+  "categoryId": "FIN",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "Unit economics of a meal kit",
+  "readerTitle": "The meal kit box that starts $72.90 in the hole",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (밀키트 회사, 레시피 구독 앱) · 모든 수치는 설명용",
+  "insight": "밀키트처럼 신규 고객을 할인으로 데려오는 사업은 상자 한 개가 남기는 돈으로 고객 확보 비용을 몇 상자 만에 회수하는지가 성패를 가른다.",
+  "misconception": "상자 가격에서 재료비만 빼면 남는 돈이 나오고, 첫 상자 할인은 마케팅 비용이 아니라 매출 감소일 뿐이다.",
+  "relatedLessonIds": [
+    "FIN-03-06",
+    "FIN-03-05"
+  ],
+  "sources": [
+    {
+      "text": "관리회계의 표준 개념 (공헌이익, 고객 확보 비용, 회수 기간)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "정가 상자 공헌이익: $60 − $22(재료) − $6(포장·아이스팩) − $5(포장 인건비) − $9(배송) − $1.80(카드 수수료 3%) = $16.20. 재료만 뺀 값 $38, 배송·수수료를 뺀 값 $27(선택지용).",
+      "status": "open"
+    },
+    {
+      "note": "첫 상자 50% 할인: $30 − $42 − $0.90 = −$12.90. 고객 확보 비용 = 광고 $60 + 첫 상자 손실 $12.90 = $72.90. 회수: 72.90 ÷ 16.20 = 4.5상자(정가). 누적 미회수액: 72.90 → 56.70 → 40.50 → 24.30 → 8.10 → 0(6번째 상자에서 +$8.10).",
+      "status": "open"
+    },
+    {
+      "note": "개선안 비교: A 광고비 $45 → 확보 비용 $57.90, 57.90 ÷ 16.20 = 3.6상자. B 상자당 $3 절감 → 공헌이익 $19.20, 첫 상자 −$9.90, 확보 비용 $69.90, 69.90 ÷ 19.20 = 3.6상자. C 60% 할인 → 첫 상자 $24 − $42 − $0.72 = −$18.72, 확보 비용 $78.72, 78.72 ÷ 16.20 = 4.9상자.",
+      "status": "open"
+    },
+    {
+      "note": "앱: $8 − 수수료 30% $2.40 − 서버 $0.40 = $5.20/월. 26 ÷ 5.20 = 5개월, 평균 4개월 유지 시 4 × 5.20 = $20.80 → 구독자당 −$5.20. $10 인상 시 $10 − $3 − $0.40 = $6.60, 26 ÷ 6.60 ≈ 3.9개월. 수수료 30%는 실제 특정 앱스토어 요율을 주장하지 않는 가상 가정입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Everyday scene",
+      "title": "The meal kit box that starts $72.90 in the hole",
+      "illustrative": true,
+      "body": [
+        "A box lands on a doorstep: three dinners, pre-measured spices, ice packs, a glossy recipe card. The customer paid half price for it.",
+        "For the company that packed and shipped it, that cheerful box is the start of a debt. This lesson follows it until the debt is paid back, or isn't."
+      ],
+      "image": {
+        "label": "Meal kit box on a doorstep with a price tag reading 50% off",
+        "aspectRatio": "4:3",
+        "brief": "현관 앞에 놓인 밀키트 상자, 뚜껑이 살짝 열려 채소·소스병·아이스팩이 보임. 상자 옆에 \"50% off\" 태그. 상자 그림자가 빨간 마이너스 기호 모양. 실제 브랜드 로고 사용 금지.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What does one full-price box leave you?",
+      "illustrative": true,
+      "body": [
+        "You run a meal kit company. A box sells for $60. Ingredients cost $22, packaging and ice $6, packing labor $5, and shipping to the door $9. Card fees take 3%.",
+        "After the costs that come with each box, what's left?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "About $38",
+            "verdict": "risky",
+            "feedback": "That's price minus food. It ignores everything it takes to get the food to the door, which is most of what a meal kit actually is."
+          },
+          {
+            "key": "B",
+            "text": "About $16",
+            "verdict": "best",
+            "feedback": "Right. This is the **contribution margin**: what each box leaves after the costs that come with it. Every later decision starts here."
+          },
+          {
+            "key": "C",
+            "text": "About $27",
+            "verdict": "partial",
+            "feedback": "You counted packing but left out shipping and fees. Free delivery isn't free to you; it's paid out of every box."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Follow one box.",
+      "illustrative": true,
+      "body": [
+        "Food is barely a third of the price. Packing and the cold trip to the door eat almost as much. That leaves **$16.20** to pay for ads, the kitchen lease and, eventually, profit."
+      ],
+      "breakdown": [
+        {
+          "value": "$60.00",
+          "label": "Price",
+          "detail": "Three dinners for two",
+          "highlight": false
+        },
+        {
+          "value": "−$22.00",
+          "label": "Ingredients",
+          "detail": "Food and spices",
+          "highlight": false
+        },
+        {
+          "value": "−$20.00",
+          "label": "Pack and ship",
+          "detail": "Box and ice $6, labor $5, delivery $9",
+          "highlight": false
+        },
+        {
+          "value": "−$1.80",
+          "label": "Card fee",
+          "detail": "3% of the price",
+          "highlight": false
+        },
+        {
+          "value": "$16.20",
+          "label": "Left over",
+          "detail": "Contribution margin per box",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The cost to win",
+      "title": "The discount is part of the price of a customer.",
+      "illustrative": true,
+      "body": [
+        "Ads cost you about $60 for each new customer. Then the first box goes out at $30. The costs don't shrink with the price, so that box loses $12.90.",
+        "Add them up: **$72.90 to win one customer**. The half-price box isn't just lower revenue. It's a marketing cost hiding inside the sales line."
+      ],
+      "image": {
+        "label": "Ad spend and first-box loss stacked into one bar",
+        "aspectRatio": "16:9",
+        "brief": "막대 하나에 두 층을 쌓음: 아래 \"Ads $60\", 위 \"First-box loss $12.90\". 맨 위에 \"Cost to win: $72.90\" 라벨. 옆에 반값 스티커가 붙은 작은 상자 아이콘.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "chart",
+      "eyebrow": "Payback",
+      "title": "Still to earn back, box by box.",
+      "illustrative": true,
+      "body": [
+        "Each full-price box chips $16.20 off the $72.90. It takes 4.5 boxes after the first one. The customer becomes profitable during box six. If most customers quit after three boxes, the company loses money on each of them, no matter how many it signs up."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Amount not yet earned back",
+            "rows": [
+              {
+                "label": "After box 1 (half price)",
+                "value": 72.9,
+                "highlight": false
+              },
+              {
+                "label": "After box 2",
+                "value": 56.7,
+                "highlight": false
+              },
+              {
+                "label": "After box 3",
+                "value": 40.5,
+                "highlight": false
+              },
+              {
+                "label": "After box 4",
+                "value": 24.3,
+                "highlight": false
+              },
+              {
+                "label": "After box 5",
+                "value": 8.1,
+                "highlight": false
+              },
+              {
+                "label": "After box 6",
+                "value": 0,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The average customer may not exist.",
+      "body": [
+        "\"Customers stay five boxes on average\" can mean half stay twenty and half leave after one. Look at payback for each group, especially the deal hunters who came for the discount.",
+        "Time matters too. Customers who skip weeks stretch six boxes into three months. And the $72.90 leaves your bank account on day one, so fast growth needs cash before it makes any."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · your kitchen",
+      "title": "Which fix shortens payback best?",
+      "illustrative": true,
+      "body": [
+        "You want customers to pay back sooner. Your team brings three ideas."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Find cheaper ads: $45 per new customer instead of $60",
+            "verdict": "partial",
+            "feedback": "Payback drops to about 3.6 boxes by lowering the **cost to win**. But it only helps new customers, and cheaper ads can bring customers who leave sooner."
+          },
+          {
+            "key": "B",
+            "text": "Smaller insulated packaging and a regional hub: $3 less per box",
+            "verdict": "best",
+            "feedback": "This raises the **contribution margin** to $19.20 on every box, including the first. Payback also falls to about 3.6 boxes, and every existing customer gets more profitable too."
+          },
+          {
+            "key": "C",
+            "text": "Go to 60% off the first box to lift sign-ups",
+            "verdict": "risky",
+            "feedback": "The first box now loses $18.72, so the **cost to win** rises to $78.72 and payback stretches to 4.9 boxes. More sign-ups at a worse deal means faster losses."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a recipe app.",
+      "illustrative": true,
+      "body": [
+        "Your app charges $8 a month. Store and payment fees take 30%, servers about $0.40, so each subscriber leaves $5.20 a month. Ads cost $26 per paying subscriber. The typical subscriber stays four months.",
+        "How healthy is this?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Healthy. Software margins are high, so growth will fix it",
+            "verdict": "risky",
+            "feedback": "A high margin isn't enough. **Payback** takes five months but users stay four, so each one loses $5.20. Growth multiplies that loss."
+          },
+          {
+            "key": "B",
+            "text": "Unhealthy until users stay past five months or ads get cheaper",
+            "verdict": "best",
+            "feedback": "Right. Compare the **payback period** with how long users stay. The fix is longer retention or a lower cost to win, before spending more on growth."
+          },
+          {
+            "key": "C",
+            "text": "Raise the price to $10 and the problem is solved",
+            "verdict": "partial",
+            "feedback": "Each user would leave $6.60, and payback drops to about 3.9 months, just under four. But only if a higher price doesn't make users leave sooner."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A customer pays you back one order at a time.",
+      "body": [
+        "You used three ideas: **contribution margin** (what each box leaves), the cost to win a customer (ads plus discounts), and the payback period (how many orders until you're even).",
+        "**Try it today:** add your welcome discount to your ad cost per new customer. Divide by what one regular order leaves. Do most customers stay that long?"
+      ],
+      "next": "Next · MoviePass lost money on every ticket"
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "id": "FIN-11-03",
+  "unitId": "FIN-11",
+  "categoryId": "FIN",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "Depreciation",
+  "readerTitle": "Two businesses, same profit, one hidden machine bill",
+  "format": "two_businesses",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (팔레트 제조 공장 vs 일정 관리 소프트웨어 회사, 베이커리) · 모든 수치는 설명용",
+  "insight": "감가상각은 이미 쓴 돈을 장비를 쓰는 기간에 나눠 비용으로 잡는 것이다. 현금이 나가지 않는 해에도 장비 교체 비용이 조금씩 쌓이고 있다는 신호로 읽어야 한다.",
+  "misconception": "감가상각은 현금이 나가지 않는 장부상 비용이니 무시해도 된다. 감가상각 전 이익이 같으면 두 사업이 똑같이 번다.",
+  "relatedLessonIds": [
+    "FIN-11-05",
+    "FIN-11-06"
+  ],
+  "sources": [
+    {
+      "text": "관리·재무회계의 표준 개념 (감가상각, 정액법, 내용연수)",
+      "url": null
+    },
+    {
+      "text": "IFRS IAS 16 Property, Plant and Equipment (유형자산의 감가상각)",
+      "url": null
+    },
+    {
+      "text": "IFRS IAS 38 Intangible Assets, US GAAP ASC 350-40 (일부 소프트웨어 개발비의 자산화와 상각)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "공장 계산: 기계 $500,000 ÷ 5년 = 연 $100,000. 감가상각 전 이익 연 $200,000 − $100,000 = $100,000. 나누지 않으면 1년차 $200,000 − $500,000 = −$300,000, 2~5년차 $200,000. 5년 합계는 두 방식 모두 $500,000(5×$200,000 − $500,000 = 5×$100,000).",
+      "status": "open"
+    },
+    {
+      "note": "내용연수를 10년으로 바꾸면: $500,000 ÷ 10 = 연 $50,000, 이익 $150,000. 현금 흐름은 변하지 않음.",
+      "status": "open"
+    },
+    {
+      "note": "베이커리: 오븐 $60,000 ÷ 10년 = 연 $6,000, 이익 $46,000 − $6,000 = $40,000. 20년으로 늘리면 $3,000, 이익 $43,000.",
+      "status": "open"
+    },
+    {
+      "note": "소프트웨어 개발비 자산화 규정은 회계 기준과 나라마다 다릅니다. 카드에는 '일부 회계 규정에서는'처럼 일반적으로만 적었고, 세무 조언은 하지 않습니다. 정액법 외 다른 상각 방법은 다루지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Two businesses",
+      "title": "Two businesses, same profit, one hidden machine bill",
+      "illustrative": true,
+      "body": [
+        "A pallet factory and a scheduling software company each bring in $200,000 a year after their running costs.",
+        "On paper they look like twins. One of them has a $500,000 bill coming due every five years."
+      ],
+      "image": {
+        "label": "A factory and a laptop on a balance scale, tilted by a hidden machine",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 저울 한쪽에 작은 공장, 다른 쪽에 노트북. 겉보기엔 균형이지만 공장 아래 그림자 속에 큰 기계가 숨어 있음. 실제 로고나 브랜드 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which business really earns more?",
+      "illustrative": true,
+      "body": [
+        "The factory runs on one cutting machine that cost $500,000 and wears out in about five years. The software company rents its servers by the month, and that rent is already in its running costs.",
+        "Both earn $200,000 a year before counting the machine. You could buy either one. Which earns more?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "They earn the same. The machine is already paid for",
+            "verdict": "risky",
+            "feedback": "The past bill is paid, but the machine is being used up. In five years you'll need another $500,000, and this view hides that."
+          },
+          {
+            "key": "B",
+            "text": "The software company earns more",
+            "verdict": "best",
+            "feedback": "Right. Its server costs are already counted. The factory must still cover a machine that wears out, about $100,000 a year."
+          },
+          {
+            "key": "C",
+            "text": "The factory earns more, because it owns valuable equipment",
+            "verdict": "partial",
+            "feedback": "Owning the machine has value if you sell it or borrow against it. But a machine losing value every year is a cost, not extra income."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Follow the factory's machine.",
+      "illustrative": true,
+      "body": [
+        "Count the whole $500,000 in year one, and the factory shows a $300,000 loss, then four great years. Both pictures are wrong. Spread it out, and every year shows **$100,000**."
+      ],
+      "breakdown": [
+        {
+          "value": "$200,000",
+          "label": "Earnings before the machine",
+          "detail": "Each year, years 1 to 5",
+          "highlight": false
+        },
+        {
+          "value": "−$100,000",
+          "label": "Machine used up this year",
+          "detail": "$500,000 ÷ 5 years",
+          "highlight": false
+        },
+        {
+          "value": "$100,000",
+          "label": "Profit each year",
+          "detail": "Half of what it looked like",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Depreciation",
+      "body": [
+        "**Depreciation** spreads the cost of a long-lasting asset, like a machine, truck or oven, over the years you use it.",
+        "The simplest way is *straight-line*: divide the price by the expected useful life. A $500,000 machine that lasts five years costs $100,000 a year.",
+        "The idea is to match the cost to the years the machine helps you earn money."
+      ],
+      "image": {
+        "label": "One big cost split into five equal yearly blocks",
+        "aspectRatio": "16:9",
+        "brief": "큰 블록 하나(\"$500,000 machine\")가 다섯 개의 같은 크기 블록(\"Year 1\"~\"Year 5\", 각 \"$100,000\")으로 쪼개지는 인포그래픽. 시간 축은 왼쪽에서 오른쪽.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Cash leaves once. The cost shows up every year.",
+      "body": [
+        "The cash left the bank in year one. In years two to five, no money moves for the machine, yet profit still drops by $100,000.",
+        "That is not a paper trick. Each year, the machine gets closer to the scrap heap. **Depreciation is the cost of wearing it out**, and a careful owner sets that money aside.",
+        "Over five years, the totals match: $500,000 of profit either way. Depreciation only changes *when* the cost appears."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The other business",
+      "title": "Where the software company's costs hide.",
+      "illustrative": true,
+      "body": [
+        "The software company rents servers, so that cost hits its expenses every month. There is little to depreciate except laptops.",
+        "Not every software company looks like this. Under some accounting rules, part of the cost of building software can be recorded as an asset and spread over several years. That spreading is called *amortization*, the same idea for things you can't touch.",
+        "So when comparing businesses, ask: how much must each one keep spending just to stay in place?"
+      ],
+      "softwareNote": "If a software company spreads its build costs over years, its profit can look higher than its cash spending. Check both numbers."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The useful life is a guess.",
+      "body": [
+        "Someone decides the machine lasts five years. Say ten instead, and the yearly charge falls to $50,000. Profit jumps to $150,000. Nothing real changed.",
+        "The yearly charge is also based on the old price. If the next machine costs more, setting aside the old amount won't be enough.",
+        "Tax rules on depreciation differ by country, so check them with an accountant."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a bakery.",
+      "illustrative": true,
+      "body": [
+        "You bought a $60,000 oven expected to last ten years. This year, the bakery brought in $46,000 before counting the oven. After $6,000 of depreciation, profit is $40,000.",
+        "You want to pay yourself. How much?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Take all $46,000 and borrow for the next oven later",
+            "verdict": "partial",
+            "feedback": "You get more cash now, but you pay interest later and depend on a lender saying yes when the oven dies."
+          },
+          {
+            "key": "B",
+            "text": "Take $40,000 and save $6,000 a year toward the next oven",
+            "verdict": "best",
+            "feedback": "You pay yourself what the business really earns and build a fund for the replacement. Less cash today, no crisis in year ten."
+          },
+          {
+            "key": "C",
+            "text": "Assume a 20-year life so profit shows $43,000, then take that",
+            "verdict": "risky",
+            "feedback": "A higher number on paper, but the oven still wears out in about ten years. You'd save half of what you need."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Equipment you've paid for is still costing you.",
+      "body": [
+        "Depreciation spreads a big purchase across the years it works for you. It shows what a business really earns after wearing out its tools.",
+        "**Try it today:** list your three most expensive pieces of equipment. Divide each price by how many years it will last. Is that amount set aside each year?"
+      ],
+      "next": "Next · Why cash paid in advance isn't revenue yet"
+    }
+  ]
+}

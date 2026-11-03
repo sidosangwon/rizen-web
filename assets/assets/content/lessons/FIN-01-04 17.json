@@ -1,0 +1,248 @@
+{
+  "id": "FIN-01-04",
+  "unitId": "FIN-01",
+  "categoryId": "FIN",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "How the three connect",
+  "readerTitle": "The factory made a profit. So where did the cash go?",
+  "format": "counterexample",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (금속 부품 제조사, 연간 선불 소프트웨어 회사) · 모든 수치는 설명용",
+  "insight": "세 재무제표는 따로 읽는 보고서가 아니라 한 이야기다. 이익은 자본으로, 현금흐름은 대차대조표의 현금으로 이어지며, 이익과 현금의 차이는 대차대조표에서 설명된다.",
+  "misconception": "손익계산서에서 이익이 나면 그만큼 현금이 늘어난다. 또는 통장 잔고가 늘면 사업이 잘되고 있다.",
+  "relatedLessonIds": [
+    "FIN-01-03",
+    "FIN-02-01"
+  ],
+  "sources": [
+    {
+      "text": "재무회계의 표준 개념 (손익계산서·대차대조표·현금흐름표의 연결, 간접법 현금흐름표)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "제조사 현금흐름: 이익 $120k − 매출채권 증가 $90k − 재고 증가 $50k − 기계 구입 $40k = −$60k. 현금 $80k → $20k로 일치합니다.",
+      "status": "open"
+    },
+    {
+      "note": "제조사 대차대조표 균형: 자산 변화 = 현금 −60 + 매출채권 +90 + 재고 +50 + 설비 +40 = +$120k. 자본(이익잉여금) 변화 = +$120k(배당 없음, 부채 변화 없음 가정). 양쪽이 같습니다. 단순화를 위해 감가상각, 세금, 매입채무 변화는 뺐습니다.",
+      "status": "open"
+    },
+    {
+      "note": "소프트웨어 회사: 회계상 손실 $200k, 현금 +$500k. 고객이 다음 해 서비스 대가로 미리 낸 $900k 중 아직 제공하지 않은 부분은 선수수익(부채)으로 잡힌다는 설명은 발생주의 회계 기준의 일반 원칙입니다. 수치 간 정확한 조정 내역은 단순화했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "현금주의로 장부를 쓰는 소규모 사업체는 세 재무제표 연결이 이 레슨처럼 깔끔하게 나타나지 않을 수 있다는 점을 7번 카드에 일반적으로만 적었습니다. 국가별 회계 규정은 다루지 않습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Counterexample",
+      "title": "The factory made a profit. So where did the cash go?",
+      "illustrative": true,
+      "body": [
+        "A small metal parts maker closes its year. The accountant reports a **$120,000 profit**. Good year.",
+        "Then the owner checks the bank. The balance fell from $80,000 to $20,000. Nobody stole anything. Nobody made a mistake."
+      ],
+      "image": {
+        "label": "Factory owner holding a profit report next to a nearly empty bank balance",
+        "aspectRatio": "4:3",
+        "brief": "작은 금속 부품 공장 사무실. 사장이 한 손에 \"Profit +$120,000\"이 적힌 보고서를, 다른 손에 \"Bank $20,000\"이 뜬 휴대폰을 들고 당황한 표정. 배경에 부품 상자와 기계. 실제 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/fin-01-04-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Profit up $120,000. Cash down $60,000.",
+      "illustrative": true,
+      "body": [
+        "You own this factory. Sales grew fast this year, and you bought one new machine.",
+        "What's the most likely explanation?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Something is wrong in the books. Profit and cash should move together",
+            "verdict": "risky",
+            "feedback": "An audit might ease your mind, but it would likely find nothing. Profit and cash measure different things, so they often split."
+          },
+          {
+            "key": "B",
+            "text": "The profit is mostly on paper and isn't real",
+            "verdict": "partial",
+            "feedback": "Close to a real worry, but the profit is real. It just hasn't turned into cash yet, and you can see exactly where it's sitting."
+          },
+          {
+            "key": "C",
+            "text": "The cash turned into other things the business now owns",
+            "verdict": "best",
+            "feedback": "Right. The money is still in the business, in a different form. The next card follows it."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "Follow the money",
+      "title": "Where the $120,000 went.",
+      "illustrative": true,
+      "body": [
+        "Faster sales meant bigger customer bills not yet paid and more steel on the shelves. Profit came in. Cash went out the side door."
+      ],
+      "breakdown": [
+        {
+          "value": "+$120k",
+          "label": "Profit",
+          "detail": "From the income statement",
+          "highlight": false
+        },
+        {
+          "value": "−$90k",
+          "label": "Customers owe you more",
+          "detail": "Sold, but not yet paid",
+          "highlight": false
+        },
+        {
+          "value": "−$50k",
+          "label": "More inventory",
+          "detail": "Raw steel and finished parts",
+          "highlight": false
+        },
+        {
+          "value": "−$40k",
+          "label": "New machine",
+          "detail": "Cash spent on equipment",
+          "highlight": false
+        },
+        {
+          "value": "−$60k",
+          "label": "Change in cash",
+          "detail": "Matches the bank: $80k to $20k",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Three statements, one story",
+      "body": [
+        "The **income statement** shows profit over a period. The **balance sheet** is a snapshot of what you own and owe on one day. The cash flow statement explains how cash moved between two snapshots.",
+        "They link. This year's profit adds to owners' equity on the balance sheet. The cash flow statement starts with profit, adjusts for changes on the balance sheet, and ends at the cash figure on that same balance sheet."
+      ],
+      "image": {
+        "label": "Three linked documents: profit flows to the balance sheet, cash flow ends at cash",
+        "aspectRatio": "16:9",
+        "brief": "세 장의 문서를 나란히 배치한 인포그래픽. 왼쪽 \"Income statement\"의 \"Profit\"에서 화살표가 가운데 \"Balance sheet\"의 \"Owners' equity\"로, 오른쪽 \"Cash flow statement\"의 맨 아래 \"Ending cash\"에서 화살표가 \"Balance sheet\"의 \"Cash\"로 연결됨. 깔끔한 플랫 스타일.",
+        "url": "assets/images/fin-01-04-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "The balance sheet still balances.",
+      "illustrative": true,
+      "body": [
+        "Here's the factory's year on the balance sheet:"
+      ],
+      "list": [
+        "**Cash:** down $60k",
+        "**Money customers owe:** up $90k",
+        "**Inventory:** up $50k",
+        "**Equipment:** up $40k",
+        "**Owners' equity:** up $120k, from this year's profit"
+      ],
+      "callout": "What it owns rose by $120k. So did the owners' share. Every dollar of profit is still there, just not in the bank."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The counterexample",
+      "title": "Each statement alone can mislead.",
+      "body": [
+        "Read only the income statement, and this factory looks ready to expand. Read only the bank balance, and it looks like it's failing. Both views are wrong.",
+        "The trap is simple: each statement answers one question. Was it profitable? What does it own and owe? Where did the cash go? A real decision usually needs all three answers at once.",
+        "When profit and cash disagree, the balance sheet tells you why."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The links are only as good as the books.",
+      "body": [
+        "These connections assume tidy bookkeeping that records sales when earned and costs when used. Many small businesses track cash only, and their three statements won't tie together this neatly.",
+        "And all three describe the past. They show where cash went, not whether customers will pay next month. A big jump in money owed to you can be healthy growth, or bills that will never be paid."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software company.",
+      "illustrative": true,
+      "body": [
+        "Your app sells annual plans, paid upfront. This year the income statement shows a **$200,000 loss**. But cash rose by $500,000, because customers prepaid $900,000 for next year's service.",
+        "Your co-founder wants to hire five engineers with the new cash. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Hire them. Cash in the bank is what pays salaries",
+            "verdict": "risky",
+            "feedback": "The cash is real, but much of it is owed back as service you haven't delivered yet. Spend it as if it were profit and you may lack money to serve those customers."
+          },
+          {
+            "key": "B",
+            "text": "Check the balance sheet first: how much of that cash is service you still owe",
+            "verdict": "best",
+            "feedback": "Prepaid plans show up as a liability until you deliver. Seeing that tells you how much cash is truly free to spend, without ignoring a real cash advantage."
+          },
+          {
+            "key": "C",
+            "text": "Don't hire. We're losing money, so cash doesn't matter",
+            "verdict": "partial",
+            "feedback": "Caution is fair, but upfront payments are a genuine strength. Ignoring cash entirely could mean missing a hire you can safely afford."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "This is the factory's story in reverse. There, profit sat in unpaid bills. Here, cash arrived before it was earned."
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "When profit and cash disagree, read the balance sheet.",
+      "body": [
+        "Profit flows into owners' equity. Cash flow ends at the cash on the balance sheet. The gap between profit and cash is always sitting somewhere you can name.",
+        "**Try it today:** compare last year's profit with the change in your bank balance. List the two or three items that explain the difference."
+      ],
+      "next": "Next · Why big sales can still mean small profit"
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "id": "SAL-02-01",
+  "unitId": "SAL-02",
+  "categoryId": "SAL",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Questions before pitches",
+  "readerTitle": "The $900 question: why good sellers ask before they pitch",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (식당 단체 예약, B2B 일정 관리 소프트웨어) · 모든 수치는 설명용",
+  "insight": "가격을 정하는 것은 당신의 설명이 아니라 고객의 문제다. 질문으로 문제를 먼저 찾아야 제안할 내용과 받을 가격이 정해진다.",
+  "misconception": "고객이 가격을 물으면 바로 답하고, 상품을 잘 설명할수록 잘 판다. 비싸다는 반응이 나오면 할인이 해법이다.",
+  "relatedLessonIds": [
+    "SAL-02-02",
+    "SAL-02-09"
+  ],
+  "sources": [
+    {
+      "text": "영업 교육의 일반 원리 (진단 후 제안, 상담형 영업)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 설명용 가상 수치입니다. 계산: 먼저 설명한 경우 $65에서 $55로 할인, $55 × 40명 = $2,200. 먼저 질문한 경우 $70 × 40명 = $2,800 + 별실 $300 = $3,100. 차이 $3,100 − $2,200 = $900, $900 ÷ $2,200 ≈ 41%.",
+      "status": "open"
+    },
+    {
+      "note": "외부 연구 통계(예: 영업 통화 분석, 말하기 비율 데이터)는 정확성 확인이 어려워 의도적으로 넣지 않았습니다. 관련 연구는 SAL-02-09(Xerox 사례)에서 다룹니다.",
+      "status": "open"
+    },
+    {
+      "note": "고객사 예산 $3,500은 가상 설정입니다. 제안 금액 $3,100이 예산 안에 들어가는지 확인했습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Sales · Numbers twist",
+      "title": "Same phone call. Two endings. $900 apart.",
+      "illustrative": true,
+      "body": [
+        "A company calls a restaurant: \"How much for a dinner for 40 people?\"",
+        "One manager answers with a price. The other answers with a question. The second one books a bigger event, at a higher price, without giving a discount."
+      ],
+      "image": {
+        "label": "Two restaurant managers on the phone, one talking, one listening",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 화면을 반으로 나눠 왼쪽은 메뉴판을 들고 말풍선을 쏟아내는 매니저, 오른쪽은 메모장에 적으며 듣는 매니저. 오른쪽 위에 작은 \"+$900\" 태그. 실제 식당 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/sal-02-01-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "\"How much for 40 people?\"",
+      "illustrative": true,
+      "body": [
+        "You manage a restaurant with a private room. Your set menus run $55, $65 and $80 per person.",
+        "A caller wants a company dinner for 40 next month. Their first question is the price. What do you say first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Quote the popular $65 menu and offer to email the details",
+            "verdict": "partial",
+            "feedback": "Fast and clear, and the caller asked for it. But you're guessing what they need, and a bare number invites a \"that's a bit much.\""
+          },
+          {
+            "key": "B",
+            "text": "Say prices depend on the evening, then ask what the dinner is for",
+            "verdict": "best",
+            "feedback": "You delay the number by a minute. In return you learn what this dinner has to achieve, which tells you what to offer and what it's worth."
+          },
+          {
+            "key": "C",
+            "text": "Walk them through all three menus so they can choose",
+            "verdict": "risky",
+            "feedback": "It feels helpful and thorough. But you're pitching before you know the problem, so most of what you say won't matter to them."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "What the questions found.",
+      "illustrative": true,
+      "body": [
+        "The first manager quoted $65. The caller hesitated, so he dropped to $55: **$2,200**.",
+        "The second asked what the evening was for. Answers: the CEO is giving a speech, half the team is vegetarian, and the budget is $3,500. She offered the $70 menu with a vegetarian option, plus the private room."
+      ],
+      "breakdown": [
+        {
+          "value": "$2,200",
+          "label": "Pitch first",
+          "detail": "$55 × 40 after a discount",
+          "highlight": false
+        },
+        {
+          "value": "$2,800",
+          "label": "Questions first: food",
+          "detail": "$70 × 40, vegetarian set included",
+          "highlight": false
+        },
+        {
+          "value": "+$300",
+          "label": "Private room",
+          "detail": "Quiet space for the speech",
+          "highlight": false
+        },
+        {
+          "value": "$3,100",
+          "label": "Questions first: total",
+          "detail": "$900 more, about 41%, and no discount",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Questions before pitches",
+      "body": [
+        "**Questions before pitches** means you learn the customer's situation and problem before you present anything. A doctor examines you before writing a prescription. A good seller works the same way.",
+        "The caller asked about price, but price wasn't the real issue. A speech that nobody can hear was. Until you know the problem, any pitch is a guess, and a guess is easy to haggle over."
+      ],
+      "image": {
+        "label": "Doctor-style diagnosis: questions first, then the offer",
+        "aspectRatio": "16:9",
+        "brief": "왼쪽에서 오른쪽으로 흐르는 인포그래픽. \"Ask\" (물음표 아이콘 세 개) → \"Find the problem\" (돋보기) → \"Offer\" (선물 상자). 반대 순서 화살표에는 X 표시와 \"Guess\" 라벨.",
+        "url": "assets/images/sal-02-01-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Three things questions do that pitches can't.",
+      "body": [
+        "Good questions are about the customer, not your product: what it's for, what goes wrong today, what happens if it goes wrong."
+      ],
+      "list": [
+        "**You pitch less, and better:** you mention only what solves their problem",
+        "**They hear their own reasons:** \"a quiet room for the speech\" is their idea, not your upsell",
+        "**Objections come out early:** you learn the budget before you name a price"
+      ],
+      "callout": "A price feels high when it's compared to nothing. It feels fair when it's compared to the problem."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond restaurants",
+      "title": "It works wherever someone asks \"how much?\"",
+      "body": [
+        "A plumber asked for a quote on a new tap can ask how old the pipes are and what's been leaking. The answer may turn a $150 job into the repair the homeowner actually needs.",
+        "Inside a company, a manager asking the finance team for budget can first ask what finance worries about this year. The same request, framed around their concern, gets a different hearing."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Questions can become an interrogation.",
+      "body": [
+        "Some customers know exactly what they want. A regular ordering the usual, or a buyer comparing two clear quotes, wants a straight answer. Holding back the price can feel like a trick.",
+        "Ask a few questions that matter, and say why you're asking: \"So I can suggest the right menu.\" Never ask what you could have looked up. And don't use leading questions to steer people. Customers notice, and trust drops fast."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software demo.",
+      "illustrative": true,
+      "body": [
+        "You sell scheduling software to clinics and salons. A salon owner books a 30-minute demo. Your product has 20 features, and your team's usual demo shows all of them.",
+        "How do you use the 30 minutes?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Run the full feature tour, then leave time for questions",
+            "verdict": "risky",
+            "feedback": "It shows everything the product can do. But the owner has to work out which parts matter, and most of the 30 minutes goes to features they'll never use."
+          },
+          {
+            "key": "B",
+            "text": "Spend the first 10 minutes on how they book now and what goes wrong",
+            "verdict": "best",
+            "feedback": "You give up a third of the demo time. In return, if no-shows cost them money, you show reminders and deposits, not 20 features."
+          },
+          {
+            "key": "C",
+            "text": "Send a recorded demo and the price list so they can decide alone",
+            "verdict": "partial",
+            "feedback": "It respects their time and some buyers prefer it. But you lose the chance to learn their problem, so they judge you only on price."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Find the problem before you name the price.",
+      "body": [
+        "A pitch made before you understand the customer is a guess. A few good questions turn it into an answer, and answers are harder to haggle over.",
+        "**Try it today:** write down three questions you could ask a new customer before you describe anything you sell. Use them on the next call."
+      ],
+      "next": "Next · Why customers don't buy what you think they're buying"
+    }
+  ]
+}

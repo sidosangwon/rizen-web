@@ -1,0 +1,238 @@
+{
+  "id": "BMO-07-01",
+  "unitId": "BMO-07",
+  "categoryId": "BMO",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Complements",
+  "readerTitle": "Why a 20% room discount barely moved the needle",
+  "format": "numbers_twist",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative",
+    "real_observation"
+  ],
+  "caseNote": "가상 사례 (산간 숙소, 사내 경비 앱) · 모든 수치는 설명용 + 일반적 관찰 (연료와 차량, 전기차와 충전소)",
+  "insight": "고객은 내 제품이 아니라 함께 쓰는 것 전체를 산다. 그래서 내 제품보다 보완재를 고치는 편이 수요를 더 크게 움직일 때가 많다.",
+  "misconception": "수요를 늘리려면 내 제품의 가격을 내리거나 품질을 높여야 한다.",
+  "relatedLessonIds": [
+    "BMO-07-05",
+    "BMO-03-01"
+  ],
+  "sources": [
+    {
+      "text": "미시경제학의 표준 개념 (보완재, 교차가격탄력성이 음수인 재화)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "숙소 계산: 2박 × $150 = $300, 리프트권 $200, 교통 $300, 식사 $200, 합계 $1,000. 20% 할인 = $60 = 여행 총비용의 6%. 셔틀: 교통비 $300(렌터카) → $120(기차) 로 $180 절감 = 18%. 숙소의 셔틀 비용은 손님당 $40로 가정. 할인은 숙소 매출 $60 감소.",
+      "status": "open"
+    },
+    {
+      "note": "경비 앱 계산: 앱 입력 4분 + 영수증 찾기·스캔 15분 = 19분, 환급 대기 10일. 앱 시간을 절반으로 줄이면 2분 절약(약 11%), 대기 시간은 그대로. 모두 가상 수치.",
+      "status": "open"
+    },
+    {
+      "note": "연료 가격 상승 시 대형 차량 수요가 줄고, 충전소가 적은 지역에서 전기차 구매를 망설인다는 내용은 일반적 관찰로만 서술했습니다. 구체적 수치는 넣지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business models · Numbers twist",
+      "title": "Why a 20% room discount barely moved the needle",
+      "illustrative": true,
+      "body": [
+        "A mountain inn cut its room price by 20%. Bookings hardly changed.",
+        "The owner wasn't wrong about price. She was looking at the wrong price."
+      ],
+      "image": {
+        "label": "Mountain inn with a big discount sign and an empty road",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 눈 덮인 산 아래 작은 숙소, 입구에 \"−20%\" 간판. 숙소 앞 길은 텅 비어 있고 멀리 작은 기차역이 보임. 실제 브랜드나 로고 없음.",
+        "url": "assets/images/bmo-07-01-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Bookings are slow. What do you try?",
+      "illustrative": true,
+      "body": [
+        "Your inn sits near a ski hill, 15 km from the train station. Rooms are $150 a night and most guests stay two nights. There are no taxis at the station, so most guests rent a car from the city.",
+        "You have a modest budget to win more guests. Where do you spend it?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Cut room prices by 20%",
+            "verdict": "partial",
+            "feedback": "Guests notice a lower price, but you give up $60 per guest for a saving that may be small next to the rest of their trip."
+          },
+          {
+            "key": "B",
+            "text": "Renovate the rooms",
+            "verdict": "risky",
+            "feedback": "Nicer rooms can justify your price, but they don't fix what stops people from coming. It's also the slowest and most expensive option."
+          },
+          {
+            "key": "C",
+            "text": "Run a free shuttle from the train station",
+            "verdict": "best",
+            "feedback": "You aren't selling transport, but it lets guests skip the rental car. Next card shows why that matters more than your room rate."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Follow one guest's trip.",
+      "illustrative": true,
+      "body": [
+        "The 20% discount saves a guest $60, just **6%** of the trip. A free shuttle lets them take the train for $120 instead. That saves $180, or **18%**, and costs the inn about $40 per guest."
+      ],
+      "breakdown": [
+        {
+          "value": "$300",
+          "label": "Two nights at the inn",
+          "detail": "What the inn sells",
+          "highlight": false
+        },
+        {
+          "value": "$200",
+          "label": "Lift passes",
+          "detail": "Sold by the ski hill",
+          "highlight": false
+        },
+        {
+          "value": "$300",
+          "label": "Getting there",
+          "detail": "Rental car from the city",
+          "highlight": true
+        },
+        {
+          "value": "$200",
+          "label": "Meals",
+          "detail": "Mostly in town",
+          "highlight": false
+        },
+        {
+          "value": "$1,000",
+          "label": "The whole trip",
+          "detail": "What the guest really weighs",
+          "highlight": false
+        }
+      ],
+      "callout": "The guest compares trips, not room rates."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Complements",
+      "body": [
+        "**Complements** are products used together. When one gets cheaper, better or easier to get, demand for the other rises. When one gets worse, demand for the other falls.",
+        "Lift passes, transport and meals are complements to the inn's rooms. Customers don't buy a room. They buy a ski weekend, and your price is only one slice of it."
+      ],
+      "image": {
+        "label": "A ski weekend split into pieces, the room is one piece",
+        "aspectRatio": "16:9",
+        "brief": "퍼즐 인포그래픽. 완성된 퍼즐 그림은 \"Ski weekend\". 조각 네 개에 \"Room\", \"Lift pass\", \"Getting there\", \"Meals\" 라벨. \"Getting there\" 조각만 빠져 있거나 금이 가 있음.",
+        "url": "assets/images/bmo-07-01-c4.jpg"
+      },
+      "softwareNote": "For a software product, complements are the tools it connects to, the data it needs and the skills to use it. A missing integration can block sales more than a high price."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "The weakest piece sets demand.",
+      "body": [
+        "Economists have long observed this pattern. When fuel prices rise, demand for big, thirsty vehicles tends to fall. Where charging stations are scarce, people hesitate to buy electric cars, however good the cars are.",
+        "The lesson: find the piece of the whole that is most expensive, slowest or hardest to get. Improving that piece, even if someone else sells it, often grows your sales more than improving your own product."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The other direction",
+      "title": "Your sales can fall when nothing changes for you.",
+      "illustrative": true,
+      "body": [
+        "A restaurant keeps its menu, prices and staff the same. Then the city starts charging for parking on its street, and dinner bookings drop.",
+        "Nothing about the food changed. A complement got worse. When sales move for no clear reason, look at what customers use alongside you before blaming your own product."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Helping a complement can help your rivals too.",
+      "body": [
+        "If the shuttle stopped at every inn in town, the other inns would share the extra guests. You'd pay, and they'd benefit.",
+        "Spending on a complement pays off when the extra demand comes mostly to you, or when you can share the cost with others who gain. It also pays only if that piece is truly the bottleneck. Ask guests what almost stopped them from coming before you fix anything."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's an internal expense app.",
+      "illustrative": true,
+      "body": [
+        "Your team built a new expense app for the company. Staff still avoid it. Filing one claim takes 4 minutes in the app, plus about 15 minutes finding and scanning paper receipts. Then people wait 10 days to be paid back.",
+        "What do you change first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Redesign the app to cut entry time from 4 to 2 minutes",
+            "verdict": "partial",
+            "feedback": "A cleaner app helps, but it saves only 2 of about 19 minutes and does nothing about the 10-day wait."
+          },
+          {
+            "key": "B",
+            "text": "Add phone photo capture for receipts and work with finance to repay within 2 days",
+            "verdict": "best",
+            "feedback": "You fix the pieces around the app that hurt most. It needs finance's help, but it changes how filing a claim feels."
+          },
+          {
+            "key": "C",
+            "text": "Make the app mandatory and track who skips it",
+            "verdict": "risky",
+            "feedback": "Usage will rise on paper, but people will resent the whole process and file late. The real friction stays in place."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Customers buy the whole, not your part.",
+      "body": [
+        "Your demand depends on the things customers use alongside you. Sometimes the best way to grow is to fix a piece you don't even sell.",
+        "**Try it today:** list everything a customer must pay for, do or wait for to use your product. Circle the most painful piece. Is it yours?"
+      ],
+      "next": "Next · Platforms vs products"
+    }
+  ]
+}

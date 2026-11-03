@@ -1,0 +1,233 @@
+{
+  "id": "PPL-06-04",
+  "unitId": "PPL-06",
+  "categoryId": "PPL",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Culture as you grow",
+  "readerTitle": "Why your culture stops spreading on its own at 100 people",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (포장·물류 공장, 소프트웨어 스타트업) · 대화 쌍 수는 n(n−1)/2 계산",
+  "insight": "작은 회사의 문화는 '보고 따라 하기'로 퍼지지만, 회사가 커지면 채용·온보딩·관리자·보상 같은 장치가 대신 실어 날라야 한다.",
+  "misconception": "좋은 사람을 뽑으면 문화는 저절로 이어진다. 문화를 글로 적으면 오히려 죽는다.",
+  "relatedLessonIds": [
+    "PPL-03-06",
+    "PPL-06-08"
+  ],
+  "sources": [
+    {
+      "text": "모든 사례는 설명용 가상 예시",
+      "url": null
+    },
+    {
+      "text": "사람 사이 대화 쌍의 수: n(n−1)/2 (기본 조합 공식)",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "계산 확인: 10명 = 10×9÷2 = 45쌍, 25명 = 25×24÷2 = 300쌍, 120명 = 120×119÷2 = 7,140쌍. 25명→120명은 사람 4.8배, 대화 쌍 약 23.8배(7,140 ÷ 300).",
+      "status": "open"
+    },
+    {
+      "note": "공장과 스타트업 사례는 가상입니다. 실제 기업 수치나 연구 결과는 넣지 않았습니다. 'stop the line' 관행은 제조업에서 널리 쓰이는 일반적 관행으로만 언급했습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Culture · Counterexample",
+      "title": "Nobody changed the rule. It just stopped working.",
+      "illustrative": true,
+      "body": [
+        "A family-run packaging plant had one unwritten rule: if something looks wrong, stop the line. Everyone knew it. The owner walked the floor every morning and thanked whoever stopped it.",
+        "Then a big contract arrived. The plant grew from 25 people to 120 in three years. New hires never stopped the line. Defects tripled. Nobody had dropped the rule. Nobody had taught it either."
+      ],
+      "image": {
+        "label": "A factory line with one red stop button nobody is touching",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 포장 공장 컨베이어 라인, 빨간 정지 버튼 옆에 새 작업복을 입은 직원들이 망설이며 서 있음. 멀리 뒤쪽에 사장이 작게 보임. 실제 브랜드 로고 없음.",
+        "url": "assets/images/ppl-06-04-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How do you bring the rule back?",
+      "illustrative": true,
+      "body": [
+        "You're the owner. You can't be on every shift anymore. Three shift supervisors now run the floor, two of them hired last year.",
+        "What do you do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Spend more of your own time on the floor, across all shifts",
+            "verdict": "partial",
+            "feedback": "Your presence helps, but it doesn't scale. You'll reach fewer people every year while the plant keeps growing."
+          },
+          {
+            "key": "B",
+            "text": "Put up posters saying \"Quality first\" and give a speech",
+            "verdict": "risky",
+            "feedback": "Easy and visible, but words on a wall don't tell a new hire it's safe to stop a line. Without action behind it, a slogan can even breed cynicism."
+          },
+          {
+            "key": "C",
+            "text": "Teach stopping the line in onboarding, and have supervisors praise every stop",
+            "verdict": "best",
+            "feedback": "This turns your personal habit into something the system repeats without you. It costs supervisor time and some stopped minutes, which is the point."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "People grow fast. Connections grow faster.",
+      "body": [
+        "Count the possible one-to-one pairs in a team. At 25 people there are 300. At 120 there are 7,140. The team grew about five times. The pairs grew about 24 times.",
+        "The owner used to be in most of those conversations. Now he's in almost none."
+      ],
+      "chart": {
+        "unit": "count",
+        "groups": [
+          {
+            "label": "Possible one-to-one pairs",
+            "rows": [
+              {
+                "label": "10 people",
+                "value": 45,
+                "highlight": false
+              },
+              {
+                "label": "25 people",
+                "value": 300,
+                "highlight": false
+              },
+              {
+                "label": "120 people",
+                "value": 7140,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "image": {
+        "url": "assets/images/ppl-06-04-info.png"
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Culture changes how it travels",
+      "body": [
+        "In a small business, culture spreads by **watching**. You see what the founder does, what gets praised, what gets you a frown. Nobody needs to write it down.",
+        "As you grow, most people never watch the founder. They watch their own manager and copy the people hired just before them. So culture must travel through **systems** instead: hiring, onboarding, managers, and what gets rewarded."
+      ],
+      "image": {
+        "label": "Small team around a founder vs. large team linked through managers",
+        "aspectRatio": "16:9",
+        "brief": "좌우 비교 인포그래픽. 왼쪽: 창업자 한 명을 둘러싼 8명이 직접 연결. 오른쪽: 창업자에서 관리자 4명을 거쳐 수십 명으로 퍼지는 연결선, 관리자 아이콘이 강조됨.",
+        "url": "assets/images/ppl-06-04-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "The four carriers of culture at scale",
+      "body": [
+        "Once the founder can't be everywhere, these do the carrying:"
+      ],
+      "list": [
+        "**Hiring:** who you let in, and what you test for",
+        "**Onboarding:** what new people learn in their first weeks",
+        "**Managers:** what each team lead praises, tolerates and models",
+        "**Rewards:** who gets promoted, and for what"
+      ],
+      "callout": "If a value isn't in any of the four, newcomers will never meet it."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The counterexample",
+      "title": "\"Just hire good people\" isn't enough.",
+      "illustrative": true,
+      "body": [
+        "The plant hired capable, careful people. That wasn't the problem. Good people copy what they see, and what they saw was a busy line nobody stopped.",
+        "Many growing companies believe writing culture down will make it stiff. The opposite is more common. The unwritten version is the one that fades, because only the people who were there at the start can see it."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Don't freeze your 10-person culture.",
+      "body": [
+        "Some early habits should not survive growth. \"Everyone weighs in on every decision\" works at 10 people. At 120 it means nothing gets decided.",
+        "Sort your habits into two piles: the values you'd keep at any size, and the methods that only fit a small team. Protect the first pile. Let the second change. And let new people add to the culture, not just copy it."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software startup.",
+      "illustrative": true,
+      "body": [
+        "Your team grew from 15 to 60 engineers in a year. Early on, everyone reviewed each other's code and anyone could ship a fix to customers. Now some new engineers ship without review, and bugs reach users more often.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Leave it. Smart engineers will pick up the habit",
+            "verdict": "risky",
+            "feedback": "It keeps things light, but new hires copy the newest habits they see. Right now those include skipping review."
+          },
+          {
+            "key": "B",
+            "text": "Require a founder to approve every release",
+            "verdict": "risky",
+            "feedback": "Bugs may drop, but you've made yourself a bottleneck. That breaks the \"anyone can ship\" trust the culture was built on."
+          },
+          {
+            "key": "C",
+            "text": "Write down the review habit, pair each new hire with a veteran, and have team leads model it",
+            "verdict": "best",
+            "feedback": "You keep the speed and the trust while moving the habit into onboarding and managers. It costs veteran time in the first weeks."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "What spread by watching must be built into the system.",
+      "body": [
+        "As you grow, culture stops traveling through the founder and starts traveling through hiring, onboarding, managers and rewards.",
+        "**Try it today:** pick one habit your earliest people share. Ask your newest hire whether anyone ever taught it to them."
+      ],
+      "next": "Next · The early warning signs of a toxic culture"
+    }
+  ]
+}

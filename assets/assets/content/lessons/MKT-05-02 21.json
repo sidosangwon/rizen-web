@@ -1,0 +1,259 @@
+{
+  "id": "MKT-05-02",
+  "unitId": "MKT-05",
+  "categoryId": "MKT",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "Acquisition, activation, retention",
+  "readerTitle": "Two hundred people called. Twelve came back.",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative",
+    "real_observation"
+  ],
+  "caseNote": "가상 사례 (가정 청소 서비스, 사내 경비 정산 도구) · 모든 수치는 설명용. 단계 구분은 Dave McClure의 'pirate metrics'로 널리 알려진 실제 관찰.",
+  "insight": "'성장이 안 된다'는 하나의 문제가 아니라 데려오기, 첫 가치 경험, 다시 오기 세 단계 중 어디서 새는지의 문제다. 가장 많이 새는 단계에 돈과 시간을 쓴다.",
+  "misconception": "성장이 멈추면 광고와 홍보를 늘려 새 고객을 더 데려오면 된다.",
+  "relatedLessonIds": [
+    "MKT-05-01",
+    "CUS-07-06"
+  ],
+  "sources": [
+    {
+      "text": "Dave McClure, \"Startup Metrics for Pirates: AARRR!\" (2007 presentation)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "청소 서비스 계산: 문의 200 → 첫 예약 60(30%) → 재예약 12(첫 고객의 20%). 전단 두 배: 400 → 120 → 24. 재예약률 50%로 개선: 60 × 0.5 = 30. 30 > 24 확인.",
+      "status": "open"
+    },
+    {
+      "note": "경비 도구 계산: 안내 400명 → 로그인 300(75%) → 첫 보고서 제출 90(로그인의 30%) → 다음 달 재사용 30(제출자의 33%). 가장 큰 이탈은 로그인 후 첫 제출 단계(210명).",
+      "status": "open"
+    },
+    {
+      "note": "Dave McClure가 2007년 발표에서 Acquisition, Activation, Retention, Referral, Revenue 5단계(AARRR)를 제시했다는 내용을 게시 전 원 발표 자료로 확인하세요. 카드에는 연도와 이름만 일반적으로 적었습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Marketing · Everyday scene",
+      "title": "Two hundred people called. Twelve came back.",
+      "illustrative": true,
+      "body": [
+        "Maria runs a small home-cleaning service. Last month her flyers worked: 200 people got in touch.",
+        "Sixty booked a first clean. Twelve booked a second. Maria's plan for next month is simple: print twice as many flyers."
+      ],
+      "image": {
+        "label": "Cleaner at a front door holding a phone full of missed calls",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 청소 도구를 든 사장이 현관 앞에 서 있고, 뒤로 전단지 더미가 높이 쌓여 있음. 한쪽 문만 다시 열리는 장면. 실제 브랜드 로고 없음.",
+        "url": "assets/images/mkt-05-02-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Where should Maria spend her next $1,000?",
+      "illustrative": true,
+      "body": [
+        "She has $1,000 to grow the business next month. Each option costs about the same."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Print and deliver twice as many flyers",
+            "verdict": "risky",
+            "feedback": "More people will call, but most will leak out the same way. You pay to fill a bucket with a hole in it."
+          },
+          {
+            "key": "B",
+            "text": "Offer 30% off the first clean",
+            "verdict": "partial",
+            "feedback": "It may lift first bookings, but it does nothing for the 48 people who tried once and never returned. It can also attract bargain hunters who won't rebook."
+          },
+          {
+            "key": "C",
+            "text": "Call the 48 one-time customers and find out why they didn't rebook",
+            "verdict": "best",
+            "feedback": "It's slower and less exciting than a campaign. But it targets the stage where most of her customers are lost."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "What happened",
+      "title": "Where the customers went.",
+      "illustrative": true,
+      "body": [
+        "140 people never booked. That's a real loss. But of the 60 who paid and tried the service, **48 never came back**. Those were the hardest people to win, and she lost four out of five."
+      ],
+      "chart": {
+        "unit": "count",
+        "groups": [
+          {
+            "label": "Last month",
+            "rows": [
+              {
+                "label": "Got in touch",
+                "value": 200,
+                "highlight": false
+              },
+              {
+                "label": "Booked a first clean",
+                "value": 60,
+                "highlight": false
+              },
+              {
+                "label": "Booked again",
+                "value": 12,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "image": {
+        "label": "200 inquiries, 60 first jobs, 12 return",
+        "aspectRatio": "4:3",
+        "brief": "Funnel 200-60-12. 48 of 60 never came back.",
+        "url": "assets/images/mkt-05-02-info.png"
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Acquisition, activation, retention",
+      "body": [
+        "Growth isn't one thing. It's three stages, and customers can drop out at each one."
+      ],
+      "list": [
+        "**Acquisition:** someone finds you and shows up for the first time. *A call, a visit, a signup.*",
+        "**Activation:** they get the value they came for, for the first time. *A clean house.*",
+        "**Retention:** they come back and keep getting it. *A second clean, then a regular slot.*"
+      ],
+      "callout": "Maria's flyers fixed stage one. Her problem lives in stage three.",
+      "softwareNote": "Signing up is acquisition, not activation. A user is activated when they first do the thing your product is for, like sending a first invoice or sharing a first file."
+    },
+    {
+      "index": 5,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Two ways to grow, side by side.",
+      "illustrative": true,
+      "body": [
+        "Suppose a better routine helps: the cleaner offers to book the next visit before leaving, and leaves a short note on what was done. If that lifts rebooking from 20% to 50%, Maria ends up with **more regulars than doubling her flyers**, without paying for one extra flyer."
+      ],
+      "breakdown": [
+        {
+          "value": "12",
+          "label": "Regulars today",
+          "detail": "200 calls → 60 first cleans → 20% rebook",
+          "highlight": false
+        },
+        {
+          "value": "24",
+          "label": "Double the flyers",
+          "detail": "400 calls → 120 first cleans → 20% rebook",
+          "highlight": false
+        },
+        {
+          "value": "30",
+          "label": "Fix rebooking",
+          "detail": "Same 60 first cleans → 50% rebook",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Each stage needs a different fix.",
+      "body": [
+        "Acquisition is about your message and where people see it. Activation is about the first experience: how easy it is to start and how good the first result is. Retention is about a reason to return: quality, habit, a booked next visit.",
+        "Investor Dave McClure made this split popular in 2007 as part of five stages, nicknamed *pirate metrics*. The lasting idea is simple: **measure each stage separately**, so you know which job to work on."
+      ],
+      "image": {
+        "label": "Three buckets in a row, the last one leaking",
+        "aspectRatio": "16:9",
+        "brief": "양동이 세 개가 일렬로 놓여 있고 각각 \"Acquisition\", \"Activation\", \"Retention\" 라벨. 물이 앞에서 뒤로 흘러가는데 세 번째 양동이 바닥에 큰 구멍. 미니멀 인포그래픽.",
+        "url": "assets/images/mkt-05-02-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Define each stage by behavior, and give it time.",
+      "body": [
+        "Pick activation and retention moments that match how often customers naturally need you. A cleaning customer may return monthly. A wedding photographer's client may never return, and that's fine. For that business, referrals matter more than repeat visits.",
+        "Small numbers also swing wildly. Twelve rebookings can become eight by chance. And fixing retention can't save you if no one shows up at all. Find the leakiest stage, but keep the whole pipe flowing."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a finance team's new expense tool.",
+      "illustrative": true,
+      "body": [
+        "Your team inside a large company launched an app for expense reports. 400 staff got the launch email. 300 logged in. 90 submitted a first report. 30 used it again the next month.",
+        "Leadership asks you to boost adoption. Where do you start?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Send a second, louder all-staff email",
+            "verdict": "risky",
+            "feedback": "Getting people in isn't the problem: 75% already logged in. More emails bring more people to the same wall."
+          },
+          {
+            "key": "B",
+            "text": "Watch five colleagues try to submit a first report, and fix what stops them",
+            "verdict": "best",
+            "feedback": "210 people logged in and gave up before their first report. That's the biggest leak, and watching real attempts shows exactly where it is."
+          },
+          {
+            "key": "C",
+            "text": "Make the tool mandatory next quarter",
+            "verdict": "partial",
+            "feedback": "Usage will rise on paper. But if the first report is confusing, you get frustrated staff and more help-desk tickets instead of real adoption."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Before you buy more customers, find where you lose them.",
+      "body": [
+        "Split growth into three stages: they find you, they get value once, they come back. Spend where the biggest leak is.",
+        "**Try it today:** count last month's newcomers, how many got real value the first time, and how many returned. Circle the biggest drop."
+      ],
+      "next": "Next · Why the best marketing is a customer talking"
+    }
+  ]
+}

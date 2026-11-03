@@ -1,0 +1,289 @@
+{
+  "id": "FIN-03-02",
+  "unitId": "FIN-03",
+  "categoryId": "FIN",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "The cost to win a customer",
+  "readerTitle": "The trade show that looked like a bargain",
+  "format": "counterexample",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.4,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (포장 박스 제조사, 업무용 소프트웨어) · 모든 수치는 설명용",
+  "insight": "고객 한 명을 얻는 비용은 광고비가 아니라, 그 고객을 얻으려고 쓴 모든 돈(영업 인력의 시간, 샘플, 출장, 가입 혜택)을 새로 얻은 고객 수로 나눈 값이다.",
+  "misconception": "고객 획득 비용은 광고비나 행사비를 새 고객 수로 나누면 된다. 눈에 보이는 청구서가 곧 비용이다.",
+  "relatedLessonIds": [
+    "FIN-03-01",
+    "FIN-03-03"
+  ],
+  "sources": [
+    {
+      "text": "마케팅·관리회계의 표준 개념 (고객 획득 비용, CAC)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "전시회: 부스 $12,000 + 출장 $6,000 + 샘플 $4,000 + 영업 후속 시간 $24,000(영업 2명 × 3개월 × 근무시간 50% × 월 $8,000) = $46,000. ÷ 24명 = $1,916.67 → 카드에는 약 $1,917로 표기. 부스비만 나누면 $12,000 ÷ 24 = $500.",
+      "status": "open"
+    },
+    {
+      "note": "온라인 광고: 광고비 $18,000 ÷ 15명 = $1,200. 전체 비용 $18,000 + 샘플 $1,000 + 영업 통화 시간 $2,000 = $21,000 ÷ 15명 = $1,400.",
+      "status": "open"
+    },
+    {
+      "note": "소프트웨어: 광고 $20,000 + 데모 담당 영업 시간 $12,000 + 첫 달 무료 혜택 $4,000(400명 × $10) = $36,000. ÷ 유료 고객 400명 = $90. 광고비만: $20,000 ÷ 400 = $50. 무료 혜택 제외: $32,000 ÷ 400 = $80. 무료 체험 가입자 1,200명으로 나누면 $30.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Counterexample",
+      "title": "The trade show that looked like a bargain",
+      "illustrative": true,
+      "body": [
+        "A packaging maker spends $12,000 on a booth at an industry trade show. Twenty-four new business customers sign up afterward.",
+        "That's $500 a customer. The online ads, by comparison, cost $1,200 a customer. Easy decision. Except it was the wrong one."
+      ],
+      "image": {
+        "label": "Trade show booth stacked with cardboard boxes",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 산업 전시회의 작은 부스에 골판지 박스가 쌓여 있고, 부스 앞에 \"$500 per customer?\"라는 말풍선. 부스 뒤 그림자 속에 출장 가방, 샘플 상자, 시계가 희미하게 숨어 있음. 실제 기업 로고 사용 금지.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which channel wins customers more cheaply?",
+      "illustrative": true,
+      "body": [
+        "Last quarter, the trade show booth cost $12,000 and brought 24 new customers. Online ads cost $18,000 and brought 15.",
+        "Next year's budget can only fund one. Which do you keep?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The trade show. $500 a customer beats $1,200",
+            "verdict": "risky",
+            "feedback": "It uses the only numbers on the invoices. But the booth wasn't the only thing the trade show cost."
+          },
+          {
+            "key": "B",
+            "text": "The ads. Online is usually cheaper",
+            "verdict": "partial",
+            "feedback": "It may turn out right, but for the wrong reason. A rule of thumb can't replace your own numbers."
+          },
+          {
+            "key": "C",
+            "text": "Neither yet. First add every other cost each channel needed",
+            "verdict": "best",
+            "feedback": "Right. Travel, samples and sales time are part of what each customer cost. The next card adds them up."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The full bill",
+      "title": "What the trade show really cost.",
+      "illustrative": true,
+      "body": [
+        "Two sales reps spent half their time for three months following up with booth visitors. Divided by 24 customers, that's about **$1,917** each, not $500."
+      ],
+      "breakdown": [
+        {
+          "value": "$12,000",
+          "label": "Booth and fees",
+          "detail": "The only invoice anyone looked at",
+          "highlight": false
+        },
+        {
+          "value": "$6,000",
+          "label": "Travel and hotel",
+          "detail": "Flights, rooms, meals for the team",
+          "highlight": false
+        },
+        {
+          "value": "$4,000",
+          "label": "Samples",
+          "detail": "Boxes made and shipped to prospects",
+          "highlight": false
+        },
+        {
+          "value": "$24,000",
+          "label": "Sales follow-up",
+          "detail": "2 reps × 3 months × half their time",
+          "highlight": false
+        },
+        {
+          "value": "$46,000",
+          "label": "Total",
+          "detail": "÷ 24 new customers ≈ $1,917 each",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "chart",
+      "eyebrow": "The flip",
+      "title": "The cheap channel was the expensive one.",
+      "illustrative": true,
+      "body": [
+        "The ads needed little extra: $1,000 in samples and $2,000 of sales calls. That's $21,000 for 15 customers, or $1,400 each.",
+        "Counting everything, the ads won customers about 27% more cheaply."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Trade show",
+            "rows": [
+              {
+                "label": "Booth only",
+                "value": 500,
+                "highlight": false
+              },
+              {
+                "label": "Everything",
+                "value": 1917,
+                "highlight": true
+              }
+            ]
+          },
+          {
+            "label": "Online ads",
+            "rows": [
+              {
+                "label": "Ads only",
+                "value": 1200,
+                "highlight": false
+              },
+              {
+                "label": "Everything",
+                "value": 1400,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "image": {
+        "label": "The cheap channel was the expensive one.",
+        "aspectRatio": "4:3",
+        "brief": "Labeled HTML chart from the lesson numbers",
+        "url": "assets/images/fin-03-02-chart.png"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Customer acquisition cost",
+      "body": [
+        "**Customer acquisition cost**, often shortened to CAC, is everything you spent to win new customers in a period, divided by the number of new customers you won.",
+        "The key word is *everything*. Invoices are easy to see. People's time, free samples and sign-up deals are easy to miss. The missing part is often the biggest part."
+      ],
+      "image": {
+        "label": "Iceberg: ad spend above water, other costs below",
+        "aspectRatio": "16:9",
+        "brief": "빙산 일러스트. 물 위의 작은 부분에 \"Ads / Booth\", 물 아래의 큰 부분에 \"Sales time\", \"Samples\", \"Travel\", \"Sign-up discounts\", \"Tools\" 라벨. 차분한 파란 톤.",
+        "url": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "What counts",
+      "title": "What goes into the cost to win a customer.",
+      "body": [
+        "Ask one question of every cost: would we have spent this if we weren't trying to win new customers?"
+      ],
+      "list": [
+        "**Paid reach:** ads, events, listings, printed materials",
+        "**People:** time sales and marketing staff spend on new customers, plus commissions",
+        "**Giveaways:** samples, free trials, first-order discounts",
+        "**Tools:** software and agencies used to find and sign customers"
+      ],
+      "callout": "Leave out the cost of serving customers you already have. That belongs elsewhere."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The number is only as honest as its parts.",
+      "body": [
+        "Splitting a salesperson's time is an estimate. Make a reasonable split and use it every time, so channels stay comparable.",
+        "Timing can mislead too. Money spent this quarter may win customers next quarter. And customers who would have come anyway, like referrals, shouldn't make a paid channel look cheap.",
+        "Finally, a low cost isn't good on its own. It depends on what a customer is worth, which is the next lesson."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software company.",
+      "illustrative": true,
+      "body": [
+        "Your team-scheduling app spent $20,000 on ads last month. Two salespeople spent $12,000 worth of time running demos. Every new customer got the first month free, a $10 value.",
+        "1,200 people started a free trial. 400 became paying customers. What did each customer cost?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "$30: total cost divided by 1,200 trial sign-ups",
+            "verdict": "risky",
+            "feedback": "Trial users haven't paid. Counting them makes the cost look a third of what it is."
+          },
+          {
+            "key": "B",
+            "text": "$50: ad spend divided by 400 paying customers",
+            "verdict": "risky",
+            "feedback": "This is the booth mistake again. It leaves out the demo time that helped close many of those deals."
+          },
+          {
+            "key": "C",
+            "text": "$80: ads plus sales time, divided by 400",
+            "verdict": "partial",
+            "feedback": "Much closer. But the free month cost $4,000 in revenue you gave up to win these users."
+          },
+          {
+            "key": "D",
+            "text": "$90: ads, sales time and the free month, divided by 400",
+            "verdict": "best",
+            "feedback": "$36,000 ÷ 400 = $90. Every cost of winning these users, divided by users who actually pay."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Count everything it took to win them.",
+      "body": [
+        "The cost to win a customer is every dollar and hour spent to bring them in, divided by the customers who actually signed. The invoice is only the start.",
+        "**Try it today:** pick your main way of finding customers. List every cost behind it, including people's time, and divide by last month's new customers."
+      ],
+      "next": "Next · What is one customer actually worth?"
+    }
+  ]
+}

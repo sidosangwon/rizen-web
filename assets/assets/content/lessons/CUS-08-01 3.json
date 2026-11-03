@@ -1,0 +1,239 @@
+{
+  "id": "CUS-08-01",
+  "unitId": "CUS-08",
+  "categoryId": "CUS",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "The customer journey",
+  "readerTitle": "Every team did its job. The customer still left.",
+  "format": "two_businesses",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.4,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (B2B 사무실 청소 회사, 대기업 사내 IT팀, 온라인 가구 판매점) · 모든 수치는 설명용",
+  "insight": "고객은 부서별로 나뉜 서비스가 아니라 처음부터 끝까지 이어진 하나의 여정을 겪는다. 문제는 각 단계 안보다 단계와 단계 사이의 넘겨주기에 숨어 있다.",
+  "misconception": "각 팀이 자기 지표를 잘 지키면 고객 경험도 좋다.",
+  "relatedLessonIds": [
+    "CUS-08-02",
+    "CUS-08-07"
+  ],
+  "sources": [
+    {
+      "text": "서비스 디자인과 마케팅의 표준 개념 (고객 여정, 고객 여정 지도)",
+      "url": null
+    },
+    {
+      "text": "모든 사례와 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 사례와 수치는 설명용 가상입니다. IT팀 계산: 관리자 승인 대기 2일 + 노트북 배송 3일 + IT 설정 4시간 = 5일 이상. IT팀 지표는 4시간만 측정합니다.",
+      "status": "open"
+    },
+    {
+      "note": "청소 회사 사례의 만족도 점수(4.8/5)와 정시 완료율(98%)은 가상 수치입니다. 실제 업계 평균처럼 읽히지 않도록 카드에 illustrative 라벨을 붙였습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Two businesses",
+      "title": "Every team did its job. The customer still left.",
+      "illustrative": true,
+      "body": [
+        "An office-cleaning company scores 4.8 out of 5 on cleaning quality. An IT team inside a large company sets up new laptops in four hours.",
+        "Both have great numbers. Both have unhappy customers. The reason is the same, and it doesn't show up on either dashboard."
+      ],
+      "image": {
+        "label": "Two cheerful dashboards next to two frowning customers",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 왼쪽에 초록색 지표가 가득한 대시보드 두 개, 오른쪽에 팔짱 낀 고객 두 명(사무실 관리자, 신입 직원). 가운데에 점선으로 끊긴 길. 실제 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Your best-rated client is leaving.",
+      "illustrative": true,
+      "body": [
+        "You run an office-cleaning company. A client of three months says they won't renew. Your crews finished 98% of jobs on time, and their cleaning ratings were high.",
+        "What do you do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Raise cleaning standards even further",
+            "verdict": "partial",
+            "feedback": "Quality matters, but the ratings say cleaning wasn't the problem. You'd spend effort on the one step that was already working."
+          },
+          {
+            "key": "B",
+            "text": "Retrace every step the client went through, from first call to latest invoice",
+            "verdict": "best",
+            "feedback": "Slower than a quick fix, but it shows you what the client actually lived through, including the parts no single team owns."
+          },
+          {
+            "key": "C",
+            "text": "Offer a discount to keep them",
+            "verdict": "risky",
+            "feedback": "It may save this contract, but it costs margin and leaves the real cause in place for the next client."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "The problems lived between the teams.",
+      "illustrative": true,
+      "body": [
+        "Sales had promised the client a deep clean of the kitchen every Saturday. That note never reached the operations team, so crews never did it.",
+        "Billing then sent invoices under the client's old company name, and their finance team kept rejecting them. Three calls to fix it went to three different people.",
+        "Sales hit its target. Crews hit theirs. Billing sent every invoice on time. **No one owned the whole experience**, and that was the experience the client judged."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "breakdown",
+      "eyebrow": "The second business",
+      "title": "A new hire waits for a laptop.",
+      "illustrative": true,
+      "body": [
+        "The IT team's dashboard shows only one line: four hours. The new hire sat without a working laptop for **over five days**. Most of that time was waiting between teams."
+      ],
+      "breakdown": [
+        {
+          "value": "Day 1",
+          "label": "HR submits the request",
+          "detail": "New hire starts work",
+          "highlight": false
+        },
+        {
+          "value": "+2 days",
+          "label": "Waiting for approval",
+          "detail": "Sits in a manager's inbox",
+          "highlight": false
+        },
+        {
+          "value": "+3 days",
+          "label": "Purchasing and shipping",
+          "detail": "Handled by procurement",
+          "highlight": false
+        },
+        {
+          "value": "4 hours",
+          "label": "IT setup",
+          "detail": "The only step IT measures",
+          "highlight": false
+        },
+        {
+          "value": "5+ days",
+          "label": "What the new hire lived through",
+          "detail": "The journey no one measured",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The customer journey",
+      "body": [
+        "The **customer journey** is the full sequence of steps a customer goes through with you, from first noticing a need to buying, using, getting help, paying and deciding whether to come back.",
+        "Companies are built in departments. Customers don't see departments. They see one path, and they judge you by the whole of it, gaps included."
+      ],
+      "image": {
+        "label": "One continuous path crossing several department boxes",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 고객 한 명이 걷는 하나의 이어진 길이 \"Sales\", \"Operations\", \"Billing\", \"Support\" 상자를 차례로 통과. 상자 사이 이음새마다 작은 빨간 경고 표시. 실제 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Map it from the customer's side.",
+      "body": [
+        "A journey map lists each step in the customer's words, not your org chart. For each step, write down:"
+      ],
+      "list": [
+        "**What the customer is trying to do**",
+        "Who on your side handles it",
+        "What gets handed to the next team, and how",
+        "How long the customer waits in between"
+      ],
+      "callout": "The handoffs and the waiting are where most journeys break.",
+      "softwareNote": "In software, the same gaps appear between marketing, product, billing and support. A customer who signs up smoothly can still churn after a confusing first invoice that the product team never sees."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A map changes nothing on its own.",
+      "body": [
+        "A journey map is a guess until you check it with real customers. Different customers also take different paths, so one tidy map can hide the messy ones.",
+        "And if no one owns the whole journey, each team will fix its own step and the gaps stay. Mapping works best when someone is responsible for the path, not just the parts."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's an online furniture shop.",
+      "illustrative": true,
+      "body": [
+        "Your website gets strong conversion. Your delivery partner reports on-time rates above target. Yet reviews keep saying the sofa purchase was \"exhausting.\"",
+        "What's your best first move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Ask each team and partner for a report on their own numbers",
+            "verdict": "partial",
+            "feedback": "Useful data, but each report will look fine. Their numbers stop at their own edge, which is where the trouble is."
+          },
+          {
+            "key": "B",
+            "text": "Order a sofa yourself and follow it through to assembly",
+            "verdict": "best",
+            "feedback": "It takes time and money, but you'll see the waits, missing updates and handoffs that reviews describe and dashboards miss."
+          },
+          {
+            "key": "C",
+            "text": "Switch to a cheaper, faster delivery company",
+            "verdict": "risky",
+            "feedback": "It might help, but you're guessing at the cause. If the gap is between your site and the delivery partner, a new partner inherits it."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Customers judge the whole path, not your best step.",
+      "body": [
+        "Strong team numbers can hide a weak journey. Look at the handoffs and the waiting between steps.",
+        "**Try it today:** pick one recent customer. List every step they went through with you, who handled it, and how long they waited between steps."
+      ],
+      "next": "Next · The few moments customers actually remember"
+    }
+  ]
+}

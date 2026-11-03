@@ -1,0 +1,271 @@
+{
+  "id": "FIN-03-09",
+  "unitId": "FIN-03",
+  "categoryId": "FIN",
+  "order": 9,
+  "type": "case",
+  "conceptTag": "MoviePass lost money on every ticket",
+  "readerTitle": "MoviePass: the more it grew, the more it lost",
+  "format": "company_story",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.2,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (MoviePass, Helios and Matheson, AMC Stubs A-List) + 가상 계산 (회원 한 명의 한 달) + 가상 적용 (B2B IT 지원 회사)",
+  "insight": "정액제에서 고객 한 명이 남기는 돈은 가격이 아니라 사용량이 정한다. 남들보다 지나치게 싼 가격은 가장 많이 쓰는 고객부터 끌어모은다.",
+  "misconception": "건당 손해가 나도 회원이 충분히 많아지면 규모가 손실을 메워 준다.",
+  "relatedLessonIds": [
+    "FIN-03-06",
+    "FIN-04-05"
+  ],
+  "sources": [
+    {
+      "text": "Helios and Matheson Analytics, SEC 공시 (2017년 8월 MoviePass 지분 인수 및 $9.95 요금 발표, 2018년 현금 부족·긴급 차입 관련 8-K/10-Q)",
+      "url": null
+    },
+    {
+      "text": "주요 언론 보도 (CNBC, Variety, The New York Times 등): 회원 수 100만 명(2017년 12월), 300만 명 이상(2018년 중반), 2018년 7월 서비스 중단과 $500만 긴급 차입",
+      "url": null
+    },
+    {
+      "text": "AMC Entertainment 보도자료 (2018년 6월): AMC Stubs A-List 출시, 월 $19.95, 주 3편",
+      "url": null
+    },
+    {
+      "text": "MoviePass 서비스 종료 공지 (2019년 9월), Helios and Matheson 파산 신청 (2020년 1월)",
+      "url": null
+    },
+    {
+      "text": "National Association of Theatre Owners: 2017년 미국 평균 영화 티켓 가격 (약 $8.97)",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "요금 인하 전 회원 수 \"약 2만 명\"은 언론 보도 기준입니다. 2017년 12월 100만 명 돌파, 2018년 중반 300만 명 이상도 보도로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "2018년 7월 결제 실패로 서비스가 중단되었고 모회사가 $500만을 긴급 차입했습니다. 당시 공시에 월 현금 적자가 약 $2,170만이라는 수치가 있었다고 알려져 있으나, 카드에는 \"tens of millions of dollars a month\"로만 적었습니다. 공시 원문을 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "4번 카드 계산(가상, 반올림): 티켓 1장 $9(2017년 평균 $8.97 반올림). $9.95 − $9 = $0.95, $9.95 − $9 − $9 = −$8.05. 결제 수수료와 앱 운영비는 제외했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "AMC Stubs A-List 출시 가격 $19.95와 주 3편 조건은 2018년 6월 보도자료 기준입니다. 이후 주별로 가격이 달라졌습니다.",
+      "status": "open"
+    },
+    {
+      "note": "주요 극장 체인(AMC 등)이 MoviePass와의 수익 공유를 거부했다는 내용은 언론 보도로 확인하세요. 2021년 FTC 합의, 2022년 경영진 기소는 이 레슨의 범위 밖이라 넣지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "9번 카드 IT 지원 사례는 가상입니다: 40명 × $30 = 월 $1,200, 기술자 비용 시간당 $60이면 월 20시간에서 본전입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Company story",
+      "title": "MoviePass: the more it grew, the more it lost",
+      "body": [
+        "In 2017, MoviePass offered a deal that sounded too good: one movie in a theater every day for $9.95 a month.",
+        "Millions of people signed up. And every time one of them watched a film, MoviePass paid the theater full price for the ticket."
+      ],
+      "image": {
+        "label": "A crowd rushing into a cinema while a wallet drains",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 영화관 입구로 사람들이 줄지어 들어가고, 옆에 놓인 큰 지갑에서 동전이 한 명 들어갈 때마다 하나씩 빠져나감. 실제 MoviePass, AMC 로고나 카드 디자인은 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You just bought a movie subscription company.",
+      "body": [
+        "It's 2017. Your service has a small base of members paying a high monthly fee. Each time a member sees a film, you pay the theater the full ticket price.",
+        "Investors want growth. What price do you set?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "$9.95 for a movie a day. Win millions of members, then use that size to get theater deals",
+            "verdict": "risky",
+            "feedback": "You get growth fast. But every visit is cash out the door until theaters agree to a deal, and the cheapest plan pulls in the heaviest moviegoers first."
+          },
+          {
+            "key": "B",
+            "text": "A price that covers the visits a typical member makes, with a monthly cap",
+            "verdict": "best",
+            "feedback": "Growth is slower, but each member leaves money from day one. You negotiate with theaters from a business that can survive a no."
+          },
+          {
+            "key": "C",
+            "text": "Keep the high price and the small, loyal base",
+            "verdict": "partial",
+            "feedback": "Each member stays profitable, which is safe. But you may never reach the size that makes theaters want to talk."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "MoviePass chose $9.95.",
+      "body": [
+        "In August 2017, data firm Helios and Matheson bought a majority stake in MoviePass and cut the price to $9.95 a month for a movie a day.",
+        "Members jumped from roughly 20,000 to over a million by the end of the year, and to more than 3 million in 2018.",
+        "But MoviePass didn't own any theaters. Members paid at the box office with a MoviePass card, and MoviePass covered the full ticket."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "One member's month.",
+      "illustrative": true,
+      "body": [
+        "Using a rounded US average ticket of about $9. In big cities, one ticket often cost more than the whole monthly fee."
+      ],
+      "breakdown": [
+        {
+          "value": "+$9.95",
+          "label": "Monthly fee",
+          "detail": "All the member pays",
+          "highlight": false
+        },
+        {
+          "value": "−$9.00",
+          "label": "First movie",
+          "detail": "Paid to the theater",
+          "highlight": false
+        },
+        {
+          "value": "$0.95",
+          "label": "Left after one film",
+          "detail": "Before card fees and running the app",
+          "highlight": false
+        },
+        {
+          "value": "−$8.05",
+          "label": "Left after two films",
+          "detail": "A loss, with 28 more days to go",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "In a flat-fee plan, usage sets the margin.",
+      "body": [
+        "**Unit economics** asks what one customer leaves you after the costs that come with serving them. With a flat fee, that number isn't fixed. It shrinks with every use.",
+        "MoviePass bet that light users would pay for heavy ones. But a price that's only a bargain for frequent moviegoers attracts frequent moviegoers. The customers who joined fastest were the ones who cost the most."
+      ],
+      "image": {
+        "label": "A seesaw tipping toward heavy users",
+        "aspectRatio": "16:9",
+        "brief": "시소 인포그래픽. 한쪽에 \"Light users\" 사람 몇 명(가볍게), 다른 쪽에 팝콘을 든 \"Heavy users\" 사람이 많이 앉아 시소가 크게 기울어짐. 가운데 받침에 \"$9.95\" 라벨.",
+        "url": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Growth made it worse",
+      "title": "More members meant bigger losses.",
+      "body": [
+        "When each member loses money, growth doesn't fix it. It multiplies it. MoviePass was reportedly burning tens of millions of dollars a month by 2018.",
+        "In July 2018 the service went down after it couldn't pay for tickets, and its parent took a $5 million emergency loan. It then tried caps, blocked popular films and changed rules often. Members left.",
+        "MoviePass shut down in September 2019. Its parent filed for bankruptcy in January 2020."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Same idea, different math",
+      "title": "The theater owner made it work.",
+      "body": [
+        "In June 2018, AMC launched Stubs A-List: $19.95 a month for up to three movies a week.",
+        "The difference was ownership. A seat in a show that runs anyway costs AMC almost nothing, and members buy popcorn and drinks at a high margin. MoviePass paid full price for that same seat.",
+        "The lesson isn't \"subscriptions fail.\" It's that a member's value depends on what each use actually costs you. A retailer's free-delivery club works on the same logic: only when it controls delivery costs."
+      ],
+      "image": {
+        "label": "Two cinema seats with different price tags",
+        "aspectRatio": "16:9",
+        "brief": "영화관 좌석 두 개를 나란히. 왼쪽 좌석 태그 \"Paid to the theater: full ticket\", 오른쪽 좌석 태그 \"Owner's empty seat: almost $0\" + 팝콘 아이콘. 실제 극장 브랜드 표시 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Losing money early isn't always wrong.",
+      "body": [
+        "Many businesses lose money on early customers on purpose. That can work when there's a believable path to each customer turning positive: costs that fall with scale, prices that can rise, or revenue from somewhere else.",
+        "MoviePass hoped for data, ads and a share of theater sales. Major chains largely refused to share. Ask what must be true for one customer to make money, and check whether it's in your control."
+      ],
+      "softwareNote": "Unlimited plans for AI tools face the same trap. Each request has a real computing cost, so the heaviest users can cost far more than they pay. Many products now cap usage or charge by volume."
+    },
+    {
+      "index": 9,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's an IT support firm.",
+      "illustrative": true,
+      "body": [
+        "You provide IT help to small offices. A prospect with 40 staff wants unlimited support for $30 a person per month. That's $1,200 a month.",
+        "Your technicians cost about $60 an hour. The client mentions their last provider dropped them for calling too often."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Accept. A big client helps growth, and lighter clients will balance it out",
+            "verdict": "risky",
+            "feedback": "You gain a big account, but past 20 hours a month you lose money. And they've told you they're a heavy user."
+          },
+          {
+            "key": "B",
+            "text": "Offer a plan with set hours included, and bill extra hours",
+            "verdict": "best",
+            "feedback": "You may lose the deal, but if they sign, every hour is covered. Heavy use becomes revenue instead of a loss."
+          },
+          {
+            "key": "C",
+            "text": "Decline the client entirely",
+            "verdict": "partial",
+            "feedback": "You avoid the risk, but also a client who could be profitable on better terms."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 10,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "If one customer loses money, more customers lose more.",
+      "body": [
+        "Before pricing a flat-fee plan, work out what your heaviest customer costs. They're the first to sign up.",
+        "**Try it today:** pick your best deal or plan. Write down what it costs you when your most active customer uses it fully."
+      ],
+      "next": "Next · Are these unit economics healthy?"
+    }
+  ]
+}

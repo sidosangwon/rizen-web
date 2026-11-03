@@ -1,0 +1,220 @@
+{
+  "id": "THK-06-03",
+  "unitId": "THK-06",
+  "categoryId": "THK",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "Local wins, global losses",
+  "readerTitle": "When every team wins and the company loses",
+  "format": "two_businesses",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 2개 (가구 공장, 철물 유통업체) + 가상 적용 (가계부 앱) · 수치 없이 설명",
+  "insight": "한 부서의 개선은 그 부서의 숫자가 아니라 회사 전체가 내는 결과로 판단해야 하며, 개선을 축하하기 전에 그 비용이 어느 부서로 넘어갔는지 물어야 한다.",
+  "misconception": "모든 부서가 각자 목표를 최대로 달성하면 회사 전체 성과도 최대가 된다.",
+  "relatedLessonIds": [
+    "THK-06-04",
+    "THK-06-05"
+  ],
+  "sources": [
+    {
+      "text": "Goldratt, E. M. & Cox, J. (1984). The Goal: A Process of Ongoing Improvement. North River Press.",
+      "url": null
+    },
+    {
+      "text": "Deming, W. E. (1993). The New Economics for Industry, Government, Education. MIT. (부분 최적화, suboptimization 논의)",
+      "url": null
+    },
+    {
+      "text": "공장, 유통업체, 앱 사례는 모두 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "6번 카드 callout: 『The Goal』이 1984년에 처음 출간된 비즈니스 소설이며 병목(bottleneck)이 공장 전체의 산출 속도를 정한다는 내용이 핵심이라는 점을 게시 전에 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "5번 카드의 'suboptimization' 용어는 시스템 사고와 Deming의 저술에서 쓰이는 일반 용어입니다. 카드에서는 특정 인물의 발언으로 인용하지 않았습니다. 출처 표기가 정확한지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "모든 사례는 가상이며 구체적 수치를 쓰지 않았습니다. '배치 4배' 외에 계산이 필요한 숫자는 없습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Two businesses",
+      "title": "When every team wins and the company loses",
+      "illustrative": true,
+      "body": [
+        "A furniture factory's cutting department just posted its lowest cost per part ever. Across town, a hardware distributor's buyer just landed the best supplier prices in years.",
+        "Both managers expect praise. Both companies had a worse quarter than the one before. The reason is the same."
+      ],
+      "image": {
+        "label": "Two managers holding trophies in front of struggling businesses",
+        "aspectRatio": "4:3",
+        "brief": "화면을 좌우로 나눔. 왼쪽은 가구 공장 재단 부서 관리자가 트로피를 들고 웃고, 뒤로 재단된 목재 더미가 통로를 막고 있음. 오른쪽은 유통업체 구매 담당자가 트로피를 들고, 뒤 창고에 같은 상자가 천장까지 쌓임. 두 장면 위에 하락하는 회사 전체 그래프를 작게. 실제 로고·상표 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Bigger batches, cheaper parts?",
+      "illustrative": true,
+      "body": [
+        "You run a furniture factory. Wood is cut, then sanded and finished, then packed. Every time cutting switches to a new design, its machines stop for an hour of setup.",
+        "The cutting manager wants to cut each design in batches four times larger. Fewer setups, lower cost per cut part. What do you say?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Approve it. Lower cost per part means lower cost overall",
+            "verdict": "risky",
+            "feedback": "It sounds like pure savings. But customers don't buy cut parts, and if finishing can't keep up, the extra parts just wait while orders for other designs wait longer."
+          },
+          {
+            "key": "B",
+            "text": "First check what it does to finished orders shipped on time",
+            "verdict": "best",
+            "feedback": "This judges the change by the result the whole factory exists for. It may still be a good idea, but only if the later steps can use what cutting makes."
+          },
+          {
+            "key": "C",
+            "text": "Approve it for a month and track cutting's cost per part",
+            "verdict": "partial",
+            "feedback": "A short, reversible trial is sensible. But tracking only cutting's cost will show success even if the factory as a whole gets slower."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "Business 1",
+      "title": "The factory got cheaper and slower.",
+      "illustrative": true,
+      "body": [
+        "The factory approved the bigger batches. Cutting's cost per part fell, just as promised.",
+        "But finishing could only handle so much each day. Stacks of cut parts filled the aisles, and workers hunted for the right pieces. A customer ordering a less popular design now waited weeks, because cutting was busy with a huge run of something else.",
+        "Cutting's numbers improved. Shipped orders, cash and customer patience got worse."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Business 2",
+      "title": "The distributor got cheaper and poorer.",
+      "illustrative": true,
+      "body": [
+        "At the hardware distributor, the buyer is judged on purchase price. Suppliers give the best price for full truckloads, so the buyer orders full truckloads.",
+        "Unit costs dropped. But the warehouse filled with a year's supply of slow sellers. Cash was tied up in boxes, so fast sellers ran short. Months later, the extra stock was sold off at a discount that erased the savings."
+      ],
+      "image": {
+        "label": "A warehouse overflowing with one product while another shelf is empty",
+        "aspectRatio": "16:9",
+        "brief": "창고 내부. 왼쪽 선반은 같은 상자(예: 페인트 통)가 넘칠 만큼 쌓여 있고 'Slow seller' 라벨. 오른쪽 선반은 비어 있고 'Out of stock' 표지. 바닥에 'Clearance' 할인 스티커가 붙은 상자들. 실제 브랜드·로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Local wins, global losses",
+      "body": [
+        "A **local win** improves one part of a business by that part's own measure. A **global loss** is what happens when that win makes the whole business worse.",
+        "Systems thinkers call this *suboptimization*: improving a part at the expense of the whole. Nobody in either story was careless. Each manager did exactly what their own numbers rewarded."
+      ],
+      "image": {
+        "label": "One gear spinning fast while the connected machine jams",
+        "aspectRatio": "16:9",
+        "brief": "맞물린 톱니바퀴 여러 개로 된 기계 인포그래픽. 한 톱니만 빛나며 빠르게 돌고 '+ Local win' 표시, 그 옆 톱니 사이에 부품이 끼어 기계 전체 출력 화살표가 줄어들며 '− Global loss' 표시. 단순한 플랫 스타일.",
+        "url": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Why it keeps happening.",
+      "body": [
+        "Local wins turn into global losses for a few common reasons:"
+      ],
+      "list": [
+        "**Costs land elsewhere:** cutting saved setup time, while finishing and sales paid in delays",
+        "**Each team sees its own numbers:** the buyer saw unit price, not storage, cash or markdowns",
+        "**A chain moves at its slowest step:** speeding up any other step just builds a pile in front of it"
+      ],
+      "callout": "Eliyahu Goldratt built his 1984 business novel *The Goal* around that last point: a factory makes money only as fast as its bottleneck works."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Don't throw out local goals.",
+      "body": [
+        "Teams need their own measures. Nobody can steer by company profit alone every day, and many local improvements really do help the whole.",
+        "The fix is a habit, not a ban. Before celebrating a team's win, ask where its costs went. Pair each local measure with one shared result, such as orders shipped on time or cash tied up in stock. A whole-system check takes time, so save it for changes that touch other teams."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's an app.",
+      "illustrative": true,
+      "body": [
+        "You lead a budgeting app. Three product teams each own a feature and are measured on how many users try it. Each team has added a pop-up nudging users toward its feature.",
+        "Every team's numbers are up. Overall, more users are turning off notifications and leaving. What do you change?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Test each pop-up on its own and keep the ones that lift their feature",
+            "verdict": "partial",
+            "feedback": "Testing is good discipline, but each test measures a local win. Every pop-up can pass its own test while the pile of them drives users away."
+          },
+          {
+            "key": "B",
+            "text": "Cap pop-ups across the app and give one owner a goal tied to users staying",
+            "verdict": "best",
+            "feedback": "Each team loses some reach for its feature. In return, someone weighs every nudge against the whole experience users actually feel."
+          },
+          {
+            "key": "C",
+            "text": "Keep going. Three teams hitting their goals is a good sign",
+            "verdict": "risky",
+            "feedback": "Each team wins on paper. The users who leave are a cost that no team's dashboard shows."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Before you celebrate a team's win, find where its costs went.",
+      "body": [
+        "One part of a business can get better while the whole gets worse. Judge a change by what the whole business delivers, not by the number of the team that made it.",
+        "**Try it today:** pick one team's main metric. Ask which other team pays when that number improves."
+      ],
+      "next": "Next · When a fix creates a new problem"
+    }
+  ]
+}

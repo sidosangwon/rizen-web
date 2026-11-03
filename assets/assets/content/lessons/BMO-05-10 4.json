@@ -1,0 +1,274 @@
+{
+  "id": "BMO-05-10",
+  "unitId": "BMO-05",
+  "categoryId": "BMO",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Set your take rate",
+  "readerTitle": "How big a cut should your freight app take?",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.4,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (지역 화물 매칭 앱: 소규모 제조사와 개인 트럭 기사를 연결) · 모든 수치는 설명용",
+  "insight": "수수료율의 상한은 '얼마를 원하느냐'가 아니라 '거래 한 건에 더해 주는 가치'와 '우리를 건너뛰는 비용'이 정한다.",
+  "misconception": "마켓플레이스 수수료는 한 번 정하면 끝나는 숫자이고, 거래가 늘수록 올리기만 하면 된다.",
+  "relatedLessonIds": [
+    "BMO-05-03",
+    "BMO-05-05"
+  ],
+  "sources": [
+    {
+      "text": "마켓플레이스 수수료율(take rate)과 중개 우회(disintermediation)에 관한 일반적인 사업 모델 개념",
+      "url": null
+    },
+    {
+      "text": "모든 인물, 회사, 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "화물 1건 계산: 운임 $1,000, 화주 수수료 5% = $50 → 화주 지불 $1,050. 빠른 지급 2% = $20 → 기사 수령 $980. 플랫폼 수입 $50 + $20 = $70 = 운임의 7%.",
+      "status": "open"
+    },
+    {
+      "note": "대형 화주 계산: 월 300건 × $1,000 = $300,000. 5% = $15,000, 3.5% = $10,500, 2% = $6,000. 자체 배차 비용 월 $12,000은 가정입니다. $10,500 < $12,000 < $15,000 관계를 확인했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "'화주가 배송 후 30~60일 뒤 지급하는 경우가 많다'는 업계의 일반적 관행으로 서술했습니다. 게시 전 운송업 결제 관행 자료로 표현 수준을 확인하세요. 특정 국가의 법률·금융 조언은 포함하지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business models · Simulation",
+      "title": "How big a cut should your freight app take?",
+      "illustrative": true,
+      "body": [
+        "You've built an app that matches small factories with independent truck drivers. A factory posts a load, a nearby driver takes it, the parts arrive.",
+        "Every job passes through you. Now you must decide how much of each one you keep. Four decisions, one story."
+      ],
+      "image": {
+        "label": "A small truck leaving a factory, with a phone showing a matched load",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 작은 부품 공장 앞에서 소형 트럭이 출발하고, 앞쪽에 스마트폰 화면에 \"Load matched\" 표시. 실제 브랜드 로고와 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 · Launch",
+      "title": "Who pays, and how much?",
+      "illustrative": true,
+      "body": [
+        "You have 25 factories and 40 drivers in one region. Drivers are the hard side to get. They say their margins are thin and they can always find work by phone.",
+        "How do you charge at launch?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "10% from each side, 20% in total",
+            "verdict": "risky",
+            "feedback": "Big revenue per job on paper. But drivers walk away, factories find no trucks, and few jobs ever happen."
+          },
+          {
+            "key": "B",
+            "text": "5% added to the factory's bill, free for drivers",
+            "verdict": "best",
+            "feedback": "The side that saves hours of phone calls pays a small fee. The scarce side joins for free, so loads get filled."
+          },
+          {
+            "key": "C",
+            "text": "Free for everyone for a year",
+            "verdict": "partial",
+            "feedback": "Growth is easy. But everyone learns to expect free, and you never find out what the service is worth."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 2 · Six months in",
+      "title": "Pairs start skipping the app.",
+      "illustrative": true,
+      "body": [
+        "Say you chose 5% from factories. Jobs grow. Then you notice that a factory and driver who work together twice often stop booking through you. They just text each other.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Hide phone numbers and ban anyone caught dealing direct",
+            "verdict": "risky",
+            "feedback": "It slows leaks for a while. But it annoys your best users, and once they've met, they'll find each other anyway."
+          },
+          {
+            "key": "B",
+            "text": "Pay drivers within two days, even though factories often pay in 30 to 60",
+            "verdict": "best",
+            "feedback": "Now the app does something a text message can't. Going around you means waiting weeks for cash."
+          },
+          {
+            "key": "C",
+            "text": "Drop the fee to zero for repeat pairs",
+            "verdict": "partial",
+            "feedback": "They stay on the app, but you earn nothing from your most loyal customers."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "This is the classic platform leak: once two sides trust each other, the app has to keep earning its place in every repeat deal."
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 3 · Pricing the new value",
+      "title": "Quick pay costs you money.",
+      "illustrative": true,
+      "body": [
+        "Say you launched quick pay. Drivers love it, and repeat pairs stay. But you now front cash for weeks, which costs you.",
+        "How do you pay for it?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Raise the factory fee to 8% for everyone",
+            "verdict": "risky",
+            "feedback": "Factories got nothing new, yet pay more. Many compare you with a phone call and leave."
+          },
+          {
+            "key": "B",
+            "text": "Charge drivers who choose quick pay 2% of the load",
+            "verdict": "best",
+            "feedback": "Only people who get the extra value pay for it. Drivers who can wait still ride free."
+          },
+          {
+            "key": "C",
+            "text": "Keep quick pay free for all",
+            "verdict": "partial",
+            "feedback": "Loyalty rises, but you carry the financing cost on every job and earn nothing for it."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 4 · The big customer",
+      "title": "An appliance maker wants a better deal.",
+      "illustrative": true,
+      "body": [
+        "Say drivers now pay 2% for quick pay. A large factory books 300 loads a month, about $1,000 each. At 5%, it pays you $15,000 a month.",
+        "It says two in-house dispatchers would cost about $12,000, and asks for 2%. Its loads keep many of your drivers busy."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Agree to 2% for everyone",
+            "verdict": "risky",
+            "feedback": "You keep the big customer but cut revenue from every factory by more than half."
+          },
+          {
+            "key": "B",
+            "text": "Offer 3.5% for 100+ loads a month",
+            "verdict": "best",
+            "feedback": "At $10,500, you beat their $12,000 alternative and keep the volume your drivers rely on."
+          },
+          {
+            "key": "C",
+            "text": "Refuse. Same rate for all",
+            "verdict": "partial",
+            "feedback": "Simple and fair, but 300 loads a month leave, and drivers start missing work."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Where one $1,000 load goes.",
+      "illustrative": true,
+      "body": [
+        "You keep **7%** of the load's value. Each part pays for something real."
+      ],
+      "breakdown": [
+        {
+          "value": "$1,050",
+          "label": "Factory pays",
+          "detail": "Load plus 5% matching fee",
+          "highlight": false
+        },
+        {
+          "value": "$980",
+          "label": "Driver receives",
+          "detail": "In two days, after the 2% quick-pay fee",
+          "highlight": false
+        },
+        {
+          "value": "$70",
+          "label": "You keep",
+          "detail": "$50 for matching + $20 for quick pay",
+          "highlight": true
+        }
+      ],
+      "callout": "Big customers pay 3.5% for matching, because their alternative is cheaper than 5%.",
+      "softwareNote": "Payment platforms and app stores use the same logic: a base cut for access, plus extra fees for services like faster payouts."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "The idea",
+      "title": "Your ceiling is the cost of going around you.",
+      "illustrative": true,
+      "body": [
+        "A **take rate** is the share of each deal a marketplace keeps. It can't rise just because you want it to.",
+        "Each customer compares your fee with their next best option: a phone call, a text, a dispatcher. Charge above that, and they leave or go direct. To earn a higher rate, add value that the alternative can't match, then charge the people who use it."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A fee can be right and still hurt you.",
+      "body": [
+        "Quick pay adds risk. If a factory pays late or not at all, you're the one left waiting.",
+        "A fat take rate also invites rivals, who can win your users by charging less. And special deals spread: other factories will hear about the 3.5% rate. Publish clear tiers rather than private favors."
+      ]
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Charge for the value you add, not the traffic you control.",
+      "body": [
+        "Each decision used an idea from this unit:"
+      ],
+      "list": [
+        "**Decision 1:** Charge the side that gains most, keep the scarce side free (which side to build first)",
+        "**Decision 2:** Add value that going direct loses (disintermediation)",
+        "**Decision 3:** Price extra value separately (take rates)",
+        "**Decision 4:** Keep the volume that keeps the market busy (liquidity)"
+      ],
+      "callout": "**Try it today:** for your biggest customer, write down what doing it without you would cost. Is your price below that?",
+      "next": "Next · A new unit begins"
+    }
+  ]
+}

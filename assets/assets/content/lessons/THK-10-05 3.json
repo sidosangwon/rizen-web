@@ -1,0 +1,258 @@
+{
+  "id": "THK-10-05",
+  "unitId": "THK-10",
+  "categoryId": "THK",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Telling a story with numbers",
+  "readerTitle": "Thirty charts lost. One sentence won.",
+  "format": "counterexample",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.1,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (사무실 청소 회사, 배관 업체) + 실제 연구 (Gigerenzer 등의 자연 빈도 연구) · 모든 사업 수치는 설명용",
+  "insight": "숫자는 많이 보여줄수록 설득되는 게 아니다. 비교 기준과 '그래서 무엇이 달라지나'가 붙은 숫자 하나가 이야기를 만든다.",
+  "misconception": "데이터를 많이, 빠짐없이 보여주면 상대가 알아서 같은 결론에 도달한다.",
+  "relatedLessonIds": [
+    "THK-10-01",
+    "THK-11-02"
+  ],
+  "sources": [
+    {
+      "text": "Gigerenzer, G. & Hoffrage, U. (1995). How to improve Bayesian reasoning without instruction: Frequency formats. Psychological Review, 102(4).",
+      "url": null
+    },
+    {
+      "text": "Hoffrage, U. & Gigerenzer, G. (1998). Using natural frequencies to improve diagnostic inferences. Academic Medicine, 73(5).",
+      "url": null
+    },
+    {
+      "text": "청소 회사와 배관 업체의 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "5번 카드의 연구 요약(백분율보다 '1,000명 중 10명' 같은 자연 빈도로 제시할 때 의사를 포함한 사람들의 확률 추론이 크게 좋아짐)을 원 논문으로 다시 확인하세요. 구체적 정답률 수치는 일부러 넣지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "청소 회사 계산: 누락 청소 월 2건 → 11건, 늘어난 9건 × 건당 보상 크레딧 $300 = 월 $2,700. 차트 값(1~6월: 2, 3, 2, 6, 9, 11)은 가상 수치입니다.",
+      "status": "open"
+    },
+    {
+      "note": "배관 업체 계산: 월 작업 약 325건 × 재방문율 8% = 26건(근무일 기준 거의 하루 1건). 26건 × 무급 2시간 = 52시간 > 주 40시간. 재방문율 6.1% → 8.0%는 상대 증가 1.9 ÷ 6.1 = 약 31%.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Counterexample",
+      "title": "Thirty charts lost. One sentence won.",
+      "illustrative": true,
+      "body": [
+        "An operations lead at an office-cleaning company sent her partner a 30-chart report. It made the case for hiring a second crew. The partner skimmed it and said no.",
+        "A week later she sent one sentence with three numbers in it. He said yes the same afternoon. The data hadn't changed. The story had."
+      ],
+      "image": {
+        "label": "A tall stack of charts next to a single note card",
+        "aspectRatio": "4:3",
+        "brief": "책상 위 왼쪽에는 차트가 인쇄된 종이가 높이 쌓여 있고 먼지가 앉아 있음. 오른쪽에는 숫자 세 개만 적힌 작은 메모 카드 한 장에 조명이 비침. 따뜻한 플랫 일러스트, 실제 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which message gets the crew approved?",
+      "illustrative": true,
+      "body": [
+        "You run operations at an office-cleaning firm. Since you took on a big new contract, crews are stretched. You want your partner to approve a second van crew.",
+        "Which message would you send?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "A full dashboard: hours, jobs, complaints, overtime, supplies and twelve other metrics",
+            "verdict": "risky",
+            "feedback": "Nothing is hidden, but nothing stands out. Your partner has to find the problem and the conclusion alone, and most readers won't."
+          },
+          {
+            "key": "B",
+            "text": "\"Complaints are up 40%. We need another crew.\"",
+            "verdict": "partial",
+            "feedback": "Short and clear, but 40% of what? Up from 5 to 7 sounds very different from 50 to 70, and it doesn't say what it costs."
+          },
+          {
+            "key": "C",
+            "text": "\"Missed cleanings went from 2 a month to 11 since the new contract. The extra misses cost $2,700 a month in credits, and our biggest client renews in March.\"",
+            "verdict": "best",
+            "feedback": "One number, a clear before and after, a cost and a deadline. It takes more work to write, but the reader sees the decision at once."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "What went wrong",
+      "title": "The warning was in the report. It just didn't speak.",
+      "illustrative": true,
+      "body": [
+        "In the 30-chart version, missed cleanings sat on page 17, next to supply costs and staff hours. Most charts were steady, so the report felt fine.",
+        "The one line that mattered looked like this. Nobody told the partner to look at it, or why it mattered."
+      ],
+      "chart": {
+        "unit": "count",
+        "groups": [
+          {
+            "label": "Missed cleanings per month",
+            "rows": [
+              {
+                "label": "Jan",
+                "value": 2,
+                "highlight": false
+              },
+              {
+                "label": "Feb",
+                "value": 3,
+                "highlight": false
+              },
+              {
+                "label": "Mar",
+                "value": 2,
+                "highlight": false
+              },
+              {
+                "label": "Apr",
+                "value": 6,
+                "highlight": false
+              },
+              {
+                "label": "May",
+                "value": 9,
+                "highlight": false
+              },
+              {
+                "label": "Jun",
+                "value": 11,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Telling a story with numbers",
+      "body": [
+        "A number alone is just a fact. It becomes a story when it answers two questions: **compared to what?** and **so what?**",
+        "\"11 missed cleanings\" is a fact. \"Up from 2\" gives the comparison. \"$2,700 a month, and a renewal at risk\" says why it matters for the decision.",
+        "Pick the one number that carries the argument. Give it a comparison and a consequence. Everything else becomes backup."
+      ],
+      "image": {
+        "label": "A number linked to a comparison and a consequence",
+        "aspectRatio": "16:9",
+        "brief": "가로 흐름 인포그래픽. 왼쪽 \"11\" 큰 숫자 → 가운데 \"compared to 2\" → 오른쪽 \"$2,700/month + renewal at risk\". 각 칸 아래에 작은 라벨 \"Number\", \"Compared to what?\", \"So what?\". 단순한 선과 두 가지 색만 사용.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "The same fact, framed differently, gets understood differently.",
+      "body": [
+        "Psychologist Gerd Gigerenzer and colleagues gave people, including doctors, the same medical test data in two forms. One used percentages. The other used counts like \"10 out of 1,000 people.\"",
+        "With counts, far more people reached the right answer. The facts were identical. The format decided whether they made sense.",
+        "The lesson for business: translate numbers into units your reader can picture. \"About one missed office every other workday\" lands faster than \"a 450% increase.\""
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Wider use",
+      "title": "Good comparisons come in a few shapes.",
+      "body": [
+        "Most strong number stories use one of these anchors. Choose the one your reader already cares about."
+      ],
+      "list": [
+        "**Before and after:** last quarter versus this one",
+        "**Against a target:** what we promised versus what we did",
+        "**Against a cost they know:** \"about the price of one part-time hire\"",
+        "**Against a deadline:** \"the client renews in March\""
+      ],
+      "softwareNote": "\"Monthly churn is 4%\" rarely moves a room. \"We lose about 1 in 25 customers every month, roughly half of what sales brings in\" makes the leak visible and points to a decision."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Choosing the comparison is a choice. Readers know it.",
+      "body": [
+        "The same data can tell opposite stories. Pick a lucky starting month or a relative change on a tiny base, and you can make almost anything look like a crisis or a win.",
+        "A good story should survive the full data. Keep the backup ready, and say which number would change your mind.",
+        "If a skeptic finds the chart you left out, you lose more than the argument. You lose trust in your next number too."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a plumbing business.",
+      "illustrative": true,
+      "body": [
+        "You own a plumbing company with eight plumbers. You want them to use a five-minute checklist before leaving each job. The problem is callbacks: return visits to fix your own work. They're 8% of jobs, up from 6.1% last year.",
+        "How do you open the team meeting?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "\"Our callback rate is 8%.\"",
+            "verdict": "partial",
+            "feedback": "Accurate, but with no comparison or consequence it sounds small. Most of the team will nod and move on."
+          },
+          {
+            "key": "B",
+            "text": "\"Last month we went back to 26 finished jobs, almost one a day. At two unpaid hours each, that's more than a full week of one plumber's time.\"",
+            "verdict": "best",
+            "feedback": "A count they can picture, tied to time they all feel. The checklist now looks cheap next to the problem."
+          },
+          {
+            "key": "C",
+            "text": "\"Callbacks rose 31% this year.\"",
+            "verdict": "risky",
+            "feedback": "It's dramatic and true, but a relative change hides the base. Someone will do the math, find it's under two points, and stop trusting the rest."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "The same move works for bug reports: \"40 tickets last month from one release, about two days of support time\" beats \"defect rate up 0.3%.\""
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "One number, compared to something, with a \"so what.\"",
+      "body": [
+        "More data doesn't persuade on its own. Pick the number that carries the decision, anchor it to a comparison your reader cares about, and say what it changes.",
+        "**Try it today:** take one number from your next report. Rewrite it as one sentence with a comparison and a consequence."
+      ],
+      "next": "Next · How to say no without burning the bridge"
+    }
+  ]
+}

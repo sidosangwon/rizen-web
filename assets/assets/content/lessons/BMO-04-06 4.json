@@ -1,0 +1,224 @@
+{
+  "id": "BMO-04-06",
+  "unitId": "BMO-04",
+  "categoryId": "BMO",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Winner-take-most markets",
+  "readerTitle": "Why the biggest network doesn't always take everything",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "real_research",
+    "real_company",
+    "real_observation",
+    "illustrative"
+  ],
+  "caseNote": "실제 연구 (Eisenmann·Parker·Van Alstyne 2006) + 실제 기업 (Uber·Lyft, Windows, Etsy, MySpace) + 가상 사례 (식료품 도매 마켓플레이스, 번역가 플랫폼)",
+  "insight": "네트워크 효과가 있어도 시장이 한 회사로 쏠리는 건 고객이 여러 곳을 동시에 쓰기 어렵고, 차별화된 수요가 적을 때뿐이다.",
+  "misconception": "네트워크 효과가 있는 시장은 무조건 승자독식이니, 돈을 태워서라도 먼저 1등을 차지해야 한다.",
+  "relatedLessonIds": [
+    "BMO-04-03",
+    "BMO-04-04"
+  ],
+  "sources": [
+    {
+      "text": "Eisenmann, T., Parker, G., & Van Alstyne, M. (2006). Strategies for Two-Sided Markets. Harvard Business Review.",
+      "url": null
+    },
+    {
+      "text": "Uber Technologies, Lyft Inc. annual reports (Form 10-K), U.S. ride-hailing market",
+      "url": null
+    },
+    {
+      "text": "StatCounter Global Stats, desktop operating system market share",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "승자독식의 세 조건(강한 네트워크 효과, 높은 멀티호밍 비용, 특화 수요 부족)은 Eisenmann·Parker·Van Alstyne(2006) HBR 논문의 틀입니다. 카드 문구가 원문 취지와 맞는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "미국에서 Uber와 Lyft가 함께 영업하고, 많은 운전자와 승객이 두 앱을 같이 쓴다는 점은 널리 보도된 관찰입니다. 구체적 점유율 수치는 넣지 않았습니다. 게시 전 두 회사가 여전히 함께 영업 중인지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Windows가 수십 년간 데스크톱 PC 운영체제의 대부분을 차지했다는 서술은 StatCounter 등으로 확인하세요. 정확한 비율은 카드에 넣지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "MySpace가 Facebook에 밀려난 사례는 일반적 서술로만 썼습니다. 연도와 수치는 넣지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "도매 마켓플레이스와 번역가 플랫폼은 설명용 가상 사례이며 수치는 없습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business models · Counterexample",
+      "title": "Why the biggest network doesn't always take everything",
+      "body": [
+        "In many cities, ride-hailing drivers keep two apps running at once. Many riders do the same, checking both before they book.",
+        "Ride-hailing has strong network effects. More drivers mean shorter waits, which bring more riders. By that logic, one app should have swallowed the market. In the U.S., two have survived side by side for years."
+      ],
+      "image": {
+        "label": "Driver's dashboard with two phones, two ride apps",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 자동차 대시보드 거치대에 스마트폰 두 대가 나란히 꽂혀 있고, 각각 다른 색의 가상 차량 호출 앱 화면. 실제 앱 로고나 상표는 절대 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "A rival says this market has one winner.",
+      "illustrative": true,
+      "body": [
+        "You run an online wholesale marketplace. Independent grocery stores order from regional suppliers through it. A rival just raised a large round and is giving stores 15% off every order. Its pitch to investors: \"Winner takes all.\"",
+        "What do you do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Match the discounts. If it's winner-take-all, second place is worth nothing",
+            "verdict": "risky",
+            "feedback": "You may keep share for a while, but you pay for every order. If stores would happily use both of you anyway, the money buys nothing lasting."
+          },
+          {
+            "key": "B",
+            "text": "Check how many stores and suppliers already use both marketplaces",
+            "verdict": "best",
+            "feedback": "This tests whether the market can tip at all. If using two is easy, the race to be biggest matters much less than it looks."
+          },
+          {
+            "key": "C",
+            "text": "Start talks to sell the company before you lose",
+            "verdict": "partial",
+            "feedback": "It limits your downside. But you'd be selling on the rival's story, not on evidence about how your customers behave."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "The discounts bought orders, not loyalty.",
+      "illustrative": true,
+      "body": [
+        "Stores took the rival's 15% off. They also kept ordering from you, because suppliers listed on both sites and switching took one click.",
+        "When the rival's money ran low and the discounts stopped, much of its volume drifted back. Both marketplaces were still standing. The war had mostly moved cash from investors to grocery stores."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Winner-take-most markets",
+      "body": [
+        "A **winner-take-most market** is one where network effects push most customers and profit to one or two players.",
+        "Network effects make this possible, but not certain. Researchers Eisenmann, Parker and Van Alstyne argued that a market tends to tip only when three things are true at once:"
+      ],
+      "list": [
+        "**Strong network effects** that keep growing with size",
+        "**High cost of using more than one**, often called multi-homing",
+        "**Little demand for something different** from a niche player"
+      ],
+      "callout": "Remove any one, and room opens for several winners.",
+      "softwareNote": "In software, multi-homing cost is often the deciding factor. Installing a second free app costs almost nothing. Moving a company's files, workflows and training to a new system costs a lot."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Evidence",
+      "title": "Same network effects, different endings.",
+      "body": [
+        "For decades, most desktop PCs ran Windows. Using two operating systems meant two machines, two sets of software and twice the learning. Developers wrote for the biggest base. The market tipped hard.",
+        "Ride-hailing is the opposite. A second app is free and takes a minute to install. Drivers can switch between apps between trips. So riders and drivers keep both, and neither app can lock in the other side."
+      ],
+      "image": {
+        "label": "Two paths: one market tips, one stays split",
+        "aspectRatio": "16:9",
+        "brief": "두 갈래 인포그래픽. 왼쪽은 \"Hard to use two\" 라벨과 함께 사람들이 큰 원 하나로 몰리는 모습, 오른쪽은 \"Easy to use two\" 라벨과 함께 사람들이 두 원 사이를 자유롭게 오가는 모습. 실제 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where else",
+      "title": "Niches survive next to giants.",
+      "body": [
+        "The third condition matters too. Amazon is a huge marketplace, yet Etsy built a large business alongside it. Buyers looking for handmade and vintage goods wanted a different place, with different sellers.",
+        "When some customers want something the giant can't serve well, a smaller network can win that slice. Specialist marketplaces for industrial parts, rare books or local farm produce often live this way."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Even a tipped market can tip again.",
+      "body": [
+        "Winner-take-most is not winner-forever. MySpace once led social networking and was overtaken by Facebook. A dominant network can lose if a rival offers something clearly better and switching is easier than it looks.",
+        "The bigger cost, though, is the opposite mistake: spending heavily to win a market that was never going to tip. Before a land grab, check the three conditions, not just the growth curve."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a translator marketplace.",
+      "illustrative": true,
+      "body": [
+        "Your website connects freelance translators with businesses. Translators list on several sites for free. Clients post the same job in two or three places. A well-funded rival is growing fast.",
+        "What's your best move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Drop your fees to zero and try to grab the whole market",
+            "verdict": "risky",
+            "feedback": "With multi-homing this easy, zero fees attract users who leave the day you charge again. You lose revenue without gaining a lasting lead."
+          },
+          {
+            "key": "B",
+            "text": "Focus on legal and medical translation, with vetting the generalist can't match",
+            "verdict": "best",
+            "feedback": "You serve demand the big player handles poorly. That is the condition where a smaller network wins its own slice."
+          },
+          {
+            "key": "C",
+            "text": "Copy the rival's features so clients see no difference",
+            "verdict": "partial",
+            "feedback": "It keeps you in the game, but it removes any reason to choose you over the bigger site."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Network effects don't decide the winner alone. Multi-homing does.",
+      "body": [
+        "A market tips to one player only when network effects are strong, using two is costly, and few customers want something different.",
+        "**Try it today:** count how many competing options your typical customer uses at the same time. If the answer is two or more, stop racing for size and look for the slice you can own."
+      ],
+      "next": "Next · Does a dating app have network effects?"
+    }
+  ]
+}

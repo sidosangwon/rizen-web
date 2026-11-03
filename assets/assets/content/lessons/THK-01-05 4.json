@@ -1,0 +1,225 @@
+{
+  "id": "THK-01-05",
+  "unitId": "THK-01",
+  "categoryId": "THK",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Margin of safety",
+  "readerTitle": "Why the Brooklyn Bridge survived its bad wire",
+  "format": "company_story",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "real_observation",
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 역사 사례 (브루클린 브리지 케이블 부정 납품) + 실제 저작 (Benjamin Graham) + 가상 적용 (B2B 컨설팅 견적, 웨딩 케이터링)",
+  "insight": "안전 마진은 예상한 위험이 아니라 예상하지 못한 위험을 견디려고 둔다. 얼마나 둘지는 틀렸을 때 얼마나 아픈지로 정한다.",
+  "misconception": "가장 정확한 추정치로 계획하는 것이 가장 효율적이다. 여유분은 낭비이거나 비관주의다.",
+  "relatedLessonIds": [
+    "THK-02-04",
+    "THK-04-05"
+  ],
+  "sources": [
+    {
+      "text": "Graham, B. (1949). The Intelligent Investor, final chapter: \"Margin of Safety as the Central Concept of Investment\"",
+      "url": null
+    },
+    {
+      "text": "McCullough, D. (1972). The Great Bridge. Simon & Schuster. (Brooklyn Bridge construction and the faulty wire scandal)",
+      "url": null
+    },
+    {
+      "text": "B2B 견적과 케이터링 사례의 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "John A. Roebling이 케이블을 예상 최대 하중의 약 6배 강도로 설계했다는 수치는 널리 인용되지만 자료마다 표현이 다릅니다. 카드에는 \"Accounts usually put it at about six times\"로만 적었습니다. 게시 전 McCullough(1972) 등으로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "불량 와이어(납품업자 J. Lloyd Haigh)가 1878년에 발견되었고, 이미 케이블에 들어간 와이어는 제거하지 않은 채 케이블마다 와이어를 추가했다는 내용을 확인하세요. 추가 와이어 수(케이블당 약 150가닥으로 알려짐)는 불확실해 카드에 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "브루클린 브리지 개통 1883년, 현재도 차량·보행자 통행 중인지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "컨설팅 견적 계산: 과거 유사 프로젝트 160~280시간, 추정 200시간. 240시간 견적은 추정치 대비 +20%. 400시간은 +100%로 과거 최댓값 280시간보다도 43% 많음. 케이터링: 120명 + 약 10% = 약 132인분, 160인분은 +33%.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Company story",
+      "title": "Why the Brooklyn Bridge survived its bad wire",
+      "body": [
+        "In 1878, the engineers building the Brooklyn Bridge found out that a supplier had sold them faulty steel wire. Much of it was already spun into the main cables.",
+        "Tearing the cables out would have meant years of delay. The bridge opened in 1883 anyway. It still carries traffic today."
+      ],
+      "image": {
+        "label": "A suspension bridge cable with a few dark, faulty strands among bright ones",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 현수교 주 케이블의 단면 클로즈업. 밝은 은색 와이어 수백 가닥 사이에 어두운 불량 와이어 몇 가닥이 섞여 있음. 배경에 흐릿한 석조 탑. 실제 로고나 상표 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You're quoting a fixed price.",
+      "illustrative": true,
+      "body": [
+        "Your consulting firm is bidding to move a client's records into a new system. The client wants one fixed price.",
+        "Your team's best estimate is 200 hours. Similar past projects took anywhere from 160 to 280 hours. What do you quote?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "200 hours. It's our best estimate and keeps the price competitive",
+            "verdict": "risky",
+            "feedback": "You win more bids, but about half your projects will run over, and every extra hour comes out of your profit."
+          },
+          {
+            "key": "B",
+            "text": "About 240 hours, with a clear list of what's included",
+            "verdict": "best",
+            "feedback": "You stay competitive while covering most bad surprises. The scope list protects the buffer from being eaten by extra requests."
+          },
+          {
+            "key": "C",
+            "text": "400 hours, to be completely safe",
+            "verdict": "partial",
+            "feedback": "You'd almost never lose money on the job, but you'd lose most bids. Safety that costs you the work isn't safety."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "The strength was built in before anyone needed it.",
+      "body": [
+        "John A. Roebling, the bridge's first designer, made the main cables far stronger than the heaviest load he expected. Accounts usually put it at about six times.",
+        "After his death, his son Washington led the work. When the bad wire was found, removing it wasn't practical. The engineers recalculated and found that the extra strength meant the cables could still do the job.",
+        "They added more wire to each cable and kept building. Nobody had planned for fraud. The **extra strength** covered it anyway."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Margin of safety",
+      "body": [
+        "A **margin of safety** is the gap between what you plan for and what you can survive. You build it in because your estimates will be wrong in ways you can't predict.",
+        "Engineers call it a *safety factor*. Investor Benjamin Graham made the same idea the center of his 1949 book *The Intelligent Investor*: buy only when the price is well below your estimate of value, so mistakes in your estimate don't ruin you."
+      ],
+      "image": {
+        "label": "Two bars: expected load and what the design can carry, with the gap labeled",
+        "aspectRatio": "16:9",
+        "brief": "단순한 인포그래픽. 낮은 막대 \"What you expect\", 훨씬 높은 막대 \"What you can survive\". 두 막대 사이 공간에 밝은 색으로 \"Margin of safety\" 라벨. 작은 번개 아이콘 \"Surprises\"가 그 공간 안에 들어감.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Margin comes in many forms.",
+      "body": [
+        "Almost every business plan has a place where a buffer can go:"
+      ],
+      "list": [
+        "**Cash:** months of costs in the bank if sales drop",
+        "**Time:** deadlines set past your best estimate",
+        "**Capacity:** staff, stock or space beyond the normal rush",
+        "**Price:** quoting or buying with room for costs to rise"
+      ],
+      "callout": "In the consulting quote, 40 extra hours is the margin. It turns a likely loss into a likely profit.",
+      "softwareNote": "In software, margin shows up as runway (months of cash before you run out) and server headroom (capacity well above normal traffic), so a slow fundraise or a sudden spike doesn't sink you."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Sizing it",
+      "title": "Size the margin by how bad being wrong is.",
+      "body": [
+        "The bridge needed a big margin because failure meant people dying and a project that could not be redone. A wrong guess on a weekly coffee order needs almost none.",
+        "Use a bigger margin when being wrong would be hard to undo, when you have little past data, or when one mistake could end the business. Use a smaller one when errors are cheap and quick to fix."
+      ],
+      "image": {
+        "label": "A dial from small to large margin, with a coffee cup on one end and a bridge on the other",
+        "aspectRatio": "16:9",
+        "brief": "반원형 다이얼. 왼쪽 끝 \"Small margin\"에 커피컵 아이콘 (\"Cheap to fix\"), 오른쪽 끝 \"Large margin\"에 다리 아이콘 (\"Hard to undo\"). 바늘은 가운데. 실제 브랜드 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Buffers cost something, and they leak.",
+      "body": [
+        "Margin is never free. Idle cash earns little, extra stock can spoil, and padded quotes lose bids. Too much margin quietly makes you slow and expensive.",
+        "Hidden buffers also tend to get spent. If a team knows the deadline has two spare weeks, work often expands to fill them. Name the margin, decide who can use it, and treat dipping into it as a warning sign, not a routine."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a wedding.",
+      "illustrative": true,
+      "body": [
+        "Your catering company has a wedding with 120 confirmed guests. Food not served goes to waste. Running out in front of the bride's family would hurt your name for years.",
+        "How much do you prepare?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Exactly 120 portions. The guest list is confirmed",
+            "verdict": "risky",
+            "feedback": "Lowest food cost, but a few late plus-ones or big appetites and you run out, at the one event where it hurts most."
+          },
+          {
+            "key": "B",
+            "text": "About 10% extra, plus a simple backup dish you can make fast on site",
+            "verdict": "best",
+            "feedback": "A modest buffer covers normal surprises, and the backup dish covers bigger ones without cooking 40 extra plates."
+          },
+          {
+            "key": "C",
+            "text": "160 portions, so running out is impossible",
+            "verdict": "partial",
+            "feedback": "You protect your reputation, but a third of the food may go in the bin and your price has to cover it."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Plan for your estimate. Build for being wrong.",
+      "body": [
+        "Your best guess is where planning starts, not where it ends. Leave room between what you expect and what you can survive, sized to how painful a mistake would be.",
+        "**Try it today:** pick one plan you're working on, such as a quote, a budget or a deadline. Write down your best estimate, then the worst case you've seen before. How much of that gap is covered?"
+      ],
+      "next": "Next · Why the map is not the territory"
+    }
+  ]
+}

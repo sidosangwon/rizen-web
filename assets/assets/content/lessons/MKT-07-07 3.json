@@ -1,0 +1,257 @@
+{
+  "id": "MKT-07-07",
+  "unitId": "MKT-07",
+  "categoryId": "MKT",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "Should a dentist run ads?",
+  "readerTitle": "Should a dentist run ads? Three questions before you pay",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (치과, 산업용 컨베이어 벨트 제조사, 일정 관리 앱) · 모든 수치는 설명용",
+  "insight": "광고를 할지 말지는 '광고가 효과 있나'가 아니라 '광고가 없었으면 오지 않았을 고객 한 명을 얼마에 데려오고, 그 고객이 몇 년 동안 얼마를 남기며, 마지막에 쓴 돈도 그만큼 하는가'로 판단한다.",
+  "misconception": "광고 대행사가 보고한 신규 고객 수로 나누면 고객 한 명당 비용이 나온다. 평균 비용이 고객 가치보다 낮으면 예산을 더 늘려도 된다.",
+  "relatedLessonIds": [
+    "MKT-07-01",
+    "MKT-07-06"
+  ],
+  "sources": [
+    {
+      "text": "마케팅 표준 개념: 고객 획득 비용과 고객 생애 가치 비교, 증분 효과(광고가 없었어도 왔을 고객 제외), 한계 수익 체감",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "치과 계산: 환자 1명이 연 $300 × 평균 4년 = $1,200. 대행사 주장 $2,000 ÷ 20명 = $100. 실제 증분 8명 기준 $2,000 ÷ 8 = $250. 첫 스케일링이 남기는 돈 $60은 가정. 예산 2배: 추가 10명 중 절반(5명)만 증분이면 $2,000 ÷ 5 = $400.",
+      "status": "open"
+    },
+    {
+      "note": "제조사 계산: 전시회 $15,000 ÷ 3곳 = $5,000(주장). 실제 신규 1곳 = $15,000. 거래처 1곳당 연 $5,000을 남기므로 회수 3년, 평균 8년 거래 시 $40,000.",
+      "status": "open"
+    },
+    {
+      "note": "앱 계산: 월 $20 − $4 = $16 × 평균 10개월 = $160. 월 $10,000 ÷ 80명 = $125(평균). 처음 $7,000 → 70명($100/명), 마지막 $3,000 → 10명($300/명). 70 + 10 = 80 확인.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Marketing · Apply",
+      "title": "Should a dentist run ads?",
+      "illustrative": true,
+      "body": [
+        "A dentist with a busy two-chair practice gets a call from an ad agency. *\"Give us $2,000 a month and we'll bring you 20 new patients.\"*",
+        "That's $100 a patient. It sounds like an easy yes. Three ideas from this unit say it's worth checking first."
+      ],
+      "image": {
+        "label": "Dentist's desk with an ad agency proposal",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 치과 접수대 위에 \"20 new patients / $2,000\"라고 적힌 제안서 한 장, 옆에 칫솔 모양 펜. 뒤로 빈 진료 의자 하나와 찬 의자 하나. 실제 로고나 상표 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "The agency's offer is on your desk.",
+      "illustrative": true,
+      "body": [
+        "A patient who stays leaves about $300 a year after treatment costs, and stays around four years. That's about $1,200 each.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Sign up. $100 for a $1,200 patient is a bargain",
+            "verdict": "risky",
+            "feedback": "You get speed, but you trust the agency's count. Some of those 20 may have found you anyway. That's the question of **whether marketing caused the sale**."
+          },
+          {
+            "key": "B",
+            "text": "Decline. Good dentists grow by word of mouth",
+            "verdict": "partial",
+            "feedback": "You avoid wasted spend, but you may skip patients worth $1,200 each. Word of mouth and ads can work together."
+          },
+          {
+            "key": "C",
+            "text": "Try it for two months and ask every new patient how they found you",
+            "verdict": "best",
+            "feedback": "You pay a little to learn the real number: how many patients came *because of* the ads. That is the cost that matters."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What the intake forms showed",
+      "title": "Twenty patients, but not twenty new ones.",
+      "illustrative": true,
+      "body": [
+        "Twelve of the \"ad patients\" had a friend's referral or typed the practice's name into a search. They clicked the ad on the way. The real cost per extra patient is **$250**, not $100."
+      ],
+      "breakdown": [
+        {
+          "value": "20",
+          "label": "Patients the agency counted",
+          "detail": "Anyone who clicked an ad",
+          "highlight": false
+        },
+        {
+          "value": "−12",
+          "label": "Would have come anyway",
+          "detail": "Referred or searched your name",
+          "highlight": false
+        },
+        {
+          "value": "8",
+          "label": "Truly new",
+          "detail": "Came because of the ads",
+          "highlight": false
+        },
+        {
+          "value": "$250",
+          "label": "Real cost per patient",
+          "detail": "$2,000 ÷ 8",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept at work",
+      "title": "Paying for customers: judge the years, not the visit.",
+      "illustrative": true,
+      "body": [
+        "A first cleaning leaves about $60. Against a $250 ad cost, that visit loses money.",
+        "But **paying for customers** means comparing the cost to everything a customer leaves over time. Here that's $250 against about $1,200. The ads pay for themselves in under a year of an average patient's visits."
+      ],
+      "image": {
+        "label": "Scale: $250 ad cost vs $1,200 patient value",
+        "aspectRatio": "16:9",
+        "brief": "저울 인포그래픽. 한쪽에 \"$250 to win a patient\" 작은 동전 더미, 다른 쪽에 4년치 달력 위 \"$1,200 over 4 years\" 큰 더미. 첫 칸 \"First visit $60\"은 흐리게 표시.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Concept at work",
+      "title": "The next $2,000 buys less.",
+      "illustrative": true,
+      "body": [
+        "The agency now suggests doubling to $4,000. It expects 10 more patients. If half would have come anyway, that's 5 truly new at **$400 each**.",
+        "That's **diminishing returns**: each extra dollar reaches people farther away or less ready to book. Still under $1,200 on paper, but only worth it if a chair is free to see them."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Your best number is also your weakest.",
+      "body": [
+        "The $1,200 is an estimate. Ads with a \"first cleaning $49\" coupon can pull in price shoppers who leave after one visit. Track how long ad patients actually stay.",
+        "Small tests are noisy, too. A slow August or one busy referrer can swing a two-month result. Treat it as a rough guide and check again later."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · manufacturing",
+      "title": "A trade show for conveyor belts.",
+      "illustrative": true,
+      "body": [
+        "You make replacement conveyor belts for warehouses. A trade show booth cost $15,000 and led to 3 new accounts. Your sales lead says 2 were already talking to you before the show.",
+        "Each account leaves about $5,000 a year and stays around 8 years. Was the show worth it?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Yes. $5,000 per account, paid back in a year",
+            "verdict": "partial",
+            "feedback": "Right conclusion, wrong math. You counted two accounts that **marketing didn't cause**, so the show looks three times cheaper than it was."
+          },
+          {
+            "key": "B",
+            "text": "Count only the one new account: $15,000, paid back in 3 years, worth about $40,000",
+            "verdict": "best",
+            "feedback": "You compare the real cost of one extra customer to what it leaves over its life. That's **paying for customers**, counted honestly."
+          },
+          {
+            "key": "C",
+            "text": "No. $15,000 for a single account is too expensive",
+            "verdict": "risky",
+            "feedback": "You protect cash this year but ignore the $40,000 the account leaves over eight years."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · software",
+      "title": "A scheduling app's ad budget.",
+      "illustrative": true,
+      "body": [
+        "Your app charges $20 a month. Each user costs $4 a month to serve and stays about 10 months, so a paying customer is worth $160.",
+        "You spend $10,000 a month on search ads and get 80 paying customers: $125 each. But the first $7,000 brought 70. The last $3,000 brought only 10. What next?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Spend more. $125 is well under $160",
+            "verdict": "risky",
+            "feedback": "The average hides the edge. The last $3,000 bought customers at $300 each, so more spend would cost even more. That's **diminishing returns**."
+          },
+          {
+            "key": "B",
+            "text": "Trim back toward $7,000 and move the rest to cheaper keywords or retention",
+            "verdict": "best",
+            "feedback": "You give up some growth but stop paying $300 for $160 customers. Judge each extra dollar, not the average."
+          },
+          {
+            "key": "C",
+            "text": "Stop ads. The margin is too thin",
+            "verdict": "partial",
+            "feedback": "Safe, but the first $7,000 bought customers at $100 each. You'd lose the spend that clearly works."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "Also ask how many signups came from people who searched your app's name. Those users were likely coming anyway."
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Before you pay for ads, ask three questions.",
+      "list": [
+        "**Did the ad cause it?** Count only customers who wouldn't have come anyway.",
+        "**Is the price right?** Compare that cost to what a customer leaves over years, not one visit.",
+        "**Does the last dollar still work?** Averages hide expensive extra spend."
+      ],
+      "callout": "**Try it today:** ask your last ten new customers how they first heard of you. Compare that to what your ad reports claim.",
+      "next": "Next · Should an app pay creators?"
+    }
+  ]
+}

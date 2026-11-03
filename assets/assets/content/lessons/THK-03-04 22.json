@@ -1,0 +1,226 @@
+{
+  "id": "THK-03-04",
+  "unitId": "THK-03",
+  "categoryId": "THK",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Herd behavior",
+  "readerTitle": "Why the full restaurant keeps getting fuller",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "real_research",
+    "real_observation",
+    "illustrative"
+  ],
+  "caseNote": "일상 장면 (나란히 있는 두 식당) + 실제 연구 (Milgram 1969 거리 실험, Banerjee 1992 / Bikhchandani·Hirshleifer·Welch 1992 정보 폭포 이론) + 가상 적용 (사내 운영팀, 배관 업체)",
+  "insight": "군중을 따를 때 우리는 사람 수를 세지만, 실제로 세야 할 것은 그 안에서 스스로 확인한 사람의 수다. 백 명이 고른 선택도 처음 몇 명의 판단 하나에 기대고 있을 수 있다.",
+  "misconception": "많은 사람이 같은 선택을 했다면 그만큼 많은 증거가 쌓인 것이다.",
+  "relatedLessonIds": [
+    "THK-03-01",
+    "THK-03-02"
+  ],
+  "sources": [
+    {
+      "text": "Banerjee, A. V. (1992). A Simple Model of Herd Behavior. Quarterly Journal of Economics, 107(3).",
+      "url": null
+    },
+    {
+      "text": "Bikhchandani, S., Hirshleifer, D., & Welch, I. (1992). A Theory of Fads, Fashion, Custom, and Cultural Change as Informational Cascades. Journal of Political Economy, 100(5).",
+      "url": null
+    },
+    {
+      "text": "Milgram, S., Bickman, L., & Berkowitz, L. (1969). Note on the drawing power of crowds of different size. Journal of Personality and Social Psychology, 13(2).",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Milgram 외(1969) 실험: 뉴욕 거리에서 1~15명의 실험 협조자가 건물 창문을 올려다보게 하고, 무리가 클수록 멈추거나 올려다보는 행인 비율이 높아졌다는 내용. 구체적 비율은 출처 확인 전이라 카드에 넣지 않았습니다. 게시 전 원문으로 연도·장소를 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Banerjee(1992)는 두 식당 선택 예시로 무리 행동을 설명한 것으로 알려져 있습니다. Bikhchandani·Hirshleifer·Welch(1992)가 '정보 폭포(informational cascade)' 용어를 제시했습니다. 두 논문의 저자·학술지·연도를 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "택배 업체, 배관 업체, 리드 판매 앱 사례와 식당 장면의 전개는 모두 설명용 가상 사례입니다. 수치는 사용하지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Everyday scene",
+      "title": "Why the full restaurant keeps getting fuller",
+      "illustrative": true,
+      "body": [
+        "Two restaurants open on the same street on the same night. Similar menus, similar prices.",
+        "By 8 p.m., one has a line out the door. The other is nearly empty.",
+        "The full one may not be better. It may simply have had two more tables at 7 p.m."
+      ],
+      "image": {
+        "label": "Two side-by-side restaurants, one crowded, one empty",
+        "aspectRatio": "4:3",
+        "brief": "저녁 거리, 똑같이 생긴 식당 두 곳이 나란히 있음. 왼쪽은 손님이 가득하고 문밖까지 줄이 섬, 오른쪽은 조명은 켜져 있지만 텅 빔. 줄 선 사람들이 모두 왼쪽 식당 안을 힐끗 보는 모습. 실제 상호나 로고는 쓰지 않음.",
+        "url": "assets/images/thk-03-04-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Four departments picked the same courier.",
+      "illustrative": true,
+      "body": [
+        "You run operations at a 600-person company. You need a courier for shipping samples to clients.",
+        "In the past six months, four other departments switched to Courier A. Your shortlist is Courier A or Courier B. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Pick Courier A. Four departments can't all be wrong",
+            "verdict": "partial",
+            "feedback": "Fast, and nobody will question you. But if departments two to four chose A because department one did, you're holding one judgment, not four."
+          },
+          {
+            "key": "B",
+            "text": "Ask each department why they chose A and what else they compared",
+            "verdict": "best",
+            "feedback": "It costs a few calls. You learn how many real evaluations sit behind the popular choice, and whether their needs match yours."
+          },
+          {
+            "key": "C",
+            "text": "Pick Courier B so you're not just following the crowd",
+            "verdict": "risky",
+            "feedback": "It feels independent, but it throws away information the others may really have. Going against the crowd by reflex still lets the crowd decide."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened on the street",
+      "title": "A crowd can grow from almost nothing.",
+      "illustrative": true,
+      "body": [
+        "The first couple picks Restaurant A on a hunch. The next couple had read a good review of B. But A has people in it and B is empty, so they go to A.",
+        "Now A has two tables. Each new arrival sees a stronger signal and trusts their own hunch less. By the tenth table, nobody is using what they know. They're all reading the room.",
+        "Ten full tables can rest on one coin flip."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Herd behavior",
+      "body": [
+        "**Herd behavior** means doing what others do because they're doing it, and setting aside what you know yourself.",
+        "Economists call the chain an **information cascade**. Once enough people have chosen, each newcomer sensibly copies the crowd, and their private knowledge never reaches anyone else.",
+        "Each step is reasonable. The result can still be wrong, because a crowd that looks like a hundred votes may contain only a few."
+      ],
+      "image": {
+        "label": "A chain of people each copying the person before",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 왼쪽 첫 사람만 머리 위에 전구(자기 판단) 아이콘, 뒤로 이어진 사람들은 전구 대신 앞사람을 가리키는 화살표 아이콘. 줄이 길어질수록 사람은 많아지지만 전구는 여전히 하나. 하단 문구 \"Many choices, one judgment\".",
+        "url": "assets/images/thk-03-04-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "Crowds pull in strangers, and copying can be rational.",
+      "body": [
+        "In a 1969 street experiment in New York, Stanley Milgram and colleagues had groups of different sizes stop on a busy sidewalk and stare up at a window. The bigger the staring group, the more passersby stopped and looked up too. There was nothing to see.",
+        "In 1992, economist Abhijit Banerjee, and separately Sushil Bikhchandani, David Hirshleifer and Ivo Welch, showed why sensible people do this. When you can see others' choices but not their reasons, **copying is often the logical move**."
+      ],
+      "image": {
+        "label": "Passersby looking up at an empty window because others are",
+        "aspectRatio": "16:9",
+        "brief": "번화한 인도. 몇 사람이 건물 위쪽 빈 창문을 올려다보고, 지나가던 사람들도 하나둘 멈춰 같은 곳을 봄. 창문에는 아무것도 없음. 따뜻한 플랫 일러스트, 간판·로고 없음.",
+        "url": "assets/images/thk-03-04-c5.jpg"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where it shows up",
+      "title": "Anywhere choices are visible and reasons are not.",
+      "body": [
+        "Herds form in every industry:"
+      ],
+      "list": [
+        "Hiring for a role because rivals just did",
+        "Cutting prices because a competitor did",
+        "Buying a tool because \"everyone uses it\"",
+        "Pouring money into whatever trend is hot this year"
+      ],
+      "callout": "The useful question: how many people here actually checked?",
+      "softwareNote": "Download counts, star ratings and \"most popular\" badges are herd signals. An early lead in rankings brings more installs, which keeps the ranking high, whether or not the product is best."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Following the crowd is often smart.",
+      "body": [
+        "Busy restaurants usually are good. When you know little and others chose on their own, copying is a cheap and reasonable shortcut.",
+        "The danger is narrower: when people copied each other, when the first movers had different needs, or when being wrong is costly.",
+        "And doing the opposite by reflex isn't independence. The fix is to look for **reasons**, not to reverse the vote."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a plumbing business.",
+      "illustrative": true,
+      "body": [
+        "You run a five-person plumbing business. Over two months, most plumbers you know have signed up for a new app that sells job leads for a monthly fee.",
+        "At a trade night, two of them tell you \"everyone's on it.\" What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Sign up now before rivals grab all the leads",
+            "verdict": "risky",
+            "feedback": "You avoid missing out, but you'd be paying on buzz. \"Everyone's on it\" tells you about sign-ups, not about jobs won."
+          },
+          {
+            "key": "B",
+            "text": "Ask a few users how many paid jobs they got last month versus the fee, then try one month if it adds up",
+            "verdict": "best",
+            "feedback": "A few questions turn a crowd into evidence. You might join a little later, but you'll know whether the herd is right."
+          },
+          {
+            "key": "C",
+            "text": "Skip it. Fads like this always fade",
+            "verdict": "partial",
+            "feedback": "You save the fee and dodge the hype. But if the app really works, you've ignored good evidence just because it was popular."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Count the people who checked, not the people who followed.",
+      "body": [
+        "A crowd is only as smart as the independent judgments inside it.",
+        "**Try it today:** pick one thing your business does because \"everyone does it.\" Find out who decided it first, and why."
+      ],
+      "next": "Next · Why we blame people, not situations"
+    }
+  ]
+}

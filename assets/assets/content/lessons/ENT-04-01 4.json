@@ -1,0 +1,238 @@
+{
+  "id": "ENT-04-01",
+  "unitId": "ENT-04",
+  "categoryId": "ENT",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Should you raise at all?",
+  "readerTitle": "The ramen shop that raised money and lost its line",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "illustrative",
+    "real_company"
+  ],
+  "caseNote": "가상 사례 (라멘 가게, 물류 회사 사내 팀) + 실제 기업 (Mailchimp, softwareNote에서만 언급) · 라멘 가게와 사내 팀의 수치는 모두 설명용",
+  "insight": "투자는 성공의 보상이 아니라 미래(지분, 속도, 기대치)를 현금과 바꾸는 거래이며, 돈이 진짜 병목일 때만 남는 거래다.",
+  "misconception": "투자를 받을 수 있으면 받는 게 좋다. 돈이 많을수록 사업은 더 빨리, 더 안전하게 큰다.",
+  "relatedLessonIds": [
+    "ENT-04-03",
+    "ENT-04-09"
+  ],
+  "sources": [
+    {
+      "text": "라멘 가게와 물류 회사 사내 팀 사례의 모든 수치는 설명용 가상 예시",
+      "url": null
+    },
+    {
+      "text": "Intuit press release (September 2021): Intuit to acquire Mailchimp for approximately $12 billion",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "가상 계산 확인: 투자 $1.5M에 지분 30% → 투자 후 기업가치 $5M. 투자자가 5배 회수를 기대하면 $1.5M × 5 = $7.5M, 30% 지분이 $7.5M이 되려면 회사 전체 가치 $7.5M ÷ 0.3 = $25M.",
+      "status": "open"
+    },
+    {
+      "note": "Mailchimp: 2001년 창업, 외부 벤처 투자 없이 성장, 2021년 Intuit가 약 120억 달러에 인수 발표. 게시 전 Intuit 보도자료로 금액과 '외부 투자 없음' 표현을 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "사내 팀 사례($2M, 15명, 12개 지역, 연료비 10% 절감 목표)는 모두 가상 수치입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Entrepreneurship · Counterexample",
+      "title": "The ramen shop that raised money and lost its line",
+      "illustrative": true,
+      "body": [
+        "Mika's ramen shop has a queue every night and a steady profit. Investors offer $1.5 million to open five more shops in two years.",
+        "Three years later, four of the new shops have closed. The original is still busy. But Mika now owns 70% of it, and owes her investors a story about growth that never came."
+      ],
+      "image": {
+        "label": "A busy ramen shop next to empty shuttered branches",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 일러스트. 왼쪽에 손님 줄이 길게 늘어선 작은 라멘 가게, 오른쪽에 셔터가 내려진 같은 간판의 가게 네 곳. 실제 브랜드 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Take the $1.5 million?",
+      "illustrative": true,
+      "body": [
+        "You're Mika, before the deal. One shop earns about $150,000 a year in profit. Your chef is the reason people queue.",
+        "Investors offer $1.5 million for 30% of the company. They want five new shops within two years. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Take it. Lines like yours don't last, so grow while demand is hot",
+            "verdict": "risky",
+            "feedback": "You get speed and a safety cushion. You also take on a promise to grow five times over, with one chef and no proof a second shop works."
+          },
+          {
+            "key": "B",
+            "text": "Decline for now. Open a second shop from profits, then decide",
+            "verdict": "best",
+            "feedback": "You grow slower and carry more personal risk. In return you learn whether the shop can be copied before you sell part of it."
+          },
+          {
+            "key": "C",
+            "text": "Take it, but negotiate down to three new shops",
+            "verdict": "partial",
+            "feedback": "Fewer shops lowers the strain. But the money still expects big growth, and you still haven't tested whether shop two works."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "What the money came with.",
+      "illustrative": true,
+      "body": [
+        "The cash was the easy part. The expectation attached to it was the hard part."
+      ],
+      "breakdown": [
+        {
+          "value": "$1.5M",
+          "label": "Cash in",
+          "detail": "For new shops, staff and fit-out",
+          "highlight": false
+        },
+        {
+          "value": "30%",
+          "label": "Ownership given",
+          "detail": "Of every future profit and sale",
+          "highlight": false
+        },
+        {
+          "value": "$7.5M",
+          "label": "Hoped-for return",
+          "detail": "If investors want 5 times their money",
+          "highlight": false
+        },
+        {
+          "value": "$25M",
+          "label": "Company value needed",
+          "detail": "So that 30% is worth $7.5M",
+          "highlight": true
+        }
+      ],
+      "callout": "A shop earning $150,000 a year had to become a $25 million company."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Outside money is a trade, not a prize.",
+      "body": [
+        "**Raising money** means swapping part of your future, such as ownership, control and pace, for cash now.",
+        "That trade pays off only when cash is what holds you back, and the business can grow into what the money expects back.",
+        "Mika's limit was never cash. It was one chef, one recipe and one proven location. Money let her copy the shop before she knew it could be copied."
+      ],
+      "image": {
+        "label": "A scale: cash on one side, ownership and expectations on the other",
+        "aspectRatio": "16:9",
+        "brief": "저울 인포그래픽. 한쪽에 \"Cash now\" 돈주머니, 다른 쪽에 \"Ownership\", \"Control\", \"Growth expected\" 블록 세 개. 저울이 기대치 쪽으로 살짝 기울어 있음.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Three questions before you raise.",
+      "body": [
+        "Before taking anyone's money, answer these plainly."
+      ],
+      "list": [
+        "**What will the money buy?** Name it: a machine, a hire, a second location.",
+        "**Is cash the bottleneck?** Or is it people, demand or know-how that money can't speed up?",
+        "**Can the business reach the size the money expects?** Investors who own a share need that share to grow a lot."
+      ],
+      "callout": "If an answer is unclear, money mostly helps you make the mistake faster.",
+      "softwareNote": "Mailchimp grew for about two decades without venture investors and was bought by Intuit in 2021 for about $12 billion. Software can raise cheaply, but it can also often grow from customer revenue alone."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Wider view",
+      "title": "You raise money inside companies too.",
+      "body": [
+        "A manager asking leadership for a bigger budget is making the same trade. The extra money arrives with bigger targets, closer attention and less room to change course.",
+        "A small budget lets a team learn quietly. A large one turns a guess into a public promise. The question is the same as Mika's: is money really what's slowing you down?"
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Not raising has costs too.",
+      "body": [
+        "Growing from profits is slower. You may carry personal risk, and a funded rival can grab locations, staff or customers first.",
+        "In some markets, speed decides the winner, such as products that get more useful as more people join. There, waiting can cost more than selling a share.",
+        "The goal isn't to avoid outside money. It's to take it only for something you already know works."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a team inside a logistics company.",
+      "illustrative": true,
+      "body": [
+        "Your small team built a route tool that saves drivers time in one region. Leadership offers $2 million and 15 people to roll it out to all 12 regions this year, with a target of 10% fuel savings company-wide.",
+        "What do you ask for?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Accept the full budget. This much support may not come again",
+            "verdict": "risky",
+            "feedback": "You get resources and visibility. But you haven't shown the savings hold outside one region, and a missed company-wide target can end the project."
+          },
+          {
+            "key": "B",
+            "text": "Ask for a smaller budget to prove it in two more regions, then scale",
+            "verdict": "best",
+            "feedback": "You give up some speed and risk losing momentum. You gain proof that the tool works elsewhere before you promise 12 regions."
+          },
+          {
+            "key": "C",
+            "text": "Decline extra money and grow slowly on your current budget",
+            "verdict": "partial",
+            "feedback": "You keep control and avoid big targets. But if the tool truly works, moving this slowly may cost the company savings and your sponsor's interest."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Raise money for what's proven, not for what's hoped.",
+      "body": [
+        "Outside money buys speed and charges you in ownership and expectations. Take it when cash is the real limit and the business can grow into the promise.",
+        "**Try it today:** write down the one thing that most limits your growth right now. Then ask honestly whether more money would fix it."
+      ],
+      "next": "Next · Angels vs venture capital"
+    }
+  ]
+}

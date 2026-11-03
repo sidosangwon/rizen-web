@@ -1,0 +1,248 @@
+{
+  "id": "MKT-06-09",
+  "unitId": "MKT-06",
+  "categoryId": "MKT",
+  "order": 9,
+  "type": "case",
+  "conceptTag": "PayPal grew on eBay",
+  "readerTitle": "PayPal grew inside eBay. Then it had to live with eBay.",
+  "format": "company_story",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (PayPal, eBay, Billpoint) + 가상 적용 (회계 사무소, 피자 가게)",
+  "insight": "고객이 이미 모여 있는 남의 플랫폼에 올라타면 가장 빨리 자란다. 다만 그 플랫폼이 규칙을 쥐고 있으므로, 자라는 동안 고객과 직접 연결될 길을 함께 만들어야 한다.",
+  "misconception": "고객이 많이 오는 채널이면 많이 기댈수록 좋다. 또는 반대로, 남의 플랫폼에 기대는 것은 처음부터 피해야 한다.",
+  "relatedLessonIds": [
+    "MKT-06-04",
+    "MKT-06-06"
+  ],
+  "sources": [
+    {
+      "text": "Thiel, P. & Masters, B. (2014). Zero to One. PayPal의 eBay 집중, 가입·추천 보너스",
+      "url": null
+    },
+    {
+      "text": "Jackson, E. M. (2004). The PayPal Wars. eBay 판매자 확산, Billpoint와의 경쟁, 판매자용 도구",
+      "url": null
+    },
+    {
+      "text": "eBay press release (July 2002): eBay to acquire PayPal",
+      "url": null
+    },
+    {
+      "text": "eBay and PayPal announcements on the 2015 separation",
+      "url": null
+    },
+    {
+      "text": "eBay announcement (2018) on managed payments",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Confinity의 초기 제품(PalmPilot 간 송금)과 2000년 X.com 합병 시기를 확인하세요. 카드에는 연도를 \"around 2000\"으로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "가입·추천 보너스 금액은 자료마다 다릅니다(Zero to One은 처음 $10, 이후 축소라고 설명). 카드에는 \"reportedly about $10\"으로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "eBay가 1999년에 Billpoint를 인수하고 Wells Fargo와 함께 운영했으며, 자사 결제를 목록과 결제 화면에서 우선 노출했다는 점을 The PayPal Wars 등으로 확인하세요. 구체적 시장점유율 수치는 넣지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "PayPal 결제 중 eBay 비중은 \"a large share\"로만 적었습니다. 구체적 비율은 2002년 PayPal S-1 등으로 확인 후 필요시 추가하세요.",
+      "status": "open"
+    },
+    {
+      "note": "eBay의 PayPal 인수 발표 2002년 7월, 약 $1.5 billion(주식 거래). 분사 2015년. eBay managed payments 시작 2018년, 이후 PayPal은 결제 수단 중 하나로 남음. 게시 전 재확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "피자 가게 수치(배달앱 주문 비중 70%)는 설명용 가상 수치입니다. 배달앱마다 포장 안 전단지 허용 규칙이 다르다는 점을 피드백에 반영했습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Marketing · Company story",
+      "title": "PayPal planned to move money between PalmPilots.",
+      "body": [
+        "Around 2000, the team behind PayPal was building a way to beam money between handheld computers, and to send it by email.",
+        "The users who actually poured in had a very different reason. They were buying and selling on eBay, and they needed a way to pay strangers."
+      ],
+      "image": {
+        "label": "A handheld device beside a pile of auction parcels",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 왼쪽에 오래된 PDA 기기가 작게, 오른쪽에 경매 낙찰품 택배 상자와 \"SOLD\" 팻말이 크게 쌓여 있음. 시선이 오른쪽으로 쏠리게. 실제 PayPal, eBay, Palm 로고는 쓰지 않음.",
+        "url": "assets/images/mkt-06-09-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Your users are gathering in someone else's store.",
+      "body": [
+        "You run PayPal. A large share of your payments come from eBay auctions. eBay sellers are telling buyers to use you. But eBay owns its own payment service, Billpoint.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Stay broad: email payments for everyone, with eBay as one use case",
+            "verdict": "risky",
+            "feedback": "You avoid depending on eBay, but you spread your money thin and miss the one place where demand is dense and growing by itself."
+          },
+          {
+            "key": "B",
+            "text": "Go all in on eBay sellers and their buyers",
+            "verdict": "best",
+            "feedback": "You grow fastest where people already need you. The cost: your future now depends on a marketplace that runs a rival service."
+          },
+          {
+            "key": "C",
+            "text": "Ask eBay for an official partnership before investing more",
+            "verdict": "partial",
+            "feedback": "A deal would feel safer. But eBay has its own payment product, so you may wait months and still hear no."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "PayPal went all in on eBay.",
+      "body": [
+        "PayPal built tools that made it easy for sellers to add a \"pay with PayPal\" note to their listings. It paid people a cash bonus, reportedly about $10, for joining and for referring a friend.",
+        "Buyers signed up to pay a seller. Many later sold items themselves and asked their own buyers to use PayPal. Even though eBay promoted Billpoint, PayPal became the way most eBay users chose to pay."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Growing on a host platform",
+      "body": [
+        "**Host platform growth** means plugging into a place where your customers already gather and already do the job your product helps with.",
+        "You don't build the crowd. You borrow it. eBay had millions of strangers who needed to pay each other. PayPal didn't need to find them. It needed to be the easiest option in front of them."
+      ],
+      "image": {
+        "label": "A small loop spinning inside a large marketplace",
+        "aspectRatio": "16:9",
+        "brief": "큰 원형 시장(가판대와 사람들)이 배경이고, 그 안에서 작은 화살표 고리가 돌며 \"Seller asks buyer\" → \"Buyer joins\" → \"Buyer becomes seller\" 라벨이 순환. 실제 로고 없음.",
+        "url": "assets/images/mkt-06-09-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Why it worked",
+      "title": "Four conditions lined up.",
+      "body": [
+        "Borrowed crowds don't always work. On eBay, these held at once:"
+      ],
+      "list": [
+        "**Customers in one place:** buyers and sellers met on a single site",
+        "**A painful job:** mailing checks to strangers was slow and risky",
+        "**A built-in loop:** every buyer was a possible seller",
+        "**A weak incumbent:** the host's own option was harder to use"
+      ],
+      "callout": "Remove one condition and the same tactic grows much more slowly."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The landlord",
+      "title": "The host can change the rules at any time.",
+      "body": [
+        "eBay controlled the listings, the checkout and the customer relationship. It could favor Billpoint, and it did push its own service.",
+        "PayPal had won the users, but eBay owned the street they walked on. The standoff ended in 2002, when eBay bought PayPal for about $1.5 billion and later closed Billpoint."
+      ],
+      "image": {
+        "label": "A small shop inside a large mall with the mall owner holding keys",
+        "aspectRatio": "16:9",
+        "brief": "큰 쇼핑몰 안에 작은 매장 하나가 붐비고 있고, 쇼핑몰 주인 캐릭터가 열쇠 꾸러미를 들고 내려다봄. 긴장감 있지만 유머러스하게. 실제 브랜드 표시 없음.",
+        "url": "assets/images/mkt-06-09-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Borrowed reach is rented, not owned.",
+      "body": [
+        "PayPal and eBay split into separate companies in 2015. From 2018, eBay began handling sellers' payments itself, and PayPal became one option at checkout rather than the default.",
+        "The lesson cuts both ways. The host gave PayPal its first huge wave. The host could also take it back. A business that grows on a platform should use that time to build direct ties with its customers, before the rules change."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "text",
+      "eyebrow": "Beyond payments",
+      "title": "A bookkeeping firm finds the same pattern.",
+      "illustrative": true,
+      "body": [
+        "A small bookkeeping firm lists itself in the advisor directory of a popular accounting software. Most new clients now find it there.",
+        "The directory works for the same reasons eBay did: clients gather in one place, and they have a pressing job. But the software company decides the ranking, the fees and whether to launch its own bookkeeping service. The smart move is to keep the listing, and to win referrals and repeat work that don't run through it."
+      ]
+    },
+    {
+      "index": 9,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a pizza shop.",
+      "illustrative": true,
+      "body": [
+        "About 70% of your orders come through one delivery app. The app takes a large commission and just raised it.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Leave the app and push everyone to call you directly",
+            "verdict": "risky",
+            "feedback": "You keep the full price on each order, but most of your customers found you through the app. Many won't follow you out."
+          },
+          {
+            "key": "B",
+            "text": "Stay on the app, and give each order a reason to order direct next time",
+            "verdict": "best",
+            "feedback": "You keep the borrowed crowd while building your own list, such as a loyalty card or a direct-order deal. Check the app's rules on what you can put in the bag."
+          },
+          {
+            "key": "C",
+            "text": "Spend more on in-app ads and discounts to rank higher",
+            "verdict": "partial",
+            "feedback": "Orders may rise, but you deepen your dependence and pay the host twice. Useful in short bursts, risky as a long-term plan."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 10,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Grow where the crowd is, but learn to reach it yourself.",
+      "body": [
+        "A host platform can give you customers faster than any channel you build. It can also change the rules overnight.",
+        "**Try it today:** estimate what share of your customers come through a channel you don't control. Write down one step that would let you reach them directly."
+      ],
+      "next": "Next · Pick your one channel"
+    }
+  ]
+}

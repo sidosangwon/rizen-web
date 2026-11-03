@@ -1,0 +1,248 @@
+{
+  "id": "MKT-05-08",
+  "unitId": "MKT-05",
+  "categoryId": "MKT",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "Grow an app",
+  "readerTitle": "5,000 downloads and almost no bookings: growing a cleaning app",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.3,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (청소 예약 앱, 가족 식당 주문 앱) · 모든 수치는 설명용",
+  "insight": "앱을 키우는 일은 다운로드를 늘리는 일이 아니라, 고객이 어디서 빠져나가는지 찾아 한 번에 하나씩 고치고, 만족한 고객이 생긴 뒤에 추천을 붙이는 순서의 문제다.",
+  "misconception": "앱이 안 크면 광고나 추천 보상으로 다운로드를 더 늘리면 된다.",
+  "relatedLessonIds": [
+    "MKT-05-02",
+    "MKT-05-04"
+  ],
+  "sources": [
+    {
+      "text": "PIXO 유닛 MKT-05 개념 레슨 (유입·활성화·유지, 추천, 성장 실험)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "퍼널 계산: 다운로드 5,000 → 가입 2,000(40%) → 첫 예약 400(가입자의 20%) → 60일 내 재예약 240(첫 예약자의 60%). 가입에서 첫 예약 단계에서 1,600명(80%)이 빠짐.",
+      "status": "open"
+    },
+    {
+      "note": "실험 계산: 신규 가입 600명을 300명씩 나눔. 기존 화면 20% = 60건, 즉시 가격 화면 30% = 90건. 모두 설명용 가상 수치.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Growth · Apply",
+      "title": "5,000 downloads and almost no bookings",
+      "illustrative": true,
+      "body": [
+        "Maya runs a home cleaning company with 12 cleaners. She built a booking app and spent $4,000 on ads.",
+        "The app was downloaded 5,000 times. Her calendar barely changed. Where did all those people go?"
+      ],
+      "image": {
+        "label": "Phone showing many downloads beside a nearly empty booking calendar",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 왼쪽에 다운로드 숫자가 크게 뜬 스마트폰, 오른쪽에 거의 빈 주간 청소 예약 달력. 청소 도구(대걸레, 스프레이)가 옆에 놓임. 실제 앱 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Where should next month's effort go?",
+      "illustrative": true,
+      "body": [
+        "Maya has one month and a small budget. Which move comes first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Double the ads to get 10,000 downloads",
+            "verdict": "risky",
+            "feedback": "More **acquisition** brings more people, but if most leave before booking, you pay twice as much to fill the same leaky bucket."
+          },
+          {
+            "key": "B",
+            "text": "Find the step where people drop out before their first booking",
+            "verdict": "best",
+            "feedback": "This reads the path as **acquisition, activation, retention**. Fixing the biggest leak makes every future download worth more."
+          },
+          {
+            "key": "C",
+            "text": "Add a referral bonus so current users bring friends",
+            "verdict": "partial",
+            "feedback": "Referrals can work, but friends would hit the same leak. It's cheaper to fix it first, then invite."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Follow 5,000 downloads.",
+      "illustrative": true,
+      "body": [
+        "The biggest drop is between signing up and booking. **Four out of five** people who made an account never booked a clean."
+      ],
+      "breakdown": [
+        {
+          "value": "5,000",
+          "label": "Downloaded",
+          "detail": "Acquisition: the ads worked",
+          "highlight": false
+        },
+        {
+          "value": "2,000",
+          "label": "Made an account",
+          "detail": "40% of downloads",
+          "highlight": false
+        },
+        {
+          "value": "400",
+          "label": "Booked a first clean",
+          "detail": "Only 20% of accounts",
+          "highlight": true
+        },
+        {
+          "value": "240",
+          "label": "Booked again in 60 days",
+          "detail": "60% of first-timers return",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept at work",
+      "title": "The leak is activation, not acquisition.",
+      "illustrative": true,
+      "body": [
+        "**Activation** is the first moment a customer gets real value. For Maya, that's a clean on the calendar.",
+        "Her app asked new users for photos of every room, then made them wait 24 hours for a quote. Most closed the app and forgot.",
+        "The good news sits lower down: 60% of first-timers book again. People who try the service like it. They just struggle to get there."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How should Maya test a fix?",
+      "illustrative": true,
+      "body": [
+        "Her idea: show an instant flat price for standard apartments, with no photos and no wait."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Launch it with a new design, lower prices and a discount, all at once",
+            "verdict": "risky",
+            "feedback": "Bookings may rise, but she won't know which change caused it. A **growth experiment** changes one thing so the result teaches something."
+          },
+          {
+            "key": "B",
+            "text": "Show instant pricing to half of new sign-ups for two weeks and compare first bookings",
+            "verdict": "best",
+            "feedback": "A clean **growth experiment**: one change, a comparison group, one number to watch."
+          },
+          {
+            "key": "C",
+            "text": "Survey users on whether they'd like instant pricing",
+            "verdict": "partial",
+            "feedback": "Cheap and quick, but people's answers often differ from what they do. A live test measures real bookings."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "From 60 bookings to 90.",
+      "illustrative": true,
+      "body": [
+        "Over two weeks, 600 people signed up. The 300 who saw the old screen made 60 first bookings (20%). The 300 who saw instant pricing made 90 (30%).",
+        "Now each ad dollar brings in more booked cleans. And with more happy repeat customers, Maya finally has people worth asking for **referrals**."
+      ],
+      "image": {
+        "label": "Two bars: 60 bookings versus 90 bookings",
+        "aspectRatio": "16:9",
+        "brief": "막대 두 개 비교. 왼쪽 \"Old screen: 60\", 오른쪽 \"Instant price: 90\". 오른쪽 막대를 강조색으로. 각 막대 아래 \"300 sign-ups\" 표기.",
+        "url": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Growth can outrun the business behind the app.",
+      "body": [
+        "Maya has 12 cleaners. If bookings jump faster than she can hire, cleans get rushed or cancelled, and that 60% return rate falls.",
+        "Small tests can also mislead. A two-week result with a few hundred people is a strong hint, not proof. Run it again before betting the budget on it."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a family restaurant's ordering app.",
+      "illustrative": true,
+      "body": [
+        "Regulars love the app and order often. The owner wants a referral program. Which design fits best?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "$15 credit for every friend who downloads the app",
+            "verdict": "risky",
+            "feedback": "It pays for downloads, not orders. People can game it, and many new users never order."
+          },
+          {
+            "key": "B",
+            "text": "After a customer's third order, offer both them and a friend a free dessert on the friend's first order",
+            "verdict": "best",
+            "feedback": "**Referrals** work best when you ask happy customers and reward a real first order. A dessert also costs less than cash and shows off the food."
+          },
+          {
+            "key": "C",
+            "text": "A permanent 10% discount for anyone who shares a link",
+            "verdict": "partial",
+            "feedback": "Sharing may rise, but the discount cuts into every future order, even from people who would have shared anyway."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Fix the leak, test one change, then invite friends.",
+      "body": [
+        "Concepts used: **acquisition, activation, retention** to find where people drop out, **growth experiments** to test a fix, and **referrals** once customers are happy.",
+        "**Try it today:** count how many new customers reach their first real use of your product. Find the one step where most of them stop."
+      ],
+      "next": "Next · How Tupperware turned kitchens into sales floors"
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "id": "BMO-03-05",
+  "unitId": "BMO-03",
+  "categoryId": "BMO",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Lock-in",
+  "readerTitle": "Why a team keeps paying $20,000 for a $14,000 tool",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (대기업 재무팀의 보고 소프트웨어, 식품 라벨 인쇄업체) + 실제 연구 (Shapiro & Varian, Information Rules) · 모든 수치는 설명용",
+  "insight": "고객이 비교하는 것은 내 가격과 경쟁사 가격이 아니라, 내 가격과 '경쟁사 가격 + 떠나는 비용'이다. 그 차이가 락인의 가치다.",
+  "misconception": "경쟁사가 더 싸면 고객은 떠난다. 반대로, 락인된 고객에게는 가격을 마음껏 올려도 된다.",
+  "relatedLessonIds": [
+    "BMO-03-01",
+    "CUS-02-06"
+  ],
+  "sources": [
+    {
+      "text": "Shapiro, C. & Varian, H. R. (1999). Information Rules: A Strategic Guide to the Network Economy. Harvard Business School Press. (Lock-in and switching costs chapters)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "계산 확인: 전환 비용 $30,000 ÷ 3년 = 연 $10,000. 경쟁사 $14,000 + $10,000 = $24,000(전환이 이득이 되는 가격). 현재 가격과의 여유 $24,000 − $20,000 = $4,000. 현재 가격과 경쟁사 차이 $20,000 − $14,000 = $6,000. 오답 C의 $44,000 = $30,000 + $14,000(한 해에 전부 더한 경우). 할인율·시간가치는 단순화를 위해 무시했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Shapiro & Varian(1999)이 '락인된 고객을 얻기 위한 경쟁이 초기 할인으로 이어져 미래 락인 이익의 상당 부분이 처음에 소진된다'는 취지로 논의했는지 해당 장에서 문구를 다시 확인하세요. 카드에는 직접 인용 없이 요지만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "라벨 인쇄업체 사례의 전환 비용 $15,000(하루 라인 정지와 시험 가동)은 설명용 가정입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business models · Numbers twist",
+      "title": "Why a team keeps paying $20,000 for a $14,000 tool",
+      "illustrative": true,
+      "body": [
+        "A finance team inside a large company pays $20,000 a year for its reporting software. A rival offers the same features for $14,000.",
+        "The team renews the $20,000 tool anyway. They aren't careless. They did the math, and so did their vendor."
+      ],
+      "image": {
+        "label": "Two price tags, with the higher one still chosen",
+        "aspectRatio": "4:3",
+        "brief": "사무실 책상 위에 두 개의 가격표. 왼쪽 \"$20,000/yr\"에는 체크 표시, 오른쪽 \"$14,000/yr\"는 그대로. 왼쪽 가격표 뒤로 보고서 파일, 교육 매뉴얼, 데이터 상자가 묵직하게 쌓여 있음. 실제 소프트웨어 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/bmo-03-05-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How high could the price go before they leave?",
+      "illustrative": true,
+      "body": [
+        "Leaving would mean rebuilding 40 reports, retraining 25 people and running both tools for two months. The team puts that at $30,000, paid once.",
+        "They plan three years ahead. Ignoring everything else, above roughly what yearly price does switching start to pay?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Anything above $14,000, the rival's price",
+            "verdict": "risky",
+            "feedback": "That holds only if leaving is free. Here every switch starts with a $30,000 bill, so a small price gap isn't enough."
+          },
+          {
+            "key": "B",
+            "text": "About $24,000",
+            "verdict": "best",
+            "feedback": "Right. $30,000 spread over three years is $10,000 a year. Add it to the rival's $14,000. Below $24,000, staying is cheaper."
+          },
+          {
+            "key": "C",
+            "text": "About $44,000",
+            "verdict": "partial",
+            "feedback": "You counted the switching cost, which is the key step. But it's paid once and spread over three years, not added to a single year."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "The room above the rival's price",
+      "illustrative": true,
+      "body": [
+        "Today's $20,000 is $6,000 above the rival, and the team still stays. The vendor could raise the price by another **$4,000** before the math flips."
+      ],
+      "breakdown": [
+        {
+          "value": "$14,000",
+          "label": "Rival's price",
+          "detail": "Per year, same features",
+          "highlight": false
+        },
+        {
+          "value": "+$10,000",
+          "label": "Cost of leaving, per year",
+          "detail": "$30,000 once ÷ 3 years",
+          "highlight": false
+        },
+        {
+          "value": "$24,000",
+          "label": "Break-even price",
+          "detail": "Above this, switching pays",
+          "highlight": true
+        },
+        {
+          "value": "$4,000",
+          "label": "Room left",
+          "detail": "$24,000 − today's $20,000",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Lock-in",
+      "body": [
+        "**Lock-in** happens when leaving costs a customer more than staying, even when a rival is cheaper or better.",
+        "The cost of leaving is called a **switching cost**. It's rarely a fee. It's lost work, retraining, moving records, broken habits and the risk that something goes wrong mid-move.",
+        "As a business model, lock-in means you can keep earning from a customer for years after winning them once."
+      ],
+      "image": {
+        "label": "A customer weighing staying against a rival plus the cost of leaving",
+        "aspectRatio": "16:9",
+        "brief": "저울 인포그래픽. 왼쪽 접시에 \"Stay: $20,000\". 오른쪽 접시에 \"Rival: $14,000\"과 \"Cost of leaving: $10,000/yr\" 두 블록이 쌓여 더 무거움. 오른쪽이 아래로 기울어짐.",
+        "url": "assets/images/bmo-03-05-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Where it shows up",
+      "title": "Switching costs come in many shapes",
+      "body": [
+        "Lock-in is not just a software trick. Look for these in any business:"
+      ],
+      "list": [
+        "**Learned skills:** staff trained on one brand's machines or methods",
+        "**Records:** years of history stored in one system's format",
+        "**Physical fit:** molds, parts or packaging that only fit one supplier's equipment",
+        "**Contracts:** long terms and exit fees",
+        "**Relationships:** a contact who already knows your quirks"
+      ],
+      "callout": "The more of these stack up, the deeper the lock-in."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The second twist",
+      "title": "The real fight happens on day one",
+      "body": [
+        "Economists Carl Shapiro and Hal Varian made this point in *Information Rules* (1999): when sellers know customers will get locked in, they compete hard to win them in the first place.",
+        "That's why you see free setup, deep first-year discounts and cheap starter equipment. Much of the future lock-in profit gets spent winning the customer.",
+        "For buyers, the lesson flips. Your **strongest bargaining moment** is before you're locked in."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Lock-in is a lease, not a deed",
+      "body": [
+        "Switching costs shrink. Contracts end, trained staff leave, and new rivals build tools to import your records. That $4,000 of room can vanish within a year.",
+        "Pushing price to the edge also changes how customers feel. People who stay only because leaving is hard are not loyal. When they finally go, they often go all at once and tell others why.",
+        "The safer lock-in is earned: customers could leave, but staying keeps getting better."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a label printer",
+      "illustrative": true,
+      "body": [
+        "You print custom labels for food makers. One client's packaging line is tuned to your label stock. Switching suppliers would mean a day of downtime and test runs, which they put at $15,000.",
+        "A cheaper printer is courting them, and your contract is up for renewal. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Raise the price to just under what switching would cost them",
+            "verdict": "risky",
+            "feedback": "You capture the most this year, but you're betting the client never redoes the math. Once they do, you lose the account and your reputation with it."
+          },
+          {
+            "key": "B",
+            "text": "Keep a fair price and offer a longer contract with something they value, like faster rush orders",
+            "verdict": "best",
+            "feedback": "You turn lock-in into years of steady revenue instead of one high bill. The client stays because staying is good, not only because leaving hurts."
+          },
+          {
+            "key": "C",
+            "text": "Match the cheaper printer's price to be safe",
+            "verdict": "partial",
+            "feedback": "It keeps the client, but gives away the edge their switching costs already give you. You may not need to be the cheapest."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "In software, the same costs live in data, integrations and habits. A tool that makes exporting easy loses some lock-in, but often wins more buyers who fear being trapped."
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Count the cost of leaving, from both sides.",
+      "body": [
+        "Customers compare your price with a rival's price plus the cost of switching. That gap is what lock-in is worth, and it rarely lasts forever.",
+        "**Try it today:** pick one supplier you depend on and estimate what leaving would cost you. Then do the same for your best customer leaving you."
+      ],
+      "next": "Next · Paying only for what you use"
+    }
+  ]
+}

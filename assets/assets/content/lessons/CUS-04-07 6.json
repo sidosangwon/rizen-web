@@ -1,0 +1,250 @@
+{
+  "id": "CUS-04-07",
+  "unitId": "CUS-04",
+  "categoryId": "CUS",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "Test a meal-kit idea",
+  "readerTitle": "Before you buy the boxes: testing a meal-kit idea in a grocery store",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (동네 식료품점의 밀키트, 냉장 배송 업체) · 모든 수치는 설명용",
+  "insight": "아이디어 검증은 가장 치명적인 가정 하나를 골라, 장비를 사기 전에 손으로 직접 해 보며 확인하는 것이다.",
+  "misconception": "밀키트 같은 새 상품은 포장 라인, 브랜드 박스, 주문 앱부터 갖춰야 제대로 시험해 볼 수 있다.",
+  "relatedLessonIds": [
+    "CUS-04-01",
+    "CUS-04-04"
+  ],
+  "sources": [
+    {
+      "text": "이 유닛의 개념 레슨 (CUS-04-01 가장 위험한 가정, CUS-04-04 먼저 손으로 해 보기)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 설명용 가상 수치입니다. 키트 가격 $30, 같은 재료를 매장 진열대에서 사면 약 $22라는 가정입니다. 차액 $8가 고객이 '편리함'에 내는 돈입니다.",
+      "status": "open"
+    },
+    {
+      "note": "손 포장 계산: 키트 20개 포장에 3시간, 시급 $18 가정 → $54 ÷ 20 = 키트당 $2.70. 20개 중 14개 판매 = 70%. 다음 주 재구매 6명 = 구매자 14명 중 약 43%.",
+      "status": "open"
+    },
+    {
+      "note": "식품 위생·포장 관련 규정은 나라와 지역마다 다르므로 카드에서는 '현지 규정을 확인하라'는 일반적인 문장만 쓰고 구체적 법률 조언은 하지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Apply it",
+      "title": "Before you buy the boxes: testing a meal-kit idea in a grocery store",
+      "illustrative": true,
+      "body": [
+        "Maya runs a neighborhood grocery store. Busy parents keep asking her what to cook tonight. She has an idea: weekly meal kits, with every ingredient for three dinners in one bag.",
+        "A supplier is already quoting her for a packing table, 1,000 branded boxes and a simple ordering app. Before she signs, let's use two ideas from this unit."
+      ],
+      "image": {
+        "label": "A grocery owner looking at a stack of empty branded boxes",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 동네 식료품점 계산대 옆, 주인이 아직 비어 있는 새 밀키트 박스 더미를 바라보며 고민하는 장면. 박스에는 가상의 단순한 무늬만, 실제 브랜드 로고는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What should Maya check first?",
+      "illustrative": true,
+      "body": [
+        "Maya has a week and a small budget. Many things must go right: demand, price, freshness, packing time, recipes.",
+        "Where should she start?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Design the box and the ordering app, since customers judge by looks",
+            "verdict": "risky",
+            "feedback": "Good design helps later. But it spends money on the part least likely to sink the idea, before she knows anyone will pay."
+          },
+          {
+            "key": "B",
+            "text": "Survey shoppers on whether they'd buy meal kits",
+            "verdict": "partial",
+            "feedback": "Cheap and quick. But saying yes costs shoppers nothing, so a survey can't tell her whether they'll actually pay."
+          },
+          {
+            "key": "C",
+            "text": "List her assumptions and test the one that would kill the idea if it's wrong",
+            "verdict": "best",
+            "feedback": "This is **your riskiest assumption** at work. Find the belief the whole plan rests on, and test that before anything else."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The assumptions",
+      "title": "Which belief holds up the whole plan?",
+      "illustrative": true,
+      "body": [
+        "Most of these can be fixed if they go wrong. The last one can't. If shoppers won't pay **$30 for a bag they could fill themselves for about $22**, nothing else matters."
+      ],
+      "breakdown": [
+        {
+          "value": "Fixable",
+          "label": "Recipes people like",
+          "detail": "Swap recipes week to week",
+          "highlight": false
+        },
+        {
+          "value": "Fixable",
+          "label": "Fresh ingredients",
+          "detail": "Pack the morning of pickup",
+          "highlight": false
+        },
+        {
+          "value": "Fixable",
+          "label": "Packing is fast enough",
+          "detail": "Learn and improve with practice",
+          "highlight": false
+        },
+        {
+          "value": "Fatal",
+          "label": "Shoppers pay $8 extra for convenience",
+          "detail": "The same items sit one aisle away",
+          "highlight": true
+        }
+      ],
+      "callout": "Test the fatal one first."
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How should Maya test it this week?",
+      "illustrative": true,
+      "body": [
+        "She wants to know if shoppers will really pay $30, not just say they would."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Order the packing table and 1,000 boxes, then launch properly",
+            "verdict": "risky",
+            "feedback": "She'd learn the answer, but only after paying for everything. If shoppers say no, the boxes become a storage problem."
+          },
+          {
+            "key": "B",
+            "text": "Hand-pack 20 kits in paper bags with a printed recipe card and sell them at the register for $30",
+            "verdict": "best",
+            "feedback": "This is **doing it by hand first**. Real kits, real price, real buyers, almost no equipment. She also learns what packing really takes."
+          },
+          {
+            "key": "C",
+            "text": "Put up a \"Meal kits coming soon\" sign with a sign-up sheet",
+            "verdict": "partial",
+            "feedback": "It shows interest for nearly nothing. But a name on a sheet isn't $30 at the register, and price is the assumption she most needs to test."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "Software founders do the same thing. Before building an automated feature, they deliver the result by hand behind a simple form, then build only what users keep coming back for."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "14 kits sold, and one surprise.",
+      "illustrative": true,
+      "body": [
+        "Maya sold 14 of her 20 kits at full price. Her riskiest assumption survived its first real test.",
+        "Doing it by hand also showed her something no quote could. Packing took her staff **3 hours**. At $18 an hour, that's $2.70 a kit, a cost she hadn't counted.",
+        "The next week, 6 of the 14 buyers came back. That repeat number told her more than the first sale."
+      ],
+      "image": {
+        "label": "Paper-bag kits by a register, with a tally sheet",
+        "aspectRatio": "16:9",
+        "brief": "계산대 옆 선반에 손으로 포장한 종이봉투 밀키트들과 레시피 카드. 옆에 손글씨 표: \"Packed 20 / Sold 14 / Came back 6\". 따뜻한 매장 조명, 실제 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Hand-made tests can flatter you.",
+      "body": [
+        "Twenty kits packed with care by the owner won't match 500 packed in a rush. Early buyers may also be curious regulars who would buy anything Maya tried.",
+        "So judge by repeat purchases over several weeks, not first-week sales. And count the hand costs honestly, because they show what scaling up must fix.",
+        "Food also carries rules on handling and labeling. Check local requirements before selling, even in a small test."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a cold-chain delivery company.",
+      "illustrative": true,
+      "body": [
+        "You run a refrigerated trucking company serving supermarkets. You think restaurants would pay for small, early-morning deliveries of chilled goods.",
+        "A dealer offers you five small refrigerated vans on a three-year lease. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Lease the vans so the service looks reliable from day one",
+            "verdict": "risky",
+            "feedback": "Reliable, yes. But you've locked in three years of cost before learning whether restaurants will pay your price for small drops."
+          },
+          {
+            "key": "B",
+            "text": "Rent one van for a month and run a route for five restaurants yourself, at the real price",
+            "verdict": "best",
+            "feedback": "You test **your riskiest assumption**, that restaurants will pay, by **doing it by hand first**. You also learn real drop times and loading problems."
+          },
+          {
+            "key": "C",
+            "text": "Ask your supermarket clients' suppliers whether restaurants need this",
+            "verdict": "partial",
+            "feedback": "They may know the market well. But secondhand opinions can't tell you whether restaurant owners will sign and pay."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Test the belief that could sink you, by hand, before you buy the equipment.",
+      "body": [
+        "Two ideas did the work in this lesson:"
+      ],
+      "list": [
+        "**Your riskiest assumption:** shoppers must pay extra for convenience, so test that first",
+        "**Doing it by hand first:** 20 paper bags and one rented van taught more than any quote"
+      ],
+      "callout": "**Try it today:** write down the one belief your next idea can't survive without. Then plan the smallest hand-run test of it at the real price.",
+      "next": "Next · Test a business software idea"
+    }
+  ]
+}

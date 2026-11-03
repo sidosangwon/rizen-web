@@ -1,0 +1,239 @@
+{
+  "id": "THK-08-01",
+  "unitId": "THK-08",
+  "categoryId": "THK",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Correlation is not causation",
+  "readerTitle": "The busiest stores have the most staff. So should you hire?",
+  "format": "two_businesses",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 2개 (소매 체인 매장 인력, 공장 설비 정비) + 가상 적용 (배송 회사 경로 앱) · 모든 수치는 설명용",
+  "insight": "두 숫자가 함께 움직이면 결론이 아니라 질문이 시작된다. 화살표가 거꾸로인지, 둘을 함께 움직이는 제3의 요인이 있는지, 우연인지부터 확인한다.",
+  "misconception": "A가 높은 곳에서 B도 높으면, A를 늘리면 B도 늘어난다.",
+  "relatedLessonIds": [
+    "THK-08-06",
+    "THK-08-07"
+  ],
+  "sources": [
+    {
+      "text": "통계학의 표준 개념 (상관관계와 인과관계, 역인과, 교란 변수)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 설명용 가상 수치입니다. 매장 차트: 직원 6명 매장 주간 매출 $40,000, 12명 매장 $80,000 (2배). 카드 문구 \"twice the sales\"와 일치하는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "배송 앱 사례: 100명 중 40명에게 앱 배포, 앱 사용 기사 지연율 12%, 미사용 기사 8%. 가상 수치이며 계산은 필요 없습니다.",
+      "status": "open"
+    },
+    {
+      "note": "세 가지 설명(역인과, 제3의 요인, 우연)은 일반적인 통계 교육 구성입니다. 다음 유닛 레슨(THK-08-06 통제 실험)과 겹치지 않도록 실험 설계 내용은 7번 카드에서 한 문장만 언급했습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Two businesses",
+      "title": "The busiest stores have the most staff. So should you hire?",
+      "illustrative": true,
+      "body": [
+        "A retail chain looks at its numbers. Stores with 12 people on staff sell twice as much as stores with 6.",
+        "Across town, a factory finds that its most-serviced machines break down the most.",
+        "Two businesses, two charts, and the same trap waiting in both."
+      ],
+      "image": {
+        "label": "Two charts with the same upward line, one from a shop and one from a factory",
+        "aspectRatio": "4:3",
+        "brief": "화면을 좌우로 나눔. 왼쪽은 매장 진열대 앞 매니저가 상승 그래프를 들고 있고, 오른쪽은 공장 기계 옆 관리자가 똑같은 모양의 상승 그래프를 들고 있음. 두 그래프 사이에 작은 물음표. 실제 브랜드 로고는 쓰지 않음.",
+        "url": "assets/images/thk-08-01-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Add staff to the small stores?",
+      "illustrative": true,
+      "body": [
+        "You manage 30 stores. Stores with 12 staff average $80,000 in weekly sales. Stores with 6 average $40,000.",
+        "A colleague says the answer is obvious: more people on the floor means more sales. Hire for the small stores.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Add staff to every small store. The pattern is clear across 30 stores",
+            "verdict": "risky",
+            "feedback": "You act fast on a strong pattern. But if the pattern runs the other way, you double payroll in quiet stores and sales barely move."
+          },
+          {
+            "key": "B",
+            "text": "First find out how staffing levels were decided, then try extra staff in a few stores",
+            "verdict": "best",
+            "feedback": "You lose a few weeks. In return you learn whether staff drive sales or sales drive staff, before spending on all 30 stores."
+          },
+          {
+            "key": "C",
+            "text": "Ignore it. Staff numbers never tell you anything about sales",
+            "verdict": "partial",
+            "feedback": "Healthy doubt, but it throws away a real clue. Staff may well matter. You just can't tell from this chart alone."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "What happened",
+      "title": "The sales came first.",
+      "illustrative": true,
+      "body": [
+        "Head office set each store's staffing from last year's sales. Busy stores were given more people because they were busy.",
+        "So the chart is real, but the arrow points backward. Sales caused the staffing, not the other way around."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Average weekly sales",
+            "rows": [
+              {
+                "label": "Stores with 6 staff",
+                "value": 40000,
+                "highlight": false
+              },
+              {
+                "label": "Stores with 12 staff",
+                "value": 80000,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Correlation is not causation",
+      "body": [
+        "A **correlation** means two things tend to move together. **Causation** means one thing actually makes the other happen.",
+        "Correlation is easy to see in any spreadsheet. Causation is a claim about what would change if you acted. Only causation tells you that hiring, cutting or launching will work."
+      ],
+      "image": {
+        "label": "Two linked circles with arrows that could point either way",
+        "aspectRatio": "16:9",
+        "brief": "두 원 \"Staff\"와 \"Sales\"가 선으로 연결됨. 선 위에 양방향 화살표 세 개를 점선으로 그려 \"→\", \"←\", 그리고 위쪽에서 두 원을 동시에 가리키는 세 번째 원 \"?\"를 배치. 깔끔한 인포그래픽 스타일.",
+        "url": "assets/images/thk-08-01-c4.jpg"
+      },
+      "softwareNote": "Users who adopt a certain feature often churn less. That doesn't mean pushing the feature on everyone will cut churn. Engaged users may simply find more features."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How to check",
+      "title": "Three questions before you believe the arrow.",
+      "body": [
+        "When two numbers move together, run through three other explanations first:"
+      ],
+      "list": [
+        "**Backward arrow:** could B be causing A? Busy stores get more staff.",
+        "**Hidden third factor:** could something else drive both? A great location brings shoppers and justifies more staff.",
+        "**Chance:** with few data points, patterns appear by luck."
+      ],
+      "callout": "If none of these fits, the causal story gets more believable."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The second business",
+      "title": "The factory that almost cut maintenance.",
+      "illustrative": true,
+      "body": [
+        "A plant manager sees that the machines with the most maintenance hours also break down most often. Someone suggests the technicians are causing problems. Cut the servicing.",
+        "Then the team sorts the machines by age. The oldest machines need the most servicing, and they also break down the most. **Age** drives both numbers.",
+        "Cutting maintenance on those machines would likely have made breakdowns worse."
+      ],
+      "image": {
+        "label": "Old and new machines on a factory floor, the old one with a wrench and warning light",
+        "aspectRatio": "16:9",
+        "brief": "공장 바닥에 기계 두 대. 왼쪽은 낡고 녹슨 기계에 렌치와 빨간 경고등, 오른쪽은 새 기계. 낡은 기계 위에 \"Age\" 라벨, 그 아래에서 \"Maintenance hours\"와 \"Breakdowns\" 두 화살표가 뻗어 나옴. 실제 제조사 로고 없음.",
+        "url": "assets/images/thk-08-01-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Don't throw away every correlation.",
+      "body": [
+        "Correlation is often the first clue to a real cause. Doubting every pattern is just another way to make bad decisions.",
+        "The point is to match your proof to the stakes. If an action is cheap and easy to undo, try it and watch. If it's expensive or hard to reverse, like hiring across 30 stores, test it on a small group first and compare."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a delivery company.",
+      "illustrative": true,
+      "body": [
+        "You rolled out a new route-planning app to 40 of your 100 drivers. Drivers using the app are late 12% of the time. The others are late 8%.",
+        "Your operations lead wants to drop the app. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Drop the app. The drivers using it are clearly later",
+            "verdict": "risky",
+            "feedback": "Quick and cheap today. But if the app went to drivers on the hardest routes, you may be scrapping a tool that actually helps."
+          },
+          {
+            "key": "B",
+            "text": "Check how the 40 drivers were chosen, then compare drivers on similar routes",
+            "verdict": "best",
+            "feedback": "It takes some digging. In return you separate the app's effect from the routes it was given to, which is the real question."
+          },
+          {
+            "key": "C",
+            "text": "Keep the app. A 4-point gap is probably just noise",
+            "verdict": "partial",
+            "feedback": "Chance is worth asking about, but assuming it lets you skip the work. The gap could still be real, in either direction."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Two numbers moving together is a question, not an answer.",
+      "body": [
+        "Before you act on a pattern, ask if the arrow could run backward, if something else drives both, or if it's luck.",
+        "**Try it today:** find one chart your team uses to justify a decision. Write down one hidden factor that could explain it instead."
+      ],
+      "next": "Next · Why the average can hide the whole story"
+    }
+  ]
+}

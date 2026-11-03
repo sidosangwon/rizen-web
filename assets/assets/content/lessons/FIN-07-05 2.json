@@ -1,0 +1,239 @@
+{
+  "id": "FIN-07-05",
+  "unitId": "FIN-07",
+  "categoryId": "FIN",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "What investors expect",
+  "readerTitle": "Every investor's money comes with a finish line",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative",
+    "real_observation"
+  ],
+  "caseNote": "가상 사례 (회계 서비스 회사, 카페, 비스트로) + 벤처 투자 수익 구조에 대한 일반적 관찰 · 모든 수치는 설명용",
+  "insight": "투자자의 기대는 그 사람이 자기 돈을 어떻게 돌려받아야 하는지에서 나온다. 돈을 받는 순간 그 목표가 내 사업의 목표가 된다.",
+  "misconception": "좋은 투자자는 좋은 사업이면 만족한다. 투자금은 갚을 필요가 없으니 공짜 자금이다.",
+  "relatedLessonIds": [
+    "FIN-07-04",
+    "FIN-07-06"
+  ],
+  "sources": [
+    {
+      "text": "벤처캐피털 수익 구조에 대한 일반적 설명 (소수의 투자가 펀드 수익 대부분을 만든다는 관찰, 펀드 존속 기간 약 10년)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "계산 확인: $500,000 ÷ 20% = 기업가치 $2.5M. 10배 회수 = 지분가치 $5M → 기업가치 $25M 필요(추가 희석 무시). 연 15% 성장 7년: 1.15^7 ≈ 2.66, $2.5M × 2.66 ≈ $6.65M. 20% 지분 ≈ $1.33M, 투자금 대비 약 2.7배.",
+      "status": "open"
+    },
+    {
+      "note": "'벤처 펀드는 보통 약 10년 안에 출자자에게 돈을 돌려줘야 한다', '소수의 성공 투자가 나머지 손실을 메운다'는 업계의 일반적 설명입니다. 펀드마다 기간과 구조가 다르므로 카드에는 'roughly ten years', '10x 같은' 예시 표현으로만 적었습니다. 게시 전 표현을 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "7번 카드의 계약 조건(누가 먼저 돈을 받는지 등)은 특정 국가의 법률 조언이 되지 않도록 일반적으로만 적었습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Everyday scene",
+      "title": "Every investor's money comes with a finish line",
+      "illustrative": true,
+      "body": [
+        "Maya runs a 12-person bookkeeping firm for small companies. It's profitable and grows about 15% a year.",
+        "Over coffee, an investor offers $500,000 for 20% of the business. No monthly repayments. Friendly, smart, eager to help.",
+        "It feels like free fuel. It isn't. The money arrives with a destination someone else has already picked."
+      ],
+      "image": {
+        "label": "Two people at a café table, a check on the table pointing to a distant finish line",
+        "aspectRatio": "4:3",
+        "brief": "카페 테이블에 마주 앉은 두 사람. 테이블 위 수표에서 점선 길이 창밖 멀리 있는 결승선 깃발로 이어짐. 따뜻한 플랫 일러스트. 실제 브랜드 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What is this investor counting on?",
+      "illustrative": true,
+      "body": [
+        "The investor runs a fund that backs young, fast-growing companies. Maya plans to keep growing steadily and pay herself well.",
+        "What does the investor most likely expect in return?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "A yearly share of the firm's profits",
+            "verdict": "partial",
+            "feedback": "Some investors want exactly that. But a growth fund usually gets paid when its stake is sold, so yearly profit checks won't add up to what it needs."
+          },
+          {
+            "key": "B",
+            "text": "To sell the 20% for many times $500,000 within several years",
+            "verdict": "best",
+            "feedback": "Right. The fund earns when it sells its stake, and it needs a big multiple to make its own numbers work. Next card shows the gap."
+          },
+          {
+            "key": "C",
+            "text": "Nothing specific. They simply believe in Maya",
+            "verdict": "risky",
+            "feedback": "Belief is real, but the fund owes money to its own investors. Assuming no expectations is how founders get surprised later."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Run the investor's numbers.",
+      "illustrative": true,
+      "body": [
+        "In a growth fund, most bets return little. A few winners must cover all the rest. So each bet needs a real shot at something like **10x**."
+      ],
+      "breakdown": [
+        {
+          "value": "$2.5M",
+          "label": "Firm's value today",
+          "detail": "$500,000 buys 20%",
+          "highlight": false
+        },
+        {
+          "value": "$25M",
+          "label": "Value needed for 10x",
+          "detail": "20% of $25M = $5M",
+          "highlight": false
+        },
+        {
+          "value": "$6.65M",
+          "label": "Value after 7 years at 15%",
+          "detail": "$2.5M × 1.15⁷",
+          "highlight": false
+        },
+        {
+          "value": "~2.7x",
+          "label": "Investor's likely return",
+          "detail": "20% of $6.65M ≈ $1.33M",
+          "highlight": true
+        }
+      ],
+      "callout": "A great business for Maya. A disappointing bet for the fund.",
+      "softwareNote": "The same gap hits software. A niche tool that can reach a few million in steady yearly revenue can be a wonderful business and still be too small for a fund that needs a $100M-plus outcome."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Investors expect what their own deal requires.",
+      "body": [
+        "**What investors expect** is set by how they themselves get paid: how much they need back, by when, and through what route.",
+        "A growth fund must return its own investors' money, plus more, within roughly ten years. So it needs a big sale or stock listing, and soon.",
+        "Once that fund owns part of your company, its target quietly becomes yours."
+      ],
+      "image": {
+        "label": "A chain of arrows: fund's backers to fund to company, each with a target",
+        "aspectRatio": "16:9",
+        "brief": "왼쪽에서 오른쪽으로 이어지는 화살표 사슬. \"Fund's backers: want money back + more\" → \"Fund: needs a few big wins\" → \"Your company: must aim big and fast\". 각 단계 위에 작은 목표 깃발.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Three questions reveal any investor's expectations.",
+      "body": [
+        "Ask these before you take anyone's money, including friends and family."
+      ],
+      "list": [
+        "**How much back?** Ten times the money, double it, or a steady yearly return",
+        "**By when?** A fund with a deadline, a retiree who wants income now, or a patient family",
+        "**Paid how?** A sale of the company, a share of profits, dividends, or repayment with interest"
+      ],
+      "callout": "If your business can't realistically reach their answers, the pressure lands on you."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Everyday version",
+      "title": "Unspoken expectations are the hardest ones.",
+      "illustrative": true,
+      "body": [
+        "A regular customer offers a café owner $80,000 toward a second location. No fund, no spreadsheet. Just \"I believe in you.\"",
+        "Two years later, he asks why he hasn't seen a cent. He expected quarterly payouts. She planned to reinvest every dollar. Neither said so.",
+        "Small investors have expectations too. They're just invisible until they're disappointed."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "High expectations aren't the enemy. Mismatch is.",
+      "body": [
+        "A fund's push for huge growth fits a business that can truly get huge. That founder may need both the money and the pressure.",
+        "Also, what people say over coffee matters less than what the signed deal says. The terms decide who gets paid first and what rights each investor holds. Read them with a qualified adviser before you sign."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a bistro's second location.",
+      "illustrative": true,
+      "body": [
+        "Lena's bistro earns steady profits. She needs $200,000 to open a second site. She has no plan to build a chain or ever sell. Which money fits best?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "A growth fund that wants a path to 100 locations within seven years",
+            "verdict": "risky",
+            "feedback": "Plenty of money and ambition, but its finish line is a chain Lena doesn't want. Every decision would be pulled toward expansion."
+          },
+          {
+            "key": "B",
+            "text": "A local investor who takes a share of profits until repaid 1.5 times, then a smaller share",
+            "verdict": "best",
+            "feedback": "Their payback comes from steady profits, which is exactly what the bistro produces. She gives up some cash for years, but the goals match."
+          },
+          {
+            "key": "C",
+            "text": "A friend who says, \"Pay me back whenever\"",
+            "verdict": "partial",
+            "feedback": "Flexible and kind, but \"whenever\" hides an expectation. Write down an amount and a rough timeline, or it may cost the friendship."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Choose investors whose finish line matches yours.",
+      "body": [
+        "Before taking money, ask how much they need back, by when, and how. Then ask honestly whether your business can get there.",
+        "**Try it today:** write one sentence about the business you want in seven years: its size, its profits, and whether you'd sell. Which kind of investor fits that picture?"
+      ],
+      "next": "Next · Funding without giving up ownership"
+    }
+  ]
+}

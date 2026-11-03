@@ -1,0 +1,265 @@
+{
+  "id": "ECO-05-05",
+  "unitId": "ECO-05",
+  "categoryId": "ECO",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "The power of free",
+  "readerTitle": "Why \"free\" can fill your calendar and empty your week",
+  "format": "counterexample",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "real_research",
+    "anecdote",
+    "illustrative"
+  ],
+  "caseNote": "실제 연구 (Shampanier·Mazar·Ariely 초콜릿 실험) + 일화 (Amazon 프랑스 배송비, Ariely 저서 인용) + 가상 사례 (난방 수리 업체, 산업용 체결 부품 제조사)",
+  "insight": "무료는 아주 싼 가격이 아니라 전혀 다른 가격이다. 그 끌어당기는 힘은 원하지 않는 고객에게도 똑같이 작용하므로, 무료는 어디에 쓸지 겨눠서 써야 한다.",
+  "misconception": "무료는 가격을 끝까지 깎은 것일 뿐이며, 무료로 주면 언제나 더 많은 좋은 고객이 온다.",
+  "relatedLessonIds": [
+    "ECO-07-05",
+    "ECO-05-04"
+  ],
+  "sources": [
+    {
+      "text": "Shampanier, K., Mazar, N., & Ariely, D. (2007). Zero as a Special Price: The True Value of Free Products. Marketing Science, 26(6).",
+      "url": null
+    },
+    {
+      "text": "Ariely, D. (2008). Predictably Irrational, Chapter 3 (The Cost of Zero Cost), Amazon free shipping anecdote",
+      "url": null
+    },
+    {
+      "text": "난방 수리 업체, 체결 부품 제조사 사례와 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "초콜릿 실험 수치(Lindt 15¢ vs Kiss 1¢: 73% vs 27%, Lindt 14¢ vs Kiss 무료: 31% vs 69%)는 Ariely 저서와 논문 첫 실험에서 널리 인용되는 값입니다. 게시 전 논문 원문 표에서 정확한 비율과 실험 조건을 다시 확인하세요. 두 가격 차이가 14¢로 같다는 점은 맞습니다(15−1=14, 14−0=14).",
+      "status": "open"
+    },
+    {
+      "note": "Amazon 프랑스 배송비 일화(무료 대신 1프랑 부과 시 주문 증가가 거의 없었다는 내용)는 Ariely의 저서에 나오는 일화이며 Amazon의 공식 자료로 확인되지 않았습니다. 카드에 \"reportedly\"로 표시했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "가상 난방 업체 계산: 견적 방문 1회 1.5시간 가정. 120회 × 1.5 = 180시간, 50회 × 1.5 = 75시간. 수주 24건 → 22건. 수주율 24/120 = 20%, 22/50 = 44%.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Pricing psychology · Counterexample",
+      "title": "Why \"free\" can fill your calendar and empty your week",
+      "illustrative": true,
+      "body": [
+        "A heating repair company puts \"Free home estimates\" on its vans. The phone starts ringing nonstop.",
+        "Three months later, the owner looks at the schedule. Technicians are spending a third of their week in living rooms, writing quotes for people who never book."
+      ],
+      "image": {
+        "label": "A busy technician calendar full of estimate visits",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 벽에 걸린 주간 일정표가 \"Estimate\" 메모로 빽빽하게 덮여 있고, 실제 \"Job\" 메모는 두세 장뿐. 옆에 지친 표정의 기술자 캐릭터. 실제 회사 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Your free estimates are swamping your team.",
+      "illustrative": true,
+      "body": [
+        "You get about 120 estimate requests a month. Only 1 in 5 turns into a paid job. Each visit takes a technician about 90 minutes.",
+        "What do you change?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep estimates free, but screen callers with a few phone questions",
+            "verdict": "partial",
+            "feedback": "Screening helps and keeps the free offer's pull. But callers learn the right answers fast, and staff time moves from the road to the phone."
+          },
+          {
+            "key": "B",
+            "text": "Charge $40 for an estimate, credited toward the job if they book",
+            "verdict": "best",
+            "feedback": "Serious customers pay nothing extra in the end, while browsers now face a real decision. You lose some volume but keep most of the work."
+          },
+          {
+            "key": "C",
+            "text": "Drop free estimates and charge a full $120 visit fee",
+            "verdict": "risky",
+            "feedback": "It filters hard, but it also pushes good customers toward rivals who still offer free quotes. You trade wasted visits for an empty schedule."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What happened",
+      "title": "Fewer visits, almost the same work.",
+      "illustrative": true,
+      "body": [
+        "The owner tried the $40 credited fee. Requests fell by more than half. Booked jobs barely moved. A tiny price did what no phone script could: it sorted the curious from the committed."
+      ],
+      "breakdown": [
+        {
+          "value": "120 → 50",
+          "label": "Estimate visits a month",
+          "detail": "Most browsers stopped calling",
+          "highlight": false
+        },
+        {
+          "value": "180 → 75",
+          "label": "Technician hours on estimates",
+          "detail": "At about 1.5 hours per visit",
+          "highlight": false
+        },
+        {
+          "value": "24 → 22",
+          "label": "Jobs booked",
+          "detail": "Close rate rose from 20% to 44%",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "chart",
+      "eyebrow": "The concept",
+      "title": "Free isn't a low price. It's a different price.",
+      "body": [
+        "The **zero price effect** means people treat free as a category of its own, not just the cheapest point on a scale.",
+        "In a 2007 study, researchers offered a fancy Lindt truffle or a plain Hershey's Kiss. Then they cut both prices by one cent. The gap stayed at 14 cents. Yet once the Kiss became free, most people switched."
+      ],
+      "chart": {
+        "unit": "%",
+        "groups": [
+          {
+            "label": "Lindt 15¢ vs. Kiss 1¢",
+            "rows": [
+              {
+                "label": "Chose Lindt",
+                "value": 73,
+                "highlight": false
+              },
+              {
+                "label": "Chose Kiss",
+                "value": 27,
+                "highlight": false
+              }
+            ]
+          },
+          {
+            "label": "Lindt 14¢ vs. Kiss free",
+            "rows": [
+              {
+                "label": "Chose Lindt",
+                "value": 31,
+                "highlight": false
+              },
+              {
+                "label": "Chose Kiss",
+                "value": 69,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "At zero, there's nothing to lose.",
+      "body": [
+        "Any price, even a cent, makes people weigh the choice. Is it worth it? Could I regret it? At zero, that question disappears. There is no downside to feel, so people jump.",
+        "In a story told in Dan Ariely's book, Amazon reportedly saw orders jump in countries where shipping became free. In France, where shipping was cut to about 20 cents instead, the jump reportedly didn't come."
+      ],
+      "image": {
+        "label": "A price scale where zero drops off a cliff",
+        "aspectRatio": "16:9",
+        "brief": "가격 눈금선 인포그래픽. 왼쪽으로 갈수록 숫자가 15¢, 10¢, 5¢, 1¢로 완만하게 내려가다가 \"FREE\"에서 갑자기 절벽처럼 뚝 떨어지고, 사람 아이콘들이 그쪽으로 몰림. 실제 브랜드 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The counterexample",
+      "title": "The same pull works on the wrong people.",
+      "body": [
+        "Free removes the cost of saying yes. That's why it's powerful. It's also why it tells you nothing about who really means it.",
+        "When the free thing costs *you* real time or money, like a site visit or a custom quote, the zero effect works against you. It invites everyone, and you pay for each one. A **small price acts as a filter**: it barely bothers serious customers but stops casual ones."
+      ],
+      "softwareNote": "Free trials that don't ask for a card usually get far more signups, but a smaller share of them ever pay. Asking for a card, or charging $1, filters hard. Pick based on whether your bottleneck is too few signups or too much onboarding and support time."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Free is a tool, not a mistake.",
+      "body": [
+        "When the free thing is cheap for you and the goal is reach, like tasting samples or a basic app tier, the zero effect is exactly what you want. Don't add a fee there.",
+        "A fee can also scare off good customers if rivals stay free. Crediting it back softens that.",
+        "And taking free away later feels like a loss. Customers may see it as unfair, so test a fee on new offers before changing old ones."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a factory.",
+      "illustrative": true,
+      "body": [
+        "You make specialty fasteners. Engineers who test your free sample kits often design your parts into new products. But many requests now come from students, hobbyists and rivals. Each kit costs you about $30 to pack and ship.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Stop sending sample kits",
+            "verdict": "risky",
+            "feedback": "You save the shipping, but you lose the step that gets your parts into new designs. That's where your future orders start."
+          },
+          {
+            "key": "B",
+            "text": "Keep kits free for business buyers who name the project they're testing for",
+            "verdict": "best",
+            "feedback": "You keep free's pull for the engineers you want and filter everyone else without a price. A short form costs serious buyers little."
+          },
+          {
+            "key": "C",
+            "text": "Charge $25 per kit, credited against a first order",
+            "verdict": "partial",
+            "feedback": "It filters well, but engineers often can't buy without a purchase order. A small fee here may block the very people free was meant to attract."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Aim free where you want everyone. Use a small price where you need commitment.",
+      "body": [
+        "Free pulls far harder than any discount. Use it on purpose, and add a small filter when each free yes costs you real time or money.",
+        "**Try it today:** list everything you give away. For each, ask what one free yes costs you and whether the right people are the ones saying yes."
+      ],
+      "next": "Next · Why selling things together can sell more of both"
+    }
+  ]
+}

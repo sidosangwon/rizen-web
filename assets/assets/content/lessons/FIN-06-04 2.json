@@ -1,0 +1,222 @@
+{
+  "id": "FIN-06-04",
+  "unitId": "FIN-06",
+  "categoryId": "FIN",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Valuation multiples",
+  "readerTitle": "Same profit, half the price: what a business multiple really says",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (배관 업체 두 곳, 식당 두 곳) · 모든 수치는 설명용",
+  "insight": "가치 배수는 공식이 아니라 압축된 예측이다. 남의 거래 배수를 빌려 쓰면 그 사업에 대한 가정까지 함께 빌려 쓰게 된다.",
+  "misconception": "'이 업종은 이익의 3배에 팔린다'는 기준이 있으니, 이익만 같으면 가치도 같다.",
+  "relatedLessonIds": [
+    "FIN-06-03",
+    "FIN-06-05"
+  ],
+  "sources": [
+    {
+      "text": "기업가치 평가의 표준 개념 (가격 ÷ 이익·매출 배수, 비교 거래 평가)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시이며, 실제 업종 평균 배수를 뜻하지 않음",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "계산 확인: $200,000 × 2 = $400,000, $200,000 × 4 = $800,000. 식당 $150,000 × 3 = $450,000. 배수 4배 = 이익이 그대로일 때 약 4년 치 이익으로 가격을 회수(화폐의 시간가치는 무시한 단순화).",
+      "status": "open"
+    },
+    {
+      "note": "업종별 '통상 배수'를 실제 수치로 적지 않았습니다. 브로커의 '약 3배' 발언은 가상 사례 안의 말입니다. 실제 업종 평균으로 오해되지 않는지 게시 전 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "softwareNote의 '소프트웨어 기업은 매출 배수로 평가되는 경우가 많다'는 일반적 관행 설명입니다. 구체적 배수는 넣지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Counterexample",
+      "title": "Same profit, half the price",
+      "illustrative": true,
+      "body": [
+        "Two plumbing companies in the same town each earn $200,000 a year in profit. Both owners are retiring.",
+        "One sells for $400,000. The other sells for $800,000. Same trade, same town, same profit. The buyers weren't being foolish."
+      ],
+      "image": {
+        "label": "Two identical vans, one price tag twice the size",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 똑같은 배관 업체 밴 두 대가 나란히 서 있고, 각 밴 위에 \"Profit $200k\" 표지판. 왼쪽 밴 가격표 \"$400k\"는 작고, 오른쪽 \"$800k\"는 두 배 크기. 실제 회사 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "A broker says plumbers sell for about 3 times profit.",
+      "illustrative": true,
+      "body": [
+        "Firm A: the owner does most jobs himself. Customers ask for him by name. Work is mostly one-off emergency calls.",
+        "Firm B: the owner manages three crews. Many customers pay for a yearly maintenance plan.",
+        "Both earn $200,000. What would a careful buyer offer?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "$600,000 for each. Same profit, same multiple",
+            "verdict": "risky",
+            "feedback": "Simple and fair-sounding. But it assumes both profits will last equally long once the owner leaves, and they won't."
+          },
+          {
+            "key": "B",
+            "text": "Less than $600,000 for A, more for B",
+            "verdict": "best",
+            "feedback": "You pay for the profit you expect to keep. A's profit may walk out the door with its owner; B's is spread across crews and repeat contracts."
+          },
+          {
+            "key": "C",
+            "text": "More for A. The owner's skill is proven",
+            "verdict": "partial",
+            "feedback": "His skill is real, but it's his, not the company's. Unless he stays on, the buyer can't own it."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "What happened",
+      "title": "The multiple did all the work.",
+      "illustrative": true,
+      "body": [
+        "The buyer paid **2 times** profit for Firm A and **4 times** for Firm B. The profit number was identical. The multiple was not.",
+        "The difference came from one question: how much of this profit will still be here in five years?"
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Both firms earn $200k profit a year",
+            "rows": [
+              {
+                "label": "Firm A (owner does the work)",
+                "value": 400000,
+                "highlight": false
+              },
+              {
+                "label": "Firm B (crews + yearly contracts)",
+                "value": 800000,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Valuation multiples",
+      "body": [
+        "A **valuation multiple** is a price divided by one number about the business, usually yearly profit or yearly revenue. \"Three times profit\" means paying $3 for every $1 of profit the business earns each year.",
+        "Multiples are popular because they're quick. But a multiple is really a **forecast squeezed into one number**: how long the profit will last, whether it will grow, and how risky it is."
+      ],
+      "image": {
+        "label": "A single number unfolding into a forecast",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 가운데 큰 \"4×\" 숫자가 접힌 종이처럼 펼쳐지며 그 안에 \"How long will profit last?\", \"Will it grow?\", \"How risky is it?\" 세 칸이 드러남. 단순한 플랫 일러스트.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "What a higher multiple is quietly saying",
+      "body": [
+        "At 4 times profit, a buyer gets their money back in about four years, if profit stays flat. Paying more only makes sense if they expect profit to last longer, grow, or be safer. Things that usually lift a multiple:"
+      ],
+      "list": [
+        "**Repeat customers:** contracts or habits, not one-off jobs",
+        "**Not owner-dependent:** a team that keeps working after the sale",
+        "**Growth:** next year's profit likely higher than this year's",
+        "**Spread out:** no single customer or person the business can't lose"
+      ],
+      "callout": "The multiple is the buyer's opinion of the future, written as a number.",
+      "softwareNote": "Software companies are often priced as a multiple of revenue, because profit is small or negative while they grow. The logic is the same: a high revenue multiple is a bet that subscribers stay and margins arrive later."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A multiple is only as good as what it multiplies.",
+      "body": [
+        "Check *which* profit. Firm A's $200,000 includes the owner doing the plumbing for free. A buyer must pay someone to do that work, so the real profit is lower before any multiple applies.",
+        "Check *which* year. A multiple on one unusually good year inflates the price.",
+        "And check *whose* deal. When you borrow a multiple from another sale, you borrow that business's growth and risk too."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a restaurant.",
+      "illustrative": true,
+      "body": [
+        "You're buying a restaurant that earns $150,000 a year. Its famous chef-owner plans to leave after the sale, and the lease ends in 18 months.",
+        "The seller asks $450,000, three times profit, because a nearby restaurant sold at that multiple last year. That one had a 10-year lease and a trained kitchen team. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Pay the asking price. The comparable sale proves the multiple",
+            "verdict": "risky",
+            "feedback": "Fast and easy to defend. But you'd be paying for the other restaurant's lease and team, which this one doesn't have."
+          },
+          {
+            "key": "B",
+            "text": "Offer a lower multiple, and explain the lease and chef risk",
+            "verdict": "best",
+            "feedback": "You still use the multiple as a starting point, then adjust for how likely this profit is to survive. Securing a lease renewal could justify moving closer to the ask."
+          },
+          {
+            "key": "C",
+            "text": "Ignore multiples and build a detailed 10-year forecast instead",
+            "verdict": "partial",
+            "feedback": "Thorough, and it forces clear assumptions. But it takes time, and a multiple is still a useful sanity check on the result."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A multiple is a forecast in disguise.",
+      "body": [
+        "Two businesses with the same profit can deserve very different prices. Before you use any multiple, ask what it assumes about how long, how safe and how fast-growing the profit is.",
+        "**Try it today:** write down what you think your business is worth as a multiple of profit. Then list three reasons a buyer might pay less."
+      ],
+      "next": "Next · What actually makes a business worth more"
+    }
+  ]
+}

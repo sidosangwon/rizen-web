@@ -1,0 +1,248 @@
+{
+  "id": "OPS-03-10",
+  "unitId": "OPS-03",
+  "categoryId": "OPS",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Your main supplier just failed",
+  "readerTitle": "Your main supplier just failed. Four calls in six weeks.",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.2,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 시뮬레이션 (가전 소매업체 안의 온수기 설치팀, 가정 서비스) + 실제 연구 (Simchi-Levi 외, 복구 시간·버틸 시간 개념) · 모든 수치는 설명용",
+  "insight": "공급처가 무너지면 '누가 대신 팔아 주나'보다 먼저 '우리는 얼마나 버티고, 공급은 언제 돌아오나'를 묻는다. 진짜 문제는 그 두 시간의 차이다.",
+  "misconception": "공급처가 끊기면 최대한 빨리, 최대한 많이 다른 곳에서 사 두는 것이 가장 안전하다. 문제를 일으킨 공급처는 바로 바꾸면 된다.",
+  "relatedLessonIds": [
+    "OPS-03-05",
+    "OPS-03-06"
+  ],
+  "sources": [
+    {
+      "text": "Simchi-Levi, D., Schmidt, W., & Wei, Y. (2014). From Superstorms to Factory Fires: Managing Unpredictable Supply-Chain Disruptions. Harvard Business Review, Jan–Feb 2014.",
+      "url": null
+    },
+    {
+      "text": "설치팀 시나리오와 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "'time to recover'와 'time to survive' 용어가 Simchi-Levi 외(HBR 2014)와 후속 연구에서 쓰였는지 원문으로 확인하세요. 카드에는 연구자 이름이나 수치 없이 'supply chain researchers'로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "계산 확인: 재고 25대 ÷ 긴급 교체 주 10건 = 2.5주. 모든 작업(주 40건)을 계속하면 25 ÷ 40 = 0.625주 ≈ 근무일 3일. 6주치 전체 수요 = 40 × 6 = 240대. 6주 긴급 수요 = 60대, 재고 25대를 빼면 35대가 대체 공급처에서 필요.",
+      "status": "open"
+    },
+    {
+      "note": "대체 공급처 단가 +15%, 기존 공급처 독점 계약 할인 8%, 비상 재고 20대(긴급 교체 2주치 = 10 × 2)는 모두 설명용 가정입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Simulation",
+      "title": "Your main supplier just failed.",
+      "illustrative": true,
+      "body": [
+        "You run the installation team inside a regional appliance retailer. Your crews fit about 40 water heaters a week in customers' homes. About 10 are emergencies: a family with no hot water.",
+        "Monday, 7 a.m. Your main distributor calls. A fire has closed its warehouse. No deliveries until further notice. You have 25 units in your storeroom and a full schedule.",
+        "You'll make four calls over the next six weeks."
+      ],
+      "image": {
+        "label": "An installer looking at a nearly empty storeroom shelf",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 작업복 차림의 설치 기사가 온수기 몇 대만 남은 창고 선반 앞에서 휴대폰을 들고 서 있음. 벽에 빼곡한 작업 일정표. 실제 브랜드 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Call 1 · Monday morning",
+      "title": "What's your first move?",
+      "illustrative": true,
+      "body": [
+        "Your phone is already ringing with today's jobs. Your boss wants an update by noon."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Phone every other distributor and buy whatever they have in stock",
+            "verdict": "risky",
+            "feedback": "You get units fast, but you don't yet know which models you need or how long the gap lasts. You may pay top price for the wrong stock."
+          },
+          {
+            "key": "B",
+            "text": "Count stock and booked jobs, ask the supplier for a realistic restart date, and sort jobs by urgency",
+            "verdict": "best",
+            "feedback": "It costs you a morning. In return you know how long you can last and which jobs matter most before you spend a cent."
+          },
+          {
+            "key": "C",
+            "text": "Keep the schedule as is. Warehouses usually reopen fast",
+            "verdict": "risky",
+            "feedback": "At 40 jobs a week, 25 units last about three working days. Planned upgrades use up the stock that families with no hot water need."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Call 2 · Monday afternoon",
+      "title": "How much do you order from the backup?",
+      "illustrative": true,
+      "body": [
+        "Say you chose B. The supplier now says about six weeks. Your 25 units cover emergencies alone for two and a half weeks.",
+        "A backup distributor can send 15 units a week, at 15% more per unit."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Order 240 units now: six weeks of every job",
+            "verdict": "risky",
+            "feedback": "You tie up cash and storage, and the backup may not even have that many. When your main supplier returns, you're stuck with a pile of expensive stock."
+          },
+          {
+            "key": "B",
+            "text": "Order weekly to cover emergencies first, then fit in planned jobs as supply allows",
+            "verdict": "best",
+            "feedback": "You match orders to real demand. Emergencies are safe, planned customers get honest new dates, and you can stop ordering the day supply returns."
+          },
+          {
+            "key": "C",
+            "text": "Order only for emergencies and pause all planned upgrades for six weeks",
+            "verdict": "partial",
+            "feedback": "Safe and cheap, but you turn away work the backup could have covered. Some waiting customers will go to a competitor."
+          }
+        ],
+        "afterReveal": null
+      },
+      "callout": "Huge panic orders are how small shortages grow into big swings up and down the chain."
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Call 3 · Week six",
+      "title": "Your old supplier wants you back.",
+      "illustrative": true,
+      "body": [
+        "Say you chose B again. You got through. Now the main distributor has reopened. It offers 8% off for a 12-month exclusive deal.",
+        "The backup charged more, but it showed up when you needed it."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Sign the exclusive deal. 8% is real money",
+            "verdict": "risky",
+            "feedback": "You save on every unit, but you're back to one point of failure. Next time, the backup may not have room for you."
+          },
+          {
+            "key": "B",
+            "text": "Move everything to the backup. It earned it",
+            "verdict": "partial",
+            "feedback": "Loyal, but you pay about 15% more on every unit and you've swapped one single supplier for another."
+          },
+          {
+            "key": "C",
+            "text": "Return to the main supplier without exclusivity, and keep a steady share of orders with the backup",
+            "verdict": "best",
+            "feedback": "You give up the 8% discount. In return you keep two working relationships, and the backup treats you as a real customer."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Call 4 · The review",
+      "title": "Your boss asks: how do we stop this happening again?",
+      "illustrative": true,
+      "body": [
+        "The budget is tight and storeroom space is limited. What do you propose?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Double stock on every model",
+            "verdict": "risky",
+            "feedback": "You'd be covered, but water heaters are bulky and expensive. Most of that cash would sit on shelves for years."
+          },
+          {
+            "key": "B",
+            "text": "Keep two weeks of the emergency models, keep the backup active, and watch for late or short deliveries",
+            "verdict": "best",
+            "feedback": "About 20 units protect the jobs that can't wait. The second supplier and early warning signs cover the rest for little cost."
+          },
+          {
+            "key": "C",
+            "text": "Get a written supply guarantee from the main supplier",
+            "verdict": "partial",
+            "feedback": "Useful for leverage, but a contract can't reopen a burned warehouse. You'd still have no units."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The idea",
+      "title": "Two clocks start when a supplier fails.",
+      "body": [
+        "Supply chain researchers describe a disruption with two clocks. **Time to recover:** how long until supply returns. **Time to survive:** how long you can keep serving customers without it.",
+        "Here, recovery was six weeks. Survival was three days if you did nothing, and two and a half weeks for emergencies once you sorted jobs. Every good call either stretched the survival clock or filled the gap between the two."
+      ],
+      "image": {
+        "label": "Two timelines: time to survive and time to recover",
+        "aspectRatio": "16:9",
+        "brief": "두 개의 가로 타임라인. 위쪽 'Time to survive' 막대는 짧고(2.5주), 아래쪽 'Time to recover' 막대는 김(6주). 두 막대 사이 빈 구간에 'The gap'이라고 표시하고 강조색 사용.",
+        "url": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Not every input deserves a backup.",
+      "body": [
+        "Buffers and second suppliers cost money every month, even when nothing goes wrong. Spread them across everything and you pay for safety you rarely use.",
+        "Start with the inputs whose failure stops your most important work, and where recovery would be slow. Your filters and fittings can be bought anywhere. The water heaters couldn't."
+      ],
+      "softwareNote": "A software team that relies on one payments provider or cloud service faces the same two clocks. Ask how long the product keeps working without it, and how long switching would take."
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Measure the gap before you fill it.",
+      "body": [
+        "Each call drew on an idea from this unit:"
+      ],
+      "list": [
+        "**Call 1:** know what's on hand and in the pipeline (how supply chains work, inventory)",
+        "**Call 2:** order to real demand, not to panic (the bullwhip effect)",
+        "**Call 3:** keep more than one relationship alive (supplier relationships)",
+        "**Call 4:** buffer only what can't wait (just in case, resilience)"
+      ],
+      "callout": "**Try it today:** pick your most important supplier. Write down how many days you could keep serving customers if it stopped tomorrow.",
+      "next": "Next · Why goals alone don't get things done"
+    }
+  ]
+}

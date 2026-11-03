@@ -1,0 +1,217 @@
+{
+  "id": "OPS-05-05",
+  "unitId": "OPS-05",
+  "categoryId": "OPS",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Small steps vs big bang",
+  "readerTitle": "Why Target Canada never got a practice run",
+  "format": "counterexample",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.3,
+  "caseKinds": [
+    "real_company",
+    "real_observation",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Target Canada, 2013~2015) + 실제 사건 (스웨덴 Dagen H, 1967) + 가상 사례 (매장 체인, 회사 안 재무팀)",
+  "insight": "작은 단계는 속도를 늦추려는 것이 아니라, 문제를 작고 싸게 고칠 수 있을 때 미리 드러내려는 것이다.",
+  "misconception": "한 번에 전부 바꾸는 편이 빠르고 깔끔하다. 준비만 충분하면 첫날에 모든 문제를 막을 수 있다.",
+  "relatedLessonIds": [
+    "OPS-02-03",
+    "OPS-05-09"
+  ],
+  "sources": [
+    {
+      "text": "Castaldo, J. (2016). The Last Days of Target. Canadian Business.",
+      "url": null
+    },
+    {
+      "text": "Target Corporation press release on exiting Canada (January 2015)",
+      "url": null
+    },
+    {
+      "text": "Dagen H: Sweden's switch to right-hand traffic, 3 September 1967 (Swedish public records and press coverage)",
+      "url": null
+    },
+    {
+      "text": "매장 체인과 재무팀 사례는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Target Canada: 2013년 캐나다 진출, 약 1년 안에 100개가 넘는 매장을 열었고(최종 133개), 2015년 1월 철수를 발표했습니다. 매장 수와 날짜를 게시 전 Target 보도자료로 다시 확인하세요. 손실 금액은 자료마다 달라 카드에 넣지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "새 공급망 시스템의 상품 데이터 입력 오류, 물류센터 적체와 매장 진열대 공백은 Canadian Business(2016) 보도에 근거합니다. 카드에는 일반적 표현으로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Dagen H: 1967년 9월 3일 스웨덴이 좌측통행에서 우측통행으로 하루에 전환. 사전 홍보 캠페인이 있었다는 점만 일반적으로 적었습니다. 세부 수치(사고 건수 등)는 넣지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Projects · Counterexample",
+      "title": "Why Target Canada never got a practice run",
+      "body": [
+        "In 2013, Target opened its first stores in Canada. Within about a year it had well over 100 of them, all running on new systems.",
+        "Shoppers found empty shelves. Less than two years after opening, Target announced it would close every Canadian store."
+      ],
+      "image": {
+        "label": "Empty store shelves next to a full warehouse",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 왼쪽은 텅 빈 매장 진열대, 오른쪽은 상자가 천장까지 쌓인 물류창고. 둘 사이에 끊어진 화살표. 실제 기업 로고, 과녁 모양 심볼, 빨간 브랜드 색 사용 금지.",
+        "url": "assets/images/ops-05-05-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Forty stores, one new system.",
+      "illustrative": true,
+      "body": [
+        "You run a chain of 40 hardware stores. A new inventory and checkout system is ready. Each store also has a busy season coming in three months.",
+        "How do you switch over?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "All 40 stores over one weekend, with staff trained in advance",
+            "verdict": "risky",
+            "feedback": "You finish fast and never run two systems. But any hidden flaw hits every store on the same Monday, with no working store to compare against."
+          },
+          {
+            "key": "B",
+            "text": "One store first, then a region, then the rest",
+            "verdict": "best",
+            "feedback": "It takes longer, but the first store finds the problems while only one store pays for them. Each step makes the next one safer."
+          },
+          {
+            "key": "C",
+            "text": "All 40 at once, but keep the old system running alongside for a month",
+            "verdict": "partial",
+            "feedback": "You have a fallback, which helps. But staff do every task twice, and you still learn about every problem everywhere at once."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "Every store depended on a system nobody had fully tested.",
+      "body": [
+        "Target Canada set up new warehouses, new supply software and new stores at the same time. Reporting later described product data entered with many errors, so orders and shipments went wrong.",
+        "Warehouses filled up while store shelves stayed bare. Because so many stores opened so close together, the problems showed up everywhere before they could be fixed anywhere.",
+        "The plan had no small place to fail first."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Small steps vs big bang",
+      "body": [
+        "A **big bang** change switches everything at once: every store, every user, every process on the same day.",
+        "**Small steps** (often called an *incremental* or *phased* rollout) change a small part first, learn from it, fix it, then grow.",
+        "The real difference isn't speed. It's the **size of the surprise** when something goes wrong."
+      ],
+      "image": {
+        "label": "One big leap vs a staircase of small steps",
+        "aspectRatio": "16:9",
+        "brief": "두 경로 비교 인포그래픽. 왼쪽은 절벽에서 한 번에 건너편으로 뛰는 사람(\"Big bang\"), 오른쪽은 작은 계단을 하나씩 오르는 사람(\"Small steps\"). 계단마다 작은 체크 표시.",
+        "url": "assets/images/ops-05-05-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Each small step is a test you can afford to fail.",
+      "body": [
+        "A first step is small on purpose. It should be real enough to expose problems, but small enough to fix quickly."
+      ],
+      "list": [
+        "**Damage stays local:** one store or one team, not all of them",
+        "**Problems surface early:** before the busy season, not during it",
+        "**Fixes carry forward:** step two starts with what step one taught",
+        "**You can stop:** if the idea is wrong, you lose a little, not everything"
+      ],
+      "callout": "Early steps exist to find problems, not to prove you were right.",
+      "softwareNote": "Software teams release a new feature to 1% or 5% of users first, watch errors and complaints, then widen it. A switch in the code lets them turn it off in seconds if something breaks."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Some changes can't be split.",
+      "body": [
+        "On 3 September 1967, Sweden switched from driving on the left to driving on the right, all in one day. Half the country can't drive on the other side. That had to be a big bang, so it came after a long public campaign to prepare drivers.",
+        "Small steps also cost something: two systems running at once, a longer timeline, and teams tired of a project that never quite ends.",
+        "When a big bang is unavoidable, rehearse it in miniature first."
+      ],
+      "image": {
+        "label": "Road with cars switching sides at a set hour",
+        "aspectRatio": "16:9",
+        "brief": "레트로 일러스트. 1960년대 풍 도로에서 차들이 동시에 왼쪽 차선에서 오른쪽 차선으로 옮겨 가는 장면, 위에 큰 시계가 05:00을 가리킴. 실제 자동차 브랜드 표시 금지.",
+        "url": "assets/images/ops-05-05-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's the finance team.",
+      "illustrative": true,
+      "body": [
+        "You lead finance at a company with 2,000 staff in six offices. You're replacing paper expense forms with a new approval app. The CFO wants it live everywhere next month.",
+        "What's your first step?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Launch to everyone on the 1st, with a training video and FAQ",
+            "verdict": "risky",
+            "feedback": "Clean and fast on paper. But if approvals stall, 2,000 people wait to be paid back at once, and your team answers every complaint."
+          },
+          {
+            "key": "B",
+            "text": "Pilot with one office's sales team through a full month-end, then expand",
+            "verdict": "best",
+            "feedback": "Sales staff travel and file messy claims, so they find the real problems. One month-end shows what breaks before every office depends on it."
+          },
+          {
+            "key": "C",
+            "text": "Pilot inside the finance team first",
+            "verdict": "partial",
+            "feedback": "Safe and quick, but finance knows the rules too well. Friendly users rarely hit the problems that real users will."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Make your first failure a small one.",
+      "body": [
+        "Before any big change, ask where it could fail first, in one place, while the problem is still cheap to fix.",
+        "**Try it today:** pick a change you're planning. Name the smallest real group that could try it first, and what you'd need to see before going wider."
+      ],
+      "next": "Next · What to ask after a project ends"
+    }
+  ]
+}

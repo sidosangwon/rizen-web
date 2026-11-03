@@ -1,0 +1,256 @@
+{
+  "id": "OPS-06-08",
+  "unitId": "OPS-06",
+  "categoryId": "OPS",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "Quality at a delivery service",
+  "readerTitle": "The parcel at the wrong door",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (지역 택배 회사, 장보기 배달 앱) · 모든 수치는 설명용 · 적용 레슨: 품질 실패 비용(OPS-06-02) + 실수 방지 설계(OPS-06-06)",
+  "insight": "배송 품질 문제는 기사를 다그쳐서가 아니라, 잘못된 동작이 애초에 어렵도록 과정을 바꾸고 가장 싼 지점에서 잡을 때 줄어든다.",
+  "misconception": "오배송은 기사의 부주의 문제라서 교육과 벌점으로 해결된다. 오배송 한 건의 비용은 다시 배달하는 비용 정도다.",
+  "relatedLessonIds": [
+    "OPS-06-02",
+    "OPS-06-06"
+  ],
+  "sources": [
+    {
+      "text": "품질 실패 비용(cost of poor quality)과 실수 방지(mistake-proofing, poka-yoke)의 표준 운영관리 개념",
+      "url": null
+    },
+    {
+      "text": "모든 수치와 사례는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "오배송 한 건 비용(가상): 상품 재발송 $40 + 두 번째 배달 $8 + 고객 문의 처리 $6 + 보상 크레딧 $5 = $59. 배송비 $7 기준 59 ÷ 7 ≈ 8.4건분. 하루 2,000건 중 1%(20건) × $59 = $1,180.",
+      "status": "open"
+    },
+    {
+      "note": "GPS 위치 확인이 아파트 단지 등에서 부정확할 수 있다는 내용은 일반적 설명으로만 썼고 구체적 수치는 넣지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Quality · Everyday scene",
+      "title": "The parcel at the wrong door",
+      "illustrative": true,
+      "body": [
+        "A regional delivery company moves 2,000 parcels a day. About 20 of them end up on the wrong doorstep.",
+        "One percent sounds small. The manager wants to fix it anyway, and her first idea is a stern talk with the drivers."
+      ],
+      "image": {
+        "label": "A parcel on a doorstep with a house number that doesn't match the label",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 현관 앞에 놓인 상자, 상자 라벨에는 \"No. 14\", 집 문패에는 \"No. 41\". 옆집 창문에서 사람이 고개를 내밀고 있음. 실제 택배사 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/ops-06-08-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How do you cut wrong-door deliveries?",
+      "illustrative": true,
+      "body": [
+        "Most mistakes happen at the last step. A driver with three parcels for one street grabs the wrong one and taps \"delivered\".",
+        "What change would you make first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Retrain drivers and add a reminder to the morning briefing",
+            "verdict": "partial",
+            "feedback": "Cheap and quick, but it relies on tired people remembering on their 120th stop. Attention fades; the process stays the same."
+          },
+          {
+            "key": "B",
+            "text": "The app won't mark a parcel delivered until its label is scanned at a location near that address",
+            "verdict": "best",
+            "feedback": "This is **mistake-proofing**: the wrong action becomes hard to complete, so quality no longer depends on memory."
+          },
+          {
+            "key": "C",
+            "text": "Fine drivers for each wrong-door delivery",
+            "verdict": "risky",
+            "feedback": "It signals that you care, but drivers may hide mistakes or slow down. The grab-the-wrong-box step is still there."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "What one wrong door really costs",
+      "illustrative": true,
+      "body": [
+        "The parcel earns a $7 fee. One mistake eats more than eight of those fees. At 20 a day, that's **$1,180** daily."
+      ],
+      "breakdown": [
+        {
+          "value": "$40",
+          "label": "Replacement",
+          "detail": "Goods resent when the parcel is never found",
+          "highlight": false
+        },
+        {
+          "value": "$8",
+          "label": "Second trip",
+          "detail": "Driver time and fuel",
+          "highlight": false
+        },
+        {
+          "value": "$6",
+          "label": "Support",
+          "detail": "Calls and emails to sort it out",
+          "highlight": false
+        },
+        {
+          "value": "$5",
+          "label": "Goodwill",
+          "detail": "Credit to calm the customer",
+          "highlight": false
+        },
+        {
+          "value": "$59",
+          "label": "Total",
+          "detail": "Before counting the sender who quietly leaves",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept at work",
+      "title": "The cost of poor quality hides in other budgets.",
+      "body": [
+        "The **cost of poor quality** is everything a mistake triggers, not just the visible fix. Here it lands in support, finance and the warehouse, so no single team sees the full $59.",
+        "The biggest item isn't even on the list: the online shop that ships with you and switches carriers after too many complaints.",
+        "Once you add it up, spending on prevention stops looking like a luxury."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Concept at work",
+      "title": "Make the right step the easy step.",
+      "illustrative": true,
+      "body": [
+        "**Mistake-proofing** means designing the process so an error is hard to make, or impossible to finish without being noticed.",
+        "For drivers: scan-to-confirm, a location check, a photo at the door. Each one stops the wrong parcel before it's recorded as delivered. Nobody has to try harder."
+      ],
+      "image": {
+        "label": "Driver scanning a parcel; phone shows a red warning",
+        "aspectRatio": "16:9",
+        "brief": "배달 기사가 현관 앞에서 상자를 스캔하고, 휴대폰 화면에 빨간 경고 \"Wrong stop: this parcel is for No. 14\". 배경에 지도 핀 두 개. 실제 로고 없이.",
+        "url": "assets/images/ops-06-08-c5.jpg"
+      }
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Your call · the depot",
+      "title": "Where should the next dollar go?",
+      "illustrative": true,
+      "body": [
+        "Some parcels are loaded into the wrong van at the sorting depot. Drivers find them hours later, far from home.",
+        "You have budget for one fix."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Two inspectors check vans before they leave",
+            "verdict": "partial",
+            "feedback": "It catches errors before customers see them, but people checking hundreds of boxes miss some, and you pay for the check every day."
+          },
+          {
+            "key": "B",
+            "text": "A scanner at each van cage beeps red if a parcel is for another route",
+            "verdict": "best",
+            "feedback": "**Mistake-proofing** at the cheapest point. A wrong cage costs seconds here and the full **cost of poor quality** later."
+          },
+          {
+            "key": "C",
+            "text": "A faster refund process for affected customers",
+            "verdict": "risky",
+            "feedback": "Kinder recovery, but you still pay the trip, the support and the replacement. It treats the symptom at the most expensive point."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Bad mistake-proofing invites workarounds.",
+      "body": [
+        "If a check slows drivers too much, they'll beat it. A spare label taped to the clipboard gets scanned instead of the parcel.",
+        "Location checks can also fail in large apartment blocks. Watch where people override the system and why. Those spots show where the design still makes the right way harder than the wrong way."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a grocery delivery app.",
+      "illustrative": true,
+      "body": [
+        "Many failed deliveries start at checkout: customers type an address with a typo or a missing flat number. Couriers then call, wait, or bring the food back.",
+        "What do you change?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Add an \"Is your address correct?\" pop-up",
+            "verdict": "partial",
+            "feedback": "Easy to build, but users tap past pop-ups out of habit. It asks for attention instead of removing the error."
+          },
+          {
+            "key": "B",
+            "text": "Autocomplete addresses and require a flat number when the building has several units",
+            "verdict": "best",
+            "feedback": "**Mistake-proofing** in the product itself. The error can't be typed in, so it never reaches a courier."
+          },
+          {
+            "key": "C",
+            "text": "Charge users a fee for failed deliveries",
+            "verdict": "risky",
+            "feedback": "It moves some cost to users, but angry users churn. That loss is still part of the **cost of poor quality**."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Recap",
+      "title": "Count the full cost, then design the error out.",
+      "body": [
+        "This lesson used two ideas. **The cost of poor quality** showed why one wrong door is worth fixing and why catching it early is cheapest. **Mistake-proofing** showed how: change the process, not the people.",
+        "**Try it today:** pick your most common customer complaint. List every team it touches, then find the step where one small check could stop it."
+      ],
+      "next": "Next · The surgical safety checklist"
+    }
+  ]
+}

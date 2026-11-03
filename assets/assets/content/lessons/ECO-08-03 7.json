@@ -1,0 +1,248 @@
+{
+  "id": "ECO-08-03",
+  "unitId": "ECO-08",
+  "categoryId": "ECO",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "Promotions that train customers",
+  "readerTitle": "Why J.C. Penney's customers left when the sales stopped",
+  "format": "company_story",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "real_company",
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (J.C. Penney, 2012년 가격 개편) + 실제 연구 (Mela·Gupta·Lehmann 1997) + 가상 적용 (산업용 부품 제조사, 프로젝트 관리 소프트웨어)",
+  "insight": "반복되는 프로모션은 매출을 당기는 데서 끝나지 않고, 고객에게 언제 사야 하는지와 무엇이 '진짜 가격'인지를 가르친다.",
+  "misconception": "프로모션은 그 기간에만 효과가 있고, 끝나면 고객은 원래대로 돌아온다. 할인은 언제든 그냥 멈추면 된다.",
+  "relatedLessonIds": [
+    "ECO-08-02",
+    "ECO-08-05"
+  ],
+  "sources": [
+    {
+      "text": "J.C. Penney Company, Inc. Annual Reports (Form 10-K), fiscal 2011 and fiscal 2012",
+      "url": null
+    },
+    {
+      "text": "J.C. Penney press releases on the 'Fair and Square' pricing launch (January–February 2012) and CEO change (April 2013)",
+      "url": null
+    },
+    {
+      "text": "Mela, C. F., Gupta, S., & Lehmann, D. R. (1997). The Long-Term Impact of Promotion and Advertising on Consumer Brand Choice. Journal of Marketing Research, 34(2), 248–261.",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "J.C. Penney 매출: 2011 회계연도 약 $17.3B, 2012 회계연도 약 $13.0B (약 25% 감소). 게시 전 10-K로 다시 확인하세요. 카드에는 \"about $17 billion\", \"about $13 billion\", \"about a quarter\"로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Ron Johnson은 2011년 11월 CEO 취임, 'Fair and Square' 가격은 2012년 2월 시행, 2013년 4월 해임. 이전에 연간 수백 건의 세일을 했다는 보도(약 590건이라는 수치가 자주 인용됨)는 정확한 숫자를 확인하지 못해 카드에 \"hundreds of\"로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Mela·Gupta·Lehmann(1997)은 한 포장소비재 카테고리의 약 8년치 가구 패널 데이터를 분석해 장기적으로 가격 프로모션이 소비자의 가격 민감도를 높이고 광고는 낮춘다고 보고했습니다. 데이터 기간과 카테고리 표현은 원문으로 재확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "6번 카드의 분기 말 주문 수치(60·70·170)는 설명용 가상 수치입니다. 분기 말 할인 때문에 B2B 구매자가 주문을 미루는 현상은 널리 관찰되지만 특정 연구 수치는 인용하지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Pricing · Company story",
+      "title": "Why J.C. Penney's customers left when the sales stopped",
+      "body": [
+        "For years, the American department store ran sales almost all the time: coupons, markdowns, weekend events.",
+        "In 2012, a new boss replaced them with lower everyday prices. No games, no waiting. Within a year, revenue had fallen by about a quarter."
+      ],
+      "image": {
+        "label": "Empty department store aisle under a 'Everyday Price' banner",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 텅 빈 백화점 통로, 천장에 \"Everyday Price\" 현수막. 바닥에 떨어진 오래된 쿠폰 몇 장. 실제 매장 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/eco-08-03-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Your distributors wait for the quarter-end deal.",
+      "illustrative": true,
+      "body": [
+        "You make industrial fasteners. For years you've offered 10% off in the last two weeks of each quarter to hit targets.",
+        "Now most orders arrive in those two weeks. Your factory sits half idle, then runs overtime. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Raise the quarter-end deal to 15% to lift the numbers",
+            "verdict": "risky",
+            "feedback": "You hit this quarter's target, but you teach buyers that waiting pays even more. The spike and the idle weeks both get bigger."
+          },
+          {
+            "key": "B",
+            "text": "Stop the deal next quarter and hold one flat price",
+            "verdict": "partial",
+            "feedback": "It ends the habit, but cold. Buyers who planned around the deal may feel a price rise and shop around. Penney tried this at scale."
+          },
+          {
+            "key": "C",
+            "text": "Phase the deal out, and offer the discount instead for orders booked evenly over the quarter",
+            "verdict": "best",
+            "feedback": "You keep a reason to discount, but now it rewards the behavior you want. It takes longer, and buyers have time to adjust."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "Penney's shoppers weren't only buying shirts.",
+      "body": [
+        "Ron Johnson, who had built Apple's stores, became CEO in late 2011. In early 2012 he replaced hundreds of yearly sales events with simpler, lower everyday prices he called \"Fair and Square.\"",
+        "Many prices were now lower than the old sale prices. But customers had learned to shop only when there was a deal, and the deal was gone.",
+        "Revenue fell from about $17 billion to about $13 billion. Johnson was out by April 2013, and the coupons came back."
+      ],
+      "image": {
+        "label": "Chart line dropping after coupons disappear",
+        "aspectRatio": "16:9",
+        "brief": "단순한 인포그래픽. 왼쪽에 쿠폰과 할인 태그가 가득한 영역, 가운데 \"2012\" 표시 이후 쿠폰이 사라지고 매출 선이 아래로 꺾임. 숫자는 넣지 않음. 실제 로고 금지.",
+        "url": "assets/images/eco-08-03-c3.jpg"
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Promotions that train customers",
+      "body": [
+        "Every promotion sells something today. Repeated promotions also **teach** customers something that lasts.",
+        "They learn *when* to buy: wait for the deal. They learn *what* the real price is: the sale price, so full price feels like a penalty. And they learn *why* to buy: because there's a deal.",
+        "Penney had spent years teaching that lesson. Its full prices had become a fiction customers knew to ignore."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "Deals make customers more price-sensitive over time.",
+      "body": [
+        "Marketing researchers Carl Mela, Sunil Gupta and Donald Lehmann studied about eight years of household shopping data for an everyday packaged product.",
+        "Over the long run, frequent price promotions made shoppers **more sensitive to price**, and more likely to switch to whichever brand was on deal. Advertising had roughly the opposite effect.",
+        "A promotion's lift shows up in this week's sales. Its cost shows up slowly, in every week that follows."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "chart",
+      "eyebrow": "Beyond retail",
+      "title": "The same habit, in a factory's order book.",
+      "illustrative": true,
+      "body": [
+        "Business buyers learn fast. If a supplier always discounts at quarter-end, purchasing teams simply hold orders until the last weeks.",
+        "The supplier sees a rush, calls the deal a success, and repeats it."
+      ],
+      "chart": {
+        "unit": "count",
+        "groups": [
+          {
+            "label": "Orders per month, with a regular quarter-end deal",
+            "rows": [
+              {
+                "label": "Month 1",
+                "value": 60,
+                "highlight": false
+              },
+              {
+                "label": "Month 2",
+                "value": 70,
+                "highlight": false
+              },
+              {
+                "label": "Month 3 (deal)",
+                "value": 170,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "callout": "The deal didn't create most of those orders. It moved them.",
+      "image": {
+        "label": "The same habit, in a factory's order book.",
+        "aspectRatio": "4:3",
+        "brief": "Labeled HTML chart from the lesson numbers",
+        "url": "assets/images/eco-08-03-chart.png"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Not every promotion trains badly, and untraining costs.",
+      "body": [
+        "Promotions teach less when they're rare, hard to predict, or tied to a real reason: clearing seasonal stock, a first purchase, a bigger commitment.",
+        "And once customers are trained, stopping is not free. Penney's mistake was partly the speed. It removed the habit overnight and gave shoppers little reason to believe the new prices were good.",
+        "Plan the way out as carefully as the deal itself."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software subscription.",
+      "illustrative": true,
+      "body": [
+        "Your project management app offers 40% off annual plans every Black Friday. November signups are huge. The rest of the year is slow, and many users cancel when they're asked to renew at full price.",
+        "What do you change?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Add a second 40% sale in spring to smooth the year",
+            "verdict": "risky",
+            "feedback": "You get two spikes instead of one, and users learn they never need to pay full price. Renewals get harder still."
+          },
+          {
+            "key": "B",
+            "text": "Retire the yearly sale over two years, and offer a steady annual-plan discount any day",
+            "verdict": "best",
+            "feedback": "The discount now rewards commitment, not timing, so there's no reason to wait. You give up one big November spike."
+          },
+          {
+            "key": "C",
+            "text": "Keep the sale, but lock in the 40% for renewals too",
+            "verdict": "partial",
+            "feedback": "It may cut cancellations, but it quietly makes the sale price your real price for those users, permanently."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Every promotion teaches customers when to buy and what to pay.",
+      "body": [
+        "Before running a deal again, ask what it teaches customers, not only what it sells.",
+        "**Try it today:** look at your last 12 months of sales. Do orders cluster around your promotions? If so, list which deals you could tie to a real reason instead of a date."
+      ],
+      "next": "Next · When the price stays the same but the pack gets smaller"
+    }
+  ]
+}

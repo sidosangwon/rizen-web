@@ -1,0 +1,243 @@
+{
+  "id": "FIN-01-02",
+  "unitId": "FIN-01",
+  "categoryId": "FIN",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "The balance sheet",
+  "readerTitle": "Which shop owner really owns more?",
+  "format": "numbers_twist",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (철물점 두 곳, 인력 파견 회사) · 모든 수치는 설명용",
+  "insight": "대차대조표는 회사가 가진 것 전부에 대해 누가 먼저 청구권을 갖는지 보여주는 한 날짜의 사진이다. 소유주 몫은 빚을 다 갚고 남는 나머지일 뿐이다.",
+  "misconception": "자산이 많은 회사가 더 부자다. 자본(equity)은 통장에 있는 돈이다.",
+  "relatedLessonIds": [
+    "FIN-01-01",
+    "FIN-01-04"
+  ],
+  "sources": [
+    {
+      "text": "재무회계의 표준 개념 (자산 = 부채 + 자본, 복식부기)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Hal: 자산 $40,000 + $360,000 + $100,000 = $500,000. 부채 $150,000 + $300,000 = $450,000. 자본 $500,000 − $450,000 = $50,000. Mia: $300,000 − $50,000 = $250,000.",
+      "status": "open"
+    },
+    {
+      "note": "거래 예시: 외상 매입 $20,000 → 자산 $520,000, 부채 $470,000, 자본 $50,000 유지. 원가 $1,000 재고를 현금 $1,500에 판매 → 자산 순증 $500, 자본 +$500(이익).",
+      "status": "open"
+    },
+    {
+      "note": "인력 파견 회사: 자산 $100,000 + $1,100,000 = $1,200,000. 부채 $200,000 + $900,000 = $1,100,000. 자본 $100,000.",
+      "status": "open"
+    },
+    {
+      "note": "softwareNote의 선결제 구독(이연수익)은 부채로 기록된다는 일반 원칙만 언급. 자세한 내용은 FIN-11-04에서 다룸.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Numbers twist",
+      "title": "Which shop owner really owns more?",
+      "illustrative": true,
+      "body": [
+        "Two hardware stores sit on the same street. Hal's has $500,000 of stock, cash and equipment. Mia's has $300,000.",
+        "Hal's store is bigger and busier. But that doesn't mean Hal owns more of it."
+      ],
+      "image": {
+        "label": "Two hardware shops side by side, one much larger",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 같은 거리의 철물점 두 곳. 왼쪽은 크고 선반이 가득, 오른쪽은 작고 단정함. 큰 가게 뒤에 은행과 납품 트럭의 희미한 그림자가 걸쳐 있음. 실제 상표나 로고는 쓰지 않음.",
+        "url": "assets/images/fin-01-02-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Who has more of the business that's truly theirs?",
+      "illustrative": true,
+      "body": [
+        "Hal owes his supplier $150,000 for stock and the bank $300,000 for a loan. Mia owes her supplier $50,000 and has no loan.",
+        "If both sold everything today at the recorded values and paid what they owe, who would walk away with more?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Hal. His store holds $200,000 more in assets",
+            "verdict": "risky",
+            "feedback": "Size is easy to see, but much of Hal's stock was paid for with other people's money. Assets alone don't say who owns them."
+          },
+          {
+            "key": "B",
+            "text": "Mia. She owes far less against what she has",
+            "verdict": "best",
+            "feedback": "Right. Mia keeps $250,000 after paying what she owes. Hal keeps $50,000. Next card shows the math."
+          },
+          {
+            "key": "C",
+            "text": "You can't tell without last year's profit",
+            "verdict": "partial",
+            "feedback": "Profit tells you how the year went and matters for the future. But this question is about what each owner holds today, and the numbers above already answer it."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Hal's store on one day.",
+      "illustrative": true,
+      "body": [
+        "Mia's version is shorter: $300,000 − $50,000 = **$250,000**. Her store is smaller, but her stake is five times Hal's."
+      ],
+      "breakdown": [
+        {
+          "value": "$500,000",
+          "label": "What the store owns",
+          "detail": "Cash $40k, stock $360k, shelves and van $100k",
+          "highlight": false
+        },
+        {
+          "value": "−$150,000",
+          "label": "Owed to supplier",
+          "detail": "Stock bought on credit",
+          "highlight": false
+        },
+        {
+          "value": "−$300,000",
+          "label": "Owed to bank",
+          "detail": "Loan used to expand",
+          "highlight": false
+        },
+        {
+          "value": "$50,000",
+          "label": "Left for Hal",
+          "detail": "The owner's share",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The balance sheet",
+      "body": [
+        "A **balance sheet** is a snapshot of a business on one date. It lists what the business owns (*assets*), what it owes (*liabilities*), and what's left for the owners (*equity*).",
+        "It always balances: **assets = liabilities + equity**. Every dollar of stuff was paid for either by someone the business owes or by the owners.",
+        "The income statement covers a period, like a year. The balance sheet covers a single moment."
+      ],
+      "image": {
+        "label": "A scale: assets on one side, liabilities plus equity on the other",
+        "aspectRatio": "16:9",
+        "brief": "균형 잡힌 저울 인포그래픽. 왼쪽 접시에 \"Assets $500k\"(현금, 재고, 선반 아이콘). 오른쪽 접시에 \"Liabilities $450k\"(큰 블록)와 \"Equity $50k\"(작은 블록)가 쌓여 있음. 저울은 정확히 수평.",
+        "url": "assets/images/fin-01-02-c4.jpg"
+      },
+      "softwareNote": "A software company that sells annual plans paid upfront gets the cash as an asset. It also records a liability, because it still owes a year of service to those customers."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Every move touches two lines.",
+      "illustrative": true,
+      "body": [
+        "Because the sheet must balance, each event changes at least two places."
+      ],
+      "list": [
+        "**Hal buys $20,000 of stock on credit:** stock up $20k, owed to supplier up $20k. His share doesn't change.",
+        "**He pays that supplier:** cash down $20k, owed down $20k. Still no change.",
+        "**He sells $1,000 of stock for $1,500:** stock down $1,000, cash up $1,500. His share grows by **$500**, the profit."
+      ],
+      "callout": "Only profit, losses, or owners putting money in or taking it out change the owner's share."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The twist",
+      "title": "Equity is not money in the bank.",
+      "illustrative": true,
+      "body": [
+        "Hal's share is $50,000, but that isn't a pile of cash. It's a leftover after subtracting debts from things like stock and shelves.",
+        "Those things are usually recorded at what they cost, not what they'd fetch today. Dusty stock that won't sell still counts at full price. Loyal customers and a good reputation don't appear at all.",
+        "So **equity is an accounting leftover**, not a price tag for the business."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "It's one day, and days can be picked.",
+      "body": [
+        "A toy shop looks stuffed with stock and supplier bills on December 1, and lean on January 15. Neither date is wrong. Each shows only that moment.",
+        "A business can also tidy up right before the date, such as paying down a bill to look less indebted, then borrowing again next week.",
+        "Compare the same date year to year, and read the balance sheet next to the income and cash flow statements."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a staffing agency.",
+      "illustrative": true,
+      "body": [
+        "You're about to sign a two-year deal with an agency that supplies your warehouse staff. Its balance sheet: assets $1.2M (cash $100k, clients owe it $1.1M). Liabilities: wages owed $200k, bank loan $900k. Equity: $100k.",
+        "What do you do before signing?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Sign. $1.2M in assets shows a solid firm",
+            "verdict": "risky",
+            "feedback": "Most of those assets are other clients' unpaid bills, and most of them are matched by debt. The cushion is only $100k."
+          },
+          {
+            "key": "B",
+            "text": "Ask how much of the $1.1M is overdue and when the loan is due",
+            "verdict": "best",
+            "feedback": "This tests whether the assets are real and whether the debts arrive before the cash. It takes one conversation and protects your workforce."
+          },
+          {
+            "key": "C",
+            "text": "Ask only for last year's profit",
+            "verdict": "partial",
+            "feedback": "Profit shows if the agency earns money. It won't show whether a late-paying client plus a loan deadline could leave your staff unpaid."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Ask not just what a business has, but who it belongs to.",
+      "body": [
+        "Assets minus what's owed equals the owners' share. A big business with a thin share can be more fragile than a small one with a thick share.",
+        "**Try it today:** list what your business owns and what it owes as of today. Subtract. Is the leftover what you expected?"
+      ],
+      "next": "Next · Where did the cash actually go?"
+    }
+  ]
+}

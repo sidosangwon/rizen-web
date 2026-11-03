@@ -1,0 +1,248 @@
+{
+  "id": "ECO-02-05",
+  "unitId": "ECO-02",
+  "categoryId": "ECO",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Learning curves",
+  "readerTitle": "Why the sixteenth chair takes half the time of the first",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 연구 (Wright 1936 항공기 생산) + 가상 사례 (책장 조립, 가구 공방, 사내 운영팀)",
+  "insight": "비용은 규모만이 아니라 지금까지 쌓은 누적 경험에 따라 떨어진다. 첫 번째 단위의 비용은 열여섯 번째 단위의 비용이 아니다.",
+  "misconception": "첫 작업에 걸린 시간이 앞으로도 매번 똑같이 걸린다. 또는 경험이 쌓이면 비용은 저절로, 끝없이 줄어든다.",
+  "relatedLessonIds": [
+    "ECO-02-03",
+    "ECO-02-09"
+  ],
+  "sources": [
+    {
+      "text": "Wright, T. P. (1936). Factors Affecting the Cost of Airplanes. Journal of the Aeronautical Sciences, 3(4), 122–128.",
+      "url": null
+    },
+    {
+      "text": "Argote, L., Beckman, S. L., & Epple, D. (1990). The Persistence and Transfer of Learning in Industrial Settings. Management Science, 36(2), 140–154.",
+      "url": null
+    },
+    {
+      "text": "공방·운영팀·책장 사례의 수치는 모두 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Wright(1936)는 누적 생산량이 두 배가 될 때마다 항공기 한 대당 노동시간이 약 20% 줄어든다고 보고했습니다(80% 곡선). 원 논문은 누적 평균 기준이므로, 카드에는 \"about 20%\"와 \"labor hours per plane\"으로만 적었습니다. 게시 전 원문 표현을 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "의자 계산은 80% 단위 곡선 가정(n번째 의자 시간 = 10 × n^−0.322)입니다. 1번 10시간, 2번 8, 4번 6.4, 8번 5.12, 16번 4.1시간. 16개 합계는 약 89.2시간입니다. 1번 기준 160시간, 16번 기준 4.1 × 16 = 약 66시간.",
+      "status": "open"
+    },
+    {
+      "note": "Argote 외(1990)는 2차대전 리버티선 조선소 자료에서 축적된 생산 지식이 시간이 지나며 줄어드는(depreciation) 현상을 보고했습니다. 카드에는 \"knowledge faded\"로 일반적으로만 적었습니다. 게시 전 요약 표현을 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "경험 곡선(BCG, 1960년대)의 업종별 하락률 수치는 자료마다 달라서 카드에 넣지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Costs · Everyday scene",
+      "title": "Why the sixteenth chair takes half the time of the first",
+      "illustrative": true,
+      "body": [
+        "The first flat-pack bookshelf you build takes most of a Saturday afternoon. You read every step, use the wrong screws, and undo a panel twice.",
+        "Build the same shelf for a friend a month later and it takes well under half the time. Nothing about the shelf changed. You did."
+      ],
+      "image": {
+        "label": "Two people building the same bookshelf, one slow and one fast",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 왼쪽: 설명서를 펼치고 나사가 흩어진 채 고민하는 사람, 벽시계는 오래 지난 시간. 오른쪽: 같은 책장을 거의 완성한 사람, 시계는 짧은 시간. 실제 가구 브랜드 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Quoting a 16-chair order",
+      "illustrative": true,
+      "body": [
+        "You run a small furniture workshop. A restaurant wants 16 matching oak chairs. You built one sample to test the design, and it took 10 hours of labor.",
+        "How do you estimate the labor for the order?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "16 chairs × 10 hours = 160 hours",
+            "verdict": "risky",
+            "feedback": "Safe on paper, but you'd price in hours you won't spend. A rival who expects to get faster can bid lower and win."
+          },
+          {
+            "key": "B",
+            "text": "Use your best guess for a practiced chair, about 4 hours, for all 16",
+            "verdict": "partial",
+            "feedback": "Right that you'll speed up, but the early chairs will still be slow. Price them all like the last one and the job loses money."
+          },
+          {
+            "key": "C",
+            "text": "Expect each chair to go faster, add up the hours, and check against past jobs",
+            "verdict": "best",
+            "feedback": "This prices the order you'll actually build: slow at first, quicker later. It needs honest records of how fast you've improved before."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "What happens",
+      "title": "Each doubling cuts the hours.",
+      "illustrative": true,
+      "body": [
+        "Suppose every time you double the number of chairs built, the hours for the latest chair fall by 20%.",
+        "All 16 chairs add up to about **89 hours**. That's far below 160, and well above the 66 you'd get by pricing every chair like the last."
+      ],
+      "chart": {
+        "unit": "count",
+        "groups": [
+          {
+            "label": "Labor hours for that chair",
+            "rows": [
+              {
+                "label": "Chair 1",
+                "value": 10,
+                "highlight": false
+              },
+              {
+                "label": "Chair 2",
+                "value": 8,
+                "highlight": false
+              },
+              {
+                "label": "Chair 4",
+                "value": 6.4,
+                "highlight": false
+              },
+              {
+                "label": "Chair 8",
+                "value": 5.1,
+                "highlight": false
+              },
+              {
+                "label": "Chair 16",
+                "value": 4.1,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The learning curve",
+      "body": [
+        "A **learning curve** describes how the cost or time of each unit falls as your *total* output grows. People find shortcuts, fix mistakes, set up better jigs and stop second-guessing.",
+        "The key word is total. It counts every unit you've ever made, not how many you make this month. The early drops are big. Later ones are smaller, because each new doubling takes longer to reach."
+      ],
+      "softwareNote": "Teams see this in repeated work like releasing updates, setting up new customer accounts or answering support tickets. The tenth release usually goes faster than the first, especially when the steps get written down or automated."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "It started with airplanes.",
+      "body": [
+        "In 1936, aircraft engineer Theodore Wright published a study of airplane production. He found that each time the total number of planes built doubled, the **labor hours per plane** fell by about 20%.",
+        "Later studies found similar patterns in shipbuilding, chemicals and electronics. The rate differs by industry and by company, but the shape keeps showing up: fast gains early, slower gains later."
+      ],
+      "image": {
+        "label": "A curve falling steeply then flattening, with planes along it",
+        "aspectRatio": "16:9",
+        "brief": "그래프 인포그래픽. 가로축 \"Total units built\", 세로축 \"Hours per unit\". 처음엔 가파르게, 뒤로 갈수록 완만해지는 곡선. 곡선 위에 작은 1930년대 프로펠러 비행기 아이콘을 몇 개 배치. 실제 항공사·제조사 로고는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How it differs",
+      "title": "Not the same as being big.",
+      "body": [
+        "Economies of scale come from size: a bigger kitchen buys flour cheaper today. A learning curve comes from history: a kitchen that has made 10,000 loaves bakes faster than one that has made 100, even at the same size.",
+        "That changes how you read a rival. A small competitor who has done the job many times may have lower costs than a big newcomer. And taking early work at a thin margin can be worth it if it moves you down the curve."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Learning isn't automatic, and it can fade.",
+      "body": [
+        "Repetition alone doesn't lower costs. Gains come when people notice what went wrong and change the process.",
+        "Learning can also leak away. Research on wartime shipyards found that production knowledge **faded** when output slowed or experienced workers left. And curves flatten. Once the obvious fixes are made, the next 20% takes a very long time, so don't promise steep savings forever."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a team inside a company.",
+      "illustrative": true,
+      "body": [
+        "Your operations team is moving 12 regional offices onto a new booking system. The first office took six weeks and plenty of mistakes. Leadership wants the rest done this year.",
+        "How do you plan the next 11?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Split them across four new teams working in parallel from day one",
+            "verdict": "partial",
+            "feedback": "Fast on the calendar, but each new team starts at the top of the curve and repeats the first office's mistakes."
+          },
+          {
+            "key": "B",
+            "text": "Do the next few with the original team, write a checklist after each, then send trained people to lead new teams",
+            "verdict": "best",
+            "feedback": "You move down the curve first and then spread what you learned. It's a little slower to start but cheaper and safer overall."
+          },
+          {
+            "key": "C",
+            "text": "Tell leadership it's 11 × 6 weeks, so it can't be done this year",
+            "verdict": "risky",
+            "feedback": "This assumes the first office's pace forever. You'd ask for time and budget you likely don't need, and lose credibility when the team speeds up."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "The first one is the most expensive one you'll ever make.",
+      "body": [
+        "Costs fall with total experience, so plan and price for the work you'll do on the tenth try, not the first. Then make sure the learning gets captured, not lost.",
+        "**Try it today:** pick one task your business repeats. Compare how long it took the first time with how long it takes now. What made it faster, and is that written down?"
+      ],
+      "next": "Next · Why small changes in sales can swing profit wildly"
+    }
+  ]
+}

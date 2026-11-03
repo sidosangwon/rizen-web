@@ -1,0 +1,249 @@
+{
+  "id": "PPL-03-05",
+  "unitId": "PPL-03",
+  "categoryId": "PPL",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Reference checks",
+  "readerTitle": "Three glowing references, and you learned almost nothing",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (물류창고 교대조장, 레스토랑 헤드셰프) + 실제 연구 (채용 방법의 예측력 메타분석) · 확률 수치는 모두 설명용",
+  "insight": "평판 조회의 가치는 칭찬의 양이 아니라, 좋은 후보와 약한 후보에게 서로 다른 답이 나오는 질문을 던지느냐에 달려 있다.",
+  "misconception": "추천인이 모두 극찬하면 검증이 끝난 것이다. 평판 조회는 형식적인 절차라 건너뛰어도 된다.",
+  "relatedLessonIds": [
+    "PPL-03-02",
+    "PPL-03-03"
+  ],
+  "sources": [
+    {
+      "text": "Schmidt, F. L., & Hunter, J. E. (1998). The validity and utility of selection methods in personnel psychology. Psychological Bulletin, 124(2).",
+      "url": null
+    },
+    {
+      "text": "Sackett, P. R., Zhang, C., Berry, C. M., & Lievens, F. (2022). Revisiting meta-analytic estimates of validity in personnel selection. Journal of Applied Psychology, 107(11).",
+      "url": null
+    },
+    {
+      "text": "확률 계산의 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "가상 수치 계산: 후보 100명 중 강한 후보 80명, 약한 후보 20명. '훌륭하다' 답변 비율 강한 후보 98%, 약한 후보 90%. 98% × 80 = 78.4명, 90% × 20 = 18명, 합계 96.4명. 78.4 ÷ 96.4 = 81.3%(카드에는 약 81%). 사전 확률 80%.",
+      "status": "open"
+    },
+    {
+      "note": "주저하는 답변: 강한 후보의 10%(8명), 약한 후보의 50%(10명). 주저 그룹 18명 중 약한 후보 10 ÷ 18 = 55.6%(약 56%). 주저하지 않은 그룹 82명 중 강한 후보 72 ÷ 82 = 87.8%(약 88%).",
+      "status": "open"
+    },
+    {
+      "note": "Schmidt & Hunter(1998)에서 평판 조회의 타당도는 약 0.26으로 작업 샘플·구조화 면접보다 낮았습니다. Sackett 외(2022)는 여러 방법의 추정치를 낮춰 재평가했습니다. 카드에는 구체 수치 없이 'modest', 'below work tests and structured interviews'로만 적었습니다. 게시 전 두 논문의 해당 수치를 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "평판 조회 시 후보 동의, 전 고용주가 답할 수 있는 범위는 나라마다 다릅니다. 법률 조언은 하지 않고 '지역 규칙을 확인하라'는 수준으로만 언급했습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "People · Numbers twist",
+      "title": "Three glowing references, and you learned almost nothing",
+      "illustrative": true,
+      "body": [
+        "You're hiring a store manager. You call three references. All three say she's great: reliable, hard-working, a pleasure to work with.",
+        "It feels like proof. But the candidate chose those three people. Run the numbers and those calls barely move the odds."
+      ],
+      "image": {
+        "label": "A phone with three speech bubbles all saying great",
+        "aspectRatio": "4:3",
+        "brief": "책상 위 스마트폰에서 말풍선 세 개가 나오고 모두 \"Great!\"라고 적혀 있음. 옆의 작은 저울은 거의 움직이지 않음. 따뜻한 3D 클레이 스타일, 실제 브랜드 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which question tells you the most?",
+      "illustrative": true,
+      "body": [
+        "You run a distribution warehouse and are hiring a night-shift lead. The candidate interviewed well. You have ten minutes with her former supervisor.",
+        "Which question do you lead with?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "\"Would you recommend her for this job?\"",
+            "verdict": "risky",
+            "feedback": "It's polite and quick, but almost every reference says yes. A question everyone answers the same way gives you comfort, not information."
+          },
+          {
+            "key": "B",
+            "text": "\"Would you hire her again for the same job? How does she compare with other shift leads you've managed?\"",
+            "verdict": "best",
+            "feedback": "This asks the supervisor to commit and to compare. Weak candidates' references answer it differently, which is where the information is."
+          },
+          {
+            "key": "C",
+            "text": "Skip the call. The interview already told you enough",
+            "verdict": "partial",
+            "feedback": "You save time, and badly run reference calls are worth little. But a well-aimed question can catch what an interview can't: how she behaved over months."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "What one glowing reference is worth.",
+      "illustrative": true,
+      "body": [
+        "Say 80 of every 100 finalists would do well. References call 98% of strong candidates great, and 90% of weak ones too.",
+        "After a glowing call, the odds of a good hire go from 80% to about **81%**. The call felt decisive. It moved you one point."
+      ],
+      "breakdown": [
+        {
+          "value": "80%",
+          "label": "Before the call",
+          "detail": "Share of finalists who would do well",
+          "highlight": false
+        },
+        {
+          "value": "98%",
+          "label": "Strong candidates",
+          "detail": "Get called great by their references",
+          "highlight": false
+        },
+        {
+          "value": "90%",
+          "label": "Weak candidates",
+          "detail": "Also get called great",
+          "highlight": false
+        },
+        {
+          "value": "81%",
+          "label": "After a glowing call",
+          "detail": "Odds of a good hire barely move",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "A reference check is a search for differences",
+      "body": [
+        "A **reference check** is a conversation with people who saw the candidate work, used as evidence for a hiring decision.",
+        "Its value depends on one thing: does the answer come out differently for strong and weak candidates? If both get the same praise, the call adds nothing.",
+        "So the goal isn't to collect compliments. It's to ask questions that a weak candidate's reference would struggle to answer warmly."
+      ],
+      "image": {
+        "label": "Two candidates' answers side by side, only one question splits them",
+        "aspectRatio": "16:9",
+        "brief": "두 열로 된 표. 왼쪽 'Strong', 오른쪽 'Weak' 후보. 'Recommend?' 줄은 양쪽 모두 초록 체크. 'Hire again?' 줄에서만 오른쪽이 노란 물음표로 갈라짐. 그 줄을 강조.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Questions that split strong from weak.",
+      "body": [
+        "Good reference questions ask for commitment, comparison and specifics."
+      ],
+      "list": [
+        "**Rehire:** \"Would you hire them again for the same job?\"",
+        "**Compare:** \"Among people you've managed in this role, where do they rank?\"",
+        "**Specifics:** \"Tell me about a hard week. What did they do?\"",
+        "**Coaching:** \"What would help them do their best work here?\""
+      ],
+      "callout": "Then listen for pauses, faint praise and praise for the wrong things.",
+      "softwareNote": "For a software hire, ask about the work you'll actually need: \"How did they handle a production outage?\" or \"Would you put them on your hardest project again?\" Generic praise about being smart says little."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The second twist",
+      "title": "The hesitation is the signal.",
+      "illustrative": true,
+      "body": [
+        "Now use the rehire question. Say a reference hesitates for 10% of strong candidates but 50% of weak ones.",
+        "With a hesitant answer, the chance this is a weak hire jumps from 20% to about **56%**. With a clear yes, the chance of a good hire rises to about 88%.",
+        "Same ten-minute call. One question changed it from comfort into evidence."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "One call is still a weak signal.",
+      "body": [
+        "Large reviews of hiring research find reference checks predict job performance only modestly, below work tests and structured interviews. Use them to confirm or question what you saw, not to replace it.",
+        "References have their own biases. A former boss may hold a grudge or want to help someone move on. Look for a pattern across two or three people.",
+        "Rules on consent and what employers can say vary by place. Check what applies where you hire."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a restaurant kitchen.",
+      "illustrative": true,
+      "body": [
+        "You're hiring a head chef for a busy 80-seat restaurant. Her former owner says: \"She was always on time, and her menus looked lovely.\" Nothing about running the line on a full Saturday.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Count it as positive. Punctual and creative is a good sign",
+            "verdict": "risky",
+            "feedback": "It is praise, but for things that don't decide whether a head chef succeeds. Strong candidates usually get praised for the core of the job."
+          },
+          {
+            "key": "B",
+            "text": "Ask directly: \"How did she run the kitchen on your busiest night? Would you hire her again as head chef?\"",
+            "verdict": "best",
+            "feedback": "You turn faint praise into a question that strong and weak candidates answer differently. If the owner still dodges, that silence tells you something."
+          },
+          {
+            "key": "C",
+            "text": "Drop her. Faint praise means a hidden problem",
+            "verdict": "partial",
+            "feedback": "The worry is fair, but some people just talk this way. One vague answer is a reason to dig, not proof. You might lose a good chef."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Ask the questions that weak candidates' references can't answer warmly.",
+      "body": [
+        "Glowing praise from chosen references tells you little. Commitment, comparison and specifics tell you more, and so does hesitation.",
+        "**Try it today:** write the three reference questions you'll use for your next hire. Include one rehire question and one that compares the candidate with others."
+      ],
+      "next": "Next · Why the first 90 days decide whether a hire works out"
+    }
+  ]
+}

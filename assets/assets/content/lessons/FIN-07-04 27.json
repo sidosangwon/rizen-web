@@ -1,0 +1,239 @@
+{
+  "id": "FIN-07-04",
+  "unitId": "FIN-07",
+  "categoryId": "FIN",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Dilution",
+  "readerTitle": "Three rounds, each under 25%. Why is half the company gone?",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (금속 부품 공장, 치과용 예약 앱) · 모든 수치는 설명용. 실제 기업 사례는 사실 확인 부담 때문에 쓰지 않고 숫자 중심 형식으로 바꿈",
+  "insight": "희석은 지분율이 아니라 내 지분의 가치로 판단한다. 들어온 돈이 파이를 조각이 줄어드는 속도보다 빨리 키우면 희석은 이득이다.",
+  "misconception": "지분은 무조건 지켜야 하고, 여러 번 내준 지분율은 단순히 더하면 된다 (20% + 25% + 20% = 65%).",
+  "relatedLessonIds": [
+    "FIN-07-02",
+    "FIN-07-05"
+  ],
+  "sources": [
+    {
+      "text": "기업재무의 표준 개념 (신주 발행, 투자 전·후 기업가치, 지분 희석)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "세 번의 투자 계산: 100% × (1 − 0.20) = 80%, 80% × (1 − 0.25) = 60%, 60% × (1 − 0.20) = 48%. 단순 합산하면 100 − 65 = 35%로 틀림.",
+      "status": "open"
+    },
+    {
+      "note": "공장 투자: 투자 전 가치 $2M + 투자금 $500K = 투자 후 $2.5M. 투자자 지분 500 ÷ 2,500 = 20%, 창업자 80% × $2.5M = $2M. 기계 도입 후 가치 $4M 가정 시 80% = $3.2M. 투자 없이 $2.4M로 성장한다는 가정과 비교.",
+      "status": "open"
+    },
+    {
+      "note": "낮은 가치에서 투자: $1M + $500K = $1.5M, 투자자 500 ÷ 1,500 = 33.3%, 창업자 66.7%(카드에는 약 67%).",
+      "status": "open"
+    },
+    {
+      "note": "앱 사례: B안 $1M ÷ ($4M + $1M) = 20%, 창업자 70% × 0.8 = 56%. C안 $3M ÷ ($4M + $3M) = 42.9%, 창업자 70% × (4 ÷ 7) = 40%.",
+      "status": "open"
+    },
+    {
+      "note": "투자 조건(우선 청산권 등)과 의결권에 관한 설명은 일반론으로만 적었고, 특정 국가의 법률이나 계약 조언은 하지 않음. 세부 내용은 FIN-07-05에서 다룸.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Numbers twist",
+      "title": "Three rounds, each under 25%. Why is half the company gone?",
+      "illustrative": true,
+      "body": [
+        "Maria owns all of a small factory that makes steel brackets for truck trailers. Over six years she brings in investors three times.",
+        "She gives up 20%, then 25%, then 20%. Each time it feels like a modest slice. Adding them up, she expects to keep 35%. The real number is different, and so is the question she should have been asking."
+      ],
+      "image": {
+        "label": "A factory owner holding a shrinking pie slice",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 작은 금속 부품 공장 앞에 선 사장이 파이 접시를 들고 있고, 파이 조각이 세 번에 걸쳐 잘려 나가는 장면. 파이 자체는 점점 커짐. 실제 로고나 상표 없음.",
+        "url": "assets/images/fin-07-04-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How much of the factory does Maria own now?",
+      "illustrative": true,
+      "body": [
+        "Each round, new investors receive newly created shares worth 20%, 25% and then 20% of the company right after that round.",
+        "Maria never sells a single share of her own. What does she own after all three rounds?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "35%",
+            "verdict": "risky",
+            "feedback": "Adding the slices is the common mistake. Each round takes its share of the company as it is then, not of Maria's original 100%."
+          },
+          {
+            "key": "B",
+            "text": "48%",
+            "verdict": "best",
+            "feedback": "Right. Each round shrinks everyone's share by the same proportion, so the cuts multiply instead of adding. The next card follows it step by step."
+          },
+          {
+            "key": "C",
+            "text": "60%",
+            "verdict": "partial",
+            "feedback": "That's where she stands after two rounds. The third round shrinks her slice once more."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Follow Maria's share.",
+      "illustrative": true,
+      "body": [
+        "Each round multiplies what she has by what's left: 100% × 0.8 × 0.75 × 0.8 = **48%**. She still owns every share she started with. There are just many more shares in total."
+      ],
+      "breakdown": [
+        {
+          "value": "100%",
+          "label": "Start",
+          "detail": "Maria owns everything",
+          "highlight": false
+        },
+        {
+          "value": "80%",
+          "label": "Round 1",
+          "detail": "Investors get 20%: 100% × 0.80",
+          "highlight": false
+        },
+        {
+          "value": "60%",
+          "label": "Round 2",
+          "detail": "Investors get 25%: 80% × 0.75",
+          "highlight": false
+        },
+        {
+          "value": "48%",
+          "label": "Round 3",
+          "detail": "Investors get 20%: 60% × 0.80",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Dilution",
+      "body": [
+        "**Dilution** is what happens to existing owners when a company creates new shares and sells them. Your number of shares stays the same, but the total grows, so your percentage falls.",
+        "Think of adding water to juice. The amount of juice doesn't change. It just makes up a smaller part of the glass. The question is whether the glass gets big enough to be worth it."
+      ],
+      "image": {
+        "label": "Small pie with a large slice next to a bigger pie with a smaller but larger slice",
+        "aspectRatio": "16:9",
+        "brief": "두 개의 파이 비교 인포그래픽. 왼쪽: 작은 파이, 100% 조각 \"$2.4M\". 오른쪽: 큰 파이, 80% 조각 \"$3.2M\". 오른쪽 조각이 비율은 작아도 실제 크기는 더 크다는 점을 강조.",
+        "url": "assets/images/fin-07-04-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "A smaller slice of a bigger pie.",
+      "illustrative": true,
+      "body": [
+        "In the first round, Maria's factory is worth $2M. An investor puts in $500K, so the company is now worth $2.5M with the cash. The investor owns 20%. Maria's 80% is still worth **$2M**. At a fair price, dilution costs her nothing on day one.",
+        "The $500K buys a new bending machine. Two years later the factory is worth $4M, and her 80% is worth $3.2M. Without the machine, she expected it to reach $2.4M, all hers. Owning less made her richer."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where it bites",
+      "title": "The price you raise at decides the slice.",
+      "illustrative": true,
+      "body": [
+        "Suppose Maria had raised the same $500K in a bad year, when the factory was valued at only $1M. The investor would get 500 ÷ 1,500, about **33%**, instead of 20%.",
+        "Same money, much bigger slice. Raising when the business is worth more, or raising only what you need, keeps more of it in your hands."
+      ],
+      "softwareNote": "Startups also dilute founders through employee stock options. Setting aside 10% for future hires shrinks everyone else's share the same way a funding round does."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Percentages aren't only about money.",
+      "body": [
+        "Ownership often comes with votes. Drop below half and you may no longer decide alone who runs the company or whether it sells.",
+        "Investors may also ask for terms that pay them first in a sale, so your slice can be worth less than your percentage suggests. And if the new money doesn't grow the business, dilution is a pure loss: you own less of the same pie."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a scheduling app.",
+      "illustrative": true,
+      "body": [
+        "You own 70% of an app that dental clinics use to book patients. Investors value it at $4M before new money. You believe two more engineers, about $1M over two years, could double revenue.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Raise nothing and keep your 70%",
+            "verdict": "partial",
+            "feedback": "You keep control and avoid dilution. But if a rival ships those features first, 70% of a stalled app may be worth less than a smaller share of a growing one."
+          },
+          {
+            "key": "B",
+            "text": "Raise $1M, giving investors 20%",
+            "verdict": "best",
+            "feedback": "You drop to 56%, but the money has a clear job. If revenue doubles as planned, your smaller slice of a bigger company is worth more."
+          },
+          {
+            "key": "C",
+            "text": "Raise $3M now, just to be safe",
+            "verdict": "risky",
+            "feedback": "Investors would get about 43% and you'd fall to 40%. You'd give up a big slice for cash with no job yet, at today's lower value."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Judge dilution by what your slice is worth, not its size.",
+      "body": [
+        "New money shrinks your percentage every time, and the cuts multiply. It's worth it only when the money grows the business faster than your share shrinks.",
+        "**Try it today:** write down what you own now. Then multiply it by what you'd keep after the next raise you're considering, and ask what that money must achieve to make your slice worth more."
+      ],
+      "next": "Next · What investors expect in return"
+    }
+  ]
+}

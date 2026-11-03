@@ -1,0 +1,237 @@
+{
+  "id": "OPS-04-09",
+  "unitId": "OPS-04",
+  "categoryId": "OPS",
+  "order": 9,
+  "type": "case",
+  "conceptTag": "Andy Grove's goals at Intel",
+  "readerTitle": "How Intel fought a better chip with better goals",
+  "format": "company_story",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Intel, 1979~1980년 Operation Crush, Andy Grove의 목표 관리 방식) + 가상 적용 (주택 리모델링 회사)",
+  "insight": "좋은 목표는 소원이 아니라 '어디로 갈 것인가'와 '도착했는지 어떻게 알 것인가'라는 두 질문에 답하는 짧은 약속이고, 위기일수록 그 수를 줄여야 조직 전체가 움직인다.",
+  "misconception": "경쟁사보다 제품이 약하면 제품부터 고쳐야 하고, 할 일을 많이 벌일수록 위기에 더 잘 대응하는 것이다.",
+  "relatedLessonIds": [
+    "OPS-04-02",
+    "OPS-04-05"
+  ],
+  "sources": [
+    {
+      "text": "Grove, A. (1983). High Output Management. Random House. (Intel의 목표 관리 방식, 두 가지 질문, 목표 수를 적게 유지하라는 원칙, 성과 평가와의 분리)",
+      "url": null
+    },
+    {
+      "text": "Doerr, J. (2018). Measure What Matters. Portfolio. (Operation Crush, 디자인 윈 2,000건 목표, Intel에서 Google로 전해진 OKR)",
+      "url": null
+    },
+    {
+      "text": "Davidow, W. (1986). Marketing High Technology. Free Press. (Operation Crush 당사자의 기록)",
+      "url": null
+    },
+    {
+      "text": "IBM 공식 역사 자료: IBM Personal Computer (1981)에 Intel 8088 채택",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Operation Crush 시기(1979년 말~1980년)와 경쟁 상대(Motorola 68000)는 Doerr(2018)와 Davidow(1986)로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "\"1년에 디자인 윈 2,000건\" 목표는 Measure What Matters에 나옵니다. 실제 달성치는 약 2,500건으로 알려져 있으나 자료마다 다를 수 있어 카드에는 \"beat the target\"으로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "태스크포스를 Bill Davidow가 이끌었다는 점은 Davidow(1986)와 Doerr(2018)에서 재확인하세요. 카드에는 이름 없이 \"a task force\"로만 썼습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Grove의 두 질문(\"Where do I want to go?\" / \"How will I pace myself to see if I am getting there?\")은 High Output Management 원문 표현을 게시 전에 대조하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Grove가 목표 관리 결과를 성과 평가의 근거 문서로 쓰면 안 된다고 한 대목은 High Output Management에서 확인하세요. 카드에는 직접 인용 없이 요약했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "IBM PC의 8088 채택이 Operation Crush 기간의 디자인 윈으로 소개된다는 점(Doerr 2018)을 확인하세요. 카드에는 \"one of the wins from that period\"로 조심스럽게 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "John Doerr가 1970년대 Intel에서 이 방식을 배워 1999년 Google에 소개했다는 내용은 Measure What Matters 기준입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Execution · Company story",
+      "title": "How Intel fought a better chip with better goals",
+      "body": [
+        "In late 1979, Intel was losing a fight over its newest chip. A rival's chip looked better, and customers were starting to pick it.",
+        "Intel's answer wasn't a new chip. It was a short list of goals that the whole company could see and count. The method behind it later became known as **OKRs**."
+      ],
+      "image": {
+        "label": "A small chip facing a larger rival chip on a chessboard",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 체스판 위에 작은 칩과 더 크고 반짝이는 칩이 마주 서 있고, 작은 칩 뒤로 여러 사람이 같은 방향의 화살표를 들고 서 있음. 실제 회사 로고와 제품명은 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Your chip is losing. What now?",
+      "body": [
+        "It's late 1979. Intel's 16-bit chip, the 8086, is losing ground to Motorola's newer 68000, which many engineers think is the better design.",
+        "The battle is over *design wins*: a customer choosing your chip for a product it will build for years. A redesign would take too long. You lead the response."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Push engineering to rush out a chip that beats the rival on specs",
+            "verdict": "risky",
+            "feedback": "It fights where the rival is strongest. Customers are choosing chips now, so by the time a new one ships, the designs may be gone."
+          },
+          {
+            "key": "B",
+            "text": "Set one company-wide objective, winning back design wins, with a few numbers everyone tracks",
+            "verdict": "best",
+            "feedback": "You give up chasing the spec sheet. In return, every team pulls in one direction and can see each week whether it's working."
+          },
+          {
+            "key": "C",
+            "text": "Let each division launch its own fixes: discounts, ads, new tools",
+            "verdict": "partial",
+            "feedback": "Lots of energy, but it's scattered. No one knows which effort counts or whether any of it is moving customers."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "Operation Crush",
+      "body": [
+        "Intel formed a task force and set one objective: make the 8086 family the chip customers build on. The main key result was a number: **2,000 design wins** within a year.",
+        "Sales stopped arguing about specs. They sold the whole package instead: support, design tools, and Intel's roadmap of future chips. Teams across the company lined up their own goals behind the same target."
+      ],
+      "image": {
+        "label": "One objective at the top with team goals feeding into it",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 맨 위에 \"Objective: win the design battle\", 그 아래 \"Key result: 2,000 design wins\". 아래쪽 여러 팀(Sales, Marketing, Engineering, Support) 상자에서 화살표가 모두 같은 목표로 모임.",
+        "url": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Two questions behind every goal",
+      "body": [
+        "Andy Grove, then Intel's president, described his goal system in *High Output Management* (1983). Each goal answers two questions. **Where do I want to go?** That's the objective. **How will I pace myself to see if I'm getting there?** Those are the key results.",
+        "An objective gives direction. Key results make it checkable. At the end, you can look and say, without argument, whether you did it."
+      ],
+      "image": {
+        "label": "A destination flag with milestone markers along a road",
+        "aspectRatio": "16:9",
+        "brief": "길 끝에 깃발(\"Objective\")이 있고 길을 따라 숫자가 적힌 이정표 3개(\"Key results\")가 서 있는 일러스트. 따뜻한 색감, 단순한 선.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "What made Grove's goals work",
+      "body": [
+        "Grove's system followed a few simple rules:"
+      ],
+      "list": [
+        "**Few objectives.** He argued the system's main gift is focus, which needs a short list.",
+        "**Measurable results.** A key result is a number or a done/not-done fact.",
+        "**Short cycles.** Goals were reviewed often, so teams could correct course.",
+        "**Linked levels.** Team goals supported the company's goals."
+      ],
+      "callout": "Operation Crush used all four at once, under pressure.",
+      "softwareNote": "John Doerr learned this system at Intel and brought it to Google in 1999. Many software teams now set quarterly objectives with key results like activation rate or churn, using the same two questions."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The result",
+      "title": "The goal moved the whole company.",
+      "body": [
+        "By most accounts, Intel beat its 2,000 target within the year. One of the wins from that period was IBM choosing the 8088, a member of the 8086 family, for its first personal computer.",
+        "The chip didn't get better that year. What changed was focus. The key result counted the thing that mattered, customers committing, not effort spent or ads run."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Goals are a compass, not a contract.",
+      "body": [
+        "Grove warned against using the goal system as the legal basis for performance reviews. Tie pay tightly to key results, and people start setting easy targets they know they'll hit.",
+        "Numbers can also be gamed. A design win that never turns into real orders still counts as a win. Pair each key result with a check on quality, and judge people on the whole picture."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a renovation company.",
+      "illustrative": true,
+      "body": [
+        "You run a home renovation business with eight crews. Jobs often finish late, and reviews mention it. You're setting goals for next quarter. Which set would Grove approve of?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Objective: be the renovator that finishes on time. Key results: 90% of jobs done by the promised date, every client updated weekly",
+            "verdict": "best",
+            "feedback": "Clear direction and two numbers you can check. You give up working on everything else this quarter, which is the point."
+          },
+          {
+            "key": "B",
+            "text": "Ten goals: more leads, new website, new van, two hires, more reviews, and finishing on time",
+            "verdict": "risky",
+            "feedback": "Everything gets a little attention. The one problem customers complain about gets lost among the others."
+          },
+          {
+            "key": "C",
+            "text": "Objective: improve customer satisfaction across the business",
+            "verdict": "partial",
+            "feedback": "The direction is right, but nothing is measurable. At the end of the quarter, no one can say whether you got there."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Pick where to go, then decide how you'll know.",
+      "body": [
+        "Grove's goals worked because they were few, measurable and shared, so a whole company could move together in a crisis.",
+        "**Try it today:** write one objective for your business this quarter. Under it, add no more than three numbers that would prove you got there."
+      ],
+      "next": "Next · Set next quarter's goals"
+    }
+  ]
+}

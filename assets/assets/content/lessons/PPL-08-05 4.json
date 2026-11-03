@@ -1,0 +1,237 @@
+{
+  "id": "PPL-08-05",
+  "unitId": "PPL-08",
+  "categoryId": "PPL",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Running meetings",
+  "readerTitle": "The one-hour meeting that costs twelve hours",
+  "format": "numbers_twist",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (식당 주간 회의, 소프트웨어 스타트업 데일리 스탠드업) · 모든 수치는 설명용",
+  "insight": "회의 시간은 '1시간'이 아니라 '참석자 수 × 시간'이다. 그래서 회의는 먼저 결과(정할 것)를 정하고, 그 결과에 필요한 사람만 부른다.",
+  "misconception": "회의를 짧게 줄이면 회의 비용 문제는 해결된다. 모두가 참석해야 공정하고 정보가 잘 퍼진다.",
+  "relatedLessonIds": [
+    "PPL-08-01",
+    "PPL-01-03"
+  ],
+  "sources": [
+    {
+      "text": "회의 운영의 일반 원칙 (목적 정의, 참석자 선정, 결정·담당자·기한 정리)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "식당 주간 회의: 12명 × 1시간 = 12인시, 시급 $20 가정 시 $240/주, 연 50주 × $240 = $12,000. 30분 단축안: 12명 × 0.5시간 = 6인시 = $120/주.",
+      "status": "open"
+    },
+    {
+      "note": "대안: 서면 공지 12명 × 5분 = 60분(1인시) + 4명 × 20분 = 80분(약 1.33인시) = 약 2.33인시 × $20 ≈ $47/주, 연 50주 ≈ $2,333. 기존 대비 약 80% 감소.",
+      "status": "open"
+    },
+    {
+      "note": "스탠드업: 10명 × 45분 = 450분 = 7.5인시/일, × 주 5일 = 37.5인시/주 (풀타임 1명 근무시간에 가까움). 시급 가정 없이 시간으로만 표기.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "People · Numbers twist",
+      "title": "The one-hour meeting that costs twelve hours",
+      "illustrative": true,
+      "body": [
+        "Every Monday at 3 p.m., a restaurant owner gathers all 12 staff for an hour. Sales updates, the rota, a new supplier, and then the new autumn menu.",
+        "On the calendar it's one hour. On the payroll it's twelve."
+      ],
+      "image": {
+        "label": "Twelve staff around restaurant tables, each with a small clock",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 영업 전 식당, 테이블을 붙여 12명의 직원(셰프, 서버, 바텐더)이 둘러앉음. 각 사람 머리 위에 작은 1시간짜리 시계. 벽시계는 3시. 실제 브랜드나 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How would you cut the cost of Monday's meeting?",
+      "illustrative": true,
+      "body": [
+        "Most of the hour is updates. Only one item needs a real decision: how to roll out the new menu. Four people decide that: the owner, the head chef, the floor manager and the bar lead.",
+        "What change saves the most staff time without losing anything important?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep everyone, but cut the meeting to 30 minutes",
+            "verdict": "partial",
+            "feedback": "It halves the cost, but the menu decision gets squeezed into a rushed slot with eight people who don't need to be there."
+          },
+          {
+            "key": "B",
+            "text": "Send updates in a short written note, then meet 20 minutes with only the four people deciding the menu",
+            "verdict": "best",
+            "feedback": "Everyone still gets the news, and the decision gets focused time. It trades a shared moment for about 80% of the hours back. Next card shows the math."
+          },
+          {
+            "key": "C",
+            "text": "Keep the hour, but send an agenda the day before",
+            "verdict": "risky",
+            "feedback": "An agenda helps people prepare, but twelve people still spend an hour on items that mostly involve four of them."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Count people, not minutes.",
+      "illustrative": true,
+      "body": [
+        "Assume staff earn about $20 an hour. The written note takes each person about 5 minutes to read. The new setup costs around **$47 a week** instead of $240."
+      ],
+      "breakdown": [
+        {
+          "value": "12 hours",
+          "label": "Old meeting",
+          "detail": "12 people × 1 hour, every week",
+          "highlight": false
+        },
+        {
+          "value": "$12,000",
+          "label": "A year of Mondays",
+          "detail": "$240 a week × 50 weeks",
+          "highlight": false
+        },
+        {
+          "value": "6 hours",
+          "label": "Option A: 30 minutes",
+          "detail": "Half the cost, same crowd",
+          "highlight": false
+        },
+        {
+          "value": "≈2.3 hours",
+          "label": "Option B: note + small meeting",
+          "detail": "1 hour of reading + 4 people × 20 minutes",
+          "highlight": true
+        }
+      ],
+      "callout": "Shortening a meeting cuts minutes. Choosing who attends cuts hours."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Running a meeting starts before it begins",
+      "body": [
+        "A meeting spends the time of everyone in the room at once. So **running meetings** well means deciding, before anyone sits down, what the meeting must produce.",
+        "Most meetings do one of three jobs: share information, make a decision, or solve a problem together. Sharing information rarely needs everyone in a room. Decisions and problem-solving do, but only with the people who can contribute or must act."
+      ],
+      "image": {
+        "label": "Three doors labeled Inform, Decide, Solve",
+        "aspectRatio": "16:9",
+        "brief": "세 개의 문 일러스트. \"Inform\" 문 앞에는 메모지와 휴대폰 알림, \"Decide\" 문 앞에는 4개의 의자, \"Solve\" 문 앞에는 화이트보드. 단순하고 밝은 색감.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Four habits of a meeting worth its hours",
+      "body": [
+        "Each habit answers one question about the meeting."
+      ],
+      "list": [
+        "**Before:** write the outcome in one sentence. *\"We leave with a launch date for the new menu.\"*",
+        "**Invite:** who decides, who knows something needed, who must act on the result. Everyone else gets a note.",
+        "**During:** start with the question, not with updates.",
+        "**End:** read back each decision, who owns it and by when."
+      ],
+      "callout": "If you can't write the outcome sentence, you may not need the meeting yet."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The other side",
+      "title": "Sometimes the whole team should be there.",
+      "illustrative": true,
+      "body": [
+        "The same restaurant holds a 10-minute huddle before every dinner service: tonight's specials, dishes that have run out, a big table at eight. All 12 attend.",
+        "That's 2 staff-hours a night, and it's worth it. Every person acts on what they hear within minutes. The rule isn't \"fewer people.\" It's that **everyone in the room needs what the meeting produces.**"
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Not every hour in a meeting is wasted.",
+      "body": [
+        "Meetings also build trust, let people be heard and catch problems nobody wrote down. Cut them all and people start working blind.",
+        "Written updates only work if people actually read them. Keep notes short and check that they land.",
+        "And don't use the cost math to shut out the people who see the problem up close. A server may know why a dish isn't selling."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software team's daily standup.",
+      "illustrative": true,
+      "body": [
+        "A startup's 10 engineers and designers meet every morning for a \"15-minute\" standup. Each person reads out yesterday's work. It usually runs 45 minutes.",
+        "That's 7.5 people-hours a day, or 37.5 a week, close to one full-time person. What would you change?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Post daily updates in a shared written channel, and keep 15 minutes only for blockers, with just the people involved",
+            "verdict": "best",
+            "feedback": "Updates still flow, and the meeting time goes to problems that need people talking. You trade the ritual of everyone speaking for most of those hours back."
+          },
+          {
+            "key": "B",
+            "text": "Cancel the standup completely",
+            "verdict": "risky",
+            "feedback": "It frees all the hours, but blockers may sit unseen for days. A small daily meeting with a clear job is cheap insurance."
+          },
+          {
+            "key": "C",
+            "text": "Keep the format, but use a strict 15-minute timer",
+            "verdict": "partial",
+            "feedback": "It cuts the cost to a third, but ten people still listen to updates they could read in a minute."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A meeting costs its length times everyone in it.",
+      "body": [
+        "Decide what the meeting must produce, invite only the people that outcome needs, and end with who does what by when.",
+        "**Try it today:** pick your next recurring meeting. Multiply attendees by its length, then write its outcome in one sentence."
+      ],
+      "next": "Next · Why a story moves people that a list of facts can't"
+    }
+  ]
+}

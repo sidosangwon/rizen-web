@@ -1,0 +1,249 @@
+{
+  "id": "STR-07-06",
+  "unitId": "STR-07",
+  "categoryId": "STR",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Build, buy or partner",
+  "readerTitle": "Build, buy or partner: why the cheaper option on paper can cost more",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.4,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (유통회사 운영팀의 배송 경로 소프트웨어, 철물점 체인의 당일 배송) · 모든 수치는 설명용",
+  "insight": "새 역량을 만들지, 사을지, 제휴할지는 가격표가 아니라 '기다리는 동안 잃는 돈'과 '그 역량이 고객이 우리를 고르는 이유인가'로 판단한다.",
+  "misconception": "직접 만들면 한 번만 돈을 내니 매년 돈을 내는 구매나 제휴보다 싸다.",
+  "relatedLessonIds": [
+    "STR-07-04",
+    "ECO-01-03"
+  ],
+  "sources": [
+    {
+      "text": "Capron, L. & Mitchell, W. (2012). Build, Borrow, or Buy: Solving the Growth Dilemma. Harvard Business Review Press.",
+      "url": null
+    },
+    {
+      "text": "경영 전략의 표준 개념 (make-or-buy 결정, 기회비용)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 설명용 가상 수치입니다. 가격표 비교: 직접 개발 $120,000 vs 구매 $5,000 × 36개월 = $180,000, 차이 $60,000.",
+      "status": "open"
+    },
+    {
+      "note": "3년 전체 비용: 직접 개발은 9개월 뒤 가동되어 10~36개월차 27개월 사용. 유지비 $2,500 × 27 = $67,500. 놓친 절감액 $20,000 × 9 = $180,000. 합계 $120,000 + $67,500 + $180,000 = $367,500. 구매는 $180,000 + 놓친 절감액 $20,000 × 1 = $200,000. 차이 $167,500.",
+      "status": "open"
+    },
+    {
+      "note": "Capron & Mitchell(2012)의 서지 정보(출판사, 연도)를 게시 전에 확인하세요. 카드 본문에서는 인용하지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Strategy · Numbers twist",
+      "title": "Building it yourself looks $60,000 cheaper.",
+      "illustrative": true,
+      "body": [
+        "An operations team at a distribution company needs route-planning software. The company's IT group can build it for $120,000. A vendor rents a ready-made tool for $60,000 a year.",
+        "Over three years, building looks like the bargain. Run the full numbers and it costs almost twice as much."
+      ],
+      "image": {
+        "label": "Two price tags: one small, one big, with a calendar behind the small one",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 왼쪽에 작은 가격표 \"$120,000 Build\", 오른쪽에 큰 가격표 \"$180,000 Buy\". 작은 가격표 뒤에 9장이 넘어가는 달력이 그림자처럼 길게 늘어져 있음. 실제 소프트웨어 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/str-07-06-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Build or buy the routing tool?",
+      "illustrative": true,
+      "body": [
+        "You lead the operations team. The tool should save about $20,000 a month in fuel and overtime.",
+        "**Build:** $120,000, ready in 9 months, then about $2,500 a month to maintain. **Buy:** $5,000 a month, live in 1 month. Over three years, which costs less?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Build. $120,000 once beats $180,000 in rent",
+            "verdict": "risky",
+            "feedback": "You compared price tags only. That misses the upkeep and the nine months of savings you don't get while you wait."
+          },
+          {
+            "key": "B",
+            "text": "Buy. Going live 8 months sooner is worth more than the price gap",
+            "verdict": "best",
+            "feedback": "Right. Every month without the tool costs $20,000 in savings you never see. Speed is the biggest number here."
+          },
+          {
+            "key": "C",
+            "text": "They're close, so build for the extra control",
+            "verdict": "partial",
+            "feedback": "Control has real value, and sometimes it's worth paying for. But here the gap isn't close. The next card shows how wide it is."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "The price tag is the smallest part.",
+      "illustrative": true,
+      "body": [
+        "**Build:** $120,000 + $67,500 upkeep (27 months) + $180,000 in missed savings (9 months) = **$367,500**.",
+        "**Buy:** $180,000 + $20,000 in missed savings (1 month) = $200,000. Buying wins by $167,500."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Price tags only",
+            "rows": [
+              {
+                "label": "Build",
+                "value": 120000,
+                "highlight": false
+              },
+              {
+                "label": "Buy",
+                "value": 180000,
+                "highlight": false
+              }
+            ]
+          },
+          {
+            "label": "Full three-year cost",
+            "rows": [
+              {
+                "label": "Build",
+                "value": 367500,
+                "highlight": true
+              },
+              {
+                "label": "Buy",
+                "value": 200000,
+                "highlight": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Build, buy or partner",
+      "body": [
+        "When you need a capability you don't have, there are three ways to get it. **Build** it yourself: most control, but slowest, and you carry the upkeep. **Buy** it, as a product or even a whole company: fastest, but you pay up front or forever.",
+        "**Partner** with someone who already has it: quick and cheaper, but you depend on them and share the reward."
+      ],
+      "image": {
+        "label": "Three paths to the same goal: a toolbox, a shopping bag, a handshake",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 왼쪽에 \"Need: new capability\", 오른쪽으로 세 갈래 길. 공구상자 \"Build: control, slow\", 쇼핑백 \"Buy: fast, costly\", 악수 \"Partner: shared, dependent\". 실제 기업 로고 없음.",
+        "url": "assets/images/str-07-06-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Two questions decide most cases.",
+      "body": [
+        "Price tags rarely settle it. Ask these instead:"
+      ],
+      "list": [
+        "**Is this why customers choose us?** If yes, control matters, so lean toward building.",
+        "**What does each month of waiting cost?** If a lot, lean toward buying or partnering.",
+        "**Do we need something we can't easily own,** like someone else's customers, network or licenses? Then partner."
+      ],
+      "callout": "Build what makes you different. Buy or borrow the rest."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The other side",
+      "title": "When the expensive option is the right one.",
+      "illustrative": true,
+      "body": [
+        "Now imagine the company wins contracts because its trucks arrive in tighter time windows than any rival's. Routing isn't support work anymore. It's the reason customers sign.",
+        "A rented tool your rivals can rent too won't keep you ahead. The $167,500 gap might be the price of an edge nobody can copy."
+      ],
+      "softwareNote": "Software founders face this daily. Few build their own payments or login systems. They rent them and spend scarce engineers on the features customers actually pay for."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Each path hides a cost.",
+      "body": [
+        "Build estimates often run late, and here every extra month costs $20,000. Buying a whole company is harder than buying software: people, systems and habits have to be merged, and that can take years.",
+        "Partners can raise prices, get bought or lose interest. Some learn your business well enough to compete with you. Before partnering, decide what you'd do if they walked away."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a hardware store chain.",
+      "illustrative": true,
+      "body": [
+        "You run 12 hardware stores. Customers keep asking for same-day delivery. You don't know how many orders you'd get, and delivery isn't what you're known for. Your edge is expert staff and stock.",
+        "How do you add delivery?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Partner with a local delivery service, paid per order",
+            "verdict": "best",
+            "feedback": "You're live in weeks and pay only when orders come in. You give up some control and margin, but you learn real demand before committing."
+          },
+          {
+            "key": "B",
+            "text": "Buy a small local courier business",
+            "verdict": "partial",
+            "feedback": "You'd get drivers and control fast. But you'd take on a whole company and its costs before knowing if customers will order enough."
+          },
+          {
+            "key": "C",
+            "text": "Build your own fleet: 10 vans and drivers for all stores",
+            "verdict": "risky",
+            "feedback": "Full control, but slow and costly up front. You'd be paying vans and wages for demand you haven't seen yet, for something that isn't your edge."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Build what makes you different. Buy or partner for the rest.",
+      "body": [
+        "Count what waiting costs, not just the price tag, and ask whether the capability is why customers pick you.",
+        "**Try it today:** pick one project you plan to do in-house. Write down how many months it will take and what each month without it costs."
+      ],
+      "next": "Next · A bakery's next step"
+    }
+  ]
+}

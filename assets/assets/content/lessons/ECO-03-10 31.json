@@ -1,0 +1,245 @@
+{
+  "id": "ECO-03-10",
+  "unitId": "ECO-03",
+  "categoryId": "ECO",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Three shops on one street",
+  "readerTitle": "Three dry cleaners on one street: a year of pricing calls",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (한 거리의 세탁소 세 곳, 치과 체인 유니폼 계약) · 모든 수치와 상황은 설명용",
+  "insight": "한 가게도 상품마다 다른 시장 구조 안에 있다. 가격을 정하기 전에 '이 상품의 시장은 어떤 모양인가'를 먼저 본다.",
+  "misconception": "경쟁자가 있으면 가격을 더 낮추는 쪽이 이긴다. 그리고 한 사업은 하나의 시장에만 속한다.",
+  "relatedLessonIds": [
+    "ECO-03-04",
+    "ECO-03-03"
+  ],
+  "sources": [
+    {
+      "text": "미시경제학 표준 개념 (완전경쟁, 가격 수용자와 가격 설정자, 과점, 보완재)",
+      "url": null
+    },
+    {
+      "text": "모든 상황과 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 가격($3, $2.50, $2.25)과 거리(200미터)는 설명용 가상 수치입니다. 실제 시장 데이터가 아닙니다.",
+      "status": "open"
+    },
+    {
+      "note": "6번 카드의 '경쟁사와 가격을 합의하는 것은 많은 나라의 경쟁법이 금지한다'는 일반적 설명입니다. 특정 국가의 법률 조언이 아니며, 문구가 일반론을 넘지 않는지 게시 전에 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Economics · Simulation",
+      "title": "Three dry cleaners, one street, one price",
+      "illustrative": true,
+      "body": [
+        "On Elm Street, three dry cleaners sit within 200 meters of each other. All three charge $3 to clean a shirt.",
+        "You just bought the middle one. Over the next year you'll make four calls. Each one tests a different idea about how markets work."
+      ],
+      "image": {
+        "label": "Three small dry cleaners side by side on one street",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 한 거리에 나란히 선 작은 세탁소 세 곳. 세 곳 모두 창문에 \"Shirts $3\" 표지. 가운데 가게만 살짝 밝은 조명으로 강조. 실제 브랜드 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/eco-03-10-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 4",
+      "title": "How do you price a shirt?",
+      "illustrative": true,
+      "body": [
+        "Customers see the three shops as the same. A clean shirt is a clean shirt, and the next shop is a one-minute walk away.",
+        "You want to grow fast. What do you charge?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "$2.50, to pull customers from both rivals",
+            "verdict": "risky",
+            "feedback": "Your banner is visible from both shops. Within a week they match, and all three earn less on every shirt."
+          },
+          {
+            "key": "B",
+            "text": "$3, the same as everyone else",
+            "verdict": "best",
+            "feedback": "You keep steady volume and a normal margin. For an identical service, the street sets the price and you accept it."
+          },
+          {
+            "key": "C",
+            "text": "$3.75, because your shop is newly renovated",
+            "verdict": "risky",
+            "feedback": "Nice paint doesn't change the shirt. Customers walk 100 meters and you lose regulars."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 4",
+      "title": "Where can you set your own price?",
+      "illustrative": true,
+      "body": [
+        "Say you chose $3. Business is steady, but shirts leave a thin margin and you can't raise their price alone.",
+        "You have a skilled tailor on staff two days a week. What do you add?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Same-day alterations and repairs, which neither rival offers",
+            "verdict": "best",
+            "feedback": "Nobody nearby can do it, so you set this price yourself. Repair jobs soon earn more per hour than shirts."
+          },
+          {
+            "key": "B",
+            "text": "Longer opening hours",
+            "verdict": "partial",
+            "feedback": "It wins some late commuters, but a rival can copy it next Monday. It adds cost without giving you pricing room."
+          },
+          {
+            "key": "C",
+            "text": "A loyalty card: tenth shirt free",
+            "verdict": "risky",
+            "feedback": "It's a 10% price cut in disguise. Rivals launch their own cards and the street's margin shrinks again."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 4",
+      "title": "A rival cuts shirts to $2.50.",
+      "illustrative": true,
+      "body": [
+        "Say you added alterations. Six months later, the shop on the corner hangs a banner: *Shirts $2.50*.",
+        "Many of your repair jobs come from people dropping off shirts. How do you respond?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Hold at $3 and rely on your alterations",
+            "verdict": "partial",
+            "feedback": "You keep the shirt margin, but fewer people walk in. Repair orders slip, because shirts were bringing those customers to you."
+          },
+          {
+            "key": "B",
+            "text": "Match $2.50 on shirts only, keep alteration prices",
+            "verdict": "best",
+            "feedback": "You protect the foot traffic that feeds your profitable service without starting a deeper fight. The corner shop gains little and the war stalls."
+          },
+          {
+            "key": "C",
+            "text": "Go to $2.25 and win the street",
+            "verdict": "risky",
+            "feedback": "With only three shops, every move gets answered. The third shop follows, and soon nobody earns money on shirts."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "Software has the same pattern. Basic features in a crowded category behave like shirts: a few rivals watch each other's pricing pages and match fast. Pricing room usually lives in the parts only you offer, such as a special integration or workflow."
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 4 of 4",
+      "title": "A clinic chain wants a uniform contract.",
+      "illustrative": true,
+      "body": [
+        "Say you matched on shirts. A chain of four dental clinics asks all three shops to bid on cleaning its staff uniforms every week.",
+        "What do you send them?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The lowest price per item you can stand",
+            "verdict": "risky",
+            "feedback": "You may win, but on price alone. Next year a rival bids a cent lower and the contract leaves with them."
+          },
+          {
+            "key": "B",
+            "text": "The normal price, plus weekly pickup, delivery and free repairs",
+            "verdict": "best",
+            "feedback": "The package is hard to compare line by line, and only you can include repairs. The clinics choose on convenience, and switching later means losing the repairs."
+          },
+          {
+            "key": "C",
+            "text": "Decline. Business contracts aren't your trade",
+            "verdict": "partial",
+            "feedback": "You stay focused, but your machines sit idle midweek. That capacity could have earned money with little added cost."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "What the street taught you",
+      "title": "One shop, three different markets.",
+      "illustrative": true,
+      "body": [
+        "Notice that your shop never sat in just one market. Plain shirts behaved like a **commodity**: identical service, many nearby options, a price you had to accept.",
+        "Alterations were nearly yours alone, so you could set the price. And the shirt price war was a small-group contest, where each move gets answered.",
+        "The right pricing move depended less on your costs than on **which market each service was in**."
+      ],
+      "image": {
+        "label": "One shop split into three zones: shirts, alterations, contracts",
+        "aspectRatio": "16:9",
+        "brief": "가운데 세탁소 단면을 세 구역으로 나눈 인포그래픽. \"Shirts: price set by the street\", \"Alterations: price set by you\", \"Contracts: price set by bidding\". 각 구역마다 다른 색. 로고 없음.",
+        "url": "assets/images/eco-03-10-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Advantages fade, and matching has a line.",
+      "body": [
+        "Your alteration edge lasts only until a rival hires a tailor. Special services need refreshing, or they slowly become commodities too.",
+        "And there's a line between watching rivals and talking to them. Seeing a banner and responding is normal competition. Agreeing with rivals on prices is collusion, which competition laws in many countries forbid."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Before you set a price, ask what kind of market that product is in.",
+      "body": [
+        "Here is how your four calls map to this unit:"
+      ],
+      "list": [
+        "**Shirts at $3:** a commodity, so you were a price taker",
+        "**Alterations:** something only you offered, so you were a price maker",
+        "**Matching the cut:** few rivals watching each other, an oligopoly",
+        "**The uniform bid:** shirts and repairs as complements that make your offer hard to replace"
+      ],
+      "callout": "**Try it today:** list your top three products. For each, write whether customers could get the same thing next door.",
+      "next": "Next · How a commodity becomes a habit customers won't switch"
+    }
+  ]
+}

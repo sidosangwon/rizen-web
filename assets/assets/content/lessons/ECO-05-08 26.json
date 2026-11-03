@@ -1,0 +1,248 @@
+{
+  "id": "ECO-05-08",
+  "unitId": "ECO-05",
+  "categoryId": "ECO",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "Redesign a software pricing page",
+  "readerTitle": "Two small changes to a pricing page that nobody reads closely",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (대형 은행 안의 앱 팀, 화물 운송 회사) · 모든 수치는 설명용 · 개념 근거는 앵커링·디코이 연구",
+  "insight": "가격표를 바꿀 때는 가격을 내리기보다 고객이 무엇과 비교하게 될지를 먼저 설계한다.",
+  "misconception": "상위 플랜 가입을 늘리려면 상위 플랜 가격을 내려야 한다.",
+  "relatedLessonIds": [
+    "ECO-05-01",
+    "ECO-05-03"
+  ],
+  "sources": [
+    {
+      "text": "Tversky, A. & Kahneman, D. (1974). Judgment under Uncertainty: Heuristics and Biases. Science.",
+      "url": null
+    },
+    {
+      "text": "Huber, J., Payne, J. W. & Puto, C. (1982). Adding Asymmetrically Dominated Alternatives. Journal of Consumer Research.",
+      "url": null
+    },
+    {
+      "text": "앱 팀과 운송 회사 사례, 모든 가격과 가입 비율은 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 설명용 가상 수치입니다. 계산 확인: Pro $39 − Starter Plus $35 = $4. Starter Plus(리마인더 20건)가 Pro(무제한 리마인더 + 은행 거래 연동)보다 $4만 싸고 기능은 명확히 적어 비대칭 열위(디코이) 조건을 만족합니다.",
+      "status": "open"
+    },
+    {
+      "note": "운송 사례: Economy 7일 $400, Priority 4일 $650, Express 2일 $1,200, Standard 5일 $630, Saver 10일 $300. Standard는 Priority보다 $20 싸고 하루 느려 Priority를 돋보이게 하는 디코이 역할입니다. 모두 가상 수치입니다.",
+      "status": "open"
+    },
+    {
+      "note": "앵커링·디코이 효과의 크기는 상황마다 다르며, 신중히 비교하는 B2B 구매자에게는 약할 수 있다는 점을 Watch out 카드에 반영했습니다. 특정 효과 크기 수치는 인용하지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Pricing psychology · Apply",
+      "title": "Two small changes to a pricing page that nobody reads closely",
+      "illustrative": true,
+      "body": [
+        "A team of four inside a large regional bank runs an invoicing app for small-business clients. The pricing page shows two plans: Starter at $15 a month and Pro at $39.",
+        "Nine in ten sign-ups pick Starter. Yet Pro includes automatic payment reminders, the feature late-paid business owners need most. The team's boss wants more Pro sign-ups, without cutting any price."
+      ],
+      "image": {
+        "label": "A simple two-plan pricing page on a laptop",
+        "aspectRatio": "4:3",
+        "brief": "노트북 화면에 단순한 요금제 페이지. 왼쪽 \"Starter $15\" 카드에 사람 아이콘이 잔뜩 몰려 있고, 오른쪽 \"Pro $39\" 카드는 한산함. 실제 은행이나 앱 로고는 쓰지 않음.",
+        "url": "assets/images/eco-05-08-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What do you change first?",
+      "illustrative": true,
+      "body": [
+        "Some clients have staff and an outside accountant. They have asked for multi-user access, which the team could offer as a real plan.",
+        "Which first move best lifts Pro sign-ups?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Cut Pro to $29 so the gap with Starter looks smaller",
+            "verdict": "risky",
+            "feedback": "You may win some sign-ups, but you give up $10 on every Pro client. The page still asks people to compare Pro with a cheaper plan."
+          },
+          {
+            "key": "B",
+            "text": "Add a real $99 Business plan with multi-user access, shown first",
+            "verdict": "best",
+            "feedback": "This is **anchoring**: the first big number becomes the reference point. Next to $99, $39 reads as the sensible middle, and some firms will buy Business too."
+          },
+          {
+            "key": "C",
+            "text": "Put a \"Most popular\" badge on Pro",
+            "verdict": "partial",
+            "feedback": "A badge can nudge, and it's cheap to try. But Pro is still the most expensive plan in view, so the reference point hasn't moved."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "Concept at work · Anchoring",
+      "title": "The first number sets the scale.",
+      "body": [
+        "People judge prices by comparison. The first price they see tends to become the yardstick for the rest.",
+        "With only Starter and Pro, $39 was \"the expensive one.\" With Business at $99 shown first, $39 becomes the middle option. Nothing about Pro changed. Its neighbours did.",
+        "The anchor must be a plan someone would really buy. Here, firms with staff need it, so it earns money on its own."
+      ],
+      "image": {
+        "label": "Price scale moving as a $99 plan appears",
+        "aspectRatio": "16:9",
+        "brief": "가로 눈금자 두 개 비교. 위쪽 눈금은 $15~$39로 짧고 $39가 끝에 있어 \"expensive\"로 표시. 아래쪽 눈금은 $15~$99로 길고 $39가 가운데쯤 \"middle\"로 표시.",
+        "url": "assets/images/eco-05-08-c3.jpg"
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Starter still pulls people who need reminders.",
+      "illustrative": true,
+      "body": [
+        "Pro is $39: unlimited reminders plus bank-feed syncing. Many Starter clients chase late payments by hand. Which extra plan helps them see Pro as the clear pick?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Starter Plus at $35: Starter plus 20 reminders a month",
+            "verdict": "best",
+            "feedback": "This is the **decoy effect**. Starter Plus is close to Pro's price but clearly worse, so Pro looks like the obvious upgrade. Some clients will still buy Starter Plus, which is fine."
+          },
+          {
+            "key": "B",
+            "text": "A $25 plan with 50 reminders a month",
+            "verdict": "partial",
+            "feedback": "It may pull some clients up from Starter, but it's a genuine bargain, so some would-be Pro buyers settle for it instead."
+          },
+          {
+            "key": "C",
+            "text": "Remove Starter so everyone starts at Pro",
+            "verdict": "risky",
+            "feedback": "You lose price-sensitive clients entirely, and Pro becomes the cheapest plan in view instead of the smart middle."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "breakdown",
+      "eyebrow": "The new page",
+      "title": "Same Pro plan, new neighbours.",
+      "illustrative": true,
+      "body": [
+        "Pro's price and features didn't change. What changed is what it sits next to."
+      ],
+      "breakdown": [
+        {
+          "value": "$99",
+          "label": "Business",
+          "detail": "Shown first. A real plan for firms with staff. The anchor.",
+          "highlight": false
+        },
+        {
+          "value": "$39",
+          "label": "Pro",
+          "detail": "Unlimited reminders, bank feeds. The plan most clients need.",
+          "highlight": true
+        },
+        {
+          "value": "$35",
+          "label": "Starter Plus",
+          "detail": "Only 20 reminders, for $4 less. The decoy.",
+          "highlight": false
+        },
+        {
+          "value": "$15",
+          "label": "Starter",
+          "detail": "Entry plan for the very price-sensitive",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "These nudges are small, and trust is big.",
+      "body": [
+        "Both effects are real but modest. Business buyers who compare carefully feel them less. A fake anchor or a plan nobody should buy can look like a trick, which costs a bank more than a few sign-ups.",
+        "So keep every plan honest and useful. Then test: show the new page to half of visitors for a few weeks. Track sign-ups, but also downgrades and refunds. More Pro sign-ups that cancel in a month aren't a win."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a freight company's quote page.",
+      "illustrative": true,
+      "body": [
+        "Shippers see two options: Economy, 7 days, $400, and Priority, 4 days, $650. Most pick Economy, though many later complain about delays.",
+        "Which third option best helps Priority?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Express: 2 days, $1,200, listed first",
+            "verdict": "best",
+            "feedback": "**Anchoring** with a real service. Priority now sits in the middle, and urgent shippers who pick Express bring extra revenue."
+          },
+          {
+            "key": "B",
+            "text": "Standard: 5 days, $630",
+            "verdict": "partial",
+            "feedback": "A classic **decoy**: one day slower for only $20 less makes Priority look better. But you must run a service you hope nobody picks, and careful shippers may feel played."
+          },
+          {
+            "key": "C",
+            "text": "Saver: 10 days, $300",
+            "verdict": "risky",
+            "feedback": "This shifts the comparison downward. Economy becomes the middle choice, and Priority looks even pricier."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "The same page logic works for the bank's app: the anchor and the decoy are just plans instead of delivery speeds."
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Design what customers compare, not just what they pay.",
+      "body": [
+        "You used two ideas. **Anchoring:** a real, higher option shown first resets what feels expensive. **The decoy effect:** a slightly worse option near your target makes the target the easy choice.",
+        "**Try it today:** open your own price list. Write down what your key offer sits next to, and ask whether that comparison helps or hurts it."
+      ],
+      "next": "Next · Costco's $1.50 hot dog"
+    }
+  ]
+}

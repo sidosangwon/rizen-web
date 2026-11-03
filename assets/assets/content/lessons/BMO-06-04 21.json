@@ -1,0 +1,226 @@
+{
+  "id": "BMO-06-04",
+  "unitId": "BMO-06",
+  "categoryId": "BMO",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Annual vs monthly",
+  "readerTitle": "Why selling a year up front can quietly cost you",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.2,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (동네 반려동물 용품점의 사료 정기배송, 물리치료 클리닉용 예약 소프트웨어) · 모든 수치는 설명용",
+  "insight": "연간 결제 할인은 대개 어차피 남을 충성 고객에게 돌아간다. 그 대가로 얻는 것은 현금과 약정이고, 잃는 것은 매달 들어오던 고객 신호다.",
+  "misconception": "연간 선결제는 현금이 먼저 들어오고 이탈이 줄어드니 언제나 월 결제보다 낫다.",
+  "relatedLessonIds": [
+    "BMO-06-02",
+    "BMO-06-05"
+  ],
+  "sources": [
+    {
+      "text": "구독 결제 주기(연간·월간)에 대한 일반적인 경영 원리 (자기 선택, 선수금, 갱신 시점 집중)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "계산 확인: 연간 플랜 $30 × 10개월 = $300(두 달 무료). 60명 × $300 = $18,000. 같은 60명이 월 결제로 1년 유지 시 60 × $30 × 12 = $21,600. 차이 $3,600. 연간 고객이 모두 1년 내내 남았을 것이라는 가정은 설명용입니다.",
+      "status": "open"
+    },
+    {
+      "note": "소프트웨어 사례(월 $100, 연간 40% 할인)는 가상 수치입니다. 실제 업계 평균 할인율이나 이탈률은 인용하지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "선수금(prepaid revenue)은 회계상 서비스 제공 전까지 수익이 아니라는 점은 일반 원리로만 서술했고, 특정 국가의 회계·세무 기준은 다루지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business models · Counterexample",
+      "title": "Sixty customers paid a year in advance. It cost the shop $3,600.",
+      "illustrative": true,
+      "body": [
+        "A neighborhood pet supply shop started delivering dog food for $30 a month. Then it offered an annual plan: pay $300 up front and get two months free.",
+        "Sixty of its 100 subscribers took the deal. The owner celebrated the cash in the bank. The cash was real. So was the cost."
+      ],
+      "image": {
+        "label": "Pet shop counter with a stack of cash and a calendar",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 일러스트. 작은 반려동물 용품점 계산대 위에 현금 더미와 12개월 달력. 달력의 마지막 달에만 빨간 동그라미. 사료 포대가 뒤에 쌓여 있음. 실제 브랜드 로고는 쓰지 않음.",
+        "url": "assets/images/bmo-06-04-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Who takes the annual plan?",
+      "illustrative": true,
+      "body": [
+        "Before you see the numbers: which customers do you think chose to pay a full year up front?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Hesitant customers who wanted a discount to try it out",
+            "verdict": "risky",
+            "feedback": "People who aren't sure they'll stay rarely commit to 12 months. The discount mostly never reaches them."
+          },
+          {
+            "key": "B",
+            "text": "The most loyal customers, who were going to stay anyway",
+            "verdict": "best",
+            "feedback": "Right. Only confident customers prepay, so the discount went to people who would likely have paid full price."
+          },
+          {
+            "key": "C",
+            "text": "A fairly random mix of customers",
+            "verdict": "partial",
+            "feedback": "There's some mix, but people pick a plan based on how sure they are. The choice sorts them, so it isn't random."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Follow the sixty.",
+      "illustrative": true,
+      "breakdown": [
+        {
+          "value": "$18,000",
+          "label": "Cash on day one",
+          "detail": "60 × $300",
+          "highlight": false
+        },
+        {
+          "value": "$21,600",
+          "label": "Paying monthly all year",
+          "detail": "60 × $30 × 12",
+          "highlight": false
+        },
+        {
+          "value": "−$3,600",
+          "label": "Discount given away",
+          "detail": "Paid to people who'd have stayed",
+          "highlight": true
+        }
+      ],
+      "callout": "The annual buyers had ordered for years. They also all reached renewal in the same month."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Annual vs monthly billing",
+      "body": [
+        "**Monthly billing** lets customers leave at any time. You collect less up front, but every month each customer quietly votes on whether you're still worth it.",
+        "**Annual billing** asks for a year's payment now, usually in exchange for a discount. You get cash and commitment. You pay with the discount, and you swap twelve small votes for one big one.",
+        "Neither is better. Each buys something different."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "The plan choice sorts your customers.",
+      "body": [
+        "When you offer both, customers pick for themselves:"
+      ],
+      "list": [
+        "**Sure customers pick annual,** so the discount reaches people who'd stay anyway",
+        "**Unsure customers pick monthly,** so their cancellations stay visible",
+        "**Unhappy annual customers stay silent** until renewal",
+        "**Renewal month bunches up churn** into one big moment"
+      ],
+      "callout": "An annual discount is a price cut for your best customers. Make sure you get something back.",
+      "softwareNote": "In software, annual plans often come with a month or two free. Check that against your real monthly churn: if few users leave anyway, the discount buys very little commitment."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "When annual wins",
+      "title": "Sometimes the cash does real work.",
+      "body": [
+        "Annual billing earns its discount when the cash or the commitment matters. A distributor that must buy a season's stock in advance can fund it with prepaid orders. A lawn treatment program that takes months to show results keeps customers through the slow start.",
+        "Monthly billing earns its place when the offer is new. Each cancellation is a lesson that arrives in time to act on it."
+      ],
+      "image": {
+        "label": "Scale weighing cash now against monthly feedback",
+        "aspectRatio": "16:9",
+        "brief": "저울 인포그래픽. 왼쪽 접시에 \"Cash up front + commitment\" 라벨의 동전 더미, 오른쪽 접시에 \"Price + monthly feedback\" 라벨의 작은 말풍선 12개. 저울은 수평에 가깝게.",
+        "url": "assets/images/bmo-06-04-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Prepaid cash isn't earned yet.",
+      "body": [
+        "Annual money arrives before you deliver. Spend it like profit and month nine can get tight, with deliveries still owed. Refund requests also hurt more when they cover a whole year.",
+        "Prices get locked, too. If the shop's supplier raised dog food prices mid-year, every annual customer would still pay the old rate until renewal."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's booking software for clinics.",
+      "illustrative": true,
+      "body": [
+        "Your six-month-old startup sells appointment booking to small physio clinics for $100 a month. You're still fixing features clinics ask for. An adviser says to push everyone onto annual plans at 40% off for the cash."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Do it: more cash now and fewer cancellations",
+            "verdict": "risky",
+            "feedback": "You'd cut price 40% for your keenest clinics and lose the monthly churn signal that shows what's broken while you can still fix it."
+          },
+          {
+            "key": "B",
+            "text": "Keep monthly as the default and offer annual at a modest discount",
+            "verdict": "best",
+            "feedback": "You keep learning from monthly users while confident clinics lock in, without giving much away."
+          },
+          {
+            "key": "C",
+            "text": "Offer monthly only, with no annual plan",
+            "verdict": "partial",
+            "feedback": "The feedback stays clean, but you turn away cash and commitment some clinics would gladly give you."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "An annual plan is a trade, not a win.",
+      "body": [
+        "You buy cash and commitment with a discount and with less feedback. Choose the plan that buys what you need most right now.",
+        "**Try it today:** list your prepaid or annual customers. How many would have stayed all year anyway? That's who your discount is paying."
+      ],
+      "next": "Next · How long does a customer really stay?"
+    }
+  ]
+}

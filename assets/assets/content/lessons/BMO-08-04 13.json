@@ -1,0 +1,240 @@
+{
+  "id": "BMO-08-04",
+  "unitId": "BMO-08",
+  "categoryId": "BMO",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Zero marginal cost",
+  "readerTitle": "Why the map on your phone is free and the road atlas wasn't",
+  "format": "everyday_scene",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "real_observation",
+    "illustrative"
+  ],
+  "caseNote": "실제 관찰 (종이 지도책 → 무료 지도 앱) + 가상 사례 (펌프 제조사의 수리 가이드, 언어 학습 앱)",
+  "insight": "한 단위를 더 만드는 비용이 0에 가까워지면 가격도 0으로 끌려간다. 그래서 돈은 여전히 비용이 드는 것, 즉 희소한 것에서 번다.",
+  "misconception": "추가 비용이 거의 없으니 팔수록 전부 이익이다. 마진이 높으면 좋은 사업이다.",
+  "relatedLessonIds": [
+    "BMO-03-02",
+    "BMO-08-06"
+  ],
+  "sources": [
+    {
+      "text": "Shapiro, C. & Varian, H. (1998). Information Rules: A Strategic Guide to the Network Economy. Harvard Business School Press.",
+      "url": null
+    },
+    {
+      "text": "미시경제학의 표준 개념 (한계비용, 경쟁 시장에서 가격이 한계비용으로 수렴하는 경향)",
+      "url": null
+    },
+    {
+      "text": "펌프 제조사와 언어 앱의 수치는 모두 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Shapiro & Varian(1998)이 정보재는 첫 복제본을 만드는 비용은 크고 추가 복제 비용은 매우 낮다고 설명한 내용을 원문으로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "\"경쟁 시장에서 가격은 한계비용 쪽으로 끌려간다\"는 단순화한 설명입니다. 차별화, 브랜드, 전환 비용이 있으면 성립하지 않을 수 있어 카드에는 \"drifts toward\", \"similar\"로 조건을 달았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "지도 앱은 대부분 사용자에게 무료라는 일반적 관찰만 썼습니다. 특정 기업명이나 수치는 쓰지 않았습니다. 과거 미국에서는 주유소가 지도를 무료로 나눠준 경우도 있어 hook에서는 \"서점에서 산 지도책\"으로 한정했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "가상 수치 확인: 인쇄본 $40, 인쇄·배송비 $15. 선택지 B의 $25 = $40 − $15. 언어 앱 사용자당 월 비용 \"몇 센트\"는 설명용입니다.",
+      "status": "open"
+    },
+    {
+      "note": "AI 기능이 답변마다 연산 비용을 쓰고, 스트리밍이 대역폭 비용을 쓴다는 일반적 사실만 적었습니다. 구체적 단가는 쓰지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business Models · Everyday scene",
+      "title": "Why the map on your phone is free and the road atlas wasn't",
+      "body": [
+        "A printed road atlas from a bookshop cost real money, and you bought a new one when the roads changed. Every copy needed paper, ink, binding and a truck to the shop.",
+        "Your phone gives turn-by-turn directions with live traffic, and most people pay nothing. The map didn't get worse. The cost of one more copy fell to almost nothing, and the price followed."
+      ],
+      "image": {
+        "label": "A dusty road atlas next to a phone showing a map",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 자동차 조수석에 낡고 두꺼운 종이 지도책(가격표 스티커 붙음)과, 옆에 지도가 켜진 스마트폰. 지도책 쪽은 따뜻한 갈색 톤, 폰 쪽은 밝은 톤. 실제 앱 로고나 브랜드는 쓰지 않음.",
+        "url": "assets/images/bmo-08-04-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Your repair guide goes digital.",
+      "illustrative": true,
+      "body": [
+        "You make industrial pumps. Your 300-page troubleshooting guide sells as a printed binder for $40. Printing and shipping each one costs you $15.",
+        "You can now offer it as a download. A rival just posted a similar guide online for free. How do you price yours?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep it at $40. The content is just as useful as before",
+            "verdict": "risky",
+            "feedback": "You protect the price on paper, but a free alternative is one search away. Few customers will pay $40 for something close to what they can get for nothing."
+          },
+          {
+            "key": "B",
+            "text": "Cut it to $25, since the $15 printing cost is gone",
+            "verdict": "partial",
+            "feedback": "Fair logic, and it passes the savings on. But your old cost no longer sets the bar. The rival's price of $0 does."
+          },
+          {
+            "key": "C",
+            "text": "Give it away and earn from what's still scarce, like repair visits and spare parts",
+            "verdict": "best",
+            "feedback": "You lose guide revenue but gain reach: every reader owns a pump that may need a technician or a part. Those still cost something to deliver, so they can't be given away."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What changed",
+      "title": "The floor under the price disappeared.",
+      "illustrative": true,
+      "body": [
+        "With paper, each binder cost $15, so no one could sell it below that for long. With a download, the next copy costs almost nothing. When two firms offer similar files, each can cut price without losing money on the next sale. So the price slides toward zero."
+      ],
+      "breakdown": [
+        {
+          "value": "Same",
+          "label": "Writing the guide",
+          "detail": "Paid once, in print or digital",
+          "highlight": false
+        },
+        {
+          "value": "$15",
+          "label": "One more printed binder",
+          "detail": "Paper, ink, binding, shipping",
+          "highlight": false
+        },
+        {
+          "value": "~$0",
+          "label": "One more download",
+          "detail": "A file sent over the internet",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Zero marginal cost",
+      "body": [
+        "**Marginal cost** is what it costs to make or serve *one more* unit. For a loaf of bread, that's flour, energy and labor. For a downloaded file, it's close to nothing.",
+        "When marginal cost is near zero, costs move to the front. The first copy is expensive. Every copy after it is almost free. Economists Carl Shapiro and Hal Varian built much of their 1998 book *Information Rules* around this shape of cost."
+      ],
+      "image": {
+        "label": "One big first-copy cost, then a line of nearly free copies",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 왼쪽에 크고 무거운 블록 하나(\"First copy\"), 오른쪽으로 아주 얇은 종이 같은 블록들이 끝없이 이어짐(\"Every copy after\"). 아래에 가격표가 점점 작아지는 모습.",
+        "url": "assets/images/bmo-08-04-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Three things follow.",
+      "body": [
+        "When copies are nearly free, the business changes shape:"
+      ],
+      "list": [
+        "**Scale matters more:** the up-front cost is spread over every customer, so the biggest player can charge the least",
+        "**Price drifts toward zero** when rivals offer something similar",
+        "**Money moves to what's still scarce:** service, hardware, human time, trust, or being first"
+      ],
+      "callout": "Ask which parts of your business still cost something every time you deliver them."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where it applies",
+      "title": "Near zero is not zero.",
+      "body": [
+        "Most physical businesses never get there. A pump factory still pays for steel. A truck still burns fuel on every delivery.",
+        "But pieces of these businesses go digital: manuals, design files, tracking updates, training videos. Those pieces follow the new rules, even when the main product doesn't. A logistics firm can't give away deliveries, but it may soon compete with free tracking tools."
+      ],
+      "softwareNote": "Software isn't always near zero either. Streaming video uses bandwidth, and AI features use computing power on every answer. Check the real cost per extra user before treating it as free."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A high margin can hide a weak business.",
+      "body": [
+        "Selling a copy that costs nothing feels like pure profit. But the up-front cost still has to be earned back, and support, sales and payment fees still grow with each customer.",
+        "And if rivals can copy just as cheaply, a high margin rarely lasts. The useful question isn't \"what does a copy cost me?\" It's \"what stops someone else from giving it away?\""
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a language app.",
+      "illustrative": true,
+      "body": [
+        "Your app teaches Spanish with recorded lessons and quizzes. Serving one more user costs you a few cents a month. A large rival just made a similar course free.",
+        "Where should your revenue come from?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Charge more for the lesson library and keep adding lessons",
+            "verdict": "risky",
+            "feedback": "New content costs you up front, and the rival can match it while still charging nothing. You'd be paying to compete on the part that's easiest to copy."
+          },
+          {
+            "key": "B",
+            "text": "Cut the price to $1 a month to win on volume",
+            "verdict": "partial",
+            "feedback": "You may gain users, but $1 is easy to beat when the rival is at $0. Volume only helps if something else earns the money."
+          },
+          {
+            "key": "C",
+            "text": "Keep basic lessons free and charge for live tutors and recognized exams",
+            "verdict": "best",
+            "feedback": "You give up library fees but sell what can't be copied: a person's time and a credential people trust. The free lessons bring in the users who buy them."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "When copies get free, charge for what isn't.",
+      "body": [
+        "Zero marginal cost pulls price toward zero. Profit moves to whatever still takes time, materials or trust to deliver.",
+        "**Try it today:** list what you sell. Mark each item: does one more unit cost real money, or almost nothing? Look hard at the \"almost nothing\" items. Someone may soon give them away."
+      ],
+      "next": "Next · What to automate and what to keep human"
+    }
+  ]
+}

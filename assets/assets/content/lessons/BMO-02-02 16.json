@@ -1,0 +1,292 @@
+{
+  "id": "BMO-02-02",
+  "unitId": "BMO-02",
+  "categoryId": "BMO",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "Subscriptions",
+  "readerTitle": "Two pet shops, one street: why a subscription is a promise, not a price",
+  "format": "two_businesses",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (반려동물 사료 가게 두 곳, 이력서 작성 앱) · 모든 수치는 설명용",
+  "insight": "구독은 가격을 매기는 방식이 아니라 매달 다시 지켜야 하는 약속이다. 구독 매출은 첫 판매가 아니라 고객이 머무는 기간으로 쌓인다.",
+  "misconception": "어떤 상품이든 구독으로 바꾸면 안정적인 매출이 생긴다.",
+  "relatedLessonIds": [
+    "BMO-02-01",
+    "CUS-06-02"
+  ],
+  "sources": [
+    {
+      "text": "사업 모델의 일반 개념 (반복 매출, 구독, 해지율)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "3번 카드: 구독자 200명 × $55 = $11,000. 해지율 5% × 200명 = 10명.",
+      "status": "open"
+    },
+    {
+      "note": "5번 카드: 매달 신규 20명, 기존 고객 중 c% 해지, 0명에서 시작. n개월 후 구독자 = 20 × (1 − (1 − c)^n) ÷ c. 3%: 6개월 0.97^6 = 0.833 → 111명, 12개월 0.97^12 = 0.694 → 204명, 상한 20 ÷ 0.03 = 667명. 10%: 6개월 0.9^6 = 0.531 → 94명, 12개월 0.9^12 = 0.282 → 144명, 상한 20 ÷ 0.10 = 200명.",
+      "status": "open"
+    },
+    {
+      "note": "이력서 앱 사례는 가상입니다. 실제 기업이나 시장 수치를 쓰지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business models · Two businesses",
+      "title": "Two pet shops, one street",
+      "illustrative": true,
+      "body": [
+        "Two shops sell the same dog food. Same brand, same bag, almost the same price.",
+        "On the first morning of every month, one owner has no idea what she'll earn. The other already knows to within a few hundred dollars. The difference isn't the food. It's how they get paid."
+      ],
+      "image": {
+        "label": "Two pet shops side by side on one street",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 같은 거리에 나란히 선 작은 반려동물 사료 가게 두 곳. 왼쪽 가게 주인은 빈 계산대 앞에서 문 쪽을 바라보고, 오른쪽 가게 앞에는 주소 라벨이 붙은 사료 상자가 줄지어 배송을 기다림. 실제 브랜드 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/bmo-02-02-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "A delivery rival just opened.",
+      "illustrative": true,
+      "body": [
+        "You run a pet shop. Your regulars buy a $60 bag of dog food about once a month. A new online rival now delivers food to the door, automatically, every month.",
+        "What's your best response?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Offer your own monthly auto-delivery of food, easy to pause or skip",
+            "verdict": "best",
+            "feedback": "Dogs eat every day, so the need repeats on its own. You keep the customer without winning the sale again each month, at the cost of handling deliveries."
+          },
+          {
+            "key": "B",
+            "text": "Launch a monthly surprise box of toys and treats",
+            "verdict": "partial",
+            "feedback": "It adds a new reason to pay every month. But nobody needs a new toy every month, so the novelty fades and cancellations follow."
+          },
+          {
+            "key": "C",
+            "text": "Cut your bag price by 10% to stay competitive",
+            "verdict": "risky",
+            "feedback": "You give up margin on every sale, and you still have to win each customer back every month. The rival's convenience is untouched."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Same customers, very different first day.",
+      "illustrative": true,
+      "body": [
+        "Both shops have 200 regular customers. Shop A sells bags at $60. Shop B delivers the same bag for $55 a month. On the 1st, Shop A starts from zero. Shop B starts with most of its month already earned. Its job is different: **keep people happy enough not to leave**."
+      ],
+      "breakdown": [
+        {
+          "value": "$0",
+          "label": "Shop A on the 1st",
+          "detail": "Every sale must be won again this month",
+          "highlight": false
+        },
+        {
+          "value": "200",
+          "label": "Sales Shop A needs",
+          "detail": "Each customer could drift to another store",
+          "highlight": false
+        },
+        {
+          "value": "$11,000",
+          "label": "Shop B on the 1st",
+          "detail": "200 subscribers × $55, already expected",
+          "highlight": true
+        },
+        {
+          "value": "~10",
+          "label": "Cancellations Shop B watches",
+          "detail": "At 5% a month, the number that matters most",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Subscriptions",
+      "body": [
+        "A **subscription** is when customers pay a repeating fee, usually monthly or yearly, for ongoing access or delivery. They don't decide to buy each time. They decide whether to *keep* paying.",
+        "That flips the business. Selling products means winning each purchase. A subscription means earning the renewal, every period, without asking. The first sale starts the relationship. The months that follow pay for it."
+      ],
+      "image": {
+        "label": "One-time sale as a single coin vs subscription as a chain of coins",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 왼쪽에는 동전 한 개가 손에서 손으로 건너가는 장면(\"One sale\"). 오른쪽에는 달력 칸마다 동전이 하나씩 이어지는 사슬(\"Every month, if they stay\"). 사슬 중간에 끊어질 수 있는 고리 하나를 살짝 강조.",
+        "url": "assets/images/bmo-02-02-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "chart",
+      "eyebrow": "How it works",
+      "title": "Revenue stacks, but only as high as people stay.",
+      "illustrative": true,
+      "body": [
+        "Picture Shop B starting from zero and signing up 20 new subscribers a month. The only difference below is how many existing subscribers cancel each month. Over time, the shop with fewer cancellations grows to more than three times the size."
+      ],
+      "chart": {
+        "unit": "count",
+        "groups": [
+          {
+            "label": "After 6 months",
+            "rows": [
+              {
+                "label": "3% cancel monthly",
+                "value": 111,
+                "highlight": true
+              },
+              {
+                "label": "10% cancel monthly",
+                "value": 94,
+                "highlight": false
+              }
+            ]
+          },
+          {
+            "label": "After 12 months",
+            "rows": [
+              {
+                "label": "3% cancel monthly",
+                "value": 204,
+                "highlight": true
+              },
+              {
+                "label": "10% cancel monthly",
+                "value": 144,
+                "highlight": false
+              }
+            ]
+          },
+          {
+            "label": "Long-run ceiling",
+            "rows": [
+              {
+                "label": "3% cancel monthly",
+                "value": 667,
+                "highlight": true
+              },
+              {
+                "label": "10% cancel monthly",
+                "value": 200,
+                "highlight": false
+              }
+            ]
+          }
+        ]
+      },
+      "softwareNote": "Software companies call this recurring revenue and track *churn*, the share of users who cancel each period. A small change in churn moves the ceiling more than a big push for new sign-ups.",
+      "image": {
+        "label": "Same sign-ups, churn sets the ceiling",
+        "aspectRatio": "4:3",
+        "brief": "20 new a month: 3% cancel ceiling 667 vs 10% cancel 200.",
+        "url": "assets/images/bmo-02-02-info.png"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where it fits",
+      "title": "Subscriptions follow a need that repeats.",
+      "body": [
+        "The model works best when customers would buy again anyway: food for a pet, coffee beans, lawn care, bookkeeping, software used every day. The subscription just removes the effort of buying again.",
+        "It struggles when the need comes once or rarely. A wedding planner, a moving company or a one-off repair can't make customers need them monthly. Forcing a subscription there turns a happy one-time buyer into someone who feels billed for nothing."
+      ],
+      "image": {
+        "label": "Items that repeat vs items needed once",
+        "aspectRatio": "16:9",
+        "brief": "두 칸 일러스트. 왼쪽 \"Repeats\" 칸에는 사료 봉지, 원두 봉투, 잔디깎이, 노트북. 오른쪽 \"Once\" 칸에는 웨딩 케이크, 이삿짐 상자, 공구 상자. 왼쪽 물건들 주위에 순환 화살표. 실제 브랜드 로고는 쓰지 않음.",
+        "url": "assets/images/bmo-02-02-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A subscription is an obligation, both ways.",
+      "body": [
+        "You owe delivery every period. A late box or a missed service visit costs you the whole future stream, not one sale.",
+        "Customers notice when they pay for things they don't use. If cancelling is hard, you may keep the money for a few months but lose trust, reviews and referrals.",
+        "And subscribers often expect a lower price per item. Shop B earns $5 less per bag than Shop A. That only pays off if subscribers stay longer."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a résumé-building app.",
+      "illustrative": true,
+      "body": [
+        "Your app helps people write résumés and cover letters. Most users are active for three to six weeks while job hunting, then disappear until their next search, often years later.",
+        "How should you charge?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "A $10 monthly subscription, easy to cancel",
+            "verdict": "partial",
+            "feedback": "Honest and simple. But most users leave after a month or two, so revenue never stacks, and you pay to win every customer from scratch."
+          },
+          {
+            "key": "B",
+            "text": "A one-time payment for a job-search pass, say 60 days of access",
+            "verdict": "best",
+            "feedback": "It matches how the need actually shows up: once, intensely, then gone. You give up repeat billing but avoid angry cancellations and refund requests."
+          },
+          {
+            "key": "C",
+            "text": "An annual plan that renews automatically",
+            "verdict": "risky",
+            "feedback": "You collect more up front. But a renewal a year later, for something they no longer use, feels like a trap and invites refunds and bad reviews."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A subscription is a promise you renew every month.",
+      "body": [
+        "It turns repeat buying into predictable revenue, but only when the need repeats and you keep earning the renewal.",
+        "**Try it today:** list what your customers buy from you more than once a year. For each, ask: would they be glad, or annoyed, to get it automatically?"
+      ],
+      "next": "Next · Earning a slice of someone else's sale"
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "id": "ECO-09-01",
+  "unitId": "ECO-09",
+  "categoryId": "ECO",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Inflation",
+  "readerTitle": "The bookkeeper who never raised her rate and still took a pay cut",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.2,
+  "caseKinds": [
+    "illustrative",
+    "real_observation"
+  ],
+  "caseNote": "가상 사례 (부기 서비스, 청소 업체, 식당) + 실제 관찰 (2022년 미국·영국 물가 상승률이 약 40년 만의 최고치). 가상 사례의 수치는 모두 설명용",
+  "insight": "가격을 그대로 두는 것도 가격 결정이다. 물가가 오르는 동안 가격을 동결하면 매년 조용히 실질 가격을 깎는 셈이다.",
+  "misconception": "가격을 올리지 않으면 내 수입은 그대로 유지된다. 그리고 내 비용은 뉴스에 나오는 물가 상승률만큼 오른다.",
+  "relatedLessonIds": [
+    "ECO-09-02",
+    "ECO-09-08"
+  ],
+  "sources": [
+    {
+      "text": "U.S. Bureau of Labor Statistics, Consumer Price Index releases (2022)",
+      "url": "https://www.bls.gov/cpi/"
+    },
+    {
+      "text": "UK Office for National Statistics, Consumer price inflation releases (2022)",
+      "url": "https://www.ons.gov.uk/economy/inflationandpriceindices"
+    },
+    {
+      "text": "거시경제학의 표준 개념 (인플레이션, 명목·실질 가치, 72의 법칙)",
+      "url": null
+    },
+    {
+      "text": "부기 서비스, 청소 업체, 식당 사례와 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "부기 계산: 연 4% × 5년 = 1.04^5 ≈ 1.2167(약 +22%). $60 ÷ 1.2167 ≈ $49.31(약 $49). 실질 감소 1 − 1/1.2167 ≈ 17.8%(약 18%). 선택지 C의 22%는 흔한 계산 실수로 의도한 것입니다.",
+      "status": "open"
+    },
+    {
+      "note": "72의 법칙: 1.03^24 ≈ 2.03이므로 연 3%면 약 24년에 물가가 두 배. 카드 문구 \"about 24 years\"와 일치합니다.",
+      "status": "open"
+    },
+    {
+      "note": "\"2022년 미국과 영국의 물가 상승률이 약 40년 만의 최고치\": 미국 CPI 2022년 6월 전년 대비 9.1%(1981년 이후 최고), 영국 CPI 2022년 10월 11.1%(약 41년 만의 최고). 게시 전 BLS·ONS 자료로 다시 확인하세요. 카드에는 구체 수치 없이 표현했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "식당 계산: 원가 $8 × 1.25 = $10. $12 유지 시 마진 $2. 15% 인상 시 $13.80, 마진 $3.80, 실질 $3.80 ÷ 1.15 ≈ $3.30. 예전 $4 마진을 오늘 돈으로 맞추면 $4 × 1.15 = $4.60, 가격 $10 + $4.60 = $14.60.",
+      "status": "open"
+    },
+    {
+      "note": "청소 업체 비용 구성(인건비 60%, 연료 15% 등)은 설명용 가정입니다. 실제 업종 평균으로 오해되지 않도록 illustrative 표시를 했습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Economics · Counterexample",
+      "title": "The bookkeeper who never raised her rate and still took a pay cut",
+      "illustrative": true,
+      "body": [
+        "Maria does bookkeeping for local shops. She has charged $60 an hour for five years. Her clients love her for it.",
+        "Holding her price felt like the safe, loyal choice. It quietly cost her almost a fifth of her income."
+      ],
+      "image": {
+        "label": "Same $60 invoice shrinking over five years",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 플랫 일러스트. 책상 위에 \"$60/hour\"라고 적힌 청구서 다섯 장이 연도순(Year 1~5)으로 놓여 있음. 숫자는 같지만 청구서 옆 장바구니가 해마다 조금씩 비어 감. 실제 브랜드나 로고 없음.",
+        "url": "assets/images/eco-09-01-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What happened to Maria's real pay?",
+      "illustrative": true,
+      "body": [
+        "Over those five years, prices in general rose about 4% a year, or about 22% in total. Maria's rate stayed at $60.",
+        "Measured by what it can buy, what happened to her hourly pay?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Nothing. She still earns $60 an hour",
+            "verdict": "risky",
+            "feedback": "The number on the invoice didn't change, but what it buys did. Counting dollars instead of what they buy hides the loss."
+          },
+          {
+            "key": "B",
+            "text": "It fell by about 18%",
+            "verdict": "best",
+            "feedback": "Right. $60 today buys what about $49 bought five years ago. The next card shows the math."
+          },
+          {
+            "key": "C",
+            "text": "It fell by about 22%",
+            "verdict": "partial",
+            "feedback": "Close, and you spotted the loss. But a 22% rise in prices cuts buying power by a bit less: $60 ÷ 1.22 is about $49, an 18% drop."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Same rate, smaller paycheck.",
+      "illustrative": true,
+      "body": [
+        "Maria never gave a discount. Inflation gave one for her, to every client, every year."
+      ],
+      "breakdown": [
+        {
+          "value": "$60",
+          "label": "Hourly rate",
+          "detail": "Unchanged for five years",
+          "highlight": false
+        },
+        {
+          "value": "+22%",
+          "label": "Prices in general",
+          "detail": "About 4% a year, compounded",
+          "highlight": false
+        },
+        {
+          "value": "$49",
+          "label": "What $60 buys now",
+          "detail": "In year-one money: $60 ÷ 1.22",
+          "highlight": false
+        },
+        {
+          "value": "−18%",
+          "label": "Real pay cut",
+          "detail": "Without ever changing her price",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Inflation",
+      "body": [
+        "**Inflation** is a general rise in prices over time. Each dollar, euro or won buys a little less than before.",
+        "So every price has two values. The *nominal* value is the number on the invoice. The *real* value is what that number can buy. Inflation pulls them apart.",
+        "It adds up fast. At 3% a year, prices roughly double in about 24 years."
+      ],
+      "image": {
+        "label": "Nominal price flat, real value sliding down",
+        "aspectRatio": "16:9",
+        "brief": "단순한 선 그래프 인포그래픽. 가로축 Year 1~5. 위쪽 수평선 \"Nominal: $60\", 아래로 기울어지는 선 \"Real: what $60 buys\"가 $49까지 내려감. 두 선 사이 틈을 옅은 색으로 채우고 \"The hidden discount\" 라벨.",
+        "url": "assets/images/eco-09-01-c4.jpg"
+      },
+      "softwareNote": "A subscription priced at $20 a month since launch earns less each year in real terms, while salaries and other costs keep rising. That's why some multi-year contracts include a yearly price adjustment."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "A second twist",
+      "title": "Your inflation isn't the number on the news.",
+      "illustrative": true,
+      "body": [
+        "The headline rate is an average across everything people buy. Your business buys its own mix.",
+        "Take a home-cleaning company. Most of its costs are wages, then fuel, supplies and insurance. If local wages rise 7% while the headline rate is 3%, its costs are rising more than twice as fast as the news suggests.",
+        "The reverse happens too. A business whose main inputs are getting cheaper can face less pressure than the headline says."
+      ],
+      "image": {
+        "label": "A cleaning company's cost mix, each rising at a different speed",
+        "aspectRatio": "16:9",
+        "brief": "청소 업체의 비용 구성 막대. \"Wages\"(가장 큼, 위 화살표 큼), \"Fuel\", \"Supplies\", \"Insurance\"가 각각 다른 크기의 상승 화살표. 옆에 작은 뉴스 화면 \"Inflation 3%\". 실제 회사 로고 없음.",
+        "url": "assets/images/eco-09-01-c5.jpg"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Inflation explains costs. It doesn't set your price.",
+      "body": [
+        "Inflation tells you what your money is worth. It doesn't tell you what customers will pay. When their wages lag behind prices, as they did for many people in 2022, when inflation in the US and UK hit roughly 40-year highs, they get pickier.",
+        "Matching the headline rate can still leave you behind on costs, or ahead of what your market accepts. Use it to measure your real prices and margins, then decide with your customers in mind."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a lunch spot.",
+      "illustrative": true,
+      "body": [
+        "Your set lunch is $12. Three years ago it cost you $8 to make, leaving $4. Food, wages and energy have since pushed that to $10. Over the same years, prices in general rose 15%.",
+        "What's the soundest next step?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep $12. Regulars hate price changes",
+            "verdict": "risky",
+            "feedback": "You keep regulars happy but your margin halves to $2, and those $2 buy less than before. The loyalty is paid for out of your pocket."
+          },
+          {
+            "key": "B",
+            "text": "Raise 15% to $13.80, in line with inflation",
+            "verdict": "partial",
+            "feedback": "It sounds fair and is easy to explain. But your costs rose faster, so the $3.80 left is worth only about $3.30 in old money."
+          },
+          {
+            "key": "C",
+            "text": "Start from your own costs: test around $14.60, which keeps a margin worth what $4 used to buy, and watch how regulars respond",
+            "verdict": "best",
+            "feedback": "This protects your real margin and uses your own cost increase, not the headline. The risk is losing some price-sensitive regulars, so watching them matters."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Leaving a price alone is still a price decision.",
+      "body": [
+        "When prices rise everywhere, a frozen price is a price cut in real terms. Track what your prices and margins can buy, and measure inflation in your own costs, not just the headline.",
+        "**Try it today:** find the date you last changed your main price. Estimate how much your own costs have risen since then."
+      ],
+      "next": "Next · Why the price of borrowing money changes too"
+    }
+  ]
+}

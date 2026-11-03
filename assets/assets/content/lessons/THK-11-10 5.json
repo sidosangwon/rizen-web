@@ -1,0 +1,296 @@
+{
+  "id": "THK-11-10",
+  "unitId": "THK-11",
+  "categoryId": "THK",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Two dashboards, two conclusions",
+  "readerTitle": "Claims down 25%, damage up 25%: who's right?",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.2,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (주방용품 유통사의 창고·배송, 소매 고객) · 모든 수치는 설명용",
+  "insight": "두 대시보드가 다른 결론을 낼 때는 누가 맞는지 다투기 전에 분모, 변동 폭, 구성 변화, 효과 크기를 차례로 확인하면 대부분 같은 사실로 모인다.",
+  "misconception": "두 대시보드의 결론이 다르면 둘 중 하나는 틀린 숫자다.",
+  "relatedLessonIds": [
+    "THK-11-02",
+    "THK-11-09"
+  ],
+  "sources": [
+    {
+      "text": "통계와 지표 해석의 표준 개념 (비율의 분모, 표본 변동, 구성 효과·심슨의 역설, 효과 크기, 정보의 가치)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "전체 계산 확인: 이전 클레임 40건 ÷ 출하 2,000건 = 2.0%, 이후 30건 ÷ 1,200건 = 2.5%. 클레임 수 40 → 30은 −25%, 비율 2.0% → 2.5%는 +25%.",
+      "status": "open"
+    },
+    {
+      "note": "주문 유형별 계산: 이전 팔레트 1,000건 중 10건(1.0%), 혼합 박스 1,000건 중 30건(3.0%). 이후 팔레트 200건 중 2건(1.0%), 혼합 박스 1,000건 중 28건(2.8%). 합계 이전 40/2,000 = 2.0%, 이후 30/1,200 = 2.5%.",
+      "status": "open"
+    },
+    {
+      "note": "지난 1년 월별 범위 1.6%~2.7%와 상자당 $0.40 절감은 설명용 가상 수치입니다. 기대 클레임 약 24건(1,200 × 2%)일 때 포아송 표준편차 약 4.9건이므로 30건은 약 1.2 표준편차로, 정상 변동 안이라는 설명과 일치합니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Simulation",
+      "title": "Claims down 25%, damage up 25%: who's right?",
+      "illustrative": true,
+      "body": [
+        "Monday, 9 a.m. Two dashboards on one screen.",
+        "Sales: \"Damage claims down 25%.\" Warehouse: \"Damage rate up 25%.\"",
+        "Both use the same month of data. Both are correct. You have to decide what to do."
+      ],
+      "image": {
+        "label": "Two dashboards side by side, one arrow down, one arrow up",
+        "aspectRatio": "4:3",
+        "brief": "회의실 화면에 대시보드 두 개가 나란히 떠 있음. 왼쪽은 초록 하향 화살표와 \"Claims −25%\", 오른쪽은 빨간 상향 화살표와 \"Damage rate +25%\". 그 앞에서 두 팀장이 서로를 바라보는 장면. 실제 회사 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1",
+      "title": "Two numbers, one month.",
+      "illustrative": true,
+      "body": [
+        "You run operations at a kitchenware distributor that ships from its own warehouse to shops. Three months ago the warehouse switched to lighter, cheaper box inserts.",
+        "Sales says claims fell from 40 to 30 a month. The warehouse says the damage rate rose from 2.0% to 2.5%. What do you ask for first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Trust the rate and switch back to the old inserts",
+            "verdict": "risky",
+            "feedback": "You may undo a real cost saving based on a number you haven't checked. And sales will rightly ask why their figure doesn't count."
+          },
+          {
+            "key": "B",
+            "text": "Put claims and shipments side by side, on the same footing",
+            "verdict": "best",
+            "feedback": "Both numbers come from the same claims. The difference is the denominator: shipments fell from 2,000 to 1,200, so fewer claims and a higher rate are both true."
+          },
+          {
+            "key": "C",
+            "text": "Ask each team to defend its dashboard in a meeting",
+            "verdict": "partial",
+            "feedback": "You'll hear good arguments about who's right, not about what happened. The answer sits in the shipment count, not the debate."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 2",
+      "title": "Is 2.5% a real change?",
+      "illustrative": true,
+      "body": [
+        "Say you chose B. Claims per shipment really did rise: 30 out of 1,200 is 2.5%.",
+        "The warehouse lead wants to bring back the old inserts today. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Switch back. 25% worse is a lot",
+            "verdict": "risky",
+            "feedback": "Thirty claims is a small count. A few more or fewer in one month swings the rate a lot, so you may be reacting to luck."
+          },
+          {
+            "key": "B",
+            "text": "Check how much the monthly rate moved over the past year",
+            "verdict": "best",
+            "feedback": "With the old inserts it ranged from 1.6% to 2.7%. So 2.5% sits inside the normal wobble and proves nothing on its own."
+          },
+          {
+            "key": "C",
+            "text": "Wait six more months, then look again",
+            "verdict": "partial",
+            "feedback": "More data helps, but six months of possibly worse packing costs money. Past variation answers most of the question today."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "The same trap shows up in a weekly churn report. When only a few dozen customers cancel, a jump of a few cancellations can look like a crisis that is really normal wobble."
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 3",
+      "title": "A detail from sales.",
+      "illustrative": true,
+      "body": [
+        "Say you chose B. The rate is within normal range, but on the high side.",
+        "Then a sales rep mentions that your biggest customer, a supermarket chain, paused orders two months ago. Its orders ship as full pallets. What next?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Split the damage rate by order type: pallets vs mixed cartons",
+            "verdict": "best",
+            "feedback": "Pallets rarely break. Mixed cartons of glasses and plates often do. If the mix shifted, the total can rise even when nothing got worse."
+          },
+          {
+            "key": "B",
+            "text": "Conclude the inserts are fine, since the rate is within range",
+            "verdict": "partial",
+            "feedback": "Probably true, but you still don't know why the rate is high. The same argument comes back next Monday."
+          },
+          {
+            "key": "C",
+            "text": "Charge small shops more, since their orders break most",
+            "verdict": "risky",
+            "feedback": "You'd punish customers based on a pattern you haven't checked, and it doesn't tell you anything about the inserts."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "chart",
+      "eyebrow": "What the split shows",
+      "title": "Neither type got worse. The total did.",
+      "illustrative": true,
+      "body": [
+        "Pallets stayed at 1.0%. Mixed cartons improved slightly, from 3.0% to 2.8%.",
+        "The total rose only because pallet orders shrank from 1,000 to 200 a month. What remained was mostly fragile cartons."
+      ],
+      "chart": {
+        "unit": "%",
+        "groups": [
+          {
+            "label": "Before the new inserts",
+            "rows": [
+              {
+                "label": "Pallets",
+                "value": 1,
+                "highlight": false
+              },
+              {
+                "label": "Mixed cartons",
+                "value": 3,
+                "highlight": false
+              },
+              {
+                "label": "All orders",
+                "value": 2,
+                "highlight": true
+              }
+            ]
+          },
+          {
+            "label": "After the new inserts",
+            "rows": [
+              {
+                "label": "Pallets",
+                "value": 1,
+                "highlight": false
+              },
+              {
+                "label": "Mixed cartons",
+                "value": 2.8,
+                "highlight": false
+              },
+              {
+                "label": "All orders",
+                "value": 2.5,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "callout": "When the **mix** changes, the total can move while no part changes."
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Decision 4",
+      "title": "Close it out.",
+      "illustrative": true,
+      "body": [
+        "Say you chose A. The new inserts save about $0.40 per box. Cartons improved by 0.2 points, based on 28 claims.",
+        "How do you wrap this up?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Announce that the inserts cut damage and promote them",
+            "verdict": "risky",
+            "feedback": "Keeping them is fine, but the claim stretches a tiny, noisy gain. If next month comes in at 3.1%, you lose credibility."
+          },
+          {
+            "key": "B",
+            "text": "Keep them because they're cheaper and no worse, and agree on one metric: damage rate by order type",
+            "verdict": "best",
+            "feedback": "You act only on what the data supports: no harm and a clear saving. Next Monday starts from one number tied to the goal."
+          },
+          {
+            "key": "C",
+            "text": "Run a formal three-month test first",
+            "verdict": "partial",
+            "feedback": "A test would sharpen the answer. But the choice is cheap to reverse and already shows no harm, so the extra certainty isn't worth the wait."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Slicing can fool you too.",
+      "body": [
+        "The split worked here because there was a reason for it: a known change in order mix. Slice the same data by weekday, driver, region and product, and one slice will look alarming by pure chance. Choose the split, and say why, **before** you look.",
+        "And one shared metric is a start, not the whole picture. A damage rate says nothing about whether shops got their orders on time."
+      ],
+      "image": {
+        "label": "A data pie cut into many thin slices, one glowing red",
+        "aspectRatio": "16:9",
+        "brief": "하나의 원형 차트가 요일, 기사, 지역, 상품 등 아주 많은 얇은 조각으로 잘려 있고, 그중 한 조각만 우연히 빨갛게 빛남. 돋보기를 든 손이 그 조각을 가리킴. 차분한 일러스트, 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Two dashboards usually disagree about the question, not the facts.",
+      "body": [
+        "Each call you made used one idea from this unit:"
+      ],
+      "list": [
+        "**Same denominator first:** ratios and their denominators",
+        "**Past range before panic:** signal vs noise in small samples",
+        "**Split by order type:** mix shifts and Simpson's paradox",
+        "**Keep, don't overclaim, skip the long test:** effect size and the value of more information",
+        "**One shared metric:** metrics start from goals"
+      ],
+      "callout": "**Try it today:** find two reports in your business that measure the same thing. Write down each one's top number and bottom number.",
+      "next": "Next · When a measure becomes a target"
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "id": "ECO-08-05",
+  "unitId": "ECO-08",
+  "categoryId": "ECO",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Perceived fairness",
+  "readerTitle": "Same price rise, different reaction: why the reason matters more than the number",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5,
+  "caseKinds": [
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 연구 (Kahneman, Knetsch & Thaler, 1986 공정성 설문) + 가상 사례 (배관 업체, 사내 데이터 플랫폼 팀)",
+  "insight": "고객은 가격의 크기보다 가격이 오른 이유를 판단한다. 비용이 올라서 올리면 받아들이고, 고객의 급한 사정을 이용해 올리면 벌한다.",
+  "misconception": "고객이 화내는 건 가격이 많이 올랐기 때문이다. 인상 폭만 작게 하면 괜찮다.",
+  "relatedLessonIds": [
+    "ECO-08-01",
+    "ECO-07-04"
+  ],
+  "sources": [
+    {
+      "text": "Kahneman, D., Knetsch, J. L., & Thaler, R. (1986). Fairness as a Constraint on Profit Seeking: Entitlements in the Market. American Economic Review, 76(4), 728–741.",
+      "url": null
+    },
+    {
+      "text": "배관 업체와 사내 데이터 플랫폼 팀 사례는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "눈삽 문항: 눈보라 다음 날 아침 철물점이 눈삽 가격을 $15에서 $20로 올림 → 응답자 82%가 불공정(Unfair 또는 Very unfair)으로 평가. 원문 Table/문항 1의 수치를 게시 전 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "양상추 문항: 운송 문제로 도매가가 포기당 30센트 오르자 식료품점이 소매가를 30센트 올림 → 79% 수용, 21% 불공정. 원문 수치 재확인 필요.",
+      "status": "open"
+    },
+    {
+      "note": "자동차 딜러 문항: 인기 모델 품귀 시 정가보다 $200 더 받음 → 71% 불공정, 정가보다 $200 할인하던 것을 정가로 되돌림 → 42% 불공정. 원문 문항 2A/2B 수치 재확인 필요.",
+      "status": "open"
+    },
+    {
+      "note": "설문은 1984~1985년경 캐나다 토론토·밴쿠버 주민 대상 전화 설문으로 알려져 있습니다. 카드에는 'people in Canada'로만 적었습니다. 지역과 연도를 원문으로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "가상 사례 계산: 배관 출장비 $90 → $150는 $60 인상(약 67%). 사내 팀: 벤더 라이선스 25% 인상, 사용자당 월 $40 → $50.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Pricing · Numbers twist",
+      "title": "Same $60 rise. One plumber gets thanked, the other gets one-star reviews.",
+      "illustrative": true,
+      "body": [
+        "Two plumbers in the same town both raise their call-out fee from $90 to $150.",
+        "One does it the week a freeze bursts pipes across town. The other does it after his insurance and van costs jump. Customers shrug at the second and punish the first.",
+        "The number is identical. The story behind it is not."
+      ],
+      "image": {
+        "label": "Two identical price tags, one with angry faces, one with calm faces",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 배관공 밴 두 대가 나란히 있고 둘 다 \"$150\" 가격표. 왼쪽 밴 위에는 눈송이와 화난 말풍선, 오른쪽 밴 위에는 영수증 아이콘과 고개를 끄덕이는 말풍선. 실제 회사 로고 없음.",
+        "url": "assets/images/eco-08-05-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "A cold snap triples your calls.",
+      "illustrative": true,
+      "body": [
+        "You run a small plumbing company. A freeze hits and calls triple overnight. Your crew is working long shifts, and you could easily charge more.",
+        "What do you do with your prices this week?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Raise the standard rate 50% while demand lasts",
+            "verdict": "risky",
+            "feedback": "You earn more this week, but customers read it as profiting from their emergency. Many will remember your name for the wrong reason."
+          },
+          {
+            "key": "B",
+            "text": "Keep the standard rate, and apply your usual after-hours rate, which was posted all year, to night calls",
+            "verdict": "best",
+            "feedback": "You still earn more for overtime work, and the rule existed before the crisis. It looks like a cost you're covering, not a moment you're exploiting."
+          },
+          {
+            "key": "C",
+            "text": "Keep prices, but add a new \"high-demand surcharge\" line to every bill",
+            "verdict": "partial",
+            "feedback": "Smaller than option A, but the label says exactly what customers resent: you're charging more because they need you."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "Same kind of rise. Very different verdicts.",
+      "body": [
+        "In a classic 1986 study, Daniel Kahneman, Jack Knetsch and Richard Thaler asked people in Canada to judge everyday price changes.",
+        "A hardware store raises snow shovels from $15 to $20 the morning after a snowstorm. A grocer raises lettuce by 30 cents after its own wholesale cost rises 30 cents."
+      ],
+      "chart": {
+        "unit": "%",
+        "groups": [
+          {
+            "label": "Share who called it unfair",
+            "rows": [
+              {
+                "label": "Shovels, after a snowstorm",
+                "value": 82,
+                "highlight": true
+              },
+              {
+                "label": "Lettuce, after the grocer's cost rose",
+                "value": 21,
+                "highlight": false
+              }
+            ]
+          }
+        ]
+      },
+      "callout": "Both are price rises. Only one looked like taking advantage."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Perceived fairness",
+      "body": [
+        "**Perceived fairness** is the customer's judgment of *why* a price changed, not just how much.",
+        "People carry a reference price, the price they're used to. They accept that a business may protect its normal profit, so passing on a real cost rise feels fair. Raising prices because buyers suddenly need you more feels unfair, even when it's legal and the market would bear it.",
+        "The researchers called this a dual entitlement: the customer is entitled to the usual price, and the seller to its usual profit."
+      ],
+      "image": {
+        "label": "Scale weighing 'my costs went up' against 'you need me now'",
+        "aspectRatio": "16:9",
+        "brief": "저울 일러스트. 왼쪽 접시에 \"My costs went up\" 라벨과 영수증, 오른쪽 접시에 \"You need me now\" 라벨과 눈보라. 왼쪽 위에 초록 체크, 오른쪽 위에 빨간 X.",
+        "url": "assets/images/eco-08-05-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "A second twist",
+      "title": "The same $200 can be fair or unfair.",
+      "body": [
+        "The same study described a car dealer facing a shortage of a popular model.",
+        "When the dealer charged $200 *above* list price, 71% called it unfair. When a dealer who had been giving $200 *off* list simply stopped the discount, only 42% did.",
+        "Customers paid the same amount either way. Losing a discount felt like returning to normal. A new premium felt like being squeezed."
+      ],
+      "image": {
+        "label": "Two arrows reaching the same price from different starting points",
+        "aspectRatio": "16:9",
+        "brief": "가격 축 위에 화살표 두 개. 하나는 \"List price\"에서 위로 \"+$200\", 하나는 \"−$200\" 위치에서 \"List price\"로 올라옴. 둘 다 같은 높이에 도달하지만 첫 번째에는 찡그린 얼굴, 두 번째에는 담담한 얼굴. 자동차 브랜드 로고 없음.",
+        "url": "assets/images/eco-08-05-c5.jpg"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where else it shows up",
+      "title": "Anyone who pays you keeps a fairness ledger.",
+      "body": [
+        "The rule applies to employees judging pay cuts, tenants judging rent and other departments judging what an internal team charges them.",
+        "In every case, people ask the same question: is this protecting your normal position, or grabbing more because I can't easily leave?"
+      ],
+      "softwareNote": "Software users react the same way. A price rise that comes with clear new costs or features is tolerated. Raising seat prices right after customers have migrated their data and can't easily switch reads as a lock-in grab, and churn often follows at renewal."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Fairness is a perception, so it has limits.",
+      "body": [
+        "Explaining costs only works if it's true. Customers who later discover a \"cost increase\" was invented feel doubly cheated.",
+        "Norms also shift. Airline and hotel buyers now expect prices to move with demand, because those prices always have. A new swing in a market used to stable prices triggers the strongest backlash.",
+        "And fairness doesn't cancel economics. Holding prices down in a shortage can mean long queues or no service at all."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now you run an internal data team.",
+      "illustrative": true,
+      "body": [
+        "Your team runs the company's analytics platform and charges other departments $40 per user each month. The software vendor has just raised your license cost 25%. You'd also like money for a new project.",
+        "How do you set next year's internal rate?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Move to $50, show the vendor increase, and give three months' notice",
+            "verdict": "best",
+            "feedback": "The rise matches a real cost and arrives with warning. Departments may grumble, but they'll see you protecting your budget, not padding it."
+          },
+          {
+            "key": "B",
+            "text": "Jump to $60 to cover the vendor and fund the new project",
+            "verdict": "risky",
+            "feedback": "You get the funding, but other teams can see the vendor news too. A rise beyond it looks like taxing a captive customer, and they may push to buy their own tools."
+          },
+          {
+            "key": "C",
+            "text": "Absorb the cost this year and catch up with a bigger rise next year",
+            "verdict": "partial",
+            "feedback": "Calm for now, but a large later jump with no fresh cost behind it looks arbitrary. Small, explained moves usually land better."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Customers judge the reason, not just the price.",
+      "body": [
+        "Price rises tied to real costs are usually forgiven. Rises tied to a customer's urgency or lack of options are remembered.",
+        "**Try it today:** take your next planned price change and write the one-sentence reason you'd give a customer. If you'd hesitate to say it out loud, rethink the change."
+      ],
+      "next": "Next · Why cutting prices to beat a rival can sink you both"
+    }
+  ]
+}

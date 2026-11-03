@@ -1,0 +1,274 @@
+{
+  "id": "STR-04-04",
+  "unitId": "STR-04",
+  "categoryId": "STR",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Switching costs",
+  "readerTitle": "Why a café turns down beans that are 10% cheaper",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (카페와 원두 공급사, 미용실 예약 소프트웨어) · 모든 수치는 설명용",
+  "insight": "고객을 지키는 것은 가격이 아니라 떠날 때 치러야 하는 비용이다. 경쟁사의 할인은 그 비용보다 클 때만 고객을 움직인다.",
+  "misconception": "더 싸고 품질이 같으면 고객은 바로 옮겨 간다. 고객을 붙잡으려면 계약과 위약금으로 묶어 두면 된다.",
+  "relatedLessonIds": [
+    "CUS-02-06",
+    "STR-04-06"
+  ],
+  "sources": [
+    {
+      "text": "경쟁 전략의 표준 개념 (전환 비용, 해자로서의 고객 고착)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "전환 비용 계산: 에스프레소 머신 구입 $6,000 + 바리스타 재교육 3명 × 6시간 × 시급 $20 = $360 + 그라인더 세팅·시험 추출용 원두 $300 = $6,660.",
+      "status": "open"
+    },
+    {
+      "note": "절감액: 월 원두비 $1,000 × 12 = 연 $12,000. 10% 할인 = 연 $1,200, 20% = $2,400, 30% = $3,600. 회수 기간: 6,660 ÷ 1,200 = 5.55년(약 5.5년), 6,660 ÷ 2,400 = 2.775년(약 2.8년), 6,660 ÷ 3,600 = 1.85년(약 1.9년).",
+      "status": "open"
+    },
+    {
+      "note": "공급사가 머신을 무상 대여하는 방식은 원두 업계에서 흔한 계약 형태로 일반적으로 설명했습니다. 특정 기업이나 업계 통계는 인용하지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Strategy · Numbers twist",
+      "title": "Why a café turns down beans that are 10% cheaper",
+      "illustrative": true,
+      "body": [
+        "A café spends $1,000 a month on coffee beans. A new roaster offers the same quality for 10% less.",
+        "The owner says no, without even tasting a sample. She isn't being careless. She has done the math, and the price is the smallest number in it."
+      ],
+      "image": {
+        "label": "Café owner declining a cheaper bag of beans",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 카페 카운터에서 주인이 \"-10%\" 태그가 붙은 원두 봉투를 정중히 손으로 밀어내는 장면. 뒤에는 큰 에스프레소 머신. 실제 브랜드 로고는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You're the new roaster. She said no.",
+      "illustrative": true,
+      "body": [
+        "Her current roaster lends her the espresso machine for free, as long as she buys their beans. Her baristas are trained on that roaster's blend and settings.",
+        "You want her business. What do you offer?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Cut your price to 20% below her current roaster",
+            "verdict": "risky",
+            "feedback": "You give up a lot of margin on every bag, and she may still say no. A bigger discount only works if it outweighs what leaving costs her."
+          },
+          {
+            "key": "B",
+            "text": "Lend her a machine and train her staff for free",
+            "verdict": "best",
+            "feedback": "You pay down the cost of leaving instead of fighting on price. It costs you money upfront, but it removes the real reason she stays."
+          },
+          {
+            "key": "C",
+            "text": "Send free samples to prove your beans taste better",
+            "verdict": "partial",
+            "feedback": "Quality helps, and she may like your beans. But she already believed they were good. Taste wasn't what kept her."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "What leaving would cost her.",
+      "illustrative": true,
+      "body": [
+        "The cheaper beans save **$1,200 a year**. Leaving costs $6,660 on day one. She would need about 5.5 years just to break even, and that ignores the risk that regulars notice a different taste."
+      ],
+      "breakdown": [
+        {
+          "value": "$6,000",
+          "label": "Buy her own machine",
+          "detail": "The old roaster takes theirs back",
+          "highlight": false
+        },
+        {
+          "value": "$360",
+          "label": "Retrain baristas",
+          "detail": "3 people × 6 hours × $20",
+          "highlight": false
+        },
+        {
+          "value": "$300",
+          "label": "Test batches",
+          "detail": "Dialing in grinders on new beans",
+          "highlight": false
+        },
+        {
+          "value": "$6,660",
+          "label": "Cost of leaving",
+          "detail": "Paid before she saves a cent",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Switching costs",
+      "body": [
+        "**Switching costs** are everything a customer must spend, learn, risk or give up to move to a rival.",
+        "When they are high, a business can keep customers even if a competitor is a bit cheaper or a bit better. That makes switching costs a moat: a protection that rivals can't easily cross.",
+        "The old roaster isn't winning on beans. It's winning on the machine and the habits built around it."
+      ],
+      "image": {
+        "label": "A customer facing a wall of costs between two shops",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 왼쪽 가게에서 오른쪽 가게로 가는 길 사이에 벽돌 벽이 있고, 벽돌마다 \"Machine\", \"Training\", \"Test batches\", \"Risk\" 라벨. 오른쪽 가게 앞의 \"-10%\" 표지판은 작게.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "chart",
+      "eyebrow": "The twist",
+      "title": "How big a discount would it take?",
+      "illustrative": true,
+      "body": [
+        "Years it takes the café to earn back $6,660, at different discounts on $12,000 of beans a year.",
+        "Even a 30% price cut needs almost two years to pay off. Rivals can rarely give up that much margin for long."
+      ],
+      "chart": {
+        "unit": "count",
+        "groups": [
+          {
+            "label": "Years to earn back the cost of leaving",
+            "rows": [
+              {
+                "label": "10% cheaper",
+                "value": 5.5,
+                "highlight": true
+              },
+              {
+                "label": "20% cheaper",
+                "value": 2.8,
+                "highlight": false
+              },
+              {
+                "label": "30% cheaper",
+                "value": 1.9,
+                "highlight": false
+              }
+            ]
+          }
+        ]
+      },
+      "image": {
+        "label": "How big a discount would it take?",
+        "aspectRatio": "4:3",
+        "brief": "Labeled HTML chart from the lesson numbers",
+        "url": "assets/images/str-04-04-chart.png"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Switching costs come in four kinds.",
+      "body": [
+        "Most businesses have more than one, and they add up."
+      ],
+      "list": [
+        "**Money:** equipment, setup fees, contracts",
+        "**Effort:** learning a new system, moving records, retraining staff",
+        "**Risk:** will the new option work as well, and who gets blamed if it doesn't",
+        "**Loss:** rewards, history or relationships left behind"
+      ],
+      "callout": "Ask which of these your customers would face. That's the size of your moat.",
+      "softwareNote": "In software, effort and loss are often the biggest: years of stored data, connected tools and staff who know where every button is."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Trapped customers are not loyal customers.",
+      "body": [
+        "Switching costs that come from real value, like stored history or tools that fit a workflow, keep customers happy. Switching costs that feel like a trap, like exit fees or locked data, breed resentment. Those customers leave the day they can and warn others.",
+        "They also shrink. Contracts end, equipment wears out, and a rival can pay the cost for the customer, as the new roaster could. Use the headroom to serve customers better, not to squeeze them."
+      ],
+      "image": {
+        "label": "A door held shut by a chain versus a cozy room",
+        "aspectRatio": "16:9",
+        "brief": "두 장면 나란히. 왼쪽은 쇠사슬로 잠긴 문 앞에서 불만스러운 고객, 오른쪽은 자기 물건과 기록이 정리된 편안한 방에 머무는 고객. 대비가 분명하게.",
+        "url": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's salon booking software.",
+      "illustrative": true,
+      "body": [
+        "You sell booking software to hair salons. A rival launches at 30% less. You want salons to stay without resenting you.",
+        "Where do you invest?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Move everyone to two-year contracts with an exit fee",
+            "verdict": "partial",
+            "feedback": "It buys time, but the cost of leaving disappears at renewal, and salons remember being boxed in."
+          },
+          {
+            "key": "B",
+            "text": "Build client history, color notes and reminders salons rely on every day",
+            "verdict": "best",
+            "feedback": "Leaving now means losing records stylists use with every client. The cost of switching grows because the product is useful, not because users are trapped."
+          },
+          {
+            "key": "C",
+            "text": "Make it hard to export client data",
+            "verdict": "risky",
+            "feedback": "It may slow a few departures. But salons feel held hostage, word spreads among owners, and rivals will advertise easy imports."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Customers stay when leaving costs more than staying.",
+      "body": [
+        "A rival's discount only wins if it beats the money, effort, risk and loss of switching. Build those costs through value, and you can compete on more than price.",
+        "**Try it today:** list what a customer would have to spend, learn, risk or give up to leave you. Then ask which of those they'd thank you for."
+      ],
+      "next": "Next · How a rival can win by doing what you can't copy"
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "id": "BMO-07-05",
+  "unitId": "BMO-07",
+  "categoryId": "BMO",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Commoditize your complement",
+  "readerTitle": "Why the mall gives away parking",
+  "format": "everyday_scene",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "real_observation",
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 관찰 (쇼핑몰 무료 주차) + 실제 기업 (Microsoft, Google Android) + 가상 사례 (전기 배송 밴 제조사, 온라인 상점 소프트웨어)",
+  "insight": "내 제품 옆에서 함께 팔리는 것은 내가 이익을 낼 곳이 아니라 싸고 흔하게 만들어야 할 곳일 수 있다.",
+  "misconception": "보완재로도 돈을 벌 수 있다면 직접 비싸게 팔거나 독점 파트너를 두는 편이 언제나 이득이다.",
+  "relatedLessonIds": [
+    "BMO-07-01",
+    "BMO-07-06"
+  ],
+  "sources": [
+    {
+      "text": "Spolsky, J. (2002). Strategy Letter V. Joel on Software.",
+      "url": "https://www.joelonsoftware.com/2002/06/12/strategy-letter-v/"
+    },
+    {
+      "text": "Android Open Source Project, Google (Android 소스 공개와 라이선스 정책)",
+      "url": "https://source.android.com/"
+    },
+    {
+      "text": "밴 제조사, 쇼핑몰 주차 선택, 상점 소프트웨어 사례는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Spolsky 인용문 \"Smart companies try to commoditize their products' complements.\"의 정확한 문구를 원문에서 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Microsoft가 1980년대에 운영체제를 여러 PC 제조사에 라이선스했고, 경쟁으로 PC가 싸지면서 소프트웨어 수요가 늘었다는 설명은 Spolsky 에세이와 일반 역사 자료에 근거합니다. 구체적 수치나 연도는 넣지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Android는 오픈소스로 공개되어 제조사가 라이선스료 없이 쓸 수 있습니다. 다만 Google 앱 묶음(GMS)은 별도 계약이 있으므로 카드에는 \"the core of Android\"로만 적었습니다. 게시 전 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "쇼핑몰 무료 주차는 흔한 관찰입니다. 특정 쇼핑몰이나 수치는 쓰지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business models · Everyday scene",
+      "title": "Why the mall gives away parking",
+      "body": [
+        "The city garage across the street charges by the hour. The shopping mall next door lets you park free for three hours.",
+        "Same street, same cars. One owner sells parking. The other gives it away. Both are making a smart choice."
+      ],
+      "image": {
+        "label": "Paid garage and free mall parking side by side",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 길 하나를 사이에 두고 왼쪽은 \"$4 / hour\" 표지판이 있는 주차 빌딩, 오른쪽은 \"3 hours free\" 표지판이 있는 쇼핑몰 주차장. 쇼핑몰 쪽에 차와 사람이 더 많음. 실제 브랜드나 로고 없음.",
+        "url": "assets/images/bmo-07-05-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Your van buyers worry about charging.",
+      "illustrative": true,
+      "body": [
+        "You make electric delivery vans. Fleet managers like your vans, but many hold back. Charging stations are scarce on their routes and often pricey.",
+        "You have money for one big move. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Build your own charging network and sell charging as a new profit line",
+            "verdict": "risky",
+            "feedback": "You gain a second income stream, but pricey charging is the very thing stopping fleets from buying vans. Profit from charging comes out of van sales."
+          },
+          {
+            "key": "B",
+            "text": "Back an open plug standard and sign up many independent charging firms",
+            "verdict": "best",
+            "feedback": "You give up charging profits, but charging gets cheaper and easier to find. That removes the main reason fleets say no to your vans."
+          },
+          {
+            "key": "C",
+            "text": "Build stations only for your vans, priced at cost",
+            "verdict": "partial",
+            "feedback": "Cheap charging helps, but you carry all the building cost and the network grows slowly. Many competing suppliers would spread faster."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "The pattern",
+      "title": "Your sales rise when the other thing gets cheap.",
+      "illustrative": true,
+      "body": [
+        "The mall doesn't earn from parking. It earns from shop rents, and rents rise with visitors. Cheap parking brings more visitors.",
+        "The van maker doesn't earn from charging. It earns from vans, and fleets buy more vans when charging is cheap and everywhere.",
+        "In both cases the smart move is to make the *other* thing cheap and plentiful, even though you could profit from it."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Commoditize your complement",
+      "body": [
+        "A **complement** is something customers buy alongside your product to get the job done. To **commoditize** it means making it cheap, plentiful and easy to swap between suppliers.",
+        "When the complement gets cheaper, the whole package gets cheaper, and more people buy your part. Software writer Joel Spolsky named the idea in 2002: \"Smart companies try to commoditize their products' complements.\""
+      ],
+      "image": {
+        "label": "Seesaw: complement price down, demand for your product up",
+        "aspectRatio": "16:9",
+        "brief": "시소 인포그래픽. 왼쪽 끝 \"Price of the complement\"가 아래로 내려가고, 오른쪽 끝 \"Demand for your product\"가 위로 올라감. 깔끔한 플랫 스타일.",
+        "url": "assets/images/bmo-07-05-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Real examples",
+      "title": "Two tech giants made the same move.",
+      "body": [
+        "In the 1980s, Microsoft licensed its operating system to many PC makers instead of just one. Those makers competed hard, PCs got cheaper and more alike, and every new PC needed Microsoft software.",
+        "Google lets phone makers use the core of Android without a license fee. Many makers mean cheap smartphones, and more people online means more people using Google search.",
+        "Each company made the device ordinary so its own part stayed special."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The other side",
+      "title": "Your complements want the same thing.",
+      "illustrative": true,
+      "body": [
+        "Charging firms would love vans to be interchangeable. Then the scarce part, and the profit, would be theirs.",
+        "Every business sits in this tug of war. The winner is whoever keeps its own part different while the parts around it become alike.",
+        "This differs from razors and blades. There you own both parts and overcharge for one. Here someone else sells the complement, and you push its price down."
+      ],
+      "image": {
+        "label": "Tug of war between a van maker and a charging firm",
+        "aspectRatio": "16:9",
+        "brief": "줄다리기 일러스트. 한쪽은 밴 아이콘을 든 팀 \"Vans\", 다른 쪽은 충전기 아이콘을 든 팀 \"Charging\". 줄 가운데 매달린 코인 주머니 \"Profit\". 실제 로고 없음.",
+        "url": "assets/images/bmo-07-05-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "It only works if your part stays special.",
+      "body": [
+        "If your product is just as ordinary as the complement, the savings go to customers and rivals, not you. The mall with dull shops gains little from free parking.",
+        "It also costs money: free parking, free software, partner deals.",
+        "And many cheap suppliers can shrink to one dominant one that sets the terms. Keep checking that the complement stays open and competitive."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's online store software.",
+      "illustrative": true,
+      "body": [
+        "You sell a monthly subscription that lets small merchants run an online shop. Merchants who launch with a good-looking design stick around. But design templates from outside designers cost $300 or more, and many new users stall at that step.",
+        "What do you do about templates?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Sell your own premium templates at $300 each",
+            "verdict": "partial",
+            "feedback": "It adds revenue, but the price is still the barrier. You earn on templates while users stall before paying for the subscription."
+          },
+          {
+            "key": "B",
+            "text": "Offer free basic templates and open a marketplace where many designers compete",
+            "verdict": "best",
+            "feedback": "You give up template profits, but launching gets cheap and easy. More shops go live, and subscriptions are where you earn."
+          },
+          {
+            "key": "C",
+            "text": "Partner exclusively with one top design agency",
+            "verdict": "risky",
+            "feedback": "Quality may be high, but one supplier holds the key step in your funnel. It can raise prices, and your growth depends on it."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Make the thing next to yours cheap and plentiful.",
+      "body": [
+        "When customers buy your product together with something else, your sales depend on that something being easy to get. Profit from your own special part, not from the toll on the road leading to it.",
+        "**Try it today:** list three things your customers must buy to use what you sell. Which one's price or scarcity holds back your sales most?"
+      ],
+      "next": "Next · When the platform you depend on changes the rules"
+    }
+  ]
+}

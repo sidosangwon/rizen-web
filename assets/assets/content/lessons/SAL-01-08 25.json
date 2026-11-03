@@ -1,0 +1,247 @@
+{
+  "id": "SAL-01-08",
+  "unitId": "SAL-01",
+  "categoryId": "SAL",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "Sell software to a small firm",
+  "readerTitle": "Fifteen minutes between lunch and dinner",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (식당에 근무표 소프트웨어 판매, 소프트웨어 스튜디오에 케이터링 판매) · 모든 수치는 설명용",
+  "insight": "작은 회사에 팔 때는 기능을 다 보여주는 것보다, 지난주에 실제로 무슨 일이 있었는지 묻고 그 문제 하나를 함께 풀어보는 다음 단계를 잡는 것이 판매를 만든다.",
+  "misconception": "작은 회사 사장은 바쁘니까 짧고 화려한 데모와 할인으로 그 자리에서 결정하게 만들어야 한다.",
+  "relatedLessonIds": [
+    "SAL-01-05",
+    "SAL-01-06"
+  ],
+  "sources": [
+    {
+      "text": "SAL-01 유닛의 개념 레슨(Discovery, Closing) 적용",
+      "url": null
+    },
+    {
+      "text": "모든 사례와 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "식당 사례의 수치(직원 12명, 일요일 저녁 2시간, 하루 약 3건의 근무 교대 메시지, 지난달 금요일 결근 1건)는 모두 설명용 가상 수치입니다. 실제 통계처럼 읽히지 않는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "케이터링 사례(직원 15명 소프트웨어 스튜디오, 주간 점심)는 가상 사례입니다. 카드에 illustrative 표시를 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Selling · Everyday scene",
+      "title": "Fifteen minutes between lunch and dinner",
+      "illustrative": true,
+      "body": [
+        "Maria runs a busy family restaurant with 12 staff. The schedule lives on a whiteboard by the kitchen door and in a noisy group chat.",
+        "You sell staff scheduling software. She has agreed to meet you at 3:30, after the lunch rush and before dinner prep. You have about fifteen minutes, and she is still wiping down the counter."
+      ],
+      "image": {
+        "label": "Restaurant owner at a quiet counter, a whiteboard schedule behind her",
+        "aspectRatio": "4:3",
+        "brief": "점심과 저녁 사이 한산한 식당. 카운터를 닦는 사장님 뒤로 지우고 다시 쓴 흔적이 많은 화이트보드 근무표. 테이블 위에 노트북을 든 영업 담당자가 앉아 있음. 따뜻한 오후 햇빛. 실제 브랜드 로고 없음.",
+        "url": "assets/images/sal-01-08-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How do you use the first five minutes?",
+      "illustrative": true,
+      "body": [
+        "Your software has shift planning, time clocks, payroll export, swap requests and a mobile app. Maria looks tired and a little skeptical."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Open the laptop and walk her through the main features quickly",
+            "verdict": "risky",
+            "feedback": "You cover a lot, but you're guessing which features matter. Most of the time goes to things she doesn't need."
+          },
+          {
+            "key": "B",
+            "text": "Ask her to tell you how last week's schedule went, and what went wrong",
+            "verdict": "best",
+            "feedback": "This is **discovery**: learning her real problem before offering anything. You give up demo time and gain the one thing the demo should be about."
+          },
+          {
+            "key": "C",
+            "text": "Hand over the price sheet so she knows it's affordable",
+            "verdict": "partial",
+            "feedback": "Busy owners do care about price. But a price means little before she sees what problem it solves for her."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What she told you",
+      "title": "The schedule wasn't the real problem.",
+      "illustrative": true,
+      "body": [
+        "Making the schedule is fine. The pain is everything that happens *after* it's posted. And her head chef handles most swaps, so he will use the tool more than she will."
+      ],
+      "breakdown": [
+        {
+          "value": "2 hrs",
+          "label": "Sunday evenings",
+          "detail": "Rebuilding the week after changes",
+          "highlight": false
+        },
+        {
+          "value": "~3 a day",
+          "label": "Swap messages",
+          "detail": "Lost in the group chat",
+          "highlight": true
+        },
+        {
+          "value": "1",
+          "label": "Missed Friday shift",
+          "detail": "Last month, nobody saw the swap",
+          "highlight": true
+        },
+        {
+          "value": "Head chef",
+          "label": "Who handles swaps",
+          "detail": "Not Maria",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Why small firms differ",
+      "title": "One person decides, and she has no spare time.",
+      "body": [
+        "In a small firm, the owner is often the buyer, the payer and part of the support team. There is no IT department to set things up and no committee to persuade.",
+        "That cuts both ways. A decision can happen fast. But if the next step feels like extra work, it simply never happens. Your job is to make the next step small and clearly useful."
+      ],
+      "image": {
+        "label": "One person holding several hats: buyer, payer, user",
+        "aspectRatio": "16:9",
+        "brief": "한 사람이 모자 세 개를 겹쳐 쓴 일러스트. 각 모자에 \"Buyer\", \"Payer\", \"Setup\" 라벨. 옆에 시계가 거의 비어 있는 모습으로 시간 부족을 표현. 로고 없음.",
+        "url": "assets/images/sal-01-08-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "\"Sounds useful. Send me something and I'll think about it.\"",
+      "illustrative": true,
+      "body": [
+        "The fifteen minutes are almost up. Maria is friendly but already looking toward the kitchen. What do you say?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "\"Of course. I'll email a brochure and check in in two weeks.\"",
+            "verdict": "risky",
+            "feedback": "It's polite and low-pressure, but nothing is agreed. A brochure lands in a busy inbox and the deal quietly fades."
+          },
+          {
+            "key": "B",
+            "text": "\"Can we set up next week's schedule together on Tuesday at 3:30, with your head chef? Then you decide.\"",
+            "verdict": "best",
+            "feedback": "This is **closing**: asking for a clear next step that fits where she is. It costs her one quiet hour and shows the tool on her own swap problem."
+          },
+          {
+            "key": "C",
+            "text": "\"If you sign today, I can take 30% off the first year.\"",
+            "verdict": "partial",
+            "feedback": "It might win a fast yes. But it pushes a decision before she's seen the value, and it teaches her your price is soft."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Why it works",
+      "title": "Close on the next step, not the whole deal.",
+      "illustrative": true,
+      "body": [
+        "Maria wasn't ready to buy. She was ready to try one thing that would save her a Sunday evening.",
+        "Discovery told you what that thing was: swaps the head chef can approve from his phone. Closing turned it into a date, a time and the right two people in the room. On Tuesday, the tool either fixes her real problem or it doesn't. Either way, you both learn fast."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Sometimes the helpful answer is no.",
+      "body": [
+        "If Maria had five staff and no swap problems, the whiteboard might be the better tool. Selling it anyway wins a customer who cancels in three months and tells other owners.",
+        "Small firms also feel setup pain sharply. Promise only what you can deliver in that first hour. A small promise kept beats a big one that slips."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now you're the one selling food.",
+      "illustrative": true,
+      "body": [
+        "You run a catering business. The office manager at a 15-person software studio emails: \"What would weekly team lunches cost?\""
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Reply with your full menu and price list right away",
+            "verdict": "partial",
+            "feedback": "Fast and clear, but it turns you into one quote among many. You don't yet know what these lunches are for."
+          },
+          {
+            "key": "B",
+            "text": "Ask what the lunches are for, who decides and any diet needs, then offer one trial Friday with a date",
+            "verdict": "best",
+            "feedback": "**Discovery** finds the real job, maybe getting a remote team in on the same day. **Closing** turns interest into a booked Friday."
+          },
+          {
+            "key": "C",
+            "text": "Offer a free lunch for the whole team this week",
+            "verdict": "risky",
+            "feedback": "Generous, but you're spending money before knowing what they need or who approves the budget."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "Studios like this often decide in a team chat. Asking who signs off on spending can matter as much as asking what they like to eat."
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Ask about last week, then agree on next week.",
+      "body": [
+        "**Concepts used:** *Discovery* found the real pain behind the request. *Closing* turned a vague \"send me something\" into one small, dated step with the right people.",
+        "**Try it today:** think of a prospect who said \"let me think about it.\" Write one question about what went wrong for them last week, and one specific next step you could ask for."
+      ],
+      "next": "Next · How Avon's door-to-door sellers built trust one kitchen at a time"
+    }
+  ]
+}

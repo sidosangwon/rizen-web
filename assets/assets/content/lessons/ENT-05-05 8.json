@@ -1,0 +1,244 @@
+{
+  "id": "ENT-05-05",
+  "unitId": "ENT-05",
+  "categoryId": "ENT",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Default alive or default dead?",
+  "readerTitle": "The hire that would have sunk a growing studio",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative",
+    "real_observation"
+  ],
+  "caseNote": "가상 사례 (디자인 스튜디오, B2B SaaS) + Paul Graham의 2015년 에세이 'Default Alive or Default Dead?'의 개념 · 모든 수치는 설명용",
+  "insight": "생존 여부는 성장 속도나 남은 현금 하나로 보지 않는다. 지금의 비용과 성장 속도로 현금이 바닥나기 전에 흑자에 닿는지를 함께 계산해야 보인다.",
+  "misconception": "매출이 빠르게 늘고 사람을 더 뽑을 만큼 일이 밀려 있으면 사업은 안전하다. 성장에 투자하면 생존 가능성도 높아진다.",
+  "relatedLessonIds": [
+    "ENT-05-04",
+    "ENT-05-10"
+  ],
+  "sources": [
+    {
+      "text": "Graham, P. (2015). Default Alive or Default Dead? paulgraham.com",
+      "url": "http://paulgraham.com/aord.html"
+    },
+    {
+      "text": "스튜디오와 SaaS 수치는 모두 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "현재 경로 계산: 현금 $200k, 매출 $90k/월(매월 +$3k), 비용 $120k/월. 월 손실 30, 27, 24, 21, 18, 15, 12, 9, 6, 3 = $165k (10개월). 11개월째 매출 $120k = 비용. 남는 현금 $200k − $165k = $35k.",
+      "status": "open"
+    },
+    {
+      "note": "채용 후 계산: 비용 $140k/월, 매출 매월 +$5k. 월 손실 50, 45, 40, 35, 30 → 5개월 누적 $200k로 현금 소진. 매출이 비용을 따라잡는 시점은 10개월 뒤(11개월째 $140k). 같은 기간 손실 합계는 $275k.",
+      "status": "open"
+    },
+    {
+      "note": "SaaS 계산: 현금 $600k, 매출 $20k/월이 매월 10% 성장, 비용 $100k/월 고정. 20×1.1^n = 100 → n ≈ 16.9개월(약 17개월). 누적 손실은 8개월에 약 $571k, 9개월에 약 $628k라서 현금은 약 8개월 버팀.",
+      "status": "open"
+    },
+    {
+      "note": "Graham이 에세이에서 '자신이 만나는 창업자 중 상당수(원문에서는 약 절반)가 이 답을 모른다'고 쓴 부분은 게시 전에 원문으로 다시 확인하세요. 카드에는 'many founders'로만 적었습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Entrepreneurship · Counterexample",
+      "title": "The hire that would have sunk a growing studio",
+      "illustrative": true,
+      "body": [
+        "Maya runs a small design studio. Revenue has grown every month this year, and clients are waiting in line.",
+        "To keep up, she plans to hire two more designers. It looks like the obvious move for a business that's doing well. The numbers say it would have closed the studio in five months."
+      ],
+      "image": {
+        "label": "A busy design studio with a calendar running out",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 작은 디자인 스튜디오 책상 위에 상승하는 매출 그래프 포스터가 붙어 있고, 옆 벽 달력은 다섯 장만 남아 마지막 장이 흐릿하게 사라지는 연출. 실제 브랜드 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Will Maya's studio make it?",
+      "illustrative": true,
+      "body": [
+        "The studio has $200k in the bank. It earns $90k a month and spends $120k. Revenue has been rising by about $3k each month.",
+        "Which question tells you the most about whether the studio survives?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "How fast is revenue growing?",
+            "verdict": "partial",
+            "feedback": "Growth matters, but on its own it says nothing about whether the money lasts long enough for that growth to pay off."
+          },
+          {
+            "key": "B",
+            "text": "How many months of cash are left?",
+            "verdict": "partial",
+            "feedback": "A useful number, but it assumes losses stay the same. Here they shrink every month as revenue grows."
+          },
+          {
+            "key": "C",
+            "text": "Will revenue catch up with costs before the cash runs out?",
+            "verdict": "best",
+            "feedback": "This combines both numbers into one answer: yes or no. It's the question this lesson is built on."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "Today's path",
+      "title": "On her current path, Maya makes it.",
+      "illustrative": true,
+      "body": [
+        "Each month the loss shrinks by $3k as revenue climbs. After about 10 months, revenue matches costs, with **$35k** still in the bank."
+      ],
+      "breakdown": [
+        {
+          "value": "$200k",
+          "label": "Cash in the bank",
+          "detail": "What she has today",
+          "highlight": false
+        },
+        {
+          "value": "$30k",
+          "label": "First month's loss",
+          "detail": "Shrinks by $3k each month",
+          "highlight": false
+        },
+        {
+          "value": "10 months",
+          "label": "Until break-even",
+          "detail": "Revenue reaches $120k",
+          "highlight": false
+        },
+        {
+          "value": "$165k",
+          "label": "Total lost on the way",
+          "detail": "30 + 27 + 24 … + 3",
+          "highlight": false
+        },
+        {
+          "value": "$35k",
+          "label": "Left at break-even",
+          "detail": "She survives on her own",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The twist",
+      "title": "Growing faster, dying sooner.",
+      "illustrative": true,
+      "body": [
+        "Two designers add $20k a month in costs. With more hands, revenue grows faster: $5k a month instead of $3k.",
+        "But the first month's loss jumps to $50k, then $45k, $40k. By month five, the $200k is gone. Revenue would only have caught up in month ten.",
+        "The plan that looked like success turns a business that survives into one that runs out of cash."
+      ],
+      "image": {
+        "label": "Two paths: cash line hitting zero before break-even",
+        "aspectRatio": "16:9",
+        "brief": "두 개의 선 그래프 비교. 왼쪽 \"Today\": 현금 선이 내려가다가 10개월째 $35k에서 멈추고 매출 선이 비용 선과 만남. 오른쪽 \"With two hires\": 현금 선이 5개월째 0에 닿고, 매출과 비용이 만나는 점(10개월)은 점선으로 멀리 표시.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Default alive or default dead",
+      "body": [
+        "Investor Paul Graham put it as one question in a 2015 essay. If your costs stay where they are and revenue keeps growing at its recent pace, do you reach profit before the money runs out?",
+        "If yes, you're **default alive**. If no, you're **default dead**: something has to change, or the business ends.",
+        "Graham noted that many founders he talked to didn't know which one they were."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Why it matters",
+      "title": "Default dead is a warning, not a verdict.",
+      "body": [
+        "Being default dead doesn't mean you will fail. It means survival depends on something that hasn't happened yet: new money, lower costs or faster growth.",
+        "The danger is assuming that rescue will come. Founders often plan on raising money or landing a big client, then discover too late that it takes months or never arrives.",
+        "Knowing early gives you time to choose. A restaurant opening a second site or a builder buying new equipment faces the same test."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The answer is only as good as your growth guess.",
+      "body": [
+        "The test assumes recent growth continues. In a services business, one big client leaving can erase months of growth overnight. Test a slower path too.",
+        "Default dead can also be a deliberate bet, if funding is already committed and not just hoped for.",
+        "And cutting everything to look alive can stop the growth that was carrying you to break-even."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software startup.",
+      "illustrative": true,
+      "body": [
+        "Your subscription software has $600k in the bank. Revenue is $20k a month and growing 10% monthly. Costs are $100k a month.",
+        "At this pace, revenue catches costs in about 17 months. Your cash lasts about 8. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep hiring. Strong growth will make raising money easy",
+            "verdict": "risky",
+            "feedback": "You gain speed but bet the company on a round that isn't promised. If investors hesitate, you have no time left to adjust."
+          },
+          {
+            "key": "B",
+            "text": "Start raising now, and prepare cuts that make you default alive if no deal closes by month four",
+            "verdict": "best",
+            "feedback": "You keep growing while the door is open and still control your fate if it closes. The cost is real effort spent planning cuts you may never use."
+          },
+          {
+            "key": "C",
+            "text": "Freeze all spending tonight, including marketing",
+            "verdict": "partial",
+            "feedback": "Losses drop fast, but the 10% growth may drop with them. You could end up alive but stuck, with nothing left to raise money on."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Know whether you survive without help.",
+      "body": [
+        "Growth and cash in the bank don't answer the question on their own. Put them together: on today's path, does revenue catch costs before the money runs out?",
+        "**Try it today:** write down your cash, monthly costs, monthly revenue and recent growth. Count the months to break-even and the months until cash runs out. Which comes first?"
+      ],
+      "next": "Next · Why speed matters more than you think"
+    }
+  ]
+}

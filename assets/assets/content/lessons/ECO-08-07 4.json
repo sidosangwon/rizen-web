@@ -1,0 +1,256 @@
+{
+  "id": "ECO-08-07",
+  "unitId": "ECO-08",
+  "categoryId": "ECO",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "Raise prices at a hair salon",
+  "readerTitle": "Your salon is fully booked. Is it time to charge more?",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (미용실, 골판지 상자 제조사) + 실제 연구 (Kahneman·Knetsch·Thaler 1986 공정성 조사) · 모든 수치는 설명용",
+  "insight": "가격 인상은 '얼마를 올릴까'와 '어떻게 알릴까' 두 질문으로 나눠 판단한다. 첫째는 손님을 몇 명까지 잃어도 되는지 계산하는 문제이고, 둘째는 공정하게 느껴지게 만드는 문제다.",
+  "misconception": "단골이 한 명이라도 떠나면 가격 인상은 손해다. 이유를 굳이 설명하지 않고 조용히 올리는 편이 낫다.",
+  "relatedLessonIds": [
+    "ECO-08-01",
+    "ECO-08-05"
+  ],
+  "sources": [
+    {
+      "text": "Kahneman, D., Knetsch, J. L., & Thaler, R. (1986). Fairness as a Constraint on Profit Seeking: Entitlements in the Market. American Economic Review, 76(4), 728–741.",
+      "url": null
+    },
+    {
+      "text": "미용실·상자 제조사 수치는 모두 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "미용실 계산: 커트 $60, 커트당 변동비 $15(재료·카드 수수료 등) → 남는 돈 $45. 10% 인상 후 $66 − $15 = $51. 이익 손익분기: 100건 × $45 = $4,500, $4,500 ÷ $51 = 88.2건 → 약 11.8%(약 12%, 대략 8명 중 1명)까지 잃어도 같은 돈. 매출 기준 손익분기: $6,000 ÷ $66 = 90.9건 → 약 9.1%(11명 중 1명). 선택지 B·C 수치와 일치하는지 다시 확인.",
+      "status": "open"
+    },
+    {
+      "note": "Kahneman·Knetsch·Thaler(1986) 눈삽 사례: 눈보라 뒤 눈삽 가격 인상을 응답자 대부분(원문 82%)이 불공정하다고 답함. 비용 상승을 가격에 반영하는 것은 대체로 수용 가능하다고 판단. 카드에는 '대부분'으로만 적었음. 원문으로 재확인.",
+      "status": "open"
+    },
+    {
+      "note": "소프트웨어 노트의 '사전 공지·기존 고객 유예 기간' 관행은 일반적 설명이며 특정 기업 사례를 들지 않았음.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Pricing · Everyday scene",
+      "title": "Your salon is fully booked. Is it time to charge more?",
+      "illustrative": true,
+      "body": [
+        "Every chair is booked three weeks out. Your prices haven't moved in three years. Rent is up and hair color costs more than it did.",
+        "Still, adding $6 to a $60 haircut feels risky. What if your regulars walk?"
+      ],
+      "image": {
+        "label": "A salon appointment book with every slot filled",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 동네 미용실 카운터 위에 펼쳐진 예약 장부, 3주치 칸이 모두 손글씨로 꽉 차 있음. 옆에 \"$60\" 가격표와 가위. 실제 브랜드 로고나 제품 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How many clients could you lose?",
+      "illustrative": true,
+      "body": [
+        "Each haircut costs you about $15 in supplies, card fees and products used. You plan to raise the price 10%, from $60 to $66.",
+        "How many clients could leave before you earn *less* than today?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Almost none. Every lost client hurts",
+            "verdict": "risky",
+            "feedback": "This fear keeps prices frozen for years. A raise adds to every remaining cut, so you can lose some clients and still come out ahead."
+          },
+          {
+            "key": "B",
+            "text": "About 1 in 11 (9%)",
+            "verdict": "partial",
+            "feedback": "That's where your *sales* stay the same. But a client who leaves also takes away the $15 you spend on them, so your margin for error is wider."
+          },
+          {
+            "key": "C",
+            "text": "About 1 in 8 (12%)",
+            "verdict": "best",
+            "feedback": "Right. This is the core of **Raising prices**: what you keep per cut rises from $45 to $51, so you can lose almost 12% of cuts and still earn the same."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Follow 100 haircuts.",
+      "illustrative": true,
+      "body": [
+        "The $6 raise goes straight to what you keep, so that number grows 13%, not 10%. And with a three-week wait, clients who leave free up chairs for people already waiting."
+      ],
+      "breakdown": [
+        {
+          "value": "$45",
+          "label": "Kept per cut today",
+          "detail": "$60 − $15 costs per cut",
+          "highlight": false
+        },
+        {
+          "value": "$51",
+          "label": "Kept per cut after",
+          "detail": "$66 − $15 costs per cut",
+          "highlight": false
+        },
+        {
+          "value": "$4,500",
+          "label": "Today, 100 cuts",
+          "detail": "100 × $45",
+          "highlight": false
+        },
+        {
+          "value": "88",
+          "label": "Cuts needed after",
+          "detail": "$4,500 ÷ $51, so 12 can leave",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept at work",
+      "title": "A full book is a price signal.",
+      "illustrative": true,
+      "body": [
+        "When demand is higher than the hours you can sell, your price is probably below what many clients would pay. A long waitlist is the clearest sign.",
+        "That's the lesson from **Raising prices** applied here: the question isn't whether anyone will leave. It's whether the people who stay make up for those who go. With a full book, lost clients may cost you almost nothing.",
+        "Smaller, regular raises also beat one big jump after years of waiting."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How do you tell your regulars?",
+      "illustrative": true,
+      "body": [
+        "You've decided on $66. Now you need to announce it."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Put up a new price sign on the day it changes",
+            "verdict": "risky",
+            "feedback": "It's quick, but a surprise at the register feels like being caught out. Even a fair price can feel unfair when nobody warned you."
+          },
+          {
+            "key": "B",
+            "text": "Tell each regular a month ahead: costs are up, and prices haven't changed in three years",
+            "verdict": "best",
+            "feedback": "This is **Perceived fairness** at work. Notice gives people time, and a cost reason feels like sharing a burden, not taking advantage."
+          },
+          {
+            "key": "C",
+            "text": "Post honestly: \"We're in high demand, so prices are going up\"",
+            "verdict": "partial",
+            "feedback": "It's true and it's the real reason. But a rise tied to demand tends to feel like profiting from loyalty, while a rise tied to costs feels earned."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Why it works",
+      "title": "People judge the reason, not just the price.",
+      "body": [
+        "In a 1986 survey, Daniel Kahneman, Jack Knetsch and Richard Thaler asked people about a store that raised the price of snow shovels after a snowstorm. Most called it unfair. Yet passing on higher costs was widely seen as acceptable.",
+        "Your clients use the same test. Same $6, different story, different reaction."
+      ],
+      "image": {
+        "label": "Two price tags: one tied to costs, one tied to demand",
+        "aspectRatio": "16:9",
+        "brief": "두 개의 가격표를 나란히. 왼쪽 \"+$6 · Our costs went up\" 옆에 끄덕이는 손님, 오른쪽 \"+$6 · You can't get in anyway\" 옆에 팔짱 낀 손님. 따뜻한 파스텔 톤, 로고 없음.",
+        "url": null
+      },
+      "softwareNote": "Software companies face the same test. Advance notice, a clear reason, and sometimes a period at the old price for existing users make a raise feel earned rather than taken."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The 12% cushion has conditions.",
+      "body": [
+        "It assumes clients leave one by one. If a stylist quits and takes her regulars, or a cheaper salon opens nearby with open chairs, losses can pass 12% fast.",
+        "Your stylists also deliver the news face to face. Give them the reason in one sentence so they don't apologize or improvise.",
+        "And a cost reason sets an expectation. If costs fall later, clients will remember why you said prices rose."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now you make cardboard boxes.",
+      "illustrative": true,
+      "body": [
+        "Your small factory supplies shipping boxes to local shops. Paper prices have risen and you haven't changed prices in two years. One customer buys 30% of your output.",
+        "What's your best move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Quietly switch to thinner board at the same price",
+            "verdict": "risky",
+            "feedback": "It avoids a hard conversation now. But buyers notice weaker boxes, and a hidden change feels far less fair than an open one."
+          },
+          {
+            "key": "B",
+            "text": "Raise 8% for everyone, with 60 days' notice and the paper costs shown",
+            "verdict": "best",
+            "feedback": "Check the math from **Raising prices**, then pass the **Perceived fairness** test: notice plus a visible cost reason. Business buyers expect cost-based increases."
+          },
+          {
+            "key": "C",
+            "text": "Raise prices for small customers only and spare the big one",
+            "verdict": "partial",
+            "feedback": "It protects your largest relationship. But small shops end up carrying the cost, and if they find out, the unequal treatment feels unfair."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Do the math, then tell the story.",
+      "body": [
+        "Two ideas did the work. **Raising prices:** figure out how many customers you can lose before a raise costs you. **Perceived fairness:** give notice and a cost reason so the raise feels earned.",
+        "**Try it today:** take your main product. Work out what you keep per sale now and after a 10% raise, then divide one by the other. That's how much volume you can lose."
+      ],
+      "next": "Next · Respond to a competitor's big sale"
+    }
+  ]
+}

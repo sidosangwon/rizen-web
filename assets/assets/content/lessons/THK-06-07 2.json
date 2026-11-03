@@ -1,0 +1,219 @@
+{
+  "id": "THK-06-07",
+  "unitId": "THK-06",
+  "categoryId": "THK",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "How a discount spiral starts",
+  "readerTitle": "The promo that worked too well",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.2,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (가정 청소 서비스, 소프트웨어 회사 영업팀) · 모든 수치는 설명용",
+  "insight": "할인의 효과는 할인한 달이 아니라 그다음 몇 달에 나타난다. 고객이 '기다리면 싸진다'를 배우는 순간 할인은 스스로를 키우는 고리가 된다.",
+  "misconception": "할인 뒤 매출이 떨어지면 수요가 약해진 것이니 다시 할인하면 된다.",
+  "relatedLessonIds": [
+    "THK-06-01",
+    "THK-06-02"
+  ],
+  "sources": [
+    {
+      "text": "시스템 사고의 표준 개념 (강화 피드백 루프, 지연)",
+      "url": null
+    },
+    {
+      "text": "모든 사례와 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "청소 서비스와 소프트웨어 영업팀 사례는 모두 가상입니다. '평소 5월보다 약 3분의 1 감소', '25% 할인' 등 수치는 설명용이며 실제 통계처럼 읽히지 않는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "분기 말 할인이 B2B 소프트웨어 영업에서 흔하다는 서술은 일반적 관찰로만 썼고 수치는 넣지 않았습니다. 특정 기업이나 통계를 덧붙이지 마세요.",
+      "status": "open"
+    },
+    {
+      "note": "피드백 루프(THK-06-01), 지연(THK-06-02) 개념 레슨의 용어 정의와 이 레슨의 표현이 일치하는지 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Everyday scene",
+      "title": "The promo that worked too well",
+      "illustrative": true,
+      "body": [
+        "A home-cleaning company offers 25% off every booking in April. The phone rings all month. The calendar fills up.",
+        "In May, bookings fall below a normal May. So in June, the owner runs another promo. It works again. July is quiet again."
+      ],
+      "image": {
+        "label": "A cleaning calendar full in one month and empty the next",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 벽에 걸린 달력 두 장. 'April' 달력은 예약 스티커로 빽빽하고, 'May' 달력은 거의 비어 있음. 옆에 청소 도구 바구니와 '25% OFF' 전단지. 실제 브랜드 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "May is slow. What now?",
+      "illustrative": true,
+      "body": [
+        "You own the cleaning company. April's 25% off deal filled the calendar. May bookings are down about a third compared with a usual May.",
+        "Your best cleaner asks if there will be enough hours next month. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Run another 25% off deal in June to fill the gap",
+            "verdict": "risky",
+            "feedback": "It fills June, but it feeds a **feedback loop**: each deal teaches customers to wait for the next one, which makes the next slump deeper."
+          },
+          {
+            "key": "B",
+            "text": "Hold full price and check who booked in April before deciding",
+            "verdict": "best",
+            "feedback": "You accept a slow month to learn the cause. Because of the **delay** between a discount and its cost, May may be the bill for April, not a sign of weak demand."
+          },
+          {
+            "key": "C",
+            "text": "Cut your regular price by 10% for good",
+            "verdict": "partial",
+            "feedback": "It stops the stop-start pattern, but you lose margin on every job forever, based on one month of data that the promo itself distorted."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What happened",
+      "title": "Follow the calendar.",
+      "illustrative": true,
+      "body": [
+        "Nothing about the customers' homes changed. What changed was what customers learned about your prices."
+      ],
+      "breakdown": [
+        {
+          "value": "April",
+          "label": "Promo month",
+          "detail": "Regulars book early to get the deal",
+          "highlight": false
+        },
+        {
+          "value": "May",
+          "label": "Slump",
+          "detail": "Regulars already cleaned; others wait",
+          "highlight": false
+        },
+        {
+          "value": "June",
+          "label": "Second promo",
+          "detail": "The slump looks like weak demand",
+          "highlight": false
+        },
+        {
+          "value": "July+",
+          "label": "New normal",
+          "detail": "Many customers book only on deals",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept at work · Feedback loops",
+      "title": "The discount feeds itself.",
+      "body": [
+        "A **reinforcing feedback loop** is a chain where each step pushes the next one harder in the same direction.",
+        "Here it runs like this: a deal brings a spike. Customers learn that deals come back. They wait. Full-price bookings drop. The owner sees the drop and runs another deal. Each turn of the loop makes customers wait a little longer."
+      ],
+      "image": {
+        "label": "A loop diagram: discount, spike, waiting, slump, discount",
+        "aspectRatio": "16:9",
+        "brief": "원형 화살표 다이어그램. 'Discount' → 'Bookings spike' → 'Customers learn to wait' → 'Full-price slump' → 다시 'Discount'. 화살표가 돌수록 점점 굵어져 루프가 강해지는 느낌.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Concept at work · Delays",
+      "title": "The cost arrives after the credit.",
+      "body": [
+        "The good news from a discount shows up the same week. The bad news shows up a month or two later, after customers have changed their habits.",
+        "That **delay** hides the link between cause and effect. By the time the slump appears, April feels like a success story. May looks like a separate problem, so the owner reaches for the tool that worked last time.",
+        "The fix is to judge a promo over the full cycle: the deal month plus the months after it."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a sales team.",
+      "illustrative": true,
+      "body": [
+        "You lead sales at a software company that sells yearly subscriptions. For a few quarters, reps have offered extra discounts in the last week of each quarter to hit targets.",
+        "Now big customers stall all quarter, then call in the final week asking for the deal. What do you change?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Raise the quarter-end bonus so reps close even harder",
+            "verdict": "risky",
+            "feedback": "More pressure in the final week means bigger discounts, which teaches customers to wait even longer. You speed up the **feedback loop** instead of breaking it."
+          },
+          {
+            "key": "B",
+            "text": "Allow discounts only in exchange for something, like a longer contract or upfront payment, at any time of the quarter",
+            "verdict": "best",
+            "feedback": "Waiting stops paying off, so the loop loses its fuel. Expect a rough quarter or two first: the **delay** means customers take time to unlearn the habit."
+          },
+          {
+            "key": "C",
+            "text": "Keep quarter-end discounts but cap them at 10%",
+            "verdict": "partial",
+            "feedback": "Smaller discounts slow the damage, but the timing still rewards customers who wait. The loop runs, just more slowly."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Not every discount starts a spiral.",
+      "body": [
+        "The loop needs customers who can wait and who can predict the next deal. A plumber fixing a burst pipe can't be waited out. A deal tied to a clear reason, like first-time customers or off-peak hours, teaches less.",
+        "Also check what the slump really is. Some of it may be demand pulled forward: people who booked early and will return on schedule. That fades by itself. Learned waiting doesn't."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Judge a discount by the months after it.",
+      "body": [
+        "Two ideas did the work here. **Feedback loops:** each deal teaches customers to wait, which invites the next deal. **Delays:** the cost arrives weeks later, so it looks like a new problem.",
+        "**Try it today:** pick your last promotion. Compare sales for the two months after it with the same months a year earlier. Did customers come back at full price?"
+      ],
+      "next": "Next · Why adding people can slow a team"
+    }
+  ]
+}

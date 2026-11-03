@@ -1,0 +1,259 @@
+{
+  "id": "OPS-01-08",
+  "unitId": "OPS-01",
+  "categoryId": "OPS",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "Fix an order-fulfillment flow",
+  "readerTitle": "Why the lunch orders were late when the kitchen was on time",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (케이터링 주방, 노트북 세팅 B2B 서비스) · 모든 시간 수치는 설명용",
+  "insight": "주문 처리가 느릴 때는 가장 바빠 보이는 단계가 아니라 주문이 쌓여 기다리는 자리를 찾고, 그 자리의 일을 표준화해서 푼다.",
+  "misconception": "주문이 늦으면 사람을 더 뽑거나 모든 단계를 조금씩 빠르게 하면 해결된다.",
+  "relatedLessonIds": [
+    "OPS-01-02",
+    "OPS-01-04"
+  ],
+  "sources": [
+    {
+      "text": "운영관리의 표준 개념 (병목, 표준화)",
+      "url": null
+    },
+    {
+      "text": "모든 사례와 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 설명용 가상 수치입니다. 주문 한 건의 흐름: 접수 5분 + 확인 대기 15분 + 조리 40분 + 포장 대기 35분 + 포장·검수 5분 + 배달 25분 = 125분. 실제 작업 시간 5+40+5+25 = 75분, 대기 50분. 카드 3의 합계와 일치하는지 게시 전에 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "개선 결과(카드 6)는 수치 없이 서술만 했습니다. 구체적인 개선율을 넣지 마세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Everyday scene",
+      "title": "Why the lunch orders were late when the kitchen was on time",
+      "illustrative": true,
+      "body": [
+        "Maya runs a small catering kitchen that delivers office lunches. The food is good. The cooks finish on schedule.",
+        "Yet about one order in five arrives late, and two clients have started asking for discounts. Her driver swears he isn't the problem. So where are the missing minutes going?"
+      ],
+      "image": {
+        "label": "Lunch boxes piling up on a packing table while cooks wait",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 작은 케이터링 주방. 왼쪽에 조리를 끝낸 요리사들이 한가하게 서 있고, 가운데 포장 테이블에 도시락 상자가 높이 쌓여 있음. 한 사람이 종이 주문서와 상자를 번갈아 보며 확인 중. 오른쪽 문 앞에 배달 기사가 시계를 봄. 실제 브랜드 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What should Maya do first?",
+      "illustrative": true,
+      "body": [
+        "Clients are unhappy, and Maya has a little money to spend. Her team suggests three fixes."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Hire a second driver so deliveries go out faster",
+            "verdict": "risky",
+            "feedback": "It adds real cost, but if orders are waiting before they reach the van, a second driver just waits too."
+          },
+          {
+            "key": "B",
+            "text": "Follow a few orders from email to doorstep and note where they sit still",
+            "verdict": "best",
+            "feedback": "This costs a few hours, not a salary. Watching the whole flow shows where time is lost, which is the first step in finding a **bottleneck**."
+          },
+          {
+            "key": "C",
+            "text": "Buy a faster oven so food is ready sooner",
+            "verdict": "partial",
+            "feedback": "Faster cooking helps only if cooking is the slowest step. Here the cooks already finish on time."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "Following one order",
+      "title": "Most of the time, nothing is happening.",
+      "illustrative": true,
+      "breakdown": [
+        {
+          "value": "5 min",
+          "label": "Order taken",
+          "detail": "Arrives by email, phone or text",
+          "highlight": false
+        },
+        {
+          "value": "15 min",
+          "label": "Waiting to confirm",
+          "detail": "Sits in the inbox",
+          "highlight": false
+        },
+        {
+          "value": "40 min",
+          "label": "Cooking",
+          "detail": "On schedule",
+          "highlight": false
+        },
+        {
+          "value": "35 min",
+          "label": "Waiting to pack",
+          "detail": "Boxes pile up on the table",
+          "highlight": true
+        },
+        {
+          "value": "5 min",
+          "label": "Pack and check",
+          "detail": "One person matches boxes to the order",
+          "highlight": false
+        },
+        {
+          "value": "25 min",
+          "label": "Delivery",
+          "detail": "Leaves as soon as it's packed",
+          "highlight": false
+        }
+      ],
+      "callout": "Of 125 minutes, 50 are spent waiting. The longest wait is right before packing."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept at work · Bottlenecks",
+      "title": "The packing table sets the pace.",
+      "illustrative": true,
+      "body": [
+        "A **bottleneck** is the step with the least capacity. The whole flow can move no faster than it does. Here, one packer checks every box against the original order, and orders arrive in many formats: emails, texts, notes from phone calls.",
+        "Each check is slow because she has to work out what was ordered. So food piles up. A faster oven or a second driver would change nothing, because neither touches this step."
+      ],
+      "image": {
+        "label": "Wide funnel narrowing at the packing step",
+        "aspectRatio": "16:9",
+        "brief": "흐름도 인포그래픽. 왼쪽부터 \"Order\", \"Cook\", \"Pack\", \"Deliver\" 네 단계가 파이프로 연결. \"Pack\" 구간만 파이프가 좁아지고 그 앞에 도시락 상자가 쌓여 있음. 나머지 구간은 넓고 비어 있음.",
+        "url": null
+      },
+      "softwareNote": "In software teams the same pattern shows up as tickets waiting for one reviewer or one approval. Adding developers upstream only makes the review queue longer."
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How should Maya fix the packing step?",
+      "illustrative": true,
+      "body": [
+        "She now knows where orders wait. Which fix goes after the cause?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Ask the cooks to start earlier so food is ready sooner",
+            "verdict": "risky",
+            "feedback": "It feeds the bottleneck even faster. The pile on the table grows and food sits longer before it leaves."
+          },
+          {
+            "key": "B",
+            "text": "Add a second packer at lunch rush",
+            "verdict": "partial",
+            "feedback": "It doubles capacity at the right step, but at the cost of a wage, and both packers still decode messy orders."
+          },
+          {
+            "key": "C",
+            "text": "Take every order on one form and print a matching packing checklist",
+            "verdict": "best",
+            "feedback": "This is **standardization**: one agreed way to record an order. Checks become quick ticks, so the bottleneck gets wider without a new hire."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "What happened next",
+      "title": "The pile shrank, and a new slow spot appeared.",
+      "illustrative": true,
+      "body": [
+        "Maya moved all orders to one simple form. Each order printed a label and a checklist that travelled with the boxes. Packing went from a puzzle to a routine, and the pile on the table mostly disappeared.",
+        "Then something new showed up: orders now waited in the inbox to be confirmed. Clearing one bottleneck reveals the next. That's normal. It means the flow is improving, one constraint at a time."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A standard form can push away good customers.",
+      "body": [
+        "Some of Maya's best clients order unusual dishes or call at the last minute. A rigid form can make them feel turned away.",
+        "Standardize the common path, not every path. Keep a clear lane for exceptions, such as a notes field or a direct line, and handle those orders by hand. If exceptions start to grow, that's a sign the standard itself needs updating."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a laptop setup service.",
+      "illustrative": true,
+      "body": [
+        "Your firm sets up laptops for new hires at client companies: install software, create accounts, test, ship. Clients complain that machines arrive late.",
+        "Installing takes an hour. But finished laptops wait two days for the founder, who is the only one allowed to sign off. Each sign-off is slow because every client's requirements are written differently."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Buy faster setup tools to cut the install hour in half",
+            "verdict": "risky",
+            "feedback": "It speeds up a step that isn't the **bottleneck**. Laptops would just reach the founder's desk sooner and wait there longer."
+          },
+          {
+            "key": "B",
+            "text": "Write a standard sign-off checklist per client so senior techs can approve",
+            "verdict": "best",
+            "feedback": "**Standardization** turns the founder's judgment into steps others can follow, which widens the **bottleneck**. The founder can still review the odd unusual order."
+          },
+          {
+            "key": "C",
+            "text": "Ask the founder to block two hours a day for sign-offs",
+            "verdict": "partial",
+            "feedback": "It adds capacity at the right step, but it depends on one busy person keeping that promise every day."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Find where orders wait, then make that step simple.",
+      "body": [
+        "You used two ideas here. **Bottlenecks:** the slowest step sets the pace, so find where work piles up before spending money. **Standardization:** one agreed way of doing the slow step makes it faster and lets more people do it.",
+        "**Try it today:** follow one order through your business and write down every place it sits still. Which wait is longest?"
+      ],
+      "next": "Next · How Toyota built a whole system around these ideas"
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "id": "BMO-03-02",
+  "unitId": "BMO-03",
+  "categoryId": "BMO",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "Free as a model",
+  "readerTitle": "The free first clean that filled the calendar and emptied the bank",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.2,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (가정 청소 업체, 소프트웨어 인보이스 앱) + 실제 연구 (Shampanier·Mazar·Ariely 2007, 0원 가격 효과) · 모든 수치는 설명용",
+  "insight": "무료는 가격이 아니라 누군가가 대신 내는 비용이다. 무료를 주기 전에 그 비용을 누가, 어떤 경로로 갚는지부터 묻는다.",
+  "misconception": "무료로 주면 사람이 몰리고, 사람이 몰리면 결국 돈이 된다.",
+  "relatedLessonIds": [
+    "BMO-03-01",
+    "BMO-03-08"
+  ],
+  "sources": [
+    {
+      "text": "Shampanier, K., Mazar, N., & Ariely, D. (2007). Zero as a Special Price: The True Value of Free Products. Marketing Science, 26(6).",
+      "url": null
+    },
+    {
+      "text": "청소 업체와 인보이스 앱 사례의 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "청소 업체 계산: 무료 청소 100건 × 건당 비용 $90 = $9,000. 정기 고객 8명 → 정기 고객 1명 확보 비용 $9,000 ÷ 8 = $1,125. 방문당 공헌이익 $40(가격 $120 − 인건비·자재 $80) → 1,125 ÷ 40 = 28.1회, 격주 방문(연 26회) 기준 약 13개월. 모두 가상 수치입니다.",
+      "status": "open"
+    },
+    {
+      "note": "Shampanier 외(2007) 초콜릿 실험: 두 초콜릿 가격을 똑같이 1센트씩 내려 싼 쪽이 0원이 되자 대부분이 싼 초콜릿으로 옮겨갔다는 결과. 카드에는 구체적 비율 없이 'most people switched'로만 적었습니다. 게시 전 원문으로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "인보이스 앱 수치(무료 사용자 10,000명, 유료 전환 2%, 지원 문의의 대부분이 무료 사용자)는 설명용 가상 수치이며 업계 평균을 뜻하지 않습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business models · Counterexample",
+      "title": "The free first clean that filled the calendar and emptied the bank",
+      "illustrative": true,
+      "body": [
+        "A house-cleaning company ran an ad: *Your first clean is free.* Within two weeks, 100 homes had booked.",
+        "The crews were busy every day. The owner had never felt so popular. Three months later, she was short on cash and asking where all those customers went."
+      ],
+      "image": {
+        "label": "A cleaner's calendar packed with bookings beside an empty cash box",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 왼쪽에 빈칸 없이 꽉 찬 달력(모든 칸에 'FREE' 스티커), 오른쪽에 거의 빈 금고. 청소 도구 바구니가 달력 옆에 놓임. 실제 브랜드 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You want more regular customers.",
+      "illustrative": true,
+      "body": [
+        "You run a small cleaning company. A standard clean takes three hours and costs you about $90 in wages and supplies. Regular customers pay $120 every two weeks.",
+        "Which free offer is most likely to pay for itself?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "A free first clean for anyone who books",
+            "verdict": "risky",
+            "feedback": "It brings the most people through the door. But each one costs you $90 of real labor, and many will never book a second time."
+          },
+          {
+            "key": "B",
+            "text": "A free in-home quote, plus a free fridge clean on the fourth visit of a regular plan",
+            "verdict": "best",
+            "feedback": "The quote costs little time, and the bigger gift goes only to people already paying. You give less away, but almost all of it lands on future regulars."
+          },
+          {
+            "key": "C",
+            "text": "Half price on the first clean",
+            "verdict": "partial",
+            "feedback": "It filters out some pure bargain hunters and cuts your loss per trial. You still pay for a lot of one-time visits."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What happened",
+      "title": "Follow the 100 free cleans.",
+      "illustrative": true,
+      "body": [
+        "Each regular leaves about $40 per visit after wages and supplies. So each one has to stay about **28 visits**, more than a year, before the free offer breaks even."
+      ],
+      "breakdown": [
+        {
+          "value": "100",
+          "label": "Free cleans",
+          "detail": "Booked in two weeks",
+          "highlight": false
+        },
+        {
+          "value": "$9,000",
+          "label": "Cost of giving them away",
+          "detail": "100 × $90 in wages and supplies",
+          "highlight": false
+        },
+        {
+          "value": "8",
+          "label": "Became regulars",
+          "detail": "Most wanted one free clean, not a cleaner",
+          "highlight": false
+        },
+        {
+          "value": "$1,125",
+          "label": "Cost per regular customer",
+          "detail": "$9,000 ÷ 8",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Free as a model",
+      "body": [
+        "**Free as a model** means giving one thing away at zero price so that something else pays for it: upgrades from some users, later purchases, or a different payer.",
+        "The key word is *model*. Free is not a price. It's a cost you choose to carry and plan to recover somewhere else. The cleaning company gave something away, but it had no real plan for who would pay it back."
+      ],
+      "image": {
+        "label": "A free item on one side, an arrow showing where the money comes back on the other",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 왼쪽 상자 'Free part'(비용 표시), 오른쪽 상자 'Who pays it back?'. 가운데 화살표. 오른쪽 상자 안에 'Upgrades', 'Later purchases', 'Someone else' 세 갈래.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Free pays when three things are true.",
+      "body": [
+        "Zero pulls harder than any discount. In a 2007 study, researchers cut the price of two chocolates by the same cent. When the cheaper one hit zero, most people switched to it. That pull brings in everyone, including people who would never pay."
+      ],
+      "list": [
+        "**Each free unit is cheap to give.** A free quote, yes. Three hours of labor, rarely.",
+        "**Free reaches likely payers.** It filters for people with the real need.",
+        "**There's a clear path to paying.** Free users run into a reason to pay."
+      ],
+      "callout": "Miss any one, and free becomes a donation."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Free is easy to start and hard to stop.",
+      "body": [
+        "Once something is free, customers treat zero as its fair price. Taking it away later feels like a price rise, and it often costs goodwill.",
+        "Free users also cost more than the item itself: questions, scheduling, complaints. And free can't rescue a product people don't value. If almost nobody pays after trying it, the issue is the offer, not the price."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's an invoicing app.",
+      "illustrative": true,
+      "body": [
+        "Your app for freelancers has 10,000 free users and 2% pay. Servers cost almost nothing per user. But free users send most of your support emails, and your two-person support team is drowning.",
+        "What do you change?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Shut down the free plan",
+            "verdict": "partial",
+            "feedback": "Support load drops fast. But you lose the cheap pipeline that brings in your paying users, and existing free users may leave angry."
+          },
+          {
+            "key": "B",
+            "text": "Keep it free, offer help articles only for free users, and set the limit where busy freelancers outgrow it",
+            "verdict": "best",
+            "feedback": "The free plan becomes cheap to give again, and the path to paying gets clearer. Some free users may grumble about less help."
+          },
+          {
+            "key": "C",
+            "text": "Give free users everything, including live help, to grow faster",
+            "verdict": "risky",
+            "feedback": "Growth may rise, but each new free user adds cost and removes a reason to upgrade. You'd be scaling the problem."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Free is a cost with a plan to pay it back.",
+      "body": [
+        "Before giving anything away, ask three things: what does each free unit cost, who does it attract, and what leads them to pay?",
+        "**Try it today:** list everything your business gives away free. Next to each, write who pays for it and how. Circle any line where you can't answer."
+      ],
+      "next": "Next · Why a bundle can sell better than its parts"
+    }
+  ]
+}

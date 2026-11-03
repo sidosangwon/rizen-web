@@ -1,0 +1,253 @@
+{
+  "id": "CUS-01-07",
+  "unitId": "CUS-01",
+  "categoryId": "CUS",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "Why people buy gym memberships",
+  "readerTitle": "Why people pay for the gym and then don't go",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.3,
+  "caseKinds": [
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 연구 (DellaVigna & Malmendier, 헬스장 이용 행동) + 가상 적용 (동네 헬스장, 기장 대행 회사, 가사 청소 서비스)",
+  "insight": "고객이 말하는 요청보다 실제 행동 기록이 고객이 우리를 고용한 '할 일'을 더 정확히 보여준다.",
+  "misconception": "헬스장 회원권을 사는 이유는 운동 기구를 쓰기 위해서이고, 고객이 원하는 것은 설문에서 직접 물어보면 알 수 있다.",
+  "relatedLessonIds": [
+    "CUS-01-02",
+    "CUS-01-06"
+  ],
+  "sources": [
+    {
+      "text": "DellaVigna, S. & Malmendier, U. (2006). Paying Not to Go to the Gym. American Economic Review, 96(3), 694–719.",
+      "url": null
+    },
+    {
+      "text": "헬스장, 기장 대행 회사, 청소 서비스 사례는 설명용 가상 사례",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "DellaVigna & Malmendier(2006): 월정액 회원의 방문당 실질 비용이 $17 이상, 10회권은 방문당 약 $10이라는 수치를 원문에서 다시 확인하세요. 대상은 미국 헬스장 3곳의 회원 수천 명입니다.",
+      "status": "open"
+    },
+    {
+      "note": "월정액 회원의 평균 방문 횟수 '한 달에 4번 남짓'(원문 약 4.3회)을 원문 표에서 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "회원들이 미래 이용 횟수를 과대 예측한다는 해석은 논문의 주된 결론입니다. 카드 문구('seem to expect')가 원문 해석의 범위를 넘지 않는지 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Everyday scene",
+      "title": "Why people pay for the gym and then don't go",
+      "body": [
+        "Every January, gyms fill up. By spring, many of the new faces are gone, but the monthly payments keep coming.",
+        "It looks like people are bad at buying. Look closer, and it shows what customers are really paying for."
+      ],
+      "image": {
+        "label": "Empty gym in March with a pile of new membership cards",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 텅 빈 헬스장, 운동 기구는 반짝이는데 사람이 없음. 앞쪽 접수대에 새 회원 카드가 수북이 쌓여 있고, 벽 달력은 3월. 실제 헬스장 브랜드나 로고는 쓰지 않음.",
+        "url": "assets/images/cus-01-07-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Your members ask for more machines.",
+      "illustrative": true,
+      "body": [
+        "You run a neighborhood gym. In a survey, members say you need more equipment.",
+        "Your check-in records tell another story. Most members come only a few times a month, and many stop coming after their first two months. Where do you spend next year's budget?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "More machines, as members asked",
+            "verdict": "risky",
+            "feedback": "You follow what members say, not what they do. **Behavior beats opinions:** the records show machines aren't why people stop coming, so new ones will mostly sit idle."
+          },
+          {
+            "key": "B",
+            "text": "Help members show up: a first-month plan, fixed-time small classes, a call when someone stops coming",
+            "verdict": "best",
+            "feedback": "This serves the **job to be done**, becoming someone who actually exercises, and it's based on the check-in data. It costs staff time instead of equipment."
+          },
+          {
+            "key": "C",
+            "text": "Lower the price to win more sign-ups",
+            "verdict": "partial",
+            "feedback": "You may get more sign-ups, but nothing changes why people drift away. You could end up with more members who rarely come and later cancel."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The research",
+      "title": "Paying not to go to the gym",
+      "body": [
+        "Economists Stefano DellaVigna and Ulrike Malmendier studied thousands of members at three US gyms.",
+        "Members on monthly contracts went a little over four times a month. That worked out to more than **$17 per visit**. A 10-visit pass would have cost them about $10 per visit."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Cost per visit",
+            "rows": [
+              {
+                "label": "Monthly contract, actual use",
+                "value": 17,
+                "highlight": true
+              },
+              {
+                "label": "10-visit pass",
+                "value": 10,
+                "highlight": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept at work · Jobs to be done",
+      "title": "The gym sells machines. Members hire something else.",
+      "body": [
+        "Customers **hire** a product to make progress in their lives. That's the *job to be done*.",
+        "For many people, the job isn't \"give me a treadmill.\" It's \"help me become someone who works out.\" Signing up feels like a fresh start. The monthly fee feels like a promise to yourself.",
+        "Seen this way, the gym's real product is the habit, not the equipment."
+      ],
+      "image": {
+        "label": "A membership card next to a thought bubble showing a fitter future self",
+        "aspectRatio": "16:9",
+        "brief": "왼쪽에 회원 카드, 오른쪽에 사람이 떠올리는 생각 풍선. 풍선 안에는 운동 기구가 아니라 '규칙적으로 운동하는 미래의 나'의 모습. 화살표 라벨 \"What they buy\" → \"Why they buy\".",
+        "url": "assets/images/cus-01-07-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Concept at work · Behavior beats opinions",
+      "title": "The sign-up form is a wish. The check-in log is the truth.",
+      "body": [
+        "Members picked monthly contracts that only pay off if they go often. They seem to expect a future self who visits three times a week.",
+        "What they *say* about their plans and what they *do* are different. The gym that reads only surveys builds for the imagined member. The gym that reads **check-in data** sees where the real member gets stuck: week three, the dark mornings, the first missed week."
+      ],
+      "softwareNote": "Apps see the same gap. Users ask for more features, but usage logs show many stop after the first week. The logs, not the wishlist, show which job the product is failing."
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Try it · B2B services",
+      "title": "Nobody opens your monthly reports.",
+      "illustrative": true,
+      "body": [
+        "You run a bookkeeping firm for small businesses. Clients said they wanted detailed monthly reports, so you send them.",
+        "Your email tool shows most reports are never opened. The calls you get come right before tax deadlines and loan applications. What do you change?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Make the reports clearer and more detailed",
+            "verdict": "risky",
+            "feedback": "You keep trusting the stated wish. **Behavior beats opinions:** unopened reports say detail isn't what clients value, so more effort here goes unread."
+          },
+          {
+            "key": "B",
+            "text": "Send a short note: \"You're on track\" or \"Fix this one thing,\" plus deadline reminders",
+            "verdict": "best",
+            "feedback": "The calls reveal the **job to be done:** keep me out of trouble so I can stop worrying. You lose some polish but deliver what clients actually use."
+          },
+          {
+            "key": "C",
+            "text": "Drop the reports and lower your fee",
+            "verdict": "partial",
+            "feedback": "You save time, but clients pay for peace of mind, not pages. Cutting the fee gives away money for a job you could do better instead."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Don't build your profit on people not showing up.",
+      "body": [
+        "Some businesses earn the most from customers who pay and never use the service. That can work for a while. Then customers notice, cancel, and tell others.",
+        "Also, one job doesn't fit everyone. Your gym regulars may really need more machines. Look at behavior by group before you decide which job matters most.",
+        "The goal is to do the job better, not to profit from it going undone."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · Home services",
+      "title": "Customers say your cleaning is too expensive.",
+      "illustrative": true,
+      "body": [
+        "You run a home cleaning service. In reviews, the top complaint is price.",
+        "Your cancellation records show something else. Most customers who leave do so right after a visit was moved or a different cleaner showed up. What do you do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Cut prices by 10%",
+            "verdict": "partial",
+            "feedback": "It answers what customers say. But **behavior** shows they leave when reliability slips, so a cheaper but unreliable service still loses them."
+          },
+          {
+            "key": "B",
+            "text": "Guarantee the same cleaner and the same time slot every visit",
+            "verdict": "best",
+            "feedback": "The **job to be done** is \"let me come home to a clean house without thinking about it.\" Reliability does that job, though it makes scheduling harder for you."
+          },
+          {
+            "key": "C",
+            "text": "Add extras like oven and window cleaning",
+            "verdict": "risky",
+            "feedback": "More services add more to schedule and more ways to slip. Nothing in the records suggests customers leave for lack of extras."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Watch what customers do to find the job they hired you for.",
+      "body": [
+        "Concepts used in this lesson:"
+      ],
+      "list": [
+        "**Jobs to be done:** people hire a gym, a bookkeeper or a cleaner to make progress, not to own a feature",
+        "**Behavior beats opinions:** check-ins, opened emails and cancellations reveal that job better than surveys"
+      ],
+      "callout": "**Try it today:** take one thing customers asked for. Find a record of what they actually do, and see if it agrees.",
+      "next": "Next · Why companies buy accounting software"
+    }
+  ]
+}

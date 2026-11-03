@@ -1,0 +1,240 @@
+{
+  "id": "PPL-06-02",
+  "unitId": "PPL-06",
+  "categoryId": "PPL",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "Values in action",
+  "readerTitle": "The poster says one thing. The paycheck says another.",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative",
+    "real_research",
+    "real_company"
+  ],
+  "caseNote": "가상 사례 (전자제품 매장 체인, 레스토랑) + 실제 연구·기업 (Lencioni 2002 HBR의 Enron 사례, Ritz-Carlton의 직원 재량 예산)",
+  "insight": "회사의 진짜 가치는 벽에 붙은 문구가 아니라 돈을 주는 것, 칭찬하는 것, 눈감아 주는 것, 그리고 돈을 포기하면서까지 지키는 것에서 드러난다.",
+  "misconception": "좋은 가치 문구를 정하고 자주 알리면 직원들이 그대로 행동한다.",
+  "relatedLessonIds": [
+    "PPL-06-01",
+    "PPL-04-06"
+  ],
+  "sources": [
+    {
+      "text": "Lencioni, P. (2002). Make Your Values Mean Something. Harvard Business Review, July 2002.",
+      "url": null
+    },
+    {
+      "text": "Ritz-Carlton 직원 재량 예산(투숙객 1인당 최대 $2,000)에 관한 회사 자료 및 다수 언론 보도",
+      "url": null
+    },
+    {
+      "text": "전자제품 매장과 레스토랑 사례의 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "매장 계산: 보증 상품 340건 × $15 = $5,100. 모두 설명용 가상 수치입니다.",
+      "status": "open"
+    },
+    {
+      "note": "Enron의 가치 문구(Communication, Respect, Integrity, Excellence)가 연차보고서에 실렸다는 내용은 Lencioni(2002) HBR 글에 나옵니다. 원문에서 문구와 순서를 다시 확인하세요. Enron 파산은 2001년 12월입니다.",
+      "status": "open"
+    },
+    {
+      "note": "Lencioni의 주장은 직접 인용하지 않고 요약했습니다. 요약이 원문 취지(진짜 가치는 대가를 치를 각오가 필요하다)와 맞는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Ritz-Carlton의 '직원이 상사 승인 없이 투숙객 문제 해결에 최대 $2,000까지 쓸 수 있다'는 내용은 널리 보도되었으나 1차 출처(회사 자료)로 금액과 현재 시행 여부를 확인하세요. 카드에는 'has long been reported'로 적었습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Culture · Numbers twist",
+      "title": "The poster says one thing. The paycheck says another.",
+      "illustrative": true,
+      "body": [
+        "You run five electronics stores. Every break room has the same poster: **Customers first.**",
+        "Every sales associate also earns $15 for each extended warranty they sell, whether the customer needs it or not. Your staff can read both. Only one of them pays."
+      ],
+      "image": {
+        "label": "A break-room poster next to a pay slip",
+        "aspectRatio": "4:3",
+        "brief": "매장 휴게실 벽. 왼쪽에 \"Customers first\"라고 적힌 빛바랜 포스터, 오른쪽 게시판에 \"Warranty bonus $15\"가 크게 적힌 급여 명세서가 압정으로 꽂혀 있음. 명세서 쪽에 조명이 더 밝게. 실제 브랜드 로고 없음.",
+        "url": "assets/images/ppl-06-02-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What will teach a new hire your real values?",
+      "illustrative": true,
+      "body": [
+        "A new associate starts Monday. By Friday, they will have a firm idea of \"how things really work here.\"",
+        "What shapes that idea most?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The values training on their first morning",
+            "verdict": "risky",
+            "feedback": "Training sets an intention, but it happens once. If the rest of the week contradicts it, the training becomes the thing nobody takes seriously."
+          },
+          {
+            "key": "B",
+            "text": "Watching how coworkers treat customers",
+            "verdict": "partial",
+            "feedback": "Close. Coworkers are a strong signal. But they mostly act the way they do because of what gets rewarded, so they pass that message on."
+          },
+          {
+            "key": "C",
+            "text": "What gets paid, praised and punished",
+            "verdict": "best",
+            "feedback": "Yes. People learn values from consequences. The next card shows what one store's consequences said in a single month."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "One month at one store.",
+      "illustrative": true,
+      "body": [
+        "The poster was mentioned once, at onboarding. These numbers repeated every shift. Ask a new hire what the store values, and they will describe the right-hand column of a pay slip."
+      ],
+      "breakdown": [
+        {
+          "value": "340",
+          "label": "Warranties sold",
+          "detail": "Many to customers who didn't need one",
+          "highlight": false
+        },
+        {
+          "value": "$5,100",
+          "label": "Paid in warranty bonuses",
+          "detail": "340 × $15",
+          "highlight": true
+        },
+        {
+          "value": "$0",
+          "label": "Paid for steering a customer to a cheaper fit",
+          "detail": "No reward, sometimes a frown",
+          "highlight": true
+        },
+        {
+          "value": "1",
+          "label": "Name in the staff newsletter",
+          "detail": "The top warranty seller",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Values in action",
+      "body": [
+        "**Values in action** are the values a business shows through its decisions: what it pays for, promotes, tolerates, and gives up money to protect.",
+        "A simple test: a value is real only if it has cost you something. If \"customers first\" has never lost you a sale, it is a slogan, not a value."
+      ],
+      "image": {
+        "label": "Stated values versus acted values",
+        "aspectRatio": "16:9",
+        "brief": "두 칸 비교 인포그래픽. 왼쪽 \"Stated\": 액자 속 문구. 오른쪽 \"Acted\": 보너스, 승진, 칭찬, 눈감아 준 일 네 개 아이콘. 오른쪽 칸이 더 크고 진함.",
+        "url": "assets/images/ppl-06-02-c4.jpg"
+      },
+      "softwareNote": "A software company can say \"customer obsessed\" while paying salespeople on signed deals, even when those customers churn in three months. Its real value shows up in the commission plan, not the careers page."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "Enron had excellent values. On paper.",
+      "body": [
+        "In a 2002 Harvard Business Review article, Patrick Lencioni pointed out that Enron's stated values were Communication, Respect, Integrity and Excellence. The company collapsed in 2001 amid massive fraud.",
+        "His argument: most value statements are bland because they never force a hard choice. **Real values come with a price**, and a company should only write down values it is willing to pay that price for."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How it looks done well",
+      "title": "Turn the value into a number staff can use.",
+      "body": [
+        "Ritz-Carlton has long been reported to let staff spend up to $2,000 to fix a guest's problem, without asking a manager first.",
+        "The amount matters less than the message. \"Care for guests\" stops being a phrase and becomes a budget anyone can use on the spot. Staff don't have to guess whether the company means it. The company has already paid to prove it does."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Values collide, and rewards can be gamed.",
+      "body": [
+        "Values rarely fail alone. They lose to another goal: speed, sales, cost. Living a value means deciding ahead of time which wins, and when.",
+        "Don't swap one bonus for another, either. Pay $15 per \"customer saved\" and people will invent saves. Remove the signals that punish the value, then show it with praise, promotion and permission.",
+        "Fewer values help. With ten, every trade-off is a debate."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a restaurant.",
+      "illustrative": true,
+      "body": [
+        "Your restaurant's value is \"We never serve food we wouldn't eat.\" The kitchen manager's bonus depends on ticket times. On Friday nights, cooks quietly send out slightly overcooked dishes rather than remake them.",
+        "What do you change?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Repeat the value at every pre-shift meeting",
+            "verdict": "risky",
+            "feedback": "Cheap and visible, but the bonus still pays for speed. Repeating words that the pay plan contradicts can make people more cynical."
+          },
+          {
+            "key": "B",
+            "text": "Give cooks clear permission to remake, and stop counting remakes against ticket times",
+            "verdict": "best",
+            "feedback": "You accept slower Friday tickets and some wasted food. In return, the value finally costs something, so cooks can believe it."
+          },
+          {
+            "key": "C",
+            "text": "Pay cooks a bonus for every dish they remake",
+            "verdict": "partial",
+            "feedback": "It rewards the value, but invites gaming. Some cooks may remake dishes that were fine, wasting food and time."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Your real values are what you pay for.",
+      "body": [
+        "People learn what a business values from what it rewards, tolerates and gives up money to protect. Words help only when the consequences match.",
+        "**Try it today:** pick one of your stated values. Write down the last time it cost you money or speed. If you can't think of one, check what your pay and praise reward instead."
+      ],
+      "next": "Next · Why small repeated habits shape a team more than speeches"
+    }
+  ]
+}

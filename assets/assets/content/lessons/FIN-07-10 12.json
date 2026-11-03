@@ -1,0 +1,243 @@
+{
+  "id": "FIN-07-10",
+  "unitId": "FIN-07",
+  "categoryId": "FIN",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Choose how to fund growth",
+  "readerTitle": "One owner, two businesses, four ways to pay for growth",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (국수집 + 식당용 주문 소프트웨어) · 모든 인물과 수치는 설명용",
+  "insight": "자금 조달 방식은 사람이 아니라 프로젝트마다 고른다. 돈이 들어오는 모양과 위험의 크기에 맞는 돈을 쓴다.",
+  "misconception": "한 회사나 한 사업가에게 맞는 자금 조달 방식은 하나다. 대출이든 투자든 많이 받을수록 안전하다.",
+  "relatedLessonIds": [
+    "FIN-07-02",
+    "FIN-07-04"
+  ],
+  "sources": [
+    {
+      "text": "기업금융의 표준 개념 (부채와 지분, 희석, 자금 용도와 상환 구조의 일치)",
+      "url": null
+    },
+    {
+      "text": "모든 인물과 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "대출 상환액: $140,000, 연 10%, 60개월 원리금 균등상환 → 월 약 $2,975 (\"about $3,000\"). 저축만으로 모을 경우 $140,000 ÷ $8,000 = 17.5개월 (\"about 18 months\"). 금리 10%는 가정이며 실제 금리는 나라와 시기에 따라 크게 다릅니다.",
+      "status": "open"
+    },
+    {
+      "note": "지분 계산: 투자 전 가치 $2M 기준. $300K → 300 ÷ 2,300 = 13.0%, $500K → 500 ÷ 2,500 = 20%, $1M → 1,000 ÷ 3,000 = 33.3%. 카드에는 13%, 20%, 33%로 표기.",
+      "status": "open"
+    },
+    {
+      "note": "장비 금융(리스·할부)은 장비 자체가 담보가 되는 일반적인 구조로 설명했습니다. 특정 국가의 법률·세무 조건은 다루지 않습니다. 개인 신용카드 금리가 일반적으로 장비 금융보다 높다는 표현은 일반론으로만 썼습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Simulation",
+      "title": "One owner, two businesses, four ways to pay for growth",
+      "illustrative": true,
+      "body": [
+        "Mei runs a busy noodle bar. It clears about $8,000 a month after all costs. On the side, she and a friend built simple ordering software for her kitchen. Forty other restaurants now want it.",
+        "Both ideas need money she doesn't have. You'll make her funding calls, one at a time."
+      ],
+      "image": {
+        "label": "A noodle bar counter with a tablet showing kitchen orders",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 따뜻한 조명의 작은 국수집 카운터, 김이 나는 국수 그릇 옆에 주문 화면이 뜬 태블릿. 가게 밖 창문으로 두 갈래 길(새 매장, 노트북 화면)이 보임. 실제 브랜드 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 4",
+      "title": "A second noodle bar.",
+      "illustrative": true,
+      "body": [
+        "A second location will cost $200,000 to open. Mei has $60,000 saved. The first shop has made steady profits for three years.",
+        "How should she cover the other $140,000?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "A five-year bank loan, about $3,000 a month",
+            "verdict": "best",
+            "feedback": "The payments fit comfortably inside steady profits, and Mei keeps 100% of both shops. Predictable cash is what loans are built for."
+          },
+          {
+            "key": "B",
+            "text": "Sell 30% of the business to a regular who offered",
+            "verdict": "risky",
+            "feedback": "No monthly payments, but Mei gives up 30% of a proven business forever. For low-risk growth, that's an expensive way to pay."
+          },
+          {
+            "key": "C",
+            "text": "Wait and save the rest from profits",
+            "verdict": "partial",
+            "feedback": "No debt and no partners, but at $8,000 a month it takes about 18 months. The good corner lot may be gone by then."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 4",
+      "title": "Say you chose the loan. Now the software.",
+      "illustrative": true,
+      "body": [
+        "The second shop opens well. Meanwhile, the ordering software needs $500,000 for two engineers and a year of building. It earns almost nothing yet. It might take two years to pay off, or it might never work.",
+        "How should Mei fund it?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Another bank loan, backed by her restaurants",
+            "verdict": "risky",
+            "feedback": "Payments start next month whether the software works or not. If it fails, the restaurants carry the debt."
+          },
+          {
+            "key": "B",
+            "text": "Sell a share of the software company to investors",
+            "verdict": "best",
+            "feedback": "Investors share the risk: no fixed payments, and they lose money too if it fails. Uncertain bets suit ownership money."
+          },
+          {
+            "key": "C",
+            "text": "Pay for it slowly from noodle bar profits",
+            "verdict": "partial",
+            "feedback": "Mei keeps full ownership, but progress is slow and the shops lose their cushion while repaying a loan."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 4",
+      "title": "Say you chose investors. How much to take?",
+      "illustrative": true,
+      "body": [
+        "Investors value the software company at $2 million *before* their money comes in. Whatever they add, they own that slice of the bigger total.",
+        "Mei's plan to reach paying customers costs about $500,000."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "$300,000 for about 13%",
+            "verdict": "partial",
+            "feedback": "Mei keeps more, but the money may run out before the milestone. Raising again in a hurry usually means worse terms."
+          },
+          {
+            "key": "B",
+            "text": "$500,000 for 20%",
+            "verdict": "best",
+            "feedback": "Enough to reach the next proof point with a small buffer. If it works, the next round can come at a higher value."
+          },
+          {
+            "key": "C",
+            "text": "$1 million for about 33%",
+            "verdict": "risky",
+            "feedback": "Comfortable, but Mei gives up a third of the company early, at its lowest value. Extra cash also tempts extra spending."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 4 of 4",
+      "title": "Say you took $500,000. Then the fridge dies.",
+      "illustrative": true,
+      "body": [
+        "The walk-in fridge at the first noodle bar fails. A new one costs $25,000. The restaurants are tight this month. The software company has investor cash sitting in the bank.",
+        "What should Mei do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Borrow it from the software company's account",
+            "verdict": "risky",
+            "feedback": "Fast and free, but that money was raised to build software. Mixing the two companies breaks investors' trust."
+          },
+          {
+            "key": "B",
+            "text": "Finance the fridge and pay monthly over its life",
+            "verdict": "best",
+            "feedback": "The fridge itself backs the deal, cash stays in the shop, and payments come from the profit the fridge helps protect."
+          },
+          {
+            "key": "C",
+            "text": "Put it on her personal credit card",
+            "verdict": "partial",
+            "feedback": "It solves today's problem, but card rates are usually high and Mei now carries business risk personally."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The pattern",
+      "title": "Match the money to what it pays for.",
+      "body": [
+        "Every choice used the same test. **How predictable is the cash this project will bring back, and when?**",
+        "Steady, proven cash can carry fixed payments, so a loan fits. Uncertain bets fit ownership money, because investors only win if you win. Equipment fits financing tied to the equipment. And whatever you raise, take enough to reach the next milestone, not your whole future."
+      ],
+      "image": {
+        "label": "Matching chart: project type to funding type",
+        "aspectRatio": "16:9",
+        "brief": "매칭 인포그래픽. 왼쪽 열 \"Proven shop\", \"Untested software\", \"New fridge\", 오른쪽 열 \"Loan\", \"Investors\", \"Equipment financing\"가 선으로 이어짐. 위쪽에 \"Predictable → Uncertain\" 화살표.",
+        "url": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The rule bends with the details.",
+      "body": [
+        "A loan is only cheap if the rate and terms are fair. Many small-business loans also need a personal guarantee, which puts your home or savings at risk.",
+        "Investor money isn't free either. Investors expect fast growth and a way to sell their share someday. If Mei only wants a calm, profitable software business, that goal and theirs may clash. Read the terms, not just the amount."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Fund each project by its own risk, not by habit.",
+      "list": [
+        "**Decision 1:** steady cash suits debt over equity",
+        "**Decision 2:** uncertain bets suit investors who share the risk",
+        "**Decision 3:** raise to the next milestone to limit dilution",
+        "**Decision 4:** fund assets without giving up ownership"
+      ],
+      "callout": "**Try it today:** list your next big expense. Write how sure you are it pays back, and when. Then ask which kind of money fits that answer.",
+      "next": "Next · Why higher returns always come with a catch"
+    }
+  ]
+}

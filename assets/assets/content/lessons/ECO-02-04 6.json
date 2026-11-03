@@ -1,0 +1,246 @@
+{
+  "id": "ECO-02-04",
+  "unitId": "ECO-02",
+  "categoryId": "ECO",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Diseconomies of scale",
+  "readerTitle": "Why one company builds a new factory instead of a bigger one",
+  "format": "company_story",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "real_company",
+    "real_observation",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (W. L. Gore, Toyota) + 실제 관찰 (Brooks의 법칙) + 가상 적용 (부품 공장, 회계 법인)",
+  "insight": "규모가 커질 때는 단위당 비용뿐 아니라, 사람과 단계 사이의 연결이 얼마나 빨리 늘어나는지도 봐야 한다.",
+  "misconception": "회사가 커질수록 단위당 비용은 계속 내려간다. 클수록 항상 효율적이다.",
+  "relatedLessonIds": [
+    "ECO-02-03",
+    "ECO-02-05"
+  ],
+  "sources": [
+    {
+      "text": "W. L. Gore & Associates, company materials on its small-team, lattice organization",
+      "url": null
+    },
+    {
+      "text": "Gladwell, M. (2000). The Tipping Point. Little, Brown. (Gore's practice of keeping plants near 150 people)",
+      "url": null
+    },
+    {
+      "text": "Brooks, F. P. (1975). The Mythical Man-Month. Addison-Wesley.",
+      "url": null
+    },
+    {
+      "text": "Akio Toyoda, prepared testimony to the U.S. House Committee on Oversight and Government Reform, February 2010",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Gore가 공장 인원을 약 150~200명 수준으로 유지하고, 그 이상 커지면 새 공장을 연다는 내용은 Gladwell(2000)과 여러 경영 사례 자료에 나오지만 회사의 공식 규칙인지, 지금도 지켜지는지는 확인이 필요합니다. 카드에는 'reportedly'와 'about'으로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "소통 경로 계산: n(n−1)/2. 5명 = 5×4/2 = 10, 15명 = 15×14/2 = 105, 50명 = 50×49/2 = 1,225, 150명 = 150×149/2 = 11,175. 다시 확인했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Toyota 사례: 2010년 2월 미국 하원 청문회에서 Akio Toyoda 사장이 회사의 성장 속도가 너무 빨랐을 수 있다고 우려를 밝혔습니다. 정확한 문구 대신 의역으로 적었습니다. 리콜의 원인 전체를 규모 탓으로 단정하지 않도록 문장을 조심했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Brooks의 법칙('늦어진 소프트웨어 프로젝트에 인력을 더하면 더 늦어진다')은 The Mythical Man-Month(1975)에 나옵니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Costs · Company story",
+      "title": "Why one company builds a new factory instead of a bigger one",
+      "body": [
+        "W. L. Gore & Associates makes waterproof fabrics, medical devices and industrial materials. For decades, it reportedly kept each plant to about 150–200 people.",
+        "When a site grew past that, Gore didn't add a wing. It opened another plant down the road. On paper, that looks wasteful."
+      ],
+      "image": {
+        "label": "Two small factories side by side instead of one large one",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 언덕 위에 작은 공장 두 채가 나란히 있고, 옆에 점선으로 그려진 거대한 공장 윤곽(짓지 않은 공장)이 있음. 실제 회사 로고나 제품 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Orders are doubling. Where do you grow?",
+      "illustrative": true,
+      "body": [
+        "You run a parts plant with 140 people. It's full, and a big customer wants twice the volume. You can fit more machines and staff on your current site, or open a second, smaller plant nearby.",
+        "Which do you lean toward?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Expand the current plant to about 280 people",
+            "verdict": "partial",
+            "feedback": "You share one building, one manager and one purchasing team, which saves money. But you also double the number of people who must coordinate, and that cost is easy to miss."
+          },
+          {
+            "key": "B",
+            "text": "Open a second plant of about 140 people",
+            "verdict": "best",
+            "feedback": "You pay for some duplicate equipment and overhead. In return, each site stays small enough that people know each other and problems get fixed fast."
+          },
+          {
+            "key": "C",
+            "text": "Add a night shift and stretch the same team",
+            "verdict": "risky",
+            "feedback": "No new building needed. But tired crews and handoffs between shifts often raise errors, so you may trade a capital cost for a quality cost."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What Gore saw",
+      "title": "Past a certain size, people stop knowing each other.",
+      "body": [
+        "Gore's reasoning, as it's usually told: in a plant of 150, people know who does what. They solve problems by walking over and talking.",
+        "Double the site, and that breaks. You need meetings, managers and rules to do what conversations used to do. Each adds cost, and none makes a single extra part.",
+        "So Gore accepted the cost of a second building to avoid the cost of a bigger one."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Diseconomies of scale",
+      "body": [
+        "**Diseconomies of scale** happen when growing makes each unit *more* expensive to produce, not less.",
+        "Early growth usually lowers cost per unit: you spread fixed costs and buy in bulk. But past some point, new costs grow faster than the savings. Coordination, slower decisions, crowded floors and lost motivation all creep in. The cost curve bends back up."
+      ],
+      "image": {
+        "label": "U-shaped curve of cost per unit as a business grows",
+        "aspectRatio": "16:9",
+        "brief": "U자형 곡선 그래프. 가로축 'Size', 세로축 'Cost per unit'. 왼쪽 내리막에 'Economies of scale', 바닥에 'Sweet spot', 오른쪽 오르막에 'Diseconomies of scale' 라벨. 오르막 쪽에 작은 회의실, 결재 서류 아이콘.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "chart",
+      "eyebrow": "How it works",
+      "title": "Connections grow much faster than headcount.",
+      "body": [
+        "Every pair of people is a possible line of communication. The count is people × (people − 1) ÷ 2. Triple the team and the lines grow about tenfold."
+      ],
+      "chart": {
+        "unit": "count",
+        "groups": [
+          {
+            "label": "Possible communication lines",
+            "rows": [
+              {
+                "label": "5 people",
+                "value": 10,
+                "highlight": false
+              },
+              {
+                "label": "15 people",
+                "value": 105,
+                "highlight": false
+              },
+              {
+                "label": "50 people",
+                "value": 1225,
+                "highlight": false
+              },
+              {
+                "label": "150 people",
+                "value": 11175,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "softwareNote": "Software engineer Fred Brooks saw this in 1975: adding people to a late software project tends to make it later. New engineers need training, and every new person adds lines of communication."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond people",
+      "title": "Growth can also outrun control.",
+      "body": [
+        "It isn't only teams. A warehouse that keeps growing gets crowded aisles and longer walks. One central depot serving a wider area means longer delivery routes.",
+        "Quality can slip too. In 2010, after large recalls, Toyota's president told U.S. lawmakers he feared the company had grown too quickly. Rapid growth made it harder to keep the checks that had built its reputation."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Small isn't automatically better.",
+      "body": [
+        "Splitting has real costs. Two plants mean two sets of equipment, two managers and smaller purchase orders. Economies of scale don't disappear when diseconomies arrive. You're trading one against the other.",
+        "The tipping point also differs by business. A highly automated plant can grow large before trouble starts. A people-heavy service firm may hit it at 30 staff. Watch cost per unit, error rates and decision speed, not a magic headcount."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's an accounting firm.",
+      "illustrative": true,
+      "body": [
+        "Your firm grew from 12 to 45 staff in two years. The two founding partners still review every client file. Turnaround has slipped from five days to twelve, and client errors are rising.",
+        "What's the best next move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Hire more junior staff so files get prepared faster",
+            "verdict": "risky",
+            "feedback": "Preparation isn't the bottleneck. More files would pile up at the same two reviewers, and the queue gets longer."
+          },
+          {
+            "key": "B",
+            "text": "Split into small client teams, each with its own lead who signs off",
+            "verdict": "best",
+            "feedback": "Each team works like a small firm with short lines of communication. You give up some partner control and must train strong leads."
+          },
+          {
+            "key": "C",
+            "text": "Add a manager layer that checks work before partners see it",
+            "verdict": "partial",
+            "feedback": "It catches some errors, but it adds another handoff to every file. You may fix quality while slowing things down further."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Bigger is cheaper only up to a point.",
+      "body": [
+        "Growth lowers cost per unit until coordination, crowding and slow decisions start costing more than scale saves. Find that point before you cross it.",
+        "**Try it today:** count the people or steps a typical order passes through. Compare it with a year ago. Did cost per order or turnaround get worse as that number grew?"
+      ],
+      "next": "Next · Why the hundredth batch is cheaper than the first"
+    }
+  ]
+}

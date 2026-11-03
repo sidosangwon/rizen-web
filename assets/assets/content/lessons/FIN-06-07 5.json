@@ -1,0 +1,248 @@
+{
+  "id": "FIN-06-07",
+  "unitId": "FIN-06",
+  "categoryId": "FIN",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "Value a coffee chain",
+  "readerTitle": "Two coffee chains, same profit, different price",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (지역 슈퍼마켓 그룹의 전략팀, 12개 매장 커피 체인, 커피 체인 창업자) · 모든 수치는 설명용",
+  "insight": "가치 배수는 답이 아니라 요약이다. 같은 이익이라도 남는 현금, 성장, 위험이 다르면 같은 배수를 쓸 수 없다.",
+  "misconception": "비슷한 회사가 이익의 10배에 팔렸으니 우리도 이익에 10을 곱하면 된다.",
+  "relatedLessonIds": [
+    "FIN-06-04",
+    "FIN-06-05"
+  ],
+  "sources": [
+    {
+      "text": "기업 가치평가의 표준 개념 (가치 배수, 가치 동인: 현금 창출, 성장, 위험, 재투자)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 설명용 가상 수치입니다. 판매자 제시가: 연 이익 $600,000 × 10 = $6,000,000.",
+      "status": "open"
+    },
+    {
+      "note": "남는 현금: $600,000 − 매년 장비·리모델링 $150,000 = $450,000. 같은 10배를 적용하면 $450,000 × 10 = $4,500,000. 차이 $1,500,000.",
+      "status": "open"
+    },
+    {
+      "note": "상위 3개 매장이 이익의 절반: $600,000 ÷ 2 = $300,000. 12개 매장 중 3개 = 25%.",
+      "status": "open"
+    },
+    {
+      "note": "실제 업계 배수 수치는 쓰지 않았습니다. '10배'는 판매자가 주장하는 가상의 비교 거래입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Apply it",
+      "title": "Two coffee chains, same profit, different price",
+      "illustrative": true,
+      "body": [
+        "You work on the strategy team at a regional supermarket group. Your boss wants coffee bars near the stores and has found a 12-shop coffee chain for sale.",
+        "The owner has a simple pitch: \"We make $600,000 a year. A rival chain just sold for 10 times profit. So we're worth $6 million.\" Your boss gives you two weeks to say whether that's fair."
+      ],
+      "image": {
+        "label": "A small coffee shop with a price tag hanging from its awning",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 작은 커피숍 건물 차양에 커다란 가격표가 매달려 있고 \"$6M?\"라고 적혀 있음. 옆에서 정장 차림 직원이 돋보기로 가격표를 들여다봄. 실제 브랜드 로고나 상표 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Is \"10 times profit\" a fair price?",
+      "illustrative": true,
+      "body": [
+        "The rival sale is real, and the $600,000 profit checks out in the accounts. What's your first move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Accept $6 million. The profit is real and the rival set the price",
+            "verdict": "risky",
+            "feedback": "Fast and easy to defend. But a **valuation multiple** only carries over if the two businesses match on growth, risk and cash needs. You haven't checked yet."
+          },
+          {
+            "key": "B",
+            "text": "Check how this chain differs from the rival before using its multiple",
+            "verdict": "best",
+            "feedback": "This treats the multiple as a starting point, not an answer. The work is finding what made the rival worth 10 times, and whether this chain has it too."
+          },
+          {
+            "key": "C",
+            "text": "Ignore the rival and value it on revenue instead",
+            "verdict": "partial",
+            "feedback": "A second view is useful. But revenue hides even more than profit does: two chains with the same sales can keep very different amounts."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "What the $600,000 really is.",
+      "illustrative": true,
+      "body": [
+        "Two findings from the accounts. The espresso machines and shop interiors wear out, and keeping them up costs about $150,000 a year. And three shops, all with leases ending within two years, earn half the profit."
+      ],
+      "breakdown": [
+        {
+          "value": "$600,000",
+          "label": "Yearly profit",
+          "detail": "The number in the pitch",
+          "highlight": false
+        },
+        {
+          "value": "−$150,000",
+          "label": "Yearly upkeep",
+          "detail": "Machines, refits, repairs",
+          "highlight": false
+        },
+        {
+          "value": "$450,000",
+          "label": "Cash the owner keeps",
+          "detail": "10 times this is $4.5 million",
+          "highlight": true
+        },
+        {
+          "value": "$300,000",
+          "label": "From 3 of 12 shops",
+          "detail": "All on leases ending soon",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept at work",
+      "title": "A multiple is a summary of the drivers.",
+      "body": [
+        "A **valuation multiple** is shorthand. When a buyer pays 10 times profit, they are betting on things behind the profit: how much cash it leaves, how fast it grows and how likely it is to last.",
+        "Those are the **drivers of value**. If the rival needed little upkeep and had long leases, its 10 times bought more than this chain's 10 times would. Same profit, less cash, more risk."
+      ],
+      "image": {
+        "label": "A multiple shown as a lid over three jars: cash, growth, risk",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. \"10x\"라고 적힌 뚜껑 아래 병 세 개: \"Cash left\", \"Growth\", \"Risk\". 판매자 체인 쪽은 Cash 병이 덜 차 있고 Risk 병이 더 차 있음. 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which finding should move the price most?",
+      "illustrative": true,
+      "body": [
+        "Your notes list three more things. Which one deserves the biggest change to your offer?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Its latte prices are below rivals', so there's room to raise them",
+            "verdict": "partial",
+            "feedback": "Real upside, and a driver of value. But it's a maybe that you would have to deliver, so you shouldn't pay the seller in full for it."
+          },
+          {
+            "key": "B",
+            "text": "The three top shops could lose their leases within two years",
+            "verdict": "best",
+            "feedback": "This hits the **risk** driver hardest. Half the profit could vanish or cost far more in rent, so this deserves the biggest discount or a deal term that protects you."
+          },
+          {
+            "key": "C",
+            "text": "Profit fell 5% last year during an unusually rainy summer",
+            "verdict": "risky",
+            "feedback": "A one-off dip tells you little about future cash. Overweighting it gives you a lower offer but no better picture of the business."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Your number is a range, not a fact.",
+      "body": [
+        "The analysis points below $6 million, maybe nearer $4.5 million before the lease risk. But small changes in your guesses about rent or growth move the answer a lot. Present a range and say what would move it.",
+        "Also, the right price for you isn't only what the chain is worth on paper. If another buyer values it more, a low offer simply loses the deal. Decide your walk-away number before you negotiate."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now you're the coffee chain's founder.",
+      "illustrative": true,
+      "body": [
+        "You own a similar chain and plan to sell in about a year. You have time and money for one big move to raise what buyers will pay. Which one?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Open three new shops fast to show growth",
+            "verdict": "partial",
+            "feedback": "Growth is a driver of value, but new shops cost cash and haven't proven themselves yet. Buyers may count them as risk, not profit."
+          },
+          {
+            "key": "B",
+            "text": "Lock in longer leases on your best shops",
+            "verdict": "best",
+            "feedback": "This lowers the **risk** behind your profit, so a buyer can justify a higher **multiple** on the same earnings. Nothing about the coffee changes."
+          },
+          {
+            "key": "C",
+            "text": "Delay machine repairs to make this year's profit look higher",
+            "verdict": "risky",
+            "feedback": "Profit rises on paper, but careful buyers check upkeep. They'll subtract the overdue repairs and trust your other numbers less."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Before you multiply, check what the multiple is buying.",
+      "body": [
+        "Two ideas did the work here:"
+      ],
+      "list": [
+        "**Valuation multiples:** a quick price, but only fair if the businesses match",
+        "**What drives value:** cash left after upkeep, growth, and how long the profit will last"
+      ],
+      "callout": "**Try it today:** take your own business's yearly profit. Subtract the spending you need each year just to keep it running. Then list the one thing that could make that profit disappear.",
+      "softwareNote": "For a software company, the same check applies: subtract the engineering needed just to keep the product working, and ask how much revenue depends on a few large customers.",
+      "next": "Next · Buy a business at three times profit?"
+    }
+  ]
+}

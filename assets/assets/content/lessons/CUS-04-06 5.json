@@ -1,0 +1,208 @@
+{
+  "id": "CUS-04-06",
+  "unitId": "CUS-04",
+  "categoryId": "CUS",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Build, measure, learn",
+  "readerTitle": "The café that changed five things and learned nothing",
+  "format": "counterexample",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (카페, 가계부 앱) · 개념 출처는 Eric Ries, The Lean Startup (2011)",
+  "insight": "실험의 성과는 만든 양이 아니라 배운 양이다. 무엇을 배울지와 어떤 숫자를 볼지를 먼저 정하고, 그다음에 가장 작은 것을 만든다.",
+  "misconception": "많이 바꾸고 빨리 만들수록 빨리 배운다. 매출이 오르면 무엇이 효과였는지는 저절로 알게 된다.",
+  "relatedLessonIds": [
+    "CUS-04-02",
+    "CUS-03-05"
+  ],
+  "sources": [
+    {
+      "text": "Ries, E. (2011). The Lean Startup. Crown Business. (Build-Measure-Learn 피드백 루프, 역순으로 계획하기)",
+      "url": null
+    },
+    {
+      "text": "카페와 앱 사례의 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Build-Measure-Learn 루프와 '계획은 Learn → Measure → Build 역순으로 세운다'는 설명이 The Lean Startup 원문과 일치하는지 게시 전 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "카페 매출 12% 증가, 앱 사례 등 모든 수치는 가상입니다. 실제 통계처럼 읽히지 않도록 해당 카드에 illustrative 라벨을 붙였습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Counterexample",
+      "title": "The café that changed five things and learned nothing",
+      "illustrative": true,
+      "body": [
+        "In one month, Mara added a brunch menu, opened an hour later, ran social media ads, switched coffee beans and put tables outside.",
+        "Sales rose 12%. Now the ads and the longer hours cost her money every week, and she has to decide what to keep. Which change worked? She has no idea."
+      ],
+      "image": {
+        "label": "Café owner looking at five sticky notes and a rising sales line",
+        "aspectRatio": "4:3",
+        "brief": "카페 카운터 뒤에서 주인이 고개를 갸웃하며 서 있고, 뒤 벽에 포스트잇 다섯 장(\"Brunch\", \"Longer hours\", \"Ads\", \"New beans\", \"Outdoor tables\")과 위로 오르는 매출 그래프. 포스트잇과 그래프 사이에 물음표. 실제 브랜드 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Sales are up. So are costs. What next?",
+      "illustrative": true,
+      "body": [
+        "You're Mara. The ads and extra hour cost about as much as a part-time worker. The other changes cost little to keep.",
+        "What do you do this month?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep everything. Sales are up, so it's working",
+            "verdict": "risky",
+            "feedback": "You keep the gains, but you may be paying every week for a change that does nothing. You also learn nothing for the next decision."
+          },
+          {
+            "key": "B",
+            "text": "Undo everything, then add the changes back one by one",
+            "verdict": "partial",
+            "feedback": "Clean and clear, but slow, and you give up sales that may be real. You don't need to restart to learn."
+          },
+          {
+            "key": "C",
+            "text": "Pick the costliest change, write down what you expect, pause it for two weeks and watch one number",
+            "verdict": "best",
+            "feedback": "You test the change that matters most for your costs and keep the rest running. You'll know whether the money is earning its keep."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What went wrong",
+      "title": "Busy is not the same as learning.",
+      "illustrative": true,
+      "body": [
+        "Mara did plenty of building. What she skipped was the rest: she never said what each change should do, and she watched only one number, total sales.",
+        "When five things move at once and you track only the total, the result can't tell you anything. Good month or bad, she ends up guessing.",
+        "Her loop never closed. She built, but she didn't **measure** anything that could teach her."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Build, measure, learn",
+      "body": [
+        "**Build, measure, learn** is a loop. Build a small change. Measure what customers actually do. Learn: decide to keep it, change it or drop it. Then go again.",
+        "Eric Ries made the loop famous in his 2011 book *The Lean Startup*. His point: progress is measured in what you learn, not in how much you ship. A fast loop beats fast building."
+      ],
+      "image": {
+        "label": "A three-step loop: Build, Measure, Learn",
+        "aspectRatio": "16:9",
+        "brief": "원형 순환 도식. \"Build\" → \"Measure\" → \"Learn\" 세 칸이 화살표로 이어지고 다시 Build로 돌아옴. 원 가운데에 \"Decide: keep, change, drop\". 깔끔한 플랫 일러스트.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Run it, but plan it backwards.",
+      "body": [
+        "The loop runs build → measure → learn. Ries suggests planning it in reverse:"
+      ],
+      "list": [
+        "**Learn:** What question do you need answered?",
+        "**Measure:** Which number answers it, and what result would change your mind?",
+        "**Build:** What is the smallest change that produces that number?"
+      ],
+      "callout": "Write your prediction down before you start. Then the result can surprise you."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The loop, done right",
+      "title": "Mara tries again.",
+      "illustrative": true,
+      "body": [
+        "Her question: *do the ads bring new customers, or do they just reach people who come anyway?*",
+        "Her number: first-time customers per week. Staff ask one question at the till and keep a tally. Her prediction: if the ads work, first-timers drop by at least a third when they're paused.",
+        "She pauses the ads for two weeks. First-timers barely move. She cuts the ads and moves that money to the extra hour, which becomes her next test."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Loops need a clear signal.",
+      "body": [
+        "Small numbers jump around. A rainy week or a local festival can swamp a two-week test, so look for big differences and repeat when unsure.",
+        "Pick a number tied to a decision. Likes, visits and downloads can rise while nothing that matters changes.",
+        "And not everything needs a loop. Fixing a broken oven or a safety problem is simply the job. Testing forever is another way to avoid deciding."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a budgeting app.",
+      "illustrative": true,
+      "body": [
+        "Your team ships a new feature every two weeks. Downloads are rising, but you can't say which features keep users coming back.",
+        "What should the next two weeks look like?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Ship the three most requested features to keep momentum",
+            "verdict": "risky",
+            "feedback": "The team stays busy and users see progress, but you repeat the café's mistake: many changes, no way to tell which one mattered."
+          },
+          {
+            "key": "B",
+            "text": "Ask: do savings goals bring users back in week two? Show a simple goal button to half of new users and compare",
+            "verdict": "best",
+            "feedback": "One question, one number, one small build. You give up some speed on features to get an answer you can act on."
+          },
+          {
+            "key": "C",
+            "text": "Survey users on which feature they would use most",
+            "verdict": "partial",
+            "feedback": "Cheap and quick, and it can suggest what to test. But people's guesses about their own behavior often miss. Measure what they do."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Count what you learn, not what you build.",
+      "body": [
+        "Decide what you need to know and which number would tell you. Then build the smallest thing that moves that number.",
+        "**Try it today:** pick one change you made recently. Write the question it should answer, the number to watch, and the result that would make you undo it."
+      ],
+      "next": "Next · Test a meal-kit idea"
+    }
+  ]
+}

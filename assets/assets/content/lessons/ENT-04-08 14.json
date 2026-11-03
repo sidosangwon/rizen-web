@@ -1,0 +1,246 @@
+{
+  "id": "ENT-04-08",
+  "unitId": "ENT-04",
+  "categoryId": "ENT",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "Pitch a software startup",
+  "readerTitle": "Ten minutes to pitch a restaurant scheduling app",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.3,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (식당 직원 스케줄 앱 창업자, 베이커리 카페의 2호점 투자 유치) · 모든 수치는 설명용",
+  "insight": "피치는 회사 자랑이 아니라 투자자가 속으로 묻는 두 질문, '진짜 쓰는가'와 '내 방식으로 돈이 되는가'에 답하는 일이다.",
+  "misconception": "가입자 수와 시장 규모처럼 가장 큰 숫자를 앞세우면 투자자가 감동한다.",
+  "relatedLessonIds": [
+    "ENT-04-03",
+    "ENT-04-05"
+  ],
+  "sources": [
+    {
+      "text": "ENT-04-03 (How investors think), ENT-04-05 (Traction) 레슨의 개념을 적용",
+      "url": null
+    },
+    {
+      "text": "모든 인물, 회사, 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "퍼널 계산: 가입 4,000 → 스케줄 작성 600 → 유료 38 → 6개월 후 유지 34. 유지율 34 ÷ 38 ≈ 89%. 가입 대비 유료 전환 38 ÷ 4,000 ≈ 0.95%(약 1%).",
+      "status": "open"
+    },
+    {
+      "note": "매출 계산: 38곳 × 월 $90 = 월 $3,420, 연 환산 약 $41,000. 카드에는 월 $3,420로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "벤처캐피털이 소수의 큰 성공으로 다수의 실패를 메운다는 설명은 일반적 원리로만 서술했습니다. 특정 수익률 통계는 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "베이커리 사례: 단골 매출 비중 60%, 1호점 18개월 만에 흑자는 모두 가상 수치입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Raising money · Apply",
+      "title": "Ten minutes to pitch a restaurant scheduling app",
+      "illustrative": true,
+      "body": [
+        "Maya built an app that lets restaurant managers plan staff shifts in minutes instead of hours. Tomorrow she gets ten minutes with a seed investor.",
+        "She has lots of numbers. Some will help her. Some will quietly hurt her. Your job is to help her choose."
+      ],
+      "image": {
+        "label": "Founder rehearsing a pitch at a restaurant table after closing",
+        "aspectRatio": "4:3",
+        "brief": "영업이 끝난 식당 테이블에서 창업자가 노트북을 펴고 피치를 연습하는 장면. 뒤로 의자를 올려 둔 테이블과 주방 불빛. 노트북 화면에는 주간 근무표 UI. 실제 로고나 브랜드는 쓰지 않음.",
+        "url": "assets/images/ent-04-08-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which number opens the pitch?",
+      "illustrative": true,
+      "body": [
+        "Maya can lead with one slide. Which should it be?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "4,000 sign-ups since launch",
+            "verdict": "risky",
+            "feedback": "It's the biggest number, but sign-ups cost nothing to give. Without usage behind it, an experienced investor reads it as noise. This is **traction** at its weakest."
+          },
+          {
+            "key": "B",
+            "text": "38 restaurants pay monthly, and 34 are still paying after six months",
+            "verdict": "best",
+            "feedback": "Paying and staying is the strongest **traction**: customers prove the need with money and time. Small numbers, strong signal."
+          },
+          {
+            "key": "C",
+            "text": "Restaurants everywhere struggle with scheduling. The market is huge.",
+            "verdict": "partial",
+            "feedback": "Market size matters to investors, but every pitch claims a huge market. It says nothing about whether Maya's product works."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Where 4,000 sign-ups really go.",
+      "illustrative": true,
+      "body": [
+        "Only about 1% of sign-ups became paying customers. But of those who paid, **89%** stayed six months. That last number is the one that says restaurants need this."
+      ],
+      "breakdown": [
+        {
+          "value": "4,000",
+          "label": "Signed up",
+          "detail": "Free, takes one minute",
+          "highlight": false
+        },
+        {
+          "value": "600",
+          "label": "Built a schedule",
+          "detail": "Actually tried it",
+          "highlight": false
+        },
+        {
+          "value": "38",
+          "label": "Started paying",
+          "detail": "$90 a month per restaurant",
+          "highlight": false
+        },
+        {
+          "value": "34",
+          "label": "Still paying at six months",
+          "detail": "34 ÷ 38 ≈ 89% kept",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Inside the investor's head",
+      "title": "She isn't asking \"Is this good?\"",
+      "body": [
+        "A venture investor knows most of her bets will fail. A few very large winners have to pay for all the rest.",
+        "So she asks a sharper question: **could this one become one of the big winners?** A nice, steady business doesn't answer it, however well it runs.",
+        "Maya's pitch has to show real usage today *and* a believable path to something much larger."
+      ],
+      "image": {
+        "label": "Many small bets and one large winner on an investor's board",
+        "aspectRatio": "16:9",
+        "brief": "투자자 책상 위 보드에 작은 카드 여러 장이 흐리게 놓여 있고, 그중 한 장만 크게 솟아 있는 그림. 단순한 플랫 일러스트. 숫자나 실제 로고 없음.",
+        "url": "assets/images/ent-04-08-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "\"How big can this get?\"",
+      "illustrative": true,
+      "body": [
+        "Halfway through, the investor asks the question. Which answer serves Maya best?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "\"If we win just 1% of all restaurants, we're huge.\"",
+            "verdict": "risky",
+            "feedback": "It sounds modest, but it skips the hard part: how she gets there. Investors hear it often and usually discount it."
+          },
+          {
+            "key": "B",
+            "text": "\"We make $3,420 a month from 38 restaurants. Here's how we reach the next 500, then hotels and cafés with the same shift problem.\"",
+            "verdict": "best",
+            "feedback": "It starts from proven **traction** and builds up to a large outcome step by step. That matches **how investors think**: real now, big later."
+          },
+          {
+            "key": "C",
+            "text": "\"Honestly, a steady, profitable business would make me happy.\"",
+            "verdict": "partial",
+            "feedback": "Honest and maybe right for Maya. But it tells a venture investor this deal can't be a big winner, so it may be the wrong investor for her."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Strong numbers can still mislead.",
+      "body": [
+        "Thirty-eight customers is a small sample. A few friendly early adopters can make retention look better than it will be at scale. Investors know this and will ask who those customers are.",
+        "Don't polish the numbers. If six months of data is all you have, say so. A careful investor will check, and a number that falls apart in due diligence costs more trust than a modest one ever would."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a bakery café.",
+      "illustrative": true,
+      "body": [
+        "Leo's bakery café is profitable after 18 months. He's pitching a local angel investor for money to open a second location.",
+        "Which point should he lead with?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "20,000 followers on social media",
+            "verdict": "risky",
+            "feedback": "Followers are the café's version of free sign-ups. They show attention, not buying. Weak **traction**."
+          },
+          {
+            "key": "B",
+            "text": "60% of weekday sales come from regulars, and the first shop turned a profit in 18 months",
+            "verdict": "best",
+            "feedback": "Repeat buyers are real **traction**, and a proven profit fits **how investors think** here: an angel backing a café wants a solid return, not a moonshot."
+          },
+          {
+            "key": "C",
+            "text": "A plan to open ten locations in five years",
+            "verdict": "partial",
+            "feedback": "Ambition helps, but a plan alone isn't proof. Lead with what the first shop shows, then the plan."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "Same pattern as Maya's app: followers and sign-ups are cheap signals. Paying, returning customers are the expensive ones investors trust."
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Answer the questions the investor is already asking.",
+      "body": [
+        "**Concepts used:** *Traction* (lead with customers who pay and stay, not the biggest number) and *How investors think* (show a path to the size of outcome this investor needs).",
+        "**Try it today:** write your three strongest numbers. Cross out any a customer could give you for free. What's left is your opening slide."
+      ],
+      "next": "Next · Spanx grew without investors"
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "id": "ECO-03-01",
+  "unitId": "ECO-03",
+  "categoryId": "ECO",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Commodities and perfect competition",
+  "readerTitle": "When customers can't tell you apart, the market sets your price",
+  "format": "two_businesses",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 2개 (청소 업체, 복사용지 유통업체) · 모든 수치는 설명용",
+  "insight": "'원자재(커머디티)'는 상품의 성질이 아니라 고객의 눈에 비친 모습이다. 고객이 나와 경쟁자를 구별하지 못하고 쉽게 갈아탈 수 있으면, 가격은 시장이 정하고 이익은 원가 수준까지 깎인다.",
+  "misconception": "더 열심히 일하고 서비스를 조금 더 잘하면 이익이 돌아온다. 이익이 줄어드는 건 내가 뭔가 잘못했기 때문이다.",
+  "relatedLessonIds": [
+    "ECO-03-04",
+    "ECO-03-02"
+  ],
+  "sources": [
+    {
+      "text": "미시경제학 표준 개념 (완전경쟁의 조건, 진입과 장기 이익 감소)",
+      "url": null
+    },
+    {
+      "text": "모든 사례와 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "청소 작업 계산: 현재 $105 − 앱 수수료 20% $21 − 인건비 3시간 × $22 = $66 − 소모품·이동 $12 = $6. 처음 $130 − $26 − $66 − $12 = $26. 남는 돈 $26 → $6.",
+      "status": "open"
+    },
+    {
+      "note": "밀(wheat)을 완전경쟁의 교과서 예시로 든 부분은 일반적인 경제학 교재 설명이며 특정 수치는 없습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Economics · Two businesses",
+      "title": "Same job, same price, almost no profit",
+      "illustrative": true,
+      "body": [
+        "Two businesses in one city. One cleans apartments. The other delivers printer paper to offices.",
+        "Different industries, same story: every year they work a little harder and keep a little less. Neither is doing anything wrong. The market they sell into is doing it to them."
+      ],
+      "image": {
+        "label": "A cleaner and a paper delivery driver, both looking at shrinking coins",
+        "aspectRatio": "4:3",
+        "brief": "화면을 반으로 나눈 일러스트. 왼쪽은 청소 도구를 든 청소 직원, 오른쪽은 복사용지 박스를 나르는 배송 기사. 두 사람 앞에 동전 더미가 해마다 작아지는 모습. 실제 브랜드 로고 없음.",
+        "url": "assets/images/eco-03-01-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "A rival undercuts you by $10.",
+      "illustrative": true,
+      "body": [
+        "You run a cleaning business. Most jobs come through a booking app where customers pick \"a standard 3-hour clean\" from a list sorted by price. Nearly every cleaner has 4.8 stars or more.",
+        "A new cleaner joins and lists the same clean for $10 less. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Match the lower price to keep your bookings",
+            "verdict": "partial",
+            "feedback": "You keep the jobs for now, but you've accepted the app's price as yours. The next newcomer will go lower, and you'll face the same choice again."
+          },
+          {
+            "key": "B",
+            "text": "Work harder for even better reviews",
+            "verdict": "risky",
+            "feedback": "When everyone has 4.8 stars, a few more don't change who customers pick. You add effort and cost that the price doesn't reward."
+          },
+          {
+            "key": "C",
+            "text": "Build work where you aren't one of forty identical listings, like direct repeat clients or move-out cleans for landlords",
+            "verdict": "best",
+            "feedback": "It takes time and selling effort. But it's the only option that gets you out of a market where price is the only thing customers compare."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What happened",
+      "title": "Follow one cleaning job.",
+      "illustrative": true,
+      "body": [
+        "When the job first appeared on the app, it sold for $130 and left $26. Each new cleaner offered a little less. Now it sells for $105 and leaves **$6**."
+      ],
+      "breakdown": [
+        {
+          "value": "$105",
+          "label": "Price",
+          "detail": "The going rate on the app",
+          "highlight": false
+        },
+        {
+          "value": "−$21",
+          "label": "App fee",
+          "detail": "20% of the price",
+          "highlight": false
+        },
+        {
+          "value": "−$66",
+          "label": "Wages",
+          "detail": "3 hours at $22",
+          "highlight": false
+        },
+        {
+          "value": "−$12",
+          "label": "Supplies and travel",
+          "detail": "Per job",
+          "highlight": false
+        },
+        {
+          "value": "$6",
+          "label": "Left over",
+          "detail": "Down from $26",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Commodities and perfect competition",
+      "body": [
+        "A **commodity** is something customers see as interchangeable: one seller's version is as good as another's. Economists call a market **perfect competition** when four things are true:"
+      ],
+      "list": [
+        "Many sellers, none big enough to matter alone",
+        "The same product from all of them",
+        "Customers can compare prices easily",
+        "New sellers can join easily"
+      ],
+      "callout": "When all four hold, no single seller sets the price. The market does."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Profit invites newcomers until it's gone.",
+      "body": [
+        "Wheat is the textbook example. One farmer's wheat is like another's, so no farmer can charge more than the market price.",
+        "The same loop runs anywhere. When a job pays well, new sellers join. More sellers offer more supply, so prices fall. They keep falling until sellers earn just enough to stay in. That's what happened to the cleaning job: $26 attracted newcomers until only $6 was left."
+      ],
+      "image": {
+        "label": "A loop: profit, new sellers, lower price, less profit",
+        "aspectRatio": "16:9",
+        "brief": "순환 화살표 인포그래픽. \"Good profit\" → \"New sellers join\" → \"Prices fall\" → \"Profit shrinks\" → 다시 처음으로. 가운데에 점점 작아지는 동전. 단순하고 깔끔한 플랫 스타일.",
+        "url": "assets/images/eco-03-01-c5.jpg"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The second business",
+      "title": "A commodity is in the customer's eyes.",
+      "illustrative": true,
+      "body": [
+        "The paper distributor faces the same forces. A standard box of printer paper is the same everywhere, and office buyers compare prices in seconds.",
+        "But the same box isn't a commodity to a hospital that needs it restocked by 7 a.m. every Monday without asking. What the hospital buys is reliability, and few sellers offer it.",
+        "**The product didn't change. What the customer compares did.**"
+      ],
+      "softwareNote": "Basic cloud storage and simple web hosting often behave like commodities: priced per gigabyte and easy to switch. Providers escape by selling what customers can't compare line by line, like support, security reviews or tools built around their workflow."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Commodity markets aren't a failure.",
+      "body": [
+        "Perfect competition is rare in pure form, and markets close to it serve customers well: low prices and steady supply. You can win in one by having the lowest costs, not by charging more.",
+        "Escaping has costs too. A difference only counts if customers value it and will pay for it. Nicer packaging that nobody asked for is just a higher cost."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "A giant online retailer lists your paper cheaper.",
+      "illustrative": true,
+      "body": [
+        "You distribute printer paper to offices, schools and clinics in your region. A big online retailer now sells the same paper for less than you do. What's your move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Cut your price to match for every customer",
+            "verdict": "risky",
+            "feedback": "You'd be competing on the one thing the giant does best. Your margin shrinks on every order, including customers who never planned to leave."
+          },
+          {
+            "key": "B",
+            "text": "Offer scheduled restocking with guaranteed delivery times to clinics and schools, and keep a no-frills price for buyers who only care about cost",
+            "verdict": "best",
+            "feedback": "You sell reliability where it matters and stay honest about the commodity part. It needs good delivery operations to back up the promise."
+          },
+          {
+            "key": "C",
+            "text": "Launch your own premium-branded paper in nicer boxes",
+            "verdict": "partial",
+            "feedback": "It's a real attempt to stand out. But most buyers just need paper that works, so the difference may cost more than they'll pay for."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "If customers can swap you out easily, the market sets your price.",
+      "body": [
+        "Many sellers, the same product, easy comparison and easy entry push profit down to cost. To keep more, change what customers compare, or become the lowest-cost seller.",
+        "**Try it today:** ask three recent customers what they'd switch to if you closed. If they name a dozen sellers and mention only price, you're selling a commodity."
+      ],
+      "next": "Next · What a monopoly can do that you can't"
+    }
+  ]
+}

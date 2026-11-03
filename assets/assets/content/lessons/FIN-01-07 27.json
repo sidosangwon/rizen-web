@@ -1,0 +1,290 @@
+{
+  "id": "FIN-01-07",
+  "unitId": "FIN-01",
+  "categoryId": "FIN",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "Read a café's profit and loss",
+  "readerTitle": "The café sold more in June. Why did it keep less?",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (동네 카페, 온라인 원두 쇼핑몰) · 모든 수치는 설명용",
+  "insight": "손익계산서는 매출에서 멈추지 말고 위에서 아래로 끝까지 읽는다. 매출총이익률과 순이익률을 함께 보면 돈이 어디서 새는지 보인다.",
+  "misconception": "매출이 늘었으면 장사가 잘된 것이다. 매출총이익이 늘었으면 순이익도 늘었을 것이다.",
+  "relatedLessonIds": [
+    "FIN-01-05",
+    "FIN-01-06"
+  ],
+  "sources": [
+    {
+      "text": "재무회계의 표준 개념 (손익계산서 구조, 매출총이익률, 순이익률)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "5월 카페: 매출 $40,000 − 원가 $12,000 = 매출총이익 $28,000(70%). 영업비용 = 인건비 $14,000 + 임대료 $6,000 + 공과금·소모품 $2,000 + 카드 수수료 $1,200(3%) + 마케팅 $800 + 설비 감가상각 $500 = $24,500. $28,000 − $24,500 − 이자 $300 = 순이익 $3,200(8%). 세전 기준입니다.",
+      "status": "open"
+    },
+    {
+      "note": "6월 카페: 매출 $46,000(+15%) − 원가 $17,000 = 매출총이익 $29,000(63.0%). 영업비용 = $16,000 + $6,000 + $2,000 + $1,380(3%) + $800 + $500 = $26,680. $29,000 − $26,680 − $300 = 순이익 $2,020(4.4%). 순이익 변화 2,020 ÷ 3,200 = 0.631, 약 37% 감소. 매출총이익 +$1,000, 영업비용 +$2,180(인건비 +$2,000, 카드 수수료 +$180), 순이익 −$1,180.",
+      "status": "open"
+    },
+    {
+      "note": "온라인 원두 쇼핑몰: 매출 $60,000 − 원가(원두·포장·배송) $24,000 = $36,000(60%). 비용 = 광고 $18,000 + 인건비 $12,000 + 플랫폼·소프트웨어 $3,000 + 로스터리 임대료 $4,200 = $37,200. 순이익 −$1,200(−2%). 광고비는 매출의 30%.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Everyday scene",
+      "title": "The café sold more in June. Why did it keep less?",
+      "illustrative": true,
+      "body": [
+        "A neighborhood café had its best month ever in June. Sales rose from $40,000 to $46,000.",
+        "The owner was ready to celebrate. Then she read the page to the bottom line."
+      ],
+      "image": {
+        "label": "Café owner reading a one-page monthly report at the counter",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 마감 후 카페 카운터에서 주인이 한 장짜리 월간 보고서를 들고 있음. 종이 맨 위 숫자는 크고 밝게, 맨 아래 숫자는 작고 흐리게. 실제 브랜드 로고나 컵 상표는 쓰지 않음.",
+        "url": "assets/images/fin-01-07-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Was June a better month?",
+      "illustrative": true,
+      "body": [
+        "In June the café added office catering and pushed iced drinks. Sales were up 15%. Gross profit, which is sales minus ingredients and cups, rose from $28,000 to $29,000.",
+        "Was June a better month for the business?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Yes. Sales grew 15%, so the café did better",
+            "verdict": "risky",
+            "feedback": "Revenue is the top line, not what you keep. More sales can come with even more costs. That's the gap between revenue and profit."
+          },
+          {
+            "key": "B",
+            "text": "Probably. Gross profit rose too, so profit should follow",
+            "verdict": "partial",
+            "feedback": "A good second check, but not the last one. Gross profit rose $1,000. Costs below it can rise even more."
+          },
+          {
+            "key": "C",
+            "text": "Can't say yet. Read down to net profit first",
+            "verdict": "best",
+            "feedback": "Right. Only the bottom line shows what June left after every cost. The next card shows the answer."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "What happened",
+      "title": "Sales up 15%. Profit down 37%.",
+      "illustrative": true,
+      "body": [
+        "Net profit fell from $3,200 to $2,020. The café worked harder in June and kept about $1,180 less."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "May",
+            "rows": [
+              {
+                "label": "Revenue",
+                "value": 40000,
+                "highlight": false
+              },
+              {
+                "label": "Gross profit",
+                "value": 28000,
+                "highlight": false
+              },
+              {
+                "label": "Net profit",
+                "value": 3200,
+                "highlight": true
+              }
+            ]
+          },
+          {
+            "label": "June",
+            "rows": [
+              {
+                "label": "Revenue",
+                "value": 46000,
+                "highlight": false
+              },
+              {
+                "label": "Gross profit",
+                "value": 29000,
+                "highlight": false
+              },
+              {
+                "label": "Net profit",
+                "value": 2020,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "breakdown",
+      "eyebrow": "Read it top to bottom",
+      "title": "June's profit and loss, line by line.",
+      "illustrative": true,
+      "body": [
+        "Operating costs here are wages $16,000, rent $6,000, utilities and supplies $2,000, card fees $1,380, marketing $800 and equipment wear $500. All figures are before tax."
+      ],
+      "breakdown": [
+        {
+          "value": "$46,000",
+          "label": "Revenue",
+          "detail": "Everything customers paid",
+          "highlight": false
+        },
+        {
+          "value": "−$17,000",
+          "label": "Cost of goods",
+          "detail": "Coffee, milk, food, cups",
+          "highlight": false
+        },
+        {
+          "value": "$29,000",
+          "label": "Gross profit",
+          "detail": "63% of revenue",
+          "highlight": false
+        },
+        {
+          "value": "−$26,680",
+          "label": "Operating costs",
+          "detail": "Staff, rent and the rest",
+          "highlight": false
+        },
+        {
+          "value": "−$300",
+          "label": "Loan interest",
+          "detail": "On the espresso machine loan",
+          "highlight": false
+        },
+        {
+          "value": "$2,020",
+          "label": "Net profit",
+          "detail": "4.4% of revenue",
+          "highlight": true
+        }
+      ],
+      "softwareNote": "A software company's profit and loss reads the same way, top to bottom. The costs above gross profit are mostly servers and support, so gross margins usually run much higher."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "First clue · Gross margin",
+      "title": "Each sale left less after ingredients.",
+      "illustrative": true,
+      "body": [
+        "In May, the café kept 70 cents of every dollar after ingredients. In June, it kept 63 cents. That's **gross margin**: gross profit as a share of revenue.",
+        "Catering orders got a volume discount and included sandwiches, which cost more to make than coffee. So sales rose, but each new dollar carried less profit with it."
+      ],
+      "image": {
+        "label": "Two coffee cups: 70% left in May, 63% left in June",
+        "aspectRatio": "16:9",
+        "brief": "컵 두 개를 나란히. 왼쪽 \"May\" 컵은 70% 높이까지, 오른쪽 \"June\" 컵은 63% 높이까지 채워져 있음. 오른쪽 컵 옆에 샌드위치 아이콘과 \"Catering discount\" 작은 라벨. 로고 없음.",
+        "url": "assets/images/fin-01-07-c5.jpg"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Second clue · Net margin",
+      "title": "The costs below gross profit grew faster.",
+      "illustrative": true,
+      "body": [
+        "Gross profit rose $1,000. But operating costs rose $2,180: about $2,000 in extra staff hours for catering, plus $180 more in card fees on higher sales.",
+        "So **net margin**, what's left after every cost, fell from 8% to 4.4%. The catering looked like growth at the top of the page. At the bottom, it cost more than it brought in."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "One page doesn't tell the whole story.",
+      "body": [
+        "**One month is noisy.** A single bill or a holiday can swing it. Compare several months, or the same month last year.",
+        "**Owner pay may be missing.** Many small-business owners take no salary. If the owner works the counter for free, the real profit is lower than the page shows.",
+        "**Profit isn't cash.** The page can show a profit while the bank balance falls, for example after paying for a new grinder."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's an online coffee-bean shop.",
+      "illustrative": true,
+      "body": [
+        "Monthly sales are $60,000. Beans, packaging and shipping cost $24,000, so gross margin is 60%. Below that: ads $18,000, staff $12,000, platform and software fees $3,000, roastery rent $4,200. Net profit is −$1,200.",
+        "Where should the owner look first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Switch to cheaper beans to raise gross margin",
+            "verdict": "risky",
+            "feedback": "A 60% gross margin is already healthy. Cheaper beans risk the product while the real leak sits lower on the page."
+          },
+          {
+            "key": "B",
+            "text": "The ad spend: it eats 30% of every dollar of sales",
+            "verdict": "best",
+            "feedback": "Reading top to bottom shows the gap opens below gross profit. Ads are the biggest line there, so that's where net margin is lost."
+          },
+          {
+            "key": "C",
+            "text": "Raise prices across the store",
+            "verdict": "partial",
+            "feedback": "Higher prices would lift both margins, but some customers may leave. It treats the symptom before finding the cause."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "This is a common pattern for online sellers: strong gross margins, with customer-acquisition costs quietly erasing the bottom line."
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Read the page to the bottom, then ask where the gap opened.",
+      "body": [
+        "You used three ideas today: **revenue vs profit** (more sales isn't more money kept), the **income statement** read top to bottom, and **gross vs net margin** to find where profit leaked.",
+        "**Try it today:** take your last two months' profit and loss. Work out gross margin and net margin for each. Which one moved more?"
+      ],
+      "next": "Next · Read a software company's profit and loss"
+    }
+  ]
+}

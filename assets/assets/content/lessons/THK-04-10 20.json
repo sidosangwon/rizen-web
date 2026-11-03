@@ -1,0 +1,256 @@
+{
+  "id": "THK-04-10",
+  "unitId": "THK-04",
+  "categoryId": "THK",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "A safe bet or a risky one?",
+  "readerTitle": "The big order: four calls that decide if it's safe",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (골판지 상자 공장 + 밀키트 앱 고객) · 모든 수치와 인물은 설명용",
+  "insight": "좋은 베팅은 맞히는 것이 아니라 네 가지를 차례로 묻는 것이다. 보통 어떻게 되는가, 평균적으로 얼마인가, 최악에도 살아남는가, 새 정보로 얼마나 고칠 것인가.",
+  "misconception": "기대값이 플러스면 안전한 베팅이다. 또는 위험해 보이면 피하는 것이 안전하다.",
+  "relatedLessonIds": [
+    "THK-04-02",
+    "THK-04-05"
+  ],
+  "sources": [
+    {
+      "text": "확률적 사고의 표준 개념 (기저율, 기대값, 파산 위험, 믿음 갱신, 평균 회귀)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "기대값 계산: 0.3 × $1,000,000 + 0.4 × $500,000 + 0.3 × $100,000 = $300,000 + $200,000 + $30,000 = $530,000. 기계 비용 $400,000을 빼면 평균 +$130,000. 확률 합계 0.3 + 0.4 + 0.3 = 1.0.",
+      "status": "open"
+    },
+    {
+      "note": "과거 고객 기록(10곳 중 3곳 약속대로 성장, 4곳 더 느리게, 3곳 축소·폐업)은 이야기 속 가상 데이터입니다. 실제 스타트업 생존율 통계로 읽히지 않도록 카드에 'your own records'로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "현금 결제 시 잔액: $500,000 − $400,000 = $100,000. 리스 비용은 구체적 수치를 쓰지 않고 '평균적으로 더 비싸다'로만 표현했습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Simulation",
+      "title": "The big order: four calls that decide if it's safe",
+      "illustrative": true,
+      "body": [
+        "Mara runs a box factory with 40 staff. A fast-growing meal-kit app wants boxes, and lots of them: three times what her biggest customer buys.",
+        "It could make her year. It could also sink the factory. You'll make four calls in her place."
+      ],
+      "image": {
+        "label": "A small box factory with a huge stack of orders arriving",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 아담한 골판지 상자 공장 앞에 휴대폰 화면에서 쏟아져 나온 듯한 거대한 주문서 더미. 공장 주인이 클립보드를 들고 올려다봄. 실제 브랜드 로고 없음.",
+        "url": "assets/images/thk-04-10-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 4",
+      "title": "The founder says they'll grow 4x next year.",
+      "illustrative": true,
+      "body": [
+        "Mara checks her own records. Of the 10 fast-growing startups she has supplied, 3 grew as promised, 4 grew more slowly, and 3 shrank or closed.",
+        "How should she plan?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Plan on 4x growth. The founder knows the business best",
+            "verdict": "risky",
+            "feedback": "She'd build for the best case, which happened only 3 times in 10. Founders' forecasts tend to be hopeful."
+          },
+          {
+            "key": "B",
+            "text": "Start from her records, then adjust for what's special about this customer",
+            "verdict": "best",
+            "feedback": "She gets a realistic starting point and still uses what she knows about this app. The founder's pitch becomes one clue, not the plan."
+          },
+          {
+            "key": "C",
+            "text": "Turn it down. Startups are too unreliable",
+            "verdict": "partial",
+            "feedback": "She avoids the 3-in-10 downside, but also gives up the 7 in 10 that grew at least somewhat."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 4",
+      "title": "The order needs a $400,000 machine.",
+      "illustrative": true,
+      "body": [
+        "Say you started from the records. Mara estimates the extra profit over three years:"
+      ],
+      "list": [
+        "**Grows as promised** (3 in 10): $1,000,000",
+        "**Grows slowly** (4 in 10): $500,000",
+        "**Shrinks or closes** (3 in 10): $100,000"
+      ],
+      "image": {
+        "label": "Three branches showing three possible outcomes",
+        "aspectRatio": "16:9",
+        "brief": "가지가 셋으로 갈라지는 나무 다이어그램. 각 가지에 '3 in 10 · $1,000,000', '4 in 10 · $500,000', '3 in 10 · $100,000'. 가지 굵기를 확률에 비례하게. 밑동에 '$400,000 machine'.",
+        "url": "assets/images/thk-04-10-c3.jpg"
+      },
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Buy it. The best case pays back 2.5 times",
+            "verdict": "partial",
+            "feedback": "The answer may be right, but the reasoning only looks at one branch. The same logic would approve bets that lose money on average."
+          },
+          {
+            "key": "B",
+            "text": "Skip it. There's a 3-in-10 chance of losing $300,000",
+            "verdict": "risky",
+            "feedback": "She'd avoid that loss but walk away from a bet that pays well on average."
+          },
+          {
+            "key": "C",
+            "text": "Weigh all three: on average it returns about $530,000, above the $400,000 cost",
+            "verdict": "best",
+            "feedback": "Each outcome counts in proportion to its chance. On average the bet earns about $130,000 more than it costs."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 4",
+      "title": "How should Mara pay for it?",
+      "illustrative": true,
+      "body": [
+        "Say you went ahead. The factory has $500,000 in cash. A good average is no use if one bad branch ends the business."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Pay cash. It's the cheapest option overall",
+            "verdict": "partial",
+            "feedback": "Cheapest if things go well. But it leaves $100,000 of cushion, and in the 3-in-10 case the customer is gone and the machine sits idle."
+          },
+          {
+            "key": "B",
+            "text": "Lease it with a buyout option, and ask the app for a one-year minimum order",
+            "verdict": "best",
+            "feedback": "It costs more on average, but the worst case becomes survivable. She pays a little to stay in the game."
+          },
+          {
+            "key": "C",
+            "text": "Borrow against the factory building to keep cash",
+            "verdict": "risky",
+            "feedback": "Cash stays safe, but the worst branch now puts the building itself at risk."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "A software company faces the same call when one big client asks for custom features. If losing that client would leave a team and a product built for nobody, get a commitment first."
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 4 of 4",
+      "title": "Month one: a record.",
+      "illustrative": true,
+      "body": [
+        "Say you leased. In the first month, orders come in 50% above plan, the factory's best month ever. The app asks Mara to reserve a second machine now."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Lease a second machine right away",
+            "verdict": "risky",
+            "feedback": "One record month is often part luck, and the next tends to land closer to normal. She could end up with two machines for one machine's work."
+          },
+          {
+            "key": "B",
+            "text": "Raise her estimate a little, and decide after three months of data",
+            "verdict": "best",
+            "feedback": "She treats the news as real but not final. Waiting costs a little speed and buys a clearer picture."
+          },
+          {
+            "key": "C",
+            "text": "Ignore it and stick to the original plan",
+            "verdict": "partial",
+            "feedback": "It guards against a lucky spike, but refusing to update means real growth would catch her short."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How it played out",
+      "title": "The spike settled. The trend held.",
+      "illustrative": true,
+      "body": [
+        "Months two and three came in about 15% above plan: less than the record, but still ahead.",
+        "Mara nudged her odds. \"Grows as promised\" now looked closer to 4 in 10. In month five she leased a second machine on the same terms, with the same minimum order."
+      ],
+      "image": {
+        "label": "Monthly orders: one tall spike, then steady bars above the plan line",
+        "aspectRatio": "16:9",
+        "brief": "월별 주문량 막대 그래프. 첫 달만 크게 튀고, 이후 막대들은 점선 'Plan' 위에 약간 높게 안정됨. 첫 달 막대에 'Record month' 라벨.",
+        "url": "assets/images/thk-04-10-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The numbers are guesses, and one bet is one bet.",
+      "body": [
+        "Mara's odds came from 10 past customers. That's a small sample, so treat it as a rough guide, not a fact.",
+        "An average only shows up across many bets. On a single bet she'll get one branch, not $530,000. A sound decision can still lose money, so judge it by the reasoning, not only the result."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A safe bet is one you've checked four ways.",
+      "body": [
+        "Each of Mara's calls used one idea from this unit:"
+      ],
+      "list": [
+        "**Decision 1 · Base rates:** start from what usually happens",
+        "**Decision 2 · Expected value:** weigh every outcome by its chance",
+        "**Decision 3 · Risk of ruin:** make sure the worst case is survivable",
+        "**Decision 4 · Updating beliefs:** move your estimate a little with each new fact, and expect record months to settle"
+      ],
+      "callout": "**Try it today:** take one bet on your desk. Write three outcomes, a rough chance for each, and what the worst one would do to you.",
+      "next": "Next · Which decisions can you undo?"
+    }
+  ]
+}

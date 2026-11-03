@@ -1,0 +1,256 @@
+{
+  "id": "CUS-08-08",
+  "unitId": "CUS-08",
+  "categoryId": "CUS",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "Map a software sign-up",
+  "readerTitle": "The ad said five minutes. The sign-up took twenty-five.",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (미용실 예약 앱 가입 과정, 신규 레스토랑 예약~첫 방문) · 모든 수치는 설명용",
+  "insight": "가입 과정은 '가입 버튼'에서 끝나지 않는다. 광고의 약속에서 첫 성공 경험까지 하나의 여정으로 직접 걸어 보면, 고객이 떠나는 진실의 순간과 기대와 경험의 차이가 보인다.",
+  "misconception": "가입자가 이탈하면 가입 버튼이나 홈페이지를 고치면 된다. 가입만 받으면 일은 끝난 것이다.",
+  "relatedLessonIds": [
+    "CUS-08-01",
+    "CUS-08-02"
+  ],
+  "sources": [
+    {
+      "text": "고객 여정, 진실의 순간, 기대와 경험의 차이는 이 유닛의 개념 레슨(CUS-08-01, CUS-08-02, CUS-08-05)을 적용한 것",
+      "url": null
+    },
+    {
+      "text": "모든 수치와 사례는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "가상 수치 계산 확인: 가입 양식 4분 + 인증 메일 대기 3분 + 서비스·영업시간 입력 10분 + 고객 명단 가져오기 8분 = 25분. 광고 약속 5분과의 차이 20분(5배).",
+      "status": "open"
+    },
+    {
+      "note": "레스토랑 사례의 '20분 대기'는 설명용 가상 수치입니다. 실제 통계로 읽히지 않도록 카드에 illustrative 표시를 했습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Everyday scene",
+      "title": "The ad said five minutes. The sign-up took twenty-five.",
+      "illustrative": true,
+      "body": [
+        "Maya runs a small app that lets hair salons take bookings online. Her ad promises: \"Start taking bookings in 5 minutes.\"",
+        "Plenty of salon owners sign up. Most never take a single booking. Her sign-up numbers look fine. Her business doesn't."
+      ],
+      "image": {
+        "label": "A stopwatch next to a phone showing a half-finished setup screen",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 미용실 카운터 위에 스마트폰, 화면에는 반쯤 채운 설정 화면. 옆의 초시계 바늘이 5분을 한참 넘어 25분을 가리킴. 실제 앱 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Where should Maya start?",
+      "illustrative": true,
+      "body": [
+        "She has a week and a small budget to fix the problem. What does she do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Redesign the home page to get even more sign-ups",
+            "verdict": "risky",
+            "feedback": "More people would enter a path that already loses most of them. She'd pay for traffic and keep the same leak."
+          },
+          {
+            "key": "B",
+            "text": "Sign up herself as a new salon, from the ad to the first real booking, and time each step",
+            "verdict": "best",
+            "feedback": "This maps the **customer journey**: every step a customer takes, not just the one you own. It's slow, but it shows where people actually stop."
+          },
+          {
+            "key": "C",
+            "text": "Email a survey to owners who left",
+            "verdict": "partial",
+            "feedback": "Useful later, but few will answer, and those who do may not remember the exact step that lost them."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The map",
+      "title": "Maya's own sign-up, step by step.",
+      "illustrative": true,
+      "body": [
+        "The ad promised 5 minutes. A first booking took **25**. The longest stretch came after the sign-up was \"done\"."
+      ],
+      "breakdown": [
+        {
+          "value": "4 min",
+          "label": "Sign-up form",
+          "detail": "Nine fields, including tax number",
+          "highlight": false
+        },
+        {
+          "value": "3 min",
+          "label": "Verify email",
+          "detail": "Waiting for the link to arrive",
+          "highlight": false
+        },
+        {
+          "value": "10 min",
+          "label": "Empty dashboard",
+          "detail": "Typing in services, prices and hours",
+          "highlight": true
+        },
+        {
+          "value": "8 min",
+          "label": "Import clients",
+          "detail": "Copying a contact list by hand",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "What the map shows",
+      "title": "The gap starts in the ad.",
+      "illustrative": true,
+      "body": [
+        "A salon owner opens the app between clients, expecting five minutes. At minute ten she is still typing prices into blank boxes. A customer walks in, and she closes the tab.",
+        "The steps aren't broken. Each one works. The problem is **expectations vs experience**: the ad set a promise the journey couldn't keep, so a normal setup felt like a failure.",
+        "Maya now has two levers: change the steps, or change the promise."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which step decides whether a salon stays?",
+      "illustrative": true,
+      "body": [
+        "Maya can only rebuild one step this month."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The sign-up form",
+            "verdict": "partial",
+            "feedback": "Cutting fields helps a little. But owners who get past it still hit the empty screen."
+          },
+          {
+            "key": "B",
+            "text": "The first real client booking",
+            "verdict": "best",
+            "feedback": "This is the **moment of truth**: when the owner sees the app do its job. Everything before it should rush people there."
+          },
+          {
+            "key": "C",
+            "text": "The cancellation page",
+            "verdict": "risky",
+            "feedback": "By then the owner has decided. Fixing the exit saves few people who never saw the app work."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The fix",
+      "title": "Get to the first booking faster.",
+      "illustrative": true,
+      "body": [
+        "Maya cuts the form to email and salon name. New accounts open with common services and hours already filled in, ready to edit. A button sends a test booking to the owner's own phone in under a minute.",
+        "Then she rewrites the ad: \"See your first booking in minutes. Add your full menu later.\" The promise now matches the path."
+      ],
+      "image": {
+        "label": "Journey line with the first booking moved close to the start",
+        "aspectRatio": "16:9",
+        "brief": "가로 여정 선 인포그래픽. 위쪽 '이전' 선은 길고 중간에 큰 빈 상자(Empty dashboard). 아래쪽 '이후' 선은 짧고, 시작 직후 휴대폰 알림 아이콘 \"First booking\"이 빛남. 실제 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Your own walk-through is biased.",
+      "body": [
+        "Maya knows where every button is, so her map will look faster than reality. Watch two or three real new customers try it, without helping.",
+        "The journey also differs by customer. A one-chair salon and a ten-chair salon may stop at different steps.",
+        "And don't polish every step equally. Effort belongs near the moment of truth."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a new restaurant.",
+      "illustrative": true,
+      "body": [
+        "Guests book online easily and get a text: \"Your table is ready at 7:00.\" But reviews say the first visit felt cold. Many guests waited about 20 minutes at the door, with no one greeting them.",
+        "You can fix one thing first. Which?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Redesign the booking page",
+            "verdict": "risky",
+            "feedback": "It already works. You'd spend effort on the smooth part of the **journey** and leave the rough part alone."
+          },
+          {
+            "key": "B",
+            "text": "Have a host greet every booked guest at the door and seat them on time, or say honestly how long",
+            "verdict": "best",
+            "feedback": "Arrival is the **moment of truth**, and the text set an **expectation** of a ready table. Meet it, or reset it kindly."
+          },
+          {
+            "key": "C",
+            "text": "Send more reminder texts before the visit",
+            "verdict": "partial",
+            "feedback": "Reminders help guests show up. They don't change what happens once guests are standing at the door."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "A welcome email that says \"you're all set\" works like that text. If the next screen is empty, the promise breaks right where trust is being decided."
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A sign-up ends at the first success, not the button.",
+      "body": [
+        "Walk the whole path yourself, time it, and fix the step where customers decide.",
+        "**Try it today:** sign up for your own product or book your own service as a stranger. Write down every step until you get real value."
+      ],
+      "list": [
+        "**Customer journey:** map every step, including ones you don't own",
+        "**Moment of truth:** find the step that decides who stays",
+        "**Expectations vs experience:** make your promise match the path"
+      ],
+      "next": "Next · What Zappos learned from treating service as marketing"
+    }
+  ]
+}

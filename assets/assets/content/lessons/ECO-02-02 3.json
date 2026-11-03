@@ -1,0 +1,257 @@
+{
+  "id": "ECO-02-02",
+  "unitId": "ECO-02",
+  "categoryId": "ECO",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "Marginal cost",
+  "readerTitle": "The next one can cost almost nothing. Or a whole van.",
+  "format": "two_businesses",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 두 개 (택배 배송업체, 가정 청소 서비스) + 가상 적용 (소프트웨어 회사) · 모든 수치는 설명용",
+  "insight": "'하나 더'의 비용은 평균이 아니라, 그 하나가 무엇을 새로 필요하게 만드는지(남는 여유인지, 새 차량·근무·인력인지)로 정해진다.",
+  "misconception": "한 건 더 받는 비용은 평균 원가와 같다. 그리고 그 비용은 언제나 일정하다.",
+  "relatedLessonIds": [
+    "ECO-02-01",
+    "ECO-01-05"
+  ],
+  "sources": [
+    {
+      "text": "미시경제학의 표준 개념 (한계비용, 평균비용과의 구분)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "배송 차량 계산: 운행비 $200 + 건당 처리비 $0.50 × 80개 = $240, 평균 $240 ÷ 80 = $3.00. 10개 추가 비용 $0.50 × 10 = $5. 평균 기준 오산 $3 × 10 = $30(실제의 6배). 90개 기준 새 평균 (200 + 45) ÷ 90 = $2.72.",
+      "status": "open"
+    },
+    {
+      "note": "30개 추가: 적재 한도 100개라 20개는 $0.50 × 20 = $10, 나머지 10개는 두 번째 운행 $200 + $5 = $205. 합계 $215. 101번째 소포 비용 $200 + $0.50 = $200.50.",
+      "status": "open"
+    },
+    {
+      "note": "청소 서비스: 정규 시간 $25 × 3시간 = $75 + 소모품 $6 + 이동비 $9 = $90. 초과근무 1.5배 $37.50 × 3 = $112.50 + $6 + $9 = $127.50. 평균 원가 약 $110은 사무실·보험·차량 리스를 포함한 가정치입니다.",
+      "status": "open"
+    },
+    {
+      "note": "소프트웨어: 지원 인력 3명이 약 1,500명 담당, 현재 1,490명 → 50명 중 10명은 여유 안, 40명은 한도 초과. 서버비 $0.20 × 50 = $10/월. 모두 가상 수치입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Economics · Two businesses",
+      "title": "The next one can cost almost nothing. Or a whole van.",
+      "body": [
+        "A delivery firm and a house-cleaning company get the same request this week: can you fit in a bit more work?",
+        "Both owners know their average cost per job. Neither number answers the question."
+      ],
+      "image": {
+        "label": "A delivery van and a cleaning crew side by side, each with a question mark",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 왼쪽에 소포가 80% 정도 찬 배송 밴, 오른쪽에 청소 도구를 든 청소원 두 명. 두 장면 위에 각각 \"+1?\" 말풍선. 실제 회사 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Ten more parcels on today's route.",
+      "illustrative": true,
+      "body": [
+        "Your van does one route a day. The driver, fuel and van cost $200 a run. Loading and scanning add $0.50 per parcel. It holds 100 parcels. Today it carries 80, so each parcel costs $3.00 on average.",
+        "A shop asks you to add 10 parcels to today's route. What do those 10 parcels add to your costs?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "About $30: 10 parcels at the $3 average",
+            "verdict": "risky",
+            "feedback": "The average includes the $200 run, which you pay whether you carry 80 parcels or 90. Using it here overstates the cost six times."
+          },
+          {
+            "key": "B",
+            "text": "About $5: just the loading and scanning",
+            "verdict": "best",
+            "feedback": "Right. The van is going anyway and has room, so only the handling is new. Next card shows what happens when the van fills up."
+          },
+          {
+            "key": "C",
+            "text": "Split the $200 across all 90 parcels and use that",
+            "verdict": "partial",
+            "feedback": "That gives a new average of about $2.72. It describes the whole day, not what the 10 extra parcels add."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Same van, three very different numbers.",
+      "illustrative": true,
+      "breakdown": [
+        {
+          "value": "$3.00",
+          "label": "Average parcel today",
+          "detail": "$240 total ÷ 80 parcels",
+          "highlight": false
+        },
+        {
+          "value": "$0.50",
+          "label": "Parcels 81 to 100",
+          "detail": "Just handling. The van has room",
+          "highlight": true
+        },
+        {
+          "value": "$200.50",
+          "label": "Parcel 101",
+          "detail": "The van is full. It needs a second run",
+          "highlight": true
+        }
+      ],
+      "callout": "Now the shop wants 30 parcels. Twenty fit for $10. The last 10 need a second run for $205. The order adds **$215**, almost all from the last ten."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Marginal cost",
+      "body": [
+        "**Marginal cost** is how much your total cost goes up when you make or deliver one more unit.",
+        "It is not the average. The average spreads all your costs across everything you did. Marginal cost asks only: *what changes if I say yes to this one?*",
+        "For the van, the answer swings from 50 cents to $200, depending on whether there is room left."
+      ],
+      "image": {
+        "label": "Staircase chart: flat steps with one tall jump when the van fills",
+        "aspectRatio": "16:9",
+        "brief": "계단형 그래프. 가로축 \"Parcels\", 세로축 \"Total cost\". 0~100개 구간은 완만하게 오르다가 101번째에서 큰 계단으로 뛰어오름. 계단 부분에 \"Second van run\" 라벨, 완만한 구간에 \"$0.50 each\" 라벨.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "chart",
+      "eyebrow": "The second business",
+      "title": "A cleaning company sees a different pattern.",
+      "illustrative": true,
+      "body": [
+        "Your cleaners earn $25 an hour. A typical job takes 3 hours, plus $6 of supplies and $9 of travel. One more job costs $90. With office, insurance and van leases spread in, your average is about $110.",
+        "In a full week, the extra job goes to someone on overtime at time and a half. Now it costs $127.50, *more* than the average."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Cost of one more cleaning job",
+            "rows": [
+              {
+                "label": "Regular hours",
+                "value": 90,
+                "highlight": false
+              },
+              {
+                "label": "Average cost per job",
+                "value": 110,
+                "highlight": false
+              },
+              {
+                "label": "On overtime",
+                "value": 127.5,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Ask what the next one triggers.",
+      "body": [
+        "In the van business, most of the cost sits in the run. Extra parcels ride almost free until the van is full. Then one parcel costs a whole trip.",
+        "In the cleaning business, most of the cost is people's time, which grows with every job. Marginal cost stays close to the average, then **climbs when the team is stretched**.",
+        "Either way, look for the next step: a full van, a full schedule, a new hire, a second shift."
+      ],
+      "image": {
+        "label": "Two lines: one flat with a big jump, one steady then rising",
+        "aspectRatio": "16:9",
+        "brief": "두 개의 작은 그래프를 나란히 배치. 왼쪽 \"Delivery\": 거의 평평하다가 한 번 크게 뛰는 선. 오른쪽 \"Cleaning\": 일정하게 오르다가 끝부분에서 가팔라지는 선. 각 그래프에 \"Next step\" 화살표 표시.",
+        "url": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Cheap extras still have to pay for the base.",
+      "body": [
+        "If you price every parcel at 50 cents, nobody pays for the van. Marginal cost tells you what a single yes costs. It doesn't tell you what prices keep the business alive.",
+        "Some marginal costs also show up late. A crew on overtime every week gets tired, makes mistakes and quits. Count those costs once the extra work becomes the normal work."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software company.",
+      "illustrative": true,
+      "body": [
+        "Your app costs about $0.20 per customer each month in servers. Your three support staff can handle about 1,500 customers, and you have 1,490.",
+        "A partner offers to bring in 50 new customers next month. What will they really cost to serve?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "About $10 a month, just the servers",
+            "verdict": "risky",
+            "feedback": "True for the first 10. The other 40 push past what support can handle, so the real cost includes a step you haven't counted."
+          },
+          {
+            "key": "B",
+            "text": "Servers plus a fourth support hire, unless you can cut support needs first",
+            "verdict": "best",
+            "feedback": "This finds the step. Now you can choose: hire, add self-serve help, or shape the deal so it covers the extra person."
+          },
+          {
+            "key": "C",
+            "text": "Total monthly costs divided by customers, times 50",
+            "verdict": "partial",
+            "feedback": "It gives a rough figure but hides the jump. The first 10 cost almost nothing; the next 40 may cost a salary."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Ask what the next one costs, not what the average one costs.",
+      "body": [
+        "Marginal cost can be near zero or huge. It depends on whether you have room, or need a new van, shift or person.",
+        "**Try it today:** find your next step. How many more orders, jobs or customers can you take before you must add a big new cost?"
+      ],
+      "next": "Next · Why bigger can mean cheaper per unit"
+    }
+  ]
+}

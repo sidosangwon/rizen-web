@@ -1,0 +1,246 @@
+{
+  "id": "THK-04-02",
+  "unitId": "THK-04",
+  "categoryId": "THK",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "Expected value",
+  "readerTitle": "The pitch you'll probably lose might be the one to chase",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative",
+    "real_company"
+  ],
+  "caseNote": "가상 사례 (디자인 에이전시 입찰, 대기업 운영팀 프로젝트 선택) + 실제 기업 발언 (Amazon 2015 주주 서한). 제안 형식은 company_story였지만, 실제 기업의 확률·금액을 지어내지 않으려고 가상 수치 중심의 numbers_twist로 바꿨습니다.",
+  "insight": "선택지는 '될 가능성'이 아니라 '확률 × 결과'의 합으로 비교한다. 같은 종류의 결정을 여러 번 반복할수록 이 평균이 실제 결과가 된다.",
+  "misconception": "성공 확률이 높은 쪽이 더 좋은 선택이다. 질 가능성이 큰 시도는 피하는 게 현명하다.",
+  "relatedLessonIds": [
+    "THK-04-05",
+    "THK-05-02"
+  ],
+  "sources": [
+    {
+      "text": "확률론의 표준 개념 (기댓값 = Σ 확률 × 결과)",
+      "url": null
+    },
+    {
+      "text": "Bezos, J. (2016). 2015 Letter to Amazon Shareholders.",
+      "url": null
+    },
+    {
+      "text": "에이전시·운영팀 수치는 모두 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "에이전시 계산: A안 0.6 × $40,000 = $24,000, 준비비 $5,000 차감 시 $19,000. B안 0.15 × $200,000 = $30,000, 차감 시 $25,000. 준비비는 수주 여부와 상관없이 들기 때문에 양쪽에서 모두 뺐습니다.",
+      "status": "open"
+    },
+    {
+      "note": "반복 계산: A형 입찰 20회 × 60% = 12건 × $40,000 = $480,000. B형 입찰 20회 × 15% = 3건 × $200,000 = $600,000. 준비비 20 × $5,000 = $100,000은 양쪽 동일.",
+      "status": "open"
+    },
+    {
+      "note": "운영팀 계산: X안 0.9 × $50,000 = $45,000/년, Y안 0.3 × $300,000 = $90,000/년. 두 프로젝트의 비용(한 분기 팀 시간)은 같다고 가정했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Bezos 인용문(\"Given a ten percent chance of a 100 times payoff, you should take that bet every time. But you're still going to be wrong nine times out of ten.\")은 2015년 주주 서한(2016년 4월 공개)에 나오는 것으로 알고 있습니다. 게시 전 원문과 문구를 대조하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Numbers twist",
+      "title": "The pitch you'll probably lose might be the one to chase",
+      "illustrative": true,
+      "body": [
+        "A small design agency has room to prepare one big pitch this month. Each costs about $5,000 in staff time.",
+        "One client is a near-sure thing. The other is a long shot. Most owners would go for the safer win. The math says something else."
+      ],
+      "image": {
+        "label": "Two doors: a small likely prize and a big unlikely one",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 문 두 개. 왼쪽 문은 활짝 열려 있고 작은 금화 더미, 오른쪽 문은 살짝만 열려 있고 큰 금화 더미가 언뜻 보임. 문 앞에서 고민하는 사람 한 명. 실제 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which pitch do you prepare?",
+      "illustrative": true,
+      "body": [
+        "**Pitch A:** a $40,000 project. You know the client well. About a 60% chance you win.",
+        "**Pitch B:** a $200,000 project with a large firm. Strong rivals. About a 15% chance you win.",
+        "Your agency has steady work, so losing either pitch won't hurt the business."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Pitch A. A 60% chance beats 15% by a mile",
+            "verdict": "partial",
+            "feedback": "You'll win more often, which feels good and smooths cash flow. But you give up a bigger average payoff each time you choose this way."
+          },
+          {
+            "key": "B",
+            "text": "Pitch B. The prize is big enough to cover the low odds",
+            "verdict": "best",
+            "feedback": "You'll lose this pitch most of the time. But on average it's worth more, and you can afford the misses. Next card shows the math."
+          },
+          {
+            "key": "C",
+            "text": "Neither. Pitching is a gamble, so save the $5,000",
+            "verdict": "risky",
+            "feedback": "You keep the $5,000 for sure. But both pitches are worth far more than they cost, so skipping them leaves money on the table."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Multiply each prize by its chance.",
+      "illustrative": true,
+      "body": [
+        "Pitch A is worth $19,000 on average. Pitch B is worth **$25,000**, even though you'll usually lose it."
+      ],
+      "breakdown": [
+        {
+          "value": "$24,000",
+          "label": "Pitch A",
+          "detail": "60% × $40,000",
+          "highlight": false
+        },
+        {
+          "value": "$30,000",
+          "label": "Pitch B",
+          "detail": "15% × $200,000",
+          "highlight": false
+        },
+        {
+          "value": "−$5,000",
+          "label": "Cost of pitching",
+          "detail": "Paid win or lose",
+          "highlight": false
+        },
+        {
+          "value": "$25,000",
+          "label": "Pitch B, after cost",
+          "detail": "vs $19,000 for Pitch A",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Expected value",
+      "body": [
+        "**Expected value** is what a choice is worth on average. For each possible outcome, multiply its chance by its result, then add them up.",
+        "It's not what you'll get this time. Pitch B pays either $200,000 or nothing, never $30,000. Expected value tells you what the choice earns if you make it again and again."
+      ],
+      "image": {
+        "label": "Formula: chance times result, added up",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. \"Chance × Result\" 블록 두 개(15% × $200,000, 85% × $0)가 더하기 기호로 이어지고 결과 \"$30,000 on average\". 깔끔한 플랫 스타일.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Over many bets, the average shows up.",
+      "illustrative": true,
+      "body": [
+        "Say the agency faces this choice 20 times over a few years. Always choosing like Pitch A: about 12 wins, $480,000. Always choosing like Pitch B: about 3 wins, $600,000.",
+        "The long-shot habit loses far more often and still earns more. Amazon's Jeff Bezos put it this way in his 2015 shareholder letter: a 10% chance of a 100-times payoff is a bet to take every time, \"but you're still going to be wrong nine times out of ten.\""
+      ],
+      "image": {
+        "label": "Twenty pitches: many small wins vs few big wins",
+        "aspectRatio": "16:9",
+        "brief": "두 줄의 칸 20개씩. 윗줄은 작은 초록 칸 12개(\"$480k\"), 아랫줄은 큰 초록 칸 3개(\"$600k\"), 나머지는 회색. 아랫줄 합계가 더 크다는 점을 강조.",
+        "url": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond yes or no",
+      "title": "Count the bad outcomes, too.",
+      "body": [
+        "Real choices rarely end in just \"win\" or \"nothing.\" A new contract might win, lose, or win and then demand overtime you didn't price in.",
+        "Give each outcome a rough chance and a rough value, including the negative ones. A big client with a 20% chance of a painful dispute is worth less than its headline fee."
+      ],
+      "softwareNote": "A product team can compare a sure small fix for one customer with a feature that has a 25% chance of lifting renewals across every account. Rough expected value often favors the uncertain bet."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Averages don't pay rent if you're broke.",
+      "body": [
+        "Expected value assumes you can survive the misses and keep playing. If losing one bet would sink the business, the average doesn't matter. That's the next lesson.",
+        "Your chances are also guesses. A \"15%\" that's really 5% flips the answer. Test your estimates against past results, and favor choices that still look good if you're somewhat wrong."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's an operations team inside a big company.",
+      "illustrative": true,
+      "body": [
+        "Your team has one quarter free. **Project X:** automate invoice matching, 90% chance to save $50,000 a year. **Project Y:** redesign how the company prices supplier contracts, 30% chance to save $300,000 a year, otherwise nothing.",
+        "A miss on either won't hurt the company. Which do you pick?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Project X. Leadership likes teams that deliver",
+            "verdict": "partial",
+            "feedback": "You'll almost surely have a win to show, which builds trust. But X is worth about $45,000 a year on average, half of Y."
+          },
+          {
+            "key": "B",
+            "text": "Project Y, and tell leadership upfront it's a 30% shot",
+            "verdict": "best",
+            "feedback": "Y is worth about $90,000 a year on average. Naming the odds early means a miss is judged as a fair bet, not a failure."
+          },
+          {
+            "key": "C",
+            "text": "Split the team and do half of each",
+            "verdict": "risky",
+            "feedback": "It feels balanced, but half a team may finish neither in a quarter. You could cut the chances of both payoffs."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Judge a choice by chance times payoff, not by chance alone.",
+      "body": [
+        "A likely win isn't always the better bet. When you can afford the misses and you'll face similar choices again, follow the expected value.",
+        "**Try it today:** pick two options you're weighing. Write a rough chance and a rough payoff for each, including the cost. Multiply, then compare."
+      ],
+      "next": "Next · Why one bad bet can end the game"
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "id": "FIN-09-07",
+  "unitId": "FIN-09",
+  "categoryId": "FIN",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "A restaurant group with $1M of profit",
+  "readerTitle": "A restaurant group made $1M. Where should it go?",
+  "format": "everyday_scene",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (4개 매장 레스토랑 그룹, 냉난방 설비 서비스 회사) · 모든 수치는 설명용",
+  "insight": "이익을 어디에 쓸지는 아이디어의 매력이 아니라 1달러당 수익률 순서와 넘어야 할 기준선으로 정한다.",
+  "misconception": "잘되는 매장이 있으면 같은 매장을 하나 더 여는 것이 이익을 쓰는 가장 당연한 방법이다.",
+  "relatedLessonIds": [
+    "FIN-09-02",
+    "FIN-09-05"
+  ],
+  "sources": [
+    {
+      "text": "재무관리의 표준 개념 (투하자본수익률, 허들 레이트)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "레스토랑 수익률 계산: 테라스 $60,000 ÷ $200,000 = 30%, 신규 매장 $150,000 ÷ $1,000,000 = 15%, 경쟁사 인수 $120,000 ÷ $1,000,000 = 12%, 대출 상환 $800,000 × 8% = 연 $64,000 이자 절감. 기존 매장은 약 $4M 투자에 약 $1M 이익으로 약 25%라는 가정.",
+      "status": "open"
+    },
+    {
+      "note": "설명 단순화를 위해 세금, 감가상각, 신규 매장의 초기 적자 기간을 수익률 계산에서 뺐습니다. 카드 7에서 예측 낙관 편향을 한계로 언급합니다.",
+      "status": "open"
+    },
+    {
+      "note": "냉난방 회사: 밴·장비 $90,000 → 기사 인건비 차감 후 연 $40,000 = 약 44%, 일정 관리 소프트웨어 $60,000 → 연 $15,000 = 25%, 쇼룸 $250,000 → 연 $20,000 = 8%. 허들 레이트 20%는 가정. 투자 합계 $150,000으로 이익 $300,000 안에 들어감.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Apply",
+      "title": "A restaurant group made $1M. Where should it go?",
+      "illustrative": true,
+      "body": [
+        "Maria runs four busy restaurants. This year the group made **$1M in profit**, and the cash is sitting in the bank.",
+        "Her chef wants a fifth location. Her partner wants to buy a rival. Her banker mentions the loan. Everyone has a good idea. Only one pot of money."
+      ],
+      "image": {
+        "label": "A bag of cash on a restaurant table surrounded by four ideas",
+        "aspectRatio": "4:3",
+        "brief": "레스토랑 테이블 위에 돈 자루 하나. 주변에 네 개의 말풍선: 새 매장 건물, 테라스, 다른 식당 간판, 대출 서류. 따뜻한 조명의 일러스트. 실제 브랜드나 로고 없음.",
+        "url": "assets/images/fin-09-07-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Where do the first dollars go?",
+      "illustrative": true,
+      "body": [
+        "The options: a fifth restaurant ($1M, about $150k a year once running), buying a rival's two restaurants ($1M, about $120k a year), or a covered patio at the flagship ($200k, about $60k a year more profit).",
+        "What should Maria fund first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The fifth restaurant. It copies what already works",
+            "verdict": "partial",
+            "feedback": "It feels safe because the concept is proven. But it earns 15% on each dollar, half what the patio earns."
+          },
+          {
+            "key": "B",
+            "text": "The patio first, then judge the rest",
+            "verdict": "best",
+            "feedback": "The patio returns 30% a year on its cost, the highest **return on invested capital** on the table. Fund the best return per dollar first."
+          },
+          {
+            "key": "C",
+            "text": "Buy the rival. It adds two restaurants at once",
+            "verdict": "risky",
+            "feedback": "You gain size fast but earn only 12% on the money, the lowest of the three. Bigger is not the same as better use of cash."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Each option, per dollar invested.",
+      "illustrative": true,
+      "body": [
+        "Same $1M of profit, very different results. The patio is small, but every dollar works twice as hard as a dollar in a new restaurant."
+      ],
+      "breakdown": [
+        {
+          "value": "30%",
+          "label": "Covered patio",
+          "detail": "$60k a year on $200k",
+          "highlight": true
+        },
+        {
+          "value": "25%",
+          "label": "Existing restaurants",
+          "detail": "About $1M a year on about $4M",
+          "highlight": false
+        },
+        {
+          "value": "15%",
+          "label": "Fifth restaurant",
+          "detail": "$150k a year on $1M",
+          "highlight": false
+        },
+        {
+          "value": "12%",
+          "label": "Buy the rival",
+          "detail": "$120k a year on $1M",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept at work",
+      "title": "Return on invested capital sets the order.",
+      "body": [
+        "**Return on invested capital** is the yearly profit a project adds, divided by the money it takes. It lets you compare a patio with a whole restaurant on the same scale.",
+        "Sorted this way, the patio goes first. The new restaurant would earn less than Maria's current ones do. That doesn't kill it, but it means growth would *lower* her group's average return."
+      ],
+      "image": {
+        "label": "Four bars ranked by return per dollar",
+        "aspectRatio": "16:9",
+        "brief": "가로 막대 4개를 수익률 순으로 정렬: Patio 30%, Existing 25%, New site 15%, Buy rival 12%. 맨 위 막대만 강조 색. 깔끔한 인포그래픽.",
+        "url": "assets/images/fin-09-07-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Concept at work",
+      "title": "A hurdle rate decides what's left.",
+      "illustrative": true,
+      "body": [
+        "After the patio, $800k remains. Maria sets a **hurdle rate**: the minimum return a risky project must beat to get money. Restaurants fail often, so she picks 15%.",
+        "The rival at 12% falls short. The new site sits right on the line. And there's a safe option: paying off her 8% loan saves $64k of interest a year, with no risk at all."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What happens to the other $800k?",
+      "illustrative": true,
+      "body": [
+        "The fifth restaurant is forecast at exactly 15%, her hurdle rate. What should Maria do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Build it. It meets the hurdle",
+            "verdict": "partial",
+            "feedback": "On paper, yes. But a project that only *just* clears the **hurdle rate** has no room for a slow first year or a cost overrun."
+          },
+          {
+            "key": "B",
+            "text": "Pay down the loan and keep looking for projects that clear the bar easily",
+            "verdict": "best",
+            "feedback": "A certain 8% beats a risky 15% that could easily become 10%. The **hurdle rate** works best when it leaves a safety margin."
+          },
+          {
+            "key": "C",
+            "text": "Buy the rival. It's cheaper than building from scratch",
+            "verdict": "risky",
+            "feedback": "Cheaper to start, but 12% is below the **hurdle rate**. You'd take on restaurant risk for less than the bar you set."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The returns are guesses.",
+      "body": [
+        "Every number here is a forecast. New locations often take a year or two to reach their expected profit, and owners tend to love their own plans.",
+        "High-return projects are also usually small. The patio can only absorb $200k. Don't stretch a great small idea into a big mediocre one.",
+        "And never count repairs to existing kitchens as optional. Keeping what works running comes before any new bet."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a heating and cooling company.",
+      "illustrative": true,
+      "body": [
+        "Sam's repair company made $300k. His hurdle rate is 20%. Options: a second van and technician ($90k, adds $40k a year after wages), scheduling software ($60k, adds $15k a year), or a showroom ($250k, adds $20k a year).",
+        "What's the best plan?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The showroom. It makes the business look established",
+            "verdict": "risky",
+            "feedback": "It may impress customers, but 8% is far below the 20% **hurdle rate**. It uses the most cash for the least return."
+          },
+          {
+            "key": "B",
+            "text": "The van first, then the software",
+            "verdict": "best",
+            "feedback": "The van returns about 44% and the software 25%. Both clear the **hurdle rate**, and ranking by **return on invested capital** puts the van first."
+          },
+          {
+            "key": "C",
+            "text": "Only the software. Digital tools scale best",
+            "verdict": "partial",
+            "feedback": "It clears the bar at 25%, but it skips the van, which earns almost twice as much per dollar."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "A software company does the same math: one more engineer, a new market, or paying down debt. Rank each by yearly profit per dollar and drop anything below the bar."
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Rank by return, then hold the line.",
+      "body": [
+        "Maria used two ideas. **Return on invested capital** set the order: patio first. A **hurdle rate** decided the rest: no project below the bar, and a safe loan payoff over a risky maybe.",
+        "**Try it today:** list three things you could spend your next profit on. Write the cost and the yearly profit each would add, then divide."
+      ],
+      "next": "Next · A tech company with a pile of cash"
+    }
+  ]
+}

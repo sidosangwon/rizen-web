@@ -1,0 +1,206 @@
+{
+  "id": "ECO-07-03",
+  "unitId": "ECO-07",
+  "categoryId": "ECO",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "Price discrimination",
+  "readerTitle": "Different prices for the same thing: when it works and when it backfires",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.3,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Amazon, 2000년 DVD 가격 테스트) + 가상 사례 (청소 서비스, IT 지원 회사)",
+  "insight": "가격 차별은 판매자가 몰래 고객을 추측할 때 실패하고, 고객이 눈에 보이는 울타리(시간, 자격, 약정, 수량) 중 한쪽을 스스로 고를 때 성공한다.",
+  "misconception": "고객마다 다른 가격은 원래 불공정하다. 또는 반대로, 고객이 낼 수 있는 만큼 알아내서 받기만 하면 된다.",
+  "relatedLessonIds": [
+    "ECO-04-04",
+    "ECO-08-05"
+  ],
+  "sources": [
+    {
+      "text": "Amazon statement and press coverage on its DVD price test, September 2000 (e.g., Washington Post, Bloomberg, Wall Street Journal reports)",
+      "url": null
+    },
+    {
+      "text": "경제학 표준 개념 (가격 차별, 지불 의사, 자기 선택 방식의 가격 울타리)",
+      "url": null
+    },
+    {
+      "text": "청소 서비스와 IT 지원 회사 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Amazon DVD 가격 테스트: 2000년 9월 DVD 팬 포럼(DVD Talk) 사용자들이 같은 DVD의 가격이 사람마다 다르다는 것을 발견. Amazon은 무작위 가격 테스트였고 고객 데이터 기반이 아니었다고 밝히며 사과하고, 더 많이 낸 고객에게 차액을 환불했다고 보도됨. 날짜, 포럼 이름, 환불 방식은 게시 전에 1차 보도로 다시 확인하세요. 카드에는 환불 인원·금액 수치를 넣지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "가상 수치 확인: 청소 $120 기본가, 토요일 할증과 정기 계약 할인은 설명용. IT 지원 시간당 $150, 비영리 요율 $110은 가상 수치입니다.",
+      "status": "open"
+    },
+    {
+      "note": "주의 카드의 법률 문구는 특정 국가 법률 조언이 아니라 일반적 언급(많은 지역에서 인종·성별 등 개인 특성에 따른 가격 차별 제한)으로만 썼습니다. 표현이 과하지 않은지 검토하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Pricing · Counterexample",
+      "title": "Same DVD, same day, different price",
+      "body": [
+        "In September 2000, shoppers on a DVD fan forum noticed something odd. The same movie on Amazon seemed to cost different amounts for different people.",
+        "Amazon called it a short price test. Customers called it unfair. The idea behind it is one of the most useful in pricing. The way it was done is a lesson in how not to use it."
+      ],
+      "image": {
+        "label": "Two shoppers seeing different prices for the same DVD",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 두 사람이 나란히 노트북 화면을 보고 있고, 같은 DVD 표지 옆에 서로 다른 가격표가 떠 있음. 한 사람은 눈살을 찌푸림. 실제 로고나 영화 제목은 쓰지 않음.",
+        "url": "assets/images/eco-07-03-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Some clients would happily pay more.",
+      "illustrative": true,
+      "body": [
+        "You run a house-cleaning business. A standard clean is $120.",
+        "You suspect owners of big houses on wealthy streets would pay $150 without blinking. Meanwhile, some retired clients can barely manage $120. How do you price?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Quote each client privately, higher for homes that look wealthy",
+            "verdict": "risky",
+            "feedback": "You may capture more money at first. But neighbors talk, and clients who learn they paid more for the same clean feel cheated and leave."
+          },
+          {
+            "key": "B",
+            "text": "Keep one price of $120 for everyone",
+            "verdict": "partial",
+            "feedback": "Simple and fair-looking. But you leave money on the table from clients who'd pay more, and still lose those who can't pay $120."
+          },
+          {
+            "key": "C",
+            "text": "Publish clear options: a Saturday premium, a discount for regular weekday bookings, a seniors' rate",
+            "verdict": "best",
+            "feedback": "Clients pick their own price by choosing a time, a commitment or a group they qualify for. Nobody is guessed at, so nobody feels tricked."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "The problem wasn't different prices. It was secret ones.",
+      "body": [
+        "Forum members compared notes and felt tricked. The story spread fast in the press.",
+        "Within weeks, Amazon apologized. It said the prices had been random, not based on who was shopping, and refunded the difference to buyers who had paid more.",
+        "Notice what customers didn't object to. Nobody complains that a movie matinee costs less than an evening show. The anger came from hidden prices with no reason anyone could see."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Price discrimination",
+      "body": [
+        "**Price discrimination** means charging different customers different prices for the same thing, because they value it differently, not because it costs you more to serve them.",
+        "One price misses twice. Some customers would have paid more. Others would have bought only at a lower price. Different prices let you reach both."
+      ],
+      "image": {
+        "label": "One price line missing high and low payers",
+        "aspectRatio": "16:9",
+        "brief": "가로로 늘어선 사람 아이콘들, 머리 위에 각자 낼 의향이 있는 금액. 가운데 하나의 가격선이 지나감. 선 위쪽 사람들 옆에는 \"Would pay more\", 선 아래쪽에는 \"Walks away\" 라벨.",
+        "url": "assets/images/eco-07-03-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Build fences customers choose for themselves.",
+      "body": [
+        "The trick is a **fence**: a visible rule that separates prices, which customers sort themselves across."
+      ],
+      "list": [
+        "**Time:** off-peak, weekday or early booking costs less",
+        "**Group:** students, seniors, nonprofits",
+        "**Commitment:** regular bookings or annual contracts",
+        "**Quantity:** lower price per unit for bigger orders",
+        "**Effort:** coupons for those willing to clip them"
+      ],
+      "callout": "The seller sets the fence. The customer decides which side to stand on.",
+      "softwareNote": "Student plans, startup programs and discounts for paying a year upfront are all fences. Each one lowers the price for customers who value the product less, without cutting it for everyone else."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A fence only works if it holds.",
+      "body": [
+        "If anyone can claim the seniors' rate or the nonprofit price, it quietly becomes your real price. Check eligibility, or tie the cheaper price to a real condition, like a weekday slot.",
+        "The reason must also feel fair. A discount for students reads as kind. A surcharge for people who look rich reads as a trap.",
+        "And some fences are off limits. Many places restrict pricing by personal traits such as race or gender. Check the rules where you operate."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's an IT support firm.",
+      "illustrative": true,
+      "body": [
+        "You provide IT support to offices at $150 an hour. Large law firms pay without fuss. Small nonprofits keep turning you down as too expensive, and you have spare hours midweek.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Quietly quote big firms $190 and nonprofits $120, based on how they look",
+            "verdict": "risky",
+            "feedback": "More revenue on paper. But clients share vendors and compare invoices, and an unexplained gap can cost you your best accounts."
+          },
+          {
+            "key": "B",
+            "text": "Offer a published nonprofit rate of $110, with proof of status and midweek scheduling",
+            "verdict": "best",
+            "feedback": "You fill idle hours with new clients, and the fence keeps law firms at $150. The cost is checking eligibility and holding the scheduling rule."
+          },
+          {
+            "key": "C",
+            "text": "Cut the price to $120 for everyone",
+            "verdict": "partial",
+            "feedback": "You'd win the nonprofits, but every law firm that happily paid $150 now pays $30 less an hour for the same work."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Different prices work when customers choose them.",
+      "body": [
+        "Charging customers differently can be fair and profitable, as long as the difference rests on a visible fence, not a secret guess.",
+        "**Try it today:** list the customers who say no to your price. Is there a time, group or commitment fence that could reach them without lowering the price for everyone else?"
+      ],
+      "next": "Next · Why the price of the same seat keeps moving"
+    }
+  ]
+}

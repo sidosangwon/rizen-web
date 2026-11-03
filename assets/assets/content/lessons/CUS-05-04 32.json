@@ -1,0 +1,266 @@
+{
+  "id": "CUS-05-04",
+  "unitId": "CUS-05",
+  "categoryId": "CUS",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Choice overload",
+  "readerTitle": "Why the shop with fewer kettles sells more of them",
+  "format": "two_businesses",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (주방용품 매장 두 곳, 사내 교육팀) + 실제 연구 (Iyengar & Lepper 잼 연구, 메타분석 2편)",
+  "insight": "선택지가 많을수록 좋은 것이 아니라, 고객이 '어느 것이 나에게 맞는지' 쉽게 알 수 있을 때 산다. 고칠 대상은 선택지 수보다 비교의 어려움이다.",
+  "misconception": "선택지를 늘리면 더 많은 고객의 취향을 맞추므로 판매는 늘 늘어난다.",
+  "relatedLessonIds": [
+    "CUS-05-03",
+    "CUS-10-06"
+  ],
+  "sources": [
+    {
+      "text": "Iyengar, S. S., & Lepper, M. R. (2000). When choice is demotivating: Can one desire too much of a good thing? Journal of Personality and Social Psychology, 79(6), 995–1006.",
+      "url": null
+    },
+    {
+      "text": "Iyengar, S. S., Huberman, G., & Jiang, W. (2004). How much choice is too much? Contributions to 401(k) retirement plans. In Pension Design and Structure, Oxford University Press.",
+      "url": null
+    },
+    {
+      "text": "Scheibehenne, B., Greifeneder, R., & Todd, P. M. (2010). Can there ever be too many options? A meta-analytic review of choice overload. Journal of Consumer Research, 37(3), 409–425.",
+      "url": null
+    },
+    {
+      "text": "Chernev, A., Böckenholt, U., & Goodman, J. (2015). Choice overload: A conceptual review and meta-analysis. Journal of Consumer Psychology, 25(2), 333–358.",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "잼 연구 수치: 24종 진열 시 지나가던 손님의 약 60%, 6종 진열 시 약 40%가 시식대에 멈춤. 멈춘 손님 중 구매 비율은 24종 약 3%, 6종 약 30%. 원 논문 Study 1의 수치와 일치하는지 게시 전에 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "401(k) 연구는 펀드 수가 늘수록 가입률이 다소 낮아졌다고 보고합니다(펀드 10개 추가당 약 1.5~2%p 하락으로 알려짐). 카드에는 구체 수치 없이 일반적으로만 서술했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Scheibehenne 외(2010) 메타분석은 약 50개 실험을 종합해 평균 효과가 0에 가깝다고 보고했습니다. Chernev 외(2015)는 선택지 복잡성, 결정 과제의 어려움, 선호 불확실성, 결정 목표의 네 가지 조건에서 효과가 커진다고 정리했습니다. 카드 6·7의 서술이 두 논문과 맞는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "주방용품 매장 두 곳과 사내 교육팀은 모두 설명용 가상 사례이며 수치(30종, 7종, 120개 강좌)도 가상입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Two businesses",
+      "title": "Why the shop with fewer kettles sells more of them",
+      "illustrative": true,
+      "body": [
+        "Two kitchenware shops sit on the same street. Shop A stocks 30 kettles, every style and price. Shop B stocks 7.",
+        "Shop A has more of what any customer could want. Yet Shop B sells more kettles, and its customers leave happier."
+      ],
+      "image": {
+        "label": "Two shop shelves: one crowded with kettles, one with a few",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 왼쪽 매장 선반에는 비슷비슷한 주전자 30개가 빽빽하게, 손님이 머리를 긁적이며 서 있음. 오른쪽 매장 선반에는 주전자 7개가 넉넉한 간격으로 놓여 있고, 손님이 하나를 집어 들고 웃음. 실제 브랜드 로고는 쓰지 않음.",
+        "url": "assets/images/cus-05-04-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You run Shop A.",
+      "illustrative": true,
+      "body": [
+        "Plenty of people browse your kettle shelf. Many pick up two or three, compare the boxes, then say \"I'll think about it\" and leave.",
+        "What do you change first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Add more models so every customer finds an exact match",
+            "verdict": "risky",
+            "feedback": "You cover more tastes, but you make the comparison even harder. The browsers who already can't decide now have more to weigh."
+          },
+          {
+            "key": "B",
+            "text": "Cut to about 8 clearly different kettles and mark one as the staff pick",
+            "verdict": "best",
+            "feedback": "Each kettle now has an obvious reason to exist, and the pick gives unsure customers a safe place to land. You may lose a few people hunting for one exact model."
+          },
+          {
+            "key": "C",
+            "text": "Run a 15% discount on all 30",
+            "verdict": "partial",
+            "feedback": "A discount gives people a reason to buy today, but it doesn't help them choose. You pay for the sale without fixing the hesitation."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What's different",
+      "title": "Shop B makes the choice easy, not small.",
+      "illustrative": true,
+      "body": [
+        "At Shop A, many kettles look alike. Customers compare wattage, colors and prices, worry they'll pick the wrong one, and put off the decision.",
+        "At Shop B, each kettle has one clear job: cheapest, fastest, quietest, best-looking, temperature control. A card says which one staff would buy.",
+        "Customers at Shop B don't do less thinking because there are fewer kettles. They do less thinking because **the differences are obvious**."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Choice overload",
+      "body": [
+        "**Choice overload** is when adding options makes people less likely to choose at all, or less happy with what they chose.",
+        "More options mean more comparing. They also raise the fear of regret: with 30 kettles, a better one is probably out there. Walking away feels safer than picking wrong."
+      ],
+      "image": {
+        "label": "A customer weighing many similar options versus a few distinct ones",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 왼쪽: 비슷한 카드 30장이 사람 머리 위로 쏟아지고 \"Compare… compare… later\" 말풍선. 오른쪽: 서로 다른 아이콘이 붙은 카드 5장이 정돈되어 있고 \"That one\" 말풍선. 깔끔한 선과 두 가지 색만 사용.",
+        "url": "assets/images/cus-05-04-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "chart",
+      "eyebrow": "The evidence",
+      "title": "The jam table that started it.",
+      "body": [
+        "In a 2000 study, researchers set up a tasting table in a grocery store. Some days it showed 24 jams, other days 6.",
+        "The big display drew more people in. The small one turned far more of them into buyers. Later work on workplace retirement plans found a similar pattern: plans with more funds had somewhat lower sign-up."
+      ],
+      "chart": {
+        "unit": "%",
+        "groups": [
+          {
+            "label": "Shoppers who stopped at the table",
+            "rows": [
+              {
+                "label": "24 jams",
+                "value": 60,
+                "highlight": false
+              },
+              {
+                "label": "6 jams",
+                "value": 40,
+                "highlight": false
+              }
+            ]
+          },
+          {
+            "label": "Of those who stopped, share who bought",
+            "rows": [
+              {
+                "label": "24 jams",
+                "value": 3,
+                "highlight": false
+              },
+              {
+                "label": "6 jams",
+                "value": 30,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "image": {
+        "label": "Jam table: more stoppers, fewer buyers",
+        "aspectRatio": "4:3",
+        "brief": "24 jams 60% stop 3% buy vs 6 jams 40% stop 30% buy.",
+        "url": "assets/images/cus-05-04-info.png"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "When it bites",
+      "title": "It's about how hard the choice is, not just the count.",
+      "body": [
+        "A later review of many studies found overload is strongest when four things are true:"
+      ],
+      "list": [
+        "Options are **hard to compare** side by side",
+        "The customer **isn't sure** what they want",
+        "The decision feels **difficult or risky**",
+        "The customer has to **decide now**, not just browse"
+      ],
+      "callout": "A regular who always orders the same coffee won't freeze in front of a long menu.",
+      "softwareNote": "The same pattern shows up on pricing pages with six plans and in sign-up flows that open with twenty templates. One highlighted plan or a \"start here\" template often does more than removing options."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Fewer options isn't always better.",
+      "body": [
+        "The effect is real in some settings and absent in others. A 2010 review of about 50 experiments found the average effect was close to zero. The jam study itself is debated, which a later lesson covers.",
+        "Variety also does a job: a wide range brings people through the door, and some customers come for one specific item. Cutting the range can lose them.",
+        "So the fix is often structure, not deletion. Group options, explain differences, and offer a recommended choice."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a company's training team.",
+      "illustrative": true,
+      "body": [
+        "You lead the learning team at a 2,000-person company. Your online catalog grew from 40 courses to 120. Enrollment hasn't moved.",
+        "Managers say employees open the catalog, scroll, and don't know where to start. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Add 60 more courses on the topics people requested",
+            "verdict": "risky",
+            "feedback": "You meet every request on paper, but the scrolling problem gets worse. People who already can't start now have more to sort through."
+          },
+          {
+            "key": "B",
+            "text": "Build three starter paths by role, each with one recommended first course, and keep the full catalog searchable",
+            "verdict": "best",
+            "feedback": "Unsure employees get an easy first step, and people who know what they want can still find it. It costs some design work and a few hard calls on what to recommend."
+          },
+          {
+            "key": "C",
+            "text": "Delete everything except the 20 most popular courses",
+            "verdict": "partial",
+            "feedback": "The catalog becomes easy to scan, but you lose the niche courses some teams truly need. You've fixed the count, not how people choose."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "People don't need fewer options. They need an easy way to choose.",
+      "body": [
+        "When customers hesitate, look at how hard your options are to compare before adding or cutting any.",
+        "**Try it today:** pick the place where your customers choose most, a shelf, menu or plan page. Can a stranger tell in ten seconds how each option differs and which one you'd recommend?"
+      ],
+      "next": "Next · Why the ending of an experience matters most"
+    }
+  ]
+}

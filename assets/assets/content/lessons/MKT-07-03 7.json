@@ -1,0 +1,241 @@
+{
+  "id": "MKT-07-03",
+  "unitId": "MKT-07",
+  "categoryId": "MKT",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "Diminishing returns on spending",
+  "readerTitle": "The second $20,000 bought far less than the first",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (가전 회사 안의 마케팅팀, 지역 원예용품 체인) · 모든 수치는 설명용",
+  "insight": "추가 예산은 평균 비용이 아니라 마지막에 더한 돈이 데려온 고객 수로 판단한다.",
+  "misconception": "광고가 잘 되면 예산을 두 배로 늘려 고객도 두 배로 늘릴 수 있다. 평균 고객 획득 비용이 목표 이하면 예산을 더 써도 된다.",
+  "relatedLessonIds": [
+    "MKT-07-01",
+    "MKT-07-06"
+  ],
+  "sources": [
+    {
+      "text": "수확 체감(diminishing marginal returns)과 한계 분석은 경제학·마케팅 믹스 모델링의 표준 개념",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "마케팅팀 계산: $20,000 ÷ 400 = $50, $40,000 ÷ 520 = 약 $76.9(카드에 $77), 추가 리드 520 − 400 = 120, $20,000 ÷ 120 = 약 $167, 120 × $100 = $12,000 < $20,000.",
+      "status": "open"
+    },
+    {
+      "note": "차트 단계별 계산: $10k 250건, $20k 400건(+150), $30k 480건(+80), $40k 520건(+40). 추가 리드당 비용 $10,000 ÷ 250 = $40, ÷ 150 = 약 $67, ÷ 80 = $125, ÷ 40 = $250. $30k 단계의 80건 × $100 = $8,000 < $10,000, $20k 단계의 150건 × $100 = $15,000 > $10,000.",
+      "status": "open"
+    },
+    {
+      "note": "원예 체인: 전단 1회 $2,000, 방문당 남는 돈 $10. 1차 400명 × $10 = $4,000, 2차 220명 × $10 = $2,200. 3차는 그보다 적을 것으로 가정(설명용).",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Marketing · Counterexample",
+      "title": "The second $20,000 bought far less than the first",
+      "illustrative": true,
+      "body": [
+        "A marketing team inside a home appliance company spent $20,000 a month on search ads. It brought in 400 sales leads, or $50 each.",
+        "After a great quarter, leadership doubled the budget to $40,000. Leads didn't double. They rose to 520."
+      ],
+      "image": {
+        "label": "Two money stacks, the second producing far fewer customer icons",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 왼쪽 돈 더미에서 사람 아이콘 400개가 쏟아지고, 같은 크기의 오른쪽 돈 더미에서는 120개만 나오는 장면. 실제 브랜드 로고나 광고 플랫폼 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Was the extra $20,000 worth it?",
+      "illustrative": true,
+      "body": [
+        "Each lead is worth about $100 in profit to the company. At $40,000, the average cost per lead is now $77.",
+        "The team wants to keep the bigger budget. What do you say?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep it. $77 per lead is still below $100",
+            "verdict": "risky",
+            "feedback": "The average looks safe because the cheap early leads hide the expensive new ones. It answers whether the whole budget pays, not whether the extra part does."
+          },
+          {
+            "key": "B",
+            "text": "No. The extra $20,000 bought 120 leads worth about $12,000",
+            "verdict": "best",
+            "feedback": "Right. Judged on its own, the added money lost about $8,000. The first $20,000 is still a good deal; the second is not."
+          },
+          {
+            "key": "C",
+            "text": "We can't tell until we know which ad brought which lead",
+            "verdict": "partial",
+            "feedback": "Tracking matters, and it's a fair worry. But the totals before and after already show what the extra money added."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "What happened",
+      "title": "Each $10,000 bought fewer leads than the last.",
+      "illustrative": true,
+      "body": [
+        "The team looked back at months when spending rose step by step. The pattern was steady: every added $10,000 brought in fewer new leads."
+      ],
+      "chart": {
+        "unit": "count",
+        "groups": [
+          {
+            "label": "Extra leads from each added $10,000",
+            "rows": [
+              {
+                "label": "First $10k",
+                "value": 250,
+                "highlight": false
+              },
+              {
+                "label": "Second $10k",
+                "value": 150,
+                "highlight": false
+              },
+              {
+                "label": "Third $10k",
+                "value": 80,
+                "highlight": true
+              },
+              {
+                "label": "Fourth $10k",
+                "value": 40,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "callout": "The last $10,000 bought leads at $250 each. The first bought them at $40.",
+      "image": {
+        "label": "Each $10,000 bought fewer leads than the last.",
+        "aspectRatio": "4:3",
+        "brief": "Labeled HTML chart from the lesson numbers",
+        "url": "assets/images/mkt-07-03-chart.png"
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Diminishing returns on spending",
+      "body": [
+        "**Diminishing returns** means each extra dollar you spend brings back less than the dollar before it.",
+        "It happens for plain reasons. The first dollars reach the people most ready to buy. Later dollars reach people who are less interested, or show the same ad to people who already saw it. You run out of easy customers before you run out of money."
+      ],
+      "image": {
+        "label": "A curve that rises steeply, then flattens",
+        "aspectRatio": "16:9",
+        "brief": "가로축 \"Spending\", 세로축 \"Customers\". 처음엔 가파르게 오르다 점점 평평해지는 곡선. 곡선 아래 계단을 그려 계단 높이가 갈수록 낮아지는 모습을 강조.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Averages hide the expensive edge.",
+      "body": [
+        "Most reports show the **average** cost per customer. But a budget decision is about the *next* dollar, not all of them.",
+        "Here, the average of $77 blends $40 leads with $250 leads. The useful question is what the last step bought. By that test, this team's best budget was about $20,000: the step from $20,000 to $30,000 already cost more than it returned."
+      ],
+      "softwareNote": "An app paying for installs sees the same curve. Early ad money finds people searching for exactly this tool; later money buys curious users who churn in a week. A blended cost per user can look fine while the newest users lose money."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Wider view",
+      "title": "The curve isn't fixed.",
+      "body": [
+        "Diminishing returns describe one audience in one channel. Reach a new group, and you start low on a fresh curve, where the cheap customers haven't been found yet.",
+        "Some spending also has a slow start. A single ad people barely notice may do nothing, while a steady presence works. So the first few dollars aren't always the best ones."
+      ],
+      "callout": "When one curve flattens, look for a new one rather than pushing harder on the old."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Your curve is a rough sketch.",
+      "body": [
+        "Real results are noisy. Seasons, rivals and prices move lead counts too, so one month of higher spend proves little. Change budgets in steps and compare over several weeks.",
+        "Lead counts also miss quality and timing. Some spending builds awareness that pays off months later and won't show up in this month's numbers. Don't cut it on a short-term chart alone."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a garden-centre chain.",
+      "illustrative": true,
+      "body": [
+        "Your three stores mail a $2,000 flyer to nearby homes. Each visit it brings leaves about $10. The first spring drop brought 400 visits. A second drop to the same homes brought 220.",
+        "You have $2,000 left. What do you do with it?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Send a third drop to the same homes",
+            "verdict": "risky",
+            "feedback": "The second drop barely paid for itself, and a third will likely bring even fewer visits. You'd be spending at the flattest part of the curve."
+          },
+          {
+            "key": "B",
+            "text": "Mail towns you've never reached, starting small",
+            "verdict": "best",
+            "feedback": "Fresh homes put you back at the steep part of a new curve. Starting small lets you check the response before spending it all."
+          },
+          {
+            "key": "C",
+            "text": "Stop flyers entirely, since returns are falling",
+            "verdict": "partial",
+            "feedback": "Falling returns aren't zero returns. The first drop earned twice its cost; the lesson is where to stop, not to stop everything."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Judge the next dollar, not the average one.",
+      "body": [
+        "Every audience runs out of easy customers. Before raising a budget, ask what the last increase actually added.",
+        "**Try it today:** take one channel you pay for. Compare a lower-spend month with a higher-spend one, and divide the extra cost by the extra customers."
+      ],
+      "next": "Next · Building a brand vs asking for the sale"
+    }
+  ]
+}

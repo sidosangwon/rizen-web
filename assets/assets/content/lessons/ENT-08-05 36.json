@@ -1,0 +1,242 @@
+{
+  "id": "ENT-08-05",
+  "unitId": "ENT-08",
+  "categoryId": "ENT",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Life after selling",
+  "readerTitle": "Your company sold for $8 million. Why did you get $5.8 million?",
+  "format": "numbers_twist",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (주방용품 유통업체, 일정관리 앱) · 모든 수치는 설명용",
+  "insight": "매각 후에는 위험은 그대로 지고 통제권은 잃는다. 그래서 실제로 받는 돈은 매각가보다 '내가 무엇을 계속 통제하는가'에 달려 있다.",
+  "misconception": "매각가가 높은 제안이 더 좋은 제안이다. 서명하면 일은 끝난다.",
+  "relatedLessonIds": [
+    "ENT-08-02",
+    "ENT-08-04"
+  ],
+  "sources": [
+    {
+      "text": "인수합병(M&A)의 표준 개념: 언아웃(earnout), 에스크로·홀드백(escrow, holdback), 사후 지급 대금(deferred consideration)",
+      "url": null
+    },
+    {
+      "text": "모든 수치와 사례는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "계산 확인: 제안 A 표면가 $5M(종결 시 현금) + $1M(에스크로, 18개월) + $2M(언아웃) = $8M. 실제 수령: $5M + ($1M − $0.2M 청구) + $0(언아웃 미달) = $5.8M. 제안 B는 종결 시 현금 $6.5M. 차이 $6.5M − $5.8M = $0.7M.",
+      "status": "open"
+    },
+    {
+      "note": "언아웃 조건(매출 $10M → 2년 안에 $12M, 달성 못 하면 0)은 설명을 위한 단순화입니다. 실제 언아웃은 단계별 지급, 비례 지급 등 구조가 다양합니다. 카드에 '이 거래에서는'이라는 맥락으로만 썼습니다.",
+      "status": "open"
+    },
+    {
+      "note": "'언아웃은 분쟁이 잦은 조건'이라는 설명은 M&A 실무에서 널리 알려진 일반론으로만 썼고, 구체적인 비율이나 통계는 넣지 않았습니다. 게시 전 표현이 과하지 않은지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "세금, 법률 구조(국가별 과세 시점, 계약서 조항의 법적 효력)는 다루지 않았습니다. 특정 국가 조언으로 읽히지 않는지 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Exits · Numbers twist",
+      "title": "Your company sold for $8 million. Why did you get $5.8 million?",
+      "illustrative": true,
+      "body": [
+        "Maria spent 15 years building a regional distributor of kitchen and restaurant supplies. The press release said she sold it for $8 million.",
+        "Two years later, her bank account told a different story. Nothing went wrong on signing day. It went wrong afterwards."
+      ],
+      "image": {
+        "label": "A big price tag shrinking as it passes through a doorway",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 창고 앞에서 커다란 \"$8M\" 가격표가 문을 통과하며 점점 작아져 반대편에서 \"$5.8M\"로 나옴. 실제 회사 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/ent-08-05-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Two offers for your distribution business.",
+      "illustrative": true,
+      "body": [
+        "**Offer A:** $8 million. $5 million cash at closing, $1 million held back for 18 months to cover any claims, and $2 million more if revenue grows from $10 million to $12 million within two years. You stay on as manager.",
+        "**Offer B:** $6.5 million, all cash at closing. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Take Offer A. It's $1.5 million more",
+            "verdict": "risky",
+            "feedback": "You get the bigger headline, but $3 million of it depends on time and on results under someone else's ownership."
+          },
+          {
+            "key": "B",
+            "text": "Take Offer B. Cash now beats promises",
+            "verdict": "partial",
+            "feedback": "You lock in certainty, but you may leave real money on the table if the business would have grown anyway."
+          },
+          {
+            "key": "C",
+            "text": "Negotiate A: ask what control you'll keep over the things that drive revenue",
+            "verdict": "best",
+            "feedback": "This keeps the upside of A while asking the question that decides how much of it you'll actually see."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "What $8 million meant on paper.",
+      "illustrative": true,
+      "body": [
+        "Maria took Offer A. On closing day, only **$5 million** was hers for certain."
+      ],
+      "breakdown": [
+        {
+          "value": "$5.0M",
+          "label": "Cash at closing",
+          "detail": "Paid on signing day",
+          "highlight": true
+        },
+        {
+          "value": "$1.0M",
+          "label": "Held back",
+          "detail": "Kept 18 months to cover claims",
+          "highlight": false
+        },
+        {
+          "value": "$2.0M",
+          "label": "Earnout",
+          "detail": "Paid only if revenue hits $12M in two years",
+          "highlight": false
+        },
+        {
+          "value": "$8.0M",
+          "label": "Headline price",
+          "detail": "What the press release said",
+          "highlight": false
+        }
+      ],
+      "callout": "Three-eighths of the price was still in the future."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "The new owner made reasonable choices. They cost Maria.",
+      "illustrative": true,
+      "body": [
+        "The buyer merged Maria's warehouse into its own to save costs. Deliveries slowed for a few months. A large restaurant chain moved its orders elsewhere. The buyer also raised prices to match its other branches.",
+        "Revenue reached $10.5 million, not $12 million. The earnout paid nothing. A $200,000 claim came out of the held-back money.",
+        "Maria's total: $5 million + $800,000 + $0 = **$5.8 million**. That's $700,000 less than Offer B."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "After the sale, you keep the risk but lose the controls.",
+      "body": [
+        "Many deals pay part of the price later. An **earnout** is money paid only if the business hits targets after the sale. A **holdback** is money kept aside to cover problems found later.",
+        "Both mean your payment still depends on the business. But the buyer now decides prices, staff, budgets and how your company fits into theirs. Life after selling starts with this gap: your money is tied to choices you no longer make."
+      ],
+      "image": {
+        "label": "Seller holding a rope tied to a business steered by someone else",
+        "aspectRatio": "16:9",
+        "brief": "매각한 창업자가 밧줄 끝을 잡고 서 있고, 밧줄은 다른 사람이 운전하는 트럭(사업)에 묶여 있음. 창업자 손에는 \"Your money\", 운전대에는 \"Buyer's decisions\" 라벨. 로고 없음.",
+        "url": "assets/images/ent-08-05-c5.jpg"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Why buyers like paying later.",
+      "body": [
+        "Buyers and sellers often disagree on what the business will do next. Paying later bridges the gap: if the seller's forecast is right, the seller gets paid. It also keeps the founder working hard during the handover.",
+        "After closing, the buyer usually controls:"
+      ],
+      "list": [
+        "**Prices** and which customers to keep",
+        "**Staff,** including who stays and who reports to whom",
+        "**Budgets** for marketing, stock and hiring",
+        "**How results are counted,** such as which costs land on your books"
+      ],
+      "callout": "Each of these can move an earnout target, for better or worse."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Paying later isn't a trap by itself.",
+      "body": [
+        "An earnout can pay more than any all-cash offer if growth is real and you keep the levers that drive it. Some sellers do very well from them.",
+        "The cost is time and uncertainty. You become an employee in a company you used to run, often for years, with your payment depending on someone else's plan. Earnouts are a well-known source of disputes. Read the details with a lawyer and an accountant; the legal and tax rules differ by country."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a scheduling app.",
+      "illustrative": true,
+      "body": [
+        "A larger software company wants to buy your scheduling app. Part of the price is an earnout tied to growth in yearly subscription revenue. The buyer plans to fold your app into its own suite next year.",
+        "Which term matters most to negotiate?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "A bigger earnout if you beat the target",
+            "verdict": "partial",
+            "feedback": "More upside looks good, but it's worth little if the integration makes your revenue hard to measure or grow."
+          },
+          {
+            "key": "B",
+            "text": "A target you can still measure and influence, with full payout if they merge the app or cut your team",
+            "verdict": "best",
+            "feedback": "This protects you from the buyer's choices, which is where most of the risk sits. You may give up some headline price for it."
+          },
+          {
+            "key": "C",
+            "text": "A longer job contract so you can push for growth",
+            "verdict": "risky",
+            "feedback": "More time inside doesn't give you more control. You could spend three years fighting decisions you can't overturn."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Value an offer by what you'll control after you sign.",
+      "body": [
+        "The headline price is a promise. The cash at closing is certain. Everything in between depends on decisions you'll no longer make, so price that risk before you accept it.",
+        "**Try it today:** if you got an offer tomorrow, list the three decisions that most drive your revenue. Who would make each one after a sale?"
+      ],
+      "next": "Next · Building to last vs building to sell"
+    }
+  ]
+}

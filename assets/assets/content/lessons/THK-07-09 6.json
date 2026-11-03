@@ -1,0 +1,231 @@
+{
+  "id": "THK-07-09",
+  "unitId": "THK-07",
+  "categoryId": "THK",
+  "order": 9,
+  "type": "case",
+  "conceptTag": "Toyota's five whys",
+  "readerTitle": "Toyota's five whys: why the fuse was never the problem",
+  "format": "company_story",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "real_company",
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Toyota, 오노 다이이치의 기계 정지 사례) + 실제 연구 (5 Whys 비판) + 가상 적용 (배관 수리, 식당)",
+  "insight": "문제를 다시 일어나지 않게 하는 해결책은 처음 보이는 고장이 아니라, 원인을 몇 번 더 따라간 끝의 작고 값싼 공정 변경에 있는 경우가 많다.",
+  "misconception": "고장 난 부품을 바로 고치거나 더 튼튼한 것으로 바꾸면 문제는 해결된 것이다.",
+  "relatedLessonIds": [
+    "THK-07-05",
+    "THK-07-01"
+  ],
+  "sources": [
+    {
+      "text": "Ohno, T. (1988). Toyota Production System: Beyond Large-Scale Production. Productivity Press. 일본어 원서 1978년. 기계 정지와 다섯 번의 '왜' 사례, 'Ask why five times' 원칙",
+      "url": null
+    },
+    {
+      "text": "Toyota Motor Corporation, Toyota Production System 소개 페이지 (jidoka, 이상 발생 시 라인 정지)",
+      "url": "https://global.toyota/en/company/vision-and-philosophy/production-system/"
+    },
+    {
+      "text": "Card, A. J. (2017). The problem with '5 whys'. BMJ Quality & Safety, 26(8), 671–677.",
+      "url": null
+    },
+    {
+      "text": "배관 수리 회사와 식당 사례는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "기계 정지 사례(과부하로 퓨즈 단선 → 베어링 윤활 부족 → 윤활 펌프 작동 불량 → 펌프 축 마모 → 스트레이너 미부착으로 금속 부스러기 유입)는 오노의 책 영문판에 나온 순서를 따랐습니다. 게시 전에 원문 표현을 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "오노가 이 방법을 실제로 쓴 정확한 연도와 공장은 확인하지 않았습니다. 그래서 카드에는 연도와 장소를 적지 않고 '오노가 책에서 설명한 사례'로만 썼습니다. 사키치 도요다가 기원이라는 설명도 확인 전이라 넣지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "작업자가 이상을 발견하면 라인을 멈출 수 있다는 내용(jidoka, andon)은 Toyota 공식 자료로 확인할 수 있습니다. 링크 주소가 지금도 유효한지 게시 전에 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Card(2017)의 서지 정보(권, 호, 쪽)를 다시 확인하세요. 카드에는 연구 결과를 '한 줄의 원인만 따라가 다른 원인을 놓칠 수 있다'는 일반적인 비판으로만 요약했습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Company story",
+      "title": "A machine stops. The fuse is blown.",
+      "body": [
+        "Swap the fuse and the line is running again in minutes. Most factories would do exactly that and move on.",
+        "Taiichi Ohno, the engineer who shaped Toyota's production system, thought the fuse was the least interesting part of the story."
+      ],
+      "image": {
+        "label": "A stopped factory machine with a blown fuse",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 조용히 멈춘 공장 기계 옆에 끊어진 퓨즈 하나가 손바닥 위에 놓여 있음. 기계 뒤쪽에 작은 물음표 다섯 개가 그림자처럼 이어짐. 실제 자동차 회사 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/thk-07-09-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You run the line. What do you do?",
+      "body": [
+        "A machine on your production line has stopped. A worker reports that it overloaded and the fuse blew.",
+        "Orders are waiting. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Replace the fuse, restart, and log the stop",
+            "verdict": "partial",
+            "feedback": "You get the line moving fast, which matters. But nothing has changed, so the same overload will likely blow the next fuse."
+          },
+          {
+            "key": "B",
+            "text": "Fit a stronger fuse so it stops blowing",
+            "verdict": "risky",
+            "feedback": "The stops end, but the overload doesn't. Now the fuse can't protect the machine, so a cheap part may turn into a broken motor."
+          },
+          {
+            "key": "C",
+            "text": "Restart, then trace why it overloaded before closing the issue",
+            "verdict": "best",
+            "feedback": "It costs some time now. In return, you look for the cause that would make the stop come back. Next card shows where Ohno's chain led."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What Ohno found",
+      "title": "Five questions, from fuse to strainer.",
+      "body": [
+        "In his book on the Toyota Production System, Ohno walks through this exact stop:"
+      ],
+      "list": [
+        "**Why did it stop?** An overload blew the fuse.",
+        "**Why the overload?** A bearing wasn't lubricated enough.",
+        "**Why?** The lubrication pump wasn't pumping enough.",
+        "**Why?** The pump's shaft was worn and rattling.",
+        "**Why?** There was no strainer, so metal scraps got in."
+      ],
+      "callout": "The fix was attaching a strainer. A new fuse would have fixed nothing."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Root cause, not symptom",
+      "body": [
+        "A **root cause** is the deepest cause you can still act on. Fix it, and the problem stops coming back. A symptom is what you notice first: the blown fuse.",
+        "Ohno's habit was simple: **ask why five times**. Each answer becomes the next question. The number isn't magic. The point is to keep going past the first answer that lets you get back to work."
+      ],
+      "image": {
+        "label": "Chain from blown fuse down to missing strainer",
+        "aspectRatio": "16:9",
+        "brief": "위에서 아래로 내려가는 사슬 인포그래픽. 맨 위 \"Fuse blew\", 그 아래 \"Bearing dry\", \"Pump weak\", \"Shaft worn\", 맨 아래 \"No strainer\". 맨 위는 작고 흐리게, 맨 아래는 밝게 강조. 실제 로고 없음.",
+        "url": null
+      },
+      "softwareNote": "A server crashes. Restarting it is the fuse. Asking why might lead to a full disk, then to logs that never get cleared, then to a setup step nobody owns. Many teams write this chain up after an outage."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Why it worked at Toyota",
+      "title": "The system made stopping normal.",
+      "body": [
+        "Toyota's production system lets workers stop the line when they spot a problem. That sounds expensive. The idea is that problems get looked at while the evidence is still fresh.",
+        "Ohno also stressed going to the machine itself instead of guessing from an office. The answers to each why came from looking at the real bearing, pump and shaft.",
+        "Asking why only works when people have the time, the access and the permission to find out."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond the factory",
+      "title": "Now it's a plumbing business.",
+      "illustrative": true,
+      "body": [
+        "A plumbing company keeps getting called back for leaks it already fixed. The owner's first answer: \"Some jobs just go wrong.\"",
+        "Asking why goes further. The fitting cracked. It was overtightened. Newer technicians judge tightness by feel. Training never covered it.",
+        "The root fix is a short guide and a ten-minute demo for new hires. It's cheaper than any number of free callbacks."
+      ],
+      "image": {
+        "label": "Plumber checking a fitting against a printed guide",
+        "aspectRatio": "16:9",
+        "brief": "플랫 일러스트. 싱크대 아래에서 배관공이 작은 체크카드를 보며 이음새를 조이는 장면. 배경에 달력에서 '재방문' 표시가 줄어드는 모습. 실제 브랜드나 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "One chain can miss the real story.",
+      "body": [
+        "Problems often have several causes. Following one line of whys can make you stop at the first convincing story. Safety researchers in healthcare have criticized the method for exactly this.",
+        "Two other traps: stopping at \"someone was careless,\" which blames a person instead of fixing a process, and answering from memory instead of going to look. If your chain ends in a person, ask one more why."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Cold food on busy nights.",
+      "illustrative": true,
+      "body": [
+        "Your restaurant gets complaints about cold mains, mostly on Friday nights. You asked why twice and heard: \"Plates sit at the pass.\" \"Servers are too busy to grab them.\"",
+        "What's your next move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Remind servers to pick up plates faster",
+            "verdict": "risky",
+            "feedback": "It's quick and free, but it stops at people. If something keeps servers busy, a reminder changes nothing by next Friday."
+          },
+          {
+            "key": "B",
+            "text": "Hire another server for Friday nights",
+            "verdict": "partial",
+            "feedback": "It may help, at a steady cost. But you'd be paying for a fix before knowing what's actually keeping servers busy."
+          },
+          {
+            "key": "C",
+            "text": "Watch the floor next Friday and keep asking why servers are tied up",
+            "verdict": "best",
+            "feedback": "It costs a week. You might find something cheap, like drinks taking too long at a crowded bar, that a hire would only hide."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Fix the thing that makes the problem come back.",
+      "body": [
+        "The first answer gets you running again. The answer a few whys down keeps you running.",
+        "**Try it today:** pick a problem that has happened more than once. Write down why it happened, then ask why again until the answer is a process you can change."
+      ],
+      "next": "Next · Revenue fell 20%. Find out why"
+    }
+  ]
+}

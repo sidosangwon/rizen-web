@@ -1,0 +1,237 @@
+{
+  "id": "CUS-08-04",
+  "unitId": "CUS-08",
+  "categoryId": "CUS",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Would you recommend us?",
+  "readerTitle": "Your 8 out of 10 counted for nothing",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.4,
+  "caseKinds": [
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 연구 (Reichheld 2003, Keiningham 외 2007) + 가상 사례 (배관 수리, 가정 청소 업체, B2B 회계 대행). 모든 업체 수치는 설명용",
+  "insight": "추천 의향 질문의 가치는 점수 자체가 아니라 '왜 그 점수를 줬는가'를 묻고 낮은 점수를 준 고객에게 다시 연락하는 데 있다.",
+  "misconception": "평균 만족 점수가 높으면 고객들이 입소문을 내 주고 있다. 점수를 올리는 것 자체가 목표다.",
+  "relatedLessonIds": [
+    "CUS-06-06",
+    "CUS-08-03"
+  ],
+  "sources": [
+    {
+      "text": "Reichheld, F. F. (2003). The One Number You Need to Grow. Harvard Business Review, December 2003.",
+      "url": "https://hbr.org/2003/12/the-one-number-you-need-to-grow"
+    },
+    {
+      "text": "Keiningham, T. L., Cooil, B., Andreassen, T. W., & Aksoy, L. (2007). A Longitudinal Examination of Net Promoter and Firm Revenue Growth. Journal of Marketing, 71(3).",
+      "url": null
+    },
+    {
+      "text": "Net Promoter, NPS는 Bain & Company, Satmetrix, Fred Reichheld의 등록 상표",
+      "url": null
+    },
+    {
+      "text": "업체 사례와 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "0~10점 척도, 9~10점 추천 고객(promoters), 7~8점 중립(passives), 0~6점 비추천(detractors), 점수 = 추천 고객 % − 비추천 고객 %, 범위 −100~+100. Reichheld(2003) 및 Bain 자료로 게시 전 재확인.",
+      "status": "open"
+    },
+    {
+      "note": "청소 업체 계산: 응답 100명 중 9~10점 25명, 7~8점 55명, 0~6점 20명 → 25% − 20% = +5. 세 그룹 합계 100명 확인.",
+      "status": "open"
+    },
+    {
+      "note": "Keiningham 외(2007)는 추천 점수가 다른 고객 지표(예: ACSI)보다 매출 성장을 더 잘 예측한다는 증거를 찾지 못했다는 결론. 카드에는 'did not find it predicted growth better than other customer measures'로 일반화해 적었으니 원문 표현을 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "점수가 업종과 나라(문화)에 따라 크게 다르다는 내용은 일반적으로 알려진 내용이지만 특정 수치는 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "회계 대행 사례: +30에서 +10으로 하락은 가상 수치입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Everyday scene",
+      "title": "Your 8 out of 10 counted for nothing",
+      "illustrative": true,
+      "body": [
+        "A plumber fixes your leaking sink. That evening a text arrives: \"How likely are you to recommend us to a friend, 0 to 10?\"",
+        "He was on time and tidy. You reply **8**. Pretty good, you think.",
+        "In the way many businesses score that question, your 8 counts as zero. Not bad, not good. Just nothing."
+      ],
+      "image": {
+        "label": "Phone showing a 0 to 10 rating text after a plumber visit",
+        "aspectRatio": "4:3",
+        "brief": "부엌 싱크대 옆에 공구 가방, 식탁 위 휴대폰 화면에 0~10 숫자 버튼이 있는 문자 설문. 8번 버튼이 눌려 있고 옆에 작게 '= 0' 표시. 실제 브랜드 로고 없음.",
+        "url": "assets/images/cus-08-04-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "The survey looks healthy. Is it?",
+      "illustrative": true,
+      "body": [
+        "You run a home cleaning company. You want to know whether customers will spread the word, because most of your new jobs come from referrals.",
+        "100 customers answered the 0 to 10 question. Most gave a 7 or 8, so the average looks fine. What do you do next?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Relax. A high average means customers are happy",
+            "verdict": "risky",
+            "feedback": "Happy enough to stay quiet is not the same as happy enough to recommend. An average hides who will actually talk about you."
+          },
+          {
+            "key": "B",
+            "text": "Count the 9s and 10s against the 0s to 6s, then read why they scored that way",
+            "verdict": "best",
+            "feedback": "This shows who is likely to praise you, who might warn others, and what to fix. It takes more reading, but it tells you what to do."
+          },
+          {
+            "key": "C",
+            "text": "Switch to asking \"How satisfied were you?\" instead",
+            "verdict": "partial",
+            "feedback": "Satisfaction is useful, but it measures this one visit. Your growth depends on referrals, so asking about recommending fits your goal better."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Same survey, split three ways.",
+      "illustrative": true,
+      "body": [
+        "25% minus 20% gives a score of **+5**. A comfortable-looking average turned into a business barely ahead of its critics."
+      ],
+      "breakdown": [
+        {
+          "value": "25",
+          "label": "Gave 9–10",
+          "detail": "Likely to recommend you",
+          "highlight": true
+        },
+        {
+          "value": "55",
+          "label": "Gave 7–8",
+          "detail": "Fine, but quiet and easy to lose",
+          "highlight": false
+        },
+        {
+          "value": "20",
+          "label": "Gave 0–6",
+          "detail": "Unhappy, may warn others",
+          "highlight": true
+        },
+        {
+          "value": "+5",
+          "label": "Score",
+          "detail": "% who gave 9–10 minus % who gave 0–6",
+          "highlight": false
+        }
+      ],
+      "softwareNote": "Software companies often show this question inside the app. The 7–8 group matters most there: they rarely complain, and they churn quietly when a cheaper tool appears."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The recommend question",
+      "body": [
+        "In a 2003 Harvard Business Review article, Fred Reichheld argued that one question tracks loyalty well: **\"How likely are you to recommend us?\"** Recommending puts your own reputation on the line, so people are careful with it.",
+        "Answers split into three groups: 9–10 are promoters, 7–8 are passives, 0–6 are detractors. The score is the share of promoters minus the share of detractors, from −100 to +100. It is widely known by its trademarked name, *Net Promoter Score*."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "The number starts the conversation. The why does the work.",
+      "body": [
+        "A score tells you something changed. It can't tell you what. So the useful version always adds one more question: **\"What's the main reason for your score?\"**",
+        "Then comes the step most businesses skip: someone calls the people who gave 0–6. A cleaning customer who scored 4 because the team arrived late is a fixable problem, and often a customer you can keep. Promoters' reasons matter too. They tell you what to protect."
+      ],
+      "image": {
+        "label": "Score card leading to a comment and a follow-up phone call",
+        "aspectRatio": "16:9",
+        "brief": "왼쪽에서 오른쪽으로 흐르는 3단계 그림: 숫자 '4'가 적힌 카드 → 말풍선 'Team arrived late' → 사장이 전화를 거는 모습. 화살표로 연결. 실제 로고 없음.",
+        "url": "assets/images/cus-08-04-c5.jpg"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "It's a claim, not a referral.",
+      "body": [
+        "Saying you would recommend is not the same as doing it. Researchers who tracked many firms (Keiningham and colleagues, 2007) did not find the score predicted growth better than other customer measures.",
+        "Scores also vary a lot by industry and country, so compare yourself with your own past, not a rival's number. And if staff are paid on the score, some will start saying \"please give me a 10.\" Then the number goes up and the truth goes away."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a bookkeeping firm.",
+      "illustrative": true,
+      "body": [
+        "Your firm does monthly bookkeeping for 80 small businesses. Your recommend score fell from +30 to +10 this quarter. Several low scores mention \"slow replies.\"",
+        "What's your first move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Tie account managers' bonuses to raising the score",
+            "verdict": "risky",
+            "feedback": "It gets attention fast, but it rewards chasing 10s rather than fixing slow replies. You may get a better number and the same problem."
+          },
+          {
+            "key": "B",
+            "text": "Call each client who scored 0–6, ask what changed, fix it and tell them",
+            "verdict": "best",
+            "feedback": "It costs a few days of calls, but you learn the real cause and show clients you listened. With 80 clients, every one you keep matters."
+          },
+          {
+            "key": "C",
+            "text": "Send the survey monthly to get more data",
+            "verdict": "partial",
+            "feedback": "More data helps you spot trends, but you already know where it hurts. Asking more often without acting can annoy clients."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Ask who would recommend you, then ask why.",
+      "body": [
+        "Split customers into those who'd praise you, those who are quiet, and those who'd warn others. The reasons behind the scores, and what you do about them, matter more than the number.",
+        "**Try it today:** ask five recent customers how likely they are to recommend you, 0 to 10, and what's the main reason. Call back anyone who says 6 or lower."
+      ],
+      "next": "Next · Why a good meal can still disappoint"
+    }
+  ]
+}

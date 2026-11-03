@@ -1,0 +1,245 @@
+{
+  "id": "BMO-02-05",
+  "unitId": "BMO-02",
+  "categoryId": "BMO",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Licensing",
+  "readerTitle": "Why the restaurant on the sauce jar never made the sauce",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "real_observation",
+    "illustrative"
+  ],
+  "caseNote": "실제 관찰 (마트의 식당·셰프 이름 상품) + 가상 사례 (식당 소스, 창고 안전점검 컨설팅) · 수치는 모두 설명용",
+  "insight": "라이선싱은 물건이 아니라 '쓸 권리'를 빌려주는 일이며, 공장·인력 없이 매출을 넓히는 대신 품질 통제와 몫의 일부를 내준다.",
+  "misconception": "인기 상품이 생기면 직접 만들어 팔아야 돈이 남는다. 아니면 레시피나 방법을 한 번에 팔아 버리는 게 깔끔하다.",
+  "relatedLessonIds": [
+    "BMO-02-06",
+    "BMO-01-06"
+  ],
+  "sources": [
+    {
+      "text": "라이선싱과 로열티의 표준 개념 (지식재산 사용권, 매출 비율 또는 단위당 수수료)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "훅 카드의 '마트에 식당·셰프 이름이 붙은 소스, 냉동식품이 있고 상당수는 식당이 직접 만들지 않는다'는 일반적 관찰입니다. 특정 브랜드를 언급하지 않았고 'often'으로 표현했습니다. 게시 전 표현 수위를 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "계산 확인: 도매가 $4.00 × 로열티 7.5% = 병당 $0.30. $0.30 × 100,000병 = 연 $30,000. 로열티율 7.5%는 설명용 가정이며 실제 업계 평균으로 제시하지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "특정 국가의 상표·계약법 조언은 다루지 않습니다. Watch out 카드에서 '보호할 수 있는 것인지' 정도로만 언급했습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business models · Everyday scene",
+      "title": "Why the restaurant on the sauce jar never made the sauce",
+      "body": [
+        "Walk down a supermarket aisle and you'll see sauces, frozen pizzas and snacks carrying the names of restaurants and chefs.",
+        "Often, the restaurant didn't cook a single jar. It owns no factory and no delivery trucks. It still gets paid for every jar sold."
+      ],
+      "image": {
+        "label": "Supermarket shelf of sauce jars with a small restaurant on the label",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 일러스트. 마트 진열대에 소스 병이 줄지어 있고, 라벨에 작은 식당 그림과 가상의 이름 \"Rosa's Kitchen\". 배경 멀리 공장 굴뚝, 식당과 공장이 점선으로 연결. 실제 브랜드 로고·상표는 쓰지 않음.",
+        "url": "assets/images/bmo-02-05-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Everyone wants your chili sauce in a bottle.",
+      "illustrative": true,
+      "body": [
+        "You own a busy restaurant. Guests keep asking to buy your house chili sauce to take home. A regional food maker says it could put it in stores across the country.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Build a bottling kitchen and sell to stores yourself",
+            "verdict": "partial",
+            "feedback": "You keep the most per jar. But you take on equipment, staff, store deals and shipping, a second business on top of your restaurant."
+          },
+          {
+            "key": "B",
+            "text": "Let the food maker produce and sell it under your name, paying you a fee per jar",
+            "verdict": "best",
+            "feedback": "You earn on every jar without running a factory. In return, you take a smaller cut and must trust someone else with your name."
+          },
+          {
+            "key": "C",
+            "text": "Sell the recipe to the food maker for one big payment",
+            "verdict": "risky",
+            "feedback": "Cash today and no hassle. But if the sauce becomes a hit, every future jar earns you nothing, and you may lose control of the name."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Follow the money on one jar.",
+      "illustrative": true,
+      "body": [
+        "You do none of the making, shipping or selling. You add your recipe, your name and your rules. That's **$30,000 a year** from a kitchen you never built."
+      ],
+      "breakdown": [
+        {
+          "value": "$4.00",
+          "label": "Wholesale price",
+          "detail": "What stores pay the food maker",
+          "highlight": false
+        },
+        {
+          "value": "7.5%",
+          "label": "Your fee",
+          "detail": "Agreed share of each sale",
+          "highlight": false
+        },
+        {
+          "value": "$0.30",
+          "label": "Per jar to you",
+          "detail": "$4.00 × 7.5%",
+          "highlight": false
+        },
+        {
+          "value": "$30,000",
+          "label": "Per year",
+          "detail": "100,000 jars × $0.30",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Licensing",
+      "body": [
+        "**Licensing** means letting another business use something you own, like a name, recipe, design, method or invention, under agreed rules, in exchange for a fee.",
+        "That fee is often a **royalty**: a share of each sale or a fixed amount per unit. You don't sell the thing itself. You rent out the right to use it, and you can rent it again elsewhere."
+      ],
+      "image": {
+        "label": "A key passed from a restaurant to a factory, coins flowing back",
+        "aspectRatio": "16:9",
+        "brief": "단순한 인포그래픽. 왼쪽 식당에서 오른쪽 공장으로 \"Right to use\" 라벨이 붙은 열쇠가 건너가고, 공장에서 식당으로 작은 동전이 계속 흘러 돌아옴. 식당 안 레시피 카드는 그대로 남아 있음을 강조.",
+        "url": "assets/images/bmo-02-05-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "A license is a set of rules, not just a payment.",
+      "body": [
+        "A good license answers five questions:"
+      ],
+      "list": [
+        "**What** can be used: the name, the recipe, the logo",
+        "**Where:** which countries, stores or channels",
+        "**How long:** a fixed term, with renewal terms",
+        "**Quality:** standards the other side must meet",
+        "**Pay:** royalty rate, minimum payments, how sales are reported"
+      ],
+      "callout": "The rules protect what you're lending out.",
+      "softwareNote": "Most software is licensed, not sold. Customers pay for the right to use it, often per seat or per device, while the company keeps the code. Many apps also license features like maps or payments from other firms instead of building them."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond food",
+      "title": "A training firm that teaches without trainers.",
+      "illustrative": true,
+      "body": [
+        "A small firm built a popular workshop on running better meetings. Demand outgrew its five trainers.",
+        "So it licensed the workshop to large companies' in-house trainers. Each company pays a fee per participant, uses the official materials, and sends trainers to be certified first.",
+        "The firm now reaches thousands of people a year without hiring hundreds of trainers. The same logic puts cartoon characters on lunchboxes and team logos on caps."
+      ],
+      "image": {
+        "label": "One workshop guide copied into many classrooms",
+        "aspectRatio": "16:9",
+        "brief": "가운데 워크숍 교재 한 권에서 선이 뻗어 나가 여러 회사 회의실로 연결되고, 각 회의실 앞에 'Certified' 배지를 단 강사. 실제 기업 로고 없음.",
+        "url": "assets/images/bmo-02-05-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Your name is now in someone else's hands.",
+      "body": [
+        "If the food maker cuts corners, customers blame you. That's why quality rules and the right to check them matter.",
+        "You also earn a small slice. If the licensee doesn't push the product, your royalty stays small too, so many owners ask for minimum payments.",
+        "And licensing only works if you have something others can't easily copy. A recipe anyone could guess, or a method with no name behind it, is hard to charge for."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a safety consulting firm.",
+      "illustrative": true,
+      "body": [
+        "Your firm created a warehouse safety inspection method that clients love. Consulting firms in three other regions want to use it with their own clients.",
+        "What's the best move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "License it per inspection, with training, a quality checklist and spot audits",
+            "verdict": "best",
+            "feedback": "You grow into new regions with little cost and keep the method's reputation intact. The price is time spent training and auditing partners."
+          },
+          {
+            "key": "B",
+            "text": "License it to any firm for one flat fee, no rules attached",
+            "verdict": "risky",
+            "feedback": "Fast and simple money. But you can't see how it's used, and one sloppy inspection can damage the method for everyone."
+          },
+          {
+            "key": "C",
+            "text": "Say no and open your own office in each region",
+            "verdict": "partial",
+            "feedback": "Full control and all the revenue. But it's slow and expensive, and rivals may build their own method while you hire."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "You can earn from what you know without doing all the work.",
+      "body": [
+        "Licensing rents out the right to use your name, recipe or method. You trade some control and a bigger share for reach without new factories or staff.",
+        "**Try it today:** list one thing your business owns that others ask about: a recipe, a process, a design. Who could use it in a place you'll never reach?"
+      ],
+      "next": "Next · Franchising: when you lend out the whole way of running a business"
+    }
+  ]
+}

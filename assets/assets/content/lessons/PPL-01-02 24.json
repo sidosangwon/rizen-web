@@ -1,0 +1,258 @@
+{
+  "id": "PPL-01-02",
+  "unitId": "PPL-01",
+  "categoryId": "PPL",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "Asking for feedback",
+  "readerTitle": "Change one question and get 25 answers instead of 2",
+  "format": "numbers_twist",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (가사 청소 업체, 기장 대행 회사) + 실제 연구 (조언 vs 피드백 요청, Yoon 외) · 차트 수치는 설명용",
+  "insight": "피드백의 질은 상대의 솔직함보다 내가 던지는 질문의 모양이 결정한다. 넓은 질문은 예의 바른 답을, 좁고 앞을 향한 질문은 쓸 수 있는 답을 부른다.",
+  "misconception": "\"피드백 있으면 말해 주세요\"라고 열어 두면 문제가 있는 사람은 알아서 말해 준다. 아무 말이 없으면 잘하고 있다는 뜻이다.",
+  "relatedLessonIds": [
+    "PPL-01-01",
+    "PPL-02-03"
+  ],
+  "sources": [
+    {
+      "text": "Yoon, J., Blunden, H., Kristal, A., & Whillans, A. (2019). Why Asking for Advice Is More Effective Than Asking for Feedback. Harvard Business Review (관련 HBS 워킹페이퍼 및 이후 학술지 게재본)",
+      "url": null
+    },
+    {
+      "text": "Stone, D., & Heen, S. (2014). Thanks for the Feedback: The Science and Art of Receiving Feedback Well. Viking.",
+      "url": null
+    },
+    {
+      "text": "청소 업체와 기장 대행 회사 사례 및 차트 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "차트 수치는 모두 가상입니다. 각 달 응답 40건: 1개월차 34 + 4 + 2 = 40, 2개월차 9 + 6 + 25 = 40. 구체적 제안 2건 → 25건으로 카드 문구와 일치하는지 확인했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Yoon·Blunden·Kristal·Whillans 연구: '피드백' 대신 '조언'을 요청받은 사람이 더 구체적이고 실행 가능한 개선 제안을 했다는 결론을 원문으로 확인하세요. 카드에는 구체적 비율(%)을 넣지 않고 일반적으로만 서술했습니다. 게재 학술지와 연도도 확인 필요합니다.",
+      "status": "open"
+    },
+    {
+      "note": "Stone & Heen의 'one thing' 질문은 원문 인용이 아니라 의역으로 적었습니다. 직접 인용으로 바꾸려면 책에서 정확한 문장을 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "People · Numbers twist",
+      "title": "Forty customers. Thirty-four said \"all good.\"",
+      "illustrative": true,
+      "body": [
+        "A home cleaning company texted every customer after a visit: \"Any feedback for us?\" Thirty-four of 40 replied with some version of \"All good, thanks!\"",
+        "The owner felt great. Then a few regulars quietly stopped booking. The next month she changed one sentence in the text, and the replies looked completely different."
+      ],
+      "image": {
+        "label": "Phone screen full of identical 'All good!' replies",
+        "aspectRatio": "4:3",
+        "brief": "스마트폰 화면에 \"All good!\", \"Great, thanks!\" 같은 짧은 답장 말풍선이 줄줄이 쌓여 있고, 배경에는 청소 도구 가방을 든 사람이 조금 흐릿하게 보임. 따뜻한 일러스트 톤. 실제 메신저 앱 UI나 로고는 쓰지 않음.",
+        "url": "assets/images/ppl-01-02-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which message gets the most useful replies?",
+      "illustrative": true,
+      "body": [
+        "You run that cleaning company. You want to learn what to fix before more regulars leave. You can send one short text after each visit. Which one?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "\"Do you have any feedback for us?\"",
+            "verdict": "risky",
+            "feedback": "It feels open and polite. But it gives people an easy exit, and most will take it with \"All good.\""
+          },
+          {
+            "key": "B",
+            "text": "\"On a scale of 1 to 10, how happy were you with today's clean?\"",
+            "verdict": "partial",
+            "feedback": "A score lets you track trends over time. It tells you something is off, but not what to fix."
+          },
+          {
+            "key": "C",
+            "text": "\"What's one thing we could do better on your next visit?\"",
+            "verdict": "best",
+            "feedback": "It asks for something small, specific and about the future. That makes a suggestion feel normal instead of rude."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "Same business, one changed question.",
+      "illustrative": true,
+      "body": [
+        "Month one asked \"Any feedback for us?\" Month two asked \"What's one thing we could do better on your next visit?\" Each month, 40 customers replied."
+      ],
+      "chart": {
+        "unit": "count",
+        "groups": [
+          {
+            "label": "\"Any feedback for us?\"",
+            "rows": [
+              {
+                "label": "\"All good\"",
+                "value": 34,
+                "highlight": false
+              },
+              {
+                "label": "Vague comment",
+                "value": 4,
+                "highlight": false
+              },
+              {
+                "label": "Specific suggestion",
+                "value": 2,
+                "highlight": false
+              }
+            ]
+          },
+          {
+            "label": "\"One thing we could do better next visit?\"",
+            "rows": [
+              {
+                "label": "\"All good\"",
+                "value": 9,
+                "highlight": false
+              },
+              {
+                "label": "Vague comment",
+                "value": 6,
+                "highlight": false
+              },
+              {
+                "label": "Specific suggestion",
+                "value": 25,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "callout": "Specific suggestions went from **2 to 25**. The cleaning hadn't changed. The question had.",
+      "image": {
+        "url": "assets/images/ppl-01-02-info.png"
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Asking for feedback",
+      "body": [
+        "**Asking for feedback** well means making it easy and safe for someone to tell you something useful. The question you ask decides the answer you get.",
+        "Criticism is awkward to give. A broad question offers a polite way out: \"All good.\" A narrow, forward-looking question, *one thing, next time*, turns a complaint into a helpful tip."
+      ],
+      "image": {
+        "label": "Wide funnel versus narrow funnel of answers",
+        "aspectRatio": "4:3",
+        "brief": "깔때기 두 개 비교. 왼쪽 넓은 깔때기 위에 \"Any feedback?\", 아래로 똑같은 \"All good\" 말풍선만 떨어짐. 오른쪽 좁은 깔때기 위에 \"One thing, next time?\", 아래로 \"Arrive 10 min earlier\", \"Skip the strong spray\" 같은 서로 다른 구체적 메모가 떨어짐.",
+        "url": "assets/images/ppl-01-02-c4.jpg"
+      },
+      "softwareNote": "An open \"Send us feedback\" box mostly collects silence and bug reports. Asking new users \"What almost stopped you from signing up?\" tends to surface friction they would never volunteer."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "Ask for advice, not a verdict.",
+      "body": [
+        "Researchers Jaewon Yoon, Hayley Blunden, Ariella Kristal and Ashley Whillans ran experiments where people commented on someone's work. When asked for **advice** instead of feedback, people gave more specific suggestions for what to improve.",
+        "Their explanation: \"feedback\" points people back, to judging what already happened. \"Advice\" points them forward, to what you could do next.",
+        "Douglas Stone and Sheila Heen make a similar point in *Thanks for the Feedback*: ask for one thing you could change, not for feedback in general."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Wider view",
+      "title": "It works on yourself, too.",
+      "body": [
+        "Ask your team \"How am I doing as a manager?\" and you'll hear \"Fine.\" Ask \"What's one thing I could do to make your week easier?\" and you'll hear about the meeting that wastes their Monday.",
+        "What you do next matters as much as the question. Say thank you. Don't explain or defend. Later, tell them **what you changed**. People who see their advice used are far more likely to offer it again."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A suggestion is data, not an order.",
+      "body": [
+        "One customer's idea may not suit anyone else. Look for patterns across several people before you change how you work.",
+        "Power shapes honesty. Staff, junior colleagues and small suppliers soften what they tell someone who controls their work. Ask in private and ask often, so the hard things come out over time.",
+        "And only ask if you might act. Asking and then ignoring the answers teaches people to stop answering."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a bookkeeping firm.",
+      "illustrative": true,
+      "body": [
+        "You manage a client account at a bookkeeping firm. The client's contract renews next quarter, and lately they've seemed a little distant. You have a quarterly review meeting with them tomorrow.",
+        "What do you ask?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "\"Are you happy with our service so far?\"",
+            "verdict": "risky",
+            "feedback": "It's easy to answer with a polite yes in the room. You may only learn why they were distant when they don't renew."
+          },
+          {
+            "key": "B",
+            "text": "\"If you could change one thing about how we work with you next quarter, what would it be?\"",
+            "verdict": "best",
+            "feedback": "It's specific, forward-looking and assumes there is something. That gives the client permission to name it while you can still fix it."
+          },
+          {
+            "key": "C",
+            "text": "Send a 20-question satisfaction survey after the meeting",
+            "verdict": "partial",
+            "feedback": "You get scores you can compare over time. But long surveys get rushed answers and rarely reveal the one thing that's really bothering them."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Ask for one thing, next time.",
+      "body": [
+        "Broad questions invite polite answers. Small, specific, forward-looking questions invite useful ones.",
+        "**Try it today:** ask one customer or colleague, \"What's one thing I could do better next time?\" Then just say thank you."
+      ],
+      "next": "Next · Where did your week actually go?"
+    }
+  ]
+}

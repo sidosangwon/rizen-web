@@ -1,0 +1,231 @@
+{
+  "id": "FIN-02-06",
+  "unitId": "FIN-02",
+  "categoryId": "FIN",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Burn rate and runway",
+  "readerTitle": "How many months can you survive?",
+  "format": "numbers_twist",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.2,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (식당, 소프트웨어 스타트업) · 모든 수치는 설명용",
+  "insight": "런웨이는 오늘의 손실로 나눈 숫자가 아니라, 앞으로의 순소진액으로 계산하고 대응에 필요한 시간을 뺀 '결정 마감일'이다.",
+  "misconception": "통장 잔고를 이번 달 손실로 나누면 버틸 수 있는 기간이 나온다. 그 기간이 끝날 때까지는 움직이지 않아도 된다.",
+  "relatedLessonIds": [
+    "FIN-02-01",
+    "FIN-05-03"
+  ],
+  "sources": [
+    {
+      "text": "재무관리의 표준 개념 (총소진액·순소진액, 런웨이 = 현금 ÷ 월 순소진액)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "식당 계산: 순소진액 $65,000 − $50,000 = $15,000, 현재 기준 런웨이 $90,000 ÷ $15,000 = 6개월. 셰프 추가 후 $15,000 + $6,000 = $21,000, $90,000 ÷ $21,000 = 4.29개월(약 4개월). 매출이 0일 때 $90,000 ÷ $71,000 = 1.27개월.",
+      "status": "open"
+    },
+    {
+      "note": "결정 마감일: 런웨이 4.3개월 − 대응 준비 3개월(가정) = 약 1.3개월. 3개월은 설명용 가정이며 실제 대응 기간은 사업마다 다릅니다.",
+      "status": "open"
+    },
+    {
+      "note": "소프트웨어 계산: $600,000 ÷ $50,000 = 12개월. 두 명 채용 시 $600,000 ÷ $70,000 = 8.57개월, 투자 유치 6개월(가정)을 빼면 약 2.6개월. 한 명 채용 시 $600,000 ÷ $60,000 = 10개월, 6개월을 빼면 4개월. 투자 유치 기간 6개월은 실제 통계가 아닌 시나리오 가정입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Numbers twist",
+      "title": "How many months can you survive?",
+      "illustrative": true,
+      "body": [
+        "A neighborhood restaurant has $90,000 in the bank. It has lost money for three months straight.",
+        "The owner divides cash by last month's loss and feels calm. The answer she gets depends on which number she divides by, and the honest one is much smaller."
+      ],
+      "image": {
+        "label": "Restaurant cash register with a shrinking stack of bills",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 저녁 영업 중인 작은 식당 카운터. 계산대 옆에 지폐 더미가 있고, 벽 달력의 몇 장이 날아가는 모션. 실제 브랜드나 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How long until the cash runs out?",
+      "illustrative": true,
+      "body": [
+        "Each month the restaurant takes in $50,000 and pays out $65,000. It has $90,000 in cash.",
+        "Starting this month, a new chef adds $6,000 a month in pay. If nothing else changes, how many months does the cash last?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "About 6 months",
+            "verdict": "risky",
+            "feedback": "That's $90,000 ÷ $15,000, today's loss. It ignores a cost you already know is coming, so it promises two extra months that don't exist."
+          },
+          {
+            "key": "B",
+            "text": "About 4 months",
+            "verdict": "best",
+            "feedback": "Right. With the chef, $21,000 more goes out than comes in each month. $90,000 ÷ $21,000 is about 4.3 months."
+          },
+          {
+            "key": "C",
+            "text": "Less than 2 months",
+            "verdict": "partial",
+            "feedback": "That's the answer if sales stopped completely. It's a useful worst case, but customers still pay $50,000 a month."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Follow one month of cash.",
+      "illustrative": true,
+      "body": [
+        "One known cost cut the time left from 6 months to about **4.3**. Nothing went wrong. The owner just planned with last month's number."
+      ],
+      "breakdown": [
+        {
+          "value": "$71,000",
+          "label": "Cash out",
+          "detail": "$65,000 plus the new chef",
+          "highlight": false
+        },
+        {
+          "value": "−$50,000",
+          "label": "Cash in",
+          "detail": "What customers pay",
+          "highlight": false
+        },
+        {
+          "value": "$21,000",
+          "label": "Net loss of cash",
+          "detail": "The real monthly drain",
+          "highlight": true
+        },
+        {
+          "value": "4.3 months",
+          "label": "Time left",
+          "detail": "$90,000 ÷ $21,000",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Burn rate and runway",
+      "body": [
+        "**Burn rate** is how fast cash leaves. *Gross burn* is everything you pay out in a month. *Net burn* is cash out minus cash in.",
+        "**Runway** is how many months your cash lasts: cash in the bank ÷ net burn. Use cash, not profit. Profit can look fine while cash drains away.",
+        "The twist: use the burn you expect in the coming months, not the one you saw last month."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "A second twist",
+      "title": "Your real deadline comes earlier.",
+      "illustrative": true,
+      "body": [
+        "Fixing a cash problem takes time. Getting a loan, raising prices, renegotiating rent or giving notice on a lease can each take months.",
+        "Say the owner needs about three months to act. With 4.3 months of runway, she has roughly **one month** to decide. Runway minus time to act is your decision date."
+      ],
+      "image": {
+        "label": "Timeline: 4.3 months of runway, last 3 shaded as time to act",
+        "aspectRatio": "16:9",
+        "brief": "가로 타임라인 인포그래픽. 0에서 4.3개월까지 막대. 마지막 3개월 구간은 주황색으로 'Time to act', 앞쪽 약 1개월 끝에 깃발 'Decision date'. 깔끔한 플랫 스타일.",
+        "url": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where it applies",
+      "title": "One month can fool you.",
+      "body": [
+        "Burn moves. A beach café burns cash all winter and earns it back in summer. A good December can hide a weak quarter.",
+        "Average net burn over several months, then adjust for changes you already know: a hire, a rent increase, a slow season. Recheck it every month."
+      ],
+      "softwareNote": "Startups often track runway monthly because burn grows with each hire. A team of ten can burn far faster than a team of five, even with rising revenue."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Cutting costs can shorten runway.",
+      "body": [
+        "Runway is a forecast, not a fact. Cash in the bank may already be owed: taxes, supplier bills, customer deposits. Count only what's truly free.",
+        "And cuts work on net burn, not gross burn. If the $6,000 chef brings in $8,000 of extra sales, letting him go raises the burn. Ask what each cost earns before cutting it."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software startup.",
+      "illustrative": true,
+      "body": [
+        "Your app business has $600,000 in cash and burns $50,000 a month, so 12 months of runway. You expect raising new money to take about six months.",
+        "You want two engineers at $10,000 a month each. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Hire both now",
+            "verdict": "risky",
+            "feedback": "Runway drops to about 8.6 months. You'd need to start raising in about 2.5 months, likely before the new hires show results."
+          },
+          {
+            "key": "B",
+            "text": "Hire nobody until you raise",
+            "verdict": "partial",
+            "feedback": "You keep 12 months, but slower progress can make the raise harder. Saving runway isn't the same as using it well."
+          },
+          {
+            "key": "C",
+            "text": "Hire one now, and set a date to start raising",
+            "verdict": "best",
+            "feedback": "Runway falls to 10 months, leaving four before you must start raising. You buy progress and keep a clear decision date."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Runway is cash ÷ the burn that's coming, minus the time you need to act.",
+      "body": [
+        "Last month's loss tells you the past. Runway is about the months ahead, and your decision date arrives before the money runs out.",
+        "**Try it today:** divide your cash by your average net cash out over the last three months. Adjust for changes you know are coming. Then mark your decision date."
+      ],
+      "next": "Next · Cash at a furniture store"
+    }
+  ]
+}

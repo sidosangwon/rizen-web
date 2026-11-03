@@ -1,0 +1,242 @@
+{
+  "id": "PPL-03-02",
+  "unitId": "PPL-03",
+  "categoryId": "PPL",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "Structured interviews",
+  "readerTitle": "The interview that felt perfect, and the hire that wasn't",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 연구 (채용 방법별 예측력 메타분석, 비구조화 면접 착각 연구) + 가상 사례 (회계·자문 회사, 레스토랑)",
+  "insight": "면접은 대화가 아니라 측정 도구다. 모든 지원자에게 같은 질문을 하고 미리 정한 기준으로 각자 따로 점수를 매겨야 비교가 된다.",
+  "misconception": "경험 많은 사람은 편하게 대화만 해 봐도 좋은 사람을 알아본다. 면접에서 느낌이 좋았으면 잘할 사람이다.",
+  "relatedLessonIds": [
+    "PPL-03-01",
+    "PPL-03-03"
+  ],
+  "sources": [
+    {
+      "text": "Schmidt, F. L., & Hunter, J. E. (1998). The validity and utility of selection methods in personnel psychology. Psychological Bulletin, 124(2).",
+      "url": null
+    },
+    {
+      "text": "Sackett, P. R., Zhang, C., Berry, C. M., & Lievens, F. (2022). Revisiting meta-analytic estimates of validity in personnel selection. Journal of Applied Psychology, 107(11).",
+      "url": null
+    },
+    {
+      "text": "Dana, J., Dawes, R., & Peterson, N. (2013). Belief in the unstructured interview: The persistence of an illusion. Judgment and Decision Making, 8(5).",
+      "url": null
+    },
+    {
+      "text": "회계 회사와 레스토랑 사례는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "카드에는 메타분석의 구체적 타당도 계수를 넣지 않고 '구조화 면접이 비구조화 면접보다 성과를 더 잘 예측하며, 흔한 방법 중 가장 강한 편'이라고만 적었습니다. Sackett et al.(2022)에서 구조화 면접이 최상위 예측 변수로 나왔는지 원문으로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Dana et al.(2013) 연구 설명(면접 대상자 일부가 정해진 규칙에 따라 무작위로 답했는데도 면접관이 이를 알아채지 못하고 유용한 정보를 얻었다고 느낌, 사전 성적만 쓴 예측보다 정확도가 떨어짐)을 원문 기준으로 다시 확인하세요. 카드 문장은 일반적인 수준으로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "1번·3번 카드의 에이전시/회계 회사 채용 이야기는 가상 사례입니다. 실제 인물이나 회사가 아닙니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "People · Counterexample",
+      "title": "The interview that felt perfect, and the hire that wasn't",
+      "illustrative": true,
+      "body": [
+        "A bookkeeping firm interviews a candidate for client manager. The hour flies by. They talk about travel, football and a boss they both once worked for. Every partner walks out smiling.",
+        "Six months later, client complaints are piling up and the new hire is struggling. Nobody can explain how they missed it."
+      ],
+      "image": {
+        "label": "Two people laughing across an interview table",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 작은 회의실에서 면접관과 지원자가 크게 웃으며 대화 중. 테이블 위 메모지는 비어 있음. 배경 창밖에 6개월 뒤를 암시하는 달력 넘김 효과. 실제 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Three partners, one hire.",
+      "illustrative": true,
+      "body": [
+        "You run a 20-person bookkeeping firm. You're hiring an account manager, and three partners will each interview the final four candidates.",
+        "How should the interviews run?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Each partner talks freely, then you compare gut feelings",
+            "verdict": "risky",
+            "feedback": "It feels natural and builds rapport. But each candidate gets a different interview, so you end up comparing conversations, not candidates."
+          },
+          {
+            "key": "B",
+            "text": "Same five job-related questions for everyone; each partner scores alone on a written 1–5 guide, then you discuss",
+            "verdict": "best",
+            "feedback": "It feels stiffer, but now every answer can be compared and no partner's view sways the others before they've scored."
+          },
+          {
+            "key": "C",
+            "text": "Same questions for everyone, then the partners discuss each candidate right after",
+            "verdict": "partial",
+            "feedback": "Same questions are a big step. But talking before scoring lets the first or loudest opinion set everyone's view."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What went wrong",
+      "title": "The hour measured chemistry, not the job.",
+      "illustrative": true,
+      "body": [
+        "Back at the firm in the opening story, each partner asked whatever came to mind. One asked about hobbies, one about past employers, one about software. No two candidates answered the same question.",
+        "Then the partners chatted in the hallway before writing anything down. One partner's early enthusiasm spread to the others.",
+        "What they captured was real: the candidate was **easy to like**. It just wasn't what the job needed, which was calming upset clients and catching errors."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "breakdown",
+      "eyebrow": "The concept",
+      "title": "Structured interviews",
+      "body": [
+        "A **structured interview** asks every candidate the same job-related questions and scores each answer against a guide written before anyone walks in. It has four parts."
+      ],
+      "breakdown": [
+        {
+          "value": "1",
+          "label": "Same questions",
+          "detail": "Every candidate, same order",
+          "highlight": false
+        },
+        {
+          "value": "2",
+          "label": "Tied to the job",
+          "detail": "Drawn from what the role must do",
+          "highlight": false
+        },
+        {
+          "value": "3",
+          "label": "Scoring guide",
+          "detail": "What a weak, okay and strong answer sounds like",
+          "highlight": true
+        },
+        {
+          "value": "4",
+          "label": "Score alone first",
+          "detail": "Write scores before any discussion",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "Research keeps finding the same thing.",
+      "body": [
+        "Large reviews of decades of hiring studies have found that structured interviews predict job performance better than free-flowing ones. They rank among the strongest common hiring methods.",
+        "One study shows why free chats mislead. In Dana and colleagues' 2013 experiment, some interviewees gave answers decided by a random rule. Interviewers didn't notice, and still felt they had learned a lot.",
+        "A good conversation creates **confidence**, whether or not it creates information."
+      ],
+      "image": {
+        "label": "Two interview notebooks: one scattered, one with scored rows",
+        "aspectRatio": "16:9",
+        "brief": "두 개의 면접 노트 비교. 왼쪽은 낙서와 \"great vibe!\" 같은 메모가 흩어져 있음. 오른쪽은 질문 5줄과 각 줄 옆 1–5 점수 칸이 깔끔하게 채워져 있음. 오른쪽에 은은한 강조.",
+        "url": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Two kinds of questions do most of the work.",
+      "body": [
+        "**Past behavior:** \"Tell me about a time a client was angry about a bill. What did you do?\" What people actually did is a better guide than what they say they'd do.",
+        "**Situations:** \"A client calls at 5 p.m. needing a report by morning, and it isn't ready. Walk me through your next hour.\"",
+        "Write what a strong answer includes before the first interview. This works for a cashier, a nurse or a sales director."
+      ],
+      "softwareNote": "Tech teams often let each engineer run their own favorite interview. Giving every interviewer one assigned area, set questions and a shared scoring guide makes a hiring panel far easier to compare."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Structure fixes inconsistency, not bad questions.",
+      "body": [
+        "If your questions don't match what the role really needs, you'll measure the wrong thing very consistently. Start from a clear role definition.",
+        "Structure can also feel cold. Keep a warm opening and leave time for the candidate's own questions. Great candidates are choosing you too.",
+        "And talking about work is not the same as doing it. For many roles, an interview works best alongside a short test of real skills."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a restaurant.",
+      "illustrative": true,
+      "body": [
+        "Your busy bistro needs a new shift manager. Your head chef and your front-of-house lead will meet three candidates.",
+        "Which plan gives you the best chance of choosing well?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Ask all three the same questions, like \"Two cooks call in sick before Friday dinner. What do you do?\", and score each answer alone on a guide written in advance",
+            "verdict": "best",
+            "feedback": "It takes an hour of prep, but you'll see how each person handles the exact problems the job brings, side by side."
+          },
+          {
+            "key": "B",
+            "text": "Let the head chef chat with each one and pick who has the right energy",
+            "verdict": "risky",
+            "feedback": "Fast and comfortable, and energy does matter. But you'll mostly learn who the chef gets along with, not who can run a chaotic shift."
+          },
+          {
+            "key": "C",
+            "text": "Ask everyone the same questions, then choose on overall impression without scoring",
+            "verdict": "partial",
+            "feedback": "Same questions make answers comparable. Without written scores, though, the most charming answer often wins over the most useful one."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Ask the same questions, score before you talk.",
+      "body": [
+        "A pleasant conversation tells you how an interview felt. Same questions, a written scoring guide and independent scores tell you how candidates compare.",
+        "**Try it today:** for a role you'll hire next, write three questions about real situations in that job. Under each, note what a strong answer would include."
+      ],
+      "next": "Next · Why watching someone work beats asking about it"
+    }
+  ]
+}

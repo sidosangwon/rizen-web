@@ -1,0 +1,207 @@
+{
+  "id": "THK-06-01",
+  "unitId": "THK-06",
+  "categoryId": "THK",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Feedback loops",
+  "readerTitle": "Why working harder can put a team further behind",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.3,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (회사 안의 월말 결산팀, 식료품 소매점의 재고 발주) · 개념 정의는 시스템 사고의 표준 내용",
+  "insight": "문제를 한 방향의 원인과 결과로 보지 말고, 결과가 다시 원인을 키우거나 누르는 고리로 본다. 고리를 찾으면 더 세게 밀지 않고 연결 하나를 끊어서 해결할 수 있다.",
+  "misconception": "문제에는 한 방향으로 흐르는 하나의 원인이 있고, 더 열심히, 더 많이 밀어붙이면 해결된다.",
+  "relatedLessonIds": [
+    "THK-06-02",
+    "THK-06-04"
+  ],
+  "sources": [
+    {
+      "text": "Meadows, D. (2008). Thinking in Systems: A Primer. Chelsea Green Publishing.",
+      "url": null
+    },
+    {
+      "text": "Senge, P. (1990). The Fifth Discipline. Doubleday.",
+      "url": null
+    },
+    {
+      "text": "모든 사례와 장면은 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "강화 고리(reinforcing loop)와 균형 고리(balancing loop)의 정의가 Meadows(2008), Senge(1990)의 용어와 일치하는지 확인하세요. 카드에는 특정 수치나 인용을 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "품절 → 판매 데이터 감소 → 발주 감소 → 품절 고리는 소매 재고 관리에서 알려진 현상(판매 데이터가 실제 수요를 과소 측정)입니다. 특정 연구 수치는 넣지 않았습니다. 용어 설명이 업계 관행과 맞는지 검토하세요.",
+      "status": "open"
+    },
+    {
+      "note": "6번 카드의 지연 언급은 다음 레슨(THK-06-02 시스템의 지연)과 겹치지 않도록 한 문장으로만 짧게 두었습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Everyday scene",
+      "title": "Why working harder can put a team further behind",
+      "illustrative": true,
+      "body": [
+        "The finance team is behind on month-end. So they stay late. Tired people make more mistakes. Mistakes mean rework. Rework puts them further behind.",
+        "So they stay later.",
+        "Nobody on the team is lazy. The harder they push, the worse it gets."
+      ],
+      "image": {
+        "label": "Tired office team at desks late at night, papers piling up",
+        "aspectRatio": "4:3",
+        "brief": "늦은 밤 사무실. 책상 위 서류 더미가 점점 높아지고, 서류 일부가 빨간 표시와 함께 다시 더미로 되돌아가는 화살표. 지친 팀원 세 명. 실제 회사 로고나 소프트웨어 화면은 쓰지 않음.",
+        "url": "assets/images/thk-06-01-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You manage the team. What do you do?",
+      "illustrative": true,
+      "body": [
+        "Your finance team inside a mid-sized company is two weeks behind. Overtime is already high. Errors are up, and many hours go to fixing reports that were sent back.",
+        "What's your first move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Ask everyone to work two weekends to catch up",
+            "verdict": "risky",
+            "feedback": "You gain hours this week, but more tired people make more errors. That rework can eat the hours you just added."
+          },
+          {
+            "key": "B",
+            "text": "Pause new requests for a week and fix the step causing most rework",
+            "verdict": "best",
+            "feedback": "You fall a little further behind at first, but you cut the link that keeps refilling the pile. That's the idea in this lesson."
+          },
+          {
+            "key": "C",
+            "text": "Add a reviewer to catch mistakes before reports go out",
+            "verdict": "partial",
+            "feedback": "Fewer errors reach other teams, which helps. But mistakes are still made and still fixed, so the team stays tired and slow."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What's going on",
+      "title": "The problem feeds itself.",
+      "illustrative": true,
+      "body": [
+        "Draw the team's week as a circle, not a line. Behind leads to overtime. Overtime leads to fatigue. Fatigue leads to errors. Errors lead to rework. Rework leads to more behind.",
+        "Each turn of the circle makes the next turn worse. Adding effort at the top just speeds up the circle. The useful move is to break one link, such as the step that creates most errors."
+      ],
+      "image": {
+        "label": "Loop diagram: behind, overtime, fatigue, errors, rework",
+        "aspectRatio": "16:9",
+        "brief": "원형 다이어그램. \"Behind\" → \"Overtime\" → \"Fatigue\" → \"Errors\" → \"Rework\" → 다시 \"Behind\"로 화살표 연결. \"Errors → Rework\" 화살표에 가위 아이콘으로 '여기서 끊기' 표시.",
+        "url": "assets/images/thk-06-01-c3.jpg"
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Feedback loops",
+      "body": [
+        "A **feedback loop** forms when the result of something circles back and changes its own cause.",
+        "There are two kinds. A **reinforcing loop** amplifies itself, like a snowball rolling downhill. It can grow good things or bad ones. A balancing loop pulls a system back toward a level, like a thermostat that switches off the heat once the room is warm.",
+        "The finance team was stuck in a reinforcing loop running the wrong way."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Most businesses run on both kinds.",
+      "body": [
+        "Once you look for loops, you see them everywhere:"
+      ],
+      "list": [
+        "**Reinforcing:** happy customers tell friends, which brings more customers",
+        "**Reinforcing:** good staff leave, the rest carry more work, more of them leave",
+        "**Balancing:** a long checkout line makes some shoppers give up, so the line shortens",
+        "**Balancing:** stock runs low, a reorder arrives, stock goes back up"
+      ],
+      "callout": "To change a stuck system, weaken a bad reinforcing loop or add a balancing one.",
+      "softwareNote": "A common loop in software teams: bugs create support tickets, engineers get pulled onto tickets, fewer fixes ship, so more bugs pile up. Protecting time for fixes breaks the loop."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A loop on a whiteboard is a guess.",
+      "body": [
+        "It's easy to draw a convincing circle that isn't real. Before acting, check each arrow. Did errors really rise with overtime? Did rework really grow?",
+        "Also, no reinforcing loop runs forever. Something eventually limits it: money, people, customers. And loops can take time to show their effect, which makes them easy to miss or misread."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a grocery store.",
+      "illustrative": true,
+      "body": [
+        "Your store orders stock based on last month's sales. A popular yogurt keeps running out by Friday. Each month the system orders a bit less of it, and it runs out a bit sooner.",
+        "What's the best fix?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Raise every yogurt order by 20%",
+            "verdict": "partial",
+            "feedback": "It may stop the stockouts for now. But the loop is still there, and you may overstock the flavors that were fine."
+          },
+          {
+            "key": "B",
+            "text": "Log when the shelf goes empty and count that as missed demand",
+            "verdict": "best",
+            "feedback": "Sales can't show what you didn't have to sell. Fixing the data breaks the loop where empty shelves teach the system to order less."
+          },
+          {
+            "key": "C",
+            "text": "Drop the yogurt, since its sales keep falling",
+            "verdict": "risky",
+            "feedback": "Sales are falling because of the loop, not because shoppers stopped wanting it. You'd lose a product people still came in for."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "The same loop appears in apps: a feature is hard to find, so few people use it, so the team gives it less space, so even fewer find it."
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Look for the circle, not just the cause.",
+      "body": [
+        "When a problem gets worse the harder you push, a result is probably feeding its own cause. Find the loop and break one link.",
+        "**Try it today:** pick one problem that keeps coming back. Draw it as a circle of four or five steps. Mark the link that is easiest to cut."
+      ],
+      "next": "Next · Why the fix seems to fail before it works"
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "id": "FIN-03-07",
+  "unitId": "FIN-03",
+  "categoryId": "FIN",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "Unit economics of a gym",
+  "readerTitle": "Is a busy January good news for a gym?",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (동네 헬스장, 사무실 생수 배달) · 모든 수치는 설명용",
+  "insight": "가입자 수가 아니라 회원 한 명이 매달 남기는 돈, 그 회원을 얻는 데 든 돈, 그 돈을 되찾는 데 걸리는 개월 수를 함께 보면 프로모션이 잘 됐는지 알 수 있다.",
+  "misconception": "가입자가 몰리면 마케팅이 성공한 것이다. 회수 기간은 월 회비로 나누면 된다.",
+  "relatedLessonIds": [
+    "FIN-03-05",
+    "FIN-03-06"
+  ],
+  "sources": [
+    {
+      "text": "관리회계·단위 경제성의 표준 개념 (공헌이익, 고객 획득 비용, 회수 기간)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "헬스장 공헌이익: $50 − $1.50(카드 수수료 3%) − $3.00(수건·세탁) − $3.50(회원당 출입·예약 앱 비용) = $42. 모든 수치는 가상입니다.",
+      "status": "open"
+    },
+    {
+      "note": "획득 비용: 광고 $3,000 ÷ 신규 회원 30명 = $100. 회비 기준 회수 $100 ÷ $50 = 2개월(잘못된 계산), 공헌이익 기준 $100 ÷ $42 = 2.38개월(약 2.4개월, 셋째 달에 회수).",
+      "status": "open"
+    },
+    {
+      "note": "1월 회원: 평균 4개월 × $42 = $168, $168 − $100 = $68. 일반 회원: 10개월 × $42 = $420.",
+      "status": "open"
+    },
+    {
+      "note": "생수 배달: $40 − $12(생수) − $10(배달) = $18, $180 ÷ $18 = 10개월. $30로 인하 시 $30 − $22 = $8, $180 ÷ $8 = 22.5개월, 24개월 × $8 = $192, $192 − $180 = $12.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Everyday scene",
+      "title": "Is a busy January good news for a gym?",
+      "illustrative": true,
+      "body": [
+        "It's January. The sign-up desk at a neighborhood gym has a line. The owner spent $3,000 on ads and won 30 new members at $50 a month.",
+        "The room feels like success. Whether it *is* success depends on three numbers from this unit: what each member leaves behind, what it cost to win them, and how long they stay."
+      ],
+      "image": {
+        "label": "A busy gym sign-up desk with a line of new members",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 동네 헬스장 입구의 가입 데스크 앞에 운동복 입은 사람들이 줄 서 있고, 벽에 \"January\" 달력과 \"Join today\" 포스터. 실제 헬스장 브랜드나 로고는 쓰지 않음.",
+        "url": "assets/images/fin-03-07-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How long until the ads pay for themselves?",
+      "illustrative": true,
+      "body": [
+        "The $3,000 brought in 30 members, so each one cost $100 to win. Each pays $50 a month. Card fees, towels, laundry and the door-access app come to $8 per member per month.",
+        "How many months until a new member has paid back the ad money?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "2 months: $100 divided by $50",
+            "verdict": "partial",
+            "feedback": "Quick, but it uses the price. Only what's left after each member's own costs can pay back the ads. That's contribution margin, not revenue."
+          },
+          {
+            "key": "B",
+            "text": "About 2.4 months: $100 divided by $42",
+            "verdict": "best",
+            "feedback": "Right. Each member leaves $42 a month after their own costs. That contribution margin, set against the $100 cost to win them, gives a payback period of about 2.4 months."
+          },
+          {
+            "key": "C",
+            "text": "You can't tell until the end of the year",
+            "verdict": "risky",
+            "feedback": "Waiting feels safe, but you'd keep buying ads blind for a year. Payback can be estimated today from numbers you already have."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "One member, one month.",
+      "illustrative": true,
+      "body": [
+        "Rent, trainers and machines get paid whether this member joins or not. So they stay out of this math. What's left, **$42**, is the member's contribution margin."
+      ],
+      "breakdown": [
+        {
+          "value": "$50.00",
+          "label": "Monthly fee",
+          "detail": "What the member pays",
+          "highlight": false
+        },
+        {
+          "value": "−$1.50",
+          "label": "Card fee",
+          "detail": "3% of the fee",
+          "highlight": false
+        },
+        {
+          "value": "−$3.00",
+          "label": "Towels and laundry",
+          "detail": "Grows with each member",
+          "highlight": false
+        },
+        {
+          "value": "−$3.50",
+          "label": "Door and booking app",
+          "detail": "Charged per member",
+          "highlight": false
+        },
+        {
+          "value": "$42.00",
+          "label": "Left over",
+          "detail": "Pays back ads, then rent, then profit",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Putting it together",
+      "title": "Paid back in the third month.",
+      "illustrative": true,
+      "body": [
+        "$100 to win a member, $42 back each month. After two months the gym has recovered $84. Early in the third month, the ad money is back. That's the **payback period**.",
+        "Every month after that, the member's $42 helps cover rent and staff. So the real question becomes: how long do members stay?"
+      ],
+      "image": {
+        "label": "Timeline of three months filling a $100 bar with $42 blocks",
+        "aspectRatio": "16:9",
+        "brief": "가로 타임라인. Month 1, Month 2, Month 3 칸에 \"$42\" 블록이 차례로 쌓여 \"$100 to win\" 선을 셋째 달에 넘는 모습. 넘는 지점에 \"Paid back\" 깃발.",
+        "url": "assets/images/fin-03-07-c4.jpg"
+      },
+      "softwareNote": "A monthly app plan works the same way. Take the price, subtract payment fees and server costs per user, then divide your ad cost per new user by what's left. Cancellations decide whether users stay past that point."
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "January members quit sooner.",
+      "illustrative": true,
+      "body": [
+        "Looking back at past years, the owner sees that January joiners stay about 4 months on average. Members who join at other times stay about 10.",
+        "What should she do with next January's ad budget?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Cut it. Members who leave after 4 months aren't worth chasing",
+            "verdict": "risky",
+            "feedback": "Four months at $42 is $168, against $100 to win them. Each still leaves $68. Cutting the ads gives up money that the payback period says is safe."
+          },
+          {
+            "key": "B",
+            "text": "Keep it. They pay back in under 3 months and stay 4",
+            "verdict": "best",
+            "feedback": "The payback period is shorter than the stay, so each one leaves $68 profit. She can also work on keeping them longer, since a 10-month member leaves $420."
+          },
+          {
+            "key": "C",
+            "text": "Double it, since January sign-ups are so strong",
+            "verdict": "partial",
+            "feedback": "Maybe, but the next $3,000 usually wins fewer people than the first. If the cost to win rises past $168, those extra members lose money."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Averages hide the members who matter.",
+      "body": [
+        "One average payback period mixes very different people. January joiners, referrals and walk-ins each cost a different amount to win and stay for different lengths of time. Split them before you decide.",
+        "Low use cuts both ways. A member who never comes uses almost no towels, so they leave more each month. But they are also the most likely to cancel, so they may not stay long enough to pay back."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's office water delivery.",
+      "illustrative": true,
+      "body": [
+        "You deliver bottled water to offices for $40 a month. Water costs $12 and delivery costs $10 per office. A sales visit and a free dispenser cost $180 per new office. Offices stay about 24 months.",
+        "Your sales rep wants to drop the price to $30 to win offices faster. What do you say?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Yes. More offices means more money",
+            "verdict": "risky",
+            "feedback": "Each office would leave $8 a month instead of $18. Contribution margin falls by more than half while the $180 cost to win stays the same."
+          },
+          {
+            "key": "B",
+            "text": "Only after checking payback: at $30 it takes about 22 months to earn back $180",
+            "verdict": "best",
+            "feedback": "Payback stretches from 10 months to 22.5, almost the whole 24-month stay. Each office would leave just $12 profit, so one early cancellation turns it into a loss."
+          },
+          {
+            "key": "C",
+            "text": "Yes, as long as $30 is still above the $22 in water and delivery",
+            "verdict": "partial",
+            "feedback": "Good that you checked the costs that come with each office. But the $180 to win them also has to come back, and at $8 a month that takes almost two years."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A full room is a start. The math tells you if it pays.",
+      "body": [
+        "Three tools from this unit answered the gym's question:"
+      ],
+      "list": [
+        "**Contribution margin:** each member leaves $42 a month, not $50",
+        "**Cost to win a customer:** $100 per member from the ads",
+        "**Payback period:** about 2.4 months, checked against how long members stay"
+      ],
+      "callout": "**Try it today:** for your last promotion, divide what it cost per new customer by what each customer leaves per month. Compare that to how long they usually stay.",
+      "next": "Next · Unit economics of a meal kit"
+    }
+  ]
+}

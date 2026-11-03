@@ -1,0 +1,257 @@
+{
+  "id": "ENT-01-07",
+  "unitId": "ENT-01",
+  "categoryId": "ENT",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "Evaluate a dog-walking app idea",
+  "readerTitle": "Should you build the dog-walking app your street needs?",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.3,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (동네 반려견 산책 앱, 빵집) · 모든 인물과 수치는 설명용",
+  "insight": "아이디어를 평가할 때 문제 확인과 시장 크기 추정은 따로 하는 검사가 아니라 서로의 답을 바꾸는 한 쌍의 질문이다.",
+  "misconception": "주변에 불편해하는 사람이 보이고 전국 시장이 크다면 좋은 아이디어다.",
+  "relatedLessonIds": [
+    "ENT-01-03",
+    "ENT-01-04"
+  ],
+  "sources": [
+    {
+      "text": "ENT-01-03 Problem before solution, ENT-01-04 Sizing a market (이 유닛의 개념 레슨)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 가상입니다. 계산 확인: 40만 가구 × 1/5 = 8만 가구(반려견), × 10% = 8,000가구. 주 3회 × $20 = 주 $60, × 52주 = 연 $3,120. 8,000 × $3,120 = $24,960,000(약 $25M). 수수료 20% = $4,992,000(약 $5M).",
+      "status": "open"
+    },
+    {
+      "note": "대형 반려견 산책 앱이 여러 도시에 이미 있다는 점은 일반적 사실로만 언급했고 특정 기업명이나 수치는 쓰지 않았습니다. 게시 전 표현이 과하지 않은지 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Starting up · Everyday scene",
+      "title": "Should you build the dog-walking app your street needs?",
+      "illustrative": true,
+      "body": [
+        "Maya is a product designer. Every morning she sees the same thing: neighbors rushing to work while their dogs stare out the window.",
+        "She thinks an app that matches owners with local walkers could be a real business. She has savings for six months. Before she spends them, she wants to know if the idea holds up."
+      ],
+      "image": {
+        "label": "A dog waiting at a window as its owner leaves for work",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 아침 거리 일러스트. 아파트 창가에서 강아지가 밖을 내다보고, 정장 차림 주인이 급히 출근하는 모습. 길 건너편에서 한 여성이 휴대폰을 들고 그 장면을 바라봄. 실제 앱 로고나 상표 없음.",
+        "url": "assets/images/ent-01-07-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What should Maya do first?",
+      "illustrative": true,
+      "body": [
+        "She has a free month before she starts building anything. Where should that month go?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Design a clickable prototype and show it to friends",
+            "verdict": "risky",
+            "feedback": "She'd learn whether people like her screens, not whether they have a problem worth paying to solve. That skips **problem before solution**."
+          },
+          {
+            "key": "B",
+            "text": "Talk to 15 dog owners about how they handle walks today and what goes wrong",
+            "verdict": "best",
+            "feedback": "This is **problem before solution**: learn what people already do and where it breaks before deciding what to build. It costs a month, not her savings."
+          },
+          {
+            "key": "C",
+            "text": "Look up how much the country spends on pets each year",
+            "verdict": "partial",
+            "feedback": "Market size matters, but a national pet-spending number says little about who needs walks and would pay for them. She doesn't yet know whose market she's sizing."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What she heard",
+      "title": "The problem wasn't the one she expected.",
+      "illustrative": true,
+      "body": [
+        "Twelve of the 15 owners already had someone: a neighbor, a teenager, or a local walker they trusted. Finding a walker wasn't hard.",
+        "What hurt was the day that person got sick or went on holiday. Then owners scrambled, called in favors, or left work early. One said, \"I don't need a walker. I need a backup I trust.\"",
+        "Maya's idea just shifted. The real problem is **reliable backup**, not discovery. That changes who her customer is and how often they'd use her."
+      ],
+      "image": {
+        "label": "Owner on the phone, calendar showing a walker marked sick",
+        "aspectRatio": "16:9",
+        "brief": "주인이 휴대폰을 들고 당황한 표정. 옆 벽걸이 달력에 'Walker: sick' 메모. 강아지가 목줄을 물고 기다림. 단순한 플랫 일러스트.",
+        "url": "assets/images/ent-01-07-c3.jpg"
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How should Maya size her market?",
+      "illustrative": true,
+      "body": [
+        "She wants a rough sense of how much money is at stake in her city. Her app would keep a 20% cut of each walk it books."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Pet spending is in the billions nationally. Even 1% would be huge",
+            "verdict": "risky",
+            "feedback": "Big top-down numbers feel reassuring, but \"1% of a huge market\" hides who the buyers are. **Sizing a market** means counting real customers, not slicing a headline."
+          },
+          {
+            "key": "B",
+            "text": "Count local owners who are away all day, times walks per week, times what the app keeps",
+            "verdict": "best",
+            "feedback": "A bottom-up estimate built from the customers she actually met. Each number can be checked and changed, which is the point of **sizing a market**."
+          },
+          {
+            "key": "C",
+            "text": "Count every dog in the city, times one walk a day, times $20",
+            "verdict": "partial",
+            "feedback": "Bottom-up is right, but it counts owners who walk their own dogs and forgets the app only keeps a cut. It inflates the market several times over."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "One city, rough math.",
+      "illustrative": true,
+      "body": [
+        "If every one of these owners booked only through her app, it would keep about **$5M a year**. Real share will be a fraction of that."
+      ],
+      "breakdown": [
+        {
+          "value": "80,000",
+          "label": "Homes with a dog",
+          "detail": "1 in 5 of 400,000 households",
+          "highlight": false
+        },
+        {
+          "value": "8,000",
+          "label": "Away long days and willing to pay",
+          "detail": "About 10% of dog owners",
+          "highlight": false
+        },
+        {
+          "value": "$3,120",
+          "label": "Spent per home per year",
+          "detail": "3 walks a week × $20 × 52 weeks",
+          "highlight": false
+        },
+        {
+          "value": "~$25M",
+          "label": "Total spent on walks",
+          "detail": "8,000 × $3,120",
+          "highlight": false
+        },
+        {
+          "value": "~$5M",
+          "label": "What a 20% cut is worth",
+          "detail": "The ceiling, not the forecast",
+          "highlight": true
+        }
+      ],
+      "softwareNote": "Apps that book services earn the cut, not the price of the service. Size the market on what the platform keeps, or the business will look five times bigger than it is."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Putting it together",
+      "title": "The two checks change each other.",
+      "illustrative": true,
+      "body": [
+        "The interviews said most owners already have a walker. They'd only need Maya on backup days, maybe a few times a year. That shrinks the $5M ceiling much further.",
+        "But it also points somewhere useful: a small, reliable backup service in a few neighborhoods could be a solid local business, even if it's not a giant one.",
+        "Understanding the problem told her **who to count**. Counting told her **how big the honest version** of the idea is."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Both tools can fool you.",
+      "body": [
+        "People are polite in interviews. \"I'd use that\" is not \"I'd pay for that.\" Listen for what owners already do and spend, not what they say they might do.",
+        "Market estimates are only as good as their weakest guess. Here, the 10% \"willing to pay\" moves the result most. Double it or halve it and the answer swings by millions.",
+        "Find the number you're least sure of and test that one first."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a bakery.",
+      "illustrative": true,
+      "body": [
+        "A baker is thinking about opening a second shop that sells only gluten-free bread. How should she judge the idea?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Ask regulars \"Would you buy gluten-free?\" and multiply the yeses by the town's population",
+            "verdict": "risky",
+            "feedback": "Polite yeses inflate demand, and multiplying by the whole town counts people who'll never need it. Both checks go wrong at once."
+          },
+          {
+            "key": "B",
+            "text": "Track how often customers ask for it and what they buy instead, then count those customers × visits × spend",
+            "verdict": "best",
+            "feedback": "**Problem before solution** shows who really needs it and what they do today. That group becomes the base for **sizing a market** she can trust."
+          },
+          {
+            "key": "C",
+            "text": "Use a national gluten-free market report to show the category is growing",
+            "verdict": "partial",
+            "feedback": "A growing category is encouraging, but it says nothing about her street. She'd still need local customers and their spending."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Find the real problem, then count the people who have it.",
+      "body": [
+        "Concepts used: **Problem before solution** turned \"find a walker\" into \"a backup I trust.\" **Sizing a market** turned a vague feeling into a number she could check.",
+        "**Try it today:** take one idea you've been sitting on. Name the problem in a customer's words, then write a three-line bottom-up estimate: how many people, how often, how much."
+      ],
+      "next": "Next · Would a busy restaurant pay for scheduling software?"
+    }
+  ]
+}

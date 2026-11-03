@@ -1,0 +1,224 @@
+{
+  "id": "PPL-05-05",
+  "unitId": "PPL-05",
+  "categoryId": "PPL",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Trust",
+  "readerTitle": "The team-building day that didn't stop the recounting",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (물류센터 야간·주간 교대조, 소프트웨어 회사 엔지니어링·제품팀) + 실제 연구 (Mayer, Davis & Schoorman 1995의 신뢰 모델, Slovic 1993의 신뢰 비대칭)",
+  "insight": "신뢰는 호감이 아니라 '확인하지 않아도 될 것'이라는 예측이고, 큰 행사가 아니라 작고 눈에 보이는 약속을 지킨 기록으로 쌓인다.",
+  "misconception": "서로 친해지면 신뢰가 생긴다. 팀빌딩 행사나 회식으로 신뢰 문제를 해결할 수 있다.",
+  "relatedLessonIds": [
+    "PPL-05-01",
+    "PPL-02-05"
+  ],
+  "sources": [
+    {
+      "text": "Mayer, R. C., Davis, J. H., & Schoorman, F. D. (1995). An Integrative Model of Organizational Trust. Academy of Management Review, 20(3), 709–734.",
+      "url": null
+    },
+    {
+      "text": "Slovic, P. (1993). Perceived Risk, Trust, and Democracy. Risk Analysis, 13(6), 675–682.",
+      "url": null
+    },
+    {
+      "text": "물류센터와 소프트웨어 회사 사례는 설명용 가상 사례",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Mayer 외(1995)는 신뢰를 '상대를 감시하거나 통제할 수 없어도 상대의 행동에 기꺼이 취약해지려는 의지'로 정의하고, 신뢰받을 만함의 요소로 능력(ability), 선의(benevolence), 정직성(integrity)을 제시합니다. 카드 4의 쉬운 풀이가 원문 정의와 어긋나지 않는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Slovic(1993)의 '비대칭 원칙'(신뢰를 깎는 사건이 쌓는 사건보다 더 크게 작용)은 원래 위험 관리 기관에 대한 대중의 신뢰 연구입니다. 카드 6에서는 수치 없이 일반적인 원리로만 언급했습니다. 팀 내 관계로 확장한 표현이 과하지 않은지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "물류센터의 '하루 2시간 재검수', '작년 두 번의 오배송'은 모두 설명용 가상 수치입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Teams · Counterexample",
+      "title": "The team-building day that didn't stop the recounting",
+      "illustrative": true,
+      "body": [
+        "At a regional warehouse, the day shift recounts every pallet the night shift has logged. It takes about two hours each morning.",
+        "The manager books a team-building day: a cookout and a ropes course. Everyone has fun. People chat more in the break room.",
+        "A month later, the day shift is still recounting every pallet."
+      ],
+      "image": {
+        "label": "Day-shift worker recounting boxes on a pallet at dawn",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 새벽 물류창고, 주간조 작업자가 클립보드를 들고 팔레트 상자를 하나씩 다시 세고 있음. 뒤 벽에 팀빌딩 행사 단체 사진이 걸려 있어 대비를 줌. 실제 기업 로고나 상표 없음.",
+        "url": "assets/images/ppl-05-05-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What would most likely end the recounting?",
+      "illustrative": true,
+      "body": [
+        "You're the warehouse manager. The two shifts get along fine now. But the day shift still won't rely on the night shift's counts, and those two hours cost you every day.",
+        "What do you try next?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Run a second social event that mixes the two shifts",
+            "verdict": "partial",
+            "feedback": "Liking each other makes problems easier to raise. But it doesn't tell the day shift whether the counts are right, so the recounting stays."
+          },
+          {
+            "key": "B",
+            "text": "Tell the day shift to stop recounting, starting Monday",
+            "verdict": "risky",
+            "feedback": "You save two hours on paper. But an order doesn't change what people believe. They may recount quietly, or errors may slip through with nobody watching."
+          },
+          {
+            "key": "C",
+            "text": "Spot-check a sample together for a few weeks and post the accuracy each morning",
+            "verdict": "best",
+            "feedback": "It costs some time up front, but it gives the day shift evidence. When the record shows the counts are right, they can stop checking on their own."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What went wrong",
+      "title": "They liked each other. They just couldn't rely on each other.",
+      "illustrative": true,
+      "body": [
+        "The day shift had no problem with the night crew as people. Their worry was practical. Twice last year, a wrong count meant a missed shipment, and the day shift took the blame.",
+        "The ropes course answered a question nobody was asking: *do we get along?* The real question was different: *can I skip checking this?*",
+        "Only a track record can answer that one."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Trust",
+      "body": [
+        "**Trust** is your willingness to rely on someone when you can't easily check their work. It's a prediction, not a feeling.",
+        "In a widely cited 1995 paper, Mayer, Davis and Schoorman described three things people weigh: *ability* (can they do it?), *benevolence* (do they care about my interests?) and *integrity* (do they do what they say?).",
+        "Warmth helps with the second. The warehouse problem lived in the first and third."
+      ],
+      "image": {
+        "label": "Three pillars labeled Can they, Do they care, Do they deliver",
+        "aspectRatio": "16:9",
+        "brief": "플랫 인포그래픽. 세 개의 기둥이 지붕 \"Trust\"를 받치고 있음. 기둥 라벨은 \"Can they do it?\", \"Do they care about me?\", \"Do they do what they say?\". 첫째와 셋째 기둥에 금이 가 있고 가운데만 튼튼함.",
+        "url": "assets/images/ppl-05-05-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Trust is built in small, visible deposits.",
+      "body": [
+        "Because trust is a prediction, it grows with evidence. The most useful evidence is small promises kept where others can see.",
+        "At the warehouse, this could look like:"
+      ],
+      "list": [
+        "Night lead posts the count and the spot-check result by 6 a.m.",
+        "Manager fixes the faulty scanner by the date he promised",
+        "Any miscount is flagged by the person who made it, not found by someone else"
+      ],
+      "callout": "Each kept promise is a data point. Enough of them, and checking feels like a waste."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The hard part",
+      "title": "One broken promise outweighs many kept ones.",
+      "body": [
+        "Risk researcher Paul Slovic described an **asymmetry**: events that damage trust tend to count more, and stick longer, than events that build it.",
+        "That's why the two missed shipments still shaped mornings months later. It also means a manager who promises a fix and lets the date slide can undo weeks of progress.",
+        "Promise less, and deliver all of it."
+      ],
+      "image": {
+        "label": "Scale with one heavy broken promise against many small kept ones",
+        "aspectRatio": "16:9",
+        "brief": "저울 일러스트. 한쪽에 작은 초록색 체크 블록 여러 개, 다른 쪽에 금 간 빨간 블록 하나가 있고 저울이 빨간 쪽으로 기울어 있음. 텍스트 없이 단순하게.",
+        "url": "assets/images/ppl-05-05-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Trust is specific, and it isn't blind.",
+      "body": [
+        "Trusting the night shift to count doesn't mean trusting them to plan routes. Trust earned in one task doesn't automatically carry to another.",
+        "And more trust isn't always better. Where an error is costly, keep a light check, like a random sample, even with people you trust. The goal is to drop checks that only exist because of doubt, not checks that catch real mistakes."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software team.",
+      "illustrative": true,
+      "body": [
+        "At a software company, product managers no longer believe engineering's delivery dates. After several slipped releases, they pad every deadline and ask for daily status updates. Engineers feel watched and slow down further.",
+        "As head of engineering, what do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Host a joint offsite and a team dinner to reset the relationship",
+            "verdict": "partial",
+            "feedback": "It may ease the tension, but it adds no evidence about dates. The product team will keep padding until releases arrive on time."
+          },
+          {
+            "key": "B",
+            "text": "Commit to smaller pieces every two weeks and publish promised vs. delivered",
+            "verdict": "best",
+            "feedback": "You give up big, impressive commitments for a steady, visible record. That record is what lets the product team stop padding and checking."
+          },
+          {
+            "key": "C",
+            "text": "Promise one big launch date and hit it with weeks of overtime",
+            "verdict": "partial",
+            "feedback": "One dramatic win helps, but it's a single data point, and burned-out engineers make the next date harder to keep."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Trust is a track record, not a mood.",
+      "body": [
+        "People stop checking your work when the evidence says they can. Build it with small promises, kept in plain sight.",
+        "**Try it today:** find one place where someone double-checks your team's work. Make one small, visible promise about it, and keep it this week."
+      ],
+      "next": "Next · What to do when someone on the team isn't delivering"
+    }
+  ]
+}

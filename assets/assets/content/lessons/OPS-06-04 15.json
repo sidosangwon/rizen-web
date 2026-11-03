@@ -1,0 +1,216 @@
+{
+  "id": "OPS-06-04",
+  "unitId": "OPS-06",
+  "categoryId": "OPS",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Standards",
+  "readerTitle": "Why \"be excellent\" is not a standard",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (소프트웨어 회사 고객지원팀, 베이커리, 유통 물류센터) · 모든 장면과 수치는 설명용",
+  "insight": "품질은 '더 잘하자'는 의지가 아니라, 두 사람이 보고 같은 판정을 내릴 수 있는 합격선을 그릴 때 올라간다.",
+  "misconception": "기대치를 높게 말하고 꼼꼼히 검토하면 품질이 올라간다. 기준이 없어도 다들 '좋은 것'이 무엇인지 안다.",
+  "relatedLessonIds": [
+    "OPS-06-03",
+    "OPS-06-05"
+  ],
+  "sources": [
+    {
+      "text": "품질관리의 표준 개념 (품질 기준, 합격·불합격 한계 견본, 소프트웨어 팀의 'definition of done')",
+      "url": null
+    },
+    {
+      "text": "모든 사례는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "5번 카드의 '많은 공장이 합격 한계와 불합격 한계 견본(limit/boundary samples)을 라인 옆에 둔다'는 일반적인 품질관리 관행으로 서술했습니다. 특정 기업이나 통계를 인용하지 않았는지 게시 전 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "4번 카드 softwareNote의 'definition of done'은 애자일·스크럼 팀에서 널리 쓰는 용어입니다. 예시(테스트 통과, 문서 업데이트)가 일반적인 설명 범위인지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "고객지원팀, 베이커리, 물류센터 사례는 모두 가상입니다. 실제 수치는 쓰지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Counterexample",
+      "title": "The quality push that changed nothing",
+      "illustrative": true,
+      "body": [
+        "The head of support at a mid-sized software company sends a memo: from now on, every customer reply must be *excellent*. Team leads start reviewing replies every week.",
+        "Three months later, complaints haven't moved. Agents say the feedback feels random. One lead flags a reply as too short. Another praises the same reply as clear."
+      ],
+      "image": {
+        "label": "Two reviewers giving opposite marks to the same reply",
+        "aspectRatio": "4:3",
+        "brief": "사무실 책상 위 모니터에 같은 고객 답장 하나가 떠 있고, 양옆의 두 팀장이 각각 초록 체크와 빨간 X 스티커를 붙이려는 장면. 가운데 상담원은 어깨를 으쓱. 실제 회사 로고나 제품 화면은 쓰지 않음.",
+        "url": "assets/images/ops-06-04-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You run the support team. What's your next move?",
+      "illustrative": true,
+      "body": [
+        "Your people are trying hard. Your leads are reviewing hard. Quality isn't improving, and morale is slipping.",
+        "What do you change first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Run a workshop on why quality matters to customers",
+            "verdict": "risky",
+            "feedback": "It raises motivation, but motivation was never the problem. People still won't know what to aim at."
+          },
+          {
+            "key": "B",
+            "text": "Write down what a passing reply must contain, with real examples of pass and fail",
+            "verdict": "best",
+            "feedback": "It takes an afternoon of arguing to agree, but then agents can aim and leads can judge the same way."
+          },
+          {
+            "key": "C",
+            "text": "Have one senior lead score every reply from 1 to 10",
+            "verdict": "partial",
+            "feedback": "Scores become consistent because one person decides. But the standard lives in her head, so nobody else can learn it or check it."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What went wrong",
+      "title": "The memo raised the bar but never drew it.",
+      "body": [
+        "Ask ten people what an excellent reply is and you get ten answers. One thinks warmth. One thinks speed. One thinks a complete fix in a single message.",
+        "So every review measured the reviewer's taste. Agents couldn't aim, and leads couldn't agree. **Effort went up. Results stayed flat.**"
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Standards",
+      "body": [
+        "A **standard** is a written, checkable definition of an acceptable result: what you look at, where the line sits, and an example on each side of it.",
+        "It turns \"good\" from an opinion into something two people can check and agree on. A checklist tells you the steps. A standard tells you what the finished result must look like."
+      ],
+      "image": {
+        "label": "A blurry target next to a sharp target with a clear line",
+        "aspectRatio": "16:9",
+        "brief": "좌우 비교 인포그래픽. 왼쪽은 흐릿한 과녁에 \"Be excellent\" 라벨, 오른쪽은 선명한 과녁에 굵은 경계선과 \"Pass / Fail\" 라벨. 오른쪽에만 화살이 꽂혀 있음.",
+        "url": "assets/images/ops-06-04-c4.jpg"
+      },
+      "softwareNote": "Software teams often use a *definition of done*: the conditions a feature must meet before it counts as finished, such as tests passing and documentation updated."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Three parts make a standard usable.",
+      "illustrative": true,
+      "body": [
+        "For the support team, a working standard might look like this:"
+      ],
+      "list": [
+        "**The measure:** what you check. \"Answers the question asked,\" not \"helpful.\"",
+        "**The line:** where pass becomes fail. \"The fix or next step appears in the first two sentences.\"",
+        "**The example:** a real reply just inside the line, and one just outside it."
+      ],
+      "callout": "Many factories keep physical samples of \"just acceptable\" and \"just not\" beside the line for the same reason. Words leave room for argument. Examples don't."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Same idea, new place",
+      "title": "\"Bake until golden\" is not a standard.",
+      "illustrative": true,
+      "body": [
+        "To every new hire at a bakery, *golden* means something different. Some pull loaves too early. Others wait too long.",
+        "A photo strip taped beside the oven, showing too pale, just right and too dark, does what no amount of reminding can. New staff match the picture on their first day, and the owner stops re-checking every tray."
+      ],
+      "image": {
+        "label": "Photo strip of three loaves from pale to dark beside an oven",
+        "aspectRatio": "16:9",
+        "brief": "베이커리 오븐 옆 벽에 테이프로 붙인 사진 세 장. 연한 빵 \"Too pale\", 황금색 빵 \"Right\", 진한 빵 \"Too dark\". 가운데 사진에만 초록 테두리. 브랜드 표시 없음.",
+        "url": "assets/images/ops-06-04-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "People hit the line you draw, not the one you meant.",
+      "body": [
+        "If the standard says \"reply within one hour,\" you may get fast replies that solve nothing. Write the line around the result customers care about, not just what's easy to count.",
+        "A standard is also a floor, not a ceiling. Keep it short enough to remember, and revisit it when customers or products change. An outdated standard trains people to do the wrong thing consistently."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a distribution center.",
+      "illustrative": true,
+      "body": [
+        "You manage a warehouse that supplies 40 stores in a regional chain. Store managers keep complaining that cases arrive \"damaged.\" Your packers say the loads looked fine when they left.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Post signs asking packers to handle every case with care",
+            "verdict": "risky",
+            "feedback": "It shows you take it seriously, but packers already believe they're careful. Without a line, nobody knows which loads to stop."
+          },
+          {
+            "key": "B",
+            "text": "Agree with stores on what counts as damaged, with photos, and check against it at the loading dock",
+            "verdict": "best",
+            "feedback": "It takes a meeting with store managers, but packers and stores now judge the same thing. Arguments turn into quick, shared checks."
+          },
+          {
+            "key": "C",
+            "text": "Inspect outgoing pallets yourself every morning",
+            "verdict": "partial",
+            "feedback": "You'll catch some problems, but it doesn't scale and stores may still disagree with your eye. The standard needs to be written where everyone can see it."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Quality rises when \"good\" is something two people can check.",
+      "body": [
+        "Asking for higher quality only works once you've drawn the line: what to look at, where pass becomes fail, and an example of each.",
+        "**Try it today:** pick one result your team often argues about. Find one example that clearly passes and one that just fails. Put them side by side where the work happens."
+      ],
+      "next": "Next · Why the same order feels different on a Tuesday"
+    }
+  ]
+}

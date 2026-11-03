@@ -1,0 +1,230 @@
+{
+  "id": "BMO-08-02",
+  "unitId": "BMO-08",
+  "categoryId": "BMO",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "Why great technology waits for complements",
+  "readerTitle": "The barcode worked in 1974. Why did stores wait?",
+  "format": "counterexample",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 사례 (1974년 UPC 바코드 첫 스캔과 느린 확산) + 가상 적용 (식품 유통업체, 미용실 예약 앱)",
+  "insight": "기술의 가치는 기술 자체가 아니라 그 기술을 쓸모 있게 만드는 보완재가 얼마나 갖춰졌는지에 달려 있다.",
+  "misconception": "기술이 충분히 뛰어나면 고객은 알아서 쓴다. 안 쓰는 건 기술이 부족하거나 홍보가 부족해서다.",
+  "relatedLessonIds": [
+    "BMO-08-01",
+    "BMO-08-06"
+  ],
+  "sources": [
+    {
+      "text": "Brown, S. A. (1997). Revolution at the Checkout Counter: The Explosion of the Bar Code. Harvard University Press.",
+      "url": null
+    },
+    {
+      "text": "GS1 US, history of the UPC barcode (first scan, Marsh Supermarket, Troy, Ohio, 26 June 1974)",
+      "url": null
+    },
+    {
+      "text": "Adner, R. (2012). The Wide Lens: What Successful Innovators See That Others Miss. (보완재와 생태계 위험)",
+      "url": null
+    },
+    {
+      "text": "Shapiro, C. & Varian, H. (1999). Information Rules. Harvard Business School Press. (보완재 개념)",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "첫 UPC 스캔: 1974년 6월 26일 미국 오하이오주 트로이의 Marsh 슈퍼마켓, Wrigley 껌 한 팩. GS1 US 자료로 날짜와 장소를 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "1970년대 후반까지 스캐너 도입이 느렸다는 내용은 Brown(1997)에 근거합니다. 정확한 매장 수·비율은 자료마다 달라 카드에는 수치를 쓰지 않고 \"for years, few stores\"로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "1973년 미국 식료품 업계 위원회가 공통 코드 표준(UPC)을 선정했다는 내용을 Brown(1997) 또는 GS1 자료로 확인하세요. 카드 6에 \"in 1973\"으로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "유통업체·미용실 사례의 수치(태그 부착 15%, 종이 예약장 60%)는 모두 설명용 가상 수치입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business models · Counterexample",
+      "title": "The barcode worked in 1974. Why did stores wait?",
+      "body": [
+        "In June 1974, a cashier at a supermarket in Troy, Ohio, scanned a pack of chewing gum. The beep worked. The price appeared. Checkout was faster and more accurate.",
+        "Yet for years afterward, few stores bought scanners. The technology wasn't the problem."
+      ],
+      "image": {
+        "label": "A pack of gum passing over an early checkout scanner",
+        "aspectRatio": "4:3",
+        "brief": "1970년대 슈퍼마켓 계산대. 껌 한 팩이 빨간 레이저 스캐너 위를 지나가는 장면, 따뜻한 레트로 색감. 실제 브랜드 로고나 포장 디자인은 쓰지 않음. 배경 진열대의 상품들에는 바코드가 거의 없도록 표현.",
+        "url": "assets/images/bmo-08-02-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "A faster scanner, but few tagged products.",
+      "illustrative": true,
+      "body": [
+        "You run a food distributor with four warehouses. A vendor offers handheld readers for a new tag that tracks pallets automatically. In a demo, receiving is three times faster.",
+        "The catch: only about 15% of your suppliers put the tag on their pallets. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Buy readers for all four warehouses now",
+            "verdict": "risky",
+            "feedback": "You get the readers early, but 85% of pallets still need manual checks. You pay for speed you can't use yet."
+          },
+          {
+            "key": "B",
+            "text": "Wait until most suppliers tag their pallets",
+            "verdict": "partial",
+            "feedback": "Safe on cost. But suppliers may be waiting for buyers like you, so the day may never come on its own."
+          },
+          {
+            "key": "C",
+            "text": "Pilot in one warehouse and help your biggest suppliers start tagging",
+            "verdict": "best",
+            "feedback": "You spend a little to create the missing piece where it matters most. The readers become useful because the tags now exist."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "Each side waited for the other.",
+      "body": [
+        "A store scanner was only useful if most products carried a barcode. Food makers saw little reason to print codes until many stores could read them.",
+        "So stores waited for codes, and makers waited for scanners. Early adopters still had cashiers typing in prices for every unmarked item.",
+        "The scanner was ready in 1974. The things around it were not."
+      ],
+      "image": {
+        "label": "Two people each waiting at opposite ends of a bridge",
+        "aspectRatio": "16:9",
+        "brief": "다리 양쪽 끝에 각각 서 있는 두 인물. 왼쪽은 계산대 스캐너를 든 가게 주인, 오른쪽은 상품 상자를 든 제조업체 직원. 서로 상대가 먼저 건너오길 기다리는 표정. 다리 가운데는 비어 있음. 로고 없음.",
+        "url": "assets/images/bmo-08-02-c3.jpg"
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Complements",
+      "body": [
+        "**Complements** are the other products, services or habits that must exist for a technology to deliver its value. A scanner needs barcodes. A car needs roads and fuel. A phone needs apps.",
+        "A useful way to think: the value customers get is the technology *multiplied by* its complements. If the complements are close to zero, the result is close to zero, however good the technology is."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Look for what else has to be true.",
+      "body": [
+        "Before customers can benefit, a chain of things usually has to be in place:"
+      ],
+      "list": [
+        "**Partners:** suppliers, retailers or installers who must adopt too",
+        "**Standards:** a shared format so pieces fit together",
+        "**Skills:** staff or customers who know how to use it",
+        "**Supporting goods:** fuel, content, parts, data"
+      ],
+      "callout": "If one link is missing, the whole chain delivers little.",
+      "softwareNote": "For software, complements are often integrations and data. A brilliant tool that can't connect to the systems customers already use, or that needs data they don't collect, sits unused."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Breaking the deadlock",
+      "title": "Someone has to supply the missing piece.",
+      "body": [
+        "The grocery industry helped itself. In 1973, an industry committee agreed on one shared code format, so a maker printed one code that every scanner could read.",
+        "That didn't fix adoption overnight, but it removed one reason to wait. Over time, as more products carried codes, each new scanner became more valuable, and more stores bought them.",
+        "The lesson: winners often build, fund or organize the complement instead of waiting for it."
+      ],
+      "image": {
+        "label": "A chain of linked pieces with one gap being filled",
+        "aspectRatio": "16:9",
+        "brief": "사슬 고리 인포그래픽. 고리마다 \"Scanner\", \"Shared code\", \"Printed barcodes\", \"Trained cashiers\" 라벨. 한 고리가 비어 있고 손이 그 자리에 새 고리를 끼워 넣는 모습.",
+        "url": "assets/images/bmo-08-02-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Supplying complements is costly and risky.",
+      "body": [
+        "Building the missing piece yourself can cost more than the technology. And some complements never arrive, no matter how long you wait.",
+        "There's a second trap: whoever controls a scarce complement may capture much of the value. If you depend on one partner's piece, they can raise the price later.",
+        "So map the complements early, decide which you'll provide, and which you can afford to depend on."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a booking app for salons.",
+      "illustrative": true,
+      "body": [
+        "Your app fills a hair salon's last-minute empty slots by alerting nearby customers. Salon owners love the demo.",
+        "But about 60% of the salons you target still keep appointments in a paper book, so the app can't see their open slots. What's your best move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Spend more on ads so more salons hear about the app",
+            "verdict": "risky",
+            "feedback": "You'd reach more owners, but most still couldn't use it. More awareness doesn't fix a missing piece."
+          },
+          {
+            "key": "B",
+            "text": "Include a simple free digital calendar and help salons move their bookings in",
+            "verdict": "best",
+            "feedback": "It costs you building and onboarding time, but you create the complement your app needs, and the calendar keeps salons with you."
+          },
+          {
+            "key": "C",
+            "text": "Sell only to the 40% already using digital calendars",
+            "verdict": "partial",
+            "feedback": "Fast and cheap to start, but it caps your market, and you depend on whichever calendar tools those salons use."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Great technology is only as valuable as what surrounds it.",
+      "body": [
+        "When customers don't adopt something that clearly works, look for the missing complement before blaming the product.",
+        "**Try it today:** pick one tool or offer you're pushing. List three things a customer needs besides it to get the benefit. Which one is missing, and who could supply it?"
+      ],
+      "next": "Next · Redesign the work, not just the tool"
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "id": "SAL-06-02",
+  "unitId": "SAL-06",
+  "categoryId": "SAL",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "Your first 10 customers",
+  "readerTitle": "Why ten similar customers beat ten random ones",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.4,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (회계 사무소, 사내 IT팀) + 실제 저서 참고 (Geoffrey Moore, Crossing the Chasm) · 모든 수치는 설명용",
+  "insight": "첫 10명의 고객은 매출이 아니라 반복되는 패턴을 찾는 표본이다. 그래서 서로 닮은 고객으로 모아야 10명이 10배의 배움과 추천이 된다.",
+  "misconception": "초기에는 들어오는 고객을 가리지 않고 받는 것이 좋고, 다양한 고객을 받을수록 시장을 넓게 이해할 수 있다.",
+  "relatedLessonIds": [
+    "SAL-06-01",
+    "CUS-03-04"
+  ],
+  "sources": [
+    {
+      "text": "Moore, G. A. (1991). Crossing the Chasm. HarperBusiness. (한 좁은 시장을 먼저 공략하고, 같은 업계의 고객 추천이 다음 고객을 끌어온다는 주장)",
+      "url": null
+    },
+    {
+      "text": "회계 사무소와 사내 IT팀 사례 및 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Moore의 주장 요약(주류 고객은 같은 업계 동료의 추천을 원하며, 한 틈새 시장에 집중해 거점을 만들라는 내용)을 원문으로 다시 확인하세요. 카드에는 구체 수치나 직접 인용 없이 일반적으로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "차트 수치는 모두 가상입니다. 경로 A: 같은 문제를 말한 고객 2명, '나와 비슷하다'고 볼 고객 1명, 별도 설정 체크리스트 10개. 경로 B: 7명, 10명, 1개. 각 값이 고객 10명 범위 안에 있는지 확인했습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Sales · Numbers twist",
+      "title": "Ten clients, ten industries, zero momentum",
+      "illustrative": true,
+      "body": [
+        "In her first year, Dana's bookkeeping firm signed 10 clients: a bakery, a law office, a gym, a dentist, a roofer and five more, all different.",
+        "Ten clients sounds like success. But every new one felt like starting from zero. New setup, new questions, new pitch. Her neighbor's firm signed the same number and was growing twice as fast."
+      ],
+      "image": {
+        "label": "Ten mismatched shop signs around one small office",
+        "aspectRatio": "4:3",
+        "brief": "작은 회계 사무소 하나를 가운데 두고, 빵집·법률사무소·헬스장·치과·지붕공사 등 서로 전혀 다른 간판 10개가 흩어져 있는 일러스트. 화살표가 제각각 다른 방향. 실제 상호나 로고는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You have 15 leads. Which 10 do you chase?",
+      "illustrative": true,
+      "body": [
+        "You're launching an IT support service for small offices. Your list of warm leads includes a few large firms, six dental clinics in your city, and a mix of shops, studios and agencies.",
+        "You only have time to win about 10 clients this year. Where do you put your effort?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The largest firms, since they can pay the most",
+            "verdict": "partial",
+            "feedback": "Bigger checks help cash flow. But big firms are slow to buy and each one is different, so you learn little you can reuse."
+          },
+          {
+            "key": "B",
+            "text": "The dental clinics first, then more clinics like them",
+            "verdict": "best",
+            "feedback": "You give up some variety and maybe some early revenue. In return, each client teaches you about the next one and can vouch for you."
+          },
+          {
+            "key": "C",
+            "text": "Whoever says yes first, to build revenue fast",
+            "verdict": "risky",
+            "feedback": "Fast yeses feel like progress. But ten unrelated clients leave you with ten one-off setups and no pattern to sell on."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "Same 10 clients. Very different lessons.",
+      "illustrative": true,
+      "body": [
+        "Two firms after their first 10 clients. Firm A took anyone. Firm B served only dental clinics."
+      ],
+      "chart": {
+        "unit": "count",
+        "groups": [
+          {
+            "label": "Firm A: ten different industries",
+            "rows": [
+              {
+                "label": "Clients with the same top problem",
+                "value": 2,
+                "highlight": false
+              },
+              {
+                "label": "Clients a new prospect sees as 'like me'",
+                "value": 1,
+                "highlight": false
+              },
+              {
+                "label": "Separate setup checklists",
+                "value": 10,
+                "highlight": false
+              }
+            ]
+          },
+          {
+            "label": "Firm B: ten dental clinics",
+            "rows": [
+              {
+                "label": "Clients with the same top problem",
+                "value": 7,
+                "highlight": true
+              },
+              {
+                "label": "Clients a new prospect sees as 'like me'",
+                "value": 10,
+                "highlight": true
+              },
+              {
+                "label": "Separate setup checklists",
+                "value": 1,
+                "highlight": false
+              }
+            ]
+          }
+        ]
+      },
+      "callout": "Firm A has ten stories. Firm B has one pattern, told ten times."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Your first 10 customers are a sample",
+      "body": [
+        "Your **first 10 customers** aren't mainly a source of revenue. They're a sample you choose on purpose, so you can find out what one type of customer needs, how they buy, and what makes them stay.",
+        "A sample only shows a pattern if its members are alike. Ten similar customers answer the same question ten times. Ten different ones answer ten questions once each."
+      ],
+      "image": {
+        "label": "Ten scattered dots versus ten clustered dots",
+        "aspectRatio": "16:9",
+        "brief": "좌우 비교 인포그래픽. 왼쪽은 점 10개가 화면 전체에 흩어져 있고, 오른쪽은 점 10개가 한 원 안에 모여 있으며 그 위에 'Pattern' 라벨. 단순하고 깔끔한 플랫 스타일.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Similar customers make the next sale easier.",
+      "body": [
+        "When the first ten look alike, three things build on each other:"
+      ],
+      "list": [
+        "**Shared language:** you learn their words, so your pitch sounds like their problem",
+        "**References:** \"We support six clinics nearby\" means more to a dentist than any brochure",
+        "**Repeatable work:** one setup, one price sheet, one onboarding plan"
+      ],
+      "callout": "Geoffrey Moore made a similar point in *Crossing the Chasm*: win one narrow market first, because buyers trust peers in their own field.",
+      "softwareNote": "In software, ten users with the same workflow tell you which feature matters. Ten users with ten workflows send you ten feature requests and no clear roadmap."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Narrow can also mean wrong.",
+      "body": [
+        "Pick a group that is big enough to grow into and reachable by you. A segment of 30 businesses will run out fast.",
+        "Friends and family rarely count. They buy to be kind, so they tell you little about strangers.",
+        "And if ten similar customers still show no shared problem, that is a signal too. Switch groups on purpose rather than drifting back to taking anyone."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now you're a team inside a big company.",
+      "illustrative": true,
+      "body": [
+        "Your internal IT team built a new expense-approval app. Leadership wants it used across 40 departments. Your team can personally support about 10 at a time.",
+        "How do you start?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Launch to all 40 with an email and a training video",
+            "verdict": "risky",
+            "feedback": "It looks fast and fair. But problems pile up across 40 different workflows, and early frustration can stall the whole rollout."
+          },
+          {
+            "key": "B",
+            "text": "Start with 10 regional sales offices that approve expenses the same way",
+            "verdict": "best",
+            "feedback": "Other departments wait longer. In return, you fix one workflow well and gain ten offices that can tell peers it works."
+          },
+          {
+            "key": "C",
+            "text": "Pick one team from each of 10 divisions for balanced feedback",
+            "verdict": "partial",
+            "feedback": "You'll hear many views, which helps later. But each team works differently, so you get ten wish lists instead of one clear fix."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "Internal teams have customers too. Colleagues choose whether to adopt a tool, and they trust teams like their own most."
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Choose your first ten so they look alike.",
+      "body": [
+        "Your first customers are a sample for finding a pattern. The more alike they are, the more each one teaches you and helps win the next.",
+        "**Try it today:** list your current or hoped-for customers. Circle the largest group that shares the same problem. Could your next five come from that circle?"
+      ],
+      "next": "Next · How to write to a stranger who owes you nothing"
+    }
+  ]
+}

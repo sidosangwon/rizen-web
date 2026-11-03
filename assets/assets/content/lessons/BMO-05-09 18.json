@@ -1,0 +1,212 @@
+{
+  "id": "BMO-05-09",
+  "unitId": "BMO-05",
+  "categoryId": "BMO",
+  "order": 9,
+  "type": "case",
+  "conceptTag": "Airbnb's early days",
+  "readerTitle": "How a camera, not code, got Airbnb moving",
+  "format": "company_story",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.3,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Airbnb 초기, 2007~2009) + 가상 적용 (사내 전문가 매칭 프로그램)",
+  "insight": "초기 마켓플레이스의 병목은 공급의 '양'보다 구매자가 믿고 고를 수 있는 공급의 '질'일 때가 많다. 가진 공급을 한 곳에서 손으로 고치는 것이 트래픽을 늘리는 것보다 먼저다.",
+  "misconception": "마켓플레이스가 안 크면 광고로 구매자를 더 데려오거나 판매자 수를 늘리면 된다. 확장할 수 없는 수작업은 시간 낭비다.",
+  "relatedLessonIds": [
+    "BMO-05-06",
+    "CUS-04-04"
+  ],
+  "sources": [
+    {
+      "text": "Paul Graham, \"Do Things That Don't Scale\" (2013). 창업자들이 뉴욕에서 호스트를 직접 찾아가 사진을 찍은 일화",
+      "url": "http://paulgraham.com/ds.html"
+    },
+    {
+      "text": "Airbnb Newsroom, company history (2007년 샌프란시스코 디자인 컨퍼런스 기간 에어매트리스 임대, 공동창업자)",
+      "url": "https://news.airbnb.com/about-us/"
+    },
+    {
+      "text": "Joe Gebbia 강연·인터뷰 (예: Y Combinator / Startup School 등). 뉴욕 사진 촬영 이후 매출이 약 두 배가 되었다는 본인 발언",
+      "url": null
+    },
+    {
+      "text": "Airbnb 전문 사진 촬영 프로그램 관련 언론 보도 (2010년 전후)",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "2007년 10월 샌프란시스코 디자인 컨퍼런스(IDSA) 기간 호텔이 가득 차 에어매트리스를 빌려준 일, 첫 손님 3명은 Airbnb 공식 역사 자료로 게시 전 재확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "뉴욕 방문 시점을 2009년 초 Y Combinator 기간으로 적었습니다. Paul Graham 에세이와 대조해 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "'매출이 약 두 배가 되었다'는 Joe Gebbia 본인의 회고 발언입니다. 카드에는 'has said in later talks'로 표시했고 구체 금액은 넣지 않았습니다. 원 발언 출처를 확보하세요.",
+      "status": "open"
+    },
+    {
+      "note": "전문 사진가 프로그램의 정확한 시작 연도와 규모는 쓰지 않고 'later'로만 표현했습니다. 필요하면 보도자료로 확인 후 보완하세요.",
+      "status": "open"
+    },
+    {
+      "note": "'뉴욕 사진 상당수가 어둡고 작고 흐렸다'는 창업자들의 회고에 근거한 정성적 묘사입니다. 수치는 넣지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business Models · Company story",
+      "title": "Airbnb's first big fix wasn't code. It was a camera.",
+      "body": [
+        "In October 2007, two designers in San Francisco were short on rent. A design conference had filled the city's hotels, so they put air mattresses on their floor and offered them with breakfast. Three guests came.",
+        "That was the start of Airbnb. The harder part came next: getting strangers to book strangers' homes, again and again."
+      ],
+      "image": {
+        "label": "Air mattresses on an apartment floor with a breakfast tray",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 작은 아파트 거실 바닥에 에어매트리스 세 개, 그 옆에 아침 식사 쟁반. 창밖으로 도시 야경. 실제 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/bmo-05-09-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Growth is flat. What do you fix first?",
+      "body": [
+        "By early 2009, the three founders had a working site and a place in Y Combinator, a startup program. But bookings were barely growing and money was tight.",
+        "Looking at New York, their most important city, they noticed many listing photos were dark, small or blurry, often taken on phones. What would you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Spend what money is left on ads to bring in more travelers",
+            "verdict": "risky",
+            "feedback": "More visitors would arrive, but they'd meet the same unclear listings. You'd pay for traffic that leaves without booking."
+          },
+          {
+            "key": "B",
+            "text": "Fly to New York, meet hosts and photograph their homes yourselves",
+            "verdict": "best",
+            "feedback": "It costs time that doesn't scale, but it fixes what guests actually see and teaches you what hosts struggle with. This is what they did."
+          },
+          {
+            "key": "C",
+            "text": "Email every host a guide on taking better photos",
+            "verdict": "partial",
+            "feedback": "Cheap and scalable, but most busy hosts won't act on an email. You'd also learn nothing about why they posted weak photos."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "They went to New York themselves.",
+      "body": [
+        "The founders flew to New York, met hosts in person and photographed their homes with a rented camera. They also stayed with hosts and asked what made hosting hard.",
+        "Joe Gebbia has said in later talks that revenue there roughly doubled soon after. Airbnb later turned the idea into a program that sent professional photographers to hosts' homes."
+      ],
+      "image": {
+        "label": "A founder with a camera photographing a bright guest room",
+        "aspectRatio": "16:9",
+        "brief": "왼쪽에는 어둡고 흐린 휴대폰 사진 속 방, 오른쪽에는 밝게 정리된 같은 방의 사진. 가운데에 카메라를 든 사람. 실제 인물 얼굴이나 로고는 쓰지 않음.",
+        "url": "assets/images/bmo-05-09-c3.jpg"
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "A listing nobody trusts isn't really supply.",
+      "body": [
+        "In a marketplace, **liquidity** means a buyer who shows up has a good chance of finding something and completing a deal. It's tempting to measure it by count: how many listings, how many sellers.",
+        "Airbnb's New York problem wasn't count. Travelers could see listings but couldn't judge them. A blurry photo of a stranger's spare room asks a guest to take a big risk on little information. Better photos turned listings that existed on paper into listings people would book."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Why it worked",
+      "title": "One trip did three jobs.",
+      "body": [
+        "Taking the photos by hand helped in ways an ad budget couldn't."
+      ],
+      "list": [
+        "**Trust:** guests could finally see what they would get",
+        "**Learning:** hosts described problems no website data would show",
+        "**Focus:** one city, so every improved listing made local searches better"
+      ],
+      "callout": "Paul Graham later used this trip as a main example in his essay \"Do Things That Don't Scale.\""
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Hand work is a test, not the business.",
+      "body": [
+        "Going door to door worked because the founders had found the real bottleneck. If a market's real problem is too few buyers, hand-polishing listings just gives you prettier pages nobody visits.",
+        "It also can't last. Three founders can't photograph every home in the world. Airbnb kept the idea by paying photographers, a cost it could carry once bookings grew. Start by hand, then decide what is worth turning into a system."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's an internal help marketplace.",
+      "illustrative": true,
+      "body": [
+        "You run a program at a 3,000-person company. Employees can book an hour with an in-house expert on data, contracts or pricing. About 80 experts signed up, but requests are rare. Most profiles show only a name and a job title.",
+        "You have one month. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Send a company-wide email promoting the program",
+            "verdict": "risky",
+            "feedback": "Visits may jump, but people will meet the same thin profiles and leave unsure who can help. You spend attention you can't easily win back."
+          },
+          {
+            "key": "B",
+            "text": "Pick one department, sit with its 15 experts and rewrite their profiles together, with real examples of problems they've solved",
+            "verdict": "best",
+            "feedback": "Slow and narrow, but it gives colleagues a reason to trust a booking and shows you what experts need. Then you can repeat it elsewhere."
+          },
+          {
+            "key": "C",
+            "text": "Build a rating system so the best experts rise to the top",
+            "verdict": "partial",
+            "feedback": "Ratings build trust over time, but they need bookings first. With few requests, most experts would have nothing to show."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Make the supply you have worth choosing.",
+      "body": [
+        "Early on, a marketplace often grows faster by fixing what buyers see than by adding more buyers or sellers.",
+        "**Try it today:** look at your offer through a new customer's eyes. Find one thing a stranger can't judge from what you show them, and fix it by hand for your top five listings, products or people."
+      ],
+      "next": "Next · Set your take rate"
+    }
+  ]
+}

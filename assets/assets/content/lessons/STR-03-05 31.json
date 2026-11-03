@@ -1,0 +1,288 @@
+{
+  "id": "STR-03-05",
+  "unitId": "STR-03",
+  "categoryId": "STR",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Sustainable advantage",
+  "readerTitle": "The $3,000 edge that's worth less than the $800 one",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (비스트로, 미용실 예약 앱) + 실제 연구 (Mueller의 장기 수익률 연구, McGrath의 일시적 우위론) · 사례 수치는 모두 설명용",
+  "insight": "우위의 가치는 오늘의 크기가 아니라 '크기 × 경쟁자가 따라잡기까지 걸리는 시간'으로 잰다.",
+  "misconception": "지금 더 큰 이익을 주는 우위가 더 좋은 우위다. 한번 앞서면 계속 앞선다.",
+  "relatedLessonIds": [
+    "STR-03-06",
+    "STR-03-02"
+  ],
+  "sources": [
+    {
+      "text": "Mueller, D. C. (1986). Profits in the Long Run. Cambridge University Press.",
+      "url": null
+    },
+    {
+      "text": "McGrath, R. G. (2013). The End of Competitive Advantage. Harvard Business Review Press.",
+      "url": null
+    },
+    {
+      "text": "비스트로·예약 앱 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "비스트로 계산: 대표 메뉴 $3,000 × 4개월 = $12,000 (모방 후 추가 이익 0으로 가정). 테라스 $800 × 60개월 = $48,000. 역전 시점 12,000 ÷ 800 = 15개월. 차트: 6개월 $4,800, 1년 $9,600, 2년 $19,200, 5년 $48,000.",
+      "status": "open"
+    },
+    {
+      "note": "예약 앱 계산: AI 기능 $10,000 × 3개월 = $30,000. 결제 단말 연동 $3,000 × 최소 24개월 = $72,000 이상. 설치·유지 비용은 두 안이 같다고 단순화했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Mueller(1986)는 미국 기업의 초과 이익이 시간이 지나며 평균으로 수렴하지만 일부 기업은 장기간 평균 이상을 유지한다는 결과를 보고했습니다. 카드에는 수치 없이 일반적 경향으로만 적었습니다. 게시 전 요약 표현을 원문과 대조하세요.",
+      "status": "open"
+    },
+    {
+      "note": "McGrath(2013)의 주장(빠르게 변하는 시장에서는 일시적 우위를 연속으로 이어가는 것이 중요하다)을 요약했습니다. 표현이 원문 취지와 맞는지 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Strategy · Numbers twist",
+      "title": "The $3,000 edge that's worth less than the $800 one",
+      "illustrative": true,
+      "body": [
+        "A restaurant owner has money for one bet this year. A new signature dish would add about $3,000 a month in profit. A five-year lease on the only terrace on the street would add about $800.",
+        "The first number is almost four times bigger. It is still the smaller prize."
+      ],
+      "image": {
+        "label": "A plated dish and a sunny terrace on two sides of a scale",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 저울 왼쪽에 화려한 대표 요리 접시(\"$3,000/mo\" 태그), 오른쪽에 작은 테라스 테이블(\"$800/mo\" 태그). 저울이 의외로 테라스 쪽으로 기울어 있음. 실제 식당 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/str-03-05-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Dish or terrace?",
+      "illustrative": true,
+      "body": [
+        "You run a busy bistro. The signature dish adds $3,000 a month, but the restaurants next door could copy it within about four months.",
+        "The terrace lease adds $800 a month, and no one else on the street can get a terrace for five years. Both cost about the same to set up. Which is worth more?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The dish. It earns almost four times more each month",
+            "verdict": "risky",
+            "feedback": "You win the first few months, but once neighbors copy it the extra profit fades. Four months of $3,000 is about $12,000 in total."
+          },
+          {
+            "key": "B",
+            "text": "The terrace. It earns less, but nobody can match it",
+            "verdict": "best",
+            "feedback": "$800 a month for 60 months is $48,000, four times the dish. You give up fast cash for an edge that keeps paying."
+          },
+          {
+            "key": "C",
+            "text": "The dish, because quick profit can fund the next bet",
+            "verdict": "partial",
+            "feedback": "Fast cash has real value, and chaining bets is smart. But in total it's $12,000 against $48,000, so it only makes sense if you can still get the terrace too."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "The dish wins for 15 months. Then it stops.",
+      "illustrative": true,
+      "body": [
+        "Assume the dish's extra profit drops to zero once rivals copy it. The terrace earns steadily until the lease ends. Here is the total extra profit from each."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "After 6 months",
+            "rows": [
+              {
+                "label": "Signature dish",
+                "value": 12000,
+                "highlight": false
+              },
+              {
+                "label": "Terrace",
+                "value": 4800,
+                "highlight": false
+              }
+            ]
+          },
+          {
+            "label": "After 1 year",
+            "rows": [
+              {
+                "label": "Signature dish",
+                "value": 12000,
+                "highlight": false
+              },
+              {
+                "label": "Terrace",
+                "value": 9600,
+                "highlight": false
+              }
+            ]
+          },
+          {
+            "label": "After 2 years",
+            "rows": [
+              {
+                "label": "Signature dish",
+                "value": 12000,
+                "highlight": false
+              },
+              {
+                "label": "Terrace",
+                "value": 19200,
+                "highlight": true
+              }
+            ]
+          },
+          {
+            "label": "After 5 years",
+            "rows": [
+              {
+                "label": "Signature dish",
+                "value": 12000,
+                "highlight": false
+              },
+              {
+                "label": "Terrace",
+                "value": 48000,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "callout": "Value of an edge = **extra profit per month × months it lasts**.",
+      "image": {
+        "label": "Signature dish spike vs terrace compounding",
+        "aspectRatio": "4:3",
+        "brief": "Cumulative extra profit: dish stays 12k, terrace grows to 48k.",
+        "url": "assets/images/str-03-05-info.png"
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Sustainable advantage",
+      "body": [
+        "A **sustainable advantage** is an edge that keeps paying after rivals have seen it and tried to copy it.",
+        "The test isn't how big the edge is today. It's how long it survives competition. A bigger edge that disappears in a season can be worth far less than a modest one that holds for years."
+      ],
+      "image": {
+        "label": "Two profit lines: a tall spike that drops and a low line that keeps going",
+        "aspectRatio": "16:9",
+        "brief": "그래프 인포그래픽. 가로축은 시간. 빨간 선은 높게 치솟았다가 경쟁자 아이콘이 등장하는 지점에서 0으로 떨어짐(\"Copied\"). 초록 선은 낮지만 오른쪽 끝까지 평평하게 이어짐. 두 선 아래 면적을 칠해 초록 면적이 더 크게 보이도록.",
+        "url": "assets/images/str-03-05-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "Most extra profit fades. Not all of it.",
+      "body": [
+        "Economists who track company profits over many years see a common pattern. Firms earning well above average tend to drift back toward average as rivals enter, copy and undercut. Dennis Mueller's long-run studies of US companies are a well-known example.",
+        "But the drift is not complete. Some firms stay above average for a long time. What sets them apart is usually not a bigger first edge. It's an edge that rivals find **slow or hard to match**."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Use it anywhere",
+      "title": "Ask one question: how long to copy?",
+      "body": [
+        "Before you invest in an edge, estimate how long a determined rival would need to match it."
+      ],
+      "list": [
+        "**Weeks:** a price cut, a promotion, a new menu item",
+        "**Months:** a new feature, a new service, a redesign",
+        "**Years:** a scarce location, a trusted reputation, long supplier relationships, a well-trained team"
+      ],
+      "callout": "Why some edges are so hard to copy is the next lesson."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Nothing lasts forever, and time is a guess.",
+      "body": [
+        "Leases end, tastes shift, and new technology can make a durable edge irrelevant. Your estimate of \"months to copy\" is a judgment, not a fact.",
+        "Short edges aren't worthless either. Rita McGrath argues in *The End of Competitive Advantage* that in fast-moving markets, firms win by chaining many temporary advantages. Take quick wins, but don't build your whole plan on them lasting. And a lasting edge can make owners comfortable just when they should keep improving."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a booking app for salons.",
+      "illustrative": true,
+      "body": [
+        "Your team can build one thing this quarter. An AI scheduling assistant would add about $10,000 a month in profit, but rivals could ship something similar in about three months.",
+        "Direct links with the three payment terminals most salons already use would add $3,000 a month. They need partner deals, so rivals would need two years or more."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Build the AI assistant first. It's the bigger win",
+            "verdict": "partial",
+            "feedback": "A real win of about $30,000 before rivals catch up. Worth doing later, but not instead of the edge that lasts."
+          },
+          {
+            "key": "B",
+            "text": "Build the payment links",
+            "verdict": "best",
+            "feedback": "$3,000 a month for at least 24 months is $72,000 or more. Slower to show, but rivals can't erase it next quarter."
+          },
+          {
+            "key": "C",
+            "text": "Skip both and cut prices 30% to win users",
+            "verdict": "risky",
+            "feedback": "Rivals can match a price cut in a day. You'd give up margin for an edge that may last only until they notice."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Value an edge by how long it lasts, not how big it looks.",
+      "body": [
+        "An advantage is worth its size multiplied by the time before rivals close the gap.",
+        "**Try it today:** list your three biggest advantages. Next to each, write how many months a determined rival would need to copy it."
+      ],
+      "next": "Next · Why rivals can't copy you"
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "id": "CUS-07-08",
+  "unitId": "CUS-07",
+  "categoryId": "CUS",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "Cut a product to its core",
+  "readerTitle": "The dashboard with 38 charts and three that matter",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.1,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (택배 회사 사내 분석팀 대시보드, 생활용품 체인의 자체 브랜드 칼 세트) · 모든 수치는 설명용",
+  "insight": "제품을 줄일 때는 '무엇을 뺄까'가 아니라 '이 제품이 돕는 핵심 결정이나 쓰임이 무엇인가'에서 출발해, 거기에 이어지지 않는 것을 덜어낸다.",
+  "misconception": "모두에게 무엇을 남길지 물어보면 공정하고 안전하게 줄일 수 있다. 숨기거나 탭으로 옮기면 줄인 것과 같다.",
+  "relatedLessonIds": [
+    "CUS-07-03",
+    "CUS-07-05"
+  ],
+  "sources": [
+    {
+      "text": "이 유닛의 개념 레슨 CUS-07-03 (Saying no to features), CUS-07-05 (Simplicity as a feature)",
+      "url": null
+    },
+    {
+      "text": "모든 수치와 상황은 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "대시보드 수치는 모두 가상입니다. 계산 확인: 유지 5개 + 요청 시 보관 9개 + 삭제 24개 = 38개.",
+      "status": "open"
+    },
+    {
+      "note": "칼 세트 사례(12종 중 3종만 주로 사용)는 설명용 가상 설정이며 실제 조사 결과로 표현하지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Everyday scene",
+      "title": "The dashboard with 38 charts and three that matter",
+      "illustrative": true,
+      "body": [
+        "Every Monday, the regional managers at a parcel delivery company open the operations dashboard. It has 38 charts.",
+        "They export the data to a spreadsheet and look at three numbers. Two years ago the dashboard had six charts. Every chart added since came from a reasonable request."
+      ],
+      "image": {
+        "label": "A crowded dashboard with three numbers circled",
+        "aspectRatio": "4:3",
+        "brief": "노트북 화면 가득 작은 차트 38개가 빽빽하게 깔린 대시보드. 그 위에 빨간 펜으로 숫자 세 개만 동그라미. 옆에 커피잔과 스프레드시트가 열린 두 번째 창. 실제 소프트웨어 로고 없이.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Clean it up without upsetting anyone.",
+      "illustrative": true,
+      "body": [
+        "You lead the small analytics team that owns the dashboard. Leadership asks you to \"clean it up\" this quarter.",
+        "Where do you start?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Survey everyone who uses it and keep any chart someone wants",
+            "verdict": "risky",
+            "feedback": "It feels fair, but every chart has a fan, so you keep nearly all 38. That's how the clutter grew: saying yes one request at a time."
+          },
+          {
+            "key": "B",
+            "text": "Name the one decision the dashboard serves, and keep only what feeds it",
+            "verdict": "best",
+            "feedback": "This gives you a reason to say no that isn't personal. The cost is a few unhappy people, so plan a way for them to still get their numbers."
+          },
+          {
+            "key": "C",
+            "text": "Keep all 38, but sort them into tabs",
+            "verdict": "partial",
+            "feedback": "The first screen looks calmer, and nobody loses anything. But the three numbers that matter are still competing with 35 others, just one click away."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What happened",
+      "title": "Start from the decision, and the cut sorts itself.",
+      "illustrative": true,
+      "body": [
+        "The dashboard exists for one weekly call: how many drivers each depot needs next week. Sort every chart against that call."
+      ],
+      "breakdown": [
+        {
+          "value": "5",
+          "label": "Keep",
+          "detail": "Feed the weekly staffing decision",
+          "highlight": true
+        },
+        {
+          "value": "9",
+          "label": "Archive",
+          "detail": "Used monthly by a few people; available on request",
+          "highlight": false
+        },
+        {
+          "value": "24",
+          "label": "Remove",
+          "detail": "No one can link them to a decision",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concepts at work",
+      "title": "Two ideas from this unit, doing the cutting.",
+      "body": [
+        "**Simplicity as a feature:** the five charts *are* the product. Every extra chart made them harder to find, so removing charts improved the dashboard for its main job.",
+        "**Saying no:** each of the 24 charts was cheap to add. The cost came later, paid by every manager, every Monday, in time spent hunting. Saying no now protects the people who use the product most."
+      ],
+      "image": {
+        "label": "Five charts on a clean screen, others in a box",
+        "aspectRatio": "16:9",
+        "brief": "깨끗한 화면에 큰 차트 5개만 남아 있고, 화면 밖 상자에 작은 차트 카드들이 담겨 'Archive' 라벨이 붙어 있음. 밝고 단순한 플랫 일러스트.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How to cut",
+      "title": "Ask three questions of every part.",
+      "body": [
+        "This works for a report, a menu, a service package or an app."
+      ],
+      "list": [
+        "**Which job or decision does it serve?** If no one can say, it's a cut candidate.",
+        "**Who uses it, and how often?** Check what people actually do, not what they say they'd miss.",
+        "**What breaks if it's gone?** If the answer is \"nothing,\" remove it. If it's \"one monthly task,\" move it somewhere quieter."
+      ],
+      "callout": "The core is whatever is left when every answer points to the main job."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Cutting has a cost, and someone pays it.",
+      "body": [
+        "One of the archived charts may be the finance lead's only source for a quarterly report. Cut it without warning and you lose trust you'll need next time.",
+        "Tell people what's moving and why before you move it. Give them a path back, such as on-request reports. And watch the first month: if many people ask for the same chart, it was core after all."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a knife block.",
+      "illustrative": true,
+      "body": [
+        "You buy for a chain of homeware shops. Your own-brand 12-piece knife block sells steadily, but reviews say the same thing: people use the chef's knife, the paring knife and the bread knife. The rest stay in the block.",
+        "Next season's range is due. What do you change?"
+      ],
+      "image": {
+        "label": "Knife block with three knives pulled forward",
+        "aspectRatio": "16:9",
+        "brief": "나무 칼 블록에 칼 12자루. 셰프 나이프, 과도, 빵칼 세 자루만 앞으로 살짝 빠져 밝게 조명되고 나머지는 흐릿하게. 실제 브랜드 로고나 상표 없이.",
+        "url": null
+      },
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Drop sets entirely and sell every knife on its own",
+            "verdict": "partial",
+            "feedback": "Nobody pays for knives they won't use. But now each shopper must work out which three they need, so the choice gets harder, not simpler."
+          },
+          {
+            "key": "B",
+            "text": "Keep the 12-piece block and add a free sharpener",
+            "verdict": "risky",
+            "feedback": "More in the box can look like more value, but it's feature creep. You raise your cost and bury the three knives people actually want."
+          },
+          {
+            "key": "C",
+            "text": "Lead with a 3-knife set of the ones people use; sell the others singly",
+            "verdict": "best",
+            "feedback": "Simplicity makes the core easy to choose, and saying no to the other nine in the main set cuts cost. Keen cooks can still add more."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Find the main job first. Then cut whatever doesn't serve it.",
+      "body": [
+        "Concepts used: **simplicity as a feature** (less clutter makes the core easier to use) and **saying no to features** (every extra has a cost someone keeps paying).",
+        "**Try it today:** pick one product, report or service you own. List its parts and ask of each: which job does this serve? Mark the ones with no answer."
+      ],
+      "next": "Next · Apple cuts its product line in 1997"
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "id": "THK-07-07",
+  "unitId": "THK-07",
+  "categoryId": "THK",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "Why are customers leaving a gym?",
+  "readerTitle": "Members are quitting the gym. Where do you look first?",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (동네 헬스장, 식당 예약 소프트웨어) · 모든 수치는 설명용",
+  "insight": "'고객이 떠난다'는 문제가 아니라 증상이다. 누가, 언제부터, 무엇과 비교해 떠나는지 정의하고 쪼개면 어디를 볼지가 저절로 좁혀진다.",
+  "misconception": "이탈이 늘면 바로 할인이나 설문, 새 기능 같은 해결책부터 내놓아야 한다. 전체 숫자만 보면 원인을 알 수 있다.",
+  "relatedLessonIds": [
+    "THK-07-01",
+    "THK-07-02"
+  ],
+  "sources": [
+    {
+      "text": "모든 수치와 상황은 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "차트 계산 확인: 지난달 해지 14 + 10 + 6 = 30, 이번 달 32 + 12 + 6 = 50. 증가분 20 중 가입 3개월 미만 회원이 +18(90%), 3~12개월 +2, 1년 이상 0.",
+      "status": "open"
+    },
+    {
+      "note": "헬스장이 2월에 무료 트레이너 첫 세션을 없앴다는 설정은 설명용 가상 사례입니다. 실제 업계 통계나 연구를 인용하지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Everyday scene",
+      "title": "Members are quitting the gym. Where do you look first?",
+      "illustrative": true,
+      "body": [
+        "Maya owns a neighborhood gym with about 1,000 members. For a year, around 30 people cancelled each month. This month, 50 did.",
+        "Her team has ideas already: a discount, new machines, longer hours. Each idea costs money. None of them starts with a clear picture of who is leaving."
+      ],
+      "image": {
+        "label": "Gym front desk with a growing stack of cancellation forms",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 일러스트. 동네 헬스장 프런트 데스크 위에 해지 신청서가 쌓여 있고, 사장이 팔짱을 끼고 바라봄. 뒤로 운동 기구가 흐릿하게 보임. 실제 브랜드 로고 없음.",
+        "url": "assets/images/thk-07-07-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What should Maya do first?",
+      "illustrative": true,
+      "body": [
+        "Cancellations jumped from 30 to 50 in one month. Maya has a staff meeting tomorrow and wants to act fast."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Offer 20% off to anyone who tries to cancel",
+            "verdict": "risky",
+            "feedback": "It may slow cancellations for a while, but it treats a symptom she hasn't defined. She could lose margin on every member and never learn the cause."
+          },
+          {
+            "key": "B",
+            "text": "Send every member a survey about what they'd like improved",
+            "verdict": "partial",
+            "feedback": "Listening is good, but most answers will come from people who are staying. It gathers opinions before the question is clear."
+          },
+          {
+            "key": "C",
+            "text": "Pin down who is leaving, since when, and compared to what",
+            "verdict": "best",
+            "feedback": "This is **defining the problem first**. A sharper question costs little and tells her where to spend effort."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "Define the problem",
+      "title": "Turn a worry into a question.",
+      "illustrative": true,
+      "body": [
+        "\"Customers are leaving\" feels like a problem, but it points nowhere. Maya rewrites it: **\"Monthly cancellations rose from 30 to 50 this month. Which members are leaving, and what changed for them?\"**",
+        "Now she has a starting number, a time window and a target to explain: 20 extra cancellations. Any idea that can't explain those 20 can wait."
+      ],
+      "image": {
+        "label": "A vague sentence rewritten into a precise question",
+        "aspectRatio": "16:9",
+        "brief": "메모지 두 장 비교. 왼쪽 \"Customers are leaving\"에 줄이 그어져 있고, 오른쪽에 \"30 → 50 cancellations this month. Who? What changed?\"가 또렷하게 적힘. 깔끔한 플랫 스타일.",
+        "url": "assets/images/thk-07-07-c3.jpg"
+      }
+    },
+    {
+      "index": 4,
+      "type": "chart",
+      "eyebrow": "Break it into parts",
+      "title": "Split the 50 by how long people had been members.",
+      "illustrative": true,
+      "body": [
+        "Maya splits cancellations into three groups that add up to the whole: new, middle and long-time members."
+      ],
+      "chart": {
+        "unit": "count",
+        "groups": [
+          {
+            "label": "Last month (30)",
+            "rows": [
+              {
+                "label": "Under 3 months",
+                "value": 14,
+                "highlight": false
+              },
+              {
+                "label": "3–12 months",
+                "value": 10,
+                "highlight": false
+              },
+              {
+                "label": "Over 1 year",
+                "value": 6,
+                "highlight": false
+              }
+            ]
+          },
+          {
+            "label": "This month (50)",
+            "rows": [
+              {
+                "label": "Under 3 months",
+                "value": 32,
+                "highlight": true
+              },
+              {
+                "label": "3–12 months",
+                "value": 12,
+                "highlight": false
+              },
+              {
+                "label": "Over 1 year",
+                "value": 6,
+                "highlight": false
+              }
+            ]
+          }
+        ]
+      },
+      "callout": "18 of the 20 extra cancellations came from members who joined in the last three months."
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Now where should Maya look?",
+      "illustrative": true,
+      "body": [
+        "Long-time members are leaving at the same rate as before. New members are not."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "What changed in a new member's first weeks recently",
+            "verdict": "best",
+            "feedback": "Breaking the problem into parts put 90% of the increase in one group. Looking there first is the cheapest path to the cause."
+          },
+          {
+            "key": "B",
+            "text": "The old equipment long-time members keep complaining about",
+            "verdict": "risky",
+            "feedback": "The complaints may be real, but that group's cancellations didn't move. Fixing it spends money on a problem that isn't this one."
+          },
+          {
+            "key": "C",
+            "text": "All three groups equally, to be thorough",
+            "verdict": "partial",
+            "feedback": "Thorough, but slow. Splitting the problem is useful precisely because it tells you where *not* to look yet."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "What she found",
+      "title": "One small cut, one big leak.",
+      "illustrative": true,
+      "body": [
+        "Maya checks the new-member journey step by step: sign-up, first visit, first month. In February, to save costs, the gym had dropped its free first session with a trainer.",
+        "Many recent joiners came once or twice, felt lost, and stopped coming. Weeks later they cancelled. Bringing back a shorter intro session costs far less than a discount for everyone."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The first split may not be the right one.",
+      "body": [
+        "Maya got lucky: tenure revealed the pattern on the first try. Often it won't. Try a few cuts, such as time of day, plan type or location, and keep the parts adding up to the whole so nothing hides in a gap.",
+        "And a split shows *where* the change is, not *why*. She still had to look at what happened to those members before acting."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's restaurant booking software.",
+      "illustrative": true,
+      "body": [
+        "You sell reservation software to restaurants on a monthly plan. Over two months, cancellations doubled. Your team wants to rush out the most-requested feature. What's your first move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Build the most-requested feature as fast as possible",
+            "verdict": "risky",
+            "feedback": "Requests come mostly from customers who stay. You'd spend months of engineering without knowing whether it touches the restaurants that left."
+          },
+          {
+            "key": "B",
+            "text": "Split cancellations by sign-up date, plan and restaurant size, and compare with before",
+            "verdict": "best",
+            "feedback": "This **defines the problem** and **breaks it into parts** at once. If the jump sits in one group, you know where to dig."
+          },
+          {
+            "key": "C",
+            "text": "Call the five biggest restaurants that cancelled",
+            "verdict": "partial",
+            "feedback": "You'll hear useful stories, but five large accounts may not represent the dozens of small ones that left. Calls work better after the split shows who to call."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Before fixing \"leaving,\" find out who is leaving.",
+      "body": [
+        "This lesson used two tools: **define the problem first** (a number, a time window, a comparison) and **break it into parts** that add up to the whole. Together they shrank a vague worry into one place to look.",
+        "**Try it today:** take one number you're worried about. Write it as \"X changed from A to B since when,\" then split it into three groups that add up to the total."
+      ],
+      "next": "Next · How many coffees does your city drink a day?"
+    }
+  ]
+}

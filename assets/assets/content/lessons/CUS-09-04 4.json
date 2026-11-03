@@ -1,0 +1,266 @@
+{
+  "id": "CUS-09-04",
+  "unitId": "CUS-09",
+  "categoryId": "CUS",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Total cost of ownership",
+  "readerTitle": "The cheaper forklift that costs $10,000 more",
+  "format": "numbers_twist",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (물류창고 지게차, 일정관리 소프트웨어) · 모든 수치는 설명용",
+  "insight": "사업 고객은 가격표가 아니라 사서 쓰고 고치고 바꾸는 데 드는 전체 비용을 산다. 파는 쪽은 그 계산을 대신 보여줄 수 있어야 한다.",
+  "misconception": "구매 가격이 낮은 쪽이 고객에게 더 싼 선택이다. 비싸다는 말을 들으면 가격을 깎아야 한다.",
+  "relatedLessonIds": [
+    "CUS-09-05",
+    "CUS-02-06"
+  ],
+  "sources": [
+    {
+      "text": "구매·관리회계의 표준 개념 (총소유비용, total cost of ownership)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "지게차 계산: A = $25,000 + 에너지 $6,000×5 + 정비 $3,000×5 = $25,000 + $30,000 + $15,000 = $70,000. B = $35,000 + $3,000×5 + $2,000×5 = $35,000 + $15,000 + $10,000 = $60,000. 차이 $10,000. 구매가 비중 A 25/70 = 35.7%(약 3분의 1), B 35/60 = 58.3%.",
+      "status": "open"
+    },
+    {
+      "note": "소프트웨어 계산(20명, 1년차, 관리자 시급 $50): X = 20×$10×12 = $2,400 + 셋업 $4,000 + 주 4시간×52주×$50 = $10,400 → $16,800. Y = 20×$25×12 = $6,000 + 주 1시간×52주×$50 = $2,600 → $8,600.",
+      "status": "open"
+    },
+    {
+      "note": "특정 동력 방식(전기/디젤 등) 지게차의 실제 비용 비교로 읽히지 않도록 'Forklift A/B'로만 표기했습니다. 실제 업계 수치를 넣지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Numbers twist",
+      "title": "The cheaper forklift that costs $10,000 more",
+      "illustrative": true,
+      "body": [
+        "A warehouse manager has two quotes on her desk. One forklift costs $25,000. The other costs $35,000.",
+        "The price is the only cost printed in bold on each quote. Over the next five years, it may be the smallest number she pays."
+      ],
+      "image": {
+        "label": "Two forklifts with price tags, one tag much larger",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 창고 안에 지게차 두 대가 나란히 있고 각각 가격표 \"$25,000\", \"$35,000\"가 달림. 지게차 뒤로 연료통, 공구, 달력이 그림자처럼 길게 늘어져 숨은 비용을 암시. 실제 제조사 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which forklift is cheaper?",
+      "illustrative": true,
+      "body": [
+        "You run the warehouse and expect to keep the forklift five years.",
+        "**Forklift A:** $25,000. Energy about $6,000 a year, maintenance about $3,000 a year.",
+        "**Forklift B:** $35,000. Energy about $3,000 a year, maintenance about $2,000 a year."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Forklift A. It's $10,000 cheaper",
+            "verdict": "risky",
+            "feedback": "You save $10,000 on day one, but pay $4,000 more every year after. By year five, that gap has more than eaten the saving."
+          },
+          {
+            "key": "B",
+            "text": "Forklift B. It costs less over five years",
+            "verdict": "best",
+            "feedback": "Right. B costs more to buy and less to own. Over five years it comes out about $10,000 ahead. Next card shows the math."
+          },
+          {
+            "key": "C",
+            "text": "Too close to call. They're about even",
+            "verdict": "partial",
+            "feedback": "Good instinct to look past the price. But add up the five years and the gap is clear: about $10,000."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "Five years of owning each forklift",
+      "illustrative": true,
+      "body": [
+        "Forklift A totals **$70,000**. Forklift B totals **$60,000**. The price tag was only about a third of what A really costs."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Forklift A",
+            "rows": [
+              {
+                "label": "Purchase",
+                "value": 25000,
+                "highlight": false
+              },
+              {
+                "label": "Energy, 5 years",
+                "value": 30000,
+                "highlight": false
+              },
+              {
+                "label": "Maintenance, 5 years",
+                "value": 15000,
+                "highlight": false
+              },
+              {
+                "label": "Total",
+                "value": 70000,
+                "highlight": true
+              }
+            ]
+          },
+          {
+            "label": "Forklift B",
+            "rows": [
+              {
+                "label": "Purchase",
+                "value": 35000,
+                "highlight": false
+              },
+              {
+                "label": "Energy, 5 years",
+                "value": 15000,
+                "highlight": false
+              },
+              {
+                "label": "Maintenance, 5 years",
+                "value": 10000,
+                "highlight": false
+              },
+              {
+                "label": "Total",
+                "value": 60000,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Total cost of ownership",
+      "body": [
+        "**Total cost of ownership** is everything a customer spends to get, run, maintain and eventually replace something over the time they use it.",
+        "The price is just the part you see first. Business customers live with the rest: the fuel, the repairs, the hours their staff spend keeping it working."
+      ],
+      "image": {
+        "label": "Iceberg: price above water, running costs below",
+        "aspectRatio": "16:9",
+        "brief": "빙산 인포그래픽. 수면 위 작은 부분에 \"Price\", 수면 아래 큰 부분에 \"Setup\", \"Training\", \"Energy\", \"Repairs\", \"Downtime\", \"Replacement\" 라벨. 간결한 플랫 일러스트.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Where costs hide",
+      "title": "The costs that don't show up on the quote",
+      "body": [
+        "When you add up what something really costs, look for these:"
+      ],
+      "list": [
+        "**Getting started:** delivery, installation, setup, training",
+        "**Running:** energy, supplies, staff time",
+        "**Keeping it working:** maintenance, repairs, spare parts",
+        "**When it stops:** downtime and the work that waits",
+        "**The end:** removal or switching out, minus any resale value"
+      ],
+      "softwareNote": "The subscription is the price. The total cost includes connecting it to other systems, moving old data, training staff and the admin hours it needs every week. A cheap tool that needs a part-time admin is not cheap."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The seller's side",
+      "title": "If your price is higher, show the whole bill.",
+      "body": [
+        "Many sellers hear \"you're too expensive\" and cut the price. If your product costs less to own, that gives away money you didn't need to give.",
+        "The better move is to do the full math with the customer, using their numbers. It also helps the person who wants your product make the case to their finance team.",
+        "This lesson covers the cost side only. Next, we add what the purchase earns."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The total depends on guesses.",
+      "body": [
+        "Future costs are estimates. Energy prices, repair rates and how long you keep the item can all change. Sellers also tend to make a rival's running costs look worse than they are, and buyers know it.",
+        "Timing matters too. Money paid later is easier to bear than money paid now, and a business short on cash may rightly choose the lower price. If you'll replace the item in a year, the price tag matters much more."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now you sell software.",
+      "illustrative": true,
+      "body": [
+        "You sell a scheduling app at $25 per user per month. A 20-person company says a rival tool costs only $10.",
+        "You know the rival usually needs a $4,000 setup consultant and about 4 admin hours a week. Yours needs about 1. Their admin time costs about $50 an hour. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Match the rival at $10 per user to win the deal",
+            "verdict": "risky",
+            "feedback": "You'd likely win, but give up $3,600 a year in revenue you didn't need to lose, and train the customer to judge you on price alone."
+          },
+          {
+            "key": "B",
+            "text": "Work out the first-year cost of both tools with them",
+            "verdict": "best",
+            "feedback": "With their numbers, the rival comes to about $16,800 in year one and yours about $8,600. You keep your price and give them a case they can take to finance."
+          },
+          {
+            "key": "C",
+            "text": "Explain that your tool has more features",
+            "verdict": "partial",
+            "feedback": "Features may matter, but they don't answer the price worry. Admin hours and setup fees speak directly to it."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Customers pay for the whole life of a product, not just the price.",
+      "body": [
+        "Price is what it costs to buy. Total cost of ownership is what it costs to have. Judge purchases, and sell them, on the second number.",
+        "**Try it today:** pick one thing you sell. List every cost your customer pays after buying it. Is your total lower or higher than the main alternative?"
+      ],
+      "next": "Next · Why customers buy the return, not the product"
+    }
+  ]
+}

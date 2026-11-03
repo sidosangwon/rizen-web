@@ -1,0 +1,227 @@
+{
+  "id": "FIN-04-08",
+  "unitId": "FIN-04",
+  "categoryId": "FIN",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "Break-even for a software product",
+  "readerTitle": "How many subscribers before your software stops losing money?",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (회계 사무소가 만든 구독형 도구, 제조사 내부 팀의 딜러용 앱) · 모든 수치는 설명용",
+  "insight": "소프트웨어도 고객 한 명마다 드는 비용이 있고, 손익분기점은 그 비용을 뺀 뒤 남는 돈으로 계산해야 한다. 시장이 작으면 판매량보다 가격과 비용 레버가 더 중요하다.",
+  "misconception": "소프트웨어는 고객이 늘어도 추가 비용이 거의 없으니 월 고정비를 구독료로 나누면 손익분기점이 나온다.",
+  "relatedLessonIds": [
+    "FIN-04-01",
+    "FIN-04-02"
+  ],
+  "sources": [
+    {
+      "text": "관리회계의 표준 개념 (손익분기점, 가격·판매량·비용의 세 가지 이익 레버)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "회계 사무소 도구: 고객당 변동비 = 호스팅·결제 수수료 $5 + 지원 30분 × 시급 $30 = $15, 합계 $20. 남는 돈 $50 − $20 = $30. 손익분기점 $12,000 ÷ $30 = 400곳. 변동비를 무시하면 $12,000 ÷ $50 = 240곳, 지원비만 빠뜨리면 $12,000 ÷ $45 = 266.7 → 267곳.",
+      "status": "open"
+    },
+    {
+      "note": "레버 적용: 가격 $60 → $60 − $20 = $40 → $12,000 ÷ $40 = 300곳. 지원 시간 10분 → 지원비 $5, 변동비 $10 → $50 − $10 = $40 → 300곳. 두 경우 모두 400곳에서 100곳 줄어듭니다.",
+      "status": "open"
+    },
+    {
+      "note": "제조사 내부 팀: $200 − $40 = $160, $40,000 ÷ $160 = 250곳(전체 딜러 300곳의 약 83%). 가격 $150 → $110 → $40,000 ÷ $110 = 363.6 → 364곳(전체 딜러 수 초과). 가격 $250 → $210 → $40,000 ÷ $210 = 190.5 → 191곳.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Everyday scene",
+      "title": "How many subscribers before your software stops losing money?",
+      "illustrative": true,
+      "body": [
+        "A small bookkeeping firm built a reporting tool for its own clients. Other firms asked to use it, so the partners turned it into a product: $50 a month per firm.",
+        "Software is supposed to cost almost nothing per extra customer. That belief is about to make their target look much closer than it is."
+      ],
+      "image": {
+        "label": "Bookkeepers at a desk with a laptop showing a subscription counter",
+        "aspectRatio": "4:3",
+        "brief": "작은 회계 사무소 책상. 노트북 화면에 \"Paying firms: 120\" 카운터와 멀리 있는 깃발 \"Break-even?\". 서류철과 계산기가 주변에 있음. 실제 소프트웨어 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How many paying firms to break even?",
+      "illustrative": true,
+      "body": [
+        "The tool's fixed costs are $12,000 a month: a developer, base hosting and part of a manager's time. Each customer adds $5 in hosting and payment fees. Each also takes about 30 minutes of support a month from staff paid $30 an hour.",
+        "How many paying firms does the tool need to cover its costs?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "240 firms",
+            "verdict": "risky",
+            "feedback": "This divides fixed costs by the full $50 price. It treats every dollar as left over, so the target looks easier than it is."
+          },
+          {
+            "key": "B",
+            "text": "267 firms",
+            "verdict": "partial",
+            "feedback": "You counted hosting and fees, which is a good start. But support time is also a cost that grows with every customer."
+          },
+          {
+            "key": "C",
+            "text": "400 firms",
+            "verdict": "best",
+            "feedback": "Right. This is the **break-even point**: fixed costs divided by what each customer leaves after all the costs that come with them."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Follow one subscriber.",
+      "illustrative": true,
+      "body": [
+        "Each firm leaves **$30**, not $50. So $12,000 ÷ $30 = 400 firms. The forgotten support time pushed the target up by 133 firms."
+      ],
+      "breakdown": [
+        {
+          "value": "$50",
+          "label": "Price",
+          "detail": "Monthly subscription",
+          "highlight": false
+        },
+        {
+          "value": "−$5",
+          "label": "Hosting and fees",
+          "detail": "Grows with each customer",
+          "highlight": false
+        },
+        {
+          "value": "−$15",
+          "label": "Support",
+          "detail": "30 minutes at $30 an hour",
+          "highlight": false
+        },
+        {
+          "value": "$30",
+          "label": "Left over",
+          "detail": "Goes toward the $12,000 fixed costs",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Using break-even",
+      "title": "Software has a shape: big fixed costs, small per-customer costs.",
+      "body": [
+        "Break-even works the same for software as for a bakery. Fixed costs divided by what each sale leaves.",
+        "The difference is the shape. Most of a software product's costs are people and tools you pay for every month, no matter how many customers you have. The per-customer costs are small, but people's time often hides inside them."
+      ],
+      "image": {
+        "label": "Tall fixed-cost block next to thin per-customer slices",
+        "aspectRatio": "16:9",
+        "brief": "왼쪽에 높은 블록 \"Fixed costs $12,000 / month\", 오른쪽에 얇은 조각들 \"$5 hosting\", \"$15 support\". 지원 조각을 사람 아이콘으로 표시해 사람의 시간이 숨어 있다는 점을 강조.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Using the three levers",
+      "title": "Two different moves, the same new target.",
+      "illustrative": true,
+      "body": [
+        "The partners can pull any of the **three profit levers**: price, volume or cost. Two options cut the target by 100 firms:"
+      ],
+      "list": [
+        "**Price:** raise it to $60. Each firm leaves $40, so break-even falls to 300.",
+        "**Cost:** add help guides so support takes 10 minutes. Support drops to $5, each firm leaves $40, and break-even again falls to 300.",
+        "**Volume:** keep everything and sell to 400 firms."
+      ],
+      "callout": "Same result on paper. The real question is which one your customers will accept."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Breaking even once isn't the finish line.",
+      "body": [
+        "Subscribers leave. If 10 firms cancel each month, the tool must keep signing new ones just to stay at 400.",
+        "Monthly break-even also ignores what was spent building the tool before launch. Covering this month's costs doesn't pay that back. And fixed costs creep up as the product grows: a second developer moves the target too."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a team inside a manufacturer.",
+      "illustrative": true,
+      "body": [
+        "A four-person team at an equipment maker sells a maintenance app to the company's dealers. Fixed costs: $40,000 a month. Price: $200 per dealer, with $40 in per-dealer costs. That's 250 dealers to break even. There are 150 on board, and only 300 dealers exist. The boss wants break-even this year."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Cut the price to $150 to sign up dealers faster",
+            "verdict": "risky",
+            "feedback": "Each dealer would leave $110, pushing break-even to 364. That's more dealers than exist. The price lever moved the wrong way."
+          },
+          {
+            "key": "B",
+            "text": "Push sales hard to sign 100 more dealers",
+            "verdict": "partial",
+            "feedback": "The volume lever can work, but it needs 83% of all dealers. With a capped market, volume alone is a fragile plan."
+          },
+          {
+            "key": "C",
+            "text": "Add the feature dealers keep asking for and charge $250",
+            "verdict": "best",
+            "feedback": "Each dealer now leaves $210, so break-even falls to 191. When the market is small, price and cost often matter more than volume."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Count every cost a customer brings, then pick the lever that fits.",
+      "body": [
+        "Concepts used today:"
+      ],
+      "list": [
+        "**Break-even point:** fixed costs ÷ what each customer leaves",
+        "**The three profit levers:** price, volume and cost each move the target"
+      ],
+      "callout": "**Try it today:** list every cost that grows with one more customer, including staff time. Recalculate your break-even with it.",
+      "next": "Next · How one airline profits from rock-bottom fares"
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "id": "OPS-02-02",
+  "unitId": "OPS-02",
+  "categoryId": "OPS",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "Just in time",
+  "readerTitle": "Two hardware stores: why the emptier back room has fuller shelves",
+  "format": "two_businesses",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "illustrative",
+    "real_company"
+  ],
+  "caseNote": "가상 사례 (철물점 두 곳, 사내 마케팅팀, 온라인 소매업체 데이터팀) + 실제 기업 배경 (Toyota, 오노 다이이치)",
+  "insight": "재고와 미리 해 둔 일은 안전장치처럼 보이지만, 실제로는 문제를 가리고 돈을 묶어 둔다. 실제로 쓰인 만큼만 채우면 문제가 드러난다.",
+  "misconception": "재고를 넉넉히 쌓아 두거나 일을 미리 많이 해 두면 부족할 일이 없어 더 안전하다.",
+  "relatedLessonIds": [
+    "OPS-02-01",
+    "FIN-02-05"
+  ],
+  "sources": [
+    {
+      "text": "Ohno, T. (1988). Toyota Production System: Beyond Large-Scale Production. Productivity Press. (일본어 원서 1978)",
+      "url": null
+    },
+    {
+      "text": "철물점, 마케팅팀, 데이터팀 사례와 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "오노 다이이치가 미국 슈퍼마켓에서 아이디어를 얻었다고 쓴 내용은 그의 저서(Toyota Production System, 1978/영문 1988)에 나옵니다. 게시 전 해당 대목을 다시 확인하세요. 개발 시기는 카드에 '제2차 세계대전 이후 수십 년'으로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "'강물과 바위' 비유는 린 교육에서 흔히 쓰는 비유로, 특정 인물의 말로 인용하지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "가상 수치 계산: 두 매장의 주간 매출을 원가 기준 $7,500로 가정. A 매장 재고 $60,000 ÷ $7,500 = 8주, B 매장 재고 $15,000 ÷ $7,500 = 2주. B는 A의 1/4(25%).",
+      "status": "open"
+    },
+    {
+      "note": "코로나19 팬데믹 기간에 재고를 적게 유지하던 많은 기업이 부품·상품 부족을 겪었다는 내용은 일반적 서술로만 적었습니다. 특정 기업이나 수치는 넣지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Two businesses",
+      "title": "Two hardware stores. The emptier back room has fuller shelves.",
+      "illustrative": true,
+      "body": [
+        "Two hardware stores in the same town sell about the same amount each week.",
+        "Store A keeps about eight weeks of stock, much of it piled in a crowded back room. Store B keeps about two weeks' worth, mostly on the shelves, and gets a small delivery every morning.",
+        "Store B runs out of things less often."
+      ],
+      "image": {
+        "label": "Two store back rooms: one crammed with boxes, one nearly empty",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 화면을 반으로 나눠 왼쪽은 상자가 천장까지 쌓인 창고와 빈칸이 군데군데 있는 진열대, 오른쪽은 거의 빈 창고와 꽉 찬 진열대, 문 앞에 작은 배송 트럭. 실제 브랜드 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You're opening a third store.",
+      "illustrative": true,
+      "body": [
+        "You can stock it like Store A, with a big back room. Or like Store B, with small daily deliveries from your warehouse 30 minutes away.",
+        "Which approach keeps the shelves full best?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "A big back room. Plenty of stock means you never run out",
+            "verdict": "risky",
+            "feedback": "It feels safe, but cash sits in boxes, and a crowded room makes it hard to see what's actually missing. Store A runs out more, not less."
+          },
+          {
+            "key": "B",
+            "text": "Small stock, refilled each day based on what sold yesterday",
+            "verdict": "best",
+            "feedback": "Stock follows real demand, so less cash is tied up and gaps show up fast. It works here because your warehouse is close and reliable."
+          },
+          {
+            "key": "C",
+            "text": "Order a month ahead, based on a sales forecast",
+            "verdict": "partial",
+            "feedback": "Better than guessing, but forecasts miss. You'd still end up with too much of some items and too little of others."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What happened",
+      "title": "The full back room hides the gaps.",
+      "illustrative": true,
+      "body": [
+        "Store A's extra stock doesn't prevent empty shelves. It just makes them harder to notice and fix."
+      ],
+      "breakdown": [
+        {
+          "value": "$60,000",
+          "label": "Stock in Store A",
+          "detail": "About eight weeks of sales, sitting in boxes",
+          "highlight": false
+        },
+        {
+          "value": "$15,000",
+          "label": "Stock in Store B",
+          "detail": "About two weeks of sales, a quarter of the cash",
+          "highlight": true
+        },
+        {
+          "value": "Lost",
+          "label": "Buried boxes",
+          "detail": "Items exist, but staff can't find them, so shelves stay empty",
+          "highlight": false
+        },
+        {
+          "value": "Stale",
+          "label": "Slow sellers",
+          "detail": "Last year's colors and models nobody wants anymore",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Just in time",
+      "body": [
+        "**Just in time** means making or moving only what the next step needs, when it needs it, in the amount it needs.",
+        "The signal to refill comes from what was actually used, not from a guess about what might be. Store B reorders what sold yesterday. This is called *pull*: customers pull stock through the business, instead of the business pushing stock out and hoping it sells."
+      ],
+      "image": {
+        "label": "Push versus pull: stock piling up versus stock refilled as used",
+        "aspectRatio": "16:9",
+        "brief": "두 줄짜리 흐름도. 윗줄 \"Push\": 창고에서 매장으로 상자가 계속 밀려와 매장 앞에 쌓임. 아랫줄 \"Pull\": 고객이 물건을 하나 가져가면 화살표가 거꾸로 창고로 가서 딱 하나만 채워짐. 단순한 플랫 일러스트.",
+        "url": null
+      },
+      "softwareNote": "Code that's finished but not yet released is stock too. Teams that ship small changes as soon as they're ready find bugs sooner, while the work is still fresh in someone's mind."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Where it came from",
+      "title": "A car maker learned it from supermarkets.",
+      "body": [
+        "Just in time is most closely linked to Toyota and its production engineer Taiichi Ohno, who built the system in the decades after World War II.",
+        "Ohno wrote that American supermarkets helped shape the idea. Shoppers take what they need, and the store refills only what was taken.",
+        "Lean teachers often add a picture: stock is water in a river, and problems are rocks. High water hides the rocks. Lower the water, and you see exactly what to fix."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The second business",
+      "title": "Finished work nobody asked for is stock too.",
+      "illustrative": true,
+      "body": [
+        "A marketing team inside a large company builds 40 sales brochures every quarter, one for each product and region, in case the sales team needs them.",
+        "By the time sales asks, prices and features have changed. Most brochures get redone or never used.",
+        "The team switches to pull. Sales requests a brochure, and the team builds it from a ready template within two days. **Less work, and every brochure is current.**"
+      ],
+      "image": {
+        "label": "A stack of unused brochures next to one fresh brochure handed over",
+        "aspectRatio": "16:9",
+        "brief": "사무실 장면. 왼쪽 책상에 먼지 쌓인 브로슈어 더미, 오른쪽에서 디자이너가 영업 담당자에게 막 만든 브로슈어 한 장을 건네는 모습. 실제 회사 로고는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Just in time needs a reliable supply.",
+      "body": [
+        "Small stocks only work when refills are fast and dependable. Store B's plan relies on a warehouse 30 minutes away. With a supplier overseas and weeks of shipping, two weeks of stock could be reckless.",
+        "Frequent small deliveries also cost more per trip. And when something breaks, like a storm or a factory closure, there's no cushion. During the COVID-19 pandemic, many companies running lean stocks faced shortages. How much buffer to keep is its own decision."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a data team.",
+      "illustrative": true,
+      "body": [
+        "You lead the data team at a mid-size online retailer. Each quarter you build 30 new dashboards for other departments before they ask.",
+        "Usage logs show most are opened once or never. What do you change?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Build the same 30, but promote them harder inside the company",
+            "verdict": "risky",
+            "feedback": "You keep producing ahead of demand and now spend extra effort pushing it. The unused work mostly stays unused."
+          },
+          {
+            "key": "B",
+            "text": "Keep a few core dashboards up to date, and build others when a team asks, with a fast turnaround promise",
+            "verdict": "best",
+            "feedback": "Work now follows real requests. The promise matters: pull only works if teams trust they'll get answers quickly."
+          },
+          {
+            "key": "C",
+            "text": "Stop building dashboards and answer each question one by one",
+            "verdict": "partial",
+            "feedback": "It follows demand, but common questions get rebuilt from scratch every time. A few shared, maintained basics are worth keeping."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Let real demand pull the work.",
+      "body": [
+        "Extra stock and work done in advance feel like safety. Often they tie up cash and hide problems. Refill what was used, when it was used, as long as your supply is fast and reliable.",
+        "**Try it today:** pick one thing you make or keep \"just in case.\" Check how much of it was actually used last month."
+      ],
+      "next": "Next · Why smaller batches move faster"
+    }
+  ]
+}

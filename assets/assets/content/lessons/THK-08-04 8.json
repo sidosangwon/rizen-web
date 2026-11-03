@@ -1,0 +1,246 @@
+{
+  "id": "THK-08-04",
+  "unitId": "THK-08",
+  "categoryId": "THK",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Selection bias",
+  "readerTitle": "The clients who left never filed a complaint",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.4,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (급여 대행사, 팔레트 운송사) + 실제 연구 (1936년 Literary Digest 여론조사)",
+  "insight": "데이터를 믿기 전에 그 데이터가 어떤 걸러짐을 거쳐 내 앞에 왔는지, 누가 빠졌는지를 먼저 묻는다.",
+  "misconception": "데이터가 많으면 정확하다. 고객 불만함에 쌓인 내용이 곧 고객이 떠나는 이유다.",
+  "relatedLessonIds": [
+    "THK-02-02",
+    "THK-08-08"
+  ],
+  "sources": [
+    {
+      "text": "Squire, P. (1988). Why the 1936 Literary Digest Poll Failed. Public Opinion Quarterly, 52(1), 125–133.",
+      "url": null
+    },
+    {
+      "text": "The Literary Digest, presidential poll results (October 31, 1936)",
+      "url": null
+    },
+    {
+      "text": "급여 대행사와 팔레트 운송사 사례의 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Literary Digest: 약 1,000만 장 발송, 약 240만 장 회수, Landon 승리 예측. Roosevelt는 48개 주 중 46개 주에서 승리. 게시 전 수치를 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Squire(1988)는 표본 명단의 치우침과 함께 무응답 편향(Landon 지지자의 회신율이 더 높았음)을 주요 원인으로 봅니다. 카드에는 'later research suggests'로 단정하지 않게 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Gallup의 표본 크기는 자료마다 달라(약 5만 명 등) 카드에는 'far smaller sample'로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "가상 수치 확인: 고객 300곳 중 40곳 이탈, 전 고객 20곳 통화, 그중 14곳은 티켓 기록 없음, 3곳만 청구서를 주된 이유로 꼽음. 20 ≤ 40으로 모순 없음.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Everyday scene",
+      "title": "The complaints say one thing. The clients who left said nothing.",
+      "illustrative": true,
+      "body": [
+        "A payroll services firm lost 40 of its 300 business clients last year. On Monday morning, the owner opens the support inbox to find out why.",
+        "Most complaints are about invoice errors. Case closed? Not yet."
+      ],
+      "image": {
+        "label": "An inbox full of complaints next to an empty chair",
+        "aspectRatio": "4:3",
+        "brief": "사무실 책상 위 모니터에 불만 메일이 가득 쌓인 받은편지함. 옆에는 빈 의자 여러 개가 조용히 문 밖으로 이어짐(말없이 떠난 고객 상징). 따뜻하고 차분한 일러스트, 실제 로고 없음.",
+        "url": "assets/images/thk-08-04-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Why are clients leaving?",
+      "illustrative": true,
+      "body": [
+        "You run that firm. Over 60% of last year's complaint tickets mention invoice errors. Your team proposes a three-month project to rebuild invoicing.",
+        "What do you do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Start the invoicing project. The tickets are clear.",
+            "verdict": "risky",
+            "feedback": "You act fast on a real problem, but only the problem of clients who chose to write in. If most leavers stayed silent, you may fix the wrong thing."
+          },
+          {
+            "key": "B",
+            "text": "Call a sample of clients who left, including those who never filed a ticket",
+            "verdict": "best",
+            "feedback": "It costs a week of calls, but it reaches the people the inbox missed, whose reasons you actually need."
+          },
+          {
+            "key": "C",
+            "text": "Send a satisfaction survey to all current clients",
+            "verdict": "partial",
+            "feedback": "Broader than the inbox, but everyone who answers is still a client. The 40 who left aren't in it."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What happened",
+      "title": "The silent leavers had different reasons.",
+      "illustrative": true,
+      "body": [
+        "Most never complained. They mentioned slow setup when they hired new staff, and a rival that bundled payroll with benefits. Clients who complain often still hope to stay. The ones who've given up just leave."
+      ],
+      "breakdown": [
+        {
+          "value": "20",
+          "label": "Former clients reached",
+          "detail": "Out of 40 who left",
+          "highlight": false
+        },
+        {
+          "value": "14",
+          "label": "Never filed a ticket",
+          "detail": "Invisible in the inbox",
+          "highlight": true
+        },
+        {
+          "value": "3",
+          "label": "Named invoices first",
+          "detail": "The 'obvious' cause",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Selection bias",
+      "body": [
+        "**Selection bias** happens when the way data reaches you is linked to the answer you're looking for. The sample stops being a fair picture of the whole group.",
+        "Here, the filter was *who chooses to complain*. That choice was tied to whether a client planned to stay. So the inbox over-represented frustrated but loyal clients and missed the quiet leavers.",
+        "The fix starts with one question: who got into this data, and who didn't?"
+      ],
+      "image": {
+        "label": "A filter letting only some dots through into a spreadsheet",
+        "aspectRatio": "16:9",
+        "brief": "왼쪽에 다양한 색의 점(전체 고객)이 흩어져 있고, 가운데 깔때기 모양 필터를 지나 오른쪽 스프레드시트에는 한 가지 색 점만 도착. 필터에 \"Who chose to speak up?\" 라벨.",
+        "url": "assets/images/thk-08-04-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "Millions of answers, one wrong prediction.",
+      "body": [
+        "In 1936, the *Literary Digest* magazine mailed about 10 million ballots asking Americans how they'd vote. About 2.4 million came back. It predicted Alf Landon would beat Franklin Roosevelt.",
+        "Roosevelt won 46 of 48 states. George Gallup called it correctly with a far smaller sample.",
+        "The Digest's mailing list leaned toward wealthier homes. Later research suggests a bigger problem: Landon supporters were more likely to mail ballots back. Size didn't help, because the filter was linked to the answer."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where it hides",
+      "title": "Filters hide in everyday data.",
+      "body": [
+        "Look for a choice or a cut-off between what really happened and what lands in your report:"
+      ],
+      "list": [
+        "**Reviews:** written mostly by the delighted and the furious",
+        "**Exit interviews:** only from people who agree to one",
+        "**Pilot groups:** volunteers are often your keenest staff or customers",
+        "**Warranty returns:** only from customers who bother to send things back"
+      ],
+      "callout": "Survivorship bias is one version: you only see what made it through.",
+      "softwareNote": "Feature requests come mostly from your most active users, and usage data only covers people who got past setup. Neither tells you why sign-ups quietly drifted away."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Filtered data isn't useless.",
+      "body": [
+        "The complaint tickets were real. Invoice errors still deserve fixing. Filtered data answers a narrower question well: *what bothers clients who speak up?*",
+        "Reaching the missing group also costs time and money, and you won't always manage it. When you can't, name the filter and say how it might tilt the result before anyone acts on it."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's two warehouses.",
+      "illustrative": true,
+      "body": [
+        "You run a pallet shipping company. Damage claims for your North warehouse are double those for South. North mostly serves large retailers that inspect every delivery on arrival. South serves small shops that rarely check.",
+        "What do you do?"
+      ],
+      "image": {
+        "label": "Two warehouses with pallets under inspection",
+        "aspectRatio": "16:9",
+        "brief": "두 개의 창고 건물(North, South)이 나란히 있고, North 쪽 고객은 돋보기로 팔레트를 꼼꼼히 살피며, South 쪽 고객은 상자를 그냥 받아 넣는 장면. 실제 기업 로고 없음.",
+        "url": "assets/images/thk-08-04-c8.jpg"
+      },
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Retrain the North team on loading and wrapping",
+            "verdict": "risky",
+            "feedback": "Quick and visible, but North's claims may be high simply because its customers look harder. You could spend money fixing the better warehouse."
+          },
+          {
+            "key": "B",
+            "text": "Compare claims per pallet shipped, not raw counts",
+            "verdict": "partial",
+            "feedback": "A fairer ratio, but it still counts only damage someone reported. South's unreported damage stays hidden."
+          },
+          {
+            "key": "C",
+            "text": "Inspect a random sample of pallets leaving both warehouses",
+            "verdict": "best",
+            "feedback": "It costs inspection hours, but now you pick the sample, not your customers. Both warehouses face the same filter."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Before trusting data, ask how it got to you.",
+      "body": [
+        "Every dataset passed through a filter. If that filter is linked to the answer, the data can mislead you with a straight face.",
+        "**Try it today:** pick one number you rely on, like complaints, reviews or returns. Write down who ends up in it, and who never does."
+      ],
+      "next": "Next · Which numbers warn you before it's too late?"
+    }
+  ]
+}

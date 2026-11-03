@@ -1,0 +1,238 @@
+{
+  "id": "ECO-01-03",
+  "unitId": "ECO-01",
+  "categoryId": "ECO",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "Opportunity cost",
+  "readerTitle": "Your 'free' meeting cost $1,200",
+  "format": "two_businesses",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.3,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 두 개 (도장 업체, 소프트웨어 회사 안의 제품팀) · 모든 수치는 설명용",
+  "insight": "어떤 선택의 진짜 비용은 쓴 돈이 아니라, 그 시간과 자원으로 할 수 있었던 차선책의 가치다.",
+  "misconception": "현금이 나가지 않으면 비용이 없다. 원가만 받으면 손해가 아니고, 월급이 어차피 나가는 회의는 공짜다.",
+  "relatedLessonIds": [
+    "ECO-01-02",
+    "ECO-01-08"
+  ],
+  "sources": [
+    {
+      "text": "경제학 입문의 표준 개념 (기회비용: 포기한 차선책의 가치). 예: Mankiw, Principles of Economics",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "도장 업체 계산: 친구 가게 작업 가격 $1,800 − 페인트·인건비 $1,800 = $0. 포기한 작업 $4,000 − $2,500 = $1,500. 친구 작업의 기회비용 $1,500.",
+      "status": "open"
+    },
+    {
+      "note": "회의 계산: 8명 × 1.5시간 × 시간당 인건비(급여·복리후생 포함 가정) $100 = $1,200/주. × 연 50주 = $60,000. 시간당 $100은 설명용 가정이며, 인건비는 기회비용의 대략적인 대용치일 뿐이라는 점을 카드에 밝혔습니다.",
+      "status": "open"
+    },
+    {
+      "note": "맞춤 기능 사례($20,000, 4주)는 가상 수치이며 비교 대상 기능의 가치는 일부러 수치화하지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Economics · Two businesses",
+      "title": "Your 'free' meeting cost $1,200",
+      "illustrative": true,
+      "body": [
+        "Eight people sit in a weekly 90-minute meeting. No invoice arrives. Nobody pays a cent extra.",
+        "Across town, a painter does a favor for a friend and charges only for paint and wages. It looks like it costs nothing.",
+        "Both are expensive. The bill just doesn't show up where anyone looks."
+      ],
+      "image": {
+        "label": "A meeting room clock and a paint roller, each with an invisible price tag",
+        "aspectRatio": "4:3",
+        "brief": "화면을 좌우로 나눔. 왼쪽은 8명이 앉은 회의실과 벽시계, 오른쪽은 페인트 롤러와 페인트 통. 양쪽 모두 점선으로 된 투명한 가격표가 매달려 있고 가격표에 물음표. 실제 로고·상표 없음.",
+        "url": "assets/images/eco-01-03-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What does the favor really cost?",
+      "illustrative": true,
+      "body": [
+        "You run a three-person painting crew. A friend asks you to paint his shop next week. You'll charge $1,800, exactly what the paint and wages cost.",
+        "That same week, you could take a $4,000 house job that leaves $1,500 after paint and wages. That customer can't wait. What does the favor cost you?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Nothing. Paint and wages are covered",
+            "verdict": "risky",
+            "feedback": "Your cash balances out, so it feels free. But you gave up the house job, and that loss never appears in your books."
+          },
+          {
+            "key": "B",
+            "text": "About $1,500, the profit from the job you turn down",
+            "verdict": "best",
+            "feedback": "Right. The crew can only be in one place. The real price of the favor is what the crew would have earned elsewhere."
+          },
+          {
+            "key": "C",
+            "text": "Only the hours you personally spend on it",
+            "verdict": "partial",
+            "feedback": "Good instinct that time matters. But it's the whole crew's week that's used up, not just yours."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "Business A · The numbers",
+      "title": "One crew, one week, two options.",
+      "illustrative": true,
+      "body": [
+        "The favor shows $0 profit. Choosing it means giving up **$1,500**. That's the number that belongs on the decision."
+      ],
+      "breakdown": [
+        {
+          "value": "$1,800",
+          "label": "Friend's shop: price",
+          "detail": "Equal to paint and wages",
+          "highlight": false
+        },
+        {
+          "value": "$0",
+          "label": "Friend's shop: left over",
+          "detail": "Looks harmless on paper",
+          "highlight": false
+        },
+        {
+          "value": "$1,500",
+          "label": "House job: left over",
+          "detail": "$4,000 − $2,500 in paint and wages",
+          "highlight": false
+        },
+        {
+          "value": "$1,500",
+          "label": "Real cost of the favor",
+          "detail": "The best option you gave up",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Opportunity cost",
+      "body": [
+        "**Opportunity cost** is the value of the best option you give up when you choose something. It's the road not taken, measured.",
+        "Because time, people and money are limited, every yes is a no to something else. The cash you spend is only part of the price.",
+        "The painter didn't lose money on paper. He lost the house job."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Business B · Inside a company",
+      "title": "The weekly meeting that nobody pays for.",
+      "illustrative": true,
+      "body": [
+        "A product team at a software company holds a 90-minute status meeting every week. Eight people attend. With salary and benefits, each person costs the company about $100 an hour.",
+        "8 people × 1.5 hours × $100 = **$1,200 a week**, or about $60,000 a year.",
+        "And salary is only a rough guide. The true cost is what those eight people would have built, fixed or sold in that time."
+      ],
+      "image": {
+        "label": "Eight people around a table, a running cost meter on the wall",
+        "aspectRatio": "16:9",
+        "brief": "회의실 벽에 택시 미터기처럼 숫자가 올라가는 카운터가 있고 \"$1,200\"에서 멈춰 있음. 테이블 위 노트북들은 덮여 있고, 창밖으로 미완성 작업 상자들이 쌓여 있는 느낌. 실제 로고 없음.",
+        "url": "assets/images/eco-01-03-c5.jpg"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where it hides",
+      "title": "Opportunity costs never send an invoice.",
+      "body": [
+        "Your books record money that moves. They don't record money you could have earned. So the biggest costs of a choice are often invisible.",
+        "Look for it wherever something is limited:"
+      ],
+      "list": [
+        "**Your own evening** spent on a task someone else could do",
+        "**A busy crew** doing low-value work",
+        "**Cash** sitting idle instead of funding a better project",
+        "**Shelf or floor space** given to a slow seller"
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The alternative has to be real.",
+      "body": [
+        "Opportunity cost is only as big as your next-best option. If the crew had no other work that week, the favor costs almost nothing and may build goodwill.",
+        "The same goes for meetings. One that prevents a month of rework is cheap. Don't time every minute. Ask the question for big or repeated choices, and keep the estimate rough."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "A customer wants a custom feature.",
+      "illustrative": true,
+      "body": [
+        "You lead a software team. A large customer offers $20,000 for a custom feature that would take your team four weeks.",
+        "What should you compare the $20,000 against?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The team's salary cost for those four weeks",
+            "verdict": "partial",
+            "feedback": "This tells you whether the cash covers the cost. It doesn't tell you what the team stops building while it works on this."
+          },
+          {
+            "key": "B",
+            "text": "The value of what the team would build instead in those four weeks",
+            "verdict": "best",
+            "feedback": "That's the real trade. If the planned work would keep or win more customers than $20,000 is worth, the deal costs you money."
+          },
+          {
+            "key": "C",
+            "text": "Nothing. $20,000 of new revenue beats zero",
+            "verdict": "risky",
+            "feedback": "The alternative is never zero. The team's four weeks would have produced something, and that's what you give up."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Every yes has a price: the best thing you said no to.",
+      "body": [
+        "Before calling something free, ask what else the same time, people or money could do.",
+        "**Try it today:** pick one recurring meeting or task. Multiply people by hours, then write down one thing that time could produce instead."
+      ],
+      "next": "Next · People do what you reward, not what you ask"
+    }
+  ]
+}

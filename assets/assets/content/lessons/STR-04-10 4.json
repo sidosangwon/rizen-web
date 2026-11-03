@@ -1,0 +1,241 @@
+{
+  "id": "STR-04-10",
+  "unitId": "STR-04",
+  "categoryId": "STR",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Which moat should you build first?",
+  "readerTitle": "You're the small one. Which moat do you dig first?",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (맞춤 폼 완충재 제조사 + 고객용 온라인 재주문 포털). 모든 수치와 회사는 설명용",
+  "insight": "해자는 고르는 것이 아니라 쌓는 순서가 있다. 지금의 위치에서 만들 수 있는 해자가 다음 해자를 만들 자금과 물량을 벌어 준다.",
+  "misconception": "가장 강한 해자(규모, 브랜드)부터 만들어야 한다. 작은 회사도 큰 설비를 사면 거인과 같은 원가로 싸울 수 있다.",
+  "relatedLessonIds": [
+    "STR-04-04",
+    "STR-04-05"
+  ],
+  "sources": [
+    {
+      "text": "Helmer, H. (2016). 7 Powers: The Foundations of Business Strategy. (사업 단계별로 만들 수 있는 우위가 다르다는 'Power Progression' 개념)",
+      "url": null
+    },
+    {
+      "text": "모든 회사, 수치, 사건은 설명용 가상 시나리오",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Helmer의 Power Progression에서 단계별 분류(초기: 역포지셔닝·독점 자원, 성장기: 규모·네트워크·전환비용, 안정기: 브랜드·프로세스)를 원문으로 다시 확인하세요. 카드에는 \"different moats become available at different stages\"로 일반적으로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "가상 수치: 직원 14명, 경쟁사 가격 약 20% 저렴, 최소 주문 5,000개, 납기 4주, 우리 납기 5일, 고객 디자인 40개, 4년 후 물량 3배, 신규 주문 월 50,000개. 서로 계산 관계는 없으며 설명용입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Strategy · Simulation",
+      "title": "You're the small one. Which moat do you dig first?",
+      "illustrative": true,
+      "body": [
+        "You run a 14-person workshop that cuts custom foam inserts: the shaped padding that keeps lab instruments safe in shipping.",
+        "A national packaging giant sells similar inserts about 20% cheaper. It needs orders of 5,000 and takes four weeks to deliver. You have savings for one big bet. Over the next few years, you'll make three calls."
+      ],
+      "image": {
+        "label": "A small workshop facing a giant factory across a road",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 왼쪽에 작은 폼 가공 작업장(직원 몇 명, 회색 폼 블록과 계측기 모양 홈), 오른쪽에 거대한 공장과 길게 쌓인 상자. 작업장 앞에 삽 하나가 놓여 있음. 실제 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 3",
+      "title": "Your first move against the giant.",
+      "illustrative": true,
+      "body": [
+        "Your customers are mid-size equipment makers. Where do you put your one big bet?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Buy a high-speed cutting line and match the giant's price",
+            "verdict": "risky",
+            "feedback": "You fight at the giant's strongest point. Your orders can't keep the machine busy, so your cost per insert stays higher than theirs and the savings are gone."
+          },
+          {
+            "key": "B",
+            "text": "Specialize in what the giant can't do easily: small runs, 5-day delivery, design help",
+            "verdict": "best",
+            "feedback": "The giant's factory earns money on long runs. Copying you would mean stopping its big machines for small jobs, so it hesitates. You win customers it can't serve well."
+          },
+          {
+            "key": "C",
+            "text": "Spend on a brand: trade-show booths and a \"careful packers\" campaign",
+            "verdict": "partial",
+            "feedback": "A good name helps later. But a brand needs years of proof behind it. Without a clear reason to choose you, buyers still compare quotes and pick the cheaper one."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 3",
+      "title": "Say you chose small runs and speed.",
+      "illustrative": true,
+      "body": [
+        "Orders grow. One lab-equipment maker now has 40 of your designs, and asks if you can keep them all on file. How do you make customers want to stay?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Build a simple online portal: every design, drop-test result and past order, with one-click reorder",
+            "verdict": "best",
+            "feedback": "Customers stay because leaving means rebuilding years of files and tests somewhere else. The cost of switching comes from value you created, so they don't resent it."
+          },
+          {
+            "key": "B",
+            "text": "Ask for three-year contracts with exit penalties",
+            "verdict": "risky",
+            "feedback": "You lock in revenue but not loyalty. Buyers push back on signing, resent the trap, and leave the day the contract ends."
+          },
+          {
+            "key": "C",
+            "text": "Keep emailing PDF drawings and focus on quality",
+            "verdict": "partial",
+            "feedback": "Customers stay happy for now. But nothing stops them forwarding the same PDFs to a rival with a lower quote."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 3",
+      "title": "Say you built the portal. Four years pass.",
+      "illustrative": true,
+      "body": [
+        "Your volume has tripled. Now a large device maker offers you a standard order: 50,000 identical inserts a month. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Take it, buy the high-speed line now, and keep the small-run team separate",
+            "verdict": "best",
+            "feedback": "This time you have the volume to keep a big machine busy, so your cost per insert drops. The separate team protects the speed your other customers pay for."
+          },
+          {
+            "key": "B",
+            "text": "Decline and stay a small-run specialist",
+            "verdict": "partial",
+            "feedback": "You keep your focus, but you leave a cost advantage on the table. Your growth is capped at the size of the niche."
+          },
+          {
+            "key": "C",
+            "text": "Take it and run it on your small-run line",
+            "verdict": "risky",
+            "feedback": "The big order clogs the line that makes you different. Small customers wait two weeks, and the reason they chose you disappears."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "breakdown",
+      "eyebrow": "What you built",
+      "title": "Your moats, in the order you dug them.",
+      "illustrative": true,
+      "breakdown": [
+        {
+          "value": "Year 1",
+          "label": "A model the giant won't copy",
+          "detail": "Small runs would stop its big machines",
+          "highlight": true
+        },
+        {
+          "value": "Year 2",
+          "label": "A reason to stay",
+          "detail": "Designs and test data live in your portal",
+          "highlight": false
+        },
+        {
+          "value": "Year 4",
+          "label": "Lower costs from volume",
+          "detail": "The big machine now stays busy",
+          "highlight": false
+        },
+        {
+          "value": "Later",
+          "label": "A trusted name",
+          "detail": "Earned from years of on-time delivery",
+          "highlight": false
+        }
+      ],
+      "callout": "Each moat paid for the next one."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The idea",
+      "title": "Moats come in an order.",
+      "body": [
+        "The same moat can be a trap at one stage and a smart move at another. The big machine failed in year 1 and worked in year 4. The machine didn't change. Your volume did.",
+        "Strategist Hamilton Helmer argues that **different moats become available at different stages** of a business. Small firms usually start with what their size makes possible: a model incumbents won't copy, then reasons for customers to stay. Scale and brand tend to come later, as rewards."
+      ],
+      "image": {
+        "label": "A staircase of four moats, each step built on the one below",
+        "aspectRatio": "16:9",
+        "brief": "계단 인포그래픽. 아래부터 \"A model they won't copy\", \"A reason to stay\", \"Lower costs from volume\", \"A trusted name\". 각 계단 위에 작은 동전이 다음 계단으로 굴러가는 화살표.",
+        "url": null
+      },
+      "softwareNote": "A software startup often follows the same order: first serve customers the big vendor ignores, then become hard to leave through stored data and integrations. Only then does spending on scale or a famous brand pay off."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The order isn't a law.",
+      "body": [
+        "Some businesses need scale from day one. A cement plant or a delivery network can't start small and still compete.",
+        "And early moats can wear away. If a rival offers a free tool that imports all your customers' designs, your portal stops holding them. Switching costs only last while the stored value keeps growing.",
+        "The real test at every stage: which moat can you build with what you have **now**?"
+      ]
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Dig the moat your position lets you dig today.",
+      "body": [
+        "Each decision in this story matched one idea from this unit:"
+      ],
+      "list": [
+        "**Decision 1:** counter-positioning. Pick a model the leader can't copy without hurting itself.",
+        "**Decision 2:** switching costs. Make leaving costly through value, not penalties.",
+        "**Decision 3:** scale. Buy volume advantages only once you have the volume.",
+        "**Later:** brand, built from years of proof."
+      ],
+      "callout": "**Try it today:** write down the one moat you could start building this quarter with your current size, and the moat you're tempted to build too early.",
+      "next": "Next · A new unit begins"
+    }
+  ]
+}

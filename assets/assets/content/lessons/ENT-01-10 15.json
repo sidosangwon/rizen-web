@@ -1,0 +1,222 @@
+{
+  "id": "ENT-01-10",
+  "unitId": "ENT-01",
+  "categoryId": "ENT",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Pick which idea to pursue",
+  "readerTitle": "Three ideas, one year of savings: which would you chase?",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.4,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (청소 회사를 운영했던 창업자 Maya의 아이디어 선택) · 가정 서비스업과 소프트웨어 아이디어 비교 · 모든 수치는 설명용",
+  "insight": "아이디어 선택은 '어느 것이 가장 좋은가'가 아니라 '문제의 증거, 손에 잡히는 시장 크기, 내가 이길 이유' 세 가지를 차례로 거르는 일이다.",
+  "misconception": "주변 반응이 가장 좋고 시장이 가장 커 보이는 아이디어를 고르면 된다.",
+  "relatedLessonIds": [
+    "ENT-01-03",
+    "ENT-01-06"
+  ],
+  "sources": [
+    {
+      "text": "ENT-01 유닛 개념 (문제 우선, 시장 규모 추정, 창업자-시장 적합성)",
+      "url": null
+    },
+    {
+      "text": "모든 인물, 회사, 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "리노베이션 후 청소: 지역 시공업체 80곳 × 연 10건 × 건당 $400 = $320,000/년. 스케줄링 소프트웨어: 지역 청소업체 300곳 × 월 $60 × 12개월 = $216,000/년. 모두 가상 수치이며 계산을 다시 확인했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "\"가정 서비스 예약 사이트가 이미 있다\"는 일반적 서술로만 썼고 특정 기업이나 시장 규모 수치는 넣지 않았습니다. 게시 전 표현이 과하지 않은지 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Entrepreneurship · Simulation",
+      "title": "Three ideas, one year of savings",
+      "illustrative": true,
+      "body": [
+        "Maya ran a home cleaning company for eight years, then sold it. She has enough savings to live on for about a year, and three ideas on a notepad."
+      ],
+      "list": [
+        "**A home-services app:** book any cleaner, plumber or painter in one place. Her friends love it.",
+        "**Scheduling software** for small cleaning companies. She ran her own crews on messy spreadsheets for years.",
+        "**After-renovation cleaning** for building contractors in her city. Contractors kept asking if her crews did it."
+      ],
+      "callout": "She can only chase one. You'll decide for her.",
+      "softwareNote": "Two of the three ideas are digital-friendly, and one is pure software. Notice how the software idea is judged by the same tests as the service ones.",
+      "image": {
+        "label": "Three ideas beside a modest savings jar",
+        "aspectRatio": "4:3",
+        "brief": "A clay woman at a table with a savings jar and three idea objects.",
+        "url": "assets/images/ent-01-10-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 3",
+      "title": "How should Maya narrow the list first?",
+      "illustrative": true,
+      "body": [
+        "She can't test all three properly. Which filter should come first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Go with the idea her friends liked most",
+            "verdict": "risky",
+            "feedback": "Praise from friends is cheap. None of them complained about finding a plumber, and booking sites for home services already exist. She'd start with enthusiasm, not evidence."
+          },
+          {
+            "key": "B",
+            "text": "Keep ideas where she's seen people already spend time or money working around the problem",
+            "verdict": "best",
+            "feedback": "Cleaning owners fight spreadsheets every week. Contractors already ask for, and pay for, one-off cleanups. Both ideas survive. The app drops out."
+          },
+          {
+            "key": "C",
+            "text": "Pick the one that's fastest to launch",
+            "verdict": "partial",
+            "feedback": "Speed helps her learn. But fast to launch isn't the same as wanted, and she might quickly learn that nobody needed it."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 3",
+      "title": "Say you chose the problem filter. How big is each idea?",
+      "illustrative": true,
+      "body": [
+        "Two ideas are left: the scheduling software and the after-renovation cleaning.",
+        "Maya wants a rough sense of size before she commits. How should she estimate it?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Quote the total size of the cleaning industry from a report",
+            "verdict": "risky",
+            "feedback": "A giant number says nothing about who she could actually sell to. Both ideas would look huge, so it can't help her choose."
+          },
+          {
+            "key": "B",
+            "text": "Count the customers she could reach and what each would pay",
+            "verdict": "best",
+            "feedback": "Slower, but honest. It shows what's reachable now and how each idea would grow. The next card shows her count."
+          },
+          {
+            "key": "C",
+            "text": "Skip it and pick the one she's most excited about",
+            "verdict": "partial",
+            "feedback": "Energy matters in a hard first year. But without a rough count, she could pour her savings into a market too small to live on."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Counting from the ground up",
+      "illustrative": true,
+      "breakdown": [
+        {
+          "value": "$320,000",
+          "label": "After-renovation cleaning, per year",
+          "detail": "80 local contractors × 10 jobs × $400",
+          "highlight": true
+        },
+        {
+          "value": "$216,000",
+          "label": "Scheduling software, per year (her region)",
+          "detail": "300 local cleaning companies × $60 a month × 12",
+          "highlight": false
+        }
+      ],
+      "callout": "Rough guesses, not forecasts. Locally, the service is bigger. But software can sell to cleaning companies in other cities without hiring a single new crew. The service grows one crew at a time.",
+      "softwareNote": "This is the usual software trade-off: a smaller start, but each new customer costs little to serve, so the reachable market can stretch far beyond one city."
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 3",
+      "title": "Say you counted. Which idea does Maya pursue?",
+      "illustrative": true,
+      "image": {
+        "label": "A fork in the road: a cleaning van one way, a laptop the other",
+        "aspectRatio": "16:9",
+        "brief": "갈림길에 선 여성 창업자. 왼쪽 길 끝에는 청소 장비를 실은 밴, 오른쪽 길 끝에는 일정표가 떠 있는 노트북. 실제 로고나 상표는 넣지 않음. 따뜻한 일러스트 톤.",
+        "url": "assets/images/ent-01-10-c5.jpg"
+      },
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The software, because it has the bigger ceiling",
+            "verdict": "partial",
+            "feedback": "The pain is real and she knows it well. But she can't code and has never sold software, so she'd spend savings on developers for a product she can't easily judge."
+          },
+          {
+            "key": "B",
+            "text": "The after-renovation cleaning, because it fits what she already does well",
+            "verdict": "best",
+            "feedback": "She can start next week with crews and contractor contacts she already has. Cash comes in, and running more crews keeps her close to the scheduling problem for later."
+          },
+          {
+            "key": "C",
+            "text": "Both at once, to spread the risk",
+            "verdict": "risky",
+            "feedback": "Two half-built businesses on one year of savings. Each gets half her time, and neither gets a fair test."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Fit is a head start, not a promise.",
+      "illustrative": true,
+      "body": [
+        "The cleaning service fits Maya, but it grows one crew at a time. That can be a good business without being a startup built for fast, repeatable growth. Neither is wrong. She should know which one she's choosing.",
+        "Fit cuts both ways, too. Her experience could lead her to assume every contractor works like the ones she knows. She still needs to check with **new customers**, not just old friends."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Pick ideas with evidence, numbers and fit.",
+      "body": [
+        "Each decision used one idea from this unit:"
+      ],
+      "list": [
+        "**Decision 1 · Problem before solution:** keep ideas where people already work around a real problem.",
+        "**Decision 2 · Sizing a market:** count reachable customers and what they'd pay, from the ground up.",
+        "**Decision 3 · Founder-market fit:** favor the idea you're unusually able to win."
+      ],
+      "callout": "**Try it today:** write your next idea in one line. Under it, name three people who already spend time or money on this problem.",
+      "next": "Next · A new unit begins: from idea to first customers"
+    }
+  ]
+}

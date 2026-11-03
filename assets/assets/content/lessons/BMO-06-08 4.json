@@ -1,0 +1,250 @@
+{
+  "id": "BMO-06-08",
+  "unitId": "BMO-06",
+  "categoryId": "BMO",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "A software subscription",
+  "readerTitle": "Signups are up. Why isn't revenue?",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (식당용 근무표 앱, 식자재 유통회사 운영팀) · 모든 수치는 설명용",
+  "insight": "구독 소프트웨어는 신규 가입 수가 아니라 고객이 머무는 기간, 고객과 함께 커지는 가격, 결제 주기라는 세 가지 다이얼로 판단한다.",
+  "misconception": "구독 매출이 정체되면 신규 고객을 더 데려오면 된다. 연간 결제는 무조건 싸서 이득이다.",
+  "relatedLessonIds": [
+    "BMO-06-02",
+    "BMO-06-03"
+  ],
+  "sources": [
+    {
+      "text": "구독 사업의 표준 개념 (해지율, 고객 수 상한, 확장 매출, 순매출 유지율, 연간·월간 결제)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "고객 수 상한: 월 신규 100곳 ÷ 월 해지율 8% = 1,250곳 × $40 = 월 $50,000. 해지율 4%: 100 ÷ 0.04 = 2,500곳 × $40 = 월 $100,000. 신규 200곳 ÷ 8% = 2,500곳(같은 상한, 매달 광고비 필요).",
+      "status": "open"
+    },
+    {
+      "note": "확장 매출: 고객 100곳 × 1지점 × $40 = $4,000. 5곳 해지 −$200, 10곳이 지점 1개 추가 +$400 → $4,200, 같은 고객 집단에서 105%.",
+      "status": "open"
+    },
+    {
+      "note": "운영팀 사례: 월 $500 × 12 = $6,000, 연간 $5,000 → $1,000 절약(약 17%, 두 달 무료와 같음). 3개월 월간 결제 = $1,500.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Recurring revenue · Apply",
+      "title": "Signups are up. Why isn't revenue?",
+      "illustrative": true,
+      "body": [
+        "Maya sells a shift-scheduling app to restaurants for $40 a month per location. Every month, about 100 new restaurants sign up.",
+        "Yet for half a year, monthly revenue has barely moved. Her team wants a bigger ad budget. Today you'll use three ideas from this unit to decide what she should actually do."
+      ],
+      "image": {
+        "label": "A dashboard with a rising signup line and a flat revenue line",
+        "aspectRatio": "4:3",
+        "brief": "작은 사무실 책상 위 노트북 화면. 대시보드에 \"New signups\" 선은 꾸준히 오르고 \"Monthly revenue\" 선은 평평함. 창업자가 턱을 괴고 화면을 봄. 실제 소프트웨어 로고는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Where should next quarter's effort go?",
+      "illustrative": true,
+      "body": [
+        "Maya gets 100 new restaurants a month. About 8% of paying restaurants cancel each month.",
+        "She can focus on one thing next quarter. Which?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Double the ad budget to get 200 signups a month",
+            "verdict": "partial",
+            "feedback": "This works, but only while she keeps paying for it. Under **the math of retention**, the cancellations still eat 8% of the base every month."
+          },
+          {
+            "key": "B",
+            "text": "Find out why restaurants cancel and fix the biggest reason",
+            "verdict": "best",
+            "feedback": "Halving cancellations raises her ceiling as much as doubling signups, without a bigger ad bill every month. That's **the math of retention** at work."
+          },
+          {
+            "key": "C",
+            "text": "Cut the price to $30 so more restaurants try it",
+            "verdict": "risky",
+            "feedback": "She'd earn less from every restaurant, including loyal ones, and a cheaper app doesn't fix whatever makes people leave."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Every leaky bucket has a ceiling.",
+      "illustrative": true,
+      "body": [
+        "When new customers equal cancellations, growth stops. That point is new signups ÷ cancellation rate. Maya is already close to it."
+      ],
+      "breakdown": [
+        {
+          "value": "1,250",
+          "label": "Ceiling today",
+          "detail": "100 new ÷ 8% cancelling = $50,000 a month",
+          "highlight": false
+        },
+        {
+          "value": "2,500",
+          "label": "Double signups",
+          "detail": "200 ÷ 8%, paid for with ads every month",
+          "highlight": false
+        },
+        {
+          "value": "2,500",
+          "label": "Halve cancellations",
+          "detail": "100 ÷ 4% = $100,000 a month",
+          "highlight": true
+        }
+      ],
+      "softwareNote": "In subscription software, this ceiling is why churn matters more than signups once a product has a steady flow of new users."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "What she found",
+      "title": "Most cancellations happened early.",
+      "illustrative": true,
+      "body": [
+        "Maya called 20 restaurants that had cancelled. Most left in their first two months, before they had built a single full schedule.",
+        "So she changed the first week. Her team now sets up the first schedule with the manager on a call. The goal isn't more features. It's getting every new restaurant to the moment the app saves them time."
+      ],
+      "callout": "Retention problems are often onboarding problems."
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Some customers are opening new locations.",
+      "illustrative": true,
+      "body": [
+        "A few restaurant groups now use the app across three or four sites. Maya is reviewing her pricing.",
+        "Which pricing fits best?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "One flat price per restaurant group, however many sites",
+            "verdict": "risky",
+            "feedback": "Simple to sell, but her revenue stays flat while customers get more value. She gives up **expansion revenue** entirely."
+          },
+          {
+            "key": "B",
+            "text": "$40 per location, so the price grows as the customer grows",
+            "verdict": "best",
+            "feedback": "The bill rises only when the customer gets more value. That's **expansion revenue**: more money from the customers you already have."
+          },
+          {
+            "key": "C",
+            "text": "Charge per staff member who uses the app",
+            "verdict": "partial",
+            "feedback": "It also grows with customers, but managers may share logins or leave staff out to save money, and that weakens the app."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Why it matters",
+      "title": "Growth from customers you already have.",
+      "illustrative": true,
+      "body": [
+        "Take 100 single-site restaurants paying $4,000 a month. Five cancel: −$200. Ten open a second site: +$400.",
+        "The same group now pays **$4,200**, or 105% of where it started, with no new signups at all. Expansion can outrun cancellations."
+      ],
+      "image": {
+        "label": "Bar showing $4,000 shrinking by $200 then growing by $400",
+        "aspectRatio": "16:9",
+        "brief": "폭포형 막대 그래프. \"Start $4,000\" → \"Cancelled −$200\"(빨강) → \"New locations +$400\"(초록) → \"End $4,200\". 마지막 막대를 강조.",
+        "url": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Annual plans can hide a problem.",
+      "body": [
+        "Sellers love annual plans: cash up front and fewer chances to cancel. But a customer who stops using the app in month three can't leave until month twelve.",
+        "Your cancellation rate looks great, then a wave of non-renewals arrives at once. Watch usage, not just payments."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now you're the buyer, inside a big company.",
+      "illustrative": true,
+      "body": [
+        "You run the regional operations team at a food distributor. Your team tested route-planning software for two weeks and liked it. The drivers haven't used it yet.",
+        "It costs $500 a month, or $5,000 a year paid up front. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Pay annually now and save $1,000",
+            "verdict": "partial",
+            "feedback": "The saving is real, about 17%. But you lock in $5,000 before knowing if drivers will use it."
+          },
+          {
+            "key": "B",
+            "text": "Pay monthly until drivers use it, then switch to annual",
+            "verdict": "best",
+            "feedback": "You pay a little more for a few months and keep the option to walk away. That's **annual vs monthly**: a discount in exchange for commitment."
+          },
+          {
+            "key": "C",
+            "text": "Buy annual plans for every region at once",
+            "verdict": "risky",
+            "feedback": "The biggest discount and the biggest bet. If drivers reject it, every region pays for a tool no one opens."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Three dials run every subscription.",
+      "body": [
+        "You used **the math of retention** to see Maya's ceiling, **expansion revenue** to price for growing customers, and **annual vs monthly** to weigh a discount against commitment.",
+        "**Try it today:** for one subscription you sell or buy, write down how long customers stay, whether the price grows with them, and who carries the risk of the billing period."
+      ],
+      "next": "Next · Adobe moves to the cloud"
+    }
+  ]
+}

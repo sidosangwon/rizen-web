@@ -1,0 +1,240 @@
+{
+  "id": "OPS-01-09",
+  "unitId": "OPS-01",
+  "categoryId": "OPS",
+  "order": 9,
+  "type": "case",
+  "conceptTag": "The Toyota Production System",
+  "readerTitle": "Why Toyota lets any worker stop the factory",
+  "format": "company_story",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Toyota, GM·Toyota 합작 NUMMI) + 가상 적용 (급여 대행 회사)",
+  "insight": "문제가 생긴 그 자리에서 멈추고 원인까지 고치면, 멈춤은 손실이 아니라 개선의 출발점이 된다.",
+  "misconception": "라인을 멈추지 않고 끝에서 검사하고 고치는 편이 생산량과 비용 면에서 더 낫다.",
+  "relatedLessonIds": [
+    "OPS-01-05",
+    "OPS-01-06"
+  ],
+  "sources": [
+    {
+      "text": "Toyota Motor Corporation, 'Toyota Production System' (jidoka, Sakichi Toyoda's automatic loom)",
+      "url": "https://global.toyota/en/company/vision-and-philosophy/production-system/"
+    },
+    {
+      "text": "Ohno, T. (1988). Toyota Production System: Beyond Large-Scale Production. Productivity Press.",
+      "url": null
+    },
+    {
+      "text": "This American Life, Episode 403 'NUMMI' (2010)",
+      "url": null
+    },
+    {
+      "text": "Shook, J. (2010). How to Change a Culture: Lessons From NUMMI. MIT Sloan Management Review.",
+      "url": null
+    },
+    {
+      "text": "Womack, J., Jones, D., Roos, D. (1990). The Machine That Changed the World.",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "NUMMI: GM이 1982년 프리몬트 공장을 닫았고, 1984년 GM·Toyota 합작으로 재가동했으며 기존 노동자 상당수가 재고용되었다는 내용을 This American Life 403회와 Shook(2010)으로 확인하세요. 재고용 비율은 수치로 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "재가동 후 품질이 일본 Toyota 공장 수준에 가까워졌다는 평가는 Womack 외(1990)와 This American Life 403회에 나옵니다. 구체적 결함 수치나 결근율은 일부러 넣지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "안돈 줄의 작동 방식(줄을 당기면 팀 리더가 오고, 정해진 시간 안에 해결되지 않으면 라인이 멈춤)은 Toyota 공식 자료와 Shook(2010)으로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Sakichi Toyoda의 자동 직기(실이 끊어지면 스스로 멈춤)는 1920년대(G형 자동직기, 1924년)로 Toyota 공식 자료에 나옵니다. 카드에는 'In the 1920s'로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "GM이 NUMMI 방식을 다른 공장으로 옮기는 데 성과가 고르지 않았다는 내용은 This American Life 403회의 보도에 근거합니다. 카드에는 'widely reported as uneven'으로 일반화해 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "급여 대행 회사 사례는 설명용 가상 사례이며 고객 수 40곳은 가정입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Company story",
+      "title": "Why Toyota lets any worker stop the factory",
+      "body": [
+        "On a Toyota assembly line, a worker who spots a problem can pull a cord above their station. A team leader comes at once. If the problem isn't fixed in time, the whole line stops.",
+        "At most car plants, stopping the line was the one thing you never did. Toyota built its system around it."
+      ],
+      "image": {
+        "label": "Worker reaching for a cord above an assembly line",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 자동차 조립 라인 위에 노란 줄이 걸려 있고, 작업자 한 명이 줄을 당기려 손을 뻗는 순간. 라인 위 신호등이 노란색으로 켜짐. 실제 자동차 브랜드 로고나 엠블럼은 쓰지 않음.",
+        "url": "assets/images/ops-01-09-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Should the workers get the cord?",
+      "body": [
+        "It's 1984. GM and Toyota are reopening a closed GM plant in Fremont, California, as a joint venture called NUMMI. Many of the old workers are rehired. The plant had a reputation for poor quality.",
+        "You're setting up the new line. A worker spots a part that isn't fitted right. What should the system let them do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep the line moving and fix defects in a repair area at the end",
+            "verdict": "risky",
+            "feedback": "You protect output today. But the defect gets buried under more parts, repair costs more, and the same mistake keeps happening because nobody traces it."
+          },
+          {
+            "key": "B",
+            "text": "Let any worker call for help and, if needed, stop the line",
+            "verdict": "best",
+            "feedback": "You lose some output at first. In return, every problem surfaces where it starts, while the cause is still visible and cheap to fix."
+          },
+          {
+            "key": "C",
+            "text": "Let only supervisors decide whether to stop the line",
+            "verdict": "partial",
+            "feedback": "It feels more controlled, but it's slower. By the time a supervisor arrives, more cars may have passed with the same fault."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "The same workers, a very different plant.",
+      "body": [
+        "NUMMI gave every worker the cord. Pulls were common at first, and team leaders were expected to respond and help, not to blame.",
+        "Within a few years, a plant once known as one of GM's worst was reported to build cars with quality close to Toyota's plants in Japan, with many of the same people on the line.",
+        "The workers hadn't changed. **The system around them had.**"
+      ],
+      "image": {
+        "label": "Same workers, two plants: before and after",
+        "aspectRatio": "16:9",
+        "brief": "좌우 분할 일러스트. 왼쪽: 라인 끝에 수리 대기 차량이 길게 쌓인 어두운 공장. 오른쪽: 같은 얼굴의 작업자들이 줄을 당기고 팀 리더가 달려오는 밝은 공장. 실제 로고 없음.",
+        "url": "assets/images/ops-01-09-c3.jpg"
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Build quality in at the source",
+      "body": [
+        "Toyota calls it *jidoka*. To **build quality in at the source** means stopping work the moment something is wrong, fixing it there, then fixing the cause so it doesn't come back.",
+        "The idea is older than Toyota's cars. In the 1920s, Sakichi Toyoda, whose company grew into Toyota, built a loom that stopped itself when a thread broke. One person could watch many machines instead of hunting for flawed cloth later."
+      ],
+      "image": {
+        "label": "A loom that stops itself when a thread breaks",
+        "aspectRatio": "16:9",
+        "brief": "옛날 자동 직기 일러스트. 실 한 가닥이 끊어진 지점에 작은 경고 표시가 뜨고 직기가 멈춤. 옆에 '문제 발생 → 즉시 정지 → 원인 수정' 흐름을 작은 아이콘 3개로 표시. 로고 없음.",
+        "url": "assets/images/ops-01-09-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Every stop starts a short loop.",
+      "body": [
+        "Each pull of the cord sets off the same steps:"
+      ],
+      "list": [
+        "**Spot:** a worker sees something abnormal",
+        "**Signal:** a team leader comes at once",
+        "**Fix:** solve it on the spot, or stop the line",
+        "**Find the cause:** keep asking \"why?\" until you reach the root",
+        "**Change the standard:** update how the work is done"
+      ],
+      "callout": "A stop isn't a failure. It's the start of an improvement.",
+      "softwareNote": "Many software teams use the same idea: when an automated test fails, no new code can be merged until someone fixes it. A small stop now beats hunting the bug after release."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Why copying was hard",
+      "title": "A cord without a response is just a rope.",
+      "body": [
+        "GM sent managers to learn from NUMMI and tried to bring its methods to other plants. The results were widely reported as uneven.",
+        "Hanging a cord is easy. But if a pull led to blame, or nobody came quickly, workers soon stopped pulling. The real system was the habit behind the cord: respond to every problem fast, and treat it as a fact to fix, not a fault to hide."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Stopping has real costs.",
+      "body": [
+        "Early on, frequent stops mean lower output. Toyota accepts that because each fix makes later stops rarer. A business that panics after one slow week will give up too soon.",
+        "It also needs two conditions. People can only spot \"abnormal\" if everyone knows what normal looks like. And help must arrive in minutes. In a team inside a larger company, such as finance closing the month, that means someone clearly owns each signal."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a payroll services firm.",
+      "illustrative": true,
+      "body": [
+        "You run payroll for 40 business clients. Errors keep turning up at the final check before payday: wrong tax codes, missed new hires. Your reviewers catch most of them, but every cycle ends in late nights.",
+        "What do you change?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Hire another reviewer for the final check",
+            "verdict": "partial",
+            "feedback": "Fewer errors reach clients, but you pay more every cycle and the errors keep being made upstream."
+          },
+          {
+            "key": "B",
+            "text": "When an error is found, pause that client's run, trace which step caused it, and fix that step",
+            "verdict": "best",
+            "feedback": "Slower this month. But each fixed step removes a whole type of error, so the final check gets lighter over time."
+          },
+          {
+            "key": "C",
+            "text": "Send errors back to the preparer with a note to be more careful",
+            "verdict": "risky",
+            "feedback": "Quick and cheap, but it treats the person as the cause. People start hiding small mistakes, and the step that allows them stays broken."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Stop small problems where they start.",
+      "body": [
+        "Toyota's line works because problems surface early, help arrives fast, and every stop changes how the work is done.",
+        "**Try it today:** pick one mistake that keeps coming back. Find where it's first made, not where it's caught, and ask \"why?\" until you reach a cause you can fix."
+      ],
+      "next": "Next · Your orders are running late"
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "id": "SAL-03-09",
+  "unitId": "SAL-03",
+  "categoryId": "SAL",
+  "order": 9,
+  "type": "case",
+  "conceptTag": "37signals sells without salespeople",
+  "readerTitle": "The software company you can't haggle with",
+  "format": "counterexample",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (37signals, Basecamp) + 가상 적용 (포장재 제조사)",
+  "insight": "같은 반대 의견이 계속 나오면 대화로 매번 설득하지 말고, 가격·조건·체험 같은 제안 자체를 바꿔 미리 답한다.",
+  "misconception": "반대 의견을 넘으려면 고객마다 설득하고 협상할 영업 담당자가 있어야 한다.",
+  "relatedLessonIds": [
+    "SAL-03-01",
+    "SAL-03-05"
+  ],
+  "sources": [
+    {
+      "text": "Basecamp 공식 가격 페이지 (공개 가격, 무료 체험, 사용자 수 무제한 정액 요금제)",
+      "url": "https://basecamp.com/pricing"
+    },
+    {
+      "text": "37signals 회사 소개 (Basecamp 제작사, Jason Fried와 David Heinemeier Hansson)",
+      "url": "https://37signals.com"
+    },
+    {
+      "text": "Fried, J. & Heinemeier Hansson, D. (2010). Rework. Crown Business.",
+      "url": null
+    },
+    {
+      "text": "Fried, J. & Heinemeier Hansson, D. (2018). It Doesn't Have to Be Crazy at Work. Harper Business.",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Basecamp 출시는 2004년입니다. 카드에는 \"about two decades\"로 적었습니다. 게시 시점 기준으로 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "37signals에 영업팀이 없고 맞춤 견적·할인 협상을 하지 않는다는 점은 창업자들의 책과 블로그에서 널리 언급됩니다. 현재도 그런지 게시 직전에 확인하세요. 카드에는 특정 거래나 내부 사정을 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Basecamp는 오랫동안 사용자 수와 관계없는 정액 요금제를 주력으로 팔았습니다. 현재는 사용자당 요금제와 무제한 정액 요금제가 함께 있을 수 있으므로 카드에는 \"for years\"로만 적고 금액은 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "월 단위 결제와 언제든 해지 가능 여부를 현재 가격 페이지에서 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "창업자들이 큰 고객 한 곳이 제품 방향을 좌우하지 않도록 단순한 가격을 유지한다고 쓴 내용은 It Doesn't Have to Be Crazy at Work 등에 나오는 것으로 알고 있습니다. 해당 장을 확인하고, 직접 인용은 하지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Sales · Counterexample",
+      "title": "The software company you can't haggle with",
+      "body": [
+        "Basecamp, the project tool made by 37signals, has been sold for about two decades without a sales team.",
+        "There's no rep to call for a custom quote and no one to ask for a discount. You read the price, try it and decide. That sounds like leaving every objection unanswered. It isn't."
+      ],
+      "image": {
+        "label": "A pricing page with no 'contact sales' button",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 노트북 화면에 단순한 가격표 하나와 \"Try it free\" 버튼만 있고, 옆에 비어 있는 영업 담당자 책상과 울리지 않는 전화기. 실제 Basecamp·37signals 로고나 화면 디자인은 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Bigger buyers have questions.",
+      "body": [
+        "Picture the choice 37signals faced as Basecamp grew. Larger companies are interested. Their buyers raise the usual objections: *It'll get expensive as we add people. Will it work for us? What if we want out?*",
+        "Many software firms answer with a sales team. What would you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Hire salespeople to work the big accounts one by one",
+            "verdict": "partial",
+            "feedback": "You'd win some larger deals. But you add salaries, custom promises and pressure to bend the product toward whoever pays most."
+          },
+          {
+            "key": "B",
+            "text": "Have the founders negotiate special terms with each big buyer",
+            "verdict": "risky",
+            "feedback": "It feels personal and cheap. Soon every customer pays a different price, the public price means little, and the founders spend their week haggling."
+          },
+          {
+            "key": "C",
+            "text": "Build the answers into the offer itself, and accept that some buyers will walk",
+            "verdict": "best",
+            "feedback": "You give up deals that need a custom contract. In return, the common questions get answered for every buyer at once, with no one on payroll to say it."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "37signals kept selling the self-serve way.",
+      "body": [
+        "Prices sat on the website for anyone to see. Anyone could try Basecamp free before paying. And for years, its main business plan was **one flat monthly price**, no matter how many people used it.",
+        "The company built its model around not negotiating custom deals. Some buyers who wanted that went elsewhere. 37signals treated that as a cost it was willing to pay, and stayed a small, profitable company."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Answer objections in the offer, not the conversation.",
+      "body": [
+        "**Removing an objection at the source** means changing your price, terms or proof so a common question is answered before anyone asks it.",
+        "A salesperson handles an objection once per customer. A design choice handles it for everyone, every day, for free."
+      ],
+      "image": {
+        "label": "Objections caught by a filter before reaching a buyer",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 왼쪽에 말풍선 세 개(\"Too expensive as we grow?\", \"Will it work?\", \"Can we leave?\"), 가운데에 \"The offer\"라고 적힌 필터, 오른쪽에 고민 없이 결제 버튼을 누르는 손. 실제 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "breakdown",
+      "eyebrow": "How it works",
+      "title": "Each objection got a built-in answer.",
+      "body": [
+        "None of these needed a meeting. The buyer could check every answer alone, on their own schedule."
+      ],
+      "breakdown": [
+        {
+          "value": "Flat price",
+          "label": "\"It'll get expensive as we grow\"",
+          "detail": "Adding people didn't raise the bill",
+          "highlight": false
+        },
+        {
+          "value": "Free trial",
+          "label": "\"Will it work for us?\"",
+          "detail": "Buyers find out by using it",
+          "highlight": false
+        },
+        {
+          "value": "No long contract",
+          "label": "\"What if we want out?\"",
+          "detail": "Leaving needs no negotiation",
+          "highlight": false
+        },
+        {
+          "value": "Public price",
+          "label": "\"Am I getting a fair deal?\"",
+          "detail": "Everyone pays the same",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Why it beats a script",
+      "title": "A repeated objection is a design problem.",
+      "body": [
+        "If ten buyers raise the same worry, the eleventh will too. Writing the answer into the offer once is cheaper than paying someone to repeat it a thousand times.",
+        "A public price also builds trust: no one wonders whether the next customer got a better deal. The founders have written that simple pricing also keeps any single big customer from steering the product."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Some buyers will simply leave.",
+      "body": [
+        "This works best when the product is simple, buyers can try it themselves, and the price is small next to their budget.",
+        "Large organizations often need security reviews, custom contracts and invoices on their terms. An offer built for self-serve can't answer those, so those deals are lost. 37signals chose that on purpose. Copy the approach only if you're willing to lose the same deals."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a packaging maker.",
+      "illustrative": true,
+      "body": [
+        "You make custom shipping boxes. Every new buyer asks the same three things: *What's the price? Is your minimum order too big for us? Will the boxes hold up?* Each answer takes a round of emails and a call.",
+        "What's the best move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Hire a sales rep to answer these questions faster",
+            "verdict": "partial",
+            "feedback": "Buyers get quicker replies, but you pay a salary to repeat the same three answers. The objections themselves don't go away."
+          },
+          {
+            "key": "B",
+            "text": "Publish a price table by quantity, offer a small starter order, and sell a sample pack",
+            "verdict": "best",
+            "feedback": "Each recurring question now has an answer anyone can check. You lose the chance to price each deal by hand, but you stop spending calls on the same worries."
+          },
+          {
+            "key": "C",
+            "text": "Lower the minimum order for everyone to remove the objection",
+            "verdict": "risky",
+            "feedback": "It answers one worry, but small runs may cost you more per box than you earn. Fix the objection without breaking your economics."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "If you hear it every week, answer it in the offer.",
+      "body": [
+        "Objections that repeat aren't a script problem. They're a signal to change your price, terms or proof, and to accept the buyers that change won't win.",
+        "**Try it today:** write down the three objections you hear most. Next to each, name one change to your offer that would answer it before anyone asks."
+      ],
+      "next": "Next · Handle 'It's too expensive'"
+    }
+  ]
+}

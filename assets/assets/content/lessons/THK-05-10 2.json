@@ -1,0 +1,288 @@
+{
+  "id": "THK-05-10",
+  "unitId": "THK-05",
+  "categoryId": "THK",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Run a pre-mortem on a launch",
+  "readerTitle": "Kill the launch on paper before it fails for real",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.3,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 시뮬레이션 (청소용품 도매업체가 사무실 대상 정기 보충 서비스 출시: 유통 + B2B 서비스) · 사전 부검 방법은 Gary Klein(2007) 참고 · 모든 수치는 설명용",
+  "insight": "사전 부검은 '무엇이 잘못될 수 있나'가 아니라 '이미 실패했다, 왜인가'라고 묻는 질문 방식이다. 그 뒤에 따로 쓰고, 추려서, 되돌릴 수 있게 실행해야 효과가 난다.",
+  "misconception": "출시 전에 '준비 안 된 것 있나요?'라고 물으면 숨은 문제가 다 나온다. 위험 목록을 만들었으면 전부 고쳐야 출시할 수 있다.",
+  "relatedLessonIds": [
+    "THK-05-03",
+    "THK-05-01"
+  ],
+  "sources": [
+    {
+      "text": "Klein, G. (2007). Performing a Project Premortem. Harvard Business Review, September 2007.",
+      "url": null
+    },
+    {
+      "text": "Mitchell, D. J., Russo, J. E., & Pennington, N. (1989). Back to the future: Temporal perspective in the explanation of events. Journal of Behavioral Decision Making.",
+      "url": null
+    },
+    {
+      "text": "도매업체, 인원, 수치는 모두 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "3번 카드의 '이미 일어났다고 상상하면 이유를 더 많이 떠올린다'는 Klein(2007)이 Mitchell 외(1989) 연구를 인용한 내용입니다. Klein이 언급한 약 30% 수치는 카드에 넣지 않았습니다. 게시 전 원문 표현을 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "가상 수치 일관성: 매장 140곳, 사무실 계약 40곳, 회의 인원 7명(나, 상사, 영업 책임자, 창고 책임자, 기사 2명, 고객센터 1명). 이유 23개 = 이미 대응됨 9 + 작거나 가능성 낮음 11 + 심각 3.",
+      "status": "open"
+    },
+    {
+      "note": "트립와이어 기준(2주 연속 정시 배송률 95% 미만이면 신규 가입 중단)과 시범 10곳은 설명용 가정입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Decisions · Simulation",
+      "title": "Three weeks to launch. Imagine it already failed.",
+      "illustrative": true,
+      "body": [
+        "You run operations at a regional wholesaler of cleaning supplies. Your trucks restock 140 shops every week.",
+        "In three weeks you launch something new: automatic monthly restocking for office clients. Sales has already signed 40 offices. The plan looks ready.",
+        "Your boss asks you to run one last meeting before go-live. How you run it decides what you learn."
+      ],
+      "image": {
+        "label": "Delivery truck at a loading dock with a launch calendar",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 창고 하역장에 배송 트럭 한 대, 벽에 달력이 걸려 있고 3주 뒤 날짜에 \"Launch\" 동그라미. 상자에는 세제와 손 세정제 그림만, 실제 브랜드 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1",
+      "title": "How do you open the meeting?",
+      "illustrative": true,
+      "body": [
+        "Seven people are in the room: you, your boss, the sales lead, the warehouse lead, two drivers and someone from customer service."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "\"Is there anything that isn't ready yet?\"",
+            "verdict": "risky",
+            "feedback": "Nobody wants to be the person who blocks a launch. Two small issues come up, and the meeting ends in 15 minutes."
+          },
+          {
+            "key": "B",
+            "text": "\"It's six months from now. The service failed. Write down why.\"",
+            "verdict": "best",
+            "feedback": "Failure is now a given, so explaining it becomes the job, not disloyalty. People start naming specific causes."
+          },
+          {
+            "key": "C",
+            "text": "\"What are the main risks we should think about?\"",
+            "verdict": "partial",
+            "feedback": "Better than A, but the answers stay vague and polite: \"delays,\" \"staffing.\" Hard to act on."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "Why it works",
+      "title": "Say you chose B: a pre-mortem.",
+      "body": [
+        "A **pre-mortem** is the opposite of a post-mortem. Instead of asking why a project died after it happened, you imagine it has already died and work backwards to the causes.",
+        "Psychologist Gary Klein, who popularized the method, points to research suggesting that people find more reasons for an event when they picture it as having already happened, rather than asking whether it *might* happen.",
+        "The question shifts from \"Will this work?\" to \"What killed it?\""
+      ]
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 2",
+      "title": "How do people share their reasons?",
+      "illustrative": true,
+      "body": [
+        "Everyone is ready to talk. Your boss, who championed the launch, leans forward to start."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Open discussion, starting with your boss",
+            "verdict": "risky",
+            "feedback": "The boss's view sets the frame. The drivers nod along and keep their concerns to themselves."
+          },
+          {
+            "key": "B",
+            "text": "Everyone writes alone for three minutes, then reads one item at a time, most junior first",
+            "verdict": "best",
+            "feedback": "Each person's view is captured before anyone is influenced. Junior staff speak before rank shapes the room."
+          },
+          {
+            "key": "C",
+            "text": "Skip the meeting and send a survey afterwards",
+            "verdict": "partial",
+            "feedback": "Answers stay independent, but half the team never replies, and nobody builds on anyone else's point."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "breakdown",
+      "eyebrow": "What came out",
+      "title": "Say you chose B: 23 reasons the launch failed.",
+      "illustrative": true,
+      "body": [
+        "Both drivers wrote the same thing. Offices expect restocking on the first Monday of the month. That's also when the 140 shops place their biggest orders. **The trucks are already full.** Nobody in sales or management had noticed."
+      ],
+      "breakdown": [
+        {
+          "value": "23",
+          "label": "Reasons written",
+          "detail": "From 7 people in 3 minutes",
+          "highlight": false
+        },
+        {
+          "value": "9",
+          "label": "Already handled",
+          "detail": "Covered by the current plan",
+          "highlight": false
+        },
+        {
+          "value": "11",
+          "label": "Small or unlikely",
+          "detail": "Worth noting, not worth delaying for",
+          "highlight": false
+        },
+        {
+          "value": "3",
+          "label": "Serious",
+          "detail": "Including the first-Monday truck clash",
+          "highlight": true
+        }
+      ],
+      "softwareNote": "Software teams run the same exercise before a release: everyone writes silently in a shared doc, then reads aloud. It often surfaces billing edge cases or support load that the builders never saw."
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Decision 3",
+      "title": "What do you do with the list?",
+      "illustrative": true,
+      "body": [
+        "Launch is in three weeks. Twenty-three items are on the whiteboard."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Fix all 23 before launching",
+            "verdict": "partial",
+            "feedback": "Thorough, but the launch slips about two months, and the three serious items get the same attention as the trivial ones."
+          },
+          {
+            "key": "B",
+            "text": "Rank by how likely and how damaging, then give the top 3 an owner and a deadline",
+            "verdict": "best",
+            "feedback": "Effort goes where failure would hurt most. The rest is parked, not forgotten."
+          },
+          {
+            "key": "C",
+            "text": "Thank everyone, file the list and launch on schedule",
+            "verdict": "risky",
+            "feedback": "The meeting felt useful, but nothing changed. The truck clash is still waiting for launch day."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Decision 4",
+      "title": "How do you handle the truck clash?",
+      "illustrative": true,
+      "body": [
+        "It's the most serious item. Sales promised all 40 offices a first-Monday start."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Lease two extra trucks on a 12-month contract before launch",
+            "verdict": "partial",
+            "feedback": "It solves the clash, but locks in a year of cost before you know how many offices stay. Hard to undo."
+          },
+          {
+            "key": "B",
+            "text": "Start 10 offices on midweek slots. If on-time delivery drops below 95% for two weeks, pause new sign-ups",
+            "verdict": "best",
+            "feedback": "You learn real demand with little at stake, and you've decided in advance what would make you stop."
+          },
+          {
+            "key": "C",
+            "text": "Launch all 40 on the first Monday and pay drivers overtime",
+            "verdict": "risky",
+            "feedback": "Tired drivers, late shop deliveries. The new service puts your core business at risk."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Say you chose B. Week five brings a surprise.",
+      "illustrative": true,
+      "body": [
+        "The trucks cope fine. But offices keep running out of hand soap mid-month, because sales guessed usage instead of measuring it. Nobody had listed that.",
+        "A pre-mortem shrinks your blind spots. It doesn't remove them. It also costs an hour of seven people's time, and it turns sour if it's used to blame someone.",
+        "So judge the meeting by how well you decided, not by whether nothing went wrong. A small pilot is what made this surprise cheap."
+      ],
+      "image": {
+        "label": "Office supply shelf with an empty soap slot",
+        "aspectRatio": "16:9",
+        "brief": "사무실 탕비실 선반 일러스트. 세제, 휴지는 가득한데 손 세정제 칸만 비어 있고 작은 물음표. 브랜드 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Find the failure before it finds you.",
+      "body": [
+        "Each choice you made maps to an idea in this unit:"
+      ],
+      "list": [
+        "**Imagine it failed:** the pre-mortem",
+        "**Write alone, junior first:** disagreement voiced before the team commits",
+        "**Fix the top 3, not all 23:** good enough beats best",
+        "**Pilot with a tripwire:** keep big decisions reversible"
+      ],
+      "callout": "**Try it today:** pick one plan launching soon. Ask three people to spend three minutes writing why it failed, before they talk.",
+      "next": "Next · Why some problems feed themselves"
+    }
+  ]
+}

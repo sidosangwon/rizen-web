@@ -1,0 +1,238 @@
+{
+  "id": "ENT-02-04",
+  "unitId": "ENT-02",
+  "categoryId": "ENT",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "The owner's time trap",
+  "readerTitle": "The café that can't open without its owner",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (카페, 예약 앱) + 개념 출처로 Gerber의 『The E-Myth』 참고 · 모든 수치는 설명용. 확인된 실제 기업 사례가 없어 사실 정확성을 위해 company_story 대신 everyday_scene으로 바꿨습니다.",
+  "insight": "내가 멈추면 사업도 멈춘다면, 나는 사업이 아니라 시급이 낮은 일자리를 가진 것이다.",
+  "misconception": "내가 직접 하는 게 가장 빠르고 품질도 좋으니, 사장이 많이 일할수록 사업에 좋다.",
+  "relatedLessonIds": [
+    "ENT-02-01",
+    "ENT-02-05"
+  ],
+  "sources": [
+    {
+      "text": "Gerber, M. E. (1986, revised 1995). The E-Myth Revisited: Why Most Small Businesses Don't Work and What to Do About It.",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "카페 계산: 주 70시간 × 50주 = 3,500시간. 연간 사장 몫 $60,000 ÷ 3,500 = 시간당 약 $17.14 (카드에는 'about $17'). 파트타임 제빵사 시급 $20은 가정입니다.",
+      "status": "open"
+    },
+    {
+      "note": "Gerber의 'working in vs on the business' 구분과 'technician' 개념은 『The E-Myth Revisited』의 핵심 내용입니다. 카드에는 직접 인용 없이 요지만 적었습니다. 초판 연도(1986)를 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "'사장 없이는 돌아가지 않는 사업은 매각 시 가치가 낮다'는 일반 원칙으로만 서술했고 구체적 배수는 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "예약 앱 계산: 주 25시간 지원 업무, 고객 400명은 설명용 가정입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Small business · Everyday scene",
+      "title": "The café that can't open without its owner",
+      "illustrative": true,
+      "body": [
+        "Maya's café is busy every morning. Customers love her pastries, which she bakes herself at 5 a.m.",
+        "She works 70 hours a week. She hasn't taken a week off in three years. And her café is not growing. Those three facts are connected."
+      ],
+      "image": {
+        "label": "A café owner alone at dawn, baking while the shop is dark",
+        "aspectRatio": "4:3",
+        "brief": "새벽 5시, 불 꺼진 카페 안에서 주방만 밝다. 주인 한 명이 반죽을 하고, 벽시계와 쌓인 할 일 메모가 보인다. 따뜻하지만 피곤한 분위기. 실제 브랜드 로고 금지.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Should Maya keep baking?",
+      "illustrative": true,
+      "body": [
+        "Maya bakes every pastry herself because no one does it quite as well. A local office has asked about catering, but she has no time to plan it.",
+        "A part-time baker would cost $20 an hour. What should she do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep baking. The pastries are why people come",
+            "verdict": "risky",
+            "feedback": "She protects quality today, but the catering idea dies and the café stays exactly as big as her energy."
+          },
+          {
+            "key": "B",
+            "text": "Write down her recipes, train a baker, and use her mornings to plan catering",
+            "verdict": "best",
+            "feedback": "The pastries may be a little different for a few weeks. In return she buys back hours to grow the business instead of just running it."
+          },
+          {
+            "key": "C",
+            "text": "Hire the baker and use the free mornings to sleep",
+            "verdict": "partial",
+            "feedback": "Rest matters, and burnout is a real risk. But the freed hours only change the business if some go toward building it."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "What Maya really pays herself.",
+      "illustrative": true,
+      "body": [
+        "Maya's café leaves her about $60,000 a year. Spread across her hours, she earns **about $17 an hour**, less than the baker she won't hire."
+      ],
+      "breakdown": [
+        {
+          "value": "70",
+          "label": "Hours a week",
+          "detail": "Baking, serving, ordering, accounts",
+          "highlight": false
+        },
+        {
+          "value": "3,500",
+          "label": "Hours a year",
+          "detail": "70 hours × 50 weeks",
+          "highlight": false
+        },
+        {
+          "value": "$60,000",
+          "label": "Owner's share",
+          "detail": "What's left for Maya each year",
+          "highlight": false
+        },
+        {
+          "value": "~$17",
+          "label": "Per hour",
+          "detail": "Less than a $20 baker",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The owner's time trap",
+      "body": [
+        "The **owner's time trap** is a loop. The owner does the daily work because it's faster and better. So there's no time to train people or write things down. So the business depends on the owner even more.",
+        "Every hour Maya spends baking is an hour she can't spend making the café need her less."
+      ],
+      "image": {
+        "label": "A loop: do the work, no time to train, more dependence",
+        "aspectRatio": "16:9",
+        "brief": "원형 화살표 루프 인포그래픽. \"I do it myself\" → \"No time to train or plan\" → \"Only I can do it\" → 다시 처음으로. 가운데에 지친 사장 아이콘.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Why it happens",
+      "title": "Working in the business vs on it.",
+      "body": [
+        "Michael Gerber's book *The E-Myth* describes a common pattern. Many small businesses are started by people who are good at the work itself: the baker, the plumber, the coder. They keep doing that work and never step back to design how the business runs.",
+        "The cost shows up later too. A business that stops when the owner stops is hard to grow, hard to leave, and hard to sell. Buyers pay for earnings that continue without you."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How owners get out",
+      "title": "Buy back your hours on purpose.",
+      "body": [
+        "The way out is not working harder. It is moving tasks off your plate in order:"
+      ],
+      "list": [
+        "**Price your hour:** what you earn per hour, and what it would cost to hire the task out",
+        "**Write it down:** recipes, checklists, a short video of how you do it",
+        "**Accept 80% at first:** someone else's version won't match yours on day one",
+        "**Spend the hours on the business:** new customers, better systems, fewer fires"
+      ],
+      "softwareNote": "In a software company, the trap looks like a founder who answers every support ticket and approves every code change. The product can only move as fast as one person's inbox."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Doing it yourself isn't always wrong.",
+      "body": [
+        "Early on, doing the work yourself teaches you what customers want and what good looks like. Hand it off too soon and you may not know what to teach.",
+        "Delegating also costs money and some quality. And some owners choose a small business they run by hand, on purpose. That's fine. The trap is drifting into it without choosing."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a booking app.",
+      "illustrative": true,
+      "body": [
+        "You built a booking app for hair salons. You have 400 paying customers and you answer every support email yourself, about 25 hours a week. Sign-ups have stalled because you have no time for sales or new features.",
+        "What's your next move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep answering every email. Personal support is why customers stay",
+            "verdict": "partial",
+            "feedback": "Good support does keep customers. But 25 hours a week on it means nothing else moves."
+          },
+          {
+            "key": "B",
+            "text": "Turn your top 20 answers into help articles, then hire part-time support for the rest",
+            "verdict": "best",
+            "feedback": "You keep most of the quality and buy back hours for growth. Your past answers become the training manual."
+          },
+          {
+            "key": "C",
+            "text": "Shut off email support and add a chatbot",
+            "verdict": "risky",
+            "feedback": "It frees your time fast, but salon owners may feel abandoned and leave. You swap a time problem for a churn problem."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "If it stops when you stop, it owns you.",
+      "body": [
+        "The work only you can do is the work that keeps your business small. Free your hours on purpose, and spend them on the business, not just in it.",
+        "**Try it today:** list everything you did this week. Circle the tasks only you could do. Pick one that isn't circled and write down how to do it."
+      ],
+      "next": "Next · Should you buy a business or start one?"
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "id": "MKT-03-05",
+  "unitId": "MKT-03",
+  "categoryId": "MKT",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Commitment and consistency",
+  "readerTitle": "Why a tiny sticker made people accept a giant sign",
+  "format": "numbers_twist",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.2,
+  "caseKinds": [
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 연구 (Freedman & Fraser 1966, Burger 1999 메타분석) + 가상 적용 (물류 창고, 인보이스 소프트웨어)",
+  "insight": "큰 요청의 성패는 그 요청 자체보다, 상대가 먼저 내디딘 작은 한 걸음에 달려 있다. 사람은 이미 한 행동에 맞춰 다음 행동을 고른다.",
+  "misconception": "설득하려면 처음부터 큰 혜택을 걸고 큰 요청을 해야 한다. 작은 부탁은 시간 낭비다.",
+  "relatedLessonIds": [
+    "MKT-03-03",
+    "MKT-03-10"
+  ],
+  "sources": [
+    {
+      "text": "Freedman, J. L., & Fraser, S. C. (1966). Compliance without pressure: The foot-in-the-door technique. Journal of Personality and Social Psychology, 4(2), 195–202.",
+      "url": null
+    },
+    {
+      "text": "Burger, J. M. (1999). The foot-in-the-door compliance procedure: A multiple-process analysis and review. Personality and Social Psychology Review, 3(4), 303–325.",
+      "url": null
+    },
+    {
+      "text": "Cialdini, R. B. Influence: The Psychology of Persuasion (commitment and consistency 장)",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Freedman & Fraser(1966) 수치: 사전 요청 없이 큰 'Drive Carefully' 표지판을 요청받은 집단의 동의율 약 16.7%, 2주 전 같은 주제의 작은(약 3인치) 스티커형 표지판에 동의했던 집단 약 76%. 원문 표로 다시 확인하세요. 비율 계산: 76 ÷ 16.7 ≈ 4.5배.",
+      "status": "open"
+    },
+    {
+      "note": "다른 주제의 작은 요청(예: 'Keep California Beautiful' 청원 서명)을 했던 집단도 통제 집단보다 동의율이 높았다는 결과(약 47%로 기억)는 카드에 수치 없이 정성적으로만 적었습니다. 원문 확인 필요.",
+      "status": "open"
+    },
+    {
+      "note": "Burger(1999) 메타분석의 결론을 '효과는 있지만 유명 연구보다 작고 조건에 따라 달라진다'로 요약했습니다. 요약 표현이 원문과 맞는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "능동적·공개적·자발적 약속일수록 강하다는 설명은 Cialdini의 일반적 정리를 따른 것입니다. 창고·소프트웨어 사례는 모두 가상이며 수치 없음.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Marketing · Numbers twist",
+      "title": "Why a tiny sticker made people accept a giant sign",
+      "body": [
+        "In 1966, researchers in California asked homeowners to let volunteers put a big, ugly \"Drive Carefully\" sign on their front lawn.",
+        "Most people said no. But one group said yes far more often. The only difference was something small that happened two weeks earlier."
+      ],
+      "image": {
+        "label": "A small window sticker next to a huge lawn sign",
+        "aspectRatio": "4:3",
+        "brief": "교외 주택 앞. 창문에 손바닥만 한 작은 스티커가 붙어 있고, 잔디밭에는 집을 가릴 만큼 크고 투박한 'Drive Carefully' 표지판. 작은 것과 큰 것의 크기 대비를 강조. 실제 단체 로고 없음.",
+        "url": "assets/images/mkt-03-05-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Guess the gap.",
+      "body": [
+        "Two weeks earlier, some homeowners had agreed to display a tiny 3-inch sign about safe driving. Nobody asked them for anything else.",
+        "Then all homeowners got the big-sign request. Compared with people who got no earlier request, how often did the tiny-sign group say yes?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "About the same. A tiny sign is too small to matter",
+            "verdict": "risky",
+            "feedback": "A reasonable guess if you think people judge each request on its own. They often don't."
+          },
+          {
+            "key": "B",
+            "text": "About twice as often",
+            "verdict": "partial",
+            "feedback": "Right direction, but the effect in this study was much larger."
+          },
+          {
+            "key": "C",
+            "text": "More than four times as often",
+            "verdict": "best",
+            "feedback": "Yes. Roughly 76% versus 17%. The next card shows the numbers."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "One small yes changed the big answer.",
+      "body": [
+        "Same street, same ugly sign. The tiny-sign group agreed about **4.5 times** as often.",
+        "Stranger still: people who had earlier signed a petition on a different topic were also more likely to agree, though less so."
+      ],
+      "chart": {
+        "unit": "%",
+        "groups": [
+          {
+            "label": "Agreed to the big sign",
+            "rows": [
+              {
+                "label": "No earlier request",
+                "value": 17,
+                "highlight": false
+              },
+              {
+                "label": "Agreed to tiny sign first",
+                "value": 76,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Commitment and consistency",
+      "body": [
+        "**Commitment and consistency** means that once people take a step, they tend to keep acting in line with it.",
+        "The tiny sign didn't change anyone's view on traffic. It changed how they saw themselves: *I'm someone who supports safe driving.* Saying no to the big sign would clash with that picture."
+      ],
+      "image": {
+        "label": "A small first step leading up a staircase",
+        "aspectRatio": "16:9",
+        "brief": "계단 그림. 첫 칸은 아주 낮고 작은 'Small yes', 위로 갈수록 칸이 커지며 맨 위에 'Big yes'. 첫 칸에 사람 발 하나가 올라가 있음. 단순한 플랫 일러스트.",
+        "url": "assets/images/mkt-03-05-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Not every yes sticks.",
+      "body": [
+        "Some first steps shape behavior more than others. They tend to work best when they are:"
+      ],
+      "list": [
+        "**Active:** the person does or writes something, not just nods",
+        "**Public:** others saw it",
+        "**Chosen freely:** no pressure, no big bribe"
+      ],
+      "callout": "If someone says yes only for a reward, they credit the reward, not themselves."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "In a warehouse",
+      "title": "A memo vs. a spoken promise.",
+      "illustrative": true,
+      "body": [
+        "A logistics manager needs loaders to scan every pallet before it goes on a truck. A memo on the wall gets ignored.",
+        "So at the shift briefing, she asks each loader to pick one step they'll own this week and say it out loud to the team. Then they write their name next to it on the board.",
+        "Nothing is enforced. But each loader now has a small, public, chosen commitment to live up to."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Small steps can't hide a bad deal.",
+      "body": [
+        "The effect is real but smaller than the famous study suggests. A 1999 review of many studies found it varies a lot with conditions.",
+        "It also backfires as a trick. Getting a yes, then changing the terms, feels like a bait-and-switch. People may stay consistent once, and then never trust you again.",
+        "Use it to help people start something they already want, not to trap them."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's invoicing software.",
+      "illustrative": true,
+      "body": [
+        "Your app offers a 14-day free trial. Many users sign up, look around and never come back. You want more of them to become paying customers.",
+        "What's the best first step to ask for?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "A longer signup form, so users invest more effort up front",
+            "verdict": "risky",
+            "feedback": "Effort can deepen commitment, but this is effort before any value. You'll lose people at the door instead of building a habit."
+          },
+          {
+            "key": "B",
+            "text": "On day one, ask them to send one real invoice to a real client",
+            "verdict": "best",
+            "feedback": "It's small, active and visible to a client. Users now see themselves as people who bill through your app."
+          },
+          {
+            "key": "C",
+            "text": "Extend the trial to 30 days",
+            "verdict": "partial",
+            "feedback": "More time helps some users, but time alone isn't a step. Many will drift for 30 days instead of 14."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Ask for the first step, not the whole climb.",
+      "body": [
+        "People act in line with what they've already done, especially when they chose it, did it actively and others saw it.",
+        "**Try it today:** pick one big thing you want customers or staff to do. Write down the smallest real step that points toward it, and ask for only that."
+      ],
+      "next": "Next · Same facts, different choice"
+    }
+  ]
+}

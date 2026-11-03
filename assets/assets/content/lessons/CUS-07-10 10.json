@@ -1,0 +1,259 @@
+{
+  "id": "CUS-07-10",
+  "unitId": "CUS-07",
+  "categoryId": "CUS",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Prioritize five feature requests",
+  "readerTitle": "Five requests, one quarter: what do you build?",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.4,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션: 독립 식당 200곳에 예약·대기 관리 도구를 파는 B2B 서비스 회사(Tableline)와 고객 식당들. 모든 인물, 회사, 수치는 설명용입니다.",
+  "insight": "기능 요청은 그대로 만들 주문서가 아니라 그 뒤에 있는 문제를 알려주는 단서다. 요청을 문제별로 묶으면 무엇을 만들고, 무엇을 거절하고, 어떻게 내보낼지가 한 줄로 이어진다.",
+  "misconception": "가장 많이 요청받은 기능이나 가장 큰 고객이 원하는 기능을 먼저 만드는 것이 우선순위다.",
+  "relatedLessonIds": [
+    "CUS-07-02",
+    "CUS-07-03"
+  ],
+  "sources": [
+    {
+      "text": "제품 관리의 표준 개념 (요청 뒤의 문제 찾기, 비전 기반 우선순위, 기본값과 단순성)",
+      "url": null
+    },
+    {
+      "text": "모든 인물, 회사, 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 가상입니다. 식당 200곳 중 Harbor Group 5곳이 매출의 약 10%라는 설정은 대형 고객이 매장당 더 많이 낸다는 가정입니다(5곳은 매장 수의 2.5%). 나머지 식당 수 195 = 200 − 5.",
+      "status": "open"
+    },
+    {
+      "note": "문자 알림이나 예약금이 노쇼를 몇 % 줄인다는 실제 통계는 일부러 넣지 않았습니다. 결과 카드도 \"fewer empty tables\"라는 정성적 표현만 씁니다. 수치를 넣으려면 1차 출처를 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "카드 9의 개념 매핑(07-01, 07-02, 07-03, 07-04, 07-05, 07-06)이 해당 레슨의 최종 정의와 맞는지 유닛 레슨 확정 후 다시 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Product judgment · Simulation",
+      "title": "Five requests landed this week. You can build one thing well.",
+      "illustrative": true,
+      "body": [
+        "You run Tableline, a small company that sells a booking and waitlist tool to about 200 independent restaurants. Your team has room for one real piece of work this quarter.",
+        "Five requests are on your desk. Each comes from someone you'd hate to disappoint."
+      ],
+      "image": {
+        "label": "A desk with five request notes and a restaurant host stand behind it",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 책상 위에 색이 다른 메모지 다섯 장이 흩어져 있고, 뒤로 식당 입구의 호스트 스탠드와 예약 태블릿이 보임. 메모지 하나만 살짝 빛남. 실제 브랜드 로고는 쓰지 않음.",
+        "url": "assets/images/cus-07-10-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "text",
+      "eyebrow": "The requests",
+      "title": "Here's what's on the list.",
+      "illustrative": true,
+      "body": [
+        "Read them once before you decide anything."
+      ],
+      "list": [
+        "**Text reminders** before each booking: asked by 14 small restaurants",
+        "**Deposits for groups of 8+:** asked by 6 busy weekend spots",
+        "**A custom loyalty link** to the points system at Harbor Group, your biggest customer (five restaurants)",
+        "**Dark mode** for the host stand screen: one owner, very loudly",
+        "**A point-of-sale module** (the till that takes orders and payments): your sales lead says it would win bigger deals"
+      ],
+      "callout": "Four decisions follow. Each one builds on the last.",
+      "softwareNote": "Most software teams keep a list like this. The trap is treating it as a queue to work through, top to bottom."
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 4",
+      "title": "How do you sort the five?",
+      "illustrative": true,
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Build what the most customers asked for: text reminders",
+            "verdict": "partial",
+            "feedback": "Counting is a fair start. But it misses that the deposit requests come from the same pain, so you'd solve half the problem."
+          },
+          {
+            "key": "B",
+            "text": "Ask what problem sits behind each request, then group them",
+            "verdict": "best",
+            "feedback": "You find that reminders and deposits both fight no-shows: empty tables on booked nights. Two requests, one problem, one piece of work."
+          },
+          {
+            "key": "C",
+            "text": "Start with Harbor Group, since they pay the most",
+            "verdict": "risky",
+            "feedback": "You keep one customer happy and learn little about the other 195. Revenue is a reason to listen closely, not a ranking."
+          }
+        ],
+        "afterReveal": "Requests describe a solution. The problem behind them is what you rank."
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 4",
+      "title": "Say you grouped by problem. Harbor Group pushes back.",
+      "illustrative": true,
+      "body": [
+        "No-shows win the quarter. Harbor's owner says the loyalty link matters more and hints they might switch tools. They bring in about a tenth of your revenue."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Build the custom link first and keep them at any cost",
+            "verdict": "risky",
+            "feedback": "You keep the account, but the no-show work slips for 195 restaurants. You also now maintain code only one customer uses."
+          },
+          {
+            "key": "B",
+            "text": "Say no for now, explain why, and offer a simple guest-data export they can load into their points system",
+            "verdict": "best",
+            "feedback": "You decline the build, not the customer. The export covers most of their need in days, and the no-show work stays on track."
+          },
+          {
+            "key": "C",
+            "text": "Agree, but only if Harbor pays for the custom work",
+            "verdict": "partial",
+            "feedback": "Fair, and some firms do this well. But the money doesn't remove the cost: the work still delays everyone else and adds upkeep for one client."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 4",
+      "title": "Say you offered the export. Now sales wants the till.",
+      "illustrative": true,
+      "body": [
+        "Your sales lead says a point-of-sale module would help close bigger restaurant groups. Your one-line vision: *help independent restaurants fill every table they've booked.*"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Build a light version so sales has something to demo",
+            "verdict": "partial",
+            "feedback": "A demo-sized till soon gets real orders from real customers. You end up supporting a second product that's half-built."
+          },
+          {
+            "key": "B",
+            "text": "Decline, and connect to the till systems restaurants already use",
+            "verdict": "best",
+            "feedback": "You stay with your vision and still give sales an answer. Your product does one job well and works with the rest."
+          },
+          {
+            "key": "C",
+            "text": "Build the full till. Bigger deals mean faster growth",
+            "verdict": "risky",
+            "feedback": "You enter a crowded market against firms that do only this. Every month on the till is a month the no-show problem waits."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Decision 4 of 4",
+      "title": "Say you stayed focused. How do the no-show features reach restaurants?",
+      "illustrative": true,
+      "body": [
+        "Reminders and group deposits are built. Picture a host on a Friday night, phone ringing, line at the door."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Ship full controls: timing, message templates, languages, deposit rules",
+            "verdict": "partial",
+            "feedback": "Power users will love it. Most owners will open the settings mid-shift, close them, and never switch anything on."
+          },
+          {
+            "key": "B",
+            "text": "Reminders on by default, sent 24 hours ahead with one plain message; deposits need one switch",
+            "verdict": "best",
+            "feedback": "Owners see fewer empty tables in week one without setting anything up. That first win makes them trust the next feature."
+          },
+          {
+            "key": "C",
+            "text": "Make both optional and announce them in a newsletter",
+            "verdict": "risky",
+            "feedback": "Polite, but few busy owners read newsletters. A feature nobody turns on solves nothing."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "How the quarter ends",
+      "title": "Not every request won. Every request got an answer.",
+      "illustrative": true,
+      "body": [
+        "Restaurants that left reminders on report fewer empty tables on booked nights. Harbor Group uses the export and stays, grumbling a little.",
+        "Sales closes one group through the till connection and loses one that wanted an all-in-one system. The dark-mode owner gets a personal reply and a spot on the list."
+      ],
+      "image": {
+        "label": "Restaurant floor with full tables and a host smiling at a tablet",
+        "aspectRatio": "16:9",
+        "brief": "3D 클레이 스타일. 금요일 밤 식당, 예약된 테이블이 대부분 채워져 있고 호스트가 태블릿을 보며 웃음. 구석에 빈 테이블 하나. 화면에 \"Reminder sent\" 아이콘만 표시. 실제 로고 없음.",
+        "url": "assets/images/cus-07-10-c7.jpg"
+      }
+    },
+    {
+      "index": 8,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Saying no has a price. Name it.",
+      "body": [
+        "Grouping by problem only works if you talk to customers. A request list alone hides the *why*.",
+        "And no is never free. Harbor could still leave, and the lost till deal was real money. Good prioritizing doesn't avoid these costs. It picks them on purpose and looks again when facts change, such as many customers suddenly asking for the same connection."
+      ]
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A request is a clue, not an order.",
+      "body": [
+        "Each decision in this story used one idea from this unit:"
+      ],
+      "list": [
+        "**Sort by the problem behind requests:** prioritizing what to build",
+        "**Decline the custom build, keep the customer:** saying no to features",
+        "**Skip the till:** product vision, and guarding against feature creep",
+        "**Reminders on by default:** simplicity, and reaching the first win fast"
+      ],
+      "callout": "**Try it today:** take the last five requests from customers or staff. Next to each, write the problem behind it. Circle any two that share a problem.",
+      "next": "Next · Follow one customer from first look to fifth visit"
+    }
+  ]
+}

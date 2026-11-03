@@ -1,0 +1,240 @@
+{
+  "id": "FIN-05-08",
+  "unitId": "FIN-05",
+  "categoryId": "FIN",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "Budget a product launch",
+  "readerTitle": "Don't spend the whole launch budget on day one",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (대기업 안의 소프트웨어 팀, 배관 서비스 회사) · 모든 수치는 설명용",
+  "insight": "출시 예산은 한 번에 쓰는 돈이 아니라, 시나리오별로 나누고 계획 대비 실적을 확인할 때마다 단계적으로 푸는 돈이다.",
+  "misconception": "출시 예산은 가장 그럴듯한 매출 예측 하나에 맞춰 처음부터 전부 집행하면 된다.",
+  "relatedLessonIds": [
+    "FIN-05-03",
+    "FIN-05-04"
+  ],
+  "sources": [
+    {
+      "text": "관리회계·재무계획의 표준 개념 (예산, 시나리오 계획, 계획 대비 실적)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "시나리오 계산: 저 200명 × $300 = $60,000, 기본 500명 × $300 = $150,000, 고 900명 × $300 = $270,000. 예산 $120,000 = 확정 지출 $50,000 + 출시 마케팅 $30,000 + 체크포인트 후 마케팅 $40,000. 두 번째 집행을 보류하면 지출은 $80,000.",
+      "status": "open"
+    },
+    {
+      "note": "체크포인트 계산: 계획 400 체험 × 15% = 유료 60명. 실적 420 체험 × 8% = 33.6명(약 34명). 체험 수는 계획 대비 +5%, 전환율은 약 절반.",
+      "status": "open"
+    },
+    {
+      "note": "배관 회사: 교육 $2,000 + 전단 $4,000 + 차량 래핑 $3,000 = $9,000. 월 300건 방문 × 목표 가입률 10% = 30명. 월 $15 × 30명 = 월 $450 (카드에는 쓰지 않음).",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Apply",
+      "title": "Don't spend the whole launch budget on day one",
+      "illustrative": true,
+      "body": [
+        "Maya runs a small team inside a large software company. Her team is launching a paid add-on, and finance has given her $120,000.",
+        "Finance also wants one number: how much revenue the add-on will bring in its first year. Nobody knows. The add-on doesn't exist yet."
+      ],
+      "image": {
+        "label": "A team lead holding one big stack of cash at a launch whiteboard",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 사무실 화이트보드 앞에서 팀 리더가 큰 돈 뭉치 하나를 들고 고민하는 장면. 화이트보드에는 \"Launch\"와 물음표 하나. 실제 회사 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How should Maya build the launch budget?",
+      "illustrative": true,
+      "body": [
+        "The add-on will cost $300 a year per customer. Her best guess is 500 customers in year one. About $50,000 must be spent before launch no matter what: finishing the build, help docs and sales training.",
+        "What should she take to finance?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "One forecast of 500 customers, with all $120,000 spent around launch day",
+            "verdict": "risky",
+            "feedback": "It's simple and looks confident. But one guess hides the range, and once the money is spent, nothing can change if the guess is wrong."
+          },
+          {
+            "key": "B",
+            "text": "Low, base and high cases, with some marketing money held back until early results come in",
+            "verdict": "best",
+            "feedback": "This is **scenario planning** applied to spending. She commits what she must and releases the rest only when the numbers justify it."
+          },
+          {
+            "key": "C",
+            "text": "Promise a low 200 customers so the team is sure to beat it",
+            "verdict": "partial",
+            "feedback": "It protects the team's reputation. But finance plans around a number nobody believes, and the add-on may get too little money to succeed."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Three cases, one budget in stages.",
+      "illustrative": true,
+      "body": [
+        "The $120,000 splits into $50,000 committed, $30,000 of marketing at launch and **$40,000 held** until a checkpoint six weeks in. If results look like the low case, she can stop at $80,000."
+      ],
+      "breakdown": [
+        {
+          "value": "$60k",
+          "label": "Low case",
+          "detail": "200 customers × $300",
+          "highlight": false
+        },
+        {
+          "value": "$150k",
+          "label": "Base case",
+          "detail": "500 customers × $300",
+          "highlight": true
+        },
+        {
+          "value": "$270k",
+          "label": "High case",
+          "detail": "900 customers × $300",
+          "highlight": false
+        },
+        {
+          "value": "$40k",
+          "label": "Held back",
+          "detail": "Released only after the checkpoint",
+          "highlight": false
+        }
+      ],
+      "callout": "The held money is what lets the plan change.",
+      "softwareNote": "Teams inside large companies often lose unspent money at year end, so they spend it early. Agreeing on the staged release with finance up front stops held money from looking like unused budget."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Set the checkpoint now",
+      "title": "Decide what \"on plan\" means before launch.",
+      "illustrative": true,
+      "body": [
+        "Revenue takes months to show up, so Maya picks early numbers she can check in six weeks: 400 free trials, with 15% turning into paying customers. That's 60 paid customers.",
+        "She writes these down with finance before launch. Later, nobody can redefine success to fit whatever happened. This is the setup for **plan vs actual**: you can only compare against a plan that existed first."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Your call · six weeks in",
+      "title": "The checkpoint arrives.",
+      "illustrative": true,
+      "body": [
+        "Actual results: 420 trials, slightly above plan. But only 8% became paying customers, about 34 instead of 60.",
+        "What should Maya do with the held $40,000?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Release it. Trials beat the plan, so marketing is working",
+            "verdict": "risky",
+            "feedback": "Marketing is working, but it isn't the problem. More trials into the same 8% conversion buys customers at almost twice the planned cost."
+          },
+          {
+            "key": "B",
+            "text": "Hold most of it, fix why trials don't convert, then check again",
+            "verdict": "best",
+            "feedback": "**Plan vs actual** shows where the gap is: conversion, not traffic. Spending on the real gap first protects the remaining money."
+          },
+          {
+            "key": "C",
+            "text": "Cancel the add-on and return the money",
+            "verdict": "partial",
+            "feedback": "It stops further losses, but it ends a test after one fixable problem. Interest in trying it is already above plan."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Stages have costs too.",
+      "body": [
+        "Every checkpoint takes time and can slow a team that needs speed. Too many gates and nobody commits to anything.",
+        "Early numbers are also noisy. Six weeks of small samples can mislead, so judge the size of the gap, not small swings. And held money only works if releasing it is quick when results are good. A gate that takes a month to open can cost you the launch."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a plumbing company.",
+      "illustrative": true,
+      "body": [
+        "You run a plumbing business and want to launch a $15-a-month maintenance plan. You have $9,000: $2,000 to train technicians, $4,000 for flyers, $3,000 to wrap the vans.",
+        "Your team makes about 300 service calls a month. What's the best budget?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Spend it all at once. Bulk flyers and van wraps are cheaper in one order",
+            "verdict": "risky",
+            "feedback": "You save on printing but lock in $7,000 before you know whether anyone wants the plan. There's no room left to adjust."
+          },
+          {
+            "key": "B",
+            "text": "Train technicians first, offer the plan on existing calls for a month with a 10% sign-up target, then decide on flyers and wraps",
+            "verdict": "best",
+            "feedback": "This stages the budget and builds in **plan vs actual**. Thirty sign-ups from 300 calls tells you whether the $7,000 is worth spending."
+          },
+          {
+            "key": "C",
+            "text": "Spend only on training and decide on marketing later, with no target",
+            "verdict": "partial",
+            "feedback": "It keeps cash safe. But without a target set in advance, a month of results won't tell you whether to spend more."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "The same move works for a software add-on: offer it to current customers before paying for ads, and compare sign-ups to a target you set first."
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Commit what you must. Release the rest on evidence.",
+      "body": [
+        "This lesson used three ideas: a **budget** split into committed and held money, **scenario planning** to see the range, and **plan vs actual** to decide when to release more.",
+        "**Try it today:** take your next launch or project. Write down low, base and high cases, and one number you'll check before spending the second half."
+      ],
+      "next": "Next · How Kraft Heinz rebuilt its budget from zero"
+    }
+  ]
+}

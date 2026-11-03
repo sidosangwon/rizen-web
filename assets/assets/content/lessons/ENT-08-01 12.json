@@ -1,0 +1,239 @@
+{
+  "id": "ENT-08-01",
+  "unitId": "ENT-08",
+  "categoryId": "ENT",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Why sell",
+  "readerTitle": "Two owners, the same offer, opposite answers",
+  "format": "two_businesses",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.1,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (포장재 공장, 구독형 앱, 식당 3곳) · 모든 수치는 설명용",
+  "insight": "매각 제안을 거절하는 것은 그 가격으로 내 회사를 다시 사는 것과 같다. 그래서 '팔까?'는 '지금 이 돈이 있다면 이 회사를 살까?'로 바꿔 물을 수 있다.",
+  "misconception": "회사가 잘되고 있으면 팔 이유가 없다. 좋은 가격이 나오면 무조건 팔아야 한다.",
+  "relatedLessonIds": [
+    "ENT-08-04",
+    "ENT-08-06"
+  ],
+  "sources": [
+    {
+      "text": "재무의 표준 개념 (기회비용, 분산 투자와 집중 위험)",
+      "url": null
+    },
+    {
+      "text": "모든 사례와 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 사례와 수치는 설명용 가상입니다. 실제 통계(예: 소상공인 자산 중 사업 비중)는 인용하지 않았습니다. 넣고 싶다면 1차 출처를 확인한 뒤 추가하세요.",
+      "status": "open"
+    },
+    {
+      "note": "계산 확인: Ruth의 공장 연 이익 $1M, 제안가 $8M → 단순 회수 기간 8 ÷ 1 = 8년. Dev의 앱 이익 $0.5M, 제안가 $8M → 16배, 성장률 연 40%는 가정입니다.",
+      "status": "open"
+    },
+    {
+      "note": "부분 매각(지분 일부 매각, 세컨더리)은 나라와 회사 구조에 따라 가능 여부와 세금이 크게 다릅니다. 법률·세무 조언으로 읽히지 않도록 일반적 표현만 썼습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Entrepreneurship · Two businesses",
+      "title": "Two owners, the same offer, opposite answers",
+      "illustrative": true,
+      "body": [
+        "Ruth runs a packaging plant. Dev runs a subscription app. In the same month, each gets a letter offering **$8 million** for the company.",
+        "Same price, same week. For one of them, saying yes is probably wise. For the other, it's probably a mistake. The price alone can't tell you which."
+      ],
+      "image": {
+        "label": "Two identical offer letters on two very different desks",
+        "aspectRatio": "4:3",
+        "brief": "화면을 반으로 나눠 왼쪽은 공장 사무실 책상(안전모, 골판지 샘플), 오른쪽은 노트북과 커피가 있는 책상. 두 책상 위에 똑같은 봉투와 \"$8,000,000\"이 적힌 편지. 실제 회사 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Ruth's plant makes $1 million a year.",
+      "illustrative": true,
+      "body": [
+        "Ruth is 62. Her plant earns about $1M profit a year. Almost all her family's savings are tied up in it. Her children have other careers. A big customer wants a new production line she would have to fund herself.",
+        "A rival offers $8M. What's the best way for Ruth to think about it?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Decline. At $1M a year, the plant earns $8M in eight years anyway",
+            "verdict": "risky",
+            "feedback": "That assumes eight steady years. It ignores the risk of losing the big customer and that all her savings ride on one plant the whole time."
+          },
+          {
+            "key": "B",
+            "text": "Accept. Offers this size don't come often",
+            "verdict": "partial",
+            "feedback": "It may be the right answer, but for the wrong reason. Scarcity of offers says nothing about whether keeping the plant suits her life."
+          },
+          {
+            "key": "C",
+            "text": "Ask: if I had $8M in cash today, would I spend it buying this plant?",
+            "verdict": "best",
+            "feedback": "This turns a flattering offer into a fair comparison. Saying no means choosing to keep all $8M invested in one plant."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "Side by side",
+      "title": "Same price, different situations.",
+      "illustrative": true,
+      "body": [
+        "Dev is 33. His app earns $0.5M a year, but revenue is growing about 40% a year and he has decades ahead. Ruth's plant is steady, but her next five years need fresh money and a successor she doesn't have."
+      ],
+      "breakdown": [
+        {
+          "value": "$8M",
+          "label": "The offer",
+          "detail": "Identical for both",
+          "highlight": false
+        },
+        {
+          "value": "Ruth",
+          "label": "No successor, new line to fund",
+          "detail": "Keeping means more risk at 62",
+          "highlight": true
+        },
+        {
+          "value": "Dev",
+          "label": "Fast growth, long runway",
+          "detail": "Keeping means riding the growth",
+          "highlight": true
+        },
+        {
+          "value": "Both",
+          "label": "Most savings in one company",
+          "detail": "The same weak spot",
+          "highlight": false
+        }
+      ],
+      "softwareNote": "In a fast-growing software company, today's offer often prices in only part of the future. Selling early can lock in a fraction of what patient owners later get, or avoid a crash that patient owners suffer. Growth raises both stakes."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Keeping is buying again.",
+      "body": [
+        "Once someone offers you cash, **not selling is a decision too**. You are choosing to leave that whole sum invested in one company, one market and one person: you.",
+        "So the real question is not \"Is this a good price?\" It is: \"Is owning this business still the best use of this money and my next years?\" Good reasons to sell answer that question with a no."
+      ],
+      "image": {
+        "label": "A pile of cash flowing back into a single building",
+        "aspectRatio": "16:9",
+        "brief": "왼쪽에 \"$8M\" 돈 더미, 화살표가 오른쪽의 작은 공장 건물 하나로 다시 흘러 들어가는 모습. 화살표 위에 \"Saying no = buying it again\" 라벨. 단순한 플랫 일러스트.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Strong reasons and weak reasons.",
+      "body": [
+        "Some reasons to sell change the answer. Others only feel urgent."
+      ],
+      "list": [
+        "**Strong:** too much of your wealth sits in one business",
+        "**Strong:** no one is ready to take over when you step back",
+        "**Strong:** the buyer can grow it in ways you can't fund or run",
+        "**Strong:** you want a different life, and the business can't wait",
+        "*Weak:* you're tired after one bad quarter",
+        "*Weak:* the number is bigger than you ever imagined"
+      ],
+      "callout": "Ruth has three strong reasons. Dev has one: concentration."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Wider view",
+      "title": "Selling isn't all or nothing.",
+      "illustrative": true,
+      "body": [
+        "Dev's only strong reason is that his savings sit in one app. He might solve that without leaving: selling a small stake to an investor, or paying himself more and saving outside the company.",
+        "Ruth could also look for middle paths, like hiring a manager or selling a share to a partner who funds the new line. If none of them fix her real problems, the full sale is the honest answer.",
+        "Match the move to the reason, not to the offer."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "You can't unsell a company.",
+      "body": [
+        "The \"would I buy it?\" test is useful, but selling has costs it doesn't capture. A sale is usually permanent. Many owners also lose a role, a routine and a team that gave their days shape.",
+        "And an $8M offer is rarely $8M in cash on day one. Payments can depend on future results or on you staying for years. Weigh the reasons first, then read the terms closely. Later lessons cover what buyers pay and life after the sale."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's three restaurants.",
+      "illustrative": true,
+      "body": [
+        "Marco, 45, owns three busy neighborhood restaurants. He loves running kitchens and plans to keep doing it for years. Most of his savings are in the business. A regional group offers to buy all three.",
+        "What fits his reasons best?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Decline. He loves the work and the restaurants make good money",
+            "verdict": "risky",
+            "feedback": "Loving the work is a real reason to keep it. But it leaves his whole savings exposed to one neighborhood, three leases and his own health."
+          },
+          {
+            "key": "B",
+            "text": "Accept. A chance like this may not come twice",
+            "verdict": "partial",
+            "feedback": "It fixes the concentration problem, but it gives up the very thing he wants most: running his own kitchens."
+          },
+          {
+            "key": "C",
+            "text": "Keep control, but cut concentration: sell one location or a minority stake",
+            "verdict": "best",
+            "feedback": "His only strong reason to sell is risk, so he answers that reason directly. He keeps the work he loves and moves part of his savings out of one basket."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Every offer you turn down is a choice to buy your company again.",
+      "body": [
+        "Sell when owning the business is no longer the best use of the money and your years. Find your real reason, then pick the move that fixes it.",
+        "**Try it today:** imagine someone offers a fair price for your business tomorrow. Write down whether you'd buy it back at that price, and why."
+      ],
+      "next": "Next · What really happens when you're acquired"
+    }
+  ]
+}

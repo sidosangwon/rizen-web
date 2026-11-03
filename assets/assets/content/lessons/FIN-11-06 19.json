@@ -1,0 +1,238 @@
+{
+  "id": "FIN-11-06",
+  "unitId": "FIN-11",
+  "categoryId": "FIN",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Quality of earnings",
+  "readerTitle": "Same profit, different restaurant: which $100,000 is real?",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.3,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (식당 두 곳 인수 비교, 소규모 소프트웨어 회사) · 모든 수치는 설명용",
+  "insight": "이익은 크기보다 질을 먼저 본다. 내년에도 반복될 이익인가, 실제 현금으로 들어온 이익인가를 묻는다.",
+  "misconception": "이익이 같으면 두 사업의 가치도 같다. 이익이 늘었으면 사업이 좋아진 것이다.",
+  "relatedLessonIds": [
+    "FIN-11-01",
+    "FIN-11-10"
+  ],
+  "sources": [
+    {
+      "text": "재무 분석과 기업 인수 실사의 표준 개념 (이익의 질: 반복성, 현금 전환, 일회성 항목 구분)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "식당 B 계산: 보고 이익 $100,000 − 일회성 보험금 $30,000 − 미룬 주방 수리 $15,000 = 반복 가능한 이익 $55,000. 그중 $25,000은 아직 받지 못한 케이터링 대금이라 현금으로 확인된 반복 이익은 $30,000. 모든 수치는 가상입니다.",
+      "status": "open"
+    },
+    {
+      "note": "소프트웨어 회사 계산: 이익 $200,000 → $600,000, 증가분 $400,000 = 일회성 맞춤 개발 $250,000 + 영업 인력 감축 절감 $100,000 + 신규 구독 $50,000. 합계가 맞는지 다시 확인했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "'영업현금흐름과 이익을 여러 해 비교한다'는 일반적인 분석 관행으로 서술했습니다. 특정 기준치(예: 비율 몇 % 이상)는 일부러 넣지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Everyday scene",
+      "title": "Same profit, different restaurant: which $100,000 is real?",
+      "illustrative": true,
+      "body": [
+        "Two neighborhood restaurants are for sale. Each one made $100,000 in profit last year. Each owner asks the same price.",
+        "On paper, they're twins. A careful buyer would still pay very different amounts for them."
+      ],
+      "image": {
+        "label": "Two restaurant storefronts with identical profit signs",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 비슷한 동네 식당 두 곳이 나란히 있고, 각 창문에 똑같이 \"$100,000 profit\" 팻말. 한쪽 식당 뒤편에는 물이 샌 흔적과 쌓인 송장 더미가 살짝 보이도록. 실제 상호나 로고는 쓰지 않음.",
+        "url": "assets/images/fin-11-06-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which restaurant would you pay more for?",
+      "illustrative": true,
+      "body": [
+        "**Restaurant A:** revenue flat for three years. Profit steady. Nothing unusual on the books.",
+        "**Restaurant B:** revenue up 15% thanks to a new catering business. The profit includes a line called \"other income.\" The owner mentions the kitchen is \"due for some work.\""
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Restaurant A, because its profit looks steady",
+            "verdict": "best",
+            "feedback": "You give up B's growth story, but you get profit you can expect again next year. The next card shows what B's number hides."
+          },
+          {
+            "key": "B",
+            "text": "Restaurant B, because it's growing faster",
+            "verdict": "risky",
+            "feedback": "Growth is worth paying for when it's real and repeatable. Here you'd be paying for a number before checking what it's made of."
+          },
+          {
+            "key": "C",
+            "text": "The same for both, since profit is equal",
+            "verdict": "partial",
+            "feedback": "Fair as a starting point. But equal profit only means equal value if both profits will repeat and both arrived as cash."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "Open the books",
+      "title": "What Restaurant B's $100,000 is made of.",
+      "illustrative": true,
+      "body": [
+        "Only **$55,000** is likely to come back next year. And $25,000 of that hasn't been paid yet."
+      ],
+      "breakdown": [
+        {
+          "value": "$100,000",
+          "label": "Reported profit",
+          "detail": "What the statement says",
+          "highlight": false
+        },
+        {
+          "value": "−$30,000",
+          "label": "Insurance payout",
+          "detail": "One-time, after a pipe burst",
+          "highlight": false
+        },
+        {
+          "value": "−$15,000",
+          "label": "Repairs put off",
+          "detail": "The bill will arrive next year",
+          "highlight": false
+        },
+        {
+          "value": "$55,000",
+          "label": "Repeatable profit",
+          "detail": "Includes $25,000 in unpaid catering invoices",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Quality of earnings",
+      "body": [
+        "**Quality of earnings** is how much of a reported profit is likely to happen again and actually turns into cash.",
+        "Two businesses can show the same profit with very different quality. Restaurant A's profit is plain, repeating and paid. Restaurant B's is padded by a one-off, flattered by skipped spending, and partly still owed.",
+        "Ask two questions of any profit: *Will it come back?* and *Did it arrive as money?*"
+      ],
+      "image": {
+        "label": "Profit bar split into solid and hollow parts",
+        "aspectRatio": "16:9",
+        "brief": "가로 막대 두 개. 위는 \"Restaurant A $100,000\" 전체가 단단한 색. 아래는 \"Restaurant B $100,000\"인데 일부만 단단하고 나머지는 점선·반투명으로 \"one-time\", \"put off\", \"not yet paid\" 라벨.",
+        "url": "assets/images/fin-11-06-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Where weak profit usually hides.",
+      "body": [
+        "Most low-quality profit comes from three places:"
+      ],
+      "list": [
+        "**One-offs:** selling equipment, an insurance payout, a single huge order",
+        "**Money not yet collected:** sales recorded, but customers haven't paid",
+        "**Spending pushed off:** skipped repairs, paused marketing, a job left unfilled"
+      ],
+      "callout": "A quick check: compare cash from operations with profit over several years. If cash keeps falling short, look closer.",
+      "softwareNote": "In a software business, watch for one-time setup or custom-build fees counted alongside subscriptions. Only the subscriptions are likely to repeat."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The other direction",
+      "title": "Low profit can be high quality.",
+      "illustrative": true,
+      "body": [
+        "Quality works both ways. Imagine Restaurant A had shown only $70,000 because it replaced its walk-in fridge for $30,000 last year.",
+        "That expense won't repeat soon. Its underlying profit is still about $100,000, and a buyer who sees that can get a fair deal.",
+        "So the skill isn't suspicion. It's sorting each number into *this will happen again* or *this won't*."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "It takes judgment, not a formula.",
+      "body": [
+        "\"One-time\" costs that show up every year aren't one-time. Be wary of anyone who removes a new one each year.",
+        "Cash can also lag profit for good reasons. A fast-growing business often has more unpaid invoices simply because it's selling more.",
+        "And cutting spending isn't always a trick. The question is whether the business can keep running well without it."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software company.",
+      "illustrative": true,
+      "body": [
+        "You're thinking of buying a small subscription software company. Its profit jumped from $200,000 to $600,000. The $400,000 increase came from three places.",
+        "Which part would you trust most to repeat?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "$250,000 from a custom project built for one large client",
+            "verdict": "risky",
+            "feedback": "It's the biggest piece and it's real money. But it only repeats if another client wants the same thing."
+          },
+          {
+            "key": "B",
+            "text": "$100,000 saved by cutting the sales team from three to one",
+            "verdict": "partial",
+            "feedback": "The saving will repeat. The cost may show up later as slower sign-ups, so check how new users are arriving."
+          },
+          {
+            "key": "C",
+            "text": "$50,000 from 150 new monthly subscribers, with churn unchanged",
+            "verdict": "best",
+            "feedback": "The smallest piece, but the highest quality: it renews, it's paid monthly, and it can keep growing."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Judge profit by what it's made of, not just its size.",
+      "body": [
+        "Before you trust a profit number, yours or anyone's, ask whether it will come back next year and whether it arrived as cash.",
+        "**Try it today:** take last year's profit. Cross out anything that won't repeat and anything not yet paid. What's left is the number to plan around."
+      ],
+      "next": "Next · Book a year of gym memberships"
+    }
+  ]
+}

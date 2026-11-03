@@ -1,0 +1,242 @@
+{
+  "id": "BMO-08-06",
+  "unitId": "BMO-08",
+  "categoryId": "BMO",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Who captures value from new technology",
+  "readerTitle": "Two laundries buy the same machine. Only one gets richer.",
+  "format": "two_businesses",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Berkshire Hathaway 섬유 사업, 1985년 주주 서한) + 가상 비교 (세탁 공장 두 곳) + 가상 적용 (회사 안의 보고서 팀)",
+  "insight": "새 기술이 만든 가치는 기술을 산 사람이 아니라, 기술이 퍼진 뒤에도 여전히 희소한 것을 가진 사람에게 간다.",
+  "misconception": "비용을 30% 줄여 주는 기술을 도입하면 그만큼 이익이 늘어난다.",
+  "relatedLessonIds": [
+    "BMO-01-01",
+    "BMO-08-02"
+  ],
+  "sources": [
+    {
+      "text": "Buffett, W. (1986). Letter to the Shareholders of Berkshire Hathaway Inc. for 1985 (섬유 사업 정리와 설비 투자 이야기)",
+      "url": "https://www.berkshirehathaway.com/letters/1985.html"
+    },
+    {
+      "text": "세탁 공장과 보고서 팀의 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Buffett 1985년 서한의 내용(경쟁사도 같은 설비에 투자해 낮아진 원가가 업계 전체의 가격 인하로 이어졌다, 퍼레이드에서 모두 까치발을 드는 비유)을 원문으로 다시 확인하세요. 카드에는 직접 인용하지 않고 풀어 썼습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Berkshire가 섬유 사업을 1985년에 정리했다는 시점을 원문으로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "가상 계산: 원가 $1.00 → $0.70(30% 절감). A 공장 가격 $1.20 → $0.90, 마진 $0.20 → $0.20. B 공장 가격 $1.20 유지, 마진 $0.20 → $0.50(2.5배).",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business models · Two businesses",
+      "title": "Two laundries buy the same machine. Only one gets richer.",
+      "illustrative": true,
+      "body": [
+        "Two commercial laundries wash sheets for hotels. Both buy the same new folding machine. It cuts their cost per kilo by 30%.",
+        "Two years later, one is far more profitable. The other earns exactly what it did before, and works harder for it."
+      ],
+      "image": {
+        "label": "Two laundries with identical machines, one with a growing pile of coins",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 나란히 있는 세탁 공장 두 곳에 똑같은 접이 기계. 왼쪽 공장 앞 동전 더미는 그대로, 오른쪽 공장 앞 동전 더미는 높게 쌓임. 실제 브랜드나 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Where will the 30% savings end up?",
+      "illustrative": true,
+      "body": [
+        "You run a laundry in a city with eight rivals. The folding machine is sold to anyone who wants one, and most rivals are already ordering it.",
+        "Your hotel customers compare quotes every year. What do you expect from the savings?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Most of it becomes extra profit for you",
+            "verdict": "risky",
+            "feedback": "True for a few months, maybe. But once rivals have the same machine, someone will cut prices to win hotels, and you'll have to follow."
+          },
+          {
+            "key": "B",
+            "text": "Most of it goes to the hotels as lower prices",
+            "verdict": "best",
+            "feedback": "When everyone can buy the same tool and customers shop around, competition hands the savings to customers. You buy the machine mainly to keep up."
+          },
+          {
+            "key": "C",
+            "text": "Most of it goes to the machine maker",
+            "verdict": "partial",
+            "feedback": "Possible if only one company makes the machine and prices it high. Here it's widely sold, so the supplier can't take much."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Same savings, two outcomes.",
+      "illustrative": true,
+      "body": [
+        "Laundry A is in the crowded city. Laundry B is the only laundry on an island of resorts, with long contracts. B's margin grew **2.5 times**. A's didn't move."
+      ],
+      "breakdown": [
+        {
+          "value": "−$0.30",
+          "label": "Cost saved per kilo",
+          "detail": "Both laundries: $1.00 → $0.70",
+          "highlight": false
+        },
+        {
+          "value": "$1.20 → $0.90",
+          "label": "Laundry A's price",
+          "detail": "Rivals cut, so A follows",
+          "highlight": false
+        },
+        {
+          "value": "$0.20 → $0.20",
+          "label": "Laundry A's margin",
+          "detail": "Savings passed to hotels",
+          "highlight": false
+        },
+        {
+          "value": "$0.20 → $0.50",
+          "label": "Laundry B's margin",
+          "detail": "No rival nearby, price holds",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Value goes to what stays scarce",
+      "body": [
+        "New technology creates value. **Who captures it** depends on what is still scarce after the technology spreads.",
+        "The machine wasn't scarce: anyone could buy it. What made the difference was Laundry B's island location and long contracts, which rivals couldn't copy. Laundry A had nothing like that, so its customers kept the gain."
+      ],
+      "image": {
+        "label": "A pipe of value splitting toward customers, supplier and bottleneck owner",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 가운데 \"New technology\"에서 흘러나온 물줄기가 세 갈래로 나뉨: \"Customers (lower prices)\", \"Supplier (if only one sells it)\", \"Whoever owns the bottleneck\". 세 번째 갈래를 강조.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Evidence",
+      "title": "Warren Buffett learned this in textiles.",
+      "body": [
+        "In his 1985 letter to shareholders, Warren Buffett explained why Berkshire Hathaway was closing its textile business.",
+        "Managers had kept proposing new, more efficient equipment. Each investment looked sensible alone. But rivals bought the same machines, lower costs became lower prices across the industry, and the benefit went to customers.",
+        "He compared it to a parade crowd. One person on tiptoe sees better. Once **everyone** stands on tiptoe, nobody does."
+      ],
+      "image": {
+        "label": "A parade crowd all standing on tiptoe",
+        "aspectRatio": "16:9",
+        "brief": "일러스트. 퍼레이드를 보는 군중이 모두 까치발을 들고 있어 결국 시야가 똑같음. 한 사람만 까치발을 든 작은 삽입 그림과 대비. 실제 인물 얼굴이나 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Wider view",
+      "title": "Three places the value can land.",
+      "body": [
+        "Ask where the bottleneck sits after the technology arrives."
+      ],
+      "list": [
+        "**Customers:** when the tool is easy to buy and they compare prices",
+        "**The supplier:** when only one company sells the tool",
+        "**You:** when you own something it needs that rivals lack, such as a location, contracts, data, a trusted brand or know-how"
+      ],
+      "softwareNote": "If every app is built on the same widely available AI model, a feature built only on that model is easy to copy. Value tends to go to the model provider or to apps with something scarce: unique data, distribution or deep workflow knowledge."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Not capturing the value isn't a reason to skip it.",
+      "body": [
+        "Laundry A still had to buy the machine. Without it, A would charge more than rivals and lose its hotels. Some technology is the price of staying in the game.",
+        "Early adopters can also earn extra for a while, until rivals catch up. Plan for that window to close.",
+        "And customers keeping the savings isn't a failure. It's how new technology makes life cheaper for everyone."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a team inside a company.",
+      "illustrative": true,
+      "body": [
+        "You lead a five-person reporting team at a retail chain. A new AI tool cuts the monthly sales report from three days to half a day. Every team in the company can get the same tool.",
+        "What do you do with the freed time?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Say nothing and enjoy the slack",
+            "verdict": "risky",
+            "feedback": "Calm for now. But once leaders see other teams doing the same work faster, they'll ask why yours costs so much, and you'll have no answer."
+          },
+          {
+            "key": "B",
+            "text": "Report the gain and use the time on analysis only your team can do",
+            "verdict": "best",
+            "feedback": "The report itself is no longer scarce, but your knowledge of stores and suppliers is. Building on that keeps your team valuable."
+          },
+          {
+            "key": "C",
+            "text": "Offer to cut two roles right away",
+            "verdict": "partial",
+            "feedback": "Honest, and the company captures the saving. But you give away the scarce know-how you could have used for harder problems."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Ask what's still scarce after everyone has the tool.",
+      "body": [
+        "New technology creates value, but it flows to customers, suppliers or whoever owns the bottleneck. You keep it only if that's you.",
+        "**Try it today:** pick one tool you recently adopted. Write down who else can buy it, and one thing you have that it needs and rivals don't."
+      ],
+      "next": "Next · What automation means for a translation agency"
+    }
+  ]
+}

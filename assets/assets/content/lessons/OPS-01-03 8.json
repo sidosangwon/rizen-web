@@ -1,0 +1,245 @@
+{
+  "id": "OPS-01-03",
+  "unitId": "OPS-01",
+  "categoryId": "OPS",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "Capacity",
+  "readerTitle": "The capacity you own isn't the capacity you have",
+  "format": "two_businesses",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 두 개 (병 포장 공장, 회사 안의 디자인 팀) · 모든 수치는 설명용",
+  "insight": "능력은 가진 기계와 인원이 아니라 실제로 꾸준히 만들어 낸 산출량으로 잰다. 약속은 정격 능력이 아니라 실효 능력에 맞춘다.",
+  "misconception": "기계 정격 속도 × 가동 시간, 또는 인원 × 근무 시간이 곧 우리가 해낼 수 있는 양이다.",
+  "relatedLessonIds": [
+    "OPS-01-02",
+    "OPS-02-05"
+  ],
+  "sources": [
+    {
+      "text": "운영관리의 표준 개념 (설계 능력 design capacity와 실효 능력 effective capacity의 구분)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "공장 계산: 정격 1,500병/시간 × 16시간 = 일 24,000병, × 5일 = 주 120,000병, × 3주 = 360,000병. 실제: 24,000 − 3,750(교체·세척 2.5시간 × 1,500) − 1,500(정기 정비 1시간 × 1,500) − 2,750(잦은 정지·감속) = 일 16,000병(정격의 약 67%), 주 80,000병, 3주 240,000병. 주문 300,000병 대비 60,000병 부족.",
+      "status": "open"
+    },
+    {
+      "note": "디자인 팀 계산: 5명 × 40시간 = 주 200시간. 실제 프로젝트 시간 약 60% = 120시간. 이미 예약 100시간 + 새 요청 60시간 = 160시간으로 40시간 초과. 60%라는 비율은 설명용 가정이며 실제 팀마다 다릅니다.",
+      "status": "open"
+    },
+    {
+      "note": "소프트웨어 노트의 '지난 몇 주 실제 완료량으로 계획한다'는 일반적인 관행 설명이며 특정 수치나 연구를 인용하지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Two businesses",
+      "title": "The capacity you own isn't the capacity you have",
+      "body": [
+        "A bottling plant has a machine rated at 1,500 bottles an hour. A company's in-house design team has five people working 40 hours a week.",
+        "Both managers know exactly what they own. Both are about to promise more than they can deliver, for the same reason."
+      ],
+      "image": {
+        "label": "A bottling machine and a design team desk side by side",
+        "aspectRatio": "4:3",
+        "brief": "화면을 반으로 나눠 왼쪽에 병 포장 기계, 오른쪽에 디자이너 다섯 명이 앉은 책상. 양쪽 위에 큰 숫자 \"1,500/hr\"와 \"200 hrs\"가 떠 있고, 그 아래 흐릿하게 더 작은 실제 숫자가 비침. 실제 브랜드 로고는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "A customer wants 300,000 bottles in three weeks.",
+      "illustrative": true,
+      "body": [
+        "Your filling line is rated at 1,500 bottles an hour. It runs two 8-hour shifts, five days a week, and it's free for the next three weeks.",
+        "On paper that's 360,000 bottles. A new customer asks for 300,000. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Accept. 360,000 beats 300,000 with room to spare",
+            "verdict": "risky",
+            "feedback": "You win the order fast, but the 360,000 assumes the machine never stops. If it falls short, you lose the customer's trust, not just one order."
+          },
+          {
+            "key": "B",
+            "text": "Check what the line actually produced in recent weeks before answering",
+            "verdict": "best",
+            "feedback": "It costs you a day, but you'll promise a number you can hit. Next card shows why the gap matters."
+          },
+          {
+            "key": "C",
+            "text": "Decline. It's too risky to fill the whole line",
+            "verdict": "partial",
+            "feedback": "You avoid a broken promise, but you may turn away work you could have handled with a split delivery or extra shift."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "Where the bottles go",
+      "title": "One day on the line.",
+      "illustrative": true,
+      "body": [
+        "The line really makes about **16,000 bottles a day**, two-thirds of its rating. That's 240,000 in three weeks: 60,000 short of the order."
+      ],
+      "breakdown": [
+        {
+          "value": "24,000",
+          "label": "Rated output",
+          "detail": "1,500 an hour × 16 hours",
+          "highlight": false
+        },
+        {
+          "value": "−3,750",
+          "label": "Changeovers and cleaning",
+          "detail": "About 2.5 hours switching bottle sizes and cleaning",
+          "highlight": false
+        },
+        {
+          "value": "−1,500",
+          "label": "Planned maintenance",
+          "detail": "About 1 hour of checks and upkeep",
+          "highlight": false
+        },
+        {
+          "value": "−2,750",
+          "label": "Small stops and slow running",
+          "detail": "Jams, label refills, running below full speed",
+          "highlight": false
+        },
+        {
+          "value": "16,000",
+          "label": "Actual output",
+          "detail": "What the line reliably makes",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Capacity",
+      "body": [
+        "**Capacity** is the most output a business can reliably produce in a given time: bottles a day, projects a week, guests a night.",
+        "There are two versions. *Design capacity* is what the equipment or people could do with zero interruptions. **Effective capacity** is what they actually deliver after changeovers, maintenance, breaks and everyday hiccups.",
+        "Promises, schedules and sales targets should be built on the second number. The best source for it is your own recent history, not a spec sheet."
+      ],
+      "image": {
+        "label": "Two bars: design capacity and a shorter effective capacity",
+        "aspectRatio": "16:9",
+        "brief": "막대 두 개. 왼쪽 키 큰 막대 \"Design capacity\", 오른쪽 약 2/3 높이 막대 \"Effective capacity\". 두 막대 사이의 빈 공간에 \"changeovers\", \"maintenance\", \"small stops\" 작은 라벨.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Business two",
+      "title": "Five designers don't make 200 hours.",
+      "illustrative": true,
+      "body": [
+        "A retailer's in-house design team has five people at 40 hours a week. The manager books 200 hours of requests and keeps missing deadlines.",
+        "When she tracks a month of time, project work is about 120 hours a week. The rest goes to meetings, email, rework after feedback, training and time off.",
+        "Nobody is slacking. That's just what 200 owned hours turn into. Same lesson as the bottling line: count what comes out, not what you have."
+      ],
+      "softwareNote": "Engineering teams hit this when they plan by headcount × days. Teams that plan from how much work they actually finished in recent weeks miss fewer deadlines. Servers work the same way: real traffic rarely reaches the rated throughput."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Capacity shifts with the kind of work.",
+      "body": [
+        "Effective capacity isn't fixed. It depends on the mix of work.",
+        "If the bottling plant takes many small orders in different bottle sizes, it changes over more often and makes fewer bottles. If the design team gets many small, rushed requests, more time goes to switching tasks and less to finished work.",
+        "So when you quote capacity, say what kind of work it assumes. \"16,000 bottles a day\" is true for long runs of one size, not for a week of short runs."
+      ],
+      "image": {
+        "label": "Long runs vs many short runs on a production line",
+        "aspectRatio": "16:9",
+        "brief": "두 줄의 생산 라인 비교. 위 줄은 같은 병이 길게 이어지고 교체 표시가 한 번. 아래 줄은 다양한 크기 병이 짧게 끊기며 교체 표시(렌치 아이콘)가 여러 번. 아래 줄 끝에 쌓인 병이 더 적음.",
+        "url": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Effective capacity is a ceiling, not a plan.",
+      "body": [
+        "Booking work right up to effective capacity leaves no room for a breakdown, a sick day or an urgent request. Waiting lines grow fast when you run that full.",
+        "Also, a whole process can only move as fast as its slowest step. A fast filling machine doesn't help if packing can't keep up.",
+        "And beware the opposite mistake: padding estimates so much that you turn away work you could do. Measure honestly, then leave a deliberate buffer."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Marketing wants a 60-hour campaign next week.",
+      "illustrative": true,
+      "body": [
+        "You run the in-house design team from card 5. Real project time is about 120 hours a week, and 100 hours are already booked.",
+        "The marketing director asks for a 60-hour campaign next week. What do you say?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Yes. Five people at 40 hours is 200 hours",
+            "verdict": "risky",
+            "feedback": "It keeps the director happy today, but you'd be 40 hours over real capacity. Something will be late, and you won't get to choose what."
+          },
+          {
+            "key": "B",
+            "text": "Show the real 120-hour number and ask which booked work should move",
+            "verdict": "best",
+            "feedback": "It's a harder conversation, but the business decides the trade-off openly instead of discovering it at the deadline."
+          },
+          {
+            "key": "C",
+            "text": "Yes, and ask the team to work overtime that week",
+            "verdict": "partial",
+            "feedback": "It can work once. Repeated, overtime becomes the plan, people burn out, and real capacity drops."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Promise from what comes out, not from what you own.",
+      "body": [
+        "Machines and people have a rated capacity and a real one. Plans built on the rated number break.",
+        "**Try it today:** pick one machine, team or service. Compare its rated output with what it actually delivered last month. Write down the gap."
+      ],
+      "next": "Next · Why doing a task the same way every time frees up capacity"
+    }
+  ]
+}

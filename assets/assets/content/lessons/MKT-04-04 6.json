@@ -1,0 +1,234 @@
+{
+  "id": "MKT-04-04",
+  "unitId": "MKT-04",
+  "categoryId": "MKT",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Storytelling",
+  "readerTitle": "Why a $1 trinket sold for far more with a story attached",
+  "format": "numbers_twist",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 연구 (Significant Objects 프로젝트, Small·Loewenstein·Slovic 2007 기부 실험) + 가상 적용 (콜드체인 용기 제조사, 병원 예약 소프트웨어)",
+  "insight": "사실은 고객이 믿게 만들고, 이야기는 고객이 그 사실을 떠올리게 만든다. 그래서 숫자를 앞세우기보다 구체적인 한 사람의 변화를 먼저 보여주고 숫자로 뒷받침한다.",
+  "misconception": "숫자와 사양을 더 많이 보여줄수록 설득력이 커진다. 이야기는 감성적인 소비재에만 통하고 B2B나 기술 제품에는 필요 없다.",
+  "relatedLessonIds": [
+    "MKT-04-01",
+    "MKT-04-03"
+  ],
+  "sources": [
+    {
+      "text": "Walker, R. & Glenn, J. Significant Objects project (2009), and the book Significant Objects (2012)",
+      "url": "https://significantobjects.com"
+    },
+    {
+      "text": "Small, D. A., Loewenstein, G. & Slovic, P. (2007). Sympathy and callousness: The impact of deliberative thought on donations to identifiable and statistical victims. Organizational Behavior and Human Decision Processes, 102(2), 143–153.",
+      "url": null
+    },
+    {
+      "text": "콜드체인 용기 제조사, 병원 예약 소프트웨어 사례는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Significant Objects 1차 시즌: 물건 100개 구입 총액 약 $128.74, eBay 판매 총액 약 $3,612.51로 알려져 있음. 게시 전 프로젝트 사이트나 책에서 정확한 수치와 물건 개수를 다시 확인하세요. 배수 계산: 3,612.51 ÷ 128.74 ≈ 28.1배.",
+      "status": "open"
+    },
+    {
+      "note": "Significant Objects 경매 목록에 이야기가 창작(fiction)이라는 점이 표시되었다는 내용을 확인하세요. 통제된 실험이 아니었고 언론 노출 효과가 섞였을 수 있다는 점은 7번 카드에 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Small et al. (2007) 연구 1: 참가자가 받은 $5 중 평균 기부액. 개인(Rokia) 이야기 약 $2.38, 통계 정보 약 $1.14, 이야기+통계 약 $1.43. 원문 표로 수치를 다시 확인하세요. '약 2배' 표현은 2.38 ÷ 1.14 ≈ 2.1배 기준.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Marketing · Numbers twist",
+      "title": "Why a $1 trinket sold for far more with a story attached",
+      "body": [
+        "In 2009, two writers, Rob Walker and Joshua Glenn, bought about 100 cheap objects from thrift stores. A plastic figure, an old mug, a souvenir. Most cost a dollar or two.",
+        "They asked writers to invent a short story for each one, then listed them on eBay with the story attached. The whole batch cost about $129. Nothing about the objects changed. Only the words next to them did."
+      ],
+      "image": {
+        "label": "A cheap thrift-store figurine next to a handwritten story card",
+        "aspectRatio": "4:3",
+        "brief": "중고 가게 선반 위의 작은 플라스틱 인형 하나. 옆에 \"$1\" 가격표, 그 앞에 손글씨 이야기 카드가 놓여 있음. 따뜻한 조명, 3D 클레이 스타일. 실제 브랜드나 상표 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Your container keeps vaccines cold. How do you open the brochure?",
+      "illustrative": true,
+      "body": [
+        "You make insulated shipping containers for medicine distributors. Your container holds 2–8°C for 96 hours, longer than most rivals.",
+        "You have one page to win a logistics manager's attention. What goes at the top?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The full spec table: hold time, weight, test results",
+            "verdict": "partial",
+            "feedback": "Accurate and needed, but it reads like every other brochure on the desk. Specs win the comparison later; they rarely win the first look."
+          },
+          {
+            "key": "B",
+            "text": "A real customer: a shipment stuck in customs for three days that arrived still in range, then the spec",
+            "verdict": "best",
+            "feedback": "The story makes \"96 hours\" mean something the manager can picture and repeat to the boss. The spec right after it backs the story up."
+          },
+          {
+            "key": "C",
+            "text": "A slogan: \"Peace of mind, delivered.\"",
+            "verdict": "risky",
+            "feedback": "It sounds warm but says nothing a rival couldn't say. You trade your real advantage for a nice phrase."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "Same objects. About 28 times the money.",
+      "body": [
+        "The stories were clearly made-up fiction, and buyers knew it. They paid about **$3,600** in total anyway."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Significant Objects, first round (approx.)",
+            "rows": [
+              {
+                "label": "Paid at thrift stores",
+                "value": 129,
+                "highlight": false
+              },
+              {
+                "label": "Sold on eBay with a story",
+                "value": 3613,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Storytelling",
+      "body": [
+        "**Storytelling** in marketing means showing a specific person, the problem they faced, and what changed. Facts tell people what is true. A story lets them picture it happening.",
+        "A pictured event is easier to remember and easier to retell. The logistics manager won't repeat \"96-hour hold time\" in a meeting. They will repeat \"the shipment that sat in customs for three days and was fine.\""
+      ],
+      "image": {
+        "label": "Three panels: a person, a problem, a change",
+        "aspectRatio": "16:9",
+        "brief": "세 칸 만화형 인포그래픽. 1칸 \"Someone\" (물류 담당자), 2칸 \"A problem\" (세관에 멈춘 화물과 달력 3일), 3칸 \"What changed\" (온도계 정상 범위 체크 표시). 단순한 플랫 일러스트.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Second twist",
+      "title": "Adding statistics made a story weaker.",
+      "body": [
+        "In a 2007 study, researchers gave people $5 and asked them to donate to a children's charity. Some read about one girl, Rokia. Others read statistics about millions of children in need.",
+        "The Rokia group gave about **twice as much** on average. When Rokia's story came with the statistics attached, giving dropped back toward the lower level.",
+        "The lesson for business isn't to hide numbers. It's to lead with one clear case and let the numbers support it, not bury it."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How to build one",
+      "title": "A useful story fits in four lines.",
+      "body": [
+        "Most customer stories that work follow the same simple shape:"
+      ],
+      "list": [
+        "**Before:** who the customer is and what normal looked like",
+        "**Problem:** the moment it went wrong, with a real detail",
+        "**Turn:** what your product or service did",
+        "**After:** the result, in their numbers if possible"
+      ],
+      "callout": "A bakery's catering order, a plumber's emergency call or a software rollout all fit this shape."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A story earns attention, not trust.",
+      "body": [
+        "Significant Objects was a fun project, not a controlled experiment. Buyers knew the stories were fiction, and the press coverage likely helped prices.",
+        "In real selling, your story must be true and typical. A one-in-a-thousand success presented as normal will be found out, and buyers who feel misled rarely come back.",
+        "Business buyers will still check the spec, the price and the terms. The story gets you read. The facts get you chosen."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's booking software for clinics.",
+      "illustrative": true,
+      "body": [
+        "Your app lets patients book and reschedule by text. One dental clinic told you missed appointments fell sharply after switching, and their receptionist stopped dreading Monday mornings.",
+        "What leads your homepage's customer section?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "\"Trusted by 2,000 clinics. 99.9% uptime.\"",
+            "verdict": "partial",
+            "feedback": "Good proof that you're safe, but it's the same line every competitor uses. Keep it nearby as support."
+          },
+          {
+            "key": "B",
+            "text": "The receptionist's story: the Monday phone rush, the switch, and the clinic's own no-show numbers",
+            "verdict": "best",
+            "feedback": "Clinic owners see their own front desk in it, and the real numbers keep it honest. Ask permission and use their words."
+          },
+          {
+            "key": "C",
+            "text": "A grid of all 14 features",
+            "verdict": "risky",
+            "feedback": "It looks thorough, but visitors must work out the benefit themselves. Most won't."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "For software, the strongest stories usually come from support tickets and sales calls. Save the exact moments customers describe, with permission to quote them."
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Lead with one real customer. Back it with numbers.",
+      "body": [
+        "People remember a specific person and what changed for them. Facts then make the story believable.",
+        "**Try it today:** pick one happy customer. Write four lines: before, problem, turn, after. Put it at the top of your next pitch or brochure."
+      ],
+      "next": "Next · Why every message needs one clear next step"
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "id": "SAL-05-04",
+  "unitId": "SAL-05",
+  "categoryId": "SAL",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Breaking a deadlock",
+  "readerTitle": "When meeting in the middle fails, let the future decide",
+  "format": "two_businesses",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 두 개 (식당 임대 협상, B2B 소프트웨어 계약) + 실제 연구 (Bazerman & Gillespie, 1999, 조건부 계약)",
+  "insight": "많은 교착 상태는 가격 다툼처럼 보이지만 실은 미래에 대한 예측이 다른 것이다. 예측 차이를 조건으로 바꾸면 둘 다 자기 예측에 걸 수 있다.",
+  "misconception": "교착 상태는 더 세게 밀거나 중간에서 반씩 양보해야만 풀린다.",
+  "relatedLessonIds": [
+    "SAL-05-03",
+    "SAL-05-01"
+  ],
+  "sources": [
+    {
+      "text": "Bazerman, M. H. & Gillespie, J. J. (1999). Betting on the Future: The Virtues of Contingent Contracts. Harvard Business Review.",
+      "url": null
+    },
+    {
+      "text": "상가 임대의 매출 연동 임대료(percentage rent)는 쇼핑센터 임대에서 널리 쓰이는 일반 관행",
+      "url": null
+    },
+    {
+      "text": "식당·소프트웨어 사례의 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Bazerman & Gillespie(1999) 논문의 제목, 게재 연도(HBR 1999년 9~10월호), 조건부 계약을 '예측 차이를 이용하는 방법'으로 설명한다는 내용을 게시 전 원문으로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "식당 계산: 기본 임대료 $6,000 + 월 매출 $90,000 초과분의 8%. 매출 $115,000일 때 초과분 $25,000 × 8% = $2,000, 합계 $8,000(집주인 희망액과 같음). 매출 $90,000 이하이면 $6,000(점주 희망액과 같음).",
+      "status": "open"
+    },
+    {
+      "note": "소프트웨어 사례: 연 $25,000에서 시작해 6개월 차까지 주간 활성 사용자 150명 이상이면 연 $40,000 수준으로 인상. 모든 수치는 가상입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Negotiation · Two businesses",
+      "title": "Two deals stuck in the same week",
+      "illustrative": true,
+      "body": [
+        "A restaurant owner offers $6,000 a month in rent. The landlord wants $8,000. Across town, a software founder asks $40,000 a year. The buyer offers $25,000.",
+        "Both sides tried meeting in the middle. Both sides said no. Neither deal is really about the number."
+      ],
+      "image": {
+        "label": "Two split scenes, each with two people pushing against one door",
+        "aspectRatio": "4:3",
+        "brief": "화면을 반으로 나눔. 왼쪽은 빈 식당 매장에서 점주와 집주인이, 오른쪽은 회의실에서 창업자와 구매 담당자가 각각 문 하나를 양쪽에서 밀고 있어 꼼짝 않는 모습. 따뜻한 일러스트 톤. 실제 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/sal-05-04-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "The rent talks have stalled.",
+      "illustrative": true,
+      "body": [
+        "You're the restaurant owner. The landlord says a new office tower next door will bring crowds, so $8,000 is fair. You think the street will stay quiet for years, so $6,000 is all you can risk.",
+        "What do you propose?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Split the difference at $7,000",
+            "verdict": "partial",
+            "feedback": "It might close the deal. But if the street stays quiet, you pay $1,000 a month for crowds that never came, and the landlord still feels shortchanged."
+          },
+          {
+            "key": "B",
+            "text": "Hold firm at $6,000 and say you'll look at other sites",
+            "verdict": "risky",
+            "feedback": "Pressure can work if you truly have options. Here it just restates your prediction louder, and the landlord trusts his own prediction just as much."
+          },
+          {
+            "key": "C",
+            "text": "Offer $6,000 base rent plus a share of sales above a set level",
+            "verdict": "best",
+            "feedback": "You stop arguing about who is right. If the crowds come, the landlord earns more. If they don't, you're protected. The next cards show why this works."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What was really stuck",
+      "title": "The numbers were predictions in disguise.",
+      "body": [
+        "Look closely at both offers. The owner's $6,000 is a bet on a quiet street. The landlord's $8,000 is a bet on a busy one.",
+        "Neither will budge, because giving ground means agreeing their own forecast is wrong. Splitting the difference doesn't settle that. It just makes both sides pay for a forecast they don't believe.",
+        "The deadlock isn't about money. It's about **what will happen next**, and nobody knows yet."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Breaking a deadlock: change the shape of the deal",
+      "body": [
+        "When positions freeze, pushing harder rarely helps. **Breaking a deadlock** means finding what the disagreement is really about, then changing how the deal is built.",
+        "Often the hidden disagreement is a prediction. Then a **contingent agreement** helps: terms that change depending on what actually happens. \"If sales pass this level, rent goes up.\" Each side gets to bet on its own forecast.",
+        "Researchers Max Bazerman and James Gillespie argued in a 1999 Harvard Business Review article that different expectations, handled this way, can make a deal possible instead of blocking it."
+      ],
+      "image": {
+        "label": "A single price line splitting into two paths labeled 'if busy' and 'if quiet'",
+        "aspectRatio": "16:9",
+        "brief": "가운데 \"Deal\"에서 시작한 선이 두 갈래로 갈라짐. 위쪽 \"If sales are high → higher rent\", 아래쪽 \"If sales are low → base rent\". 두 사람이 각자 다른 갈래를 가리키며 웃는 모습.",
+        "url": "assets/images/sal-05-04-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "breakdown",
+      "eyebrow": "The restaurant deal",
+      "title": "How the rent works out",
+      "illustrative": true,
+      "body": [
+        "If the landlord is right and sales hit $115,000, he gets his **$8,000**. If the owner is right, she pays her $6,000."
+      ],
+      "breakdown": [
+        {
+          "value": "$6,000",
+          "label": "Base rent",
+          "detail": "Paid every month, whatever happens",
+          "highlight": false
+        },
+        {
+          "value": "$90,000",
+          "label": "Sales threshold",
+          "detail": "Monthly sales a quiet street would bring",
+          "highlight": false
+        },
+        {
+          "value": "8%",
+          "label": "Share above it",
+          "detail": "Only on sales beyond $90,000",
+          "highlight": false
+        },
+        {
+          "value": "$8,000",
+          "label": "Rent in a busy month",
+          "detail": "$6,000 + 8% × $25,000 at $115,000 sales",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The second business",
+      "title": "Same deadlock, different industry",
+      "illustrative": true,
+      "body": [
+        "Now the software deal. The buyer, a logistics company, says its drivers rarely adopt new apps, so $40,000 a year is too much. The founder is sure usage will take off.",
+        "Again, the two prices are two predictions about adoption. The fix has the same shape: tie the price to something both can watch, like weekly active users."
+      ],
+      "list": [
+        "**Restaurant:** rent rises with sales",
+        "**Software:** price rises with active users",
+        "**Buying a company:** part of the price paid only if profits hit a target"
+      ],
+      "callout": "Different industries, one move: turn the disagreement into a condition.",
+      "softwareNote": "Usage dashboards make this easy in software, because both sides can see the same number every week."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Conditions only work under conditions.",
+      "body": [
+        "The trigger must be clear, measurable and hard to game. A landlord who can't see real sales figures, or a buyer who quietly discourages usage to keep the price low, turns a fix into a fight.",
+        "Keep it to one or two triggers. A deal with ten conditions creates new arguments every month.",
+        "And some deadlocks aren't about predictions at all. If the other side feels disrespected or treated unfairly, a clever formula won't help. That calls for a different tool, covered next."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Your buyer doubts their team will use it.",
+      "illustrative": true,
+      "body": [
+        "You're the software founder. The logistics company likes your product but won't pay more than $25,000 a year, because it doubts its drivers will use the app. You believe at least 150 drivers will use it weekly within six months.",
+        "What do you offer?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Accept $25,000 to win the account",
+            "verdict": "risky",
+            "feedback": "You close fast, but you've priced the deal on their pessimistic forecast. Raising it later, even if usage soars, will feel like a broken promise."
+          },
+          {
+            "key": "B",
+            "text": "Start at $25,000, rising to $40,000 if 150 drivers use it weekly by month six",
+            "verdict": "best",
+            "feedback": "You both bet on your own forecast, measured on a dashboard both can see. Their risk is capped, and your upside is real if you're right."
+          },
+          {
+            "key": "C",
+            "text": "Offer a free 30-day trial, then the full $40,000",
+            "verdict": "partial",
+            "feedback": "A trial tests the product, but a month may be too short to show adoption. At the end, the buyer still has to believe your forecast to sign."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "When you can't agree on the future, write it into the deal.",
+      "body": [
+        "Many stuck negotiations are two forecasts dressed up as two prices. Find the forecast, then make the terms depend on what actually happens.",
+        "**Try it today:** think of one stalled deal. Write down what each side believes will happen. Could one number, tracked over time, settle it?"
+      ],
+      "next": "Next · Why saying \"it sounds like…\" moves talks forward"
+    }
+  ]
+}

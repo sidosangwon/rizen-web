@@ -1,0 +1,246 @@
+{
+  "id": "MKT-06-10",
+  "unitId": "MKT-06",
+  "categoryId": "MKT",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Pick your one channel",
+  "readerTitle": "One bottle, four ways to sell it: pick one",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (천연 세정 농축액 브랜드, 청소 대행업체, 지역 철물점 체인) · 모든 수치는 설명용",
+  "insight": "작은 사업의 첫 유통은 여러 채널에 나눠 거는 것이 아니라, 고객이 이미 제품을 믿게 되는 한 곳을 골라 그 채널이 반복 가능해질 때까지 파고드는 것이다.",
+  "misconception": "채널이 많을수록 더 많이 팔린다. 큰 소매 체인이 들어오라고 하면 무조건 기회다.",
+  "relatedLessonIds": [
+    "MKT-06-03",
+    "MKT-06-06"
+  ],
+  "sources": [
+    {
+      "text": "마케팅·유통의 표준 개념 (채널 적합성, 중간 유통 마진, 고객 관계 소유)",
+      "url": null
+    },
+    {
+      "text": "모든 인물, 회사, 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 설명용 가상 수치입니다. 병당 제조원가 $4, 소비자가 $16, 청소업체 공급가 $10 → Maya 몫 $10 − $4 = $6, 청소업체 몫 $16 − $10 = $6. 계산을 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "철물점 체인 제안: 공급가 $8 → Maya 몫 $8 − $4 = $4. 선주문 2,000병 × 제조원가 $4 = $8,000으로 보유 자금 $15,000의 절반 이상. 계산을 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "리필 코드 수수료 $2: 직접 판매 $16 − $4 − $2 = $10이 Maya 몫. 배송비 등은 단순화를 위해 제외했습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Marketing · Simulation",
+      "title": "One bottle, four ways to sell it: pick one",
+      "illustrative": true,
+      "body": [
+        "Maya makes a plant-based cleaning concentrate. One bottle, mixed with water, cleans a home for about two months. It works as well as the big brands.",
+        "She has $15,000, a garage stacked with bottles, and four ways she could sell them. She can afford to do **one** of them well. You're making her calls."
+      ],
+      "image": {
+        "label": "A garage of cleaning bottles with four paths leading out",
+        "aspectRatio": "4:3",
+        "brief": "차고 안에 라벨 없는 세정제 병이 쌓여 있고, 문밖으로 갈림길 네 개(가게 진열대, 노트북 화면, 청소 대행 밴, 창고 트럭)가 뻗어 나감. 따뜻한 일러스트 톤. 실제 브랜드 로고와 상표는 쓰지 않음.",
+        "url": "assets/images/mkt-06-10-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 4",
+      "title": "Where does the first bottle get sold?",
+      "illustrative": true,
+      "body": [
+        "Two problems: people doubt that plant-based cleaners really work, and few know how to dilute a concentrate. Maya's bottle needs someone to *show* it working."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Get onto local grocery and hardware shelves",
+            "verdict": "risky",
+            "feedback": "The bottle sits beside famous brands with no one to explain it. Shoppers pass it by, and unsold stock comes back."
+          },
+          {
+            "key": "B",
+            "text": "Open an online store and run social ads",
+            "verdict": "partial",
+            "feedback": "It can work, but strangers need many ads before they trust an unknown cleaner. Each customer costs more than Maya can afford for long."
+          },
+          {
+            "key": "C",
+            "text": "Sell to local house-cleaning companies who use it in clients' homes",
+            "verdict": "best",
+            "feedback": "Cleaners prove it works every visit, in front of the people who'd buy it. The channel fits the product's biggest problem."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 4",
+      "title": "Say you chose the cleaners. Now set their price.",
+      "illustrative": true,
+      "body": [
+        "Clients ask their cleaners where to buy it. Each bottle costs Maya $4 to make and sells to households for $16. What should cleaners pay?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "$14, so Maya keeps most of the money",
+            "verdict": "risky",
+            "feedback": "Maya earns $10 a bottle, but cleaners earn $2 for the hassle of reselling. Most stop bothering."
+          },
+          {
+            "key": "B",
+            "text": "$10, so each side keeps about $6",
+            "verdict": "best",
+            "feedback": "Maya gives up margin, but cleaners now have a real reason to recommend and stock it. Twelve companies sign on in two months."
+          },
+          {
+            "key": "C",
+            "text": "Skip the cleaners and sell to their clients directly at $16",
+            "verdict": "risky",
+            "feedback": "Maya keeps $12 a bottle, until cleaners notice. They stop using the product they're being cut out of."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 4",
+      "title": "Say you shared the margin. Who knows the buyer?",
+      "illustrative": true,
+      "body": [
+        "Sales grow, but every reorder goes through a cleaner. Maya has no names, no emails, and no idea which homes buy most."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Leave it. The cleaners own those relationships",
+            "verdict": "partial",
+            "feedback": "Simple and friendly. But if a big cleaner switches brands, Maya loses customers she never knew she had."
+          },
+          {
+            "key": "B",
+            "text": "Add a refill code on each bottle. Reorders go to Maya's site, and the cleaner earns $2",
+            "verdict": "best",
+            "feedback": "Maya learns who buys, and cleaners still get paid. After the commission she keeps $10 on each refill."
+          },
+          {
+            "key": "C",
+            "text": "Add a code with a discount that beats the cleaners' price",
+            "verdict": "risky",
+            "feedback": "Maya gets the data, but she's undercutting her own channel. Cleaners feel betrayed and the recommendations dry up."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 4 of 4",
+      "title": "Say you added the code. A chain calls.",
+      "illustrative": true,
+      "body": [
+        "A regional hardware chain offers shelves in 40 stores. It wants to pay $8 a bottle and needs 2,000 bottles upfront. That's $8,000 of Maya's cash tied up in stock."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Say yes. Forty stores is huge",
+            "verdict": "risky",
+            "feedback": "Maya keeps $4 a bottle and stretches her cash. And the shelf problem from Decision 1 hasn't gone away."
+          },
+          {
+            "key": "B",
+            "text": "Say not yet. Grow the cleaner channel, and come back with reorder proof",
+            "verdict": "best",
+            "feedback": "Maya keeps her cash and focus where sales already repeat. Later, refill data gives her a stronger case for the chain."
+          },
+          {
+            "key": "C",
+            "text": "Test it in three stores",
+            "verdict": "partial",
+            "feedback": "Cheaper to learn from, but it still splits Maya's attention. A good move once the first channel runs without her."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "Software founders face the same call: app marketplaces, resellers, direct sales. Getting one to bring in users steadily usually beats a thin presence in all of them."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "One channel, done well, opened the next.",
+      "illustrative": true,
+      "body": [
+        "A year on, Maya sells through 30 cleaning companies. Refill codes show which neighborhoods reorder most and how often.",
+        "When she goes back to the hardware chain, she brings that data. Now it's a pitch based on proof, not hope.",
+        "The lesson: an early business rarely fails for picking the wrong channel. It fails by spreading thin money and time across **too many channels** before any one works."
+      ],
+      "image": {
+        "label": "One strong path growing into a second path",
+        "aspectRatio": "16:9",
+        "brief": "굵은 길 하나(청소 대행 밴 → 집들)가 끝에서 두 번째 길(가게 진열대)로 자연스럽게 이어지는 그림. 길 위에 작은 리필 병 아이콘들. 실제 로고 없음.",
+        "url": "assets/images/mkt-06-10-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "One channel is a start, not a forever plan.",
+      "body": [
+        "Depending on one channel is a risk. If a few big partners drive most sales, they can squeeze your price or walk away.",
+        "Focus works when the channel is still growing and you're learning from it. Once growth stalls, or one partner holds too much power, it's time to test a second channel.",
+        "And \"one channel\" doesn't mean ignoring others forever. It means saying *not yet* on purpose."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Win one channel before you add another.",
+      "body": [
+        "Each of Maya's calls maps to an idea from this unit:"
+      ],
+      "list": [
+        "**Decision 1:** Channel fit. Sell where your product's biggest problem gets solved.",
+        "**Decision 2:** Middlemen and margins. Partners need a real cut to push you.",
+        "**Decision 3:** Owning the customer. Know your buyers without cutting out partners.",
+        "**Decision 4:** Choosing channels. Say *not yet* until one channel repeats."
+      ],
+      "callout": "**Try it today:** list every channel you sell through. Circle the one bringing in repeat customers. What would doubling down on it look like?",
+      "next": "Next · A new unit begins"
+    }
+  ]
+}

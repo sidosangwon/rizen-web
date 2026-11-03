@@ -1,0 +1,273 @@
+{
+  "id": "OPS-06-09",
+  "unitId": "OPS-06",
+  "categoryId": "OPS",
+  "order": 9,
+  "type": "case",
+  "conceptTag": "The surgical safety checklist",
+  "readerTitle": "The one-page list that cut surgical deaths in eight hospitals",
+  "format": "company_story",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "real_company",
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 사례 (WHO 수술 안전 체크리스트, Haynes et al. 2009 NEJM, Urbach et al. 2014 NEJM) + 가상 적용 (IT 서비스 회사의 서버 이전, 사내 재무팀 월말 결산)",
+  "insight": "좋은 체크리스트는 기억을 돕는 목록이 아니다. 실수가 비싼 순간에 팀을 멈춰 세우고 서로 말하게 만드는 장치다.",
+  "misconception": "체크리스트는 꼼꼼할수록 좋고, 도입해서 서명만 받으면 효과가 난다.",
+  "relatedLessonIds": [
+    "OPS-06-03",
+    "OPS-06-06"
+  ],
+  "sources": [
+    {
+      "text": "Haynes, A.B. et al. (2009). A Surgical Safety Checklist to Reduce Morbidity and Mortality in a Global Population. New England Journal of Medicine, 360:491–499.",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMsa0810119"
+    },
+    {
+      "text": "World Health Organization, Surgical Safety Checklist and the Safe Surgery Saves Lives programme (2008–2009)",
+      "url": "https://www.who.int/teams/integrated-health-services/patient-safety/research/safe-surgery"
+    },
+    {
+      "text": "Urbach, D.R. et al. (2014). Introduction of Surgical Safety Checklists in Ontario, Canada. New England Journal of Medicine, 370:1029–1038.",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMsa1308261"
+    },
+    {
+      "text": "Gawande, A. (2009). The Checklist Manifesto. Metropolitan Books.",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Haynes 2009: 8개 도시 8개 병원(토론토, 뉴델리, 암만, 오클랜드, 마닐라, 이파카라, 런던, 시애틀). 사망률 1.5% → 0.8%, 입원 중 합병증 11.0% → 7.0%. 논문 초록으로 다시 확인하세요. 무작위 대조 시험이 아닌 전후 비교 연구라는 점을 카드 4에 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "체크리스트 구성: 19개 항목, 세 번의 멈춤(Sign in 마취 전, Time out 절개 전, Sign out 수술실 퇴실 전). Time out에 팀원 이름·역할 소개, 항생제 투여 확인이 포함됩니다. WHO 2009 공식 체크리스트 PDF로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Urbach 2014: 온타리오주 병원에서 체크리스트 의무화 전후로 사망률과 합병증에 유의한 감소가 없었다는 결과. 원인(형식적 이행, 이미 낮은 기준치 등)은 연구자와 논평자의 해석이므로 카드에 '가능한 이유'로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "항공 체크리스트에서 착안했다는 점, 팀 소개가 이후 문제 제기를 쉽게 한다는 주장은 Gawande(2009) 책의 설명입니다. 수치 없이 정성적으로만 썼습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Quality · Company story",
+      "title": "The one-page list that cut surgical deaths in eight hospitals",
+      "body": [
+        "In 2008, a World Health Organization team tested a single sheet of paper in eight hospitals, from Seattle and London to New Delhi and Ifakara, Tanzania.",
+        "No new equipment. No new drugs. Just 19 checks spoken aloud. Afterward, the death rate among surgery patients in the study nearly halved."
+      ],
+      "image": {
+        "label": "A one-page checklist on a tray in an operating room",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 수술실 기구 트레이 위에 종이 한 장짜리 체크리스트가 놓여 있고, 뒤로 마스크 쓴 의료진 세 명이 둘러서 있음. 피나 상처 묘사 없이 밝고 차분한 톤. 실제 기관 로고(WHO 등)는 쓰지 않음.",
+        "url": "assets/images/ops-06-09-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How would you design it?",
+      "body": [
+        "You're on the team. Surgeons, nurses and anesthetists are highly trained experts. Yet basic steps still get skipped: an antibiotic given late, a missing scan, a team that never discussed what could go wrong.",
+        "What kind of tool do you build?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "A thorough checklist covering every step of the operation",
+            "verdict": "risky",
+            "feedback": "It looks complete, but busy experts skim long lists or skip them. The few steps that matter most get buried among the obvious ones."
+          },
+          {
+            "key": "B",
+            "text": "A short list read aloud at a few key moments, including team introductions",
+            "verdict": "best",
+            "feedback": "It costs a couple of minutes and targets only the steps people miss. Speaking aloud also gets the whole team talking. That's what the WHO team chose."
+          },
+          {
+            "key": "C",
+            "text": "No list. Better training and reminder posters instead",
+            "verdict": "partial",
+            "feedback": "Training raises skill, but these experts already know the steps. The problem is skipping them under pressure, which training alone rarely fixes."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What they built",
+      "title": "Three pauses, 19 checks.",
+      "body": [
+        "Each pause takes a minute or two. Many items look obvious. They're on the list because, on a busy day, people skip them."
+      ],
+      "breakdown": [
+        {
+          "value": "Sign in",
+          "label": "Before anesthesia",
+          "detail": "Right patient, right site, allergies, airway risk",
+          "highlight": false
+        },
+        {
+          "value": "Time out",
+          "label": "Before the first cut",
+          "detail": "Everyone says name and role; antibiotic given; risks discussed",
+          "highlight": true
+        },
+        {
+          "value": "Sign out",
+          "label": "Before leaving the room",
+          "detail": "Instruments and sponges counted, samples labeled",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "chart",
+      "eyebrow": "What happened",
+      "title": "Fewer deaths, fewer complications.",
+      "body": [
+        "The study compared nearly 4,000 patients before the checklist with a similar number after. Results improved at rich and poor hospitals alike.",
+        "It was a before-and-after study, not a randomized trial, so other changes may have helped too."
+      ],
+      "chart": {
+        "unit": "%",
+        "groups": [
+          {
+            "label": "Deaths",
+            "rows": [
+              {
+                "label": "Before",
+                "value": 1.5,
+                "highlight": false
+              },
+              {
+                "label": "After",
+                "value": 0.8,
+                "highlight": true
+              }
+            ]
+          },
+          {
+            "label": "Complications",
+            "rows": [
+              {
+                "label": "Before",
+                "value": 11,
+                "highlight": false
+              },
+              {
+                "label": "After",
+                "value": 7,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The pause-point checklist",
+      "body": [
+        "A **pause-point checklist** stops the team at the moments when a mistake is costly and hard to undo, and makes them confirm a few critical things out loud.",
+        "It doesn't teach experts their job. It catches the steps they skip under pressure. The idea came partly from aviation, where pilots run short checks before takeoff.",
+        "Atul Gawande, who led the work, argued that the introductions mattered too. Once people have spoken, they find it easier to **speak up** later."
+      ],
+      "image": {
+        "label": "A timeline with three stop signs",
+        "aspectRatio": "16:9",
+        "brief": "가로 타임라인 인포그래픽. 시작부터 끝까지 선이 이어지고, 되돌리기 어려운 지점 세 곳에 작은 멈춤 표지판. 각 표지판 옆에 말풍선 아이콘(팀이 소리 내어 확인한다는 뜻). 의료 장면 묘사 없이 추상적으로.",
+        "url": "assets/images/ops-06-09-c5.jpg"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond surgery",
+      "title": "Every business has its time out.",
+      "illustrative": true,
+      "body": [
+        "Look for moments that are expensive to reverse: a job leaving the factory, a contract going out, a price change going live.",
+        "A finance team inside a large company might pause once before closing the month: Are all bank accounts matched? Did anyone post an unusual entry? Does anyone have a concern?"
+      ],
+      "callout": "Short list, right moment, said out loud.",
+      "softwareNote": "Many teams hold a go/no-go check before a release: rollback plan ready, monitoring on, someone on call. It works for the same reason the time out does."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A mandated checklist can become a ritual.",
+      "body": [
+        "In 2010, Ontario, Canada required surgical checklists in its hospitals. A 2014 study of more than 100 hospitals found no meaningful drop in deaths or complications afterward.",
+        "Possible reasons: some teams ticked boxes without truly pausing, and rates were already low. The paper was the same. How people used it was not.",
+        "A checklist works only if leaders treat the pause as real and anyone can stop the job."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's an IT services firm.",
+      "illustrative": true,
+      "body": [
+        "You move clients' systems to new servers over weekends. Last month a job failed because nobody confirmed the backup had finished. The client was furious.",
+        "What do you change?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "A 70-item migration checklist, signed off by email after each job",
+            "verdict": "risky",
+            "feedback": "Thorough on paper, but signed after the fact it records mistakes instead of stopping them. Long lists also invite box-ticking."
+          },
+          {
+            "key": "B",
+            "text": "A short go/no-go call before cutover: backup confirmed, rollback ready, anyone can say stop",
+            "verdict": "best",
+            "feedback": "It adds a few minutes at the one moment that's hard to undo, and gives junior engineers a clear time to raise concerns."
+          },
+          {
+            "key": "C",
+            "text": "Send your most senior engineer to every migration",
+            "verdict": "partial",
+            "feedback": "Experience helps, but it doesn't scale and experts skip steps too. A pause protects every job, not just the ones your best person can attend."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Make the team stop and talk where mistakes are costly.",
+      "body": [
+        "The checklist worked because it was short, timed to the right moments and spoken aloud. Without a real pause, it's just paper.",
+        "**Try it today:** find one step in your work that's hard to undo. Write three checks for it, and say them aloud with your team next time."
+      ],
+      "next": "Next · A quality failure reaches customers"
+    }
+  ]
+}

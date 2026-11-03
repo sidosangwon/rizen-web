@@ -1,0 +1,267 @@
+{
+  "id": "FIN-09-04",
+  "unitId": "FIN-09",
+  "categoryId": "FIN",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Buybacks and dividends",
+  "readerTitle": "Why a buyback can raise profit per share and still make owners poorer",
+  "format": "numbers_twist",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "illustrative",
+    "real_research",
+    "real_company"
+  ],
+  "caseNote": "가상 사례 (가족 소유 유통사, 상장 소프트웨어 회사 재무팀) · 모든 수치는 설명용 + 실제 연구(Miller & Modigliani 1961)와 실제 기업 원칙(Berkshire Hathaway 주주서한)",
+  "insight": "자사주 매입은 주식을 '사는' 거래이므로, 주당순이익이 아니라 매입 가격이 실제 가치보다 싼지 비싼지로 판단한다.",
+  "misconception": "자사주 매입으로 주당순이익이 오르면 남은 주주에게 이득이다. 배당과 자사주 매입은 돈을 돌려주는 방식만 다를 뿐 결과는 늘 같다.",
+  "relatedLessonIds": [
+    "FIN-09-03",
+    "FIN-07-04"
+  ],
+  "sources": [
+    {
+      "text": "Miller, M. H. & Modigliani, F. (1961). Dividend Policy, Growth, and the Valuation of Shares. The Journal of Business, 34(4).",
+      "url": null
+    },
+    {
+      "text": "Berkshire Hathaway shareholder letters (Warren Buffett) on repurchasing shares only below intrinsic value",
+      "url": "https://www.berkshirehathaway.com/letters/letters.html"
+    },
+    {
+      "text": "유통사와 소프트웨어 회사 사례의 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "유통사 계산: 기업가치 $10M = 영업가치 $8M + 여유 현금 $2M, 100주 → 주당 $100,000. 16주 × $125,000 = $2,000,000. 남은 84주 가치 $8M ÷ 84 = $95,238(주당 약 $4,762 감소). 이전된 가치: 84 × $4,762 ≈ $400,000 = 16 × ($125,000 − $100,000). 배당 시 주당 $80,000 + 현금 $20,000 = $100,000.",
+      "status": "open"
+    },
+    {
+      "note": "차트 계산: $80,000에 매입 시 $2M ÷ $80,000 = 25주, $8M ÷ 75 = $106,667. $100,000에 매입 시 20주, $8M ÷ 80 = $100,000. $125,000에 매입 시 16주, $8M ÷ 84 = $95,238.",
+      "status": "open"
+    },
+    {
+      "note": "주당순이익: 이익 $1M ÷ 100주 = $10,000, ÷ 84주 = $11,905, 증가율 19.05%(약 19%). 여유 현금이 이자를 벌지 않는다는 단순화 가정이며 세금은 무시했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Miller & Modigliani(1961)의 배당 무관련성 명제는 세금·거래비용·정보 비대칭이 없는 이상적 조건에서 성립합니다. 카드에는 'simplified world'로만 표현했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Buffett의 자사주 매입 원칙(내재가치보다 낮을 때만 매입)은 여러 해 주주서한에 나옵니다. 직접 인용은 하지 않고 취지만 적었습니다. 게시 전 특정 연도 서한으로 표현을 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Numbers twist",
+      "title": "Profit per share up 19%. Every owner poorer.",
+      "illustrative": true,
+      "body": [
+        "A family-owned hardware distributor uses $2M of spare cash to buy out a retiring partner.",
+        "Next year, profit per share is up 19%. The owners celebrate. Yet each share they still hold is worth about $4,800 less than before."
+      ],
+      "image": {
+        "label": "A pie chart growing slices while the whole pie shrinks",
+        "aspectRatio": "4:3",
+        "brief": "창고 배경의 3D 클레이 스타일. 파이 하나에서 한 조각이 빠져나가며 돈 가방과 교환되고, 남은 조각들은 커 보이지만 파이 전체는 살짝 작아진 모습. 실제 기업 로고는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Dividend or buyout?",
+      "illustrative": true,
+      "body": [
+        "Your distributor is worth about $10M: $8M for the business plus $2M of spare cash. There are 100 shares, so each is worth about $100,000.",
+        "A retiring partner owns 16 shares and asks $125,000 each, exactly $2M. The other option is to pay the $2M out to all owners as a dividend. Which leaves the owners who stay better off?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Buy him out. Fewer shares means more profit per share",
+            "verdict": "risky",
+            "feedback": "Profit per share does rise. But you pay $125,000 for something worth $100,000, and the owners who stay cover the difference."
+          },
+          {
+            "key": "B",
+            "text": "Pay the dividend, then negotiate a fairer price for his shares",
+            "verdict": "best",
+            "feedback": "Owners keep the full $100,000 of value per share. You give up a quick, tidy exit for the partner in return."
+          },
+          {
+            "key": "C",
+            "text": "It doesn't matter. It's the same $2M either way",
+            "verdict": "partial",
+            "feedback": "True only if the price is fair. At $125,000 a share, the two choices split the value very differently."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Follow the $2M.",
+      "illustrative": true,
+      "breakdown": [
+        {
+          "value": "$10M",
+          "label": "Company value",
+          "detail": "$8M business + $2M spare cash",
+          "highlight": false
+        },
+        {
+          "value": "$100,000",
+          "label": "Value per share",
+          "detail": "$10M ÷ 100 shares",
+          "highlight": false
+        },
+        {
+          "value": "$2M",
+          "label": "Paid to the partner",
+          "detail": "16 shares at $125,000",
+          "highlight": false
+        },
+        {
+          "value": "$95,238",
+          "label": "Value per remaining share",
+          "detail": "$8M ÷ 84 shares",
+          "highlight": true
+        }
+      ],
+      "callout": "With a dividend, each share keeps $80,000 of business plus $20,000 in cash: still $100,000. The buyout quietly moved about $400,000 from the owners who stayed to the one who left."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Buybacks and dividends",
+      "body": [
+        "Buybacks and dividends are the two main ways a company hands spare cash back to its owners. A **dividend** pays every owner the same amount per share. A **buyback** pays only the owners who sell. Everyone who stays owns a bigger slice.",
+        "At a fair price, both leave owners equally well off. The real differences are *who* gets the cash and *what price* the company pays."
+      ],
+      "image": {
+        "label": "Two paths for the same pile of cash",
+        "aspectRatio": "16:9",
+        "brief": "가운데 현금 더미에서 두 갈래 화살표. 왼쪽 \"Dividend\": 모든 주주에게 같은 크기의 동전. 오른쪽 \"Buyback\": 한 명에게 큰 돈 가방, 나머지 주주의 파이 조각이 커짐. 오른쪽 화살표 위에 가격표 아이콘 강조.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "chart",
+      "eyebrow": "The twist",
+      "title": "The price decides who wins.",
+      "illustrative": true,
+      "body": [
+        "Spend the same $2M on shares at three different prices. Each share is really worth $100,000."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Value per remaining share after the buyback",
+            "rows": [
+              {
+                "label": "Buy at $80,000 (25 shares)",
+                "value": 106667,
+                "highlight": false
+              },
+              {
+                "label": "Buy at $100,000 (20 shares)",
+                "value": 100000,
+                "highlight": false
+              },
+              {
+                "label": "Buy at $125,000 (16 shares)",
+                "value": 95238,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "callout": "A buyback is a purchase. Buy cheap and the owners who stay gain. Overpay and they lose."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Why the number fools you",
+      "title": "Profit per share rises almost no matter what you pay.",
+      "body": [
+        "Profit stayed at $1M. Shares fell from 100 to 84, so profit per share rose from $10,000 to $11,905. That rise shows up whenever idle cash is used to cut the share count, even at a bad price.",
+        "Economists Merton Miller and Franco Modigliani showed in 1961 that, in a simplified world, how a company pays out cash doesn't change what it's worth. Warren Buffett has long argued in Berkshire Hathaway's letters that buybacks make sense only below a share's real value. Both point to the same test: **price versus value**, not profit per share."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Each choice has its own costs.",
+      "body": [
+        "Buybacks need a good estimate of value, and insiders tend to be optimistic about their own company. If you can't tell whether shares are cheap, a dividend avoids the bet.",
+        "Dividends are sticky. Owners come to rely on them, and a cut is often read as bad news. Taxes on each also differ by country, so check the local rules before choosing."
+      ],
+      "softwareNote": "Many software companies buy back shares mainly to offset new shares given to employees. The share count barely falls, so the cash is really paying staff, not returning money to owners."
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now you're on a software company's finance team.",
+      "illustrative": true,
+      "body": [
+        "Your listed software company has $500M of spare cash. The shares trade at a record high, about 30% above your team's best estimate of their value. Executive bonuses are tied to earnings per share.",
+        "The CEO asks your team for a recommendation."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Buy back $500M of shares now. Earnings per share will jump",
+            "verdict": "risky",
+            "feedback": "Bonuses go up, but you'd pay about 30% more than the shares are worth. The owners who stay fund that gap."
+          },
+          {
+            "key": "B",
+            "text": "Pay a one-off special dividend, and buy back only if shares fall below your estimate",
+            "verdict": "best",
+            "feedback": "Owners get the cash without you overpaying. You lose the earnings-per-share boost, and a one-off payment avoids creating a dividend owners expect every year."
+          },
+          {
+            "key": "C",
+            "text": "Split it: half buyback, half dividend",
+            "verdict": "partial",
+            "feedback": "It halves the damage, but $250M is still spent at a price above value. Splitting doesn't fix a bad price."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A buyback is a purchase. Judge it by the price.",
+      "body": [
+        "Dividends and buybacks both return cash. Profit per share can rise either way. What matters is whether the company paid less than its shares are worth.",
+        "**Try it today:** if your business has bought out a partner, or might, write down what the shares are really worth and what you'd pay. The gap shows who gains."
+      ],
+      "next": "Next · The minimum return a project must beat"
+    }
+  ]
+}

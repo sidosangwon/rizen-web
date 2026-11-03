@@ -1,0 +1,238 @@
+{
+  "id": "ENT-01-04",
+  "unitId": "ENT-01",
+  "categoryId": "ENT",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Sizing a market",
+  "readerTitle": "Why \"just 1% of a huge market\" is the wrong math",
+  "format": "counterexample",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "illustrative",
+    "real_observation"
+  ],
+  "caseNote": "가상 사례 (글루텐프리 베이커리, 회계 소프트웨어 회사의 사내 팀) + 투자자들이 흔히 지적하는 '1% 논리' 피칭 패턴 (일반적 관찰) · 모든 수치는 설명용",
+  "insight": "시장 규모는 큰 숫자를 잘라서 구하는 것이 아니라, 실제로 닿을 수 있는 고객 한 명 한 명을 세어 쌓아 올려서 구한다.",
+  "misconception": "시장이 충분히 크면 1%만 가져와도 큰 사업이 된다.",
+  "relatedLessonIds": [
+    "CUS-01-03",
+    "ENT-01-05"
+  ],
+  "sources": [
+    {
+      "text": "하향식(top-down)·상향식(bottom-up) 시장 규모 추정은 창업·마케팅 교육의 표준 개념",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "베이커리 계산: 20,000가구 × 6% = 1,200가구, 1,200 × 주 $10 = 주 $12,000, × 52주 = 연 $624,000, 30% 점유 시 $187,200(약 $187,000). 하향식: $2B × 0.1% = $2M. 모두 가상 수치입니다.",
+      "status": "open"
+    },
+    {
+      "note": "'1% 논리'를 투자자들이 경계한다는 내용은 특정 인물·연구를 인용하지 않고 일반적 관찰로만 썼습니다. 통계나 인용을 추가하지 마세요.",
+      "status": "open"
+    },
+    {
+      "note": "TAM/SAM/SOM 용어는 업계에서 흔히 쓰는 약어로만 소개했고, 정의는 일반적인 의미로 단순화했습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Starting up · Counterexample",
+      "title": "Why \"just 1% of a huge market\" is the wrong math",
+      "illustrative": true,
+      "body": [
+        "A baker's business plan opens with one big number: the country spends $2 billion a year on gluten-free food.",
+        "\"We only need 0.1% of that,\" the plan says. \"That's $2 million a year.\" It sounds modest. It's almost certainly wrong."
+      ],
+      "image": {
+        "label": "A giant pie chart with a tiny sliver labeled 0.1%",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 거대한 파이 차트 위에 작은 조각 하나가 \"0.1%\" 라벨과 함께 빠져 있고, 그 조각을 빵집 주인 캐릭터가 들고 있음. 배경에 작은 동네 빵집. 실제 브랜드 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which estimate would you trust?",
+      "illustrative": true,
+      "body": [
+        "Your friend wants to open a gluten-free bakery in a mid-sized town and asks you to check the sales forecast before she signs a lease.",
+        "How should she estimate how much she could sell?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Take the national gluten-free market and assume a tiny share, like 0.1%",
+            "verdict": "risky",
+            "feedback": "It's quick and sounds humble. But nothing tells her where the 0.1% comes from, so the number can't be checked or trusted."
+          },
+          {
+            "key": "B",
+            "text": "Count nearby households that buy gluten-free, then multiply by what they spend",
+            "verdict": "best",
+            "feedback": "Slower, and every input is a guess. But each guess is something she can check by walking the town and talking to buyers."
+          },
+          {
+            "key": "C",
+            "text": "Copy the sales of a successful gluten-free bakery in a big city",
+            "verdict": "partial",
+            "feedback": "Real numbers help. But a big city has far more nearby buyers, so the result may still be far too high."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "Counting from the ground up",
+      "title": "The same bakery, counted one household at a time.",
+      "illustrative": true,
+      "body": [
+        "The whole local market is about **$624,000** a year. Even winning 30% of it, a big share for one shop, means about $187,000. Not $2 million."
+      ],
+      "breakdown": [
+        {
+          "value": "20,000",
+          "label": "Households within 15 minutes",
+          "detail": "How far people will drive for bread",
+          "highlight": false
+        },
+        {
+          "value": "× 6%",
+          "label": "Buy gluten-free baked goods",
+          "detail": "1,200 households",
+          "highlight": false
+        },
+        {
+          "value": "× $10",
+          "label": "Spent per week",
+          "detail": "$12,000 a week across town",
+          "highlight": false
+        },
+        {
+          "value": "$624,000",
+          "label": "Local market per year",
+          "detail": "Shared with every shop that sells it",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Sizing a market",
+      "body": [
+        "**Sizing a market** means estimating how much the customers you can actually reach will spend in a year on the problem you solve.",
+        "There are two ways to do it. *Top-down* starts with a big industry figure and cuts it down. **Bottom-up** starts with real customers: how many there are, how often they buy, and what they pay.",
+        "Investors often call these layers TAM, SAM and SOM: the total market, the part you can serve, and the part you can realistically win."
+      ],
+      "image": {
+        "label": "Funnel narrowing from national market to reachable customers",
+        "aspectRatio": "16:9",
+        "brief": "깔때기 인포그래픽. 위에서부터 \"Whole country\", \"Customers you can reach\", \"Customers you can win\" 세 층. 맨 아래 층만 강조 색. 깔때기 옆에 작은 가구 아이콘들이 하나씩 세어지는 모습.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Why top-down misleads",
+      "title": "Nobody buys a percentage.",
+      "body": [
+        "The \"1% of a huge market\" pitch is common enough that many investors treat it as a warning sign. The problem isn't that 1% is too big. It's that the share comes from nowhere.",
+        "You never win a slice of a national market. You win customers one at a time, in places you can reach, against shops they already use.",
+        "Bottom-up math forces you to name those customers. That also shows you what to test first."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Big enough for what?",
+      "title": "A small market isn't always a bad one.",
+      "body": [
+        "$187,000 may be plenty for one bakery with low rent. It would be far too small for a company trying to raise venture funding, which needs a path to many millions.",
+        "So the real question is whether the market is big enough for the business you want to build. Size also changes: a small market that is growing fast can matter more than a large, shrinking one."
+      ],
+      "softwareNote": "Software can reach customers anywhere, so the \"15-minute drive\" limit disappears. But the bottom-up rule stays: count the companies who have the problem, can find you, and will pay, instead of quoting the whole industry."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Bottom-up numbers are guesses too.",
+      "body": [
+        "Each input is an assumption, and errors multiply. If the 6% is really 3% and the $10 is really $5, the market is a quarter of the estimate.",
+        "So don't polish the spreadsheet. Find the shakiest number and check it: count shoppers, ask a local grocer what sells, or take pre-orders. For brand-new products with no history, treat any market size as a rough range, not a fact."
+      ],
+      "image": {
+        "label": "Stacked blocks with one wobbling block labeled 6%",
+        "aspectRatio": "16:9",
+        "brief": "쌓아 올린 블록 탑. 각 블록에 \"20,000 households\", \"6%\", \"$10/week\" 라벨. \"6%\" 블록만 흔들리며 물음표 표시. 간결한 플랫 일러스트.",
+        "url": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now you lead a team inside a software company.",
+      "illustrative": true,
+      "body": [
+        "Your company sells accounting software to 8,000 small businesses. A product team wants to build a payroll add-on. Their slide says payroll is a multi-billion-dollar industry.",
+        "Before approving a year of work, what estimate do you ask for?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "How many of our 8,000 customers have staff, what they pay for payroll today, and how many would switch",
+            "verdict": "best",
+            "feedback": "It starts from users the team can actually reach. It takes some digging, but it shows quickly whether the add-on is worth a year."
+          },
+          {
+            "key": "B",
+            "text": "Take the industry figure and apply a small share from an analyst report",
+            "verdict": "risky",
+            "feedback": "It looks rigorous because it cites a report. But the share still says nothing about your own customers or why they'd switch."
+          },
+          {
+            "key": "C",
+            "text": "Survey customers, then multiply the \"yes, I'd buy it\" answers by the price",
+            "verdict": "partial",
+            "feedback": "It's bottom-up, which is good. But saying yes in a survey costs nothing, so stated interest usually overstates real purchases."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Count customers, don't slice markets.",
+      "body": [
+        "A market is only as big as the customers you can reach, multiplied by how often they buy and what they pay.",
+        "**Try it today:** estimate your own market bottom-up in three lines: who can reach you, how many of them buy, and what they spend in a year. Circle the number you're least sure of."
+      ],
+      "next": "Next · Why now?"
+    }
+  ]
+}

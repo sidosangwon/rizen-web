@@ -1,0 +1,937 @@
+{
+  "version": "0.5.0",
+  "generatedAt": "2026-10-16",
+  "language": "en",
+  "notesLanguage": "ko",
+  "categories": [
+    {
+      "id": "THK",
+      "order": 1,
+      "name": "Thinking & Decisions",
+      "nameKo": "판단과 사고",
+      "description": "모든 카테고리의 기반입니다. 멘탈 모델, 편향, 확률, 의사결정, 시스템 사고, 문제 해결, 데이터 해석, 소통을 다룹니다.",
+      "stage": "intro",
+      "prerequisiteCategoryIds": [],
+      "hue": 255
+    },
+    {
+      "id": "ECO",
+      "order": 2,
+      "name": "Economics & Pricing",
+      "nameKo": "경제학과 가격",
+      "description": "가장 오래 가는 비즈니스 개념입니다. 수요와 공급, 비용, 시장 구조, 탄력성, 가격 심리와 전략, 거시경제, 게임이론을 다룹니다. 테스트 레슨 5개가 여기에 들어갑니다.",
+      "stage": "intro",
+      "prerequisiteCategoryIds": [],
+      "hue": 28
+    },
+    {
+      "id": "CUS",
+      "order": 3,
+      "name": "Customers & Value",
+      "nameKo": "고객과 가치",
+      "description": "누구를 위해 무엇을 만드는지입니다. 고객 이해, 가치 제안, PMF, 아이디어 검증, 고객 행동, 리텐션, 제품 판단, 고객 경험, 기업 고객을 다룹니다.",
+      "stage": "intro",
+      "prerequisiteCategoryIds": [],
+      "hue": 150
+    },
+    {
+      "id": "STR",
+      "order": 4,
+      "name": "Strategy & Competition",
+      "nameKo": "전략과 경쟁",
+      "description": "어디서 싸우고 어떻게 이길지 고르는 법입니다. 전략의 정의, 산업 분석, 경쟁우위, 해자, 포지셔닝, 파괴적 혁신, 성장, 진입 타이밍, 기업 전략, 해외 진출을 다룹니다.",
+      "stage": "basic",
+      "prerequisiteCategoryIds": [
+        "CUS",
+        "ECO"
+      ],
+      "hue": 215
+    },
+    {
+      "id": "BMO",
+      "order": 5,
+      "name": "Business Models",
+      "nameKo": "비즈니스 모델",
+      "description": "회사가 돈을 버는 구조입니다. 모델 기초, 수익 방식, 고전적 패턴, 네트워크 효과, 마켓플레이스, 반복 매출, 생태계, 기술 변화, 모델 혁신을 다룹니다.",
+      "stage": "basic",
+      "prerequisiteCategoryIds": [
+        "CUS"
+      ],
+      "hue": 180
+    },
+    {
+      "id": "MKT",
+      "order": 6,
+      "name": "Marketing & Brand",
+      "nameKo": "마케팅과 브랜드",
+      "description": "고객의 마음을 얻고 시장에 닿는 법입니다. 마케팅 기초, 브랜드, 설득, 메시지, 성장, 유통, 고객 획득의 경제학, 시장 진입, 마케팅 리더십을 다룹니다.",
+      "stage": "basic",
+      "prerequisiteCategoryIds": [
+        "CUS",
+        "STR"
+      ],
+      "hue": 345
+    },
+    {
+      "id": "SAL",
+      "order": 7,
+      "name": "Sales & Negotiation",
+      "nameKo": "세일즈와 협상",
+      "description": "설득하고 조건을 정하는 법입니다. 판매 기초, 컨설팅형 판매, 반론, 협상, 창업자 세일즈, 파트너십, 세일즈 조직을 다룹니다.",
+      "stage": "basic",
+      "prerequisiteCategoryIds": [
+        "CUS",
+        "ECO"
+      ],
+      "hue": 45
+    },
+    {
+      "id": "FIN",
+      "order": 8,
+      "name": "Money & Finance",
+      "nameKo": "돈과 재무",
+      "description": "숫자로 사업을 읽는 법입니다. 재무제표, 현금, 유닛 이코노믹스, 손익분기, 예산, 가치평가, 자금조달, 위험과 수익, 자본 배분, 재무 경고 신호를 다룹니다.",
+      "stage": "intro",
+      "prerequisiteCategoryIds": [],
+      "hue": 120
+    },
+    {
+      "id": "OPS",
+      "order": 9,
+      "name": "Operations & Execution",
+      "nameKo": "운영과 실행",
+      "description": "결정을 결과로 만드는 법입니다. 운영 기초, 린, 공급망, 목표와 실행, 프로젝트, 품질, 리스크, 규모 확장을 다룹니다.",
+      "stage": "basic",
+      "prerequisiteCategoryIds": [
+        "FIN"
+      ],
+      "hue": 195
+    },
+    {
+      "id": "PPL",
+      "order": 10,
+      "name": "People & Leadership",
+      "nameKo": "사람과 리더십",
+      "description": "사람과 함께 일하는 판단입니다. 자기관리, 매니징, 채용, 동기와 보상, 팀, 문화, 리더십, 소통, 조직 설계를 다룹니다.",
+      "stage": "basic",
+      "prerequisiteCategoryIds": [],
+      "hue": 0
+    },
+    {
+      "id": "ENT",
+      "order": 11,
+      "name": "Entrepreneurship",
+      "nameKo": "창업",
+      "description": "아이디어에서 엑싯까지의 결정입니다. 창업 기초, 스몰 비즈니스, 공동창업자, 투자유치, 초기 실행, 확장, 피벗, 엑싯을 다룹니다.",
+      "stage": "applied",
+      "prerequisiteCategoryIds": [
+        "CUS",
+        "BMO",
+        "FIN"
+      ],
+      "hue": 285
+    }
+  ],
+  "units": [
+    {
+      "id": "THK-01",
+      "categoryId": "THK",
+      "order": 1,
+      "name": "Mental Models",
+      "level": 1,
+      "isLaunchUnit": true
+    },
+    {
+      "id": "THK-02",
+      "categoryId": "THK",
+      "order": 2,
+      "name": "Cognitive Biases",
+      "level": 1,
+      "isLaunchUnit": true
+    },
+    {
+      "id": "THK-03",
+      "categoryId": "THK",
+      "order": 3,
+      "name": "Group Biases",
+      "level": 2,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "THK-04",
+      "categoryId": "THK",
+      "order": 4,
+      "name": "Probabilistic Thinking",
+      "level": 2,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "THK-05",
+      "categoryId": "THK",
+      "order": 5,
+      "name": "Making Decisions",
+      "level": 1,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "THK-06",
+      "categoryId": "THK",
+      "order": 6,
+      "name": "Systems Thinking",
+      "level": 2,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "THK-07",
+      "categoryId": "THK",
+      "order": 7,
+      "name": "Problem Solving",
+      "level": 1,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "THK-08",
+      "categoryId": "THK",
+      "order": 8,
+      "name": "Thinking with Data",
+      "level": 2,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "THK-09",
+      "categoryId": "THK",
+      "order": 9,
+      "name": "Long-Term Thinking",
+      "level": 3,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "THK-10",
+      "categoryId": "THK",
+      "order": 10,
+      "name": "Communicating Decisions",
+      "level": 3,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "THK-11",
+      "categoryId": "THK",
+      "order": 11,
+      "name": "Metrics & Experiments",
+      "level": 2,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "ECO-01",
+      "categoryId": "ECO",
+      "order": 1,
+      "name": "Economics Basics",
+      "level": 1,
+      "isLaunchUnit": true
+    },
+    {
+      "id": "ECO-02",
+      "categoryId": "ECO",
+      "order": 2,
+      "name": "Costs",
+      "level": 1,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "ECO-03",
+      "categoryId": "ECO",
+      "order": 3,
+      "name": "Market Structures",
+      "level": 2,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "ECO-04",
+      "categoryId": "ECO",
+      "order": 4,
+      "name": "Demand & Elasticity",
+      "level": 2,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "ECO-05",
+      "categoryId": "ECO",
+      "order": 5,
+      "name": "Pricing Psychology",
+      "level": 1,
+      "isLaunchUnit": true
+    },
+    {
+      "id": "ECO-06",
+      "categoryId": "ECO",
+      "order": 6,
+      "name": "Pricing Strategy",
+      "level": 1,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "ECO-07",
+      "categoryId": "ECO",
+      "order": 7,
+      "name": "Price Structures",
+      "level": 2,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "ECO-08",
+      "categoryId": "ECO",
+      "order": 8,
+      "name": "Changing Prices",
+      "level": 2,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "ECO-09",
+      "categoryId": "ECO",
+      "order": 9,
+      "name": "The Economy & Your Business",
+      "level": 2,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "ECO-10",
+      "categoryId": "ECO",
+      "order": 10,
+      "name": "Game Theory",
+      "level": 3,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "CUS-01",
+      "categoryId": "CUS",
+      "order": 1,
+      "name": "Understanding Customers",
+      "level": 1,
+      "isLaunchUnit": true
+    },
+    {
+      "id": "CUS-02",
+      "categoryId": "CUS",
+      "order": 2,
+      "name": "Value Propositions",
+      "level": 1,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "CUS-03",
+      "categoryId": "CUS",
+      "order": 3,
+      "name": "Product-Market Fit",
+      "level": 1,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "CUS-04",
+      "categoryId": "CUS",
+      "order": 4,
+      "name": "Testing Ideas",
+      "level": 1,
+      "isLaunchUnit": true
+    },
+    {
+      "id": "CUS-05",
+      "categoryId": "CUS",
+      "order": 5,
+      "name": "Customer Behavior",
+      "level": 2,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "CUS-06",
+      "categoryId": "CUS",
+      "order": 6,
+      "name": "Retention & Loyalty",
+      "level": 2,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "CUS-07",
+      "categoryId": "CUS",
+      "order": 7,
+      "name": "Product Judgment",
+      "level": 2,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "CUS-08",
+      "categoryId": "CUS",
+      "order": 8,
+      "name": "Customer Experience",
+      "level": 2,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "CUS-09",
+      "categoryId": "CUS",
+      "order": 9,
+      "name": "Business Customers",
+      "level": 3,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "CUS-10",
+      "categoryId": "CUS",
+      "order": 10,
+      "name": "Psychology Without Hype",
+      "level": 2,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "STR-01",
+      "categoryId": "STR",
+      "order": 1,
+      "name": "What Strategy Is",
+      "level": 1,
+      "isLaunchUnit": true
+    },
+    {
+      "id": "STR-02",
+      "categoryId": "STR",
+      "order": 2,
+      "name": "Industry Analysis",
+      "level": 1,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "STR-03",
+      "categoryId": "STR",
+      "order": 3,
+      "name": "Competitive Advantage",
+      "level": 2,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "STR-04",
+      "categoryId": "STR",
+      "order": 4,
+      "name": "Moats",
+      "level": 2,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "STR-05",
+      "categoryId": "STR",
+      "order": 5,
+      "name": "Positioning",
+      "level": 1,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "STR-06",
+      "categoryId": "STR",
+      "order": 6,
+      "name": "Disruption",
+      "level": 2,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "STR-07",
+      "categoryId": "STR",
+      "order": 7,
+      "name": "Growth Strategy",
+      "level": 2,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "STR-08",
+      "categoryId": "STR",
+      "order": 8,
+      "name": "Timing & Entry",
+      "level": 2,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "STR-09",
+      "categoryId": "STR",
+      "order": 9,
+      "name": "Corporate Strategy",
+      "level": 3,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "STR-10",
+      "categoryId": "STR",
+      "order": 10,
+      "name": "Going Global",
+      "level": 3,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "BMO-01",
+      "categoryId": "BMO",
+      "order": 1,
+      "name": "Business Model Basics",
+      "level": 1,
+      "isLaunchUnit": true
+    },
+    {
+      "id": "BMO-02",
+      "categoryId": "BMO",
+      "order": 2,
+      "name": "Ways to Make Money",
+      "level": 1,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "BMO-03",
+      "categoryId": "BMO",
+      "order": 3,
+      "name": "Classic Model Patterns",
+      "level": 2,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "BMO-04",
+      "categoryId": "BMO",
+      "order": 4,
+      "name": "Network Effects",
+      "level": 2,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "BMO-05",
+      "categoryId": "BMO",
+      "order": 5,
+      "name": "Marketplaces",
+      "level": 2,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "BMO-06",
+      "categoryId": "BMO",
+      "order": 6,
+      "name": "Recurring Revenue",
+      "level": 2,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "BMO-07",
+      "categoryId": "BMO",
+      "order": 7,
+      "name": "Ecosystems",
+      "level": 3,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "BMO-08",
+      "categoryId": "BMO",
+      "order": 8,
+      "name": "Technology & Value",
+      "level": 3,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "MKT-01",
+      "categoryId": "MKT",
+      "order": 1,
+      "name": "Marketing Basics",
+      "level": 1,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "MKT-02",
+      "categoryId": "MKT",
+      "order": 2,
+      "name": "Brand",
+      "level": 1,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "MKT-03",
+      "categoryId": "MKT",
+      "order": 3,
+      "name": "Persuasion",
+      "level": 1,
+      "isLaunchUnit": true
+    },
+    {
+      "id": "MKT-04",
+      "categoryId": "MKT",
+      "order": 4,
+      "name": "Messaging",
+      "level": 1,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "MKT-05",
+      "categoryId": "MKT",
+      "order": 5,
+      "name": "Growth Basics",
+      "level": 1,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "MKT-06",
+      "categoryId": "MKT",
+      "order": 6,
+      "name": "Distribution",
+      "level": 2,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "MKT-07",
+      "categoryId": "MKT",
+      "order": 7,
+      "name": "Acquisition Economics",
+      "level": 2,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "MKT-08",
+      "categoryId": "MKT",
+      "order": 8,
+      "name": "Going to Market",
+      "level": 2,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "SAL-01",
+      "categoryId": "SAL",
+      "order": 1,
+      "name": "Selling Basics",
+      "level": 1,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "SAL-02",
+      "categoryId": "SAL",
+      "order": 2,
+      "name": "Consultative Selling",
+      "level": 2,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "SAL-03",
+      "categoryId": "SAL",
+      "order": 3,
+      "name": "Objections",
+      "level": 1,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "SAL-04",
+      "categoryId": "SAL",
+      "order": 4,
+      "name": "Negotiation Basics",
+      "level": 1,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "SAL-05",
+      "categoryId": "SAL",
+      "order": 5,
+      "name": "Advanced Negotiation",
+      "level": 3,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "SAL-06",
+      "categoryId": "SAL",
+      "order": 6,
+      "name": "Founder Selling",
+      "level": 2,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "SAL-07",
+      "categoryId": "SAL",
+      "order": 7,
+      "name": "Partnerships",
+      "level": 2,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "FIN-01",
+      "categoryId": "FIN",
+      "order": 1,
+      "name": "Financial Statements",
+      "level": 1,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "FIN-02",
+      "categoryId": "FIN",
+      "order": 2,
+      "name": "Cash",
+      "level": 1,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "FIN-03",
+      "categoryId": "FIN",
+      "order": 3,
+      "name": "Unit Economics",
+      "level": 1,
+      "isLaunchUnit": true
+    },
+    {
+      "id": "FIN-04",
+      "categoryId": "FIN",
+      "order": 4,
+      "name": "Break-Even & Profit",
+      "level": 1,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "FIN-05",
+      "categoryId": "FIN",
+      "order": 5,
+      "name": "Planning & Budgets",
+      "level": 2,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "FIN-06",
+      "categoryId": "FIN",
+      "order": 6,
+      "name": "Value & Valuation",
+      "level": 2,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "FIN-07",
+      "categoryId": "FIN",
+      "order": 7,
+      "name": "Funding a Business",
+      "level": 2,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "FIN-08",
+      "categoryId": "FIN",
+      "order": 8,
+      "name": "Risk & Return",
+      "level": 2,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "FIN-09",
+      "categoryId": "FIN",
+      "order": 9,
+      "name": "Capital Allocation",
+      "level": 3,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "FIN-10",
+      "categoryId": "FIN",
+      "order": 10,
+      "name": "Financial Red Flags",
+      "level": 3,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "FIN-11",
+      "categoryId": "FIN",
+      "order": 11,
+      "name": "Accounting Logic",
+      "level": 2,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "OPS-01",
+      "categoryId": "OPS",
+      "order": 1,
+      "name": "Operations Basics",
+      "level": 1,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "OPS-02",
+      "categoryId": "OPS",
+      "order": 2,
+      "name": "Lean & Flow",
+      "level": 2,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "OPS-03",
+      "categoryId": "OPS",
+      "order": 3,
+      "name": "Supply Chains",
+      "level": 2,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "OPS-04",
+      "categoryId": "OPS",
+      "order": 4,
+      "name": "Goals & Execution",
+      "level": 1,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "OPS-05",
+      "categoryId": "OPS",
+      "order": 5,
+      "name": "Projects",
+      "level": 1,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "OPS-06",
+      "categoryId": "OPS",
+      "order": 6,
+      "name": "Quality",
+      "level": 2,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "OPS-07",
+      "categoryId": "OPS",
+      "order": 7,
+      "name": "Risk",
+      "level": 2,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "OPS-08",
+      "categoryId": "OPS",
+      "order": 8,
+      "name": "Commerce Economics",
+      "level": 2,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "PPL-01",
+      "categoryId": "PPL",
+      "order": 1,
+      "name": "Managing Yourself",
+      "level": 1,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "PPL-02",
+      "categoryId": "PPL",
+      "order": 2,
+      "name": "Managing Others",
+      "level": 1,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "PPL-03",
+      "categoryId": "PPL",
+      "order": 3,
+      "name": "Hiring",
+      "level": 2,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "PPL-04",
+      "categoryId": "PPL",
+      "order": 4,
+      "name": "Motivation & Incentives",
+      "level": 2,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "PPL-05",
+      "categoryId": "PPL",
+      "order": 5,
+      "name": "Teams",
+      "level": 2,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "PPL-06",
+      "categoryId": "PPL",
+      "order": 6,
+      "name": "Culture",
+      "level": 2,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "PPL-07",
+      "categoryId": "PPL",
+      "order": 7,
+      "name": "Leadership",
+      "level": 3,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "PPL-08",
+      "categoryId": "PPL",
+      "order": 8,
+      "name": "Communication",
+      "level": 1,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "PPL-09",
+      "categoryId": "PPL",
+      "order": 9,
+      "name": "Organization Design",
+      "level": 3,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "ENT-01",
+      "categoryId": "ENT",
+      "order": 1,
+      "name": "Starting Up",
+      "level": 1,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "ENT-02",
+      "categoryId": "ENT",
+      "order": 2,
+      "name": "Small Business",
+      "level": 1,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "ENT-03",
+      "categoryId": "ENT",
+      "order": 3,
+      "name": "Co-founders",
+      "level": 2,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "ENT-04",
+      "categoryId": "ENT",
+      "order": 4,
+      "name": "Raising Money",
+      "level": 2,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "ENT-05",
+      "categoryId": "ENT",
+      "order": 5,
+      "name": "Early Execution",
+      "level": 2,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "ENT-06",
+      "categoryId": "ENT",
+      "order": 6,
+      "name": "Scaling a Company",
+      "level": 3,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "ENT-07",
+      "categoryId": "ENT",
+      "order": 7,
+      "name": "Pivots & Failure",
+      "level": 2,
+      "isLaunchUnit": false
+    },
+    {
+      "id": "ENT-08",
+      "categoryId": "ENT",
+      "order": 8,
+      "name": "Exits",
+      "level": 3,
+      "isLaunchUnit": false
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "id": "ENT-04-10",
+  "unitId": "ENT-04",
+  "categoryId": "ENT",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Build a seed pitch",
+  "readerTitle": "Four calls that make or break a seed pitch",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (대형 케이터링 회사 안의 팀에서 분사한 사무실 베이커리 공급 사업) · 모든 수치는 설명용",
+  "insight": "시드 피치는 슬라이드 한 벌이 아니라 금액, 투자자, 근거, 조건에 대한 네 가지 판단이 서로 맞물린 결과다.",
+  "misconception": "좋은 피치란 큰 시장과 큰 비전을 멋지게 보여주는 것이고, 가장 높은 기업가치를 주는 투자자가 가장 좋은 투자자다.",
+  "relatedLessonIds": [
+    "ENT-04-04",
+    "ENT-04-06"
+  ],
+  "sources": [
+    {
+      "text": "모든 인물, 회사, 수치는 설명용 가상 예시",
+      "url": null
+    },
+    {
+      "text": "투자 조건(청산 우선권, 거부권)은 일반 개념 설명이며 특정 국가의 법률·투자 조언이 아님",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "계산 확인: 18개월 계획 비용 $540,000 + 여유분 약 10% ≈ $600,000. $250,000은 월 $30,000 소진 기준 약 8개월치(250,000 ÷ 30,000 ≈ 8.3). 월 소진 $30,000 × 18 = $540,000.",
+      "status": "open"
+    },
+    {
+      "note": "재주문 지표: 14곳 중 12곳이 6개월 연속 재주문 = 약 86%. 카드에는 \"12 of 14\"로만 표기.",
+      "status": "open"
+    },
+    {
+      "note": "청산 우선권 2배 설명: 회사 매각 시 투자자가 투자금의 2배를 다른 주주보다 먼저 받는다는 단순화된 설명. 실제 조건(참여형/비참여형 등)은 다양하므로 카드에서는 일반적으로만 기술하고 전문가 검토를 권함.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Raising money · Simulation",
+      "title": "Four calls that make or break a seed pitch",
+      "illustrative": true,
+      "body": [
+        "Leo has three weeks before his first investor meeting. He has a blank slide deck and a business that already works.",
+        "Most first pitches don't fail on the slides. They fail on four decisions made before the slides. You'll make them with him."
+      ],
+      "image": {
+        "label": "A founder at a kitchen table with a laptop and pastry boxes",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 밤늦은 부엌 식탁에서 노트북을 연 창업자, 옆에 빵 상자가 쌓여 있음. 노트북 화면에는 빈 슬라이드. 실제 로고나 상표 없음.",
+        "url": "assets/images/ent-04-10-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "text",
+      "eyebrow": "The setup",
+      "title": "A side project that outgrew its parent.",
+      "illustrative": true,
+      "body": [
+        "Leo ran a small team inside a large catering company. They supplied ready-to-bake pastries to office cafeterias. The parent company decided it wasn't core and let Leo spin it out.",
+        "Today: **14 office cafeterias**, about $38,000 in monthly sales. 12 of the 14 have reordered every month for six months.",
+        "To grow, he needs a second production line and two salespeople. His plan costs about $30,000 a month."
+      ],
+      "image": {
+        "label": "A small bakery line with a second empty spot marked for a new machine",
+        "aspectRatio": "16:9",
+        "brief": "작은 제빵 생산 라인 하나와, 옆에 점선으로 표시된 빈 자리(두 번째 라인 예정). 벽에 \"14 cafeterias\" 메모. 로고 없음.",
+        "url": "assets/images/ent-04-10-c2.jpg"
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 1 · How much",
+      "title": "How much should Leo ask for?",
+      "illustrative": true,
+      "body": [
+        "His goal: reach 60 cafeterias, enough to prove the model works beyond early fans. He estimates that takes 18 months."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "$250,000, to give away as little ownership as possible",
+            "verdict": "partial",
+            "feedback": "He keeps more of the company, but the money lasts about eight months. He'd be raising again before reaching the milestone that makes him worth more."
+          },
+          {
+            "key": "B",
+            "text": "About $600,000: 18 months of costs plus a small buffer",
+            "verdict": "best",
+            "feedback": "The ask is tied to a clear milestone. Investors can see exactly what their money buys and when they'll know if it worked."
+          },
+          {
+            "key": "C",
+            "text": "$2 million, because more runway is always safer",
+            "verdict": "risky",
+            "feedback": "He'd give up much more ownership and face investors expecting a far bigger outcome than a pastry supplier usually delivers."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 2 · Who",
+      "title": "Say you chose $600,000. Who do you pitch first?",
+      "illustrative": true,
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Well-known venture funds that back fast-growing startups",
+            "verdict": "risky",
+            "feedback": "These funds need a few huge wins to pay for many losses. A steady food business rarely fits, so you spend weeks hearing polite no's."
+          },
+          {
+            "key": "B",
+            "text": "Angels who built food or office-services businesses",
+            "verdict": "best",
+            "feedback": "They write checks of this size, judge the business on its own terms, and can open doors to new cafeterias."
+          },
+          {
+            "key": "C",
+            "text": "Only friends and family, to move fast",
+            "verdict": "partial",
+            "feedback": "Quick and friendly, but the amount may be hard to reach, and you miss investors who know the industry."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 3 · The lead",
+      "title": "Say you chose industry angels. What goes right after your one-line intro?",
+      "illustrative": true,
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The size of the workplace food market, in billions",
+            "verdict": "partial",
+            "feedback": "It shows room to grow, but every pitch has a big number. It says nothing about whether Leo can win."
+          },
+          {
+            "key": "B",
+            "text": "The problem cafeterias have, then: 12 of 14 reorder every month",
+            "verdict": "best",
+            "feedback": "Repeat orders are proof customers want this, not just say they do. It answers an investor's first worry before they raise it."
+          },
+          {
+            "key": "C",
+            "text": "The team's experience at the catering company",
+            "verdict": "partial",
+            "feedback": "Useful, and worth a slide. But a track record matters most once investors believe the business is real."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Decision 4 · The terms",
+      "title": "Say you led with repeat orders. Now two offers arrive.",
+      "illustrative": true,
+      "body": [
+        "**Offer 1:** $600,000 at a higher valuation. Investors get back twice their money first if the company is sold, and can veto future fundraising.",
+        "**Offer 2:** $600,000 at a 20% lower valuation, with simple terms."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Take Offer 1. A higher valuation means less ownership given up",
+            "verdict": "risky",
+            "feedback": "The headline looks better, but in a modest sale the investors could take most of the money, and the veto can block his next raise."
+          },
+          {
+            "key": "B",
+            "text": "Take Offer 2, after a lawyer reads the documents",
+            "verdict": "best",
+            "feedback": "He gives up a bit more ownership now but keeps control of future decisions and a fair share of any sale."
+          },
+          {
+            "key": "C",
+            "text": "Reject both and wait for a better offer",
+            "verdict": "partial",
+            "feedback": "Sometimes right, but every month of searching is a month not selling, and the second offer is already fair."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A strong pitch can't rescue a weak business.",
+      "body": [
+        "Leo's pitch worked because the reorders were real. Polish can't replace that.",
+        "Raising also has a cost: founders often spend months on it, while sales slow down. And if repeat orders had been weak, the better move might have been not to raise at all and fix the product first."
+      ],
+      "softwareNote": "The same four calls apply to a software seed round. The best lead is usually how many users keep coming back after a few months, not sign-ups or market size."
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A seed pitch is four decisions that support each other.",
+      "list": [
+        "**How much:** enough to reach one clear milestone (*Should you raise at all?*)",
+        "**Who:** investors whose goals match your business (*Angels vs venture capital*)",
+        "**The lead:** proof of real demand first (*The pitch*, *Traction*)",
+        "**The terms:** control and fairness beat the headline price (*Terms that matter*)"
+      ],
+      "callout": "**Try it today:** write one sentence: \"We need $X to reach Y by Z.\" If you can't fill it in, you're not ready to pitch.",
+      "next": "Next · A new unit begins"
+    }
+  ]
+}

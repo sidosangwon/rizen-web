@@ -1,0 +1,250 @@
+{
+  "id": "ENT-06-01",
+  "unitId": "ENT-06",
+  "categoryId": "ENT",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Premature scaling",
+  "readerTitle": "The line around the block that sank three stores",
+  "format": "everyday_scene",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.4,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (리필 생활용품 매장, 일정 관리 앱) + 실제 연구 (Startup Genome 2011 보고서, 수치 없이 일반적으로만 인용)",
+  "insight": "성장에 쓰는 돈은 지금 있는 것을 키울 뿐 고치지 않는다. 그래서 키우기 전에 고객이 스스로 돌아오는지, 판매 한 건이 돈을 남기는지부터 확인한다.",
+  "misconception": "줄이 길고 매출이 계획보다 높으면 빨리 확장할수록 좋다. 확장하면서 문제를 고치면 된다.",
+  "relatedLessonIds": [
+    "CUS-03-01",
+    "ENT-06-02"
+  ],
+  "sources": [
+    {
+      "text": "Startup Genome Project (Marmer, Herrmann, Dogrultan, Berman), Startup Genome Report Extra on Premature Scaling, 2011",
+      "url": null
+    },
+    {
+      "text": "리필 매장과 일정 관리 앱 사례 및 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Startup Genome 2011 보고서가 '수천 개 스타트업'을 분석했고 조기 확장이 실패한 스타트업에서 가장 흔한 패턴이라고 보고한 점을 원문으로 확인하세요. 흔히 인용되는 '74%' 같은 수치는 정확한 정의와 표본을 확인하기 전까지 카드에 넣지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "3번 카드 차트의 주간 방문객 수(620 → 540 → 380 → 310 → 300)는 가상 수치입니다. 오픈 효과가 빠지고 재방문 고객 수준에서 안정되는 모양을 보여주기 위한 설명용입니다.",
+      "status": "open"
+    },
+    {
+      "note": "8번 카드의 가입 4,000명, 영업 인력 8명, 월 광고비 $50,000는 모두 가상 수치입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Entrepreneurship · Everyday scene",
+      "title": "The line went around the block.",
+      "illustrative": true,
+      "body": [
+        "A new refill shop opens on a busy street. People bring empty bottles and fill them with soap, shampoo and cleaner by weight.",
+        "In week one, the line runs out the door. Neighbors post photos. The owner starts looking at two more locations before the first month is over."
+      ],
+      "image": {
+        "label": "A long line of shoppers holding empty bottles outside a small shop",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 일러스트. 작은 리필 매장 앞에 빈 병을 든 사람들이 길게 줄 서 있음. 매장 안쪽에서 주인이 부동산 전단지 두 장을 들여다보는 모습. 실제 브랜드 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/ent-06-01-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "A landlord offers two more spots.",
+      "illustrative": true,
+      "body": [
+        "Three weeks in, sales are triple your plan. A landlord offers two more shops across town on five-year leases, but only if you sign this month.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Sign both. Demand like this won't wait",
+            "verdict": "risky",
+            "feedback": "You lock in the spots before rivals do. But you commit five years of rent based on three weeks of opening buzz."
+          },
+          {
+            "key": "B",
+            "text": "Sign one, pass on the other",
+            "verdict": "partial",
+            "feedback": "Half the risk, and you still grow. But you are still betting on numbers you haven't tested yet."
+          },
+          {
+            "key": "C",
+            "text": "Pass for now. Track how many first-month customers come back",
+            "verdict": "best",
+            "feedback": "You may lose these two spots. In return, you learn whether the line was real demand or just novelty before you multiply it."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "What happened next",
+      "title": "The buzz faded. The rent didn't.",
+      "illustrative": true,
+      "body": [
+        "In this version of the story, the owner signed both leases. Then the opening crowd thinned out and settled at the level of real repeat customers.",
+        "The first shop still covers its costs. The two new ones were sized for the launch-month line, and both lose money every week."
+      ],
+      "chart": {
+        "unit": "count",
+        "groups": [
+          {
+            "label": "Weekly customers at the first shop",
+            "rows": [
+              {
+                "label": "Week 1",
+                "value": 620,
+                "highlight": false
+              },
+              {
+                "label": "Week 3",
+                "value": 540,
+                "highlight": false
+              },
+              {
+                "label": "Week 6",
+                "value": 380,
+                "highlight": false
+              },
+              {
+                "label": "Week 10",
+                "value": 310,
+                "highlight": false
+              },
+              {
+                "label": "Week 14",
+                "value": 300,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "image": {
+        "url": "assets/images/ent-06-01-info.png"
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Premature scaling",
+      "body": [
+        "**Premature scaling** means spending to grow, with more locations, staff, stock or marketing, before you have proven the business works at its current size.",
+        "The key idea: growth spending **multiplies what you already have**. If customers come back and each sale makes money, scaling multiplies that. If not, it multiplies the problem, and adds fixed costs on top."
+      ],
+      "image": {
+        "label": "A small cracked block being copied into three larger cracked blocks",
+        "aspectRatio": "16:9",
+        "brief": "개념 인포그래픽. 왼쪽에 금이 간 작은 블록 하나, 화살표 \"Scale\"를 지나 오른쪽에 같은 금이 더 크게 보이는 블록 세 개. 금이 커지는 점을 강조. 로고 없음.",
+        "url": "assets/images/ent-06-01-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How to check",
+      "title": "Three questions before you grow.",
+      "body": [
+        "A 2011 Startup Genome report studied thousands of startups and found premature scaling was the most common pattern among those that failed. Before spending to grow, check:"
+      ],
+      "list": [
+        "**Do customers come back on their own?** Repeat visits, not opening crowds",
+        "**Does each sale leave money** after the costs that come with it?",
+        "**Does it run without you?** Can someone else open the second shop?"
+      ],
+      "callout": "If the answer to any is \"not yet,\" growth spending will hide the problem, not solve it."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond shops",
+      "title": "The same trap, in other clothes.",
+      "illustrative": true,
+      "body": [
+        "A food maker sells out its first 2,000 jars, mostly to friends and local fans. It orders 50,000 jars and a bigger kitchen. Stores reorder slowly.",
+        "A distributor wins one large client and leases a second warehouse. The client leaves a year later.",
+        "Each looks like a growth decision. Each is really a bet that early signals will last. The cost lands in commitments that are hard to undo: leases, salaries, stock."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Waiting has a cost too.",
+      "body": [
+        "Some markets reward speed. A rival can take the best location, or the customers you hoped to win.",
+        "So the rule is not \"grow slowly.\" It's \"grow on evidence.\" The fix is often to make growth cheaper to reverse: a pop-up before a lease, contractors before hires, a small ad test before a big budget.",
+        "Once the three questions get a clear yes, holding back becomes the risky choice."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a scheduling app.",
+      "illustrative": true,
+      "body": [
+        "Your scheduling app hit the top of a popular launch site. 4,000 users signed up in one week.",
+        "An investor suggests hiring eight salespeople and spending $50,000 a month on ads. What do you do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Hire and spend now, while attention is high",
+            "verdict": "risky",
+            "feedback": "You ride the wave. But launch-week signups are like the opening-day line, and you'd be paying salaries before knowing who stays."
+          },
+          {
+            "key": "B",
+            "text": "Watch how many week-one users are still active in week six, then raise ad spend in steps",
+            "verdict": "best",
+            "feedback": "You give up some momentum. You gain proof that users stay, so each ad dollar grows something that lasts."
+          },
+          {
+            "key": "C",
+            "text": "Skip the hires but start the full ad budget",
+            "verdict": "partial",
+            "feedback": "Ads are easier to stop than salaries, which helps. But you'd still be buying users before knowing if they stick."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Scaling multiplies what you have. Prove it first.",
+      "body": [
+        "Before adding locations, people or ad spend, check that customers return on their own and that each sale leaves money.",
+        "**Try it today:** look at your customers from three months ago. How many have come back since? Write that number down before your next growth decision."
+      ],
+      "next": "Next · When to hire before you need the people"
+    }
+  ]
+}

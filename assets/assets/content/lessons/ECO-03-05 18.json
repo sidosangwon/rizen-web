@@ -1,0 +1,252 @@
+{
+  "id": "ECO-03-05",
+  "unitId": "ECO-03",
+  "categoryId": "ECO",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Substitutes and complements",
+  "readerTitle": "Two promos, 100 extra sales each. Only one makes money.",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (카페 프로모션, 미용실 예약 소프트웨어) · 모든 수치는 설명용",
+  "insight": "한 상품의 가격은 그 상품만이 아니라 옆 상품의 판매까지 움직인다. 그래서 할인은 품목별 판매량이 아니라 손님의 장바구니 전체로 판단한다.",
+  "misconception": "할인한 품목의 판매량이 늘면 프로모션은 성공이다. 품목마다 따로 계산하면 된다.",
+  "relatedLessonIds": [
+    "ECO-04-01",
+    "ECO-05-06"
+  ],
+  "sources": [
+    {
+      "text": "미시경제학의 표준 개념 (대체재와 보완재, 교차 가격 효과)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "카페 계산 (재료비만 반영, 카드 수수료는 단순화를 위해 제외): 아이스티 $4 − $0.60 = $3.40, 할인가 $3 − $0.60 = $2.40. 아이스 라테 $5.50 − $1.30 = $4.20. 크루아상 $4 − $1.20 = $2.80, 할인가 $3 − $1.20 = $1.80. 라테 $5 − $1.20 = $3.80.",
+      "status": "open"
+    },
+    {
+      "note": "아이스티 프로모션: 100 × $2.40 = $240, 60 × $4.20 = $252, 순효과 −$12. 크루아상 프로모션: 100 × $1.80 = $180, 40 × $3.80 = $152, 순효과 +$332. 두 품목 모두 기존 주간 판매 150개에 $1씩 할인되어 각각 $150이 동일하게 빠지므로 비교에서 제외했습니다(포함 시 −$162 vs +$182).",
+      "status": "open"
+    },
+    {
+      "note": "소프트웨어 계산: 기존 고객 500곳 중 1/5(100곳)이 $40 → $15로 전환하면 월 100 × $25 = $2,500 감소. 이를 메우려면 신규 Lite 고객 $2,500 ÷ $15 = 166.7, 약 167곳 필요. 서버·지원 등 고객당 변동비는 단순화를 위해 0으로 가정.",
+      "status": "open"
+    },
+    {
+      "note": "프린터와 잉크 사례는 특정 기업 수치 없이 일반적인 사업 모델로만 언급했습니다. 게시 전 표현이 과장되지 않았는지 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Pricing · Numbers twist",
+      "title": "Two promos, 100 extra sales each. Only one makes money.",
+      "illustrative": true,
+      "body": [
+        "A café owner tests two ideas: $1 off iced tea, and $1 off croissants. Both work. Each item sells 100 more a week.",
+        "On the sales report they look identical. In the bank account, one of them quietly lost money."
+      ],
+      "image": {
+        "label": "Iced tea and croissant side by side, each with a +100 tag",
+        "aspectRatio": "4:3",
+        "brief": "카페 카운터 위에 아이스티 한 잔과 크루아상 하나가 나란히 놓여 있고, 둘 다 \"+100 sold\" 태그를 달고 있음. 아이스티 뒤에는 그림자처럼 흐릿한 아이스 라테가, 크루아상 옆에는 라테 한 잔이 함께 놓인 구도. 실제 브랜드 로고나 컵 디자인은 쓰지 않음.",
+        "url": "assets/images/eco-03-05-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You can only run one promo next month.",
+      "illustrative": true,
+      "body": [
+        "Iced tea is $4 and leaves $3.40 after ingredients. At $3 it leaves $2.40. A croissant is $4 and leaves $2.80. At $3 it leaves $1.80.",
+        "Your staff notice two things. Most iced tea buyers were choosing between it and an iced latte. Many croissant buyers add a drink. Which promo do you keep?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Iced tea. Each discounted cup still leaves more than a croissant",
+            "verdict": "risky",
+            "feedback": "True per item: $2.40 versus $1.80. But you're only counting the item on sale, not what happens to the drink beside it."
+          },
+          {
+            "key": "B",
+            "text": "Croissants. They bring other sales along with them",
+            "verdict": "best",
+            "feedback": "You give up a little on each croissant and gain on the drinks people add. The next card shows how big that gap is."
+          },
+          {
+            "key": "C",
+            "text": "Neither. Discounts always cost more than they bring in",
+            "verdict": "partial",
+            "feedback": "Caution protects your margins, but here you'd pass on a promo that pays for itself several times over."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Follow the extra 100 sales.",
+      "illustrative": true,
+      "body": [
+        "Both items already sold 150 a week, so both promos give the same $150 back to regular buyers. That part is a wash. The difference is what the extra sales pull with them."
+      ],
+      "breakdown": [
+        {
+          "value": "+$240",
+          "label": "Extra iced teas",
+          "detail": "100 × $2.40",
+          "highlight": false
+        },
+        {
+          "value": "−$252",
+          "label": "Iced lattes not sold",
+          "detail": "60 switchers × $4.20",
+          "highlight": false
+        },
+        {
+          "value": "−$12",
+          "label": "Iced tea promo, net",
+          "detail": "More cups, less money",
+          "highlight": true
+        },
+        {
+          "value": "+$180",
+          "label": "Extra croissants",
+          "detail": "100 × $1.80",
+          "highlight": false
+        },
+        {
+          "value": "+$152",
+          "label": "Lattes added",
+          "detail": "40 new visitors × $3.80",
+          "highlight": false
+        },
+        {
+          "value": "+$332",
+          "label": "Croissant promo, net",
+          "detail": "The drink did the work",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Substitutes and complements",
+      "body": [
+        "**Substitutes** are things customers buy *instead of* each other: iced tea or iced latte. Make one cheaper and some buyers leave the other.",
+        "**Complements** are things customers buy *together*: croissant and coffee. Make one cheaper and the other sells more too.",
+        "So a price change never touches just one product. It sends ripples to its neighbors, pulling sales away or pulling them in."
+      ],
+      "image": {
+        "label": "Two diagrams: arrows pulling sales away versus pulling sales along",
+        "aspectRatio": "16:9",
+        "brief": "좌우 2분할 인포그래픽. 왼쪽 \"Substitutes\": 아이스티 가격표가 내려가자 아이스 라테 쪽에서 손님 아이콘이 화살표를 따라 아이스티로 이동. 오른쪽 \"Complements\": 크루아상 가격표가 내려가자 손님 아이콘이 크루아상과 커피를 함께 들고 있음. 단순한 플랫 스타일.",
+        "url": "assets/images/eco-03-05-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Some businesses are built on this.",
+      "body": [
+        "Many businesses price one item low on purpose and earn on its complement. Printer makers often sell printers cheaply and make their money on ink. Cinemas keep ticket prices competitive and earn heavily on snacks.",
+        "The reverse also happens. When a business launches a cheaper version of its own product, some sales come from new customers and some come from existing ones trading down. That second group is **cannibalization**: your new product eating your old one."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "A wider view",
+      "title": "Your customer decides what counts as a substitute.",
+      "body": [
+        "Substitutes don't have to look alike. For a café, the office coffee machine is a substitute. For a cinema, it's a sofa and a streaming service.",
+        "This changes how you read rivals' moves too. When a substitute gets cheaper, your demand falls even if no direct competitor changed anything. When a complement gets cheaper, you win without lifting a finger. A new apartment block next door is good news for a café selling breakfast."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Complements only pay if you sell both.",
+      "body": [
+        "If the bakery next door sells the coffee, your cheap croissant feeds *their* till. The low-price item works only when you capture the add-on.",
+        "Push the add-on too hard and customers notice. Overpriced ink and $9 popcorn breed resentment, and people start looking for workarounds.",
+        "Switching is also hard to see. Item reports show what rose, not what it replaced. Check total spending per visit, not item counts."
+      ],
+      "image": {
+        "label": "Discount croissant sign, with the customer carrying coffee from the shop next door",
+        "aspectRatio": "16:9",
+        "brief": "거리 장면. 왼쪽 가게 창에 \"Croissant $3\" 할인 표지판, 손님이 크루아상 봉투를 들고 나와 바로 옆 가게에서 산 커피 컵을 들고 있음. 가게 간판에는 실제 상호나 로고를 쓰지 않음.",
+        "url": "assets/images/eco-03-05-c7.jpg"
+      }
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's booking software for salons.",
+      "illustrative": true,
+      "body": [
+        "Your scheduling app has 500 salon customers paying $40 a month. You want to add a $15 Lite plan for solo stylists, who have told you $40 is too much.",
+        "Before you launch, what do you check first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "How many current $40 customers would fit the Lite plan and switch",
+            "verdict": "best",
+            "feedback": "If 1 in 5 switch, you lose $2,500 a month and need about 167 new Lite users just to break even. Sizing that first tells you how to draw the plan's limits."
+          },
+          {
+            "key": "B",
+            "text": "How many new solo stylists would sign up",
+            "verdict": "partial",
+            "feedback": "New users matter, but counting only them repeats the iced tea mistake. The new plan is also a substitute for your old one."
+          },
+          {
+            "key": "C",
+            "text": "What competitors charge for their cheapest plan",
+            "verdict": "risky",
+            "feedback": "Useful context, but it says nothing about how many of your own customers will trade down."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Price the basket, not the item.",
+      "body": [
+        "Before changing a price, ask two questions. What will customers buy *instead*? What will they buy *along with* it? The answer decides whether more sales mean more money.",
+        "**Try it today:** pick one product. Write down its closest substitute and its most common companion in your own range. Then look at what last month's best promo did to both."
+      ],
+      "next": "Next · When your business affects people who aren't paying"
+    }
+  ]
+}

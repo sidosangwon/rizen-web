@@ -1,0 +1,239 @@
+{
+  "id": "FIN-02-02",
+  "unitId": "FIN-02",
+  "categoryId": "FIN",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "The cash cycle",
+  "readerTitle": "Two businesses, same profit. Only one can afford to grow.",
+  "format": "two_businesses",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (주택 도장업체, 사무실 청소 회사, 병원용 예약 소프트웨어) · 모든 수치는 설명용",
+  "insight": "성장에 드는 현금은 이익률이 아니라, 돈을 내보낸 날부터 돌려받는 날까지의 기간(현금 회전 주기)이 정한다.",
+  "misconception": "이익률이 같으면 성장에 필요한 현금도 같다. 이익이 나는 사업은 성장 자금을 스스로 만든다.",
+  "relatedLessonIds": [
+    "FIN-02-01",
+    "FIN-02-03"
+  ],
+  "sources": [
+    {
+      "text": "재무관리의 표준 개념 (현금 회전 주기 = 매출채권 회수일수 + 재고일수 − 매입채무 지급일수)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "청소 회사 계산: 월 매출 $40,000, 이익률 15% → 월 비용 $34,000. 임금은 한 달 동안 나가므로 평균 지급 시점은 15일경, 월말 청구 후 60일 뒤 입금 → 90일째. 평균 75일 = 2.5개월. 매출을 두 배로 늘리면 추가 비용 $34,000 × 2.5 = $85,000이 묶임. 추가 이익 $40,000 × 15% = $6,000/월, 85,000 ÷ 6,000 ≈ 14.2개월.",
+      "status": "open"
+    },
+    {
+      "note": "도장업체: 계약 시 50% 선금, 완료일 잔금, 페인트 공급업체 30일 외상이라는 가정. 작업자 임금은 주말에 지급한다고 가정하면 현금 잔고가 마이너스로 내려가지 않음. 현금 회전 주기는 0일 안팎이거나 그보다 짧음.",
+      "status": "open"
+    },
+    {
+      "note": "소프트웨어: 신규 고객당 초기 설치·교육 비용 $1,200, 월 $100. 월 결제면 회수에 12개월. 연 선불 10% 할인 = $1,080로 첫날 초기 비용의 90%를 회수. 단순화를 위해 서버 등 이후 비용은 무시했습니다. 월 20명 × $1,200 = 매월 $24,000 선지출.",
+      "status": "open"
+    },
+    {
+      "note": "6번 카드의 식당·헬스장·건설업 예시는 일반적인 결제 관행을 설명한 것이며 특정 기업의 수치가 아닙니다. 업종별 관행은 나라와 회사마다 다릅니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Two businesses",
+      "title": "Two businesses, same profit. Only one can afford to grow.",
+      "illustrative": true,
+      "body": [
+        "A house painter and an office cleaning company each bill about $40,000 a month. Each keeps about 15% as profit. On paper, they are twins.",
+        "Then both owners decide to double in size next year. One pays for it out of the business. The other has to ask the bank for a loan."
+      ],
+      "image": {
+        "label": "A painter and an office cleaner standing side by side with equal stacks of coins",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 왼쪽에 페인트 롤러를 든 도장공, 오른쪽에 청소 카트를 민 사무실 청소원. 두 사람 앞에 같은 높이의 동전 더미. 배경에 각각 집과 사무실 건물. 실제 로고나 브랜드는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which one needs more cash to double?",
+      "illustrative": true,
+      "body": [
+        "The painter takes half the price as a deposit when a job is signed and the rest on the last day. The paint store gives 30 days to pay.",
+        "The cleaning company pays its cleaners every two weeks, invoices at the end of each month, and its corporate clients pay 60 days after the invoice."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The painter. Bigger jobs mean bigger paint and crew bills",
+            "verdict": "partial",
+            "feedback": "Bills do grow with jobs. But deposits and supplier credit cover them, so the painter rarely spends money it hasn't received yet."
+          },
+          {
+            "key": "B",
+            "text": "The cleaning company",
+            "verdict": "best",
+            "feedback": "Right. It pays wages months before clients pay it, so every new contract needs cash up front. The next card shows how long that gap is."
+          },
+          {
+            "key": "C",
+            "text": "Neither. Same margin, so growth pays for itself",
+            "verdict": "risky",
+            "feedback": "Margin tells you how much you keep, not when the money arrives. Two businesses can earn the same profit and need very different amounts of cash."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "Follow the money",
+      "title": "The painter is paid first. The cleaner is paid last.",
+      "illustrative": true,
+      "body": [
+        "For the painter, cash arrives before or alongside the costs. The deposit covers the first week of wages. The final payment lands on the last day. The paint bill isn't due for another two weeks.",
+        "For the cleaning company, the order is reversed. Cleaners are paid as they work through the month. The invoice goes out on day 30. The client pays on day 90. On average, wage money leaves about **75 days** before the client's money comes back."
+      ],
+      "image": {
+        "label": "Two timelines: cash in before cash out for the painter, cash out 75 days early for the cleaner",
+        "aspectRatio": "16:9",
+        "brief": "가로 타임라인 두 줄. 위쪽 'Painter': 0일에 초록 화살표(Deposit in), 7·14일에 빨간 화살표(Wages out), 14일에 초록(Balance in), 30일에 빨간(Paint bill). 아래쪽 'Cleaning company': 1~30일 빨간 화살표 여러 개(Wages out), 30일 'Invoice', 90일에 초록(Payment in). 아래 줄 15일~90일 구간을 '75 days' 괄호로 강조.",
+        "url": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "What doubling costs the cleaning company",
+      "illustrative": true,
+      "body": [
+        "The new profit would take about **14 months** to repay the cash that growth locks up. Meanwhile, the painter's new jobs bring their own deposits."
+      ],
+      "breakdown": [
+        {
+          "value": "$34,000",
+          "label": "Extra monthly costs",
+          "detail": "85% of the extra $40,000 in monthly sales, mostly wages",
+          "highlight": false
+        },
+        {
+          "value": "× 2.5",
+          "label": "Months before cash returns",
+          "detail": "About 75 days from paying cleaners to getting paid",
+          "highlight": false
+        },
+        {
+          "value": "$85,000",
+          "label": "Cash locked up",
+          "detail": "Must be found before the growth pays back",
+          "highlight": true
+        },
+        {
+          "value": "$6,000",
+          "label": "Extra monthly profit",
+          "detail": "15% of the extra $40,000",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The cash cycle",
+      "body": [
+        "The **cash cycle** is the number of days between paying for your work or goods and collecting the money from customers. A rough way to count it:"
+      ],
+      "list": [
+        "Days until customers pay you",
+        "**plus** days goods sit in stock (zero for most services)",
+        "**minus** days you take to pay your suppliers"
+      ],
+      "callout": "The longer the cycle, the more cash every extra sale needs before it pays you back."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where it shows up",
+      "title": "Some businesses run a short or even negative cycle.",
+      "body": [
+        "A restaurant is usually paid at the table, while its food suppliers may give it a few weeks. A gym that sells yearly memberships collects before it delivers. Their cycles can be shorter than zero: customers fund the business.",
+        "A builder paid in stages, or a manufacturer selling to large retailers, often waits months. These businesses can be very profitable and still feel short of cash every time they grow."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A short cycle has a price.",
+      "body": [
+        "Deposits and upfront payment can scare off some customers. Large clients often insist on long payment terms, and refusing may mean losing the contract.",
+        "Stretching your own suppliers shortens the cycle too, but it can cost you discounts, priority and goodwill.",
+        "And the cycle only changes *when* money arrives. A job that loses money still loses money, however fast it pays."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software company.",
+      "illustrative": true,
+      "body": [
+        "You sell scheduling software to clinics. Setting up and training each new clinic costs you about $1,200. Clinics pay $100 a month, so each one takes a year to pay back its setup.",
+        "You're signing 20 clinics a month, which means $24,000 goes out up front every month. How do you ease the cash strain?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Offer a yearly plan paid up front at $1,080, about 10% off",
+            "verdict": "best",
+            "feedback": "You give up some revenue, but each yearly clinic covers 90% of its setup on day one. Growth starts funding itself."
+          },
+          {
+            "key": "B",
+            "text": "Keep monthly billing and raise the price to $120",
+            "verdict": "partial",
+            "feedback": "Payback drops to 10 months and profit improves. But cash still goes out long before it returns, so faster growth still drains the bank."
+          },
+          {
+            "key": "C",
+            "text": "Pay your setup contractors 90 days late",
+            "verdict": "risky",
+            "feedback": "It shortens the cycle by three months, but contractors may raise prices, slow down or leave. You'd be shifting your cash problem onto the people who deliver your product."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Growth costs cash for as long as your cycle lasts.",
+      "body": [
+        "Before you plan to grow, count the days between paying for the work and getting paid for it. That gap, multiplied by your extra costs, is the cash growth will need.",
+        "**Try it today:** pick your last big sale. Write the date you first spent money on it and the date the customer's payment landed. How many days apart are they?"
+      ],
+      "next": "Next · The money your business needs just to keep running"
+    }
+  ]
+}

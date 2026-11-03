@@ -1,0 +1,246 @@
+{
+  "id": "SAL-04-04",
+  "unitId": "SAL-04",
+  "categoryId": "SAL",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Anchoring in negotiation",
+  "readerTitle": "The first number on the table moves the final price",
+  "format": "numbers_twist",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 연구 (Tversky & Kahneman 1974, Northcraft & Neale 1987, Galinsky & Mussweiler 2001) + 가상 사례 (주방 리모델링 업체, 사내 팀 예산 협상) · 가상 사례의 수치는 모두 설명용",
+  "insight": "협상의 결과는 마지막 흥정보다 처음 테이블에 오른 숫자에서 크게 갈린다. 시장을 잘 안다면 근거 있는 숫자를 먼저 내놓는 쪽이 유리하다.",
+  "misconception": "상대가 먼저 숫자를 말하게 하는 것이 항상 유리하다. 터무니없는 첫 제안은 무시하면 영향이 없다.",
+  "relatedLessonIds": [
+    "SAL-04-03",
+    "ECO-05-01"
+  ],
+  "sources": [
+    {
+      "text": "Tversky, A. & Kahneman, D. (1974). Judgment under Uncertainty: Heuristics and Biases. Science, 185(4157).",
+      "url": null
+    },
+    {
+      "text": "Northcraft, G. B. & Neale, M. A. (1987). Experts, amateurs, and real estate: An anchoring-and-adjustment perspective on property pricing decisions. Organizational Behavior and Human Decision Processes, 39(1).",
+      "url": null
+    },
+    {
+      "text": "Galinsky, A. D. & Mussweiler, T. (2001). First offers as anchors: The role of perspective-taking and negotiator focus. Journal of Personality and Social Psychology, 81(4).",
+      "url": null
+    },
+    {
+      "text": "주방 리모델링, 사내 예산 협상의 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Tversky & Kahneman(1974) 행운의 바퀴 실험: 바퀴 숫자 10과 65, UN 회원국 중 아프리카 국가 비율 추정치 중앙값 25%와 45%. 원문으로 수치를 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Northcraft & Neale(1987): 같은 집에 서로 다른 매물 가격을 보여 주자 경험 많은 부동산 중개인의 평가액도 매물 가격 쪽으로 움직였고, 대부분 매물 가격을 참고하지 않았다고 답했다는 내용입니다. 카드에는 구체적 수치 없이 일반적으로만 적었습니다. 원문으로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Galinsky & Mussweiler(2001): 첫 제안이 최종 합의를 강하게 예측했고, 먼저 제안한 쪽이 대체로 더 좋은 결과를 얻었다는 내용입니다. 상관계수 등 수치는 카드에 쓰지 않았습니다. 원문으로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "주방 리모델링 차트 수치(고객 $8,000 제시 → $9,000, $9,500 제시 → $9,200, $12,500 제시 → $11,400)는 설명용 가상 수치이며 연구 결과가 아닙니다. 모두 업체의 최저선 $9,000 이상입니다.",
+      "status": "open"
+    },
+    {
+      "note": "사내 예산 사례: 실제 필요액 $420,000, 재무팀 첫 제시 $300,000, 반대 제안 $340,000, 계획 기반 제안 $440,000은 모두 가상 수치입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Negotiation · Numbers twist",
+      "title": "Same kitchen, same crew, a $2,400 gap.",
+      "illustrative": true,
+      "body": [
+        "Two homeowners hire the same renovation firm for the same kitchen job. After some back-and-forth, one pays $9,000. The other pays $11,400.",
+        "Neither one haggled harder. The difference came from one moment: who said a number first, and what that number was."
+      ],
+      "image": {
+        "label": "Two identical kitchens with different price tags",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 똑같은 주방 두 개가 나란히 있고, 각각 위에 영수증 태그 \"$9,000\"과 \"$11,400\". 가운데에 말풍선 하나가 떠 있는 모습. 실제 브랜드나 로고는 쓰지 않음.",
+        "url": "assets/images/sal-04-04-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "The client asks: \"So what's your price?\"",
+      "illustrative": true,
+      "body": [
+        "You run a small renovation firm. You'd take this kitchen job for no less than $9,000. Similar jobs in your area go for about $12,000, and you know the work well.",
+        "The client asks for your price. What do you say?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "\"What budget did you have in mind?\"",
+            "verdict": "partial",
+            "feedback": "You might learn something useful. But if they say $8,000, the whole talk now starts from a number below your minimum."
+          },
+          {
+            "key": "B",
+            "text": "\"$12,500,\" with a line-by-line breakdown",
+            "verdict": "best",
+            "feedback": "An ambitious, reasoned number sets where the talk begins. You still have room to move and stay well above $9,000."
+          },
+          {
+            "key": "C",
+            "text": "\"$9,500,\" to make sure you win the job",
+            "verdict": "risky",
+            "feedback": "It feels safe, but any haggling now pulls you toward your minimum. You gave away most of your room before the talk began."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "Where each deal landed.",
+      "illustrative": true,
+      "body": [
+        "Every client pushed back a little. But each final price stayed close to the first number on the table. The talk moved *from* that number, never far from it."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Final price after haggling",
+            "rows": [
+              {
+                "label": "Client names $8,000 first",
+                "value": 9000,
+                "highlight": false
+              },
+              {
+                "label": "You open at $9,500",
+                "value": 9200,
+                "highlight": false
+              },
+              {
+                "label": "You open at $12,500",
+                "value": 11400,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Anchoring in negotiation",
+      "body": [
+        "**Anchoring** is the pull of the first number. Once a figure is on the table, both sides judge every other offer against it. People adjust away from the anchor, but usually not far enough.",
+        "In a negotiation, the first offer becomes the reference point. Whoever sets it has shaped the range where a deal is likely to land."
+      ],
+      "image": {
+        "label": "A boat tied to an anchor, drifting only a short way",
+        "aspectRatio": "16:9",
+        "brief": "닻에 묶인 작은 배가 밧줄 길이만큼만 움직이는 그림. 닻에 \"First offer\", 배가 움직일 수 있는 범위에 \"Where the deal lands\" 라벨. 단순한 플랫 일러스트.",
+        "url": "assets/images/sal-04-04-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "Even random numbers stick.",
+      "body": [
+        "In a 1974 study, Tversky and Kahneman spun a wheel that landed on 10 or 65, then asked people what share of UN members were African countries. Those who saw 10 guessed about 25% on average. Those who saw 65 guessed about 45%.",
+        "Later research brought this into negotiation. Experienced real estate agents valued the same house higher when shown a higher listing price, and most said the price hadn't influenced them. In negotiation experiments, first offers strongly predicted final deals."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "When they go first",
+      "title": "Don't counter from their number.",
+      "body": [
+        "If the other side opens low, the natural move is to meet them partway. That accepts their anchor.",
+        "Instead, set your own. Calmly say the figure doesn't match the work, then give your number and the reasons behind it. Now there are two reference points, not one.",
+        "Going first helps most when you know the value well. When you truly don't, ask questions first, so you don't anchor yourself too low."
+      ],
+      "softwareNote": "In software sales, the price on your pricing page or in your first written proposal is the anchor. Send the full annual price with what it includes, so any discount is measured from that, not from the buyer's opening figure."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "An anchor can sink the boat.",
+      "body": [
+        "A number that feels absurd doesn't pull the deal up. It can make the other side walk away or stop trusting you.",
+        "Strong anchors are ambitious but defensible. You can explain them with costs, market prices or results. And if you'll work with this person again, a greedy anchor today can cost you goodwill later."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's next year's team budget.",
+      "illustrative": true,
+      "body": [
+        "You lead a team inside a larger company. Your plan for next year needs about $420,000. In the planning meeting, the finance lead opens: \"I'm thinking we keep you flat at $300,000.\"",
+        "How do you respond?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "\"Could we do $340,000?\"",
+            "verdict": "risky",
+            "feedback": "It sounds cooperative, but it accepts $300,000 as the starting point. You'll likely end far short of what the plan needs."
+          },
+          {
+            "key": "B",
+            "text": "\"The plan we agreed needs $440,000. Let me walk you through it.\"",
+            "verdict": "best",
+            "feedback": "You set a second anchor tied to the plan, not to the old budget. The talk now centers on what the work needs."
+          },
+          {
+            "key": "C",
+            "text": "\"Let me think about it and come back to you.\"",
+            "verdict": "partial",
+            "feedback": "You avoid agreeing too fast, but $300,000 stays the only number on the table while you wait."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "The first number shapes the last one.",
+      "body": [
+        "Deals tend to land near where they start. Set an ambitious, reasoned anchor when you know the value, and replace a weak anchor instead of meeting it halfway.",
+        "**Try it today:** before your next price or budget talk, write down your opening number and one sentence that explains it."
+      ],
+      "next": "Next · Why what people ask for isn't what they need"
+    }
+  ]
+}

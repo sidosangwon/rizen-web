@@ -1,0 +1,205 @@
+{
+  "id": "PPL-02-03",
+  "unitId": "PPL-02",
+  "categoryId": "PPL",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "Giving feedback",
+  "readerTitle": "When feedback makes people worse at their jobs",
+  "format": "counterexample",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.4,
+  "caseKinds": [
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 연구 (Kluger & DeNisi, 1996 피드백 메타분석) + 가상 사례 (B2B 컨설팅 회사, 청소 서비스 회사)",
+  "insight": "피드백은 주는 것만으로 효과가 나지 않는다. 사람이 아니라 행동과 그 결과를 가리켜야 고칠 수 있는 정보가 된다.",
+  "misconception": "피드백은 많이, 솔직하게 주기만 하면 성과가 오른다. 부드럽게 감싸서 주면 더 잘 받아들인다.",
+  "relatedLessonIds": [
+    "PPL-01-02",
+    "PPL-02-05"
+  ],
+  "sources": [
+    {
+      "text": "Kluger, A. N., & DeNisi, A. (1996). The effects of feedback interventions on performance: A historical review, a meta-analysis, and a preliminary feedback intervention theory. Psychological Bulletin, 119(2), 254–284.",
+      "url": null
+    },
+    {
+      "text": "컨설팅 회사와 청소 회사 사례는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Kluger & DeNisi(1996): 607개 효과크기 분석, 평균적으로는 피드백이 성과를 높였지만 1/3 이상의 경우 성과를 낮췄다는 결과. 카드에는 \"more than a third\"로 적었습니다. 게시 전 원문으로 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "같은 논문의 해석: 피드백이 주의를 과제에서 자기 자신(자존감, 자기 이미지)으로 옮길수록 효과가 약해진다는 '피드백 개입 이론'. 카드에는 단순화해서 \"tended to help less\"로 적었고, 인과를 단정하지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "People · Counterexample",
+      "title": "When feedback makes people worse at their jobs",
+      "body": [
+        "Researchers reviewed hundreds of studies on feedback at work and in labs. On average, feedback helped.",
+        "But in more than a third of cases, people performed *worse* after getting it. Feedback was the problem, not the cure."
+      ],
+      "image": {
+        "label": "Manager giving notes as a worker's progress line dips",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 매니저가 메모지를 건네는 장면, 뒤쪽 벽에 걸린 성과 그래프 선이 위로 가다가 아래로 꺾임. 실제 회사 로고 없음.",
+        "url": "assets/images/ppl-02-03-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "The client caught the mistake.",
+      "illustrative": true,
+      "body": [
+        "You run a small consulting firm. A junior analyst sent a client report with wrong numbers, for the second time this month. The client noticed.",
+        "How do you give feedback?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Message today: \"You need to be more careful with client work.\"",
+            "verdict": "risky",
+            "feedback": "It's fast and honest, but it judges the person without saying what went wrong. They may feel attacked and still not know what to fix."
+          },
+          {
+            "key": "B",
+            "text": "Save it for the quarterly review, between two pieces of praise",
+            "verdict": "partial",
+            "feedback": "It feels kind, but the lesson arrives weeks late and the key point gets lost between compliments."
+          },
+          {
+            "key": "C",
+            "text": "Talk today: name the wrong table, what it cost with the client, and one check to add before sending",
+            "verdict": "best",
+            "feedback": "The analyst gets something concrete to change, while the mistake is still fresh. It takes more effort to prepare."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What the research found",
+      "title": "Feedback can backfire.",
+      "body": [
+        "In 1996, Avraham Kluger and Angelo DeNisi combined results from 607 measured effects of feedback. Overall, feedback raised performance. Yet **more than a third** of the effects were negative.",
+        "One pattern stood out. Feedback that pulled attention toward the person, their worth or self-image, tended to help less. Feedback that kept attention on the task tended to help more."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Feedback points at behavior, not the person.",
+      "body": [
+        "**Good feedback** is information about a specific action, what it caused, and what to do next. It describes something the person can see and change.",
+        "\"You're careless\" is a verdict on the person. \"The revenue table used last year's figures, and the client lost trust in the report\" is information. Only the second tells someone where to look."
+      ],
+      "image": {
+        "label": "Three steps: what happened, what it caused, what next",
+        "aspectRatio": "16:9",
+        "brief": "세 칸 인포그래픽. \"What I saw\" (눈 아이콘), \"What it caused\" (도미노 아이콘), \"What next\" (화살표 아이콘)가 왼쪽에서 오른쪽으로 연결.",
+        "url": "assets/images/ppl-02-03-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Labels start a defense. Details start a fix.",
+      "body": [
+        "When feedback sounds like a judgment of who you are, your mind gets busy protecting that image. Energy goes to arguing, explaining or feeling bad, not to the work."
+      ],
+      "list": [
+        "**\"Not a team player\"** → \"You missed two handoff meetings this week\"",
+        "**\"Sloppy\"** → \"Three invoices went out without PO numbers\"",
+        "**\"Great job\"** → \"Calling the client before the deadline slipped saved the account\""
+      ],
+      "callout": "Praise follows the same rule. Specific praise tells people what to repeat."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where it applies",
+      "title": "Any work you can see, in any business.",
+      "body": [
+        "A kitchen manager can say \"the steak went out cold because it waited at the pass\" instead of \"you're slow.\" A warehouse lead can point to the mislabeled pallet instead of calling someone unreliable.",
+        "The same three steps work for a new hire or a ten-year veteran."
+      ],
+      "softwareNote": "Code reviews show this clearly. \"This is messy\" gets pushback. \"This function does three jobs, which made the bug hard to find. Can we split it?\" gets a fix."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Specific isn't enough on its own.",
+      "body": [
+        "Detailed notes on everything at once can bury the one point that matters. Pick the one or two changes with the biggest effect.",
+        "Timing and place matter too. Feedback given in front of others, or while someone is upset, can feel like an attack however well you word it.",
+        "And feedback only helps if the standard was clear in the first place. If nobody said what good looks like, start there."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a cleaning company.",
+      "illustrative": true,
+      "body": [
+        "You run a home cleaning service. One cleaner keeps leaving streaks on bathroom mirrors and fixtures. A regular client complained for the second time.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Text them: \"Another complaint. Please step it up.\"",
+            "verdict": "risky",
+            "feedback": "It's quick, but it only says you're unhappy. They don't know which surfaces or what to change, so the streaks are likely to return."
+          },
+          {
+            "key": "B",
+            "text": "Post a reminder about bathroom standards to the whole team",
+            "verdict": "partial",
+            "feedback": "It avoids singling anyone out. But people rarely see themselves in a general reminder, and the client's problem stays with one person."
+          },
+          {
+            "key": "C",
+            "text": "Meet at the next job, point to the streaks, show the dry-cloth finish, and ask for photos for a week",
+            "verdict": "best",
+            "feedback": "It costs you an hour, but the cleaner sees exactly what went wrong and how to fix it. The photos let you praise the fix, too."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Describe the action, not the person.",
+      "body": [
+        "Say what you saw, what it caused, and what to do next. That turns feedback from a judgment into something people can use.",
+        "**Try it today:** think of feedback you've been meaning to give. Write it in those three parts. Remove any word that describes the person."
+      ],
+      "next": "Next · Why handing off work is harder than doing it"
+    }
+  ]
+}

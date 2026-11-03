@@ -1,0 +1,250 @@
+{
+  "id": "STR-06-10",
+  "unitId": "STR-06",
+  "categoryId": "STR",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "You're the incumbent. A cheap upstart appears",
+  "readerTitle": "You run the market leader. A rival just showed up at a tenth of your price.",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.4,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (대형 비즈니스 서비스 회사의 번역 사업부 + 사내 신규 팀) · 회사, 가격, 경과 모두 설명용",
+  "insight": "싼 경쟁자에게 대응할 때는 지금의 품질이 아니라 개선 속도를 보고, 새 사업에는 기존 사업의 규칙에서 벗어날 공간을 준다.",
+  "misconception": "품질이 떨어지는 싼 경쟁자는 우리가 원하지 않는 고객만 가져가니 무시해도 된다. 대응한다면 가격을 맞추면 된다.",
+  "relatedLessonIds": [
+    "STR-06-03",
+    "STR-06-05"
+  ],
+  "sources": [
+    {
+      "text": "Christensen, C. M. (1997). The Innovator's Dilemma. Harvard Business School Press.",
+      "url": null
+    },
+    {
+      "text": "Christensen, C. M. & Raynor, M. E. (2003). The Innovator's Solution. Harvard Business School Press. (별도 조직으로 파괴적 사업을 키우는 방법)",
+      "url": null
+    },
+    {
+      "text": "시나리오와 모든 가격·기간은 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "번역 사업부, 스타트업, '가격 10분의 1', '1년 뒤', '2년 뒤' 등은 모두 가상 설정입니다. 실제 기계번역 시장의 통계나 특정 기업 사실은 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "\"별도 조직을 두라\"는 처방은 Christensen의 일반적 주장입니다. 항상 성공한다는 근거는 없으므로 6번 카드에서 비용과 실패 조건을 함께 적었습니다. 게시 전 원문 표현을 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "5번 카드의 cannibalization 정의(새 제품이 기존 제품 매출을 가져가는 것)가 쉬운 표현으로 맞게 쓰였는지 검토하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Strategy · Simulation",
+      "title": "You run the market leader. A rival just showed up at a tenth of your price.",
+      "illustrative": true,
+      "body": [
+        "You head the translation division of a large business-services firm. Your expert translators handle contracts, medical leaflets and technical manuals for big clients. Accuracy is your brand, and clients pay well for it.",
+        "Then a small startup launches: machine translation with a quick human check, delivered in hours, at about a tenth of your price. Over the next four decisions, you decide how to respond."
+      ],
+      "image": {
+        "label": "A large established office facing a tiny new kiosk with a low price sign",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 왼쪽에 크고 단단한 사무실 건물(\"Expert Translation\"), 오른쪽에 작고 가벼운 키오스크(\"Fast & cheap\")가 막 문을 엶. 키오스크 앞에 작은 가게 주인들이 줄을 섬. 실제 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Step 1 · The upstart arrives",
+      "title": "Your sales team says not to worry.",
+      "illustrative": true,
+      "body": [
+        "The startup's work is noticeably rougher than yours. Its first customers are small online shops translating product listings, work you usually turn down because it's too small to be worth your time.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Agree. They serve customers we don't want, and their quality is poor",
+            "verdict": "risky",
+            "feedback": "It's the comfortable answer, and it's safe today. But it only holds if their quality stays poor, and you've stopped watching the one thing that matters."
+          },
+          {
+            "key": "B",
+            "text": "Cut prices on small jobs to stop them early",
+            "verdict": "risky",
+            "feedback": "You'd lose money on work you never wanted, against a rival whose costs are far lower. Your experts can't win at their price."
+          },
+          {
+            "key": "C",
+            "text": "Don't fight yet, but track how fast their quality improves and who switches",
+            "verdict": "best",
+            "feedback": "You avoid a costly price war and watch the real threat: a cheaper product that keeps getting better. That's how low-end disruption starts."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "Step 2 · A year later",
+      "title": "The \"too rough\" product got good enough.",
+      "illustrative": true,
+      "body": [
+        "Say you chose to watch. Here's what you saw. The startup's quality improved every few months. It now wins marketing copy and internal documents from your mid-sized clients, work where **good enough, today** beats perfect, next week.",
+        "Your experts still do better work. But for many jobs, customers no longer need better. They need cheaper and faster."
+      ],
+      "image": {
+        "label": "Two rising lines: the expert service far above customer needs, the cheap service climbing to meet them",
+        "aspectRatio": "16:9",
+        "brief": "선 그래프 인포그래픽. 가로축 \"Time\", 세로축 \"Quality\". 점선 \"What most clients need\"는 완만히 상승. 위쪽 선 \"Your experts\"는 점선보다 훨씬 높음. 아래쪽 선 \"Startup\"이 가파르게 올라가 점선과 만나는 지점에 동그라미 강조.",
+        "url": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Step 2 · Your move",
+      "title": "The board asks how you'll respond.",
+      "illustrative": true,
+      "body": [
+        "Your division earns high margins, and senior translators review every project. The firm can fund one serious move this year."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Launch a cheap, fast service inside your division, with your current staff and review rules",
+            "verdict": "risky",
+            "feedback": "It looks efficient. But rules and margin targets built for premium work make the new service too slow and costly to compete, and your best people treat it as a distraction."
+          },
+          {
+            "key": "B",
+            "text": "Set up a small separate team with its own budget, prices and targets",
+            "verdict": "best",
+            "feedback": "The new team can run on the startup's economics without fighting the main division over every decision. You give up some control and accept some overlap."
+          },
+          {
+            "key": "C",
+            "text": "Buy the startup",
+            "verdict": "partial",
+            "feedback": "It can work, and fast. But you pay a premium, and if you fold it into your division's rules, you smother what you bought."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Step 3 · The fight at home",
+      "title": "Your own sales head wants to block the new team.",
+      "illustrative": true,
+      "body": [
+        "Say you set up the separate team. Six months in, it's growing fast, and some of its customers are your division's existing clients.",
+        "Your sales head calls it **cannibalization**: your new service taking sales from your old one. She wants the new team banned from those clients."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Agree. Wall off existing clients from the new team",
+            "verdict": "risky",
+            "feedback": "You protect this quarter's revenue. But those clients still want cheap and fast, and if you won't sell it to them, the startup will."
+          },
+          {
+            "key": "B",
+            "text": "Let clients choose, and reward sales on each client's total spending across both teams",
+            "verdict": "best",
+            "feedback": "You lose some high-price revenue to your own cheaper service, but you keep the client. Better you take that business than a rival."
+          },
+          {
+            "key": "C",
+            "text": "Let the new team sell to them, but at a higher price",
+            "verdict": "partial",
+            "feedback": "It slows the loss of old revenue, but a higher price removes the very reason clients wanted the new service."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Not every cheap rival deserves this response.",
+      "body": [
+        "A separate team, its budget and leadership time are real costs. Many cheap entrants never improve enough to matter, and some fade on their own.",
+        "The signal to act isn't a low price. It's a low price **plus steady improvement** toward what your mainstream customers need. Even then, separate teams fail when the parent starves them of people or patience."
+      ],
+      "softwareNote": "In software, a rival's product can improve with every update, so the gap between \"too rough\" and \"good enough\" can close in months rather than years."
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Step 4 · The core business",
+      "title": "Your expert division is shrinking. What now?",
+      "illustrative": true,
+      "body": [
+        "Two years in, the new team is profitable. The expert division has lost most of its everyday work, but it still wins contracts and medical documents, where one error is very costly."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Cut expert prices to win back the everyday work",
+            "verdict": "risky",
+            "feedback": "You'd be fighting the startup and your own new team at once, with the highest costs in the market."
+          },
+          {
+            "key": "B",
+            "text": "Focus the experts on work where mistakes are costly, and keep investing in the new team",
+            "verdict": "best",
+            "feedback": "You keep high margins where expertise still matters while the new business grows. But keep watching: the cheaper product may keep climbing."
+          },
+          {
+            "key": "C",
+            "text": "Close the expert division and go all-in on the cheap service",
+            "verdict": "partial",
+            "feedback": "Bold, but early. You'd walk away from clients who still pay well for accuracy, perhaps years before the cheaper product can serve them."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Watch how fast the cheap rival improves, and give your answer room to grow.",
+      "body": [
+        "Each step matched an idea from this unit:"
+      ],
+      "list": [
+        "**Step 1, watch the trend:** low-end disruption starts with rough work for customers you don't want.",
+        "**Step 2, a separate team:** the innovator's dilemma. A profitable business's rules smother a cheaper one.",
+        "**Step 3, allow cannibalization:** if someone will take your customers, let it be you.",
+        "**Step 4, focus the core:** improving your best product protects the top end, for now."
+      ],
+      "callout": "**Try it today:** name the cheapest rival in your market. Is it getting better, and how fast?",
+      "next": "Next · A new unit in Strategy & Competition begins"
+    }
+  ]
+}

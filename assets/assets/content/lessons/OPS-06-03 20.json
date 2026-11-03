@@ -1,0 +1,223 @@
+{
+  "id": "OPS-06-03",
+  "unitId": "OPS-06",
+  "categoryId": "OPS",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "Checklists",
+  "readerTitle": "Why experts need a checklist more than beginners",
+  "format": "two_businesses",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative",
+    "anecdote",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 2개 (급여 대행사, 대형 소매기업 안의 배포 팀) + 일화 (1935년 Boeing Model 299 추락) + 실제 문헌 (Gawande, The Checklist Manifesto) + 가상 적용 (배관 공사 업체)",
+  "insight": "체크리스트는 모르는 것을 가르치는 도구가 아니라, 이미 아는 사람이 익숙해서 건너뛰는 몇 단계를 정해진 순간에 잡아내는 도구다.",
+  "misconception": "체크리스트는 초보자용이고, 항목이 많을수록 더 안전하다.",
+  "relatedLessonIds": [
+    "OPS-06-09",
+    "OPS-06-06"
+  ],
+  "sources": [
+    {
+      "text": "Gawande, A. (2009). The Checklist Manifesto: How to Get Things Right. Metropolitan Books. (do-confirm / read-do, pause points, 5–9 items)",
+      "url": null
+    },
+    {
+      "text": "Boeing Model 299 test-flight crash, Wright Field, 30 October 1935 (widely retold in aviation history and in Gawande 2009)",
+      "url": null
+    },
+    {
+      "text": "급여 대행사, 배포 팀, 배관 업체 사례와 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "1935년 10월 30일 Wright Field에서 Boeing Model 299 시험 비행 중 추락, 원인으로 조종면 고정 장치(gust lock)를 풀지 않은 것이 꼽히고 이후 조종사 체크리스트가 만들어졌다는 이야기. 널리 알려졌지만 세부 사항은 자료마다 다르므로 카드에 'as the story is usually told'로 표시했습니다. 게시 전 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Gawande(2009)의 do-confirm/read-do 구분, pause point, '대체로 5~9개 항목' 권고가 책의 표현과 맞는지 확인하세요. 카드에는 'roughly five to nine'으로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "수술 안전 체크리스트(WHO)는 OPS-06-09에서 다루므로 이 레슨에서는 언급하지 않았습니다. 급여 대행사 40개 항목, 배포 팀 6개 항목은 설명용 가상 수치입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Quality · Two businesses",
+      "title": "Why experts need a checklist more than beginners",
+      "illustrative": true,
+      "body": [
+        "A payroll firm and a software release team inside a large retailer have the same problem. Their people are experienced. They know every step.",
+        "And about once a month, someone skips a step everyone knows. A client's new hire goes unpaid. A release goes out without its rollback plan."
+      ],
+      "image": {
+        "label": "Two desks, each with one missed box on a long task list",
+        "aspectRatio": "4:3",
+        "brief": "화면을 반으로 나눠 왼쪽은 급여 대행사 사무실, 오른쪽은 노트북 앞 개발 팀. 양쪽 모두 능숙해 보이는 사람이 일하고, 각자의 작업 목록에서 체크 안 된 칸 하나만 빨간색으로 빛남. 실제 회사 로고와 소프트웨어 상표는 쓰지 않음.",
+        "url": "assets/images/ops-06-03-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Your senior staff keep missing one step.",
+      "illustrative": true,
+      "body": [
+        "You run the payroll firm. Before each client's pay run, staff should confirm new hires and leavers with the client. Your best people sometimes forget, usually on busy days.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Remind everyone at the weekly meeting and note misses in reviews",
+            "verdict": "risky",
+            "feedback": "It signals that you care, but it treats a memory slip as an effort problem. Busy days will still produce the same miss."
+          },
+          {
+            "key": "B",
+            "text": "Write a full checklist covering every step of a pay run",
+            "verdict": "partial",
+            "feedback": "Complete on paper. But a long list of steps people never miss buries the few they do, and long lists get ticked without reading."
+          },
+          {
+            "key": "C",
+            "text": "List only the few steps that get skipped, and check them at one set moment before each run",
+            "verdict": "best",
+            "feedback": "Short enough to actually use, and aimed at the real failure. You give up completeness to gain attention where it counts."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What happened",
+      "title": "Two lists, two results.",
+      "illustrative": true,
+      "body": [
+        "The payroll firm chose the full list. The release team chose the short one. A few months later, only one of them had fewer misses."
+      ],
+      "breakdown": [
+        {
+          "value": "40 items",
+          "label": "Payroll firm",
+          "detail": "Ticked all at once after the run. Misses unchanged.",
+          "highlight": false
+        },
+        {
+          "value": "6 items",
+          "label": "Release team",
+          "detail": "Read aloud by two people just before each release. Misses dropped.",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Checklists",
+      "body": [
+        "A **checklist** is a short list of critical steps, checked at a set moment, that catches slips of memory and attention.",
+        "It doesn't teach anyone the job. It protects people who already know the job from the steps that feel too routine to think about, especially when they're rushed or interrupted. That's why experts often benefit most."
+      ],
+      "image": {
+        "label": "A short checklist placed at a pause point on a workflow line",
+        "aspectRatio": "16:9",
+        "brief": "왼쪽에서 오른쪽으로 이어지는 작업 흐름 선. 중간에 'Pause point' 깃발이 있고, 거기서 5~6개 항목만 적힌 짧은 카드가 떠 있음. 옆에 두꺼운 매뉴얼 묶음은 흐리게 처리.",
+        "url": "assets/images/ops-06-03-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Short, timed and shared.",
+      "body": [
+        "As the story is usually told, pilot checklists began after a 1935 test-flight crash. An experienced crew had missed one simple step: releasing a lock on the controls.",
+        "Atul Gawande's *The Checklist Manifesto* describes what makes such lists work. Keep them to roughly five to nine items. Tie them to a **pause point**, a natural moment to stop. And choose a style: *read-do* for unfamiliar tasks, *do-confirm* when experts work from memory and then check together."
+      ],
+      "softwareNote": "The release team's list sat at the moment before deploy: tests passed, rollback ready, monitoring on, support told. One person reads, the other confirms."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where it fits",
+      "title": "Use it for routine steps with costly misses.",
+      "body": [
+        "A checklist earns its place when a step is easy to skip, simple to check, and expensive when missed. Locking up a shop, sending a client invoice, handing over a shift.",
+        "It fits poorly where the work is judgment. A list can't tell a salesperson which deal to pursue. For those decisions, it can only remind people to ask the right questions."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A ticked box is not a done step.",
+      "body": [
+        "Lists decay. People tick from habit, and every incident adds an item until the list is long again.",
+        "Give each list an owner. Remove items people never miss. After any near-miss, ask whether the list should change. If a step can be made impossible to skip, through a system that blocks the next action, that beats a checklist."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a plumbing company.",
+      "illustrative": true,
+      "body": [
+        "Your technicians are skilled. But a few times a quarter, someone leaves a job with a slow leak or the water not fully back on. Each callback costs a free visit and an unhappy customer.",
+        "Which fix fits best?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "A 25-item job report the customer signs at the end",
+            "verdict": "partial",
+            "feedback": "It creates a record, but customers sign without reading and the key checks get lost among the paperwork."
+          },
+          {
+            "key": "B",
+            "text": "Four checks before packing tools: water on, run every fixture, look at each joint, area dry",
+            "verdict": "best",
+            "feedback": "Short, tied to a clear pause point and aimed at the actual misses. It costs a few minutes per job to save whole visits."
+          },
+          {
+            "key": "C",
+            "text": "Trust experience and just handle callbacks quickly",
+            "verdict": "risky",
+            "feedback": "Fast callbacks soften the damage, but you keep paying for the same miss and customers remember the leak."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Check the few steps experts skip, at the moment they skip them.",
+      "body": [
+        "A good checklist is short, timed and aimed at real misses, not a full manual.",
+        "**Try it today:** pick one task your team repeats weekly. Ask what went wrong last time. Write the three to five checks that would have caught it, and choose when they're read."
+      ],
+      "next": "Next · Why a standard beats a good intention"
+    }
+  ]
+}

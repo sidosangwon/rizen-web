@@ -1,0 +1,246 @@
+{
+  "id": "OPS-05-03",
+  "unitId": "OPS-05",
+  "categoryId": "OPS",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "The critical path",
+  "readerTitle": "The two weeks you saved that changed nothing",
+  "format": "numbers_twist",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.3,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (공장 포장 라인 설치, 앱 출시) · 모든 수치는 설명용",
+  "insight": "프로젝트를 앞당기려면 모든 작업을 서두르는 대신, 서로 기다려야 하는 작업 사슬 중 가장 긴 사슬부터 찾아서 줄인다.",
+  "misconception": "어떤 작업이든 빨리 끝내면 프로젝트 전체가 그만큼 빨리 끝난다.",
+  "relatedLessonIds": [
+    "OPS-05-02",
+    "OPS-01-02"
+  ],
+  "sources": [
+    {
+      "text": "프로젝트 관리의 표준 개념 (주공정, 여유시간)",
+      "url": null
+    },
+    {
+      "text": "Kelley, J. E. & Walker, M. R. (1959). Critical-Path Planning and Scheduling. Proceedings of the Eastern Joint Computer Conference.",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "포장 라인 계산: 기계 8 + 설치 2 + 시험 1 = 11주(주공정), 바닥 3 + 2 + 1 = 6주, 교육 4 + 시험 1 = 5주. 바닥 여유 11 − 6 = 5주, 교육 여유 11 − 5 = 6주. 특급 배송으로 기계 2주 단축 시 6 + 2 + 1 = 9주.",
+      "status": "open"
+    },
+    {
+      "note": "경로 이동 계산: 기계 2주 납품 시 2 + 2 + 1 = 5주, 바닥 사슬 6주가 가장 길어져 주공정이 됨.",
+      "status": "open"
+    },
+    {
+      "note": "앱 출시 계산: 디자인 2 + 개발 5 + 테스트 1 = 8주(마감과 동일). 개발이 6주로 늘면 9주. 법무 3주(여유 큼), 마케팅 페이지 2 + 2 = 4주. 기능 하나를 빼서 개발 5주로 되돌리면 8주.",
+      "status": "open"
+    },
+    {
+      "note": "주공정법이 1950년대 후반에 정립되었다는 내용은 Kelley & Walker(1959) 및 DuPont·Remington Rand의 공동 작업 기록으로 다시 확인하세요. 카드에는 \"late 1950s\", \"big industrial projects\"로만 적었습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Numbers twist",
+      "title": "The two weeks you saved that changed nothing",
+      "illustrative": true,
+      "body": [
+        "A plant manager paid crews overtime to finish a new floor two weeks early. The new packing line still started on the same day. Not one hour sooner.",
+        "The crews did good work. The money just went to the wrong task."
+      ],
+      "image": {
+        "label": "Finished factory floor waiting, empty, for a machine",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 깔끔하게 완성된 공장 바닥 위에 기계 자리 표시만 있고 비어 있음. 한쪽 벽 달력에 개업일 동그라미, 멀리 트럭이 아직 오는 중. 실제 기업 로고 없음.",
+        "url": "assets/images/ops-05-03-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You want the new line running sooner.",
+      "illustrative": true,
+      "body": [
+        "The machine takes 8 weeks to arrive. Floor and wiring take 3 weeks. Installing takes 2 weeks and needs both. Training operators takes 4 weeks. A 1-week test run comes last, after install and training.",
+        "Where should you spend to start sooner?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Pay overtime so the floor takes 1 week instead of 3",
+            "verdict": "risky",
+            "feedback": "The floor would be ready long before the machine arrives. You pay extra and the start date doesn't move."
+          },
+          {
+            "key": "B",
+            "text": "Pay for express shipping to get the machine 2 weeks sooner",
+            "verdict": "best",
+            "feedback": "The machine sits on the longest chain of waiting. Every week cut there comes off the finish date: 9 weeks instead of 11."
+          },
+          {
+            "key": "C",
+            "text": "Do all three: express shipping, floor overtime and an extra trainer",
+            "verdict": "partial",
+            "feedback": "You'd finish 2 weeks sooner, but only the shipping did that. The other two bills buy peace of mind, not time."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "Three chains, one finish date.",
+      "illustrative": true,
+      "body": [
+        "Add up each chain of tasks that must happen one after another."
+      ],
+      "chart": {
+        "unit": "count",
+        "groups": [
+          {
+            "label": "Weeks to finish each chain",
+            "rows": [
+              {
+                "label": "Machine → install → test",
+                "value": 11,
+                "highlight": true
+              },
+              {
+                "label": "Floor → install → test",
+                "value": 6,
+                "highlight": false
+              },
+              {
+                "label": "Training → test",
+                "value": 5,
+                "highlight": false
+              }
+            ]
+          }
+        ]
+      },
+      "callout": "The project can't finish before its longest chain does: **11 weeks**."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The critical path",
+      "body": [
+        "The **critical path** is the longest chain of tasks that each wait on the one before. Its length is the earliest the whole project can finish.",
+        "Every other task has **slack**: time it can slip without moving the end date. Here the floor has 5 weeks of slack. Training has 6.",
+        "Planners have used this idea since the late 1950s, when it was formalized for big industrial projects."
+      ],
+      "image": {
+        "label": "Task network with the longest chain highlighted",
+        "aspectRatio": "16:9",
+        "brief": "작업 네트워크 인포그래픽. 상자 \"Machine 8w\", \"Floor 3w\", \"Training 4w\", \"Install 2w\", \"Test 1w\"를 화살표로 연결. 기계→설치→시험 사슬만 굵은 주황색 선으로 강조, 나머지 사슬 옆에 \"Slack 5w\", \"Slack 6w\" 라벨.",
+        "url": "assets/images/ops-05-03-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "A second twist",
+      "title": "The critical path can move.",
+      "illustrative": true,
+      "body": [
+        "Now say a new supplier can deliver the machine in 2 weeks, not 8. The machine chain drops to 5 weeks.",
+        "Suddenly the floor chain, at 6 weeks, is the longest. The floor has become critical. The overtime that was useless before might now be worth paying for.",
+        "So after every speed-up, add the chains up again."
+      ],
+      "image": {
+        "label": "Highlight jumping from one chain to another",
+        "aspectRatio": "16:9",
+        "brief": "같은 작업 네트워크 두 장을 나란히. 왼쪽은 기계 사슬(11주) 강조, 오른쪽은 기계 상자가 \"2w\"로 줄고 바닥 사슬(6주)이 새로 강조됨. 가운데 화살표 \"Path moved\".",
+        "url": "assets/images/ops-05-03-c5.jpg"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where else it shows up",
+      "title": "Every deadline has a longest chain.",
+      "body": [
+        "A restaurant opening waits on its slowest permit, not on how fast the walls get painted. A trade show booth waits on the printed banners if they take longest, not on the booking.",
+        "The question is always the same: which chain of tasks, done in order, takes the longest? **Effort anywhere else** feels productive but doesn't move the date."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Slack is not spare time.",
+      "body": [
+        "Paths are built on estimates. A task with one week of slack that slips two weeks becomes the new critical path.",
+        "Shared people break the math too. If the same electrician wires the floor and installs the machine, those jobs can't overlap, even if the chart says they can.",
+        "Watch the chains that are almost as long as the longest one."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's an app launch.",
+      "illustrative": true,
+      "body": [
+        "Your team ships a new app version in 8 weeks. Design (2 weeks) leads to building (5 weeks), then testing (1 week). Legal review of new terms takes 3 weeks. The marketing page takes 2 weeks after design.",
+        "Engineers now say building will take 6 weeks. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Ask legal to rush its review",
+            "verdict": "risky",
+            "feedback": "Legal finishes in week 3 and isn't needed until launch. Rushing it costs goodwill and saves no time."
+          },
+          {
+            "key": "B",
+            "text": "Cut one lower-priority feature so the build fits in 5 weeks",
+            "verdict": "best",
+            "feedback": "Building is on the critical path, so a week saved there is a week saved at launch. You trade a feature for the date."
+          },
+          {
+            "key": "C",
+            "text": "Add two new engineers to the build next week",
+            "verdict": "partial",
+            "feedback": "Right place, uncertain result. New people need time to learn the code and can slow the team at first."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Find the longest chain before you pay to go faster.",
+      "body": [
+        "A project finishes when its longest chain of dependent tasks finishes. Speed anywhere else changes nothing about the date.",
+        "**Try it today:** pick one project with a deadline. List its tasks, note which must wait for which, and add up each chain. Which one sets your date?"
+      ],
+      "next": "Next · Why every project takes longer than you guessed"
+    }
+  ]
+}

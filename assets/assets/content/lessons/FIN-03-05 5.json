@@ -1,0 +1,250 @@
+{
+  "id": "FIN-03-05",
+  "unitId": "FIN-03",
+  "categoryId": "FIN",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Payback period",
+  "readerTitle": "Your new customer paid you $120. You're still in the hole.",
+  "format": "numbers_twist",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (빵 정기배송 베이커리, 프로젝트 관리 소프트웨어) · 모든 수치는 설명용",
+  "insight": "새 고객은 매출이 쌓일 때가 아니라 남는 돈이 획득 비용을 갚을 때 비로소 본전이 되며, 그 기간이 길수록 성장은 현금을 더 깊이 판다.",
+  "misconception": "고객이 낸 돈이 획득 비용을 넘으면 본전을 찾은 것이다. 획득 비용이 싼 채널이 늘 더 좋은 채널이다.",
+  "relatedLessonIds": [
+    "FIN-03-02",
+    "FIN-02-06"
+  ],
+  "sources": [
+    {
+      "text": "관리회계·단위경제의 표준 개념 (고객 획득 비용 회수 기간, CAC payback)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "베이커리: 월 남는 돈 $40 − $25 = $15, 회수 기간 $90 ÷ $15 = 6개월. 매출 기준으로 잘못 계산하면 $90 ÷ $40 = 2.25개월. 3개월 시점 매출 누계 $120, 남는 돈 누계 $45, 아직 $45 부족.",
+      "status": "open"
+    },
+    {
+      "note": "월 100명 획득 시 현금 구멍: 각 코호트는 획득 월에 $9,000을 쓰고 다음 달부터 월 $1,500을 돌려준다고 가정. 누적 현금 1개월 −9,000, 2개월 −16,500, 3개월 −22,500, 4개월 −27,000, 5개월 −30,000, 6개월 −31,500, 7개월 −31,500, 8개월 −30,000. 카드에는 \"over $30,000\", \"about six months\"로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "소프트웨어: 광고 채널 $300 ÷ ($50 − $10 = $40) = 7.5개월. 파트너 채널 $600 ÷ ($150 − $30 = $120) = 5개월. 두 채널 고객이 평균 약 2년 유지된다는 가정.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Numbers twist",
+      "title": "Your new customer paid you $120. You're still in the hole.",
+      "illustrative": true,
+      "body": [
+        "A bakery spends $90 on flyers and a free first box to win one bread-box subscriber. The subscriber pays $40 a month.",
+        "Three months in, they've paid $120. The owner feels the $90 is long recovered. It isn't. Not even close."
+      ],
+      "image": {
+        "label": "A bread box on a doorstep next to a small hole in the ground",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 현관 앞 빵 상자 옆에 작은 구덩이가 있고, 동전이 하나씩 구덩이를 채우는 중. 구덩이는 아직 절반만 찼음. 실제 브랜드 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "When does this subscriber pay back the $90?",
+      "illustrative": true,
+      "body": [
+        "Each $40 box costs the bakery $25 in flour, butter, packaging and delivery.",
+        "How long until this customer has paid back the $90 it cost to win them?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "A little over 2 months",
+            "verdict": "risky",
+            "feedback": "That counts every dollar the customer pays. But $25 of each $40 goes straight back out to make and deliver the box."
+          },
+          {
+            "key": "B",
+            "text": "About 6 months",
+            "verdict": "best",
+            "feedback": "Right. Only $15 a month is left after the box's own costs. $90 ÷ $15 = 6 months."
+          },
+          {
+            "key": "C",
+            "text": "It depends on how long they stay",
+            "verdict": "partial",
+            "feedback": "True that if they leave early, the $90 never comes back. But the time to pay back is fixed by the numbers: about 6 months."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Follow one subscriber.",
+      "illustrative": true,
+      "body": [
+        "After three months the customer has paid $120, but only **$45** of it is left over. The bakery is still $45 short."
+      ],
+      "breakdown": [
+        {
+          "value": "$90",
+          "label": "Cost to win",
+          "detail": "Flyers and the free first box",
+          "highlight": false
+        },
+        {
+          "value": "$40",
+          "label": "Monthly price",
+          "detail": "What the subscriber pays",
+          "highlight": false
+        },
+        {
+          "value": "−$25",
+          "label": "Cost of each box",
+          "detail": "Ingredients, packaging, delivery",
+          "highlight": false
+        },
+        {
+          "value": "$15",
+          "label": "Left each month",
+          "detail": "What actually pays back the $90",
+          "highlight": false
+        },
+        {
+          "value": "6 months",
+          "label": "Payback period",
+          "detail": "$90 ÷ $15",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Payback period",
+      "body": [
+        "The **payback period** is how long it takes for what a customer leaves you each month to add up to what it cost to win them.",
+        "The math is one line: cost to win a customer ÷ what they leave each month after the costs of serving them.",
+        "Use what's left, not the price. Revenue makes payback look three times faster than it is here."
+      ],
+      "image": {
+        "label": "A rising line crossing zero at month six",
+        "aspectRatio": "16:9",
+        "brief": "누적 현금 그래프. 0개월에 −$90에서 시작해 매달 $15씩 올라가 6개월에 0선을 넘는 계단형 선. 0선을 넘는 지점에 \"Paid back\" 라벨. 옆에 흐린 점선으로 매출 기준 선(2개월대에 0선 통과)을 \"Looks like\"로 표시.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Why it matters",
+      "title": "Growth digs the hole deeper first.",
+      "illustrative": true,
+      "body": [
+        "Until payback, every new customer is cash you've spent and not yet earned back.",
+        "Say the bakery wins 100 subscribers a month. It spends $9,000 every month, while earlier groups return just $1,500 each. The hole keeps deepening for about six months, to **over $30,000**, before it starts to close.",
+        "The longer the payback, the more cash you need to grow. Many profitable-on-paper businesses run out of money this way."
+      ],
+      "image": {
+        "label": "Stacked holes getting deeper month by month",
+        "aspectRatio": "16:9",
+        "brief": "월별로 나란히 놓인 구덩이 6개가 점점 깊어지다가 7번째부터 얕아지는 일러스트. 가장 깊은 구덩이에 \"−$31,500\" 라벨.",
+        "url": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Three levers",
+      "title": "How to shorten the wait.",
+      "body": [
+        "Payback has only two inputs, plus one timing trick:"
+      ],
+      "list": [
+        "**Spend less to win each customer:** referrals, partners, better-targeted ads",
+        "**Keep more each month:** raise the price or cut the cost of serving",
+        "**Get paid upfront:** a customer who prepays three months gives you $45 of margin on day one"
+      ],
+      "callout": "Each lever shrinks the cash hole, not just the number.",
+      "softwareNote": "Software companies often push annual plans paid upfront for this reason. A year of cash on day one can mean payback before the customer has even logged in much."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Payback tells you how fast, not how much.",
+      "body": [
+        "A 6-month payback means nothing if most subscribers cancel at month 4. Check how long customers actually stay before trusting the number.",
+        "It also ignores everything after payback. A customer who pays back in 3 months and leaves in 4 earns you little. One who takes 8 months and stays five years may be worth far more.",
+        "Use payback to judge cash and risk. Use lifetime value to judge worth."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software company.",
+      "illustrative": true,
+      "body": [
+        "Your project-management app has two ways to win customers. Both groups stay about two years. You have nine months of cash.",
+        "**Ads:** $300 per customer, who pays $50 a month and costs $10 to serve. **Partners:** $600 per customer, a bigger team paying $150 a month and costing $30 to serve. Where do you put next quarter's budget?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Ads. They cost half as much per customer",
+            "verdict": "risky",
+            "feedback": "Cheaper to win, but each customer leaves only $40 a month, so payback takes 7.5 months. That's close to your nine months of cash."
+          },
+          {
+            "key": "B",
+            "text": "Partners. Payback is about 5 months",
+            "verdict": "best",
+            "feedback": "$600 ÷ $120 = 5 months, so cash comes back faster even though each customer costs more. The risk is depending on a few partners."
+          },
+          {
+            "key": "C",
+            "text": "Split the budget evenly to stay safe",
+            "verdict": "partial",
+            "feedback": "Spreading bets has value, but half your money goes to the channel that ties up cash longest when cash is your tightest limit."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A customer pays back when what's left covers what you spent.",
+      "body": [
+        "Divide the cost to win a customer by what they leave each month. That's how long your cash is out, and how much growing faster will cost you.",
+        "**Try it today:** take your main way of winning customers. Divide what it costs per customer by what one customer leaves you each month. Is the answer shorter than how long they stay?"
+      ],
+      "next": "Next · What's really left when you sell one more coffee?"
+    }
+  ]
+}

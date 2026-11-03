@@ -1,0 +1,236 @@
+{
+  "id": "THK-02-09",
+  "unitId": "THK-02",
+  "categoryId": "THK",
+  "order": 9,
+  "type": "case",
+  "conceptTag": "Kodak and the digital camera it invented",
+  "readerTitle": "Kodak invented the digital camera. Then it protected film.",
+  "format": "counterexample",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Kodak, Fujifilm) + 가상 적용 (회계 소프트웨어 회사). 수치는 널리 알려진 사실만 사용",
+  "insight": "지금의 사업은 안전한 기본값이 아니라 매번 다시 고르는 선택지 중 하나이며, 새 선택지와 같은 기준으로 따져야 한다.",
+  "misconception": "Kodak은 디지털을 몰라서 망했다. 아무것도 바꾸지 않는 것이 가장 신중한 선택이다.",
+  "relatedLessonIds": [
+    "THK-02-06",
+    "THK-02-01"
+  ],
+  "sources": [
+    {
+      "text": "Steven Sasson의 1975년 디지털 카메라 시제품: The New York Times, \"Kodak's First Digital Moment\" (2015) 및 Sasson 인터뷰",
+      "url": null
+    },
+    {
+      "text": "Eastman Kodak 보도자료, Chapter 11 파산보호 신청 (2012년 1월) 및 2013년 파산보호 졸업 발표",
+      "url": null
+    },
+    {
+      "text": "Vince Barabba, The Decision Loom (2011). 1981년 Kodak 내부 시장 조사에 관한 저자 회고",
+      "url": null
+    },
+    {
+      "text": "Shigetaka Komori, Innovating Out of Crisis (2015). Fujifilm의 사업 전환",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "1975년 Sasson 시제품의 특징(카세트테이프 저장, 흑백, 저장에 수십 초, TV로 화면 확인)은 NYT 기사와 Sasson 인터뷰로 확인하세요. 무게·화소 수는 자료마다 표현이 달라 카드에 숫자를 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "'최초의 디지털 카메라'라는 표현은 정의에 따라 논쟁이 있어 카드에는 \"widely called the first digital camera\"로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Kodak 경영진의 반응에 관한 직접 인용은 넣지 않았습니다. Sasson이 전한 일화이므로 인용하려면 원문을 확인해야 합니다.",
+      "status": "open"
+    },
+    {
+      "note": "1981년 내부 조사(Barabba)의 결론은 '디지털이 필름을 대체할 수 있으나 대비할 시간이 약 10년 있다'는 취지로 널리 인용됩니다. 카드에는 \"reportedly\"로 표시했습니다. 원문 확인 필요.",
+      "status": "open"
+    },
+    {
+      "note": "Kodak이 2000년대 중반 디지털 카메라를 많이 판매했다는 점은 정성적으로만 적었습니다. 시장 점유율 수치는 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Fujifilm의 다각화 분야(의료 영상, 디스플레이 소재, 화학, 화장품)와 Komori의 CEO 취임(2000년경)은 Komori 저서와 Fujifilm 회사 연혁으로 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Counterexample",
+      "title": "Kodak invented the digital camera. Then it protected film.",
+      "body": [
+        "In 1975, a young Kodak engineer named Steven Sasson built what is widely called the first digital camera. It was bulky, shot black-and-white images, and saved them to a cassette tape.",
+        "In 2012, Kodak filed for bankruptcy protection. The technology that sank its film business had been born in its own lab."
+      ],
+      "image": {
+        "label": "A bulky prototype camera next to a stack of film rolls",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 투박한 상자형 시제품 카메라(카세트테이프가 보이는)가 작업대 위에 있고, 옆에 필름 통이 높이 쌓여 그림자를 드리움. 실제 Kodak 로고, 노란색 브랜드 패키지, 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "A filmless camera lands on your desk.",
+      "body": [
+        "It's the late 1970s and you run Kodak. Film, chemicals and photo paper earn most of your profit, roll after roll.",
+        "An engineer shows you a camera with no film. Each picture takes many seconds to save, looks blurry, and needs a TV screen to view. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Shelve it quietly. It's far worse than film and would only hurt sales",
+            "verdict": "risky",
+            "feedback": "You stay safe for years. But you're betting that a fast-improving technology stays bad forever."
+          },
+          {
+            "key": "B",
+            "text": "Launch digital cameras hard, right away",
+            "verdict": "partial",
+            "feedback": "You'd be early, but you'd spend heavily selling a worse product that eats your best business before it can earn much."
+          },
+          {
+            "key": "C",
+            "text": "Keep film running, and fund a separate team judged by where digital is heading",
+            "verdict": "best",
+            "feedback": "Film keeps paying the bills while you learn digital on its own terms. The key is judging it by its improvement curve, not today's blurry version."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "Kodak saw digital. It treated it as a threat.",
+      "body": [
+        "Kodak didn't ignore digital. It held important patents, spent heavily on research, and later sold popular digital cameras.",
+        "But for years its big choices were shaped to protect film. Digital was a danger to the core, not the next core. When digital cameras took off, film sales fell fast. Then phones swallowed the camera itself.",
+        "Kodak filed for Chapter 11 in January 2012 and came out a much smaller company focused on commercial printing."
+      ],
+      "image": {
+        "label": "Timeline from 1975 prototype to 2012 bankruptcy",
+        "aspectRatio": "16:9",
+        "brief": "가로 타임라인 인포그래픽. \"1975 Prototype\" → \"Digital cameras spread\" → \"Phones take over\" → \"2012 Bankruptcy\". 위쪽에 필름 매출을 뜻하는 굵은 선이 처음엔 높다가 급격히 떨어짐. 숫자 축은 넣지 않음. 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Status quo bias",
+      "body": [
+        "**Status quo bias** is the pull to keep things as they are, even when a change would leave you better off. The current option feels safe. Giving it up feels like a loss.",
+        "At Kodak, film was the baseline. Each roll sold and printed kept earning money. A digital photo earned nothing after the camera was sold.",
+        "Measured against that baseline, digital always looked like a bad deal. So staying put kept winning the argument."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "The bias looks like careful habits.",
+      "body": [
+        "It rarely sounds like \"ignore the future.\" It sounds reasonable:"
+      ],
+      "list": [
+        "**The old yardstick:** judging the new product by the old business's profits",
+        "**Today's version:** seeing a blurry prototype, not how fast it improves",
+        "**Time as comfort:** a 1981 internal study reportedly said digital could replace film, but not for about a decade",
+        "**Defending the core:** counting every sale lost to digital as damage"
+      ],
+      "callout": "Each habit made doing nothing feel like the safe choice."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The contrast",
+      "title": "Fujifilm faced the same cliff and moved.",
+      "body": [
+        "Fujifilm's film business collapsed too. Under CEO Shigetaka Komori, its leaders accepted that film would shrink and asked a different question: what else can our know-how do?",
+        "They used film's chemistry and coating skills to build businesses in medical imaging, display materials, chemicals and even skincare. The change was painful and included deep cuts. But the company survived and grew into new markets."
+      ],
+      "image": {
+        "label": "One film roll branching into new products",
+        "aspectRatio": "16:9",
+        "brief": "필름 한 통에서 가지가 뻗어 나가 의료 영상 기기, 디스플레이 패널, 화학 용기, 화장품 병으로 이어지는 일러스트. 실제 Fujifilm 로고나 제품 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The story is often told too neatly.",
+      "body": [
+        "Hindsight makes the right answer look obvious. In real time, digital was slow, costly and uncertain.",
+        "Digital photos also earned far less than film, so no strategy could have kept Kodak's old profits. And chasing every new trend is a bias too.",
+        "The lesson isn't \"always jump.\" It's that the current way should face the same tough questions as the new one."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software company.",
+      "illustrative": true,
+      "body": [
+        "You sell accounting software as a one-time license plus yearly support. Your new cloud subscription is growing fast, but it brings in less per customer in year one.",
+        "Your sales team says the cloud version is stealing their license deals. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Slow the cloud version down and keep it away from existing license customers",
+            "verdict": "risky",
+            "feedback": "You protect this year's revenue, and leave those customers for a rival who has no license sales to defend."
+          },
+          {
+            "key": "B",
+            "text": "End licenses next month and move everyone to the cloud",
+            "verdict": "partial",
+            "feedback": "You stop defending the past, but a forced overnight switch can drive off loyal users and squeeze cash flow. Speed isn't the same as judgment."
+          },
+          {
+            "key": "C",
+            "text": "Ask which model you'd build if starting today, give cloud its own targets, and let it compete openly",
+            "verdict": "best",
+            "feedback": "This strips the old model of its default advantage. Losing sales to your own new product beats losing them to a competitor."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Your current business is a choice, not a safe default.",
+      "body": [
+        "Kodak saw the future early. It judged that future by the standards of the past, and the past kept winning.",
+        "**Try it today:** pick one thing your business does because it always has. Ask: if we were starting from scratch today, would we choose it?"
+      ],
+      "next": "Next · Keep funding a failing project?"
+    }
+  ]
+}

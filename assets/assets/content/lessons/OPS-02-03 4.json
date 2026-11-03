@@ -1,0 +1,235 @@
+{
+  "id": "OPS-02-03",
+  "unitId": "OPS-02",
+  "categoryId": "OPS",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "Batch size",
+  "readerTitle": "Why making all 100 lunches at once is the slowest way",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative",
+    "real_company"
+  ],
+  "caseNote": "가상 사례 (케이터링 주방, 소프트웨어 팀) + 실제 기업 배경 (Toyota, Shigeo Shingo의 셋업 시간 단축)",
+  "insight": "한 번에 많이 만드는 것이 효율적으로 보여도, 묶음 안의 모든 물건은 다른 물건을 기다린다. 묶음을 줄이면 첫 결과와 실수의 발견이 함께 빨라진다.",
+  "misconception": "한꺼번에 몰아서 처리하면 전환이 없으니 가장 빠르고 효율적이다.",
+  "relatedLessonIds": [
+    "OPS-02-01",
+    "OPS-02-04"
+  ],
+  "sources": [
+    {
+      "text": "Shingo, S. (1985). A Revolution in Manufacturing: The SMED System. Productivity Press.",
+      "url": null
+    },
+    {
+      "text": "린 생산의 표준 개념 (배치 크기, 단일 품목 흐름, 셋업 비용과 대기 비용의 균형)",
+      "url": null
+    },
+    {
+      "text": "케이터링 주방과 소프트웨어 팀 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "계산 확인: 4개 공정, 공정당 0.5분/개, 100개. (A) 100개 일괄: 각 공정 50분씩 순차 → 공정1 0~50, 공정2 50~100, 공정3 100~150, 공정4 150~200분. 첫 완성품 150.5분(약 2.5시간), 전체 200분. (B) 10개 트레이: 트레이당 공정별 5분, 첫 트레이 완료 20분, 마지막 20 + 9×5 = 65분. (C) 1개씩: 첫 완성 2분, 마지막 2 + 99×0.5 = 51.5분. B와 C의 차이 13.5분(카드에는 \"about 13 minutes\"). 총 작업량은 모든 경우 4공정 × 50분 = 200 조리사-분. 이동·손 바꿈 시간은 단순화를 위해 0으로 가정.",
+      "status": "open"
+    },
+    {
+      "note": "잘못된 소스 사례: (A)에서 공정3(포장)이 처음 속재료가 든 샌드위치를 받는 시점은 100분. (C)에서는 첫 샌드위치가 1분 시점에 공정3에 도착하고 2분에 완성. 카드 문구(\"two minutes in\", \"minute 100\")와 맞는지 다시 확인.",
+      "status": "open"
+    },
+    {
+      "note": "Shigeo Shingo가 Toyota와 함께 금형 교체(셋업) 시간을 몇 시간에서 몇 분 단위로 줄인 SMED 작업은 그의 1985년 저서에 나옵니다. 구체적인 공장·연도·분 수는 카드에 쓰지 않았습니다. 게시 전 표현(\"from hours to minutes\")을 1차 자료로 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Counterexample",
+      "title": "Why making all 100 lunches at once is the slowest way",
+      "illustrative": true,
+      "body": [
+        "A catering kitchen has 100 boxed lunches to make. Four cooks, four stations: bread, filling, wrapping, boxing. Each step takes 30 seconds per lunch.",
+        "The head cook has a plan: finish all 100 at each station, then pass the stack along. No switching, no wasted motion. It sounds efficient. It's the slowest option on the table."
+      ],
+      "image": {
+        "label": "Four cooks at a line, three of them waiting beside a tall stack of bread",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 주방 작업대에 조리사 네 명이 나란히 서 있음. 첫 번째 조리사 앞에만 빵이 높이 쌓여 있고, 나머지 세 명은 팔짱을 끼고 기다림. 벽시계가 크게 보임. 실제 브랜드 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How should the lunches move down the line?",
+      "illustrative": true,
+      "body": [
+        "The delivery van leaves as soon as all 100 lunches are boxed. Same four cooks, same 30 seconds per step.",
+        "Which way gets every lunch done soonest?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Each station finishes all 100, then passes the whole stack on",
+            "verdict": "risky",
+            "feedback": "No switching feels efficient, but three cooks stand idle while the first one works. The last lunch is boxed after more than three hours."
+          },
+          {
+            "key": "B",
+            "text": "Pass lunches on in trays of 10",
+            "verdict": "partial",
+            "feedback": "Far better: everyone is busy within minutes. But each lunch still waits for nine others, so you finish about 13 minutes behind the fastest option."
+          },
+          {
+            "key": "C",
+            "text": "Pass each lunch on the moment its step is done",
+            "verdict": "best",
+            "feedback": "Every cook is working within two minutes and nothing sits waiting. All 100 are done in under an hour. The next card shows the math."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Same cooks, same work, very different finish.",
+      "illustrative": true,
+      "breakdown": [
+        {
+          "value": "200 min",
+          "label": "All 100 at once",
+          "detail": "First lunch boxed after about 2.5 hours",
+          "highlight": false
+        },
+        {
+          "value": "65 min",
+          "label": "Trays of 10",
+          "detail": "First tray boxed at 20 minutes",
+          "highlight": false
+        },
+        {
+          "value": "51.5 min",
+          "label": "One at a time",
+          "detail": "First lunch boxed at 2 minutes",
+          "highlight": true
+        }
+      ],
+      "callout": "Every option takes exactly the same 200 minutes of cooking work. Only the **waiting** changes."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The hidden cost",
+      "title": "Big batches also delay the bad news.",
+      "illustrative": true,
+      "body": [
+        "Now suppose the filling station grabbed the wrong sauce. In the one-at-a-time line, the wrapping cook spots it on the very first sandwich, two minutes in. One lunch to redo.",
+        "In the all-100 version, the next cook doesn't touch a filled sandwich until minute 100. By then every lunch has the wrong sauce.",
+        "A big batch doesn't just make each item wait. It makes every **mistake** wait too, and grow while it waits."
+      ],
+      "image": {
+        "label": "One wrong sandwich versus a pile of 100 wrong sandwiches",
+        "aspectRatio": "16:9",
+        "brief": "좌우 분할 일러스트. 왼쪽: 샌드위치 한 개에 빨간 X 표시, 시계 \"2 min\". 오른쪽: 샌드위치 100개 더미 전체에 빨간 X 표시, 시계 \"100 min\". 단순한 플랫 스타일, 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Batch size",
+      "body": [
+        "**Batch size** is how many units you finish at one step before passing them to the next.",
+        "Big batches feel efficient because you set up once and repeat. But every unit in a batch waits for all the others. So the time from start to finished product grows with the batch. So do the piles of half-done work and the cost of a hidden mistake.",
+        "Smaller batches give you faster first results and faster feedback."
+      ],
+      "image": {
+        "label": "Timeline comparing one big block of work with many small pieces flowing through",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 위쪽 줄: 네 단계 위로 큰 블록 하나가 계단식으로 천천히 이동. 아래쪽 줄: 작은 조각들이 네 단계를 겹쳐서 흐르며 훨씬 일찍 끝남. 끝나는 지점에 \"Done\" 깃발.",
+        "url": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Make switching cheap, then shrink the batch.",
+      "body": [
+        "Big batches usually exist for a reason: switching is expensive. If a machine takes hours to reset, it makes sense to run thousands of parts each time.",
+        "At Toyota, engineer Shigeo Shingo worked on cutting machine changeovers from hours to minutes. Cheap changeovers made small batches affordable, so the factory could build what was needed instead of stockpiling.",
+        "The idea travels to any business: before accepting a big batch, ask what makes **switching** costly, and whether that cost can shrink."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Sometimes the batch is the point.",
+      "body": [
+        "An oven that holds 40 loaves should not bake one loaf at a time. Preheating, delivery fees and machine setup are real costs, and tiny batches can waste more than they save.",
+        "The right size balances two costs: the cost of each setup and the cost of things waiting. Shrinking batches below what your setup allows just moves the waste somewhere else. The better move is usually to cut the setup cost first."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software team.",
+      "illustrative": true,
+      "body": [
+        "Your team ships one big release every three months, with about 200 changes in it. The last release broke checkout, and it took days to find which change caused it.",
+        "What do you do next?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Release less often, and test longer before each one",
+            "verdict": "risky",
+            "feedback": "More testing feels safer, but bigger releases hold more changes. Each bug gets harder to trace, and users wait longer for every fix."
+          },
+          {
+            "key": "B",
+            "text": "Ship a few changes at a time, every few days, with automated tests",
+            "verdict": "best",
+            "feedback": "When a release holds a handful of changes, a bug points straight to its cause. The catch: releasing must become cheap and automatic first, just as Shingo needed quick changeovers."
+          },
+          {
+            "key": "C",
+            "text": "Keep quarterly releases, but freeze new code two weeks before",
+            "verdict": "partial",
+            "feedback": "A freeze catches some bugs before launch. But the batch is still 200 changes, and unfinished work piles up while the team waits."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Smaller batches finish sooner and fail smaller.",
+      "body": [
+        "Big batches feel efficient because no one switches tasks. But every unit waits for the rest, and every mistake spreads before anyone sees it.",
+        "**Try it today:** find one place where work piles up before it moves on, such as orders, invoices, prep or code. Halve the batch for a week and time how long the first item takes to finish."
+      ],
+      "next": "Next · Why work that keeps moving beats work that keeps busy"
+    }
+  ]
+}

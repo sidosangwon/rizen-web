@@ -1,0 +1,244 @@
+{
+  "id": "STR-07-10",
+  "unitId": "STR-07",
+  "categoryId": "STR",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Pick your next market",
+  "readerTitle": "Four calls that decide where a dumpling shop grows next",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (만두 식당의 두 번째 매장) · 배달 앱 주문 데이터라는 디지털 요소 포함 · 모든 수치는 설명용",
+  "insight": "좋은 성장은 한 번의 큰 결단이 아니라, 매 단계에서 검증된 것은 그대로 두고 새로운 변수를 하나씩만 늘리는 선택의 연속이다.",
+  "misconception": "가장 큰 시장이나 가장 싼 입지가 최고의 다음 시장이고, 성장하려면 한 번에 크게 걸어야 한다.",
+  "relatedLessonIds": [
+    "STR-07-02",
+    "STR-07-06"
+  ],
+  "sources": [
+    {
+      "text": "성장 방향 구분의 표준 개념 (Ansoff, H. I. (1957). Strategies for Diversification. Harvard Business Review)",
+      "url": null
+    },
+    {
+      "text": "모든 인물, 매장, 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치(40석, 대기 1시간, 배달 주문의 약 5분의 1, 6개월 푸드홀 운영)는 설명용 가상 수치입니다. 실제 데이터로 오해되지 않도록 모든 시나리오 카드에 illustrative 라벨을 붙였습니다.",
+      "status": "open"
+    },
+    {
+      "note": "6번 카드의 '새 매장이 기존 매장 배달 주문을 가져가는 현상(카니발리제이션)'은 일반적인 경영 개념으로 설명했으며 특정 연구 수치는 인용하지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "8번 카드의 'Next' 예고 문구는 다음 유닛 첫 레슨 제목이 확정되면 교체하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Strategy · Simulation",
+      "title": "Mira's dumpling shop has a line out the door.",
+      "illustrative": true,
+      "body": [
+        "Mira runs a 40-seat dumpling restaurant. Weekend waits run an hour, and delivery orders grow every month. Her bank will lend for one growth move this year.",
+        "Over the next four cards, you make her calls. Each choice shapes the next one."
+      ],
+      "image": {
+        "label": "A small dumpling restaurant with a queue outside",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 작은 만두 가게 앞에 손님 줄이 길게 서 있고, 가게 옆으로 배달 오토바이가 출발하는 장면. 가게 위에 갈림길 표지판 네 개가 희미하게 떠 있음. 실제 브랜드나 배달 앱 로고는 쓰지 않음.",
+        "url": "assets/images/str-07-10-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 4",
+      "title": "Which way should Mira grow?",
+      "illustrative": true,
+      "body": [
+        "Three ideas keep coming up in conversations with her staff and regulars."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Open a second dumpling restaurant in another neighborhood",
+            "verdict": "best",
+            "feedback": "Same menu, recipes and know-how, aimed at new customers. Only one thing changes: the place."
+          },
+          {
+            "key": "B",
+            "text": "Launch frozen dumplings for grocery stores",
+            "verdict": "partial",
+            "feedback": "It uses her recipes, but grocery buyers, packaging, shelf fees and food-safety rules are all new to her. That's several bets at once."
+          },
+          {
+            "key": "C",
+            "text": "Open a burger bar next door to catch the waiting crowd",
+            "verdict": "risky",
+            "feedback": "New product, new kitchen, new skills. It shares little with her shop except the street, and it splits her attention."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 4",
+      "title": "Say you chose a second restaurant. Where?",
+      "illustrative": true,
+      "body": [
+        "Three neighborhoods are on the table."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Riverside, with the cheapest rent in town",
+            "verdict": "risky",
+            "feedback": "Rent is often cheap for a reason, like thin foot traffic. You save on rent and may pay for it in empty tables."
+          },
+          {
+            "key": "B",
+            "text": "Downtown, with the biggest daytime crowd",
+            "verdict": "partial",
+            "feedback": "Lots of people, but also high rent, many rivals, and nobody who knows her name yet."
+          },
+          {
+            "key": "C",
+            "text": "Eastgate, 20 minutes away, where about one in five of her delivery orders already go",
+            "verdict": "best",
+            "feedback": "Demand is already proven there. These customers know her food and have been paying for it."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "Software teams can run the same check: look at where signups, trials or paying users already come from, by country or industry, before picking a new market."
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 4",
+      "title": "Say you picked Eastgate. How do you get in?",
+      "illustrative": true,
+      "body": [
+        "Delivery orders prove people like her food at home. They don't prove people will come and sit down."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Sign a 10-year lease and build a full restaurant",
+            "verdict": "partial",
+            "feedback": "Full control and the full margin. But it is her biggest bet, placed before she knows whether dine-in demand matches delivery demand."
+          },
+          {
+            "key": "B",
+            "text": "Buy a struggling noodle shop there, with its lease and staff",
+            "verdict": "risky",
+            "feedback": "Fast, with a kitchen ready to use. But she inherits its reputation, its staff habits and whatever made it struggle."
+          },
+          {
+            "key": "C",
+            "text": "Run a six-month stall in Eastgate's food hall, sharing seats and kitchen",
+            "verdict": "best",
+            "feedback": "A cheap test of real demand, at the cost of some control and margin. If it works, she builds with evidence."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 4 of 4",
+      "title": "Say the stall sold out. Now supply wobbles.",
+      "illustrative": true,
+      "body": [
+        "Mira opens a full Eastgate restaurant. Months later, her wrapper supplier misses two deliveries in one month. A retiring wrapper-factory owner offers to sell her his business."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Buy the factory and secure supply for good",
+            "verdict": "risky",
+            "feedback": "Supply is safe, but now she runs a factory built for far more volume than two restaurants use. Cash and attention leave the restaurants."
+          },
+          {
+            "key": "B",
+            "text": "Add a second supplier and sign contracts with delivery terms",
+            "verdict": "best",
+            "feedback": "She cuts the risk without owning a business she doesn't know. She pays slightly more and accepts less control."
+          },
+          {
+            "key": "C",
+            "text": "Make wrappers by hand in both kitchens",
+            "verdict": "partial",
+            "feedback": "Fresh and fully under her control, but it adds hours of labor at each site and makes consistency harder."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Some of Eastgate's sales were already hers.",
+      "illustrative": true,
+      "body": [
+        "Many of the new restaurant's customers used to order delivery from the first shop. Those orders moved, they didn't grow. When you judge a new location, count only the sales that are truly new.",
+        "Tests can mislead too. A food-hall crowd is not the same as people choosing her restaurant on purpose. And each new site nearby eats a little more of the last one's area. **Close moves** are safer, but they run out sooner."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "The pattern",
+      "title": "Change one thing at a time.",
+      "body": [
+        "Each best answer kept something proven. Same product, new place. Then a place where customers already knew her. Then a small test before a big lease. Then a contract instead of a factory.",
+        "Every new element is a separate bet: a new product, new customers, new skills, new assets. Bets stack up. **Good growth moves** change as few things at once as possible, and test before they commit."
+      ],
+      "image": {
+        "label": "A staircase where each step changes one thing",
+        "aspectRatio": "16:9",
+        "brief": "계단 인포그래픽. 네 칸 계단에 각각 \"Same product, new place\", \"Where demand already is\", \"Test, then build\", \"Contract, don't own\" 라벨. 옆에 한 번에 크게 뛰려다 떨어지는 작은 인물을 대비로 표시. 로고 없음.",
+        "url": "assets/images/str-07-10-c7.jpg"
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Grow by keeping what works and adding one new thing.",
+      "body": [
+        "Each of your four calls matches an idea from this unit:"
+      ],
+      "list": [
+        "**Decision 1 · Four ways to grow:** an existing product in a new market is the smallest leap",
+        "**Decision 2 · Entering new markets:** go where demand already shows",
+        "**Decision 3 · Build, buy or partner:** partner to test, build once it's proven",
+        "**Decision 4 · Vertical integration:** own your supply only when scale and risk justify it"
+      ],
+      "callout": "**Try it today:** write down your next growth idea. List everything it changes: product, customers, skills, assets. Can you remove one change, or test one first?",
+      "next": "Next · A new unit begins"
+    }
+  ]
+}

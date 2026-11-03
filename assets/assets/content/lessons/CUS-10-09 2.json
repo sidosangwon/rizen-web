@@ -1,0 +1,245 @@
+{
+  "id": "CUS-10-09",
+  "unitId": "CUS-10",
+  "categoryId": "CUS",
+  "order": 9,
+  "type": "case",
+  "conceptTag": "Save More Tomorrow and retirement savings",
+  "readerTitle": "Why 'save more' failed and 'save more tomorrow' worked",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "real_company",
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 연구·기업 사례 (Thaler & Benartzi의 Save More Tomorrow, 미국 중견 제조업체 첫 도입) + 가상 적용 (카페 체인 직원 저축)",
+  "insight": "좋은 행동 설계는 사람의 성향과 싸우지 않는다. 약속은 지금 받고 부담은 나중에 오게 해서, 그 성향이 본인이 원하는 목표 쪽으로 일하게 만든다.",
+  "misconception": "올바른 정보와 좋은 조언을 주면 사람들은 행동을 바꾼다. 행동이 안 바뀌면 설명이 부족한 것이다.",
+  "relatedLessonIds": [
+    "CUS-10-04",
+    "CUS-10-02"
+  ],
+  "sources": [
+    {
+      "text": "Thaler, R. H., & Benartzi, S. (2004). Save More Tomorrow: Using Behavioral Economics to Increase Employee Saving. Journal of Political Economy, 112(S1), S164–S187. (첫 도입 기업, 가입률 78%, 저축률 3.5%→13.6%, 약 40개월, 세 번째 임금 인상까지 유지율)",
+      "url": "https://doi.org/10.1086/380085"
+    },
+    {
+      "text": "Thaler, R. H., & Sunstein, C. R. (2008). Nudge. Yale University Press. (Save More Tomorrow 설명)",
+      "url": null
+    },
+    {
+      "text": "U.S. Pension Protection Act of 2006 (자동 가입·자동 증액 제도 도입을 쉽게 한 법률)",
+      "url": null
+    },
+    {
+      "text": "카페 체인 판단 문제는 설명용 가상 사례",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "논문 초록 기준: 제안받은 사람 중 78%가 가입, 가입자의 80%가 세 번째 임금 인상까지 유지, 참가자 평균 저축률이 40개월 동안 3.5%에서 13.6%로 상승. 게시 전 원문 초록으로 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "첫 도입은 1998년 미국의 이름이 공개되지 않은 중견 제조업체입니다. 재무 상담사가 즉시 저축률을 크게(많은 경우 약 5%포인트) 올리라고 권했고, 이를 거절한 직원에게 SMarT를 제안했다는 순서를 원문으로 확인하세요. 카드에는 '약 5%포인트'를 쓰지 않고 'a big jump'로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "임금 인상 때마다 오르는 폭(원문 기준 약 3%포인트)과 상한선 여부는 카드에 'a few percentage points'로만 적었습니다. 확인 후 구체화 가능.",
+      "status": "open"
+    },
+    {
+      "note": "2006년 Pension Protection Act가 자동 증액 제도를 쉽게 만들었다는 서술은 일반적 수준으로만 적었습니다. 특정 국가의 법률 조언이 되지 않도록 세부 조항은 다루지 않습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Watch out 카드의 '이후 도입 결과는 회사마다 달랐다'는 일반적 서술입니다. 구체 수치를 넣으려면 후속 연구(예: Benartzi & Thaler 2013, Science)를 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Counterexample",
+      "title": "Why 'save more' failed and 'save more tomorrow' worked",
+      "body": [
+        "In the late 1990s, workers at a US manufacturing company were saving very little for retirement. Most knew they should save more.",
+        "A financial adviser told them exactly how much. Many said no. Two economists then tried a different ask, and it changed savings far more than the advice did."
+      ],
+      "image": {
+        "label": "Worker looking at a small piggy bank and a calendar",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 공장 작업복을 입은 직원이 작은 돼지 저금통을 보고 있고, 옆 벽에 다음 달 페이지가 살짝 넘어가는 달력. 따뜻한 색감. 실제 기업 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "They turned down the adviser. Now what?",
+      "body": [
+        "You run the savings plan. An adviser met each employee and recommended a big jump in savings, starting now. Many refused: money is tight this month.",
+        "What do you offer the people who said no?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "A clearer seminar showing how little they'll have at 65",
+            "verdict": "partial",
+            "feedback": "Better information can help, but these people already heard the advice. Knowing the goal wasn't their problem; giving up pay today was."
+          },
+          {
+            "key": "B",
+            "text": "A smaller increase, starting next paycheck",
+            "verdict": "partial",
+            "feedback": "Easier to accept, but it still cuts take-home pay right away. You'll get some yes answers and a small change."
+          },
+          {
+            "key": "C",
+            "text": "Sign up now to save more, starting only when their next pay raise arrives",
+            "verdict": "best",
+            "feedback": "You ask for nothing today. The cost lands in the future, and it comes out of a raise, so take-home pay never drops."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "What happened",
+      "title": "Saving rose almost fourfold.",
+      "body": [
+        "Richard Thaler and Shlomo Benartzi called option C **Save More Tomorrow**. Of the employees offered it, 78% joined. Their savings went up a few percentage points at each raise.",
+        "Most stayed in through the third raise. Over about 40 months, their average savings rate climbed from 3.5% to 13.6% of pay."
+      ],
+      "chart": {
+        "unit": "%",
+        "groups": [
+          {
+            "label": "Average savings rate of plan members",
+            "rows": [
+              {
+                "label": "Before joining",
+                "value": 3.5,
+                "highlight": false
+              },
+              {
+                "label": "About 40 months later",
+                "value": 13.6,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The counterexample",
+      "title": "Good advice wasn't the missing piece.",
+      "body": [
+        "The adviser gave the right answer. People agreed with it and still said no. That breaks a common belief: if you explain clearly enough, people will act.",
+        "The new plan didn't teach anyone anything. It changed **when the cost arrives**. People find it easy to promise sacrifices for later and hard to make them now. So the plan asked for the promise now and took the money later."
+      ],
+      "softwareNote": "A savings or fitness app can do the same: let users schedule a step-up for a future date, like a bigger monthly transfer after their next salary review, with a one-tap pause."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Three habits, pointed the right way.",
+      "body": [
+        "The plan didn't fight how people behave. It used three well-known tendencies."
+      ],
+      "list": [
+        "**Present bias:** a cost next year feels smaller than the same cost today",
+        "**Loss aversion:** savings came out of raises, so take-home pay never shrank",
+        "**Inertia:** once joined, staying in took no effort"
+      ],
+      "callout": "And anyone could leave at any time.",
+      "softwareNote": "Inertia cuts both ways in subscriptions. Auto-renewal keeps users who want the product, and quietly keeps users who forgot. Which one you're relying on matters."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Why it isn't a trick",
+      "title": "It served a goal people already had.",
+      "body": [
+        "The same three tendencies can power a trap: a price that rises quietly, a cancel button that is hard to find.",
+        "Save More Tomorrow differed in two ways. It moved people toward a goal they said they wanted. And leaving was simple. The idea spread: a 2006 US law made it easier for employers to add automatic savings increases, and many plans now include them."
+      ],
+      "image": {
+        "label": "Two doors: one open exit, one hidden exit",
+        "aspectRatio": "16:9",
+        "brief": "두 개의 경로를 비교하는 일러스트. 왼쪽은 '본인이 원한 목표'로 향하는 계단과 옆에 크고 잘 보이는 'Exit' 문. 오른쪽은 같은 계단이지만 출구가 벽 속에 숨겨져 있음. 로고나 상표 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "One strong result is not a law of nature.",
+      "body": [
+        "The first results came from one company and the people who chose to join. Later rollouts varied from firm to firm.",
+        "The plan also depends on conditions: regular raises, a goal people truly share, and an easy way out. Without raises, the design has nothing to work with. Without the shared goal or the exit, the same mechanics become pressure on people, not help."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a café chain.",
+      "illustrative": true,
+      "body": [
+        "You own six cafés. In a staff survey, most baristas say they want an emergency fund but never manage to save. You'd like to help without being pushy.",
+        "Which plan fits best?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Move 10% of every paycheck into savings from next week, unless staff fill out a form to stop",
+            "verdict": "risky",
+            "feedback": "It may raise savings fast, but it cuts pay today and makes leaving a chore. Staff may feel it was done to them, not for them."
+          },
+          {
+            "key": "B",
+            "text": "Invite staff to sign up now to save part of their next raise, and let them stop with one message",
+            "verdict": "best",
+            "feedback": "Nothing comes out of today's pay, the goal is theirs, and the exit is easy. You trade a slower start for trust and staying power."
+          },
+          {
+            "key": "C",
+            "text": "Bring in a money coach for a free workshop",
+            "verdict": "partial",
+            "feedback": "Kind and useful, but your staff already know they should save. Knowledge rarely beats a tight month on its own."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Ask for the promise now. Let the cost come later.",
+      "body": [
+        "When people agree with a goal but don't act, more explaining rarely helps. Change when the cost lands, keep it out of what they have today, and keep the exit open.",
+        "**Try it today:** pick one thing your customers or team say they want but keep putting off. Write down how they could commit today to a step that starts later."
+      ],
+      "next": "Next · A growth hack that might be a dark pattern"
+    }
+  ]
+}

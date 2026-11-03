@@ -1,0 +1,236 @@
+{
+  "id": "BMO-02-08",
+  "unitId": "BMO-02",
+  "categoryId": "BMO",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "Monetize a cooking app",
+  "readerTitle": "A cooking app with 200,000 cooks and no income",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (요리 앱, 식료품 체인, 쿠킹 클래스 스튜디오) · 모든 수치는 설명용",
+  "insight": "수익 모델은 고객이 이미 하는 행동에 붙인다. 매주 반복되는 가치에는 구독을, 거래가 일어나는 순간에는 수수료를 붙인다.",
+  "misconception": "사용자가 많으면 광고를 붙이면 된다. 수익 모델은 하나만 골라야 하고, 어떤 사업에나 같은 모델이 통한다.",
+  "relatedLessonIds": [
+    "BMO-02-02",
+    "BMO-02-03"
+  ],
+  "sources": [
+    {
+      "text": "모든 수치와 사례는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "구독 계산: 월 사용자 200,000명 × 3% = 6,000명 × $5 = 월 $30,000. 모든 수치는 가상입니다.",
+      "status": "open"
+    },
+    {
+      "note": "수수료 계산: 월 주문 10,000건 × 평균 장바구니 $60 = $600,000 × 4% = 월 $24,000. 합계 $30,000 + $24,000 = $54,000. 수수료율 4%는 가상 수치이며 실제 식료품 제휴 수수료율을 암시하지 않습니다.",
+      "status": "open"
+    },
+    {
+      "note": "쿠킹 클래스 예약 사이트의 수수료 20%는 가상 수치입니다. 실제 플랫폼의 수수료율로 읽히지 않도록 카드에 'say'로 표시했습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business models · Apply",
+      "title": "A cooking app with 200,000 cooks and no income",
+      "illustrative": true,
+      "body": [
+        "Maya's recipe app has 200,000 monthly users. They love it. They leave reviews like \"saved my weeknights.\"",
+        "It earns nothing. Servers, a part-time developer and recipe testing cost her about $8,000 a month. Today you'll help her choose how to get paid, using two ways to make money from this unit."
+      ],
+      "image": {
+        "label": "A phone showing a recipe on a busy kitchen counter",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 일러스트. 부엌 조리대 위에 레시피가 뜬 휴대폰, 옆에 채소와 도마. 휴대폰 화면 구석에 빈 동전 지갑 아이콘. 실제 앱 로고나 브랜드는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What should Maya charge for first?",
+      "illustrative": true,
+      "body": [
+        "Her data shows a clear pattern. Most users open the app on Sunday to plan the week's dinners, then build a shopping list. Their top complaint: \"Planning takes forever.\"",
+        "Which first step fits best?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Show ads between recipe steps",
+            "verdict": "partial",
+            "feedback": "**Advertising** earns from every visit, but each visit pays little and needs a huge audience. Cooks with messy hands also hate tapping past ads."
+          },
+          {
+            "key": "B",
+            "text": "A $5 monthly plan that builds a weekly menu and shopping list",
+            "verdict": "best",
+            "feedback": "This is a **subscription** tied to a job people already repeat every week. The value comes back each Sunday, so the payment feels earned."
+          },
+          {
+            "key": "C",
+            "text": "Charge $2.99 for each premium recipe",
+            "verdict": "partial",
+            "feedback": "Selling one item at a time is simple, but each sale starts from zero. Free recipes are everywhere, so many people won't pay for one."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "Why it fits",
+      "title": "A subscription matches a weekly habit.",
+      "illustrative": true,
+      "body": [
+        "A **subscription** works when customers get value again and again, on a rhythm they can feel. Maya's users already plan every Sunday. The plan saves them an hour each time.",
+        "Say 3% of users sign up. That's 6,000 people at $5, or **$30,000 a month**. Her costs are covered, and she can see what each new feature adds to it."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Your call · a grocer calls",
+      "title": "A grocery chain wants your shopping lists.",
+      "illustrative": true,
+      "body": [
+        "A regional grocery chain offers to add an \"Order these ingredients\" button to Maya's shopping lists. Customers would get delivery or pickup from the chain.",
+        "How should Maya get paid for it?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Take a small cut of every order placed through the button",
+            "verdict": "best",
+            "feedback": "A **commission** is paid only when a sale happens, by the side that gains the sale. Maya earns more as the button helps more, and users pay nothing extra."
+          },
+          {
+            "key": "B",
+            "text": "Charge the chain a flat monthly fee to be the only grocer shown",
+            "verdict": "partial",
+            "feedback": "Steady money, but it's no longer tied to results. Users who live far from that chain get a button they can't use."
+          },
+          {
+            "key": "C",
+            "text": "Charge users $1 per order to use the button",
+            "verdict": "risky",
+            "feedback": "It asks the wrong side to pay. The grocer gains the sale, yet users face a new fee and many will just shop the old way."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Two streams, two different payers.",
+      "illustrative": true,
+      "body": [
+        "Say the button brings 10,000 orders a month, averaging $60, at a 4% cut. Subscribers pay for planning. The grocer pays for sales."
+      ],
+      "breakdown": [
+        {
+          "value": "$30,000",
+          "label": "Subscriptions",
+          "detail": "6,000 cooks × $5 a month",
+          "highlight": false
+        },
+        {
+          "value": "$24,000",
+          "label": "Commissions",
+          "detail": "10,000 orders × $60 × 4%",
+          "highlight": false
+        },
+        {
+          "value": "$54,000",
+          "label": "Monthly revenue",
+          "detail": "Against about $8,000 in monthly costs",
+          "highlight": true
+        }
+      ],
+      "callout": "Each stream rides on something users already do: plan, then shop.",
+      "softwareNote": "This is a common shape for apps: users pay for a recurring feature, while partners pay a cut of the transactions the app sends them."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Commissions can bend your advice.",
+      "body": [
+        "If Maya earns more when baskets get bigger, she may be tempted to push recipes with pricey ingredients. Users will notice. Their trust is what the whole business runs on.",
+        "Stacking models has costs too. Adding ads to a paid plan can make subscribers feel they pay twice. And subscriptions only last while the value repeats. If weekly menus start to feel the same, people cancel."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a cooking class studio.",
+      "illustrative": true,
+      "body": [
+        "You run a small studio in a city that teaches evening cooking classes. Most students come once, often as a gift or a date night. Few return.",
+        "How should you grow bookings?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Launch a monthly membership with one class a month",
+            "verdict": "risky",
+            "feedback": "A **subscription** needs value that repeats. Most of your students come once, so few will sign up and many who do will cancel."
+          },
+          {
+            "key": "B",
+            "text": "List classes on an experience-booking site that takes a cut, say 20%",
+            "verdict": "best",
+            "feedback": "A **commission** fits one-time buyers. You give up part of each ticket, but you pay only when a seat is filled."
+          },
+          {
+            "key": "C",
+            "text": "Sell gift vouchers only on your own website",
+            "verdict": "partial",
+            "feedback": "You keep the full price of each sale. But you must find every buyer yourself, which is slow when customers rarely come back."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "The same test works for apps: if people use it once, charge per use or per sale. If they come back weekly, a subscription can fit."
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Charge where the value already happens.",
+      "body": [
+        "You used two models. **Subscriptions** fit value that repeats, like Sunday planning. **Commissions** fit a moment of sale, paid by the side that gains it. Advertising stayed a weak option because each visit paid little.",
+        "**Try it today:** write down what your customers do again and again, and where a sale happens. Next to each, note who gains and who could pay."
+      ],
+      "image": {
+        "label": "Two arrows: a weekly loop and a single sale",
+        "aspectRatio": "16:9",
+        "brief": "간단한 인포그래픽. 왼쪽에 달력 위 반복 화살표 \"Repeats → Subscription\", 오른쪽에 장바구니와 한 번의 화살표 \"Sale happens → Commission\". 깔끔한 플랫 스타일.",
+        "url": null
+      },
+      "next": "Next · How Craigslist took the newspapers' classified ads"
+    }
+  ]
+}

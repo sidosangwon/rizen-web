@@ -1,0 +1,227 @@
+{
+  "id": "THK-11-01",
+  "unitId": "THK-11",
+  "categoryId": "THK",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Metrics start from goals",
+  "readerTitle": "A good number starts with a goal",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (동네 화원, 상담팀, 점심 식당) · 모든 수치는 설명용",
+  "insight": "숫자를 고르기 전에 목표와 그 숫자로 내릴 결정을 먼저 적는다. 같은 숫자도 목표에 따라 좋은 신호가 되기도 하고 나쁜 신호가 되기도 한다.",
+  "misconception": "재기 쉽고 많이 오르는 숫자를 지켜보면 사업이 잘되고 있는지 알 수 있다.",
+  "relatedLessonIds": [
+    "THK-11-02",
+    "THK-06-05"
+  ],
+  "sources": [
+    {
+      "text": "측정과 의사결정의 일반 원칙 (목표 → 결정 → 지표 순서로 지표를 정하는 방식)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 설명용 가상 수치입니다. 3번 카드 차트: 방문객 수 +20%, 전체 매출 +3%, 화분 판매 0%. 방문객이 늘고 매출이 거의 그대로인 상황은 객단가가 낮은 할인 상품 구매가 늘었다는 설정으로 설명됩니다.",
+      "status": "open"
+    },
+    {
+      "note": "실제 기업·연구 사례나 통계는 쓰지 않았습니다. 같은 단위의 THK-06-05(굿하트의 법칙)와 겹치지 않도록, 지표가 목표가 되면 왜곡된다는 내용은 7번 카드에서 한 문장으로만 언급했습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Everyday scene",
+      "title": "A good number starts with a goal",
+      "illustrative": true,
+      "body": [
+        "Maya runs a garden centre. Last month she put a small counter above the door, and every evening she checks it before locking up.",
+        "This month the count is up 20%. She feels great. Then she looks at the shelf at the back, and the planters she cared most about are still sitting there."
+      ],
+      "image": {
+        "label": "A door counter showing a rising number above a shop entrance",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 3D 일러스트. 작은 화원 입구 위에 디지털 방문객 카운터가 큰 숫자를 보여줌. 앞쪽 주인은 카운터를 보며 미소 짓고, 뒤편 선반에는 팔리지 않은 큰 화분들이 그대로 놓여 있음. 실제 브랜드 로고는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Is the new window display working?",
+      "illustrative": true,
+      "body": [
+        "Maya built the display to sell more of her seasonal planters. They earn far more per sale than anything else, but they sit at the back where few people look.",
+        "Which number tells her whether the display is doing its job?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "How many people walk through the door each day",
+            "verdict": "risky",
+            "feedback": "Easy to count and it moves fast. But people can come in, browse the front and leave without ever reaching the planters."
+          },
+          {
+            "key": "B",
+            "text": "Total weekly sales across the shop",
+            "verdict": "partial",
+            "feedback": "It matters, but weather, holidays and every other product move it too. A real change in planters could hide inside the total."
+          },
+          {
+            "key": "C",
+            "text": "How many seasonal planters sell each week",
+            "verdict": "best",
+            "feedback": "It moves when the display does what it was built to do, and stays flat when it doesn't. You lose the big-picture view, so keep total sales in sight as a check."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "What happened",
+      "title": "The door said yes. The goal said no.",
+      "illustrative": true,
+      "body": [
+        "Maya had placed cheap sale items at the front of the display to catch the eye. It worked. More people came in, bought a $3 seed packet and left.",
+        "The number she watched every evening rose. The number tied to her goal didn't move at all."
+      ],
+      "chart": {
+        "unit": "%",
+        "groups": [
+          {
+            "label": "Change after one month",
+            "rows": [
+              {
+                "label": "People through the door",
+                "value": 20,
+                "highlight": false
+              },
+              {
+                "label": "Total sales",
+                "value": 3,
+                "highlight": false
+              },
+              {
+                "label": "Seasonal planters sold",
+                "value": 0,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Metrics start from goals",
+      "body": [
+        "A **metric** is a number you track to judge how things are going. On its own, it means nothing. It only means something as an answer to a question.",
+        "So the order matters. First, the goal: what are we trying to achieve? Then the decision: what would we do differently depending on the answer? Only then, the number.",
+        "Maya started with the number that was easy to count. Her goal came second, so the counter answered a question she never asked."
+      ],
+      "softwareNote": "Sign-ups are the door counter of software. If the goal is paying customers, the number to watch is how many sign-ups become paying customers, not how many arrive."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Three questions before you pick a number.",
+      "body": [
+        "Before you put a number on the board, write down three answers:"
+      ],
+      "list": [
+        "**The goal:** what are we trying to make happen?",
+        "**The decision:** what will we do if the number goes up, and what if it goes down?",
+        "**The test:** does this number move when, and mostly when, we get closer to the goal?"
+      ],
+      "callout": "If no answer to question two comes to mind, the number is decoration."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Same number, opposite meaning",
+      "title": "Fast calls can be good news or bad news.",
+      "illustrative": true,
+      "body": [
+        "A support team tracks calls answered per hour. If the goal is to clear a backlog after a storm cut power to half the town, rising calls per hour is exactly right.",
+        "If the goal is to fix each problem on the first call, the same rise may mean people are being rushed off the phone and calling back tomorrow.",
+        "The number didn't change. The goal did, and with it what the number means."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Some goals can't be counted directly.",
+      "body": [
+        "\"Make customers love us\" has no counter. You'll need a stand-in, such as repeat visits or referrals. That's fine, as long as you remember it's a stand-in and check now and then that it still tracks the real goal.",
+        "Also, once people are judged on a number, they find ways to move it that skip the goal. And goals change. A metric picked last year may answer last year's question."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a lunch restaurant.",
+      "illustrative": true,
+      "body": [
+        "Your restaurant sits among offices. Most guests have under an hour for lunch. Your goal: stop losing the guests who give up and leave when food takes too long. You've added a short express menu.",
+        "Which number shows whether it's working?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Average bill per table",
+            "verdict": "risky",
+            "feedback": "A cheaper express menu may lower it even while you win back guests. You'd read success as failure."
+          },
+          {
+            "key": "B",
+            "text": "Total guests served each lunch",
+            "verdict": "partial",
+            "feedback": "It should rise if the menu works, but rainy days and office holidays move it too. It's a useful backup, not the main signal."
+          },
+          {
+            "key": "C",
+            "text": "Share of guests served within 10 minutes, plus how many walk out",
+            "verdict": "best",
+            "feedback": "Both move directly with the problem you set out to fix. They won't tell you about profit, so check that separately."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Pick the goal first. Then the number.",
+      "body": [
+        "A number is only as good as the question it answers. Start with the goal and the decision, and the right metric usually becomes obvious.",
+        "**Try it today:** take one number you check every week. Write the goal it serves and what you'd do if it doubled. If you can't, replace it."
+      ],
+      "next": "Next · Why \"50% more\" can mean almost nothing"
+    }
+  ]
+}

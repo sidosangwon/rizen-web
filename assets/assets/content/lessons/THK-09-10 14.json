@@ -1,0 +1,219 @@
+{
+  "id": "THK-09-10",
+  "unitId": "THK-09",
+  "categoryId": "THK",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Take the safe offer or keep your options?",
+  "readerTitle": "The steady contract that could have sunk the painting company",
+  "format": "everyday_scene",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (주택 도장 업체와 부동산 관리 회사) · 모든 인물, 회사, 수치는 설명용",
+  "insight": "안전한 제안의 안전함은 계약서가 아니라 그 계약이 사라져도 버틸 수 있는 선택지에서 나온다.",
+  "misconception": "오래 보장된 큰 계약은 위험을 줄여 준다. 고객 한 곳에 매출이 몰려도 계약 기간 동안은 안전하다.",
+  "relatedLessonIds": [
+    "THK-09-02",
+    "THK-09-04"
+  ],
+  "sources": [
+    {
+      "text": "모든 인물, 회사, 수치는 설명용 가상 시뮬레이션",
+      "url": null
+    },
+    {
+      "text": "이 유닛의 개념 레슨 (THK-09-01 단기·장기 트레이드오프, THK-09-02 선택권, THK-09-04 시나리오 사고, THK-09-06 평판의 복리)",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 가상입니다. 비율 확인: 1차 결정 후 부동산 회사 40%, 주택 고객 60%. 2차 결정 후 50%. 5번 카드에서 계약이 절반으로 줄면 매출의 약 25%(50% × 1/2)가 사라지는 것으로 계산했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "7번 카드의 '당장 급여를 못 줄 상황이면 안전한 제안을 먼저 받는다'는 THK-04-05(파산 위험) 개념과 연결됩니다. 특정 국가의 계약법이나 독점 조항 해석은 다루지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Long-term thinking · Simulation",
+      "title": "The steady contract that could have sunk the painting company",
+      "illustrative": true,
+      "body": [
+        "Dana runs a six-person house-painting crew. Most of her work comes from homeowners, and most homeowners come from referrals.",
+        "Then a property manager with 40 apartment buildings calls. They want her crew for three years. Steady work, guaranteed. You are Dana. Three decisions follow."
+      ],
+      "image": {
+        "label": "A painter holding a contract between a house and an apartment block",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 페인트가 묻은 작업복을 입은 여성 사장이 계약서를 들고 갈림길에 서 있다. 왼쪽엔 작은 주택들, 오른쪽엔 큰 아파트 단지. 실제 브랜드 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/thk-09-10-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 3",
+      "title": "Sign the three-year deal?",
+      "illustrative": true,
+      "body": [
+        "The offer: three years, first call on about 80% of your crew's time, at rates 15% below what homeowners pay. Payroll would be covered every month. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Sign it. Three years of covered payroll is hard to turn down",
+            "verdict": "risky",
+            "feedback": "You get certainty, but 80% of your revenue now depends on one client who can push the price. You'd also turn away homeowners, and referrals stop when you keep saying no."
+          },
+          {
+            "key": "B",
+            "text": "Decline. Homeowners pay more and you stay independent",
+            "verdict": "partial",
+            "feedback": "You keep your margins and freedom. You also give up steady work that would smooth out your slow winter months."
+          },
+          {
+            "key": "C",
+            "text": "Counter: one year, renewable, up to 40% of crew time",
+            "verdict": "best",
+            "feedback": "You get a floor of steady work and keep your homeowner pipeline alive. The cost: they may say no, or offer less."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 3",
+      "title": "Say you chose the counteroffer. Now they want more.",
+      "illustrative": true,
+      "body": [
+        "They agreed to one year at 40%. Six months in, they're happy. They offer to double your volume if you cut your rate another 10%. Filling the crew would feel great."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Accept. More volume keeps everyone busy",
+            "verdict": "risky",
+            "feedback": "You'd be back near 80% reliance, at a thinner margin. One budget cut on their side would mean layoffs on yours."
+          },
+          {
+            "key": "B",
+            "text": "First sketch three futures: they stay, they cut back, they leave. Take only what you could survive losing",
+            "verdict": "best",
+            "feedback": "The sketch shows you survive losing them at 40% or 50%, but not at 80%. You offer 50% at your current rate, and they accept."
+          },
+          {
+            "key": "C",
+            "text": "Say no and keep the 40% cap",
+            "verdict": "partial",
+            "feedback": "Safe, and your options stay open. But you skip checking whether some of the extra work could pay off."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 3",
+      "title": "Say you chose to plan for three futures. Then a kitchen starts peeling.",
+      "illustrative": true,
+      "body": [
+        "A homeowner calls. The kitchen your crew painted last spring is peeling. Your crew used the wrong primer. A redo takes two crew-days, in a week booked for the property manager."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Offer a discount on their next job instead",
+            "verdict": "risky",
+            "feedback": "You save two days now. But they live with a peeling kitchen, and their neighbors hear why."
+          },
+          {
+            "key": "B",
+            "text": "Move two painters for two days, redo it free, and tell the property manager about the short delay",
+            "verdict": "best",
+            "feedback": "It costs about two days of revenue and one awkward call. The homeowner sends you three neighbors that summer."
+          },
+          {
+            "key": "C",
+            "text": "Book the redo in three weeks, when the crew is free",
+            "verdict": "partial",
+            "feedback": "Cheaper on your schedule, and the job gets fixed. But the customer waits, and the goodwill you earn back is smaller."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "A year later",
+      "title": "The safe client didn't stay safe.",
+      "illustrative": true,
+      "body": [
+        "The property manager is sold. The new owners move maintenance to one large vendor and cut Dana's contract in half. She loses about a quarter of her revenue overnight.",
+        "It hurts, but it's the \"they cut back\" future she had sketched. Her homeowner work is still there, and so is a waiting list of referrals. Within weeks, most of the gap is filled.",
+        "Had she signed the three-year, 80% deal, a buyout clause or a price squeeze could have left her crew with almost nothing."
+      ],
+      "image": {
+        "label": "Revenue split before and after the client cut",
+        "aspectRatio": "16:9",
+        "brief": "두 개의 원형 차트 비교. 왼쪽 \"Before\": Property manager 50%, Homeowners 50%. 오른쪽 \"After\": Property manager 25%, Homeowners 75% (대기 명단에서 채워진 부분을 다른 색으로 표시). 실제 로고 없음.",
+        "url": "assets/images/thk-09-10-c5.jpg"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The idea",
+      "title": "Safety comes from options, not promises.",
+      "body": [
+        "A long contract feels safe because it promises the future. But promises can be bought out, renegotiated or cut. Real safety is having **somewhere else to go** when a promise breaks.",
+        "Each of Dana's best choices kept a door open: a shorter term, a cap she could survive losing, and a reputation that kept referrals coming."
+      ],
+      "softwareNote": "A startup gets the same offer when one enterprise customer wants a big custom deal. Signing can fund a year, but if that customer drives the roadmap, the product drifts away from everyone else. Caps on custom work and shorter terms keep your other options open."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Options cost something.",
+      "body": [
+        "Dana gave up guaranteed money. Keeping capacity free means some slow weeks, and a lower rate on a smaller deal.",
+        "If you can't make payroll next month, survival comes first. Take the safe offer, then rebuild your options from there. Keeping options open is a luxury of businesses that can already pay their bills.",
+        "And a safe offer isn't always a trap. A short term, an exit clause or a volume cap can give you both."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Take the safe offer only in a size you could survive losing.",
+      "body": [
+        "Each decision in Dana's year matches an idea from this unit:"
+      ],
+      "list": [
+        "**Decision 1, the counteroffer:** optionality. A shorter, smaller deal kept other doors open.",
+        "**Decision 2, the three futures:** scenario thinking. She sized the deal for the bad future, not the happy one.",
+        "**Decision 3, the free redo:** reputation compounds. Two lost days became years of referrals.",
+        "**The whole year:** short-term vs long-term. Each time, she gave up a little now to stay strong later."
+      ],
+      "callout": "**Try it today:** list your three biggest customers or contracts. For each one, write what would happen if it ended next month.",
+      "next": "Next · Lead with the answer"
+    }
+  ]
+}

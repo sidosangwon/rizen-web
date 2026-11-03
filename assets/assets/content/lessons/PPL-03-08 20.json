@@ -1,0 +1,250 @@
+{
+  "id": "PPL-03-08",
+  "unitId": "PPL-03",
+  "categoryId": "PPL",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "Hire a first engineer",
+  "readerTitle": "Hiring your first engineer when you can't read code",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (회계·기장 서비스 회사, 철물 도매 유통업체) · 모든 인물과 수치는 설명용",
+  "insight": "첫 엔지니어 채용은 기술 목록이 아니라 '혼자 해내야 할 결과'를 정하고, 그 결과와 닮은 일을 직접 시켜 보는 것으로 판단한다. 코드를 몰라도 평가할 수 있다.",
+  "misconception": "코드를 모르면 엔지니어를 평가할 수 없으니, 긴 기술 목록과 유명 회사 경력을 기준으로 뽑아야 한다.",
+  "relatedLessonIds": [
+    "PPL-03-01",
+    "PPL-03-03"
+  ],
+  "sources": [
+    {
+      "text": "이 유닛의 개념 레슨 PPL-03-01 (역할 정의), PPL-03-03 (실무 능력 테스트)을 적용한 레슨",
+      "url": null
+    },
+    {
+      "text": "모든 인물, 회사, 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "외부 연구나 통계는 인용하지 않았습니다. 고객 200곳, 직원 12명, 창고 3곳, 반나절 과제 등은 모두 가상 수치입니다. 게시 전 연구 수치를 추가하려면 1차 출처를 붙이세요.",
+      "status": "open"
+    },
+    {
+      "note": "유료 과제의 적정 시간·보상 수준은 나라와 업계마다 다릅니다. 카드에는 특정 금액이나 법적 기준을 쓰지 않고 '짧게, 보상하고, 모두 같은 과제'라는 원칙만 적었습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Hiring · Everyday scene",
+      "title": "Hiring your first engineer when you can't read code",
+      "illustrative": true,
+      "body": [
+        "Dana runs a 12-person bookkeeping firm. Her 200 clients still email spreadsheets and blurry receipt photos every month.",
+        "She wants an engineer to build a client portal. Her first job ad asks for React, Python, cloud, mobile, AI and \"rockstar energy.\" She has no idea how she'd judge any of it."
+      ],
+      "image": {
+        "label": "A job ad covered in tech buzzwords on a cluttered office desk",
+        "aspectRatio": "4:3",
+        "brief": "작은 회계 사무실 책상. 노트북 화면에 기술 용어가 빽빽한 채용 공고 초안, 옆에 영수증 사진과 스프레드시트 출력물이 쌓여 있음. 대표가 머리를 긁는 모습. 실제 로고나 상표 없이.",
+        "url": "assets/images/ppl-03-08-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What should the job post lead with?",
+      "illustrative": true,
+      "body": [
+        "Dana will get one shot at a first post. What goes at the top?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "A full list of technologies, so strong engineers see we're serious",
+            "verdict": "risky",
+            "feedback": "A long tool list attracts people who match keywords, not people who can do this job. It also scares off the generalists who fit best."
+          },
+          {
+            "key": "B",
+            "text": "What they must deliver: a secure portal for 200 clients, built and run mostly alone",
+            "verdict": "best",
+            "feedback": "This is **defining the role**: start from outcomes. Candidates can judge if they've done something like it, and Dana gets a yardstick she can actually use."
+          },
+          {
+            "key": "C",
+            "text": "A job description copied from a well-known tech company",
+            "verdict": "partial",
+            "feedback": "It reads professionally, but that role sits inside a big team. Dana's engineer will have no team at all."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The real job",
+      "title": "What this role actually involves.",
+      "illustrative": true,
+      "body": [
+        "Seen this way, Dana needs a builder who has shipped something alone and kept it running, not a specialist from a large team."
+      ],
+      "breakdown": [
+        {
+          "value": "200",
+          "label": "Clients served",
+          "detail": "Upload documents without email",
+          "highlight": false
+        },
+        {
+          "value": "1",
+          "label": "Engineer",
+          "detail": "No senior colleague to check the work",
+          "highlight": true
+        },
+        {
+          "value": "Years",
+          "label": "Upkeep",
+          "detail": "Whoever builds it keeps it running",
+          "highlight": false
+        },
+        {
+          "value": "12",
+          "label": "Colleagues",
+          "detail": "Accountants who need plain answers",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept at work",
+      "title": "Outcomes change who you look for.",
+      "illustrative": true,
+      "body": [
+        "**Defining the role** means writing down what success looks like after six or twelve months, before you write a single requirement.",
+        "Dana's version: \"Clients upload documents through a secure portal. Staff stop chasing email. The system runs without drama.\" From that, the must-haves are short: has built and maintained a small product, explains choices simply, picks boring, reliable tools.",
+        "Everything else is a nice-to-have."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Dana can't read code. How does she test candidates?",
+      "illustrative": true,
+      "body": [
+        "Three candidates look good on paper. She needs to see who can really do the work."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Use hard coding puzzles found online",
+            "verdict": "risky",
+            "feedback": "Puzzles test speed under pressure, not building a portal. And Dana still can't judge the answers."
+          },
+          {
+            "key": "B",
+            "text": "A short, paid task: turn a messy sample spreadsheet into a simple upload page, then explain it to Dana",
+            "verdict": "best",
+            "feedback": "This is **testing real skills**: a small slice of the actual job. Dana judges the explanation; a freelance engineer she hires for a few hours judges the code."
+          },
+          {
+            "key": "C",
+            "text": "Pick the one who worked at the most famous company",
+            "verdict": "partial",
+            "feedback": "A big name suggests ability, but not the ability to work alone. It tells you about their old team as much as about them."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Why it works",
+      "title": "The task looks like the job.",
+      "illustrative": true,
+      "body": [
+        "One candidate built a polished page but couldn't say why. Another built something plainer, flagged a privacy risk in the sample data, and explained it in two minutes.",
+        "The outside reviewer confirmed the second candidate's code was clean and easy to maintain. Dana could see the most important skill herself: clear thinking for non-engineers."
+      ],
+      "image": {
+        "label": "An engineer explaining a simple upload screen to a business owner",
+        "aspectRatio": "16:9",
+        "brief": "회의 테이블에서 지원자가 노트북의 단순한 업로드 화면을 대표에게 설명하는 장면. 화면 한쪽에 작은 경고 표시(개인정보 주의). 옆에 외부 검토자가 코드 화면을 보고 고개를 끄덕임. 실제 로고 없이.",
+        "url": "assets/images/ppl-03-08-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A good test can still go wrong.",
+      "body": [
+        "Work tasks cost candidates time. Keep them to a few hours, pay for them, and never use them to get free work you plan to ship.",
+        "Give every candidate the same task and the same scoring notes, or you're comparing apples to oranges.",
+        "And a task is one signal. A strong result doesn't replace checking how someone works over months."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a hardware wholesaler.",
+      "illustrative": true,
+      "body": [
+        "Marco's family business supplies hardware stores from three warehouses. Staff phone each other to check stock before confirming orders. He wants a first engineer to connect orders and stock counts.",
+        "Which hiring plan fits best?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Define the outcome as \"orders and stock match daily across all three warehouses,\" then test with real but anonymized order data and a talk with the warehouse lead",
+            "verdict": "best",
+            "feedback": "Both ideas at work: **defining the role** sets the bar, and **testing real skills** shows who can handle messy data and floor staff."
+          },
+          {
+            "key": "B",
+            "text": "Hire whoever is most impressive over coffee",
+            "verdict": "risky",
+            "feedback": "Fast and friendly, but it tests charm, not the ability to untangle three warehouses of data."
+          },
+          {
+            "key": "C",
+            "text": "Define the outcome clearly, but skip the test because a trusted friend vouches for one candidate",
+            "verdict": "partial",
+            "feedback": "A clear role is half the job. Without a task, though, you're betting on someone else's view of a different kind of work."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Define the result, then watch them do a piece of it.",
+      "body": [
+        "You used two ideas: **defining the role** (outcomes before tools) and **testing real skills** (a small, paid slice of the real job). Together they let anyone hire well outside their own expertise.",
+        "**Try it today:** for your next hire, write one sentence on what must be true in six months. Then sketch a two-hour task that looks like that work."
+      ],
+      "next": "Next · What a simple curtain changed about orchestra hiring"
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "id": "MKT-03-06",
+  "unitId": "MKT-03",
+  "categoryId": "MKT",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Framing",
+  "readerTitle": "Same facts, different words: why the frame decides",
+  "format": "two_businesses",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (바닷가 호텔, 급여 대행 회사, IT 지원 회사) + 실제 연구 (Levin & Gaeth, 1988 다진 소고기 라벨 실험)",
+  "insight": "사실을 설명하는 중립적인 방법은 없다. 모든 문장은 이미 하나의 프레임을 고른 것이므로, 프레임은 우연에 맡기지 말고 의도적으로 고른다.",
+  "misconception": "사실만 정확하면 어떻게 표현하든 고객의 판단은 같다.",
+  "relatedLessonIds": [
+    "CUS-05-06",
+    "MKT-03-07"
+  ],
+  "sources": [
+    {
+      "text": "Levin, I. P., & Gaeth, G. J. (1988). How consumers are affected by the framing of attribute information before and after consuming the product. Journal of Consumer Research, 15(3), 374–378.",
+      "url": null
+    },
+    {
+      "text": "호텔, 급여 대행, IT 지원 사례와 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Levin & Gaeth(1988): '75% lean' 라벨 집단이 '25% fat' 집단보다 품질을 높게, 기름기를 적게 평가했고, 시식 후에는 차이가 줄었지만 남아 있었다는 내용을 원문으로 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "급여 대행 계산: 200건 중 199건 정시 = 199 ÷ 200 = 99.5%, 지연 1건 = 1 in 200.",
+      "status": "open"
+    },
+    {
+      "note": "softwareNote 계산: 1년 = 8,760시간, 0.1% = 8.76시간 → 'about 9 hours a year'.",
+      "status": "open"
+    },
+    {
+      "note": "IT 지원 계산: 월 $600 × 12 = 연 $7,200, $600 ÷ 직원 12명 = 1인당 월 $50, $600 ÷ 30일 = 하루 $20.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Persuasion · Two businesses",
+      "title": "Two businesses, two true facts, and the words did the work.",
+      "illustrative": true,
+      "body": [
+        "A seaside hotel has a cancellation rule. A payroll firm has a one-year track record. Both facts are true, and both can be said in a way that sounds good or a way that sounds worrying.",
+        "Neither business changes what it does. It only changes how it says it. Customers' choices change anyway."
+      ],
+      "image": {
+        "label": "Two shop signs with the same fact in different words",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 왼쪽에 작은 바닷가 호텔 프런트, 오른쪽에 사무실 책상. 두 곳 모두 말풍선 두 개가 떠 있고, 하나는 따뜻한 색, 하나는 차가운 색. 글자는 넣지 않거나 흐리게. 실제 로고·상표 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "One line for your booking page.",
+      "illustrative": true,
+      "body": [
+        "You run a 20-room seaside hotel. Guests can cancel for free until 48 hours before arrival. After that, they pay for the first night.",
+        "Your booking page has room for one line about the policy. Which do you choose?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "\"Cancellations within 48 hours of arrival are charged one night.\"",
+            "verdict": "partial",
+            "feedback": "Clear and honest, and it heads off disputes. But it leads with the penalty, so a guest who is still deciding sees the risk first."
+          },
+          {
+            "key": "B",
+            "text": "\"Free cancellation until 48 hours before arrival.\"",
+            "verdict": "best",
+            "feedback": "Same rule, but the guest first sees what they keep: freedom to change plans. Put the one-night charge right below it so nobody is surprised later."
+          },
+          {
+            "key": "C",
+            "text": "Either one. The rule is the same, so the wording won't matter.",
+            "verdict": "risky",
+            "feedback": "The rule is the same, but people react to what you put in front of them. Treating wording as neutral just means it gets chosen by accident."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "Side by side",
+      "title": "One fact each, two honest ways to say it.",
+      "illustrative": true,
+      "body": [
+        "Across town, a payroll firm ran 200 payrolls for small businesses last year. One was late. Like the hotel, it has two true versions to choose from. Neither is a lie, but each leaves a different feeling."
+      ],
+      "breakdown": [
+        {
+          "value": "Free",
+          "label": "Hotel · gain side",
+          "detail": "Free cancellation until 48 hours before",
+          "highlight": true
+        },
+        {
+          "value": "Charged",
+          "label": "Hotel · loss side",
+          "detail": "One night charged within 48 hours",
+          "highlight": false
+        },
+        {
+          "value": "99.5%",
+          "label": "Payroll · success side",
+          "detail": "Of payrolls ran on time last year",
+          "highlight": true
+        },
+        {
+          "value": "1 in 200",
+          "label": "Payroll · failure side",
+          "detail": "Payroll runs were late last year",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Framing",
+      "body": [
+        "**Framing** is how you present a fact: which side you put first, which number you use, and what you compare it to. The facts stay the same. The choices people make often don't.",
+        "Here's the new way to see it: there is no neutral way to say something. Every sentence already picks a frame. The only question is whether you picked it on purpose."
+      ],
+      "image": {
+        "label": "One fact passing through two different picture frames",
+        "aspectRatio": "16:9",
+        "brief": "가운데 같은 모양의 상자 하나(사실)가 있고, 왼쪽에는 밝은 액자, 오른쪽에는 어두운 액자를 통해 보이는 장면. 액자에 따라 상자를 보는 사람의 표정이 다름. 텍스트 최소화.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "75% lean or 25% fat?",
+      "body": [
+        "In a 1988 study, researchers Irwin Levin and Gary Gaeth asked people to rate ground beef. Some saw it labeled **75% lean**. Others saw **25% fat**. It was the same beef.",
+        "People who saw \"75% lean\" rated it as higher quality and less greasy. After they actually tasted it, the gap got smaller, but it did not disappear.",
+        "The label changed how the same product seemed, even in the mouth."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond good vs bad",
+      "title": "Frames come in more than one shape.",
+      "body": [
+        "Choosing the bright side or the dark side is only one kind of frame. You also choose the unit and the comparison."
+      ],
+      "list": [
+        "**Gain or loss:** \"save $200 a month\" or \"stop losing $200 a month\"",
+        "**Unit:** per year, per month, per person or per use",
+        "**Comparison:** next to what? A $40 lunch feels different next to a $15 one than next to a $90 dinner"
+      ],
+      "callout": "The best frame usually matches how the customer already thinks about the decision.",
+      "softwareNote": "A software company can say \"99.9% uptime\" or \"down about 9 hours a year\". Both are true. A buyer planning around outages may care more about the second."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A frame can clarify or it can hide.",
+      "body": [
+        "If the hotel buried the one-night charge, it might win the booking and lose the review. A frame that hides the bad part borrows trust it will have to repay.",
+        "Frames also weaken with experience, as the beef tasters showed. And careful buyers, like a finance team, often convert every frame back to the same number. With them, a clear and honest frame earns more than a clever one."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's an IT support firm.",
+      "illustrative": true,
+      "body": [
+        "You sell managed IT support to a 12-person accounting office for $600 a month. The office manager has to get the owner to approve it.",
+        "How do you put the price in your proposal?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "\"$7,200 a year\"",
+            "verdict": "partial",
+            "feedback": "Honest and easy to budget if the owner plans yearly. But one big number with no comparison makes the cost feel heavy and the value invisible."
+          },
+          {
+            "key": "B",
+            "text": "\"$50 per employee per month, less than the cost of one lost day when systems go down\"",
+            "verdict": "best",
+            "feedback": "It uses a unit the owner already thinks in, cost per person, and compares it to the risk it removes. The comparison has to be realistic for this office, or it backfires."
+          },
+          {
+            "key": "C",
+            "text": "\"Just $20 a day!\"",
+            "verdict": "risky",
+            "feedback": "The number is small, but business buyers know the trick and multiply it back. It can make a serious service sound like a late-night ad."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "You always choose a frame, so choose it on purpose.",
+      "body": [
+        "Same facts, different words, different decisions. Pick the side, the unit and the comparison that match how your customer decides, and never hide the part they need to know.",
+        "**Try it today:** take one line from your price list or website. Write it two other honest ways. Ask a customer which one is clearest."
+      ],
+      "next": "Next · Rewrite a landing page"
+    }
+  ]
+}

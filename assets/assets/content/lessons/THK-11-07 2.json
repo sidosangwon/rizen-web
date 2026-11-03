@@ -1,0 +1,306 @@
+{
+  "id": "THK-11-07",
+  "unitId": "THK-11",
+  "categoryId": "THK",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "Read a café's loyalty-card test",
+  "readerTitle": "Two good numbers from a café's loyalty card, and why neither proves it works",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (동네 카페 스탬프 카드, 반려동물 용품점 적립 카드) · 모든 수치는 설명용",
+  "insight": "좋아 보이는 실험 숫자는 먼저 '무엇 중에서의 비율인가'와 '평소 흔들림보다 큰가'를 물어본 뒤 믿는다.",
+  "misconception": "교환율이 높고 매출이 올랐으니 적립 카드는 효과가 있다.",
+  "relatedLessonIds": [
+    "THK-11-02",
+    "THK-11-03"
+  ],
+  "sources": [
+    {
+      "text": "비율의 분모와 표본 변동(신호 대 잡음)에 관한 기본 통계 개념",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "교환율 계산: 완성 카드 기준 45 ÷ 60 = 75%, 배포 카드 기준 45 ÷ 400 = 11.25%(약 11%). 카드 문구와 일치하는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "주간 매출: 도입 전 $9,600 + $10,100 + $9,300 + $9,800 = $38,800, 평균 $9,700. 도입 후 $10,200 + $9,900 + $10,300 + $9,900 = $40,300, 평균 $10,075. 차이 $375, 375 ÷ 9,700 = 약 3.9%(약 4%). 도입 전 주간 변동 폭 $9,300~$10,100 = $800.",
+      "status": "open"
+    },
+    {
+      "note": "반려동물 용품점: 교환자 20명 가정 시 90% = 18명. 수치는 피드백 설명용 가정입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Everyday scene",
+      "title": "Two good numbers from a café's loyalty card",
+      "illustrative": true,
+      "body": [
+        "Mina's café handed out 400 stamp cards: buy nine coffees, get the tenth free. Four weeks later her barista was thrilled. \"75% of the cards were redeemed!\"",
+        "Weekly sales were up about 4%, too. Two numbers, both good news. Both may be telling her much less than they seem."
+      ],
+      "image": {
+        "label": "A café counter with a stack of stamp cards and a sales printout",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 톤의 동네 카페 카운터. 도장이 찍힌 종이 스탬프 카드 더미와 매출 영수증 출력물. 바리스타가 웃으며 \"75%!\"라고 적힌 메모를 들고 있고, 사장은 고개를 갸웃. 실제 브랜드 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Should Mina keep the card?",
+      "illustrative": true,
+      "body": [
+        "The free coffees cost Mina money, and the cards take staff time. Her barista reports: 75% of cards were redeemed, and weekly sales rose about 4% during the four-week test.",
+        "What should she do with these numbers?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep it. A 75% redemption rate and rising sales are clear proof",
+            "verdict": "risky",
+            "feedback": "You get a quick decision, but you're trusting two numbers you haven't questioned. The 75% may not mean what it sounds like."
+          },
+          {
+            "key": "B",
+            "text": "First ask what the 75% is out of, and whether 4% is bigger than a normal week's swing",
+            "verdict": "best",
+            "feedback": "Two quick questions before deciding. Each one checks a different way a good-looking number can fool you."
+          },
+          {
+            "key": "C",
+            "text": "Drop it. Free coffees eat into margins no matter what",
+            "verdict": "partial",
+            "feedback": "Cost matters, but you'd be ignoring the test entirely. The card might still pay off once you read it properly."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "Question one",
+      "title": "75% of what?",
+      "illustrative": true,
+      "body": [
+        "The barista divided by **completed cards**, not cards handed out. Counted against all 400 cards, only about 11% ended in a free coffee."
+      ],
+      "breakdown": [
+        {
+          "value": "400",
+          "label": "Cards handed out",
+          "detail": "Everyone offered a card",
+          "highlight": false
+        },
+        {
+          "value": "60",
+          "label": "Cards filled",
+          "detail": "Nine stamps collected",
+          "highlight": false
+        },
+        {
+          "value": "45",
+          "label": "Free coffees claimed",
+          "detail": "45 ÷ 60 = 75%",
+          "highlight": false
+        },
+        {
+          "value": "11%",
+          "label": "Claimed, out of all cards",
+          "detail": "45 ÷ 400",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept at work · Ratios and denominators",
+      "title": "The bottom number decides the story.",
+      "body": [
+        "Both percentages are correct. They answer different questions. The 75% says people who fill a card usually claim the coffee. That's hardly surprising.",
+        "Mina's real question is whether the card brings people back more often. For that, the **denominator** has to be everyone who got a card, and the top number has to be visits, not prizes."
+      ],
+      "image": {
+        "label": "Funnel from 400 cards to 60 filled to 45 claimed",
+        "aspectRatio": "16:9",
+        "brief": "깔때기 인포그래픽. 위에서부터 \"400 cards handed out\", \"60 filled\", \"45 claimed\". 오른쪽에 두 개의 괄호로 \"75% = 45 ÷ 60\"과 \"11% = 45 ÷ 400\"을 나란히 표시. 분모 부분을 강조색으로.",
+        "url": null
+      },
+      "softwareNote": "Apps hit the same trap with \"90% retention among users who finished onboarding.\" Divide by everyone who signed up and the number can look very different."
+    },
+    {
+      "index": 5,
+      "type": "chart",
+      "eyebrow": "Question two",
+      "title": "Is 4% more than a normal wobble?",
+      "illustrative": true,
+      "body": [
+        "Average weekly sales rose from $9,700 to $10,075, a gain of $375. But before the card, weeks already swung by up to $800 with no change at all."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Four weeks before the card",
+            "rows": [
+              {
+                "label": "Week 1",
+                "value": 9600,
+                "highlight": false
+              },
+              {
+                "label": "Week 2",
+                "value": 10100,
+                "highlight": false
+              },
+              {
+                "label": "Week 3",
+                "value": 9300,
+                "highlight": false
+              },
+              {
+                "label": "Week 4",
+                "value": 9800,
+                "highlight": false
+              }
+            ]
+          },
+          {
+            "label": "Four weeks with the card",
+            "rows": [
+              {
+                "label": "Week 5",
+                "value": 10200,
+                "highlight": true
+              },
+              {
+                "label": "Week 6",
+                "value": 9900,
+                "highlight": true
+              },
+              {
+                "label": "Week 7",
+                "value": 10300,
+                "highlight": true
+              },
+              {
+                "label": "Week 8",
+                "value": 9900,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Your call · round two",
+      "title": "The lift is smaller than the usual swing. Now what?",
+      "illustrative": true,
+      "body": [
+        "The $375 gain sits inside the range of ordinary weeks. Weather, school holidays or a nearby event could explain it."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Call it a win. Sales went up, and that's what counts",
+            "verdict": "risky",
+            "feedback": "This reads noise as signal. With four weeks and big natural swings, the bump could easily vanish next month."
+          },
+          {
+            "key": "B",
+            "text": "Run it longer and track how often card holders visit compared with before",
+            "verdict": "best",
+            "feedback": "This separates signal from noise: more weeks shrink the role of luck, and visit counts measure what the card is meant to change."
+          },
+          {
+            "key": "C",
+            "text": "Call it a failure. No clear lift means no effect",
+            "verdict": "partial",
+            "feedback": "Fair caution, but a small sample can hide a real effect as easily as it can fake one. Unclear is not the same as zero."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Better numbers still have limits.",
+      "body": [
+        "Even with the right denominator, card holders may simply be Mina's regulars. They'd have come anyway, so their high visit counts can flatter the card.",
+        "And more weeks cost real money in free coffees. Set a stopping point in advance, such as eight more weeks, rather than testing until the answer you want shows up."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a pet supply shop.",
+      "illustrative": true,
+      "body": [
+        "A shop starts a card: buy five bags of dog food, get the sixth free. After two weeks the manager reports: \"90% of customers who redeemed bought again, and sales are up 6%.\" The owner wants to extend it to every product."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Extend it now. Both numbers are strong",
+            "verdict": "risky",
+            "feedback": "Fast, but untested. Redeemers are the shop's most loyal buyers, and two weeks is too short to trust a 6% swing."
+          },
+          {
+            "key": "B",
+            "text": "Ask how many people the 90% covers, and compare 6% with normal two-week swings",
+            "verdict": "best",
+            "feedback": "Both concepts at once. If only 20 people redeemed, 90% is 18 customers. And 6% means little if sales often move that much on their own."
+          },
+          {
+            "key": "C",
+            "text": "Skip the numbers and ask customers if they like the card",
+            "verdict": "partial",
+            "feedback": "Useful for ideas, but liking a card isn't the same as buying more. Fix the numbers rather than drop them."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Before trusting a test, ask: out of what, and bigger than normal?",
+      "body": [
+        "This lesson used two ideas. **Ratios and denominators:** check what's on the bottom of a percentage. **Signal vs noise:** compare a change with how much things move on their own.",
+        "**Try it today:** take one success number from your business. Write down its denominator and the biggest swing you've seen without any change."
+      ],
+      "next": "Next · Read an app's pricing test"
+    }
+  ]
+}

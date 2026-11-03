@@ -1,0 +1,266 @@
+{
+  "id": "CUS-05-07",
+  "unitId": "CUS-05",
+  "categoryId": "CUS",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "Why people stay with their bank",
+  "readerTitle": "Why you still have the bank you opened at 18",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "real_observation",
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "일상 관찰 (은행 계좌를 바꾸지 않는 이유) + 실제 제도 (영국 Current Account Switch Service) + 가상 적용 (기장 대행 사무소, 사내 IT팀)",
+  "insight": "고객이 떠나지 않는 이유는 만족보다 '옮기는 수고'와 '잃을지도 모른다는 두려움'인 경우가 많다. 고객을 데려오려면 혜택을 키우기보다 이 두 가지를 대신 없애 줘야 한다.",
+  "misconception": "고객이 계속 남아 있으면 만족한다는 뜻이고, 더 큰 혜택을 주면 경쟁사 고객이 넘어온다.",
+  "relatedLessonIds": [
+    "CUS-05-02",
+    "CUS-05-06"
+  ],
+  "sources": [
+    {
+      "text": "Pay.UK / Bacs, Current Account Switch Service (UK, launched 2013): switching guarantee and payment redirection",
+      "url": "https://www.currentaccountswitch.co.uk"
+    },
+    {
+      "text": "Kahneman, D. & Tversky, A. (1979). Prospect Theory: An Analysis of Decision under Risk. Econometrica.",
+      "url": null
+    },
+    {
+      "text": "기장 대행 사무소와 사내 IT팀 사례는 설명용 가상 사례",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "영국 Current Account Switch Service: 2013년 9월 출시, 7영업일 내 전환 보장, 옛 계좌로 들어오는 결제를 새 계좌로 자동 연결, 문제가 생기면 이자·수수료를 환불한다는 보장 내용. 게시 전 공식 사이트에서 현재 조건을 다시 확인하세요. 전환율 통계는 확인되지 않아 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "손실 회피는 '같은 크기의 이득보다 손실을 더 크게 느낀다'로만 서술했습니다. '약 2배' 같은 구체 배수는 연구마다 다르므로 넣지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "3번 카드의 $200 보너스와 전환 항목 목록은 설명용 가상 예시입니다. 특정 은행의 실제 조건이 아닙니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Everyday scene",
+      "title": "Why you still have the bank you opened at 18",
+      "body": [
+        "Many people keep the same checking account for decades. They complain about the fees. They grumble about the app. They see ads from other banks every week.",
+        "And they stay. Not because they love their bank, but because of two forces you already know from this unit."
+      ],
+      "image": {
+        "label": "A person looking at a bank app while a tempting offer floats nearby",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 소파에 앉은 사람이 약간 지친 표정으로 휴대폰 은행 앱을 보고 있고, 옆에 반짝이는 \"Switch & get $200\" 말풍선이 떠 있음. 사람은 말풍선을 보지만 손은 그대로. 실제 은행 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/cus-05-07-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "A better bank offers $200 to switch.",
+      "illustrative": true,
+      "body": [
+        "A rival bank offers $200 and lower monthly fees to anyone who moves their checking account. Most people who see the offer don't move.",
+        "What's the most likely reason?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "They're happy with their current bank",
+            "verdict": "partial",
+            "feedback": "Some are. But plenty of unhappy customers stay too, so satisfaction alone doesn't explain it."
+          },
+          {
+            "key": "B",
+            "text": "Moving means redoing every payment, and a mistake could cost more than $200",
+            "verdict": "best",
+            "feedback": "Two forces at once: **friction** (the many small steps of moving) and **loss aversion** (a missed bill feels worse than a bonus feels good)."
+          },
+          {
+            "key": "C",
+            "text": "The bonus is too small. At $500, they'd move",
+            "verdict": "risky",
+            "feedback": "A bigger bonus raises the gain but leaves the work and the fear untouched. You'd pay more per customer and still win few of them."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What switching really involves",
+      "title": "One decision, many small jobs.",
+      "illustrative": true,
+      "body": [
+        "Each job is small. Together they turn \"switch banks\" into a weekend project with no deadline, so it never happens."
+      ],
+      "breakdown": [
+        {
+          "value": "1",
+          "label": "Salary",
+          "detail": "Send new details to your employer",
+          "highlight": false
+        },
+        {
+          "value": "Several",
+          "label": "Bills",
+          "detail": "Rent, phone, power, insurance, each updated by hand",
+          "highlight": true
+        },
+        {
+          "value": "Several",
+          "label": "Saved cards",
+          "detail": "Online shops and subscriptions",
+          "highlight": false
+        },
+        {
+          "value": "Years",
+          "label": "History",
+          "detail": "Statements and records left behind",
+          "highlight": false
+        }
+      ],
+      "softwareNote": "Software customers face the same list: export data, rebuild integrations, retrain the team. Good import tools and done-for-you migration remove most of it."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept at work · Friction",
+      "title": "Staying takes zero steps.",
+      "body": [
+        "**Friction** is any effort that stands between a person and an action. Here, every step is on the side of leaving. Staying needs nothing at all.",
+        "So the real competition isn't the other bank's offer. It's the to-do list. A customer can agree the new bank is better and still never start."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Concept at work · Loss aversion",
+      "title": "The $200 is small next to the fear.",
+      "body": [
+        "**Loss aversion** means losses tend to feel bigger than gains of the same size.",
+        "The bonus is a sure, modest gain. A bounced rent payment or a late fee is a possible loss, and it feels sharper. People weigh a small chance of a bad surprise against the bonus, and the fear often wins."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "A real fix",
+      "title": "The UK made the new bank do the work.",
+      "body": [
+        "In 2013, the UK launched the Current Account Switch Service. The new bank moves your payments for you, within seven working days. Payments sent to your old account are passed on. If something goes wrong, a guarantee covers the interest and charges.",
+        "It attacks both forces: the bank removes the friction, and the guarantee removes the fear of loss."
+      ],
+      "image": {
+        "label": "Payments flowing from an old account to a new one on their own",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 왼쪽 회색 계좌에서 오른쪽 밝은 계좌로 \"Salary\", \"Rent\", \"Phone\" 아이콘이 화살표를 따라 자동으로 이동. 아래에 방패 아이콘과 \"Guarantee\" 라벨. 실제 은행·기관 로고는 쓰지 않음.",
+        "url": "assets/images/cus-05-07-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Stuck is not the same as loyal.",
+      "body": [
+        "Friction keeps customers who would leave if they could. Those customers don't recommend you, and they go quickly once leaving gets easier.",
+        "If your own business relies on being hard to leave, treat it as borrowed time. Use it to give people a real reason to stay."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "You run a bookkeeping firm.",
+      "illustrative": true,
+      "body": [
+        "You want small businesses that already use another bookkeeper. They like your prices, but few move. What do you change?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Cut your monthly fee by another 15%",
+            "verdict": "partial",
+            "feedback": "It adds gain, but the client still has to collect files and fears a missed tax deadline. Price alone rarely beats **friction** and **loss aversion**."
+          },
+          {
+            "key": "B",
+            "text": "Collect their records from the old bookkeeper yourself and promise to cover any late-filing penalties",
+            "verdict": "best",
+            "feedback": "You take on the steps and you take on the risk. That removes the **friction** and the fear of loss at once, like the UK switch service."
+          },
+          {
+            "key": "C",
+            "text": "Advertise more widely so more owners hear about you",
+            "verdict": "risky",
+            "feedback": "More people learn you exist, but each still faces the same work and worry. You pay for attention that doesn't turn into switching."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "choice",
+      "eyebrow": "Try it · inside a company",
+      "title": "Your team is replacing an old tracking spreadsheet.",
+      "illustrative": true,
+      "body": [
+        "The operations team built a better project tool. Staff keep using the old shared spreadsheet. What gets them to move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Delete the spreadsheet on Friday",
+            "verdict": "risky",
+            "feedback": "It forces the move but makes people fear losing their work. Expect workarounds and resentment, a sign of **loss aversion** turning against you."
+          },
+          {
+            "key": "B",
+            "text": "Run training sessions on the new tool",
+            "verdict": "partial",
+            "feedback": "Helpful, but people still have to copy their projects over by hand. The **friction** remains."
+          },
+          {
+            "key": "C",
+            "text": "Import everyone's projects for them and keep the spreadsheet read-only for a month",
+            "verdict": "best",
+            "feedback": "The import removes the **friction**. The read-only copy removes the fear of losing anything, so moving feels safe."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 10,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "To win customers, do the moving for them.",
+      "body": [
+        "Recap: people stay with their bank because of **friction** (leaving takes many steps) and **loss aversion** (a possible mistake outweighs a bonus). Remove both and switching becomes easy.",
+        "**Try it today:** list every step a new customer takes to leave a rival for you. Circle one you could do for them, and one risk you could guarantee."
+      ],
+      "next": "Next · Why people quit halfway through a sign-up form"
+    }
+  ]
+}

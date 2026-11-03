@@ -1,0 +1,270 @@
+{
+  "id": "ECO-01-07",
+  "unitId": "ECO-01",
+  "categoryId": "ECO",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "Why concert tickets sell out in minutes",
+  "readerTitle": "Why concert tickets vanish in four minutes",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.7,
+  "caseKinds": [
+    "real_observation",
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 관찰 (인기 공연 매진과 재판매 가격) + 실제 연구자 견해 (Alan Krueger) + 가상 적용 (셰프 카운터 레스토랑, 앱 베타 초대권) · 수치는 모두 설명용",
+  "insight": "몇 분 만의 매진은 '인기'의 증거만이 아니다. 가격이 수요보다 낮게 정해졌다는 신호이고, 그 차액은 누군가가 반드시 가져간다.",
+  "misconception": "매진이 빠를수록 가격을 잘 정한 것이고, 되팔이 문제는 판매 사이트가 느리거나 되팔이꾼이 나쁜 탓이다.",
+  "relatedLessonIds": [
+    "ECO-01-01",
+    "ECO-01-04"
+  ],
+  "sources": [
+    {
+      "text": "Krueger, A. (2019). Rockonomics: A Backstage Tour of What the Music Industry Can Teach Us About Economics and Life. Currency.",
+      "url": null
+    },
+    {
+      "text": "Krueger, A. (2005). The Economics of Real Superstars: The Market for Rock Concerts in the Material World. Journal of Labor Economics, 23(1).",
+      "url": null
+    },
+    {
+      "text": "공연 좌석 수, 대기 인원, 정가·재판매가는 모두 설명용 가상 수치",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Krueger가 '많은 아티스트가 팬이 낼 수 있는 가격보다 낮게 티켓 가격을 정하며, 팬과의 관계와 공정성 인식이 그 이유 중 하나'라고 주장한 내용이 Rockonomics(2019)에 있는지 게시 전 원문으로 확인하세요. 카드에는 일반적인 표현으로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "계산 확인: 재판매가 $400 − 정가 $80 = 차액 $320. 좌석 20,000석 중 1/4 = 5,000장 재판매 시 5,000 × $320 = $1,600,000. 대기 인원 200,000명 ÷ 20,000석 = 좌석 1개당 10명.",
+      "status": "open"
+    },
+    {
+      "note": "레스토랑과 앱 베타 사례는 가상입니다. 무료 초대권이 재판매된 실제 사례(예: 초기 웹메일 서비스 초대권)는 확인 전까지 카드에 넣지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Economics · Everyday scene",
+      "title": "Why concert tickets vanish in four minutes",
+      "illustrative": true,
+      "body": [
+        "Sale opens at 10:00. By 10:04, every seat is gone. By 11:00, the same $80 tickets are listed online for $400.",
+        "Fans blame the website. The band blames resellers. Two ideas from this unit explain what actually happened."
+      ],
+      "image": {
+        "label": "Online ticket queue showing sold out at 10:04",
+        "aspectRatio": "4:3",
+        "brief": "노트북 화면에 대기열 진행 바와 \"SOLD OUT 10:04\" 문구. 옆의 휴대폰 화면에는 같은 좌석이 \"$400\"으로 재판매 중. 따뜻한 일러스트 톤, 실제 티켓 사이트·아티스트 로고 사용 금지.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What does a four-minute sellout tell the band?",
+      "illustrative": true,
+      "body": [
+        "A band sells 20,000 seats at $80 each. They sell out in four minutes. An hour later, resale prices sit around $400.",
+        "What's the most useful lesson for the band?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Demand is huge, so book a bigger tour next year",
+            "verdict": "partial",
+            "feedback": "True, but it misses the main signal. Even with more dates, if the price stays far below what fans will pay, the same rush and resale will happen again."
+          },
+          {
+            "key": "B",
+            "text": "The price was far below what fans would pay, and the gap went to someone else",
+            "verdict": "best",
+            "feedback": "That's **supply and demand** at work. A fixed number of seats met far more buyers than it could serve at $80. The $320 difference didn't vanish. Resellers collected it."
+          },
+          {
+            "key": "C",
+            "text": "The ticket site was too slow and needs better servers",
+            "verdict": "risky",
+            "feedback": "A faster site just makes the four minutes shorter. The shortage comes from the price, not the technology."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Ten fans for every seat.",
+      "illustrative": true,
+      "body": [
+        "At $80, ten people wanted each seat. Price did not decide who got in, so speed and luck did. And each ticket carried a **$320 gap** between what it cost and what someone would pay."
+      ],
+      "breakdown": [
+        {
+          "value": "20,000",
+          "label": "Seats",
+          "detail": "Fixed by the size of the venue",
+          "highlight": false
+        },
+        {
+          "value": "200,000",
+          "label": "Fans in the queue",
+          "detail": "All willing to pay at least $80",
+          "highlight": false
+        },
+        {
+          "value": "$80",
+          "label": "Face price",
+          "detail": "Set by the band months earlier",
+          "highlight": false
+        },
+        {
+          "value": "$320",
+          "label": "Gap per ticket",
+          "detail": "$400 resale minus $80 face price",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept at work · Supply and demand",
+      "title": "A price below the crowd creates a line.",
+      "body": [
+        "Supply here can't grow. The venue holds 20,000 people, full stop. When the price is set well below where buyers and seats would balance, more people want tickets than there are tickets. That's a **shortage**.",
+        "In a shortage, something still decides who gets the seats. If price doesn't, then speed, luck or patience does. A four-minute sellout is that line, squeezed into a ticket queue."
+      ],
+      "image": {
+        "label": "Fixed seats versus a much longer crowd at $80",
+        "aspectRatio": "16:9",
+        "brief": "왼쪽에 작은 공연장 좌석 블록(\"20,000 seats\"), 오른쪽에 훨씬 긴 사람들의 줄(\"200,000 fans at $80\"). 두 그룹 사이에 \"Shortage\" 라벨. 단순한 인포그래픽 스타일.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Concept at work · Incentives",
+      "title": "A $320 gap is a paycheck for whoever grabs it.",
+      "illustrative": true,
+      "body": [
+        "If even a quarter of the seats are resold, that's 5,000 tickets × $320, or about **$1.6 million** sitting on the table.",
+        "Money like that rewards anyone who can buy first: people running buying software, people who queue on many devices, people who never planned to attend. They aren't a strange force. They're responding to **incentives** the price created. Ban one method, and the reward stays, so another method appears."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Why bands do it anyway",
+      "title": "Leaving money on the table can be a choice.",
+      "body": [
+        "Economist Alan Krueger, who studied the concert business, argued that many artists price below what fans would pay. One reason: they care how fans see them. A band known for $400 tickets may lose goodwill it needs for decades.",
+        "So the real decision isn't only *what price*. It's *who gets the gap*: the band, the fans who get lucky, or the resellers. A low price is fine if you also plan for that."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · Restaurant",
+      "title": "Your chef's counter is booked out in minutes.",
+      "illustrative": true,
+      "body": [
+        "You run a 12-seat chef's counter. Each month's bookings open online and go in minutes. You keep the menu at $120 so regulars can come. Now bookings are showing up for resale at $350.",
+        "You want to keep the price friendly and stop the resale. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Raise the price to $350 so resellers have nothing to gain",
+            "verdict": "risky",
+            "feedback": "It closes the gap, but it gives up the goal you set: a price regulars can afford. You'd trade your loyal crowd for whoever pays most."
+          },
+          {
+            "key": "B",
+            "text": "Take full prepayment under the guest's name, and refund cancellations only through you",
+            "verdict": "best",
+            "feedback": "This removes the **incentive** to resell while keeping the $120 price. The gap still exists, but now only real diners can use it. The cost is more work at the door."
+          },
+          {
+            "key": "C",
+            "text": "Open bookings at a random time so bots can't plan ahead",
+            "verdict": "partial",
+            "feedback": "It may slow resellers for a while. But the $230 gap is still there, so they'll adapt. You've changed the race, not the reward."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "A fixed seat count is like any capacity limit: a launch with 500 founding-member spots, or a beta that your servers can only support for 1,000 users. The same gap and the same incentives appear."
+    },
+    {
+      "index": 8,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Every fix has a cost.",
+      "body": [
+        "Raising prices to match demand can look greedy, and customers remember. Name-only, non-transferable tickets stop resellers, but they also trap the fan who gets sick and can't go. Lotteries feel fair, but they remove the reward for loyal regulars.",
+        "No option makes the gap disappear while the price stays low. Pick the trade-off you can live with, and say it out loud to customers."
+      ]
+    },
+    {
+      "index": 9,
+      "type": "choice",
+      "eyebrow": "Try it · Software",
+      "title": "Your free beta invites are being sold.",
+      "illustrative": true,
+      "body": [
+        "Your app's servers can support 1,000 beta users. You give invites away for free. 20,000 people join the waitlist, and invites start appearing on resale sites for $50.",
+        "What's the best response?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Ignore it. Resale proves the hype is real",
+            "verdict": "risky",
+            "feedback": "The hype is real, but strangers are collecting the value, and your scarce spots go to people who paid a reseller rather than the users you chose."
+          },
+          {
+            "key": "B",
+            "text": "Tie each invite to the waitlist email, and add spots as server capacity grows",
+            "verdict": "best",
+            "feedback": "Locking invites to accounts removes the resale **incentive**. Growing capacity eases the shortage from the **supply** side, the only side you can change at a free price."
+          },
+          {
+            "key": "C",
+            "text": "Start charging $50 per invite",
+            "verdict": "partial",
+            "feedback": "It captures the gap for you, but a paid beta changes who signs up and what they expect. Fine if you want paying users early, risky if you want honest feedback."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 10,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A fast sellout means the price left a gap. Someone will take it.",
+      "body": [
+        "**Supply and demand** explains the shortage: fixed seats, a price below the crowd. **Incentives** explain the scramble: the gap pays whoever grabs first.",
+        "**Try it today:** find one thing you sell that regularly runs out. Write down who currently captures the gap, and whether that's who you want."
+      ],
+      "next": "Next · Should a founder do their own bookkeeping?"
+    }
+  ]
+}

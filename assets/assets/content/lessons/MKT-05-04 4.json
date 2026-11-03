@@ -1,0 +1,230 @@
+{
+  "id": "MKT-05-04",
+  "unitId": "MKT-05",
+  "categoryId": "MKT",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Referrals",
+  "readerTitle": "Why asking for one introduction beats paying for ten",
+  "format": "two_businesses",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 2개 (회계 사무소, 대기업 내부 데이터팀) + 실제 연구 (독일 은행 추천 프로그램, Schmitt 외 2011) + 가상 적용 (건축 사무소용 소프트웨어)",
+  "insight": "추천하는 사람이 치르는 진짜 비용은 수고와 평판 위험이다. 보상을 키우기보다 그 비용을 줄여 주면 추천이 늘어난다.",
+  "misconception": "추천이 안 들어오는 건 보상이 작아서다. 추천 보상금을 올리면 추천도 늘어난다.",
+  "relatedLessonIds": [
+    "MKT-05-03",
+    "MKT-05-10"
+  ],
+  "sources": [
+    {
+      "text": "Schmitt, P., Skiera, B., & Van den Bulte, C. (2011). Referral Programs and Customer Value. Journal of Marketing, 75(1), 46–59.",
+      "url": null
+    },
+    {
+      "text": "회계 사무소, 내부 데이터팀, 건축 사무소용 소프트웨어 사례와 차트 수치는 모두 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Schmitt 외(2011) 연구: 독일 은행에서 추천으로 들어온 고객이 이탈률이 낮고 장기 가치가 더 높았다는 결론을 확인하세요. 구체적 퍼센트(약 16~18% 수준으로 기억됨)는 원문 확인 전이라 카드에 넣지 않고 일반적 표현으로만 썼습니다.",
+      "status": "open"
+    },
+    {
+      "note": "3번 카드 차트 수치(6개월 추천 건수 2건 vs 11건)는 설명용 가상 수치입니다. 카드에 illustrative 표시가 있습니다.",
+      "status": "open"
+    },
+    {
+      "note": "7번 카드의 '일부 업종은 추천 보상을 제한한다'는 일반적 서술입니다. 특정 국가·업종의 법률 조언으로 읽히지 않도록 구체적 규정은 넣지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Growth · Two businesses",
+      "title": "Why asking for one introduction beats paying for ten",
+      "illustrative": true,
+      "body": [
+        "A bookkeeping firm offered clients $500 for every new client they sent. Six months later, two had come in.",
+        "Across town, a data team inside a big retailer offered nothing at all. Its tool spread to eleven new departments, almost all through introductions from people already using it."
+      ],
+      "image": {
+        "label": "Two offices: one with a cash reward sign, one with people shaking hands",
+        "aspectRatio": "4:3",
+        "brief": "화면을 좌우로 나눈 일러스트. 왼쪽은 작은 회계 사무소 벽에 \"$500 per referral\" 포스터가 붙어 있지만 조용함. 오른쪽은 대기업 사무실에서 한 직원이 동료 두 명을 서로 소개하며 악수시키는 장면. 실제 회사 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Your clients love you. You want more like them.",
+      "illustrative": true,
+      "body": [
+        "You run a 12-person bookkeeping firm for small manufacturers. Clients rate you highly, but new business comes in slowly.",
+        "You want your happy clients to send you others like them. What do you try first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Offer $500 cash for every referred client who signs",
+            "verdict": "partial",
+            "feedback": "A reward can help, but it doesn't remove what holds people back: the effort of making an intro and the worry of vouching for you. Some clients may also feel it makes their recommendation look bought."
+          },
+          {
+            "key": "B",
+            "text": "Right after a smooth year-end close, ask each client for one specific introduction and offer to draft the email",
+            "verdict": "best",
+            "feedback": "You ask when they feel the value most, name who you want, and do the work for them. It costs time, not cash, and it's harder to scale."
+          },
+          {
+            "key": "C",
+            "text": "Add a \"Refer a friend\" line to every invoice",
+            "verdict": "risky",
+            "feedback": "Cheap and constant, but easy to ignore. A general request on a bill asks nothing specific and arrives at the moment clients think about cost, not value."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "What happened",
+      "title": "Same goal, very different results.",
+      "illustrative": true,
+      "body": [
+        "The firm offered money and waited. The data team did something smaller: whenever a manager said the tool had saved their week, the team asked, \"Who else in finance has this problem?\" Then it wrote the intro message for them."
+      ],
+      "chart": {
+        "unit": "count",
+        "groups": [
+          {
+            "label": "New customers from referrals in six months",
+            "rows": [
+              {
+                "label": "Bookkeeping firm: $500 reward",
+                "value": 2,
+                "highlight": false
+              },
+              {
+                "label": "Data team: specific ask, no reward",
+                "value": 11,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Referrals",
+      "body": [
+        "A **referral** is a recommendation you deliberately ask for, make easy to give, and can trace back to the person who gave it.",
+        "Word of mouth happens on its own. A referral is designed. And every referral has a hidden price: the person making it **lends you their reputation**. If you disappoint the new customer, they look bad too."
+      ],
+      "image": {
+        "label": "A person handing over a card with their own face on it",
+        "aspectRatio": "16:9",
+        "brief": "한 사람이 다른 사람에게 명함을 건네는데, 명함에 회사 이름이 아니라 건네는 사람 자신의 얼굴이 그려져 있음. '추천은 내 평판을 빌려주는 것'이라는 은유. 따뜻한 색감, 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Lower what the referrer pays.",
+      "body": [
+        "People who like you still hold back for three reasons: it takes effort, it feels awkward, and it risks their reputation. Good referral asks shrink all three."
+      ],
+      "list": [
+        "**Timing:** ask right after a clear win, when the value is fresh",
+        "**Specific ask:** name the kind of person, not \"anyone you know\"",
+        "**Ready-made intro:** write the message they can forward",
+        "**Close the loop:** tell them how it went, so they feel safe doing it again"
+      ],
+      "callout": "The data team never paid anyone. It made saying yes easy and safe."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "Referred customers often stay longer.",
+      "body": [
+        "Researchers studied a German bank's referral program and tracked thousands of customers. Those who came through referrals were more likely to stay and were worth more over time than customers won other ways.",
+        "One likely reason: referrers screen for fit. They tend to recommend you to people who resemble them, and they already know you work well for people like them."
+      ],
+      "softwareNote": "In software, referred users often activate faster because a colleague already showed them what the product is for. Tracking referral links lets you compare their retention with users from ads."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Referrals amplify. They don't fix.",
+      "body": [
+        "If the work is only average, asking harder just spends your customers' goodwill. Referrals multiply what customers already feel.",
+        "They also stay inside your customers' circles. That can make it hard to reach a new market.",
+        "And large rewards can attract people who refer for the money, not the fit. In some industries, paying for referrals is also restricted, so check before you offer cash."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's software for architects.",
+      "illustrative": true,
+      "body": [
+        "You sell project-tracking software to small architecture firms. Users who finish their first project in it tend to love it. You want more referrals. Which plan fits best?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Show a pop-up on day one asking new users to invite five colleagues",
+            "verdict": "risky",
+            "feedback": "Fast and automatic, but users haven't seen any value yet. You'd be asking them to vouch for something they barely know."
+          },
+          {
+            "key": "B",
+            "text": "When a project closes, prompt: \"Know another firm drowning in spreadsheets?\" with a pre-written note",
+            "verdict": "best",
+            "feedback": "You ask at the moment of success, describe exactly who to refer, and remove the writing effort. Fewer prompts, but each lands better."
+          },
+          {
+            "key": "C",
+            "text": "Give one free month to anyone whose referral signs up",
+            "verdict": "partial",
+            "feedback": "A fair thank-you that may tip a few people. But without a good moment and an easy message, most happy users still won't get around to it."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Make recommending you easy and safe.",
+      "body": [
+        "A referral costs the referrer effort and reputation. Lower those costs with good timing, a specific ask and a ready-made intro before you reach for bigger rewards.",
+        "**Try it today:** think of one customer who just had a clear win with you. Ask them for one specific introduction, and offer to write the message."
+      ],
+      "next": "Next · When every new customer brings in more than one"
+    }
+  ]
+}

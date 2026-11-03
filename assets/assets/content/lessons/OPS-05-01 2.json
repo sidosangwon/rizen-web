@@ -1,0 +1,228 @@
+{
+  "id": "OPS-05-01",
+  "unitId": "OPS-05",
+  "categoryId": "OPS",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Scope, time and cost",
+  "readerTitle": "You can have it big, fast or cheap. Pick two.",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 3.9,
+  "caseKinds": [
+    "illustrative",
+    "real_observation"
+  ],
+  "caseNote": "가상 사례 (매장 리뉴얼, 레스토랑 오픈) + 실제 사례 (시드니 오페라하우스 건설). 원래 제안 형식은 company_story였으나, 소매·외식 판단 문제를 중심으로 하고 확인 가능한 실제 사례는 근거 카드에만 쓰기 위해 everyday_scene으로 바꿨습니다.",
+  "insight": "프로젝트가 막히면 '더 열심히'가 아니라 범위·기한·비용 중 무엇을 고정하고 무엇을 움직일지 고른다.",
+  "misconception": "범위, 기한, 예산을 모두 지키면서 더 열심히 하면 된다. 문제가 생기면 사람을 더 넣으면 해결된다.",
+  "relatedLessonIds": [
+    "OPS-05-02",
+    "OPS-05-09"
+  ],
+  "sources": [
+    {
+      "text": "프로젝트 관리의 표준 개념 (범위·일정·비용의 삼각형, 'iron triangle')",
+      "url": null
+    },
+    {
+      "text": "Sydney Opera House, official history (construction 1959–1973, cost and schedule)",
+      "url": "https://www.sydneyoperahouse.com/our-story"
+    },
+    {
+      "text": "Brooks, F. (1975). The Mythical Man-Month. Addison-Wesley.",
+      "url": null
+    },
+    {
+      "text": "매장·레스토랑 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "시드니 오페라하우스: 1959년 착공, 1973년 개관, 초기 예산 약 A$700만, 최종 비용 약 A$1억 200만. 공식 역사 자료로 게시 전 다시 확인하세요. 초기 완공 예정 시점은 자료마다 달라 카드에는 '이 몇 년 안에(about four years)'로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "설계(특히 지붕 셸 구조)가 완성되기 전에 착공했다는 점, 정부가 조기 착공을 원했다는 점을 공식 자료나 신뢰할 만한 역사서로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "가상 매장 수치: 예산 $60,000, 기한 11월 1일. 세 가지를 모두 하면 11월 20일, 11월 1일에 맞추려면 추가 인력 $15,000. 계산상 충돌 없음 (모두 설명용).",
+      "status": "open"
+    },
+    {
+      "note": "Brooks의 법칙('늦어진 소프트웨어 프로젝트에 인력을 더하면 더 늦어진다')은 The Mythical Man-Month(1975)에서 나온 표현입니다. softwareNote와 Watch out 카드에서 일반적으로만 언급했습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Everyday scene",
+      "title": "You can have it big, fast or cheap. Pick two.",
+      "illustrative": true,
+      "body": [
+        "A shop owner plans a refit before the holiday rush: new shelves, a faster checkout and a small coffee corner. Budget: $60,000. Deadline: November 1.",
+        "Three weeks in, the contractor calls. Something has to give. The only question is what."
+      ],
+      "image": {
+        "label": "A shop mid-renovation with a calendar and a price tag",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 공사 중인 작은 상점 내부. 한쪽에 반쯤 세운 선반, 계산대, 비닐로 덮인 커피 코너. 벽에 11월 1일에 동그라미 친 달력, 바닥에 '$60,000' 가격표. 실제 브랜드 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "The contractor can't do all three by November 1.",
+      "illustrative": true,
+      "body": [
+        "Doing everything would take until November 20. Hitting November 1 with everything would need a second crew for $15,000 more.",
+        "Your holiday sales start in early November. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Hold firm: all three, by November 1, for $60,000",
+            "verdict": "risky",
+            "feedback": "You keep every promise on paper. In practice, the contractor cuts corners or misses the date anyway, and you find out too late to choose."
+          },
+          {
+            "key": "B",
+            "text": "Drop the coffee corner for now; keep the date and budget",
+            "verdict": "best",
+            "feedback": "You protect the holiday rush and your cash. You give up the coffee corner until January, a quiet month to build it."
+          },
+          {
+            "key": "C",
+            "text": "Pay the extra $15,000 for a second crew",
+            "verdict": "partial",
+            "feedback": "You keep the date and the full scope, but spend 25% more. Worth it only if the coffee corner earns its keep during the holidays."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The trade",
+      "title": "Three levers, one project.",
+      "illustrative": true,
+      "body": [
+        "Each option fixed two things and moved the third. None of them made the problem disappear."
+      ],
+      "breakdown": [
+        {
+          "value": "Scope",
+          "label": "What gets built",
+          "detail": "Drop the coffee corner",
+          "highlight": true
+        },
+        {
+          "value": "Time",
+          "label": "When it's done",
+          "detail": "Open November 20 instead",
+          "highlight": false
+        },
+        {
+          "value": "Cost",
+          "label": "What it takes",
+          "detail": "Pay $15,000 for a second crew",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Scope, time and cost",
+      "body": [
+        "Every project has three limits. **Scope** is what you'll deliver. **Time** is when. **Cost** is the money and people it takes.",
+        "They're linked. Change one and at least one other has to move. Ask for more scope, and you need more time or more money. Fix all three, and the pressure goes somewhere hidden: usually **quality**."
+      ],
+      "softwareNote": "In software, scope is the feature list and cost is mostly people. Many teams fix the date and the team, then cut features to fit, shipping a smaller version on time."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "A real example",
+      "title": "The Sydney Opera House started before it was designed.",
+      "body": [
+        "Building began in 1959, while key parts of the design, including the famous roof shells, were still unsolved. The government wanted work underway.",
+        "Early plans talked about a few years and around A$7 million. It opened in 1973 at a cost of about A$102 million.",
+        "Because the scope wasn't settled, the time and cost couldn't be either. Each design change rippled into both."
+      ],
+      "image": {
+        "label": "Opera house shells with a growing cost line behind them",
+        "aspectRatio": "16:9",
+        "brief": "부드러운 일러스트. 오페라하우스를 연상시키는 조개껍데기 모양 지붕 실루엣(사진·로고 아님). 뒤로 1959년부터 1973년까지 가파르게 올라가는 선 그래프, 시작점 'A$7M', 끝점 'A$102M' 라벨.",
+        "url": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The levers aren't perfectly smooth.",
+      "body": [
+        "More money doesn't always buy more time. New workers need training and coordination, so adding people late can slow a project down.",
+        "And cutting scope only helps if you cut early. Dropping the coffee corner after the plumbing is in saves far less.",
+        "The idea isn't a formula. It's a reminder to choose which lever moves, and to choose while choosing is still cheap."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a restaurant opening.",
+      "illustrative": true,
+      "body": [
+        "You've announced an opening night in four weeks and sold out the first two evenings. The kitchen fit-out is running late. The full menu needs a second oven that won't arrive in time.",
+        "What do you move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Open on time with a shorter menu built around the one oven",
+            "verdict": "best",
+            "feedback": "You keep the date your guests booked and your budget. You give up some dishes for a few weeks, and learn what sells before adding more."
+          },
+          {
+            "key": "B",
+            "text": "Push opening back two weeks to launch the full menu",
+            "verdict": "partial",
+            "feedback": "You get the menu you wanted, but you disappoint booked guests and pay two more weeks of rent with no sales."
+          },
+          {
+            "key": "C",
+            "text": "Keep the full menu and date; staff will work around one oven",
+            "verdict": "risky",
+            "feedback": "Nothing visibly changes, so the pressure lands on quality: slow tickets and cold plates on the night that sets your reputation."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "When a project squeezes, decide what moves.",
+      "body": [
+        "Scope, time and cost are tied together. If you don't choose which one gives, quality will give for you.",
+        "**Try it today:** pick one project you're running. Write which of the three is truly fixed, and which you'd move first if it slipped."
+      ],
+      "next": "Next · What a good plan actually does"
+    }
+  ]
+}

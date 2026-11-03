@@ -1,0 +1,246 @@
+{
+  "id": "ENT-07-05",
+  "unitId": "ENT-07",
+  "categoryId": "ENT",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Learning from failure",
+  "readerTitle": "Not every failure teaches the same lesson",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 연구 (Amy Edmondson의 실패 분류, HBR 2011 / Right Kind of Wrong 2023) + 가상 사례 (카페 브런치, 일정 관리 앱)",
+  "insight": "실패에서 교훈을 찾기 전에 먼저 '어떤 종류의 실패였나'를 묻는다. 종류마다 맞는 대응이 다르다.",
+  "misconception": "실패는 모두 같은 방식으로 다루면 된다. 누군가의 잘못을 찾아 고치거나, 반대로 모든 실패를 '좋은 배움'으로 포장하면 된다.",
+  "relatedLessonIds": [
+    "ENT-07-01",
+    "CUS-04-06"
+  ],
+  "sources": [
+    {
+      "text": "Edmondson, A. C. (2011). Strategies for Learning from Failure. Harvard Business Review, April 2011.",
+      "url": null
+    },
+    {
+      "text": "Edmondson, A. C. (2023). Right Kind of Wrong: The Science of Failing Well. Atria Books.",
+      "url": null
+    },
+    {
+      "text": "카페와 앱 사례의 모든 수치와 상황은 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "'비난받아 마땅한 실패 2~5%, 실제로 비난받는 실패 70~90%'는 Edmondson(2011, HBR)에서 임원들에게 물었을 때 나온 답변 범위로 소개됩니다. 엄밀한 통계 조사가 아니라 임원들의 추정이라는 점을 카드에 밝혔습니다. 게시 전 원문 문구를 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "basic / complex / intelligent 세 분류는 Edmondson의 2023년 책 용어입니다. 2011년 HBR 글은 preventable / complex / intelligent로 나눕니다. 카드에서는 'basic'을 쓰고 'preventable'과 같은 뜻으로 풀었습니다. 용어를 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "'지능적 실패'의 조건(새로운 영역, 분명한 가설, 가능한 한 작은 규모, 기회가 있음)은 Edmondson 책의 기준을 요약한 것입니다. 원문 기준(4가지)과 표현을 대조하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Entrepreneurship · Everyday scene",
+      "title": "Three things went wrong at brunch. Only one was a mistake.",
+      "illustrative": true,
+      "body": [
+        "A neighborhood café launches weekend brunch. By noon, the hollandaise has run out, the line is out the door, and the new kimchi pancake has sold four plates.",
+        "The owner wants to know what went wrong. The trouble is, the answer is three different answers."
+      ],
+      "image": {
+        "label": "Busy café brunch with three small trouble spots",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 일러스트 스타일의 동네 카페 브런치 장면. 세 곳에 작은 말풍선 아이콘: 빈 소스 냄비, 문밖까지 늘어선 줄, 거의 손대지 않은 새 메뉴 접시. 실제 브랜드 로고나 간판은 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Monday morning review",
+      "illustrative": true,
+      "body": [
+        "You own the café. Brunch brought in less than you hoped, and the team looks tense. You sit down together on Monday.",
+        "What do you do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Decide brunch doesn't work here and drop it",
+            "verdict": "risky",
+            "feedback": "Quick and decisive, but you'd throw away a launch that may have failed for fixable reasons, and learn nothing about which part actually broke."
+          },
+          {
+            "key": "B",
+            "text": "Add stricter rules and checklists for everything",
+            "verdict": "partial",
+            "feedback": "Checklists fix some problems well. But a rule can't tell you whether customers want a kimchi pancake, and too many rules slow down the next new idea."
+          },
+          {
+            "key": "C",
+            "text": "Pull apart what went wrong and handle each problem differently",
+            "verdict": "best",
+            "feedback": "Slower on Monday, but each problem gets the fix it needs. The next cards show why this matters."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What happened",
+      "title": "Same morning, three different stories.",
+      "illustrative": true,
+      "breakdown": [
+        {
+          "value": "10:30",
+          "label": "Hollandaise ran out",
+          "detail": "The prep list said two batches. The second one was skipped.",
+          "highlight": false
+        },
+        {
+          "value": "40 min",
+          "label": "Waits at the door",
+          "detail": "New tablet ordering, two new servers and a surprise tour group, all at once",
+          "highlight": false
+        },
+        {
+          "value": "4 plates",
+          "label": "Kimchi pancake",
+          "detail": "A brand-new dish, tried for one day",
+          "highlight": true
+        }
+      ],
+      "callout": "One known step skipped. One pile-up of small things. One honest experiment."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Three kinds of failure",
+      "body": [
+        "Harvard professor Amy Edmondson sorts failures by cause. **Basic failures** happen when there's a known right way, and it isn't followed. **Complex failures** happen when several small things line up in a system with many moving parts. **Intelligent failures** are thoughtful tries in new territory that don't work out.",
+        "**Learning from failure** starts with naming which kind it was. The lesson, and the fix, depend on the answer."
+      ],
+      "image": {
+        "label": "Three-part scale: basic, complex, intelligent failure",
+        "aspectRatio": "16:9",
+        "brief": "가로로 긴 스펙트럼 인포그래픽. 왼쪽 'Basic' (체크리스트 아이콘), 가운데 'Complex' (얽힌 톱니바퀴 아이콘), 오른쪽 'Intelligent' (실험용 플라스크 아이콘). 왼쪽은 '고쳐야 할 것', 오른쪽은 '배울 것'이라는 느낌으로 색을 점점 바꿈.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "breakdown",
+      "eyebrow": "The evidence",
+      "title": "Most failures get blamed. Few deserve it.",
+      "body": [
+        "Edmondson asked executives two questions. How many failures in your company are truly someone's fault? And how many are treated that way? Their estimates, reported in a 2011 article:"
+      ],
+      "breakdown": [
+        {
+          "value": "2–5%",
+          "label": "Truly blameworthy",
+          "detail": "Executives' estimate of failures that really were someone's fault",
+          "highlight": false
+        },
+        {
+          "value": "70–90%",
+          "label": "Treated as blameworthy",
+          "detail": "Executives' estimate of failures handled as someone's fault",
+          "highlight": true
+        }
+      ],
+      "callout": "When every failure is blamed, people hide problems, and nobody learns from any of them."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Different failures need different fixes.",
+      "body": [
+        "Back at the café, each problem gets its own response:"
+      ],
+      "list": [
+        "**Basic:** fix the process. A prep checklist with a second check before opening.",
+        "**Complex:** reduce the pile-up. Don't launch new tablets and new staff on the same busy weekend.",
+        "**Intelligent:** keep the lesson. Four plates says something about price, name or placement. Test one change next week."
+      ],
+      "callout": "Punish an intelligent failure and people stop trying new things.",
+      "softwareNote": "The same split works for software teams. A skipped release check is basic. An outage from a traffic spike plus a new deploy is complex. A feature test nobody used is intelligent."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Calling it \"intelligent\" doesn't make it so.",
+      "body": [
+        "A failure earns that label only if the territory was truly new, you had a clear guess about what would happen, and you kept the try as small as you reasonably could. A full menu relaunch with no small test first is an expensive gamble, not an experiment.",
+        "Hindsight also makes causes look obvious. Before you try something new, write down what you expect. Afterward, you can compare instead of guess."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a scheduling app.",
+      "illustrative": true,
+      "body": [
+        "Last month your team offered a new paid add-on to 5% of users for two weeks. Almost nobody bought it.",
+        "The same month, the checkout page showed the wrong price for three days. A standard step, checking prices before each release, was skipped.",
+        "How should the review handle these?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Treat both as learning moments. No changes, no blame",
+            "verdict": "partial",
+            "feedback": "Good for morale, but the price error was a basic failure. Without a process fix, it will happen again."
+          },
+          {
+            "key": "B",
+            "text": "Fix the release checklist, and write up what the add-on test taught before designing the next one",
+            "verdict": "best",
+            "feedback": "Each failure gets a matching response: a process fix for the skipped step, and a recorded lesson for the small, well-run experiment."
+          },
+          {
+            "key": "C",
+            "text": "Hold both teams accountable for missing their targets",
+            "verdict": "risky",
+            "feedback": "It feels fair, but it treats a small test like a mistake. Next time, the team may skip experiments or hide weak results."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Before asking what you learned, ask what kind of failure it was.",
+      "body": [
+        "Basic failures need better processes. Complex ones need less pile-up. Intelligent ones need to be kept small, written down and built on.",
+        "**Try it today:** pick your last setback. Label it basic, complex or intelligent. Then write one fix that matches the label."
+      ],
+      "next": "Next · Why some founders bounce back and others don't"
+    }
+  ]
+}

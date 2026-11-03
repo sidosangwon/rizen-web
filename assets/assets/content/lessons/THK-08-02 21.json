@@ -1,0 +1,246 @@
+{
+  "id": "THK-08-02",
+  "unitId": "THK-08",
+  "categoryId": "THK",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "Averages hide the story",
+  "readerTitle": "The cleaning job that takes three hours never happens",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 연구 (1950년대 미 공군 조종사 신체 측정, Gilbert Daniels) + 가상 사례 (청소 서비스, 물류 창고) · 가상 사례 수치는 설명용",
+  "insight": "평균을 보면 먼저 '이 숫자 뒤에 어떤 모양의 분포가 숨어 있나'를 묻는다. 평균에 딱 맞는 고객이나 작업은 하나도 없을 수 있다.",
+  "misconception": "평균값에 맞춰 계획하면 대부분의 경우에 맞는다.",
+  "relatedLessonIds": [
+    "THK-08-03",
+    "THK-04-06"
+  ],
+  "sources": [
+    {
+      "text": "Daniels, G. S. (1952). The \"Average Man\"? Technical Note WCRD 53-7, Wright Air Development Center, U.S. Air Force.",
+      "url": null
+    },
+    {
+      "text": "Rose, T. (2016). The End of Average. HarperOne. (Daniels 연구의 대중적 소개)",
+      "url": null
+    },
+    {
+      "text": "청소 서비스와 물류 창고 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Daniels 연구: 조종사 4,063명, 신체 치수 10개, 각 치수의 중간 30% 범위를 '평균'으로 정의, 10개 모두 평균 범위에 든 사람은 0명. 1차 자료(1952 기술 보고서)로 수치를 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "이후 공군이 조절식 좌석 등 '조절 가능한 설계' 쪽으로 갔다는 내용은 주로 Todd Rose(2016)의 설명에 근거합니다. 카드에는 일반적으로만 적었습니다. 인과와 시기를 단정하지 않도록 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "청소 계산: 소형 아파트 2시간 × 절반, 대형 주택 4시간 × 절반 → 평균 (2+4)÷2 = 3시간. 대형 주택이 3시간 슬롯에 들어가면 1시간 지연, 다음 작업으로 이어짐.",
+      "status": "open"
+    },
+    {
+      "note": "물류 계산: 70% × 2일 + 30% × 5일 = 1.4 + 1.5 = 2.9일 ≈ 3일. '3일 배송' 약속 시 5일 걸리는 30%는 모두 늦음.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Counterexample",
+      "title": "The cleaning job that takes three hours never happens",
+      "illustrative": true,
+      "body": [
+        "A home cleaning company knows its average job takes three hours. So it books every visit in a three-hour slot.",
+        "Crews are late almost every afternoon. Customers complain. The average is correct. The schedule still fails."
+      ],
+      "image": {
+        "label": "A cleaning van stuck behind a clock showing three hours",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 청소 업체 밴과 직원 두 명이 문 앞에서 시계를 보며 초조해하는 장면. 벽에 붙은 일정표에는 똑같은 3시간 칸이 줄지어 있고 뒤쪽 칸들이 밀려 겹쳐 있음. 실제 회사 로고 없음.",
+        "url": "assets/images/thk-08-02-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Why are the crews running late?",
+      "illustrative": true,
+      "body": [
+        "The three-hour average comes from a full year of real jobs. Crews aren't wasting time, and no single job looks unusual.",
+        "What's the most likely cause?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The crews are getting slower and need more training",
+            "verdict": "risky",
+            "feedback": "Training costs money and time, and it won't help if the crews are already working at a normal pace. The problem may be the plan, not the people."
+          },
+          {
+            "key": "B",
+            "text": "Few jobs actually take three hours; most are much shorter or much longer",
+            "verdict": "best",
+            "feedback": "Right. A three-hour average can come from jobs that never take three hours. Long jobs overrun their slots, and the delay rolls into the rest of the day."
+          },
+          {
+            "key": "C",
+            "text": "Three hours is too tight; add 15 minutes to every slot",
+            "verdict": "partial",
+            "feedback": "A buffer softens the lateness, but it wastes time on short jobs and still isn't enough for long ones. It treats the average as the truth, just a bit padded."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What was hiding",
+      "title": "Two kinds of job, zero three-hour jobs.",
+      "illustrative": true,
+      "body": [
+        "Half the jobs are small apartments. Half are large houses. The average lands where no real job sits. Each large house runs **an hour over** its slot, and the next customer waits."
+      ],
+      "breakdown": [
+        {
+          "value": "2 hrs",
+          "label": "Small apartments",
+          "detail": "About half of all jobs",
+          "highlight": false
+        },
+        {
+          "value": "4 hrs",
+          "label": "Large houses",
+          "detail": "About half of all jobs",
+          "highlight": false
+        },
+        {
+          "value": "3 hrs",
+          "label": "The average",
+          "detail": "A job length that almost never happens",
+          "highlight": true
+        },
+        {
+          "value": "+1 hr",
+          "label": "Each large house",
+          "detail": "Late by an hour, pushing back the next visit",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Averages hide the story",
+      "body": [
+        "An average squeezes many numbers into one. It tells you the middle. It does not tell you **how spread out** the numbers are, whether there are separate groups, or whether a few extremes are pulling it.",
+        "Before you plan around an average, look at the numbers behind it. A quick list or a simple chart is often enough. Ask three questions: How wide is the spread? Are there clusters? Are there outliers?"
+      ],
+      "image": {
+        "label": "Two hills of job lengths with the average between them",
+        "aspectRatio": "16:9",
+        "brief": "히스토그램 인포그래픽. 가로축은 작업 시간(1~5시간). 2시간과 4시간 부근에 높은 봉우리 두 개, 3시간 지점에는 거의 막대가 없음. 3시간 위치에 점선과 \"Average\" 라벨.",
+        "url": "assets/images/thk-08-02-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "The Air Force's average pilot didn't exist.",
+      "body": [
+        "Around 1950, U.S. Air Force researcher Gilbert Daniels measured 4,063 pilots on 10 body dimensions used in cockpit design, such as height and arm length.",
+        "He asked how many pilots fell near the average on all ten. The answer was **none**. A cockpit built for the average pilot fit no actual pilot.",
+        "The Air Force later moved toward designs that adjust to the person, such as adjustable seats."
+      ],
+      "image": {
+        "label": "Pilots of many shapes beside one rigid cockpit seat",
+        "aspectRatio": "16:9",
+        "brief": "1950년대 느낌의 일러스트. 키와 체형이 다른 조종사 다섯 명이 고정된 조종석 하나 앞에 서 있고, 누구에게도 맞지 않는 모습. 실제 군 휘장이나 로고는 쓰지 않음.",
+        "url": "assets/images/thk-08-02-c5.jpg"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where else it shows up",
+      "title": "A few big numbers can drag the middle.",
+      "illustrative": true,
+      "body": [
+        "An accounting firm says its average client pays $20,000 a year. But two large clients pay most of that. A typical client pays far less, and losing one big client would hurt more than the average suggests.",
+        "When a few values are extreme, the **median**, the value in the middle of the list, often describes the typical case better."
+      ],
+      "softwareNote": "\"Average revenue per user\" often hides a small group of heavy spenders and a large group paying little. Pricing or features built for the average user may suit neither group."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Averages still have a job.",
+      "body": [
+        "When the numbers sit close together, the average is a fine summary. And when you only care about totals, such as how much detergent to buy for a thousand jobs, the average does the work.",
+        "Averages fail when you plan for *each* case: one slot, one promise, one product size. That's when the spread matters. Look at it once before you commit."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a warehouse.",
+      "illustrative": true,
+      "body": [
+        "Your warehouse ships orders nationwide. Average delivery time is about three days. But 70% of orders arrive in two days, and 30% go to remote areas and take five.",
+        "Marketing wants a delivery promise on the website. What do you choose?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Promise 3-day delivery everywhere, since that's the average",
+            "verdict": "risky",
+            "feedback": "It matches the data on paper, but every remote order, nearly a third of the total, arrives late. You'd break a promise on thousands of orders."
+          },
+          {
+            "key": "B",
+            "text": "Show the promise by region: 2 days for most, 5 days for remote areas",
+            "verdict": "best",
+            "feedback": "Each customer sees a promise that fits their case. It takes a little more setup, but most customers get a faster promise and nobody gets a false one."
+          },
+          {
+            "key": "C",
+            "text": "Promise 5 days everywhere to be safe",
+            "verdict": "partial",
+            "feedback": "You'll rarely be late, but you undersell your speed to 70% of customers who could hear \"2 days\". Safe, at the cost of looking slower than you are."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Before trusting an average, look at what's behind it.",
+      "body": [
+        "An average can describe nobody. Check the spread, the clusters and the outliers before you plan one slot, one price or one promise around it.",
+        "**Try it today:** pick one average you use often, such as job length, order size or delivery time. List twenty real values behind it. Does any group sit far from the average?"
+      ],
+      "next": "Next · When every group improves but the total gets worse"
+    }
+  ]
+}

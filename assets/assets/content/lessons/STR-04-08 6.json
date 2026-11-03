@@ -1,0 +1,259 @@
+{
+  "id": "STR-04-08",
+  "unitId": "STR-04",
+  "categoryId": "STR",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "Find the moat in a software company",
+  "readerTitle": "Why the office manager won't switch, even at half price",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (회계사무소용 소프트웨어 회사, 소매 체인 사내 리포팅 팀) · 실제 기업·수치 없음",
+  "insight": "소프트웨어 회사의 해자는 기능이 아니라 고객이 떠날 때 두고 가야 하는 것(데이터, 습관, 연결)에 있다. 그것이 가치에서 나왔는지 장애물에서 나왔는지가 오래 가는지를 결정한다.",
+  "misconception": "기능이 더 좋거나 고객 수가 가장 많으면 소프트웨어 회사는 안전하다. 이탈을 어렵게 만들수록 해자가 깊어진다.",
+  "relatedLessonIds": [
+    "STR-04-04",
+    "STR-04-06"
+  ],
+  "sources": [
+    {
+      "text": "이 유닛의 개념 레슨 (STR-04-01 해자, STR-04-02 규모, STR-04-04 전환 비용, STR-04-06 해자의 침식)",
+      "url": null
+    },
+    {
+      "text": "모든 인물·회사·수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Dana, 12명 회계사무소, 고객사 400곳, 60개 매장 체인, 4명 팀 등 모든 인물과 수치는 가상입니다. 실제 기업이나 통계를 인용하지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "5번 카드의 '소프트웨어는 고객 한 명을 더 받는 비용이 낮다'는 일반적 설명입니다. 업종 통계로 수치화하지 않았는지 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "6번 카드의 '데이터 표준·가져오기 도구가 전환 비용을 낮춘다'는 일반 원리로만 서술했습니다. 특정 국가의 데이터 이동권 법률은 다루지 않습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Strategy · Apply",
+      "title": "She turned down software at half the price.",
+      "illustrative": true,
+      "body": [
+        "Dana runs the office at a 12-person bookkeeping firm. A sales rep offers her new practice software: cleaner, faster, and half the price of what the firm uses now.",
+        "She says no in under a minute. Her reasons say more about the current software company's moat than its sales pitch ever could."
+      ],
+      "image": {
+        "label": "Office manager waving off a sales pitch at her desk",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 작은 회계사무소 책상에서 사무장이 웃으며 손을 저어 거절하는 장면. 맞은편 영업사원이 '50% OFF' 태그가 붙은 노트북을 내밀고 있음. 사무장 뒤로 파일, 모니터, 연결선이 얽혀 있음. 실제 소프트웨어 로고나 상표 사용 금지.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "A rival copies you at half price.",
+      "illustrative": true,
+      "body": [
+        "You founded the software Dana's firm uses. About 400 bookkeeping firms pay for it. A rival launches with similar features at half your price.",
+        "What protects you most?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Our features are still a bit better",
+            "verdict": "risky",
+            "feedback": "Features fail the moat test. A capable rival can rebuild them in months, and then only price is left."
+          },
+          {
+            "key": "B",
+            "text": "Our customers' client history, workflows and trained staff all live in our tool",
+            "verdict": "best",
+            "feedback": "That's **switching costs**. Leaving means giving up years of built-up work, which a lower price doesn't repay."
+          },
+          {
+            "key": "C",
+            "text": "We have more customers than any rival",
+            "verdict": "partial",
+            "feedback": "Size can help through **scale**, but only if it changes your costs or product. A big customer count alone doesn't stop a firm from leaving."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The scene",
+      "title": "What Dana would have to leave behind.",
+      "illustrative": true,
+      "body": [
+        "None of these is on the rival's price list. Together they make **half price feel expensive**."
+      ],
+      "breakdown": [
+        {
+          "value": "3 years",
+          "label": "Client history",
+          "detail": "Notes, files and past returns for every client",
+          "highlight": false
+        },
+        {
+          "value": "12 people",
+          "label": "Retraining",
+          "detail": "Every staff member learns new screens and habits",
+          "highlight": false
+        },
+        {
+          "value": "4 links",
+          "label": "Connected tools",
+          "detail": "Bank feeds, payroll, e-signature, client portal",
+          "highlight": false
+        },
+        {
+          "value": "1 bad month",
+          "label": "Risk",
+          "detail": "A migration mistake in tax season hits real clients",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept at work",
+      "title": "Run the moat test.",
+      "body": [
+        "Ask the question from earlier in this unit: if a rival copied your product tomorrow, what would still keep customers? Features don't survive that test.",
+        "What survives is the cost of leaving: data, habits and connections built over years. That's **switching costs**, often the deepest moat in software sold to businesses. It also grows with time. A firm in its first month could leave easily. A firm in its third year can't."
+      ],
+      "image": {
+        "label": "A castle of stacked files and cables behind a moat",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽 스타일. 성 대신 고객 기록 파일, 직원 교육 매뉴얼, 연결 케이블이 쌓인 구조물. 둘레의 해자에 'Cost of leaving' 라벨. 해자가 시간 축(Month 1 → Year 3)에 따라 점점 넓어지는 모습. 로고 사용 금지.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Concept at work",
+      "title": "What about being the biggest?",
+      "illustrative": true,
+      "body": [
+        "Size feels like protection. It only is when it changes the economics. **Scale** works as a moat when large fixed costs, like building and maintaining software, are spread over more customers, so you can charge less or invest more than a smaller rival.",
+        "Here, 400 firms help you fund better bank-feed links and support. But the rival also sells software, and serving one more customer costs it little too. Scale supports the wall. It isn't the wall."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Switching costs wear down.",
+      "body": [
+        "**Moats erode.** Rivals build one-click import tools. Shared data formats make files easy to move. And customers who feel trapped start looking, even when leaving hurts.",
+        "The lasting kind of switching cost comes from value customers built inside your product. The fragile kind comes from obstacles you put in their way. Customers accept the first. They plan their escape from the second."
+      ],
+      "image": {
+        "label": "Two moats: one filled with value, one blocked by a fence",
+        "aspectRatio": "16:9",
+        "brief": "좌우 비교 일러스트. 왼쪽: 고객이 직접 쌓은 정원(데이터, 습관)이 있는 성, 라벨 'Value they built'. 오른쪽: 철조망과 자물쇠로 막힌 성, 고객들이 사다리로 탈출 준비, 라벨 'Obstacles you built'. 로고 사용 금지.",
+        "url": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · the moat erodes",
+      "title": "The rival can now import your data.",
+      "illustrative": true,
+      "body": [
+        "Six months later, the rival announces one-click import from your software. Dana's client history could move in an afternoon.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Match the rival's price",
+            "verdict": "risky",
+            "feedback": "You give up margin on all 400 firms to defend one cost that just fell. A lower price doesn't rebuild **switching costs**."
+          },
+          {
+            "key": "B",
+            "text": "Make exports harder so the import tool breaks",
+            "verdict": "risky",
+            "feedback": "It buys a few months but tells customers they're trapped. That's how **moats erode** faster, and firms warn each other."
+          },
+          {
+            "key": "C",
+            "text": "Deepen what an import can't carry: workflows, connected tools, tax-season support",
+            "verdict": "best",
+            "feedback": "The data moved, but habits, links and trust didn't. You rebuild **switching costs** from value, the kind that erodes slowly."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a team inside a retail chain.",
+      "illustrative": true,
+      "body": [
+        "You lead a four-person team that built the reporting dashboards for a 60-store retail chain. Finance proposes replacing them with an off-the-shelf tool to save money.",
+        "What is your team's real moat?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Our dashboards have custom reports no vendor offers",
+            "verdict": "partial",
+            "feedback": "True today, but a vendor's consultants can rebuild reports in weeks. Features alone fail the moat test."
+          },
+          {
+            "key": "B",
+            "text": "Store managers' weekly routines run on our reports, and we know the data's quirks",
+            "verdict": "best",
+            "feedback": "That's **switching costs** built from value: replacing you means retraining 60 managers and relearning messy data. Spell that out for Finance."
+          },
+          {
+            "key": "C",
+            "text": "Only we understand the code, so replacing us is too risky",
+            "verdict": "risky",
+            "feedback": "That's an obstacle, not value. Leaders see it as a risk to remove, which makes this the fastest way for your **moat to erode**."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Look for the moat in what customers would leave behind.",
+      "body": [
+        "Concepts used: **switching costs** (what leaving costs Dana and the store managers), scale (helpful, but not the wall), and how moats erode (import tools and trapped customers).",
+        "**Try it today:** list everything a customer would have to redo if they left you tomorrow. Mark each item as value they built or an obstacle you built."
+      ],
+      "next": "Next · Hermès and the Birkin waitlist"
+    }
+  ]
+}

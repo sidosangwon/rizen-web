@@ -1,0 +1,269 @@
+{
+  "id": "THK-07-04",
+  "unitId": "THK-07",
+  "categoryId": "THK",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "The 80/20 rule",
+  "readerTitle": "Most of your problem lives in a few places",
+  "format": "company_story",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "real_company",
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Microsoft, 2002년 오류 보고 분석) + 실제 연구사 (Pareto, Juran) + 가상 사례 (금속 부품 공장, 구독형 앱)",
+  "insight": "문제를 풀기 전에 원인을 세어 정렬하면, 노력을 쏟을 곳이 소수의 원인으로 좁혀진다.",
+  "misconception": "모든 원인이 비슷하게 중요하니 골고루 조금씩 손보는 것이 공정하고 안전하다. 또는 80/20은 언제나 정확히 80과 20으로 나오는 법칙이다.",
+  "relatedLessonIds": [
+    "THK-07-02",
+    "THK-07-05"
+  ],
+  "sources": [
+    {
+      "text": "Microsoft CEO Steve Ballmer, October 2002 memo on Trustworthy Computing and Windows Error Reporting, as reported by CRN (2002)",
+      "url": null
+    },
+    {
+      "text": "Pareto, V. (1896–97). Cours d'économie politique (income and wealth distribution)",
+      "url": null
+    },
+    {
+      "text": "Juran, J. M. (1951). Quality Control Handbook; Juran's later writing on the 'vital few and useful many'",
+      "url": null
+    },
+    {
+      "text": "공장·앱 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Microsoft 수치(버그 상위 20%가 오류의 80%, 버그 1%가 오류의 절반)는 2002년 10월 Ballmer 메모를 인용한 CRN 보도에 근거합니다. 게시 전 원문 문구와 날짜를 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Pareto의 '이탈리아 토지 80%를 인구 20%가 소유' 이야기는 널리 인용되지만 원문 근거가 분명하지 않습니다. 카드에는 '소수가 대부분의 소득과 부를 가졌다'는 일반적인 표현만 썼습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Juran이 이 패턴에 Pareto의 이름을 붙이고 'vital few'라는 표현을 쓴 시기(1940~50년대)를 확인하세요. 카드에는 'in the mid-20th century'로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "공장 계산: 결함 유형 10개, 월 500건. 긁힘 230 + 구멍 위치 불량 170 = 400 = 80%. 나머지 8개 유형: 30+20+15+12+10+6+4+3 = 100. 차트는 30, 20, 기타 6개 유형 50(15+12+10+6+4+3)으로 표시. 합계 230+170+30+20+50 = 500. 상위 2개 유형 = 10개 중 20%.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Problem solving · Company story",
+      "title": "Most of your problem lives in a few places",
+      "body": [
+        "In 2002, Microsoft looked at crash reports sent in by Windows users. It found that about 20% of its bugs caused about 80% of the errors people saw.",
+        "Then a sharper number: roughly 1% of bugs caused half of all errors. Fixing a short list would help millions of people more than fixing a long one."
+      ],
+      "image": {
+        "label": "A huge pile of error cards traced back to a few bugs",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 왼쪽에 작은 벌레 모양 아이콘 몇 개, 오른쪽에 거대한 오류 경고창 더미. 소수의 벌레에서 굵은 선이 더미 대부분으로 이어짐. 실제 회사 로고나 운영체제 화면은 쓰지 않음.",
+        "url": "assets/images/thk-07-04-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Ten kinds of defects, one project.",
+      "illustrative": true,
+      "body": [
+        "You run a plant that makes metal brackets. Customers sent back 500 faulty parts last month, across ten kinds of defect.",
+        "You have the people and budget for one improvement project this quarter. What do you do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Fix wrong labels, since your biggest customer complained about them loudly",
+            "verdict": "partial",
+            "feedback": "You calm an important customer fast. But a loud complaint is not a count, and labels may be a small share of the 500 returns."
+          },
+          {
+            "key": "B",
+            "text": "Count returns by defect type for a few weeks, then attack the biggest",
+            "verdict": "best",
+            "feedback": "You spend a little time up front and aim the whole project where the most returns come from. The next card shows what the count found."
+          },
+          {
+            "key": "C",
+            "text": "Make a small fix for each of the ten types so nothing is ignored",
+            "verdict": "risky",
+            "feedback": "It feels fair and thorough. But one budget split ten ways rarely fixes anything fully, and the big causes keep producing most of the returns."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "What the count showed",
+      "title": "Two defect types made 80% of the returns.",
+      "illustrative": true,
+      "body": [
+        "Scratches and misaligned holes added up to 400 of 500 returns. That's two of ten types, or 20% of the causes, behind 80% of the problem.",
+        "The other eight types together made just 100 returns."
+      ],
+      "chart": {
+        "unit": "count",
+        "groups": [
+          {
+            "label": "Returned parts by defect type, one month",
+            "rows": [
+              {
+                "label": "Scratches",
+                "value": 230,
+                "highlight": true
+              },
+              {
+                "label": "Misaligned holes",
+                "value": 170,
+                "highlight": true
+              },
+              {
+                "label": "Loose fittings",
+                "value": 30,
+                "highlight": false
+              },
+              {
+                "label": "Wrong labels",
+                "value": 20,
+                "highlight": false
+              },
+              {
+                "label": "6 other types",
+                "value": 50,
+                "highlight": false
+              }
+            ]
+          }
+        ]
+      },
+      "image": {
+        "label": "Two defect types made 80% of the returns.",
+        "aspectRatio": "4:3",
+        "brief": "Labeled HTML chart from the lesson numbers",
+        "url": "assets/images/thk-07-04-chart.png"
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The 80/20 rule",
+      "body": [
+        "The **80/20 rule** says that in many situations, a small share of causes produces a large share of the results. It is also called the Pareto principle.",
+        "Economist Vilfredo Pareto noticed in the 1890s that a small share of people held most of the income and wealth. In the mid-20th century, quality expert Joseph Juran saw the same shape in factory defects and called it the *vital few* and the *trivial many*."
+      ],
+      "image": {
+        "label": "Few large blocks and many small blocks side by side",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 왼쪽에 큰 블록 2개(진한 색, \"Vital few\"), 오른쪽에 작은 블록 8개(연한 색, \"Useful many\"). 큰 블록 2개의 면적이 전체의 약 80%로 보이게.",
+        "url": "assets/images/thk-07-04-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How to use it",
+      "title": "Find your vital few in three steps.",
+      "body": [
+        "You can't see the pattern by feel. You have to count."
+      ],
+      "list": [
+        "**Count:** tally each problem by cause, product or customer",
+        "**Sort:** put the biggest at the top",
+        "**Add up:** see how few lines make up most of the total"
+      ],
+      "callout": "The split is rarely exactly 80/20. It might be 70/30 or 90/10. What matters is that it's uneven."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where else it shows up",
+      "title": "Sales, costs, time and complaints.",
+      "body": [
+        "The same shape appears all over a business. A few products often bring most of the revenue. A few customers may cause most of the late payments. A few routes may use most of a delivery fleet's fuel.",
+        "It works in reverse too. Sometimes many small customers bring modest revenue but take most of your team's time. Sorting shows you both where the value is and where the effort goes."
+      ],
+      "image": {
+        "label": "Sorted bar chart with the first few bars highlighted",
+        "aspectRatio": "16:9",
+        "brief": "막대 그래프 하나를 큰 순서대로 정렬. 앞쪽 2~3개 막대만 진한 색. 위에 작은 아이콘(상자, 사람, 트럭, 시계)을 띄워 매출·고객·물류·시간 등 어디에나 적용된다는 느낌. 실제 브랜드 표시 없음.",
+        "url": "assets/images/thk-07-04-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The small causes are not always trivial.",
+      "body": [
+        "The rule tells you where most of the *volume* is, not where the most *harm* is. One rare defect that causes injuries matters more than a thousand scratches.",
+        "Today's small items can also be tomorrow's big ones. A new product or a young customer may look minor this month.",
+        "Juran himself later preferred to call the rest the *useful many*. Focus first on the few, but don't stop looking at the many."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a subscription app.",
+      "illustrative": true,
+      "body": [
+        "Your budgeting app gets 1,200 support tickets a month. Two support staff are overwhelmed, and replies now take three days.",
+        "Users are starting to cancel over slow help. What's your first move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Hire two more support agents",
+            "verdict": "risky",
+            "feedback": "Replies get faster quickly. But costs grow with every new user, and nothing shrinks the pile of tickets itself."
+          },
+          {
+            "key": "B",
+            "text": "Write reply templates for every type of ticket",
+            "verdict": "partial",
+            "feedback": "Each reply gets faster. But you spread effort across every type when a few may be causing most of the tickets."
+          },
+          {
+            "key": "C",
+            "text": "Tag a month of tickets by reason and fix the top two causes in the app",
+            "verdict": "best",
+            "feedback": "If a couple of issues, like bank sync or password resets, drive most tickets, fixing them removes the work instead of handling it faster."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Count before you fix.",
+      "body": [
+        "Most problems are lopsided. A few causes make most of the mess, so sorting them first tells you where one project can do the most good.",
+        "**Try it today:** take your last 50 complaints, returns or late jobs. Group them by cause and sort. How many groups make up most of the list?"
+      ],
+      "next": "Next · Ask why five times"
+    }
+  ]
+}

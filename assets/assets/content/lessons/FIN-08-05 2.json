@@ -1,0 +1,241 @@
+{
+  "id": "FIN-08-05",
+  "unitId": "FIN-08",
+  "categoryId": "FIN",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Liquid vs illiquid assets",
+  "readerTitle": "The $250,000 business that can't pay a $30,000 bill",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (조경 회사, 제조업체 안의 운영팀 소프트웨어 계약) · 모든 수치는 설명용",
+  "insight": "자산의 가치는 하나가 아니다. 현금이 언제 필요한지에 따라 같은 자산의 값이 달라진다.",
+  "misconception": "장부상 자산이 많으면 급할 때 그만큼 쓸 수 있다. 할인을 받고 미리 내는 것은 언제나 이득이다.",
+  "relatedLessonIds": [
+    "FIN-08-01",
+    "FIN-08-08"
+  ],
+  "sources": [
+    {
+      "text": "재무관리의 표준 개념 (유동성, 급매 할인, 자산과 부채의 만기 맞추기)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "조경 회사 자산 합계: $12,000 + $40,000 + $70,000 + $48,000 + $80,000 = $250,000. 10일 안에 현금화: 현금 $12,000 + 송장 절반 $20,000 × 0.98 = $19,600 → 합계 $31,600. 나머지 $250,000 − $31,600 = $218,400. $31,600 − $30,000 = $1,600 여유.",
+      "status": "open"
+    },
+    {
+      "note": "소프트웨어 계약: 연 $300,000 × 3년 = $900,000. 20% 할인 = $720,000, 절감액 $180,000. 수치는 모두 가상입니다.",
+      "status": "open"
+    },
+    {
+      "note": "급매 시 가격이 떨어진다는 점, 불황기에 고객 대금 회수가 늦어진다는 점은 일반적 원리로만 썼습니다. 구체적 할인율이나 통계는 넣지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Numbers twist",
+      "title": "The $250,000 business that can't pay a $30,000 bill",
+      "illustrative": true,
+      "body": [
+        "Maria runs a landscaping company. On paper it owns $250,000: trucks, mowers, a storage lot, money customers owe her, and some cash.",
+        "A $30,000 supplier payment is due in 10 days. Her bank account holds $12,000. Is she rich or in trouble?"
+      ],
+      "image": {
+        "label": "Landscaper beside trucks and a lot, holding a nearly empty wallet",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 조경업자가 트럭 두 대, 잔디깎이, 울타리 친 빈 부지 앞에 서서 거의 빈 지갑을 들여다보는 장면. 뒤편 큰 간판에 \"$250,000\", 손에 든 청구서에 \"$30,000 due in 10 days\". 실제 브랜드 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How much can she raise in 10 days?",
+      "illustrative": true,
+      "body": [
+        "Maria's assets: cash $12,000. Customer invoices $40,000, due in 45 days. Two trucks $70,000. Mowers and tools $48,000. A storage lot $80,000.",
+        "How much can she turn into cash within 10 days without shrinking the business?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Most of it. Assets are assets",
+            "verdict": "risky",
+            "feedback": "The $250,000 is what things are worth with time and a willing buyer. In 10 days, most of it can't move."
+          },
+          {
+            "key": "B",
+            "text": "About half, if she sells the lot and a truck",
+            "verdict": "partial",
+            "feedback": "The right instinct to look beyond cash. But the lot won't sell in 10 days, and a rushed truck sale fetches less and cuts the jobs she can take."
+          },
+          {
+            "key": "C",
+            "text": "Roughly $30,000",
+            "verdict": "best",
+            "feedback": "Cash, plus invoices some customers will pay early for a small discount. Just enough. The next card shows the math."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "What $250,000 becomes in 10 days.",
+      "illustrative": true,
+      "breakdown": [
+        {
+          "value": "$12,000",
+          "label": "Cash",
+          "detail": "Already cash",
+          "highlight": false
+        },
+        {
+          "value": "$19,600",
+          "label": "Invoices",
+          "detail": "Half of customers pay early for 2% off: $20,000 × 0.98",
+          "highlight": false
+        },
+        {
+          "value": "$0",
+          "label": "Trucks and tools",
+          "detail": "A rushed sale brings a low price and stops the crews",
+          "highlight": false
+        },
+        {
+          "value": "$0",
+          "label": "Storage lot",
+          "detail": "A sale takes months",
+          "highlight": false
+        },
+        {
+          "value": "$31,600",
+          "label": "Ready in 10 days",
+          "detail": "Covers the bill with $1,600 to spare",
+          "highlight": true
+        }
+      ],
+      "callout": "The other $218,400 is real value. It just isn't there when the bill is due."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Liquid vs illiquid assets",
+      "body": [
+        "**Liquidity** is how quickly you can turn an asset into cash without cutting its price much.",
+        "Turning anything into cash has two costs: time and discount. Cash has neither. Invoices cost a little time or a small discount. A storage lot costs both: months to sell, and a lower price if you push.",
+        "Assets near the cash end are **liquid**. Assets far from it are **illiquid**."
+      ],
+      "image": {
+        "label": "A ladder from cash at the top to property at the bottom",
+        "aspectRatio": "16:9",
+        "brief": "세로 사다리 인포그래픽. 위에서부터 \"Cash\", \"Invoices due soon\", \"Inventory\", \"Equipment\", \"Property\". 오른쪽에 아래로 갈수록 길어지는 화살표 두 개: \"Time to sell\", \"Price cut if rushed\". 단순한 플랫 일러스트.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The twist",
+      "title": "The same asset has two prices.",
+      "body": [
+        "A truck sold over two months to the right buyer might fetch close to its value. Sold this week to whoever answers first, it fetches less. Buyers who sense urgency offer less.",
+        "So an asset doesn't have one value. It has a patient price and a rushed price. The gap between them is the cost of needing cash too soon.",
+        "On Maria's balance sheet, both prices look the same. In her bank account on Friday, they don't."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How to use it",
+      "title": "Match the asset to when you need the money.",
+      "body": [
+        "Illiquid assets aren't bad. Maria's trucks earn money every day. Cash in the bank earns little. Assets that are hard to sell usually pay more, partly because you give up the option to get out fast.",
+        "The real rule is timing. Bills due soon should be covered by assets that turn into cash soon. Maria's problem wasn't owning trucks. It was owing money in 10 days while her customers paid in 45."
+      ],
+      "image": {
+        "label": "Two timelines: bills due versus cash arriving",
+        "aspectRatio": "16:9",
+        "brief": "가로 타임라인 두 줄. 위 줄 \"Bills due\": 10일째에 빨간 핀. 아래 줄 \"Cash arriving\": 45일째와 몇 달 뒤에 초록 핀. 두 줄 사이 빈 구간을 \"The gap\"으로 강조.",
+        "url": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Cash isn't free, and liquidity can vanish.",
+      "body": [
+        "Holding everything in cash is safe but costly. It earns little, and rising prices slowly eat it.",
+        "Liquidity also changes with conditions. Customers who normally pay in 30 days often pay slower in a downturn, just when you need the money. When many sellers rush for the exit at once, rushed prices fall further.",
+        "Plan with the liquidity you'd have in a bad month, not a good one."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a team's software budget.",
+      "illustrative": true,
+      "body": [
+        "You run the operations team at a mid-sized manufacturer. Your software costs $300,000 a year. The vendor offers three years paid upfront for $720,000, saving $180,000. The payment is non-refundable.",
+        "The company is reorganizing next year, and your team may lose seats. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Prepay all three years and lock in the saving",
+            "verdict": "risky",
+            "feedback": "You save $180,000, but turn liquid cash into something you can't get back. If the team shrinks or the tool is replaced, the money is stuck."
+          },
+          {
+            "key": "B",
+            "text": "Keep paying yearly at full price",
+            "verdict": "partial",
+            "feedback": "You keep cash and flexibility, but pay up to $180,000 extra for it. Worth it only if the future is very uncertain."
+          },
+          {
+            "key": "C",
+            "text": "Ask for the multi-year price with yearly payments and the right to cut seats",
+            "verdict": "best",
+            "feedback": "You capture part of the discount while keeping most of your cash liquid. You trade a slightly higher price for the option to adjust."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "An asset is worth what you can get for it when you need it.",
+      "body": [
+        "Count your assets twice: once at the patient price, once at what they'd bring in 30 days. Then compare the second number with what you owe soon.",
+        "**Try it today:** list your assets. Next to each, write the cash you could raise from it within 30 days. Is the total bigger than your bills due in 30 days?"
+      ],
+      "next": "Next · Why a 5% return can still lose money"
+    }
+  ]
+}

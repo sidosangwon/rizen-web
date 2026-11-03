@@ -1,0 +1,243 @@
+{
+  "id": "OPS-01-02",
+  "unitId": "OPS-01",
+  "categoryId": "OPS",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "Bottlenecks",
+  "readerTitle": "The slowest step sets the pace",
+  "format": "numbers_twist",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (번역 에이전시, 가구 공방) · 모든 수치는 설명용",
+  "insight": "사업 전체의 산출량은 가장 느린 한 단계가 정한다. 그래서 개선은 병목에 쓴 시간만 전체 성과로 이어진다.",
+  "misconception": "어느 단계든 더 빠르게 하거나 사람을 더 넣으면 전체 산출량이 늘어난다.",
+  "relatedLessonIds": [
+    "OPS-01-01",
+    "OPS-01-03"
+  ],
+  "sources": [
+    {
+      "text": "Goldratt, E. M. & Cox, J. (1984). The Goal: A Process of Ongoing Improvement. North River Press. (제약 이론의 기본 개념)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "번역 에이전시 계산: 단계별 주간 처리량 접수 40, 번역 30, 검수 20, 납품 50 → 전체 산출량 = 최솟값 20. 번역가 추가(30→45) 시 최솟값은 20으로 그대로입니다. 파트타임 검수자 추가(20→30) 시 최솟값은 30으로 50% 증가입니다(30 ÷ 20 = 1.5). 접수 자동화(40→60) 시 20으로 그대로입니다.",
+      "status": "open"
+    },
+    {
+      "note": "가구 공방 계산: 재단 12, 샌딩 10, 도장 6, 포장 15 → 하루 산출량 6. 톱 교체(12→20) 후에도 최솟값 6으로 그대로입니다. 도장 개선 효과는 수치로 단정하지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Goldratt의 'The Goal'(1984) 출간 정보와 공저자(Jeff Cox) 표기를 게시 전에 다시 확인하세요. 카드 본문에서는 책 이름과 연도만 언급했습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Numbers twist",
+      "title": "The slowest step sets the pace",
+      "illustrative": true,
+      "body": [
+        "A translation agency has four steps and a full team at each one. Everyone is busy. Orders are piling up.",
+        "The owner can afford one new hire. Most owners would hire for the step that looks the busiest. The numbers say something different."
+      ],
+      "image": {
+        "label": "Four connected workstations, with a pile of papers in front of one",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 사무실 책상 네 개가 컨베이어처럼 일렬로 연결되어 있고, 세 번째 책상 앞에만 서류 더미가 높이 쌓여 있음. 네 번째 책상의 직원은 손이 비어 기다리는 모습. 실제 회사 로고 없음.",
+        "url": "assets/images/ops-01-02-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Where should the one new hire go?",
+      "illustrative": true,
+      "body": [
+        "Each week the agency can take in 40 documents, translate 30, review 20 and deliver 50. Review is done by one senior editor.",
+        "You have budget for one hire. Which choice delivers the most documents per week?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Another translator, so translation goes from 30 to 45",
+            "verdict": "risky",
+            "feedback": "Translation feels like the core of the business, so it looks like the obvious place to add people. But review can still only handle 20 a week. You'd pay a salary and get the same 20 documents, plus a bigger pile on the editor's desk."
+          },
+          {
+            "key": "B",
+            "text": "A part-time reviewer, so review goes from 20 to 30",
+            "verdict": "best",
+            "feedback": "Review is the slowest step, so it caps everything. Raising it to 30 lifts weekly output from 20 to 30, which is 50% more from a part-time hire."
+          },
+          {
+            "key": "C",
+            "text": "Software that speeds up intake from 40 to 60",
+            "verdict": "partial",
+            "feedback": "Faster intake may please clients at the start. But documents still leave at 20 a week, so they wait longer in the middle."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Follow a week of documents.",
+      "illustrative": true,
+      "body": [
+        "Output is set by the smallest number in the chain: **20 a week**. Make any other step faster and the total stays at 20."
+      ],
+      "breakdown": [
+        {
+          "value": "40",
+          "label": "Intake",
+          "detail": "Documents accepted per week",
+          "highlight": false
+        },
+        {
+          "value": "30",
+          "label": "Translation",
+          "detail": "Documents translated per week",
+          "highlight": false
+        },
+        {
+          "value": "20",
+          "label": "Review",
+          "detail": "One senior editor checks each one",
+          "highlight": true
+        },
+        {
+          "value": "50",
+          "label": "Delivery",
+          "detail": "Formatting and sending to clients",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Bottlenecks",
+      "body": [
+        "A **bottleneck** is the step in a process with the least capacity. The whole process can never go faster than that one step.",
+        "That changes how you value time. An hour lost at the bottleneck is an hour lost for the whole business. An hour saved anywhere else mostly makes a bigger pile in front of the bottleneck."
+      ],
+      "image": {
+        "label": "A bottle with a narrow neck, documents squeezing through",
+        "aspectRatio": "16:9",
+        "brief": "병 모양 일러스트. 넓은 몸통에 서류가 가득 차 있고, 좁은 병목을 통해 서류가 한 장씩만 빠져나옴. 병목 부분에 \"Review: 20/week\" 라벨. 단순하고 밝은 색감.",
+        "url": "assets/images/ops-01-02-c4.jpg"
+      },
+      "softwareNote": "In software teams the bottleneck is often code review or the one person who can release to customers. Hiring more developers then just lengthens the queue of finished work waiting to ship."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Find it, protect it, then grow it.",
+      "body": [
+        "Eliyahu Goldratt made this idea popular in his 1984 business novel *The Goal*. In practice, it comes down to three moves."
+      ],
+      "list": [
+        "**Find it:** look for the place where work piles up and others wait",
+        "**Protect it:** never let it sit idle, and move work others can do off its desk",
+        "**Check before it:** catch errors earlier, so the bottleneck never spends time on bad work",
+        "**Then add capacity:** only once the first three are done"
+      ],
+      "callout": "The cheapest fixes usually come before any new hire."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "A second twist",
+      "title": "Fix the bottleneck and it moves.",
+      "illustrative": true,
+      "body": [
+        "With the part-time reviewer, review handles 30 a week. Output rises to 30. But translation is also 30 now.",
+        "So the next hire in review adds nothing. To grow again, the agency must raise translation *and* review together.",
+        "Bottlenecks are not fixed facts. They move every time you improve one. The habit worth building is asking \"where is it now?\" after every change."
+      ],
+      "image": {
+        "label": "A pile of papers moving from one desk to the previous desk",
+        "aspectRatio": "16:9",
+        "brief": "두 장면 비교 인포그래픽. 왼쪽: 세 번째 책상(Review) 앞에 서류 더미. 오른쪽: 더미가 줄고 두 번째 책상(Translation)과 세 번째 책상 앞에 비슷한 높이의 작은 더미. 화살표로 이동을 표시.",
+        "url": "assets/images/ops-01-02-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The bottleneck may not be inside your walls.",
+      "body": [
+        "If clients only send 15 documents a week, the limit is demand. No hire in review will help. The same goes for a supplier that delivers late or a client who takes weeks to approve.",
+        "Also, speeding up the other steps isn't free. Extra work in progress hides problems, ties up money and makes customers wait longer, not shorter."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a furniture workshop.",
+      "illustrative": true,
+      "body": [
+        "Each day your workshop can cut parts for 12 tables, sand 10, paint 6 and pack 15. Paint needs drying time in your one spray booth. Orders are running two weeks late.",
+        "What's your first move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Buy a faster saw so cutting reaches 20 tables a day",
+            "verdict": "risky",
+            "feedback": "A new saw is satisfying to buy, but output stays at 6 tables a day. You'd spend money to build a stack of cut wood in front of the paint booth."
+          },
+          {
+            "key": "B",
+            "text": "Keep the booth running through breaks, have sanded tables ready, and check for flaws before painting",
+            "verdict": "best",
+            "feedback": "Every minute of booth time becomes a minute of output. This is cheap and fast, and it shows how much painting can really do before you invest in a second booth."
+          },
+          {
+            "key": "C",
+            "text": "Add Saturday shifts for the whole team",
+            "verdict": "partial",
+            "feedback": "Painting gains a day, so output does rise. But you pay overtime at every step, and most of it only adds to piles waiting for paint."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Your business moves at the speed of its slowest step.",
+      "body": [
+        "Before adding people, tools or hours, find the step where work piles up. Improvement anywhere else rarely shows up in the total.",
+        "**Try it today:** list the steps a typical order goes through. Write how many each step can handle per week. Circle the smallest number."
+      ],
+      "next": "Next · How much can your business really handle?"
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "id": "FIN-07-03",
+  "unitId": "FIN-07",
+  "categoryId": "FIN",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "The cost of capital",
+  "readerTitle": "Why your own cash is never free money",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (도장 회사, IT 지원 회사) · 모든 수치는 설명용",
+  "insight": "돈의 비용은 이자 고지서가 아니라 그 돈이 다른 곳에서 벌 수 있었던 수익으로 정해진다. 투자는 그 비용보다 더 벌 때만 의미가 있다.",
+  "misconception": "이자를 내지 않는 내 돈이나 상환 의무가 없는 투자금은 공짜이니, 조금이라도 수익이 나면 쓰는 게 이득이다.",
+  "relatedLessonIds": [
+    "FIN-07-02",
+    "FIN-09-05"
+  ],
+  "sources": [
+    {
+      "text": "기업재무의 표준 개념 (자본비용, 기회비용, 위험과 요구수익률)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "도장 회사 계산: 장비 $60,000 → 연 추가 이익 $3,000 = 5%. 기존 장비 대출 $60,000 × 10% = 연 이자 $6,000. 은행 예금 $60,000 × 2% = $1,200. 대출 상환 대비 차이 $6,000 − $3,000 = $3,000.",
+      "status": "open"
+    },
+    {
+      "note": "같은 프로젝트 두 판정: $100,000 × 12% = $12,000. 대출 8% 이자 $8,000 → +$4,000. 투자자 기대 20% = $20,000 → −$8,000.",
+      "status": "open"
+    },
+    {
+      "note": "IT 지원 회사 계산: $80,000 × 10% = $8,000. 은행 9% 이자 $7,200 → 여유 $800. 친구 기대 25% = $20,000 → $12,000 부족.",
+      "status": "open"
+    },
+    {
+      "note": "softwareNote의 벤처 투자자 기대 수익은 구체적 수치 없이 일반적으로만 서술했습니다. 수치를 추가하려면 출처를 먼저 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Counterexample",
+      "title": "Why your own cash is never free money",
+      "illustrative": true,
+      "body": [
+        "A painting company has $60,000 sitting in the bank from good years. The owner wants a new spray rig. \"It's our own money,\" she says. \"No interest, no bank. Any return is a win.\"",
+        "It sounds like the safest kind of spending. It can quietly be one of the most expensive."
+      ],
+      "image": {
+        "label": "Stack of cash with a hidden price tag",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 작업복을 입은 도장 회사 사장이 현금 더미를 페인트 분무 장비 쪽으로 밀고 있음. 현금 더미 뒤에 반쯤 숨겨진 가격표가 달려 있음. 실제 브랜드 로고 사용 금지.",
+        "url": "assets/images/fin-07-03-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Should she buy the rig with her cash?",
+      "illustrative": true,
+      "body": [
+        "The rig costs $60,000 and should add about $3,000 of profit a year. That's a 5% return.",
+        "The company also still owes $60,000 on an older equipment loan at 10% interest. Savings in the bank earn about 2%."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Yes. It's idle cash, so any profit beats zero",
+            "verdict": "risky",
+            "feedback": "The cash isn't really idle. Treating it as free hides better uses, so a weak project looks like a win."
+          },
+          {
+            "key": "B",
+            "text": "Yes. 5% beats the 2% the bank pays",
+            "verdict": "partial",
+            "feedback": "Good instinct to compare. But the bank isn't the best alternative here, and the comparison stops too early."
+          },
+          {
+            "key": "C",
+            "text": "First compare it with paying off the 10% loan",
+            "verdict": "best",
+            "feedback": "Right. Paying down the loan \"earns\" 10% with almost no risk. The rig has to beat that, and it doesn't."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Same $60,000, three uses.",
+      "illustrative": true,
+      "body": [
+        "The rig earns $3,000. Paying off the loan saves $6,000. Choosing the rig leaves **$3,000 a year** on the table, even though no bank charged a cent."
+      ],
+      "breakdown": [
+        {
+          "value": "+$1,200",
+          "label": "Leave it in the bank",
+          "detail": "2% on $60,000",
+          "highlight": false
+        },
+        {
+          "value": "+$3,000",
+          "label": "Buy the spray rig",
+          "detail": "5% extra profit a year",
+          "highlight": false
+        },
+        {
+          "value": "+$6,000",
+          "label": "Pay off the old loan",
+          "detail": "10% interest no longer paid",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The cost of capital",
+      "body": [
+        "**The cost of capital** is the return money must earn to be worth using. It's set by what the people supplying it could get elsewhere for a similar risk.",
+        "For a loan, that's the interest rate. For your own cash, it's what the money gives up: the next-best use. Here that was 10%, not zero.",
+        "A project creates value only when it earns more than the cost of the money behind it."
+      ],
+      "image": {
+        "label": "Project return bar compared with a cost-of-money line",
+        "aspectRatio": "16:9",
+        "brief": "막대 그래프. \"Project return 5%\" 막대가 \"Cost of the money 10%\"라는 가로 점선 아래에 있음. 점선 위는 초록 \"Creates value\", 아래는 빨강 \"Destroys value\" 영역으로 표시.",
+        "url": "assets/images/fin-07-03-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Every source of money has a price.",
+      "body": [
+        "The price rises with the risk the provider takes."
+      ],
+      "list": [
+        "**Bank loan:** the interest rate. Often the cheapest, because lenders get paid first.",
+        "**Your own cash:** what it could earn elsewhere, plus the risk you carry as owner.",
+        "**Outside investors:** usually the highest, because they get paid last and take the most risk."
+      ],
+      "callout": "The money with no monthly bill is often the most expensive.",
+      "softwareNote": "Software founders often feel venture money is free because there are no repayments. But investors expect returns far above any loan rate. Spending it on a growth channel that barely pays back loses value, even if the bank balance looks healthy."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Wider view",
+      "title": "One project, two verdicts.",
+      "illustrative": true,
+      "body": [
+        "Picture a $100,000 project that earns 12% a year, or $12,000.",
+        "Fund it with an 8% loan and you pay $8,000 in interest. You're **$4,000 ahead**.",
+        "Fund it with investors who expect 20% and they're owed $20,000 of value. You're $8,000 behind.",
+        "The project didn't change. The cost of the money did. That's why \"is this a good project?\" has no answer until you know what's paying for it."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "It's an estimate, and cheap money has its own costs.",
+      "body": [
+        "For a small business, the cost of capital is a rough range, not a precise figure. Use it to catch clearly bad deals, not to split hairs over half a percent.",
+        "Also, the cheapest money isn't automatically the best. A loan adds fixed payments that hurt in a slow month. And keeping some cash as a **safety cushion** is a real use too. Protection against a bad season counts as a return."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's an IT support firm.",
+      "illustrative": true,
+      "body": [
+        "You fix computers and networks for local offices. Hiring and training two technicians for a new service line costs $80,000 and should add about $8,000 a year: 10%.",
+        "The bank offers a loan at 9%. A friend offers $80,000 for a share of profits and hopes to earn about 25% a year. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Take the friend's money. No repayments means no cost",
+            "verdict": "risky",
+            "feedback": "No payments, but a 25% expectation. The project earns $8,000 against $20,000 your friend hopes for. That gap lands on you or the friendship."
+          },
+          {
+            "key": "B",
+            "text": "Take the bank loan. 10% still beats 9%",
+            "verdict": "partial",
+            "feedback": "It does, by only $800 a year. A small miss in your estimate turns it into a loss, and you'd carry fixed payments too."
+          },
+          {
+            "key": "C",
+            "text": "Rework the plan until it clearly beats the cost of the money",
+            "verdict": "best",
+            "feedback": "You give up speed but avoid a project that barely covers its funding. Try a smaller start, one hire, or a higher price for the service."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Money is never free. Know its price before you spend it.",
+      "body": [
+        "A project is worth funding only if it earns more than the money behind it costs, including your own cash.",
+        "**Try it today:** take your next planned purchase. Write its expected yearly return as a percent. Next to it, write the cost of the money you'd use: the loan rate, or the best other thing that cash could do."
+      ],
+      "next": "Next · What you really give up when you sell a slice of your company"
+    }
+  ]
+}

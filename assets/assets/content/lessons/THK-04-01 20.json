@@ -1,0 +1,241 @@
+{
+  "id": "THK-04-01",
+  "unitId": "THK-04",
+  "categoryId": "THK",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Base rates",
+  "readerTitle": "The camera is 90% accurate. Most parts it rejects are fine.",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (부품 공장 검사 카메라, 앱 가입 사기 탐지) + 실제 연구 (Tversky & Kahneman 택시 문제) · 공장·앱 수치는 설명용",
+  "insight": "경보나 증거를 보기 전에, 그 일이 원래 얼마나 자주 일어나는지부터 묻는다. 드문 일일수록 경보의 대부분은 오경보다.",
+  "misconception": "검사가 90% 정확하면, 검사에 걸린 것도 90% 확률로 진짜 문제다.",
+  "relatedLessonIds": [
+    "THK-04-03",
+    "THK-11-02"
+  ],
+  "sources": [
+    {
+      "text": "Tversky, A. & Kahneman, D. (1982). Evidential impact of base rates. In Kahneman, Slovic & Tversky (Eds.), Judgment under Uncertainty: Heuristics and Biases. Cambridge University Press.",
+      "url": null
+    },
+    {
+      "text": "공장 검사 카메라와 앱 가입 사기 탐지 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "공장 계산: 부품 10,000개, 불량률 1% = 불량 100개, 정상 9,900개. 카메라가 불량의 90%를 잡음 = 90개. 정상품의 5%를 잘못 걸러냄 = 495개. 걸린 부품 합계 585개, 그중 진짜 불량 90 ÷ 585 = 15.4%(약 15%). 정상품 비율 495 ÷ 585 = 84.6%.",
+      "status": "open"
+    },
+    {
+      "note": "택시 문제: 택시의 85% 초록, 15% 파랑, 목격자 정확도 80%. 파랑이고 파랑이라 말함 0.15 × 0.8 = 0.12, 초록인데 파랑이라 말함 0.85 × 0.2 = 0.17. 0.12 ÷ 0.29 = 41.4%(약 41%). 다수 응답이 80%였다는 점은 원문에서 문구를 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "앱 계산: 월 가입 20,000건, 사기 1/200 = 100건, 정상 19,900건. 도구가 사기 95건을 잡고 정상의 2%를 잘못 표시 = 398건. 표시된 계정 493건 중 사기 95 ÷ 493 = 19.3%(약 1/5). 표시군의 사기 비율은 전체(0.5%)의 약 39배(19.3 ÷ 0.5).",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Counterexample",
+      "title": "The camera is 90% accurate. Most parts it rejects are fine.",
+      "illustrative": true,
+      "body": [
+        "A parts factory installs a new inspection camera. It catches 90% of defective parts.",
+        "Within a week, the reject bin is overflowing, and the line workers swear most of those parts look perfect. They are right. The camera works as promised. The problem is a number nobody looked at."
+      ],
+      "image": {
+        "label": "Overflowing reject bin next to a conveyor camera",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 컨베이어 벨트 위 금속 부품들, 위에 검사 카메라. 옆의 빨간 불량품 통이 넘칠 만큼 가득 차 있고, 작업자가 부품 하나를 들어 고개를 갸웃함. 실제 브랜드 로고 없음.",
+        "url": "assets/images/thk-04-01-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "The camera flags a part. Is it defective?",
+      "illustrative": true,
+      "body": [
+        "About 1 in 100 parts from this line is truly defective. The camera catches 90% of those. It also wrongly flags 5% of good parts.",
+        "A part lands in the reject bin. How likely is it to be truly defective?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "About 90%",
+            "verdict": "risky",
+            "feedback": "That's how often the camera catches a bad part, not how often a flagged part is bad. Those are different questions."
+          },
+          {
+            "key": "B",
+            "text": "About 50%",
+            "verdict": "partial",
+            "feedback": "Good instinct that false alarms matter. But good parts outnumber bad ones 99 to 1, so false alarms matter even more than that."
+          },
+          {
+            "key": "C",
+            "text": "About 15%",
+            "verdict": "best",
+            "feedback": "Right. Because defects are rare, false alarms on good parts swamp the real catches. The next card shows the count."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Follow 10,000 parts.",
+      "illustrative": true,
+      "breakdown": [
+        {
+          "value": "100",
+          "label": "Truly defective",
+          "detail": "1% of 10,000",
+          "highlight": false
+        },
+        {
+          "value": "90",
+          "label": "Defects caught",
+          "detail": "90% of the 100",
+          "highlight": false
+        },
+        {
+          "value": "495",
+          "label": "False alarms",
+          "detail": "5% of 9,900 good parts",
+          "highlight": false
+        },
+        {
+          "value": "15%",
+          "label": "Flagged parts that are bad",
+          "detail": "90 out of 585 flagged",
+          "highlight": true
+        }
+      ],
+      "callout": "The camera is good. Defects are just rare, so most of its alarms come from the huge pile of good parts.",
+      "softwareNote": "The same math hits spam filters, error alerts and fraud checks. When the thing you hunt is rare, even a small false-alarm rate can bury the real cases."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Base rates",
+      "body": [
+        "A **base rate** is how often something happens in the whole group, before you look at the case in front of you. Here, it's 1 defect in 100 parts.",
+        "People tend to skip it. A specific signal, like a camera alarm, feels more real than a dull background number. This is called **base rate neglect**.",
+        "But the background number decides how much the signal means. Start there."
+      ],
+      "image": {
+        "label": "Small red dots among a large crowd of gray dots",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 회색 점 99개와 빨간 점 1개로 이루어진 격자. 그 위에 돋보기 하나가 몇 개의 점을 비추고 있음. 제목 \"Start with how common it is\".",
+        "url": "assets/images/thk-04-01-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The research",
+      "title": "The taxi problem",
+      "body": [
+        "Psychologists Amos Tversky and Daniel Kahneman gave people a puzzle. In a city, 85% of taxis are green and 15% are blue. A witness says a hit-and-run cab was blue. Tests show the witness is right 80% of the time.",
+        "Many people answered that the cab was 80% likely to be blue. The math says about **41%**. Green cabs are so common that a witness's mistakes about them outweigh the correct sightings of blue ones."
+      ],
+      "image": {
+        "label": "Many green taxis and a few blue ones on a street",
+        "aspectRatio": "16:9",
+        "brief": "밤거리 일러스트. 초록 택시가 많고 파란 택시는 몇 대뿐. 한쪽에 목격자가 손가락으로 가리키는 모습. 실제 택시 회사 로고 없음.",
+        "url": "assets/images/thk-04-01-c5.jpg"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where it shows up",
+      "title": "Ask the boring question first.",
+      "body": [
+        "Before you judge a single case, ask how often cases like it turn out a certain way."
+      ],
+      "list": [
+        "A new hire with a great interview: how often do great interviews predict great work here?",
+        "A late-paying customer: how often do customers like this one never pay?",
+        "A bold expansion plan: how often do plans like this hit their targets?"
+      ],
+      "callout": "The story in front of you is vivid. The base rate is usually more reliable."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The right group matters.",
+      "body": [
+        "A base rate is only useful if it comes from a group like yours. Defect rates from a different line, or last year's machine, can mislead you.",
+        "It's also a starting point, not the final answer. Strong, specific evidence should move your view. How much it should move is the topic of a later lesson on updating beliefs.",
+        "And base rates change. Recheck them when your process, market or customers change."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a fraud filter on an app.",
+      "illustrative": true,
+      "body": [
+        "Your app gets 20,000 signups a month. About 1 in 200 is fraud. A new tool catches 95% of fraud but also flags 2% of genuine users.",
+        "That's about 490 flagged accounts a month, and only about 1 in 5 is fraud. What do you do with them?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Ban every flagged account automatically",
+            "verdict": "risky",
+            "feedback": "You stop almost all fraud, but you also lock out about 400 real customers a month. Many won't come back."
+          },
+          {
+            "key": "B",
+            "text": "Send flagged accounts to a quick extra check, like card verification",
+            "verdict": "best",
+            "feedback": "The flag concentrates fraud, from 0.5% to about 20%, so it's worth acting on. A light check stops fraud without punishing the real users."
+          },
+          {
+            "key": "C",
+            "text": "Ignore the tool, since most of its flags are wrong",
+            "verdict": "partial",
+            "feedback": "True that most flags are false. But flagged accounts are about 39 times more likely to be fraud than average. That's useful."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Before trusting a signal, ask how common the thing is.",
+      "body": [
+        "When something is rare, most alarms about it are false, even from a good test. Use the alarm to decide where to look, not as the verdict.",
+        "**Try it today:** pick one alert or check your business relies on. Count how many of its last 20 flags turned out to be real."
+      ],
+      "next": "Next · Why a long shot can be the better bet"
+    }
+  ]
+}

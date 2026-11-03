@@ -1,0 +1,282 @@
+{
+  "id": "OPS-08-08",
+  "unitId": "OPS-08",
+  "categoryId": "OPS",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "Run the numbers on an online store",
+  "readerTitle": "The online order that looked twice as profitable as it was",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.1,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (대기업 안의 온라인 판매팀, 온라인 신발 소매점) · 모든 수치는 설명용",
+  "insight": "온라인 주문은 상품 마진이 아니라, 문 앞 배송과 반품까지 뺀 뒤 한 건에 남는 돈으로 판단한다.",
+  "misconception": "온라인 판매는 매장 임대료가 없으니 매출총이익이 거의 그대로 남는다.",
+  "relatedLessonIds": [
+    "OPS-08-06",
+    "OPS-08-05"
+  ],
+  "sources": [
+    {
+      "text": "이 유닛의 개념 레슨 (OPS-08-05 반품, OPS-08-06 라스트마일)을 적용한 레슨",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "주방용품 주문 계산: $60 − 상품 $24 − 포장 $4 − 배송 $9 − 카드 수수료 $1.80(3%) − 반품 $3.00 = $18.20. 매출총이익 $36(60%) 대비 약 절반, 주문가의 약 30%.",
+      "status": "open"
+    },
+    {
+      "note": "반품 비용 주문당 $3.00은 가정치입니다: 반품률 10% × 반품 1건당 $30(이미 쓴 포장·배송, 반송 라벨, 처리, 재판매 불가 상품 손실). 환불된 매출 효과는 단순화를 위해 따로 계산하지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "작은 주문 계산: $25 − 상품 $10 − 포장 $4 − 배송 $9 − 수수료 $0.75 = $1.25. 배송비 비중 $9/$60 = 15%, $9/$25 = 36%.",
+      "status": "open"
+    },
+    {
+      "note": "신발 가게: 양말 $12 − 상품 $5 − 포장 $3 − 배송 $8 = −$4(수수료 전). 신발 $90 − $45 − $3 − $8 = $34(수수료·반품 전).",
+      "status": "open"
+    },
+    {
+      "note": "'온라인 반품률은 매장보다 높은 경우가 많고 의류·신발에서 특히 높다'는 일반적 서술로만 썼습니다. 구체적 수치는 넣지 않았습니다. 게시 전 표현이 과하지 않은지 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Apply",
+      "title": "The online order that looked twice as profitable as it was",
+      "illustrative": true,
+      "body": [
+        "A kitchenware company opens an online store. Its new web team sends the first report: average order $60, product cost $24, so **$36 profit per order**. Better than the shops, and no rent.",
+        "The finance team reads the same order and finds about half of that. Nobody lied. The report just stopped at the warehouse door."
+      ],
+      "image": {
+        "label": "A parcel leaving a warehouse with coins falling off along the road",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 창고 문에서 출발한 택배 상자가 집 현관까지 길을 따라 이동하고, 길 위에 동전이 하나씩 떨어져 있음. 상자 위에 \"$36\" 라벨, 현관 앞 도착 시 \"$18\". 실제 택배사 로고 사용 금지.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How much can you pay in ads to win one order?",
+      "illustrative": true,
+      "body": [
+        "You lead the web team. Your boss wants to grow fast with online ads and asks: what's the most we can spend to win one $60 order before it loses money?",
+        "You know each order is also packed, delivered to a door, and sometimes sent back."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "About $30. That still leaves a little of the $36",
+            "verdict": "risky",
+            "feedback": "It uses the warehouse number. Delivery to the door and returns come out of that $36 too, so at $30 every order would lose money."
+          },
+          {
+            "key": "B",
+            "text": "About $18, after packing, delivery, fees and returns",
+            "verdict": "best",
+            "feedback": "Right. This counts **the last mile** and **returns**, the two costs most online reports forget. Next card shows the math."
+          },
+          {
+            "key": "C",
+            "text": "Around $9, to be safe",
+            "verdict": "partial",
+            "feedback": "Safe, and it leaves a cushion for rent and salaries. But it may pass up growth the numbers can actually afford."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Follow one order to the customer's door.",
+      "illustrative": true,
+      "body": [
+        "The product made $36. The order made **$18.20**. Every ad dollar, salary and shared cost has to come out of that."
+      ],
+      "breakdown": [
+        {
+          "value": "$60.00",
+          "label": "Order",
+          "detail": "What the customer pays",
+          "highlight": false
+        },
+        {
+          "value": "−$24.00",
+          "label": "Product",
+          "detail": "What the kitchenware costs",
+          "highlight": false
+        },
+        {
+          "value": "−$4.00",
+          "label": "Pick & pack",
+          "detail": "Box, filler, warehouse labor",
+          "highlight": false
+        },
+        {
+          "value": "−$9.00",
+          "label": "Delivery",
+          "detail": "The last mile to the door",
+          "highlight": false
+        },
+        {
+          "value": "−$1.80",
+          "label": "Card fee",
+          "detail": "3% of the order",
+          "highlight": false
+        },
+        {
+          "value": "−$3.00",
+          "label": "Returns",
+          "detail": "Average per order",
+          "highlight": false
+        },
+        {
+          "value": "$18.20",
+          "label": "Left over",
+          "detail": "About 30% of the order",
+          "highlight": true
+        }
+      ],
+      "callout": "A store's customer carries the goods home. Online, you pay for that trip."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept at work · The last mile",
+      "title": "Delivery costs the same for a small order.",
+      "illustrative": true,
+      "body": [
+        "**The last mile**, the trip from warehouse to door, is often the most expensive step per item. Here it takes $9, or 15% of a $60 order.",
+        "But the van doesn't care what's in the box. A $25 order still costs $9 to deliver and $4 to pack. After the product and fees, it leaves about $1.25, before any returns.",
+        "So the average order size matters as much as the margin on each product."
+      ],
+      "image": {
+        "label": "Two parcels, one large and one small, with the same delivery cost tag",
+        "aspectRatio": "16:9",
+        "brief": "큰 상자($60)와 작은 상자($25)가 나란히 있고, 둘 다 같은 \"Delivery $9\" 태그가 붙어 있음. 작은 상자 쪽 남는 돈 막대가 아주 짧게 표시. 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's an online shoe store.",
+      "illustrative": true,
+      "body": [
+        "You sell shoes at $90 and socks at $12, with free shipping on everything. Every parcel costs about $3 to pack and $8 to deliver.",
+        "A sock-only order: $12 minus $5 for the socks, $3 and $8. You lose $4 before fees. What do you change?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Free shipping only on orders over $50",
+            "verdict": "best",
+            "feedback": "It uses **the last mile**: small orders either pay for delivery or grow until they cover it. Socks still ride along free with shoes."
+          },
+          {
+            "key": "B",
+            "text": "Stop selling socks",
+            "verdict": "partial",
+            "feedback": "It ends the losing orders, but also the socks added to shoe orders, which cost almost nothing extra to ship."
+          },
+          {
+            "key": "C",
+            "text": "Raise every price 10% to cover shipping",
+            "verdict": "risky",
+            "feedback": "Shoe buyers now pay for sock orders, and a $13 sock order still loses money. You lose competitiveness without fixing the problem."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Concept at work · Returns",
+      "title": "A return pays for the trip twice.",
+      "illustrative": true,
+      "body": [
+        "**Returns** hit online stores hard. Customers can't touch or try the goods, so return rates are often higher than in shops, especially for clothing and shoes.",
+        "Each return wastes the packing and delivery you already paid, adds a trip back, and needs someone to check the item. Some items can't be sold again.",
+        "In the kitchenware example, 1 in 10 orders came back at about $30 each. Spread over all orders, that's $3 per order."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · same shoe store",
+      "title": "Customers order two sizes and return one.",
+      "illustrative": true,
+      "body": [
+        "Returns are your shoe store's biggest leak. Many customers buy the same shoe in two sizes and send one back. Returns are free. What do you do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Charge $8 for every return",
+            "verdict": "partial",
+            "feedback": "It cuts **returns** fast. But shoe buyers who can't try on first may simply buy elsewhere, so you could save on returns and lose sales."
+          },
+          {
+            "key": "B",
+            "text": "Keep returns free, but use return reasons to add fit notes like \"runs small\"",
+            "verdict": "best",
+            "feedback": "It attacks why **returns** happen. Fewer wrong sizes means fewer double trips, and you keep the free returns that help people buy."
+          },
+          {
+            "key": "C",
+            "text": "Accept it. Returns are the cost of selling online",
+            "verdict": "risky",
+            "feedback": "Nothing breaks today. But each return still wastes two delivery trips, and the leak grows with every sale."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Averages and shared costs can hide the truth.",
+      "body": [
+        "A per-order average hides the mix. One product with heavy boxes or high returns can drain the rest. Check the numbers by product and by order size.",
+        "Teams inside a larger company face a second trap. The warehouse, customer service or delivery contract may sit on another department's budget. Your report looks great because someone else pays. Ask what each order costs the whole company."
+      ]
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "An online order isn't done until it reaches the door and stays there.",
+      "body": [
+        "Today you used two ideas from this unit: **the last mile**, which makes small orders expensive, and **returns**, which make every trip count twice.",
+        "**Try it today:** take your average online order. Subtract product, packing, delivery, fees and your average return cost. Is what's left bigger than what you pay to win that order?"
+      ],
+      "next": "Next · Why Aldi stocks so few products"
+    }
+  ]
+}

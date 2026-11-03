@@ -1,0 +1,279 @@
+{
+  "id": "FIN-09-08",
+  "unitId": "FIN-09",
+  "categoryId": "FIN",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "A tech company with a pile of cash",
+  "readerTitle": "Your software company has $30M in the bank. Now what?",
+  "format": "everyday_scene",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (급여 소프트웨어 회사, 포장재 제조사) · 모든 수치는 설명용",
+  "insight": "쌓인 현금은 '어디에 쓸까'가 아니라 '어떤 쓰임이 같은 기준선을 넘는가'로 판단하고, 넘는 곳이 없으면 돌려주는 것도 정답이다.",
+  "misconception": "현금이 많으면 뭐라도 해야 한다. 전략적인 인수라면 수익률이 낮아도 괜찮다.",
+  "relatedLessonIds": [
+    "FIN-09-05",
+    "FIN-09-03"
+  ],
+  "sources": [
+    {
+      "text": "기업재무의 표준 개념 (허들 레이트, 재투자·환원·인수 선택)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 설명용 가상 수치입니다. 소프트웨어 회사: 현금 $30M − 안전 버퍼 $5M = $25M. AI 추가 기능 $6M + 유럽 영업팀 $4M = $10M, 남는 돈 $25M − $10M = $15M. 인수: 연 이익 $1.2M ÷ $20M = 6%.",
+      "status": "open"
+    },
+    {
+      "note": "포장재 제조사: 여유 현금 $3M − 자동화 라인 $1.8M = $1.2M. 건물 매입 $2.5M로 절약되는 임차료 연 $175k ÷ $2.5M = 7%, 허들 10%보다 낮음. 은행 이자율은 특정 수치를 쓰지 않고 '허들보다 낮을 가능성이 크다'고만 적었습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Everyday scene",
+      "title": "Your software company has $30M in the bank. Now what?",
+      "illustrative": true,
+      "body": [
+        "A payroll software company has had three strong years. The finance lead puts one number on the board slide: **$30M in cash**, and about $8M more coming each year.",
+        "Someone says, \"It's just sitting there.\" Within ten minutes, three people have three different plans for it."
+      ],
+      "image": {
+        "label": "Board table with a large stack of cash and three people pointing different ways",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 회의 테이블 가운데 큰 현금 더미, 둘러앉은 세 사람이 각각 다른 방향(전구, 지구본, 작은 건물)을 가리킴. 실제 기업 로고나 상표 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What should the board do first?",
+      "illustrative": true,
+      "body": [
+        "The ideas on the table: build a new product, expand abroad, or buy a smaller rival. One director wants to pay it all out to shareholders instead."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Buy the rival now, before someone else does",
+            "verdict": "risky",
+            "feedback": "Speed feels like strategy, but you'd commit the biggest sum before comparing it with anything else."
+          },
+          {
+            "key": "B",
+            "text": "Set one hurdle rate and test every idea against it, including paying cash out",
+            "verdict": "best",
+            "feedback": "This puts **hurdle rates** and **reinvest, return or acquire** to work together. Every use of cash competes on the same terms."
+          },
+          {
+            "key": "C",
+            "text": "Pay it all out. Owners can invest it themselves",
+            "verdict": "partial",
+            "feedback": "Returning cash is a real option, but doing it first skips projects that might earn far more inside the business."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The proposals",
+      "title": "Four claims on the same $30M.",
+      "illustrative": true,
+      "body": [
+        "The team keeps $5M as a buffer for a bad year. That leaves **$25M** to allocate."
+      ],
+      "breakdown": [
+        {
+          "value": "$6M",
+          "label": "AI add-on",
+          "detail": "Estimated return: 25% a year",
+          "highlight": false
+        },
+        {
+          "value": "$4M",
+          "label": "European sales team",
+          "detail": "Estimated return: 15% a year",
+          "highlight": false
+        },
+        {
+          "value": "$20M",
+          "label": "Buy a smaller rival",
+          "detail": "$1.2M profit a year, so about 6%",
+          "highlight": true
+        },
+        {
+          "value": "$5M",
+          "label": "Safety buffer",
+          "detail": "Kept, not invested",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "chart",
+      "eyebrow": "Apply the hurdle",
+      "title": "Which ideas clear 12%?",
+      "illustrative": true,
+      "body": [
+        "The board sets a **12% hurdle rate**: the return owners could reasonably expect elsewhere for similar risk.",
+        "Two ideas clear it. The acquisition, the biggest and most exciting, falls well short."
+      ],
+      "chart": {
+        "unit": "%",
+        "groups": [
+          {
+            "label": "Estimated yearly return",
+            "rows": [
+              {
+                "label": "AI add-on",
+                "value": 25,
+                "highlight": false
+              },
+              {
+                "label": "European sales team",
+                "value": 15,
+                "highlight": false
+              },
+              {
+                "label": "Hurdle rate",
+                "value": 12,
+                "highlight": true
+              },
+              {
+                "label": "Buy the rival",
+                "value": 6,
+                "highlight": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "The CEO pushes back on the acquisition.",
+      "illustrative": true,
+      "body": [
+        "\"It's strategic,\" the CEO says. \"Their customers could buy our other products, and we'd cut duplicate costs.\""
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Approve it. Strategic value is hard to measure",
+            "verdict": "risky",
+            "feedback": "\"Strategic\" can become a way to skip the **hurdle rate**. You'd pay $20M for 6% unless the benefits are real."
+          },
+          {
+            "key": "B",
+            "text": "Ask for a realistic case with those savings and sales, then test it against 12%",
+            "verdict": "best",
+            "feedback": "The **hurdle rate** stays the same; only the honest numbers change. If the deal clears 12% with believable savings, buying beats building."
+          },
+          {
+            "key": "C",
+            "text": "Reject it. Acquisitions usually disappoint",
+            "verdict": "partial",
+            "feedback": "Caution is fair, but a blanket rule removes acquiring from your choices. Some deals do clear the bar."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The leftover",
+      "title": "$15M with nowhere good to go.",
+      "illustrative": true,
+      "body": [
+        "Fund the AI add-on and the sales team, and $15M remains. This is where **reinvest, return or acquire** matters most.",
+        "Holding it earns bank interest, likely well below 12%. Returning it through dividends or buybacks lets owners put it to better use. Keeping some for a future deal is reasonable, but only with a plan and a deadline."
+      ],
+      "image": {
+        "label": "Three doors labeled Reinvest, Return and Acquire",
+        "aspectRatio": "16:9",
+        "brief": "문 세 개가 나란히 있고 각각 \"Reinvest\", \"Return\", \"Acquire\" 라벨. 현금 더미가 문 앞에 놓여 있고, \"Reinvest\" 문은 살짝 열려 있으며 \"Return\" 문으로 향하는 화살표. 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The returns are estimates, not facts.",
+      "body": [
+        "The 25% and 15% came from the people who want the money. Project owners tend to be optimistic, so ask how each estimate was built.",
+        "Risk differs too. A new product is riskier than more sales staff for a product that already sells. Riskier bets often deserve a **higher hurdle**, not the same one.",
+        "And keep the buffer. Cash you can't reach in a downturn is worth less than it looks."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a packaging factory.",
+      "illustrative": true,
+      "body": [
+        "A family-owned packaging maker has $3M of spare cash after its buffer. Hurdle rate: 10%.",
+        "A second automated line costs $1.8M and should return about 18%. Buying the building it rents costs $2.5M and saves $175k a year in rent, about 7%."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Fund the line, then pay the remaining $1.2M out to the owners",
+            "verdict": "best",
+            "feedback": "The line clears the **hurdle rate**, the building doesn't, and returning the rest is the **return** option doing its job."
+          },
+          {
+            "key": "B",
+            "text": "Buy the building. Owning feels safer than renting",
+            "verdict": "risky",
+            "feedback": "You gain control of your site but lock $2.5M into a 7% return, below what the owners need."
+          },
+          {
+            "key": "C",
+            "text": "Keep all $3M in the bank until a big opportunity appears",
+            "verdict": "partial",
+            "feedback": "You stay flexible, but you skip an 18% project and leave cash earning less than the hurdle."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A pile of cash is a list of choices, not a problem to spend away.",
+      "body": [
+        "Today you used two ideas. **Hurdle rates** told you which projects earn their keep. **Reinvest, return or acquire** told you what to do with the rest, including giving it back.",
+        "**Try it today:** list every place your spare cash could go. Write an honest return next to each, then draw a line at your hurdle rate."
+      ],
+      "next": "Next · Berkshire Hathaway and See's Candies"
+    }
+  ]
+}

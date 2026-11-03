@@ -1,0 +1,233 @@
+{
+  "id": "OPS-08-02",
+  "unitId": "OPS-08",
+  "categoryId": "OPS",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "Stockouts vs overstock",
+  "readerTitle": "The bakery that got its waste to zero, and lost money",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (카페 체인 제과, 사내 IT팀) + 실제 연구 (소매 품절에 대한 소비자 반응 연구, 수치는 인용하지 않음)",
+  "insight": "재고는 '얼마나 팔릴까'가 아니라 '하나 모자랄 때의 손해와 하나 남을 때의 손해 중 어느 쪽이 더 큰가'로 정한다. 그리고 품절의 손해는 장부에 보이지 않는다.",
+  "misconception": "남는 재고는 낭비이니 폐기를 0으로 만드는 것이 가장 효율적이다. 예상 평균 수요만큼 준비하면 된다.",
+  "relatedLessonIds": [
+    "OPS-08-01",
+    "FIN-02-05"
+  ],
+  "sources": [
+    {
+      "text": "Gruen, T., Corsten, D., & Bharadwaj, S. (2002). Retail Out-of-Stocks: A Worldwide Examination of Extent, Causes and Consumer Responses. Grocery Manufacturers of America.",
+      "url": null
+    },
+    {
+      "text": "운영관리의 표준 개념 (신문팔이 문제, 부족 비용과 과잉 비용의 비율)",
+      "url": null
+    },
+    {
+      "text": "카페와 IT팀 수치는 모두 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Gruen 외(2002) 연구는 품절을 만난 고객의 상당수가 다른 매장에서 사거나 다른 브랜드로 바꾼다고 보고했습니다. 카드에는 구체적 비율 없이 일반적으로만 적었습니다. 수치(예: 다른 매장 구매 약 31%)를 넣으려면 원문으로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "크루아상 계산: 가격 $4 − 재료·인건 등 변동비 $1 = 놓친 판매 1개당 $3 손해, 남은 1개당 $1 손해. 추가 1개의 기대 이익 = p×3 − (1−p)×1 > 0 → p > 0.25. 임계 비율 3 ÷ (3+1) = 75%. 수요가 80~120개에 고르게 분포한다고 가정하면 75번째 백분위 = 80 + 0.75×40 = 110개.",
+      "status": "open"
+    },
+    {
+      "note": "케이크 반전 예시: 가격 $20, 비용 $15 → 부족 비용 $5, 과잉 비용 $15. 임계 비율 5 ÷ 20 = 25%, 즉 팔릴 확률이 75%를 넘을 때만 추가로 만든다. 남은 제품의 할인 판매·재활용 가치는 단순화를 위해 0으로 두었습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Counterexample",
+      "title": "The bakery that got its waste to zero, and lost money",
+      "illustrative": true,
+      "body": [
+        "A café chain set a goal for one store: no croissants thrown away at closing time.",
+        "Within a month, the bin was empty every night. Head office praised the result. Then the sales report arrived. Croissant sales were down, and so was morning coffee. Customers arriving at 10 a.m. kept finding an empty basket."
+      ],
+      "image": {
+        "label": "An empty pastry basket at mid-morning beside a clean, empty bin",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 일러스트. 카페 카운터의 텅 빈 크루아상 바구니, 그 옆에 반짝이는 빈 쓰레기통. 벽시계는 오전 10시. 뒤편에 아쉬운 표정으로 돌아서는 손님 실루엣. 실제 브랜드 로고 없음.",
+        "url": "assets/images/ops-08-02-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How many croissants should you bake?",
+      "illustrative": true,
+      "body": [
+        "A croissant sells for $4 and costs about $1 to make. Leftovers go in the bin. On a typical day you sell 100, but it swings anywhere from 80 to 120.",
+        "How many do you bake each morning?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "80, so nothing is ever wasted",
+            "verdict": "risky",
+            "feedback": "You never throw one away, but on most days you turn customers away. Each missed sale costs three times what a leftover does."
+          },
+          {
+            "key": "B",
+            "text": "100, the average",
+            "verdict": "partial",
+            "feedback": "Sensible on paper. But it treats running out and having extra as equally bad, and here they aren't."
+          },
+          {
+            "key": "C",
+            "text": "About 110, a bit above average",
+            "verdict": "best",
+            "feedback": "You accept some waste on slow days to catch most busy ones. The next cards show why that trade pays."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Two ways to be wrong, two different prices.",
+      "illustrative": true,
+      "body": [
+        "Every morning you will guess wrong in one direction. The question is which mistake hurts more. Here, an empty basket costs **three times** as much as a full bin."
+      ],
+      "breakdown": [
+        {
+          "value": "$3",
+          "label": "One croissant short",
+          "detail": "The $4 sale you missed, minus the $1 you didn't spend",
+          "highlight": true
+        },
+        {
+          "value": "+ ?",
+          "label": "Hidden extra",
+          "detail": "The coffee they didn't buy, and maybe the next visit",
+          "highlight": false
+        },
+        {
+          "value": "$1",
+          "label": "One croissant left over",
+          "detail": "Ingredients and labor in the bin",
+          "highlight": false
+        }
+      ],
+      "softwareNote": "Server capacity works the same way. Too little and the app slows or crashes at peak; too much and you pay for idle machines. Teams that suffer outages often learn that running short costs far more than spare capacity."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Stockouts vs overstock",
+      "body": [
+        "A **stockout** is running out when a customer wants to buy. **Overstock** is holding more than you sell before it spoils, dates or ties up cash.",
+        "Demand is never exact, so you can't avoid both. Every stock decision is really a choice about which mistake you'd rather make more often.",
+        "The bakery chose to never overstock. That made stockouts frequent, and stockouts were the expensive mistake."
+      ],
+      "image": {
+        "label": "A seesaw with an empty shelf on one side and a pile of leftovers on the other",
+        "aspectRatio": "4:3",
+        "brief": "시소 일러스트. 왼쪽에 \"Stockout\" 라벨과 빈 선반, 오른쪽에 \"Overstock\" 라벨과 남은 빵 더미. 받침점 위치를 옮길 수 있다는 느낌의 화살표. 깔끔한 플랫 스타일.",
+        "url": "assets/images/ops-08-02-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Compare the two costs, then lean.",
+      "illustrative": true,
+      "body": [
+        "Bake one more croissant if it pays on average. It earns $3 if it sells and loses $1 if it doesn't. So it's worth baking whenever there's better than a **1-in-4 chance** it sells.",
+        "That pushes you toward about 110, enough to cover demand on roughly three days out of four.",
+        "Flip the numbers and the answer flips. A $20 cake that costs $15 to make loses more as a leftover than as a missed sale. Bake it cautiously."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The hidden side",
+      "title": "Waste is visible. Lost sales are not.",
+      "body": [
+        "Leftovers sit in the bin and show up on a report. A customer who sees an empty basket just leaves. No receipt records the sale that didn't happen.",
+        "That's why goals like \"zero waste\" quietly push stock too low. Retail research on empty shelves, such as a large 2002 study by Gruen, Corsten and Bharadwaj, found that many shoppers don't wait. They buy elsewhere or switch brands.",
+        "Worse, your sales data now understates demand, so next month's order shrinks again."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Don't use this as an excuse to overstock.",
+      "body": [
+        "The lean only works if you know your costs. Overstock has costs beyond the bin: cash tied up, storage space, items that go stale or out of date.",
+        "The \"hidden extra\" of a stockout is real but easy to exaggerate. If customers happily switch to a muffin, running out of croissants costs much less.",
+        "And the right level moves. A rainy Monday and a sunny Saturday need different numbers."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's the IT team.",
+      "illustrative": true,
+      "body": [
+        "You run IT inside a 400-person company. New hires need a laptop on day one. Hiring plans often change late, and a new laptop takes two weeks to arrive. Finance wants no idle equipment.",
+        "How do you stock laptops?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Order only for confirmed start dates",
+            "verdict": "risky",
+            "feedback": "No idle laptops, but every surprise hire sits for days unable to work. A week of salary and a poor first impression cost far more than a spare machine."
+          },
+          {
+            "key": "B",
+            "text": "Keep a small pool of spares, sized to how many surprise hires you usually get",
+            "verdict": "best",
+            "feedback": "A spare laptop costs a little cash while it waits and gets used soon anyway. You lean toward the cheaper mistake."
+          },
+          {
+            "key": "C",
+            "text": "Buy a large stock so you never run short",
+            "verdict": "partial",
+            "feedback": "No one waits, but laptops age fast and tie up budget. Past a small buffer, each extra machine is mostly cost."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Decide which mistake you'd rather make.",
+      "body": [
+        "You will always run short or have extra. Compare what one missing item costs with what one leftover costs, and lean toward the cheaper error.",
+        "**Try it today:** pick one item you stock. Write what you lose when it runs out and what you lose when one is left over. Which number is bigger?"
+      ],
+      "next": "Next · Why more products can mean less profit"
+    }
+  ]
+}

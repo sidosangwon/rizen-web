@@ -1,0 +1,221 @@
+{
+  "id": "ECO-01-04",
+  "unitId": "ECO-01",
+  "categoryId": "ECO",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Incentives",
+  "readerTitle": "Pay for rat tails, get more rats",
+  "format": "counterexample",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.4,
+  "caseKinds": [
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 연구 (1902년 하노이 쥐 포상금에 대한 역사 연구, 이스라엘 어린이집 벌금 실험) + 가상 적용 (물류 창고, 소프트웨어 영업팀)",
+  "insight": "사람들은 내가 의도한 것이 아니라 내가 실제로 보상한 것에 반응한다. 보상을 만들기 전에 '똑똑한 사람이 내가 원하는 일을 하지 않고 이 보상을 받는 방법'부터 찾아본다.",
+  "misconception": "원하는 행동에 돈을 붙이면 그 행동이 늘어나고, 원하지 않는 행동에 벌금을 매기면 그 행동이 줄어든다.",
+  "relatedLessonIds": [
+    "ECO-08-03",
+    "ECO-10-01"
+  ],
+  "sources": [
+    {
+      "text": "Vann, M. G. (2003). Of Rats, Rice, and Race: The Great Hanoi Rat Massacre, an Episode in French Colonial History. French Colonial History, 4, 191–203.",
+      "url": null
+    },
+    {
+      "text": "Gneezy, U., & Rustichini, A. (2000). A Fine Is a Price. The Journal of Legal Studies, 29(1), 1–17.",
+      "url": null
+    },
+    {
+      "text": "창고와 소프트웨어 영업팀 사례는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "하노이 쥐 포상금: 1902년 프랑스 식민 당국이 쥐 한 마리당 포상금을 주고 증거로 꼬리만 받았다는 내용, 꼬리 없는 쥐가 목격되었다는 내용, 도시 외곽 쥐 사육 보고는 Vann(2003) 기준입니다. 쥐 사육은 '보고'로만 표현했습니다. 포상금 제도가 곧 중단되었다는 표현도 원문에서 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "어린이집 연구: 이스라엘 어린이집 10곳 중 일부에 지각 벌금을 도입했고, 지각이 늘었으며 벌금을 없앤 뒤에도 높은 수준이 유지되었다는 결과는 Gneezy & Rustichini(2000) 기준입니다. 카드에는 구체적 수치와 벌금 액수를 넣지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "7번 카드의 '품질 확인이 쉬울 때 개수당 보상이 생산량을 높일 수 있다'는 일반적 진술이며 특정 연구 수치는 쓰지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Economics · Counterexample",
+      "title": "Pay for rat tails, get more rats",
+      "body": [
+        "In 1902, the French colonial government in Hanoi was fighting rats in the city's new sewers. It offered residents a small payment for every rat they killed.",
+        "To avoid handling dead rats, officials asked for just the tail as proof. Soon, people began spotting rats without tails running around the city."
+      ],
+      "image": {
+        "label": "A rat without a tail scurrying past a pile of tails",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 20세기 초 거리 풍경을 단순하게 표현. 앞쪽에 꼬리 없는 쥐 한 마리가 당당하게 지나가고, 뒤쪽 탁자 위에 꼬리 묶음과 동전이 놓여 있음. 징그럽지 않고 유머러스한 톤. 실제 문장이나 로고 없음.",
+        "url": "assets/images/eco-01-04-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Your packing line keeps missing the trucks.",
+      "illustrative": true,
+      "body": [
+        "You run a distribution warehouse. Orders pile up at the end of each shift, and trucks leave half full. You want to add a bonus for the packing team.",
+        "Which bonus do you choose?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "A bonus for every box each person packs",
+            "verdict": "risky",
+            "feedback": "Speed will rise fast. So will wrong items, crushed boxes and skipped checks, because nothing in the bonus pays for getting it right."
+          },
+          {
+            "key": "B",
+            "text": "A team bonus for boxes shipped on time, reduced for each return caused by a packing error",
+            "verdict": "best",
+            "feedback": "It pays for the result you want: correct boxes on the truck. It takes more work to track, but it's much harder to game."
+          },
+          {
+            "key": "C",
+            "text": "A flat raise for everyone, with no targets",
+            "verdict": "partial",
+            "feedback": "Good for morale and simple to run. But it doesn't point anyone's effort at the missed trucks, so it may change little."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "Hanoi paid for tails, not for fewer rats.",
+      "body": [
+        "Some hunters caught rats, cut off the tails and let the rats go. A rat without a tail could still breed more rats, and more rats meant more tails to sell.",
+        "Historian Michael Vann, who studied the episode, also found reports of people raising rats outside the city for the payment.",
+        "Nobody broke the rules. They followed them exactly. The rules just rewarded the wrong thing."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Incentives",
+      "body": [
+        "An **incentive** is anything that changes what a choice is worth to someone: money, time, effort, status, even guilt.",
+        "People respond to the incentive you actually created, not the one you meant. Hanoi meant \"fewer rats\" but paid for \"tails.\" A per-box bonus means \"ship more\" but pays for \"box count.\"",
+        "The gap between what you meant and what you paid for is where things go wrong."
+      ],
+      "image": {
+        "label": "Two arrows: what you meant vs what you rewarded",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 왼쪽 과녁에 \"What you meant: fewer rats\", 오른쪽 과녁에 \"What you paid for: tails\". 사람들이 줄지어 오른쪽 과녁으로 걸어가는 모습. 두 과녁 사이 틈을 강조.",
+        "url": "assets/images/eco-01-04-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The research",
+      "title": "A fine that made parents later.",
+      "body": [
+        "Economists Uri Gneezy and Aldo Rustichini studied daycare centers in Israel where parents often picked up children late. Some centers introduced a small fine for late pickups.",
+        "Late pickups went **up**, not down. Before, being late felt like letting the teachers down. The fine turned that guilt into a price, and many parents decided the price was worth paying.",
+        "When the fine was removed, lateness stayed high."
+      ],
+      "image": {
+        "label": "A parent paying a small fee at a daycare door, clock showing late",
+        "aspectRatio": "16:9",
+        "brief": "3D 클레이 스타일. 어린이집 문 앞에서 부모가 웃으며 작은 동전을 내고, 벽시계는 늦은 시간을 가리킴. 교사는 당황한 표정. 실제 기관 이름이나 로고 없음.",
+        "url": "assets/images/eco-01-04-c5.jpg"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Look wider",
+      "title": "Every rule is an incentive, not just pay.",
+      "body": [
+        "Anything you set up rewards some behavior, whether you planned it or not:"
+      ],
+      "list": [
+        "**Return policies:** no-questions refunds can invite \"wear it once, send it back\"",
+        "**Budgets:** \"use it or lose it\" rewards spending everything before year-end",
+        "**Supplier deals:** paying for speed alone invites shortcuts on quality",
+        "**Frequent sales:** customers learn to wait for the next one"
+      ],
+      "callout": "Ask of any rule: what does this make worth doing?"
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The answer isn't to stop using incentives.",
+      "body": [
+        "Incentives often work well. Paying per piece can raise output when quality is easy to check. The trouble starts when you reward something easy to count that's only part of what you want.",
+        "No scheme is game-proof. Each extra measure adds cost and confusion. Sometimes trust, a clear purpose and a manager who notices problems beat a cleverer formula."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software company.",
+      "illustrative": true,
+      "body": [
+        "Your sales reps earn a commission equal to the first three months of each new subscription. Signups are up. But many new customers cancel after the first month.",
+        "What do you change?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Raise the commission to push even more signups",
+            "verdict": "risky",
+            "feedback": "You'd get more signups of the same kind. You'd be paying more to bring in customers who leave."
+          },
+          {
+            "key": "B",
+            "text": "Pay part of the commission only after the customer has stayed and paid for six months",
+            "verdict": "best",
+            "feedback": "Reps now gain from finding customers who fit. Some will dislike waiting, so keep the first part paid quickly."
+          },
+          {
+            "key": "C",
+            "text": "Drop commission and pay a higher fixed salary",
+            "verdict": "partial",
+            "feedback": "It removes the push to sell to poor fits, but also the push to sell at all. Your strongest reps may leave for jobs that pay for results."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "People do what you reward, not what you meant.",
+      "body": [
+        "Before launching a bonus, fee or rule, ask: how could a smart person win this without giving me what I want?",
+        "**Try it today:** pick one target or bonus in your business. Write down the easiest way to hit it while doing the job badly. If that's easy, fix the target."
+      ],
+      "next": "Next · Why the next hour matters more than the average one"
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "id": "THK-08-09",
+  "unitId": "THK-08",
+  "categoryId": "THK",
+  "order": 9,
+  "type": "case",
+  "conceptTag": "Abraham Wald and the missing bullet holes",
+  "readerTitle": "The bullet holes that weren't there",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.4,
+  "caseKinds": [
+    "real_company",
+    "real_research",
+    "anecdote",
+    "illustrative"
+  ],
+  "caseNote": "실제 조직과 연구 (컬럼비아대 Statistical Research Group, Abraham Wald의 1943년 메모). 대중적으로 알려진 '장교들이 동체를 보강하려 했다'는 대화는 일화이며 각색되었을 수 있음. 적용 사례 (소프트웨어, 화물 운송)는 가상.",
+  "insight": "눈앞의 데이터는 어떤 걸러짐을 통과하고 살아남은 것이므로, 무엇이 빠졌는지와 왜 빠졌는지를 먼저 묻는다.",
+  "misconception": "문제가 가장 많이 보고되는 곳이 가장 고쳐야 할 곳이다.",
+  "relatedLessonIds": [
+    "THK-08-04",
+    "THK-02-02"
+  ],
+  "sources": [
+    {
+      "text": "Wald, A. (1943). A Method of Estimating Plane Vulnerability Based on Damage of Survivors. Statistical Research Group memoranda, reprinted 1980 by the Center for Naval Analyses (CRC 432).",
+      "url": null
+    },
+    {
+      "text": "Mangel, M. & Samaniego, F. J. (1984). Abraham Wald's Work on Aircraft Survivability. Journal of the American Statistical Association, 79(386), 259–267.",
+      "url": null
+    },
+    {
+      "text": "Wallis, W. A. (1980). The Statistical Research Group, 1942–1945. Journal of the American Statistical Association, 75(370), 320–330.",
+      "url": null
+    },
+    {
+      "text": "Ellenberg, J. (2014). How Not to Be Wrong. Penguin Press. (대중적 일화 버전의 대표 출처)",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Wald가 2차 대전 중 컬럼비아대 Statistical Research Group(SRG)에서 일했고, 귀환기 손상으로 취약도를 추정하는 메모를 썼다는 점은 Wallis(1980), Mangel & Samaniego(1984)로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "'귀환기에는 엔진 피탄이 적었고, 장교들이 피탄이 많은 곳을 보강하려 했다'는 구체적 장면은 주로 Ellenberg(2014) 등 대중서의 서술입니다. 원 메모에 그 대화가 있는지는 불확실하므로 카드에서는 'popular telling', 'may be embellished'로 표시했습니다. 구체적 수치는 넣지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "빨간 점이 찍힌 폭격기 그림은 전쟁 당시 자료가 아니라 현대에 만든 설명용 그림으로 알려져 있습니다. 게시 전 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Wald 메모의 핵심 가정(피탄이 기체 여러 부분에 대략 고르게 분포한다는 가정 등)에 대한 서술이 Mangel & Samaniego(1984)의 요약과 맞는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Wald의 경력(1938년 오스트리아를 떠나 미국으로 이주)은 카드에 '유럽에서 온 수학자' 수준으로만 썼습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking with data · Counterexample",
+      "title": "The bullet holes that weren't there",
+      "body": [
+        "During World War II, bombers came back from missions covered in bullet holes. Armor could protect them, but armor is heavy. Too much, and a plane flies slower and carries less.",
+        "So the question was simple: where should the limited armor go?"
+      ],
+      "image": {
+        "label": "A returning bomber with scattered bullet holes",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 활주로에 막 착륙한 2차 대전풍 폭격기, 날개와 동체에 구멍이 흩어져 있고 엔진 부분은 깨끗함. 실제 군 표식, 국가 문양, 제조사 로고는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Where does the armor go?",
+      "body": [
+        "You are on the analysis team. Engineers have recorded every hole on planes returning from combat. The holes cluster on the wings and the main body. The engines show far fewer.",
+        "You can add armor to only a few areas."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Armor the wings and body, where the holes are",
+            "verdict": "risky",
+            "feedback": "It follows the data you have. But it protects the places planes already survive being hit, and may leave the fatal spots bare."
+          },
+          {
+            "key": "B",
+            "text": "Spread thin armor evenly over the whole plane",
+            "verdict": "partial",
+            "feedback": "It avoids betting on the wrong area, but adds weight everywhere and gives little real protection anywhere."
+          },
+          {
+            "key": "C",
+            "text": "Armor the engines, where the holes are rare",
+            "verdict": "best",
+            "feedback": "It feels backwards, but it reads the gaps as information. It only works if hits really are spread across the plane, which you'd want to check."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What Wald saw",
+      "title": "The data only came from planes that made it home.",
+      "body": [
+        "Abraham Wald was a mathematician working with the Statistical Research Group, a team at Columbia University that solved problems for the US military.",
+        "His insight: a hole on a returning plane shows a place where a plane *can* be hit and still fly. If engines show few holes, it is not because they are rarely hit. It is because planes hit in the engine often **didn't come back** to be counted."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Survivorship bias",
+      "body": [
+        "**Survivorship bias** happens when you study only the cases that passed through a filter and forget the ones that were removed.",
+        "The filter here was being shot down. The missing planes held the most important information, and they were exactly the ones no one could inspect.",
+        "The fix is not more data from survivors. It is asking what the filter removed, and why."
+      ],
+      "image": {
+        "label": "Planes passing through a filter; only some reach the inspection area",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 왼쪽에서 비행기 여러 대가 출발, 가운데 'Combat' 필터를 지나며 엔진에 피탄된 비행기들이 회색 점선으로 사라짐. 오른쪽 'Inspection' 구역에는 날개·동체 피탄 비행기만 도착. 로고나 국가 표식 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it worked",
+      "title": "The real work was math, not a flash of genius.",
+      "body": [
+        "The famous scene, with officers about to armor the wrong spots, is a popular telling and may be embellished. What survives on paper is a set of 1943 memos.",
+        "In them, Wald built a method to estimate how likely a plane was to be lost when hit in each area, using only damage on survivors. A key assumption was that hits land across the plane in a roughly predictable way. Under that assumption, fewer holes than expected in an area signals danger there."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Same trap, new place",
+      "title": "Your happiest users are your returning bombers.",
+      "illustrative": true,
+      "body": [
+        "A software team plans next quarter from feature requests and satisfaction scores. Every response comes from people still using the product.",
+        "Users who left over slow load times or a confusing setup never filled in the survey. Their reasons are the engine hits. To find them, the team needs exit data: cancellation reasons, trial users who never activated, and short calls with customers who left."
+      ],
+      "image": {
+        "label": "A feedback box filled by current users while departing users walk away",
+        "aspectRatio": "16:9",
+        "brief": "플랫 일러스트. 앱 화면 옆 'Feedback' 상자에 웃는 사용자들이 쪽지를 넣고, 화면 밖으로 나가는 회색 사용자들은 아무것도 남기지 않음. 실제 앱 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Missing doesn't automatically mean important.",
+      "body": [
+        "Wald's logic depends on knowing why data is missing. If engines rarely showed holes because enemy fire rarely reached them, armoring them would waste weight.",
+        "So don't simply flip the obvious answer. First build a picture of what the full group should look like, then compare. The gap between expected and observed is the signal, not the gap alone."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a freight company.",
+      "illustrative": true,
+      "body": [
+        "You run regional freight deliveries. Your damage-claims file shows most claims are dented carton corners. Your team wants to buy stronger corner protectors.",
+        "Badly damaged loads are usually refused at the door and logged by a different team."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Buy the corner protectors. The claims are clear",
+            "verdict": "risky",
+            "feedback": "You fix a frequent, mild problem quickly. But the serious damage sits in the refusal log, outside the data you're reading."
+          },
+          {
+            "key": "B",
+            "text": "Pull refused loads and lost accounts into the analysis first",
+            "verdict": "best",
+            "feedback": "It costs a week or two of digging. In return you see the damage that never became a claim, which may matter most."
+          },
+          {
+            "key": "C",
+            "text": "Send a damage survey to all current customers",
+            "verdict": "partial",
+            "feedback": "It widens the sample, but customers who already left still won't answer. You'd hear more from survivors."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Before reading the data, ask who didn't make it into it.",
+      "body": [
+        "The cases that failed hardest often leave no record. Find the filter, then go looking for what it removed.",
+        "**Try it today:** pick one report you rely on, such as complaints, reviews or a survey. Write down who could never appear in it."
+      ],
+      "next": "Next · The new design 'won'. Ship it?"
+    }
+  ]
+}

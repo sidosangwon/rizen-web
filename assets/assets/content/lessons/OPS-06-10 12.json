@@ -1,0 +1,247 @@
+{
+  "id": "OPS-06-10",
+  "unitId": "OPS-06",
+  "categoryId": "OPS",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "A quality failure reaches customers",
+  "readerTitle": "The leak that showed you how your company really works",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.1,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (가정용 배관 설치 회사와 B2B 고객인 부동산 관리회사) · 모든 인물, 수치, 상황은 설명용",
+  "insight": "고객에게 닿은 품질 사고는 한 사람의 실수가 아니라 프로세스에 대한 증거다. 봉쇄, 원인, 예방, 신뢰 회복 순서로 대응한다.",
+  "misconception": "고객 불만 한 건은 그 건만 고치고, 실수한 직원을 주의 주면 끝난다.",
+  "relatedLessonIds": [
+    "OPS-06-02",
+    "OPS-06-06"
+  ],
+  "sources": [
+    {
+      "text": "품질 관리의 표준 개념 (봉쇄 조치, 근본 원인 분석, 표준화, 실수 방지)",
+      "url": null
+    },
+    {
+      "text": "모든 인물, 수치, 상황은 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "가상 시나리오입니다. 설치 30건, 누수 3건(첫 신고 1건과 점검에서 발견한 2건), 관리회사 건물 설치 8건 중 누수 2건이 카드 사이에서 일관되는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "온수기 설치 후 최종 점검(압력 확인, 이음부 누수 확인) 방식은 지역 규정과 제품마다 다릅니다. 카드에는 특정 기준값이나 시간을 쓰지 않고 일반적으로만 표현했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "테이크어웨이의 결정별 개념 매핑(품질 비용, 표준, 실수 방지, 전략으로서의 품질)이 OPS-06 유닛의 각 레슨 내용과 맞는지 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Simulation",
+      "title": "Monday, 8 a.m. A photo of a puddle.",
+      "illustrative": true,
+      "body": [
+        "You run a plumbing company with 12 technicians. A customer sends a photo: water pooling under the water heater your team installed on Friday.",
+        "Last week your team installed 30 heaters. Eight went into apartments owned by a property manager, your biggest client. The next four decisions are yours."
+      ],
+      "image": {
+        "label": "Phone showing a photo of water under a water heater",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 이른 아침 사무실 책상 위 스마트폰 화면에 온수기 아래 물웅덩이 사진이 떠 있고, 옆에 식은 커피잔. 실제 브랜드 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 4",
+      "title": "What's your first move?",
+      "illustrative": true,
+      "body": [
+        "The customer is upset but polite. You don't yet know if this leak is a one-off."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Send a technician today, fix it and apologize",
+            "verdict": "partial",
+            "feedback": "The visible problem is solved fast. But if the cause isn't unique, other homes may leak later, and each one costs more once it soaks a floor."
+          },
+          {
+            "key": "B",
+            "text": "Fix this one, then call all 30 customers from last week and offer a free check",
+            "verdict": "best",
+            "feedback": "It costs a day of checks. In return you find problems while they're cheap drips, not ruined floors and angry reviews."
+          },
+          {
+            "key": "C",
+            "text": "Fix this one and wait to see if more complaints come in",
+            "verdict": "risky",
+            "feedback": "You save a day now. But you let customers become your inspectors, and they'll find the next leak at the worst moment."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 4",
+      "title": "Three technicians, three ways to check.",
+      "illustrative": true,
+      "body": [
+        "Say you chose the free checks. They find two more slow leaks, from two different technicians.",
+        "You ask how each person does the final check. One watches the joints for a minute. One runs a pressure test. One checks \"if there's time.\" What do you conclude?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Two technicians were careless. Give them a formal warning",
+            "verdict": "risky",
+            "feedback": "It feels decisive, but nobody ever told them what the check should be. The next new hire will guess too."
+          },
+          {
+            "key": "B",
+            "text": "There's no shared standard. Write one: what to test, how, and what counts as a pass",
+            "verdict": "best",
+            "feedback": "You fix the gap that let three people do the job three ways. It takes an afternoon and some arguing with your senior techs."
+          },
+          {
+            "key": "C",
+            "text": "Ask your most senior technician to spot-check new installs",
+            "verdict": "partial",
+            "feedback": "You'll catch some leaks, but one person can't see every job, and you still haven't defined what \"good\" is."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 4",
+      "title": "How do you make it stick on a busy Friday?",
+      "illustrative": true,
+      "body": [
+        "Say you wrote the standard: a one-page final check every technician agrees on.",
+        "The leaks happened on rushed afternoons. How do you make sure the check happens when people are tired and behind?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Email the standard and repeat it at the weekly meeting",
+            "verdict": "risky",
+            "feedback": "Easy and free. But reminders fade within weeks, and rushed afternoons don't."
+          },
+          {
+            "key": "B",
+            "text": "Add a \"final check done\" box to the job checklist",
+            "verdict": "partial",
+            "feedback": "A checklist helps memory. But a box can be ticked without doing the test."
+          },
+          {
+            "key": "C",
+            "text": "Make the job app refuse to close a job until a photo of the pressure reading is uploaded",
+            "verdict": "best",
+            "feedback": "Skipping the check becomes hard and visible. It costs about a minute per job and a few grumbles."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 4 of 4",
+      "title": "Your biggest client wants answers.",
+      "illustrative": true,
+      "body": [
+        "Say you added the photo step. Then an email arrives from the property manager's operations lead: \"Two of these leaks were in our buildings. What happened?\"",
+        "She has to explain it to the building owners."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Apologize briefly and say it was a one-off",
+            "verdict": "risky",
+            "feedback": "Short and comfortable. But it wasn't a one-off, and if another leak happens, your word stops counting."
+          },
+          {
+            "key": "B",
+            "text": "Explain what failed, what you checked, what you changed, and offer the pressure photo for every future job in her buildings",
+            "verdict": "best",
+            "feedback": "You admit an uncomfortable gap. In return she gets proof she can pass upward, and you become the safer vendor."
+          },
+          {
+            "key": "C",
+            "text": "Offer 15% off the next invoice",
+            "verdict": "partial",
+            "feedback": "Money softens the moment. It doesn't answer her real question: will this happen again?"
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The idea",
+      "title": "A failure is evidence about the process.",
+      "body": [
+        "Look at the four calls together. You **contained** the damage, found the **cause in the process** rather than a person, **prevented** a repeat, then **rebuilt trust** with proof.",
+        "The first leak wasn't really the problem. It was the one customer who happened to notice a gap every job had."
+      ],
+      "softwareNote": "A bug that reaches users follows the same path: warn affected users before they report it, ask why the tests missed it, then add an automated check that blocks the release until it passes."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Don't turn every slip into a new rule.",
+      "body": [
+        "A full response costs time. A truly random slip, like one dropped part, may only need a fix and a note.",
+        "New steps also go stale. A photo can become a ritual nobody looks at, so spot-check a few each month.",
+        "And \"fix the process\" doesn't excuse someone who knew the standard and ignored it. That's a different conversation."
+      ],
+      "image": {
+        "label": "A thick rulebook next to a single simple checklist",
+        "aspectRatio": "16:9",
+        "brief": "3D 클레이 스타일. 왼쪽에 먼지 쌓인 두꺼운 규정집, 오른쪽에 한 장짜리 체크리스트와 압력계 사진이 담긴 스마트폰. 오른쪽이 더 밝게 조명됨. 실제 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Contain, find the cause, prevent, then prove it.",
+      "body": [
+        "Each call in this story used one idea from this unit:"
+      ],
+      "list": [
+        "**Free checks:** the cost of poor quality grows the later a failure is found",
+        "**One written check:** standards turn guesses into a shared definition of good",
+        "**Photo before closing:** mistake-proofing makes the right step the easy step",
+        "**Honest account to the client:** quality, shown with proof, becomes a reason to choose you"
+      ],
+      "callout": "**Try it today:** pick your last customer complaint. Ask whether the same gap could exist in other jobs you haven't heard about yet.",
+      "next": "Next · A new unit begins"
+    }
+  ]
+}

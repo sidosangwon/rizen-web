@@ -1,0 +1,248 @@
+{
+  "id": "FIN-01-01",
+  "unitId": "FIN-01",
+  "categoryId": "FIN",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "The income statement",
+  "readerTitle": "Where did March's $40,000 go?",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.2,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (동네 식당, 구독형 앱) · 모든 수치는 설명용",
+  "insight": "손익계산서는 정해진 기간 동안 매출이 비용을 하나씩 거쳐 이익으로 내려가는 이야기다. 위에서 아래로, 기간을 정해서 읽는다.",
+  "misconception": "매출이 크거나 통장 잔고가 늘었으면 장사가 잘된 것이다.",
+  "relatedLessonIds": [
+    "FIN-01-02",
+    "FIN-02-01"
+  ],
+  "sources": [
+    {
+      "text": "재무회계의 표준 개념 (손익계산서, 매출·비용·이익, 기간 단위 보고)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "식당 3월 계산: $40,000 − $12,000 − $13,000 − $6,000 − $4,000 = $5,000. 모든 수치는 가상입니다.",
+      "status": "open"
+    },
+    {
+      "note": "앱 계산: 1분기 $100k − $10k − $50k − $20k = +$20k, 2분기 $130k − $13k − $60k − $67k = −$10k. 매출 +30%, 호스팅 +30%, 급여 +20%, 마케팅 $20k→$67k(3.35배, '세 배 넘게').",
+      "status": "open"
+    },
+    {
+      "note": "'top line', 'bottom line'이 손익계산서의 맨 윗줄과 맨 아랫줄에서 온 표현이라는 설명은 일반적으로 알려진 용례입니다. 게시 전 사전으로 한 번 더 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Everyday scene",
+      "title": "Where did March's $40,000 go?",
+      "illustrative": true,
+      "body": [
+        "Maya runs a neighborhood restaurant. At the end of March she tells a friend, \"We did $40,000 this month.\"",
+        "Her friend asks a simple follow-up: \"And how much did you keep?\" Maya isn't sure. The answer lives on one page most owners rarely read."
+      ],
+      "image": {
+        "label": "Restaurant owner looking at a long receipt at closing time",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 영업이 끝난 작은 식당 카운터에서 주인이 바닥까지 늘어진 긴 영수증을 들고 고개를 갸웃함. 영수증 맨 위에 \"$40,000\", 맨 아래는 물음표. 실제 상표나 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Was March a good month?",
+      "illustrative": true,
+      "body": [
+        "Maya wants a fair answer to one question: did the restaurant make money in March?",
+        "Which should she look at?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "March sales compared with February sales",
+            "verdict": "risky",
+            "feedback": "Sales show how busy she was, not what she kept. A busier month can still lose money if costs grew faster."
+          },
+          {
+            "key": "B",
+            "text": "How much the bank balance rose during March",
+            "verdict": "partial",
+            "feedback": "Close, and easy to check. But the bank balance also moves with loans, late bills and payments that belong to other months."
+          },
+          {
+            "key": "C",
+            "text": "March sales minus every March cost, line by line",
+            "verdict": "best",
+            "feedback": "This answers the question directly and shows where the money went. That page has a name, coming up next."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Maya's March, top to bottom.",
+      "illustrative": true,
+      "body": [
+        "Read it like a waterfall. Each line takes a share of the $40,000 until only **$5,000** is left."
+      ],
+      "breakdown": [
+        {
+          "value": "$40,000",
+          "label": "Revenue",
+          "detail": "Everything customers paid for meals and drinks",
+          "highlight": false
+        },
+        {
+          "value": "−$12,000",
+          "label": "Food and drink",
+          "detail": "Ingredients used in March",
+          "highlight": false
+        },
+        {
+          "value": "−$13,000",
+          "label": "Staff",
+          "detail": "Cooks and servers",
+          "highlight": false
+        },
+        {
+          "value": "−$6,000",
+          "label": "Rent and utilities",
+          "detail": "Space, power, water",
+          "highlight": false
+        },
+        {
+          "value": "−$4,000",
+          "label": "Other costs",
+          "detail": "Card fees, repairs, marketing",
+          "highlight": false
+        },
+        {
+          "value": "$5,000",
+          "label": "Profit",
+          "detail": "What March earned before tax",
+          "highlight": true
+        }
+      ],
+      "softwareNote": "A software company's page looks the same. Revenue at the top is subscriptions. Costs are hosting, support, salaries and marketing. Different lines, same waterfall."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The income statement",
+      "body": [
+        "The **income statement**, also called the *profit and loss* or P&L, lists a business's revenue and costs for a set period and ends with its profit or loss.",
+        "Revenue sits at the top, which is why people call sales the *top line*. Profit sits at the bottom: the *bottom line*.",
+        "Maya's $40,000 was the top line. Her friend was asking about the bottom line."
+      ],
+      "image": {
+        "label": "A one-page statement with the top and bottom lines highlighted",
+        "aspectRatio": "16:9",
+        "brief": "종이 한 장 형태의 손익계산서 일러스트. 맨 윗줄 \"Revenue\"와 맨 아랫줄 \"Profit\"에 각각 형광펜 강조와 \"Top line\", \"Bottom line\" 말풍선. 가운데 비용 줄들은 흐리게.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "A movie, not a photo.",
+      "body": [
+        "An income statement always covers a stretch of time: a month, a quarter or a year. \"Profit of $5,000\" means nothing until you know *for which period*.",
+        "That's what makes it useful. You can line up March against February, or this March against last March, and see which lines moved.",
+        "Other reports work differently. The balance sheet, coming next, is a photo of a single day."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where it applies",
+      "title": "Same shape, any business.",
+      "body": [
+        "The lines change by industry. The order stays the same."
+      ],
+      "list": [
+        "**Plumber:** call-out fees, minus parts, van, fuel and wages",
+        "**Small factory:** product sales, minus materials, labor, machines and rent",
+        "**Hotel:** room nights, minus cleaning, staff, energy and booking fees"
+      ],
+      "callout": "Start at what came in. Subtract what it took. Read what's left."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "It isn't your bank account.",
+      "body": [
+        "The income statement counts sales when they're earned and costs when they're used, not when cash moves. A profitable month can still leave the account short, for example when a big supplier bill lands.",
+        "One month can also mislead. A slow season or a once-a-year repair can swing the bottom line. Compare the same periods, and look at several in a row before deciding."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a subscription app.",
+      "illustrative": true,
+      "body": [
+        "Revenue grew from $100k in Q1 to $130k in Q2. Yet profit went from +$20k to −$10k.",
+        "The cost lines: hosting $10k → $13k, salaries $50k → $60k, marketing $20k → $67k. Where do you look first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Nowhere yet. Revenue grew 30%, so the loss is just a growing pain",
+            "verdict": "risky",
+            "feedback": "You keep the growth story but skip the page that explains the loss. Growth only helps if costs don't outrun it."
+          },
+          {
+            "key": "B",
+            "text": "Marketing. It more than tripled, so ask what it bought",
+            "verdict": "best",
+            "feedback": "Hosting and salaries grew no faster than revenue. Marketing explains almost the whole swing, so that's where the real question is."
+          },
+          {
+            "key": "C",
+            "text": "Salaries. They're the biggest line, so start there",
+            "verdict": "partial",
+            "feedback": "Big lines matter, but salaries grew only 20%, slower than revenue. Reading what *changed* beats reading what's largest."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Read it top to bottom, for a set period.",
+      "body": [
+        "The income statement tells you whether a period's work made money, and where the money went on the way down.",
+        "**Try it today:** write last month's revenue at the top of a page. List your five biggest costs below it and subtract. Is what's left what you expected?"
+      ],
+      "next": "Next · The balance sheet: a photo of one day"
+    }
+  ]
+}

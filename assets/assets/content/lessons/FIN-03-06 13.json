@@ -1,0 +1,223 @@
+{
+  "id": "FIN-03-06",
+  "unitId": "FIN-03",
+  "categoryId": "FIN",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Contribution margin",
+  "readerTitle": "What's really left when you sell one more coffee?",
+  "format": "numbers_twist",
+  "level": 1,
+  "language": "en",
+  "status": "draft_review",
+  "estimatedMinutes": 3.7,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (카페, 호텔) · 모든 수치는 설명용",
+  "insight": "할인과 특가 주문은 가격이 아니라 판매 한 건이 남기는 돈으로 판단한다.",
+  "misconception": "20% 할인이면 20% 더 팔면 된다. 원가 이하처럼 보이는 주문은 무조건 손해다.",
+  "relatedLessonIds": [
+    "ECO-02-01",
+    "FIN-04-01"
+  ],
+  "sources": [
+    {
+      "text": "관리회계의 표준 개념 (공헌이익, 고정비·변동비 구분)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 설명용 가상 수치입니다. 카드 계산을 다시 확인했습니다. 공헌이익 $5.00 − $1.20 − $0.15 = $3.65, 할인 후 $4.00 − $1.20 − $0.12 = $2.68, 필요한 판매 증가 3.65 ÷ 2.68 = 1.36배(+36%), 공헌이익 감소 26.6%(약 27%).",
+      "status": "open"
+    },
+    {
+      "note": "특가 주문: $3.00 − $1.20 − $0.09 = $1.71 × 200잔 = $342. 고정비 배분 원가 $4.35 = 변동비 $1.35 + 잔당 고정비 $3.00(월 고정비 $12,000 ÷ 4,000잔이라는 가정).",
+      "status": "open"
+    },
+    {
+      "note": "호텔: $150 − $30 = $120, $80 − $30 = $50 × 50박 = $2,500, 120 ÷ 50 = 2.4배. 할인가에서는 카드 수수료가 조금 줄지만 단순화를 위해 객실당 비용을 $30으로 고정했습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Numbers twist",
+      "title": "What's really left when you sell one more coffee?",
+      "illustrative": true,
+      "body": [
+        "A latte sells for $5. The coffee, milk and cup cost about $1.20.",
+        "So you keep $3.80 a cup? Not quite. And a 20% discount costs more than you'd think."
+      ],
+      "image": {
+        "label": "Latte with its cost split into layers",
+        "aspectRatio": "4:3",
+        "brief": "라테 한 잔을 세로 단면으로 보여주고, 층마다 \"Ingredients $1.20\", \"Card fee $0.15\", \"Left over $3.65\" 라벨. 맨 아래 층(남는 돈)이 가장 두껍게.",
+        "url": "assets/images/fin-03-06-latte.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How many more lattes would a 20% discount need?",
+      "illustrative": true,
+      "body": [
+        "Each latte costs you $1.20 in ingredients plus a 3% card fee. You're considering a 20% off promotion: $5 becomes $4.",
+        "To earn the same as before, how many more lattes do you need to sell?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "About 20% more",
+            "verdict": "risky",
+            "feedback": "It feels logical, but the discount comes entirely out of what's left after costs, not out of the whole price."
+          },
+          {
+            "key": "B",
+            "text": "About 36% more",
+            "verdict": "best",
+            "feedback": "Right. You used to keep $3.65 per latte. Now you keep $2.68. To make up the gap, you need about 36% more sales. Next card shows the math."
+          },
+          {
+            "key": "C",
+            "text": "About 60% more",
+            "verdict": "partial",
+            "feedback": "Good instinct that the discount bites harder than it looks. The math comes to about 36%."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Follow one latte.",
+      "illustrative": true,
+      "body": [
+        "With 20% off: $4.00 − $1.20 − $0.12 = **$2.68**. The price fell 20%. What you keep fell 27%."
+      ],
+      "breakdown": [
+        {
+          "value": "$5.00",
+          "label": "Price",
+          "detail": "What the customer pays",
+          "highlight": false
+        },
+        {
+          "value": "−$1.20",
+          "label": "Ingredients",
+          "detail": "Coffee, milk, cup",
+          "highlight": false
+        },
+        {
+          "value": "−$0.15",
+          "label": "Card fee",
+          "detail": "3% of the price",
+          "highlight": false
+        },
+        {
+          "value": "$3.65",
+          "label": "Left over",
+          "detail": "Pays for rent, staff, then profit",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Contribution margin",
+      "body": [
+        "**Contribution margin** is what each sale leaves after the costs that come with that sale, such as ingredients, fees and packaging.",
+        "That money \"contributes\" to the costs that don't change with sales, like rent and salaries. Once those are covered, the rest is profit.",
+        "Here it's $3.65 per latte, or 73% of the price."
+      ],
+      "softwareNote": "The costs that come with each sale are mostly servers, payment fees and support, so contribution margins are often above 70%. That's why special deals can still pay off, and why discounts spread so easily."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "A second twist",
+      "title": "Selling below \"cost\" can make you money.",
+      "illustrative": true,
+      "body": [
+        "A company asks for 200 lattes at $3 each for an event on a quiet Tuesday.",
+        "Your accountant spreads rent and staff across every cup and says each latte \"costs\" $4.35. So $3 looks like a loss.",
+        "But rent and staff get paid either way. Each $3 latte still leaves $1.71. That's **$342** you wouldn't have earned otherwise."
+      ],
+      "image": {
+        "label": "Three bars: $1.29 / $3.00 / $4.35",
+        "aspectRatio": "4:3",
+        "brief": "막대 3개 비교. \"Costs that come with each latte $1.29\", \"Offer price $3.00\", \"Cost with rent and staff spread in $4.35\". 가운데 막대가 첫 번째보다 높다는 점을 강조.",
+        "url": "assets/images/fin-03-06-bars.png"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "This thinking has limits.",
+      "body": [
+        "On average, sales must cover more than their own costs, or the rent never gets paid. If every order is a special deal, you're out of business.",
+        "Capacity matters too. If the Tuesday order meant turning away full-price customers, each lost $3.65 counts against it.",
+        "And customers talk. A deal for one can become the price everyone expects."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a hotel.",
+      "illustrative": true,
+      "body": [
+        "Your rooms sell for $150 a night. Cleaning, laundry, toiletries and card fees come to about $30 per occupied room.",
+        "A tour company offers to book 50 room-nights in your quiet season, if you charge $80. Should you?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "No. $80 is about half price, so it must lose money",
+            "verdict": "risky",
+            "feedback": "Each room still leaves $50 after the costs that come with it. That's $2,500 from rooms that would otherwise sit empty."
+          },
+          {
+            "key": "B",
+            "text": "Yes, but only on quiet dates, on terms that can't replace full-price bookings",
+            "verdict": "best",
+            "feedback": "You keep the extra $2,500 and protect your $150 guests. The real risk isn't the math. It's the low price spreading."
+          },
+          {
+            "key": "C",
+            "text": "Yes, and drop the price to $80 for everyone",
+            "verdict": "risky",
+            "feedback": "Each full-price guest would leave $50 instead of $120. You'd need more than twice as many guests to earn the same."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Know what each sale leaves behind.",
+      "body": [
+        "Price minus the costs that come with each sale. That one number tells you what a discount really costs and when a low-price deal is still worth it.",
+        "**Try it today:** pick your best-selling product. Write down its price, the costs that come with each sale, and what's left."
+      ],
+      "next": "Next · How many cupcakes before you make a cent?"
+    }
+  ]
+}

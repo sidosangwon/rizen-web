@@ -1,0 +1,245 @@
+{
+  "id": "STR-02-01",
+  "unitId": "STR-02",
+  "categoryId": "STR",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "The five forces",
+  "readerTitle": "Same sales, five times the profit: the forces that decide who gets paid",
+  "format": "numbers_twist",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 연구 (Porter 1979, 2008) + 가상 사례 (휴대폰 액세서리 판매점, 업소용 냉장고 부품 유통사, 금속 부품 공장) · 모든 수치는 설명용",
+  "insight": "이익은 얼마나 잘하느냐보다 판매 한 건을 놓고 누가 몫을 가져갈 수 있느냐로 먼저 정해진다.",
+  "misconception": "열심히 잘 운영하면 어느 업계에서든 비슷하게 남는다. 성장하는 시장이 곧 돈이 되는 시장이다.",
+  "relatedLessonIds": [
+    "STR-02-02",
+    "STR-02-09"
+  ],
+  "sources": [
+    {
+      "text": "Porter, M. E. (1979). How Competitive Forces Shape Strategy. Harvard Business Review.",
+      "url": null
+    },
+    {
+      "text": "Porter, M. E. (2008). The Five Competitive Forces That Shape Strategy. Harvard Business Review.",
+      "url": null
+    },
+    {
+      "text": "두 사업과 공장 사례의 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Porter의 첫 논문은 1979년 HBR에 실린 \"How Competitive Forces Shape Strategy\"입니다. 게시 전에 연도와 제목을 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "3번 카드의 \"업계별 평균 수익성 차이가 크다\"는 Porter(2008)의 업계별 평균 ROIC 비교에 근거합니다. 구체적 수치는 인용하지 않고 일반적으로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "가상 수치 계산: 두 사업 모두 매출 $5M. 휴대폰 액세서리 $100당 $3 = 연 $150,000, 냉장고 부품 $100당 $15 = 연 $750,000. 15 ÷ 3 = 5배.",
+      "status": "open"
+    },
+    {
+      "note": "softwareNote의 앱스토어 수수료는 비율을 적지 않고 \"a cut of each sale\"로만 표현했습니다. 수수료 구조는 스토어와 시기마다 다릅니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Strategy · Numbers twist",
+      "title": "Same sales, very different profits",
+      "illustrative": true,
+      "body": [
+        "Two businesses each sell $5 million a year. Both owners work long hours. Both run tight, careful operations.",
+        "One keeps about 3 cents of every dollar it sells. The other keeps about 15. The gap has surprisingly little to do with the owners."
+      ],
+      "image": {
+        "label": "Two equal piles of revenue, one leaving a small profit and one a large profit",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 같은 높이의 동전 더미 두 개가 나란히 있고, 각 더미 아래 주인 쪽으로 흘러가는 동전이 왼쪽은 아주 조금, 오른쪽은 훨씬 많음. 나머지 동전은 여러 방향의 손들이 가져감. 실제 로고나 브랜드 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which one keeps more of each dollar?",
+      "illustrative": true,
+      "body": [
+        "**Business A** sells phone cases and chargers online and from two mall stores.",
+        "**Business B** distributes replacement parts for commercial fridges and freezers to restaurants in one region."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The phone accessory seller. Almost everyone buys these, and demand keeps growing",
+            "verdict": "risky",
+            "feedback": "Huge demand attracts huge numbers of sellers. Big, growing demand tells you the pie is large, not who gets to keep it."
+          },
+          {
+            "key": "B",
+            "text": "The fridge parts distributor. Its customers have fewer good options",
+            "verdict": "best",
+            "feedback": "Right. A restaurant with a dead freezer needs the part today and won't haggle over a few dollars. That shifts power toward the seller."
+          },
+          {
+            "key": "C",
+            "text": "About the same. Margins depend mostly on how well each is run",
+            "verdict": "partial",
+            "feedback": "Good management matters, but it works inside limits. Two equally skilled owners can face very different ceilings."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "Same effort, five times the profit.",
+      "illustrative": true,
+      "body": [
+        "On $5 million in sales, that's $150,000 a year against $750,000. Porter's research found the same pattern at scale: average profitability differs widely from one industry to the next."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Profit kept per $100 of sales",
+            "rows": [
+              {
+                "label": "Phone accessories",
+                "value": 3,
+                "highlight": false
+              },
+              {
+                "label": "Fridge parts",
+                "value": 15,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The five forces",
+      "body": [
+        "In 1979, Harvard professor Michael Porter argued that five pressures shape how much profit an industry leaves its businesses. The **five forces** are everyone who can push your prices down or your costs up:"
+      ],
+      "list": [
+        "**Rivals:** competitors fighting for the same customers",
+        "**Buyers:** customers who can demand lower prices",
+        "**Suppliers:** sellers who can charge you more",
+        "**Substitutes:** different ways to do the same job",
+        "**New entrants:** newcomers who can join easily"
+      ],
+      "callout": "The stronger the forces, the less of each sale you keep.",
+      "softwareNote": "An app sold through a major app store hands a cut of each sale to the store, a powerful supplier of distribution. A tool built into a team's daily work faces weaker buyers, because switching means retraining everyone."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Run the forces on both businesses.",
+      "illustrative": true,
+      "body": [
+        "Here is each force, accessories first, fridge parts second."
+      ],
+      "list": [
+        "**Buyers:** shoppers compare charger prices in seconds. A restaurant with spoiling food just wants the part now.",
+        "**Rivals:** thousands of sellers online. Two or three local parts suppliers.",
+        "**New entrants:** anyone can import cases. Parts need a deep stock and trusted relationships.",
+        "**Substitutes:** cheap generic chargers. A dead freezer can't wait for a cheaper option."
+      ],
+      "callout": "Nearly every force works against the phone seller and in favor of the distributor."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Wider view",
+      "title": "A growing market isn't the same as a profitable one.",
+      "body": [
+        "Growth pulls in newcomers. When entry is easy, a booming market fills up fast, and prices fall until most players earn little.",
+        "So the useful question isn't how big the pie is. It's how much of it anyone can keep, and who else has a claim on each slice."
+      ],
+      "image": {
+        "label": "A growing pie with many hands reaching for slices",
+        "aspectRatio": "16:9",
+        "brief": "점점 커지는 파이 세 개가 왼쪽에서 오른쪽으로 놓여 있고, 파이가 커질수록 사방에서 뻗어오는 손이 늘어남. 각 손에 작은 라벨: \"Rivals\", \"Buyers\", \"Suppliers\", \"Substitutes\", \"New entrants\". 실제 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The forces describe the field, not your fate.",
+      "body": [
+        "The five forces explain the *average* business in an industry. Some firms beat that average by finding a corner where the forces are weaker, like a parts distributor inside crowded wholesale.",
+        "Forces also shift. A new technology, rule or rival can change them quickly. And don't fill in five boxes equally. Usually one or two forces decide most of the outcome."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a metal parts factory.",
+      "illustrative": true,
+      "body": [
+        "You make metal parts and can add one new product line. Both options are expected to bring in similar sales. Which do you choose?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Standard bolts for two big hardware chains. Large orders, steady volume",
+            "verdict": "risky",
+            "feedback": "The volume is real, but two big buyers can set your price, and imported bolts are everywhere. You may stay busy at thin margins."
+          },
+          {
+            "key": "B",
+            "text": "Custom brackets for 40 local machine builders who need certified parts within days",
+            "verdict": "best",
+            "feedback": "Many small buyers, few rivals who can match the specs and speed, no easy substitute. You'll handle more small orders, but keep more of each."
+          },
+          {
+            "key": "C",
+            "text": "Whichever market is forecast to grow faster",
+            "verdict": "partial",
+            "feedback": "Growth helps only if the forces let you keep the gains. Check who else can take a share before trusting the forecast."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Before asking how good you are, ask who else gets paid.",
+      "body": [
+        "Rivals, buyers, suppliers, substitutes and new entrants all claim a share of each sale. Effort matters, but it works inside the limits they set.",
+        "**Try it today:** rate each force on your business as weak, medium or strong. Circle the one that takes the most from each sale."
+      ],
+      "next": "Next · Why big customers can squeeze your prices"
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "id": "PPL-07-01",
+  "unitId": "PPL-07",
+  "categoryId": "PPL",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Leading vs managing",
+  "readerTitle": "Every number was green. The biggest customer left anyway.",
+  "format": "numbers_twist",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.4,
+  "caseKinds": [
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 연구 (Kotter, 1990 HBR) + 가상 사례 (물류 창고, 철물점 체인) · 모든 수치는 설명용",
+  "insight": "관리는 지금의 일을 잘 해내게 하고, 리더십은 그 일이 여전히 맞는 일인지 묻고 방향을 바꾼다. 지표가 모두 좋아도 리더십이 비어 있을 수 있다.",
+  "misconception": "숫자가 모두 목표를 넘으면 조직은 잘 이끌어지고 있다. 리더십은 관리보다 높은 직급이나 타고난 성격이다.",
+  "relatedLessonIds": [
+    "PPL-07-03",
+    "PPL-02-01"
+  ],
+  "sources": [
+    {
+      "text": "Kotter, J. P. (1990). What Leaders Really Do. Harvard Business Review.",
+      "url": null
+    },
+    {
+      "text": "창고와 철물점 체인의 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Kotter(1990)의 구분 확인: 관리는 복잡성에 대응(계획·예산, 조직·인력 배치, 통제·문제 해결), 리더십은 변화에 대응(방향 설정, 사람 정렬, 동기 부여·고무). 강하게 관리되지만 리더십이 약한 조직과 그 반대 모두 문제라는 주장도 원문에서 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "창고 수치(정확도 99.5%, 정시율 98%, 주문당 비용 −6%, 소량 긴급 주문 30%, 당일 기준 정시율 40%)는 모두 가상입니다. 같은 주문을 두 기준(약속된 2일 vs 고객의 새 필요인 당일)으로 재면 다른 숫자가 나온다는 설명용 설정입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Leadership · Numbers twist",
+      "title": "Every number was green. The biggest customer left anyway.",
+      "illustrative": true,
+      "body": [
+        "A regional warehouse had its best year ever. Picking accuracy hit 99.5%. On-time shipping hit 98%. Cost per order fell 6%.",
+        "Six months later, its largest customer moved its business to a rival. The general manager had run the place almost perfectly. So what went wrong?"
+      ],
+      "image": {
+        "label": "Warehouse dashboard full of green numbers, one empty loading dock",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 창고 사무실 벽의 대시보드에 초록색 숫자 세 개(99.5%, 98%, −6%). 창밖 하역장 한 칸이 텅 비어 있고 트럭이 떠나는 뒷모습. 실제 기업 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You inherit a warehouse that runs well.",
+      "illustrative": true,
+      "body": [
+        "You're the new general manager. Costs are low, errors are rare, shipments leave on time. The team is proud of it.",
+        "What should get most of your attention in your first 90 days?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Squeeze cost per order down another 5%",
+            "verdict": "partial",
+            "feedback": "Useful, and the team knows how to do it. But it assumes the job itself won't change, and you'd be polishing the thing that already works."
+          },
+          {
+            "key": "B",
+            "text": "Keep the routines running, and spend real time with customers and staff asking where the business is heading",
+            "verdict": "best",
+            "feedback": "You protect what works while checking whether it's still the right work. It costs time that won't show up on the dashboard yet."
+          },
+          {
+            "key": "C",
+            "text": "Change nothing. Don't fix what isn't broken",
+            "verdict": "risky",
+            "feedback": "It keeps the team happy and the numbers steady. It also means nobody is watching what customers will need next."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Same orders, different yardstick.",
+      "illustrative": true,
+      "body": [
+        "The warehouse measured itself against its old promise: delivery in two days. Measured against what the customer now needed, on-time fell from 98% to **40%**. The dashboard was accurate. It was answering the wrong question."
+      ],
+      "breakdown": [
+        {
+          "value": "98%",
+          "label": "On-time (2-day promise)",
+          "detail": "What the dashboard tracked",
+          "highlight": false
+        },
+        {
+          "value": "30%",
+          "label": "Small, urgent orders",
+          "detail": "The customer's new share, mostly same-day",
+          "highlight": false
+        },
+        {
+          "value": "40%",
+          "label": "On-time (same-day need)",
+          "detail": "What the customer actually felt",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Managing vs leading",
+      "body": [
+        "**Managing** makes today's work run well: plans, budgets, schedules, fixing problems. **Leading** decides where the work should go next and gets people moving there.",
+        "In a 1990 Harvard Business Review article, John Kotter put it simply: management copes with complexity, leadership copes with change. The warehouse had excellent management. Nobody was doing the leading."
+      ],
+      "image": {
+        "label": "Two halves: a precise gearbox and a compass pointing ahead",
+        "aspectRatio": "16:9",
+        "brief": "화면을 반으로 나눈 일러스트. 왼쪽은 정교하게 맞물린 톱니바퀴(\"Managing: run today well\"), 오른쪽은 앞쪽 길을 가리키는 나침반(\"Leading: choose where to go\"). 두 그림이 같은 사람의 두 손에 들려 있음.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Three jobs, each with a twin.",
+      "body": [
+        "Kotter paired each management task with a leadership task:"
+      ],
+      "list": [
+        "**Planning and budgeting** ↔ setting a direction",
+        "**Organizing and staffing** ↔ getting people to believe in that direction",
+        "**Controlling and solving problems** ↔ motivating people when the path gets hard"
+      ],
+      "callout": "Managing asks \"Are we doing this right?\" Leading asks \"Is this still the right thing to do?\""
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where it applies",
+      "title": "The mix depends on how fast things change.",
+      "body": [
+        "A business in a stable market needs mostly good management. A business whose customers, costs or rivals are shifting needs more leadership, even if the numbers look fine.",
+        "That's the trap. Good management produces good numbers, and good numbers make change feel unnecessary. The faster your world moves, the less a green dashboard tells you."
+      ],
+      "softwareNote": "A product team can hit every sprint goal and ship on schedule while users quietly move to a different way of solving the problem. Velocity measures managing. Asking whether you're building the right thing is leading."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Leading without managing is just noise.",
+      "body": [
+        "Leadership isn't a higher rank or a special personality. Most managers need to do both, often in the same week.",
+        "Kotter warned against both failures. Strong management with weak leadership gets rigid. Strong leadership with weak management gets chaotic: an exciting vision, missed deliveries, burned-out staff. A new direction only works if someone still keeps today's trucks leaving on time."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a hardware store chain.",
+      "illustrative": true,
+      "body": [
+        "You run six hardware stores. Every store manager hits their targets for staffing hours, stock losses and shelf checks. But fewer people walk in, and more ask about ordering online and picking up.",
+        "What do you change in your weekly reviews?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Add new targets for foot traffic and basket size",
+            "verdict": "partial",
+            "feedback": "It puts the problem on the dashboard, which helps. But more targets ask managers to run harder on the old model, not to rethink it."
+          },
+          {
+            "key": "B",
+            "text": "Keep the targets, and give each manager a monthly slot to bring one customer change and one small experiment",
+            "verdict": "best",
+            "feedback": "The basics stay solid while managers start doing some leading. It takes time from operations and some experiments will fail."
+          },
+          {
+            "key": "C",
+            "text": "Drop the targets and share a bold vision for the future of the chain",
+            "verdict": "risky",
+            "feedback": "It signals change loudly. Without the targets, losses and staffing can slip while everyone talks about the future."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Good numbers show you're managing. They don't show you're leading.",
+      "body": [
+        "Run today well, and keep asking whether today's work is still the right work.",
+        "**Try it today:** look at your three most-watched numbers. For each, write what customer need it was built to measure, and whether that need has changed."
+      ],
+      "next": "Next · Why the same style doesn't work with everyone"
+    }
+  ]
+}

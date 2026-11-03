@@ -1,0 +1,262 @@
+{
+  "id": "OPS-07-08",
+  "unitId": "OPS-07",
+  "categoryId": "OPS",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "A small manufacturer's biggest risks",
+  "readerTitle": "The machine that could stop a whole factory",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (소형 금속 가공 공장, 회계 사무소) · 모든 수치와 점수는 설명용",
+  "insight": "작은 공장의 가장 큰 위험은 가장 무서운 사건이 아니라, 꽤 자주 일어나면서 대체할 수 없는 것 하나가 멈추는 일이다.",
+  "misconception": "가장 무서운 위험(화재 등)부터 막고, 보험에 들면 위험 관리는 끝난다.",
+  "relatedLessonIds": [
+    "OPS-07-02",
+    "OPS-07-04"
+  ],
+  "sources": [
+    {
+      "text": "위험 관리의 표준 개념 (발생 가능성 × 영향, 단일 장애점)",
+      "url": null
+    },
+    {
+      "text": "모든 수치와 점수는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 설명용 가상 수치입니다. 점수 계산: 화재 1×5=5, 강판 납품 지연 4×2=8, 레이저 절단기 고장 3×5=15, 최대 고객 이탈 2×5=10. 차트 값과 일치하는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "레이저 절단기 가격($300,000), 부품 대기 3주 등은 가정입니다. 실제 업계 수치로 읽히지 않도록 카드에 illustrative 표시를 유지하세요.",
+      "status": "open"
+    },
+    {
+      "note": "회계 사무소 사례의 매출 비중(40%)과 은퇴 시점(2년)은 설명용 가정입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Risk · Everyday scene",
+      "title": "The machine that could stop a whole factory",
+      "illustrative": true,
+      "body": [
+        "Maria runs a metal shop with 18 people. They cut and bend steel brackets for equipment makers.",
+        "She worries most about fire. But the risk most likely to close her doors for a month sits quietly in the corner, humming along every day."
+      ],
+      "image": {
+        "label": "Small metal workshop with one large laser cutter in the corner",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 작은 금속 가공 공장 내부. 작업자 몇 명, 선반에 쌓인 브래킷. 구석에 큰 레이저 절단기 한 대가 은은하게 빛나고, 다른 모든 작업대에서 그 기계로 가는 점선 화살표. 실제 기계 브랜드 로고는 쓰지 않음.",
+        "url": "assets/images/ops-07-08-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Four risks. Time and money for one.",
+      "illustrative": true,
+      "body": [
+        "Maria lists her worries. A fire is rare and would be devastating, but she's insured. Steel deliveries arrive late most months, costing a few days each time. Her only laser cutter breaks down about once a year, and parts can take three weeks. Her biggest customer buys 45% of her output.",
+        "Which should she work on first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Fire. It's the worst thing that could happen",
+            "verdict": "risky",
+            "feedback": "It's the scariest, but it's rare and already partly covered. Ranking by fear skips how *likely* each risk is."
+          },
+          {
+            "key": "B",
+            "text": "Late steel. It happens almost every month",
+            "verdict": "partial",
+            "feedback": "Frequent, yes, but each delay costs only days. Likely times small still adds up to a modest risk."
+          },
+          {
+            "key": "C",
+            "text": "The laser cutter. It fails yearly and stops everything",
+            "verdict": "best",
+            "feedback": "This is **probability times impact** at work: fairly likely and very damaging. It scores highest on her list."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The scores",
+      "title": "Score each risk from 1 to 5, then multiply.",
+      "illustrative": true,
+      "body": [
+        "Maria rates each risk 1–5 for how likely it is and 1–5 for how much damage it would do. The cutter scores 3 × 5. Fire scores only 1 × 5."
+      ],
+      "chart": {
+        "unit": "count",
+        "groups": [
+          {
+            "label": "Probability × impact",
+            "rows": [
+              {
+                "label": "Factory fire (1 × 5)",
+                "value": 5,
+                "highlight": false
+              },
+              {
+                "label": "Late steel (4 × 2)",
+                "value": 8,
+                "highlight": false
+              },
+              {
+                "label": "Biggest customer leaves (2 × 5)",
+                "value": 10,
+                "highlight": false
+              },
+              {
+                "label": "Laser cutter fails (3 × 5)",
+                "value": 15,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "What the scores show",
+      "title": "The cutter is a single point of failure.",
+      "illustrative": true,
+      "body": [
+        "Every bracket starts on the laser cutter. If it stops, bending, welding and shipping all stop too. That makes it a **single point of failure**: one part whose loss halts the whole system.",
+        "The scores told Maria where to look. This second idea tells her why the cutter scores so high. There is no other path for the work."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How should Maria protect against the cutter failing?",
+      "illustrative": true,
+      "body": [
+        "A second cutter would cost about $300,000, close to a year of her profit. What's the smartest first move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Buy a second cutter now",
+            "verdict": "partial",
+            "feedback": "It removes the single point of failure completely, but ties up a year of profit. A cheaper backup may cover most of the risk."
+          },
+          {
+            "key": "B",
+            "text": "Stock key spare parts and line up a nearby shop to cut for her in a breakdown",
+            "verdict": "best",
+            "feedback": "This creates a second path for the work at low cost. The single point of failure remains, but the impact drops from weeks to days."
+          },
+          {
+            "key": "C",
+            "text": "Add machine breakdown insurance",
+            "verdict": "risky",
+            "feedback": "Insurance can replace some lost money, but not late orders. Customers waiting three weeks may not come back."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Look again",
+      "title": "The cutter isn't the only one.",
+      "illustrative": true,
+      "body": [
+        "Once Maria looked for things with no backup, she found more.",
+        "Only one person, Dana, can program the cutter. One customer buys 45% of her output. One supplier does all her powder coating. None of these is a machine, but each could halt the business just as well."
+      ],
+      "image": {
+        "label": "Four icons each with a single line to the factory",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 가운데 작은 공장 아이콘. 주변에 \"Laser cutter\", \"Dana (programmer)\", \"Customer: 45%\", \"Coating supplier\" 네 아이콘이 각각 선 하나로만 공장에 연결됨. 선마다 작은 끊김 표시. 실제 로고 없음.",
+        "url": "assets/images/ops-07-08-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The scores are guesses, and backups cost money.",
+      "body": [
+        "A 1–5 score is a judgment, not a measurement. Two people can rate the same risk differently. Use the scores to start the conversation, not end it.",
+        "You also can't remove every single point of failure. Backups cost money, space and attention. Fix the highest scores first, then review the list each quarter as things change."
+      ],
+      "softwareNote": "In a software business, single points of failure hide in one cloud region, one payment provider or the one engineer who knows the billing code. Scoring them the same way shows which to fix first."
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a bookkeeping firm.",
+      "illustrative": true,
+      "body": [
+        "A 10-person bookkeeping firm keeps all files in the cloud. Its risks: an office flood, small data-entry errors that reviewers catch each week, and one partner who handles the three biggest clients (40% of revenue) and plans to retire in two years.",
+        "What should it tackle first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Move to a flood-safe office",
+            "verdict": "risky",
+            "feedback": "Rare, and with files in the cloud the impact is low. Low probability times low impact puts it at the bottom."
+          },
+          {
+            "key": "B",
+            "text": "Introduce a second person to each of the partner's clients now",
+            "verdict": "best",
+            "feedback": "The partner is a **single point of failure**, and retirement makes it likely, not just possible. High **probability times impact** means act first."
+          },
+          {
+            "key": "C",
+            "text": "Add another review step to stop data-entry errors",
+            "verdict": "partial",
+            "feedback": "Errors happen often, but reviews already catch them. Frequent and small is worth tidying, not worth going first."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Find what has no backup, then rank by likely × damaging.",
+      "body": [
+        "Two ideas from this unit did the work:"
+      ],
+      "list": [
+        "**Probability times impact:** ranked Maria's worries so fear didn't decide",
+        "**Single points of failure:** explained why the cutter, Dana and the 45% customer score so high"
+      ],
+      "callout": "**Try it today:** list five things your business can't run without. Mark the ones with no backup, and score each 1–5 for likelihood and damage.",
+      "next": "Next · How Johnson & Johnson handled the Tylenol recall"
+    }
+  ]
+}

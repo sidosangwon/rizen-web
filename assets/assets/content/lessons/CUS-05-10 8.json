@@ -1,0 +1,285 @@
+{
+  "id": "CUS-05-10",
+  "unitId": "CUS-05",
+  "categoryId": "CUS",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Fix a leaky sign-up flow",
+  "readerTitle": "Your booking form loses 92 of every 100 people. Fix it.",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.3,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (청소 회사의 가정용 예약 양식과 사무실 청소 견적 양식). 모든 수치는 설명용입니다.",
+  "insight": "새는 가입·예약 흐름은 전체를 다시 만들기보다, 사람들이 떠나는 단계를 찾아 그 단계의 마찰, 선택지 수, 기본값을 하나씩 고칠 때 가장 잘 고쳐진다.",
+  "misconception": "가입률이 낮으면 디자인을 새로 하거나 할인을 붙이면 된다. 기본값을 회사에 유리하게 설정하면 매출이 늘어난다.",
+  "relatedLessonIds": [
+    "CUS-05-02",
+    "CUS-05-03"
+  ],
+  "sources": [
+    {
+      "text": "행동경제학과 사용성 분야의 표준 개념 (마찰, 선택 과부하, 기본값 효과)",
+      "url": null
+    },
+    {
+      "text": "모든 수치와 회사(Brightway)는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "퍼널 계산: 1,000명 시작 → 900 → 450 → 200 → 80명 예약. 완료율 80 ÷ 1,000 = 8%이므로 100명 중 92명 이탈. 세부 정보 단계에서는 도달한 900명 중 450명(50%)이 떠나므로 카드 제목을 '도달한 사람의 절반'으로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "각 선택지의 결과(이탈 감소, 견적 오류 등)는 실제 측정값이 아니라 설명용 서술입니다. 구체적인 개선 수치를 만들어 넣지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "12개월 계약 자동 체크 선택지는 다크 패턴의 예입니다. 특정 국가의 소비자 보호법 내용은 다루지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Simulation",
+      "title": "Your booking form loses 92 of every 100 people.",
+      "illustrative": true,
+      "body": [
+        "You run Brightway, a home and office cleaning company. Last month, 1,000 people started the booking form on your website. Only 80 finished.",
+        "Your ads are working. Your form is not. For the next few cards, fixing it is your job."
+      ],
+      "image": {
+        "label": "A leaking funnel with tiny people falling out at each step",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 위에서 작은 사람들이 많이 들어가는 깔때기. 각 마디의 틈으로 사람들이 빠져나가고, 아래로는 몇 명만 나옴. 깔때기 옆에 청소 도구(대걸레, 스프레이). 실제 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1",
+      "title": "Where do you start?",
+      "illustrative": true,
+      "body": [
+        "Your web designer has two free weeks. Your sales lead wants a discount banner. You also have data on the step where each person quit.",
+        "What do you do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Redesign the whole form with a fresh, modern look",
+            "verdict": "risky",
+            "feedback": "You use up two weeks and the form looks better. Completion barely moves, because the questions that made people quit are still there."
+          },
+          {
+            "key": "B",
+            "text": "Find the exact step where people quit, and fix that first",
+            "verdict": "best",
+            "feedback": "You learn where the leak is before you spend anything. A small fix at the right step usually beats big changes everywhere."
+          },
+          {
+            "key": "C",
+            "text": "Add a 15% discount on the first clean",
+            "verdict": "partial",
+            "feedback": "A few more people push through. But every booking now earns less, and the step that drives people away hasn't changed."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "Say you chose to find the leak",
+      "title": "Half the people who reach one step quit there.",
+      "illustrative": true,
+      "body": [
+        "The home-details step loses the most people. The package step comes next. Those are the two places to fix first."
+      ],
+      "breakdown": [
+        {
+          "value": "1,000",
+          "label": "Started",
+          "detail": "Clicked 'Book a clean'",
+          "highlight": false
+        },
+        {
+          "value": "900",
+          "label": "Entered postcode",
+          "detail": "Step 1",
+          "highlight": false
+        },
+        {
+          "value": "450",
+          "label": "Finished home details",
+          "detail": "Step 2 · 14 questions",
+          "highlight": true
+        },
+        {
+          "value": "200",
+          "label": "Picked a package",
+          "detail": "Step 3 · 9 options",
+          "highlight": false
+        },
+        {
+          "value": "80",
+          "label": "Booked",
+          "detail": "Step 4 · account and payment",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 2",
+      "title": "Fourteen questions before a price.",
+      "illustrative": true,
+      "body": [
+        "The home-details step asks about rooms, bathrooms, floor types, pets, parking, alarm codes and more. Your cleaners do use these answers.",
+        "But only three of them change the price. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Ask the three price questions now and collect the rest after booking",
+            "verdict": "best",
+            "feedback": "Far fewer people quit at this step. Your team still gets the details by text or email once the customer has booked."
+          },
+          {
+            "key": "B",
+            "text": "Keep all 14 questions, but add a progress bar",
+            "verdict": "partial",
+            "feedback": "People can see the end, so a few more finish. But you still ask for the same amount of work, and most still quit."
+          },
+          {
+            "key": "C",
+            "text": "Keep all 14 questions, but make every one optional",
+            "verdict": "risky",
+            "feedback": "More people pass, but many skip the price questions too. Quotes come out wrong, and cleaners arrive with too little time booked."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 3",
+      "title": "Nine packages, one tired customer.",
+      "illustrative": true,
+      "body": [
+        "Say you chose three questions. Now the package step leaks most. Customers choose from nine packages, including basic, standard, deep, move-out and eco versions.",
+        "Most people who do book pick Standard, every two weeks."
+      ],
+      "image": {
+        "label": "Nine cluttered package cards shrinking to three clear ones",
+        "aspectRatio": "16:9",
+        "brief": "왼쪽에는 겹쳐진 9장의 패키지 카드(Basic, Standard, Deep, Move-out, Eco 등)가 어지럽게 놓여 있고, 오른쪽에는 깔끔한 카드 3장만 나란히 있음. 가운데 카드에 'Most chosen' 라벨. 로고는 쓰지 않음.",
+        "url": null
+      },
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep all nine and add a detailed comparison table",
+            "verdict": "partial",
+            "feedback": "Careful shoppers like it. Most people now face even more to read, and many still leave to think about it."
+          },
+          {
+            "key": "B",
+            "text": "Show three packages, mark Standard as most chosen, put the rest under 'More options'",
+            "verdict": "best",
+            "feedback": "Choosing gets easy, and more people get past this step. Customers who need a move-out or eco clean can still find one."
+          },
+          {
+            "key": "C",
+            "text": "Show only one package: Standard",
+            "verdict": "risky",
+            "feedback": "The step gets fast, but people with real needs, such as a move-out clean, can't find what they came for. They call a competitor."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Decision 4 · Office cleaning",
+      "title": "Office managers who never book a visit.",
+      "illustrative": true,
+      "body": [
+        "Say you chose three packages, and home bookings climb. Then your office-cleaning team asks for help.",
+        "Businesses request a quote online, but you must see the site before quoting. The form ends with \"We'll be in touch to arrange a visit.\" Many requests go cold after missed calls and slow emails."
+      ],
+      "image": {
+        "label": "An office manager's screen with a suggested visit time already filled in",
+        "aspectRatio": "16:9",
+        "brief": "사무실 책상 위 노트북 화면. 견적 양식 끝에 'Suggested visit: Tue 10:00 · Change' 버튼이 미리 채워져 있음. 옆에는 울리지만 받지 않는 전화기. 실제 브랜드나 로고는 쓰지 않음.",
+        "url": null
+      },
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Suggest a visit time, pre-filled and easy to change",
+            "verdict": "best",
+            "feedback": "Most people simply accept the suggested time, so the visit gets booked in one step. Anyone who needs a different time changes it in two clicks."
+          },
+          {
+            "key": "B",
+            "text": "Show a blank calendar and let them pick any slot",
+            "verdict": "partial",
+            "feedback": "Better than waiting for a call. But a blank calendar is one more decision, and some office managers put it off and never come back."
+          },
+          {
+            "key": "C",
+            "text": "Pre-tick a box that signs them up for a 12-month contract after the visit",
+            "verdict": "risky",
+            "feedback": "A few contracts come from people who didn't notice the box. Then come cancellations, angry emails and a reputation for tricks."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "An easier flow is not always a better one.",
+      "body": [
+        "Fewer questions mean less information up front. If the alarm code or pet details never arrive, the first clean goes badly. Ask for the missing details soon after booking.",
+        "A default helps only when it's the choice most customers would make anyway. If a default serves you at the customer's expense, you win one sale and lose their trust."
+      ],
+      "softwareNote": "Software sign-ups leak the same way, through long forms, too many plans and blank setup screens. Measure drop-off at each step, ask only what the first session needs, and pre-fill sensible settings that users can change."
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Find the leaking step, then fix that step.",
+      "body": [
+        "Each decision used one idea from this unit:"
+      ],
+      "list": [
+        "**Decision 1 · Find the step:** measure where people quit before you change anything",
+        "**Decision 2 · Friction:** ask only what you need now and collect the rest later",
+        "**Decision 3 · Choice overload:** show a few clear options and keep the rest one click away",
+        "**Decision 4 · Defaults:** pre-fill the choice most people would make, and make it easy to change"
+      ],
+      "callout": "**Try it today:** go through your own booking or sign-up process as a customer would. Count the questions and choices someone faces before they see a price.",
+      "next": "Next · Why keeping customers beats finding new ones"
+    }
+  ]
+}

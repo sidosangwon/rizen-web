@@ -1,0 +1,239 @@
+{
+  "id": "STR-02-02",
+  "unitId": "STR-02",
+  "categoryId": "STR",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "Buyer power",
+  "readerTitle": "Who really sets your price: you or your customer?",
+  "format": "two_businesses",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 2개 비교 (배관 수리업체 vs 금속 브래킷 제조사) + 가상 적용 (B2B 소프트웨어) · 개념 근거는 Porter의 다섯 가지 힘",
+  "insight": "내 가격을 정하는 힘은 내 제품보다 고객이 얼마나 쉽게 떠날 수 있는지, 그리고 그 고객이 내 매출에서 얼마나 큰지에서 나온다.",
+  "misconception": "큰 고객 하나를 잡으면 사업이 안정된다. 매출 규모가 같으면 협상력도 같다.",
+  "relatedLessonIds": [
+    "STR-02-01",
+    "STR-02-03"
+  ],
+  "sources": [
+    {
+      "text": "Porter, M. E. (1979). How Competitive Forces Shape Strategy. Harvard Business Review.",
+      "url": null
+    },
+    {
+      "text": "Porter, M. E. (2008). The Five Competitive Forces That Shape Strategy. Harvard Business Review.",
+      "url": null
+    },
+    {
+      "text": "배관업체, 브래킷 제조사, 소프트웨어 회사의 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "5번 카드의 구매자 힘 요인(구매자 집중도, 표준화된 제품, 낮은 전환 비용, 구매자가 직접 만들 수 있는 위협, 구매 금액이 구매자 원가에서 차지하는 비중)이 Porter(1979, 2008)의 설명과 일치하는지 원문으로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "모든 수치는 가상입니다. 두 회사 모두 연매출 $2M, 배관업체 고객 약 900가구(최대 고객 매출 비중 1% 미만), 브래킷 제조사 최대 고객 비중 60%. 소프트웨어 사례: 최대 고객 매출 비중 45%, 요구 할인 30%. 30% 할인 시 전체 매출 감소 = 45% × 30% = 13.5%.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Strategy · Two businesses",
+      "title": "Who really sets your price: you or your customer?",
+      "illustrative": true,
+      "body": [
+        "Two businesses each bring in $2 million a year. One fixes pipes for about 900 households. The other makes metal brackets, and one appliance maker buys 60% of them.",
+        "On paper they're the same size. But when costs go up, only one of them gets to decide what happens next."
+      ],
+      "image": {
+        "label": "A plumber's van beside a small factory, each on a scale",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 왼쪽에 배관 수리 밴과 작은 집 여러 채, 오른쪽에 작은 공장과 그 위에 드리운 거대한 고객 공장 하나. 두 쪽 모두 같은 크기의 \"$2M\" 동전 더미. 실제 기업 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/str-02-02-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Costs just rose 8%.",
+      "illustrative": true,
+      "body": [
+        "Wages and materials have gone up for both businesses. Each owner wants to raise prices by 8% to keep the same margin.",
+        "Which one is more likely to make the increase stick?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The plumbing company",
+            "verdict": "best",
+            "feedback": "Each household is a tiny share of revenue, and few compare five plumbers while water is on the floor. Losing one customer barely hurts, so the plumber can hold firm."
+          },
+          {
+            "key": "B",
+            "text": "The bracket maker, because its big customer brings steady volume",
+            "verdict": "risky",
+            "feedback": "The volume is real, but so is the leverage it hands the buyer. The appliance maker can say no, and walking away from it means losing 60% of sales."
+          },
+          {
+            "key": "C",
+            "text": "About the same, since both face the same cost increase",
+            "verdict": "partial",
+            "feedback": "The cost change is identical. What differs is who has to agree, and how much each side loses if the deal falls apart."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "Side by side",
+      "title": "Same revenue, opposite positions.",
+      "illustrative": true,
+      "body": [
+        "The appliance maker has a purchasing team. It knows the price of steel, and it asks other factories for quotes every year. If the bracket maker pushes, the buyer can push back harder."
+      ],
+      "breakdown": [
+        {
+          "value": "900",
+          "label": "Plumber's customers",
+          "detail": "The largest is under 1% of revenue",
+          "highlight": false
+        },
+        {
+          "value": "60%",
+          "label": "Bracket maker's top buyer",
+          "detail": "One customer, most of the sales",
+          "highlight": true
+        },
+        {
+          "value": "Low",
+          "label": "How much households compare",
+          "detail": "They call fast when something leaks",
+          "highlight": false
+        },
+        {
+          "value": "High",
+          "label": "How much the buyer compares",
+          "detail": "Yearly quotes from rival factories",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Buyer power",
+      "body": [
+        "**Buyer power** is how much your customers can push your prices down or demand more for the same price.",
+        "Michael Porter named it one of five forces that decide how much profit an industry can keep. Strong buyers capture value that would otherwise stay with the seller.",
+        "The plumber and the bracket maker may be equally skilled. Their customers simply hold very different cards."
+      ],
+      "image": {
+        "label": "A seesaw with the seller on one side and the buyer on the other",
+        "aspectRatio": "16:9",
+        "brief": "시소 인포그래픽. 왼쪽 그림은 판매자 쪽으로 기운 시소(작은 고객 여러 명), 오른쪽 그림은 구매자 쪽으로 기운 시소(큰 고객 한 명). 각 그림 아래 \"Seller sets price\", \"Buyer sets price\" 라벨.",
+        "url": "assets/images/str-02-02-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "What gives buyers the upper hand.",
+      "body": [
+        "Porter's list is a useful check. Buyers gain power when:"
+      ],
+      "list": [
+        "**They are few and large:** each one is a big slice of your sales",
+        "**Your product is standard:** other sellers offer much the same thing",
+        "**Switching is cheap:** moving to a rival costs them little time or money",
+        "**They could do it themselves:** making the part in-house is a real option",
+        "**You are a big cost to them:** so they shop hard on price"
+      ],
+      "callout": "The bracket maker ticks almost every box. The plumber ticks almost none.",
+      "softwareNote": "In software, switching costs often decide buyer power. A tool woven into a customer's daily work and data is hard to replace. One that can be swapped out in an afternoon invites constant price pressure."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "It can shift",
+      "title": "Small buyers can gain power too.",
+      "illustrative": true,
+      "body": [
+        "Buyer power isn't fixed by customer size. If households start booking plumbers through a site that shows three quotes side by side, comparing becomes easy. The plumber's pricing room shrinks without any single customer getting bigger.",
+        "It works the other way as well. If the bracket maker becomes the only factory certified to make a safety-critical part, the appliance maker can't easily leave. The balance tilts back toward the seller."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A big customer isn't the enemy.",
+      "body": [
+        "Large buyers bring volume, steady orders and easier planning. Turning them away just to avoid their power can leave you smaller and weaker.",
+        "The real risk is depending on them without protection. Grow other customers so no single one can sink you. Become harder to replace through design help, faster delivery or certifications. And watch for discounts that quietly become your new normal price."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software company.",
+      "illustrative": true,
+      "body": [
+        "Your scheduling software has 40 business clients. One hospital group pays 45% of your revenue. At renewal, it asks for a 30% discount and three custom features.",
+        "A 30% cut on that one client would shrink your total revenue by 13.5%. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Agree to everything. You can't risk losing 45% of revenue",
+            "verdict": "risky",
+            "feedback": "You keep the client today but teach it that pushing works. Custom work also pulls your team away from the other 39 clients you need to grow."
+          },
+          {
+            "key": "B",
+            "text": "Offer a smaller discount for a longer contract, and push to win more mid-size clients",
+            "verdict": "best",
+            "feedback": "You give a little to keep the relationship, gain time, and start reducing the dependence that created the pressure in the first place."
+          },
+          {
+            "key": "C",
+            "text": "Refuse any discount and hold firm on price",
+            "verdict": "partial",
+            "feedback": "It protects your price, which is good if switching away from you is truly painful. If it isn't, you're betting 45% of revenue on a bluff."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Your pricing power depends on how easily your customers can walk away.",
+      "body": [
+        "Few, large, well-informed customers who can switch easily will take a share of your profit. Spread your sales and make yourself hard to replace.",
+        "**Try it today:** list your top five customers and their share of revenue. If any one is above 20%, write down what would make you harder to replace for them."
+      ],
+      "next": "Next · When your suppliers hold the cards"
+    }
+  ]
+}

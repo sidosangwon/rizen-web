@@ -1,0 +1,232 @@
+{
+  "id": "ECO-06-06",
+  "unitId": "ECO-06",
+  "categoryId": "ECO",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Price skimming",
+  "readerTitle": "Why the hardcover comes out first",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.2,
+  "caseKinds": [
+    "real_observation",
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 관찰 (하드커버→페이퍼백, 신제품 가격 하락) + 실제 기업 (2007년 아이폰 가격 인하) + 가상 사례 (교육 컨설팅, 자전거 매장)",
+  "insight": "신제품 가격은 하나의 숫자가 아니라 계단이다. 가장 급한 고객부터 차례로 내려가며 판다.",
+  "misconception": "처음 가격을 높게 잡으면 고객을 놓치고, 낮게 잡아야 빨리 자리 잡는다.",
+  "relatedLessonIds": [
+    "ECO-06-05",
+    "ECO-04-04"
+  ],
+  "sources": [
+    {
+      "text": "마케팅·가격 전략의 표준 개념 (price skimming, 고객별 지불 의사 차이)",
+      "url": null
+    },
+    {
+      "text": "Apple, open letter from Steve Jobs to iPhone customers (September 2007)",
+      "url": null
+    },
+    {
+      "text": "가상 사례의 모든 수치는 설명용",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "하드커버가 먼저 나오고 페이퍼백이 대개 1년 안팎 뒤에 더 싼 가격으로 나온다는 관행은 일반적 관찰입니다. 나라와 출판사마다 다르므로 카드에는 구체적 기간과 가격을 적지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "아이폰 1세대: 2007년 6월 출시, 약 두 달 뒤 8GB 모델 $599→$399로 $200 인하, 초기 구매자에게 $100 스토어 크레딧 제공. 게시 전 Apple 자료로 재확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "컨설팅 계산(가상): 1단계 $8,000, 2단계 $5,000, 3단계 온라인 $2,000. 계단식 하락만 보여주는 설명용 수치입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Pricing · Everyday scene",
+      "title": "Why the hardcover comes out first",
+      "body": [
+        "A new novel from a famous author lands in the bookshop as a hardcover. Same words, same ending as the paperback that will follow months later, at a much lower price.",
+        "The publisher isn't being careless. It's selling the same story to different readers, in order of how badly they want it."
+      ],
+      "image": {
+        "label": "A hardcover on a display table, a paperback waiting on a shelf behind",
+        "aspectRatio": "4:3",
+        "brief": "서점 진열대 앞쪽에 하드커버 한 권이 조명을 받고, 뒤쪽 선반에 같은 표지의 페이퍼백이 \"Coming later\" 표시와 함께 대기. 실제 출판사 로고와 책 제목은 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You're first to market with a new workshop.",
+      "illustrative": true,
+      "body": [
+        "Your training firm built a workshop that helps companies meet a new industry rule. Some firms face a deadline in three months. You expect rivals to offer something similar within a year.",
+        "How do you set the price?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Price low to sign as many firms as possible before rivals arrive",
+            "verdict": "partial",
+            "feedback": "You build a client list fast. But the firms racing a deadline would have paid far more, and you leave that money on the table."
+          },
+          {
+            "key": "B",
+            "text": "Price high now, then lower it in steps as rivals appear",
+            "verdict": "best",
+            "feedback": "You earn the most from the clients who need it most, then reach more price-sensitive firms later. This is the idea in this lesson."
+          },
+          {
+            "key": "C",
+            "text": "Price high and hold it there",
+            "verdict": "risky",
+            "feedback": "It works until a cheaper rival shows up. Then your price looks out of date and late buyers go elsewhere."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The steps",
+      "title": "One workshop, three prices.",
+      "illustrative": true,
+      "body": [
+        "Each step reaches a new group of buyers who said no to the step before. Nobody who was willing to pay more got it cheaper."
+      ],
+      "breakdown": [
+        {
+          "value": "$8,000",
+          "label": "Months 1–6",
+          "detail": "In-person, for firms facing the deadline",
+          "highlight": true
+        },
+        {
+          "value": "$5,000",
+          "label": "Months 7–12",
+          "detail": "Same session, as rivals arrive",
+          "highlight": false
+        },
+        {
+          "value": "$2,000",
+          "label": "Year 2",
+          "detail": "Recorded online version for smaller firms",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Price skimming",
+      "body": [
+        "**Price skimming** means launching at a high price to sell to the customers who value something most, then lowering the price step by step to reach the next group.",
+        "Like skimming cream off milk, you take the top layer first. It's the opposite of penetration pricing, which starts low to win volume fast."
+      ],
+      "image": {
+        "label": "A staircase of prices stepping down over time",
+        "aspectRatio": "16:9",
+        "brief": "왼쪽 위에서 오른쪽 아래로 내려가는 계단 그래프. 계단마다 다른 고객 아이콘(급한 사람, 일반 고객, 가격에 민감한 고객). 가로축 \"Time\", 세로축 \"Price\".",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Where you see it",
+      "title": "Once you notice it, it's everywhere.",
+      "body": [
+        "New TVs and phones usually cost the most in their first months. Films often play in cinemas before they reach streaming. Hardcovers come before paperbacks.",
+        "In each case the early version isn't much better. It's just *earlier*. Some customers will pay a lot to be first, and the seller lets them before opening the door to everyone else."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "When it works",
+      "title": "Skimming needs a few conditions.",
+      "body": [
+        "It pays off only when the situation allows it:"
+      ],
+      "list": [
+        "**Buyers differ** in how much they want it and how soon",
+        "**Rivals can't copy it fast**, so the high price lasts long enough",
+        "**Low early volume is fine**, because supply or capacity is limited anyway"
+      ],
+      "softwareNote": "Software companies often launch a new feature in their top plan only, then move it into cheaper plans later. Heavy users pay for early access. Everyone else gets it once it's no longer new."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Early buyers remember.",
+      "body": [
+        "About two months after the first iPhone launched in 2007, Apple cut its price by $200. Early buyers complained, and Apple offered them a $100 store credit.",
+        "Cut too far or too fast, and loyal customers feel punished for trusting you. Do it predictably, and people learn to wait. High prices also tell rivals there's money to be made."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a bike shop.",
+      "illustrative": true,
+      "body": [
+        "Your shop is the only one in the region with a new e-bike model this season. Other shops get stock next spring. You have 40 bikes.",
+        "What's your plan?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Full launch price now, with free first service; plan a clear step down when others get stock",
+            "verdict": "best",
+            "feedback": "Eager riders pay for being first and get something extra for it. A planned step later feels fair, not like a betrayal."
+          },
+          {
+            "key": "B",
+            "text": "Discount from day one to sell all 40 quickly",
+            "verdict": "partial",
+            "feedback": "Stock clears fast, but with only 40 bikes you're giving away margin from riders who would have paid full price."
+          },
+          {
+            "key": "C",
+            "text": "Launch high, then quietly cut 30% after a month",
+            "verdict": "risky",
+            "feedback": "You catch the first buyers, then anger them. The next customers learn that waiting pays."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Sell to the most eager first, then step down.",
+      "body": [
+        "A launch price is the top of a staircase, not a final number. Plan the steps before you start, and give early buyers a reason to be glad they went first.",
+        "**Try it today:** for your newest product, write down who wants it most urgently, and who would buy only at a lower price."
+      ],
+      "next": "Next · Price a new candle brand"
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "id": "THK-05-02",
+  "unitId": "THK-05",
+  "categoryId": "THK",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "Decision quality vs outcome",
+  "readerTitle": "The umbrella you didn't need wasn't a mistake",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "일상 장면 (우산) + 가상 사례 (물류 창고, 대기업 영업팀) · 개념 출처는 Annie Duke의 'resulting'",
+  "insight": "결정은 결과가 아니라, 그때 알 수 있었던 정보로 얼마나 잘 따져 골랐는지로 평가한다.",
+  "misconception": "결과가 좋았으면 좋은 결정이었고, 결과가 나빴으면 나쁜 결정이었다.",
+  "relatedLessonIds": [
+    "THK-04-02",
+    "THK-05-03"
+  ],
+  "sources": [
+    {
+      "text": "Duke, A. (2018). Thinking in Bets: Making Smarter Decisions When You Don't Have All the Facts. Portfolio.",
+      "url": null
+    },
+    {
+      "text": "창고·영업팀 사례의 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "'resulting'은 포커 플레이어들 사이에서 쓰이던 표현으로, Annie Duke가 『Thinking in Bets』(2018)에서 널리 알렸다는 설명을 게시 전 원문으로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "창고 계산(가상 수치): 기존 트럭의 예상 지연 비용 = 30% × $40,000 = $12,000. 대체 운송 추가 비용 = $8,000(확정). 차이 = $4,000. 같은 상황 10번: 기존 트럭 약 3번 지연 × $40,000 = $120,000, 대체 운송 10 × $8,000 = $80,000.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Everyday scene",
+      "title": "The umbrella you didn't need wasn't a mistake",
+      "body": [
+        "The forecast says 70% chance of rain. You carry an umbrella all day. The sky stays blue.",
+        "Your friend skipped the umbrella and stayed dry. Did your friend decide better? Most of us quietly feel they did. That feeling quietly shapes how we judge every decision at work."
+      ],
+      "image": {
+        "label": "Person holding a closed umbrella under a sunny sky",
+        "aspectRatio": "4:3",
+        "brief": "맑은 하늘 아래 접힌 우산을 든 사람이 약간 머쓱한 표정. 옆 사람은 빈손으로 웃고 있음. 배경 건물 창에 '70% rain' 예보 화면이 작게 보임. 따뜻한 일러스트 톤, 실제 브랜드 로고 없음.",
+        "url": "assets/images/thk-05-02-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Two warehouse managers, one storm warning.",
+      "illustrative": true,
+      "body": [
+        "Ana and Ben each ship an urgent order. The forecast gives a 30% chance a storm closes the highway for days. A late delivery costs a $40,000 penalty. A backup rail carrier costs $8,000 more.",
+        "Ana uses the usual trucks. Ben pays for rail. The storm never comes. Both orders arrive on time. Your boss wants to praise one of them."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Praise Ana. Same result, $8,000 cheaper",
+            "verdict": "risky",
+            "feedback": "It rewards the result she got, not the risk she took. Next time the storm might hit, and the team will have learned to gamble."
+          },
+          {
+            "key": "B",
+            "text": "Praise Ben. Playing it safe is always right",
+            "verdict": "partial",
+            "feedback": "Ben may well be right here, but 'always safe' isn't a rule. Sometimes the safe option costs more than the risk it removes."
+          },
+          {
+            "key": "C",
+            "text": "Compare what each knew and how they weighed the risk",
+            "verdict": "best",
+            "feedback": "This judges the decision, not the weather. Next card shows why Ben's call was stronger, even though it 'wasted' money."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Play the same bet ten times.",
+      "illustrative": true,
+      "body": [
+        "On any single day, luck decides who looks smart. Over many days, the better decision shows. Across ten storm warnings, Ana's habit would cost about $120,000 in penalties. Ben's would cost **$80,000**."
+      ],
+      "breakdown": [
+        {
+          "value": "30%",
+          "label": "Chance of a storm",
+          "detail": "Same forecast for both",
+          "highlight": false
+        },
+        {
+          "value": "$12,000",
+          "label": "Ana's expected cost",
+          "detail": "30% × $40,000 penalty",
+          "highlight": false
+        },
+        {
+          "value": "$8,000",
+          "label": "Ben's cost",
+          "detail": "Paid every time, no surprises",
+          "highlight": false
+        },
+        {
+          "value": "$4,000",
+          "label": "Ben's edge per shipment",
+          "detail": "Even on days it looks wasted",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Decision quality vs outcome",
+      "body": [
+        "**Decision quality** is how well you chose with the information and time you had. The outcome is what actually happened. Luck sits between the two.",
+        "Poker players call the habit of judging a choice by its result **resulting**. Annie Duke, a former professional player, popularized the term in her book *Thinking in Bets*.",
+        "That gives four boxes: good decision with good luck, good decision with bad luck, bad decision with good luck, and bad decision with bad luck."
+      ],
+      "image": {
+        "label": "Two-by-two grid of decision quality and outcome",
+        "aspectRatio": "16:9",
+        "brief": "2×2 격자 인포그래픽. 세로축 'Decision: good / bad', 가로축 'Outcome: good / bad'. 칸 이름: 'Deserved win', 'Bad luck', 'Dumb luck', 'Deserved loss'. 'Dumb luck' 칸을 주황색으로 강조.",
+        "url": "assets/images/thk-05-02-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Judge the decision by what was knowable.",
+      "body": [
+        "To review a decision fairly, rewind to the moment it was made and ask:"
+      ],
+      "list": [
+        "What did we know, and what could we have found out cheaply?",
+        "Which options did we actually consider?",
+        "How did we weigh the odds and the size of each risk?",
+        "Was the time we spent fit for the stakes?"
+      ],
+      "callout": "If those answers were sound, a bad outcome is mostly bad luck.",
+      "softwareNote": "After an outage, a 'blameless postmortem' asks what the engineer knew and what the system made easy, not who pushed the button. It's the same idea: review the decision process, so people keep reporting problems."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Why it matters",
+      "title": "The dangerous box is dumb luck.",
+      "body": [
+        "A bad decision that works out teaches the wrong lesson. The shortcut gets repeated until luck runs out, often at a bigger scale.",
+        "The opposite hurts too. When a good decision with bad luck gets punished, people learn to avoid sensible risks, or to hide them. Teams that judge only results slowly become either reckless or timid."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "\"Bad luck\" can become an excuse.",
+      "body": [
+        "Outcomes still matter. If the same 'unlucky' result keeps happening, it's probably not luck. Over many repeats, results are good evidence about decisions.",
+        "And check whether key information was available but ignored. Missing a forecast you could have read is a decision problem, not bad luck. A single result says little. A pattern says a lot."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a sales team review.",
+      "illustrative": true,
+      "body": [
+        "You lead a sales team inside a large company. Priya won a major client by offering a deep discount without the required approval. Tom followed the pricing rules and lost a similar deal to a cheaper rival.",
+        "It's quarterly review time. How do you handle it?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Praise Priya publicly. Wins are what count",
+            "verdict": "risky",
+            "feedback": "You get a motivated rep, but the whole team learns that skipping approval pays. The next unapproved discount may be a loss."
+          },
+          {
+            "key": "B",
+            "text": "Review both deals by how each was decided, and say so openly",
+            "verdict": "best",
+            "feedback": "You separate the win from the shortcut and the loss from the judgment. It's slower, but the team learns what good selling actually looks like."
+          },
+          {
+            "key": "C",
+            "text": "Ignore results and score only rule-following",
+            "verdict": "partial",
+            "feedback": "It protects the process, but results carry real information. If Tom keeps losing on price, the rules may need to change."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Grade the decision, not the dice.",
+      "body": [
+        "A good outcome doesn't prove a good decision, and a bad one doesn't prove a mistake. Judge choices by what was knowable and how well it was weighed.",
+        "**Try it today:** pick one recent win and one recent loss. For each, write what you knew at the time and which box of the grid it really belongs in."
+      ],
+      "next": "Next · Imagine it failed, before it does"
+    }
+  ]
+}

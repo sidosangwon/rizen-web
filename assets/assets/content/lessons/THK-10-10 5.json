@@ -1,0 +1,246 @@
+{
+  "id": "THK-10-10",
+  "unitId": "THK-10",
+  "categoryId": "THK",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Pitch a decision to a skeptical CEO",
+  "readerTitle": "Five minutes to win over a skeptical CEO",
+  "format": "everyday_scene",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.1,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (12개 매장 레스토랑 그룹의 자체 온라인 주문 시스템 도입 제안) · 모든 수치는 설명용",
+  "insight": "회의적인 CEO는 '좋은 아이디어인가'보다 '이 사람에게 위험을 맡겨도 되는가'를 묻는다. 결론 먼저, 단점 먼저, 숫자 하나, 한 장 메모는 모두 그 질문에 대한 답이다.",
+  "misconception": "회의적인 상대는 더 많은 자료와 더 강한 확신으로 설득해야 한다.",
+  "relatedLessonIds": [
+    "THK-10-01",
+    "THK-10-04"
+  ],
+  "sources": [
+    {
+      "text": "모든 인물, 회사, 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "계산 확인: 배달앱 주문 매출 월 $200,000 × 수수료 25%(가정) = 월 $50,000. 이 중 30%($60,000)가 자체 채널로 옮기면 수수료 절감 $15,000 − 자체 채널 비용 5%(결제·마케팅 가정) $3,000 − 소프트웨어 월 $3,000 = 월 $9,000 절감.",
+      "status": "open"
+    },
+    {
+      "note": "시범 비용 $9,000 = 소프트웨어 월 $3,000 × 90일(3개월) 가정. 월 $9,000 절감은 그룹 전체 적용 시 추정치이며 시범 비용과 금액이 같은 것은 우연임. 독자 혼동 여부를 검토하세요.",
+      "status": "open"
+    },
+    {
+      "note": "배달앱 수수료율은 나라와 계약마다 크게 다르므로 카드 본문에는 구체적 비율을 쓰지 않고 금액만 제시했습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Communicating · Simulation",
+      "title": "Five minutes to win over a skeptical CEO",
+      "illustrative": true,
+      "body": [
+        "You run operations for a group of 12 restaurants. Delivery apps now bring in a big share of orders, and they take a cut of every one. You want to launch your own online ordering.",
+        "The CEO has blocked two tech projects before. You get five minutes on Monday. Four moments will decide how it goes."
+      ],
+      "image": {
+        "label": "A manager waiting outside a CEO's office with a single sheet of paper",
+        "aspectRatio": "4:3",
+        "brief": "레스토랑 본사 사무실 복도. 운영 책임자가 종이 한 장을 들고 CEO 사무실 문 앞에 서 있고, 문 너머 CEO는 팔짱을 끼고 시계를 보는 실루엣. 벽시계에 '5분' 느낌. 실제 배달앱 로고나 브랜드는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Moment 1 · The opening",
+      "title": "The CEO looks at the clock and says, \"Go.\"",
+      "illustrative": true,
+      "body": [
+        "You have five minutes and a listener who expects to say no. How do you open?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Explain how delivery apps grew and why their fees keep rising",
+            "verdict": "risky",
+            "feedback": "Useful context, but the CEO spends three minutes wondering what you want. By the time you reach the ask, time and patience are gone."
+          },
+          {
+            "key": "B",
+            "text": "\"I recommend we test our own online ordering in three restaurants for 90 days. It costs $9,000. I need a yes today.\"",
+            "verdict": "best",
+            "feedback": "The CEO knows the ask in ten seconds and can spend the rest of the meeting testing it. You give up suspense, which you never needed."
+          },
+          {
+            "key": "C",
+            "text": "\"Have you seen what we paid delivery apps last month?\"",
+            "verdict": "partial",
+            "feedback": "It grabs attention, but a skeptic hears a setup. They brace for a sales pitch instead of listening to a proposal."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Moment 2 · The pushback",
+      "title": "\"Our last app project went nowhere. Why is this different?\"",
+      "illustrative": true,
+      "body": [
+        "Say you chose to lead with the answer. The CEO doesn't argue with the idea. They argue with the risk. What do you say?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Insist this vendor is far better and it won't happen again",
+            "verdict": "risky",
+            "feedback": "It sounds confident, but you've promised something you can't prove. The CEO now trusts you less, not more."
+          },
+          {
+            "key": "B",
+            "text": "Name the downsides yourself: some customers won't switch, staff need training, and we keep the delivery apps during the test",
+            "verdict": "best",
+            "feedback": "You show the costs before the CEO has to dig for them. Admitting what you give up makes the upside easier to believe."
+          },
+          {
+            "key": "C",
+            "text": "Agree the risk is real and promise a full report later",
+            "verdict": "partial",
+            "feedback": "Respectful, but vague. The CEO still doesn't know what could go wrong or how you would limit it."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Moment 3 · The numbers",
+      "title": "\"Fine. Is it worth it?\"",
+      "illustrative": true,
+      "body": [
+        "Say you named the trade-offs. Your spreadsheet has 14 numbers. You have time for one sentence."
+      ],
+      "image": {
+        "label": "A cluttered spreadsheet next to one highlighted number",
+        "aspectRatio": "16:9",
+        "brief": "왼쪽에는 숫자가 빽빽한 스프레드시트 화면, 오른쪽에는 크게 강조된 숫자 하나('$9,000 / month'). 왼쪽은 흐릿하게, 오른쪽은 선명하게. 실제 소프트웨어 로고 없음.",
+        "url": null
+      },
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Show all 14 numbers on one slide so nothing looks hidden",
+            "verdict": "risky",
+            "feedback": "Thorough, but the CEO has to find the point alone. Most skeptics decide there isn't one."
+          },
+          {
+            "key": "B",
+            "text": "\"We pay delivery apps about $50,000 a month. Moving 3 in 10 of those orders to our own system saves about $9,000 a month, after software costs.\"",
+            "verdict": "best",
+            "feedback": "A starting point, a change and a result. The CEO can check it in their head and still remember it after you leave."
+          },
+          {
+            "key": "C",
+            "text": "\"The savings could be huge, easily six figures a year.\"",
+            "verdict": "partial",
+            "feedback": "Maybe true, but with no starting point the CEO can't check it. Big round claims sound like hope."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Moment 4 · The follow-up",
+      "title": "\"Send me something. I'll decide Friday.\"",
+      "illustrative": true,
+      "body": [
+        "Say you told it with one number. The meeting ends without a yes, but without a no. What do you send?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The full 20-slide deck, so every detail is there",
+            "verdict": "partial",
+            "feedback": "Nothing is missing, but the point is buried again. The deck works better as an attachment than as the main document."
+          },
+          {
+            "key": "B",
+            "text": "One page: the recommendation, the trade-offs, the key number and the decision you need",
+            "verdict": "best",
+            "feedback": "It repeats what worked in the room, in two minutes of reading. The CEO can also forward it to the finance lead without you there."
+          },
+          {
+            "key": "C",
+            "text": "A short email: \"Thanks for your time! Let me know.\"",
+            "verdict": "risky",
+            "feedback": "Polite, but the CEO must rebuild your case from memory. By Friday, most of what you said is gone."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "The CEO said yes to the test.",
+      "illustrative": true,
+      "body": [
+        "On Friday, the CEO approved the 90-day test in three restaurants. The idea wasn't new. What changed was how each answer landed.",
+        "A skeptic usually isn't asking, \"Is this a good idea?\" They're asking, **\"Can I trust this person with the risk?\"** Every move you made answered that question: a clear ask, costs you named yourself, a number they could check, and a page they could reread."
+      ],
+      "image": {
+        "label": "The CEO signing a one-page memo",
+        "aspectRatio": "16:9",
+        "brief": "CEO가 책상에서 종이 한 장에 서명하는 장면. 옆에 세 개 매장 위치가 표시된 작은 지도와 '90 days' 메모. 따뜻한 톤. 실제 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Good delivery can't rescue a weak idea.",
+      "body": [
+        "These moves make a sound case easy to judge. They don't make a weak case strong. If the CEO's objection reveals a real flaw, say so and rework the plan. Winning the meeting and being wrong is worse than losing it.",
+        "Skepticism also has a cause. Before you pitch, find out why past projects failed. It often tells you which objection is coming."
+      ],
+      "softwareNote": "The same pattern holds when a software founder pitches a board: lead with the ask, name the risks, show one number such as monthly churn before and after, and follow up with a short written memo."
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Answer the question a skeptic is really asking.",
+      "body": [
+        "Four moments, four ideas from this unit:"
+      ],
+      "list": [
+        "**The opening:** lead with the answer",
+        "**The pushback:** present the trade-offs before they're found",
+        "**The numbers:** tell the story with one number",
+        "**The follow-up:** send a one-page memo"
+      ],
+      "callout": "**Try it today:** before your next pitch, write the one sentence you'll open with and the biggest downside you'll name yourself.",
+      "next": "Next · Metrics start from goals"
+    }
+  ]
+}

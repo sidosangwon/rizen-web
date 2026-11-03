@@ -1,0 +1,231 @@
+{
+  "id": "CUS-06-06",
+  "unitId": "CUS-06",
+  "categoryId": "CUS",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Satisfaction is not loyalty",
+  "readerTitle": "Your customers are happy. So why are they leaving?",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (청소 서비스, 포장재 공급업체) + 실제 연구 (Jones & Sasser, 1995 HBR)",
+  "insight": "만족은 지난 경험에 대한 평가이고, 충성은 다른 선택지가 나타났을 때 우리를 다시 고르는 미래의 행동이다. '그럭저럭 만족'은 떠날 준비가 된 상태일 수 있다.",
+  "misconception": "만족도 점수가 높으면 고객은 남는다. 불만이 없으면 충성 고객이다.",
+  "relatedLessonIds": [
+    "CUS-01-06",
+    "CUS-02-06"
+  ],
+  "sources": [
+    {
+      "text": "Jones, T. O. & Sasser, W. E. (1995). Why Satisfied Customers Defect. Harvard Business Review, Nov–Dec 1995.",
+      "url": null
+    },
+    {
+      "text": "청소 서비스와 포장재 공급업체 사례, 점수별 재예약률 차트의 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Jones & Sasser(1995)에 나오는 Xerox 사례: '완전히 만족(totally satisfied)'한 고객이 '만족(satisfied)'한 고객보다 18개월 안에 재구매할 가능성이 약 6배 높았다는 내용. 게시 전 원문에서 배수와 기간을 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "'hostages'(전환 비용 때문에 불만족해도 머무는 고객)라는 표현이 Jones & Sasser 논문의 분류에서 왔는지 확인하세요. 카드에는 출처 없이 일반 설명으로만 썼습니다.",
+      "status": "open"
+    },
+    {
+      "note": "3번 카드 차트 수치(5점 85%, 4점 50%, 3점 40%)는 모두 가상입니다. 4점이 5점보다 3점에 더 가깝다는 점을 보여주려는 설명용 수치입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Everyday scene",
+      "title": "Your customers are happy. So why are they leaving?",
+      "illustrative": true,
+      "body": [
+        "For two years, the same cleaner came to your home every other Friday. Good work. No problems. If she'd sent a survey, you'd have given her 4 out of 5.",
+        "Then a neighbor mentioned someone a little cheaper. You switched that week, without much thought. You were satisfied. You just weren't loyal."
+      ],
+      "image": {
+        "label": "A homeowner waving goodbye to one cleaner while greeting another",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 플랫 일러스트. 집 현관에서 집주인이 한쪽 청소부에게 손을 흔들어 작별하고, 다른 쪽에서 새 청소부가 도착함. 떠나는 청소부 머리 위에 별 4개 평점 말풍선. 실제 회사 로고 없음.",
+        "url": "assets/images/cus-06-06-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "92% satisfied. 30% gone.",
+      "illustrative": true,
+      "body": [
+        "You run a home cleaning service. Your yearly survey says 92% of customers are satisfied or very satisfied. Yet 30% of last year's customers didn't book again.",
+        "What do you conclude?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The survey is flawed. People are just being polite",
+            "verdict": "partial",
+            "feedback": "Politeness plays a part, but the answers can be honest. Customers really were satisfied. Satisfaction just doesn't tell you who will come back."
+          },
+          {
+            "key": "B",
+            "text": "Satisfied isn't the same as staying. Compare who rebooked with who didn't",
+            "verdict": "best",
+            "feedback": "This looks at behavior instead of scores. It costs some digging, but it shows what actually makes people return."
+          },
+          {
+            "key": "C",
+            "text": "Push satisfaction higher with free extras for everyone",
+            "verdict": "risky",
+            "feedback": "It spends money on people who were already happy, and many were leaving anyway. More of the same won't give them a reason to stay."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "What the data shows",
+      "title": "A 4 behaves more like a 3 than a 5.",
+      "illustrative": true,
+      "body": [
+        "Sorting customers by their survey score and checking who rebooked tells a clear story. The big jump isn't between unhappy and happy. It's between *fine* and *delighted*."
+      ],
+      "chart": {
+        "unit": "%",
+        "groups": [
+          {
+            "label": "Rebooked within a year, by satisfaction score",
+            "rows": [
+              {
+                "label": "5 · Very satisfied",
+                "value": 85,
+                "highlight": true
+              },
+              {
+                "label": "4 · Satisfied",
+                "value": 50,
+                "highlight": false
+              },
+              {
+                "label": "3 · Neutral",
+                "value": 40,
+                "highlight": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Satisfaction looks back. Loyalty looks forward.",
+      "body": [
+        "**Satisfaction** is a judgment about the past: did you get what you expected? **Loyalty** is a behavior in the future: do you choose this business again when another option shows up?",
+        "A satisfied customer has no complaint. A loyal customer has a reason to stay. Those are different things, and only the second one protects your revenue."
+      ],
+      "image": {
+        "label": "A rear-view mirror labeled satisfaction and a road ahead labeled loyalty",
+        "aspectRatio": "16:9",
+        "brief": "자동차 운전석 시점. 백미러 속에는 'Satisfaction: How was it?'라는 지나온 길, 앞 유리 너머에는 갈림길과 'Loyalty: Will they choose you again?' 표지판. 단순한 벡터 스타일.",
+        "url": "assets/images/cus-06-06-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "Researchers found the same gap.",
+      "body": [
+        "In a 1995 Harvard Business Review article, \"Why Satisfied Customers Defect,\" Thomas Jones and Earl Sasser argued that merely satisfied customers leave far more easily than most managers assume.",
+        "Their best-known example came from Xerox. Customers who said they were *totally* satisfied were about six times more likely to buy again over the next 18 months than customers who said they were just satisfied.",
+        "The lesson: a high average score can hide a large group that is only one good offer away from leaving."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Why it happens",
+      "title": "No complaint is not a reason to stay.",
+      "body": [
+        "Satisfied customers leave for ordinary reasons: a cheaper offer, a friend's recommendation, a move, or simply nothing memorable to hold them.",
+        "Loyalty grows from something a rival can't easily match. That might be a person who knows your preferences, results you can't get elsewhere, or a fix that saves you real trouble. It's the gap between *good enough* and *hard to replace*."
+      ],
+      "softwareNote": "Users can rate an app 4 stars and still cancel when a cheaper tool appears. Track renewals, how often people come back and how much of their work runs through the product, not just survey scores."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Don't swing too far the other way.",
+      "body": [
+        "Satisfaction still matters. Unhappy customers usually leave fastest, so fixing real problems comes first.",
+        "And some customers stay without being satisfied at all, because switching is too costly or there's no alternative. That looks like loyalty in your numbers, but it isn't. When a real alternative arrives, these customers often leave all at once, and they tell others why."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a packaging supplier.",
+      "illustrative": true,
+      "body": [
+        "You make shipping boxes for a mid-sized food producer. Every quarter they rate you \"satisfied.\" Now their purchasing team has asked three suppliers, including you, to bid for next year's contract.",
+        "What best improves your chances of keeping them?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Trust the scores and submit your usual bid",
+            "verdict": "risky",
+            "feedback": "It saves effort, but \"satisfied\" only means you met the bar. A rival who meets the same bar for less wins on price."
+          },
+          {
+            "key": "B",
+            "text": "Cut your price to beat any likely rival",
+            "verdict": "partial",
+            "feedback": "It may keep the contract, but it lowers your margin and teaches them you compete on price. The next bid starts lower."
+          },
+          {
+            "key": "C",
+            "text": "Find their biggest headache, like late deliveries or storage space, and offer a fix rivals can't easily match",
+            "verdict": "best",
+            "feedback": "It takes time and may cost you something extra, but it gives them a reason to choose you beyond price. That is loyalty, not just satisfaction."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "Business software faces the same moment at renewal. A customer who is only satisfied compares prices; one whose team depends on your product rarely runs the comparison."
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Satisfied customers have no complaint. Loyal customers have a reason.",
+      "body": [
+        "A good score tells you that you met expectations. Only behavior, like rebooking, renewing and buying more, tells you who will stay.",
+        "**Try it today:** list five customers who rated you well. Next to each, write the one thing they would lose if they switched to a rival. Blank lines are your risk."
+      ],
+      "next": "Next · Winning back a gym's lapsed members"
+    }
+  ]
+}

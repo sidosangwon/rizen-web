@@ -1,0 +1,236 @@
+{
+  "id": "OPS-01-06",
+  "unitId": "OPS-01",
+  "categoryId": "OPS",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Continuous improvement",
+  "readerTitle": "The 15-minute Friday meeting that keeps a cleaning crew getting better",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (가정 청소 업체, 회계·기장 대행 회사) · 모든 수치는 설명용",
+  "insight": "개선은 문제가 터졌을 때 하는 큰 프로젝트가 아니라, 일하는 사람이 매주 작은 불편 하나를 고치고 확인하는 습관이다.",
+  "misconception": "개선하려면 큰 개편, 새 시스템, 외부 전문가가 필요하다. 작은 수정은 티가 나지 않아 의미가 없다.",
+  "relatedLessonIds": [
+    "OPS-01-04",
+    "OPS-01-09"
+  ],
+  "sources": [
+    {
+      "text": "Imai, M. (1986). Kaizen: The Key to Japan's Competitive Success. McGraw-Hill.",
+      "url": null
+    },
+    {
+      "text": "운영관리의 표준 개념 (지속적 개선, 개선 사이클)",
+      "url": null
+    },
+    {
+      "text": "모든 업체와 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "청소 업체 계산: 수정 3개로 집 한 곳당 5분 + 4분 + 3분 = 12분 절약. 하루 4곳 × 12분 = 48분, 주 5일 × 48분 = 240분 = 4시간. 모두 가상 수치입니다.",
+      "status": "open"
+    },
+    {
+      "note": "'kaizen'은 일본어로 '개선, 더 나은 방향으로의 변화'라는 뜻으로 설명했습니다. 게시 전 표현을 다시 확인하세요. Imai(1986) 책이 이 용어를 서구에 널리 알렸다는 점은 카드에 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "소프트웨어 팀의 회고(retrospective)는 애자일 개발에서 흔한 관행으로 일반적으로만 설명했습니다. 특정 수치나 출처는 쓰지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Everyday scene",
+      "title": "The 15-minute Friday meeting that keeps a cleaning crew getting better",
+      "illustrative": true,
+      "body": [
+        "Every Friday at 4 p.m., a three-person house-cleaning crew sits in their van with coffee and answers one question: *what slowed us down this week?*",
+        "They pick one answer and fix it before Monday. No consultants, no new software. A year later, they finish the same homes noticeably faster and get fewer complaints."
+      ],
+      "image": {
+        "label": "Cleaning crew talking in a parked van with a notepad",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 일러스트. 오후 햇살 속에 주차된 밴 안에서 청소 직원 세 명이 커피를 들고 메모장 한 장을 보며 이야기하는 장면. 메모장에는 \"What slowed us down?\" 한 줄과 체크 표시 하나. 실제 브랜드 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/ops-01-06-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Jobs are running long and complaints are creeping up.",
+      "illustrative": true,
+      "body": [
+        "You run a small home-cleaning business with two crews. Nothing is broken, but jobs take longer than booked, and clients mention small misses: a skipped mirror, a late arrival.",
+        "What do you do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Plan a full overhaul next quarter: new booking software and retraining for everyone",
+            "verdict": "partial",
+            "feedback": "A big change might help, but it costs months and money before you learn anything. Meanwhile the small problems keep repeating every day."
+          },
+          {
+            "key": "B",
+            "text": "Hold a short weekly crew huddle, fix one small annoyance at a time, and check if it helped",
+            "verdict": "best",
+            "feedback": "Cheap, fast and led by the people who see the problems. Each fix is small, but they add up week after week."
+          },
+          {
+            "key": "C",
+            "text": "Hire a supervisor to inspect every finished home",
+            "verdict": "partial",
+            "feedback": "You'd catch more misses before clients do. But inspection adds cost and finds problems after they happen, without removing why they happen."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What happened",
+      "title": "Three small fixes, one month.",
+      "illustrative": true,
+      "body": [
+        "Twelve minutes per home sounds minor. At four homes a day, that's 48 minutes. Over a five-day week, it's **4 hours** of crew time back, nearly room for another booking."
+      ],
+      "breakdown": [
+        {
+          "value": "−5 min",
+          "label": "Pre-packed supply caddies",
+          "detail": "No more hunting in the van for the right spray",
+          "highlight": false
+        },
+        {
+          "value": "−4 min",
+          "label": "Entry notes in each booking",
+          "detail": "Key, alarm and pet details in one place",
+          "highlight": false
+        },
+        {
+          "value": "−3 min",
+          "label": "Room-by-room checklist",
+          "detail": "Fewer missed mirrors, fewer return visits",
+          "highlight": false
+        },
+        {
+          "value": "−12 min",
+          "label": "Saved per home",
+          "detail": "Found by the crew, not a consultant",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Continuous improvement",
+      "body": [
+        "**Continuous improvement** means making many small changes, often, led by the people who do the work, and checking whether each one helped.",
+        "It runs as a loop: notice a problem, try a small fix, check the result, then keep it or drop it. The Japanese word *kaizen*, meaning change for the better, is often used for this idea."
+      ],
+      "image": {
+        "label": "A loop: notice, try, check, keep",
+        "aspectRatio": "16:9",
+        "brief": "원형 순환 다이어그램. 네 단계 \"Notice a problem\" → \"Try a small fix\" → \"Check the result\" → \"Keep or drop\" 가 화살표로 이어지고 다시 처음으로 돌아감. 가운데에 작은 계단 아이콘으로 한 바퀴마다 조금씩 올라가는 느낌을 표현.",
+        "url": "assets/images/ops-01-06-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Why it works",
+      "title": "Small, frequent and close to the work.",
+      "body": [
+        "Small changes are cheap and easy to undo, so people are willing to try more of them. A failed experiment costs a week, not a quarter.",
+        "The people doing the work see problems managers miss. The crew knows exactly where the minutes go.",
+        "And fixes stack. Once a fix works, it becomes the new normal way of doing the job. Next week's improvement starts from a better place."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where it fits",
+      "title": "It works alongside big changes, not instead of them.",
+      "body": [
+        "Sometimes you need a big step: a new location, new equipment, a new system. Small fixes can't replace that.",
+        "But big changes rarely work perfectly on day one. Continuous improvement is how a new system gets good after launch. Teams inside larger companies use the same loop, from a finance team's month-end to a warehouse shift."
+      ],
+      "softwareNote": "Many software teams build this in as a *retrospective*: at the end of each work cycle, they ask what slowed them down and pick one thing to change next cycle."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The habit dies easily.",
+      "body": [
+        "It fails when ideas go into a box and nobody answers. People stop speaking up within weeks.",
+        "It fails when people fear blame. Problems get hidden instead of named.",
+        "It costs real time. Fifteen minutes a week is a small price, but it must be protected.",
+        "And polishing has limits. If the whole process is wrong, ten small fixes won't save it. That's when you need a bigger change."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a bookkeeping firm.",
+      "illustrative": true,
+      "body": [
+        "Your firm closes the books for 40 small-business clients every month. The month-end close is always a few days late. Your staff have plenty of ideas about why.",
+        "How do you start improving it?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Run a big staff survey once a year and act on the top ideas",
+            "verdict": "partial",
+            "feedback": "You'll hear good ideas, but only once a year. Twelve late month-ends pass before anything changes."
+          },
+          {
+            "key": "B",
+            "text": "After each close, hold a 20-minute review, fix the one delay that hurt most, and compare next month",
+            "verdict": "best",
+            "feedback": "A fix every month, tested by the next close. You learn which changes actually help."
+          },
+          {
+            "key": "C",
+            "text": "Collect every idea and put them all in place next month",
+            "verdict": "risky",
+            "feedback": "Lots of change at once can overwhelm the team. Even if things improve, you won't know which change did it."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Better is a weekly habit, not a one-time project.",
+      "body": [
+        "Small fixes, made often by the people closest to the work, add up to more than most big overhauls.",
+        "**Try it today:** ask your team one question: what slowed us down this week? Pick one answer, fix it, and check again in seven days."
+      ],
+      "next": "Next · Speed up a busy coffee counter"
+    }
+  ]
+}

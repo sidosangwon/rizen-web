@@ -1,0 +1,235 @@
+{
+  "id": "BMO-08-05",
+  "unitId": "BMO-08",
+  "categoryId": "BMO",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "What to automate and what to keep human",
+  "readerTitle": "The cheaper machine that barely cut the bill",
+  "format": "numbers_twist",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (회계 대행사, 소프트웨어 고객지원) + 실제 연구 (ATM과 은행 창구 직원, 자동화 안주 연구)",
+  "insight": "자동화할 일은 작업량이 아니라 '실수 한 번의 비용'과 '사례가 얼마나 예측 가능한가'로 고른다. 답은 대개 전부 자동화와 전부 사람 사이, 기계가 확신 없는 건만 사람에게 넘기는 분업이다.",
+  "misconception": "건당 처리 비용이 10분의 1이면 전체 비용도 크게 줄어든다. 자동화는 '할까 말까'를 정하는 문제다.",
+  "relatedLessonIds": [
+    "BMO-08-03",
+    "BMO-08-07"
+  ],
+  "sources": [
+    {
+      "text": "Bessen, J. (2015). Learning by Doing: The Real Connection between Innovation, Wages, and Wealth. Yale University Press. (ATM과 은행 창구 직원)",
+      "url": null
+    },
+    {
+      "text": "Autor, D. (2015). Why Are There Still So Many Jobs? The History and Future of Workplace Automation. Journal of Economic Perspectives, 29(3).",
+      "url": null
+    },
+    {
+      "text": "Parasuraman, R. & Manzey, D. (2010). Complacency and Bias in Human Use of Automation. Human Factors, 52(3).",
+      "url": null
+    },
+    {
+      "text": "회계 대행사와 고객지원 수치는 모두 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "회계 대행사 계산(가상 수치): 사람만 10,000건 × $1 = $10,000, 오류 1% = 100건 × $40 = $4,000, 합계 $14,000. 전부 자동화 10,000건 × $0.10 = $1,000, 오류 3% = 300건 × $40 = $12,000, 합계 $13,000. 분업: 자동화 $1,000 + 확신 없는 15%(1,500건) 사람 검토 × $1 = $1,500 + 남은 오류 100건 × $40 = $4,000, 합계 $6,500. 가정: 표시된 1,500건에 오류 300건 중 200건이 들어 있고 검토로 모두 잡힌다.",
+      "status": "open"
+    },
+    {
+      "note": "ATM 사례: ATM 확산 뒤 지점당 창구 직원 수는 줄었지만 지점 수가 늘어 미국 창구 직원 총수는 예상만큼 줄지 않았고 업무가 상담·영업 쪽으로 이동했다는 내용(Bessen 2015, Autor 2015 인용). 구체 수치는 출처마다 기간과 값이 달라 카드에 넣지 않았습니다. 게시 전 문구가 원문과 맞는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "자동화 안주(automation complacency): 자동화가 대체로 맞을 때 사람이 검토를 소홀히 하는 경향. Parasuraman & Manzey(2010)의 개념 정의와 카드 문구가 맞는지 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business models · Numbers twist",
+      "title": "The cheaper machine that barely cut the bill",
+      "illustrative": true,
+      "body": [
+        "A bookkeeping firm processes 10,000 client invoices a month. Staff time costs about $1 per invoice.",
+        "New software does the same job for $0.10. A 90% saving on paper. After switching everything over, the firm's real monthly cost fell by about 7%."
+      ],
+      "image": {
+        "label": "A tall stack of invoices feeding into a machine, with a few crumpled ones falling out",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 송장 더미가 작은 기계로 빨려 들어가고, 반대편으로 깔끔한 서류가 나오지만 몇 장은 구겨진 채 빨간 느낌표와 함께 바닥에 떨어짐. 실제 소프트웨어 로고는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How would you use the software?",
+      "illustrative": true,
+      "body": [
+        "Staff get about 1% of invoices wrong. The software gets 3% wrong. Each mistake that reaches a client costs about $40 to fix in rework, late fees and apologies.",
+        "The software also marks about 15% of invoices as *unsure*. Most of its mistakes are in that pile."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep people on every invoice. Accuracy is what clients pay for",
+            "verdict": "partial",
+            "feedback": "You keep the lowest error rate, but you pay $1 for thousands of invoices a machine handles just as well."
+          },
+          {
+            "key": "B",
+            "text": "Automate everything. At a tenth of the cost, the extra errors are worth it",
+            "verdict": "risky",
+            "feedback": "The cheap processing is real, but the extra mistakes eat almost all of it. The next card shows how."
+          },
+          {
+            "key": "C",
+            "text": "Automate everything, and have staff check only the invoices marked unsure",
+            "verdict": "best",
+            "feedback": "You pay the machine price on the easy cases and the human price only where mistakes cluster. It roughly halves the bill."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Count the mistakes, not just the processing.",
+      "illustrative": true,
+      "breakdown": [
+        {
+          "value": "$14,000",
+          "label": "People only",
+          "detail": "$10,000 staff time + 100 errors × $40",
+          "highlight": false
+        },
+        {
+          "value": "$13,000",
+          "label": "Automate everything",
+          "detail": "$1,000 software + 300 errors × $40",
+          "highlight": false
+        },
+        {
+          "value": "$6,500",
+          "label": "Automate, people check the unsure 15%",
+          "detail": "$1,000 + $1,500 review + 100 errors × $40",
+          "highlight": true
+        }
+      ],
+      "callout": "The software was 90% cheaper per invoice. Its **mistakes** were 3 times as many."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Automate by the cost of a mistake",
+      "body": [
+        "Deciding what to automate comes down to two questions for each task. **How predictable are the cases?** And **what does one mistake cost?**",
+        "Predictable cases with cheap mistakes go to the machine. Unusual cases with expensive mistakes stay with people. The best split is often inside a single task: the machine does the routine bulk and hands over the cases it isn't sure about."
+      ],
+      "image": {
+        "label": "A two-by-two grid: predictability against cost of a mistake",
+        "aspectRatio": "16:9",
+        "brief": "2×2 인포그래픽. 가로축 \"How predictable\", 세로축 \"Cost of a mistake\". 예측 가능·저비용 칸에 로봇 아이콘과 \"Automate\", 예측 어려움·고비용 칸에 사람 아이콘과 \"Keep human\", 나머지 두 칸에 로봇과 사람이 함께 있는 \"Machine first, human checks\".",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "ATMs didn't end the bank teller.",
+      "body": [
+        "When cash machines spread, many expected bank tellers to disappear. Economist James Bessen found something different in the US. Each branch needed fewer tellers, but banks opened more branches.",
+        "Machines took the predictable work: handing out cash. Tellers moved toward work where a mistake or a cold answer costs more, like advising customers and handling problems. The human part didn't vanish. It moved to where judgment mattered."
+      ],
+      "image": {
+        "label": "A cash machine beside a teller talking with a customer",
+        "aspectRatio": "16:9",
+        "brief": "은행 지점 일러스트. 왼쪽에 현금인출기 앞에서 혼자 돈을 뽑는 손님, 오른쪽에 창구 직원이 다른 손님과 마주 앉아 서류를 보며 상담. 실제 은행 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond paperwork",
+      "title": "The same test works almost anywhere.",
+      "body": [
+        "A restaurant can let a tablet take routine orders. A wrong side dish costs little. A question about a nut allergy should reach a person, because one wrong answer can hurt someone.",
+        "A repair shop can automate booking reminders but keep a mechanic on the call when a customer hears a strange noise. Ask where the expensive surprises live. That's where people earn their cost."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A human check can quietly stop checking.",
+      "body": [
+        "When a machine is usually right, reviewers start approving without looking. Researchers call this **automation complacency**. Your 15% review pile only works if people treat it as a real job.",
+        "Error rates also drift. New clients, new formats or new products can push mistakes outside the pile the machine flags. Sample some of the 'sure' cases every month to see if the split still holds."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software support team.",
+      "illustrative": true,
+      "body": [
+        "Your app gets about 5,000 support tickets a month. Most are password resets and 'where is my invoice?'. A small share are users asking to cancel or reporting lost data. A chatbot could answer instantly at a fraction of the cost.",
+        "How do you split the work?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Let the bot handle every ticket, including cancellations",
+            "verdict": "risky",
+            "feedback": "Cheapest per ticket, but a clumsy reply to someone about to cancel can turn a fixable problem into churn. That one mistake costs far more than the ticket."
+          },
+          {
+            "key": "B",
+            "text": "Bot handles resets and invoices; cancellations, data loss and anything it's unsure of go to a person",
+            "verdict": "best",
+            "feedback": "You automate the predictable, low-stakes bulk and spend people where a wrong answer loses customers or trust."
+          },
+          {
+            "key": "C",
+            "text": "Keep everything human and hire two more agents",
+            "verdict": "partial",
+            "feedback": "Every user gets a person, but you pay human rates for thousands of password resets, and fast answers there would please users more."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Automate the predictable. Keep people where mistakes are expensive.",
+      "body": [
+        "Compare the full cost of each option: the work plus the mistakes. The cheapest per task is rarely the cheapest overall.",
+        "**Try it today:** pick one task your team does every week. Write down how often it goes wrong and what one mistake costs. Which part could a machine do, and which part should a person keep?"
+      ],
+      "next": "Next · Who really keeps the money a new technology makes"
+    }
+  ]
+}

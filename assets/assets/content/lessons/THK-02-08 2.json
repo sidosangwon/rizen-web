@@ -1,0 +1,229 @@
+{
+  "id": "THK-02-08",
+  "unitId": "THK-02",
+  "categoryId": "THK",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "Spot the biases in a store's failure",
+  "readerTitle": "Why the tile shop stayed open a year too long",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (타일·바닥재 매장, IT 지원 회사) · 모든 인물과 수치는 설명용",
+  "insight": "사업 실패를 돌아볼 때는 '무슨 일이 있었나'보다 '어떤 믿음이 어떤 증거를 고르게 했고, 이미 쓴 돈이 어떤 결정을 붙잡았나'를 본다.",
+  "misconception": "가게가 망한 건 공사, 경기, 온라인 경쟁 같은 외부 요인 탓이다. 이유가 사실이면 내 판단에는 문제가 없었다.",
+  "relatedLessonIds": [
+    "THK-02-01",
+    "THK-02-05"
+  ],
+  "sources": [
+    {
+      "text": "Nickerson, R. S. (1998). Confirmation Bias: A Ubiquitous Phenomenon in Many Guises. Review of General Psychology.",
+      "url": null
+    },
+    {
+      "text": "Arkes, H. R., & Blumer, C. (1985). The Psychology of Sunk Cost. Organizational Behavior and Human Decision Processes.",
+      "url": null
+    },
+    {
+      "text": "모든 인물과 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 설명용 가상 수치입니다. 계산 확인: 월 손실 $3,000 × 6개월 = $18,000, 월 손실 $3,000 × 12개월 = $36,000.",
+      "status": "open"
+    },
+    {
+      "note": "카드 본문에는 연구 수치를 인용하지 않았습니다. 확증 편향과 매몰비용 오류의 정의가 THK-02-01, THK-02-05 레슨의 정의 문구와 일치하는지 게시 전 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Everyday scene",
+      "title": "Why the tile shop stayed open a year too long",
+      "illustrative": true,
+      "body": [
+        "After three years, Dana's tile and flooring store closed. Her notes on why: road works out front, cheap online sellers, a slow housing market.",
+        "All true. But none of them explain why she kept going for a full year after the numbers turned. Two biases from this unit do."
+      ],
+      "image": {
+        "label": "A closed tile shop with sample boards in the window",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 작은 타일·바닥재 매장 앞, 유리창에 'Closed' 표지. 창 안에 타일 샘플 보드가 아직 진열되어 있고, 계산대 위에 메모장 하나. 실제 브랜드나 로고는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Is the showroom really the draw?",
+      "illustrative": true,
+      "body": [
+        "Year one, sales came in below plan. Dana believed her showroom was what brought people in: customers loved touching real tiles.",
+        "Before spending more on it, she wants to check. What should she do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Ask her happy customers what they loved about the store",
+            "verdict": "risky",
+            "feedback": "Easy and pleasant, but these are people who already bought. Their praise will fit what she believes. That's **confirmation bias**: looking for evidence that agrees with you."
+          },
+          {
+            "key": "B",
+            "text": "Call people who got a quote but didn't book, and ask why",
+            "verdict": "best",
+            "feedback": "Harder to hear, but it's the evidence most likely to prove her wrong. Seeking that out is the main defense against **confirmation bias**."
+          },
+          {
+            "key": "C",
+            "text": "Count showroom visitors each week",
+            "verdict": "partial",
+            "feedback": "Real data, which helps. But visits aren't jobs, and she'd be measuring the thing she already hopes matters."
+          }
+        ],
+        "afterReveal": "Dana chose A. Everyone loved the showroom."
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What she missed",
+      "title": "The people who walked away had a different story.",
+      "illustrative": true,
+      "body": [
+        "Many who left liked the tiles fine. What lost them was the wait: two weeks for a quote, then months until a fitter was free. The bottleneck was her install crew, not her showroom.",
+        "Dana only heard praise, so she put her money into the showroom. **Confirmation bias** didn't make her lie to herself. It just decided which voices she listened to."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "$60,000 in. Keep going?",
+      "illustrative": true,
+      "body": [
+        "End of year two. Dana has spent $60,000 expanding the showroom. The store now loses about $3,000 a month. A local contractor offers to take over her lease.",
+        "What should guide her decision?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "\"I've put $60,000 in. Leaving now wastes all of it.\"",
+            "verdict": "risky",
+            "feedback": "It feels responsible, but the $60,000 is gone whether she stays or leaves. Letting it decide is the **sunk cost fallacy**."
+          },
+          {
+            "key": "B",
+            "text": "Compare the next 12 months: keep the store vs hand over the lease",
+            "verdict": "best",
+            "feedback": "Only future costs and gains can change. This ignores the **sunk cost** and asks the one question that still matters."
+          },
+          {
+            "key": "C",
+            "text": "Give it six more months, then decide",
+            "verdict": "partial",
+            "feedback": "A deadline helps, but only with a clear test set now. Without one, six months at $3,000 is $18,000 spent on hope."
+          }
+        ],
+        "afterReveal": "Dana chose A, and stayed another year."
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The second bias",
+      "title": "The money that kept the doors open.",
+      "illustrative": true,
+      "body": [
+        "The **sunk cost fallacy** is letting money, time or effort you can't get back steer what you do next.",
+        "Dana's $60,000 couldn't be recovered either way. Staying open didn't save it. It added roughly $36,000 in new losses over the next year."
+      ],
+      "image": {
+        "label": "Two paths: one marked with past spending, one with future costs",
+        "aspectRatio": "16:9",
+        "brief": "갈림길 인포그래픽. 뒤쪽에 회색으로 'Already spent $60,000' 돌무더기(되돌릴 수 없음). 앞쪽 두 갈래 길에 'Keep store: −$3,000/month', 'Hand over lease: $0'. 앞쪽 길만 밝게.",
+        "url": null
+      },
+      "softwareNote": "In software, the sunk cost is often months of engineering on a feature few people use. The question is the same: what will keeping it cost from here?"
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How they combined",
+      "title": "Each bias protected the other.",
+      "body": [
+        "Confirmation bias told Dana the showroom was the answer. Once she'd spent on it, sunk cost made that belief harder to question. And every month she stayed, she had more reason to hear only good news.",
+        "A useful post-mortem lists each big decision, what was believed at the time, and **what evidence would have changed the mind**. Dana's list would show the missing calls to lost customers."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Not every failure is a bias.",
+      "body": [
+        "The road works and the slow market were real. Some businesses fail with good decisions and bad luck.",
+        "Hindsight also makes signals look clearer than they were. Judge each decision by what Dana could have known then, not by how it ended. And remember: biases are far easier to spot in someone else's story than in your own."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's an IT support firm.",
+      "illustrative": true,
+      "body": [
+        "You run IT support for small offices. Your biggest client, 30% of revenue, has paid late and asked for free extras all year. You spent months building custom setups for them.",
+        "Your team lead says, \"They're a great client. They renewed last year.\" What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep them as they are. Too much custom work to throw away.",
+            "verdict": "risky",
+            "feedback": "Safe-feeling, but the custom work is already paid for. Letting it lock you in is the **sunk cost fallacy**."
+          },
+          {
+            "key": "B",
+            "text": "Check the profit per hour on this account and ask the staff who serve them",
+            "verdict": "best",
+            "feedback": "You look for evidence that could contradict \"great client\", which counters **confirmation bias**, and you judge on future numbers, not past effort."
+          },
+          {
+            "key": "C",
+            "text": "Demand a higher price right away",
+            "verdict": "partial",
+            "feedback": "It may be the right move, but without the real numbers you're negotiating blind and may ask for too little or too much."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Failures leave clues about how you chose.",
+      "body": [
+        "This lesson used two ideas: **confirmation bias** (Dana heard only the customers who agreed with her) and the **sunk cost fallacy** (past spending kept the doors open).",
+        "**Try it today:** pick one thing you're still funding. Write what you'd decide if you were starting fresh, and one fact that would change your mind. Then go look for that fact."
+      ],
+      "next": "Next · Kodak and the digital camera it invented"
+    }
+  ]
+}

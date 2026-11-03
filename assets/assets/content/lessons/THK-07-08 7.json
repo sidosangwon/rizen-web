@@ -1,0 +1,269 @@
+{
+  "id": "THK-07-08",
+  "unitId": "THK-07",
+  "categoryId": "THK",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "How many coffees does your city drink a day?",
+  "readerTitle": "How many coffees does your city drink a day? A napkin can tell you",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (두 번째 매장을 고민하는 카페 주인, 종이컵 도매업체) · 모든 수치는 설명용 가정",
+  "insight": "모르는 큰 숫자도 작은 가정의 곱으로 쪼개면 몇 분 안에 규모를 알 수 있고, 그 가정이 다음에 확인할 것을 알려 준다.",
+  "misconception": "정확한 데이터가 없으면 시장 규모를 판단할 수 없으니, 남이 말한 숫자를 믿거나 조사부터 해야 한다.",
+  "relatedLessonIds": [
+    "THK-07-02",
+    "THK-07-06"
+  ],
+  "sources": [
+    {
+      "text": "문제 쪼개기와 페르미 추정(어림 계산)의 일반적인 방법",
+      "url": null
+    },
+    {
+      "text": "모든 인구, 비율, 잔 수는 설명용 가상 가정이며 실제 조사 자료가 아님",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "도시 추정 계산: 500,000명 × 0.8(성인) = 400,000명, × 0.5(매일 커피 마시는 비율 가정) = 200,000명, × 2잔 = 400,000잔, × 1/4(밖에서 사는 비율 가정) = 100,000잔. 모든 비율은 가정이며 실제 통계로 제시하지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "집주인의 '하루 100만 잔'은 추정치의 10배입니다. 1,000,000 ÷ 100,000 = 10. 카드에서는 '모든 가정이 동시에 크게 낮아야 가능하다'고만 표현했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "매장 앞 추정: 아침 통행 3,000명 × 1/20 = 150잔. 손익분기 250잔(가정)을 넘으려면 3,000 ÷ 250 = 12, 즉 12명 중 1명이 사야 합니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Problem solving · Everyday scene",
+      "title": "How many coffees does your city drink a day?",
+      "illustrative": true,
+      "body": [
+        "Mia runs a busy café and is looking at a second site. The landlord leans in: \"This city drinks a million coffees a day. You can't miss.\"",
+        "Mia has no market report. She has a pen, a napkin and ten minutes before the next viewing. That turns out to be enough to check the claim."
+      ],
+      "image": {
+        "label": "A café owner doing math on a napkin next to a coffee cup",
+        "aspectRatio": "4:3",
+        "brief": "카페 테이블 위 냅킨에 손으로 쓴 곱셈 나무(사람 수 → 비율 → 잔 수). 옆에 커피 한 잔과 펜. 배경 창밖으로 도시 거리. 실제 브랜드 로고나 컵 상표는 넣지 않음.",
+        "url": "assets/images/thk-07-08-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Where should Mia start?",
+      "illustrative": true,
+      "body": [
+        "She wants to know if a million coffees a day is believable for a city of about 500,000 people. What's the best first move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Search online for \"coffee consumption per city\"",
+            "verdict": "partial",
+            "feedback": "Fast if a good source exists, but most figures mix home and café coffee, or cover a whole country. She'd get a number without knowing if it fits her question."
+          },
+          {
+            "key": "B",
+            "text": "Split it: people, share who drink coffee, cups each, share bought outside",
+            "verdict": "best",
+            "feedback": "This is **breaking the problem into parts**. Each piece is something she can guess sensibly, and the pieces multiply into an answer."
+          },
+          {
+            "key": "C",
+            "text": "Take her own café's daily sales and multiply by the number of cafés",
+            "verdict": "risky",
+            "feedback": "It uses real data, which is good. But her busy café is not an average café, so the total could be far too high."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The napkin",
+      "title": "Four guesses, multiplied.",
+      "illustrative": true,
+      "body": [
+        "Every number here is an assumption, not a fact. The point is that each one is easy to question. Result: about **100,000 cups** sold a day, not a million."
+      ],
+      "breakdown": [
+        {
+          "value": "500,000",
+          "label": "People in the city",
+          "detail": "Roughly known",
+          "highlight": false
+        },
+        {
+          "value": "400,000",
+          "label": "Adults",
+          "detail": "Guess: about 80%",
+          "highlight": false
+        },
+        {
+          "value": "200,000",
+          "label": "Daily coffee drinkers",
+          "detail": "Guess: about half of adults",
+          "highlight": false
+        },
+        {
+          "value": "400,000",
+          "label": "Cups drunk",
+          "detail": "Guess: about 2 cups each",
+          "highlight": false
+        },
+        {
+          "value": "100,000",
+          "label": "Cups bought outside",
+          "detail": "Guess: 1 in 4, the rest at home or work",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept at work",
+      "title": "Rough is good enough here.",
+      "illustrative": true,
+      "body": [
+        "This is **estimating with rough numbers**. Mia doesn't need the exact answer. She needs the size: tens of thousands, hundreds of thousands, or millions.",
+        "Any single guess could be off. But for a million café cups to be true, her guesses would all have to be far too low at the same time. The landlord's number now looks like a sales line, not a fact."
+      ],
+      "image": {
+        "label": "Three bins labeled tens of thousands, hundreds of thousands, millions",
+        "aspectRatio": "16:9",
+        "brief": "크기가 다른 상자 세 개: \"10,000s\", \"100,000s\", \"1,000,000s\". 추정치 공 하나가 가운데 상자 근처에 들어가고, 맨 오른쪽 상자에 집주인의 말풍선 \"1 million!\"이 붙어 있음. 플랫 일러스트.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which number does her decision actually need?",
+      "illustrative": true,
+      "body": [
+        "The city total is interesting. But Mia is deciding about one shop on one street."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "A sharper estimate of the city's daily total",
+            "verdict": "partial",
+            "feedback": "More precision on the wrong question. A city of 100,000 daily cups can still have a dead street."
+          },
+          {
+            "key": "B",
+            "text": "Cups she could sell at this site on a weekday morning",
+            "verdict": "best",
+            "feedback": "This is **defining the problem first**. The real question is whether this spot can cover its costs, so that's the number to estimate."
+          },
+          {
+            "key": "C",
+            "text": "How many cafés already operate in the city",
+            "verdict": "partial",
+            "feedback": "Useful context on competition, but it doesn't tell her how many people walk past this door."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Second napkin",
+      "title": "The estimate points to what to check.",
+      "illustrative": true,
+      "body": [
+        "Mia breaks the new question down: about 3,000 people pass the site each morning (a guess), and maybe 1 in 20 buys a coffee. That's **150 cups**. She thinks she needs about 250 to break even.",
+        "To reach 250, 1 in 12 passers-by would have to buy. So the weakest guess is foot traffic. She spends one morning outside with a clicker. One cheap count now beats a year of rent."
+      ],
+      "image": {
+        "label": "A person counting passers-by outside an empty shopfront",
+        "aspectRatio": "16:9",
+        "brief": "빈 상가 앞 인도에 서서 카운터기(클리커)를 누르는 사람. 출근길 사람들이 지나가고, 상가 유리창에 'For lease' 표지(실제 부동산 회사 로고 없음). 아침 햇살.",
+        "url": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "An estimate is only as honest as its assumptions.",
+      "body": [
+        "Rough numbers size a decision. They don't replace checking the one assumption the decision hangs on.",
+        "Write every guess down where others can see it. Hidden assumptions can be bent until the answer says what you hoped, which is exactly what the landlord's million did."
+      ],
+      "softwareNote": "Software founders face this in market sizing. \"1% of a billion-dollar market\" hides every assumption. Instead multiply: businesses with the problem × share who'd pay × price, then test the shakiest number with real sales calls."
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a paper-cup wholesaler.",
+      "illustrative": true,
+      "body": [
+        "You distribute supplies to cafés in your region. A maker offers a new compostable cup, with a big minimum order. Before committing, you want a rough sense of demand. Which estimate fits?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Cafés you serve × cups each uses a day × share likely to switch",
+            "verdict": "best",
+            "feedback": "The problem is defined as *your* demand, and it's broken into parts you can guess or ask about. The switch rate is the number to test with a few customers."
+          },
+          {
+            "key": "B",
+            "text": "People in the region × coffees per person per day",
+            "verdict": "partial",
+            "feedback": "A fine rough estimate, but of the wrong thing. It counts every cup, not the cups your customers would buy from you."
+          },
+          {
+            "key": "C",
+            "text": "Use the maker's own sales forecast for your region",
+            "verdict": "risky",
+            "feedback": "Quick, but the maker wants a big order. You'd be borrowing someone else's assumptions without seeing them."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Big unknown numbers are just small guesses multiplied.",
+      "body": [
+        "Three ideas from this unit did the work:"
+      ],
+      "list": [
+        "**Define the problem first:** estimate the number your decision needs",
+        "**Break it into parts:** turn one unknown into a few guessable pieces",
+        "**Estimate with rough numbers:** aim for the right size, then check the weakest guess"
+      ],
+      "callout": "**Try it today:** estimate how many customers could reach your business each week. Write four guesses, multiply, and circle the one you'd check first.",
+      "next": "Next · Toyota's five whys"
+    }
+  ]
+}

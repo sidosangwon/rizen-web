@@ -1,0 +1,248 @@
+{
+  "id": "BMO-08-08",
+  "unitId": "BMO-08",
+  "categoryId": "BMO",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "What it means for a law firm",
+  "readerTitle": "When the 4-hour task takes 20 minutes: a law firm's real problem",
+  "format": "everyday_scene",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.2,
+  "caseKinds": [
+    "illustrative",
+    "real_observation"
+  ],
+  "caseNote": "가상 사례 (소규모 로펌, 건자재 유통업체) + 실제 관찰 (AI가 만든 가짜 판례를 제출해 제재받은 미국 변호사 사례) · 모든 금액은 설명용",
+  "insight": "시간당 청구 사업에서 기술이 시간을 줄이면, 그 가치는 가격 구조를 바꾸지 않는 한 고객에게 넘어간다. 남는 사람의 판단과 책임이 곧 상품이 된다.",
+  "misconception": "AI로 일이 빨라지면 로펌은 자동으로 더 많이 번다. 또는 가능한 업무는 전부 자동화하는 것이 효율적이다.",
+  "relatedLessonIds": [
+    "BMO-08-05",
+    "BMO-08-06"
+  ],
+  "sources": [
+    {
+      "text": "Mata v. Avianca, Inc., No. 22-cv-1461 (S.D.N.Y. June 22, 2023), sanctions order regarding AI-generated fake case citations",
+      "url": null
+    },
+    {
+      "text": "로펌 및 유통업체 사례와 모든 금액은 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "계산 확인: 시간당 청구 전 4시간 × $250 = $1,000, 후 0.5시간 × $250 = $125. 정액 $600일 때 고객 절감액 $1,000 − $600 = $400. 모두 가상 수치입니다.",
+      "status": "open"
+    },
+    {
+      "note": "Mata v. Avianca(2023, 뉴욕 남부연방지법): 변호사들이 ChatGPT가 만든 존재하지 않는 판례를 인용해 제재(벌금)를 받은 사건. 카드에는 법원명과 벌금액 없이 일반적으로만 적었습니다. 게시 전 판결문으로 재확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "실제 시간보다 많이 청구하는 것은 대부분의 법역에서 직업윤리 위반이라는 점을 선택지 피드백에 반영했습니다. 특정 국가의 규정은 다루지 않습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Technology & Value · Apply",
+      "title": "When the 4-hour task takes 20 minutes",
+      "illustrative": true,
+      "body": [
+        "A five-lawyer firm reviews supplier contracts for small manufacturers. A junior lawyer used to spend about four hours on each one, flagging risky clauses.",
+        "The firm tries an AI review tool. The first pass now takes 20 minutes. The partners are thrilled for about a week. Then someone asks what they will bill."
+      ],
+      "image": {
+        "label": "A lawyer's desk with a tall stack of contracts shrinking to one page",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 톤의 사무실 일러스트. 책상 위 계약서 더미가 왼쪽에서 오른쪽으로 갈수록 얇아지고, 벽시계는 4시간에서 20분으로 바뀌는 모습. 변호사는 기뻐하다가 청구서를 보며 고민하는 표정. 실제 로고나 상표 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "The firm bills by the hour. Now what?",
+      "illustrative": true,
+      "body": [
+        "The firm charges $250 an hour. A contract review used to bill four hours, or $1,000. With the tool, a lawyer needs about 30 minutes to check the AI's work.",
+        "How should the firm price this work now?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep billing four hours, since that's what the work is worth",
+            "verdict": "risky",
+            "feedback": "The value may be real, but billing time you didn't spend breaks professional rules in most places and destroys trust when clients find out."
+          },
+          {
+            "key": "B",
+            "text": "Bill the 30 minutes honestly and enjoy happier clients",
+            "verdict": "partial",
+            "feedback": "Honest and client-friendly, but this is **who captures value** at work: under hourly pricing, every minute saved goes straight to the client. Revenue per review falls from $1,000 to $125."
+          },
+          {
+            "key": "C",
+            "text": "Offer routine reviews at a fixed fee, priced below the old bill",
+            "verdict": "best",
+            "feedback": "This shares the gain. The client pays less than before and the firm keeps part of the time saved. It's a **who captures value** choice, made through pricing."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Same review, three bills.",
+      "illustrative": true,
+      "body": [
+        "The tool made the work cheaper to do. The pricing model decides who keeps that saving. At $600 fixed, the client saves **$400** and the firm earns far more per hour of lawyer time."
+      ],
+      "breakdown": [
+        {
+          "value": "$1,000",
+          "label": "Before",
+          "detail": "4 hours × $250",
+          "highlight": false
+        },
+        {
+          "value": "$125",
+          "label": "Hourly, after AI",
+          "detail": "0.5 hours × $250",
+          "highlight": false
+        },
+        {
+          "value": "$600",
+          "label": "Fixed fee, after AI",
+          "detail": "Client saves $400, firm keeps the rest",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept at work",
+      "title": "Who captures value from new technology",
+      "body": [
+        "When technology cuts costs, the gain doesn't stay where it was created. It flows to whoever controls the price: the customer, the tool vendor, or the business that changed how it charges.",
+        "Hourly billing quietly hands every gain to the client. And once every firm has the same tool, clients will expect the lower price anyway. The firm keeps value only by charging for outcomes, not minutes."
+      ],
+      "image": {
+        "label": "A coin labeled 'time saved' splitting three ways",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 가운데 'Time saved'라고 적힌 큰 동전이 세 갈래 화살표로 나뉨: 'Client', 'Tool vendor', 'Firm'. 가격 구조에 따라 화살표 굵기가 달라지는 두 가지 버전을 나란히 배치.",
+        "url": null
+      },
+      "softwareNote": "Software companies face the same split. If you charge per seat and AI lets customers do the same work with fewer people, your revenue shrinks as your product gets better. Pricing by usage or outcome keeps more of the value."
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What should the tool do on its own?",
+      "illustrative": true,
+      "body": [
+        "A client asks whether to settle a dispute with a supplier. The AI can draft a full answer in seconds. A partner proposes letting it handle more of the client work.",
+        "Where should the firm draw the line?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Let the AI send routine advice straight to clients",
+            "verdict": "risky",
+            "feedback": "Fast and cheap, but advice like this needs judgment about the client's goals and someone accountable for it. **What to keep human** includes the signature."
+          },
+          {
+            "key": "B",
+            "text": "AI drafts and flags; a lawyer checks, decides and signs",
+            "verdict": "best",
+            "feedback": "This is **what to automate and what to keep human**: hand off the repeatable, checkable part and keep judgment and responsibility with a person."
+          },
+          {
+            "key": "C",
+            "text": "Ban the tool for anything a client will see",
+            "verdict": "partial",
+            "feedback": "Safe on errors, but you pay full cost for work a machine does well, while rivals offer the same quality faster and cheaper."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Concept at work",
+      "title": "The human part becomes the product.",
+      "body": [
+        "Automate work that is repeatable and easy to check, like spotting a missing liability clause. Keep work that needs judgment, trust and accountability, like telling a client to settle.",
+        "Once the routine part is cheap, clients aren't really paying for reading anymore. They pay for **the lawyer's judgment** and for someone who stands behind it. That's what the fixed fee should be built around."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Checking is real work, and so is training.",
+      "body": [
+        "AI tools can produce confident mistakes. In a 2023 US case, lawyers were sanctioned after filing a brief with court cases that an AI chatbot had made up. The human check only works if someone actually checks.",
+        "There's a slower cost too. Juniors learned to spot risk by doing those four-hour reviews. If the tool does them all, the firm needs a new way to grow future partners."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a building-supplies distributor.",
+      "illustrative": true,
+      "body": [
+        "Contractors send you drawings and ask for a materials quote. Your estimators took a day per job. New software turns drawings into a materials list in minutes, and your rivals can buy it too.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Cut the estimators and send software lists straight to contractors",
+            "verdict": "risky",
+            "feedback": "Cheapest today, but errors on big jobs land on you. And since rivals have the same tool, speed alone won't stay yours. That's **who captures value**."
+          },
+          {
+            "key": "B",
+            "text": "Software drafts the list; estimators check big jobs and add site knowledge; promise same-day quotes",
+            "verdict": "best",
+            "feedback": "You automate the repeatable part and keep human judgment where mistakes are costly. Expert-checked, same-day quotes are something rivals can't copy just by buying software."
+          },
+          {
+            "key": "C",
+            "text": "Keep quoting by hand to protect accuracy",
+            "verdict": "partial",
+            "feedback": "Accurate, but contractors often go with the first solid quote. You keep the cost and give up the speed others now offer."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Recap",
+      "title": "Faster work only pays if your price and your people change with it.",
+      "body": [
+        "Two ideas did the work here. **Who captures value:** hourly pricing passes savings to the customer, so price the outcome. **What to automate and what to keep human:** hand off the checkable work and sell the judgment.",
+        "**Try it today:** pick one task new tools could speed up. Write down who would keep the time saved under your current pricing."
+      ],
+      "next": "Next · Encyclopaedia Britannica vs Wikipedia"
+    }
+  ]
+}

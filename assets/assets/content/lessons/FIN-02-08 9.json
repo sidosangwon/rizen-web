@@ -1,0 +1,264 @@
+{
+  "id": "FIN-02-08",
+  "unitId": "FIN-02",
+  "categoryId": "FIN",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "Cash at an agency with late-paying clients",
+  "readerTitle": "Profitable every month, short on payroll by Friday",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (디자인 에이전시, 금속 가공 공장) · 모든 수치는 설명용",
+  "insight": "에이전시의 현금 문제는 매출이 아니라 일한 날부터 돈 받는 날까지의 시간 문제이고, 그 시간은 대부분 계약할 때 정해진다.",
+  "misconception": "이익이 나고 있으니 현금은 따라온다. 현금이 부족하면 고객을 더 늘리면 해결된다.",
+  "relatedLessonIds": [
+    "FIN-02-02",
+    "FIN-02-04"
+  ],
+  "sources": [
+    {
+      "text": "관리회계·재무관리의 표준 개념 (현금 순환 주기, 매출채권 회수)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "에이전시 월 손익: 청구액 $80,000 − 인건비·임대료 $65,000 = 월 이익 $15,000. 모든 수치는 설명용 가상 수치입니다.",
+      "status": "open"
+    },
+    {
+      "note": "타임라인: 1일 작업 시작 → 30일 비용 $65,000 지급 및 $80,000 청구 → 60일 지급 기한(30일 조건) → 105일 평균 입금. 비용 지급(30일)부터 입금(105일)까지 75일. 75 ÷ 30 = 2.5개월분 비용을 늘 회사 돈으로 부담한다는 단순화입니다.",
+      "status": "open"
+    },
+    {
+      "note": "미수금 계산: 월 청구액 × (회수일수 ÷ 30). 75일: $80,000 × 2.5 = $200,000. 30일: $80,000 × 1 = $80,000. 차이 $120,000. 매달 청구액이 일정하다는 가정입니다.",
+      "status": "open"
+    },
+    {
+      "note": "조기 결제 할인, 지연 이자, 매출채권 금융의 조건과 적법성은 나라마다 다르므로 구체적 비율이나 법적 내용은 넣지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Applying cash ideas",
+      "title": "Profitable every month, short on payroll by Friday",
+      "illustrative": true,
+      "body": [
+        "Your design agency has eight people. It made a profit every month this year, about $15,000 a month on paper.",
+        "Today the bank shows $22,000. Payroll and rent, $65,000, are due Friday. Meanwhile, clients owe you more than $200,000."
+      ],
+      "image": {
+        "label": "Agency owner looking at a low bank balance beside a tall stack of unpaid invoices",
+        "aspectRatio": "4:3",
+        "brief": "작은 디자인 스튜디오 책상. 노트북 화면에 낮은 잔액 \"$22,000\", 옆에 높게 쌓인 미수 청구서 더미에 \"Unpaid $200,000\" 태그. 벽 달력의 금요일에 \"Payroll\" 동그라미. 실제 은행·회사 로고는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What do you do first?",
+      "illustrative": true,
+      "body": [
+        "Your biggest clients pay 60 to 90 days after you invoice. You need to get through Friday and stop this from happening every quarter."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Open a bank credit line to cover payroll",
+            "verdict": "partial",
+            "feedback": "It gets you through Friday, but it only rents cash. Your **cash cycle** stays just as long, and now you pay interest on it."
+          },
+          {
+            "key": "B",
+            "text": "Call the clients with the oldest invoices today, then change how you bill new work",
+            "verdict": "best",
+            "feedback": "This handles Friday and the cause. **Getting paid on time** is something you build into the deal, not a favor you ask for later."
+          },
+          {
+            "key": "C",
+            "text": "Win two more clients to bring in more money",
+            "verdict": "risky",
+            "feedback": "More clients means more payroll now and more cash later. With a long **cash cycle**, growth digs the hole deeper before it fills it."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The timeline",
+      "title": "Follow one month of work.",
+      "illustrative": true,
+      "body": [
+        "The profit is real. It just arrives **75 days** after the money to earn it went out."
+      ],
+      "breakdown": [
+        {
+          "value": "Day 1",
+          "label": "Work starts",
+          "detail": "Designers begin the month's projects",
+          "highlight": false
+        },
+        {
+          "value": "Day 30",
+          "label": "$65,000 out",
+          "detail": "Payroll and rent paid; $80,000 invoice sent",
+          "highlight": false
+        },
+        {
+          "value": "Day 60",
+          "label": "Invoice due",
+          "detail": "Terms say 30 days. Most clients haven't paid",
+          "highlight": false
+        },
+        {
+          "value": "Day 105",
+          "label": "$80,000 in",
+          "detail": "The average client finally pays",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept at work · 1",
+      "title": "The cash cycle",
+      "body": [
+        "The **cash cycle** is the time between paying out cash and getting it back from customers. A furniture store's cash sits in sofas. An agency's sits in hours of work it has already paid for.",
+        "Here the cycle is 75 days. So the agency always carries about two and a half months of costs from its own pocket. The monthly profit doesn't help until it lands."
+      ],
+      "image": {
+        "label": "Timeline with money leaving on day 30 and returning on day 105",
+        "aspectRatio": "16:9",
+        "brief": "가로 타임라인 인포그래픽. 30일 지점에서 빨간 화살표로 \"$65,000 out\", 105일 지점에서 초록 화살표로 \"$80,000 in\". 두 지점 사이를 \"75 days your cash is away\"라는 넓은 띠로 강조.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "What clients owe you at any moment",
+      "illustrative": true,
+      "body": [
+        "When clients pay 75 days after the invoice, about two and a half months of billing is always unpaid. Get them to 30 days and **$120,000** comes back into the bank, without one new sale."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Owed to you, by days to pay",
+            "rows": [
+              {
+                "label": "Clients pay in 75 days",
+                "value": 200000,
+                "highlight": true
+              },
+              {
+                "label": "Clients pay in 30 days",
+                "value": 80000,
+                "highlight": false
+              }
+            ]
+          }
+        ]
+      },
+      "image": {
+        "label": "What clients owe you at any moment",
+        "aspectRatio": "4:3",
+        "brief": "Labeled HTML chart from the lesson numbers",
+        "url": "assets/images/fin-02-08-chart.png"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Concept at work · 2",
+      "title": "Getting paid on time",
+      "body": [
+        "Most late payment is set up at the start of a project. For an agency, the fixes go into the proposal and the contract:"
+      ],
+      "list": [
+        "**Deposit at signing:** part of the fee before work begins",
+        "**Bill as you go:** monthly or by milestone, not at the end",
+        "**Invoice the same day** work is approved, with the due date clear",
+        "**One named owner** who checks invoices before they're late"
+      ],
+      "callout": "Each step shortens the cash cycle from the collection side.",
+      "softwareNote": "Software companies do this with annual plans paid upfront and cards charged automatically. Cash arrives before most of the cost of serving the customer."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Big clients write their own terms.",
+      "body": [
+        "A large company may insist on 60 or 90 days. Pushing too hard can cost you the account. Early-payment discounts work, but they come straight out of your margin.",
+        "When terms won't move, the honest fix is to price the wait into your fee, and to line up enough cash or credit to cover the cycle before you sign."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a machine shop.",
+      "illustrative": true,
+      "body": [
+        "You run a 20-person shop making metal parts. A large equipment maker offers a contract that would double your sales at a good margin.",
+        "You buy steel upfront and pay staff weekly. They pay 90 days after delivery. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Sign it. A profitable contract pays for itself",
+            "verdict": "risky",
+            "feedback": "Profit isn't cash. Doubling sales on 90-day terms doubles the money tied up in steel, wages and unpaid invoices, which can empty the bank before the first payment arrives."
+          },
+          {
+            "key": "B",
+            "text": "Sign, but ask for a material deposit or staged billing, and arrange credit for the gap first",
+            "verdict": "best",
+            "feedback": "You win the work and size the **cash cycle** before it starts. **Getting paid on time** here means agreeing when cash moves, not just the price."
+          },
+          {
+            "key": "C",
+            "text": "Turn it down. 90 days is too long",
+            "verdict": "partial",
+            "feedback": "It protects your cash but gives up a strong customer. A long cycle is a cost to plan for and price in, not always a reason to walk away."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Profit that hasn't arrived can't pay anyone.",
+      "body": [
+        "Two ideas did the work here. **The cash cycle** showed how long your money is away. **Getting paid on time** showed how to bring it back sooner, mostly by deciding when cash moves before the work begins.",
+        "**Try it today:** list every unpaid invoice with its age. Call about the oldest one, and add a deposit to your next proposal."
+      ],
+      "next": "Next · How Amazon gets paid before it pays"
+    }
+  ]
+}

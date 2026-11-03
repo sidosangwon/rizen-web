@@ -1,0 +1,267 @@
+{
+  "id": "THK-04-07",
+  "unitId": "THK-04",
+  "categoryId": "THK",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "Should a restaurant buy flood insurance?",
+  "readerTitle": "Why a restaurant should buy insurance that loses money on average",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.3,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (식당 홍수 보험, 소형 운송 회사, 소프트웨어 회사 백업) · 모든 수치는 설명용",
+  "insight": "보험을 살지 말지는 평균 비용(기대값)만이 아니라, 최악의 해에 사업이 살아남을 수 있는지(파산 위험)로 함께 판단한다. 감당할 수 있는 손실은 스스로 떠안고, 감당할 수 없는 손실만 넘긴다.",
+  "misconception": "보험료가 예상 손실보다 비싸면 보험은 무조건 손해 보는 선택이다. 또는 반대로, 모든 위험은 빠짐없이 보험으로 막는 것이 안전하다.",
+  "relatedLessonIds": [
+    "THK-04-02",
+    "THK-04-05"
+  ],
+  "sources": [
+    {
+      "text": "확률적 사고의 표준 개념 (기대값, 파산 위험, 기저율)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "식당 계산: 연 홍수 확률 1% × 피해 $300,000 = 기대 손실 $3,000. 보험료 $4,500 − $3,000 = 평균적으로 연 $1,500 손해(보험사 몫). 홍수 대비 적립금으로 $300,000를 모으려면 $300,000 ÷ $4,500 ≈ 66.7년.",
+      "status": "open"
+    },
+    {
+      "note": "연 1% 확률의 누적: 10년 동안 한 번 이상 일어날 확률 1 − 0.99^10 ≈ 9.6%(약 10%), 30년은 1 − 0.99^30 ≈ 26%. 매년 독립이라고 가정한 단순 계산입니다.",
+      "status": "open"
+    },
+    {
+      "note": "\"많은 곳에서 일반 재산 보험은 홍수를 보장하지 않는다\"는 일반적 서술입니다. 미국 등 여러 시장에서 사실이지만 국가별로 다르므로 특정 국가의 규정처럼 쓰지 않았습니다. 게시 전 표현을 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "운송 회사 문제에서 법적 의무 보험 여부는 국가마다 다르므로 언급하지 않았습니다. 법률 조언으로 읽히지 않도록 유지하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Everyday scene",
+      "title": "Why a restaurant should buy insurance that loses money on average",
+      "illustrative": true,
+      "body": [
+        "Maria runs a restaurant two streets from a river. Her broker offers flood cover for $4,500 a year.",
+        "She does the math. Floods here are rare. On average, the policy will cost her more than it ever pays back. She is right about that. She may still be wrong to say no."
+      ],
+      "image": {
+        "label": "A small restaurant near a calm river, with a faint water line on the wall",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 강가에서 두 블록 떨어진 작은 식당 외관, 맑은 날씨. 식당 벽에 아주 희미한 물 높이 선이 점선으로 그려져 있음. 실제 상호, 로고, 상표는 쓰지 않음.",
+        "url": "assets/images/thk-04-07-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Flood cover: buy it or skip it?",
+      "illustrative": true,
+      "body": [
+        "Flood records for Maria's area suggest about a 1% chance of a serious flood in any year. A flood would cost around $300,000 in repairs, equipment and lost months. She has $40,000 in cash.",
+        "The policy costs $4,500 a year. What should she do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Skip it. The premium is more than the expected loss",
+            "verdict": "risky",
+            "feedback": "The **expected value** math is correct, but it describes the average year. One bad year costs seven times her cash, and an average doesn't help if she isn't around to see it."
+          },
+          {
+            "key": "B",
+            "text": "Buy it, even though it loses money on average",
+            "verdict": "best",
+            "feedback": "She pays about $1,500 a year more than the average loss to remove a loss she could not survive. That's the **risk of ruin** outweighing expected value."
+          },
+          {
+            "key": "C",
+            "text": "Skip it and put $4,500 a year into a flood fund",
+            "verdict": "partial",
+            "feedback": "Disciplined, and it keeps the insurer's margin. But reaching $300,000 would take about 66 years, and the flood doesn't wait."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "What the policy costs on average.",
+      "illustrative": true,
+      "body": [
+        "The insurer keeps about **$1,500 a year** on average. That's not a trick. It's how insurers pay their staff and stay in business. For buyers, insurance almost always loses money on average."
+      ],
+      "breakdown": [
+        {
+          "value": "1%",
+          "label": "Chance of a flood each year",
+          "detail": "From the area's flood history, not a gut feeling",
+          "highlight": false
+        },
+        {
+          "value": "$300,000",
+          "label": "Cost if it happens",
+          "detail": "Repairs, equipment, months closed",
+          "highlight": false
+        },
+        {
+          "value": "$3,000",
+          "label": "Expected loss per year",
+          "detail": "1% × $300,000",
+          "highlight": false
+        },
+        {
+          "value": "$4,500",
+          "label": "Premium",
+          "detail": "$1,500 more than the expected loss",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Putting it to work",
+      "title": "Ask two questions, not one.",
+      "body": [
+        "**Expected value** asks: what does this cost me in an average year? Here, the answer says skip it.",
+        "**Risk of ruin** asks: could the worst case end the business? Here, the answer says buy it. A $300,000 loss against $40,000 in cash is not a bad year. It's the last year.",
+        "When the two answers disagree, survival wins. Paying a small, steady cost to remove a fatal one is a good trade."
+      ],
+      "image": {
+        "label": "Two gauges: average cost and survival",
+        "aspectRatio": "16:9",
+        "brief": "두 개의 계기판 일러스트. 왼쪽 \"Average cost\" 바늘은 \"Skip\" 쪽, 오른쪽 \"Could we survive the worst case?\" 바늘은 \"No\" 쪽 빨간 영역. 오른쪽 계기판이 더 크게 강조됨.",
+        "url": "assets/images/thk-04-07-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The flip side",
+      "title": "Keep the small risks yourself.",
+      "illustrative": true,
+      "body": [
+        "The same logic tells Maria what *not* to insure. An extended warranty on a dishwasher or a low-deductible policy on minor damage also loses money on average.",
+        "But she could pay for those losses from cash without blinking. Ruin isn't on the table, so expected value decides, and it says skip.",
+        "The rule: **insure what would break you, keep what would only sting.** Choosing a higher deductible often lowers the premium for exactly this reason."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a small trucking company.",
+      "illustrative": true,
+      "body": [
+        "You run six delivery trucks and hold $60,000 in reserve. Your insurance budget is tight. A truck repair might run $5,000 to $20,000. A serious crash that injures other people could bring claims far beyond your reserve.",
+        "Where should the money go?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Low deductibles on every truck, so dents and repairs are covered",
+            "verdict": "risky",
+            "feedback": "You pay the insurer's margin on losses your reserve could absorb. Under **expected value**, that's money lost, and it may leave too little for the cover that matters."
+          },
+          {
+            "key": "B",
+            "text": "High deductibles on truck damage, strong cover for claims from other people",
+            "verdict": "best",
+            "feedback": "You keep the survivable risks and hand off the one that could close you. That's **risk of ruin** setting priorities, with expected value trimming the rest."
+          },
+          {
+            "key": "C",
+            "text": "Skip extra cover and rely on the $60,000 reserve",
+            "verdict": "risky",
+            "feedback": "You save every premium dollar on average. But one bad crash can cost more than the whole company is worth."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "Repairs are the dents and scrapes. Third-party claims are the flood."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Rare per year isn't rare per lease.",
+      "body": [
+        "A 1% yearly chance sounds tiny. Over a 10-year lease it's about 10%. Over 30 years, about 26%. Use the time you'll actually be exposed, not one year.",
+        "Check the **base rate** itself, too. Flood records describe the past, and building, drainage or weather patterns can change the odds.",
+        "And read what the policy covers. In many places, standard property policies exclude flood. The cover you think you have may not be the cover you bought."
+      ],
+      "image": {
+        "label": "A 1% chance growing over 1, 10 and 30 years",
+        "aspectRatio": "16:9",
+        "brief": "막대 세 개: \"1 year 1%\", \"10 years ~10%\", \"30 years ~26%\". 막대가 점점 높아지고, 막대 뒤 배경에 달력 페이지가 넘어가는 느낌.",
+        "url": "assets/images/thk-04-07-c7.jpg"
+      }
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software company.",
+      "illustrative": true,
+      "body": [
+        "Your app stores all customer data in one cloud region, with no copy anywhere else. Losing that data is very unlikely. If it happened, most customers would leave and you couldn't win them back.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Nothing yet. The odds are tiny and every dollar goes to growth",
+            "verdict": "risky",
+            "feedback": "Fine by **expected value** in most years. But this loss isn't a bad month. It's the end of the company, so **risk of ruin** should decide."
+          },
+          {
+            "key": "B",
+            "text": "Keep regular backups in a separate location and test restoring them",
+            "verdict": "best",
+            "feedback": "A modest monthly cost turns a fatal loss into a painful one you can recover from. You protect survival without overspending."
+          },
+          {
+            "key": "C",
+            "text": "Run a full copy of the system in a second region at all times",
+            "verdict": "partial",
+            "feedback": "It protects you, and may suit large customers. But the cost can strain your runway, and the goal here is surviving, not zero downtime."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Insure what would end you. Keep what would only hurt.",
+      "body": [
+        "Concepts used: **expected value** to see what a policy costs on average, **risk of ruin** to see which losses you can't survive, and base rates to estimate the odds over the time you're exposed.",
+        "**Try it today:** list your three biggest possible losses. Next to each, write whether your cash could cover it. Insure only the ones it couldn't."
+      ],
+      "next": "Next · Is a record sales month real?"
+    }
+  ]
+}

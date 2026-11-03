@@ -1,0 +1,221 @@
+{
+  "id": "FIN-07-08",
+  "unitId": "FIN-07",
+  "categoryId": "FIN",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "Fund a tech startup",
+  "readerTitle": "The $1 million offer that might be the wrong size",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.3,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (독립 철물점용 재고 앱 스타트업, 엔지니어링 번역 에이전시) · 모든 수치는 설명용",
+  "insight": "투자를 받을지 말지는 지분을 얼마나 내주느냐보다, 그 돈이 요구하는 성장을 내 시장과 계획이 감당할 수 있느냐로 판단한다.",
+  "misconception": "좋은 조건의 투자 제안이 오면 받는 게 이득이다. 지분 20%를 팔면 창업자는 계속 80%를 가진다.",
+  "relatedLessonIds": [
+    "FIN-07-04",
+    "FIN-07-05"
+  ],
+  "sources": [
+    {
+      "text": "벤처 투자와 지분 희석의 표준 개념 (프리머니·포스트머니 가치, 라운드별 희석)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "희석 계산: 100% × 0.8 = 80%, 80% × 0.8 = 64%, 64% × 0.8 = 51.2%. 옵션 풀 등은 단순화를 위해 뺐습니다. 투자 가치: $1M ÷ 20% = 포스트머니 $5M.",
+      "status": "open"
+    },
+    {
+      "note": "시장 상한: 3,000개 매장 × 월 $150 × 12개월 = 연 $5.4M. 지분 가치 비교: 100% × $3M = $3M, 51% × $30M ≈ $15.3M(51.2% 기준 $15.36M), 51% × $4M ≈ $2M.",
+      "status": "open"
+    },
+    {
+      "note": "\"벤처 펀드는 소수의 큰 성공이 다수의 실패를 메운다\"는 일반적 설명으로만 썼습니다. 구체적 비율이나 통계는 넣지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "다음 레슨 예고(Mailchimp, 외부 투자 없이 성장, 약 $12B 매각)는 FIN-07-09 내용과 맞는지 게시 전 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Apply",
+      "title": "The $1 million offer that might be the wrong size",
+      "illustrative": true,
+      "body": [
+        "Priya built an app that tells independent hardware stores what to reorder and when. Forty stores pay her $150 a month. It's growing, slowly.",
+        "Then an investor offers **$1 million for 20%** of the company. Her co-founder says take it tonight. Priya isn't sure what she'd be agreeing to."
+      ],
+      "image": {
+        "label": "Founder at a kitchen table with a term sheet and a laptop",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 밤의 부엌 식탁, 노트북 화면에 재고 그래프, 옆에 \"$1,000,000 for 20%\"라고 적힌 서류 한 장. 창밖에 작은 철물점 간판(실제 상호·로고 없음).",
+        "url": "assets/images/fin-07-08-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What should Priya do first?",
+      "illustrative": true,
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Sign. $1 million for 20% is a strong price for a company this small",
+            "verdict": "risky",
+            "feedback": "The price may be fine, but she'd be accepting growth targets she hasn't asked about. That's **what investors expect**, and it matters more than the headline number."
+          },
+          {
+            "key": "B",
+            "text": "Ask what the investor needs the company to become, then check it against her market",
+            "verdict": "best",
+            "feedback": "This tests whether her business can deliver the outcome the money is built for. It costs a few days, not the deal."
+          },
+          {
+            "key": "C",
+            "text": "Decline. Outside money means losing control",
+            "verdict": "partial",
+            "feedback": "She keeps full ownership, but she might also miss the cash to grow before a rival does. Saying no without the math is as blind as saying yes."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "20% is rarely the last 20%.",
+      "illustrative": true,
+      "body": [
+        "Most venture-backed companies raise again. Say Priya sells 20% in each of three rounds. Each round takes a fifth of what she has *left*, not of what she started with. That's **dilution**: her share shrinks every time new shares go to new investors."
+      ],
+      "breakdown": [
+        {
+          "value": "100%",
+          "label": "Today",
+          "detail": "Priya and her co-founder",
+          "highlight": false
+        },
+        {
+          "value": "80%",
+          "label": "After round 1",
+          "detail": "Sells 20%",
+          "highlight": false
+        },
+        {
+          "value": "64%",
+          "label": "After round 2",
+          "detail": "80% × 0.8",
+          "highlight": false
+        },
+        {
+          "value": "51%",
+          "label": "After round 3",
+          "detail": "64% × 0.8",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Dilution at work",
+      "title": "A smaller slice only wins if the pie grows.",
+      "illustrative": true,
+      "body": [
+        "Today the company might be worth $3 million. All of it is hers: $3 million on paper.",
+        "If the money helps it reach $30 million, her 51% is worth about $15 million. Dilution paid off.",
+        "If growth stalls and the company is worth $4 million, her 51% is worth about $2 million. She'd own half of something barely bigger than before. **Dilution is a bet that each round grows the company faster than her share shrinks.**"
+      ],
+      "image": {
+        "label": "Three pies: small whole pie, big pie with half slice, small pie with half slice",
+        "aspectRatio": "16:9",
+        "brief": "파이 그림 3개 나란히. 왼쪽 작은 파이 전체 \"100% of $3M\", 가운데 큰 파이의 절반 \"51% of $30M\", 오른쪽 작은 파이의 절반 \"51% of $4M\". 가운데만 밝은 색으로 강조.",
+        "url": "assets/images/fin-07-08-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "What investors expect",
+      "title": "Check the money's math, not just yours.",
+      "illustrative": true,
+      "body": [
+        "$1 million for 20% values the company at $5 million after the money arrives. A venture fund backs many companies, knowing most will fail. The few big winners must pay for the rest. So each company needs a path to being worth many times the entry price.",
+        "Now Priya's side. Say 3,000 stores could ever use her app. At $150 a month, that's **$5.4 million a year**, even if she won every single one. A good business, but likely too small for this kind of money unless she expands to new markets."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Percentages hide the terms.",
+      "body": [
+        "Two offers with the same valuation can be very different deals. One may add a board seat, veto rights or a rule that investors get their money back first if the company sells.",
+        "And growth expectations don't fade after signing. Money raised for fast growth usually has to be spent on fast growth. Read the terms before comparing the numbers."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a translation agency.",
+      "illustrative": true,
+      "body": [
+        "Lena runs a profitable agency that translates manuals for engineering firms: $1.2 million a year in sales, growing steadily. She's building software so her translators work faster. Maybe she'll license it to a few agencies later.",
+        "Offer 1: a venture fund, $2 million for 25%, expecting revenue to triple in two years. Offer 2: an angel, $400,000 for 8%, happy with steady growth."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Take the $2 million. More money means more options",
+            "verdict": "risky",
+            "feedback": "She gets a bigger cushion but signs up for tripling sales, which her plan doesn't aim for. That gap between plan and **investor expectations** is where the trouble starts."
+          },
+          {
+            "key": "B",
+            "text": "Take the $400,000, which fits the plan she actually has",
+            "verdict": "best",
+            "feedback": "She gives up 8% instead of 25%, so **dilution** stays small, and her backer expects what she plans to deliver. The cost: a slower build if the software takes off."
+          },
+          {
+            "key": "C",
+            "text": "Take the $2 million and decide about growth later",
+            "verdict": "risky",
+            "feedback": "The terms decide that for her. She'd hand over a quarter of a profitable firm for a growth promise she hasn't chosen."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Raise the money your business can actually grow into.",
+      "body": [
+        "Two ideas did the work today. **Dilution:** each round shrinks your share, so it only pays if the company grows faster. **What investors expect:** every check comes with an outcome it needs, and your market has to be big enough to deliver it.",
+        "**Try it today:** estimate the most your business could earn if it won every possible customer. Compare that with what a big funding round would need it to become."
+      ],
+      "next": "Next · How Mailchimp grew to a $12B sale without outside investors"
+    }
+  ]
+}

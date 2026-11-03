@@ -1,0 +1,249 @@
+{
+  "id": "FIN-03-03",
+  "unitId": "FIN-03",
+  "categoryId": "FIN",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "What a customer is worth",
+  "readerTitle": "Why a $25 pizza order is worth far more than $25",
+  "format": "company_story",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "anecdote",
+    "illustrative"
+  ],
+  "caseNote": "전해 내려오는 일화 (Domino's 가맹점주 Phil Bressler) + 가상 사례 (피자 가게, 사무실 청소 회사, 구독 소프트웨어) · 모든 수치는 설명용",
+  "insight": "고객은 한 번의 거래가 아니라 앞으로 이어질 주문의 흐름이다. 그래서 한 건의 주문은 그 흐름 전체의 가치에 비추어 판단해야 한다.",
+  "misconception": "고객의 가치는 이번 주문 금액이다. 또는 고객 생애 가치는 고객이 평생 낸 매출 합계다.",
+  "relatedLessonIds": [
+    "FIN-03-02",
+    "FIN-03-06"
+  ],
+  "sources": [
+    {
+      "text": "고객 생애 가치(customer lifetime value)의 표준 개념: 주문당 남는 돈 × 구매 빈도 × 거래 기간",
+      "url": null
+    },
+    {
+      "text": "Phil Bressler(Domino's 가맹점주) 일화. 여러 경영서와 강연에서 재인용되며 1차 출처 확인 필요",
+      "url": null
+    },
+    {
+      "text": "피자 가게, 청소 회사, 구독 소프트웨어 수치는 모두 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Bressler 일화는 재인용마다 금액과 기간이 다릅니다(흔히 10년간 수천 달러로 소개). 카드에는 구체적 금액을 쓰지 않고 \"thousands of dollars over about ten years\", \"reportedly\"로만 적었습니다. 게시 전 1차 출처(인터뷰나 원 저서)를 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "피자 계산: 주문당 $25, 음식·포장·배달 비용을 빼고 $10이 남는다는 가정. 연 40회 × $10 = $400, 3년 × $400 = $1,200. 3년 매출은 $25 × 40 × 3 = $3,000.",
+      "status": "open"
+    },
+    {
+      "note": "구독 소프트웨어 계산: 월 $40 중 $32가 남고, 월 이탈률 4%이면 평균 거래 기간은 1 ÷ 0.04 = 25개월, $32 × 25 = $800. 할인율을 반영하지 않은 단순 근사입니다.",
+      "status": "open"
+    },
+    {
+      "note": "청소 회사 계산: 월 $2,000 중 $500가 남고, 앞으로 약 3년(36개월) 거래가 이어진다는 가정. $500 × 36 = $18,000. 특별 청소 비용 $800은 한 달 이익 $500보다 큽니다.",
+      "status": "open"
+    },
+    {
+      "note": "\"많은 사업에서 소수의 단골이 이익의 큰 몫을 낸다\"는 일반적 관찰로만 적었고, 구체적 비율은 쓰지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Company story",
+      "title": "Why a $25 pizza order is worth far more than $25",
+      "body": [
+        "A regular calls your pizza shop. Tonight's order arrived cold, and they're annoyed.",
+        "On the receipt, this is a $25 problem. But the receipt only shows one night. The customer on the phone may order again next week, and the week after that, for years."
+      ],
+      "image": {
+        "label": "One pizza box casting a long shadow made of many boxes",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 테이블 위 피자 상자 하나가 있고, 그 그림자가 길게 늘어지며 수십 개의 피자 상자 모양으로 이어짐. 실제 브랜드 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "The cold pizza complaint.",
+      "illustrative": true,
+      "body": [
+        "This customer orders from you most weeks. The delivery was late because of heavy rain, and the pizza was cold. They want it fixed.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Apologize and offer 10% off their next order",
+            "verdict": "partial",
+            "feedback": "It costs almost nothing tonight. But a small coupon can feel like a brush-off to someone who orders every week."
+          },
+          {
+            "key": "B",
+            "text": "Send a fresh pizza right away, free, no argument",
+            "verdict": "best",
+            "feedback": "You give up the cost of one order. In return you protect a customer who may bring you dozens more."
+          },
+          {
+            "key": "C",
+            "text": "Explain politely that rain caused the delay, so no refund",
+            "verdict": "risky",
+            "feedback": "You save one order's cost and may be right about the rain. But if they quietly switch to a rival, you lose every future order."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "The story",
+      "title": "A franchise owner who did the math.",
+      "body": [
+        "A story often told in business books: Phil Bressler, who ran several Domino's Pizza stores in the US, reportedly worked out that a regular customer was worth **thousands of dollars** over about ten years.",
+        "He reportedly used that number with his staff. A cold pizza wasn't a small refund. It was a risk to a much bigger sum.",
+        "The exact figures change from one retelling to the next, so treat this as a story, not data. The way of thinking is what matters."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "breakdown",
+      "eyebrow": "The concept",
+      "title": "Customer lifetime value",
+      "illustrative": true,
+      "body": [
+        "**Customer lifetime value** is the profit a customer brings over the whole time they buy from you. Profit, not revenue: over those three years this regular spends $3,000, but only **$1,200** is left for you."
+      ],
+      "breakdown": [
+        {
+          "value": "$10",
+          "label": "Left per order",
+          "detail": "A $25 order minus food, box and delivery",
+          "highlight": false
+        },
+        {
+          "value": "× 40",
+          "label": "Orders a year",
+          "detail": "Most weeks",
+          "highlight": false
+        },
+        {
+          "value": "× 3",
+          "label": "Years they stay",
+          "detail": "Until they move or switch",
+          "highlight": false
+        },
+        {
+          "value": "$1,200",
+          "label": "Lifetime value",
+          "detail": "Profit from one regular",
+          "highlight": true
+        }
+      ],
+      "softwareNote": "For a subscription, divide 1 by the monthly cancel rate to estimate how long users stay. At $32 left per month and 4% of users leaving each month, the average user stays 25 months: about $800."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Three numbers decide what a customer is worth.",
+      "body": [
+        "Each one is something you can change."
+      ],
+      "list": [
+        "**What each purchase leaves:** price minus the costs that come with it",
+        "**How often they buy:** weekly, monthly, once a year",
+        "**How long they stay:** the one most owners forget to measure"
+      ],
+      "callout": "Keep a customer for three years instead of one and their value triples, with no price change at all.",
+      "softwareNote": "The same three numbers apply to software: what each user leaves per month after hosting, payment fees and support, how many seats they pay for, and how long they stay before they churn."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Look closer",
+      "title": "There is no single \"average customer\".",
+      "illustrative": true,
+      "body": [
+        "The $1,200 above is an average. Real customers spread far around it. One family orders twice a week for years. Another tries you once with a coupon and never returns.",
+        "In many businesses, a small group of regulars brings in a large share of the profit. Knowing who they are changes where you spend effort: who gets the free remake, who gets a call when something goes wrong."
+      ],
+      "image": {
+        "label": "Customers sorted by value, a few tall bars and many short ones",
+        "aspectRatio": "16:9",
+        "brief": "막대그래프 스타일 일러스트. 왼쪽에 아주 높은 막대 몇 개(\"Regulars\"), 오른쪽으로 갈수록 짧은 막대가 많이 이어짐(\"One-time buyers\"). 가운데에 점선으로 \"Average $1,200\" 표시.",
+        "url": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "It's an estimate about the future.",
+      "body": [
+        "Lifetime value adds up orders that haven't happened yet. If you guess too high on how long customers stay, you'll justify spending you can't afford.",
+        "Use what each order leaves, not the price. Base the lifespan on how long real customers have actually stayed, and be cautious. And remember that money earned years from now is worth less than money today. A later lesson covers why."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's an office cleaning company.",
+      "illustrative": true,
+      "body": [
+        "A client pays you $2,000 a month. After staff and supplies, $500 a month is left. Clients like this usually stay about three more years.",
+        "They ask for a free one-time deep clean that would cost you $800 in labor, and mention they are reviewing vendors."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Decline. $800 wipes out more than a month's profit",
+            "verdict": "risky",
+            "feedback": "True for this month. But if they leave, you lose around $18,000 in profit over the next three years."
+          },
+          {
+            "key": "B",
+            "text": "Say yes. They're worth $18,000, so give them whatever they ask",
+            "verdict": "partial",
+            "feedback": "Right to look at the whole relationship. But saying yes to everything trains them to ask for more and eats into the value you're protecting."
+          },
+          {
+            "key": "C",
+            "text": "Say yes as a one-off, and use the visit to ask why they're reviewing vendors",
+            "verdict": "best",
+            "feedback": "You spend $800 to protect much more, and you learn what could end the relationship before it does."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A customer is a stream of future orders, not one sale.",
+      "body": [
+        "Before you refuse a refund or a small favor, compare it to the profit the whole relationship could bring.",
+        "**Try it today:** pick one regular customer. Estimate what each purchase leaves, how often they buy, and how long they've stayed. Multiply."
+      ],
+      "next": "Next · Is a customer worth what you paid to win them?"
+    }
+  ]
+}

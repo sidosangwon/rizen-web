@@ -1,0 +1,280 @@
+{
+  "id": "SAL-02-08",
+  "unitId": "SAL-02",
+  "categoryId": "SAL",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "Sell to a hospital",
+  "readerTitle": "The nurse manager said yes. Why is there still no order?",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.4,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (의료용품 유통업체, 검체 운송 물류 회사) · 모든 수치는 설명용",
+  "insight": "병원에서 '예'는 한 번이 아니라 여러 번 받아야 하고, 각 사람은 같은 제안을 서로 다른 숫자로 판단한다.",
+  "misconception": "현장 담당자가 마음에 들어 하면 거래는 거의 끝난 것이다. 구매팀의 가격 반대는 할인으로 풀면 된다.",
+  "relatedLessonIds": [
+    "SAL-02-04",
+    "SAL-02-03"
+  ],
+  "sources": [
+    {
+      "text": "이 유닛의 개념 레슨: SAL-02-04 (Many decision makers), SAL-02-03 (Building a business case)",
+      "url": null
+    },
+    {
+      "text": "모든 사례와 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "6번 카드 계산: 연간 추가 비용 $6,000. 지난해 유효기간 만료 폐기액 $15,000의 절반 감소 = $7,500 절감. 순절감 $7,500 − $6,000 = $1,500. 간호사 시간 절약은 계산에 넣지 않음(보수적 사례).",
+      "status": "open"
+    },
+    {
+      "note": "많은 병원에 신규 제품을 검토하는 위원회가 있다는 일반적 서술만 사용했습니다. 특정 국가의 제도명이나 규정은 쓰지 않았습니다. 게시 전 표현이 과하지 않은지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "검체 운송 사례의 '재채혈 감소'는 가상 시나리오의 가정입니다. 실제 통계를 인용하지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Sales · Everyday scene",
+      "title": "The nurse manager said yes. Why is there still no order?",
+      "illustrative": true,
+      "body": [
+        "Maya runs a regional medical supply distributor. She offers a new service: her team restocks hospital supply rooms every week and rotates stock so nothing expires on the shelf.",
+        "A nurse manager at a local hospital loved the demo. \"We need this,\" she said. Three months later, Maya has no order and no clear reason why."
+      ],
+      "image": {
+        "label": "A hospital supply room with half-empty shelves and a waiting delivery cart",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 병원 물품 보관실 선반 일부가 비어 있고, 문 앞에 배송 카트가 멈춰 서 있음. 벽시계와 달력으로 시간이 흘렀음을 표현. 실제 브랜드나 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What should Maya do next?",
+      "illustrative": true,
+      "body": [
+        "The nurse manager is still enthusiastic. But she says purchasing \"has to look at it.\" Maya has one more meeting with her this week."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Send purchasing a 10% discount to speed things up",
+            "verdict": "risky",
+            "feedback": "It gives away margin before Maya knows what purchasing actually objects to. The delay may have nothing to do with price."
+          },
+          {
+            "key": "B",
+            "text": "Ask the nurse manager who else must approve, and what each person worries about",
+            "verdict": "best",
+            "feedback": "This is **many decision makers** at work. One enthusiastic user rarely signs alone. Maya needs a map of every yes she still needs."
+          },
+          {
+            "key": "C",
+            "text": "Go over everyone's head and email the hospital's chief executive",
+            "verdict": "partial",
+            "feedback": "A senior sponsor can help, but skipping the people who review purchases often turns them into blockers."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "Who's at the table",
+      "title": "One service, four different questions.",
+      "illustrative": true,
+      "body": [
+        "The nurse manager names three more people. Each can stop the deal, and none of them cares about the demo she loved."
+      ],
+      "breakdown": [
+        {
+          "value": "Nurse manager",
+          "label": "Uses it",
+          "detail": "Will my nurses stop hunting for supplies?",
+          "highlight": false
+        },
+        {
+          "value": "Purchasing",
+          "label": "Signs the contract",
+          "detail": "Why is your price per box higher?",
+          "highlight": true
+        },
+        {
+          "value": "Infection control",
+          "label": "Approves safety",
+          "detail": "Who enters clinical areas, and how?",
+          "highlight": false
+        },
+        {
+          "value": "Finance",
+          "label": "Owns the budget",
+          "detail": "Does this cost us more this year?",
+          "highlight": false
+        }
+      ],
+      "callout": "In a hospital, a yes from one person is the start, not the finish."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept at work",
+      "title": "Many decision makers",
+      "body": [
+        "Big organizations spread a purchase across people with different jobs. The user feels the problem. Others carry the risk: price, safety, budget.",
+        "Maya had been selling to one person. Now she plans one conversation per role, starting with a question, not a pitch: *What would make this a safe yes for you?*",
+        "Infection control's answer is simple: trained staff, set hours, a sign-in log. Maya can agree to that in a day."
+      ],
+      "softwareNote": "Selling software to a hospital looks the same. Clinicians use it, IT reviews data security, and finance pays. A product that delights nurses can still stall for months in a security review nobody planned for."
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Purchasing pushes back on price.",
+      "illustrative": true,
+      "body": [
+        "The purchasing lead says Maya's supplies plus the service cost about $6,000 a year more than the current supplier. What should Maya bring to the next meeting?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "A matching price, so the cost gap disappears",
+            "verdict": "partial",
+            "feedback": "It may close this deal, but it teaches the hospital that her service is worth nothing extra, and her margin may not survive it."
+          },
+          {
+            "key": "B",
+            "text": "A business case built on the hospital's own numbers for expired stock",
+            "verdict": "best",
+            "feedback": "This is **building a business case**. Purchasing compares prices; finance compares total cost. Using their own records makes the case hard to dismiss."
+          },
+          {
+            "key": "C",
+            "text": "Letters from nurses saying how much they like the service",
+            "verdict": "partial",
+            "feedback": "It shows real demand from users, but purchasing isn't paid to make nurses happy. Enthusiasm doesn't answer a cost question."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "The case, in the hospital's own figures.",
+      "illustrative": true,
+      "body": [
+        "Finance shares that last year the hospital threw away $15,000 of expired supplies. Maya's rotation aims to cut that in half."
+      ],
+      "breakdown": [
+        {
+          "value": "+$6,000",
+          "label": "Extra cost",
+          "detail": "Higher price plus the restocking service",
+          "highlight": false
+        },
+        {
+          "value": "−$7,500",
+          "label": "Less waste",
+          "detail": "Half of last year's $15,000 in expired stock",
+          "highlight": false
+        },
+        {
+          "value": "$1,500",
+          "label": "Net saving",
+          "detail": "Per year, before anything else",
+          "highlight": true
+        },
+        {
+          "value": "Not counted",
+          "label": "Nurse time",
+          "detail": "Left out to keep the case conservative",
+          "highlight": false
+        }
+      ],
+      "callout": "A cautious case that still saves money is easier to approve than a bold one that needs faith.",
+      "softwareNote": "Software sellers often do this with time saved per user. The same rule applies: use the buyer's numbers, and leave out the benefits you can't prove."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Mapping people doesn't make hospitals fast.",
+      "body": [
+        "Many hospitals send new products through a review committee that meets on a fixed schedule. No champion can skip it, and pushing too hard can cost goodwill.",
+        "A business case also creates a promise. If expired stock doesn't fall, finance will remember. Offer to measure results together after six months, and price the risk into your plan.",
+        "Expect a long sales cycle, and plan your cash around it."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a courier for hospital lab samples.",
+      "illustrative": true,
+      "body": [
+        "You run a small logistics firm. You offer temperature-controlled pickups that get blood samples from clinics to a hospital lab twice as often. The lab director wants it. Finance, purchasing and the safety officer will join the next meeting.",
+        "What do you prepare?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "A slick presentation about faster pickups and lab results",
+            "verdict": "partial",
+            "feedback": "It speaks to the lab director, who already agrees. The other three leave without answers to their own questions."
+          },
+          {
+            "key": "B",
+            "text": "One short case answering each role: speed for the lab, total cost for finance, temperature and handling records for safety",
+            "verdict": "best",
+            "feedback": "This combines **many decision makers** and a **business case**. Each person finds their own question answered in their own terms."
+          },
+          {
+            "key": "C",
+            "text": "Your lowest possible price, to make the decision easy",
+            "verdict": "risky",
+            "feedback": "Price answers only purchasing's question. Safety can still say no, and you've already given away your margin."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Find every yes you need, then earn each one in its own terms.",
+      "body": [
+        "Two ideas from this unit did the work here:"
+      ],
+      "list": [
+        "**Many decision makers:** a user's enthusiasm starts the deal; others can still stop it",
+        "**Building a business case:** answer cost objections with the buyer's own numbers, not a discount"
+      ],
+      "callout": "**Try it today:** pick one stalled deal. Write down every person who must say yes, and the one question each of them needs answered.",
+      "next": "Next · Xerox studies what top sellers do"
+    }
+  ]
+}

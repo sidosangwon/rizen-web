@@ -1,0 +1,243 @@
+{
+  "id": "PPL-09-04",
+  "unitId": "PPL-09",
+  "categoryId": "PPL",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Structure follows strategy",
+  "readerTitle": "The catering plan everyone agreed on and no one owned",
+  "format": "numbers_twist",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.4,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (레스토랑 그룹, 소프트웨어 회사) + 실제 연구 (Chandler, 1962) · 모든 수치는 설명용",
+  "insight": "새 전략이 실패하는 이유는 전략이 나빠서가 아니라, 그 일을 맡을 주인·결정권·측정 지표가 옛 전략에 맞춰져 있기 때문일 때가 많다.",
+  "misconception": "좋은 전략을 정하고 모두가 동의하면 실행은 따라온다. 결과가 안 나오면 더 많은 노력이나 홍보가 필요하다.",
+  "relatedLessonIds": [
+    "PPL-09-01",
+    "PPL-09-09"
+  ],
+  "sources": [
+    {
+      "text": "Chandler, A. D. (1962). Strategy and Structure: Chapters in the History of the American Industrial Enterprise. MIT Press.",
+      "url": null
+    },
+    {
+      "text": "Hall, D. J. & Saias, M. A. (1980). Strategy follows structure! Strategic Management Journal.",
+      "url": null
+    },
+    {
+      "text": "레스토랑 그룹과 소프트웨어 회사의 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 설명용 가상 수치입니다. 문의 120건 → 하루 안에 견적 45건 → 예약 18건. 견적을 빨리 받지 못한 문의는 120 − 45 = 75건(약 3분의 2, 62.5%). 카드 문구는 \"nearly two of every three\"로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Chandler(1962)는 DuPont, General Motors, Standard Oil (New Jersey), Sears를 연구했습니다. 다각화 이후 기존 구조가 한계에 부딪히고 사업부제로 재편했다는 요지가 맞는지 게시 전 확인하세요. GM의 상세 사례는 PPL-09-09와 겹치지 않도록 이름만 언급했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "'구조가 전략을 만든다'는 반론은 Hall & Saias(1980) 논문 제목으로 알려져 있습니다. 서지 정보(권호, 연도)를 확인하세요. 카드에는 연구자 이름 없이 \"later researchers\"로만 적었습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "People · Numbers twist",
+      "title": "The catering plan everyone agreed on and no one owned",
+      "illustrative": true,
+      "body": [
+        "A restaurant group with four locations decides its next growth will come from catering office lunches. The managers agree. The ads go out.",
+        "Three months later, the results are in: **120** catering inquiries. **18** bookings."
+      ],
+      "image": {
+        "label": "Four restaurant doors with a phone ringing unanswered between them",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 나란히 선 레스토랑 네 곳의 출입문. 가운데 길바닥에 케이터링 주문 전화가 울리고 있지만 아무도 받지 않음. 각 문 안에서는 직원들이 홀 손님을 바쁘게 응대. 실제 브랜드 로고나 간판 이름은 쓰지 않음.",
+        "url": "assets/images/ppl-09-04-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Catering should be 20% of sales next year.",
+      "illustrative": true,
+      "body": [
+        "You own the group. Each location is run by a manager whose bonus depends on that restaurant's dining-room profit. Catering inquiries go to whichever location the customer happens to call.",
+        "What's your first move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Spend more on catering ads to bring in more inquiries",
+            "verdict": "risky",
+            "feedback": "More inquiries feels like progress, but you'd pour more orders into the same leak. You pay for demand the business can't yet catch."
+          },
+          {
+            "key": "B",
+            "text": "Give catering one owner with its own target, kitchen time and a say over the schedule",
+            "verdict": "best",
+            "feedback": "Catering gets someone who wins when it wins. You add a role and some friction with the restaurants, but the new work finally has a home."
+          },
+          {
+            "key": "C",
+            "text": "Add catering sales to every manager's bonus",
+            "verdict": "partial",
+            "feedback": "It helps the incentives, but four busy managers still each handle catering on the side, during their own lunch rush."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "Where the 120 inquiries went.",
+      "illustrative": true,
+      "body": [
+        "The ads worked. The leak came after the phone rang."
+      ],
+      "chart": {
+        "unit": "count",
+        "groups": [
+          {
+            "label": "Catering inquiries, one quarter",
+            "rows": [
+              {
+                "label": "Inquiries",
+                "value": 120,
+                "highlight": false
+              },
+              {
+                "label": "Quoted within a day",
+                "value": 45,
+                "highlight": false
+              },
+              {
+                "label": "Booked",
+                "value": 18,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "callout": "Nearly two of every three inquiries never got a quick quote.",
+      "image": {
+        "url": "assets/images/ppl-09-04-info.png"
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The twist",
+      "title": "Every manager made a sensible choice.",
+      "illustrative": true,
+      "body": [
+        "Catering calls arrived mid-morning, as kitchens prepped for lunch. Writing a quote took 20 minutes. A big order tied up the ovens during the busiest hours.",
+        "Each manager was judged on their dining room. So they protected it, and the catering emails waited.",
+        "No one was lazy. The strategy had changed, but **who owned the work, who decided and what was measured** were still built for dining rooms."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Structure follows strategy",
+      "body": [
+        "**Structure follows strategy** means you decide what you're trying to win first, then shape who owns what, who decides and what gets measured to fit it.",
+        "Business historian Alfred Chandler made the idea famous in 1962. Studying large American companies such as DuPont and General Motors, he found that as they moved into new products and markets, their old structures strained until they reorganized around the new strategy."
+      ],
+      "image": {
+        "label": "A new arrow-shaped plan pulling an old org chart into a new shape",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 왼쪽에 \"Strategy\"라는 화살표, 오른쪽에 조직도 블록들이 그 화살표 방향으로 재배열되는 모습. 먼저 화살표, 그다음 블록이라는 순서가 보이게. 실제 기업 로고 없음.",
+        "url": "assets/images/ppl-09-04-c5.jpg"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Three things every structure decides.",
+      "body": [
+        "When strategy changes, check each of these:"
+      ],
+      "list": [
+        "**Ownership:** whose job is the new work, full time or as a named priority?",
+        "**Decision rights:** who can say yes to a quote, a hire or kitchen time?",
+        "**Measures:** what number does the owner get judged on?"
+      ],
+      "callout": "New strategy plus old structure means the new work falls into the gaps."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Don't redraw the chart for every new idea.",
+      "body": [
+        "Reorganizing costs time, attention and working relationships. If the strategy is still an experiment, one named owner and one clear measure may be enough. Save the bigger redesign for when the direction is settled.",
+        "The arrow also runs both ways. Later researchers pointed out that an existing structure shapes which strategies leaders even notice. A group organized around dining rooms may never think of catering at all."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software company.",
+      "illustrative": true,
+      "body": [
+        "Your product sells self-serve to small businesses. Teams are organized by feature and measured on signups. Support answers tickets in the order they arrive.",
+        "The new strategy: win large enterprise customers. Two big pilots have stalled waiting on setup help and custom security answers. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Hire a strong enterprise salesperson who reports to marketing",
+            "verdict": "partial",
+            "feedback": "You gain someone who can open doors. But setup, security and support still sit with teams measured on signups, so deals stall after the handshake."
+          },
+          {
+            "key": "B",
+            "text": "Form a small team that owns enterprise customers end to end, measured on renewals",
+            "verdict": "best",
+            "feedback": "Sales, onboarding and a dedicated engineer share one goal that matches the strategy. It pulls people from feature work, which is the price of taking the strategy seriously."
+          },
+          {
+            "key": "C",
+            "text": "Keep the structure and tell every team enterprise is the top priority",
+            "verdict": "risky",
+            "feedback": "It's fast and free, but each team's real measures haven't changed. Priorities that don't show up in ownership or measures tend to fade."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Change the strategy, then check who owns it.",
+      "body": [
+        "A new plan only works when someone owns it, can decide for it and is measured on it.",
+        "**Try it today:** write your current strategy in one sentence. List the three pieces of work it needs most. Next to each, write who owns it and what number they're judged on. Look for blanks."
+      ],
+      "next": "Next · Why reorganizations so often disappoint"
+    }
+  ]
+}

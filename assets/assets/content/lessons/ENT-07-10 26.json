@@ -1,0 +1,265 @@
+{
+  "id": "ENT-07-10",
+  "unitId": "ENT-07",
+  "categoryId": "ENT",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Pivot, persevere or shut down?",
+  "readerTitle": "Fourteen months in, the cleaning business isn't dying or growing. Now what?",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.3,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (가정 청소 서비스 → 청소업체용 일정 관리 소프트웨어) · 모든 인물과 수치는 설명용",
+  "insight": "계속할지, 피벗할지, 접을지는 결과를 보기 전에 정한 기준과 기한으로 판단한다. 지금까지 쓴 돈이 아니라 앞으로의 증거가 결정을 정한다.",
+  "misconception": "조금만 더 버티면 결국 나아진다. 결정을 미루는 것이 가장 안전하다.",
+  "relatedLessonIds": [
+    "ENT-07-01",
+    "ENT-07-04"
+  ],
+  "sources": [
+    {
+      "text": "Ries, E. (2011). The Lean Startup. 'Pivot or persevere' 회의 개념",
+      "url": null
+    },
+    {
+      "text": "모든 인물과 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 설명용 가상 수치입니다. 청소 사업: 고객 60명 × 월 $150 = 월 $9,000. 신규 월 8명, 해지 월 8명이므로 순증 0명입니다.",
+      "status": "open"
+    },
+    {
+      "note": "90일 테스트: 해지 목표 월 4명, 실제 월 6명. 신규 8명 − 해지 6명 = 순증 월 2명입니다. 목표에 못 미쳤다고 카드에 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "소프트웨어 테스트: 기준은 60일 안에 유료 업체 5곳. 결과는 8곳 × 월 $60 = 월 $480이고 대기 12곳, 해지 0곳입니다. 브레이크다운 카드의 숫자가 본문과 일치하는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "고객 명단 양도나 직원 해고 절차는 나라마다 법이 다릅니다. 카드에는 법률 조언 없이 일반적인 원칙만 적었습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Pivots & Failure · Simulation",
+      "title": "Fourteen months in, the business isn't dying or growing.",
+      "illustrative": true,
+      "body": [
+        "Maya runs a home-cleaning company. She has 60 regular customers, two crews and a calendar that never empties.",
+        "Revenue has sat at $9,000 a month for half a year. She works 55 hours a week. Nothing is broken. Nothing is moving either.",
+        "For the next few cards, you are Maya. You will make three calls in a row."
+      ],
+      "image": {
+        "label": "A cleaning van parked beside a flat line chart",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 일러스트. 가정집 앞에 청소 서비스 밴이 서 있고, 밴 옆면에 평평하게 이어지는 매출 선 그래프가 그려져 있음. 운전석의 창업자는 지쳤지만 생각에 잠긴 표정. 실제 브랜드 로고는 쓰지 않음.",
+        "url": "assets/images/ent-07-10-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 3",
+      "title": "The bucket fills as fast as it leaks.",
+      "illustrative": true,
+      "body": [
+        "Each month about 8 new customers sign up and about 8 cancel. You have savings to cover roughly a year of slow months.",
+        "What do you do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Double the ad budget to outrun the cancellations",
+            "verdict": "risky",
+            "feedback": "More customers come in, but they leave at the same rate. You pay more to stand still and learn nothing new."
+          },
+          {
+            "key": "B",
+            "text": "Call customers who cancelled and fix their top complaint",
+            "verdict": "partial",
+            "feedback": "Good learning. But with no target and no date, a small improvement can keep you hoping for years."
+          },
+          {
+            "key": "C",
+            "text": "Run a 90-day test: one change, one target number, a decision date in the calendar",
+            "verdict": "best",
+            "feedback": "You still fix the problem, but you also decide now what result would count as success. In 90 days, the decision will be clear."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "The test missed. Something else showed up.",
+      "illustrative": true,
+      "body": [
+        "Say you chose C. Cancellations came from missed and late visits, so you set a target: cut cancellations from 8 to 4 a month. To get there, you built a simple scheduling and routing tool with a freelancer.",
+        "After 90 days, cancellations fell to 6. That missed the bar.",
+        "But three owners of other cleaning companies saw the tool and asked to use it. Two paid upfront. People didn't just praise the tool. They paid for it."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 3",
+      "title": "Other cleaning companies want your tool.",
+      "illustrative": true,
+      "body": [
+        "Your own business has stalled. A side project is pulling customers toward it. You've never sold software."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Close the cleaning business now and go all in on the software",
+            "verdict": "risky",
+            "feedback": "Two payments is a signal, not proof. You'd give up your only steady income before you know whether more buyers exist."
+          },
+          {
+            "key": "B",
+            "text": "Ignore it. It's a distraction from the real business",
+            "verdict": "risky",
+            "feedback": "You protect your focus, but you walk away from the only strong signal in 14 months."
+          },
+          {
+            "key": "C",
+            "text": "Test it: get 5 paying companies in 60 days while cleaning pays the bills",
+            "verdict": "best",
+            "feedback": "This is a pivot to a new customer, done as an experiment. The cleaning income funds the test, and the bar is set before you see the results."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "breakdown",
+      "eyebrow": "60 days later",
+      "title": "Two businesses, side by side.",
+      "illustrative": true,
+      "body": [
+        "Say you chose C. The software brings in less money. But the cleaning business has been flat for months, and every software customer is still paying and wants more."
+      ],
+      "breakdown": [
+        {
+          "value": "$9,000",
+          "label": "Cleaning revenue a month",
+          "detail": "Flat. Growing by about 2 customers a month",
+          "highlight": false
+        },
+        {
+          "value": "8",
+          "label": "Paying software customers",
+          "detail": "Bar was 5. At $60 a month: $480",
+          "highlight": true
+        },
+        {
+          "value": "0",
+          "label": "Software cancellations",
+          "detail": "Most log in every day",
+          "highlight": false
+        },
+        {
+          "value": "12",
+          "label": "Companies on the waitlist",
+          "detail": "Asked for a demo without any ads",
+          "highlight": false
+        }
+      ],
+      "softwareNote": "In software, look at retention more than revenue at this stage. Eight companies who use the tool daily and don't cancel tell you more than $480 does."
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 3",
+      "title": "You can't run both well.",
+      "illustrative": true,
+      "body": [
+        "The software needs your full attention. The cleaning business still has 60 customers and four staff who rely on it."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep both going and split your week",
+            "verdict": "risky",
+            "feedback": "Both get half your attention. You risk two stalled businesses instead of one."
+          },
+          {
+            "key": "B",
+            "text": "Stop cleaning at month's end and refund prepaid visits",
+            "verdict": "partial",
+            "feedback": "Clean and honest, but customers and staff have no time to find alternatives, and you get nothing for the customer base you built."
+          },
+          {
+            "key": "C",
+            "text": "Wind down over six weeks: hand customers to a trusted local rival, give staff notice and introductions",
+            "verdict": "best",
+            "feedback": "Customers keep their cleaning, staff land jobs, and you may earn some cash. Your reputation follows you into the next business."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "The idea",
+      "title": "Decide the bar before you see the result.",
+      "body": [
+        "Each call followed the same pattern: a clear test, a target set in advance and a fixed decision date. That turns a feeling into a decision.",
+        "Without a bar, two traps appear. You keep going because of what you've already spent. Or a business that barely survives runs for years and never really lives.",
+        "Keep going, change direction and shut down are all fair outcomes. Never deciding is the real failure."
+      ],
+      "image": {
+        "label": "A fork in the road with three signposts and a calendar",
+        "aspectRatio": "16:9",
+        "brief": "갈림길 인포그래픽. 세 갈래 길에 \"Persevere\", \"Pivot\", \"Shut down\" 표지판. 갈림길 앞에 날짜에 동그라미를 친 달력과 목표 숫자가 적힌 메모지가 놓여 있음.",
+        "url": "assets/images/ent-07-10-c7.jpg"
+      }
+    },
+    {
+      "index": 8,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A bar can be set wrong.",
+      "body": [
+        "Eight customers is a small sample. Early buyers are often friends of friends or unusually keen. The software could still stall at 30 companies.",
+        "Some businesses also take longer to show results, like seasonal trades or products with long sales cycles. A 90-day test would judge them too early.",
+        "So set the bar from what you'd need to believe, not from what feels comfortable. When a result lands close to the line, run one more test instead of guessing."
+      ]
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Set the test, the bar and the date. Then let the evidence decide.",
+      "body": [
+        "Each of your three calls used an idea from this unit:"
+      ],
+      "list": [
+        "**Decision 1:** a test with a deadline is how you avoid running a business that barely survives for years (*When to pivot*, *Zombie companies*)",
+        "**Decision 2:** same tool, new customer, tested on the side (*Types of pivots*)",
+        "**Decision 3:** closing in a way that protects customers, staff and your reputation (*Shutting down well*)"
+      ],
+      "callout": "**Try it today:** write down one result you'd need to see in 90 days to keep going. Then put the decision date in your calendar.",
+      "next": "Next · You've finished Pivots & Failure. A new unit starts tomorrow."
+    }
+  ]
+}

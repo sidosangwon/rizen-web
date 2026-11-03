@@ -1,0 +1,282 @@
+{
+  "id": "ECO-10-10",
+  "unitId": "ECO-10",
+  "categoryId": "ECO",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Your rival cuts prices 30%",
+  "readerTitle": "The pizzeria across the street just cut prices 30%. What do you do?",
+  "format": "everyday_scene",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.2,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (동네 피자 가게의 3개월) · 모든 수치는 설명용 · 소프트웨어 적용은 softwareNote로 보완",
+  "insight": "경쟁사의 가격 인하는 즉시 따라갈 일이 아니라 상대의 이유를 읽고, 좁게 막고, 약속을 보이게 하고, 평화에는 평화로 답하는 여러 판의 게임이다.",
+  "misconception": "경쟁사가 가격을 내리면 고객을 잃기 전에 바로 같은 폭으로, 또는 더 크게 내려야 한다.",
+  "relatedLessonIds": [
+    "ECO-10-02",
+    "ECO-10-05"
+  ],
+  "sources": [
+    {
+      "text": "게임이론의 표준 개념 (죄수의 딜레마, 신뢰할 수 있는 약속, 반복 게임)",
+      "url": null
+    },
+    {
+      "text": "Salop, S. (1986). Practices that (credibly) facilitate oligopoly co-ordination. 가격 매칭 약속이 경쟁사의 가격 인하 동기를 줄인다는 논의",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "계산 확인: 정가 $15 − 피자당 비용 $5 = $10. 30% 인하가 $10.50 − $5 = $5.50. 주 600판 기준 $6,000 → $3,300 (주 $2,700 감소). 같은 이익을 내려면 6,000 ÷ 5.50 = 1,091판, 약 82% 증가. 할인가에서 카드 수수료가 조금 줄지만 단순화를 위해 피자당 비용을 $5로 고정했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "잃은 주문: 600판의 10% = 60판 × $10 = 주 $600. 전면 대응 비용(주 $2,700)과 비교한 수치입니다.",
+      "status": "open"
+    },
+    {
+      "note": "가격 매칭 약속이 경쟁사의 인하 동기를 줄인다는 주장은 Salop(1986) 등 산업조직론 문헌의 일반적 논의입니다. 카드에는 원리만 적었고 특정 연구 결과나 수치는 인용하지 않았습니다. 게시 전 표현을 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "경쟁사와 가격을 합의하는 것은 대부분의 국가에서 불법(담합)이라는 일반적 경고만 적었습니다. 특정 국가의 법률 조언은 하지 않습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Pricing · Simulation",
+      "title": "The pizzeria across the street just cut prices 30%.",
+      "illustrative": true,
+      "body": [
+        "Monday morning. You run a neighborhood pizzeria. Across the street, your newer rival has hung a huge banner: *30% off every pizza.*",
+        "Your phone is already buzzing with staff asking what to do. Over the next three months you'll make four calls. Each one builds on the last."
+      ],
+      "image": {
+        "label": "A rival pizzeria with a big 30% off banner across the street",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 길 양쪽에 피자 가게 두 곳. 오른쪽 가게에 큰 \"30% OFF\" 현수막, 왼쪽 가게 앞에 앞치마를 두른 주인이 팔짱을 끼고 바라봄. 실제 브랜드 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/eco-10-10-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "breakdown",
+      "eyebrow": "Your numbers",
+      "title": "What a 30% cut would do to you.",
+      "illustrative": true,
+      "breakdown": [
+        {
+          "value": "$15.00",
+          "label": "Your price",
+          "detail": "A large pizza",
+          "highlight": false
+        },
+        {
+          "value": "−$5.00",
+          "label": "Cost per pizza",
+          "detail": "Dough, toppings, box, card fee",
+          "highlight": false
+        },
+        {
+          "value": "$10.00",
+          "label": "Left at full price",
+          "detail": "Pays rent, staff, then profit",
+          "highlight": true
+        },
+        {
+          "value": "$5.50",
+          "label": "Left at $10.50",
+          "detail": "If you match the 30% cut",
+          "highlight": false
+        }
+      ],
+      "callout": "You sell about 600 pizzas a week. Matching on all of them drops what's left from **$6,000 to $3,300**. You'd need about 82% more pizzas just to stay even."
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 1 · Day 1",
+      "title": "How do you react today?",
+      "illustrative": true,
+      "body": [
+        "You don't yet know why the rival cut, how long it will last, or who is switching. Your staff want an answer before the lunch rush."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Match the 30% today, before customers drift away",
+            "verdict": "risky",
+            "feedback": "You cut $4.50 on all 600 pizzas, including the ones bought by people who were never leaving. That's about $2,700 a week, spent before you know what you're fighting."
+          },
+          {
+            "key": "B",
+            "text": "Hold prices for a week and find out who is switching and why",
+            "verdict": "best",
+            "feedback": "You may lose a few orders, but you buy information. Every next move depends on the rival's reasons and your customers' response."
+          },
+          {
+            "key": "C",
+            "text": "Cut 35% to show you won't be pushed around",
+            "verdict": "risky",
+            "feedback": "It costs even more than matching and invites the rival to cut again. You've turned one promotion into a war."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 2 · Week 2",
+      "title": "Say you waited. Here's what you learned.",
+      "illustrative": true,
+      "body": [
+        "The banner says *Opening month*. Your weeknight takeout orders fell about 10%, mostly price shoppers. Dine-in and regulars didn't move. The loss: about 60 pizzas, or $600 a week.",
+        "What now?"
+      ],
+      "image": {
+        "label": "Order chart: weeknight takeout dips, dine-in stays flat",
+        "aspectRatio": "16:9",
+        "brief": "간단한 막대 그래프 두 개. \"Weeknight takeout\" 막대만 10% 내려가고 \"Dine-in\"과 \"Regulars\" 막대는 그대로. 내려간 부분을 주황색으로 강조.",
+        "url": "assets/images/eco-10-10-c4.jpg"
+      },
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Match 30% on everything to win back the 10%",
+            "verdict": "risky",
+            "feedback": "You'd spend $2,700 a week to protect $600. If the rival then holds or cuts deeper, you both earn less than before and nobody gains customers."
+          },
+          {
+            "key": "B",
+            "text": "Match only where you're losing: $10.50 takeout on weeknights",
+            "verdict": "best",
+            "feedback": "You defend the slice at risk and keep $10 a pizza everywhere else. The fight stays small and cheap."
+          },
+          {
+            "key": "C",
+            "text": "Do nothing. The regulars stayed",
+            "verdict": "partial",
+            "feedback": "You protect your margin, but the rival learns its cut works unopposed, and new takeout habits can stick."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "In software, this is a rival slashing its per-seat price. The narrow response is a targeted offer for the users actually churning, such as small teams on monthly plans, instead of repricing every existing customer."
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 3 · Week 5",
+      "title": "Say you matched only weeknight takeout. The rival extends the deal.",
+      "illustrative": true,
+      "body": [
+        "Your takeout orders are recovering. But the rival's new sign says *30% off until further notice*. You suspect it's testing whether you'll give up."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Post a public promise at the counter: we match any local takeout price",
+            "verdict": "best",
+            "feedback": "A public promise is hard to take back, so the rival believes it. Deeper takeout cuts now win it nothing. The cost: you pay the match on those orders, so keep it narrow."
+          },
+          {
+            "key": "B",
+            "text": "Stay quiet, keep the weeknight deal and wait it out",
+            "verdict": "partial",
+            "feedback": "Cheap and calm, but the rival can't see your resolve. It may keep cutting to find out."
+          },
+          {
+            "key": "C",
+            "text": "Go to 35% off for a month to drive them out",
+            "verdict": "risky",
+            "feedback": "You'd lose money on every pizza, and a rival with deep pockets can outlast you. Both shops bleed."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Decision 4 · Month 3",
+      "title": "Say you posted the promise. The banner comes down.",
+      "illustrative": true,
+      "body": [
+        "Two weeks later, the rival quietly returns to $15 a pizza. Your takeout orders are back to normal. You will be neighbors for years."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Return to $15 too, and leave the match promise posted",
+            "verdict": "best",
+            "feedback": "You answer peace with peace while the deterrent stays in place. The rival learns cuts get matched and calm gets rewarded."
+          },
+          {
+            "key": "B",
+            "text": "Keep the weeknight deal running, just to be safe",
+            "verdict": "partial",
+            "feedback": "It feels safe, but you keep paying $4.50 a pizza for a fight that's over, and customers start treating $10.50 as the real price."
+          },
+          {
+            "key": "C",
+            "text": "Cut prices now to steal their customers while they're weak",
+            "verdict": "risky",
+            "feedback": "You restart the war you just ended. In a game played every week, the rival will remember who broke the peace."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "When this playbook doesn't work.",
+      "body": [
+        "If the rival's costs are truly lower, the cut isn't a promotion. It's its new normal. No clever response wins that game. You need a different position, like better quality or different customers.",
+        "A rival backed by investors can also run losses longer than you can. And one move is always off the table: agreeing prices with the rival. In most countries, that's illegal price fixing."
+      ],
+      "image": {
+        "label": "Two shops with very different cost stacks",
+        "aspectRatio": "16:9",
+        "brief": "두 피자 가게의 비용을 막대로 비교. 한쪽은 비용 막대가 훨씬 짧고 \"Lower costs = permanent low price\" 라벨. 다른 쪽에 \"Change position, not price\" 표지판. 실제 로고 없음.",
+        "url": "assets/images/eco-10-10-c7.jpg"
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A price cut is a move. Answer it like a game, not a reflex.",
+      "body": [
+        "Each of your four calls used one idea from this unit:"
+      ],
+      "list": [
+        "**Day 1, read before you react:** game theory basics. Your best move depends on the rival's reasons.",
+        "**Week 2, fight narrow:** the prisoner's dilemma. Matching everything leaves both shops worse off.",
+        "**Week 5, make it public:** credible commitments. A promise you can't easily undo changes the rival's math.",
+        "**Month 3, reward peace:** repeated games. Neighbors who play every week remember."
+      ],
+      "callout": "**Try it today:** write down which of your customers a rival's price cut would actually pull away, and what defending only them would cost.",
+      "next": "Next · You've finished Game Theory. A new unit starts tomorrow."
+    }
+  ]
+}

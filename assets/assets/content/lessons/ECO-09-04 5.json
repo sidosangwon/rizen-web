@@ -1,0 +1,235 @@
+{
+  "id": "ECO-09-04",
+  "unitId": "ECO-09",
+  "categoryId": "ECO",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Exchange rates",
+  "readerTitle": "Why a 10% currency move can cut your profit by 30%",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (수입 식재료를 쓰는 레스토랑, 유럽 고객을 맡은 소프트웨어 회사 영업팀) · 모든 환율과 수치는 설명용",
+  "insight": "환율은 내가 정하지 않은 가격을 바꾸고, 그 변화는 매출이 아니라 얇은 이익에 고스란히 떨어진다. 그래서 작은 환율 변동이 이익을 크게 흔든다.",
+  "misconception": "환율이 10% 움직이면 이익도 10% 정도 움직인다. 해외와 직접 거래하지 않으면 환율과 상관없다.",
+  "relatedLessonIds": [
+    "ECO-09-01",
+    "ECO-02-06"
+  ],
+  "sources": [
+    {
+      "text": "국제경제학의 표준 개념 (환율, 환노출, 고정환율 기준 실적 비교)",
+      "url": null
+    },
+    {
+      "text": "모든 수치와 환율은 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "레스토랑 계산: 매출 $100,000 − 수입 식재료 €25,000×$1.00 = $25,000 − 기타 비용 $67,000 = 이익 $8,000. 유로 10% 상승($1.10) 후 수입비 $27,500, 이익 $5,500. 감소폭 $2,500 ÷ $8,000 = 31.25%(약 30%). 비용 증가는 매출 대비 2.5%.",
+      "status": "open"
+    },
+    {
+      "note": "영업팀 계산: 계획 €1,000,000 × $1.10 = 목표 $1,100,000. 유로 10% 하락($0.99) 후 €1,000,000 × $0.99 = $990,000, 목표 대비 10% 미달.",
+      "status": "open"
+    },
+    {
+      "note": "'constant currency(고정환율 기준)' 보고와 선물환(forward contract) 설명은 일반적인 개념 수준으로만 썼습니다. 특정 국가의 금융·세무 조언이 아닌지 게시 전 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Economy · Numbers twist",
+      "title": "Nobody raised your prices. Your costs went up anyway.",
+      "illustrative": true,
+      "body": [
+        "An Italian restaurant in the US buys its olive oil, cheese and wine from Italy. The suppliers bill in euros. Their prices haven't changed all year.",
+        "Then the euro gets 10% more expensive against the dollar. The menu, the rent and the staff stay the same. Yet the owner's profit shrinks far more than 10%."
+      ],
+      "image": {
+        "label": "Restaurant invoice with a currency dial turning",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 톤의 일러스트. 레스토랑 주방 카운터 위에 유로로 적힌 식재료 청구서가 놓여 있고, 옆에 달러와 유로를 잇는 다이얼이 돌아가는 모습. 청구서 숫자는 그대로인데 달러 금액 쪽만 커지는 느낌. 실제 브랜드 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How much does profit fall?",
+      "illustrative": true,
+      "body": [
+        "The restaurant sells $100,000 a month. Imported ingredients cost €25,000, which at $1.00 per euro is $25,000. Everything else costs $67,000. Profit is $8,000.",
+        "The euro rises 10%, to $1.10. Sales and other costs stay the same. How much does monthly profit fall?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "About 2.5%, since imports are a quarter of sales",
+            "verdict": "partial",
+            "feedback": "Costs do rise by 2.5% of sales. But that money comes out of profit, not out of sales, and profit is a much smaller number."
+          },
+          {
+            "key": "B",
+            "text": "About 10%, the same as the currency move",
+            "verdict": "risky",
+            "feedback": "It feels proportional, but the currency only touches costs. The hit lands on a thin slice of profit, so it's much bigger than 10%."
+          },
+          {
+            "key": "C",
+            "text": "About 30%",
+            "verdict": "best",
+            "feedback": "Right. Imports now cost $27,500, so profit falls from $8,000 to $5,500. The next card shows the math."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Same menu, same suppliers, less profit.",
+      "illustrative": true,
+      "body": [
+        "A 10% currency move became a **31% drop in profit**. The supplier never sent a new price list."
+      ],
+      "breakdown": [
+        {
+          "value": "$100,000",
+          "label": "Sales",
+          "detail": "Unchanged",
+          "highlight": false
+        },
+        {
+          "value": "−$27,500",
+          "label": "Imports",
+          "detail": "Still €25,000, now at $1.10 per euro",
+          "highlight": false
+        },
+        {
+          "value": "−$67,000",
+          "label": "Everything else",
+          "detail": "Rent, staff, local food",
+          "highlight": false
+        },
+        {
+          "value": "$5,500",
+          "label": "Profit",
+          "detail": "Down from $8,000",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Exchange rates",
+      "body": [
+        "An **exchange rate** is the price of one currency in another. Here, one euro cost $1.00, then $1.10.",
+        "When it moves, every price set in the other currency moves for you, even if nobody changed it. And because profit is what's left after costs, a small change in costs or sales can be a large change in profit."
+      ],
+      "image": {
+        "label": "Seesaw with a euro on one side and a dollar on the other",
+        "aspectRatio": "16:9",
+        "brief": "단순한 인포그래픽. 시소 한쪽에 유로 동전, 반대쪽에 달러 동전. 유로 쪽이 내려가면 옆의 막대그래프에서 '비용' 막대가 조금 길어지고 '이익' 막대가 크게 줄어드는 모습.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "The same move helps one business and hurts another.",
+      "body": [
+        "Which way it cuts depends on which side of the deal you're on."
+      ],
+      "list": [
+        "**You buy in a foreign currency:** when that currency gets stronger, your costs rise.",
+        "**You sell in a foreign currency:** when that currency gets weaker, each sale is worth less once you convert it.",
+        "**Both at once:** the effects partly cancel out."
+      ],
+      "callout": "A rising euro hurts the US restaurant and helps the Italian cheesemaker selling to it."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Wider view",
+      "title": "You can be exposed without trading abroad.",
+      "body": [
+        "A bakery that buys only from a local wholesaler still pays more when the wholesaler's imported flour or butter costs more.",
+        "A shop selling local goods can lose customers when a rival's imported goods get cheaper. A hotel feels it when its country becomes more or less expensive for foreign visitors.",
+        "So the useful question isn't \"Do I trade abroad?\" It's \"Where in my costs, competitors and customers does another currency show up?\""
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Nobody can reliably predict currencies.",
+      "body": [
+        "Betting on where a rate goes next is guessing. The safer move is to reduce how much a swing can hurt.",
+        "Common options: agree prices in your own currency, find a local supplier for some items, keep a buffer in your margins, or ask your bank to lock in a rate ahead of time.",
+        "Each has a cost. Suppliers may charge more to carry the risk, local goods may be pricier, and a locked rate means missing out if the rate moves your way."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a sales team.",
+      "illustrative": true,
+      "body": [
+        "You lead the European sales team at a software company based in the US. Customers pay for subscriptions in euros. Your target was €1,000,000, set as $1,100,000 at $1.10 per euro.",
+        "You sold exactly €1,000,000. But the euro fell to $0.99, so the report shows $990,000: 10% below target. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Raise euro prices 10% next quarter to get back on target",
+            "verdict": "risky",
+            "feedback": "It may restore the dollar number, but customers see a price rise with no new value. You could lose deals to rivals priced locally."
+          },
+          {
+            "key": "B",
+            "text": "Show results at the planned rate and the actual rate, and flag the exposure to finance",
+            "verdict": "best",
+            "feedback": "Reporting at a fixed rate, often called *constant currency*, separates your team's work from the currency. Finance can then decide how to manage the risk for the whole company."
+          },
+          {
+            "key": "C",
+            "text": "Ignore it. Currency isn't the sales team's job",
+            "verdict": "partial",
+            "feedback": "True that you don't control the rate. But without explaining the gap, leadership may read a currency swing as weak selling."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Currencies move prices you didn't set, and the hit lands on profit.",
+      "body": [
+        "A small exchange rate move can mean a large profit move, because profit is the thin slice left after costs.",
+        "**Try it today:** list your five biggest costs and your main sources of sales. Mark any that are priced in, or depend on, another currency. Then work out what a 10% move would do to your profit."
+      ],
+      "next": "Next · What actually happens in a recession"
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "id": "SAL-04-03",
+  "unitId": "SAL-04",
+  "categoryId": "SAL",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "The zone of possible agreement",
+  "readerTitle": "The painting job both sides wanted, and nobody got",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (외벽 도장업자와 집주인, 기장 대행 회사와 물류 회사) · 모든 수치는 설명용",
+  "insight": "협상은 가격 싸움이 아니라 두 사람의 보이지 않는 한계선이 겹치는 구간을 찾는 일이다. 겹치는 구간이 없으면 말솜씨가 아니라 거래 내용을 바꿔야 한다.",
+  "misconception": "제시 가격과 희망 가격의 차이가 곧 협상 범위이고, 협상을 잘하면 어떤 차이든 좁힐 수 있다.",
+  "relatedLessonIds": [
+    "SAL-04-02",
+    "SAL-04-04"
+  ],
+  "sources": [
+    {
+      "text": "협상론의 표준 개념 (zone of possible agreement, ZOPA). Raiffa, H. (1982). The Art and Science of Negotiation. Harvard University Press.",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "ZOPA 개념의 출처로 Raiffa(1982)를 적었습니다. 이 책에서 'zone of agreement' 개념을 다루는지, 해당 용어를 처음 쓴 문헌이 무엇인지 게시 전에 확인하세요. 카드 본문에는 인명을 넣지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "도장 사례 계산: 도장업자 하한 $3,000, 집주인 상한 $3,500 → 합의 가능 구간 $3,000~$3,500. 제시가 $4,000과 집주인 희망가 $2,800은 모두 구간 밖. 즉시 $3,000으로 내리면 최대 $500(3,500 − 3,000)을 포기. 6번 카드의 가정: 집주인 상한 $2,500 < 하한 $3,000 → 구간 없음.",
+      "status": "open"
+    },
+    {
+      "note": "기장 대행 사례 계산: 하한 $1,800 > 고객 상한 $1,500 → 구간 없음. 중간값 $1,650은 고객 상한보다 높고 하한보다 낮음. 가벼운 패키지로 하한이 $1,300으로 내려가면 구간 $1,300~$1,500이 생기고 제안가 $1,450은 구간 안. 경쟁사 견적 $1,400보다는 높다는 점을 감안해도 고객 상한 이내.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Negotiation · Everyday scene",
+      "title": "The painting job both sides wanted, and nobody got",
+      "illustrative": true,
+      "body": [
+        "A homeowner asks a painter to quote the outside of her house. He says $4,000. She'd hoped for about $2,800 and could stretch to $3,500. She says, \"That's too much for us,\" and thanks him.",
+        "He would have taken $3,000. He says nothing and drives away.",
+        "Any price between $3,000 and $3,500 would have left both of them better off than no deal. Neither of them ever found out."
+      ],
+      "image": {
+        "label": "A painter's van leaving a house with a half-scraped wall",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 외벽 페인트가 군데군데 벗겨진 집 앞에서 도장업자의 밴이 떠나고, 현관에 선 집주인이 아쉬운 표정. 두 사람 머리 위에 각각 물음표가 담긴 말풍선. 실제 브랜드 로고는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You're the painter.",
+      "illustrative": true,
+      "body": [
+        "You quoted $4,000 to paint a house exterior. The lowest price you'd accept, after paint, labor and a fair profit, is $3,000.",
+        "The homeowner says, \"That's more than we can do.\" What do you say next?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Drop to $3,000 right away to save the job",
+            "verdict": "risky",
+            "feedback": "You might keep the job, but you give away everything between your floor and her limit. If she'd have paid $3,500, that's $500 gone in one sentence."
+          },
+          {
+            "key": "B",
+            "text": "Ask what budget she had in mind and what matters most to her",
+            "verdict": "best",
+            "feedback": "You learn roughly where her limit sits before you move. That tells you whether a deal can exist and where to aim inside it."
+          },
+          {
+            "key": "C",
+            "text": "Hold at $4,000 and explain why your work is worth it",
+            "verdict": "partial",
+            "feedback": "Holding firm pays off if she's bluffing. But if her real limit is $3,500, no explanation reaches $4,000, and you both lose a deal you wanted."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Line up the numbers.",
+      "illustrative": true,
+      "body": [
+        "The deal didn't fail because the gap was too big. It failed because nobody looked for the **overlap**."
+      ],
+      "breakdown": [
+        {
+          "value": "$4,000",
+          "label": "Painter's quote",
+          "detail": "His opening number, not his limit",
+          "highlight": false
+        },
+        {
+          "value": "$3,500",
+          "label": "Homeowner's limit",
+          "detail": "The most she would pay",
+          "highlight": false
+        },
+        {
+          "value": "$3,000",
+          "label": "Painter's floor",
+          "detail": "The least he would accept",
+          "highlight": false
+        },
+        {
+          "value": "$3,000–$3,500",
+          "label": "The overlap",
+          "detail": "Every price here beats no deal for both",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The zone of possible agreement",
+      "body": [
+        "The **zone of possible agreement** is the range between the seller's lowest acceptable price and the buyer's highest. Negotiators often shorten it to ZOPA.",
+        "Inside the zone, any deal leaves both sides better off than walking away. Outside it, at least one side would rather walk.",
+        "Here the zone ran from $3,000 to $3,500. The $4,000 quote and the $2,800 hope both sat outside it, and together they hid it."
+      ],
+      "image": {
+        "label": "Two price ranges overlapping between $3,000 and $3,500",
+        "aspectRatio": "16:9",
+        "brief": "가로 가격 축($2,500~$4,500) 위에 막대 두 개. 위쪽 파란 막대 \"Painter accepts: $3,000 and up\", 아래쪽 주황 막대 \"Homeowner pays: up to $3,500\". 두 막대가 겹치는 $3,000~$3,500 구간을 초록색으로 강조하고 \"Zone of possible agreement\" 라벨.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Every negotiation asks two questions.",
+      "body": [
+        "It helps to split any negotiation into two separate questions."
+      ],
+      "list": [
+        "**Is there a zone at all?** Each side's walk-away point decides this. Clever talking doesn't change it.",
+        "**Where inside the zone do we land?** Information, patience and the first numbers on the table decide this."
+      ],
+      "callout": "The catch: each side sees only its own limit. The other side's limit is a guess you have to test with questions."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "When there's no zone",
+      "title": "No overlap? Change the deal, not the pitch.",
+      "illustrative": true,
+      "body": [
+        "Say her limit were $2,500, not $3,500. Now no price works for both. Haggling harder only wastes an afternoon.",
+        "But the painter's $3,000 floor is for *this* job. Paint only the front and sides. Let her do the scraping. Book it in his slow month. Each change lowers his costs, and his floor with them.",
+        "Redesign the deal until a zone appears, or walk away politely."
+      ],
+      "image": {
+        "label": "Two ranges that don't overlap, then shift until they do",
+        "aspectRatio": "16:9",
+        "brief": "두 칸 비교 인포그래픽. 왼쪽: 파란 막대와 주황 막대 사이에 빈틈, \"No zone\". 오른쪽: 작업 범위를 줄여 파란 막대가 왼쪽으로 이동해 겹침이 생김, \"Smaller job, new zone\". 붓, 사다리 아이콘을 작게 곁들임.",
+        "url": null
+      },
+      "softwareNote": "Software sellers do the same with fewer seats, an annual contract or a lighter support plan. Each lowers the cost of serving the customer, which can move the vendor's floor below the buyer's budget."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The zone is a guess, and it moves.",
+      "body": [
+        "Nobody shows you their real limit. \"That's our max\" might be true, or it might be a tactic. Treat the other side's limit as an estimate and keep testing it.",
+        "Zones also shift. A rival's quote, a looming deadline or a busy season can move either limit overnight.",
+        "And guard your own floor. Once the other side knows it, the deal tends to land right on it."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a bookkeeping firm.",
+      "illustrative": true,
+      "body": [
+        "You offer monthly bookkeeping to small companies. For a local logistics firm, your floor is $1,800 a month, given the hours involved.",
+        "Their finance manager says $1,500 is the most she can approve, and a rival quoted $1,400. You believe the $1,500 is real. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Propose meeting in the middle at $1,650",
+            "verdict": "risky",
+            "feedback": "It feels fair, but it's above their limit and below yours. Splitting the difference only works inside a zone, and here there isn't one."
+          },
+          {
+            "key": "B",
+            "text": "Offer a lighter package at $1,450: quarterly reports, with their staff uploading receipts, which cuts your floor to about $1,300",
+            "verdict": "best",
+            "feedback": "Less work for you moves your floor below their budget. You create a zone instead of arguing inside one that doesn't exist."
+          },
+          {
+            "key": "C",
+            "text": "Thank them and walk away",
+            "verdict": "partial",
+            "feedback": "This protects your margins, and it's right if no version of the deal works. But you leave before checking whether a smaller deal could fit."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Find the overlap before you fight over the price.",
+      "body": [
+        "A deal can only happen where the seller's floor sits below the buyer's limit. Opening numbers hide that range. Questions reveal it, and changing the deal can create it.",
+        "**Try it today:** pick a deal you're working on. Write down your walk-away point and your best guess at theirs. Do they overlap? If not, what could you change?"
+      ],
+      "next": "Next · Why the first number on the table pulls the whole deal"
+    }
+  ]
+}

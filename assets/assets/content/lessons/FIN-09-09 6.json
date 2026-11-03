@@ -1,0 +1,225 @@
+{
+  "id": "FIN-09-09",
+  "unitId": "FIN-09",
+  "categoryId": "FIN",
+  "order": 9,
+  "type": "case",
+  "conceptTag": "Berkshire Hathaway and See's Candies",
+  "readerTitle": "The candy shop that paid for an empire",
+  "format": "company_story",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Berkshire Hathaway, See's Candies) + 가상 적용 (B2B 급여 소프트웨어 회사)",
+  "insight": "최고의 사업은 돈을 많이 버는 사업이 아니라 성장에 돈이 거의 들지 않아 번 돈을 더 좋은 곳으로 옮길 수 있게 해 주는 사업이다.",
+  "misconception": "좋은 사업이 번 이익은 그 사업에 다시 쏟아부어야 한다. 장부가치보다 비싸게 사면 손해다.",
+  "relatedLessonIds": [
+    "FIN-09-02",
+    "FIN-09-03"
+  ],
+  "sources": [
+    {
+      "text": "Berkshire Hathaway 2007 Shareholder Letter (See's: 1972 sales $30M, pretax < $5M, capital $8M; 2007 sales $383M, pretax $82M, capital $40M; $1.35B pretax earned, $32M reinvested, rest sent to Berkshire; 'great, good, gruesome')",
+      "url": "https://www.berkshirehathaway.com/letters/2007ltr.pdf"
+    },
+    {
+      "text": "Berkshire Hathaway 1983 Shareholder Letter, appendix on goodwill (purchase for $25M via Blue Chip Stamps; about $8M net tangible assets; about $2M after-tax earnings)",
+      "url": "https://www.berkshirehathaway.com/letters/1983.html"
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "1972년 인수 가격 $25M, 순유형자산 약 $8M, 세후이익 약 $2M은 1983년 주주서한 부록에서 확인하세요. 인수 주체는 Berkshire가 지배하던 Blue Chip Stamps였습니다.",
+      "status": "open"
+    },
+    {
+      "note": "1972년 vs 2007년 수치(매출 $30M→$383M, 세전이익 <$5M→$82M, 필요 자본 $8M→$40M, 누적 세전이익 $1.35B, 재투자 $32M)는 2007년 주주서한 원문과 대조하세요.",
+      "status": "open"
+    },
+    {
+      "note": "계산: $25M ÷ $8M ≈ 3.1배(\"about three times\"). $2M ÷ $8M = 25%. 세전이익 증가분은 $82M − 5M 미만 = 최소 $77M 이상. 재투자 $40M − $8M = $32M.",
+      "status": "open"
+    },
+    {
+      "note": "See's가 서부 지역 밖으로 크게 확장하는 데 어려움을 겪었다는 점은 Buffett 서한에 언급된 것으로 알려져 있으나 정확한 문구와 연도를 확인하세요. 카드에는 정성적으로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "B2B 급여 소프트웨어 회사 사례와 수치는 모두 설명용 가상 예시입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Company story",
+      "title": "The candy shop that paid for an empire",
+      "body": [
+        "In 1972, Warren Buffett's group paid $25 million for See's Candies, a West Coast chocolate maker.",
+        "The business barely grew in size. Yet over the next decades it sent well over a billion dollars back to its owner. The secret wasn't the candy. It was where the money went next."
+      ],
+      "image": {
+        "label": "A box of chocolates with cash flowing out of it",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 흰색 초콜릿 상자가 열려 있고, 상자에서 동전과 지폐가 강물처럼 흘러나와 화면 밖 여러 건물 방향으로 흘러감. 실제 See's 로고, 상자 디자인, 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call · 1972",
+      "title": "Would you pay three times what's on the books?",
+      "body": [
+        "See's runs on about $8 million of assets: kitchens, shops, equipment. It earns about $2 million a year after tax. Customers love the brand and buy it as gifts every holiday.",
+        "The sellers want $25 million, about three times those assets. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Pass. Paying triple the asset value is reckless",
+            "verdict": "risky",
+            "feedback": "You avoid overpaying for the assets, but you miss what the price buys: a brand that earns 25% a year on what it uses."
+          },
+          {
+            "key": "B",
+            "text": "Buy, if the brand can keep raising prices without needing much new money",
+            "verdict": "best",
+            "feedback": "You pay up front for a high return on little capital. The risk is that the brand fades, so this bet rests on loyal customers."
+          },
+          {
+            "key": "C",
+            "text": "Offer only the $8 million asset value",
+            "verdict": "partial",
+            "feedback": "A disciplined instinct, but the sellers know what the brand earns. You'd likely keep your cash and lose the deal."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What happened",
+      "title": "35 years later, in Buffett's own numbers.",
+      "body": [
+        "From 1972 to 2007, See's earned **$1.35 billion** before tax. It needed only $32 million of that to grow. Everything else went to Berkshire."
+      ],
+      "breakdown": [
+        {
+          "value": "$30M → $383M",
+          "label": "Sales",
+          "detail": "1972 vs 2007",
+          "highlight": false
+        },
+        {
+          "value": "<$5M → $82M",
+          "label": "Pretax profit",
+          "detail": "1972 vs 2007",
+          "highlight": false
+        },
+        {
+          "value": "$8M → $40M",
+          "label": "Capital needed",
+          "detail": "Only $32M added in 35 years",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Profit doesn't have to stay where it was made.",
+      "body": [
+        "**Capital allocation** is deciding where each dollar of profit goes next. See's shows its quiet half: a great business earns a lot on the money it uses and needs little more to grow.",
+        "So the owner faces a choice. Force extra money into candy, where it can't earn much, or move it somewhere that can. Buffett chose to move it, and used See's cash to buy other businesses."
+      ],
+      "image": {
+        "label": "Small reinvestment arrow, large arrow out to other businesses",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 왼쪽에 사탕 가게 아이콘. 작은 화살표 하나가 가게로 되돌아가고(\"$32M reinvested\"), 굵은 화살표가 오른쪽 여러 회사 아이콘으로 뻗어 나감(\"The rest, to new businesses\"). 실제 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Great, good and gruesome.",
+      "body": [
+        "In his 2007 letter, Buffett sorted businesses into three kinds.",
+        "Then he put the pieces together. See's could raise prices because people bought it as a treat or a gift, not to save money. Its shops didn't need to multiply. So each year its cash was free for whatever looked best across Berkshire."
+      ],
+      "list": [
+        "**Great:** high returns, little new money needed to grow. See's.",
+        "**Good:** decent returns, but growth eats lots of new capital.",
+        "**Gruesome:** grows fast, needs heaps of capital, earns little. He named airlines."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "This only works under real conditions.",
+      "body": [
+        "The brand must hold. Paying three times the assets made sense only because customers kept coming back at higher prices. A fading brand turns that premium into a loss.",
+        "You need better places to send the money. Moving cash out helps only if the new home earns more.",
+        "And don't starve a business that *can* grow well. See's reportedly struggled to expand far beyond its home market, so sending cash elsewhere was right. Another business might deserve the money."
+      ],
+      "softwareNote": "Many software products look like See's: once built, they need little new capital per extra customer. The same question applies. If growth needs only a little reinvestment, where should the rest of the cash go?"
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a payroll software firm.",
+      "illustrative": true,
+      "body": [
+        "Your small B2B payroll software company earns $1 million a year. Clients rarely leave, and serving more of them costs little. Your team thinks a new office in another city would add only a few clients.",
+        "Meanwhile, a nearby bookkeeping firm with steady profits is for sale. What do you do with this year's profit?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Put it all into the new office. Profit belongs to the business that earned it",
+            "verdict": "risky",
+            "feedback": "Loyal, but you push money into a project expected to earn little. That's the trap See's avoided."
+          },
+          {
+            "key": "B",
+            "text": "Fund what the product truly needs, then weigh the bookkeeping firm against simply paying it out",
+            "verdict": "best",
+            "feedback": "You keep the core healthy and send the rest where it earns most. The cost is real work: judging a business you don't yet run."
+          },
+          {
+            "key": "C",
+            "text": "Keep it all in the bank until a perfect idea appears",
+            "verdict": "partial",
+            "feedback": "Safe and flexible, but idle cash earns little. Waiting is a choice too, so give it a deadline."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A great business is one that frees its cash.",
+      "body": [
+        "See's mattered less for how much it grew and more for how little money growth required. That freed cash built Berkshire.",
+        "**Try it today:** for your business, write down how much of last year's profit growth truly needed. Then ask where the rest would earn the most."
+      ],
+      "next": "Next · Allocate $10M of profit"
+    }
+  ]
+}

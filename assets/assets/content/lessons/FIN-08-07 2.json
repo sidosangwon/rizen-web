@@ -1,0 +1,261 @@
+{
+  "id": "FIN-08-07",
+  "unitId": "FIN-08",
+  "categoryId": "FIN",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "Should a company take a big loan?",
+  "readerTitle": "The bank said yes. Can you pay it back in a bad year?",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (원예용품 매장 확장 대출, 청소 서비스 회사 차량 구입) · 모든 수치는 설명용",
+  "insight": "대출 결정은 좋은 해에 얼마를 더 버느냐가 아니라, 나쁜 해에 매달 갚을 현금이 어디서 나오느냐로 판단한다.",
+  "misconception": "새 사업이 이자보다 많이 벌기만 하면 대출은 이득이다. 장부상 이익이 나면 대출 상환은 문제없다.",
+  "relatedLessonIds": [
+    "FIN-08-04",
+    "FIN-08-05"
+  ],
+  "sources": [
+    {
+      "text": "재무관리의 표준 개념 (레버리지, 유동성, 원리금 균등 상환)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "레버리지 계산: 자기 돈 $200,000. 대출 없음 좋은 해 $40,000 ÷ $200,000 = 20%, 나쁜 해 $25,000 ÷ $200,000 = 12.5%. 대출 있음 좋은 해 ($40,000 + $40,000 − 이자 $15,000) ÷ $200,000 = 32.5%, 나쁜 해 ($25,000 + $10,000 − $15,000) ÷ $200,000 = 10%. 이익은 이자·세금 전 영업이익 기준.",
+      "status": "open"
+    },
+    {
+      "note": "대출 상환액: $200,000, 연 8%, 5년(60개월) 원리금 균등 상환 시 월 약 $4,055, 연 약 $48,660. 카드에는 월 약 $4,050, 연 약 $48,600으로 반올림. 첫해 이자는 계산상 약 $14,800이며 카드에는 약 $15,000으로 표기.",
+      "status": "open"
+    },
+    {
+      "note": "현금 부족 계산: 첫해 원금 상환 $48,600 − $15,000 = $33,600(약 $34,000). 나쁜 해 이자 후 이익 $20,000 − 원금 $33,600 = 약 −$13,600(약 $14,000 부족). 세금, 감가상각, 재고 변화는 단순화를 위해 제외했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "금리 8% → 6% 인하 시 첫해 이자 절감은 대략 $3,700 수준. 카드에는 'a few thousand dollars'로만 표기.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Everyday scene",
+      "title": "The bank said yes. Can you pay it back in a bad year?",
+      "illustrative": true,
+      "body": [
+        "Mara runs a busy garden centre. She has put $200,000 of her own money into it, and in a normal year it earns about $40,000.",
+        "Her bank offers $200,000 at 8%, repaid over five years, to open a second store. The approval took one day. The hard part is deciding whether to sign."
+      ],
+      "image": {
+        "label": "Garden centre owner holding a loan letter at the counter",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 일러스트. 화분과 묘목이 가득한 원예용품 매장 계산대에서 주인이 은행 승인 편지를 들고 고민하는 모습. 창밖으로 비어 있는 두 번째 점포가 보임. 실제 은행·브랜드 로고는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which question should Mara answer first?",
+      "illustrative": true,
+      "body": [
+        "The loan costs about $4,050 a month. Mara has one evening to think before she meets the bank."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Can I get the rate down from 8% to 6%?",
+            "verdict": "partial",
+            "feedback": "Worth asking, and it saves a few thousand dollars a year. But the rate rarely decides whether a loan sinks a business. The fixed monthly payment does."
+          },
+          {
+            "key": "B",
+            "text": "If the new store has a bad year, where does each monthly payment come from?",
+            "verdict": "best",
+            "feedback": "This tests the two things that matter: how **leverage** hurts in a bad year, and whether the cash to pay is actually within reach."
+          },
+          {
+            "key": "C",
+            "text": "How much more stock can $200,000 buy?",
+            "verdict": "risky",
+            "feedback": "It plans the spending and skips the repaying. More stock is the reason to borrow, not proof you can pay it back."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "Leverage at work",
+      "title": "Debt makes good years better and bad years worse.",
+      "illustrative": true,
+      "body": [
+        "Return on Mara's own $200,000. In a good year each store earns $40,000. In a bad year the old store earns $25,000 and the new one $10,000. First-year interest is about $15,000 either way."
+      ],
+      "chart": {
+        "unit": "%",
+        "groups": [
+          {
+            "label": "Good year",
+            "rows": [
+              {
+                "label": "No loan",
+                "value": 20,
+                "highlight": false
+              },
+              {
+                "label": "With loan",
+                "value": 32.5,
+                "highlight": true
+              }
+            ]
+          },
+          {
+            "label": "Bad year",
+            "rows": [
+              {
+                "label": "No loan",
+                "value": 12.5,
+                "highlight": false
+              },
+              {
+                "label": "With loan",
+                "value": 10,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "callout": "The interest doesn't shrink when sales do."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept used · Leverage",
+      "title": "Borrowed money stretches the result in both directions.",
+      "body": [
+        "**Leverage** means using borrowed money to grow. The lender gets a fixed payment. Mara keeps whatever is left, good or bad.",
+        "In a good year, the new store's profit flows to her and her return jumps from 20% to 32.5%. In a bad year, the interest still has to be paid, so her return falls below what she'd have earned without the loan."
+      ],
+      "softwareNote": "A subscription business with steady monthly revenue can carry debt more safely than one that lives on a few large deals. The test is the same: can the payments be made in the worst month, not the average one?"
+    },
+    {
+      "index": 5,
+      "type": "breakdown",
+      "eyebrow": "Concept used · Liquid vs illiquid",
+      "title": "Profitable on paper, short of cash in the bank.",
+      "illustrative": true,
+      "body": [
+        "The $200,000 goes into shelves, fittings and plants. None of it turns back into cash quickly. But the bank wants cash every month, including the principal, the borrowed amount itself. In a bad year, that leaves a hole."
+      ],
+      "breakdown": [
+        {
+          "value": "$48,600",
+          "label": "Loan payments this year",
+          "detail": "About $4,050 a month",
+          "highlight": false
+        },
+        {
+          "value": "−$15,000",
+          "label": "Interest",
+          "detail": "Already counted in profit",
+          "highlight": false
+        },
+        {
+          "value": "$34,000",
+          "label": "Principal",
+          "detail": "Paid from cash, not shown as a cost",
+          "highlight": false
+        },
+        {
+          "value": "$20,000",
+          "label": "Bad-year profit after interest",
+          "detail": "Both stores together",
+          "highlight": false
+        },
+        {
+          "value": "−$14,000",
+          "label": "Cash gap",
+          "detail": "Money Mara must find elsewhere",
+          "highlight": true
+        }
+      ],
+      "callout": "Assets you can't sell fast don't pay monthly bills.",
+      "softwareNote": "Money spent building a product works the same way: it's hard to turn back into cash, while loan payments arrive every month."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Saying no to debt has a cost too.",
+      "body": [
+        "Refusing every loan protects the bad year but gives up the good one. Over several decent years, Mara's extra return could be large.",
+        "The point isn't to avoid debt. It's to size and shape it so a bad year hurts but doesn't break the business. Debt fits best when earnings are steady and some cash stays easy to reach.",
+        "These numbers also skip tax and the bank's terms. And a bad year is not the worst year."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a cleaning company.",
+      "illustrative": true,
+      "body": [
+        "Your office-cleaning firm wins a two-year contract with a business park. You need four vans and equipment: $120,000. The client can cancel with 60 days' notice.",
+        "How do you fund it?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Borrow $120,000 over five years and buy everything outright",
+            "verdict": "risky",
+            "feedback": "**Leverage** boosts your return while the contract runs. But payments last three years longer than the work is promised, and used vans sell at a loss when you need cash fast."
+          },
+          {
+            "key": "B",
+            "text": "Borrow less, rent some vans, and keep three months of payments in cash",
+            "verdict": "best",
+            "feedback": "You keep most of the upside and limit the downside. The cash reserve is **liquid**, so a cancelled contract gives you time instead of a crisis."
+          },
+          {
+            "key": "C",
+            "text": "Turn the contract down to stay debt-free",
+            "verdict": "partial",
+            "feedback": "No repayment risk at all. But you give up two years of profit that a smaller, well-shaped loan could have captured."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Judge a loan by the bad year, not the good one.",
+      "body": [
+        "Concepts used: **Leverage**, which stretches results both ways, and **liquid vs illiquid assets**, which decides whether you can pay when sales dip.",
+        "**Try it today:** take any loan you have or are considering. Write down a bad year's profit, then the full yearly payment. Where would the difference come from?"
+      ],
+      "next": "Next · Hold cash or invest it?"
+    }
+  ]
+}

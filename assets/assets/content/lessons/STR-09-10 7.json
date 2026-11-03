@@ -1,0 +1,248 @@
+{
+  "id": "STR-09-10",
+  "unitId": "STR-09",
+  "categoryId": "STR",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Should you acquire your competitor?",
+  "readerTitle": "Your rival wants to sell you his company. Four calls to make.",
+  "format": "everyday_scene",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.2,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (지역 냉난방·배관 서비스 회사가 경쟁사를 인수, 경쟁사 매출 일부는 부동산 관리회사와의 B2B 유지보수 계약) · 모든 수치는 설명용",
+  "insight": "경쟁사 인수는 '살까 말까' 한 번의 결정이 아니다. 왜 사는지, 무엇이 진짜 절감인지, 무엇을 빼야 하는지, 어떻게 합칠지라는 네 번의 결정이 이어진다.",
+  "misconception": "경쟁사를 사면 덩치가 커지고 경쟁자가 사라지니 그 자체로 이득이다. 매도자가 제시한 시너지 목록만큼 더 지불해도 된다.",
+  "relatedLessonIds": [
+    "STR-09-02",
+    "STR-09-03"
+  ],
+  "sources": [
+    {
+      "text": "기업 인수, 시너지 평가, 포트폴리오, 인수 후 통합에 관한 경영전략의 표준 개념 (STR-09 유닛 내용 종합)",
+      "url": null
+    },
+    {
+      "text": "모든 인물, 회사, 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 설명용 가상 수치입니다. 시너지 계산: 배차 사무실 통합 $90k + 이동 시간 절감 $80k = 비용 시너지 $170k, 여기에 교차판매 $130k를 더하면 매도자 주장 $300k. 카드 문구와 일치하는지 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "호가 $2.4M = 연간 이익 $400k × 6배. 경쟁사 매출의 40%가 부동산 관리회사 3곳과의 연 단위 계약이라는 설정도 카드 간에 일관되는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Watch out 카드의 경쟁 당국 관련 문장은 일반론으로만 썼습니다. 특정 국가의 법률 조언으로 읽히지 않는지 검토하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Strategy · Simulation",
+      "title": "Your biggest rival wants to sell you his company.",
+      "illustrative": true,
+      "body": [
+        "You run a heating and plumbing company with 20 technicians. For ten years, your toughest competitor has been Ray, who runs a 12-person shop across town.",
+        "Ray calls on a Monday. He's retiring. He'd rather sell to you than to a stranger. Over the next four cards, you make the calls."
+      ],
+      "image": {
+        "label": "Two service vans parked nose to nose on a quiet street",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 주택가 골목에 색이 다른 서비스 밴 두 대가 마주 보고 서 있고, 각 운전석에서 사장 두 명이 창문 너머로 악수. 실제 회사 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "text",
+      "eyebrow": "The deal on the table",
+      "title": "What Ray is selling.",
+      "illustrative": true,
+      "body": [
+        "Ray's company earns about **$400,000** a year in profit. He's asking $2.4 million, six times that.",
+        "His vans cover many of the same neighborhoods as yours. About 40% of his revenue comes from yearly maintenance contracts with three property management firms. He also runs a small pool-cleaning side business.",
+        "He wants an answer within a month."
+      ],
+      "image": {
+        "label": "Map with two overlapping service areas",
+        "aspectRatio": "16:9",
+        "brief": "도시 지도 인포그래픽. 파란 원(우리 회사)과 주황 원(경쟁사)의 서비스 지역이 크게 겹치고, 겹친 부분을 진하게 표시. 한쪽 구석에 아파트 건물 아이콘 3개(\"3 property managers\")와 작은 수영장 아이콘.",
+        "url": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 4",
+      "title": "Why would you buy?",
+      "illustrative": true,
+      "body": [
+        "Before talking price, you need one clear reason. Which one would you build the deal on?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "If I don't, someone bigger will buy him and compete harder",
+            "verdict": "partial",
+            "feedback": "A real worry, but fear alone can't tell you what to pay. Defensive buyers often overpay because any price feels better than losing."
+          },
+          {
+            "key": "B",
+            "text": "Our routes overlap, so combined crews can fit more jobs into each van-day",
+            "verdict": "best",
+            "feedback": "This reason is specific and checkable. You can count drive time today and estimate it after. It also tells you which parts of Ray's business matter most."
+          },
+          {
+            "key": "C",
+            "text": "We'd be the biggest firm in town",
+            "verdict": "risky",
+            "feedback": "Size feels like strength, but it isn't a reason. Being bigger can add costs, like more managers and more scheduling chaos, without adding profit."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 4",
+      "title": "Ray's broker sends a list of savings.",
+      "illustrative": true,
+      "body": [
+        "Say you chose route density. The broker says combining saves $300,000 a year: one shared dispatch office ($90k), less drive time ($80k), and selling your water-heater installs to Ray's customers ($130k).",
+        "How much of that do you count when you set your top price?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "All $300k. The broker did the homework",
+            "verdict": "risky",
+            "feedback": "You'd pay Ray in advance for sales that depend on customers choosing to buy more. If they don't, you've overpaid with no way back."
+          },
+          {
+            "key": "B",
+            "text": "The $170k in cost savings you control. Treat cross-selling as a bonus",
+            "verdict": "best",
+            "feedback": "Cutting a dispatch office is in your hands. Getting customers to buy more is not. You stay competitive on price without betting on hopes."
+          },
+          {
+            "key": "C",
+            "text": "None. Pay only what Ray's business is worth alone",
+            "verdict": "partial",
+            "feedback": "The safest price, but another buyer who shares some real savings with Ray can easily outbid you."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 4",
+      "title": "What about the pool business?",
+      "illustrative": true,
+      "body": [
+        "Say you priced on the $170k. Now look at Ray's pool-cleaning side business: two staff, busy only in summer, roughly breaking even. It shares nothing with your routes or skills.",
+        "What do you do with it?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep it and grow it. More services, more revenue",
+            "verdict": "risky",
+            "feedback": "It pulls your attention to a business with different customers, seasons and skills. Your reason for buying was route density, and pools add none."
+          },
+          {
+            "key": "B",
+            "text": "Leave it out of the deal, or let Ray sell it to a local pool company",
+            "verdict": "best",
+            "feedback": "You buy only what fits your reason for buying. A pool specialist will likely run it better and may pay Ray more for it than it's worth to you."
+          },
+          {
+            "key": "C",
+            "text": "Keep it as is. It's too small to matter",
+            "verdict": "partial",
+            "feedback": "Low risk in dollars. But small side businesses still take manager time, and that time comes out of the main job."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Decision 4 of 4",
+      "title": "The deal closes. Now what?",
+      "illustrative": true,
+      "body": [
+        "Say you bought the heating and plumbing business only. Ray's three property managers know Ray, not you. His best technicians are getting calls from other shops.",
+        "How do you combine the two companies?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Rebrand everything and move all staff to your pay and schedules in week one",
+            "verdict": "risky",
+            "feedback": "Fast, but it changes everything for people at the moment they're most unsure. Top technicians leave, and a property manager may use the change as a reason to reopen bidding."
+          },
+          {
+            "key": "B",
+            "text": "Merge dispatch and billing first, keep Ray's name for six months, have Ray introduce you to the property managers, and pay key techs to stay",
+            "verdict": "best",
+            "feedback": "You capture the dispatch and drive-time savings first, then protect the 40% of revenue tied to three relationships. The full change takes longer but loses less."
+          },
+          {
+            "key": "C",
+            "text": "Run the two companies side by side for good, to avoid any disruption",
+            "verdict": "partial",
+            "feedback": "Nobody quits, but there's no shared dispatch and no shorter routes. The $170k you paid for never arrives."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Real deals are messier than four clean calls.",
+      "body": [
+        "This story assumed Ray's numbers were true. In practice you check the books, the contracts and the staff turnover before you sign. Surprises found later cost far more.",
+        "Buying a direct competitor can also draw a regulator's attention in some markets. Get local advice before you commit."
+      ],
+      "softwareNote": "The same four calls apply when a software company buys a rival tool. Shared hosting and support are savings you control. Moving the rival's users onto your product is the integration step where churn usually spikes."
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Buying a competitor is four decisions, not one.",
+      "body": [
+        "Each call you made maps to an idea from this unit:"
+      ],
+      "list": [
+        "**Why buy:** a specific, checkable reason, like route density (Why companies acquire)",
+        "**What to pay for:** only the savings you control (Real vs imagined synergies)",
+        "**What to drop:** parts that don't fit your reason (Portfolio thinking and spin-offs)",
+        "**How to combine:** quick back-office wins first, people and customers protected (Integration)"
+      ],
+      "callout": "**Try it today:** name one company you could imagine buying. Write your one reason in a single sentence. If you can't, you're not ready to talk price.",
+      "next": "Next · A new unit begins"
+    }
+  ]
+}

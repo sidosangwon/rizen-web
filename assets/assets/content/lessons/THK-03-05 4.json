@@ -1,0 +1,282 @@
+{
+  "id": "THK-03-05",
+  "unitId": "THK-03",
+  "categoryId": "THK",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "The fundamental attribution error",
+  "readerTitle": "Twelve complaints, one server. Is she the problem?",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (비스트로 서버, 소프트웨어 고객지원팀) + 실제 연구 (Jones & Harris 1967, Ross·Amabile·Steinmetz 1977) · 사례 수치는 모두 설명용",
+  "insight": "다른 사람의 나쁜 숫자를 보면 성격을 탓하기 전에 그 사람이 앉은 자리(맡은 일, 시간대, 업무량)부터 확인한다.",
+  "misconception": "성과가 나쁜 사람은 능력이나 태도가 나쁜 사람이다. 숫자가 가장 나쁜 직원이 가장 문제 있는 직원이다.",
+  "relatedLessonIds": [
+    "THK-03-03",
+    "THK-11-02"
+  ],
+  "sources": [
+    {
+      "text": "Jones, E. E., & Harris, V. A. (1967). The attribution of attitudes. Journal of Experimental Social Psychology, 3(1), 1–24.",
+      "url": null
+    },
+    {
+      "text": "Ross, L. (1977). The intuitive psychologist and his shortcomings. Advances in Experimental Social Psychology, 10, 173–220.",
+      "url": null
+    },
+    {
+      "text": "Ross, L., Amabile, T. M., & Steinmetz, J. L. (1977). Social roles, social control, and biases in social-perception processes. Journal of Personality and Social Psychology, 35(7), 485–494.",
+      "url": null
+    },
+    {
+      "text": "비스트로와 고객지원팀 수치는 모두 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "비스트로 계산: 100테이블당 불만 Maya 12 ÷ 800 × 100 = 1.5, Leo 5 ÷ 250 × 100 = 2.0, Sam 4 ÷ 200 × 100 = 2.0, Ana 3 ÷ 150 × 100 = 2.0. 원 불만 수는 Maya가 가장 많지만 비율은 가장 낮습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Jones & Harris(1967): 피험자들은 글쓴이가 카스트로 찬성·반대 입장을 배정받았다는 말을 들은 뒤에도 찬성 글의 글쓴이를 더 친카스트로적이라고 평가했습니다. 카드에는 구체적 수치 없이 결과 방향만 적었습니다. 원문으로 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Ross 외(1977) 퀴즈 연구: 출제자와 응답자 역할을 무작위로 배정했는데, 응답자와 관찰자 모두 출제자를 더 박식하다고 평가했습니다. '근본적 귀인 오류'라는 용어는 Ross(1977)가 만들었습니다. 원문으로 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "고객지원 사례: 팀 평균 만족도 88%, Jin 72%는 가상 수치입니다. 환불·결제 분쟁 문의가 일반 문의보다 만족도가 낮다는 설정도 설명용 가정입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Numbers twist",
+      "title": "Twelve complaints, one server. Is she the problem?",
+      "illustrative": true,
+      "body": [
+        "At a busy bistro, one server, Maya, collected 12 customer complaints last month. The next-worst server had 5.",
+        "The manager had already decided what kind of person Maya was. Then someone looked at one more number."
+      ],
+      "image": {
+        "label": "A manager's clipboard with one server's name circled",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 매니저가 클립보드를 들고 있고, 서버 4명 이름 옆에 불만 건수 막대가 그려져 있음. 한 명(Maya)의 막대만 길고 빨간 동그라미가 쳐져 있음. 배경은 따뜻한 비스트로 실내. 실제 브랜드나 로고 없음.",
+        "url": "assets/images/thk-03-05-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What do you do about Maya?",
+      "illustrative": true,
+      "body": [
+        "You manage the bistro. Maya has 12 complaints this month. Leo has 5, Sam has 4, Ana has 3. Two regulars mentioned slow service on her tables.",
+        "What's your first move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Give her a written warning and a service refresher",
+            "verdict": "risky",
+            "feedback": "It acts fast and shows you take complaints seriously. But if the cause isn't Maya, you lose a good server's trust and the problem stays."
+          },
+          {
+            "key": "B",
+            "text": "Check her section, shifts and number of tables before deciding",
+            "verdict": "best",
+            "feedback": "It costs you an hour with the schedule. In return, you find out whether you're looking at a person or a seat."
+          },
+          {
+            "key": "C",
+            "text": "Quietly move her to a slower section and see what happens",
+            "verdict": "partial",
+            "feedback": "Testing the situation is smart. But moving her without checking first can feel like a demotion, and it hides the data you need."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "Same complaints, different denominator.",
+      "illustrative": true,
+      "body": [
+        "Maya works the patio on Friday and Saturday nights. It's the section farthest from the kitchen. She served 800 tables. The others served 150 to 250.",
+        "Per 100 tables, Maya had the **fewest** complaints. Most of hers were about slow food, which the kitchen controls."
+      ],
+      "chart": {
+        "unit": "count",
+        "groups": [
+          {
+            "label": "Complaints this month",
+            "rows": [
+              {
+                "label": "Maya",
+                "value": 12,
+                "highlight": true
+              },
+              {
+                "label": "Leo",
+                "value": 5,
+                "highlight": false
+              },
+              {
+                "label": "Sam",
+                "value": 4,
+                "highlight": false
+              },
+              {
+                "label": "Ana",
+                "value": 3,
+                "highlight": false
+              }
+            ]
+          },
+          {
+            "label": "Complaints per 100 tables",
+            "rows": [
+              {
+                "label": "Maya",
+                "value": 1.5,
+                "highlight": true
+              },
+              {
+                "label": "Leo",
+                "value": 2,
+                "highlight": false
+              },
+              {
+                "label": "Sam",
+                "value": 2,
+                "highlight": false
+              },
+              {
+                "label": "Ana",
+                "value": 2,
+                "highlight": false
+              }
+            ]
+          }
+        ]
+      },
+      "image": {
+        "label": "Same complaints, different denominator.",
+        "aspectRatio": "4:3",
+        "brief": "Labeled HTML chart from the lesson numbers",
+        "url": "assets/images/thk-03-05-chart.png"
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The fundamental attribution error",
+      "body": [
+        "The **fundamental attribution error** is our habit of explaining other people's behavior by their character, while underplaying the situation they're in.",
+        "When a colleague misses a deadline, we think *careless*. When we miss one, we think *too many meetings*. We see our own circumstances clearly, but other people's are mostly invisible to us.",
+        "The manager saw Maya. He didn't see the patio, the weekend crowds or the kitchen."
+      ],
+      "image": {
+        "label": "A person in a spotlight while the busy scene around them is in shadow",
+        "aspectRatio": "16:9",
+        "brief": "무대 위 한 사람에게만 스포트라이트가 비치고, 주변의 상황(먼 주방, 꽉 찬 테이블, 시계)은 어둠 속에 흐릿하게 보임. 왼쪽 라벨 \"What we see: the person\", 오른쪽 라벨 \"What we miss: the situation\".",
+        "url": "assets/images/thk-03-05-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "Even when told the cause, we still blame the person.",
+      "body": [
+        "In a 1967 study by Edward Jones and Victor Harris, people read essays for or against Fidel Castro. Even when told the writers had been *assigned* their side, readers still judged the pro-Castro writers as more pro-Castro.",
+        "In a 1977 study, Lee Ross and colleagues randomly made people either quiz-writers or contestants. Writers asked questions from their own knowledge. Afterward, contestants and onlookers rated the quiz-writers as more knowledgeable, even though the roles were random.",
+        "Ross gave the error its name the same year."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where else it shows up",
+      "title": "It works on success too.",
+      "body": [
+        "The same error makes heroes. A salesperson with the richest territory looks like a natural closer. A store manager in a growing neighborhood looks like a genius.",
+        "It also shapes how we see partners and customers. A supplier who is always late may be reacting to your rush orders. Customers who abandon a form may not be lazy. The form may be long.",
+        "In each case, the first question is the same: what is this person's situation?"
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Sometimes it really is the person.",
+      "body": [
+        "Situations explain a lot, but not everything. If you blame the seat every time, real performance problems go unaddressed, and strong performers notice.",
+        "A useful check is the **swap test**: would most people in the same role, shift and workload get similar results? If yes, fix the situation. If others in the same seat do clearly better, it's fair to look at the person.",
+        "The goal isn't to excuse people. It's to judge them on a fair comparison."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software support team.",
+      "illustrative": true,
+      "body": [
+        "You run customer support for a subscription app. The team's average satisfaction score is 88%. Jin's is 72%, the lowest on the team.",
+        "Jin handles the queue for refund requests and billing disputes. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Put Jin on a coaching plan for tone and empathy",
+            "verdict": "risky",
+            "feedback": "Coaching rarely hurts, but it assumes the score is about Jin. Angry users asking for refunds may rate anyone low."
+          },
+          {
+            "key": "B",
+            "text": "Compare Jin's scores with others on the same ticket types",
+            "verdict": "best",
+            "feedback": "This is the swap test. If others score near 72% on billing tickets too, Jin may be one of your best agents."
+          },
+          {
+            "key": "C",
+            "text": "Move Jin off billing and rotate the queue",
+            "verdict": "partial",
+            "feedback": "Rotation spreads the hard work fairly and will reveal the pattern. But acting before comparing may punish Jin for taking the toughest job."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "Dashboards make this error easy. A per-person score looks objective, but it hides which accounts, tickets or users each person was given."
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Before judging the person, look at the seat.",
+      "body": [
+        "Bad numbers often describe a situation, not a character. Compare people only with others who face the same conditions.",
+        "**Try it today:** think of someone whose results frustrate you. Write down three things about their situation you haven't checked: workload, assignments and tools."
+      ],
+      "next": "Next · Why people believe what they're paid to believe"
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "id": "OPS-02-08",
+  "unitId": "OPS-02",
+  "categoryId": "OPS",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "A team with too much work in progress",
+  "readerTitle": "Thirty-one projects started, almost none finished",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.3,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (사내 마케팅·디자인팀, 리모델링 시공업체) · 모든 수치는 설명용",
+  "insight": "일이 늦어지는 이유는 사람이 부족해서가 아니라 동시에 시작한 일이 너무 많아서일 수 있다. 시작을 줄이면 끝나는 속도가 빨라진다.",
+  "misconception": "모두가 바쁘게 여러 일을 동시에 진행하면 전체 일이 더 빨리 끝난다. 일이 밀리면 사람을 더 뽑는 것이 첫 번째 해법이다.",
+  "relatedLessonIds": [
+    "OPS-02-04",
+    "OPS-02-05"
+  ],
+  "sources": [
+    {
+      "text": "린(Lean) 운영의 표준 개념 (흐름, 진행 중 작업 제한, 가동률과 대기의 관계)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "카드 3 계산: 1인당 프로젝트 5개, 각 3일 작업. 번갈아 진행하면 총 15일 후 거의 동시에 끝남(전환 비용 제외). 하나씩 끝내면 3, 6, 9, 12, 15일에 완료, 평균 (3+6+9+12+15) ÷ 5 = 9일. 첫 완료는 15일이 아니라 3일.",
+      "status": "open"
+    },
+    {
+      "note": "팀 수치: 6명, 진행 중 31건(1인당 약 5건). 31 ÷ 6 = 5.2이므로 '약 5개'로 표기했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "시공업체 수치: 4개 팀, 진행 중 14건, 팀당 최대 2건이면 동시 진행 8건. 모두 가상 수치입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Everyday scene",
+      "title": "Thirty-one projects started, almost none finished",
+      "illustrative": true,
+      "body": [
+        "An in-house marketing team of six people has 31 projects marked *in progress*. Brochures, a product video, three landing pages, a trade-show booth.",
+        "Everyone is busy from nine to six. Nobody is slacking. Yet in the last month, the team shipped two things, and the sales team is losing patience."
+      ],
+      "image": {
+        "label": "A task board overflowing with cards in the 'In progress' column",
+        "aspectRatio": "4:3",
+        "brief": "사무실 벽의 작업 보드. 'To do'와 'Done' 칸은 거의 비어 있고 'In progress' 칸에만 포스트잇이 넘쳐 바닥까지 떨어짐. 그 앞에 바쁘게 움직이는 6명의 팀원. 실제 회사 로고는 쓰지 않음.",
+        "url": "assets/images/ops-02-08-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You run this team. What do you change first?",
+      "illustrative": true,
+      "body": [
+        "Your boss offers budget for one fix. Requests keep arriving at about the same pace as before.",
+        "Which move gets finished work out the door fastest?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Hire a freelancer to add capacity",
+            "verdict": "partial",
+            "feedback": "More hands help a little, but the freelancer joins the same pile of 31 half-done projects. The work still doesn't flow; it just spreads across seven people."
+          },
+          {
+            "key": "B",
+            "text": "Stop starting new projects until the open ones drop to about two per person",
+            "verdict": "best",
+            "feedback": "This is **flow** at work: value reaches the business only when something is finished. Fewer open projects means each one moves through faster."
+          },
+          {
+            "key": "C",
+            "text": "Work on whichever request is most urgent that day",
+            "verdict": "risky",
+            "feedback": "It feels responsive, but it adds more switching and leaves even more projects half done. Yesterday's urgent request becomes today's stalled one."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "One person, five projects, two ways to work.",
+      "illustrative": true,
+      "body": [
+        "Each project needs about 3 days of real work. Same person, same 15 days of effort. Finishing one at a time cuts the average wait from **15 days to 9**, before even counting the time lost to switching."
+      ],
+      "breakdown": [
+        {
+          "value": "15 days",
+          "label": "Juggle all five",
+          "detail": "A bit of each every day. All five finish around day 15.",
+          "highlight": false
+        },
+        {
+          "value": "Day 3",
+          "label": "Finish one first",
+          "detail": "The first project is done on day 3, not day 15",
+          "highlight": false
+        },
+        {
+          "value": "9 days",
+          "label": "Average wait, one at a time",
+          "detail": "Done on days 3, 6, 9, 12 and 15",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept at work · Flow",
+      "title": "Started work is not progress.",
+      "body": [
+        "**Flow** means work moves steadily from start to finish without piling up in the middle. A half-made brochure helps no one. It only counts once it's printed.",
+        "With 31 projects open, the team's effort is spread so thin that very little crosses the finish line. The fix is simple to say and hard to do: *stop starting, start finishing.*"
+      ],
+      "softwareNote": "In software teams, the same pile shows up as dozens of half-built features and open code changes. A feature earns nothing until it's released, so limiting work in progress often speeds up releases more than adding engineers."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Concept at work · The utilization trap",
+      "title": "Everyone busy is the warning sign.",
+      "body": [
+        "The team looks efficient because no one has a free minute. That's **the utilization trap**: when people are booked near 100%, every new request waits in line, and waits grow fast.",
+        "A team running at about 80% can absorb a surprise rush order. A team at 100% pushes it to the back of 31 other things. Some slack isn't laziness. It's what keeps work moving."
+      ],
+      "image": {
+        "label": "Two lanes: a jammed full lane and a flowing lane with gaps",
+        "aspectRatio": "16:9",
+        "brief": "두 개의 도로 비교 일러스트. 왼쪽 'Booked 100%' 차선은 차가 빽빽해 멈춰 있음. 오른쪽 'Booked ~80%' 차선은 차 사이에 간격이 있고 화살표처럼 매끄럽게 흐름. 단순한 플랫 스타일.",
+        "url": "assets/images/ops-02-08-c5.jpg"
+      }
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a renovation contractor.",
+      "illustrative": true,
+      "body": [
+        "You run four crews that remodel kitchens and bathrooms. You have 14 jobs open at once. Customers complain their homes have sat half-finished for weeks.",
+        "Three new customers want to start next month. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Accept all three so every crew stays fully booked",
+            "verdict": "risky",
+            "feedback": "This is the utilization trap. Full schedules feel safe, but every job waits longer, and one delayed delivery stalls everything behind it."
+          },
+          {
+            "key": "B",
+            "text": "Cap each crew at two open jobs and start a new one only when one finishes",
+            "verdict": "best",
+            "feedback": "That's flow. Kitchens finish sooner, crews travel less, and new customers get an honest start date instead of a half-done room."
+          },
+          {
+            "key": "C",
+            "text": "Accept all three and rotate crews so every home sees some progress each week",
+            "verdict": "partial",
+            "feedback": "Customers see activity, which calms them for a while. But every job takes longer, and the time lost driving between homes grows."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A limit only works if someone holds it.",
+      "body": [
+        "Limiting open work doesn't make requests disappear. They wait in a visible queue instead of a hidden pile. That's better, because you can now choose what goes next. But someone must say *not yet* to colleagues or customers.",
+        "Set the limit too low and people sit idle when a job is blocked by a missing part or a late approval. Start with a limit a little below today's level, then adjust."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Finish more by starting less.",
+      "body": [
+        "**Concepts used:** *Flow* showed why finished work matters more than started work. *The utilization trap* showed why a team booked at 100% makes everything wait.",
+        "**Try it today:** count the projects your team has open right now. Pick a limit below that number and start nothing new until you're under it."
+      ],
+      "next": "Next · Why In-N-Out keeps its menu so short"
+    }
+  ]
+}

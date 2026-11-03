@@ -1,0 +1,218 @@
+{
+  "id": "THK-09-03",
+  "unitId": "THK-09",
+  "categoryId": "THK",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "Regret minimization",
+  "readerTitle": "The decision you'll still think about in ten years",
+  "format": "everyday_scene",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (회계 대행 사무소, 철물점) + 실제 연구 (Gilovich & Medvec 1995, Gilbert 외 2004)",
+  "insight": "드물고 큰 결정은 내년 숫자가 아니라 먼 미래의 내가 어느 쪽을 더 후회할지로 비교하고, 감당할 수 있는 손실 범위 안에서 실행한다.",
+  "misconception": "후회를 줄이려면 아무것도 바꾸지 않고 안전한 쪽에 머무는 것이 낫다. 또는 반대로, 후회 최소화는 무조건 크게 저지르라는 뜻이다.",
+  "relatedLessonIds": [
+    "THK-09-02",
+    "THK-09-09"
+  ],
+  "sources": [
+    {
+      "text": "Gilovich, T. & Medvec, V. H. (1995). The experience of regret: What, when, and why. Psychological Review, 102(2), 379–395.",
+      "url": null
+    },
+    {
+      "text": "Gilbert, D. T., Morewedge, C. K., Risen, J. L. & Wilson, T. D. (2004). Looking forward to looking backward: The misprediction of regret. Psychological Science, 15(5), 346–350.",
+      "url": null
+    },
+    {
+      "text": "Jeff Bezos, interview with the Academy of Achievement (2001), describing the 'regret minimization framework'",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Gilovich & Medvec(1995)의 핵심 결론: 단기적으로는 한 일(행동)을 더 후회하고, 장기적으로는 하지 않은 일(비행동)을 더 후회한다. 카드에는 수치 없이 방향만 적었습니다. 원문 요약과 일치하는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Gilbert 외(2004): 사람들은 결과가 나쁠 때 느낄 후회의 강도를 실제보다 크게 예측한다. 카드에는 일반적 결론만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Bezos가 'regret minimization framework'라는 표현을 쓴 출처(2001년 Academy of Achievement 인터뷰 등)를 확인하세요. 상세 일화는 THK-09-09에서 다루므로 여기서는 이름의 유래만 한 문장으로 언급했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "회계 사무소와 철물점 사례, 금액은 모두 설명용 가상 설정입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Everyday scene",
+      "title": "The decision you'll still think about in ten years",
+      "illustrative": true,
+      "body": [
+        "Lena runs a six-person bookkeeping firm. It's steady. Clients pay on time.",
+        "For three years she has wanted to specialize in restaurants, the clients she understands best. Every January she runs the numbers, and every January the idea waits one more year."
+      ],
+      "image": {
+        "label": "Business owner at a desk late at night, an old note pinned above",
+        "aspectRatio": "4:3",
+        "brief": "밤늦은 작은 사무실. 책상 앞의 여성 사업가가 노트북 스프레드시트를 보고 있고, 벽에 빛바랜 메모 \"Restaurants?\"가 세 장 겹쳐 붙어 있음(해마다 붙인 느낌). 따뜻하고 차분한 일러스트. 실제 로고 없음.",
+        "url": "assets/images/thk-09-03-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How should Lena make this call?",
+      "illustrative": true,
+      "body": [
+        "A restaurant owners' association offers her a partner slot. Taking it means about six months of focus and letting go of a few general clients. The forecast says it might pay off, or might not.",
+        "How should she decide?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Wait another year until the forecast is clearer",
+            "verdict": "risky",
+            "feedback": "Waiting feels free, but it has quietly cost her three years already. The forecast rarely gets clearer, and the offer may not come back."
+          },
+          {
+            "key": "B",
+            "text": "Decide on next year's expected revenue alone",
+            "verdict": "partial",
+            "feedback": "The numbers matter, but a one-year view can't see what this choice means for the firm she wants to run in ten years."
+          },
+          {
+            "key": "C",
+            "text": "Picture herself ten years out and ask which choice she'd regret more, then limit how much she could lose",
+            "verdict": "best",
+            "feedback": "This weighs the long view and still protects the business. It's the idea in this lesson."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What's going on",
+      "title": "The spreadsheet answers a different question.",
+      "illustrative": true,
+      "body": [
+        "Lena's forecast compares two outcomes next year. Both look similar, so staying put always wins. Staying put feels safe.",
+        "But she isn't really choosing between two revenue figures. She's choosing between two stories she'll tell about her firm later: *I tried it* or *I never found out*.",
+        "Only one of those stories keeps bothering her every January."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Regret minimization",
+      "body": [
+        "**Regret minimization** means picturing yourself far in the future, looking back, and asking which choice you'd regret more.",
+        "Jeff Bezos popularized the name when describing his own career choice. The idea is simple: for big, rare decisions, the long-term view of regret is a better guide than short-term comfort."
+      ],
+      "image": {
+        "label": "Person today and an older self looking back along a path",
+        "aspectRatio": "16:9",
+        "brief": "왼쪽에 갈림길 앞에 선 현재의 사람, 오른쪽 끝에 같은 사람의 나이 든 모습이 뒤돌아보는 장면. 두 갈래 길 중 한쪽은 \"Tried\", 다른 쪽은 \"Never found out\" 표지판. 단순한 플랫 일러스트.",
+        "url": "assets/images/thk-09-03-c4.jpg"
+      },
+      "softwareNote": "A founder deciding whether to quit a stable job, or to rebuild a product around a new kind of user, faces the same question. The quarterly numbers rarely settle it; the ten-year view often does."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "Over time, we regret what we didn't do.",
+      "body": [
+        "Psychologists Thomas Gilovich and Victoria Medvec studied what people regret. In the short term, people regret **actions** more, the mistake they made last week.",
+        "Looking back over years, the pattern flips. People regret **inactions** more: the chance not taken, the idea never tested.",
+        "So a choice that feels safe today can become the heaviest regret later. Regret minimization tries to account for that shift before you decide."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where it fits",
+      "title": "Use it for rare, big, hard-to-undo choices.",
+      "list": [
+        "Starting, selling or reshaping a business",
+        "Entering a new market or dropping an old one",
+        "Hiring a partner or parting with one"
+      ],
+      "callout": "For daily calls like pricing a quote or ordering stock, the ten-year lens is overkill. Ordinary numbers do the job.",
+      "softwareNote": "Choosing a button color doesn't need it. Choosing whether to rebuild your product for a new market might."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Regret doesn't pay the rent.",
+      "body": [
+        "Research by Daniel Gilbert and colleagues found that people tend to overestimate how much regret they'll feel when things go wrong. Imagined regret is a rough guide, not a precise one.",
+        "And avoiding the regret of not trying can push you into a bet that sinks the business. The method works best paired with a limit: **try the bold option, but only in a size you can survive** if it fails."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a hardware store.",
+      "illustrative": true,
+      "body": [
+        "Sam runs his family's hardware store. He's sure a second store in a growing town nearby would work, and he'd regret never trying. The bank will lend if he puts up the original store as security.",
+        "What fits the idea best?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Sign the loan and open a full store. Regret says go big",
+            "verdict": "risky",
+            "feedback": "He avoids the regret of not trying, but one bad year could cost him both stores. That's a regret he'd feel far longer."
+          },
+          {
+            "key": "B",
+            "text": "Test with a small, short-lease shop or a delivery service to that town first",
+            "verdict": "best",
+            "feedback": "He answers the question he'd regret not asking, while keeping the original store safe. If it works, he can scale up."
+          },
+          {
+            "key": "C",
+            "text": "Skip it. The first store is enough",
+            "verdict": "partial",
+            "feedback": "It protects what he has, but leaves the question open for years. That kind of unanswered question is what people tend to regret most."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Ask what you'll regret, then make the bet survivable.",
+      "body": [
+        "For big, rare choices, picture yourself ten years out. Pick the path you'd regret skipping, in a size you can afford to lose.",
+        "**Try it today:** write down one idea you've postponed for over a year. Ask which you'd regret more in ten years, and what the smallest safe test would be."
+      ],
+      "next": "Next · Picture three futures, not one"
+    }
+  ]
+}

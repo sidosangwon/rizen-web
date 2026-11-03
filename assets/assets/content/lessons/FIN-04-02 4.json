@@ -1,0 +1,241 @@
+{
+  "id": "FIN-04-02",
+  "unitId": "FIN-04",
+  "categoryId": "FIN",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "The three profit levers",
+  "readerTitle": "Three ways to earn 10% more. Only one doubles profit.",
+  "format": "numbers_twist",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.4,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (회계 대행사, 비스트로) + 실제 연구 (Marn & Rosiello, 1992). 기업 사례보다 계산으로 보여주는 편이 개념에 맞아 numbers_twist로 바꿈",
+  "insight": "가격, 판매량, 비용은 같은 비율로 움직여도 이익에 주는 효과가 다르다. 그 순위는 사업의 비용 구조가 정한다.",
+  "misconception": "이익을 늘리려면 고객을 더 모으는 것이 가장 확실하다. 10% 개선이면 어느 쪽이든 효과가 비슷하다.",
+  "relatedLessonIds": [
+    "FIN-04-01",
+    "FIN-04-04"
+  ],
+  "sources": [
+    {
+      "text": "Marn, M. V., & Rosiello, R. L. (1992). Managing Price, Gaining Profit. Harvard Business Review.",
+      "url": null
+    },
+    {
+      "text": "회계 대행사와 비스트로 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Marn & Rosiello(1992) 수치 확인 필요: 대형 기업 평균 기준 가격 1% 개선 시 영업이익 약 11.1%, 변동비 1% 절감 약 7.8%, 판매량 1% 증가 약 3.3%, 고정비 1% 절감 약 2.3%로 기억함. 표본 수(약 2,400개 기업, Compustat)도 원문으로 확인하세요. 카드에는 'thousands of large companies', 'about 11% / 8% / 3%'로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "회계 대행사 계산: 매출 100 × $500 = $50,000, 변동비 100 × $200 = $20,000, 고정비 $25,000, 이익 $5,000. 가격 +10%: $55,000 − $20,000 − $25,000 = $10,000(+$5,000). 고객 +10%: 110 × $300 − $25,000 = $8,000(+$3,000). 전체 비용 −10%: $45,000 × 0.9 = $40,500, 이익 $9,500(+$4,500).",
+      "status": "open"
+    },
+    {
+      "note": "가격 인상 후 고객 이탈 한도: 공헌이익 $350 × N − $25,000 ≥ $5,000 → N ≥ 85.7. 86명이면 $5,100, 85명이면 $4,750이므로 최대 14명 이탈까지 이익 유지.",
+      "status": "open"
+    },
+    {
+      "note": "비스트로 계산: 매출 5,000 × $20 = $100,000, 재료비 5,000 × $7 = $35,000, 고정비 $60,000, 이익 $5,000. 가격 +5%: $21, +$5,000. 이익 유지 식사 수 $65,000 ÷ $14 = 4,643, 감소 허용 357식(약 7%). 판매량 +5%: 250 × $13 = $3,250. 재료비 −5%: $0.35 × 5,000 = $1,750.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Numbers twist",
+      "title": "Three ways to earn 10% more. Only one doubles profit.",
+      "illustrative": true,
+      "body": [
+        "A small bookkeeping firm makes $5,000 a month in profit. The owner has three ideas, and each one is a 10% change.",
+        "On paper they sound equal. On the profit line, they are not even close."
+      ],
+      "image": {
+        "label": "Three levers on a machine, one pulled further than the others",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 기계에 레버 세 개, 라벨은 \"Price\", \"Volume\", \"Cost\". 각 레버 위 계기판 바늘이 서로 다르게 움직이고 \"Price\" 쪽 바늘이 가장 크게 올라감. 실제 로고나 상표 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which 10% move adds the most profit?",
+      "illustrative": true,
+      "body": [
+        "Your bookkeeping firm has 100 clients paying $500 a month. Each client costs $200 a month in software and contractor hours. Salaries and rent cost $25,000 a month.",
+        "Profit: $5,000 a month. You can push one lever by 10%."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Win 10% more clients",
+            "verdict": "risky",
+            "feedback": "It adds only $3,000. Each new client brings $200 of its own costs, so just $300 of every $500 reaches profit."
+          },
+          {
+            "key": "B",
+            "text": "Raise prices 10% and keep every client",
+            "verdict": "best",
+            "feedback": "It adds $5,000, so profit doubles. A price rise brings no new costs with it. The hard part is keeping the clients."
+          },
+          {
+            "key": "C",
+            "text": "Cut all costs by 10%",
+            "verdict": "partial",
+            "feedback": "It adds $4,500, a close second. But most of those costs are salaries, and a 10% cut often means fewer people or slower service."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "Same 10%, very different results.",
+      "illustrative": true,
+      "body": [
+        "Starting profit was $5,000. The price rise doubled it. Winning more clients, the move most owners try first, added the least."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Profit added per month",
+            "rows": [
+              {
+                "label": "Raise price 10%",
+                "value": 5000,
+                "highlight": true
+              },
+              {
+                "label": "Cut all costs 10%",
+                "value": 4500,
+                "highlight": false
+              },
+              {
+                "label": "Win 10% more clients",
+                "value": 3000,
+                "highlight": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The three profit levers",
+      "body": [
+        "Profit has only three levers: **price**, **volume** (how much you sell) and **cost**. Every plan to earn more pulls at least one of them.",
+        "*Profit = (price − cost per sale) × volume − fixed costs.*",
+        "The levers are not equal. Extra price arrives with no new costs. Extra volume brings its own costs along. That is why the same 10% moves profit by such different amounts."
+      ],
+      "image": {
+        "label": "Profit formula with three levers labeled",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 공식 \"(Price − Cost per sale) × Volume − Fixed costs = Profit\"을 크게 쓰고, Price, Volume, Cost 아래에 각각 작은 레버 아이콘. Price에서 Profit으로 곧장 이어지는 굵은 화살표, Volume에서는 중간에 비용이 빠져나가는 얇은 화살표.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "Large companies show the same pattern.",
+      "body": [
+        "In a 1992 Harvard Business Review article, McKinsey consultants Michael Marn and Robert Rosiello looked at average results across thousands of large companies.",
+        "A 1% price rise, with sales volume unchanged, lifted operating profit by about 11%. A 1% cut in the costs tied to each sale lifted it by about 8%. A 1% rise in volume lifted it by only about 3%.",
+        "Exact numbers differ by business. The order is what surprised managers."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where it changes",
+      "title": "Your cost structure sets the ranking.",
+      "body": [
+        "When each sale carries heavy costs, like a grocer paying for the goods on its shelves, the cost lever is strong and volume is weak. Little of each extra sale is left over.",
+        "When each sale carries almost no cost, volume gets close to price in power. So rank your own levers before copying someone else's playbook."
+      ],
+      "softwareNote": "A software product that keeps about $90 of every extra $100 in sales gains almost as much from a new customer as from a price rise. That is one reason software firms often chase growth so hard."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The levers pull on each other.",
+      "body": [
+        "Raise prices and some customers may leave. Cut costs and quality can slip, which hurts volume later. No lever moves alone.",
+        "So ask a sharper question: how much of one lever can I lose and still come out ahead? In the bookkeeping firm, the 10% price rise still earns at least as much **even if up to 14 of 100 clients leave**. That gives the owner a clear test before acting."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a bistro.",
+      "illustrative": true,
+      "body": [
+        "Your bistro serves 5,000 meals a month at a $20 average. Food and supplies cost $7 a meal. Rent and staff cost $60,000 a month. Profit: $5,000.",
+        "You have time for one project this month. Which do you pick?"
+      ],
+      "image": {
+        "label": "Bistro owner comparing three notes on a counter",
+        "aspectRatio": "16:9",
+        "brief": "작은 비스트로 카운터에 메모 세 장: \"Prices +5%\", \"Promo: 5% more meals\", \"Cheaper ingredients\". 주인이 계산기를 들고 고민하는 장면. 따뜻한 조명, 실제 브랜드나 로고 없음.",
+        "url": null
+      },
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Raise prices 5% and track meal counts every week",
+            "verdict": "best",
+            "feedback": "It adds up to $5,000. You could lose about 350 meals a month, around 7%, and still earn what you earn today, so weekly counts tell you if it's working."
+          },
+          {
+            "key": "B",
+            "text": "Run a promotion to serve 5% more meals",
+            "verdict": "partial",
+            "feedback": "250 more meals leave $13 each, or $3,250, before the promotion's own cost. Any discount shrinks that further."
+          },
+          {
+            "key": "C",
+            "text": "Switch to cheaper ingredients to cut food costs 5%",
+            "verdict": "risky",
+            "feedback": "It saves only $1,750 a month. If regulars taste the difference, every lost meal costs you $13."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Price, volume, cost: test all three before you pull one.",
+      "body": [
+        "The same percentage change can double profit or barely move it. Work out what each lever adds, then ask how much you could lose on another and still win.",
+        "**Try it today:** take last month's numbers. Calculate what 5% on price, on volume and on costs would each add to profit."
+      ],
+      "next": "Next · Why your best seller might not be your best earner"
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "id": "BMO-04-08",
+  "unitId": "BMO-04",
+  "categoryId": "BMO",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "Does a restaurant?",
+  "readerTitle": "Does a packed restaurant have network effects?",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (식당, 부품 제조업체, 매장 근무 앱) · 유닛 개념 적용 레슨",
+  "insight": "인기가 인기를 부르는 것처럼 보여도, 손님 한 명이 늘 때 다른 손님이 얻는 가치가 커지지 않으면 네트워크 효과가 아니다.",
+  "misconception": "줄 서는 식당이나 고객이 많을수록 원가가 내려가는 회사는 네트워크 효과를 가진 것이다.",
+  "relatedLessonIds": [
+    "BMO-04-01",
+    "BMO-04-05"
+  ],
+  "sources": [
+    {
+      "text": "PIXO BMO-04-01 Direct network effects, BMO-04-05 When networks get worse (유닛 개념 레슨)",
+      "url": null
+    },
+    {
+      "text": "모든 사례는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "실제 통계나 기업 사실은 쓰지 않았습니다. 모든 장면은 가상 사례입니다.",
+      "status": "open"
+    },
+    {
+      "note": "'네트워크 효과 = 사용자가 늘수록 기존 사용자에게 가치가 커지는 것', '규모의 경제(원가 하락)·사회적 증거(줄이 신호)는 네트워크 효과가 아니다'라는 구분이 BMO-04-01, BMO-04-05의 정의·용어와 일치하는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "6번 카드의 바·클럽 예시(손님 자체가 경험의 일부)는 일반적 설명으로만 썼습니다. 특정 연구나 수치를 덧붙이지 마세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Network effects · Everyday scene",
+      "title": "Does a packed restaurant have network effects?",
+      "illustrative": true,
+      "body": [
+        "Two noodle shops sit side by side. One has a line out the door. The other has empty tables.",
+        "Most people join the line. So more customers bring even more customers. That sounds like a network effect. Today you'll test whether it really is one."
+      ],
+      "image": {
+        "label": "Two noodle shops, one with a long line, one empty",
+        "aspectRatio": "4:3",
+        "brief": "나란히 붙은 국숫집 두 곳. 왼쪽 가게 앞에는 긴 줄, 오른쪽 가게는 빈 테이블과 심심한 직원. 따뜻한 저녁 조명, 일러스트 스타일. 실제 상호나 로고는 쓰지 않음.",
+        "url": "assets/images/bmo-04-08-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Is the line a network effect?",
+      "illustrative": true,
+      "body": [
+        "You own the busy noodle shop. A friend says, \"You've got network effects. The more people eat here, the more people want to.\"",
+        "Is your friend right?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Yes. Crowds attract crowds, so value grows with every customer",
+            "verdict": "risky",
+            "feedback": "Crowds attract attention, but that's not the test. In a **direct network effect**, each new user makes the product better for existing users. An extra diner doesn't make your noodles better for anyone."
+          },
+          {
+            "key": "B",
+            "text": "No. The line tells people the food is good, but extra diners make each meal a little worse",
+            "verdict": "best",
+            "feedback": "Right. The line is a signal, not a network. And with fixed seats and one kitchen, more diners mean longer waits. That's the crowding from **when networks get worse**, without any network benefit first."
+          },
+          {
+            "key": "C",
+            "text": "Partly. It's a network effect until the shop is full",
+            "verdict": "partial",
+            "feedback": "Good instinct that capacity matters. But even when half empty, a new diner doesn't improve your meal. The draw is information about quality, not added value from other users."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "The test",
+      "title": "Ask one question about the next customer.",
+      "body": [
+        "A **direct network effect** means each new user makes the product more valuable to the users already there. A phone is the classic case: every new owner is someone else you can call.",
+        "So ask: *if one more person joins, do I get something I didn't have before?* At the noodle shop, you don't. Your bowl tastes the same. Your seat is no better.",
+        "What the line gives you is information. Other people's choices hint that the food is good. That's useful, but it's not a network."
+      ],
+      "image": {
+        "label": "Phone network grows links; restaurant just gets busier",
+        "aspectRatio": "16:9",
+        "brief": "좌우 비교 인포그래픽. 왼쪽: 전화기 사람 아이콘이 늘수록 서로 잇는 선이 많아짐(\"More links\"). 오른쪽: 식당 테이블에 사람이 늘수록 시계 아이콘의 대기 시간만 길어짐(\"Longer wait\"). 단순한 플랫 스타일.",
+        "url": "assets/images/bmo-04-08-c3.jpg"
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The other side",
+      "title": "More diners can only make it worse.",
+      "body": [
+        "In real networks, growth helps users at first. Later, crowding can cut into that value. That's the idea in **when networks get worse**.",
+        "A restaurant skips the first part and goes straight to the second. Each extra diner adds to the wait, the noise and the kitchen's workload. Past a point, regulars start going elsewhere.",
+        "That's why a busy restaurant has to keep earning its line with food and service. The crowd doesn't lock anyone in."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Try it · manufacturing",
+      "title": "An investor calls it a network effect.",
+      "illustrative": true,
+      "body": [
+        "You run a machine-parts factory with 40 business clients. As you've grown, steel suppliers give you better prices, so your costs per part keep falling.",
+        "An investor says, \"More clients, lower costs. That's a network effect.\" How do you answer?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Agree. Growth makes the whole business stronger",
+            "verdict": "risky",
+            "feedback": "It does make you stronger, but calling it a network effect sets the wrong expectations. Rivals can match lower costs by growing too."
+          },
+          {
+            "key": "B",
+            "text": "Call it cost savings from size, not a network effect",
+            "verdict": "best",
+            "feedback": "Right. Client 41 doesn't make your parts more useful to client 1. That fails the **direct network effect** test. Bigger buyers can win the same discount."
+          },
+          {
+            "key": "C",
+            "text": "Say it's a network effect only if you pass the savings on to clients",
+            "verdict": "partial",
+            "feedback": "Lower prices help clients, but the value still comes from your costs, not from other clients joining. The label stays wrong."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Some venues come close, but they hit a ceiling fast.",
+      "body": [
+        "In a bar or a dance club, other guests are part of what you came for. An empty room feels dead, so a few more people do make the night better.",
+        "But the room has a fixed size. Soon crowding takes over, and **when networks get worse** kicks in quickly. That small, capped effect is nothing like a network that grows across a city or a country.",
+        "So be careful with the label. Calling popularity or scale a network effect can make a business look safer than it is."
+      ],
+      "image": {
+        "label": "Bar that gets better, then too crowded",
+        "aspectRatio": "16:9",
+        "brief": "바 내부 3컷: 거의 빈 바(지루함), 적당히 붐비는 바(웃는 손님들), 꽉 찬 바(밀치는 손님, 주문 못 하는 사람). 아래에 올라갔다 금방 꺾이는 곡선. 실제 브랜드 로고 없음.",
+        "url": "assets/images/bmo-04-08-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · software",
+      "title": "Which feature creates a real network effect?",
+      "illustrative": true,
+      "body": [
+        "You build a scheduling app for restaurant chains. Today each manager uses it alone to plan shifts.",
+        "You can build one feature next. Which one would give the app a real network effect?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Workers can swap shifts with staff at any branch in their chain",
+            "verdict": "best",
+            "feedback": "Each worker who joins is one more person you can swap with. That passes the **direct network effect** test. Watch for too many swap requests later, the crowding from **when networks get worse**."
+          },
+          {
+            "key": "B",
+            "text": "Better staffing forecasts as more restaurants share data",
+            "verdict": "partial",
+            "feedback": "This can improve the product as it grows, but the gain often levels off. It's weaker and slower than users directly helping each other."
+          },
+          {
+            "key": "C",
+            "text": "Volume discounts for chains with more locations",
+            "verdict": "risky",
+            "feedback": "Good pricing, but it's a discount, not a network. One chain joining doesn't make the app more useful to another."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A line is not a network.",
+      "body": [
+        "Today you used two ideas. **Direct network effects:** does the next customer add value for the others? **When networks get worse:** does growth bring crowding? A restaurant fails the first test and meets the second right away.",
+        "**Try it today:** pick one thing that grows with your customer count. Ask whether the next customer adds value for the others, or only for you."
+      ],
+      "next": "Next · Why Facebook started with one campus"
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "id": "CUS-07-07",
+  "unitId": "CUS-07",
+  "categoryId": "CUS",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "Prioritize five customer requests",
+  "readerTitle": "Five requests, one week: which do you act on?",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.1,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (소규모 기장·회계 사무소, 지역 도매 유통사) · 모든 수치와 요청은 설명용",
+  "insight": "요청은 목소리 크기나 개수가 아니라, 그 밑에 깔린 문제를 묶어 본 뒤 가치와 비용으로 순서를 정하고, 나머지에는 대안을 붙여 '아니요'라고 말한다.",
+  "misconception": "가장 큰 고객이나 가장 최근에 요청한 고객의 말을 먼저 들어주는 것이 고객 중심이다.",
+  "relatedLessonIds": [
+    "CUS-07-02",
+    "CUS-07-03"
+  ],
+  "sources": [
+    {
+      "text": "우선순위 정하기(가치 대비 비용)와 기능 거절의 일반 원칙. 이 유닛의 개념 레슨 CUS-07-02, CUS-07-03을 적용",
+      "url": null
+    },
+    {
+      "text": "모든 사례와 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치(고객 수 12곳, 30곳, 8곳 등)는 설명용 가상 수치입니다. 실제 통계로 읽히지 않도록 카드에 illustrative 라벨이 붙어 있는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "도매 사례의 60일 외상 조건은 현금 흐름 부담을 설명하기 위한 일반적 예시입니다. 특정 국가의 세무·법률 조언으로 읽히지 않는지 검토하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Product judgment · Apply",
+      "title": "Five requests, one week: which do you act on?",
+      "illustrative": true,
+      "body": [
+        "Maya runs a small bookkeeping firm with 40 small-business clients. On Monday morning she counts five different requests in her inbox and notes.",
+        "Her team has time to act on one or two this month. Every client who asked thinks their request is the obvious one."
+      ],
+      "image": {
+        "label": "Five sticky notes on a desk, one coffee cup",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 작은 사무실 책상 위에 색이 다른 포스트잇 다섯 장이 흩어져 있고, 커피잔 하나와 달력. 포스트잇 글씨는 알아볼 수 없게 흐릿하게. 실제 로고나 상표 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Where does Maya start?",
+      "illustrative": true,
+      "list": [
+        "Her **biggest client** wants a custom monthly report in its own format",
+        "**12 clients**, in different words, want faster answers to quick questions",
+        "One client wants her to run their payroll too",
+        "A prospect will sign *if* she adds weekend phone support",
+        "**6 clients** want reminders before tax deadlines"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The custom report. The biggest client pays the most",
+            "verdict": "risky",
+            "feedback": "You protect one relationship, but you spend scarce time on work only one client benefits from, while 12 others wait."
+          },
+          {
+            "key": "B",
+            "text": "Group the requests by the problem underneath, then weigh value against effort",
+            "verdict": "best",
+            "feedback": "This is prioritizing what to build: count who shares the problem and what fixing it costs. It often reveals that two requests are really one."
+          },
+          {
+            "key": "C",
+            "text": "Weekend support. Winning a new client is growth",
+            "verdict": "partial",
+            "feedback": "New revenue matters, but you'd take on a permanent cost for one maybe-client before serving the 40 you have."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "Sorting the pile",
+      "title": "Look under each request.",
+      "illustrative": true,
+      "body": [
+        "Two requests share one worry: *\"I don't know where my books stand.\"* One fix, a short weekly status note with upcoming deadlines, answers both."
+      ],
+      "breakdown": [
+        {
+          "value": "12 + 6",
+          "label": "Quick answers + deadline reminders",
+          "detail": "Same underlying problem. Low effort to fix together",
+          "highlight": true
+        },
+        {
+          "value": "1",
+          "label": "Custom report",
+          "detail": "One client. New work every month",
+          "highlight": false
+        },
+        {
+          "value": "1",
+          "label": "Payroll",
+          "detail": "A new service, not an improvement",
+          "highlight": false
+        },
+        {
+          "value": "0",
+          "label": "Weekend support",
+          "detail": "A prospect, not a client yet. Ongoing cost",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept at work",
+      "title": "Prioritizing means ranking problems, not requests.",
+      "illustrative": true,
+      "body": [
+        "Customers describe solutions. Your job is to find the problem behind each one, then ask two questions: **how many customers share it**, and **what does fixing it cost**?",
+        "Maya's weekly note takes about an hour a week and calms 18 clients. The custom report would take hours every month and help one."
+      ],
+      "softwareNote": "In a software company these arrive as feature tickets. Three tickets asking for different exports may be one need: *get my data into my accountant's tool.* Group before you count votes."
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Now tell the biggest client.",
+      "illustrative": true,
+      "body": [
+        "The client who wants a custom report pays about a fifth of Maya's revenue. How should she answer?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Say yes. Losing them would hurt too much",
+            "verdict": "risky",
+            "feedback": "You keep them happy today, but custom work tends to multiply. Soon each client has their own version and your team serves no one quickly."
+          },
+          {
+            "key": "B",
+            "text": "Say no to the custom format, and offer a monthly call walking through the standard report, or custom work at a fee",
+            "verdict": "best",
+            "feedback": "This is saying no well: decline the request, solve the need behind it, and give a paid path if it truly matters to them."
+          },
+          {
+            "key": "C",
+            "text": "Say \"we'll look into it\" and let it fade",
+            "verdict": "risky",
+            "feedback": "It avoids an awkward moment but costs trust. A vague maybe often feels worse than a clear no with a reason."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Counting heads isn't the whole answer.",
+      "body": [
+        "A request from one client can still come first. If it protects a large share of revenue, or fixes a serious error, one voice can outweigh twelve.",
+        "And a no is usually a *not now*. Keep a short list of declined requests and look again each quarter. A request that keeps coming back from new customers is telling you something."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a wholesale distributor.",
+      "illustrative": true,
+      "body": [
+        "You supply snacks and drinks to corner shops. This month's requests:"
+      ],
+      "list": [
+        "**30 shops:** move the order cut-off from 2 pm to 5 pm",
+        "**8 shops:** email invoices instead of paper",
+        "3 shops: stock a new brand",
+        "2 shops: lower the minimum order",
+        "One regional chain: 60 days to pay instead of 30"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Later cut-off and emailed invoices first",
+            "verdict": "best",
+            "feedback": "Prioritizing at work: the cut-off touches the most shops, and emailed invoices are nearly free. Big value, modest cost."
+          },
+          {
+            "key": "B",
+            "text": "Give the chain its 60 days. It's your biggest buyer",
+            "verdict": "risky",
+            "feedback": "You may win volume, but your cash sits with them twice as long. Saying no, or pricing the longer terms, protects the business."
+          },
+          {
+            "key": "C",
+            "text": "Do a little of all five to keep everyone happy",
+            "verdict": "risky",
+            "feedback": "It feels fair, but spreading thin means nothing gets done well, and each half-kept promise becomes a new complaint."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "Online stores face the same pile: a late-shipping cutoff, digital receipts, new filters. The same sort applies before anyone writes code."
+    },
+    {
+      "index": 8,
+      "type": "text",
+      "eyebrow": "What you used",
+      "title": "Two ideas, one pile of requests.",
+      "list": [
+        "**Prioritizing what to build:** find the problem under each request, then weigh how many it helps against what it costs",
+        "**Saying no to features:** decline clearly, solve the real need another way, and offer a paid path when it fits"
+      ],
+      "callout": "Most of the work is sorting. The no is easier once the sort is honest.",
+      "softwareNote": "For a product team, the sorting step is a shared list of problems, each linked to the tickets that point to it."
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Sort requests by the problem underneath, then choose.",
+      "body": [
+        "The loudest or largest request is rarely the most valuable one. Group, weigh value against cost, and turn the rest into a clear, kind no.",
+        "**Try it today:** write down the last five things customers asked you for. Next to each, write the problem behind it. How many share one?"
+      ],
+      "next": "Next · What's left when you cut a product to its core?"
+    }
+  ]
+}

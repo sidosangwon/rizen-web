@@ -1,0 +1,266 @@
+{
+  "id": "BMO-02-10",
+  "unitId": "BMO-02",
+  "categoryId": "BMO",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Pick a model for a new marketplace",
+  "readerTitle": "Four money decisions for a new lunch marketplace",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (사무실 단체 점심 케이터링 마켓플레이스 앱) · 모든 수치와 인물은 설명용",
+  "insight": "수익 모델은 처음에 하나를 골라 끝내는 것이 아니다. 사업 단계마다 누가 어떤 가치에 돈을 낼지 보고 하나씩 쌓아 가는 것이다.",
+  "misconception": "처음부터 가장 돈이 많이 되는 모델을 고르거나, 가능한 수익원을 한꺼번에 붙이면 된다.",
+  "relatedLessonIds": [
+    "BMO-02-03",
+    "BMO-01-03"
+  ],
+  "sources": [
+    {
+      "text": "비즈니스 모델의 표준 개념 (수수료, 구독, 광고, 라이선스, 프랜차이즈)",
+      "url": null
+    },
+    {
+      "text": "모든 인물, 회사, 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 설명용 가상 수치입니다. 계산식: $400 주문 × 15% = $60 수수료, 케이터링 업체 수령액 $340. 수수료를 20%로 올리면 $80, 업체 수령액은 $320입니다.",
+      "status": "open"
+    },
+    {
+      "note": "규모 설정: 1개월 차 업체 30곳·사무실 40곳, 8개월 차 업체 120곳. 카드 간 숫자가 일관되는지 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "라이선스와 프랜차이즈의 구분은 일반적인 설명입니다. 특정 국가의 계약·법률 조언으로 읽히지 않도록 문구를 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business models · Simulation",
+      "title": "Four money decisions for a new lunch marketplace",
+      "illustrative": true,
+      "body": [
+        "Mina built an app that connects small local caterers with offices that order team lunches. Offices love it. Caterers get new orders. Mina earns nothing.",
+        "Over the next few minutes, you run her business. You'll face four decisions, and each one calls for a different way to make money."
+      ],
+      "image": {
+        "label": "A phone showing lunch trays traveling from small kitchens to an office",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 가운데 스마트폰 화면에서 작은 주방 세 곳의 도시락 트레이가 화살표를 따라 사무실 건물로 이동. 실제 앱이나 브랜드 로고는 쓰지 않음.",
+        "url": "assets/images/bmo-02-10-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 · Month one",
+      "title": "How should the marketplace charge?",
+      "illustrative": true,
+      "body": [
+        "You have 30 caterers and about 40 offices. Many caterers are tiny kitchens with thin margins. A typical order is $400.",
+        "What do you charge first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "A $49 monthly listing fee for each caterer",
+            "verdict": "risky",
+            "feedback": "You'd get steady income, but caterers with few orders would pay before they earn. Some would leave, and offices would see fewer choices."
+          },
+          {
+            "key": "B",
+            "text": "15% of each order, paid by the caterer",
+            "verdict": "best",
+            "feedback": "Caterers pay only when they earn, and your income grows with every order. The cost: revenue stays small and uneven until volume grows."
+          },
+          {
+            "key": "C",
+            "text": "Keep it free and sell banner ads",
+            "verdict": "risky",
+            "feedback": "Ads pay for attention at scale. Forty offices is too small an audience to earn much."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 2 · Month four",
+      "title": "Say you chose the 15% commission. Now orders are leaking.",
+      "illustrative": true,
+      "body": [
+        "Offices find a caterer they like, then phone them directly next time. You earn no commission on those orders.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Raise the commission to 20% on the orders that remain",
+            "verdict": "risky",
+            "feedback": "This makes up some lost income, but it punishes the caterers who stayed loyal. More of them would take customers off the app."
+          },
+          {
+            "key": "B",
+            "text": "Ban caterers from sharing their phone numbers",
+            "verdict": "partial",
+            "feedback": "It may slow the leak, but it's hard to enforce and caterers resent it. Offices still have no reason of their own to stay."
+          },
+          {
+            "key": "C",
+            "text": "Offer offices a monthly plan: one invoice for all lunches, plus a backup caterer if one cancels",
+            "verdict": "best",
+            "feedback": "Offices now get something they can't get by phoning a caterer, and you gain steady monthly income. The cost: you must keep the backup promise."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 3 · Month eight",
+      "title": "Say you launched the office plan. Now advertisers call.",
+      "illustrative": true,
+      "body": [
+        "A food-packaging supplier wants to advertise to your 120 caterers. A large caterer also offers to pay for the top spot when offices search.",
+        "Which offers do you take?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Take both",
+            "verdict": "risky",
+            "feedback": "You get the most cash, but offices would see paid rankings instead of the best caterers. The trust your office plan depends on starts to wear away."
+          },
+          {
+            "key": "B",
+            "text": "Take supplier ads in the caterers' dashboard only, clearly labeled",
+            "verdict": "best",
+            "feedback": "You add a small new income stream that caterers may find useful, and what offices see stays unchanged."
+          },
+          {
+            "key": "C",
+            "text": "Turn down all ads",
+            "verdict": "partial",
+            "feedback": "This protects trust completely, but it leaves money on the table. The supplier's offer didn't threaten anyone's trust."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 4 · Year two",
+      "title": "Say you added supplier ads. Now another city calls.",
+      "illustrative": true,
+      "body": [
+        "A catering association in another city likes your software. They want to run it for their members under their own name. They know every kitchen in town. You know no one there."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "License the software for a setup fee and a yearly fee",
+            "verdict": "best",
+            "feedback": "You earn from code you've already built, and they bring the local relationships. The cost: you don't own that market, and they could become a rival later."
+          },
+          {
+            "key": "B",
+            "text": "Decline and launch there yourself",
+            "verdict": "partial",
+            "feedback": "You'd keep full control and every commission. But you'd start with no relationships, and building them would be slow and costly."
+          },
+          {
+            "key": "C",
+            "text": "Franchise: they run your brand with your playbook and pay you a share",
+            "verdict": "partial",
+            "feedback": "Your brand would grow, but they wanted their own name. You'd also have to train and check on another operator."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "breakdown",
+      "eyebrow": "What you built",
+      "title": "One marketplace, four ways to make money.",
+      "illustrative": true,
+      "body": [
+        "Each income stream charges a different customer for a different kind of value. Commission is still the core. The others grew around it."
+      ],
+      "breakdown": [
+        {
+          "value": "15%",
+          "label": "Commission",
+          "detail": "Caterers pay for each order they win",
+          "highlight": true
+        },
+        {
+          "value": "Monthly",
+          "label": "Office plan",
+          "detail": "Offices pay for easy billing and a backup caterer",
+          "highlight": false
+        },
+        {
+          "value": "Ads",
+          "label": "Supplier ads",
+          "detail": "Suppliers pay to reach caterers",
+          "highlight": false
+        },
+        {
+          "value": "Yearly",
+          "label": "License",
+          "detail": "Another city pays to use the software",
+          "highlight": false
+        }
+      ],
+      "softwareNote": "Many software marketplaces grow this way: a cut of each transaction first, then paid plans, ads and licensed tools once there is enough activity to support them."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Every new stream adds someone to serve.",
+      "body": [
+        "Each income stream brings a new paying customer, and their interests can pull against each other. Paid search rankings would have pleased one caterer and hurt every office.",
+        "Order matters too. Ads and licensing worked only because the marketplace already had activity and working software. Adding all four on day one would likely have failed."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Charge each customer for what they value, when they value it.",
+      "body": [
+        "Each decision in the story used a different idea from this unit:"
+      ],
+      "list": [
+        "**Decision 1 → Commissions:** charge when the seller earns",
+        "**Decision 2 → Subscriptions:** sell ongoing value buyers can't get by going direct",
+        "**Decision 3 → Advertising:** sell attention without bending what customers see",
+        "**Decision 4 → Licensing vs franchising:** rent out what you built, or rent out your brand"
+      ],
+      "callout": "**Try it today:** list everyone your business touches. Next to each, write what they would gladly pay for. Is anyone getting value for free who shouldn't be?",
+      "next": "Next · Why the razor is cheap and the blades are not"
+    }
+  ]
+}

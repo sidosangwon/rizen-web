@@ -1,0 +1,220 @@
+{
+  "id": "PPL-04-05",
+  "unitId": "PPL-04",
+  "categoryId": "PPL",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Designing pay",
+  "readerTitle": "Pay for what people can actually move",
+  "format": "two_businesses",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.2,
+  "caseKinds": [
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 두 개 (가사 청소 회사, B2B IT 관리 서비스 회사) + 실제 연구 (Lazear 2000, Safelite 자동차 유리 설치) + 가상 적용 (소프트웨어 고객지원팀)",
+  "insight": "성과급의 비중은 의지의 문제가 아니라 설계의 문제다. 결과를 본인이 얼마나 움직일 수 있고, 얼마나 정확하고 빠르게 잴 수 있는지에 따라 고정급과 변동급의 비율을 정한다.",
+  "misconception": "성과에 따라 보상하면 누구에게나 동기부여가 된다. 성과급 비중이 클수록 좋은 보상 설계다.",
+  "relatedLessonIds": [
+    "PPL-04-06",
+    "PPL-04-09"
+  ],
+  "sources": [
+    {
+      "text": "Lazear, E. P. (2000). Performance Pay and Productivity. American Economic Review, 90(5), 1346–1361.",
+      "url": "https://www.aeaweb.org/articles?id=10.1257/aer.90.5.1346"
+    },
+    {
+      "text": "청소 회사, IT 관리 서비스 회사, 소프트웨어 고객지원팀 사례는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Safelite 연구: 시급제에서 개수당 지급(piece rate)으로 바꾼 뒤 1인당 생산량이 약 44% 늘었고, 그중 약 절반은 기존 직원의 생산성 증가, 나머지는 더 빠른 직원이 들어오고 남은 선별 효과라는 내용을 원문에서 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Safelite가 개수당 지급과 함께 최저 시급 보장을 두었다는 점, 불량 설치는 해당 설치 기사에게 추적되어 무급으로 다시 작업하게 했다는 점을 Lazear(2000) 원문에서 확인하세요. 전환 시기는 1994~1995년경으로 알려져 있어 카드에는 'in the mid-1990s'로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "청소 회사의 시급 $20, IT 회사의 갱신 보너스 등은 모두 설명용 가상 수치입니다. 특정 국가의 노동법(최저임금, 성과급 관련 규정)은 다루지 않습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "People · Two businesses",
+      "title": "Pay for what people can actually move",
+      "illustrative": true,
+      "body": [
+        "Two owners make the same decision in the same month: *start paying for performance*.",
+        "One runs a house-cleaning company. Output goes up and the best cleaners earn more. The other runs an IT support firm for small offices. Within a year, two of her best account managers quit.",
+        "Same idea. Opposite results. The difference was in how the pay was designed."
+      ],
+      "image": {
+        "label": "Two storefronts, one cleaning van and one office, with pay slips",
+        "aspectRatio": "4:3",
+        "brief": "화면을 반으로 나눈 일러스트. 왼쪽은 청소 도구를 실은 밴과 웃는 청소 직원, 오른쪽은 노트북 앞에서 고개를 숙인 사무직 직원. 둘 다 같은 모양의 급여 명세서를 들고 있음. 실제 회사 로고는 쓰지 않음.",
+        "url": "assets/images/ppl-04-05-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Your cleaners are slow.",
+      "illustrative": true,
+      "body": [
+        "You run a house-cleaning company. Cleaners earn $20 an hour and work alone. Jobs keep running past their estimates, and some cleaners are much faster than others with the same quality.",
+        "How do you change pay?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Raise everyone to $23 an hour to lift morale",
+            "verdict": "partial",
+            "feedback": "It may help retention, but it costs more and still pays the slow and fast cleaner the same. Nothing about the work changes."
+          },
+          {
+            "key": "B",
+            "text": "Pay a set rate per house, with a minimum hourly floor and spot checks on quality",
+            "verdict": "best",
+            "feedback": "Cleaners control their own speed and each house is easy to count. The floor limits their risk, and the checks stop speed from replacing quality."
+          },
+          {
+            "key": "C",
+            "text": "Pay a set rate per house and let customers complain if quality drops",
+            "verdict": "risky",
+            "feedback": "You reward speed and only notice corners being cut after a customer is already unhappy. Some never complain. They just leave."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "The other business",
+      "title": "A bonus tied to something no one person controls.",
+      "illustrative": true,
+      "body": [
+        "The IT firm paid account managers a big bonus for every client that renewed its yearly contract.",
+        "But renewals depended on many things: how well technicians fixed problems, a server outage, a client being bought by a bigger company. One account manager did everything right and lost a third of her bonus when two clients merged.",
+        "The bonus felt like a lottery. The people with the best options elsewhere left first."
+      ],
+      "image": {
+        "label": "An account manager watching a renewal bar pushed by many hands",
+        "aspectRatio": "16:9",
+        "brief": "계약 갱신 게이지를 여러 손이 동시에 밀고 당기는 장면. 손에는 'Technicians', 'Outage', 'Client budget', 'Merger' 라벨. 계정 관리자는 옆에서 작은 손 하나만 얹고 있음.",
+        "url": "assets/images/ppl-04-05-c3.jpg"
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Matching the pay mix to the work",
+      "body": [
+        "Most pay has two parts: a **fixed** part that arrives no matter what, and a **variable** part that moves with results. Designing pay is mostly choosing that mix and what the variable part is tied to.",
+        "Variable pay works when three things are true: the person largely controls the result, you can measure it fairly and soon, and the measure covers what you actually care about.",
+        "When those fail, pay mostly fixed and use other tools to guide effort."
+      ],
+      "image": {
+        "label": "A dial from fixed pay to variable pay with three checks",
+        "aspectRatio": "16:9",
+        "brief": "왼쪽 'Fixed', 오른쪽 'Variable'로 된 다이얼. 다이얼 아래 체크 3개: 'They control it', 'You can measure it', 'It covers what matters'. 체크가 많을수록 바늘이 오른쪽으로 감.",
+        "url": "assets/images/ppl-04-05-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "When the conditions hold, the effect is large.",
+      "body": [
+        "In the mid-1990s, Safelite, a US auto-glass company, moved its windshield installers from hourly pay to pay per windshield, with a guaranteed hourly minimum. Economist Edward Lazear studied the change.",
+        "Output per worker rose about **44%**. Roughly half came from existing installers working faster. The other half came from who stayed and who joined: faster installers were drawn to the new pay.",
+        "It fit the work. Installers controlled their pace, each job was countable, and faulty installs were traced back to the installer to fix."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Same test, two businesses",
+      "title": "Run the three checks before you pick a number.",
+      "body": [
+        "Put both businesses through the same questions."
+      ],
+      "list": [
+        "**Do they control it?** Cleaner: mostly. Account manager: partly, alongside technicians and clients.",
+        "**Can you measure it fairly and soon?** Cleaner: every day. Account manager: once a year, with lots of luck mixed in.",
+        "**Does it cover what matters?** Cleaner: yes, if quality is checked. Account manager: renewals miss service and relationships."
+      ],
+      "callout": "The cleaner's job suits a large variable share. The account manager's suits a salary with a small shared bonus.",
+      "softwareNote": "The same test explains why software salespeople often have large commissions while engineers mostly get salary and equity. A closed deal is countable and owned by one rep. A shipped feature's value depends on many people and shows up slowly."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Variable pay moves risk onto the worker.",
+      "body": [
+        "When pay swings with results, a slow month hits the employee's rent, not just your margins. People with bills to pay value steady income, so a risky pay plan usually needs a floor or a higher expected total to attract good people.",
+        "There is a second cost. Whatever you pay for gets more attention, and whatever you leave out gets less. That is where incentives start to backfire, which is the next lesson."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software support team.",
+      "illustrative": true,
+      "body": [
+        "You run customer support for a software product. Agents handle tickets that range from a password reset to a bug that takes three teams to fix. The founder wants agents to \"own\" results with variable pay.",
+        "Which design fits?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "A bonus for every ticket an agent closes",
+            "verdict": "risky",
+            "feedback": "It's easy to count, but tickets differ hugely and hard ones need other teams. Agents learn to close fast and grab easy tickets, not to solve problems."
+          },
+          {
+            "key": "B",
+            "text": "Mostly salary, plus a small team bonus based on reviewed quality and customer ratings each quarter",
+            "verdict": "best",
+            "feedback": "It matches the work: results are shared and only partly controlled, so the variable part is small, shared and checked. You give up some sharp incentive for fairness and focus."
+          },
+          {
+            "key": "C",
+            "text": "Salary only, with no variable pay at all",
+            "verdict": "partial",
+            "feedback": "Safe and fair, and often fine. But you miss a cheap way to point the whole team at quality and customer experience."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Tie pay to results only as far as people can move them.",
+      "body": [
+        "The more someone controls a result, and the better you can measure it, the more of their pay can depend on it. Otherwise, keep pay steady and guide effort in other ways.",
+        "**Try it today:** pick one role on your team. Ask the three questions: Do they control the result? Can I measure it fairly and soon? Does the measure cover what matters? Count the yes answers."
+      ],
+      "next": "Next · When incentives backfire"
+    }
+  ]
+}

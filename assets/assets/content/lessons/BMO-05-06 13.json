@@ -1,0 +1,215 @@
+{
+  "id": "BMO-05-06",
+  "unitId": "BMO-05",
+  "categoryId": "BMO",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Trust between strangers",
+  "readerTitle": "Why would you mail money to a stranger? How eBay made it normal",
+  "format": "company_story",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "real_company",
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (eBay 피드백 시스템) + 실제 연구 (Resnick 외, eBay 평판 현장 실험) + 가상 적용 (청소 서비스 마켓플레이스, 프리랜서 개발자 마켓플레이스)",
+  "insight": "마켓플레이스가 실제로 파는 것은 거래 상대가 아니라, 모르는 사람을 믿어도 된다는 근거다. 신뢰는 평판, 신원 확인, 보증, 대금 보관 같은 장치로 설계하는 것이다.",
+  "misconception": "좋은 사람과 좋은 물건을 모아 두면 거래는 저절로 일어난다. 신뢰는 시간이 지나면 자연히 생긴다.",
+  "relatedLessonIds": [
+    "BMO-05-05",
+    "BMO-05-09"
+  ],
+  "sources": [
+    {
+      "text": "eBay company history: the Feedback Forum, introduced in 1996",
+      "url": null
+    },
+    {
+      "text": "Resnick, P., Zeckhauser, R., Swanson, J., & Lockwood, K. (2006). The value of reputation on eBay: A controlled experiment. Experimental Economics, 9(2).",
+      "url": null
+    },
+    {
+      "text": "청소 서비스와 프리랜서 개발자 마켓플레이스는 설명용 가상 사례",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "eBay 피드백 포럼 도입 시점(1996년 2월로 흔히 인용)과 초기 방식(긍정·중립·부정 평가와 짧은 코멘트, 사용자 이름 옆 점수 표시)을 eBay 공식 자료로 확인하세요. 카드에는 \"In 1996\"로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Resnick 외(2006) 실험: 같은 판매자가 오래된 평판 계정과 새 계정으로 비슷한 빈티지 엽서를 팔았고, 평판 계정이 평균적으로 더 높은 가격을 받았다는 결과. 차이는 약 8%로 기억되지만 확인 전이라 카드에는 구체 수치를 넣지 않았습니다. 원문으로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "온라인 평점이 높은 쪽으로 몰리는 현상(평점 인플레이션)은 여러 연구에서 관찰되지만 플랫폼마다 정도가 다릅니다. 카드에는 수치 없이 일반적으로만 적었습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business models · Company story",
+      "title": "Why would you mail money to a stranger?",
+      "body": [
+        "In the mid-1990s, a new website asked people to do something odd: send a check to someone they had never met, and trust that a package would arrive.",
+        "Many did. That website was eBay. The goods were never the hard part. The hard part was getting strangers to trust each other."
+      ],
+      "image": {
+        "label": "An envelope of money passing between two faceless strangers",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 화면 양쪽 끝에 얼굴이 보이지 않는 두 사람, 가운데로 봉투 하나가 날아가고 그 위에 작은 물음표. 따뜻한 색감. 실제 기업 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/bmo-05-06-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Customers won't let a stranger in.",
+      "illustrative": true,
+      "body": [
+        "You run a marketplace that connects homeowners with independent house cleaners. Plenty of cleaners have signed up. Lots of homeowners visit the site, but few book.",
+        "In interviews, they say the same thing: \"I don't know who's coming into my house.\" What do you do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Offer 30% off the first booking",
+            "verdict": "partial",
+            "feedback": "A discount lowers the cost of trying, so some people will book. But it doesn't touch the actual fear, and you pay for it on every first job."
+          },
+          {
+            "key": "B",
+            "text": "Verify every cleaner's identity, show reviews from past jobs, and cover damage or theft",
+            "verdict": "best",
+            "feedback": "This answers the fear directly: who they are, how they've behaved, and what happens if it goes wrong. It costs money and effort, but it fixes the real blocker."
+          },
+          {
+            "key": "C",
+            "text": "Spend more on ads to reach more homeowners",
+            "verdict": "risky",
+            "feedback": "More visitors with the same fear means more people leaving. You'd pay more to grow a leak."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What eBay did",
+      "title": "A small number next to every name.",
+      "body": [
+        "In 1996, eBay added the **Feedback Forum**. After each sale, buyer and seller could rate each other as positive, neutral or negative and leave a short comment.",
+        "The running score appeared next to each username. Suddenly, a stranger had a history. A seller with hundreds of happy buyers was no longer a stranger in the way that mattered.",
+        "Honest behavior became an asset worth protecting, because cheating once would follow you to every future sale."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Trust between strangers",
+      "body": [
+        "Two strangers rarely trade on their own. Each fears the other will cheat, so the deal never happens. A marketplace works only if it gives people **reasons to trust** someone they've never met.",
+        "Those reasons usually come from four tools: *reputation* (what they did before), *verification* (who they really are), *guarantees* (the platform covers losses), and *held payments* (money is released only when the job is done)."
+      ],
+      "image": {
+        "label": "Four tools forming a bridge between two people",
+        "aspectRatio": "16:9",
+        "brief": "두 사람 사이에 다리가 놓여 있고, 다리를 받치는 기둥 네 개에 각각 \"Reputation\", \"Verification\", \"Guarantee\", \"Held payment\" 라벨. 단순한 인포그래픽 스타일, 로고 없음.",
+        "url": "assets/images/bmo-05-06-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "Reputation has a price tag.",
+      "body": [
+        "Economists Paul Resnick, Richard Zeckhauser and colleagues ran a field experiment on eBay. The same seller sold similar vintage postcards under two names: one with a long, positive track record and one brand new.",
+        "Buyers paid more, on average, to the seller with the history. Same seller, similar goods. The only difference was **evidence of past honesty**, and buyers put real money on it."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How far it goes",
+      "title": "Bigger stakes need stronger tools.",
+      "body": [
+        "Buying a $5 used book needs little trust. A few reviews will do. Letting someone babysit your child, fix your wiring or hold your deposit needs much more: checked identity, references, insurance.",
+        "Trust also runs both ways. The cleaner entering a home wants to know the homeowner will pay and behave decently. Good marketplaces check both sides, not only the one that spends money."
+      ],
+      "image": {
+        "label": "A ladder from a used book to a babysitter, rising in stakes",
+        "aspectRatio": "16:9",
+        "brief": "계단 모양 그래픽. 아래 칸부터 \"Used book\", \"Furniture delivery\", \"Home repair\", \"Childcare\". 칸이 높아질수록 옆에 붙은 방패 아이콘(신뢰 장치)이 많아짐. 로고 없음.",
+        "url": "assets/images/bmo-05-06-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Trust tools wear out and cost money.",
+      "body": [
+        "Ratings tend to drift toward the top over time, because people feel awkward leaving bad reviews. When nearly everyone has five stars, the stars stop telling you much.",
+        "New sellers face the opposite problem. With no history, nobody picks them, so they never get a history. Many platforms give newcomers a verified badge or a small guarantee to get started.",
+        "And guarantees cost real money. Price them into your take rate, or they quietly eat your margin."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a marketplace for freelance developers.",
+      "illustrative": true,
+      "body": [
+        "Your platform matches small businesses with freelance software developers. Clients fear paying upfront and getting broken code. Developers fear finishing the work and never getting paid.",
+        "Which move builds trust on both sides?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Hold the client's payment and release it as each agreed milestone is approved",
+            "verdict": "best",
+            "feedback": "Each side's main fear is covered: the client pays only for work delivered, and the developer knows the money already exists. You'll need a fair way to settle disputes."
+          },
+          {
+            "key": "B",
+            "text": "Hide reviews below four stars so profiles look more trustworthy",
+            "verdict": "risky",
+            "feedback": "Profiles look better for a while. Once clients learn the ratings are filtered, they stop believing any of them, and your main trust signal is gone."
+          },
+          {
+            "key": "C",
+            "text": "After a good first project, let clients pay developers directly to save fees",
+            "verdict": "partial",
+            "feedback": "It feels generous and builds goodwill. But it removes the protection that made the deal feel safe, and it teaches both sides they don't need you."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A marketplace sells trust before it sells anything else.",
+      "body": [
+        "Strangers trade when someone gives them a reason to believe the other side will behave. Reputation, verification, guarantees and held payments are how you build that reason.",
+        "**Try it today:** write down the biggest fear each side of your business has about the other. Next to each fear, name the tool that answers it. Any fear with no tool is where deals are dying."
+      ],
+      "next": "Next · Launch a tutoring marketplace"
+    }
+  ]
+}

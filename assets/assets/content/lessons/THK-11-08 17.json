@@ -1,0 +1,222 @@
+{
+  "id": "THK-11-08",
+  "unitId": "THK-11",
+  "categoryId": "THK",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "Read an app's pricing test",
+  "readerTitle": "Conversion fell 20%. Was the new price a mistake?",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.2,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (청소 서비스 예약 앱, 식당 소모품 유통사) · 모든 수치는 설명용",
+  "insight": "가격 실험은 전환율이 아니라 목표(이익)에서 고른 지표를, 가격을 본 모든 사람으로 나눠서 읽는다.",
+  "misconception": "가격을 올린 뒤 전환율이 떨어지면 실패이고, 건당 매출이 오르면 성공이다.",
+  "relatedLessonIds": [
+    "THK-11-01",
+    "THK-11-02"
+  ],
+  "sources": [
+    {
+      "text": "이 유닛의 개념 레슨: 목표에서 출발하는 지표(THK-11-01), 비율과 분모(THK-11-02)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "청소 앱 계산: 전환율 80/1,000 = 8%, 64/1,000 = 6.4%, 상대 감소 (8−6.4)/8 = 20%. 건당 매출 $100 → $120 (+20%). 매출 80×$100 = $8,000, 64×$120 = $7,680, 방문자당 $8.00 → $7.68. 건당 비용 $60 가정 시 건당 이익 $40 → $60, 총이익 80×$40 = $3,200, 64×$60 = $3,840, 방문자당 $3.20 → $3.84. 예약 감소 80−64 = 16건.",
+      "status": "open"
+    },
+    {
+      "note": "카드 수수료 등 기타 변동비는 단순화를 위해 제외했습니다. 유통사 사례($15 배송비, 평균 주문 $180 → $230)도 설명용 가상 수치이며 별도 계산은 없습니다.",
+      "status": "open"
+    },
+    {
+      "note": "6번 카드의 표본 크기 언급(80건 대 64건)은 소표본 잡음 레슨(THK-11-03)과 겹치지 않도록 한 문장 경고로만 두었습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Apply it",
+      "title": "Conversion fell 20%. Was the new price a mistake?",
+      "illustrative": true,
+      "body": [
+        "A home-cleaning company tests a new price in its booking app. Half the visitors see $100 for a standard clean. The other half see $120.",
+        "Two weeks later, the dashboard turns red: the share of visitors who book has dropped by 20%. The owner's first instinct is to switch back."
+      ],
+      "image": {
+        "label": "Phone booking screen showing two prices for a home clean",
+        "aspectRatio": "4:3",
+        "brief": "스마트폰 두 대가 나란히 있는 일러스트. 왼쪽 화면에 \"Standard clean $100\", 오른쪽 화면에 \"Standard clean $120\" 예약 버튼. 뒤편에 빨간 하락 화살표가 있는 대시보드. 실제 앱 로고는 쓰지 않음.",
+        "url": "assets/images/thk-11-08-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What should the owner do with this result?",
+      "illustrative": true,
+      "body": [
+        "Each price was shown to 1,000 visitors. At $100, 80 booked. At $120, 64 booked.",
+        "One job costs about $60 in cleaner pay and supplies, whatever the price."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Switch back to $100. Fewer people booked",
+            "verdict": "risky",
+            "feedback": "Conversion is a step on the way, not the goal. Judge prices by it alone and you would never raise one, because higher prices almost always convert less."
+          },
+          {
+            "key": "B",
+            "text": "Keep $120. Revenue per booking is up 20%",
+            "verdict": "partial",
+            "feedback": "Right instinct, wrong yardstick. Dividing by bookings hides the 16 customers who left. Per visitor, revenue actually fell a little."
+          },
+          {
+            "key": "C",
+            "text": "Work out profit per visitor at each price first",
+            "verdict": "best",
+            "feedback": "This starts from the goal, profit, and divides by everyone who saw the price, so lost bookings still count. The next card does the math."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "One test, four different verdicts.",
+      "illustrative": true,
+      "breakdown": [
+        {
+          "value": "8% → 6.4%",
+          "label": "Conversion",
+          "detail": "Looks like a loss",
+          "highlight": false
+        },
+        {
+          "value": "$100 → $120",
+          "label": "Revenue per booking",
+          "detail": "Looks like a win",
+          "highlight": false
+        },
+        {
+          "value": "$8.00 → $7.68",
+          "label": "Revenue per visitor",
+          "detail": "A small loss",
+          "highlight": false
+        },
+        {
+          "value": "$3.20 → $3.84",
+          "label": "Profit per visitor",
+          "detail": "The number that matches the goal",
+          "highlight": true
+        }
+      ],
+      "callout": "At $120, each job leaves $60 instead of $40. Fewer jobs, more left over: **$3,840** versus $3,200."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept at work · Metrics start from goals",
+      "title": "Start with what the business is trying to win.",
+      "illustrative": true,
+      "body": [
+        "The owner doesn't want bookings for their own sake. She wants **profit**, earned by a team of cleaners with only so many hours in a week.",
+        "Conversion is one step toward that goal. It tells you how many people said yes, not what each yes was worth. Here, the higher price earned more with 16 fewer jobs to staff. Those freed hours can go to new customers or a smaller schedule.",
+        "Pick the metric from the goal first. Then read the dashboard."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Concept at work · Ratios and denominators",
+      "title": "Always ask: per what?",
+      "body": [
+        "Revenue per booking divides only by the people who said yes. Raise the price and it almost always goes up, even if most customers walk away.",
+        "Revenue or profit **per visitor** divides by everyone who saw the price. That includes the people the price drove off, which is exactly what a pricing test needs to capture.",
+        "Same sales, different denominator, opposite story."
+      ],
+      "image": {
+        "label": "Two fractions with the same top but different bottoms",
+        "aspectRatio": "16:9",
+        "brief": "분수 두 개를 나란히 그린 인포그래픽. 왼쪽은 분자 \"Revenue\", 분모 \"Bookings (64)\". 오른쪽은 같은 분자, 분모 \"Everyone who saw the price (1,000)\". 오른쪽 분모에 예약하지 않은 사람 아이콘이 회색으로 많이 포함된 모습.",
+        "url": "assets/images/thk-11-08-c5.jpg"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Two weeks of profit isn't the whole goal.",
+      "illustrative": true,
+      "body": [
+        "Cleaning is repeat business. If $120 customers rebook less often, profit per visitor over a year could flip back. Track rebooking for both groups before you settle the price.",
+        "Also, 80 versus 64 bookings is a small base. Gaps this size can come from chance, so let the test reach its planned size before you call it.",
+        "The right metric still needs the right time horizon."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a supplies distributor.",
+      "illustrative": true,
+      "body": [
+        "You deliver cleaning and paper supplies to restaurants. For a month, half your routes charge a $15 fee on orders under $200.",
+        "Your sales manager reports that average order size on those routes rose from $180 to $230. Before rolling the fee out everywhere, which number do you ask for?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Average order size on the fee routes, by week",
+            "verdict": "risky",
+            "feedback": "It divides by orders, so customers who order less often, or switch to a rival, simply drop out of it. It's the revenue-per-booking trap again."
+          },
+          {
+            "key": "B",
+            "text": "Gross profit per customer account, after delivery costs, on both route groups",
+            "verdict": "best",
+            "feedback": "It starts from the goal, profit, and divides by every customer, so lost and shrinking accounts count. It also captures the savings from fewer, larger drops."
+          },
+          {
+            "key": "C",
+            "text": "The number of customer complaints about the fee",
+            "verdict": "partial",
+            "feedback": "A useful early warning, but complaints aren't the goal. Some unhappy customers keep ordering, and some quiet ones just leave."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "Software pricing tests fall into the same trap. Revenue per paying user rises with almost any price increase. Revenue per trial or per visitor shows whether the business actually earns more."
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Pick the number from the goal, then check what it divides by.",
+      "body": [
+        "Concepts used: **metrics start from goals** (profit, not conversion) and **ratios and their denominators** (per visitor, not per booking).",
+        "**Try it today:** take one number from your dashboard. Write down the goal it serves and what it is divided by. Does it count the customers you lost?"
+      ],
+      "next": "Next · Berkeley admissions and Simpson's paradox"
+    }
+  ]
+}

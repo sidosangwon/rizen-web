@@ -1,0 +1,225 @@
+{
+  "id": "CUS-10-04",
+  "unitId": "CUS-10",
+  "categoryId": "CUS",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Nudges that help customers",
+  "readerTitle": "Two stores, one sign, opposite results: nudges that help customers",
+  "format": "two_businesses",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.2,
+  "caseKinds": [
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (건축자재 매장 두 곳, 화물 운송 회사) + 실제 연구 (Thaler & Sunstein의 넛지 개념과 Thaler의 세 가지 원칙)",
+  "insight": "넛지 도구 자체는 중립이다. 좋은 넛지와 나쁜 넛지를 가르는 것은 '누구를 위해 작동하는가'이며, 고객이 그 이유를 다 알고도 고마워할지가 기준이다.",
+  "misconception": "넛지는 원래 고객을 조종하는 심리 기술이라 쓰지 않는 게 정직하다. 또는 판매를 늘리는 넛지라면 모두 좋은 넛지다.",
+  "relatedLessonIds": [
+    "CUS-10-02",
+    "CUS-05-03"
+  ],
+  "sources": [
+    {
+      "text": "Thaler, R. H., & Sunstein, C. R. (2008). Nudge: Improving Decisions About Health, Wealth, and Happiness. Yale University Press.",
+      "url": null
+    },
+    {
+      "text": "Thaler, R. H. (2015). The Power of Nudges, for Good and Bad. The New York Times.",
+      "url": null
+    },
+    {
+      "text": "매장과 화물 회사 사례는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Thaler(2015) NYT 칼럼의 세 원칙(투명하고 오도하지 않을 것, 거부가 최대한 쉬울 것, 넛지 대상의 복지를 높인다고 믿을 근거가 있을 것)을 카드 5에서 직접 인용하지 않고 풀어 썼습니다. 원문 표현과 게재일을 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "넛지 정의(선택지를 금지하거나 경제적 유인을 크게 바꾸지 않고 선택 구조를 바꾸는 것)가 Thaler & Sunstein(2008)의 정의와 맞는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "건축자재 매장 두 곳과 화물 회사는 모두 가상 사례이며, 카드 3의 결과(판매량, 반품, 재방문)도 설명용입니다. 실제 수치는 쓰지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Two businesses",
+      "title": "Two stores put up a sign. Only one was on the customer's side.",
+      "illustrative": true,
+      "body": [
+        "Two building supply stores add a sign to their paint counters in the same month.",
+        "Store one: *Most customers grab an extra can, just in case.* Store two: *Tell us your wall size. Most people buy too much.*",
+        "Both signs steer the choice. Both use the same trick: telling people what others do. They lead to very different places."
+      ],
+      "image": {
+        "label": "Two paint counters with different signs",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 나란히 놓인 두 개의 페인트 매장 카운터. 왼쪽 표지판 \"Most customers grab an extra can\", 오른쪽 표지판 \"Tell us your wall size\". 오른쪽 손님은 줄자를 들고 웃고 있음. 실제 브랜드 로고나 페인트 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Customers keep forgetting things.",
+      "illustrative": true,
+      "body": [
+        "You run a hardware store. Customers often get home, start a painting job, and find they're missing primer, tape or a roller. Some come back annoyed. Some don't come back at all.",
+        "Which change would you make?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "At checkout, add a $40 premium painting kit to every paint order, already ticked",
+            "verdict": "risky",
+            "feedback": "You'll sell more kits this month. But customers who find a charge they didn't choose stop trusting the counter, and many will return the kit."
+          },
+          {
+            "key": "B",
+            "text": "Give a short project checklist at the paint counter, and have staff ask which items they still need",
+            "verdict": "best",
+            "feedback": "It may sell less than a bundle, but it solves the customer's actual problem. They can skip anything they already own, and the advice feels like help."
+          },
+          {
+            "key": "C",
+            "text": "Shelve primer and rollers next to the paint with a 'Customers also bought' sign",
+            "verdict": "partial",
+            "feedback": "Helpful placement, and easy to ignore. But 'also bought' tells them what sells, not what their job needs, so they may still miss the tape."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "The store that sold less paint.",
+      "illustrative": true,
+      "body": [
+        "Store two sold fewer cans per visit at first. But returns of unopened cans fell. Customers started asking staff to help plan their next job too.",
+        "Store one sold more cans that month. Over time, its customers learned that the counter's advice was a sales pitch, and they stopped listening to it.",
+        "The tool was the same: a sign at the counter. What differed was **who the nudge was working for**."
+      ],
+      "image": {
+        "label": "Two receipts: one longer, one with a happy repeat visit",
+        "aspectRatio": "16:9",
+        "brief": "두 매장을 좌우로 비교하는 인포그래픽. 왼쪽: 긴 영수증과 반품 상자 더미. 오른쪽: 짧은 영수증과 같은 손님이 다시 방문하는 장면(달력에 두 번째 방문 표시). 숫자는 넣지 않음. 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Helpful nudges",
+      "body": [
+        "A **nudge** is a change in how a choice is presented that makes one option easier or more likely, without banning anything or changing the price much. Economist Richard Thaler and legal scholar Cass Sunstein popularized the idea in their 2008 book *Nudge*.",
+        "A **helpful nudge** points customers toward what they would pick for themselves if they had the full picture and time to think.",
+        "A quick test: if the customer saw exactly what you did and why, would they thank you?"
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Three checks before you nudge.",
+      "body": [
+        "Thaler later offered three rules for nudging well. They work as a checklist for any business."
+      ],
+      "list": [
+        "**Transparent:** nothing hidden or misleading. You'd be happy to explain it out loud.",
+        "**Easy to opt out:** saying no takes one step, not five.",
+        "**Good for the person nudged:** there's a real reason to think they end up better off."
+      ],
+      "callout": "Fail any one, and a nudge starts sliding toward a trap.",
+      "softwareNote": "The same checks apply to onboarding defaults, reminders and pre-selected plans. A pre-ticked annual plan fails if switching back means emailing support. A reminder three days before a free trial turns into a paid plan passes all three."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Same tool, opposite direction",
+      "title": "The mechanism is neutral. The direction is your choice.",
+      "body": [
+        "Almost every nudge can be built to help the customer or to work against them."
+      ],
+      "list": [
+        "**Default:** pre-select the right size, or pre-select a costly add-on",
+        "**Reminder:** 'Your filters are due next week', or a countdown timer that resets itself",
+        "**What others do:** 'Most people buy too much', or 'Most people take the extra can'",
+        "**Order of options:** best fit first, or highest margin first"
+      ],
+      "callout": "Choosing not to nudge is still a choice. Every shelf, form and menu leans somewhere.",
+      "softwareNote": "In software, the same pairs show up as a pre-filled shipping address versus a pre-ticked add-on, or a renewal notice versus a fake 'only 2 seats left' banner."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Helpful isn't automatic.",
+      "body": [
+        "You can be wrong about what's good for customers. \"Helpful\" is your guess until their behavior confirms it. Watch returns, complaints, cancellations and repeat visits.",
+        "A helpful nudge can also cost you sales today, as Store two found. It pays back through trust, which takes longer to show up in the numbers.",
+        "And a nudge is small. It can make a good choice easier. It can't fix a product people don't want."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a freight company.",
+      "illustrative": true,
+      "body": [
+        "You move pallets for small manufacturers. Customers often enter a pallet weight that's too low when they book. The truck gets reweighed, they pay a surcharge, and delivery slips a day.",
+        "Which change helps them most?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Pre-fill the weight from their last similar shipment, show it clearly, and let them change it in one click",
+            "verdict": "best",
+            "feedback": "It uses their own history to suggest a realistic number and leaves them in control. Fewer surprise surcharges, fewer late deliveries, and you look like a partner."
+          },
+          {
+            "key": "B",
+            "text": "Add a clear surcharge warning to the terms and conditions",
+            "verdict": "partial",
+            "feedback": "It's honest and protects you. But few people read terms while booking, so the mistake and the surcharge will mostly continue."
+          },
+          {
+            "key": "C",
+            "text": "Quietly round every booked weight up to the next 100 kg and bill for that",
+            "verdict": "risky",
+            "feedback": "It removes reweighing and raises revenue. But it's hidden and works for you, not them. Once customers notice, the trust and the account are at risk."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Nudge customers toward what they'd choose for themselves.",
+      "body": [
+        "The tools of influence are neutral. A helpful nudge is transparent, easy to refuse, and leaves the customer better off.",
+        "**Try it today:** pick one default, reminder or sign in your business. Ask: if a customer saw exactly why it's there, would they thank you?"
+      ],
+      "next": "Next · No single effect explains sales"
+    }
+  ]
+}

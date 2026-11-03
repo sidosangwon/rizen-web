@@ -1,0 +1,221 @@
+{
+  "id": "OPS-06-06",
+  "unitId": "OPS-06",
+  "categoryId": "OPS",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Mistake-proofing",
+  "readerTitle": "Why the ATM gives your card back first",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "real_observation",
+    "anecdote",
+    "illustrative"
+  ],
+  "caseNote": "실제 관찰 (ATM, 전자레인지) + 일화 (신고 시게오의 스프링 접시) + 가상 사례 (유통 창고, 재무팀)",
+  "insight": "실수는 사람을 더 조심하게 만들어서가 아니라, 실수가 일어날 수 없거나 즉시 드러나도록 일의 구조를 바꿔서 줄인다.",
+  "misconception": "실수는 부주의 때문이니 교육하고 주의를 주고 검수자를 늘리면 해결된다.",
+  "relatedLessonIds": [
+    "OPS-06-03",
+    "OPS-06-02"
+  ],
+  "sources": [
+    {
+      "text": "Shingo, S. (1986). Zero Quality Control: Source Inspection and the Poka-yoke System. Productivity Press.",
+      "url": null
+    },
+    {
+      "text": "ATM 카드 반환 순서, 전자레인지 문 잠금 장치는 일반적인 제품 설계 관찰",
+      "url": null
+    },
+    {
+      "text": "창고와 재무팀 사례는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "'많은 ATM이 현금보다 카드를 먼저 돌려준다'는 널리 알려진 설계 사례지만 나라와 기종마다 다릅니다. 카드에 'many cash machines'로만 썼습니다.",
+      "status": "open"
+    },
+    {
+      "note": "스위치 조립 작업자가 스프링을 빠뜨리자 신고 시게오가 스프링을 먼저 접시에 담게 했다는 이야기는 여러 자료에 전해지지만 세부 내용은 자료마다 다릅니다. 카드에 일화로 표시했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "'baka-yoke(바보 방지)'에서 'poka-yoke(부주의 실수 방지)'로 이름을 바꾼 경위는 Shingo 관련 자료로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "창고 오피킹, 재무팀 중복 지급 사례에는 실제 수치를 넣지 않았습니다. 모두 설명용입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Everyday scene",
+      "title": "Why the ATM gives your card back first",
+      "body": [
+        "At many cash machines, you take your card back before the cash comes out. It feels like a small detail.",
+        "It's a fix for a very common mistake. People came for cash. Once they had it, they walked away and left the card behind. So the machine stopped trusting memory and changed the order."
+      ],
+      "image": {
+        "label": "A hand taking a card from an ATM while cash waits",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 플랫 일러스트. ATM 화면 앞에서 손이 카드를 먼저 뽑고, 현금 투입구에는 지폐가 아직 대기 중. 카드 쪽에 '1', 현금 쪽에 '2' 숫자 표시. 실제 은행 로고 사용 금지.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Two shampoos, one wrong box.",
+      "illustrative": true,
+      "body": [
+        "You run a distribution warehouse for a beauty retailer. Two shampoo sizes sit side by side and look almost the same. Pickers keep grabbing the wrong one, and stores complain every week.",
+        "What do you do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Retrain pickers and put up a sign: \"Check the size!\"",
+            "verdict": "risky",
+            "feedback": "Cheap and quick, but it asks tired people to be more careful forever. Signs fade into the background within weeks."
+          },
+          {
+            "key": "B",
+            "text": "Add a checker who inspects every box before it ships",
+            "verdict": "partial",
+            "feedback": "You catch most errors before stores see them. But you pay for a second person, and the mistake still happens. Checkers get tired too."
+          },
+          {
+            "key": "C",
+            "text": "Move the sizes apart and require a scan that beeps and stops if the wrong item goes in",
+            "verdict": "best",
+            "feedback": "The wrong pick is caught at the moment it happens, with no extra person. It costs some setup, and it only works if scanning stays mandatory."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "Where it comes from",
+      "title": "A dish of springs.",
+      "body": [
+        "A story often told about the Japanese engineer **Shigeo Shingo**, details vary by source: workers assembling a switch sometimes forgot one of its two small springs.",
+        "Reminders didn't help. So Shingo had them place both springs in a small dish before starting. If a spring was left in the dish at the end, the mistake was obvious on the spot.",
+        "Nobody became more careful. The step itself changed."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Mistake-proofing",
+      "body": [
+        "**Mistake-proofing** means designing a task so the error can't happen, or is caught the instant it does. Shingo called it *poka-yoke*, Japanese for avoiding inadvertent mistakes.",
+        "There are two strengths. **Prevent:** the wrong action is impossible, like a microwave that stops when the door opens. **Detect:** the wrong action triggers an alert right away, like the leftover spring or the scanner's beep.",
+        "Prevention is stronger. Detection is often cheaper."
+      ],
+      "image": {
+        "label": "Two panels: a shape that won't fit, and a warning light",
+        "aspectRatio": "16:9",
+        "brief": "두 칸 인포그래픽. 왼쪽 'Prevent': 네모 블록이 둥근 구멍에 안 들어가는 모습. 오른쪽 'Detect': 접시에 남은 스프링 하나와 깜빡이는 경고등. 간결한 선 스타일, 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Four ways to build it in.",
+      "body": [
+        "Most mistake-proofing uses one of a few simple moves:"
+      ],
+      "list": [
+        "**Shape:** parts or tools only fit the right way",
+        "**Order:** the next step won't start until the risky one is done, like card before cash",
+        "**Count:** a set number of items is laid out, so a gap shows",
+        "**Stop:** the process halts when something is off, instead of carrying on"
+      ],
+      "callout": "The best fixes are cheap, built into the work, and need no one to remember anything."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond the factory",
+      "title": "It's everywhere once you look.",
+      "body": [
+        "A restaurant uses a different-colored board for raw meat, so it never touches salad. A pharmacy shelves look-alike drug names apart. A shop's till won't close the sale until the age check is entered.",
+        "In each case, the business stopped asking \"Who made the mistake?\" and asked \"Why was the mistake so easy to make?\""
+      ],
+      "softwareNote": "A form that won't submit without a valid date, or a tool that makes you type a project's name before deleting it, is mistake-proofing. The product blocks the slip instead of apologizing afterward."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Not every guard holds.",
+      "body": [
+        "Warnings that fire too often get ignored. If a scanner beeps at half the right picks, people learn to tap past it.",
+        "Guards that slow the work invite workarounds. Staff tape down the switch or skip the scan when the rush hits.",
+        "And mistake-proofing costs money to set up. Spend it on errors that are frequent or expensive, not on every possible slip."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a finance team.",
+      "illustrative": true,
+      "body": [
+        "You lead accounts payable inside a large company. Twice this year, a supplier invoice was paid twice. Once, money went to a fraudster's new bank account after a fake email.",
+        "Which fix fits the idea best?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Email the team a reminder to double-check every payment",
+            "verdict": "risky",
+            "feedback": "It costs nothing, but it relies on memory and attention, the exact things that failed. The next busy month brings the same errors."
+          },
+          {
+            "key": "B",
+            "text": "Have a second person approve every payment",
+            "verdict": "partial",
+            "feedback": "It catches some errors, but it doubles the workload and reviewers start approving on autopilot. The duplicate is still easy to create."
+          },
+          {
+            "key": "C",
+            "text": "Have the system block a repeat invoice number for the same supplier, and hold any bank-detail change until someone calls the supplier on a known number",
+            "verdict": "best",
+            "feedback": "Duplicates become impossible and bank changes get a built-in stop. It takes setup time, and the callback must never be skipped."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Fix the step, not the person.",
+      "body": [
+        "When a mistake repeats, don't ask people to try harder. Change the work so the mistake can't happen, or shows up the instant it does.",
+        "**Try it today:** name one error that happened twice this month. Ask which move would stop it: shape, order, count or stop."
+      ],
+      "next": "Next · Quality at a clinic"
+    }
+  ]
+}

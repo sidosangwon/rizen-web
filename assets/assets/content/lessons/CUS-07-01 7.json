@@ -1,0 +1,243 @@
+{
+  "id": "CUS-07-01",
+  "unitId": "CUS-07",
+  "categoryId": "CUS",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Product vision",
+  "readerTitle": "A vision that says yes to everything decides nothing",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (소상공인 대상 회계·장부 서비스 회사, 비즈니스 호텔) · 모든 수치는 설명용",
+  "insight": "좋은 제품 비전은 무엇을 할지가 아니라 무엇을 하지 않을지를 가려 준다. 비전이 걸러 내는 요청의 수가 그 비전의 쓸모다.",
+  "misconception": "비전은 크고 넓을수록 좋다. 모든 고객 요청과 맞아떨어지는 비전이 좋은 비전이다.",
+  "relatedLessonIds": [
+    "CUS-07-02",
+    "CUS-07-03"
+  ],
+  "sources": [
+    {
+      "text": "제품 관리에서 널리 쓰이는 일반 개념 (제품 비전: 누구를 위해, 무엇이 달라지는가)",
+      "url": null
+    },
+    {
+      "text": "모든 수치와 사례는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 설명용 가상 수치입니다. 고객 요청 20건 중 막연한 비전은 20건 모두 '맞음'(걸러 낸 요청 0건), 구체적 비전은 8건 맞음 + 12건 제외 = 20건. 차트와 본문 숫자가 일치하는지 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "특정 기업이나 연구를 인용하지 않았습니다. 편집 과정에서 실제 사례를 추가할 경우 1차 출처를 붙여 주세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Numbers twist",
+      "title": "A vision that says yes to everything decides nothing",
+      "illustrative": true,
+      "body": [
+        "A small bookkeeping firm got 20 requests from clients last year: payroll, tax help, inventory advice, a new app, weekend calls.",
+        "Its vision read: *Great service for growing businesses.* Every single request fit. That sounds like a strength. It was the problem."
+      ],
+      "image": {
+        "label": "A sign reading 'Yes' stamped on a pile of request cards",
+        "aspectRatio": "4:3",
+        "brief": "작은 사무실 책상 위에 고객 요청 카드 20장이 쌓여 있고, 모든 카드에 똑같은 초록색 \"YES\" 도장이 찍혀 있음. 벽에는 막연한 문구의 액자. 따뜻한 플랫 일러스트, 실제 로고나 상표 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "A client asks you to add payroll.",
+      "illustrative": true,
+      "body": [
+        "You run that bookkeeping firm. A good client asks if you could also run their payroll. Your team checks the vision: *Great service for growing businesses.*",
+        "Does payroll fit the vision?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Yes. Payroll is a service that growing businesses need",
+            "verdict": "partial",
+            "feedback": "True, but the same logic approves almost anything. You gain a new service and lose any way to say why this one and not the next."
+          },
+          {
+            "key": "B",
+            "text": "No. We're a bookkeeping firm, so we stick to books",
+            "verdict": "partial",
+            "feedback": "A clear line, but it comes from habit, not from the vision. Your team still can't tell which future requests deserve a yes."
+          },
+          {
+            "key": "C",
+            "text": "The vision can't answer this, and that's the real issue",
+            "verdict": "best",
+            "feedback": "Right. If a vision fits every request, it gives no guidance. The next card shows what a sharper one does with the same 20 requests."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "Same 20 requests, two visions.",
+      "illustrative": true,
+      "body": [
+        "The founder rewrote the vision: *Restaurant owners know last month's numbers by the 5th, without opening a spreadsheet.*",
+        "Then the team sorted the same 20 requests again. The old vision ruled out **zero**. The new one ruled out **12**, and the team could explain each answer."
+      ],
+      "chart": {
+        "unit": "count",
+        "groups": [
+          {
+            "label": "Old vision: 'Great service for growing businesses'",
+            "rows": [
+              {
+                "label": "Fits",
+                "value": 20,
+                "highlight": false
+              },
+              {
+                "label": "Ruled out",
+                "value": 0,
+                "highlight": false
+              }
+            ]
+          },
+          {
+            "label": "New vision: 'Owners know their numbers by the 5th'",
+            "rows": [
+              {
+                "label": "Fits",
+                "value": 8,
+                "highlight": false
+              },
+              {
+                "label": "Ruled out",
+                "value": 12,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "image": {
+        "label": "Same 20 requests, two visions.",
+        "aspectRatio": "4:3",
+        "brief": "Labeled HTML chart from the lesson numbers",
+        "url": "assets/images/cus-07-01-chart.png"
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Product vision",
+      "body": [
+        "A **product vision** is a clear picture of who your product is for and what changes for them because it exists. Its job is to guide choices, so it must also make clear what you won't do.",
+        "The new vision names a customer (restaurant owners), a change (they know their numbers) and a standard (by the 5th). Each part rules things out."
+      ],
+      "image": {
+        "label": "A funnel sorting request cards into 'fits' and 'not us'",
+        "aspectRatio": "16:9",
+        "brief": "깔때기 인포그래픽. 위에서 요청 카드 20장이 들어가고, 깔때기 옆면에 \"Who it's for\", \"What changes\", \"By when\" 세 개의 필터 라벨. 아래로 8장은 \"Fits\", 옆으로 12장은 \"Not us\"로 빠져나감.",
+        "url": null
+      },
+      "softwareNote": "In software, the same test applies to the roadmap. \"Make teams more productive\" fits any feature. \"Small clinics book a patient in under a minute\" tells your engineers which features matter and which can wait."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "A vision lets people decide without you.",
+      "illustrative": true,
+      "body": [
+        "Run payroll through the new vision. Does it help owners know last month's numbers by the 5th? Not really. It's a different job, with different deadlines. Out.",
+        "A one-page monthly summary sent to the owner's phone? Clearly yes. A weekend hotline? No.",
+        "Notice who made those calls: any team member. A useful vision gives **the same answer no matter who asks it**. That's how a firm stays focused when the founder isn't in the room."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where it applies",
+      "title": "Describe the change, not the features.",
+      "body": [
+        "A vision is not a feature list. \"Monthly books, payroll and tax filing\" describes what you sell today, and it ages fast.",
+        "A good vision describes the customer's situation after you've done your job. That stays true even as the way you deliver it changes. A bakery, an agency and an app can all use the same test: who is it for, and what is different for them?"
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A sharp vision has real costs.",
+      "body": [
+        "Ruling out 12 requests means turning away work clients would pay for. Some will leave for a firm that says yes. That's the price of focus, and you should count it honestly.",
+        "A vision can also be wrong. Revisit it when steady evidence says the customer or the change is different, not every time one loud request arrives. Firm is good. Frozen is not."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a hotel.",
+      "illustrative": true,
+      "body": [
+        "You own a 40-room hotel near a business park. Staff keep asking whether to add a spa, a kids' club or an earlier breakfast. You want one sentence they can use to decide.",
+        "Which vision helps them most?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Be the best hotel in town",
+            "verdict": "risky",
+            "feedback": "Inspiring, but a spa, a kids' club and early breakfast all pass. Your staff are left exactly where they started."
+          },
+          {
+            "key": "B",
+            "text": "Modern rooms at fair prices",
+            "verdict": "partial",
+            "feedback": "It names what you sell, but not who it's for or what changes for them. It can't tell staff whether early breakfast matters."
+          },
+          {
+            "key": "C",
+            "text": "Business travelers sleep well and leave by 7 a.m. without stress",
+            "verdict": "best",
+            "feedback": "It names a guest and a result. Early breakfast passes, the kids' club doesn't. You'll lose some family bookings, and that's a choice you've made on purpose."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Judge a vision by what it rules out.",
+      "body": [
+        "A product vision names who you serve and what changes for them. If it fits every request, it isn't guiding anything.",
+        "**Try it today:** write your vision in one sentence. Run your last ten customer requests through it. If it rules out none, sharpen the customer or the change until it does."
+      ],
+      "next": "Next · Five good ideas, room for one"
+    }
+  ]
+}

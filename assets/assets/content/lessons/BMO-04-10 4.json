@@ -1,0 +1,248 @@
+{
+  "id": "BMO-04-10",
+  "unitId": "BMO-04",
+  "categoryId": "BMO",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Network effect or not?",
+  "readerTitle": "Does more customers mean a better business? Run the cleaning app and see",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (청소 서비스 회사 → 청소 예약 앱) · 모든 인물과 상황은 설명용",
+  "insight": "네트워크 효과인지는 '새 사용자가 기존 사용자에게 더 좋은 제품을 만들어 주는가' 한 가지 질문으로 가려낸다. 통과하더라도 그 효과는 지역 안에서만 작동할 수 있다.",
+  "misconception": "고객이 고객을 데려오거나 규모가 커져 원가가 내려가면 네트워크 효과다. 네트워크 효과가 있으면 가장 큰 회사가 시장을 다 가져간다.",
+  "relatedLessonIds": [
+    "BMO-04-01",
+    "BMO-04-04"
+  ],
+  "sources": [
+    {
+      "text": "네트워크 효과, 규모의 경제, 임계 규모, 멀티호밍의 표준 개념 (산업조직론·플랫폼 전략 일반)",
+      "url": null
+    },
+    {
+      "text": "모든 인물과 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "인물(Mia), 직원 수 12명, 고객 300명, 8개월 등 모든 수치는 가상입니다. 실제 통계로 읽히지 않도록 카드마다 illustrative 표시를 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "7번 카드의 '마음에 드는 청소부를 찾으면 앱을 거치지 않고 직접 예약한다'는 홈서비스 마켓플레이스에서 흔히 언급되는 현상(탈중개)을 일반론으로만 적었습니다. 특정 기업이나 수치를 덧붙이지 마세요.",
+      "status": "open"
+    },
+    {
+      "note": "유닛 내 다른 레슨과의 겹침 확인: 직접 네트워크 효과(04-01), 임계 규모(04-03), 지역 네트워크(04-04), 나빠지는 네트워크(04-05), 승자독식(04-06)을 각 판단에 하나씩 연결했습니다. 정의 문장이 해당 레슨과 일치하는지 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business models · Simulation",
+      "title": "Does more customers mean a better business?",
+      "illustrative": true,
+      "body": [
+        "Mia runs a home cleaning company in one city: 12 cleaners, about 300 regular customers.",
+        "Over coffee, an investor tells her, \"You've got **network effects**. Every happy customer brings two more.\" Mia isn't sure he's right.",
+        "For the next four cards, you make her calls."
+      ],
+      "image": {
+        "label": "A cleaner at a front door, with arrows to neighboring houses",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 작은 동네 지도 위에서 청소부 한 명이 집 앞에 서 있고, 그 집에서 이웃집 두 채로 점선 화살표가 뻗어 나감. 화살표 위에 작은 물음표. 실제 브랜드 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 4",
+      "title": "Is the investor right?",
+      "illustrative": true,
+      "body": [
+        "Most of Mia's new customers come from referrals. Being bigger also lets her buy supplies more cheaply.",
+        "Which of these is a network effect?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The referrals: customers bring in more customers",
+            "verdict": "risky",
+            "feedback": "Referrals bring growth, but a new customer next door doesn't make Mia's cleaning any better for you. That's word of mouth, and it fades fast if service slips."
+          },
+          {
+            "key": "B",
+            "text": "The cheaper supplies: bigger means better",
+            "verdict": "partial",
+            "feedback": "That's economies of scale: costs fall as you grow. It's real and useful, but it's about Mia's costs, not about customers getting more value from each other."
+          },
+          {
+            "key": "C",
+            "text": "Neither. A new customer doesn't make the service better for existing ones",
+            "verdict": "best",
+            "feedback": "Right. A network effect means each new user makes the product more valuable for the others. Mia grows through reputation and scale, not through a network."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 4",
+      "title": "Say you chose C. Now Mia builds a network.",
+      "illustrative": true,
+      "body": [
+        "She launches an app. Homeowners book independent cleaners, and cleaners find work. Now more cleaners mean faster bookings, and more homeowners mean fuller schedules.",
+        "Where should she launch?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Nationwide, so anyone can sign up",
+            "verdict": "risky",
+            "feedback": "A cleaner in another city is no use to you. Spread thin, homeowners wait days, cleaners sit idle, and both sides leave."
+          },
+          {
+            "key": "B",
+            "text": "Her whole city, all at once",
+            "verdict": "partial",
+            "feedback": "Better. But a cleaner won't cross town for one two-hour job, so even one city can be too thin at the start."
+          },
+          {
+            "key": "C",
+            "text": "A few neighborhoods, until bookings are fast and schedules are full",
+            "verdict": "best",
+            "feedback": "Cleaning networks are local. Packing both sides into a small area gets the app useful on its own sooner. Then she grows outward."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 4",
+      "title": "Say you chose C. Then growth gets messy.",
+      "illustrative": true,
+      "body": [
+        "Eight months later, the app covers the city. Cleaner sign-ups double in a month.",
+        "Then the complaints start: no-shows, rushed jobs, and cleaners grumbling that there isn't enough work. What now?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep accepting everyone. More cleaners means a bigger network",
+            "verdict": "risky",
+            "feedback": "More isn't better if quality falls and each cleaner earns less. The best cleaners leave first, and the app gets worse for everyone."
+          },
+          {
+            "key": "B",
+            "text": "Vet new cleaners and add them only as bookings grow",
+            "verdict": "best",
+            "feedback": "One side grows more slowly, but each cleaner stays busy and each homeowner gets a good one. Quality is part of what the network offers."
+          },
+          {
+            "key": "C",
+            "text": "Cut the booking fee to keep cleaners happy",
+            "verdict": "partial",
+            "feedback": "It eases the pain for a while. It doesn't fix too many cleaners chasing too few jobs, or the no-shows."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 4 of 4",
+      "title": "Say you chose B. A big rival arrives.",
+      "illustrative": true,
+      "body": [
+        "A well-funded national cleaning app launches in Mia's city. Her team is nervous: \"With network effects, the biggest player wins everything.\"",
+        "What's her best move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Race into ten new cities to look bigger",
+            "verdict": "risky",
+            "feedback": "Size elsewhere doesn't help a homeowner here. She'd spread thin just when her home market needs her most."
+          },
+          {
+            "key": "B",
+            "text": "Go deeper at home: top cleaners, fast bookings, easy rebooking of a favorite cleaner",
+            "verdict": "best",
+            "feedback": "The rival's national size counts for little here. It has to build density in this city from zero, while Mia already has it."
+          },
+          {
+            "key": "C",
+            "text": "Sell the company before the rival crushes her",
+            "verdict": "partial",
+            "feedback": "Reasonable if the rival can buy local density fast. But it assumes a winner-take-all market, which a local service often isn't."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The test",
+      "title": "One question sorts it out.",
+      "body": [
+        "A single question separates a network effect from things that look like one: **does each new user make the product better for the users already there?**",
+        "Referrals, cheaper supplies and a strong brand all help a business grow. None of them pass the test. Mia's app does, but only locally. A new cleaner across the country adds nothing for you."
+      ],
+      "image": {
+        "label": "Four items sorted into 'passes' and 'doesn't pass'",
+        "aspectRatio": "16:9",
+        "brief": "두 칸 분류 인포그래픽. 왼쪽 'Passes the test' 칸에 'More nearby cleaners → faster booking'. 오른쪽 'Doesn't pass' 칸에 'Referrals', 'Cheaper supplies', 'Brand'. 위에 질문 문장: 'Does each new user make it better for the others?' 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A network isn't a wall by default.",
+      "illustrative": true,
+      "body": [
+        "Cleaners and homeowners can install two apps and use whichever books faster. That makes it harder for any one app to lock people in.",
+        "And once a homeowner finds a cleaner they love, they may book directly and skip the app entirely. A network only holds if it keeps giving both sides a reason to come back through it: trust, easy payments, cover when someone is sick."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A network effect is when users make it better for each other.",
+      "body": [
+        "Each of your four calls used one idea from this unit:"
+      ],
+      "list": [
+        "**Decision 1:** Growth through referrals or scale isn't a network effect. Direct network effects pass the test.",
+        "**Decision 2:** Both sides need enough people close together. That's critical mass in a local network.",
+        "**Decision 3:** More can make a network worse when quality falls.",
+        "**Decision 4:** Local networks rarely become winner-take-all."
+      ],
+      "callout": "**Try it today:** ask the test question about your own business. If a new customer doesn't help the others, name what really drives your growth.",
+      "next": "Next · The chicken-and-egg problem"
+    }
+  ]
+}

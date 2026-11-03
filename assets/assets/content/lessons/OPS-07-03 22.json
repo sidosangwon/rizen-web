@@ -1,0 +1,225 @@
+{
+  "id": "OPS-07-03",
+  "unitId": "OPS-07",
+  "categoryId": "OPS",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "Insurance and hedging",
+  "readerTitle": "The insurance that never paid out wasn't wasted",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.4,
+  "caseKinds": [
+    "illustrative",
+    "real_company"
+  ],
+  "caseNote": "가상 사례 (가정 청소 회사, 대기업 안의 구매팀) + 실제 기업 (Southwest 연료 헤지, 일반적 서술만)",
+  "insight": "보험과 헤지는 돈을 버는 수단이 아니라 감당할 수 없는 손실을 감당할 수 있는 비용으로 바꾸는 수단이다. 그래서 작은 손실은 스스로 떠안고, 회사를 무너뜨릴 손실만 넘긴다.",
+  "misconception": "한 번도 청구하지 않은 보험료는 낭비다. 반대로, 위험이 보이면 전부 보험을 들수록 안전하다.",
+  "relatedLessonIds": [
+    "OPS-07-02",
+    "FIN-08-02"
+  ],
+  "sources": [
+    {
+      "text": "리스크 관리의 표준 개념 (위험 이전, 자가 보험, 공제액, 헤지)",
+      "url": null
+    },
+    {
+      "text": "Southwest Airlines annual reports (10-K), 2000s fuel hedging program and 2008 hedge losses",
+      "url": null
+    },
+    {
+      "text": "청소 회사·구매팀 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "청소 회사 계산: 보험료 $2,400 × 5년 = $12,000, 6년째 청구 $40,000. 파손 보험: 연 6건 × $150 = 평균 $900 손실, 보험료 $1,800. 두 보험 합계 $1,800 + $2,400 = $4,200으로 예산 $3,000 초과. 모두 가상 수치입니다.",
+      "status": "open"
+    },
+    {
+      "note": "Southwest가 2000년대 유가 상승기에 연료 헤지로 큰 비용을 아꼈고, 2008년 말 유가 급락 후 헤지 계약에서 손실을 냈다는 내용은 연차보고서로 확인하세요. 카드에는 구체적 금액을 넣지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "외화 예시: €1M 주문 예정, 제품 하나가 중단되면 주문이 약 20% 줄 수 있다는 가정. 확실한 물량(약 80%)만 헤지하는 선택을 best로 둠. 특정 국가의 금융·세무 조언이 아니라 일반 원리로만 서술했습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Risk · Counterexample",
+      "title": "The insurance that never paid out wasn't wasted",
+      "illustrative": true,
+      "body": [
+        "Dana runs a six-person home-cleaning company. For five years she paid $2,400 a year for liability insurance and never made a claim. That's $12,000 for nothing, she thought.",
+        "She was about to cancel it. Then a cleaner's bucket tipped over in a client's home, and water soaked into a hardwood floor."
+      ],
+      "image": {
+        "label": "Water spreading across a wooden floor beside a tipped bucket",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 가정집 거실 원목 바닥에 청소 양동이가 넘어져 물이 퍼지는 장면. 청소복 차림 인물이 놀란 표정. 실제 브랜드 로고 없음.",
+        "url": "assets/images/ops-07-03-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You have $3,000 a year for protection.",
+      "illustrative": true,
+      "body": [
+        "Two policies are on offer. You can't afford both ($4,200).",
+        "**Breakage cover**, $1,800 a year: pays for small items cleaners break. You break about six a year, around $150 each.",
+        "**Liability cover**, $2,400 a year: pays for big damage claims up to $1 million, after you pay the first $1,000."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Breakage cover. It will actually get used",
+            "verdict": "partial",
+            "feedback": "You'd pay $1,800 to get back about $900 a year on average. It feels useful, but you could easily pay those small losses yourself."
+          },
+          {
+            "key": "B",
+            "text": "Liability cover, and pay small breakages yourself",
+            "verdict": "best",
+            "feedback": "You absorb the $900 you can afford and hand off the loss you can't. You may never claim, and that's fine."
+          },
+          {
+            "key": "C",
+            "text": "Neither. Put $3,000 a year into a savings reserve",
+            "verdict": "risky",
+            "feedback": "The reserve covers breakages well. One $40,000 floor claim would empty it many times over."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What happened",
+      "title": "Dana kept the policy. Here's the math.",
+      "illustrative": true,
+      "body": [
+        "The floor claim came to **$40,000**. Dana paid the first $1,000. The insurer paid the rest. Without the policy, one bad afternoon would have cost more than three years of her profit."
+      ],
+      "breakdown": [
+        {
+          "value": "$12,000",
+          "label": "Premiums paid",
+          "detail": "Five claim-free years",
+          "highlight": false
+        },
+        {
+          "value": "$40,000",
+          "label": "One claim",
+          "detail": "A water-damaged floor",
+          "highlight": true
+        },
+        {
+          "value": "$1,000",
+          "label": "Dana's share",
+          "detail": "The part she agreed to carry",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Insurance and hedging",
+      "body": [
+        "**Insurance** means paying a small, certain cost so someone else carries a large, uncertain loss. **Hedging** does the same job a different way: you lock in a price or take an opposite position, so a bad move in one place is offset somewhere else.",
+        "Here's the twist. On average, insurance pays out less than it costs. That's how insurers stay in business. You're not buying a good bet. You're buying the right to survive a bad day."
+      ],
+      "image": {
+        "label": "A small fixed coin on one side of a scale balancing a large uncertain storm cloud",
+        "aspectRatio": "16:9",
+        "brief": "저울 인포그래픽. 한쪽에 작은 동전 더미(\"Small, certain cost\"), 다른 쪽에 흐릿하고 큰 폭풍 구름(\"Large, uncertain loss\"). 저울이 균형을 이루는 모습.",
+        "url": "assets/images/ops-07-03-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Transfer what would sink you. Keep what would only sting.",
+      "body": [
+        "Ask one question of each risk: could we pay for this from cash this month and keep going?"
+      ],
+      "list": [
+        "**Yes:** carry it yourself. Breakages, a late delivery, a lost tool.",
+        "**No:** transfer it or hedge it. A lawsuit, a fire, a price spike in your main supply.",
+        "**Use a deductible:** agree to pay the first slice yourself, so the cover costs less."
+      ],
+      "callout": "The point isn't to avoid every loss. It's to avoid the one you can't recover from.",
+      "softwareNote": "For a software business, the loss that sinks you is often a data breach or a long outage. Cyber cover and backup providers handle that. A bug that costs a few refunds is one to absorb."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A hedge cuts both ways.",
+      "body": [
+        "A hedge protects you from bad surprises. It also takes away good ones.",
+        "In the 2000s, Southwest Airlines locked in much of its fuel at fixed prices before oil rose, and saved large sums. When oil prices crashed in late 2008, some of those same contracts cost it money.",
+        "Insurance has its own catch: exclusions. Read what a policy *doesn't* cover before you count on it."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now you run a purchasing team.",
+      "illustrative": true,
+      "body": [
+        "Your team inside a larger manufacturer buys parts from a supplier paid in euros. You expect about €1 million of orders this year. Your budget is fixed in dollars, and a big currency swing could blow it.",
+        "If one product line is cut, orders could drop about 20%. The bank offers to lock today's exchange rate."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Lock the rate for the full €1 million",
+            "verdict": "partial",
+            "feedback": "The budget is fully protected. But if orders fall, you're committed to buying euros you don't need."
+          },
+          {
+            "key": "B",
+            "text": "Lock the rate for the orders you're sure of, about 80%",
+            "verdict": "best",
+            "feedback": "You protect the part of the budget you can't miss and keep room if plans change. You give up some upside if the rate moves your way."
+          },
+          {
+            "key": "C",
+            "text": "Don't lock anything. Rates could move in your favor",
+            "verdict": "risky",
+            "feedback": "You might save money. You're also betting the team's whole budget on a number nobody controls."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Insure what would sink you. Absorb what would only sting.",
+      "body": [
+        "Insurance and hedging cost money on average. That's the price of turning a loss you can't survive into one you can.",
+        "**Try it today:** write down the three worst things that could happen to your business. For each, ask whether you could pay for it from cash this month. If not, check whether it's covered."
+      ],
+      "next": "Next · The one thing your business can't lose"
+    }
+  ]
+}

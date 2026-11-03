@@ -1,0 +1,242 @@
+{
+  "id": "OPS-07-01",
+  "unitId": "OPS-07",
+  "categoryId": "OPS",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Types of risk",
+  "readerTitle": "The risk list had 24 items. The one that hurt wasn't on it.",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (포장재 제조사, 치과용 예약 소프트웨어) · 모든 수치는 설명용",
+  "insight": "위험 목록은 항목 수가 아니라 어떤 종류의 위험을 빠뜨렸는지로 점검한다. 매일 보이는 운영 위험이 목록을 채우고, 회사를 흔드는 전략 위험은 빠지기 쉽다.",
+  "misconception": "위험 목록이 길고 자세할수록 잘 대비하고 있는 것이다.",
+  "relatedLessonIds": [
+    "OPS-07-02",
+    "OPS-07-04"
+  ],
+  "sources": [
+    {
+      "text": "위험 관리의 일반적인 분류 (운영·재무·전략·외부 위험)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 가상입니다. 위험 목록 24개 = 운영 18 + 외부 4 + 재무 2 + 전략 0. 연 매출 $5M 중 최대 고객 40% = $2M. 그해 설비 고장 손실 약 $60,000, $2,000,000 ÷ $60,000 ≈ 33배.",
+      "status": "open"
+    },
+    {
+      "note": "위험 분류 방식은 조직·기준마다 다릅니다(예: 규제·평판 위험을 따로 두는 경우). 카드에는 네 가지를 '흔히 쓰는 분류' 수준으로 설명했고, 특정 표준의 공식 분류라고 쓰지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Numbers twist",
+      "title": "The risk list had 24 items. The one that hurt wasn't on it.",
+      "illustrative": true,
+      "body": [
+        "A packaging plant kept a careful risk list: machine breakdowns, late resin deliveries, a forklift accident, a flood in the warehouse. Twenty-four items in all.",
+        "Then the year's biggest loss arrived. It was about 33 times bigger than every breakdown that year combined. None of the 24 items described it."
+      ],
+      "image": {
+        "label": "A long checklist with a large shadow falling across it from off the page",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 공장 사무실 책상 위에 체크 표시가 빽빽한 긴 위험 목록. 종이 밖에서 큰 그림자가 목록 위로 드리워짐. 실제 기업 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You can review the list once. Where do you look?",
+      "illustrative": true,
+      "body": [
+        "You run the plant. Revenue is $5 million a year. Your team's 24 risks are mostly about machines, suppliers and safety.",
+        "You have one afternoon to make the list better. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Add detail to the machine risks, since breakdowns happen most often",
+            "verdict": "risky",
+            "feedback": "You'd get a sharper picture of problems you already see every week. The list gets longer but not wider."
+          },
+          {
+            "key": "B",
+            "text": "Sort the 24 by kind of risk and look for kinds with nothing listed",
+            "verdict": "best",
+            "feedback": "This finds blind spots instead of polishing known items. It costs you depth on any single risk this afternoon."
+          },
+          {
+            "key": "C",
+            "text": "Rank the 24 by cost and focus on the top five",
+            "verdict": "partial",
+            "feedback": "Ranking is useful, and a later lesson covers it. But you can only rank risks that made it onto the list."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "What the list covered, by kind.",
+      "illustrative": true,
+      "body": [
+        "The loss: the largest customer, 40% of sales, switched to a new packaging material the plant couldn't make. That was **$2 million** a year in sales gone. All machine breakdowns that year cost about $60,000."
+      ],
+      "chart": {
+        "unit": "count",
+        "groups": [
+          {
+            "label": "Risks on the list",
+            "rows": [
+              {
+                "label": "Operational",
+                "value": 18,
+                "highlight": false
+              },
+              {
+                "label": "External",
+                "value": 4,
+                "highlight": false
+              },
+              {
+                "label": "Financial",
+                "value": 2,
+                "highlight": false
+              },
+              {
+                "label": "Strategic",
+                "value": 0,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "image": {
+        "label": "What the list covered, by kind.",
+        "aspectRatio": "4:3",
+        "brief": "Labeled HTML chart from the lesson numbers",
+        "url": "assets/images/ops-07-01-chart.png"
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Types of risk",
+      "body": [
+        "Risks differ by **where they come from**. A common way to sort them uses four types:"
+      ],
+      "list": [
+        "**Operational:** how you run things. Breakdowns, errors, accidents, late suppliers.",
+        "**Financial:** money. Running short of cash, customers not paying, loan costs rising.",
+        "**Strategic:** your plan going wrong. Customers change, a rival leapfrogs you, your market shrinks.",
+        "**External:** events outside your control. Storms, new rules, a pandemic."
+      ],
+      "callout": "A long list with one empty type is weaker than a short list that covers all four.",
+      "softwareNote": "In a software company, operational risk looks like outages and bad releases. Strategic risk looks like a bigger platform adding your product as a free feature."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Each type needs a different fix and a different owner.",
+      "body": [
+        "Operational risks are handled with maintenance, checklists and backup suppliers. Financial risks need cash buffers and payment terms. Strategic risks need someone watching customers and markets, and sometimes spreading sales across more buyers. External risks need plans for when the event hits.",
+        "Because the fixes differ, so do the people. A plant manager can fix a press. Only leadership can decide to reduce dependence on one customer."
+      ],
+      "image": {
+        "label": "Four lanes, each with a different tool and a different person",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 네 개의 세로 레인: Operational(렌치, 공장 관리자), Financial(현금 금고, 재무 담당), Strategic(망원경, 대표), External(우산, 비상 계획표). 플랫한 일러스트, 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Why lists lean one way",
+      "title": "People list the risks they see at work.",
+      "body": [
+        "The plant's list was written by the people closest to the machines. So it filled up with operational risks, which happen often and are easy to picture.",
+        "Strategic risks rarely show up day to day. A customer's slow shift to a new material doesn't break anything on the floor. It just builds quietly until an order disappears.",
+        "The same thing happens elsewhere. Engineers list outages. Accountants list late payments. Each list reflects its author's view."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The labels are a tool, not the goal.",
+      "body": [
+        "One event can be several types. A warehouse fire starts as an external event, stops production, then becomes a cash problem. Arguing about which box it belongs in wastes time.",
+        "Covering every type also doesn't mean giving each type equal effort. Four types is a check for gaps. Deciding which risks deserve the most attention is a separate step, and the next lesson covers it."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software company.",
+      "illustrative": true,
+      "body": [
+        "You sell scheduling software to dental clinics. Your risk list: server outage, data breach, a buggy release, key engineer leaving, card processor going down, cash runway under 12 months, new health-data privacy rules.",
+        "What would you add first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "More security items, since a breach would be the scariest event",
+            "verdict": "partial",
+            "feedback": "Breaches matter, but one is already listed. More detail there adds depth to a type you already cover."
+          },
+          {
+            "key": "B",
+            "text": "What if the clinic software dentists already use adds scheduling for free",
+            "verdict": "best",
+            "feedback": "That's the missing strategic risk, and it could end the business without a single outage. It's harder to act on, but now someone owns it."
+          },
+          {
+            "key": "C",
+            "text": "Nothing. Seven well-chosen risks is plenty",
+            "verdict": "risky",
+            "feedback": "Short is fine. But every item is operational, financial or external, so the risk to the whole plan has no owner."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Check your risk list for missing types, not missing details.",
+      "body": [
+        "Operational, financial, strategic, external. The type with nothing listed is often where the biggest surprise is waiting.",
+        "**Try it today:** write your top risks on one page and label each with one of the four types. Which type has no entries?"
+      ],
+      "next": "Next · Why a rare disaster can matter more than a weekly headache"
+    }
+  ]
+}

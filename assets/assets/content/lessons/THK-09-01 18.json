@@ -1,0 +1,226 @@
+{
+  "id": "THK-09-01",
+  "unitId": "THK-09",
+  "categoryId": "THK",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Short-term vs long-term trade-offs",
+  "readerTitle": "The cut that saved $1,200 and cost a lot more",
+  "format": "counterexample",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (청소 서비스, 원예용품 유통) + 실제 연구 (Graham·Harvey·Rajgopal 2005 재무 임원 설문)",
+  "insight": "모든 결정에는 '지금 장부'와 '나중 장부'가 있다. 나중 장부의 비용은 늦게, 다른 항목에서 나타나서 원래 결정의 탓으로 보이지 않는다.",
+  "misconception": "이번 달 숫자가 좋아졌다면 좋은 결정이다. 반대로 '장기적으로 보자'는 말이면 무엇이든 정당화된다.",
+  "relatedLessonIds": [
+    "THK-06-02",
+    "THK-09-06"
+  ],
+  "sources": [
+    {
+      "text": "Graham, J. R., Harvey, C. R., & Rajgopal, S. (2005). The economic implications of corporate financial reporting. Journal of Accounting and Economics, 40(1–3), 3–73.",
+      "url": null
+    },
+    {
+      "text": "청소 서비스와 원예용품 유통 사례의 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Graham·Harvey·Rajgopal(2005) 설문: 응답자는 400명 이상의 재무 임원(보통 401명으로 인용). '약 80%가 분기 이익 목표를 맞추기 위해 R&D·광고·유지보수 같은 재량 지출을 줄이겠다고 답했다'는 수치를 원문 표로 다시 확인하세요. 카드에는 'roughly four in five'로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "청소 서비스 계산(가상): 교육비 절감 +$1,200. 파손 배상 −$600. 주간 고객 3명 × 월 $480 = 월 −$1,440(매출 기준). 고객 이탈 첫 달에 1,200 − 600 − 1,440 = −$840로 이미 절감액보다 손실이 큼. 매출 기준이라 실제 이익 손실은 이보다 작지만, 매달 반복된다는 점은 같음.",
+      "status": "open"
+    },
+    {
+      "note": "유통 사례의 8% 미달, 20% 할인은 설명용 가상 수치입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Counterexample",
+      "title": "The cut that saved $1,200 and cost a lot more",
+      "illustrative": true,
+      "body": [
+        "Maria runs a home cleaning company with nine cleaners. One tight quarter, she found $1,200 to save in a single afternoon.",
+        "Her numbers looked better that month. Four months later, she was losing more than that every month, and at first she didn't connect the two."
+      ],
+      "image": {
+        "label": "A cleaner's cart with a small savings tag and a long shadow",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 청소 카트 위에 작은 \"+$1,200\" 태그가 붙어 있고, 카트 뒤로 길고 어두운 그림자가 바닥에 늘어져 있음. 따뜻한 오후 조명. 실제 브랜드 로고 없음.",
+        "url": "assets/images/thk-09-01-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Cash is tight. Which cost do you cut?",
+      "illustrative": true,
+      "body": [
+        "You run Maria's company. A loan payment is due and you need about $1,200 this month. Three options are on the table."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Skip the two-day paid training for the next three new hires",
+            "verdict": "risky",
+            "feedback": "It saves the full amount today. But training is what protects quality, and the cost of skipping it shows up later as complaints and lost clients."
+          },
+          {
+            "key": "B",
+            "text": "Pause local ads for a month",
+            "verdict": "partial",
+            "feedback": "Fewer new clients will arrive in a month or two, so you are still borrowing from the future. At least it's easy to restart and the damage is limited."
+          },
+          {
+            "key": "C",
+            "text": "Stop paying cleaners to wait between badly spaced jobs by tightening the schedule",
+            "verdict": "best",
+            "feedback": "This removes a cost that buys nothing later. It takes more planning work now, but nothing in the future gets weaker."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What happened",
+      "title": "Maria skipped the training.",
+      "illustrative": true,
+      "body": [
+        "New cleaners went straight to clients' homes. Two broke things. Three long-time weekly clients quietly left. By month four, the saving was gone, and the losses kept coming every month."
+      ],
+      "breakdown": [
+        {
+          "value": "+$1,200",
+          "label": "Month 1",
+          "detail": "Training cost saved",
+          "highlight": false
+        },
+        {
+          "value": "−$600",
+          "label": "Months 2–3",
+          "detail": "Paid back for broken items",
+          "highlight": false
+        },
+        {
+          "value": "−$1,440",
+          "label": "Every month after",
+          "detail": "Three weekly clients at $480 a month, gone",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Short-term vs long-term trade-offs",
+      "body": [
+        "A **short-term vs long-term trade-off** is a choice where the option that looks best now makes a later period worse.",
+        "The hard part is that the two sides don't show up together. The gain arrives now, in the line you are watching. The cost arrives later, in a different line, and looks like a new problem. Maria saw \"training saved\" in March and \"clients leaving\" in June."
+      ],
+      "image": {
+        "label": "Two ledgers side by side: Now and Later",
+        "aspectRatio": "16:9",
+        "brief": "장부 두 권을 나란히 펼친 인포그래픽. 왼쪽 \"Now\" 장부에는 초록색 \"+$1,200\" 한 줄. 오른쪽 \"Later\" 장부에는 흐릿하게 적힌 빨간 항목 여러 줄(\"Broken items\", \"Lost clients\"). 두 장부 사이에 점선 화살표.",
+        "url": "assets/images/thk-09-01-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "Even finance chiefs say they'd do it.",
+      "body": [
+        "In a 2005 study, economists John Graham, Campbell Harvey and Shiva Rajgopal surveyed more than 400 senior financial executives at US companies.",
+        "Roughly four in five said they would cut spending on research, advertising or maintenance to hit a quarterly earnings target, even if it hurt the company's value over time. These are trained people who know the future cost. The pressure of the visible number wins anyway."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where else it shows up",
+      "title": "The same pattern, many disguises.",
+      "list": [
+        "A restaurant shrinks portions and keeps prices. Margins rise; regulars drift away.",
+        "A shop delays repairs. This year looks cheaper; next year's fix costs more.",
+        "A manager pulls deals forward to hit the quarter. The next quarter starts empty."
+      ],
+      "callout": "Look for spending that builds something you'll need later: skills, trust, equipment.",
+      "softwareNote": "Shipping features fast by skipping tests and cleanup is the same trade. Each release looks quicker, but later changes get slower and buggier. Engineers call the hidden bill *technical debt*."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "\"Long term\" is not always the right answer.",
+      "body": [
+        "If you can't make payroll, there is no long term to protect. Sometimes the short-term choice is the one that keeps the business alive, and that's a fair trade.",
+        "\"Long term\" is also a favorite excuse for projects that never pay off. Before choosing it, name the future gain, roughly how big it is, and when you would expect to see it. If you can't, you may just be avoiding a hard call today."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a garden supply distributor.",
+      "illustrative": true,
+      "body": [
+        "You sell garden supplies to 60 independent stores. The quarter ends Friday and you are 8% short of target.",
+        "Your sales lead suggests offering stores 20% off if they order next quarter's stock now. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Run the offer for all stores and hit the target",
+            "verdict": "risky",
+            "feedback": "You hit this quarter by taking sales from the next one at a lower price. Stores also learn to wait for quarter-end deals, which keeps happening."
+          },
+          {
+            "key": "B",
+            "text": "Accept the miss, and show what's driving it and how you'll fix it",
+            "verdict": "best",
+            "feedback": "It's uncomfortable this week. But next quarter starts with full order books and full prices, and your numbers stay honest."
+          },
+          {
+            "key": "C",
+            "text": "Offer it only to stores already running low",
+            "verdict": "partial",
+            "feedback": "Less damage, since those stores would reorder soon anyway. You still give away margin and teach some customers to wait for a deal."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "Software companies face the same pull at quarter-end with deep discounts on annual plans. Deals close now, renewals later reset at the lower price."
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Every choice has a Now ledger and a Later ledger.",
+      "body": [
+        "The Later costs arrive late and in a different place, so they rarely get blamed on the decision that caused them. Write both columns down before you decide.",
+        "**Try it today:** pick one cost you cut or plan to cut. Write what it saves now, what it might cost in six months, and where that cost would show up."
+      ],
+      "next": "Next · Why keeping doors open is worth paying for"
+    }
+  ]
+}

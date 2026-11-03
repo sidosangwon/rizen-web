@@ -1,0 +1,255 @@
+{
+  "id": "FIN-02-10",
+  "unitId": "FIN-02",
+  "categoryId": "FIN",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Profitable, but out of cash",
+  "readerTitle": "The big order that almost emptied the bank account",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.1,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (빵집·카페가 지역 식료품 체인에 그래놀라 납품) · 모든 수치는 설명용",
+  "insight": "이익은 이 거래가 할 만한지를 알려주고, 현금은 돈이 들어올 때까지 버틸 수 있는지를 알려준다. 성장 결정은 두 질문을 모두 통과해야 한다.",
+  "misconception": "이익이 나는 주문이면 많이 받을수록 좋다. 장부상 흑자면 현금 걱정은 없다.",
+  "relatedLessonIds": [
+    "FIN-02-01",
+    "FIN-02-02"
+  ],
+  "sources": [
+    {
+      "text": "관리회계·재무관리의 표준 개념 (이익과 현금의 차이, 현금 전환 주기, 운전자본)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "40개 매장: 월 4,000봉 × $5 = 매출 $20,000, 재료·포장 4,000 × $2.50 = $10,000, 추가 인건비 $4,000 → 비용 $14,000, 이익 $6,000. 대금은 납품 60일 뒤 지급이므로 약 2개월치 비용 $28,000을 먼저 부담. 보유 현금 $20,000 → 1개월 후 $6,000 남고 2개월 차에 부족.",
+      "status": "open"
+    },
+    {
+      "note": "20개 매장: 매출 $10,000, 재료 $5,000, 인건비 $2,000 → 비용 $7,000, 이익 $3,000. 자금 공백 2 × $7,000 = $14,000, 여유 $20,000 − $14,000 = $6,000.",
+      "status": "open"
+    },
+    {
+      "note": "공급업체 제안: 3개월치 재료 $15,000의 10% 할인 = $13,500 선지급, 절감 $1,500. 평소 월 $5,000 대비 추가로 묶이는 돈 $8,500 → 여유 $6,000 − $8,500 = −$2,500.",
+      "status": "open"
+    },
+    {
+      "note": "60개 매장: 매출 $30,000, 재료 $15,000, 인건비 $6,000 → 비용 $21,000, 이익 $9,000(20개 매장 대비 3배). 자금 공백 2 × $21,000 = $42,000 > 보유 현금 $30,000(가정). 인건비는 매장 수에 비례한다고 단순화했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "송장 기반 대출(매출채권 담보 대출, 팩토링) 등은 나라마다 조건과 규제가 다릅니다. 카드에는 일반적인 선택지로만 언급하고 구체적인 금융 조언은 하지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Simulation",
+      "title": "The big order that almost emptied the bank account",
+      "illustrative": true,
+      "body": [
+        "You run a busy bakery-café. Your house granola is a local favorite.",
+        "Then a regional grocery chain calls. They want it on their shelves. On paper, it's the most profitable deal you've ever been offered. It could also leave you unable to pay your staff within two months."
+      ],
+      "image": {
+        "label": "A small bakery owner holding a phone, a delivery truck outside",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 일러스트. 작은 빵집 카운터에서 주인이 전화를 받으며 놀란 표정. 창밖에 식료품 체인 배송 트럭(로고 없음). 카운터 위 그래놀라 봉지들. 실제 상표나 로고는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 4",
+      "title": "The chain wants 40 stores.",
+      "illustrative": true,
+      "body": [
+        "They'd buy 4,000 bags a month at $5. Ingredients and packaging cost $2.50 a bag. Extra staff cost $4,000 a month. Profit: **$6,000 a month**.",
+        "The catch: the chain pays 60 days after delivery. You pay suppliers and staff as you go. Your cash cushion is $20,000."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Take all 40 stores. The profit is too good to pass up",
+            "verdict": "risky",
+            "feedback": "Each month costs $14,000 up front, and you carry about two months of it, $28,000, before payments flow. Your $20,000 runs out in month two."
+          },
+          {
+            "key": "B",
+            "text": "Start with 20 stores and grow once payments arrive",
+            "verdict": "best",
+            "feedback": "Costs drop to $7,000 a month, so the gap is about $14,000. You earn $3,000 a month and keep $6,000 in reserve."
+          },
+          {
+            "key": "C",
+            "text": "Turn it down. It's too risky for a small bakery",
+            "verdict": "partial",
+            "feedback": "Your cash stays safe, but you give up profitable growth that a smaller start could have handled."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 4",
+      "title": "Say you chose 20 stores. Your supplier offers a deal.",
+      "illustrative": true,
+      "body": [
+        "Your oat and nut supplier offers 10% off if you buy three months of ingredients now. You normally spend $5,000 a month.",
+        "That's $13,500 today instead of $5,000, and a $1,500 saving."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Take it. Saving $1,500 is a 10% gain",
+            "verdict": "risky",
+            "feedback": "You'd tie up an extra $8,500 in oats on a shelf. Your $6,000 reserve turns into a $2,500 shortfall."
+          },
+          {
+            "key": "B",
+            "text": "Keep buying monthly, and ask about a smaller discount for a three-month order paid monthly",
+            "verdict": "best",
+            "feedback": "You pay a little more per bag but keep your reserve. Cash stays free for surprises."
+          },
+          {
+            "key": "C",
+            "text": "Take it and cover the gap with a short-term loan",
+            "verdict": "partial",
+            "feedback": "The discount might beat the interest. But you add debt at the moment your cash is already stretched."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 4",
+      "title": "Say you kept buying monthly. The first payment is late.",
+      "illustrative": true,
+      "body": [
+        "It's day 75. The chain's first payment was due on day 60 and still hasn't arrived.",
+        "Payroll of $2,000 is due Friday. Your reserve is thinner than you planned."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Call the chain's accounts team, check the invoice and ask for a payment date",
+            "verdict": "best",
+            "feedback": "Late payments are often stuck on paperwork, not refused. One call can find the problem fast."
+          },
+          {
+            "key": "B",
+            "text": "Quietly pay your supplier late to cover payroll",
+            "verdict": "risky",
+            "feedback": "It solves Friday, but a supplier who notices may demand cash up front, which makes your gap bigger."
+          },
+          {
+            "key": "C",
+            "text": "Stop deliveries until they pay",
+            "verdict": "partial",
+            "feedback": "It gets attention, but it risks the contract before you know why the money is late."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 4 of 4",
+      "title": "Say you called. The invoice was missing an order number.",
+      "illustrative": true,
+      "body": [
+        "You resent it and were paid within a week. Months later, you have $30,000 in cash, and the chain offers you 60 stores.",
+        "Profit would triple to $9,000 a month. Costs would be $21,000 a month."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Say yes to all 60 now",
+            "verdict": "risky",
+            "feedback": "Two months of costs is now $42,000, more than your $30,000. A bigger, more profitable business runs dry faster."
+          },
+          {
+            "key": "B",
+            "text": "Map your cash month by month, grow in steps you can fund, and arrange a credit line before you need it",
+            "verdict": "best",
+            "feedback": "You still grow, but each step fits the cash you have. Borrowing lined up early costs less than borrowing in a panic."
+          },
+          {
+            "key": "C",
+            "text": "Stay at 20 stores for good",
+            "verdict": "partial",
+            "feedback": "Safe, but your proven deal now pays for growth you're choosing not to take."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "What you were managing",
+      "title": "Profit asks *should I?* Cash asks *can I last?*",
+      "body": [
+        "Every deal here was profitable. The danger was timing. You paid for oats and staff about two months before the chain paid you.",
+        "That gap is the **cash cycle**: the time between money going out and money coming back. Multiply your monthly costs by that gap, and you get the cash a deal needs. Growth makes the number bigger, even when profit grows too."
+      ],
+      "image": {
+        "label": "Timeline: money out first, money in two months later",
+        "aspectRatio": "16:9",
+        "brief": "가로 타임라인 인포그래픽. 왼쪽에 \"Pay suppliers & staff\" 빨간 화살표(아래 방향)가 매달 반복, 오른쪽 60일 뒤에 \"Chain pays\" 초록 화살표(위 방향). 그 사이 구간을 \"Cash gap\"으로 음영 표시.",
+        "url": null
+      },
+      "softwareNote": "Software companies face the same gap when they pay developers and ad costs for months before annual enterprise contracts pay out. Charging upfront for annual plans flips the gap in your favor."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Caution has a cost too.",
+      "body": [
+        "These numbers are simplified. A real bakery also has seasonal swings, taxes and spoiled stock, so a real cash plan needs more room than this one.",
+        "But going slow isn't free. A rival may take the shelf space you left open. The goal isn't to avoid cash gaps. It's to know how big each one is before you step into it."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A profitable deal still has to survive until it pays.",
+      "body": [
+        "Each decision used one idea from this unit:"
+      ],
+      "list": [
+        "**Start with 20 stores:** profit vs cash, and the cash cycle",
+        "**Skip the bulk deal:** inventory ties up cash",
+        "**Chase the late invoice:** getting paid on time",
+        "**Grow in fundable steps:** working capital and runway"
+      ],
+      "callout": "**Try it today:** pick your biggest customer. Count the days between paying for their order and getting their money.",
+      "next": "Next · What does one customer really earn you?"
+    }
+  ]
+}

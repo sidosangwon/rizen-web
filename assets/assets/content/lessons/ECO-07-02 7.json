@@ -1,0 +1,235 @@
+{
+  "id": "ECO-07-02",
+  "unitId": "ECO-07",
+  "categoryId": "ECO",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "Charging by the unit of value",
+  "readerTitle": "Two cleaners got faster. Only one got paid for it.",
+  "format": "two_businesses",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.4,
+  "caseKinds": [
+    "illustrative",
+    "real_company"
+  ],
+  "caseNote": "가상 사례 (사무실 청소 업체 두 곳, 음료·과자 유통업체) + 실제 기업 방식 (항공 엔진 'Power by the Hour', Michelin 트럭 타이어 거리당 과금)",
+  "insight": "가격은 '얼마'보다 먼저 '무엇을 세어서' 받을지 정하는 문제다. 그 단위가 고객이 얻는 가치와 함께 늘어나야 한다.",
+  "misconception": "가격 단위는 업계 관행(시간당, 월정액)을 따르면 되고, 중요한 것은 금액뿐이다.",
+  "relatedLessonIds": [
+    "ECO-06-01",
+    "ECO-07-01"
+  ],
+  "sources": [
+    {
+      "text": "Rolls-Royce, 'Power by the Hour' 엔진 정비 서비스 소개 자료",
+      "url": null
+    },
+    {
+      "text": "Michelin, 트럭 운송사 대상 타이어 거리당 과금 서비스 (Michelin Fleet Solutions) 소개 자료",
+      "url": null
+    },
+    {
+      "text": "청소 업체·유통업체 수치는 모두 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "청소 업체 계산: 시간당 $40 × 주 10시간 = $400, 2,000m² × m²당 $0.20 = $400. 새 장비로 30% 단축: 7시간 × $40 = $280, 차이 $120. m²당 업체는 $400 유지. 모두 가상 수치입니다.",
+      "status": "open"
+    },
+    {
+      "note": "'Power by the Hour'는 1960년대 Bristol Siddeley에서 시작되어 이후 Rolls-Royce와 연결된 이름으로 알려져 있습니다. 카드에는 기원을 단정하지 않고 'long associated with Rolls-Royce'로만 적었습니다. 게시 전 Rolls-Royce 자료로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Michelin이 트럭 운송사에 타이어를 주행 거리(km)당 요금으로 제공한 서비스가 있다는 점을 게시 전 Michelin 자료로 확인하세요. 카드에는 시작 연도와 수치를 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "유통업체 문제: 월 $300 정액, 가장 큰 매장은 작은 매장보다 5배 많은 상자를 받는다는 가정. 구체적 상자당 가격은 쓰지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Pricing · Two businesses",
+      "title": "Two cleaners got faster. Only one got paid for it.",
+      "illustrative": true,
+      "body": [
+        "Two office cleaning companies serve the same business park. Both buy new floor machines that cut cleaning time by almost a third.",
+        "One company's revenue drops the next month. The other's stays the same while its costs fall. The prices were set the same way. Only the *unit* was different."
+      ],
+      "image": {
+        "label": "Two cleaning crews with the same new floor machine",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 같은 사무실 바닥을 두 청소팀이 같은 신형 바닥 청소기로 닦는 장면. 왼쪽 팀 위에는 시계 아이콘, 오른쪽 팀 위에는 바닥 면적 격자 아이콘. 실제 브랜드 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How do you price a new cleaning contract?",
+      "illustrative": true,
+      "body": [
+        "You run a cleaning company. A client has a 2,000 m² office cleaned every week. Your crews keep getting faster as you invest in equipment and training.",
+        "How should you charge?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Per hour worked, the industry norm",
+            "verdict": "risky",
+            "feedback": "Familiar and easy to quote. But every hour you save goes straight off your bill, and the client can't predict the cost or see what they're getting."
+          },
+          {
+            "key": "B",
+            "text": "Per square metre cleaned each week",
+            "verdict": "best",
+            "feedback": "The client pays for clean floors, the thing they actually want. When you get faster, the savings stay with you, and the price grows if they add space."
+          },
+          {
+            "key": "C",
+            "text": "A flat monthly fee",
+            "verdict": "partial",
+            "feedback": "Predictable for both sides, and you keep efficiency gains. But the fee doesn't move if the client adds a floor, so you end up renegotiating."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Same machines, same floors, different bills.",
+      "illustrative": true,
+      "body": [
+        "Before the new machines, both charged **$400 a week**: 10 hours at $40, or 2,000 m² at $0.20. After, the floors are just as clean. One company handed every saved hour to the client. The other kept it."
+      ],
+      "breakdown": [
+        {
+          "value": "10 → 7 hrs",
+          "label": "Weekly cleaning time",
+          "detail": "New machines, same result",
+          "highlight": false
+        },
+        {
+          "value": "$400 → $280",
+          "label": "Per-hour company's bill",
+          "detail": "7 hours × $40",
+          "highlight": false
+        },
+        {
+          "value": "$400 → $400",
+          "label": "Per-m² company's bill",
+          "detail": "2,000 m² × $0.20",
+          "highlight": false
+        },
+        {
+          "value": "$120",
+          "label": "Weekly gap",
+          "detail": "Kept by one, given away by the other",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Charging by the unit of value",
+      "body": [
+        "Every price has two parts: the amount, and the **unit** you count. Hours, kilos, seats, visits, kilometres, results.",
+        "The best unit rises and falls with what the customer actually gets. The office manager doesn't want hours of cleaning. They want clean square metres. Charge for that, and your revenue follows the value you deliver, not the effort it took."
+      ],
+      "image": {
+        "label": "A price tag split into amount and unit",
+        "aspectRatio": "16:9",
+        "brief": "가격표 하나를 두 칸으로 나눈 인포그래픽. 왼쪽 칸 \"$0.20\" (Amount), 오른쪽 칸 \"per m²\" (Unit)이 더 크게 강조. 오른쪽 아래에 대안 단위 아이콘들(시계, 사람, 저울, 도로)이 작게 배치.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Good units pass three tests.",
+      "body": [
+        "Aircraft engine makers have long priced maintenance per hour the engine flies, a model long associated with Rolls-Royce as \"Power by the Hour.\" Michelin has offered truck fleets tyres billed per kilometre driven. Each passes three tests:"
+      ],
+      "list": [
+        "**Tracks value:** more flying or driving means more value to the customer",
+        "**Easy to count:** both sides can check the number without arguing",
+        "**Predictable:** the customer can budget for it"
+      ],
+      "callout": "Bonus: the seller now earns more by making the product last, not by selling replacements.",
+      "softwareNote": "Software companies choose between per seat, per use or per result. Per-seat pricing works when each extra person gets value. If one person can run the whole tool, a usage unit like messages sent or invoices processed may track value better."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A new unit also brings new risks.",
+      "body": [
+        "When your price follows the customer's value, you share their bad months. If the airline grounds planes, the engine maker's income falls too.",
+        "A unit can also discourage the behaviour you want. Charge per user, and clients may share one login instead of rolling out your product.",
+        "And switching units creates winners and losers. Some existing customers will pay more, so they'll need warning and a reason."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a snack and drinks distributor.",
+      "illustrative": true,
+      "body": [
+        "You deliver snacks and drinks to 40 corner shops and charge each a flat $300 a month. Small shops say it's too much. Your biggest shop takes five times as many cases and pays the same $300.",
+        "Which change fits the idea best?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Charge per case delivered",
+            "verdict": "best",
+            "feedback": "Easy to count on every delivery note, and it grows with each shop's business. Small shops pay less, big ones pay their share, and it matches your own costs too."
+          },
+          {
+            "key": "B",
+            "text": "Take a share of each shop's sales of your products",
+            "verdict": "partial",
+            "feedback": "It tracks value closely. But you can't easily see shop tills, so every bill becomes a question of trust and checking."
+          },
+          {
+            "key": "C",
+            "text": "Keep the flat fee and raise it to $350",
+            "verdict": "risky",
+            "feedback": "More money in the short run from the big shops. But the small shops, already unhappy, are the ones most likely to leave."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "The same move appears when a software tool shifts from one flat plan to pricing by invoices processed, orders shipped or locations managed."
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Choose what you count before you choose how much.",
+      "body": [
+        "The right unit grows when your customer gets more of what they came for, and lets you keep the gains when you get better at delivering it.",
+        "**Try it today:** write down the unit you charge by now. Then list two other units you could count. Which one rises when your customer is happiest?"
+      ],
+      "next": "Next · Why the same seat can sell at five different prices"
+    }
+  ]
+}

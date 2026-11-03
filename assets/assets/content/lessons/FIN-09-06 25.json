@@ -1,0 +1,224 @@
+{
+  "id": "FIN-09-06",
+  "unitId": "FIN-09",
+  "categoryId": "FIN",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Saying no to good projects",
+  "readerTitle": "The good project that cost you a great one",
+  "format": "counterexample",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.3,
+  "caseKinds": [
+    "illustrative",
+    "real_company"
+  ],
+  "caseNote": "가상 사례 (생활용품 소매 체인, 레스토랑) + 실제 기업 (Apple, 1997년) · 수치는 모두 설명용",
+  "insight": "좋은 프로젝트의 진짜 경쟁 상대는 '아무것도 안 하기'가 아니라 같은 돈과 시간으로 할 수 있는 가장 좋은 일이다.",
+  "misconception": "허들 레이트를 넘는 프로젝트는 모두 승인하는 것이 이득이다. 좋은 일을 많이 할수록 회사는 더 좋아진다.",
+  "relatedLessonIds": [
+    "FIN-09-05",
+    "FIN-09-03"
+  ],
+  "sources": [
+    {
+      "text": "재무관리의 표준 개념 (기회비용, 자본 배분, 자본 제약 상황에서의 프로젝트 선택)",
+      "url": null
+    },
+    {
+      "text": "Steve Jobs, Apple Worldwide Developers Conference (WWDC) 1997 closing session remarks on focus",
+      "url": null
+    },
+    {
+      "text": "소매 체인과 레스토랑 수치는 모두 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "계산 확인: $1M × 25% = 연 $250,000, $1M × 15% = 연 $150,000, 차이 연 $100,000. 세 개의 소규모 프로젝트는 합계 $1M, 각각 약 15%라는 가정입니다.",
+      "status": "open"
+    },
+    {
+      "note": "Jobs의 \"focusing is about saying no\" 발언은 WWDC 1997 영상에서 확인되는 것으로 알려져 있습니다. 게시 전 원문 영상으로 정확한 문구를 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Apple이 1997년 복귀 후 제품군을 소수의 컴퓨터로 대폭 줄였다는 내용은 여러 자료(Isaacson 전기 등)에 나옵니다. 정확한 제품 수나 감축 비율은 자료마다 달라 카드에는 수치를 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "레스토랑 키오스크 사례: 예상 수익률 18%, 허들 레이트 12%는 설명용 가상 수치입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Counterexample",
+      "title": "The good project that cost you a great one",
+      "illustrative": true,
+      "body": [
+        "A home-goods chain with six stores reviewed six proposals. Every one beat its 12% target return. So it approved all six.",
+        "Two years later the chain was earning less on its money than before. No single project was a disaster. Saying yes to all of them was."
+      ],
+      "image": {
+        "label": "A store manager juggling six project folders",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 생활용품 매장 관리자가 승인 도장이 찍힌 폴더 여섯 개를 위태롭게 들고 있음. 폴더마다 작은 초록 체크 표시. 배경에 반쯤 완성된 새 매장. 실제 브랜드 로고는 쓰지 않음.",
+        "url": "assets/images/fin-09-06-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You have $1M. Four proposals clear the bar.",
+      "illustrative": true,
+      "body": [
+        "You run that chain. A new store needs $1M and your best manager full-time. It should return about 25% a year.",
+        "Three smaller projects also need $1M in total: a store refit, a delivery van and a loyalty program. Each should return about 15%. Your target is 12%."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Fund the new store and say no to the other three",
+            "verdict": "best",
+            "feedback": "You give up three good projects to fully back the best one. The risk is that one big bet carries everything, so its forecast needs real scrutiny."
+          },
+          {
+            "key": "B",
+            "text": "Fund the three smaller projects to spread the risk",
+            "verdict": "partial",
+            "feedback": "Spreading out feels safer, and it is a little. But you trade about $100,000 a year of expected return for that comfort."
+          },
+          {
+            "key": "C",
+            "text": "Borrow another $1M and do all four",
+            "verdict": "risky",
+            "feedback": "On paper you capture every return. In practice your best manager is split four ways and you've added debt, so each project can slip below plan."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "What the good projects really cost.",
+      "illustrative": true,
+      "body": [
+        "The three projects aren't bad. They just aren't free. Their real cost is the **$100,000 a year** you'd give up by not funding the store."
+      ],
+      "breakdown": [
+        {
+          "value": "$250,000",
+          "label": "New store",
+          "detail": "$1M at about 25% a year",
+          "highlight": false
+        },
+        {
+          "value": "$150,000",
+          "label": "Three smaller projects",
+          "detail": "$1M at about 15% a year",
+          "highlight": false
+        },
+        {
+          "value": "$100,000",
+          "label": "Cost of choosing good over great",
+          "detail": "Given up every year",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The real rival is your best option",
+      "body": [
+        "**Opportunity cost** is the return of the best thing you gave up to do something else.",
+        "A target return, or hurdle rate, tells you a project is worth doing *at all*. It doesn't tell you it's worth doing *instead of* something better. When money, people or time are limited, every yes is also a no to something else.",
+        "So the question changes from \"Is this good?\" to \"Is this the best use of what we have?\""
+      ],
+      "image": {
+        "label": "A ladder of projects with a hurdle line and a top rung",
+        "aspectRatio": "16:9",
+        "brief": "계단형 인포그래픽. 프로젝트 카드들이 수익률 순으로 쌓여 있고 12% 위치에 점선 'Hurdle rate'. 점선 위 카드가 여럿이지만 맨 위 한 장만 'Funded'로 밝게 강조, 나머지는 'Good, but not now'로 흐리게.",
+        "url": "assets/images/fin-09-06-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Money isn't the only thing that runs out.",
+      "body": [
+        "Most businesses run short of three things: cash, the attention of their best people, and the capacity to carry out change. Good projects quietly eat all three.",
+        "When Steve Jobs returned to Apple in 1997, he cut a sprawling product lineup down to a small set of computers. At a developer conference that year he put it simply: focusing is about saying no.",
+        "The products he cut weren't all failures. They were taking engineers and money from the few that mattered most."
+      ],
+      "softwareNote": "In a software company the scarcest resource is usually engineering time. Every good feature request competes with the one roadmap item that could move retention or revenue the most."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "No has costs too.",
+      "body": [
+        "Saying no only pays when something better really exists and resources are truly limited. If your best project can only absorb part of the money, funding good projects beats leaving cash idle, or you can return it to owners.",
+        "And \"great\" projects often come with the most hopeful forecasts. A dependable 15% can be worth more than a shaky 25%. Compare risk, not just the headline number."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a restaurant.",
+      "illustrative": true,
+      "body": [
+        "You own a busy restaurant and are halfway through a renovation that should lift sales a lot. Your head chef and you are running it.",
+        "A mall owner offers you a food-court kiosk. It should return about 18% a year. Your target is 12%."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Take it. It clears the target easily",
+            "verdict": "risky",
+            "feedback": "The kiosk's return looks fine alone. But it pulls your time and cash from a renovation that likely pays more, and a delayed renovation costs you at both sites."
+          },
+          {
+            "key": "B",
+            "text": "Decline for now and revisit once the renovation is done",
+            "verdict": "best",
+            "feedback": "You protect the bigger payoff and keep your attention in one place. You may lose this exact offer, which is the price of focus."
+          },
+          {
+            "key": "C",
+            "text": "Take it, but hand it to your sous-chef to run",
+            "verdict": "partial",
+            "feedback": "This protects your own time. But it takes a key cook out of the kitchen right when the renovation needs everyone."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Good isn't the bar. Best use is.",
+      "body": [
+        "A project that beats your target can still be a mistake if it takes money or people from something better.",
+        "**Try it today:** list everything you're currently funding or planning. Rank it by return. Ask which bottom item you'd cut to fully back the top one."
+      ],
+      "next": "Next · A restaurant group with $1M of profit"
+    }
+  ]
+}

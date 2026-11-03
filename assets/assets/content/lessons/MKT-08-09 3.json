@@ -1,0 +1,235 @@
+{
+  "id": "MKT-08-09",
+  "unitId": "MKT-08",
+  "categoryId": "MKT",
+  "order": 9,
+  "type": "case",
+  "conceptTag": "Tesla started with an expensive sports car",
+  "readerTitle": "Why Tesla's first car was one most people couldn't afford",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Tesla, Roadster → Model S → Model 3) + 가상 적용 (동결건조 식품 스타트업, softwareNote의 AI 도구)",
+  "insight": "새 기술이 처음에 비싸다면 대중 시장이 아니라 비싼 값을 기꺼이 내는 소수에게 먼저 팔고, 그 돈과 경험으로 한 단계씩 내려온다.",
+  "misconception": "큰 시장을 노리려면 처음부터 싸고 대중적인 제품으로 시작해야 한다.",
+  "relatedLessonIds": [
+    "MKT-08-03",
+    "CUS-01-05"
+  ],
+  "sources": [
+    {
+      "text": "Elon Musk, \"The Secret Tesla Motors Master Plan (just between you and me)\", Tesla blog, August 2006",
+      "url": "https://www.tesla.com/blog/secret-tesla-motors-master-plan-just-between-you-and-me"
+    },
+    {
+      "text": "Tesla Roadster: Lotus Elise 기반 차체, 2008년 출고 시작, 약 $100,000 수준 가격 (Tesla 보도자료 및 당시 주요 언론 보도)",
+      "url": null
+    },
+    {
+      "text": "Model S 출고 2012년, Model 3 출고 2017년·기본가 $35,000 발표 (Tesla 보도자료, 연례 보고서)",
+      "url": null
+    },
+    {
+      "text": "2008년 자금난과 Model 3 생산 지연 ('production hell'): Elon Musk 공개 발언 및 주요 언론 보도",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "2006년 마스터플랜 블로그 글의 요지(스포츠카 → 그 돈으로 더 싼 차 → 그 돈으로 더 싼 차)는 원문으로 확인하세요. 카드에는 직접 인용 대신 요약으로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Roadster 가격은 트림과 연도에 따라 약 $98,000~$109,000으로 보도됩니다. 카드에는 \"about $100,000\"로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Roadster 총 생산 대수는 약 2,450대로 자주 인용되지만 자료마다 다릅니다. 카드에는 \"a few thousand\"로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Roadster가 Lotus Elise 차체를 바탕으로 만들어졌다는 점, 2008년 말 회사가 파산 직전까지 갔다는 점, Model 3 출고 시작(2017년)과 $35,000 기본가 발표를 게시 전 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "\"당시 전기차는 작고 느리고 밋밋하다는 인식이 있었다\"는 일반적 서술입니다. 특정 차종이나 수치는 넣지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Going to market · Counterexample",
+      "title": "Why Tesla's first car was one most people couldn't afford",
+      "body": [
+        "In 2006, a small startup wanted to put electric cars on every street.",
+        "Its first product was a two-seat sports car that sold for about $100,000. On paper, that looks like the wrong way to reach everyone."
+      ],
+      "image": {
+        "label": "A sleek two-seat electric sports car on an empty road",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 낮고 날렵한 2인승 전기 스포츠카 한 대가 빈 도로 위에 있고, 뒤로 멀리 평범한 가족용 차들이 줄지어 기다리는 실루엣. 실제 Tesla 로고, 엠블럼, 차량 디자인은 그대로 쓰지 말 것.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Batteries are expensive. What do you build first?",
+      "body": [
+        "It's 2006. You run a young electric car company. Batteries cost a lot, and you can only build a small number of cars. Many people think electric cars are small, slow and dull.",
+        "Your goal is affordable electric cars for millions. What should your first car be?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "An affordable family car, so you reach the big market right away",
+            "verdict": "risky",
+            "feedback": "You aim straight at the goal, but at low volume each car costs far more than families will pay. You'd lose money on every sale."
+          },
+          {
+            "key": "B",
+            "text": "An expensive, fast sports car for wealthy car lovers",
+            "verdict": "best",
+            "feedback": "A few buyers pay a price that can cover high early costs, and a fast car fights the 'slow and dull' image. The trade-off: you start with a tiny market."
+          },
+          {
+            "key": "C",
+            "text": "A cheap, small city car for short trips",
+            "verdict": "partial",
+            "feedback": "Smaller batteries keep costs down. But it confirms the image you need to break, and cheap prices leave little to fund what comes next."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "A sports car, with a plan written down.",
+      "body": [
+        "Tesla's first car, the Roadster, was built on the frame of a Lotus sports car and began reaching buyers in 2008. Only a few thousand were ever made.",
+        "In 2006, before it shipped, Elon Musk posted what he called the company's *master plan*. In short: build a sports car, use that money to build a more affordable car, then use that money to build an even more affordable one.",
+        "The expensive car wasn't a detour from the mass market. It was the **first step toward it**."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Enter at the top, then move down",
+      "body": [
+        "**Top-down entry** means launching a new technology first to the small group who will pay the most for it, then lowering the price step by step as costs fall.",
+        "It works because early units are expensive to make. A high price covers those costs. Each step builds money, skill and volume that make the next, cheaper step possible.",
+        "It also shapes what people think the product *is*. Tesla's first car said electric could mean fast."
+      ],
+      "softwareNote": "A new AI tool may cost a lot to run per customer at first. Selling it to law firms or engineers who save hours with it can fund the work that later makes a cheaper self-serve plan possible."
+    },
+    {
+      "index": 5,
+      "type": "breakdown",
+      "eyebrow": "The sequence",
+      "title": "Three steps down the price ladder.",
+      "body": [
+        "Each car sold to a larger group than the one before. Prices still weren't cheap, but the direction was clear."
+      ],
+      "breakdown": [
+        {
+          "value": "2008",
+          "label": "Roadster",
+          "detail": "Two-seat sports car, about $100,000, a few thousand made",
+          "highlight": false
+        },
+        {
+          "value": "2012",
+          "label": "Model S",
+          "detail": "Luxury sedan, still pricey, far more buyers",
+          "highlight": false
+        },
+        {
+          "value": "2017",
+          "label": "Model 3",
+          "detail": "Announced at a $35,000 starting price",
+          "highlight": true
+        }
+      ],
+      "callout": "The goal stayed the same. Only the starting point was unusual."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Why it's a counterexample",
+      "title": "\"Go where the volume is\" isn't always right.",
+      "body": [
+        "Common launch advice says to pick the biggest market you can. For a product whose costs are high at small scale, that can be a trap. You chase buyers who won't pay what each unit costs.",
+        "The better question is: *who will pay enough today for the product I can actually make today?* Sometimes that's a large group. For new, costly technology, it's often a small, demanding one."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The ladder only works if you survive each step.",
+      "body": [
+        "Top-down entry needs costs to fall as volume grows. If they don't, you stay a niche luxury maker.",
+        "It's also risky. Tesla reportedly came close to running out of money in late 2008, and Musk later described the Model 3 ramp-up as \"production hell.\"",
+        "And a premium image can be hard to move down. Early fans may not want their special product to become common."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's freeze-dried meals.",
+      "illustrative": true,
+      "body": [
+        "Your startup has a new way to freeze-dry restaurant-quality meals that taste fresh. In small batches, each meal costs $14 to make. At large scale, you expect that to fall a lot.",
+        "Who should you sell to first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Supermarkets nationwide at $6 a meal, to grow fast",
+            "verdict": "risky",
+            "feedback": "You'd reach many shoppers but lose about $8 a meal until scale arrives, and you might not last that long."
+          },
+          {
+            "key": "B",
+            "text": "Mountaineers, sailors and expedition outfitters who pay well for great food far from kitchens",
+            "verdict": "best",
+            "feedback": "They value taste and weight enough to cover today's costs, and their praise builds credibility. You'll still need a plan for stepping down to wider markets."
+          },
+          {
+            "key": "C",
+            "text": "A mid-priced online store at $12, to test general demand",
+            "verdict": "partial",
+            "feedback": "You learn something about wider demand, but you still lose money per meal and blur what makes the product special."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Start where people pay for what you can make today.",
+      "body": [
+        "If your product is costly at small scale, a high-end first customer can fund the road to a mass market. The plan only works if costs fall and you last long enough to take each step.",
+        "**Try it today:** write down what one unit costs you now and at ten times the volume. Which customers would pay the first number?"
+      ],
+      "next": "Next · Write your own go-to-market plan"
+    }
+  ]
+}

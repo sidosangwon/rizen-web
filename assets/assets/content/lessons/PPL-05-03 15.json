@@ -1,0 +1,257 @@
+{
+  "id": "PPL-05-03",
+  "unitId": "PPL-05",
+  "categoryId": "PPL",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "Roles and accountability",
+  "readerTitle": "Three people were in charge of the fridge. That was the problem.",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5,
+  "caseKinds": [
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 연구 (Darley & Latané 1968, 책임 분산) + 가상 사례 (식료품점, 배관·수리 업체) · 매장과 업체 수치는 설명용",
+  "insight": "책임을 여러 사람에게 나누면 책임이 커지는 것이 아니라 흐려진다. 결과마다 이름 하나를 붙여야 일이 실제로 일어난다.",
+  "misconception": "중요한 일일수록 더 많은 사람에게 맡겨야 안전하다. '모두의 책임'이면 누군가는 챙긴다.",
+  "relatedLessonIds": [
+    "PPL-02-04",
+    "PPL-05-01"
+  ],
+  "sources": [
+    {
+      "text": "Darley, J. M., & Latané, B. (1968). Bystander intervention in emergencies: Diffusion of responsibility. Journal of Personality and Social Psychology, 8(4), 377–383.",
+      "url": null
+    },
+    {
+      "text": "식료품점과 배관·수리 업체 사례의 모든 수치는 설명용 가상 수치",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Darley & Latané(1968) 발작 실험 수치 확인 필요: 발작이 끝나기 전 도움을 요청한 비율이 본인과 피해자 둘뿐이라고 믿은 조건 85%, 3인 조건 62%, 6인 조건 31%. 원문 표와 대조하고, '6인 조건'이 참가자가 믿은 집단 크기(본인 포함)인지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "가상 매장 수치: 매니저 3명, 확인 0회, 손실 $2,400. 계산식은 없고 설명용 숫자입니다. 손실 규모가 소형 식료품점 유제품 냉장고 한 대 분량으로 과하지 않은지 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Teams · Numbers twist",
+      "title": "Three people were in charge of the fridge. That was the problem.",
+      "illustrative": true,
+      "body": [
+        "A neighborhood grocery store has three shift leads. The closing checklist says: *Shift leads check the dairy cooler temperature.*",
+        "One night the cooler fails. By morning, $2,400 of milk, yogurt and cheese goes in the bin. Each lead was sure one of the others had checked."
+      ],
+      "image": {
+        "label": "Three store staff each pointing at the others beside a warm dairy cooler",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 문이 열린 유제품 냉장고 옆에 매장 직원 세 명이 서로를 가리키고 있음. 냉장고 온도계는 빨간색. 실제 브랜드 로고나 제품 상표는 쓰지 않음.",
+        "url": "assets/images/ppl-05-03-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You own the store. How do you stop this happening again?",
+      "illustrative": true,
+      "body": [
+        "The cooler is fixed. Now you want to make sure the nightly temperature check never gets skipped again.",
+        "What change do you make?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Make every staff member on shift responsible for the check",
+            "verdict": "risky",
+            "feedback": "It feels safer to have more eyes on it. But each extra person makes it easier for everyone to assume someone else did it."
+          },
+          {
+            "key": "B",
+            "text": "Name one person per shift who owns the check, with a named backup",
+            "verdict": "best",
+            "feedback": "Now there is one answer to *who checks tonight?* The backup covers sick days without turning it back into a shared job."
+          },
+          {
+            "key": "C",
+            "text": "Add a sign-off sheet that any lead can initial",
+            "verdict": "partial",
+            "feedback": "A sheet makes a missed check visible the next morning. But it still doesn't say whose job it is tonight, so the gap stays open."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "More owners, fewer checks.",
+      "illustrative": true,
+      "body": [
+        "The checklist had three names on it. That looked like triple coverage. In practice it worked like zero."
+      ],
+      "breakdown": [
+        {
+          "value": "3",
+          "label": "People responsible",
+          "detail": "Every shift lead, on paper",
+          "highlight": false
+        },
+        {
+          "value": "0",
+          "label": "Checks done",
+          "detail": "Each assumed another lead had done it",
+          "highlight": true
+        },
+        {
+          "value": "$2,400",
+          "label": "Stock lost",
+          "detail": "One night, one cooler",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "chart",
+      "eyebrow": "The research",
+      "title": "The more people who could act, the fewer who did.",
+      "body": [
+        "In a 1968 study, psychologists John Darley and Bibb Latané had students talk over an intercom. Then one voice seemed to have a seizure.",
+        "Students who believed they were the only listener almost always went for help quickly. Students who believed others could hear it were much slower to act, or didn't act at all."
+      ],
+      "chart": {
+        "unit": "%",
+        "groups": [
+          {
+            "label": "Went for help before the seizure ended",
+            "rows": [
+              {
+                "label": "Thought they were the only one",
+                "value": 85,
+                "highlight": true
+              },
+              {
+                "label": "Thought one other person heard",
+                "value": 62,
+                "highlight": false
+              },
+              {
+                "label": "Thought four others heard",
+                "value": 31,
+                "highlight": false
+              }
+            ]
+          }
+        ]
+      },
+      "callout": "Nobody was lazy or cruel. Each person simply felt less of the responsibility.",
+      "image": {
+        "url": "assets/images/ppl-05-03-info.png"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Roles and accountability",
+      "body": [
+        "A **role** says what work someone does. **Accountability** says who answers for an outcome if it doesn't happen.",
+        "When an outcome belongs to several people, responsibility gets split, a pattern researchers call *diffusion of responsibility*. Each person carries a share, and it's easy to assume the others have it covered.",
+        "The fix is simple to say: many people can help, but **one person owns** each outcome."
+      ],
+      "image": {
+        "label": "One task card with a single name, surrounded by helper icons",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 가운데 \"Cooler check\" 카드에 이름 하나(\"Owner: Maya\")가 크게 적혀 있고, 주변에 작은 사람 아이콘들이 \"Helps\", \"Needs to know\" 라벨로 연결됨. 비교용으로 왼쪽에 이름 세 개가 흐릿하게 겹친 카드.",
+        "url": "assets/images/ppl-05-03-c5.jpg"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Three questions for every outcome.",
+      "body": [
+        "For any outcome that matters, answer these out loud and write them down:"
+      ],
+      "list": [
+        "**Who owns it?** One name, not a team or a job title shared by three people",
+        "**Who helps?** The people who do parts of the work",
+        "**Who needs to know?** The people told when it's done, or when it isn't"
+      ],
+      "callout": "The owner doesn't have to do all the work. They make sure it gets done, and they speak up when it won't.",
+      "softwareNote": "Software teams see this with bug tickets and outages. A ticket assigned to a whole team tends to sit. A ticket with one assignee, and an outage with one named incident lead, tends to move."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "An owner without power is just someone to blame.",
+      "body": [
+        "Accountability only works if the owner can act. The cooler owner needs the authority to call a repair service at midnight, and the phone number to do it.",
+        "It also needs a team where reporting a miss is safe. If owners get punished for every problem, they learn to hide problems instead.",
+        "And don't name owners for everything. Save it for outcomes that hurt when they slip."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a plumbing and repair company.",
+      "illustrative": true,
+      "body": [
+        "Your firm sends technicians to homes. Reviews keep saying the same thing: after a job, nobody calls back to check the fix worked. Small leaks turn into angry customers.",
+        "Technicians, the office coordinator and you all think follow-up calls matter. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Remind everyone that follow-up is all of our job",
+            "verdict": "risky",
+            "feedback": "Everyone agrees, and that's the problem. With three groups sharing it, each will assume another made the call."
+          },
+          {
+            "key": "B",
+            "text": "Make the office coordinator own every follow-up, with technicians logging job notes the same day",
+            "verdict": "best",
+            "feedback": "One person answers for every callback, and the technicians help by passing on what the coordinator needs. It costs some of the coordinator's time, so check their workload."
+          },
+          {
+            "key": "C",
+            "text": "Send every customer an automatic text survey",
+            "verdict": "partial",
+            "feedback": "It's cheap and catches some problems. But someone still has to read the replies and act, and right now no one owns that."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "In a subscription business, the same gap appears after a customer signs up. If sales, support and product all \"own\" onboarding, new users often fall through. One named owner per new account closes it."
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Many hands can help. One name owns it.",
+      "body": [
+        "Sharing an outcome feels safer, but it spreads responsibility so thin that nobody feels it. Give every important outcome one owner, and the power to act.",
+        "**Try it today:** list three things in your business that went wrong recently. Next to each, write the one person who owned it. Where you can't write a name, pick one this week."
+      ],
+      "next": "Next · Why the best teams argue"
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "id": "OPS-02-01",
+  "unitId": "OPS-02",
+  "categoryId": "OPS",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Waste",
+  "readerTitle": "The report took 12 days. The work took 6 hours.",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative",
+    "real_observation"
+  ],
+  "caseNote": "가상 사례 (기장 대행 회사, 지역 도매 유통사) · 모든 수치는 설명용 · 일곱 가지 낭비는 도요타 생산 방식(오노 다이이치)의 실제 분류",
+  "insight": "낭비는 일하는 시간보다 일이 멈춰 있는 시간에 숨어 있다. 그래서 일을 빠르게 하기보다 기다림을 없애는 쪽이 훨씬 큰 효과를 낸다.",
+  "misconception": "낭비를 줄이려면 사람들이 더 빨리 일하거나, 장비와 소프트웨어로 작업 속도를 높여야 한다.",
+  "relatedLessonIds": [
+    "OPS-02-04",
+    "OPS-02-06"
+  ],
+  "sources": [
+    {
+      "text": "Ohno, T. (1988). Toyota Production System: Beyond Large-Scale Production. Productivity Press. (일본어 원서 1978)",
+      "url": null
+    },
+    {
+      "text": "Womack, J. & Jones, D. (1996). Lean Thinking. Simon & Schuster. (가치를 더하는 일 vs 필요하지만 가치를 더하지 않는 일 vs 순수한 낭비 구분)",
+      "url": null
+    },
+    {
+      "text": "기장 회사와 도매 유통사의 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "기장 회사 계산: 대기 4일 + 착수 전 대기 3일 + 검토 대기 3일 + 누락 자료 주고받기 1.25일 + 실제 작업 0.75일(6시간, 하루 8시간 기준) = 12일. 실제 작업 비율 0.75 ÷ 12 = 6.25%(약 6%).",
+      "status": "open"
+    },
+    {
+      "note": "작업 30% 단축: 6시간 × 0.3 = 1.8시간 절약 → 약 11.8일. 대기 시간 합계 11.25일의 절반 = 5.625일 절약 → 12 − 5.625 = 6.375일(\"just over 6 days\").",
+      "status": "open"
+    },
+    {
+      "note": "일곱 가지 낭비(과잉생산, 대기, 운반, 과잉처리, 재고, 동작, 불량)는 오노 다이이치의 분류로 널리 인용됩니다. 원서 표기와 영어 번역 용어를 게시 전 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "도매 유통사 사례(주문~배송 5일, 피킹·포장 25분)는 가상 수치이며 정답 선택지의 근거를 수치로 계산하지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Numbers twist",
+      "title": "The report took 12 days. The work took 6 hours.",
+      "illustrative": true,
+      "body": [
+        "A small bookkeeping firm closes each client's books every month. Clients wait about 12 working days for their report, and they've started to complain.",
+        "The owner follows one client file from start to finish and adds up the time anyone actually worked on it. The total: six hours."
+      ],
+      "image": {
+        "label": "A client folder resting on a desk beside a calendar with 12 days crossed out",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 사무실 책상 위에 서류 폴더 하나가 먼지를 살짝 뒤집어쓴 채 놓여 있고, 옆 달력에 12칸이 X로 지워져 있음. 폴더 위 작은 모래시계. 실제 회사 로고나 소프트웨어 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Clients want their report in 6 days.",
+      "illustrative": true,
+      "body": [
+        "You own the firm. You'd like to cut delivery time in half without losing quality.",
+        "What would you try first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Hire another bookkeeper to add capacity",
+            "verdict": "partial",
+            "feedback": "More hands help if work is piling up faster than people can do it. But you add a salary, and it may not touch the days files spend sitting still."
+          },
+          {
+            "key": "B",
+            "text": "Buy software that makes bookkeeping 30% faster",
+            "verdict": "risky",
+            "feedback": "It speeds up the six hours of real work. That saves under two hours on a 12-day wait."
+          },
+          {
+            "key": "C",
+            "text": "Find where the file sits untouched and remove those waits",
+            "verdict": "best",
+            "feedback": "The work is only a sliver of the 12 days. Cutting the idle time is where the big gains are. Next card shows why."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Where the 12 days went.",
+      "illustrative": true,
+      "image": {
+        "label": "Timeline bar where a thin slice is work and the rest is waiting",
+        "aspectRatio": "16:9",
+        "brief": "가로 막대 하나를 12칸(12일)으로 나눔. 대부분은 회색(기다림), 끝부분 아주 얇은 한 조각만 밝은 색으로 \"Hands-on work 6 hrs\" 라벨. 회색 구간마다 \"Waiting for documents\", \"In the queue\", \"Waiting for review\", \"Fixing missing items\" 라벨.",
+        "url": null
+      },
+      "breakdown": [
+        {
+          "value": "4 days",
+          "label": "Waiting for client documents",
+          "detail": "Receipts and statements arrive in pieces",
+          "highlight": false
+        },
+        {
+          "value": "3 days",
+          "label": "Waiting to be started",
+          "detail": "File sits in a pile until someone is free",
+          "highlight": false
+        },
+        {
+          "value": "3 days",
+          "label": "Waiting for senior review",
+          "detail": "Reviewer checks files once a week",
+          "highlight": false
+        },
+        {
+          "value": "1.25 days",
+          "label": "Fixing missing items",
+          "detail": "Emails back and forth with the client",
+          "highlight": false
+        },
+        {
+          "value": "0.75 day",
+          "label": "Hands-on work",
+          "detail": "Six hours of actual bookkeeping",
+          "highlight": true
+        }
+      ],
+      "callout": "Real work was about **6%** of the time. The other 94%, the file was just sitting there."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Waste",
+      "body": [
+        "**Waste** is anything that uses time, money or effort without adding something the customer would pay for.",
+        "Taiichi Ohno, who shaped Toyota's production system, made hunting it a daily habit. His key insight: most waste isn't people working badly. It's work standing still, being moved around, or being done twice.",
+        "A client pays for an accurate report. They don't pay for the days it sits in a pile."
+      ],
+      "softwareNote": "In software, waste looks like code waiting days for review, features built that few users ever touch, and bugs found late that force rework. Speeding up typing rarely helps. Shortening the waits does."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How to spot it",
+      "title": "Seven places waste hides.",
+      "body": [
+        "Ohno grouped waste into seven kinds. They show up in offices and shops as much as in factories."
+      ],
+      "list": [
+        "**Overproduction:** making more, or sooner, than anyone needs",
+        "**Waiting:** work or people sitting idle",
+        "**Transport:** moving things around for no reason",
+        "**Overprocessing:** more steps or polish than the customer values",
+        "**Inventory:** piles of materials or unfinished work",
+        "**Motion:** searching, reaching, walking back and forth",
+        "**Defects:** mistakes that need fixing"
+      ],
+      "callout": "At the bookkeeping firm, nearly all of it was waiting and defects."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The twist",
+      "title": "Faster work barely moves the clock.",
+      "illustrative": true,
+      "body": [
+        "Make the bookkeeping 30% faster and you save about 1.8 hours. The report still takes nearly 12 days.",
+        "Now attack the waits instead. Send clients a checklist with a fixed due date for documents. Start each file the day it's complete. Have the reviewer check files daily instead of weekly.",
+        "If those changes cut the waiting in half, the report arrives in **just over 6 days**. Nobody worked a minute faster."
+      ],
+      "image": {
+        "label": "Two stopwatches: one barely changed, one cut in half",
+        "aspectRatio": "16:9",
+        "brief": "스톱워치 두 개를 나란히. 왼쪽 \"Work 30% faster: ~11.8 days\"는 거의 그대로, 오른쪽 \"Waiting cut in half: ~6.4 days\"는 바늘이 절반 위치. 오른쪽을 강조 색으로.",
+        "url": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Not every non-value step is waste.",
+      "body": [
+        "The senior review doesn't add anything the client sees. But it catches errors, and clients would certainly notice those. Lean thinkers separate pure waste from work that is **necessary** but doesn't add value. Shrink the second kind carefully. Don't delete it.",
+        "Also, a waste hunt is not a blame hunt. Waits usually come from how work is handed over, not from lazy people. Point at the system, or people will start hiding the delays."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a wholesale distributor.",
+      "illustrative": true,
+      "body": [
+        "You supply about 200 hardware stores in your region. From the moment a store orders to the moment boxes arrive takes five days. Picking and packing an order takes about 25 minutes.",
+        "Your warehouse manager wants faster handheld scanners. What do you do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Buy the faster scanners",
+            "verdict": "risky",
+            "feedback": "They shave minutes off the 25 minutes of work. If the five days are mostly orders waiting, stores won't notice."
+          },
+          {
+            "key": "B",
+            "text": "Follow a few orders and time every stage, including the waits",
+            "verdict": "best",
+            "feedback": "It costs a few days of attention. You may find orders waiting overnight to be typed in, or for the next truck, and fix the biggest wait first."
+          },
+          {
+            "key": "C",
+            "text": "Switch to daily deliveries right away",
+            "verdict": "partial",
+            "feedback": "It might remove the biggest wait, but extra truck runs are expensive. Without measuring, you're guessing that trucks are the problem."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Look for waste where nothing is happening.",
+      "body": [
+        "Most delay and cost hide in the gaps between work, not in the work. Remove the waits before you speed up the workers.",
+        "**Try it today:** follow one order, job or request from start to finish. Write down when someone actually worked on it and when it just sat. Add up both."
+      ],
+      "next": "Next · Making things only when they're needed"
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "id": "BMO-06-03",
+  "unitId": "BMO-06",
+  "categoryId": "BMO",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "Expansion revenue",
+  "readerTitle": "Two businesses lose the same customers. Only one shrinks.",
+  "format": "two_businesses",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.3,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (가정용 밀키트 구독, 식당용 근무표 앱, 사무실 청소 업체) · 모든 수치는 설명용",
+  "insight": "반복 매출의 성장은 새 고객만이 아니라 기존 고객이 시간이 지나며 더 많이 쓰게 만드는 구조에서도 나온다. 가격이 고객의 성장에 연결되어 있으면 고객을 잃어도 매출이 늘 수 있다.",
+  "misconception": "고객을 잃으면 그만큼 매출이 줄어들고, 매출을 늘리려면 새 고객을 데려오는 수밖에 없다.",
+  "relatedLessonIds": [
+    "BMO-06-02",
+    "BMO-06-05"
+  ],
+  "sources": [
+    {
+      "text": "구독 사업의 표준 지표 개념 (확장 매출, 순매출 유지율 Net Revenue Retention)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 설명용 가상 수치입니다. 밀키트: $10,000 − $1,000(해지) + $0(확장) = $9,000, 순매출 유지율 9,000 ÷ 10,000 = 90%. 근무표 앱: $10,000 − $1,000(해지) + $2,000(확장) = $11,000, 순매출 유지율 11,000 ÷ 10,000 = 110%.",
+      "status": "open"
+    },
+    {
+      "note": "순매출 유지율 계산에서 신규 고객 매출은 제외한다는 정의를 카드에 명시했습니다. 업계마다 계산 기간·방식이 조금씩 다르므로 특정 기업의 실제 수치는 인용하지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business models · Two businesses",
+      "title": "Two businesses lose the same customers. Only one shrinks.",
+      "illustrative": true,
+      "body": [
+        "A meal box company and a staff scheduling app both start the year earning $10,000 a month from their customers.",
+        "Over twelve months, both lose customers worth $1,000 a month. Neither signs a single new customer. By December, one is earning less. The other is earning more."
+      ],
+      "image": {
+        "label": "Two shops side by side, one bar shrinking, one growing",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 왼쪽은 밀키트 상자가 쌓인 작은 주방, 오른쪽은 노트북 화면에 근무표가 떠 있는 식당 사무실. 각각 위에 매출 막대가 있고, 왼쪽 막대는 살짝 줄고 오른쪽 막대는 살짝 자라는 모습. 실제 브랜드 로고는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Who earns more from these customers in a year?",
+      "illustrative": true,
+      "body": [
+        "The meal box charges households a fixed $60 a week. The scheduling app charges restaurants $8 per staff member each month.",
+        "Same starting revenue, same cancellations, no new customers. Which one earns more from its customers in December?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Neither. They lost the same customers, so they end up the same",
+            "verdict": "risky",
+            "feedback": "This counts only who leaves. It ignores what the customers who stay do with their bills over the year."
+          },
+          {
+            "key": "B",
+            "text": "The meal box, because people eat every day",
+            "verdict": "partial",
+            "feedback": "Frequent use helps keep customers. But a fixed price per box means a loyal customer pays the same in December as in January."
+          },
+          {
+            "key": "C",
+            "text": "The app, if the restaurants that stay keep hiring",
+            "verdict": "best",
+            "feedback": "Right. Its price grows when the customer grows. The next card shows how much that matters."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "Same losses, opposite years.",
+      "illustrative": true,
+      "body": [
+        "Both lost $1,000 a month in cancellations. The restaurants that stayed on the app hired staff and opened new locations, adding **$2,000** a month. The meal box customers who stayed kept ordering the same box."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Meal box (monthly revenue)",
+            "rows": [
+              {
+                "label": "January",
+                "value": 10000,
+                "highlight": false
+              },
+              {
+                "label": "December",
+                "value": 9000,
+                "highlight": false
+              }
+            ]
+          },
+          {
+            "label": "Scheduling app (monthly revenue)",
+            "rows": [
+              {
+                "label": "January",
+                "value": 10000,
+                "highlight": false
+              },
+              {
+                "label": "December",
+                "value": 11000,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "image": {
+        "label": "Same losses, opposite years.",
+        "aspectRatio": "4:3",
+        "brief": "Labeled HTML chart from the lesson numbers",
+        "url": "assets/images/bmo-06-03-chart.png"
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Expansion revenue",
+      "body": [
+        "**Expansion revenue** is the extra money existing customers pay you over time, because they buy more, upgrade or add something.",
+        "Many subscription businesses track it with one number: *net revenue retention*. Take this month's revenue from last year's customers, divide by what they paid a year ago, and leave new customers out.",
+        "The meal box sits at 90%. The app sits at 110%. Above 100%, your customer base grows on its own."
+      ],
+      "image": {
+        "label": "A bucket leaking at the bottom and filling from inside",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 양동이 하나에 바닥 구멍으로 물이 조금 새고(라벨 \"Cancellations\"), 양동이 안의 물방울들이 스스로 커지는 모습(라벨 \"Expansion\"). 옆에 \"90%\"와 \"110%\" 두 개의 숫자 배지.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Where expansion comes from.",
+      "body": [
+        "Expansion usually arrives in one of three ways:"
+      ],
+      "list": [
+        "**More units:** more staff, locations, guests or orders",
+        "**Upgrades:** a bigger plan or a higher tier",
+        "**Add-ons:** something extra next to what they already buy"
+      ],
+      "callout": "The strongest version is the first: a price tied to something that grows when the customer succeeds."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond software",
+      "title": "The meal box can expand too.",
+      "illustrative": true,
+      "body": [
+        "Expansion isn't a software trick. The meal box could offer a family size when a household grows, or add-ons like breakfast and desserts.",
+        "It could also sell office lunches priced per person. Then every new hire at a client office adds to the bill without a new sale.",
+        "The question is the same in any business: when my customer gets bigger or happier, does my revenue from them go up?"
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Expansion cuts both ways.",
+      "body": [
+        "A price that grows with the customer also shrinks with them. When restaurants cut staff in a slow season, the app's revenue falls without a single cancellation.",
+        "Pushy upsells can backfire. If customers feel squeezed rather than helped, extra revenue today turns into cancellations later.",
+        "And strong expansion can hide trouble. A 110% figure can look healthy while you quietly stop winning new customers."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's an office cleaning company.",
+      "illustrative": true,
+      "body": [
+        "You clean 40 offices for a flat $800 a month each. Some clients have doubled in size since signing, but still pay $800.",
+        "Which change would build expansion revenue?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Raise every client's price by 15% next month",
+            "verdict": "risky",
+            "feedback": "You get a one-time bump, but it isn't tied to anything the client gets. Small clients may feel overcharged and leave."
+          },
+          {
+            "key": "B",
+            "text": "Price by floor area and visits, and offer add-ons like window or carpet cleaning",
+            "verdict": "best",
+            "feedback": "Bills now rise as clients grow or want more, and fall fairly when they don't. It takes effort to reprice existing contracts, so phase it in at renewal."
+          },
+          {
+            "key": "C",
+            "text": "Offer a discount for signing a two-year contract",
+            "verdict": "partial",
+            "feedback": "This may keep clients longer. But they still pay the same flat fee however much they grow."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Let your revenue grow when your customers grow.",
+      "body": [
+        "Keeping customers matters. So does whether each one is worth more next year than this year.",
+        "**Try it today:** pick your three longest-standing customers. Compare what they pay now with what they paid when they started. If it's the same, ask what they'd gladly pay more for."
+      ],
+      "next": "Next · Should you sell yearly or monthly?"
+    }
+  ]
+}

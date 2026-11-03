@@ -1,0 +1,221 @@
+{
+  "id": "PPL-01-04",
+  "unitId": "PPL-01",
+  "categoryId": "PPL",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Managing your energy",
+  "readerTitle": "Why the extra hours didn't save the deadline",
+  "format": "counterexample",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 연구 (Pencavel 2014 군수공장 노동시간, Hagger 외 2016 자아고갈 재현 연구) + 가상 사례 (B2B 컨설팅 회사, 대기업 재무팀)",
+  "insight": "같은 한 시간도 에너지가 있을 때와 없을 때 가치가 다르다. 시간을 늘리기 전에 가장 어려운 일을 가장 맑은 시간에 두고, 회복을 일의 일부로 계획한다.",
+  "misconception": "마감이 급하면 더 오래 일하는 것이 가장 확실한 해결책이다. 일한 시간만큼 결과가 나온다.",
+  "relatedLessonIds": [
+    "PPL-01-03",
+    "PPL-01-10"
+  ],
+  "sources": [
+    {
+      "text": "Pencavel, J. (2014). The Productivity of Working Hours. The Economic Journal (IZA Discussion Paper No. 8129).",
+      "url": null
+    },
+    {
+      "text": "Hagger, M. S. et al. (2016). A Multilab Preregistered Replication of the Ego-Depletion Effect. Perspectives on Psychological Science.",
+      "url": null
+    },
+    {
+      "text": "Schwartz, T. & McCarthy, C. (2007). Manage Your Energy, Not Your Time. Harvard Business Review. (개념 배경 참고, 수치는 인용하지 않음)",
+      "url": null
+    },
+    {
+      "text": "컨설팅 회사와 재무팀 사례는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Pencavel(2014)의 핵심 결과 확인 필요: 1차 세계대전 영국 군수공장 노동자 자료에서 주당 약 50시간까지는 산출이 시간에 비례하고, 그 이후 증가 폭이 줄며, 70시간의 산출이 약 56시간과 크게 다르지 않다는 내용. 카드에는 \"roughly 50 hours\", \"not much more than at about 56\"으로 적었습니다. 원문 수치와 표현을 게시 전 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Hagger 외(2016) 다기관 재현 연구에서 자아고갈 효과가 0에 가깝게 나왔다는 점 확인. 카드에는 '의지력을 연료 탱크처럼 보는 이론이 대규모 재현에서 거의 효과를 보이지 않았다'로 일반화해 적었습니다. 이 분야는 논쟁이 계속되고 있으므로 '확정적으로 틀렸다'고 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "훅과 3번 카드의 컨설팅 회사, 8번 카드의 재무팀은 모두 가상 사례이며 수치(주 70시간, 재작업 등)는 설명용입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "People · Counterexample",
+      "title": "Why the extra hours didn't save the deadline",
+      "illustrative": true,
+      "body": [
+        "A small consulting firm was two weeks behind on a big client report. The founder's fix was simple: everyone works evenings and weekends until it's done.",
+        "The team put in close to 70-hour weeks. They missed the deadline anyway, and the report came back from the client full of corrections."
+      ],
+      "image": {
+        "label": "Tired team in an office late at night, clock showing 11 p.m.",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 밤 11시를 가리키는 벽시계 아래, 노트북 앞에서 지친 표정의 팀원 네 명. 빈 커피컵이 쌓여 있고, 모니터 화면에는 빨간 수정 표시가 가득한 문서. 실제 회사 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/ppl-01-04-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You're two weeks behind on a client project.",
+      "illustrative": true,
+      "body": [
+        "You run a 12-person B2B consultancy. A strategy report is due in 14 days and the team is clearly behind. People already look tired.",
+        "What do you do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Ask everyone to work evenings and weekends until it's done",
+            "verdict": "risky",
+            "feedback": "You gain hours on paper, but tired people work slower and make more mistakes. The extra time can get eaten by rework."
+          },
+          {
+            "key": "B",
+            "text": "Keep normal hours, cut meetings, and block every morning for the hardest analysis",
+            "verdict": "best",
+            "feedback": "You give up some raw hours to get sharper ones. The hardest thinking happens when people are fresh, and they come back tomorrow able to do it again."
+          },
+          {
+            "key": "C",
+            "text": "Bring in two contractors to add capacity",
+            "verdict": "partial",
+            "feedback": "More hands can help with routine tasks. But new people need briefing from your already tired team, so it can slow things down at first."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What went wrong",
+      "title": "More hours, less real work.",
+      "illustrative": true,
+      "body": [
+        "By week two, the consultants were rereading the same pages and redoing charts they'd already made. Small errors in the numbers slipped through and were caught by the client.",
+        "The founder had counted hours as if each one were equal. They weren't. An hour at 10 p.m. after a 13-hour day produced far less than an hour at 9 a.m. after a good night's sleep.",
+        "The real limit wasn't time. It was what people had left to give."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "A century-old lesson from factory floors.",
+      "body": [
+        "Economist John Pencavel studied records from British munitions workers during World War I. Output rose with hours up to **roughly 50 hours a week**. After that, each extra hour added less.",
+        "Workers putting in 70 hours produced not much more than those working about 56. The extra 14 hours mostly turned into fatigue, mistakes and accidents.",
+        "Knowledge work is different from factory work, but the pattern is familiar: past a point, more hours stop buying more output."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Managing your energy",
+      "body": [
+        "**Managing your energy** means treating your focus and stamina as a resource to plan, not just your hours.",
+        "Time is the container. Energy decides how much good work fits inside it. Two people with the same calendar can get very different results depending on when they do hard work and whether they ever recover."
+      ],
+      "image": {
+        "label": "Two identical clocks, one filled with bright light, one nearly empty",
+        "aspectRatio": "4:3",
+        "brief": "같은 크기의 시계 두 개를 나란히. 왼쪽 시계는 안이 밝은 노란빛으로 가득 차 있고 \"Fresh hour\" 라벨, 오른쪽 시계는 거의 비어 희미하고 \"Tired hour\" 라벨. 시간은 같지만 채워진 양이 다르다는 점을 강조.",
+        "url": "assets/images/ppl-01-04-c5.jpg"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Three habits that protect your energy.",
+      "body": [
+        "People who manage energy well tend to do three things."
+      ],
+      "list": [
+        "**Match the task to the hour:** put the hardest thinking in the hours when you're sharpest, often early in the day",
+        "**Recover before you're empty:** short breaks, real time off and sleep are part of the work, not a reward for finishing it",
+        "**Notice your drains:** some meetings, tasks or people cost more energy than they look; move or shrink them"
+      ],
+      "callout": "The goal isn't to work less. It's to stop wasting your best hours on your easiest work.",
+      "softwareNote": "In software teams, late-night pushes to ship often create the bugs that cause the next late night. Many teams avoid risky releases late in the day or before a weekend, when tired people are on call."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Energy is not a magic fuel tank.",
+      "body": [
+        "A popular theory said willpower runs out like fuel. In 2016, a large study across many labs found almost no sign of that effect. Energy is real, but it's more about sleep, rest and motivation than a simple tank that empties.",
+        "People also differ. Some think best at dawn, others late at night. Copying someone else's routine can backfire.",
+        "And some crunches are real. A short push can be worth it. The danger is when a crunch quietly becomes the normal way of working."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a finance team at quarter-end.",
+      "illustrative": true,
+      "body": [
+        "You lead a six-person finance team inside a large company. Every quarter-end close takes ten days of long hours, and errors keep appearing in the final reports.",
+        "Your boss asks how you'll fix it next quarter. What do you propose?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Start the close two days earlier so there's more total time",
+            "verdict": "partial",
+            "feedback": "More time can ease the crunch. But if people still do careful checks at the end of exhausting days, the errors may stay."
+          },
+          {
+            "key": "B",
+            "text": "Schedule the detailed checks for mornings, rotate who stays late, and protect a rest day mid-close",
+            "verdict": "best",
+            "feedback": "You put the most error-prone work in the freshest hours and stop the same people from running empty. It costs some flexibility in planning."
+          },
+          {
+            "key": "C",
+            "text": "Ask the team to push harder and add a bonus for finishing on time",
+            "verdict": "risky",
+            "feedback": "A bonus can lift effort briefly, but it doesn't add focus. Tired people chasing a deadline tend to make the very mistakes you want to stop."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Not every hour is worth the same.",
+      "body": [
+        "Before adding hours, ask whether your hardest work is happening in your best ones, and whether anyone is getting time to recover.",
+        "**Try it today:** look at tomorrow's calendar. Find the one task that needs your sharpest thinking and move it to the time of day you feel most alert."
+      ],
+      "next": "Next · Why believing you can improve changes how you work"
+    }
+  ]
+}

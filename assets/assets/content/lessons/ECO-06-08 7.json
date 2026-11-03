@@ -1,0 +1,246 @@
+{
+  "id": "ECO-06-08",
+  "unitId": "ECO-06",
+  "categoryId": "ECO",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "Price a consulting service",
+  "readerTitle": "Your hourly rate is the floor, not the price",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (레스토랑 운영 컨설턴트, 구독형 소프트웨어 회사의 UX 컨설턴트) · 모든 수치는 설명용",
+  "insight": "컨설팅 가격은 내 비용으로 바닥을, 고객이 얻는 가치로 천장을 정하고 그 사이에서 고른다.",
+  "misconception": "컨설팅은 시간 단가 × 예상 시간으로 청구하는 것이 가장 공정하고 정확하다.",
+  "relatedLessonIds": [
+    "ECO-06-01",
+    "ECO-06-02"
+  ],
+  "sources": [
+    {
+      "text": "가격 전략의 표준 개념 (원가 기반 가격, 가치 기반 가격)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "원가 바닥: ($60,000 + $12,000) ÷ 800시간 = 시간당 $90. 20시간 프로젝트 = $1,800. 연 800 청구 시간은 영업·행정 시간을 뺀 가정치입니다.",
+      "status": "open"
+    },
+    {
+      "note": "가치 천장: 월 식재료 $30,000 × 폐기율 10% = 월 $3,000. 1/3 절감 = 월 $1,000 = 연 $12,000. $1,800 ÷ $12,000 = 15%. $4,500 ÷ $12,000 = 37.5%, 고객 몫 $12,000 − $4,500 = $7,500.",
+      "status": "open"
+    },
+    {
+      "note": "소프트웨어: 원가 바닥 $110 × 30시간 = $3,300. 월 체험 2,000명, 전환율 10% → 11%이면 월 20명 추가 × 고객 생애 가치 $600 = 월 $12,000, 연 $144,000. 견적 $15,000은 상승분 약 1.25개월치입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Pricing · Apply it",
+      "title": "Your hourly rate is the floor, not the price",
+      "illustrative": true,
+      "body": [
+        "Maya ran kitchens for 12 years. Now she consults. A restaurant owner asks her to cut the food he throws away.",
+        "She thinks it will take 20 hours. Her first instinct is to multiply hours by a rate. That number turns out to be the least interesting one on the table."
+      ],
+      "image": {
+        "label": "A consultant with a clipboard beside a kitchen waste bin",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 일러스트. 레스토랑 주방 뒤편에서 컨설턴트가 클립보드를 들고 음식물 쓰레기통을 살펴보고, 옆에서 셰프 복장의 사장이 팔짱을 끼고 지켜봄. 실제 브랜드나 로고 없음.",
+        "url": "assets/images/eco-06-08-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How should Maya price the project?",
+      "illustrative": true,
+      "body": [
+        "She needs about $90 an hour to cover her costs and pay herself. The restaurant buys $30,000 of food a month and throws out about 10% of it. Maya has cut waste by a third in similar kitchens."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "$90 × 20 hours = $1,800",
+            "verdict": "partial",
+            "feedback": "This is **cost-plus pricing**: safe, because it covers her costs. But it ignores what the owner gains, so she leaves most of the value on the table."
+          },
+          {
+            "key": "B",
+            "text": "A fixed fee of $4,500, explained against the expected savings",
+            "verdict": "best",
+            "feedback": "This is **value-based pricing** with cost as the floor. She earns well above her $1,800 minimum, and the owner still keeps most of the gain."
+          },
+          {
+            "key": "C",
+            "text": "Half of whatever the restaurant saves over the next year",
+            "verdict": "risky",
+            "feedback": "It ties her pay to value, but savings are hard to measure and easy to dispute. She could wait a year and argue over the total."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The floor",
+      "title": "Where $90 an hour comes from.",
+      "illustrative": true,
+      "body": [
+        "Most consultants can't bill 2,000 hours a year. Finding clients, admin and travel eat much of the week. Maya assumes 800 billable hours.",
+        "So 20 hours means a **$1,800 floor**. Below that, she is paying to work."
+      ],
+      "breakdown": [
+        {
+          "value": "$60,000",
+          "label": "Pay for herself",
+          "detail": "What she wants to earn in a year",
+          "highlight": false
+        },
+        {
+          "value": "+$12,000",
+          "label": "Business costs",
+          "detail": "Insurance, software, travel, accounting",
+          "highlight": false
+        },
+        {
+          "value": "÷ 800",
+          "label": "Billable hours",
+          "detail": "Hours clients actually pay for",
+          "highlight": false
+        },
+        {
+          "value": "$90",
+          "label": "Hourly floor",
+          "detail": "Cost-plus: the minimum, not the target",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The ceiling",
+      "title": "Now look from the owner's side.",
+      "illustrative": true,
+      "body": [
+        "The restaurant throws out about $3,000 of food a month. Cutting that by a third saves $1,000 a month, or **$12,000 a year**.",
+        "At $1,800, Maya would charge 15% of the first year's savings. At $4,500, it's about 38%. The owner still keeps $7,500 in year one, and more after that.",
+        "Cost tells her the lowest price she can accept. Value tells her the highest price the owner could sensibly pay. Her price belongs between the two."
+      ],
+      "image": {
+        "label": "A price range from $1,800 floor to $12,000 ceiling",
+        "aspectRatio": "16:9",
+        "brief": "가로 눈금자 인포그래픽. 왼쪽 끝 \"Cost floor $1,800\", 오른쪽 끝 \"Value to client $12,000\", 중간에 강조된 핀 \"Maya's fee $4,500\". 핀 오른쪽 구간에 \"Client keeps $7,500\" 라벨.",
+        "url": "assets/images/eco-06-08-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "\"So what's your hourly rate?\"",
+      "illustrative": true,
+      "body": [
+        "The owner likes the plan but frowns at $4,500. He asks for her hourly rate. How should Maya answer?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "\"$90 an hour, so roughly 50 hours.\"",
+            "verdict": "risky",
+            "feedback": "It pulls the talk back to cost-plus. Now he will count her hours instead of his savings, and either side can feel cheated."
+          },
+          {
+            "key": "B",
+            "text": "\"It's a fixed fee for the result. The project targets about $12,000 a year in savings.\"",
+            "verdict": "best",
+            "feedback": "This keeps the frame on value-based pricing. He compares $4,500 with what he gains, not with a wage."
+          },
+          {
+            "key": "C",
+            "text": "\"Let's call it $3,000 to get started.\"",
+            "verdict": "partial",
+            "feedback": "Still above her $1,800 floor, so she doesn't lose money. But a quick drop tells him the price was never tied to anything."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Value only counts if the client believes it.",
+      "illustrative": true,
+      "body": [
+        "Maya's $12,000 is an estimate. To the owner, it's a promise. If he doubts it, a value-based fee feels like a gamble.",
+        "Make the value concrete. Show results from similar kitchens, or start with a smaller paid review that measures his actual waste first.",
+        "And remember the floor. A client who only values the work at $1,000 isn't a bargain. They're a loss."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software company.",
+      "illustrative": true,
+      "body": [
+        "A subscription software company asks a design consultant to fix its sign-up flow. Her floor is $110 an hour for 30 hours: $3,300.",
+        "About 2,000 people start a free trial each month, and 10% become paying users. Each paying user is worth about $600 over time. Lifting conversion to 11% adds about $12,000 of value every month. What should she quote?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "$3,300 for 30 hours",
+            "verdict": "partial",
+            "feedback": "Cost-plus covers her costs but prices the job like a wage. The client gets about a week's worth of gains back for a whole year of benefit."
+          },
+          {
+            "key": "B",
+            "text": "$15,000 fixed, with a clear scope and a results check after launch",
+            "verdict": "best",
+            "feedback": "Value-based and believable: about five weeks of the expected gain, well above her floor. The results check makes the value easier to trust."
+          },
+          {
+            "key": "C",
+            "text": "$60,000, since a year of gains is worth $144,000",
+            "verdict": "risky",
+            "feedback": "Still under the ceiling, but a one-point lift is a guess. The more of the value she claims, the more certain the client needs to feel."
+          }
+        ],
+        "afterReveal": null
+      },
+      "callout": "Same logic as the kitchen: cost sets the floor, value sets the room above it."
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Price the result, and use your costs as the floor.",
+      "body": [
+        "You used two ideas. **Cost-plus pricing** gave the minimum you can accept. **Value-based pricing** showed how much room sits above it, and how to explain the fee.",
+        "**Try it today:** take one service you sell. Write your cost floor, then estimate what the result is worth to the customer. Where does your current price sit between them?"
+      ],
+      "next": "Next · Uniqlo's ¥1,900 fleece"
+    }
+  ]
+}

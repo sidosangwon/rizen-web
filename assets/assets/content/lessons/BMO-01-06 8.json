@@ -1,0 +1,258 @@
+{
+  "id": "BMO-01-06",
+  "unitId": "BMO-01",
+  "categoryId": "BMO",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Asset-light vs asset-heavy",
+  "readerTitle": "Who owns the hotel you're sleeping in?",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "real_observation",
+    "illustrative"
+  ],
+  "caseNote": "실제 관찰 (체인 호텔의 브랜드와 건물 소유 분리) + 가상 사례 (B2B 행사 회사, 사진 편집 앱) · 모든 수치는 설명용",
+  "insight": "자산을 가질지 빌릴지는 '어느 쪽이 싼가'가 아니라 '그 자산이 꾸준히 바쁠 것인가, 어떤 위험을 내가 질 것인가'의 문제다.",
+  "misconception": "자산을 적게 가진 사업(asset-light)이 언제나 더 현대적이고 좋은 사업이다. 또는 직접 소유하면 결국 항상 더 싸다.",
+  "relatedLessonIds": [
+    "BMO-01-04",
+    "BMO-01-09"
+  ],
+  "sources": [
+    {
+      "text": "호텔 업계의 프랜차이즈·위탁 운영 모델 (브랜드 운영사와 건물 소유주 분리)에 대한 일반적인 업계 설명",
+      "url": null
+    },
+    {
+      "text": "행사 회사와 앱 사례의 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "\"많은 체인 호텔에서 건물 소유주와 브랜드가 다르다\"는 대형 호텔 브랜드들이 프랜차이즈·위탁 운영 비중이 높다는 일반적 사실에 기반합니다. 특정 회사명이나 비율은 쓰지 않았습니다. 게시 전 주요 호텔 기업 연차보고서로 표현이 과하지 않은지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "3년 총비용 계산 (재판매 가치 무시): 연 20회 대여 $2,000 × 20 × 3 = $120,000, 구매 $60,000 + $6,000 × 3 = $78,000, 차이 $42,000. 연 8회 대여 $2,000 × 8 × 3 = $48,000, 구매 $78,000, 차이 $30,000. 2번 카드의 '2년 안에 회수'는 연 20회 기준 대여비 $40,000/년 대비 2년 누적 $80,000 > 구매 $72,000이라는 의미입니다.",
+      "status": "open"
+    },
+    {
+      "note": "소프트웨어 노트의 '일부 대형 회사는 수요가 크고 안정되면 자체 서버·데이터센터로 옮긴다'는 일반적 관찰입니다. 특정 기업명은 넣지 않았습니다. 필요하면 실제 사례를 1차 출처와 함께 확인 후 추가하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business models · Everyday scene",
+      "title": "Who owns the hotel you're sleeping in?",
+      "body": [
+        "The big brand name glows on the roof. But at many chain hotels, the building belongs to someone else: a property investor, a family business, a real estate fund.",
+        "The brand often supplies the name, the booking system and the standards, and collects fees. Someone else paid for the bricks."
+      ],
+      "image": {
+        "label": "Hotel with a brand sign on the roof and a separate owner's key below",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 저녁 거리의 호텔 건물. 옥상에는 가상의 브랜드 간판(실제 로고 금지, 'HOTEL' 정도의 일반 문구), 건물 1층 앞에는 다른 인물이 큰 열쇠를 들고 서 있음. 간판과 열쇠의 주인이 다르다는 느낌이 나도록 색을 구분.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Buy the gear or keep renting?",
+      "illustrative": true,
+      "body": [
+        "You run an events company that stages conferences for business clients. You rent a sound-and-lighting kit for every event: $2,000 each time.",
+        "Buying a kit would cost $60,000, plus about $6,000 a year to maintain and store. You did 20 events last year. Next year looks busy, but two big clients haven't renewed yet."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Buy now. At 20 events a year it pays for itself within two years",
+            "verdict": "partial",
+            "feedback": "The math works if bookings hold. If those two clients leave, you're still paying for gear that sits in a warehouse."
+          },
+          {
+            "key": "B",
+            "text": "Keep renting until bookings look steady, then buy the pieces you use at nearly every event",
+            "verdict": "best",
+            "feedback": "You pay a bit more per event for now, but you only lock cash into gear once you're confident it will stay busy."
+          },
+          {
+            "key": "C",
+            "text": "Never buy. Owning equipment is an old-fashioned way to run a business",
+            "verdict": "risky",
+            "feedback": "Renting keeps you flexible. But at steady volume you'd hand the rental company tens of thousands a year that could have stayed with you."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "The same kit, two different years.",
+      "illustrative": true,
+      "body": [
+        "Total cost over three years, ignoring resale value. At 20 events a year, owning saves $42,000. At 8 events a year, owning costs $30,000 more."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "20 events a year",
+            "rows": [
+              {
+                "label": "Rent",
+                "value": 120000,
+                "highlight": false
+              },
+              {
+                "label": "Own",
+                "value": 78000,
+                "highlight": true
+              }
+            ]
+          },
+          {
+            "label": "8 events a year",
+            "rows": [
+              {
+                "label": "Rent",
+                "value": 48000,
+                "highlight": true
+              },
+              {
+                "label": "Own",
+                "value": 78000,
+                "highlight": false
+              }
+            ]
+          }
+        ]
+      },
+      "callout": "Owning wins only when the asset stays busy.",
+      "image": {
+        "label": "The same kit, two different years.",
+        "aspectRatio": "4:3",
+        "brief": "Labeled HTML chart from the lesson numbers",
+        "url": "assets/images/bmo-01-06-chart.png"
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Asset-heavy vs asset-light",
+      "body": [
+        "An **asset-heavy** business owns most of the things it uses to earn money: buildings, machines, vehicles, stock. An **asset-light** business rents them, outsources them, or lets partners own them.",
+        "The hotel brand is asset-light. The building owner is asset-heavy. Both can be good businesses. They earn money in different ways and carry different risks."
+      ],
+      "image": {
+        "label": "Two business owners: one carrying a building, one holding a contract",
+        "aspectRatio": "16:9",
+        "brief": "좌우 분할 인포그래픽. 왼쪽 'Asset-heavy' 인물은 건물·기계·트럭을 등에 지고 있고, 오른쪽 'Asset-light' 인물은 계약서 한 장과 노트북만 들고 있음. 두 인물 모두 같은 매출 동전을 받는 모습. 실제 로고 금지.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "What each side trades away.",
+      "body": [
+        "Owning and renting swap the same things in opposite directions:"
+      ],
+      "list": [
+        "**Cash up front:** heavy needs a lot, light needs little",
+        "**Speed of growth:** light adds capacity by signing a contract; heavy must build or buy first",
+        "**Share of each sale:** heavy keeps more; light pays a fee or markup to whoever owns the asset",
+        "**In a slump:** heavy still pays for idle assets; light can cut back",
+        "**Copying:** owned assets can be hard for rivals to match; rented ones are open to anyone"
+      ],
+      "callout": "Neither is better. The question is which risks you'd rather carry."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where else",
+      "title": "You see it everywhere once you look.",
+      "body": [
+        "A clothing brand can run its own factory or hire one. A restaurant can own its building or lease it. A delivery firm can buy vans or use contract drivers.",
+        "Many businesses mix both. They own what makes them different and rent the rest."
+      ],
+      "image": {
+        "label": "Three businesses, each with an own-or-rent switch",
+        "aspectRatio": "16:9",
+        "brief": "옷 브랜드, 식당, 배송 회사 세 개의 작은 장면을 나란히 배치. 각 장면 아래에 'Own / Rent' 토글 스위치. 일부는 Own, 일부는 Rent로 켜져 있어 섞어 쓰는 느낌. 실제 로고 금지.",
+        "url": null
+      },
+      "softwareNote": "Most young software companies rent servers from cloud providers instead of building data centers. That's asset-light. Some very large ones with huge, steady demand build their own, because at that scale owning can get cheaper."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Light isn't free, and heavy isn't safe.",
+      "body": [
+        "Renting means depending on someone else. An owner can raise prices, run out of capacity in your busiest week, or serve a rival first.",
+        "Owning means the costs stay when customers leave. Businesses that buy big in good times can struggle to pay for empty space and idle machines when demand falls."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software startup.",
+      "illustrative": true,
+      "body": [
+        "You've just launched a photo-editing app. Usage jumps when an influencer mentions you, then drops for days. Your cloud bill is growing, and your CTO says buying your own servers would cut the cost per hour in half.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Buy servers sized for your busiest day",
+            "verdict": "risky",
+            "feedback": "You'd get a lower cost per hour, but most of that capacity would sit idle between spikes, and it ties up cash a young company needs."
+          },
+          {
+            "key": "B",
+            "text": "Keep renting cloud capacity that grows and shrinks with usage",
+            "verdict": "best",
+            "feedback": "You pay more per hour, but only for what you use. Revisit owning once demand is large and steady."
+          },
+          {
+            "key": "C",
+            "text": "Buy a few servers for quiet days and rent extra for the spikes",
+            "verdict": "partial",
+            "feedback": "Larger firms often mix like this. But it adds hardware to run before you know what normal usage even looks like."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Own what stays busy. Rent what might not.",
+      "body": [
+        "Asset-heavy and asset-light are two ways to carry risk. Owning pays when an asset is used steadily or sets you apart. Renting pays when demand is uncertain or growing fast.",
+        "**Try it today:** list the three biggest things your business owns or rents. For each, ask how busy it is in a normal week, and whether owning or renting fits that."
+      ],
+      "next": "Next · Draw the business model of a gym"
+    }
+  ]
+}

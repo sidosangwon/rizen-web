@@ -1,0 +1,230 @@
+{
+  "id": "ENT-05-03",
+  "unitId": "ENT-05",
+  "categoryId": "ENT",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "Talk to customers every week",
+  "readerTitle": "Three calls a week vs one big survey a year",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 3.9,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (가정 청소 업체, B2B 소프트웨어) · 모든 수치는 설명용 + 실무서 참고 (Torres, Fitzpatrick)",
+  "insight": "고객 대화의 가치는 표본 크기가 아니라 빈도에서 나온다. 문제가 생긴 날과 내가 알게 된 날 사이의 간격이 곧 비용이다.",
+  "misconception": "고객 의견은 1년에 한 번 큰 설문으로 많이 모으는 것이 몇 명과 자주 이야기하는 것보다 정확하고 효율적이다.",
+  "relatedLessonIds": [
+    "ENT-05-01",
+    "CUS-01-06"
+  ],
+  "sources": [
+    {
+      "text": "Torres, T. (2021). Continuous Discovery Habits. Product Talk LLC. (매주 고객과 접점을 갖는 습관을 권장)",
+      "url": null
+    },
+    {
+      "text": "Fitzpatrick, R. (2013). The Mom Test. (의견이 아니라 과거 행동을 묻는 인터뷰 방법)",
+      "url": null
+    },
+    {
+      "text": "청소 업체와 소프트웨어 사례의 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "계산 확인: 2월 변경 후 매달 6명 추가 이탈, 12월 설문에서 발견 → 2~11월 10개월 × 6명 = 60명. 60명 × 월 $150 = 월 매출 $9,000 감소. 주간 통화로 약 3주 만에 발견·수정 → 약 6명(1개월분), 6 × $150 = $900.",
+      "status": "open"
+    },
+    {
+      "note": "시간 비용: 주 3통 × 15분 × 50주 = 2,250분 = 37.5시간. 카드에는 \"under 40 hours a year\"로 표기. 연간 대화 수 3 × 50 = 150회.",
+      "status": "open"
+    },
+    {
+      "note": "Torres(2021)가 '최소 주 1회 고객 접점'을 권장한다는 표현이 책 내용과 맞는지 게시 전 확인하세요. 카드에는 일반적인 표현으로만 적었습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Entrepreneurship · Numbers twist",
+      "title": "Three calls a week vs one big survey a year",
+      "illustrative": true,
+      "body": [
+        "A house-cleaning company has 300 regular customers. Each pays $150 a month.",
+        "In February, the owner changes how cleaners are scheduled. Nobody complains. By December, 60 customers are gone, and the owner finds out why only when the annual survey comes back."
+      ],
+      "image": {
+        "label": "Calendar with a small crack in February that widens by December",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 1년 달력이 펼쳐져 있고 2월 칸에 작은 금이 가 있음. 금이 월별로 점점 넓어져 12월에는 큰 틈이 됨. 12월 칸 위에 설문지 한 장. 실제 브랜드나 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which would have caught the problem sooner?",
+      "illustrative": true,
+      "body": [
+        "The owner has limited time for customer feedback. Which habit would most likely have spotted the scheduling problem early?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "A detailed survey sent to all 300 customers once a year",
+            "verdict": "partial",
+            "feedback": "You get lots of answers and clean charts. But the answers arrive months after the problem started."
+          },
+          {
+            "key": "B",
+            "text": "Three 15-minute calls with different customers every week",
+            "verdict": "best",
+            "feedback": "Each call is a tiny sample. But 150 calls spread across the year mean a new problem shows up within weeks, not months."
+          },
+          {
+            "key": "C",
+            "text": "Reading online reviews once a month",
+            "verdict": "risky",
+            "feedback": "Cheap and easy, but most unhappy customers leave quietly. Reviews tend to capture the very happy and the very angry."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "The cost isn't the problem. It's the delay.",
+      "illustrative": true,
+      "body": [
+        "The schedule change made about 6 extra customers leave each month. The survey found it in December: 10 months × 6 = **60 customers**, or $9,000 less revenue every month.",
+        "Weekly calls would likely have heard \"I get a different cleaner every time\" within about three weeks. Fixed after one month: about 6 customers lost."
+      ],
+      "chart": {
+        "unit": "count",
+        "groups": [
+          {
+            "label": "Customers lost before the fix",
+            "rows": [
+              {
+                "label": "Annual survey",
+                "value": 60,
+                "highlight": false
+              },
+              {
+                "label": "Three calls a week",
+                "value": 6,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Talk to customers every week",
+      "body": [
+        "**Continuous customer contact** means talking to a few customers on a fixed schedule, every week, instead of in rare big batches.",
+        "Its value comes from frequency, not sample size. What matters is the gap between the day something changes and the day you hear about it. Weekly contact keeps that gap short.",
+        "The cost here: 3 calls × 15 minutes × 50 weeks. Under 40 hours a year."
+      ],
+      "image": {
+        "label": "Two timelines: one long gap vs many short gaps",
+        "aspectRatio": "16:9",
+        "brief": "두 개의 가로 타임라인 비교. 위쪽은 1년에 점 하나(\"Annual survey\")와 긴 빈 구간. 아래쪽은 촘촘한 작은 점들(\"Weekly calls\"). 위쪽 빈 구간에 \"Problem grows here\" 라벨.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Small, repeated, about real behavior.",
+      "body": [
+        "Product coach Teresa Torres argues teams should have contact with customers every week, as a habit rather than a project. Rob Fitzpatrick's *The Mom Test* adds how to ask.",
+        "The method is simple:"
+      ],
+      "list": [
+        "**Ask about the last time,** not opinions: \"Walk me through your last cleaning visit.\"",
+        "**Mix who you call:** new, long-time and recently cancelled customers",
+        "**Write one line per call** and look for repeats each month"
+      ],
+      "callout": "Three people saying the same thing in two weeks is a signal."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Conversations find problems. They don't measure them.",
+      "body": [
+        "Five calls can tell you *what* is wrong. They can't tell you *how many* customers feel it. Once you hear a pattern, check it against numbers like cancellations or repeat bookings.",
+        "Watch your sample, too. The customers who pick up are often the friendliest. And don't rebuild the business after one loud call. Act on patterns, not single comments."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software company.",
+      "illustrative": true,
+      "body": [
+        "You run an invoicing app for small firms, with about 800 paying customers. Cancellations rose slightly last month. You can spare one hour a week for customer contact.",
+        "How do you spend it?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Four 15-minute calls: two recent sign-ups and two recent cancellations",
+            "verdict": "best",
+            "feedback": "You hear from people at the moments things change: starting and leaving. It costs an hour, and patterns appear within weeks."
+          },
+          {
+            "key": "B",
+            "text": "One hour each week with your biggest customer",
+            "verdict": "risky",
+            "feedback": "You'll build a strong relationship, but one voice can't tell you why many smaller customers are quietly cancelling."
+          },
+          {
+            "key": "C",
+            "text": "A weekly one-question score email, then read the averages",
+            "verdict": "partial",
+            "feedback": "Scores can show that something moved. They rarely tell you why, so you still need the conversations."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Frequency beats sample size.",
+      "body": [
+        "A few conversations every week catch problems while they're still small. A big survey once a year tells you what already happened.",
+        "**Try it today:** book three 15-minute calls with customers for next week. Ask each one about the last time they used you."
+      ],
+      "image": {
+        "label": "Weekly planner with three short call slots",
+        "aspectRatio": "16:9",
+        "brief": "주간 플래너 일러스트. 월·수·금에 각각 15분짜리 작은 칸 \"Customer call\"이 칠해져 있음. 옆에 메모 한 줄씩 적힌 노트. 실제 앱이나 로고 없음.",
+        "url": null
+      },
+      "next": "Next · Your first hires"
+    }
+  ]
+}

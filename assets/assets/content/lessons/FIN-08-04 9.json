@@ -1,0 +1,257 @@
+{
+  "id": "FIN-08-04",
+  "unitId": "FIN-08",
+  "categoryId": "FIN",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Leverage",
+  "readerTitle": "Why a loan turns a good year great and a bad year worse",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (주택 구매, 배관 업체 지점, 장부 대행 회사 인수) · 모든 수치는 설명용",
+  "insight": "빌린 돈은 결과를 키우는 확대경이다. 좋은 해와 나쁜 해를 똑같은 배율로 키우므로, 대출 판단은 좋은 해가 아니라 나쁜 해를 기준으로 한다.",
+  "misconception": "사업 수익률이 이자율보다 높으면 최대한 많이 빌리는 것이 언제나 이득이다.",
+  "relatedLessonIds": [
+    "FIN-08-01",
+    "FIN-07-02"
+  ],
+  "sources": [
+    {
+      "text": "재무관리의 표준 개념 (재무 레버리지, 자기자본 수익률)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "주택: $250,000 중 자기 돈 $50,000, 대출 $200,000. 10% 상승 시 +$25,000 ÷ $50,000 = +50%, 10% 하락 시 −50%. 이자·세금·수수료는 단순화를 위해 제외했고 카드에도 명시했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "배관 지점: 총 $100,000, 대출 $80,000 × 8% = 이자 $6,400. 좋은 해 ($15,000 − $6,400) ÷ $20,000 = 43%, 자기 돈만 쓰면 15%. 나쁜 해 ($4,000 − $6,400) ÷ $20,000 = −12%, 자기 돈만 쓰면 4%. 손익분기 수익률 8% = $8,000.",
+      "status": "open"
+    },
+    {
+      "note": "배율: 자기자본 수익률 = (r × $100,000 − $6,400) ÷ $20,000 = 5r − 32%. 지점 수익률 1%포인트 변화가 내 수익률 5%포인트를 움직입니다. r=15 → 43%, r=4 → −12%로 확인.",
+      "status": "open"
+    },
+    {
+      "note": "장부 대행 인수: $200,000, 예상 이익 $30,000(15%), 대출 $150,000 × 9% = 이자 $13,500. 고객 절반 이탈 시 이익 $15,000 − $13,500 = $1,500만 남음 (자기 돈 $50,000 대비 3%).",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Everyday scene",
+      "title": "Why a loan turns a good year great and a bad year worse",
+      "illustrative": true,
+      "body": [
+        "A couple buys a $250,000 home. They put down $50,000 and borrow the rest.",
+        "The home's value rises 10%. Their own $50,000 just grew by **50%**. If the value had fallen 10%, they would have lost half their money. Same house, same 10%, five times the swing. *(Simplified: interest, taxes and fees left out.)*"
+      ],
+      "image": {
+        "label": "A small coin stack lifting a large house on a seesaw",
+        "aspectRatio": "4:3",
+        "brief": "시소 그림. 한쪽 끝에 작은 동전 더미(\"Your $50k\"), 받침점 가까운 반대쪽에 큰 집(\"$250k home\"). 받침점에 \"Loan\" 라벨. 따뜻한 일러스트 톤, 실제 은행 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Borrow for the new branch?",
+      "illustrative": true,
+      "body": [
+        "You run a plumbing business. A new branch costs $100,000 and should earn $15,000 a year before interest.",
+        "Your accountant suggests you put in $20,000 and borrow $80,000 at 8%, instead of using $100,000 of savings. What does the loan do to the return on *your own* money?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Lowers it, because interest eats into profit",
+            "verdict": "partial",
+            "feedback": "Interest does cut profit, by $6,400. But you also put in far less of your own money, so in a good year your return actually rises."
+          },
+          {
+            "key": "B",
+            "text": "Raises it a lot in a good year, but can push it below zero in a bad one",
+            "verdict": "best",
+            "feedback": "Right. The loan magnifies results in both directions. The next card shows both years."
+          },
+          {
+            "key": "C",
+            "text": "Raises it a little, to somewhere around 17%",
+            "verdict": "risky",
+            "feedback": "The effect is much bigger than that. Small changes in the branch's results become large changes in your return."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "Same branch, two very different years.",
+      "illustrative": true,
+      "body": [
+        "Good year: $15,000 profit minus $6,400 interest leaves $8,600 on your $20,000. That's **43%**.",
+        "Bad year: $4,000 profit minus $6,400 interest is a $2,400 loss. That's **−12%**. With your own cash, you'd just have had a weak 4%."
+      ],
+      "chart": {
+        "unit": "%",
+        "groups": [
+          {
+            "label": "Good year ($15,000 profit)",
+            "rows": [
+              {
+                "label": "All your own cash",
+                "value": 15,
+                "highlight": false
+              },
+              {
+                "label": "With the loan",
+                "value": 43,
+                "highlight": true
+              }
+            ]
+          },
+          {
+            "label": "Bad year ($4,000 profit)",
+            "rows": [
+              {
+                "label": "All your own cash",
+                "value": 4,
+                "highlight": false
+              },
+              {
+                "label": "With the loan",
+                "value": -12,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "image": {
+        "label": "Same branch, two very different years.",
+        "aspectRatio": "4:3",
+        "brief": "Labeled HTML chart from the lesson numbers",
+        "url": "assets/images/fin-08-04-chart.png"
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Leverage",
+      "body": [
+        "**Leverage** means using borrowed money so a small stake of your own controls a bigger asset. It multiplies results in both directions.",
+        "The test is simple. If the asset earns more than the loan costs, you keep the difference and your return rises. If it earns less, you pay the gap from your own pocket. Here the line sits at 8%, or $8,000 a year."
+      ],
+      "image": {
+        "label": "Line at 8%: above it the return grows, below it it shrinks",
+        "aspectRatio": "16:9",
+        "brief": "가로 점선에 \"Loan cost 8%\" 라벨. 점선 위는 초록색 확대 화살표(\"Your return grows\"), 아래는 빨간색 확대 화살표(\"Your return shrinks\"). 확대경 모티프로 양방향 확대를 표현.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "The bank doesn't care how your year went.",
+      "illustrative": true,
+      "body": [
+        "Interest is fixed. The bank gets its $6,400 first, good year or bad. You get whatever is left.",
+        "Because the branch is five times bigger than your stake, every 1 point change in the branch's return moves your return by 5 points. That multiplier is the lever."
+      ],
+      "callout": "More debt, longer lever: bigger wins and bigger losses from the same result."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond loans",
+      "title": "Leverage hides in any fixed commitment.",
+      "body": [
+        "A long lease, a fleet of vans on payment plans, a team on fixed salaries. Each must be paid whether sales rise or fall, so each works like a loan.",
+        "A business full of fixed commitments enjoys big jumps in profit when sales grow, and sharp losses when they dip."
+      ],
+      "softwareNote": "A software company with salaried engineers and annual server contracts carries this kind of leverage. When revenue grows, most of it drops to profit. When growth stalls, losses arrive fast."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Leverage turns a bad year into a cash problem.",
+      "body": [
+        "Without debt, a bad year is just a bad year. With debt, payments still come due every month, even when customers stop calling.",
+        "Rates on some loans can rise, and lenders can tighten terms when you look weakest. The real danger isn't a lower return. It's running out of cash before the good years come back."
+      ],
+      "image": {
+        "label": "Calendar with loan payments marked on every month, including slow ones",
+        "aspectRatio": "16:9",
+        "brief": "1년 달력. 매달 같은 크기의 \"Loan payment\" 스티커가 붙어 있고, 매출을 나타내는 막대는 달마다 오르내림. 매출이 낮은 달의 스티커만 빨갛게 강조.",
+        "url": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a bookkeeping firm.",
+      "illustrative": true,
+      "body": [
+        "You run a bookkeeping firm for small businesses. A retiring owner offers you his client list for $200,000. It should earn $30,000 a year, a 15% return.",
+        "Your bank offers $150,000 at 9%, so you'd put in $50,000. Clients often leave after a firm changes hands. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Take the full loan. 15% beats 9%, so borrowing wins",
+            "verdict": "risky",
+            "feedback": "It works if the 15% holds. If half the clients leave, profit falls to $15,000 and $13,500 of it goes to the bank."
+          },
+          {
+            "key": "B",
+            "text": "First test the bad case: if many clients leave, can you still pay the bank?",
+            "verdict": "best",
+            "feedback": "You keep the upside of leverage while sizing the loan to survive the downside. You might borrow less or tie the price to clients who stay."
+          },
+          {
+            "key": "C",
+            "text": "Skip the deal until you can pay all cash",
+            "verdict": "partial",
+            "feedback": "No debt risk, but the deal will likely go to someone else. Leverage isn't the problem. Leverage you haven't stress-tested is."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Borrowed money magnifies whatever happens.",
+      "body": [
+        "Leverage pays when the asset earns more than the loan costs and hurts when it earns less. Judge a loan by the bad year, not the good one.",
+        "**Try it today:** list your fixed payments: loans, leases, salaries. Then ask how many slow months you could cover before cash runs out."
+      ],
+      "next": "Next · Why being rich on paper can still leave you stuck"
+    }
+  ]
+}

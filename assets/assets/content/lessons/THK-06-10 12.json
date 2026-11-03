@@ -1,0 +1,254 @@
+{
+  "id": "THK-06-10",
+  "unitId": "THK-06",
+  "categoryId": "THK",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Design a bonus nobody can game",
+  "readerTitle": "Design a bonus your team can't game",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.1,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션: 생활용품 소매 체인 안의 물류창고 팀. 하나의 이야기로 이어지는 판단 4개. softwareNote로 고객지원 팀 사례 추가.",
+  "insight": "보너스는 숫자 하나가 아니라 작은 시스템이다. 사람들은 돈까지 가는 가장 짧은 길을 찾는다. 설계자의 일은 그 지름길이 원하는 행동과 같아지도록 만드는 것이다.",
+  "misconception": "측정하기 쉬운 핵심 지표 하나에 돈을 걸면 사람들이 그 지표만큼 일을 더 잘하게 된다.",
+  "relatedLessonIds": [
+    "THK-06-05",
+    "THK-06-03"
+  ],
+  "sources": [
+    {
+      "text": "경영·시스템 사고의 표준 개념 (굿하트의 법칙, 지연, 부분 최적화, 의도치 않은 결과)",
+      "url": null
+    },
+    {
+      "text": "모든 상황과 인물은 설명용 가상 사례",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 상황은 가상이며 실제 수치나 연구 결과를 인용하지 않았습니다. '매장이 1~2주 뒤 오류를 확인한다'는 설정은 설명용 가정입니다.",
+      "status": "open"
+    },
+    {
+      "note": "takeaway의 판단-개념 연결(1 굿하트의 법칙, 2 지연, 3 부분 최적화, 4 의도치 않은 결과)이 THK-06 유닛 레슨 내용과 맞는지 확인하세요. 특히 THK-06-09(Wells Fargo)와 사례가 겹치지 않는지 확인이 필요합니다.",
+      "status": "open"
+    },
+    {
+      "note": "다음 레슨 예고는 THK-07-01(Define the problem first) 기준으로 적었습니다. 실제 학습 경로의 다음 레슨에 맞게 수정하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Simulation",
+      "title": "Design a bonus your team can't game",
+      "illustrative": true,
+      "body": [
+        "You run the warehouse team that fills orders for a home-goods retailer's 30 stores. Orders go out too slowly, and your boss gives you a budget for a monthly team bonus.",
+        "Every bonus is a small system. People will find the shortest path to the money. Your job is to make that shortest path the one you actually want. Four decisions ahead."
+      ],
+      "image": {
+        "label": "Warehouse aisle with a bonus envelope at the end of a maze of shelves",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 창고 선반이 미로처럼 놓여 있고, 미로 끝에 'Bonus' 봉투. 직원 캐릭터 하나가 선반 사이 틈으로 지름길을 내려는 모습. 실제 기업 로고나 상표 없음.",
+        "url": "assets/images/thk-06-10-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 4",
+      "title": "What should the bonus count?",
+      "illustrative": true,
+      "body": [
+        "Your first draft pays for **cases picked per hour**. It's easy to count, and it's already on the dashboard.",
+        "Before you launch, what do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Launch it. Speed is the problem you were asked to fix",
+            "verdict": "risky",
+            "feedback": "Speed jumps in week one. So do wrong items and crushed boxes, because nothing in the bonus says *correct*."
+          },
+          {
+            "key": "B",
+            "text": "Count only cases that reach the store correct and undamaged",
+            "verdict": "best",
+            "feedback": "Speed still pays, but only when it's real. Rushing stops paying, so careful speed becomes the shortest path."
+          },
+          {
+            "key": "C",
+            "text": "Switch to accuracy only, since errors are costly",
+            "verdict": "partial",
+            "feedback": "Errors fall, but the slowest, most careful picker earns the most. Orders get slower, the problem you started with."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 4",
+      "title": "When do you pay?",
+      "illustrative": true,
+      "body": [
+        "Say you chose to count only correct cases.",
+        "Stores find errors when they unpack, often a week or two after the truck arrives. The truth about each pick shows up late."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Pay weekly, based on cases scanned at the dock",
+            "verdict": "risky",
+            "feedback": "Fast and motivating, but you pay for errors nobody has found yet. The bonus rewards what looks right at the dock."
+          },
+          {
+            "key": "B",
+            "text": "Pay monthly, after the stores' error reports close",
+            "verdict": "best",
+            "feedback": "A short wait, but the money matches what really happened. People can still see the link to their work."
+          },
+          {
+            "key": "C",
+            "text": "Pay quarterly, once everything is fully counted",
+            "verdict": "partial",
+            "feedback": "Very accurate, but three months is a long time. The link between today's effort and the payout fades."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 4",
+      "title": "The easy orders vanish first.",
+      "illustrative": true,
+      "body": [
+        "Say you pay monthly, after store reports. In week three, day-shift scores climb.",
+        "Pickers are grabbing quick, single-item orders. Big mixed orders pile up for the night shift, and some stores get deliveries a day late."
+      ],
+      "image": {
+        "label": "Small orders cleared, big orders stacked for the night shift",
+        "aspectRatio": "16:9",
+        "brief": "창고 바닥을 위에서 본 장면. 낮 시간 쪽은 작은 상자들이 깨끗이 비워져 있고, 밤 시간 쪽에는 큰 혼합 주문 팔레트가 높게 쌓여 있음. 해와 달 아이콘으로 교대조 구분. 로고 없음.",
+        "url": "assets/images/thk-06-10-c4.jpg"
+      },
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Pay one shared pool per shift, based on all orders out correct and on time",
+            "verdict": "best",
+            "feedback": "Hard orders become everyone's problem, and fast pickers start helping on big ones. The cost: some top pickers may feel they carry others, so keep teams small enough to see each other's work."
+          },
+          {
+            "key": "B",
+            "text": "Stop letting people choose: assign orders strictly in queue",
+            "verdict": "partial",
+            "feedback": "Cherry-picking stops, but each person still chases a personal number. Expect the next shortcut soon."
+          },
+          {
+            "key": "C",
+            "text": "Give extra points for hard orders",
+            "verdict": "risky",
+            "feedback": "Now people argue about which orders count as hard. The points table becomes the new game."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 4 of 4",
+      "title": "Someone stayed quiet.",
+      "illustrative": true,
+      "body": [
+        "Say you chose the shared pool. In month two, store complaints drop.",
+        "Then a loader admits he saw a wrong pallet go out and said nothing. Reporting it would have cost the whole shift its bonus."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Errors caught before the truck leaves cost nothing. Only errors stores find count",
+            "verdict": "best",
+            "feedback": "People now hunt for mistakes instead of hiding them. Your error count may rise at first, because you finally see the real ones."
+          },
+          {
+            "key": "B",
+            "text": "Add surprise audits and a penalty for hidden errors",
+            "verdict": "partial",
+            "feedback": "You'll catch some hiding. But fear grows, and people get better at hiding."
+          },
+          {
+            "key": "C",
+            "text": "Drop accuracy from the bonus to end the pressure",
+            "verdict": "risky",
+            "feedback": "The silence ends, but so does the reason to pick carefully. You're back at decision one."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "What you built",
+      "title": "Four pieces that close each other's shortcuts.",
+      "illustrative": true,
+      "body": [
+        "Here is the bonus you ended up with:"
+      ],
+      "list": [
+        "**Count:** correct cases, not just fast ones",
+        "**Timing:** pay after the stores confirm what arrived",
+        "**Scope:** one shared pool per shift",
+        "**Honesty:** mistakes caught before the truck leaves cost nothing"
+      ],
+      "callout": "No piece is clever alone. Each one blocks a shortcut the others left open.",
+      "softwareNote": "A support team paid per ticket closed will close tickets fast and watch them reopen. Count tickets that stay closed for a week, pool by team, and don't punish bugs people flag themselves."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "No bonus is fully ungameable.",
+      "body": [
+        "People are smarter than any formula. Expect a new shortcut every few months, and treat it as information about your design, not as betrayal.",
+        "Keep the rules simple enough to explain in one breath, and keep a manager's judgment for what the numbers miss. The bigger the share of pay riding on the number, the harder people will push on it."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Design for the shortest path to the money.",
+      "body": [
+        "Each decision you made used one idea from this unit:"
+      ],
+      "list": [
+        "Decision 1 · **Goodhart's law:** a single measure that becomes a target gets gamed, so pair it with what you care about",
+        "Decision 2 · **Delays:** pay when the truth arrives, not before",
+        "Decision 3 · **Local wins, global losses:** reward the whole flow, not each piece",
+        "Decision 4 · **Unintended consequences:** check what your rule teaches people to hide"
+      ],
+      "callout": "**Try it today:** pick one target or bonus you've set. Write down the fastest way someone could hit it without helping the business.",
+      "next": "Next · Define the problem before you solve it"
+    }
+  ]
+}

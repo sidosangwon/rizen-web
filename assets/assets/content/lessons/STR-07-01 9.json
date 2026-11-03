@@ -1,0 +1,305 @@
+{
+  "id": "STR-07-01",
+  "unitId": "STR-07",
+  "categoryId": "STR",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Four ways to grow",
+  "readerTitle": "Four growth plans, one budget: why the biggest number shrinks",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (라멘 가게, 소형 호텔, 치과 예약 소프트웨어) + 실제 이론 (Ansoff, 1957) · 모든 수치는 설명용",
+  "insight": "성장안은 예상 매출이 아니라 새로 맞혀야 할 것(새 제품, 새 고객)이 몇 개인지로 비교한다. 미지수는 더해지지 않고 곱해진다.",
+  "misconception": "예상 매출이 가장 큰 성장안이 가장 좋은 성장안이다.",
+  "relatedLessonIds": [
+    "STR-07-02",
+    "STR-07-05"
+  ],
+  "sources": [
+    {
+      "text": "Ansoff, H. I. (1957). Strategies for Diversification. Harvard Business Review, 35(5).",
+      "url": null
+    },
+    {
+      "text": "라멘 가게, 호텔, 치과 예약 앱의 모든 수치와 성공 확률은 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Ansoff의 1957년 HBR 논문 \"Strategies for Diversification\"에서 제품·시장 그리드(시장 침투, 제품 개발, 시장 개발, 다각화)가 소개되었는지 게시 전 원문으로 확인하세요. 카드에는 \"strategist Igor Ansoff\"로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "기댓값 계산: $60,000 × 90% = $54,000, $80,000 × 60% = $48,000, $120,000 × 50% = $60,000, $180,000 × 30% = $54,000. 확률은 사장의 가정이라는 점을 카드에 명시했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "미지수 곱셈: 새 제품 성공 60% × 새 고객 확보 50% = 30%. 두 사건을 독립으로 가정한 단순화입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Strategy · Numbers twist",
+      "title": "Four growth plans, one budget: why the biggest number shrinks",
+      "illustrative": true,
+      "body": [
+        "A ramen shop has $60,000 to spend on growth. The owner has four plans on the table.",
+        "The most exciting plan promises three times the extra sales of the dullest one. Once you count what each plan has to get right, most of that gap disappears."
+      ],
+      "image": {
+        "label": "A ramen shop owner looking at four sticky notes with dollar figures",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 일러스트. 작은 라멘 가게 카운터에서 사장이 벽에 붙은 포스트잇 4장을 바라봄. 각 포스트잇에 \"+$60k\", \"+$80k\", \"+$120k\", \"+$180k\". 가장 큰 숫자에 반짝이 효과. 실제 브랜드 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which plan do you fund?",
+      "illustrative": true,
+      "body": [
+        "Your ramen shop sells about $600,000 a year. You can invest $60,000 in one plan. Each figure is the owner's estimate of extra sales per year."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Lunch deals and a loyalty card for your current neighborhood customers: about +$60k",
+            "verdict": "neutral",
+            "feedback": "You already know these customers and this food, so little can surprise you. The trade-off is a modest upside."
+          },
+          {
+            "key": "B",
+            "text": "An evening sake and small-plates menu for your regulars: about +$80k",
+            "verdict": "neutral",
+            "feedback": "Your regulars already trust you. But your kitchen has never made small plates, so the new menu itself is the gamble."
+          },
+          {
+            "key": "C",
+            "text": "The same ramen at a stall in the business district across town: about +$120k",
+            "verdict": "neutral",
+            "feedback": "Your recipe is proven. Whether office workers across town will find you and come back is not."
+          },
+          {
+            "key": "D",
+            "text": "Frozen ramen kits sold through supermarkets: about +$180k",
+            "verdict": "neutral",
+            "feedback": "The biggest prize. It also needs a new product, new buyers and new shoppers to all work at once."
+          }
+        ],
+        "afterReveal": "The headline numbers aren't comparable yet. Each plan asks you to get a different number of new things right."
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "Same plans, adjusted for the odds.",
+      "illustrative": true,
+      "body": [
+        "The owner guesses how likely each plan is to hit its number: 90% for the loyalty card, 60% for the new menu, 50% for the new stall, 30% for supermarket kits. Multiply each headline by its odds."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Headline extra sales",
+            "rows": [
+              {
+                "label": "A · Loyalty card",
+                "value": 60000,
+                "highlight": false
+              },
+              {
+                "label": "B · New menu",
+                "value": 80000,
+                "highlight": false
+              },
+              {
+                "label": "C · New stall",
+                "value": 120000,
+                "highlight": false
+              },
+              {
+                "label": "D · Supermarket kits",
+                "value": 180000,
+                "highlight": true
+              }
+            ]
+          },
+          {
+            "label": "After the chance it works",
+            "rows": [
+              {
+                "label": "A · Loyalty card",
+                "value": 54000,
+                "highlight": false
+              },
+              {
+                "label": "B · New menu",
+                "value": 48000,
+                "highlight": false
+              },
+              {
+                "label": "C · New stall",
+                "value": 60000,
+                "highlight": false
+              },
+              {
+                "label": "D · Supermarket kits",
+                "value": 54000,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "callout": "The $180,000 plan is now worth the same as the dullest one, and it can fail in more ways.",
+      "image": {
+        "label": "Headline ranking vs expected-value ranking",
+        "aspectRatio": "4:3",
+        "brief": "Kits 180k drop to 54k after 30% odds; stall wins at 60k.",
+        "url": "assets/images/str-07-01-info.png"
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Four ways to grow",
+      "body": [
+        "Every growth plan answers two questions. Are you selling to customers you have, or new ones? Are you selling products you make today, or new ones? Strategist Igor Ansoff laid out the four answers as a grid in 1957:"
+      ],
+      "list": [
+        "**Same product, same customers:** sell more to people you already serve",
+        "**New product, same customers:** give your customers something else",
+        "**Same product, new customers:** take what works to new people or places",
+        "**New product, new customers:** start something new, often called **diversification**"
+      ],
+      "image": {
+        "label": "A two-by-two grid of products and customers",
+        "aspectRatio": "16:9",
+        "brief": "2×2 그리드 인포그래픽. 가로축 \"Customers: same → new\", 세로축 \"Product: same → new\". 네 칸에 라멘 가게의 A, B, C, D 아이콘(로열티 카드, 사케 잔, 노점, 냉동 키트). 오른쪽 위 칸으로 갈수록 배경색이 진해짐.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "breakdown",
+      "eyebrow": "How it works",
+      "title": "Unknowns multiply, they don't add.",
+      "illustrative": true,
+      "body": [
+        "Each step away from today adds an unknown. A new product asks: can we make it well? New customers ask: do they want it, and can we reach them?",
+        "In the corner box, both answers must be yes. Two reasonable-looking odds become one poor one."
+      ],
+      "breakdown": [
+        {
+          "value": "60%",
+          "label": "New product works",
+          "detail": "Kits taste good and hold up frozen",
+          "highlight": false
+        },
+        {
+          "value": "× 50%",
+          "label": "New customers come",
+          "detail": "Stores stock them, shoppers buy them",
+          "highlight": false
+        },
+        {
+          "value": "= 30%",
+          "label": "Both work",
+          "detail": "The odds the owner used for plan D",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Same grid, other businesses",
+      "title": "A small hotel has the same four boxes.",
+      "illustrative": true,
+      "body": [
+        "The labels change. The two questions don't."
+      ],
+      "list": [
+        "**Same/same:** win more repeat stays with direct booking perks",
+        "**New product:** spa or dinner packages for current guests",
+        "**New customers:** market the same rooms to business travelers",
+        "**Both new:** a wedding-planning service for locals"
+      ],
+      "callout": "Name the box first. Then you know which unknowns you are buying.",
+      "softwareNote": "A software company faces the same grid: more seats in current accounts, a new feature for current users, the same product for a new industry, or a new product for new buyers."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The safe box has a ceiling.",
+      "body": [
+        "Selling more to the same customers works until it doesn't. A neighborhood only eats so much ramen, and pushing past that usually means discounts.",
+        "The odds are guesses, too. Their job isn't to be precise. It's to make you name what must go right. Then you can test the shakiest piece cheaply, say a weekend pop-up or a small batch of kits, before betting the whole budget.",
+        "And when the core is shrinking, standing still is a risk of its own."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software company.",
+      "illustrative": true,
+      "body": [
+        "Your app helps 400 dental clinics book appointments. A board member pitches a consumer app for booking fitness classes: \"That market is ten times bigger.\"",
+        "What's your first move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Go for it. A bigger market means bigger upside",
+            "verdict": "risky",
+            "feedback": "You'd gain a large market but need a new product and new users to both work. Your clinic know-how and sales channels help with neither."
+          },
+          {
+            "key": "B",
+            "text": "List what's new in the plan, compare it with nearer options, and test the riskiest piece cheaply",
+            "verdict": "best",
+            "feedback": "You keep the upside open while pricing in the odds. Selling the same app to vet clinics, for example, might offer less upside with far fewer unknowns."
+          },
+          {
+            "key": "C",
+            "text": "Say no. Never grow outside your core",
+            "verdict": "partial",
+            "feedback": "It protects focus, but a blanket rule can trap you once your clinic market stops growing."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Count the unknowns before you count the money.",
+      "body": [
+        "Every growth plan sits in one of four boxes. The further from your current customers and products, the more things must go right at once.",
+        "**Try it today:** write down your next growth idea. Mark whether it needs a new product, new customers, or both. Then write your honest odds for each."
+      ],
+      "next": "Next · Why the best growth often sits one step from your core"
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "id": "ECO-06-02",
+  "unitId": "ECO-06",
+  "categoryId": "ECO",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "Cost-plus pricing",
+  "readerTitle": "Is cost plus 30% a good price?",
+  "format": "numbers_twist",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (동네 빵집, 소프트웨어 구독 서비스) · 모든 수치는 설명용",
+  "insight": "원가는 가격을 정하는 답이 아니라 바닥을 확인하는 도구다. 단위 원가 자체가 판매량 예측에 기대고 있기 때문이다.",
+  "misconception": "원가에 일정 마진을 붙이면 손해 볼 일이 없는 안전한 가격이 된다.",
+  "relatedLessonIds": [
+    "ECO-06-01",
+    "ECO-02-01"
+  ],
+  "sources": [
+    {
+      "text": "관리회계의 표준 개념 (원가가산 가격결정, 고정비 배분, 수요 감소 악순환)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "빵집 계산: 월 고정비 $3,000 ÷ 1,500개 = $2.00, + 재료비 $1.50 = $3.50, × 1.3 = $4.55. 1,000개일 때: $3,000 ÷ 1,000 = $3.00, + $1.50 = $4.50, × 1.3 = $5.85.",
+      "status": "open"
+    },
+    {
+      "note": "빵집 손익: $4.55에 1,000개 판매 시 1,000 × ($4.55 − $1.50) = $3,050 − $3,000 = $50. $3.99로 인하 시 손익분기 $3,000 ÷ ($3.99 − $1.50) = $3,000 ÷ $2.49 ≈ 1,205개.",
+      "status": "open"
+    },
+    {
+      "note": "소프트웨어 계산: 월 팀 비용 $40,000 ÷ 2,000명 = $20, + 고객당 $4 = $24, × 1.3 = $31.20. $31.20에서 손익분기 $40,000 ÷ ($31.20 − $4) = $40,000 ÷ $27.20 ≈ 1,471명. 고객당 $4 × 1.3 = $5.20.",
+      "status": "open"
+    },
+    {
+      "note": "'death spiral'(수요 감소 악순환)은 관리회계 교재에서 쓰이는 일반 용어입니다. 원가가산 계약이 판매자의 비용 절감 동기를 약하게 만든다는 점은 건설·공공 조달 분야에서 널리 지적되는 일반론으로만 서술했습니다. 특정 사례나 수치는 넣지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Pricing · Numbers twist",
+      "title": "Is cost plus 30% a good price?",
+      "illustrative": true,
+      "body": [
+        "A baker works out that each sourdough loaf costs $3.50 to make. She adds 30% and prices it at $4.55.",
+        "It feels safe. Every loaf covers its cost, plus a bit. But that $3.50 is built on a guess, and the guess can turn the formula against her."
+      ],
+      "image": {
+        "label": "A sourdough loaf with a price tag reading cost plus 30%",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 톤의 동네 빵집 카운터. 사워도우 빵 한 덩이에 \"$3.50 + 30% = $4.55\"라고 적힌 손글씨 가격표. 가격표 뒤에 작은 물음표 그림자. 실제 브랜드 로고 없음.",
+        "url": "assets/images/eco-06-02-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Sales came in lower than planned.",
+      "illustrative": true,
+      "body": [
+        "Ingredients cost $1.50 a loaf. Rent share, oven and baker time cost $3,000 a month. She planned on 1,500 loaves, so each loaf \"cost\" $3.50 and sold for $4.55.",
+        "She sold only 1,000. Re-running her formula, each loaf now \"costs\" $4.50, so cost plus 30% says $5.85. What should she do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Follow the formula and raise the price to $5.85",
+            "verdict": "risky",
+            "feedback": "It might hold if customers barely notice. But she's raising the price because fewer people bought, and if sales drop again, the formula will ask her to raise it again."
+          },
+          {
+            "key": "B",
+            "text": "Keep $4.55 and find out why sales are low and what customers would pay",
+            "verdict": "best",
+            "feedback": "At 1,000 loaves she still clears about $50, so there's time to learn. The cost tells her the floor; customers tell her the price."
+          },
+          {
+            "key": "C",
+            "text": "Cut to $3.99 to win more customers",
+            "verdict": "partial",
+            "feedback": "More volume does lower the cost per loaf. But each loaf now leaves $2.49, so she needs about 1,205 loaves a month just to cover the $3,000."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Same loaf, two different \"costs\".",
+      "illustrative": true,
+      "body": [
+        "Nothing changed in the kitchen. Only the sales guess changed. Fewer sales made each loaf look more expensive, so the formula pushed the price **up** just when demand was weak."
+      ],
+      "breakdown": [
+        {
+          "value": "$1.50",
+          "label": "Ingredients",
+          "detail": "Same for every loaf",
+          "highlight": false
+        },
+        {
+          "value": "$3,000",
+          "label": "Monthly fixed costs",
+          "detail": "Rent share, oven, baker time",
+          "highlight": false
+        },
+        {
+          "value": "$4.55",
+          "label": "Price at 1,500 loaves",
+          "detail": "$2.00 fixed + $1.50 = $3.50, plus 30%",
+          "highlight": false
+        },
+        {
+          "value": "$5.85",
+          "label": "Price at 1,000 loaves",
+          "detail": "$3.00 fixed + $1.50 = $4.50, plus 30%",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Cost-plus pricing",
+      "body": [
+        "**Cost-plus pricing** means working out what one unit costs you, then adding a fixed markup. Cost $3.50, markup 30%, price $4.55.",
+        "It's popular for good reasons. It's quick, easy to explain, and easy to defend to a customer. Caterers, contractors, print shops and manufacturers use it every day.",
+        "Its promise is that every sale covers its cost. That promise only holds if the sales you planned actually show up."
+      ],
+      "image": {
+        "label": "Cost block stacked with a markup block to form the price",
+        "aspectRatio": "16:9",
+        "brief": "블록 쌓기 인포그래픽. 아래 큰 블록 \"Cost per unit\", 위에 작은 블록 \"Markup 30%\", 합쳐서 \"Price\". 아래 블록 안에 \"depends on how many you sell\"이라는 작은 주석과 점선.",
+        "url": "assets/images/eco-06-02-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "The hidden circle.",
+      "body": [
+        "Cost per unit depends on how many you sell. How many you sell depends on price. So cost-plus quietly assumes the answer it's trying to find.",
+        "When sales fall, fixed costs spread over fewer units, the \"cost\" rises, and the price rises with it. That can cut sales again. Accountants call this the **death spiral**.",
+        "The formula also never looks at the customer. A loaf people would happily buy at $6 gets priced at $4.55. One they'd only buy at $4 gets priced higher and sits on the shelf."
+      ],
+      "image": {
+        "label": "A loop: fewer sales, higher unit cost, higher price, fewer sales",
+        "aspectRatio": "16:9",
+        "brief": "원형 화살표 다이어그램 4단계: \"Fewer sales\" → \"Higher cost per unit\" → \"Higher price\" → \"Fewer sales\". 화살표가 아래로 소용돌이치듯 점점 작아지는 느낌. 차분한 색, 과장된 경고 표시 없음.",
+        "url": "assets/images/eco-06-02-c5.jpg"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where it fits",
+      "title": "Where cost-plus earns its place.",
+      "body": [
+        "Cost-plus works best when costs are hard to predict and the buyer accepts that. A custom renovation or a one-off catering job is often priced as cost plus a fee, because nobody knows the full cost upfront.",
+        "It also works as a **floor check**. Before you set any price, cost tells you the lowest number that keeps the business alive at a realistic volume.",
+        "Where it struggles: products with high fixed costs, uncertain volume, or customers who value them far above or below your cost."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The markup can reward the wrong thing.",
+      "body": [
+        "When a contract pays cost plus a percentage, the seller earns more by spending more. There's little reason to find a cheaper supplier or a faster method. Buyers often push for a fixed fee or a cap for this reason.",
+        "And the markup itself is usually a habit, not a decision. 30% isn't right because it's round. It's right only if customers will pay it and your volume covers your fixed costs."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software subscription.",
+      "illustrative": true,
+      "body": [
+        "Your team costs $40,000 a month. Hosting and support cost about $4 per customer. You expect 2,000 customers, so each one \"costs\" $24. Cost plus 30% gives $31.20 a month.",
+        "How should you use that number?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Charge $31.20. It covers every cost with a margin",
+            "verdict": "partial",
+            "feedback": "It works if users arrive. You break even at about 1,471 customers, so the price rests on a sign-up forecast you haven't tested."
+          },
+          {
+            "key": "B",
+            "text": "Charge $5.20, since one more customer only costs $4",
+            "verdict": "risky",
+            "feedback": "Each sale covers its own cost, but you'd need about 33,000 customers just to pay the team. A floor for one sale isn't a price for a business."
+          },
+          {
+            "key": "C",
+            "text": "Treat $24 as a viability check, set the price from what customers get, then check the volume needed",
+            "verdict": "best",
+            "feedback": "You keep cost in its useful role: a test of whether the business can work. The price itself comes from customers, not from your spreadsheet."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Cost tells you the floor, not the price.",
+      "body": [
+        "Cost-plus is simple and defensible, but its \"cost\" depends on a sales guess, and it never asks what customers will pay.",
+        "**Try it today:** pick one product. Work out its cost per unit at your expected volume, then at 30% lower volume. If the price swings a lot, your price is resting on a guess."
+      ],
+      "next": "Next · Should you just match your competitor's price?"
+    }
+  ]
+}

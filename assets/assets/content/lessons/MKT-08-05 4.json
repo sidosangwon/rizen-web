@@ -1,0 +1,224 @@
+{
+  "id": "MKT-08-05",
+  "unitId": "MKT-08",
+  "categoryId": "MKT",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Sales-led vs self-serve",
+  "readerTitle": "Your best closer might be losing you money",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (청소 서비스 회사, 사내 데이터 분석팀) · 모든 수치는 설명용",
+  "insight": "사람이 파는 방식과 고객이 혼자 사는 방식은 '어느 쪽이 더 많이 성사시키나'가 아니라 '고객 한 명을 얻는 비용이 그 고객이 남기는 돈보다 충분히 작은가'로 고른다.",
+  "misconception": "성사율이 높은 영업 방식이 언제나 더 좋은 방식이다. 사람이 직접 응대하면 무조건 더 많이 판다.",
+  "relatedLessonIds": [
+    "MKT-08-04",
+    "CUS-09-03"
+  ],
+  "sources": [
+    {
+      "text": "영업 주도(sales-led)와 셀프서브(self-serve) 판매 방식을 고객 획득 비용과 거래 규모로 비교하는 마케팅·영업 관리의 일반 개념",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 설명용 가상 수치입니다. 방문 견적: 방문당 $60 ÷ 성사율 50% = 고객 1명당 $120. 일반 청소 1회가 남기는 돈 $50 − $120 = −$70.",
+      "status": "open"
+    },
+    {
+      "note": "온라인 예약: 예약 1건당 광고비 $20. $50 − $20 = +$30. 이사 후 대청소: 남는 돈 $600 − 방문 견적 비용 $120 = +$480.",
+      "status": "open"
+    },
+    {
+      "note": "사내 분석팀 사례: 요청의 약 70%가 반복형 보고서라는 설정, 회의당 분석가 2시간이라는 설정은 모두 가상입니다. 계산 결과는 카드에 쓰지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Marketing · Numbers twist",
+      "title": "Your best closer might be losing you money",
+      "illustrative": true,
+      "body": [
+        "A cleaning company's estimator visits homes and wins half of them. The new booking page wins far fewer of the people who look at it.",
+        "Everyone assumes the estimator is the better seller. The numbers say otherwise, at least for most jobs."
+      ],
+      "image": {
+        "label": "An estimator at a front door next to a phone showing a booking page",
+        "aspectRatio": "4:3",
+        "brief": "왼쪽에는 클립보드를 든 견적 담당자가 집 현관 앞에 서 있고, 오른쪽에는 스마트폰 화면에 '집 크기 선택 → 가격 → 예약' 버튼이 보임. 두 장면 사이에 저울. 실제 브랜드 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Keep the home visits?",
+      "illustrative": true,
+      "body": [
+        "Every new customer gets a free in-home estimate. Each visit costs about $60 in staff time and driving. Half of visits become customers.",
+        "A typical first job is a $160 cleaning that leaves $50 after wages and supplies. A new booking page shows fixed prices by home size. Ads cost about $20 per online booking. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep visits for everyone. A 50% close rate is excellent",
+            "verdict": "risky",
+            "feedback": "You keep the personal touch, but each customer costs more to win than the first job earns. The close rate hides the cost."
+          },
+          {
+            "key": "B",
+            "text": "Move standard cleanings online and keep visits for big or unusual jobs",
+            "verdict": "best",
+            "feedback": "You stop overpaying for small jobs and still put a person where the price is hard to judge. The next card shows why."
+          },
+          {
+            "key": "C",
+            "text": "Drop visits completely and send everyone online",
+            "verdict": "partial",
+            "feedback": "Cheaper per customer, but you lose the large, messy jobs where customers want someone to look before they commit."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "What it costs to win one customer.",
+      "illustrative": true,
+      "body": [
+        "The visit wins more often, but each win costs **$120**. On a $50 job, that's a loss. Now take a post-renovation deep clean that leaves $600. The same $120 visit leaves $480, and the customer wants the visit before paying."
+      ],
+      "breakdown": [
+        {
+          "value": "$120",
+          "label": "Visit cost per customer",
+          "detail": "$60 per visit ÷ 50% who say yes",
+          "highlight": false
+        },
+        {
+          "value": "−$70",
+          "label": "Standard job, sold by visit",
+          "detail": "$50 left over − $120",
+          "highlight": true
+        },
+        {
+          "value": "+$30",
+          "label": "Standard job, booked online",
+          "detail": "$50 left over − $20 in ads",
+          "highlight": false
+        },
+        {
+          "value": "+$480",
+          "label": "Deep clean, sold by visit",
+          "detail": "$600 left over − $120",
+          "highlight": false
+        }
+      ],
+      "softwareNote": "Read the same math as cost per sign-up versus what a customer pays over time. A small monthly plan rarely covers a salesperson's calls and demos, while a large company account often does."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Sales-led vs self-serve",
+      "body": [
+        "**Sales-led** means a person guides each customer to the purchase: a quote, a visit, a call, a demo. **Self-serve** means customers learn, decide and buy on their own, from a menu, a price list or a page.",
+        "Neither is better. The rule is simple: what it costs to win one customer has to be well below what that customer leaves you. A person costs money on every deal. A good page costs money once."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Two dials decide the motion.",
+      "body": [
+        "Look at how much a sale is worth and how hard it is for the customer to decide."
+      ],
+      "list": [
+        "**Small and simple:** fixed price, standard product. Self-serve.",
+        "**Big or complex:** custom price, high risk, many questions. Sales-led.",
+        "**In between:** self-serve first, with a person stepping in when a signal appears, such as a large home or an unusual request."
+      ],
+      "callout": "Many businesses run both, sorted by deal size.",
+      "softwareNote": "Software often works this way: anyone can sign up and pay by card, and accounts that add many seats get handed to a salesperson."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Self-serve isn't free.",
+      "body": [
+        "A booking page only sells when prices are clear and the product is standard. If customers have to guess, they leave quietly, and you never learn why.",
+        "You also lose conversations. An estimator hears what customers worry about. A page doesn't. Keep some way to talk to customers, even when most of them buy alone."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a team inside a company.",
+      "illustrative": true,
+      "body": [
+        "You lead a data team that builds reports for other departments. Every request starts with a two-hour scoping meeting with an analyst. About 70% of requests are routine monthly reports. The team is always behind. What do you change?"
+      ],
+      "image": {
+        "label": "A request form splitting into templates and a meeting room",
+        "aspectRatio": "16:9",
+        "brief": "사내 요청서가 두 갈래로 나뉘는 인포그래픽. 한쪽은 '보고서 템플릿' 아이콘 여러 개(셀프서브), 다른 쪽은 분석가와 마주 앉은 회의실(큰 프로젝트). 실제 회사 로고 없음.",
+        "url": null
+      },
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep a meeting for every request so nothing gets misunderstood",
+            "verdict": "risky",
+            "feedback": "Quality stays high, but analysts spend most of their time scoping reports that could be standard. Big projects wait."
+          },
+          {
+            "key": "B",
+            "text": "Offer report templates people set up themselves, and meetings only for large or cross-team projects",
+            "verdict": "best",
+            "feedback": "Routine work moves fast, and analyst time goes where the request is costly to get wrong."
+          },
+          {
+            "key": "C",
+            "text": "Publish templates and stop taking meetings",
+            "verdict": "partial",
+            "feedback": "It frees the team, but complex projects get built on guesses, and fixing them later costs more than the meeting would have."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Match how you sell to what each sale is worth.",
+      "body": [
+        "A high close rate means little until you divide the cost of selling by it. Put people on big, complex deals and give everyone else a clear way to buy alone.",
+        "**Try it today:** pick your most common sale. Estimate what it costs to win one customer, then compare it with what that sale leaves behind."
+      ],
+      "next": "Next · What to watch in the weeks after launch"
+    }
+  ]
+}

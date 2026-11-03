@@ -1,0 +1,255 @@
+{
+  "id": "FIN-11-09",
+  "unitId": "FIN-11",
+  "categoryId": "FIN",
+  "order": 9,
+  "type": "case",
+  "conceptTag": "Groupon restates its revenue before its IPO",
+  "readerTitle": "Groupon's revenue halved in three months, and nothing changed but the definition",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Groupon, 2011년 IPO 전 매출 정정) + 가상 적용 (쿠폰 1장 계산, 화물 중개업체)",
+  "insight": "매출은 내 손을 거쳐 간 돈이 아니라 내가 맡은 역할로 번 돈이다. 거래의 주체(principal)인지 중개자(agent)인지가 매출 크기를 정한다.",
+  "misconception": "고객이 나에게 낸 돈은 전부 내 매출이다. 비용으로 빼서 이익만 같으면 매출을 어떻게 잡든 상관없다.",
+  "relatedLessonIds": [
+    "FIN-11-02",
+    "FIN-10-01"
+  ],
+  "sources": [
+    {
+      "text": "Groupon, Inc. Form S-1 registration statement (filed June 2011), SEC EDGAR: 2010년 매출 총액 기준 약 $713.4M",
+      "url": null
+    },
+    {
+      "text": "Groupon, Inc. amended Form S-1 (September 2011), SEC EDGAR: 순액 기준으로 정정한 2010년 매출 약 $312.9M",
+      "url": null
+    },
+    {
+      "text": "Reuters, The Wall Street Journal 등 2011년 9월 보도: SEC 검토 후 Groupon이 매출 표시 방식을 총액에서 순액으로 변경",
+      "url": null
+    },
+    {
+      "text": "Groupon, Inc. Form 8-K and Form 10-K (March 2012): 2011년 4분기 실적 수정, 환불 충당금 부족, 내부통제 중대한 취약점",
+      "url": null
+    },
+    {
+      "text": "US GAAP의 principal vs agent (총액 vs 순액) 판단 기준: 당시 EITF 99-19, 현재 ASC 606",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "2010년 매출 $713.4M(최초 S-1, 총액) → $312.9M(수정 S-1, 순액) 수치를 SEC EDGAR 원문으로 다시 확인하세요. 차트 값은 백만 달러 단위입니다.",
+      "status": "open"
+    },
+    {
+      "note": "최초 S-1 제출 2011년 6월, 순액 기준 수정 제출 2011년 9월, IPO 2011년 11월 날짜를 확인하세요. 카드에는 월 단위까지만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "총액→순액 정정은 상인 지급액을 매출원가에서 빼고 매출에서도 뺀 것이므로 순손실은 바뀌지 않았다는 서술을 수정 S-1로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "2012년 3월 4분기 실적 수정(환불 충당금 부족)과 감사인의 내부통제 중대한 취약점(material weakness) 지적을 Groupon 10-K로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "쿠폰 예시는 가상 수치: 고객 지불 $50, 상인 몫 $25, Groupon 몫 $25 (실제 배분 비율은 거래마다 달랐음). 화물 예시: $2,000 − $1,700 = $300.",
+      "status": "open"
+    },
+    {
+      "note": "화물 중개업체는 계약 조건에 따라 총액(주체) 또는 순액(중개자)으로 보고할 수 있습니다. 실제로 일부 대형 중개업체는 총액으로 보고합니다. 그래서 적용 문제의 정답을 '조건에 따라 다르다'로 두었습니다. 특정 국가의 회계 조언이 아닙니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Counterexample",
+      "title": "Groupon's revenue halved in three months, and nothing changed but the definition",
+      "body": [
+        "In June 2011, Groupon filed to go public. Its papers showed 2010 revenue of about **$713 million**.",
+        "A few months later, the same year's revenue read about $313 million. No deals were cancelled. No customers asked for refunds. Only one question had been answered differently: whose money was it?"
+      ],
+      "image": {
+        "label": "One pile of money shrinking by half under a magnifying glass",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 책상 위 동전 더미에 돋보기를 대니 절반은 식당 앞치마를 두른 손으로 넘어가고 절반만 남는 장면. 실제 Groupon 로고나 색상은 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "A customer pays you $50 for a meal voucher.",
+      "illustrative": true,
+      "body": [
+        "You run a daily-deals site. A customer pays you $50 for a $100 voucher at a local restaurant. You keep $25 and pass $25 to the restaurant, which cooks and serves the meal.",
+        "What should you report as revenue?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "$50, the full amount the customer paid you",
+            "verdict": "risky",
+            "feedback": "The cash did come to you, but half was never yours to keep. This makes your business look twice as big as it is."
+          },
+          {
+            "key": "B",
+            "text": "$25, your share for arranging the deal",
+            "verdict": "best",
+            "feedback": "You didn't cook the meal. You earned a fee for bringing the customer. Your revenue is that fee, even though more cash passed through your account."
+          },
+          {
+            "key": "C",
+            "text": "$50, with the restaurant's $25 listed as a cost, so profit stays the same",
+            "verdict": "partial",
+            "feedback": "Profit is indeed the same. But revenue is what people use to judge your size and growth, so it still overstates the business."
+          }
+        ],
+        "afterReveal": "Option C is close to what Groupon first did."
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "What happened",
+      "title": "Same year, same deals, two revenue numbers.",
+      "body": [
+        "Groupon first counted the full price of each voucher as revenue and the merchant's share as a cost. After review by US securities regulators, it refiled in September 2011 counting only its own share.",
+        "Its losses didn't change. Its reported revenue fell by more than half. Groupon went public that November."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Groupon 2010 revenue, $ millions",
+            "rows": [
+              {
+                "label": "As first filed (full voucher price)",
+                "value": 713.4,
+                "highlight": false
+              },
+              {
+                "label": "As refiled (Groupon's share only)",
+                "value": 312.9,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "image": {
+        "label": "Same year, same deals, two revenue numbers.",
+        "aspectRatio": "4:3",
+        "brief": "Labeled HTML chart from the lesson numbers",
+        "url": "assets/images/fin-11-09-chart.png"
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Principal or agent: gross vs net revenue",
+      "body": [
+        "If you are the **principal**, you own the promise to the customer. You control the product or service and carry the risk if it goes wrong. You report the full price as revenue: *gross*.",
+        "If you are the **agent**, you arrange for someone else to deliver. You report only your fee: *net*.",
+        "The restaurant cooked the meal and owned the dining experience. Groupon brought the diner in. That made it an agent."
+      ],
+      "image": {
+        "label": "Two paths: seller who delivers vs middleman who connects",
+        "aspectRatio": "16:9",
+        "brief": "좌우 비교 인포그래픽. 왼쪽 \"Principal\": 가게 주인이 직접 상품을 건네고 \"Full price = revenue\". 오른쪽 \"Agent\": 중개인이 손님과 가게를 연결하고 작은 동전만 받음 \"Your fee = revenue\". 실제 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Why it matters",
+      "title": "Profit stayed put. The story didn't.",
+      "body": [
+        "If profit is the same either way, why fight over the label? Because readers use revenue as a ruler.",
+        "Investors compare a company's price to its revenue. Halve the revenue and the company looks twice as expensive. Growth rates, market share and margins all lean on the top line.",
+        "A gross number made Groupon look like a giant retailer. A net number showed a marketing business earning fees."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where else it shows up",
+      "title": "Anyone who sits in the middle faces this choice.",
+      "body": [
+        "Travel agents, ticket sellers, wholesalers who drop-ship, staffing agencies and freight brokers all handle money that partly belongs to someone else.",
+        "The test is not who collects the cash. It's who makes the promise, sets the price and absorbs the loss when something fails."
+      ],
+      "softwareNote": "App stores, ride-hailing apps and online marketplaces face the same question. A platform that just connects buyers and sellers usually reports its commission, while one that sells its own inventory reports the full price."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Net isn't always right, and one fix isn't the end.",
+      "body": [
+        "Some middlemen really are principals. If you set the price, guarantee delivery and eat the loss when a supplier fails, gross may be correct. The rules call for judgment, not a default.",
+        "And a corrected label doesn't make every number reliable. In early 2012, months after its IPO, Groupon revised its late-2011 results after setting aside too little for refunds, and its auditor flagged weak internal controls."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a freight broker.",
+      "illustrative": true,
+      "body": [
+        "You own no trucks. A manufacturer pays you $2,000 to move a load. You hire a carrier for $1,700 and keep $300.",
+        "What's your revenue on this job?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "$2,000, because you send the invoice",
+            "verdict": "risky",
+            "feedback": "Sending the invoice doesn't settle it. Groupon collected the cash too, and that alone didn't make the full amount its revenue."
+          },
+          {
+            "key": "B",
+            "text": "$300, because you don't own the trucks",
+            "verdict": "partial",
+            "feedback": "Often right, but owning trucks isn't the test. A broker can be the principal without owning a single vehicle."
+          },
+          {
+            "key": "C",
+            "text": "It depends on whether you promised the delivery, set the price and carry the loss if it fails",
+            "verdict": "best",
+            "feedback": "If you're on the hook to the shipper, $2,000 may be right. If you just connect shipper and carrier for a fee, report $300."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Revenue is what you earn for your role, not the money that passes through.",
+      "body": [
+        "Before you report a sale, ask whose promise the customer is buying.",
+        "**Try it today:** list each way your business brings in money. For each, ask: if this goes wrong, who does the customer blame, and who pays to fix it?"
+      ],
+      "next": "Next · Is this year's profit real?"
+    }
+  ]
+}

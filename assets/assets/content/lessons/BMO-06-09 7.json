@@ -1,0 +1,289 @@
+{
+  "id": "BMO-06-09",
+  "unitId": "BMO-06",
+  "categoryId": "BMO",
+  "order": 9,
+  "type": "case",
+  "conceptTag": "Adobe moves to the cloud",
+  "readerTitle": "Why Adobe's revenue fell when it stopped selling software in a box",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.3,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Adobe의 Creative Suite에서 Creative Cloud로의 전환, 2012~2017) + 가상 적용 (동네 빵집의 주간 구독)",
+  "insight": "일회성 판매에서 구독으로 바꾸면 사업이 튼튼해지는 동안에도 매출은 먼저 떨어진다. 전환기에는 올해 매출이 아니라 남아 있는 구독 고객 수를 본다.",
+  "misconception": "구독으로 바꾼 뒤 매출이 줄고 고객이 반발하면 전환이 실패하고 있다는 뜻이다.",
+  "relatedLessonIds": [
+    "BMO-06-01",
+    "BMO-06-10"
+  ],
+  "sources": [
+    {
+      "text": "Adobe Systems Form 10-K annual reports, fiscal years 2012–2017 (revenue figures)",
+      "url": null
+    },
+    {
+      "text": "Adobe press release and Adobe MAX announcement, May 2013: Creative Cloud becomes the focus; Creative Suite development ends with CS6",
+      "url": null
+    },
+    {
+      "text": "News coverage of the 2013 Change.org petition against subscription-only Adobe software (e.g., The Verge, CNET, May 2013)",
+      "url": null
+    },
+    {
+      "text": "Adobe financial analyst meeting materials (2011–2013) on subscription metrics and the expected revenue dip",
+      "url": null
+    },
+    {
+      "text": "가상 빵집 사례와 카드 5의 $1,800 / $50 계산은 설명용 가상 수치",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Adobe 연간 매출(10-K 기준, 반올림): FY2012 약 $4.40B, FY2013 약 $4.06B, FY2014 약 $4.15B, FY2015 약 $4.80B, FY2016 약 $5.85B, FY2017 약 $7.30B. 차트에는 4.4 / 4.1 / 4.1 / 4.8 / 5.9 / 7.3으로 표시. 게시 전 10-K 원문으로 다시 확인하세요. FY2012→FY2013 감소율 (4.40−4.06)÷4.40 ≈ 7.7%(카드에는 '약 8%').",
+      "status": "open"
+    },
+    {
+      "note": "Creative Cloud 출시 2012년 5월, 구독 전용 발표 2013년 5월 Adobe MAX. 날짜를 Adobe 보도자료로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Change.org 청원 서명 수는 보도마다 다르며 수만 명 규모로 알려짐. 카드에는 'tens of thousands'로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "이후 출시된 저가 사진 플랜(Photoshop + Lightroom)의 정확한 가격·출시 시점은 확인 필요. 카드에는 가격 없이 'a cheaper photography plan'으로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "카드 5 계산(가상): $1,800 라이선스를 3년마다 구매 = 연평균 $600. 월 $50 구독 × 12 = $600. 전환 첫해 해당 고객 매출 $1,800 → $600, 3년 합계는 동일 $1,800. 실제 Adobe 가격이 아님을 카드에 표시했습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business models · Counterexample",
+      "title": "Why Adobe's revenue fell when it stopped selling software in a box",
+      "body": [
+        "For years, designers bought Photoshop the old way: one big payment, then use it until the next version.",
+        "In 2013, Adobe stopped selling it that way. Customers protested. Revenue fell. And it turned out to be one of the most successful business model changes in software."
+      ],
+      "image": {
+        "label": "A software box dissolving into a monthly calendar",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 왼쪽에 큰 소프트웨어 상자 하나, 오른쪽으로 갈수록 작은 월별 달력 조각들로 흩어지는 모습. 실제 Adobe 로고, 제품 아이콘, 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call · 2013",
+      "title": "Keep the box, or go subscription-only?",
+      "body": [
+        "It's 2013. You sell design software as one-time licenses, plus a new monthly subscription launched a year ago. Many loyal customers still prefer to buy once.",
+        "What do you do next?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Offer both forever and let customers choose",
+            "verdict": "neutral",
+            "feedback": "No one gets angry. But you keep building two products, and most people stay on the option that pays you once every few years."
+          },
+          {
+            "key": "B",
+            "text": "Stop selling licenses. Subscription only",
+            "verdict": "neutral",
+            "feedback": "You get one product and steady income. You also risk a public backlash and a sharp drop in this year's revenue."
+          },
+          {
+            "key": "C",
+            "text": "Keep licenses but raise their price to nudge people over",
+            "verdict": "neutral",
+            "feedback": "Gentler than a hard stop. But the switch takes longer, and customers may feel squeezed either way."
+          }
+        ],
+        "afterReveal": "Adobe chose B. It announced that Creative Suite 6 would be the last boxed version."
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "The backlash was loud.",
+      "body": [
+        "In May 2013, Adobe said future versions of its design tools would come only through **Creative Cloud**, its monthly subscription.",
+        "An online petition against the change gathered tens of thousands of signatures. Many users disliked paying forever for tools they used to own.",
+        "Then the numbers looked bad too. Revenue dropped by about 8% in the next fiscal year and stayed below its old level for two years."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "First down, then sharply up.",
+      "body": [
+        "Adobe's yearly revenue, rounded, from its annual reports. The dip came right after the switch."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Revenue, $ billions, by fiscal year",
+            "rows": [
+              {
+                "label": "2012",
+                "value": 4.4,
+                "highlight": false
+              },
+              {
+                "label": "2013",
+                "value": 4.1,
+                "highlight": true
+              },
+              {
+                "label": "2014",
+                "value": 4.1,
+                "highlight": true
+              },
+              {
+                "label": "2015",
+                "value": 4.8,
+                "highlight": false
+              },
+              {
+                "label": "2016",
+                "value": 5.9,
+                "highlight": false
+              },
+              {
+                "label": "2017",
+                "value": 7.3,
+                "highlight": false
+              }
+            ]
+          }
+        ]
+      },
+      "image": {
+        "label": "First down, then sharply up.",
+        "aspectRatio": "4:3",
+        "brief": "Labeled HTML chart from the lesson numbers",
+        "url": "assets/images/bmo-06-09-chart.png"
+      }
+    },
+    {
+      "index": 5,
+      "type": "breakdown",
+      "eyebrow": "The concept",
+      "title": "The transition dip",
+      "illustrative": true,
+      "body": [
+        "When you switch from one-time sales to subscriptions, a big payment today becomes small payments later. Over three years you earn the same. In year one you earn far less. That's the **transition dip**, and it says nothing yet about whether the business is healthier."
+      ],
+      "breakdown": [
+        {
+          "value": "$1,800",
+          "label": "Old way, year 1",
+          "detail": "One license, bought every 3 years",
+          "highlight": false
+        },
+        {
+          "value": "$600",
+          "label": "New way, year 1",
+          "detail": "$50 a month × 12",
+          "highlight": true
+        },
+        {
+          "value": "$1,800",
+          "label": "Both, over 3 years",
+          "detail": "Same money, different timing",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Why it worked",
+      "title": "Adobe told investors what to watch.",
+      "body": [
+        "Before the dip, Adobe asked investors to track subscriptions and recurring revenue, not just total sales. That number kept climbing.",
+        "A monthly price also let in people who never paid the big upfront cost. Adobe later added a cheaper photography plan for hobbyists.",
+        "Once enough subscribers stayed, revenue that once came in waves became **predictable**, and growth followed."
+      ],
+      "image": {
+        "label": "Falling revenue line above a rising subscriber line",
+        "aspectRatio": "16:9",
+        "brief": "두 개의 선 그래프. 위쪽 'Total revenue' 선은 잠깐 내려갔다 올라가고, 아래쪽 'Subscribers' 선은 처음부터 꾸준히 올라감. 두 선이 갈라지는 구간에 'The dip' 라벨. 실제 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "This worked for a reason.",
+      "body": [
+        "Adobe's tools were the standard in design work, and switching away was hard. It could also afford two weak years.",
+        "A business with easy substitutes or thin cash may not survive the dip. Customers who feel forced can leave, and resentment about paying forever never fully went away for some of Adobe's users.",
+        "The dip only pays off if people **keep subscribing**. Without retention, it's just a revenue drop."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a bakery.",
+      "illustrative": true,
+      "body": [
+        "Your bakery launched a weekly bread subscription. Regulars who used to buy a big order on weekends now pay a smaller amount each week. Three months in, monthly sales are below last year.",
+        "What tells you whether it's working?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Total monthly sales compared with last year",
+            "verdict": "risky",
+            "feedback": "It's the easiest number to see, but it mostly shows the dip from changing when people pay. It can scare you off a change that is working."
+          },
+          {
+            "key": "B",
+            "text": "How many subscribers renew each month, and how many new ones join",
+            "verdict": "best",
+            "feedback": "This tracks the base that will pay you next month and the month after. Strong renewals mean the dip is timing, not decline."
+          },
+          {
+            "key": "C",
+            "text": "How many customers complain about the change",
+            "verdict": "partial",
+            "feedback": "Complaints are worth hearing, but loud voices aren't the same as people leaving. Watch what customers do, not just what they say."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A falling top line can hide a stronger business.",
+      "body": [
+        "When you trade one big payment for many small ones, revenue dips first. Judge the switch by who stays, not by this year's total.",
+        "**Try it today:** if you have repeat customers, count how many bought from you again in the last three months. That's the base a subscription would be built on."
+      ],
+      "next": "Next · Switch to subscription? You make the call."
+    }
+  ]
+}

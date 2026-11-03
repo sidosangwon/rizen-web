@@ -1,0 +1,228 @@
+{
+  "id": "BMO-05-04",
+  "unitId": "BMO-05",
+  "categoryId": "BMO",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Liquidity",
+  "readerTitle": "Why the marketplace with fewer cooks fills more shifts",
+  "format": "two_businesses",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.3,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 2개 (식당 대체 인력 앱 두 곳, 프리랜서 영상 편집 마켓플레이스) · 모든 수치는 설명용",
+  "insight": "마켓플레이스의 건강은 전체 규모가 아니라, 손님이 원하는 시간·장소·조건 안에서 실제로 거래가 성사되는 비율로 본다.",
+  "misconception": "공급자와 이용자가 많을수록 마켓플레이스가 더 강하다.",
+  "relatedLessonIds": [
+    "BMO-04-03",
+    "BMO-05-01"
+  ],
+  "sources": [
+    {
+      "text": "마켓플레이스 운영의 일반 개념 (유동성: 매칭 성사율과 매칭 속도)",
+      "url": null
+    },
+    {
+      "text": "모든 수치와 회사는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 설명용 가상 수치입니다. 계산 확인: NationShift 요리사 4,000명 ÷ 40개 도시 = 도시당 100명. CityShift 400명 ÷ 1개 도시 = 400명. 도시당 인원은 CityShift가 4배.",
+      "status": "open"
+    },
+    {
+      "note": "충원율(2시간 안에 채워진 근무 요청 비율) CityShift 90%, NationShift 40%는 설명용 가정입니다. 실제 통계로 오해되지 않도록 해당 카드에 illustrative 표시를 했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "유동성의 정의(일정 시간 안에 매칭이 성사될 확률)는 업계에서 쓰는 일반적 설명이며 특정 출처의 정의를 인용하지 않았습니다. 게시 전 표현을 한 번 더 검토하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business models · Two businesses",
+      "title": "Why the marketplace with fewer cooks fills more shifts",
+      "illustrative": true,
+      "body": [
+        "Two apps help restaurants find a cook when someone calls in sick. **NationShift** has 4,000 cooks across 40 cities. **CityShift** has 400 cooks in one city.",
+        "On paper, NationShift is ten times bigger. Yet restaurant owners keep switching to the small one."
+      ],
+      "image": {
+        "label": "Two phone screens: a crowded national map and one dense city",
+        "aspectRatio": "4:3",
+        "brief": "폰 화면 두 개를 나란히. 왼쪽은 넓은 지도에 점이 드문드문 흩어져 있고, 오른쪽은 한 도시에 점이 빽빽하게 모여 있음. 각 화면 위에 \"4,000 cooks\", \"400 cooks\" 라벨. 실제 앱 로고나 브랜드는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which one would you back?",
+      "illustrative": true,
+      "body": [
+        "You're an investor. Both apps charge restaurants a fee for each shift filled, and both are growing.",
+        "Before you decide, what do you look at?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Back NationShift. Ten times the cooks means a much bigger network",
+            "verdict": "risky",
+            "feedback": "Size is easy to see, but a restaurant only cares about cooks who can get there tonight. A big total can hide thin coverage everywhere."
+          },
+          {
+            "key": "B",
+            "text": "Back CityShift. Focus usually beats spreading out",
+            "verdict": "partial",
+            "feedback": "Good instinct, but it's a rule of thumb, not evidence. A focused app can still fail to fill shifts."
+          },
+          {
+            "key": "C",
+            "text": "Ask each app what share of shift requests get filled, and how fast",
+            "verdict": "best",
+            "feedback": "This measures what the customer actually pays for: a cook who shows up. It costs you a little time, but it shows which network really works."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "What the numbers showed",
+      "title": "Ten times the cooks. Less than half the shifts filled.",
+      "illustrative": true,
+      "body": [
+        "NationShift's 4,000 cooks are spread over 40 cities, about 100 per city. CityShift has 400 in one city, four times as many where it counts."
+      ],
+      "chart": {
+        "unit": "%",
+        "groups": [
+          {
+            "label": "Shift requests filled within 2 hours",
+            "rows": [
+              {
+                "label": "CityShift (400 cooks, 1 city)",
+                "value": 90,
+                "highlight": true
+              },
+              {
+                "label": "NationShift (4,000 cooks, 40 cities)",
+                "value": 40,
+                "highlight": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Liquidity",
+      "body": [
+        "In a marketplace, **liquidity** is the chance that someone who shows up finds a good match, fast. A restaurant posts a shift and gets a cook. A cook opens the app and finds work.",
+        "It's the reason customers come back. A restaurant that waits three hours and gets no one doesn't care how many cooks are on the app. It calls a friend next time."
+      ],
+      "image": {
+        "label": "A shift request connecting to a nearby cook within minutes",
+        "aspectRatio": "16:9",
+        "brief": "식당 주방에서 \"Shift needed tonight\" 알림이 뜨고, 가까운 요리사 아이콘 하나와 선으로 이어짐. 옆에 시계 아이콘과 \"matched\" 체크 표시. 따뜻한 플랫 일러스트 스타일.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Matches happen in small pools.",
+      "body": [
+        "A marketplace looks like one big network. In practice, each request can only be met by a small group of sellers who fit it."
+      ],
+      "list": [
+        "**Place:** a cook across the country can't cover tonight's shift",
+        "**Time:** the cook must be free between 6 and 11 p.m.",
+        "**Skill:** a pastry chef may not run a grill station"
+      ],
+      "callout": "Liquidity lives inside each pool. Count what's within reach, not what's on the app."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Other side, other places",
+      "title": "Online, the pools are still small.",
+      "body": [
+        "Digital marketplaces aren't limited by distance, but they still split into pools. A buyer wants a video editor who speaks Spanish, knows a certain tool and can deliver by Friday. Suddenly 5,000 editors become a dozen.",
+        "Liquidity also runs both ways. A cook who gets no offers for two weeks deletes the app. Too many sellers chasing too few buyers is low liquidity too."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Liquidity can be bought, faked or capped.",
+      "body": [
+        "You can fill every shift by paying cooks bonuses. That shows customers want the service, but it doesn't prove the market works on its own. Watch what happens when the bonuses stop.",
+        "Fast matches aren't enough if quality drops. A cook who arrives but can't do the job is a failed match.",
+        "And a dense pool is a starting point, not the finish. At some point you have to grow, one new pool at a time."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a freelance video-editing platform.",
+      "illustrative": true,
+      "body": [
+        "Your site lists 5,000 freelance editors. Clients post jobs and hire. Growth has stalled, and many clients post once and never return.",
+        "What's your next move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Recruit editors in ten new languages to grow supply",
+            "verdict": "risky",
+            "feedback": "More editors look like progress, but you'd create ten new thin pools. Clients in each one would still struggle to find a match."
+          },
+          {
+            "key": "B",
+            "text": "Measure the share of jobs hired within 48 hours, by job type, and fix the weakest types first",
+            "verdict": "best",
+            "feedback": "You may grow slower in headline numbers. But you find exactly where clients leave empty-handed and can add the right editors there."
+          },
+          {
+            "key": "C",
+            "text": "Spend on ads to triple the number of clients",
+            "verdict": "partial",
+            "feedback": "This helps editors who get too few jobs. But if clients already can't find the right editor, more clients means more disappointed clients."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A marketplace is only as strong as its match rate.",
+      "body": [
+        "Big totals impress. What keeps customers coming back is finding a good match, quickly, in the small pool they actually shop in.",
+        "**Try it today:** pick one place where you connect buyers and sellers, or customers and staff. Of the last 20 requests, how many were met, and how fast?"
+      ],
+      "next": "Next · Why customers skip the middleman after the first booking"
+    }
+  ]
+}

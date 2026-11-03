@@ -1,0 +1,270 @@
+{
+  "id": "FIN-04-06",
+  "unitId": "FIN-04",
+  "categoryId": "FIN",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Scaling profitably",
+  "readerTitle": "Twice the customers, the same profit",
+  "format": "counterexample",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.3,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (가정 청소 업체, 기장 대행 회사) · 모든 수치는 설명용",
+  "insight": "성장은 매출이 느는 것이고, 규모의 이익은 비용이 매출보다 느리게 늘 때만 생긴다. 판단 기준은 '추가 매출 1달러가 남기는 추가 이익'이다.",
+  "misconception": "건당 이익이 나는 사업이라면 두 배로 키우면 이익도 두 배가 된다.",
+  "relatedLessonIds": [
+    "FIN-04-05",
+    "FIN-03-06"
+  ],
+  "sources": [
+    {
+      "text": "관리회계의 표준 개념 (변동비, 계단식 고정비, 영업 레버리지)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "청소 업체 8명: 매출 8 × $50,000 = $400,000. 임금 8 × $30,000 = $240,000, 소모품·이동 10% = $40,000, 간접비 $60,000. 이익 $400,000 − $240,000 − $40,000 − $60,000 = $60,000 (15%).",
+      "status": "open"
+    },
+    {
+      "note": "16명(지역 분산): 매출 $800,000, 임금 $480,000, 소모품·이동 12.5% = $100,000, 간접비 $60,000 + 매니저 $70,000 + 창고·일정관리 $30,000 = $160,000. 이익 $60,000 (7.5%). 추가 이익 $0 ÷ 추가 매출 $400,000 = 0%.",
+      "status": "open"
+    },
+    {
+      "note": "24명(같은 동네 집중, 매니저 1명 유지): 매출 $1,200,000, 임금 $720,000, 소모품·이동 10% = $120,000, 간접비 $160,000. 이익 $200,000 (16.7%). 8명 대비 추가 이익 $140,000 ÷ 추가 매출 $800,000 = 17.5%. 매니저 1명이 24명을 관리할 수 있다는 것은 설명용 가정입니다.",
+      "status": "open"
+    },
+    {
+      "note": "기장 대행 사례(직원당 고객 25곳 → 35곳)는 설명용 가정이며 실제 업계 평균이 아닙니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Counterexample",
+      "title": "Twice the customers, the same profit",
+      "illustrative": true,
+      "body": [
+        "A home cleaning company grew from 8 cleaners to 16 in two years. Revenue doubled, from $400,000 to $800,000.",
+        "Profit stayed at $60,000. Nobody wasted money. Every job still made money. So where did the growth go?"
+      ],
+      "image": {
+        "label": "Revenue bar doubling while profit bar stays the same",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 왼쪽과 오른쪽에 청소 밴과 청소 도구. 위로 \"Revenue\" 막대가 두 배로 커지지만 그 아래 \"Profit\" 막대는 똑같은 높이. 실제 회사 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/fin-04-06-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What happens to profit if you double?",
+      "illustrative": true,
+      "body": [
+        "You have 8 cleaners. Each brings in $50,000 a year and costs $30,000 in wages. Profit is $60,000.",
+        "At 16 cleaners you'd need an operations manager ($70,000) and more storage and scheduling ($30,000). New clients live farther out, so supplies and travel rise from 10% to 12.5% of revenue. Profit at 16 cleaners will be about…"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "$120,000. Double the team, double the profit",
+            "verdict": "risky",
+            "feedback": "This assumes every cost grows neatly with revenue. The manager and storage are new costs you didn't have at all before."
+          },
+          {
+            "key": "B",
+            "text": "More than $120,000, because the office costs get spread wider",
+            "verdict": "partial",
+            "feedback": "Right that the original $60,000 of overhead stays put. But the new manager, space and longer drives eat more than that saving."
+          },
+          {
+            "key": "C",
+            "text": "About $60,000, the same as now",
+            "verdict": "best",
+            "feedback": "Yes. The extra $400,000 of revenue brings almost exactly $400,000 of extra cost. The next card shows where it goes."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Where the extra $400,000 went",
+      "illustrative": true,
+      "body": [
+        "Margin fell from 15% to 7.5%. The business got bigger. It didn't get better."
+      ],
+      "breakdown": [
+        {
+          "value": "$400k → $800k",
+          "label": "Revenue",
+          "detail": "8 cleaners → 16 cleaners",
+          "highlight": false
+        },
+        {
+          "value": "$240k → $480k",
+          "label": "Wages",
+          "detail": "Grows with every job",
+          "highlight": false
+        },
+        {
+          "value": "$40k → $100k",
+          "label": "Supplies and travel",
+          "detail": "Longer drives between clients",
+          "highlight": false
+        },
+        {
+          "value": "$60k → $160k",
+          "label": "Overhead",
+          "detail": "New manager, storage, scheduling",
+          "highlight": false
+        },
+        {
+          "value": "$60k → $60k",
+          "label": "Profit",
+          "detail": "Zero gain from doubling",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Scaling profitably",
+      "body": [
+        "**Scaling profitably** means growing so that costs rise more slowly than revenue. Each new dollar of revenue then keeps more than the dollars before it.",
+        "A simple test: extra profit ÷ extra revenue. Here it's $0 ÷ $400,000 = 0%. The company grew. It didn't scale."
+      ],
+      "image": {
+        "label": "Two lines: revenue rising faster than costs",
+        "aspectRatio": "16:9",
+        "brief": "단순한 선 그래프 2개 나란히. 왼쪽 \"Growth\": 매출선과 비용선이 나란히 올라감. 오른쪽 \"Scale\": 매출선이 비용선보다 가파르게 올라가며 사이 간격(이익)이 벌어짐. 간격에 \"Profit\" 라벨.",
+        "url": "assets/images/fin-04-06-c4.jpg"
+      },
+      "softwareNote": "Copying software costs almost nothing, so it looks built to scale. But custom features for big clients, hands-on onboarding and a growing sales team can rise in step with revenue, just like cleaners' wages."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Three ways costs behave as you grow",
+      "body": [
+        "When sales grow, every cost does one of three things."
+      ],
+      "list": [
+        "**In step:** grows with each job, like wages and supplies",
+        "**In jumps:** stays flat, then leaps all at once, like a manager, a van or a bigger space",
+        "**Flat:** barely moves, like your brand, systems and know-how"
+      ],
+      "callout": "Profit scales when you fill each jump before taking the next, and keep in-step costs from creeping up."
+    },
+    {
+      "index": 6,
+      "type": "chart",
+      "eyebrow": "The fix",
+      "title": "Same company, smarter growth",
+      "illustrative": true,
+      "body": [
+        "Two changes. Add clients only in existing neighborhoods, so travel and supplies stay at 10%. And grow to 24 cleaners before hiring a second manager.",
+        "Revenue reaches $1.2 million and profit jumps to **$200,000**. Each new dollar since the start kept 17.5 cents."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Yearly profit",
+            "rows": [
+              {
+                "label": "8 cleaners",
+                "value": 60000,
+                "highlight": false
+              },
+              {
+                "label": "16 cleaners, spread out",
+                "value": 60000,
+                "highlight": false
+              },
+              {
+                "label": "24 cleaners, same neighborhoods",
+                "value": 200000,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Scale has costs and ceilings.",
+      "body": [
+        "The manager's salary arrives months before the cleaners who justify it, so cash dips before profit rises.",
+        "Stretch one manager too far and quality slips. Lost clients can cost more than the saving.",
+        "And when wages grow with every job, margins have a ceiling. Scale helps a labor-heavy business. It doesn't turn it into a different one."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a bookkeeping firm.",
+      "illustrative": true,
+      "body": [
+        "Your firm does monthly books for small businesses. Five bookkeepers each handle about 25 clients. You want to double your clients. Which plan scales best?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Take any small business that calls, in any industry",
+            "verdict": "risky",
+            "feedback": "You win clients fast, but each new industry brings its own setup and questions. Clients per bookkeeper falls, so staff costs grow faster than revenue."
+          },
+          {
+            "key": "B",
+            "text": "Focus on restaurants and build standard checklists so each bookkeeper handles about 35 clients",
+            "verdict": "best",
+            "feedback": "Costs grow slower than revenue because each person serves more clients. The trade-off is a narrower market to sell into."
+          },
+          {
+            "key": "C",
+            "text": "Hire a senior manager and lease a bigger office now, ready for three times the clients",
+            "verdict": "partial",
+            "feedback": "You'll need that jump someday. Taking it before the clients arrive means paying for empty capacity while you fill it."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Growth adds revenue. Scale is when costs fall behind.",
+      "body": [
+        "Before you grow, ask which costs will rise in step, which will jump, and how you'll fill each jump.",
+        "**Try it today:** compare this year with last year. Divide extra profit by extra revenue. If it's below your overall margin, find the cost that jumped."
+      ],
+      "next": "Next · How many tacos before a food truck breaks even?"
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "id": "FIN-08-02",
+  "unitId": "FIN-08",
+  "categoryId": "FIN",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "Spreading risk",
+  "readerTitle": "Forty clients, one bet: when spreading risk doesn't spread it",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (청소 회사, 아웃도어 가구 유통사) + 실제 연구 (Markowitz 1952 포트폴리오 이론) · 모든 수치는 설명용",
+  "insight": "위험 분산은 거래처나 상품의 '개수'가 아니라, 그것들이 서로 다른 이유로 흔들리는지에 달려 있다.",
+  "misconception": "고객이나 상품을 여러 개로 나누기만 하면 위험이 분산된다. 한 곳의 비중이 작으면 안전하다.",
+  "relatedLessonIds": [
+    "FIN-08-01",
+    "FIN-08-09"
+  ],
+  "sources": [
+    {
+      "text": "Markowitz, H. (1952). Portfolio Selection. The Journal of Finance, 7(1), 77–91.",
+      "url": null
+    },
+    {
+      "text": "청소 회사와 가구 유통사 사례 및 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "청소 회사 계산: 사무실 40곳 × 월 $2,000 = $80,000. 30곳이 주 5회 → 2회로 줄이면 곳당 $2,000 × 2/5 = $800, 30 × $800 = $24,000. 나머지 10곳 × $2,000 = $20,000. 합계 $44,000, 감소율 (80,000 − 44,000) ÷ 80,000 = 45%.",
+      "status": "open"
+    },
+    {
+      "note": "확률 계산: 두 사업이 각각 50% 확률로 나쁜 해를 맞을 때, 서로 독립이면 둘 다 나쁠 확률 0.5 × 0.5 = 25%. 같은 원인으로 함께 움직이면 50%. 설명을 위해 단순화한 예시입니다.",
+      "status": "open"
+    },
+    {
+      "note": "Markowitz(1952)의 핵심 주장(포트폴리오 위험은 개별 자산의 위험뿐 아니라 자산들이 함께 움직이는 정도에 달려 있다)을 카드 문장이 과장 없이 요약했는지 확인하세요. 1990년 노벨 경제학상 수상 사실은 카드에 넣지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "하이브리드 근무로 사무실 청소 수요가 줄었다는 설정은 가상 사례입니다. 특정 시기나 통계를 인용하지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Counterexample",
+      "title": "Forty clients, one bet",
+      "illustrative": true,
+      "body": [
+        "A commercial cleaning company had 40 office clients. None paid more than 4% of its revenue. The owner felt safe: losing any single client would barely show up in the numbers.",
+        "Then most of those offices moved to hybrid work in the same season. Nearly half the revenue disappeared, and not one client had left."
+      ],
+      "image": {
+        "label": "Forty office windows going dark at the same moment",
+        "aspectRatio": "4:3",
+        "brief": "밤의 사무실 빌딩 단면 일러스트. 창문 40개 중 대부분이 동시에 꺼지고, 아래에 청소 카트 하나가 덩그러니 서 있음. 실제 회사 로고나 간판은 쓰지 않음. 차분한 남색 톤.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which cleaning business is safest?",
+      "illustrative": true,
+      "body": [
+        "Three cleaning companies each earn about $80,000 a month. Which one is best protected from a bad year?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "40 small offices in one business district, none over 4% of revenue",
+            "verdict": "risky",
+            "feedback": "Losing one client barely hurts. But all 40 depend on the same thing: people working in offices. One shift can hit every client at once."
+          },
+          {
+            "key": "B",
+            "text": "Three big clients: an office tower, a hospital and an apartment building",
+            "verdict": "partial",
+            "feedback": "Their demand has different causes, which is good. But losing any one of them takes a third of your revenue overnight."
+          },
+          {
+            "key": "C",
+            "text": "About 12 clients split across offices, medical clinics and apartment buildings",
+            "verdict": "best",
+            "feedback": "No single client is huge, and the groups don't depend on the same thing. You trade some simplicity for protection against one shared shock."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "What happened",
+      "title": "One change hit thirty clients at once.",
+      "illustrative": true,
+      "body": [
+        "Each office paid about $2,000 a month for cleaning five nights a week. When staff started coming in only a few days, 30 offices cut cleaning to two nights.",
+        "Monthly revenue fell from $80,000 to **$44,000**, a 45% drop. Nobody cancelled. They all just needed less, at the same time."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Monthly revenue",
+            "rows": [
+              {
+                "label": "Before hybrid work",
+                "value": 80000,
+                "highlight": false
+              },
+              {
+                "label": "After hybrid work",
+                "value": 44000,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Spreading risk",
+      "body": [
+        "**Spreading risk**, often called diversification, means splitting your exposure across several bets so one bad outcome can't sink you.",
+        "The catch: it only works when the bets can fail for *different reasons*. Forty clients with one shared cause is still one bet. The real test isn't how many customers you have. It's how many separate things could hurt you, and whether they tend to hit together."
+      ],
+      "image": {
+        "label": "Many eggs in baskets that all sit on one shelf",
+        "aspectRatio": "16:9",
+        "brief": "바구니 여러 개에 달걀이 나눠 담겨 있지만, 바구니가 모두 흔들리는 선반 하나 위에 올려져 있는 일러스트. 옆에는 서로 다른 선반 세 개에 나눠 놓인 바구니와 대비. 텍스트 라벨 \"Many baskets, one shelf\".",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "What matters is how bets move together.",
+      "illustrative": true,
+      "body": [
+        "In 1952, economist Harry Markowitz showed that the risk of a group of investments depends not only on each one's risk, but on how they move together.",
+        "A simple version: two business lines each have a 50% chance of a bad year. If bad years come from unrelated causes, both go bad together only 25% of the time. If one cause drives both, that's 50%. Same lines, same odds, twice the danger of a year where everything fails."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Wider use",
+      "title": "Look for the shared cause everywhere.",
+      "body": [
+        "The same test applies well beyond customers:"
+      ],
+      "list": [
+        "**Suppliers:** three vendors, all shipping from one port",
+        "**Products:** five items, all bought for summer",
+        "**Locations:** four shops, all near one big employer",
+        "**Channels:** many sales, all through one marketplace"
+      ],
+      "callout": "Ask of each pair: what single event would hurt both?",
+      "softwareNote": "A software company with 500 customers looks spread out. If most are startups living on investor money, one funding drought can raise churn across the whole base at once."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Spreading has costs, and limits.",
+      "body": [
+        "Every new market or product line takes attention, skills and cash. Spread too thin and each piece gets weaker, which can create more risk than it removes.",
+        "Also, things that look unrelated in normal times can fall together in a deep downturn. Spreading reduces the risk of one bad bet. It doesn't remove the risk of a bad economy. Keep a cash cushion for that."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a furniture distributor.",
+      "illustrative": true,
+      "body": [
+        "You supply outdoor furniture to 60 garden centers in one region. A cold, wet spring cut your sales badly this year. You want to spread the risk. What do you add?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Sign up 40 more garden centers in the same region",
+            "verdict": "risky",
+            "feedback": "More customers and more sales in good years. But they all share your region's weather, so a bad spring hits 100 accounts instead of 60."
+          },
+          {
+            "key": "B",
+            "text": "Sell indoor furniture to the same 60 garden centers",
+            "verdict": "partial",
+            "feedback": "A different product helps a little. But it depends on the same stores' foot traffic and cash, so a rainy spring can still cut both orders."
+          },
+          {
+            "key": "C",
+            "text": "Add indoor storage products sold through home-goods shops and online, peaking in autumn and winter",
+            "verdict": "best",
+            "feedback": "Different season, buyers and channel, so weather that hurts one barely touches the other. The price is learning new buyers and managing more stock."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Spread across causes, not just names.",
+      "body": [
+        "Many customers or products only protect you if they can't all be hurt by the same event.",
+        "**Try it today:** list your five biggest sources of revenue. Next to each, write the one thing most likely to shrink it. Circle any causes that repeat."
+      ],
+      "next": "Next · Why small gains turn into big ones over time"
+    }
+  ]
+}

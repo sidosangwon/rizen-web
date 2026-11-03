@@ -1,0 +1,242 @@
+{
+  "id": "OPS-08-06",
+  "unitId": "OPS-08",
+  "categoryId": "OPS",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "The last mile",
+  "readerTitle": "Why the last few miles cost more than the first eight hundred",
+  "format": "two_businesses",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.4,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 두 개 (조립식 책상 제조사의 배송, 병원 예약 소프트웨어의 도입 지원) · 모든 수치는 설명용",
+  "insight": "마지막 구간의 비용은 거리가 아니라 고객 한 명 한 명을 따로 상대해야 한다는 데서 나온다. 그래서 줄이는 방법도 '더 싸게 운반'이 아니라 '한 번에 더 많은 고객을 묶는 것'이다.",
+  "misconception": "배송비는 거리에 비례하니 멀리 옮기는 구간을 싸게 만들면 된다. 소프트웨어는 배송이 공짜이니 마지막 구간 문제가 없다.",
+  "relatedLessonIds": [
+    "OPS-08-05",
+    "OPS-08-08"
+  ],
+  "sources": [
+    {
+      "text": "물류·운영 관리의 표준 개념 (라스트 마일, 배송 밀도, 배송 실패)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "책상 배송 계산: 장거리 트럭 $800 ÷ 400상자 = 상자당 $2. 밴 하루 $400 ÷ 20곳 = 정차당 $20. 합계 $2 + $3(창고) + $20 = $25, 이 중 마지막 구간 $20 = 80%. 같은 동네 묶음으로 하루 40곳이면 $400 ÷ 40 = $10.",
+      "status": "open"
+    },
+    {
+      "note": "소프트웨어 도입 지원 계산: 병원당 6시간 × 시간당 $50 = $300. 지역별 묶음 교육 예시는 수치 없이 원리만 서술했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "업계에서 흔히 인용되는 '라스트 마일이 전체 배송비의 40~50%' 같은 수치는 출처마다 다르고 검증이 어려워 본문에 쓰지 않았습니다. 쓰려면 1차 출처를 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Two businesses",
+      "title": "Why the last few miles cost more than the first eight hundred",
+      "illustrative": true,
+      "body": [
+        "A furniture maker sends 400 flat-pack desks 800 km by truck to its city warehouse. The trip costs $800, or **$2 a desk**.",
+        "Then a van carries one desk the last 8 km to a customer's door. That short trip costs $20. The end of the journey is ten times pricier than the long part."
+      ],
+      "image": {
+        "label": "Long truck route on a map, then a tangle of short van routes at the end",
+        "aspectRatio": "4:3",
+        "brief": "지도 위에 공장에서 도시 창고까지 굵고 곧은 트럭 경로 하나, 창고에서 여러 집으로 뻗는 가늘고 구불구불한 밴 경로 수십 개. 앞 구간에 \"$2 per desk\", 끝 구간에 \"$20 per desk\" 라벨. 실제 기업 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Delivery is eating your margin.",
+      "illustrative": true,
+      "body": [
+        "You run that furniture business. Delivery costs about $25 per desk, and customers expect it to be cheap.",
+        "Which move cuts the cost most?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Negotiate a cheaper truck contract from the factory to the warehouse",
+            "verdict": "risky",
+            "feedback": "It feels like the big trip is the big cost. But that leg is only $2 a desk, so even a 25% cut saves 50 cents."
+          },
+          {
+            "key": "B",
+            "text": "Deliver to each neighborhood on set days so vans make more stops per trip",
+            "verdict": "best",
+            "feedback": "You give up some speed and flexibility, but you attack the real cost: how many customers one van reaches in a day."
+          },
+          {
+            "key": "C",
+            "text": "Offer free delivery everywhere to win more orders",
+            "verdict": "partial",
+            "feedback": "More orders can help, but if they are scattered across the city, each van still drives far between stops. You'd pay more in total."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Follow one desk.",
+      "illustrative": true,
+      "body": [
+        "The last leg is **80%** of the delivery cost. A van costs about $400 a day and reaches 20 homes. Fill the same day with 40 homes on nearby streets, and each stop drops to $10."
+      ],
+      "breakdown": [
+        {
+          "value": "$2",
+          "label": "Factory to warehouse",
+          "detail": "$800 truck shared by 400 desks",
+          "highlight": false
+        },
+        {
+          "value": "$3",
+          "label": "Warehouse",
+          "detail": "Storing, picking, loading",
+          "highlight": false
+        },
+        {
+          "value": "$20",
+          "label": "Warehouse to door",
+          "detail": "$400 van day ÷ 20 stops",
+          "highlight": true
+        },
+        {
+          "value": "$25",
+          "label": "Total per desk",
+          "detail": "Last mile is $20 of it",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The last mile",
+      "body": [
+        "**The last mile** is the final step from the last shared point to each individual customer.",
+        "Before that point, many orders ride together and split the cost. After it, every customer is a separate stop, a separate wait and a separate chance that no one is home. So the cost depends less on distance than on **how many customers you reach per hour**."
+      ],
+      "image": {
+        "label": "Many boxes on one truck splitting into single boxes on separate paths",
+        "aspectRatio": "16:9",
+        "brief": "왼쪽: 상자 수십 개가 한 트럭에 실려 함께 이동(\"Shared\"). 가운데 창고 아이콘에서 갈라져, 오른쪽: 상자 하나씩 각자 다른 집으로 가는 선(\"One at a time\"). 갈라지는 지점을 강조.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The second business",
+      "title": "Software has a last mile too.",
+      "illustrative": true,
+      "body": [
+        "A company sells booking software to clinics. Sending the product to 1,000 clinics costs almost nothing. That's the shared part.",
+        "But each clinic needs its patient list imported, its calendar connected and its staff trained. That takes about 6 hours of a $50-an-hour specialist: **$300 per clinic**, one clinic at a time.",
+        "Same pattern as the desk. The bulk part scales. The step into each customer's hands does not."
+      ],
+      "image": {
+        "label": "One download arrow fanning out, then a person helping each clinic separately",
+        "aspectRatio": "16:9",
+        "brief": "왼쪽: 클라우드에서 여러 병원으로 동시에 뻗는 가는 화살표(\"Almost free\"). 오른쪽: 병원마다 상담원 한 명이 앉아 데이터 옮기기와 교육을 돕는 장면(\"$300 each\"). 실제 제품 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Four ways to make the last mile cheaper.",
+      "body": [
+        "Because the cost comes from handling customers one by one, the fixes all reduce that one-by-one work:"
+      ],
+      "list": [
+        "**Bunch customers:** delivery days by area, onboarding by cohort",
+        "**Move the handoff:** pickup points, lockers, self-serve setup guides",
+        "**Prevent repeats:** time windows, reminders, import templates that work the first time",
+        "**Price it honestly:** charge for fast or custom final steps"
+      ],
+      "callout": "Cheaper trucks help a little. More customers per stop helps a lot."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The last mile is also where customers judge you.",
+      "body": [
+        "Pushing work onto customers saves money, but it shifts the cost to them. A missed delivery or a confusing setup is often the moment a customer decides you're not worth it.",
+        "Bunching also has a price: slower service. Some customers will pay more for speed or hand-holding. Cut the last mile where customers barely notice, and invest where they do."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Back to the clinic software.",
+      "illustrative": true,
+      "body": [
+        "Onboarding costs $300 per clinic and sales are growing fast. Your team can't keep up, and new clinics wait weeks to start.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Stop onboarding help and send a video link instead",
+            "verdict": "risky",
+            "feedback": "Cost drops to near zero, but clinics that never get set up never use the product. You save $300 and may lose the customer."
+          },
+          {
+            "key": "B",
+            "text": "Build standard import templates and run weekly group training for new clinics",
+            "verdict": "best",
+            "feedback": "You bunch the one-by-one work and cut repeat fixes. Clinics wait a few days for a session, but each one costs far less to set up."
+          },
+          {
+            "key": "C",
+            "text": "Keep onboarding as is and add a setup fee",
+            "verdict": "partial",
+            "feedback": "The fee covers the cost, but the work still doesn't scale and the wait stays long. It can also slow sales."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "The costly part is reaching each customer, not moving the product.",
+      "body": [
+        "Find the point where your shared work ends and one-by-one work begins. That's your last mile, and it usually holds the biggest savings.",
+        "**Try it today:** pick one recent order. List every step after it left the shared part of your business, and count how many were done for that customer alone."
+      ],
+      "next": "Next · Run the numbers on one shop"
+    }
+  ]
+}

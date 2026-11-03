@@ -1,0 +1,234 @@
+{
+  "id": "SAL-02-03",
+  "unitId": "SAL-02",
+  "categoryId": "SAL",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "Building a business case",
+  "readerTitle": "Why the $40,000 promise lost to the $2,800 one",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (건물 설비 유지보수 업체, 식품 도매 유통) · 모든 수치는 설명용",
+  "insight": "비즈니스 케이스는 판매자를 위한 자료가 아니라, 구매자가 회의실에 없던 결재자에게 다시 설명할 때 쓰는 도구다. 그래서 숫자가 크기보다 구매자가 직접 확인할 수 있어야 이긴다.",
+  "misconception": "절감액이나 ROI 숫자가 클수록 설득력이 높다. 업계 평균 수치를 보여주면 충분하다.",
+  "relatedLessonIds": [
+    "SAL-02-02",
+    "SAL-02-04"
+  ],
+  "sources": [
+    {
+      "text": "컨설팅형 영업의 일반적 실무 개념 (현상 유지 비용, 변경 비용, 손익분기 가정)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "유지보수 사례 계산: 작년 긴급 수리비 $20,000(구매자 청구서 기준) × 50% 감소 가정 = $10,000 절감. 계약비 월 $600 × 12 = $7,200. 순이익 $10,000 − $7,200 = $2,800. 손익분기 감소율 $7,200 ÷ $20,000 = 36%.",
+      "status": "open"
+    },
+    {
+      "note": "$40,000 경쟁 제안은 출처 없는 '업계 평균'으로 설정한 가상 수치입니다. 실제 업계 통계를 암시하지 않도록 카드 문장에서 'industry averages'라고만 표현했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "도매 사례는 수치를 지정하지 않은 가상 상황입니다. 실제 연구나 통계를 인용하지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Sales · Counterexample",
+      "title": "Why the $40,000 promise lost to the $2,800 one",
+      "illustrative": true,
+      "body": [
+        "Two maintenance firms bid to service the heating and cooling in a mid-sized office building.",
+        "The first promised the building manager **$40,000 a year** in savings. The second promised $2,800. The second firm won the contract."
+      ],
+      "image": {
+        "label": "Two proposals on a desk, one with a huge number, one with a small one",
+        "aspectRatio": "4:3",
+        "brief": "사무실 책상 위 제안서 두 장. 왼쪽은 커다란 \"$40,000\"이 화려하게 적혀 있고, 오른쪽은 작은 \"$2,800\"과 손글씨 메모, 청구서 사본이 클립으로 붙어 있음. 오른쪽 제안서에 도장이 찍혀 있음. 실제 회사 로고 없음.",
+        "url": "assets/images/sal-02-03-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which proposal would you send?",
+      "illustrative": true,
+      "body": [
+        "You run a building maintenance firm. You're offering a preventive service contract for $600 a month. The building manager likes you, but the owner signs anything over $5,000.",
+        "Which proposal gives you the best chance?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Show savings based on industry averages: up to $40,000 a year",
+            "verdict": "risky",
+            "feedback": "The big number grabs attention. But the owner can't check it, and the manager can't defend it."
+          },
+          {
+            "key": "B",
+            "text": "Ask for last year's repair invoices and build a modest estimate from them",
+            "verdict": "best",
+            "feedback": "You get a smaller number, but one the owner can verify. It costs you time and a bit of trust-building to get the invoices."
+          },
+          {
+            "key": "C",
+            "text": "Skip the numbers and stress your quality and response times",
+            "verdict": "partial",
+            "feedback": "Quality matters, and it's easy to say. But it gives the manager nothing to bring to the owner when the price comes up."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "The big number fell apart in one question.",
+      "illustrative": true,
+      "body": [
+        "The manager took the $40,000 proposal to the owner. The owner asked one question: *where does this number come from?*",
+        "The manager didn't know. Neither did the proposal. It came from averages across buildings the owner had never seen.",
+        "The second firm had asked for the building's own repair invoices. The owner recognized every line. The decision took ten minutes."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "The case that won, line by line.",
+      "illustrative": true,
+      "body": [
+        "The firm said, \"Our other clients usually do better than half, but let's plan on half.\" Even if repairs fall only 36%, the contract pays for itself."
+      ],
+      "breakdown": [
+        {
+          "value": "$20,000",
+          "label": "Emergency repairs last year",
+          "detail": "From the building's own invoices",
+          "highlight": false
+        },
+        {
+          "value": "$10,000",
+          "label": "Repairs avoided",
+          "detail": "Assumes a cautious 50% drop",
+          "highlight": false
+        },
+        {
+          "value": "−$7,200",
+          "label": "Contract cost",
+          "detail": "$600 a month for 12 months",
+          "highlight": false
+        },
+        {
+          "value": "+$2,800",
+          "label": "Net first-year gain",
+          "detail": "Before counting fewer tenant complaints",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The business case",
+      "body": [
+        "A **business case** is a short argument, in the buyer's own numbers, that changing is worth more than it costs.",
+        "It has three parts: what the current situation costs, what the change costs, and the gap between them, with the assumptions shown.",
+        "The comparison is not you versus a rival. It's you versus doing nothing, which is what most buyers choose."
+      ],
+      "image": {
+        "label": "A scale weighing the cost of doing nothing against the cost of change",
+        "aspectRatio": "16:9",
+        "brief": "저울 인포그래픽. 왼쪽 접시에 \"Cost of doing nothing\"(청구서 더미), 오른쪽 접시에 \"Cost of change\"(계약서 한 장). 왼쪽이 약간 더 무거움. 아래에 작은 글씨로 \"Assumption: 50% fewer repairs\".",
+        "url": "assets/images/sal-02-03-c5.jpg"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "You're writing for someone who wasn't in the room.",
+      "body": [
+        "Your contact rarely signs alone. They carry your proposal to a boss, an owner or a finance person who never met you.",
+        "That person trusts numbers they already know, like their own invoices, hours and losses. A cautious assumption they can see beats a bold one they can't check.",
+        "So a business case is really a tool you hand your buyer to make the sale for you."
+      ],
+      "softwareNote": "In software, the same rule applies: \"save 10 hours a week per user\" lands better when it comes from the customer's own time logs, multiplied by their own seat count, than from a benchmark on your website."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A case can be built badly, too.",
+      "body": [
+        "Some buyers won't share their numbers. Then build a range together and let them fill in the blanks, rather than guessing for them.",
+        "Don't fake precision. Things like safety or reputation can matter a lot without a dollar figure. Name them separately instead of inventing one.",
+        "And size the effort to the deal. A $300 sale doesn't need a spreadsheet."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now you're a food wholesaler.",
+      "illustrative": true,
+      "body": [
+        "You supply produce to a family grocery with three stores. You want them to switch to smaller, more frequent deliveries, which cost a little more per order. The owner says they're happy with weekly deliveries.",
+        "What's your next move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Tell them clients like them cut spoilage by up to a third",
+            "verdict": "risky",
+            "feedback": "It sounds strong, but it's your number, not theirs. The owner has no reason to believe it applies to their stores."
+          },
+          {
+            "key": "B",
+            "text": "Ask what they threw away last month, then estimate savings with a cautious assumption",
+            "verdict": "best",
+            "feedback": "It takes an extra conversation, but you get a case built from their own losses that they can check against their records."
+          },
+          {
+            "key": "C",
+            "text": "Offer a 10% discount on the first three months",
+            "verdict": "partial",
+            "feedback": "It lowers the risk of trying. But it gives away margin and still doesn't show why the switch is worth it after month three."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Build the case from their numbers, not yours.",
+      "body": [
+        "A smaller number the buyer can check beats a bigger one they have to take on faith. Show the cost of doing nothing, the cost of change, and your assumption.",
+        "**Try it today:** for one open deal, write down one number you'd need from the customer's own records to prove your value. Then ask for it."
+      ],
+      "next": "Next · Why the person you're talking to can't say yes alone"
+    }
+  ]
+}

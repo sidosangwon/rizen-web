@@ -1,0 +1,246 @@
+{
+  "id": "PPL-04-06",
+  "unitId": "PPL-04",
+  "categoryId": "PPL",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "When incentives backfire",
+  "readerTitle": "The bonus worked. That was the problem.",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "illustrative",
+    "real_company",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (물류 창고, 소프트웨어 고객지원팀) + 실제 기업 (Wells Fargo) + 실제 연구 (Kerr 1975, Gneezy & Rustichini 2000)",
+  "insight": "인센티브는 사람들이 일을 '더 하게' 만드는 것이 아니라, 보상받는 부분으로 노력을 '옮기게' 만든다. 그래서 측정하지 않은 부분이 대가를 치른다.",
+  "misconception": "보너스가 역효과를 내는 건 직원이 게으르거나 부정직해서다. 문제가 생기면 벌칙 하나를 더하면 된다.",
+  "relatedLessonIds": [
+    "PPL-04-05",
+    "PPL-04-01"
+  ],
+  "sources": [
+    {
+      "text": "Kerr, S. (1975). On the Folly of Rewarding A, While Hoping for B. Academy of Management Journal, 18(4).",
+      "url": null
+    },
+    {
+      "text": "Consumer Financial Protection Bureau (2016). Consent order and press release on Wells Fargo unauthorized accounts.",
+      "url": null
+    },
+    {
+      "text": "Gneezy, U. & Rustichini, A. (2000). A Fine Is a Price. Journal of Legal Studies, 29(1).",
+      "url": null
+    },
+    {
+      "text": "창고와 고객지원팀 사례 및 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Wells Fargo: CFPB(2016년 9월)는 직원들이 고객 동의 없이 개설했을 수 있는 예금 계좌 약 150만 개, 신용카드 신청 약 56.5만 건을 발표했습니다(합계 약 200만). 카드에는 'about 2 million accounts'로 적었습니다. 이후 조사에서 숫자가 약 350만으로 늘었다는 점도 게시 전 확인하세요. 벌금 액수는 카드에 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Gneezy & Rustichini(2000): 이스라엘 하이파의 어린이집 10곳 중 6곳에 지각 벌금 도입, 지각이 늘었고 벌금을 없앤 뒤에도 높은 수준이 유지됨. 카드에는 구체적 배수 없이 서술했습니다. 원문으로 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "창고 사례 수치(시간당 피킹 25% 증가, 오출고 1%→2%)는 모두 가상 수치입니다. 계산: 2% ÷ 1% = 2배.",
+      "status": "open"
+    },
+    {
+      "note": "Kerr 논문 제목과 게재지(AMJ 1975, 18권 4호)를 게시 전 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "People · Counterexample",
+      "title": "The bonus worked. That was the problem.",
+      "illustrative": true,
+      "body": [
+        "A distribution warehouse starts paying pickers a bonus for every order line picked above target. Within a month, picks per hour rise 25%.",
+        "Then the returns start arriving. Wrong items, crushed boxes, missing parts. Wrong shipments have doubled, from 1% of orders to 2%. Nobody cheated. Everyone did exactly what they were paid to do."
+      ],
+      "image": {
+        "label": "Warehouse worker racing past shelves while boxes tumble behind",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 물류 창고 통로에서 작업자가 카트를 빠르게 밀며 달리고, 뒤로 상자 몇 개가 떨어지고 찌그러짐. 머리 위 전광판에 'Picks/hour ▲'. 실제 회사 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Picks are up. Errors are up too.",
+      "illustrative": true,
+      "body": [
+        "You manage the warehouse. The bonus clearly changed behavior, and customers are now complaining about wrong orders.",
+        "What do you do next?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep the bonus and add a penalty for each wrong item",
+            "verdict": "partial",
+            "feedback": "It closes one gap fast. But people under pressure find the next gap, like hiding errors or skipping hard-to-reach items."
+          },
+          {
+            "key": "B",
+            "text": "Drop the bonus and go back to flat pay",
+            "verdict": "risky",
+            "feedback": "Errors fall, but so does the real speed gain. You learn nothing about what the bonus pushed people to ignore."
+          },
+          {
+            "key": "C",
+            "text": "Ask what the bonus made easy to ignore, then reward orders shipped correct and on time",
+            "verdict": "best",
+            "feedback": "You keep the push for speed but attach it to the outcome you actually want. It takes more work to measure, which is the price."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What happened",
+      "title": "What the bonus counted, and what it didn't.",
+      "illustrative": true,
+      "body": [
+        "The pickers didn't work harder at everything. They moved effort toward the one thing that paid."
+      ],
+      "breakdown": [
+        {
+          "value": "+25%",
+          "label": "Picks per hour",
+          "detail": "Counted and paid",
+          "highlight": false
+        },
+        {
+          "value": "2×",
+          "label": "Wrong shipments",
+          "detail": "Not counted",
+          "highlight": true
+        },
+        {
+          "value": "Skipped",
+          "label": "Hard-to-reach items",
+          "detail": "Slow picks left for the next shift",
+          "highlight": false
+        },
+        {
+          "value": "Rushed",
+          "label": "Safety steps",
+          "detail": "Time spent on them earned nothing",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "You get what you pay for, not what you meant",
+      "body": [
+        "An incentive **backfires** when it rewards a measure that only partly captures the goal. People shift effort toward the measured part, and the unmeasured part gets worse.",
+        "In 1975, management scholar Steven Kerr called this \"rewarding A while hoping for B.\" You hope for accurate, safe, fast shipping. You pay for fast. You get fast.",
+        "The narrower the measure and the bigger the reward, the stronger the shift."
+      ],
+      "image": {
+        "label": "A spotlight on one part of a job, the rest in shadow",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 일을 구성하는 원 다섯 개('Speed', 'Accuracy', 'Safety', 'Care', 'Teamwork') 중 'Speed'에만 스포트라이트와 동전 아이콘. 나머지 원은 그림자 속에서 작아지고 흐려짐.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "A bank paid for accounts. It got accounts.",
+      "body": [
+        "Wells Fargo set aggressive targets for how many products each customer held, and tied staff pay and job security to them.",
+        "In 2016, US regulators found employees had opened about 2 million accounts and credit card applications that customers may not have authorized. The bank fired thousands of staff, but the targets had been set by management.",
+        "The lesson isn't only about honesty. A strong reward on a narrow number turned ordinary people toward the number, at the customer's expense."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "A different backfire",
+      "title": "Sometimes the incentive changes what the act means.",
+      "body": [
+        "Economists Uri Gneezy and Aldo Rustichini studied daycare centers in Israel. Some introduced a small fine for parents who picked up children late.",
+        "Late pickups went *up*, not down. Parents had felt guilty about being late. The fine turned that guilt into a price, and the price was cheap. When the fine was removed, late pickups stayed high.",
+        "So an incentive can backfire two ways: by narrowing effort, or by replacing a sense of duty with a deal."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Incentives aren't the enemy.",
+      "body": [
+        "Pay for results works well when the job is simple and the measure covers almost all of it. Piece rates for one well-defined task, with quality checked, can raise output without hidden damage.",
+        "Trouble grows when the job has many parts and you pay for one. Before launching a bonus, ask: if someone chased this number and nothing else, what would break?",
+        "And plan to revise it. People learn a scheme's gaps faster than you do."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software support team.",
+      "illustrative": true,
+      "body": [
+        "You run customer support at a software company. Customers wait too long for answers. You want a monthly bonus for support agents.",
+        "Which design is least likely to backfire?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Bonus for the number of tickets closed",
+            "verdict": "risky",
+            "feedback": "Tickets will close fast, including ones that aren't solved. Users reopen them or give up and churn."
+          },
+          {
+            "key": "B",
+            "text": "Bonus for tickets that stay closed for 7 days, plus a monthly review of sample replies",
+            "verdict": "best",
+            "feedback": "It rewards problems actually solved and keeps human judgment in the loop. It costs time to review, but it's far harder to game."
+          },
+          {
+            "key": "C",
+            "text": "Bonus based only on customer satisfaction ratings",
+            "verdict": "partial",
+            "feedback": "Closer to the goal, but agents may avoid hard tickets or ask customers for good scores. One number still invites narrowing."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "People chase the number. Make sure the number is the goal.",
+      "body": [
+        "An incentive doesn't add effort so much as move it. Whatever you don't measure pays the price.",
+        "**Try it today:** pick one target or bonus in your business. Write down what someone could do to hit it while making things worse. Then decide what to add or check."
+      ],
+      "next": "Next · A bonus for restaurant staff"
+    }
+  ]
+}

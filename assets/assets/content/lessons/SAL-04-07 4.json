@@ -1,0 +1,257 @@
+{
+  "id": "SAL-04-07",
+  "unitId": "SAL-04",
+  "categoryId": "SAL",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "Negotiate a shop's rent",
+  "readerTitle": "Your rent is going up 15%. Here's what to do before you reply.",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (애견 미용실 임대 갱신, 소형 물류 창고 임대 갱신) · 모든 수치는 설명용",
+  "insight": "임대료 협상은 집주인에게 답장을 쓸 때가 아니라 이사 비용을 계산하고 집주인이 왜 올리는지 물을 때 시작된다.",
+  "misconception": "임대료 인상 통보는 받아들이거나 반으로 깎는 것 말고는 방법이 없다. 더 싼 곳이 있다고 말하면 협상력이 생긴다.",
+  "relatedLessonIds": [
+    "SAL-04-01",
+    "SAL-04-05"
+  ],
+  "sources": [
+    {
+      "text": "Fisher, R. & Ury, W. (1981). Getting to Yes. (BATNA, 입장과 이해관계의 구분)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "5년(60개월) 비교 계산: 남을 경우 $3,450 × 60 = $207,000. 이사할 경우 $2,900 × 60 = $174,000 + 인테리어 $18,000 + 3주 휴업 매출 손실 $9,000 = $201,000. 월 환산 $201,000 ÷ 60 = $3,350. 차이 $207,000 − $201,000 = $6,000.",
+      "status": "open"
+    },
+    {
+      "note": "인상률: $3,000 → $3,450은 15% 인상. 집주인 공실 비용: 두 달 × $3,450 = $6,900. 단계형 제안 $3,150은 기존 대비 5% 인상.",
+      "status": "open"
+    },
+    {
+      "note": "임대차 계약의 법적 조건(갱신권, 인상 상한 등)은 나라와 지역마다 다릅니다. 카드 7에서 현지 확인을 권하는 수준으로만 다루고 법률 조언은 하지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Negotiation · Apply",
+      "title": "Your rent is going up 15%. Here's what to do before you reply.",
+      "illustrative": true,
+      "body": [
+        "Maya runs a dog grooming salon. Her five-year lease ends in three months. Today a letter arrives: the new rent will be $3,450 a month, up from $3,000.",
+        "Most owners do one of two things. They sign, or they write back asking for less. Both skip the two steps that decide how this ends."
+      ],
+      "image": {
+        "label": "Lease renewal letter on a grooming salon counter",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 애견 미용실 카운터 위에 놓인 편지 한 장, \"Rent: $3,000 → $3,450\" 문구가 크게 보임. 뒤편에 미용 테이블과 강아지 한 마리. 실제 브랜드나 로고는 쓰지 않음.",
+        "url": "assets/images/sal-04-07-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What should Maya do first?",
+      "illustrative": true,
+      "body": [
+        "She has three months before the lease ends. The landlord wants an answer within a month."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Write back with a counteroffer of $3,100",
+            "verdict": "partial",
+            "feedback": "A clear first number can help. But she'd be picking it blind, without knowing what staying is actually worth to her."
+          },
+          {
+            "key": "B",
+            "text": "Price out a real move to another space before replying",
+            "verdict": "best",
+            "feedback": "This is her **best alternative** (BATNA): what she'd do if no deal happens. Knowing it tells her which offers beat walking away."
+          },
+          {
+            "key": "C",
+            "text": "Sign quickly to stay on good terms",
+            "verdict": "risky",
+            "feedback": "She keeps the goodwill and avoids the hassle. She may also pay $27,000 more over five years than she needed to."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "What moving would really cost over five years.",
+      "illustrative": true,
+      "body": [
+        "A space two streets away rents for $2,900. Cheaper, until you add the move. Spread over 60 months, moving works out to about **$3,350 a month**. Staying at $3,450 costs $6,000 more. Her alternative is real, but only slightly better."
+      ],
+      "breakdown": [
+        {
+          "value": "$174,000",
+          "label": "New rent",
+          "detail": "$2,900 × 60 months",
+          "highlight": false
+        },
+        {
+          "value": "+$18,000",
+          "label": "Fit-out",
+          "detail": "Wash tubs, drainage, ventilation",
+          "highlight": false
+        },
+        {
+          "value": "+$9,000",
+          "label": "Closed for 3 weeks",
+          "detail": "Lost grooming revenue",
+          "highlight": false
+        },
+        {
+          "value": "$201,000",
+          "label": "Total to move",
+          "detail": "About $3,350 a month",
+          "highlight": true
+        }
+      ],
+      "callout": "Anything above about $3,350 a month is worse than moving."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept at work · BATNA",
+      "title": "The landlord has an alternative too.",
+      "illustrative": true,
+      "body": [
+        "If Maya leaves, the landlord's **best alternative** is finding a new tenant. That means an empty unit, agent fees and possibly a new fit-out for someone else.",
+        "Even two empty months would cost $6,900 in lost rent at the new price. So the landlord's alternative is weaker than the letter suggests.",
+        "Maya now knows both sides' fallback. Neither wants to walk away. That's room to talk."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Concept at work · Interests",
+      "title": "Ask why the rent is going up.",
+      "illustrative": true,
+      "body": [
+        "$3,450 is the landlord's **position**: what they asked for. The reasons behind it are their **interests**.",
+        "Maya asks. The landlord's insurance and property taxes rose, and they want steady income they can count on. Maya's interest is different: cash is tight this year, but business is growing.",
+        "Now a new deal appears. A seven-year lease starting at $3,150, rising 3% a year. The landlord gets a long, reliable tenant. Maya gets breathing room now."
+      ],
+      "image": {
+        "label": "Two sides of a table, positions on top, interests underneath",
+        "aspectRatio": "16:9",
+        "brief": "빙산 두 개가 테이블 양쪽에 있는 인포그래픽. 수면 위에는 \"$3,450\"과 \"$3,000\", 수면 아래에는 \"Steady income\", \"Rising costs\"(집주인), \"Cash this year\", \"Room to grow\"(마야). 두 빙산 아래쪽이 연결됨.",
+        "url": "assets/images/sal-04-07-c5.jpg"
+      },
+      "softwareNote": "The same moves work when a software vendor raises your subscription at renewal. Price the switch, including migration and retraining, then ask what the vendor wants. Often it's a longer commitment, not a higher price."
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "\"That's the market rate.\"",
+      "illustrative": true,
+      "body": [
+        "At the meeting, the landlord repeats: the rent is $3,450, and that's the market. What should Maya say?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "\"The place down the street is $2,900. I'll pay $2,900.\"",
+            "verdict": "risky",
+            "feedback": "It uses her alternative as a threat and overstates it. Moving really costs her about $3,350 a month, and the landlord may call the bluff."
+          },
+          {
+            "key": "B",
+            "text": "\"I want to stay. What's behind the increase?\"",
+            "verdict": "best",
+            "feedback": "It moves the talk from **positions** to **interests**. Once she hears about costs and steady income, she can offer a longer lease instead of a higher price."
+          },
+          {
+            "key": "C",
+            "text": "\"Can we meet in the middle at $3,225?\"",
+            "verdict": "partial",
+            "feedback": "Fast and fair-sounding, and better than her alternative. But splitting the difference trades only on price and misses deals both sides prefer."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "An alternative only helps if it's real.",
+      "body": [
+        "Don't claim a cheaper space you wouldn't actually take. If the landlord says \"go ahead,\" you lose credibility and possibly the unit.",
+        "Moving costs are easy to underestimate. Regular customers who know your street, permits, new signage: count them before you rely on leaving.",
+        "Lease rules also differ by country and city. Check your local terms, such as renewal rights or notice periods, before you negotiate."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a warehouse.",
+      "illustrative": true,
+      "body": [
+        "Tom runs a small warehouse that stores and ships orders for local online shops. His landlord wants 10% more rent at renewal. Moving his racking would cost about $40,000, and the nearest suitable unit is 30 km away.",
+        "What should Tom do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Tell the landlord he's found a cheaper unit nearby",
+            "verdict": "risky",
+            "feedback": "A bluffed alternative is fragile. His real **BATNA** is expensive, and a landlord who knows the area may see that."
+          },
+          {
+            "key": "B",
+            "text": "Price the move, then ask what the landlord needs most",
+            "verdict": "best",
+            "feedback": "He learns how much the 10% is really worth fighting over (**BATNA**), then looks for trades like a longer lease or a new loading door (**interests**)."
+          },
+          {
+            "key": "C",
+            "text": "Accept, since moving the racking costs too much",
+            "verdict": "partial",
+            "feedback": "Staying may well be right given his weak alternative. But accepting without asking why leaves possible trades on the table."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Price your exit, then ask why.",
+      "body": [
+        "This lesson used two ideas. **Your best alternative** told Maya what staying was worth. **Interests vs positions** turned one number into a better deal for both sides.",
+        "**Try it today:** take your biggest recurring contract, such as rent, a lease or a key subscription. Write down what leaving would really cost, then one reason the other side might want to keep you."
+      ],
+      "next": "Next · Negotiate a supplier contract"
+    }
+  ]
+}

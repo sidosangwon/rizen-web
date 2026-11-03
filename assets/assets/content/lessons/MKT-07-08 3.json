@@ -1,0 +1,283 @@
+{
+  "id": "MKT-07-08",
+  "unitId": "MKT-07",
+  "categoryId": "MKT",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "Should an app pay creators?",
+  "readerTitle": "A creator wants $3,000 to post about your app. Is it worth it?",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (청소 예약 앱, 식당 전문 회계 사무소) · 모든 수치는 설명용",
+  "insight": "크리에이터 광고는 조회수가 아니라 '영상이 없었으면 오지 않았을 고객 한 명에 얼마를 냈는가'로 판단하고, 한 명에서 통했다고 스무 명으로 늘리기 전에 다시 잰다.",
+  "misconception": "팔로워가 많고 할인 코드 사용자가 많으면 크리에이터 광고가 성공한 것이고, 잘 된 한 건을 그대로 여러 명에게 늘리면 된다.",
+  "relatedLessonIds": [
+    "MKT-07-01",
+    "MKT-07-06"
+  ],
+  "sources": [
+    {
+      "text": "마케팅의 표준 개념 (고객 획득 비용, 증분 효과 측정, 수확 체감)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "코드 기준 고객당 비용: $3,000 ÷ 60명 = $50. 고객 가치: 예약당 앱이 남기는 $20 × 첫해 예약 4회 = $80. 모두 가상 수치입니다.",
+      "status": "open"
+    },
+    {
+      "note": "증분 계산: 평소 주간 첫 예약 30건, 영상 주간 75건 → 추가 45건. $3,000 ÷ 45 = $66.67(카드에는 약 $67). 코드 사용 60명 중 약 15명은 영상 없이도 왔을 고객이라는 해석입니다.",
+      "status": "open"
+    },
+    {
+      "note": "차트 수치(크리에이터 1: $67, 2~3: $85, 4~6: $120)는 수확 체감을 보여주기 위한 가상 수치입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Marketing · Putting it to work",
+      "title": "A creator wants $3,000 to post about your app.",
+      "illustrative": true,
+      "body": [
+        "You run an app that books home cleaners in one city. A home-tips creator with 400,000 followers offers a 60-second video about you for $3,000.",
+        "Her videos get huge views. Your team is excited. The question is what those views are worth to you."
+      ],
+      "image": {
+        "label": "A phone showing a cleaning video with a price tag beside it",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 스마트폰 화면에 깔끔한 거실을 청소하는 짧은 영상, 옆에 \"$3,000\" 가격표가 매달려 있음. 화면 위로 하트와 조회수 아이콘이 떠오름. 실제 SNS 로고나 앱 로고는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What do you do with the offer?",
+      "illustrative": true,
+      "body": [
+        "Each customer books about four cleanings in their first year. You keep about $20 per booking after paying the cleaner and fees."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Accept. At 400,000 followers, it's under a cent per viewer",
+            "verdict": "risky",
+            "feedback": "Cheap views are not cheap customers. **Paying for customers** means comparing the cost of each booked customer with what that customer leaves you."
+          },
+          {
+            "key": "B",
+            "text": "Run one video with its own code, then compare the cost per customer with the $80 a customer is worth",
+            "verdict": "best",
+            "feedback": "This is **paying for customers** in action. You risk $3,000 once and learn what a customer from her audience actually costs."
+          },
+          {
+            "key": "C",
+            "text": "Decline. Creators work for fashion brands, not cleaning apps",
+            "verdict": "partial",
+            "feedback": "Caution saves the $3,000, but it's a guess. A small test answers the question for less than the cost of being wrong."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The test",
+      "title": "The video goes out. The code gets used.",
+      "illustrative": true,
+      "body": [
+        "By the code alone, each customer cost $50 and is worth $80. A clear win. Or is it?"
+      ],
+      "breakdown": [
+        {
+          "value": "$3,000",
+          "label": "Video fee",
+          "detail": "One post, one city",
+          "highlight": false
+        },
+        {
+          "value": "60",
+          "label": "First bookings with the code",
+          "detail": "Within one week",
+          "highlight": false
+        },
+        {
+          "value": "$50",
+          "label": "Cost per customer",
+          "detail": "$3,000 ÷ 60",
+          "highlight": true
+        },
+        {
+          "value": "$80",
+          "label": "Value per customer",
+          "detail": "$20 × 4 bookings in year one",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Did the video bring all 60?",
+      "illustrative": true,
+      "body": [
+        "Some codes ended up on a coupon website. A few code users had already downloaded the app weeks ago. How do you count what the video did?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Count all 60. They used her code",
+            "verdict": "risky",
+            "feedback": "A code shows who used it, not who came because of it. People who would have booked anyway grab any discount they find."
+          },
+          {
+            "key": "B",
+            "text": "Compare first bookings that week with a normal week in the same city",
+            "verdict": "best",
+            "feedback": "This asks **did marketing cause the sale**. Only the bookings above your normal level were truly added by the video."
+          },
+          {
+            "key": "C",
+            "text": "Count app downloads during the video week",
+            "verdict": "partial",
+            "feedback": "Downloads show interest, but a download is not a paying customer. You'd still need to see who booked."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "The real cost was $67, not $50.",
+      "illustrative": true,
+      "body": [
+        "A normal week brings about 30 first bookings in that city. The video week brought 75. So the video added about **45 customers**, not 60.",
+        "About 15 code users would have come anyway. They just got a discount on the way.",
+        "$3,000 ÷ 45 = about $67 per added customer. Still below the $80 a customer is worth, but the margin is much thinner than the code suggested."
+      ],
+      "image": {
+        "label": "Two weekly bars: 30 normal bookings vs 75 in the video week",
+        "aspectRatio": "16:9",
+        "brief": "막대 두 개 비교. 왼쪽 \"Normal week 30\", 오른쪽 \"Video week 75\". 오른쪽 막대에서 위쪽 45칸만 밝은 색으로 \"Added by the video\" 라벨, 아래 30칸은 회색. 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "chart",
+      "eyebrow": "Scaling up",
+      "title": "The next creators cost more per customer.",
+      "illustrative": true,
+      "body": [
+        "Encouraged, you pay five more creators. Each new one reaches a smaller or overlapping audience. Many viewers already saw the first video.",
+        "This is **diminishing returns**: each extra dollar buys fewer new customers than the last."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Cost per added customer",
+            "rows": [
+              {
+                "label": "Creator 1",
+                "value": 67,
+                "highlight": false
+              },
+              {
+                "label": "Creators 2–3",
+                "value": 85,
+                "highlight": false
+              },
+              {
+                "label": "Creators 4–6",
+                "value": 120,
+                "highlight": true
+              },
+              {
+                "label": "What a customer is worth",
+                "value": 80,
+                "highlight": false
+              }
+            ]
+          }
+        ]
+      },
+      "callout": "By creators 4–6, you pay $120 for a customer worth $80."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Your $80 is still a forecast.",
+      "body": [
+        "The $80 assumes four bookings in the first year. Customers who came for a discount may book once and leave. Check whether creator customers rebook as often as your others before you trust the math.",
+        "One week in one city is also a small sample. A rainy week or a holiday can move your normal level. Repeat the test before you sign a long deal."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a bookkeeping firm.",
+      "illustrative": true,
+      "body": [
+        "Your firm does bookkeeping for restaurants. Each new client leaves about $3,000 a year after staff time. A popular restaurant-industry newsletter offers a sponsored issue for $2,000, or 12 issues for $18,000."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Take the 12-issue deal. It saves $6,000",
+            "verdict": "risky",
+            "feedback": "The discount locks you in before you know the cost per client. **Diminishing returns** means issue 12 likely brings fewer clients than issue one."
+          },
+          {
+            "key": "B",
+            "text": "Buy one issue with its own booking link, compare inquiries with a normal month, then decide",
+            "verdict": "best",
+            "feedback": "You measure **cost per added client** and check what the issue actually caused. If one client signs, the $2,000 is already covered."
+          },
+          {
+            "key": "C",
+            "text": "Decide by the newsletter's 50% open rate",
+            "verdict": "partial",
+            "feedback": "A high open rate means attention, which matters. But you pay for clients, not readers, so measure who books a call."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Pay creators for customers they truly add.",
+      "body": [
+        "This lesson used three ideas: **paying for customers** (cost vs value), **did marketing cause the sale** (count only what's above normal), and **diminishing returns** (the next dollar buys less).",
+        "**Try it today:** pick one marketing channel you pay for. Compare last month's customers with a month when you didn't spend on it."
+      ],
+      "next": "Next · Dollar Shave Club's launch video"
+    }
+  ]
+}

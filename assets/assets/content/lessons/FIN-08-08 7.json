@@ -1,0 +1,222 @@
+{
+  "id": "FIN-08-08",
+  "unitId": "FIN-08",
+  "categoryId": "FIN",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "Hold cash or invest it?",
+  "readerTitle": "The $120,000 that was shrinking in the bank",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.4,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (배관 서비스 업체, 마케팅 에이전시) · 모든 수치는 설명용",
+  "insight": "남는 현금은 '안전하게 둘까, 불릴까'가 아니라 '언제 필요한 돈인가'로 나눈 뒤, 나중에 쓸 돈만 물가를 이기는 곳에 둔다.",
+  "misconception": "통장에 그냥 둔 현금은 위험이 없다. 여윳돈은 이율이 가장 높은 곳에 넣는 게 최선이다.",
+  "relatedLessonIds": [
+    "FIN-08-05",
+    "FIN-08-06"
+  ],
+  "sources": [
+    {
+      "text": "재무의 표준 개념 (명목 수익률·실질 수익률, 피셔 관계식의 근사, 유동성)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "구매력 계산: $120,000 ÷ 1.03 = $116,505 (약 $116,500), 감소분 약 $3,500. 물가 상승률 3%는 설명용 가정이며 특정 국가·연도의 실제 수치가 아닙니다.",
+      "status": "open"
+    },
+    {
+      "note": "실질 수익률 ≈ 명목 수익률 − 물가 상승률은 근사식입니다. 정확한 식은 (1+명목)÷(1+물가)−1이며, 4%·3%일 때 약 0.97%입니다. 카드에는 \"about 1%\"로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "배관 업체: 월 비용 $30,000 × 3개월 = $90,000, 나머지 $30,000. 에이전시: 월 비용 $50,000, 고정 예치 제안 $150,000이면 남는 현금 $50,000(1개월분). 계산을 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "특정 금융상품·국가별 세금·예금보호 제도는 다루지 않았습니다. 중도 해지 수수료 등은 일반적인 설명으로만 적었습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Everyday scene",
+      "title": "The $120,000 that was shrinking in the bank",
+      "illustrative": true,
+      "body": [
+        "Dana runs a plumbing company with six vans. After a strong year, the business account holds $120,000. Monthly costs run about $30,000.",
+        "It feels like the safest money she has ever had. But sitting perfectly still, it is quietly getting smaller. And the obvious fix could make things worse."
+      ],
+      "image": {
+        "label": "A business bank balance slowly melting like an ice cube",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 배관공 작업 밴 옆에 통장 잔고 \"$120,000\"가 적힌 얼음 덩어리가 천천히 녹아 물방울이 떨어짐. 실제 은행·브랜드 로고는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What should Dana do with the $120,000?",
+      "illustrative": true,
+      "body": [
+        "Dana has no debts. Work is steady, but winters are slower and a van can break down without warning."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep it all in the business account. Cash is safe.",
+            "verdict": "partial",
+            "feedback": "She can reach every dollar today, which is real safety. But at no interest while prices rise, the money buys less each year. Inflation is eating her **real return**."
+          },
+          {
+            "key": "B",
+            "text": "Keep about three months of costs ready, and put the rest where it earns more but can be reached within weeks",
+            "verdict": "best",
+            "feedback": "Each dollar is matched to when it might be needed. The ready cash covers **liquidity**, and the rest has a chance to beat inflation."
+          },
+          {
+            "key": "C",
+            "text": "Put it all in a five-year fixed deposit with the highest rate",
+            "verdict": "risky",
+            "feedback": "The best rate, but the money is **illiquid**. If a van dies in a slow winter, she may pay a penalty or borrow to reach her own cash."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "What one \"safe\" year does to $120,000.",
+      "illustrative": true,
+      "body": [
+        "The balance never moved. What it can buy fell by about **$3,500**, with no loss ever showing up on a statement."
+      ],
+      "breakdown": [
+        {
+          "value": "$120,000",
+          "label": "Start of year",
+          "detail": "In an account paying no interest",
+          "highlight": false
+        },
+        {
+          "value": "+$0",
+          "label": "Interest earned",
+          "detail": "The balance stays the same",
+          "highlight": false
+        },
+        {
+          "value": "3%",
+          "label": "Prices rise",
+          "detail": "Pipes, fuel, wages (assumed)",
+          "highlight": false
+        },
+        {
+          "value": "≈$116,500",
+          "label": "What it buys now",
+          "detail": "In last year's prices",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept at work · Real returns",
+      "title": "Cash is not risk-free. It loses slowly.",
+      "illustrative": true,
+      "body": [
+        "Your **real return** is roughly what money earns minus how fast prices rise. An account paying 4% while prices rise 3% grows buying power by about 1%. An account paying 0% shrinks it by about 3%.",
+        "So idle cash carries a risk too. It is just quiet and certain instead of sudden. The goal for money you won't need soon is to earn more than inflation."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Concept at work · Liquidity",
+      "title": "Sort cash by when you'll need it.",
+      "body": [
+        "**Liquidity** is how quickly you can turn something into cash without losing value. Higher returns usually ask you to give some of it up. So split the money by time:"
+      ],
+      "list": [
+        "**Ready:** the next one to three months of costs, reachable today",
+        "**Reserve:** shocks like a dead van or a lost client, reachable within weeks",
+        "**Long-term:** money you won't touch for years, free to earn more"
+      ],
+      "callout": "Fill the buckets in this order. Only the last one should chase the highest rate.",
+      "softwareNote": "A subscription business that collects annual payments up front holds cash for service it still owes. That money belongs in the ready bucket, even though it looks like a surplus."
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a marketing agency.",
+      "illustrative": true,
+      "body": [
+        "You run a 12-person agency with $200,000 in the bank and monthly costs of $50,000. One client brings in 40% of revenue.",
+        "Your bank offers a much better rate if you lock $150,000 for three years. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Take the offer. Three years of a better rate adds up.",
+            "verdict": "risky",
+            "feedback": "You'd keep only one month of costs liquid. If the big client leaves, the locked money can't pay salaries while you replace them. A **liquidity** problem can sink a profitable firm."
+          },
+          {
+            "key": "B",
+            "text": "Keep a reserve big enough to survive losing that client for several months, and lock only what's left",
+            "verdict": "best",
+            "feedback": "The reserve is sized to your biggest real risk, not a rule of thumb. Whatever is truly spare can then work on beating inflation."
+          },
+          {
+            "key": "C",
+            "text": "Keep all $200,000 in the business account. Clients are unpredictable.",
+            "verdict": "partial",
+            "feedback": "You're fully ready for a shock, which is worth something. But money beyond your reserve loses buying power every year to inflation, cutting your **real return**."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "\"Can be reached\" is not the same as \"worth the same\".",
+      "body": [
+        "Some investments can be sold any day but may be worth less on the day you need them. Money for the reserve bucket should be both reachable and stable.",
+        "Read the exit terms before chasing a rate: early withdrawal penalties, notice periods, minimum balances. And size buckets to your own business. A seasonal firm needs a bigger reserve than one with steady monthly contracts."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Ask when you'll need it, then make the rest beat inflation.",
+      "body": [
+        "This lesson used two ideas. **Liquidity:** keep money you may need soon where you can reach it at full value. **Real returns:** money sitting still loses buying power, so spare cash should earn more than prices rise.",
+        "**Try it today:** write your monthly costs and your biggest single risk. Size a ready and reserve amount. Is anything left over doing nothing?"
+      ],
+      "next": "Next · How the smartest traders on Wall Street nearly broke the system"
+    }
+  ]
+}

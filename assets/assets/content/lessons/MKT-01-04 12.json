@@ -1,0 +1,231 @@
+{
+  "id": "MKT-01-04",
+  "unitId": "MKT-01",
+  "categoryId": "MKT",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "The funnel",
+  "readerTitle": "Why doubling the ads wasn't the answer",
+  "format": "counterexample",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (비스트로 예약, 앱 무료 체험) · 모든 수치는 설명용. 퍼널 개념의 기원(E. St. Elmo Lewis)은 역사적 배경으로만 언급",
+  "insight": "고객을 위에서 더 붓기 전에, 이미 사려던 사람이 어느 단계에서 빠져나가는지 먼저 본다.",
+  "misconception": "매출이 안 나오면 더 많은 사람에게 알리면 된다. 광고를 두 배로 늘리는 것이 가장 확실한 성장 방법이다.",
+  "relatedLessonIds": [
+    "MKT-01-05",
+    "CUS-08-01"
+  ],
+  "sources": [
+    {
+      "text": "E. St. Elmo Lewis의 단계 모델 (attention, interest, desire, action; 1890년대 후반, 흔히 AIDA로 불림)에 대한 마케팅사 일반 서술",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "E. St. Elmo Lewis가 1890년대 후반에 구매 단계 모델을 제시했다는 통설은 2차 자료 기반입니다. 정확한 연도와 원문 표현은 게시 전 확인하세요. 카드에는 \"in the late 1800s\", \"is usually credited\"로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "비스트로 계산: 8,000 × 10% = 800, 800 × 30% = 240, 240 × 20% = 48. 광고 2배: 16,000 → 1,600 → 480 → 96 (비용 2배). 폼 개선: 240 × 60% = 144 (광고비 동일). 144 ÷ 48 = 3배.",
+      "status": "open"
+    },
+    {
+      "note": "앱 계산: 5,000 × 10% = 500 가입, 500 × 20% = 100 설정 완료, 100 × 50% = 50 유료 전환. 설정 완료율을 40%로 올리면 200 → 100 유료 (2배). 광고 2배 시 100 유료, 획득 비용 2배.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Marketing · Counterexample",
+      "title": "Why doubling the ads wasn't the answer",
+      "illustrative": true,
+      "body": [
+        "A bistro owner wants more bookings, so she doubles her online ad budget. Twice as many people see her restaurant. Bookings double too, and so does the bill.",
+        "Meanwhile, a quieter problem sat untouched on her own website. Fixing it would have tripled bookings for almost nothing."
+      ],
+      "image": {
+        "label": "A wide funnel pouring diners toward a tiny leaking booking form",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 위가 넓은 깔때기에 작은 사람 인형들이 쏟아지고, 깔때기 아래쪽 \"Booking form\" 구간에 구멍이 나서 사람들이 옆으로 새어 나감. 실제 로고나 예약 서비스 상표는 쓰지 않음.",
+        "url": "assets/images/mkt-01-04-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You can afford one fix this month.",
+      "illustrative": true,
+      "body": [
+        "Each week about 8,000 people see your bistro's ads. 800 click through to your website. 240 start the booking form. Only 48 finish it. The form asks for nine details and makes guests create an account.",
+        "Where would you put your money?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Double the ad budget to reach 16,000 people",
+            "verdict": "risky",
+            "feedback": "It works, but only in proportion: about 96 bookings at twice the cost. You pay double to pour more people into the same leak."
+          },
+          {
+            "key": "B",
+            "text": "Shorten the booking form and drop the account step",
+            "verdict": "best",
+            "feedback": "These guests already chose your bistro and then gave up. Winning them back costs little, and every future ad dollar works harder."
+          },
+          {
+            "key": "C",
+            "text": "Redesign the website so more visitors start booking",
+            "verdict": "partial",
+            "feedback": "It could help, but 30% of visitors already start booking. The steepest drop is among people who wanted a table and couldn't finish."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Follow 8,000 people down the page.",
+      "illustrative": true,
+      "body": [
+        "Double the ads: **96 bookings**, at twice the cost. Get 60% of form-starters to finish instead of 20%: **144 bookings**, at the same cost. One fix at the bottom beat doubling the top."
+      ],
+      "breakdown": [
+        {
+          "value": "8,000",
+          "label": "Saw an ad",
+          "detail": "Know the bistro exists",
+          "highlight": false
+        },
+        {
+          "value": "800",
+          "label": "Visited the site",
+          "detail": "10% were curious",
+          "highlight": false
+        },
+        {
+          "value": "240",
+          "label": "Started booking",
+          "detail": "30% wanted a table",
+          "highlight": false
+        },
+        {
+          "value": "48",
+          "label": "Finished booking",
+          "detail": "Only 20% got through the form",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The funnel",
+      "body": [
+        "**The funnel** is a simple picture of how strangers become customers. People move through stages: they notice you, get interested, try to buy, buy, and ideally come back. At each stage, some drop away, so the shape narrows like a funnel.",
+        "The idea is old. Advertising pioneer E. St. Elmo Lewis is usually credited with describing buying stages in the late 1800s. The value is not the shape. It's seeing **where** people leave."
+      ],
+      "image": {
+        "label": "Funnel with five labeled stages narrowing downward",
+        "aspectRatio": "16:9",
+        "brief": "깔끔한 인포그래픽. 위에서 아래로 좁아지는 깔때기 5단: \"Notice\", \"Interest\", \"Try to buy\", \"Buy\", \"Come back\". 단계 사이에 작은 화살표로 이탈하는 사람 표시. 특정 단계 하나만 빨간색으로 강조.",
+        "url": "assets/images/mkt-01-04-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "The stages multiply.",
+      "body": [
+        "Results are the product of every step: people at the top × each stage's pass rate. Doubling any one step doubles the result, whether it's the top or the bottom.",
+        "So the question is which step is cheapest to improve. Reaching more strangers usually costs money every week. Fixing a step lower down, like a confusing form or a long wait to order, is often a one-time job. It also keeps paying off on every future customer you attract."
+      ],
+      "callout": "A leak low in the funnel wastes everything you spent above it."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where else it shows up",
+      "title": "Every business has a funnel, even without ads.",
+      "body": [
+        "A bakery's funnel starts with people walking past. Some glance at the window, some step inside, some buy, some return next week. A long queue at the door is a leak. So is a window that hides the cakes.",
+        "A plumber's funnel runs from calls to quotes to booked jobs. If half the callers reach voicemail, more advertising mostly buys more missed calls.",
+        "The stage after buying counts too. A customer who never returns drops out of the funnel as surely as one who never came."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The funnel is a map, not the territory.",
+      "body": [
+        "Real people don't move in a straight line. They browse, leave, hear from a friend, and come back weeks later. Treat stage numbers as clues, not exact truth, especially when the counts are small.",
+        "Squeezing a stage can backfire. Pushy pop-ups or pressure at checkout may lift one number and drive people away later.",
+        "And fixing the bottom can't save an empty top. If almost nobody knows you exist, reach really is the problem."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a budgeting app.",
+      "illustrative": true,
+      "body": [
+        "Each month 5,000 people visit your site. 500 sign up for a free trial. Only 100 finish connecting a bank account, the setup step. Of those, 50 become paying users.",
+        "Which move would grow paying users fastest?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Double ad spend to 10,000 visitors",
+            "verdict": "partial",
+            "feedback": "It would bring about 100 paying users, but you'd pay twice as much for each one, every month."
+          },
+          {
+            "key": "B",
+            "text": "Make setup easier so more trial users finish it",
+            "verdict": "best",
+            "feedback": "Half of users who finish setup end up paying, so setup is where intent gets lost. Lift it to 40% and paying users double at the same ad spend."
+          },
+          {
+            "key": "C",
+            "text": "Cut the price to convert more of the 100",
+            "verdict": "risky",
+            "feedback": "Half already pay, so that step works. A cheaper price shrinks revenue from every user to fix a step that isn't broken."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Find the leak before you pour in more.",
+      "body": [
+        "Sketch the stages from stranger to repeat customer, count how many make each step, and fix the step where people who already wanted to buy give up.",
+        "**Try it today:** write down four stages for your business and a rough number at each. Circle the biggest drop among people who were already interested."
+      ],
+      "next": "Next · Why seeing an ad once is rarely enough"
+    }
+  ]
+}

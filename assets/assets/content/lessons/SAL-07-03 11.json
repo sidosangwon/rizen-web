@@ -1,0 +1,251 @@
+{
+  "id": "SAL-07-03",
+  "unitId": "SAL-07",
+  "categoryId": "SAL",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "Aligning incentives",
+  "readerTitle": "Your partner shares the win. So why don't they push for more?",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 연구 (Levitt & Syverson의 부동산 중개인 연구) + 가상 적용 (집 매도 수수료 계산, 스낵 브랜드와 유통사)",
+  "insight": "파트너가 결과를 함께 나누는지가 아니라, 내가 원하는 '한 걸음 더'에 대해 파트너가 무엇을 얻는지를 봐야 이해관계가 맞는지 알 수 있다.",
+  "misconception": "파트너에게 결과의 일정 비율을 주면 자동으로 나와 같은 방향으로 움직인다.",
+  "relatedLessonIds": [
+    "ECO-01-04",
+    "SAL-07-04"
+  ],
+  "sources": [
+    {
+      "text": "Levitt, S. D., & Syverson, C. (2008). Market Distortions When Agents Are Better Informed: The Value of Information in Real Estate Transactions. Review of Economics and Statistics, 90(4).",
+      "url": null
+    },
+    {
+      "text": "Levitt, S. D., & Dubner, S. J. (2005). Freakonomics. 중개인 수수료 사례의 대중적 소개",
+      "url": null
+    },
+    {
+      "text": "수수료 구조와 스낵 유통 사례는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Levitt & Syverson(2008) 수치 확인 필요: 중개인 본인 소유 주택이 약 3.7% 더 비싸게 팔리고 약 9.5~10일 더 오래 시장에 머물렀다는 결과. 표본(시카고 지역, 약 10만 건 규모)은 카드에 '수만 건 이상'으로만 일반화해 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "계산: 추가 $10,000 × 총수수료 6% = $600. 매수·매도 측 반반 = $300씩. 매도 측 $300을 중개사무소와 중개인이 반반 = $150씩. 매도인 몫 $10,000 − $600 = $9,400. 합계 9,400 + 300 + 150 + 150 = 10,000.",
+      "status": "open"
+    },
+    {
+      "note": "6% 수수료와 반반 분배는 연구 당시 미국의 흔한 구조를 단순화한 가상 설정입니다. 2024년 미국 NAR 합의 이후 관행이 바뀌고 있으므로 카드에는 'Say…'로 가정임을 밝혔습니다. 특정 국가의 부동산 조언으로 읽히지 않게 유지하세요.",
+      "status": "open"
+    },
+    {
+      "note": "스낵 유통 사례의 10%, 12% 수수료와 반품 상황은 모두 설명용 가상 수치입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Partnerships · Counterexample",
+      "title": "Your agent earns more when you earn more. So why rush the sale?",
+      "body": [
+        "You hire a real estate agent to sell your home. They're paid a share of the sale price, so a higher price means a bigger check for both of you.",
+        "It looks like a perfectly aligned partnership. Look closely at one extra offer, and it isn't."
+      ],
+      "image": {
+        "label": "A house with a sold sign and two people shaking hands",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 집 앞에서 집주인과 중개인이 악수하는 장면. 중개인은 이미 다음 집 쪽으로 몸이 반쯤 돌아가 있음. 실제 부동산 회사 로고나 간판은 쓰지 않음.",
+        "url": "assets/images/sal-07-03-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How much of the extra $10,000 reaches your agent?",
+      "illustrative": true,
+      "body": [
+        "A $400,000 offer arrives in week one. Your agent says take it. Waiting a few weeks might bring $410,000.",
+        "Say the total commission is 6%, split between the buyer's and seller's agents, and your agent's firm keeps half of your agent's share. Of the extra $10,000, how much does your agent personally get?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "About $600",
+            "verdict": "risky",
+            "feedback": "That's the whole commission on the extra money. It gets split several ways before any of it reaches your agent."
+          },
+          {
+            "key": "B",
+            "text": "About $300",
+            "verdict": "partial",
+            "feedback": "Close. That's the seller side's cut, but the firm takes half of it."
+          },
+          {
+            "key": "C",
+            "text": "About $150",
+            "verdict": "best",
+            "feedback": "Right. You'd gain $9,400. Your agent would gain $150 for weeks of extra work. Next card shows the split."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Follow the extra $10,000.",
+      "illustrative": true,
+      "body": [
+        "For $150, your agent would spend weeks on more showings, calls and open houses. Closing now and finding the next client pays far better. Their advice to accept may be honest. It's also convenient."
+      ],
+      "breakdown": [
+        {
+          "value": "$9,400",
+          "label": "You",
+          "detail": "The extra price minus commission",
+          "highlight": false
+        },
+        {
+          "value": "$300",
+          "label": "Buyer's side",
+          "detail": "Half of the 6% commission",
+          "highlight": false
+        },
+        {
+          "value": "$150",
+          "label": "Your agent's firm",
+          "detail": "Half of the seller side's cut",
+          "highlight": false
+        },
+        {
+          "value": "$150",
+          "label": "Your agent",
+          "detail": "Their reward for weeks of extra effort",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "What the research found",
+      "title": "When agents sell their own homes, they wait.",
+      "body": [
+        "Economists Steven Levitt and Chad Syverson studied a large set of home sales in the Chicago area. They compared homes agents sold for clients with homes agents sold for themselves.",
+        "Agents' own homes stayed on the market about 10 days longer and sold for about **3.7% more**.",
+        "Same people, same skills, same market. The only difference was who kept the extra money."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Aligning incentives",
+      "body": [
+        "**Aligning incentives** means setting up a deal so the choice that's best for you is also the best choice for your partner, step by step.",
+        "Sharing the outcome isn't enough. What matters is what your partner gains from the next bit of effort you want, compared with what that effort costs them.",
+        "Two questions test any deal: *What exactly is my partner paid on?* And *what do they gain if they do one more thing for me?*"
+      ],
+      "image": {
+        "label": "Two arrows: shared result vs reward for the next step",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 왼쪽 큰 원 \"Shared result\" 안에 두 사람이 함께 있음. 오른쪽에는 \"Next step\" 계단 하나와 그 위에 아주 작은 동전 하나. 큰 원보다 작은 동전이 행동을 결정한다는 대비를 강조.",
+        "url": "assets/images/sal-07-03-c5.jpg"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Same pattern elsewhere",
+      "title": "Partners do what the deal rewards.",
+      "body": [
+        "The agent isn't unusual. Look at what many common deals actually pay for:"
+      ],
+      "list": [
+        "A contractor paid **by the hour** has little reason to finish early.",
+        "A supplier chosen **on price alone** has little reason to protect quality.",
+        "A sales partner paid **per signup** has little reason to find customers who stay."
+      ],
+      "callout": "In each case, the partner is doing exactly what the deal rewards.",
+      "softwareNote": "Affiliate and reseller deals often pay per signup or first payment. Paying on users still active after 90 days, or a share of renewals, moves the partner's effort toward customers who stay."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Perfect alignment doesn't exist.",
+      "body": [
+        "Every pay scheme rewards something you can measure, and partners will chase that measure. Change the metric and you change the gaming. You don't end it.",
+        "Tying pay tightly to results also shifts risk onto your partner. Good partners will ask for a bigger share in return, or walk away.",
+        "And some things, like care and honesty, are hard to put in a contract. There, a long relationship and your reputation do more work than any formula."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a snack brand.",
+      "illustrative": true,
+      "body": [
+        "You make a premium snack and sign a regional distributor to place it in grocery stores. They earn 10% on every case delivered to stores.",
+        "Six months in, deliveries are strong. But many stores are sending cases back unsold. What do you change?"
+      ],
+      "image": {
+        "label": "Full store shelf next to a stack of returned boxes",
+        "aspectRatio": "16:9",
+        "brief": "마트 진열대에 가상의 스낵 봉지가 가득 차 있고, 옆 창고 쪽에 'Returns' 라벨이 붙은 상자 더미. 실제 브랜드 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/sal-07-03-c8.jpg"
+      },
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Raise their rate to 12% per case to reward strong work",
+            "verdict": "risky",
+            "feedback": "You'd pay more for the exact behavior causing the problem: filling shelves, not emptying them."
+          },
+          {
+            "key": "B",
+            "text": "Pay on cases that sell through to shoppers, net of returns, and share store sales data",
+            "verdict": "best",
+            "feedback": "Now the distributor earns when shelves empty, so they'll push displays and reorders. Expect them to ask for a higher rate, since they now carry the risk of slow stores."
+          },
+          {
+            "key": "C",
+            "text": "Switch to a flat monthly fee",
+            "verdict": "partial",
+            "feedback": "It stops the push to overload stores. It also removes any reason to work harder for your product than for the others they carry."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Don't ask if your partner wins when you win. Ask what they get for the next step.",
+      "body": [
+        "A shared outcome can still leave a partner with almost no reason to go the extra mile, or a reason to go the wrong way.",
+        "**Try it today:** pick one partner, supplier or contractor. Write down what they're paid on, and what they'd earn for one more thing you want from them."
+      ],
+      "next": "Next · How to split the money with a partner"
+    }
+  ]
+}

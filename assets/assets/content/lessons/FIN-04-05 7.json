@@ -1,0 +1,276 @@
+{
+  "id": "FIN-04-05",
+  "unitId": "FIN-04",
+  "categoryId": "FIN",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "Profitable vs unprofitable growth",
+  "readerTitle": "Two businesses grew 40%. Only one made more money.",
+  "format": "two_businesses",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.4,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (식자재 유통업체, 세무·회계 대행사, 구독 앱) · 모든 수치는 설명용",
+  "insight": "성장이 건강한지는 전체 매출이 아니라, 새로 더해진 매출 한 건 한 건이 확보 비용과 처리 비용을 빼고 돈을 남기는지로 판단한다.",
+  "misconception": "매출이 늘면 이익도 따라 늘고, 규모가 커지면 고정비가 분산되니 어떤 성장이든 결국 이득이다.",
+  "relatedLessonIds": [
+    "FIN-03-06",
+    "FIN-04-06"
+  ],
+  "sources": [
+    {
+      "text": "관리회계의 표준 개념 (증분 이익, 공헌이익, 고객 확보·서비스 비용)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "유통업체 계산: 카페 50곳 × 주 52회 × $300 = 연 매출 $780,000 증가. 매출 $2,000,000 → $2,780,000 (+39%). 주문당 $300 − 상품원가 $225(마진 25%) − 배송 $90 = −$15. 2,600건 × −$15 = −$39,000. 이익 $120,000 → $81,000 (−32.5%, 약 33%).",
+      "status": "open"
+    },
+    {
+      "note": "회계 대행사 계산: 신규 고객 20곳 × 월 $1,000 × 12 = 연 $240,000. 매출 $600,000 → $840,000 (+40%). 고객당 월 12시간 × $45 = $540, 남는 돈 $460/월 × 12 = $5,520 × 20곳 = $110,400. 이익 $90,000 → $200,400 (+122.7%, 두 배 이상).",
+      "status": "open"
+    },
+    {
+      "note": "구독 앱 계산: 월 $10 − 서버·결제 비용 $2 = $8 × 평균 6개월 = $48. 광고로 구독자 1명 확보에 $70 → 1명당 −$22.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Two businesses",
+      "title": "Two businesses grew 40% last year. Only one made more money.",
+      "illustrative": true,
+      "body": [
+        "A food-service distributor and a bookkeeping firm each grew sales by about 40%.",
+        "One owner's profit more than doubled. The other's fell by a third. Same growth on paper, opposite results. The difference was hidden in the *new* sales."
+      ],
+      "image": {
+        "label": "Two rising sales arrows, one profit arrow pointing down",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 나란히 선 두 가게(식자재 창고와 작은 회계 사무실). 두 가게 위 매출 화살표는 똑같이 위로 올라가지만, 창고 쪽 작은 동전 더미는 줄어들고 사무실 쪽 동전 더미는 커짐. 실제 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "50 new cafés, if delivery is free.",
+      "illustrative": true,
+      "body": [
+        "You run a food-service distributor. Your sales rep can sign 50 small cafés across town if you offer free delivery. Each orders about $300 a week, and you keep 25% after paying for the goods.",
+        "Each delivery to that side of town costs about $90 in driver time and fuel. Do you take the deal?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Yes. $780,000 in new sales a year is too big to pass up",
+            "verdict": "risky",
+            "feedback": "Big revenue, but each $300 order leaves $75 and costs $90 to deliver. Every order loses $15, so more orders means bigger losses."
+          },
+          {
+            "key": "B",
+            "text": "Yes. More sales will spread the warehouse rent over more volume",
+            "verdict": "partial",
+            "feedback": "Spreading fixed costs helps only when each new sale leaves something behind. Here each order is $15 short before rent gets a cent."
+          },
+          {
+            "key": "C",
+            "text": "Only with a minimum order or a delivery fee that covers the $90",
+            "verdict": "best",
+            "feedback": "You keep the growth but make each order pay its own way. You may sign fewer cafés, but every one adds profit."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "What happened",
+      "title": "Same growth rate, opposite profit.",
+      "illustrative": true,
+      "body": [
+        "The distributor took the cafés on free delivery. Sales rose 39%.",
+        "The bookkeeping firm signed 20 new clients at its normal $1,000 a month. Sales rose 40%."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Distributor profit",
+            "rows": [
+              {
+                "label": "Before",
+                "value": 120000,
+                "highlight": false
+              },
+              {
+                "label": "After growth",
+                "value": 81000,
+                "highlight": true
+              }
+            ]
+          },
+          {
+            "label": "Bookkeeper profit",
+            "rows": [
+              {
+                "label": "Before",
+                "value": 90000,
+                "highlight": false
+              },
+              {
+                "label": "After growth",
+                "value": 200400,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "callout": "Profit fell 33% at one and more than doubled at the other.",
+      "image": {
+        "label": "Same growth rate, opposite profit.",
+        "aspectRatio": "4:3",
+        "brief": "Labeled HTML chart from the lesson numbers",
+        "url": "assets/images/fin-04-05-chart.png"
+      }
+    },
+    {
+      "index": 4,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Follow one new order.",
+      "illustrative": true,
+      "body": [
+        "Now a new bookkeeping client: $1,000 a month − 12 staff hours at $45 ($540) = **$460** left every month."
+      ],
+      "breakdown": [
+        {
+          "value": "$300",
+          "label": "Café order",
+          "detail": "What the café pays",
+          "highlight": false
+        },
+        {
+          "value": "−$225",
+          "label": "Goods",
+          "detail": "75% of the order",
+          "highlight": false
+        },
+        {
+          "value": "−$90",
+          "label": "Delivery",
+          "detail": "Driver time and fuel",
+          "highlight": false
+        },
+        {
+          "value": "−$15",
+          "label": "Left over",
+          "detail": "Lost on every order",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Profitable vs unprofitable growth",
+      "body": [
+        "**Profitable growth** adds sales that each leave money behind after the costs to win and serve them. **Unprofitable growth** adds sales that each lose money, so the faster you grow, the more you lose.",
+        "The distributor's old customers were still profitable. That hid the problem: total profit stayed positive while every new café dragged it down."
+      ],
+      "image": {
+        "label": "A profit stack with a new layer below the line",
+        "aspectRatio": "16:9",
+        "brief": "층층이 쌓인 블록 그림. 아래쪽 \"Existing customers\" 블록들은 초록색으로 이익선 위에 있고, 맨 위에 새로 얹은 \"New customers\" 블록은 빨간색으로 이익선을 아래로 끌어내림. 단순한 인포그래픽 스타일.",
+        "url": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Where growth quietly loses money.",
+      "body": [
+        "New sales usually turn unprofitable in one of three places:"
+      ],
+      "list": [
+        "**Discounts to win them:** a lower price shrinks what each sale leaves",
+        "**Cost to serve:** small orders, long distances, custom requests, extra support",
+        "**Cost to win:** commissions, ads and free trials paid before the first sale"
+      ],
+      "callout": "Revenue shows none of these. Look at the new sales on their own."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Some losses are worth it, for a while.",
+      "body": [
+        "A new route can lose money at first and turn profitable once enough cafés sign up along it, because the same van serves more stops. Spare capacity matters too: if the van drives that way anyway, the real delivery cost is lower.",
+        "But \"it will pay off at scale\" needs a specific reason and the cash to wait. Without both, it's a hope, not a plan."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a subscription app.",
+      "illustrative": true,
+      "body": [
+        "Your app charges $10 a month. Servers and payment fees cost $2 per subscriber, and the average subscriber stays six months. So each one leaves about $48.",
+        "Paid ads are bringing in lots of new users, at about $70 per subscriber. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Double the ad budget. Growth spreads your fixed costs",
+            "verdict": "risky",
+            "feedback": "Each subscriber costs $70 to win and leaves $48. Doubling spend doubles a $22 loss per person."
+          },
+          {
+            "key": "B",
+            "text": "Shift spend to channels where a subscriber costs less than $48",
+            "verdict": "best",
+            "feedback": "You keep growing, but only with customers who add profit. Growth may slow while you find those channels."
+          },
+          {
+            "key": "C",
+            "text": "Stop all ads until people stay longer",
+            "verdict": "partial",
+            "feedback": "Longer stays would help, but stopping everything also cuts off any channels that already pay their way."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Grow the sales that leave money behind.",
+      "body": [
+        "Before chasing growth, check what each new sale leaves after the costs to win and serve it. If the answer is negative, growing faster only loses money faster.",
+        "**Try it today:** pick your three newest customers. For each, write the price, the cost of goods, the cost to serve and the cost to win. Which ones add profit?"
+      ],
+      "next": "Next · Why some businesses get more profitable as they grow"
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "id": "SAL-03-07",
+  "unitId": "SAL-03",
+  "categoryId": "SAL",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "Handle objections at a car dealership",
+  "readerTitle": "\"It's $2,000 cheaper across town\": a Saturday at the car dealership",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.4,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (자동차 대리점, 사내 데이터팀) · 모든 수치는 설명용",
+  "insight": "반론은 협상 카드가 아니라 고객이 무엇과 비교하고 있는지 알려주는 정보다. 가격을 바꾸기 전에 비교 기준부터 맞춘다.",
+  "misconception": "고객이 경쟁사 가격을 대면 맞춰 주거나 우리 제품이 더 낫다고 설득해야 한다.",
+  "relatedLessonIds": [
+    "SAL-03-01",
+    "SAL-03-03"
+  ],
+  "sources": [
+    {
+      "text": "모든 사례와 수치는 설명용 가상 예시",
+      "url": null
+    },
+    {
+      "text": "이 유닛의 개념 레슨 SAL-03-01 (가격 반론), SAL-03-03 (경쟁사 비교 반론)",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 가상입니다. 계산 확인: 표면 가격 차이 $2,000 − 트림 차이(패키지) $800 − 경쟁 견적에 빠진 수수료 $600 = 실제 차이 $600.",
+      "status": "open"
+    },
+    {
+      "note": "자동차 할부·세금·수수료 규정은 나라마다 다르므로 구체적인 금융 조언이 되지 않도록 일반적인 표현만 썼습니다. 게시 전 SAL-03-01, SAL-03-03의 실제 핵심 문장과 용어가 이 레슨의 피드백 표현과 일치하는지 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Sales · Everyday scene",
+      "title": "\"It's $2,000 cheaper across town.\"",
+      "illustrative": true,
+      "body": [
+        "A Saturday at a car dealership. A couple has sat in the same SUV twice. Then one of them holds up a phone with a quote from another dealer.",
+        "Most salespeople hear that line as a demand. Today we'll treat it as information, using two ideas from this unit."
+      ],
+      "image": {
+        "label": "Couple at a showroom showing a salesperson a quote on a phone",
+        "aspectRatio": "4:3",
+        "brief": "밝은 자동차 전시장. 젊은 커플이 SUV 옆에서 영업사원에게 휴대폰 화면(견적서)을 보여주는 장면. 영업사원은 차분히 듣는 표정. 실제 자동차 브랜드 로고와 엠블럼은 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What do you say first?",
+      "illustrative": true,
+      "body": [
+        "You're the salesperson. The car on your lot is listed at $34,000. Their quote says $32,000 for \"the same SUV.\"",
+        "What's your first move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "\"Let me talk to my manager about matching it.\"",
+            "verdict": "risky",
+            "feedback": "You may keep the deal, but you've agreed to a $2,000 gap before checking it's real. You also teach them that waving a quote works."
+          },
+          {
+            "key": "B",
+            "text": "\"Can I see what's included in that quote?\"",
+            "verdict": "best",
+            "feedback": "This is the **competitor objection** at work: first make sure you're comparing the same thing. You gain facts and lose nothing."
+          },
+          {
+            "key": "C",
+            "text": "\"Our dealership has much better service.\"",
+            "verdict": "partial",
+            "feedback": "It may be true, but it argues before you know what they care about. It can sound like you're dodging the number."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What the quote showed",
+      "title": "The $2,000 gap shrank to $600.",
+      "illustrative": true,
+      "body": [
+        "The other SUV was a lower trim without the safety package. And the quote left out fees that every buyer pays. Compared fairly, the gap was **$600**, not $2,000."
+      ],
+      "breakdown": [
+        {
+          "value": "$2,000",
+          "label": "Headline gap",
+          "detail": "$34,000 vs $32,000",
+          "highlight": false
+        },
+        {
+          "value": "−$800",
+          "label": "Missing package",
+          "detail": "Their quote is a lower trim",
+          "highlight": false
+        },
+        {
+          "value": "−$600",
+          "label": "Missing fees",
+          "detail": "Left out of their quote",
+          "highlight": false
+        },
+        {
+          "value": "$600",
+          "label": "Real gap",
+          "detail": "Same car, same costs",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "\"Even so, $600 is more than we planned.\"",
+      "illustrative": true,
+      "body": [
+        "They thank you for the honest comparison. Then the second objection arrives. This one is about price itself.",
+        "What now?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Knock $600 off to close the deal today",
+            "verdict": "partial",
+            "feedback": "It may close the sale, but you pay $600 without knowing if the problem was $600. Maybe a smaller change would have solved it."
+          },
+          {
+            "key": "B",
+            "text": "\"More than planned compared to what? A total, or a monthly figure?\"",
+            "verdict": "best",
+            "feedback": "This is the **price objection** idea: \"too expensive\" always compares to something. Find that number before you change yours."
+          },
+          {
+            "key": "C",
+            "text": "Throw in free floor mats and a tank of fuel",
+            "verdict": "risky",
+            "feedback": "Small gifts feel generous, but they answer a question nobody asked. If the worry is a budget line, mats don't move it."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "The real number was a monthly budget.",
+      "illustrative": true,
+      "body": [
+        "They had set a monthly limit at home. The $600 itself didn't scare them. Going over that monthly line did.",
+        "Now the salesperson had real options to offer: a longer warranty they could drop, a different color already in stock, or the trim they actually needed. They chose to drop an add-on they hadn't cared about. The price of the car itself never changed."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Questions aren't a trick.",
+      "body": [
+        "These questions work because they help the buyer see clearly. Used as a script to stall or corner people, they backfire fast.",
+        "And sometimes the fair comparison shows the other offer really is better for them. Say so. A buyer who leaves trusting you is more likely to come back for service, or send a friend, than one who felt pushed."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now you run an internal data team.",
+      "illustrative": true,
+      "body": [
+        "Your team builds a reporting dashboard and charges other departments for it. The marketing head says: \"An outside vendor quoted half your internal charge. We're looking at them.\"",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Ask to see the vendor's quote and what marketing needs most from reports",
+            "verdict": "best",
+            "feedback": "Both ideas at once: compare like for like (setup, data links, support) and learn what the price is measured against. You may find a real gap, or none."
+          },
+          {
+            "key": "B",
+            "text": "Cut your internal charge in half to match",
+            "verdict": "risky",
+            "feedback": "You keep the user, but your team may now be underfunded. And you never learned if price was the real issue."
+          },
+          {
+            "key": "C",
+            "text": "Ask the finance director to require the internal tool",
+            "verdict": "risky",
+            "feedback": "You win this round and lose goodwill. A team forced to use a tool rarely uses it well, and the objection returns next budget cycle."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "Vendor quotes for software often leave out setup, data connections and seat growth. Comparing the full first-year cost is the software version of checking the trim and fees."
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Find the comparison before you change the price.",
+      "body": [
+        "Two ideas from this unit did the work today:"
+      ],
+      "list": [
+        "**Competitor objection (SAL-03-03):** make sure both offers are the same thing before reacting",
+        "**Price objection (SAL-03-01):** ask what \"too expensive\" is compared to"
+      ],
+      "callout": "**Try it today:** recall the last time a customer said \"too expensive.\" Write down what they were really comparing you to.",
+      "next": "Next · Handle objections at a software renewal"
+    }
+  ]
+}

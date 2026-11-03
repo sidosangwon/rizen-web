@@ -1,0 +1,224 @@
+{
+  "id": "THK-01-09",
+  "unitId": "THK-01",
+  "categoryId": "THK",
+  "order": 9,
+  "type": "case",
+  "conceptTag": "SpaceX rethinks the cost of a rocket",
+  "readerTitle": "Why SpaceX priced a rocket by its raw metal",
+  "format": "company_story",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (SpaceX 창업기, 2001~2017) + 가상 적용 (동네 식료품점, 주택 도장 업체)",
+  "insight": "업계 가격은 자연법칙이 아니라 지금까지의 방식이 쌓인 결과다. 무엇으로 만들어지는지부터 다시 따지면 바꿀 수 있는 부분이 보인다.",
+  "misconception": "업계가 다 그 가격을 받으면 그게 원래 드는 비용이다. 비교 견적을 여러 개 받으면 최선의 가격을 찾은 것이다.",
+  "relatedLessonIds": [
+    "THK-01-01",
+    "THK-01-08"
+  ],
+  "sources": [
+    {
+      "text": "Chris Anderson, \"Elon Musk's Mission to Mars,\" Wired, October 2012 (Musk's account of the raw-material calculation, about 2% of a typical rocket price)",
+      "url": "https://www.wired.com/2012/10/ff-elon-musk-qa/"
+    },
+    {
+      "text": "Ashlee Vance, Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future (2015) (trips to Russia to buy rockets, early Falcon 1 failures, cash crunch in 2008)",
+      "url": null
+    },
+    {
+      "text": "SpaceX mission updates and press coverage: Falcon 1 reaches orbit (Sept 2008), first Falcon 9 first-stage landing (Dec 2015), first reflight of a landed booster (SES-10, March 2017)",
+      "url": "https://www.spacex.com"
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "\"원자재가 일반 로켓 가격의 약 2%\"는 Musk 본인의 2012년 Wired 인터뷰 발언입니다. 독립적으로 검증된 수치가 아니므로 카드에 \"by his own account\", \"roughly\"로 적었습니다. 게시 전 원문 문구를 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "러시아 방문 시 제시된 로켓 가격은 자료마다 다르게 전해집니다(수백만 달러대). 수치는 빼고 \"far more than he expected\"로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Falcon 1은 2006·2007·2008년 세 번 실패하고 2008년 9월 네 번째 발사에서 궤도에 도달했습니다. 2008년 자금이 거의 바닥났다는 내용은 Musk 인터뷰와 Vance 전기에 나옵니다. 날짜를 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Falcon 9 1단 첫 착륙(2015년 12월, ORBCOMM-2)과 착륙 부스터 첫 재비행(2017년 3월, SES-10) 날짜를 확인하세요. 재사용으로 인한 비용 절감 폭은 수치 없이 정성적으로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "SpaceX가 엔진 등 주요 부품 상당수를 자체 제작한다는 점은 널리 보도된 내용입니다. 구체적인 내재화 비율은 쓰지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Company story",
+      "title": "Why SpaceX priced a rocket by its raw metal",
+      "body": [
+        "Around 2001, Elon Musk wanted to send a small experiment to Mars. He went shopping for a rocket, and the prices shocked him.",
+        "Instead of hunting for a cheaper seller, he asked a stranger question: what is a rocket actually made of?"
+      ],
+      "image": {
+        "label": "A rocket drawn as a pile of raw materials",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 왼쪽에 완성된 로켓 실루엣, 오른쪽에 그 로켓을 분해한 금속판·탄소섬유 롤·구리선 더미. 실제 기업 로고나 상표, 실제 로켓 도장은 쓰지 않음.",
+        "url": "assets/images/thk-01-09-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Every quote is too high.",
+      "body": [
+        "Put yourself in Musk's place. You have money but not unlimited money. Launch providers quote prices far above your budget. Used Russian rockets cost far more than you expected too.",
+        "What do you do next?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep collecting quotes and negotiate hard with the cheapest seller",
+            "verdict": "partial",
+            "feedback": "You might save something, but every seller prices from the same industry habits. Negotiation moves you along the existing range, not below it."
+          },
+          {
+            "key": "B",
+            "text": "Shrink the mission until it fits a price you can afford",
+            "verdict": "risky",
+            "feedback": "Safe and fast, but you accept the market's price as fixed and give up the goal to fit it."
+          },
+          {
+            "key": "C",
+            "text": "Add up what the materials in a rocket cost and ask where the rest goes",
+            "verdict": "best",
+            "feedback": "It takes time and may show the gap is justified. But if the gap is huge, you've found where a new approach could win."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "The materials were a tiny slice of the price.",
+      "body": [
+        "Musk later told Wired that he listed a rocket's materials: aluminum alloys, some titanium, copper and carbon fiber. Then he checked their market prices.",
+        "By his own account, the raw materials came to roughly **2% of a typical rocket's price**. The rest came from how rockets were designed, built and bought.",
+        "So in 2002 he founded SpaceX to build rockets itself, rather than buy them."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "First principles thinking",
+      "body": [
+        "**First principles thinking** means breaking a problem down to the basic facts you know are true, then rebuilding from there.",
+        "Its opposite is reasoning by comparison: \"rockets cost this much, because rockets have always cost this much.\" Comparison is quick and usually fine. But it copies the old answer, including its waste.",
+        "The price of materials was a hard floor. Everything above it was a set of choices someone could make differently."
+      ],
+      "image": {
+        "label": "Price bar split into a thin materials layer and a thick 'how it's done' layer",
+        "aspectRatio": "16:9",
+        "brief": "가로 막대 하나. 맨 왼쪽 아주 얇은 구간에 \"Materials\", 나머지 넓은 구간에 \"Design, build and buying choices\" 라벨. 넓은 구간 위에 물음표 아이콘들. 구체적 금액은 넣지 않음.",
+        "url": "assets/images/thk-01-09-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Attack the part above the floor.",
+      "body": [
+        "SpaceX went after the choices, one by one."
+      ],
+      "list": [
+        "**Build in-house:** make engines and many parts itself instead of buying from layers of suppliers",
+        "**Simplify:** reuse the same engine design across a rocket",
+        "**Reuse:** land the first stage and fly it again. SpaceX first landed a Falcon 9 booster in 2015 and refl ew one in 2017"
+      ],
+      "callout": "Each step targeted cost the industry had treated as fixed."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond rockets",
+      "title": "A corner shop asks the same question.",
+      "illustrative": true,
+      "body": [
+        "A small grocery pays a distributor a markup that everyone calls \"standard.\" The owner breaks it down: a truck, a warehouse, handling, credit terms.",
+        "Some parts she can't replace. But the delivery run is something three nearby shops could share, picking up direct from the wholesaler.",
+        "The markup wasn't one fixed cost. It was a bundle of services, and only some were worth buying."
+      ],
+      "softwareNote": "A team quoted a big monthly fee for a tool can list what it actually uses: storage, a few features, support. Sometimes one part is the real value and the rest can come cheaper or be dropped."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The floor is not the price.",
+      "body": [
+        "SpaceX's first three Falcon 1 launches failed. It reached orbit on the fourth try in 2008, when the company was reportedly close to running out of money.",
+        "Rebuilding from scratch costs time, cash and risk. The material floor shows what is possible, not what you'll pay. And many who tried similar bets are no longer around to be studied.",
+        "Use it where the gap is large and worth the effort, not on every decision."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a house-painting company.",
+      "illustrative": true,
+      "body": [
+        "Local rivals all charge similar rates. You want to price lower and still earn more per job. Paint is a modest share of each job's cost. Most of the cost is crew hours.",
+        "Where do you start?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Switch to a cheaper paint brand",
+            "verdict": "partial",
+            "feedback": "It saves a little, but paint isn't where most of the money goes, and worse finishes can cost you referrals."
+          },
+          {
+            "key": "B",
+            "text": "Break a typical job into tasks and time each one: travel, prep, painting, cleanup",
+            "verdict": "best",
+            "feedback": "It takes a few weeks of tracking. But you may find hours lost to driving or setup that no rival has questioned."
+          },
+          {
+            "key": "C",
+            "text": "Set your rate just under the cheapest rival",
+            "verdict": "risky",
+            "feedback": "Quick to do, but you inherit their cost structure with less margin. You win jobs and earn less on each."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Ask what it's made of before asking what it costs.",
+      "body": [
+        "An industry price tells you how things have been done, not how they must be done. Find the true floor, then question everything above it.",
+        "**Try it today:** pick your biggest cost. List what it is actually made of, and mark which parts are facts and which are just habits."
+      ],
+      "next": "Next · Open a second location?"
+    }
+  ]
+}

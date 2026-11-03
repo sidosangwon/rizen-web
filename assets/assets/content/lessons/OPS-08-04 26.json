@@ -1,0 +1,230 @@
+{
+  "id": "OPS-08-04",
+  "unitId": "OPS-08",
+  "categoryId": "OPS",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Store brands",
+  "readerTitle": "Why the store's own label sits right next to the famous brand",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "real_observation",
+    "illustrative"
+  ],
+  "caseNote": "실제 관찰 (마트 진열대의 자체 브랜드) + 가상 사례 (식료품점 올리브유, 피자 가게 칠리 오일) · 모든 수치는 설명용",
+  "insight": "자체 브랜드는 싼 복제품이 아니라 마진, 공급사와의 협상력, 경쟁사에는 없는 상품이라는 세 가지를 한꺼번에 얻는 운영 도구다.",
+  "misconception": "자체 브랜드는 가격에 민감한 손님을 위한 싸구려 상품이라 가게에 남는 돈도 적다.",
+  "relatedLessonIds": [
+    "OPS-08-03",
+    "OPS-08-09"
+  ],
+  "sources": [
+    {
+      "text": "소매 유통의 표준 개념 (자체 브랜드, private label, 위탁 생산)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "올리브유 계산: 유명 브랜드 $12 − 매입가 $9 = $3, 자체 브랜드 $9 − 매입가 $5 = $4. 손님은 $3 절약, 가게는 병당 $1 더 남김. 모든 수치는 가상입니다.",
+      "status": "open"
+    },
+    {
+      "note": "'자체 브랜드가 유명 브랜드를 만드는 제조사에서 생산되는 경우가 있다'는 일반적 관찰로만 썼고 특정 기업·제품은 언급하지 않았습니다. 게시 전 표현이 과하지 않은지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "'자체 브랜드의 마진이 유명 브랜드보다 높은 경우가 많다'는 일반론으로 'often'이라고만 적었습니다. 구체적 비율은 넣지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Everyday scene",
+      "title": "Why the store's own label sits right next to the famous brand",
+      "body": [
+        "Walk down any supermarket aisle. Next to the famous pasta sauce sits a jar with the store's own name on it. It's cheaper, and it's placed at eye level.",
+        "You'd think the store loses out when you pick the cheaper jar. Often, it's the opposite."
+      ],
+      "image": {
+        "label": "A famous-brand jar and a store-brand jar side by side on a shelf",
+        "aspectRatio": "4:3",
+        "brief": "마트 진열대 클로즈업. 화려한 라벨의 소스 병과 단순한 라벨의 '가게 이름' 소스 병이 나란히 놓여 있고, 가격표는 각각 $5, $3.50. 실제 브랜드 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/ops-08-04-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "A cheaper olive oil with your name on it?",
+      "illustrative": true,
+      "body": [
+        "You run three grocery stores. Your best-selling olive oil is a famous brand. It sells for $12 and costs you $9.",
+        "A regional producer offers to bottle a similar oil under your store's name for $5 a bottle. You could sell it for $9. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Skip it. A cheaper bottle will just pull sales away from the $12 one",
+            "verdict": "risky",
+            "feedback": "You protect the bigger price tag, but you keep only $3 per bottle and stay fully dependent on one supplier."
+          },
+          {
+            "key": "B",
+            "text": "Add your own bottle next to the famous brand",
+            "verdict": "best",
+            "feedback": "Shoppers keep their choice, and you earn more on every bottle that switches. You also gain something to bring to your next talk with the brand."
+          },
+          {
+            "key": "C",
+            "text": "Replace the famous brand with your own bottle",
+            "verdict": "partial",
+            "feedback": "You earn more per bottle, but loyal fans of the brand may start buying it, and the rest of their basket, somewhere else."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Follow one bottle.",
+      "illustrative": true,
+      "body": [
+        "The shopper saves $3. The store keeps **$1 more**. Both sides win on the same sale."
+      ],
+      "breakdown": [
+        {
+          "value": "$3",
+          "label": "Famous brand: kept",
+          "detail": "$12 price − $9 cost",
+          "highlight": false
+        },
+        {
+          "value": "$4",
+          "label": "Store brand: kept",
+          "detail": "$9 price − $5 cost",
+          "highlight": true
+        },
+        {
+          "value": "$3",
+          "label": "Shopper saves",
+          "detail": "$12 vs $9 on the shelf",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Store brands",
+      "body": [
+        "A **store brand**, also called a private label, is a product sold under the retailer's own name. Someone else usually makes it under contract.",
+        "It isn't just a cheap copy. The store skips much of the brand's advertising cost and middle layers, so it can charge less and still keep more.",
+        "Some store brands are even made in the same factories as the famous names they sit beside."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "One product, three jobs.",
+      "body": [
+        "A good store brand does more than add margin."
+      ],
+      "list": [
+        "**More kept per sale:** a lower price, but a lower cost too",
+        "**Bargaining power:** a supplier who knows you have an alternative negotiates differently",
+        "**Something rivals can't sell:** shoppers can't compare its price elsewhere, and they come back to you for it"
+      ],
+      "callout": "The margin is the easy part to see. The other two jobs often matter more.",
+      "softwareNote": "Online marketplaces do this too: they use their own sales data to launch house-label basics. It works for the same three reasons, but it can cost the trust of the sellers they compete with."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond groceries",
+      "title": "The same move, in many shops.",
+      "body": [
+        "Pharmacies sell their own pain relievers. Hardware stores sell their own screws and paint. Clothing stores sell house-label basics.",
+        "Restaurants do it with house wine and bottled sauces. A bakery sells jars of its own jam. In each case the business takes a product people already buy from it and puts its own name on the label."
+      ],
+      "image": {
+        "label": "A pharmacy, hardware store and bakery, each with a house-label product",
+        "aspectRatio": "4:3",
+        "brief": "세 칸 일러스트. 약국의 자체 브랜드 진통제, 철물점의 자체 브랜드 페인트 통, 빵집의 자체 잼 병. 각 상품 라벨에는 'Our own' 같은 일반 문구만. 실제 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/ops-08-04-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Your name is now on the product.",
+      "body": [
+        "If a branded product fails, customers blame the brand. If your own label fails, they blame you, and that can spill onto everything else you sell.",
+        "You also take on new work: picking a maker, testing quality, and meeting minimum orders. A small shop may have to buy far more stock than it can sell quickly.",
+        "And launch only where customers already buy a lot. A store brand in a slow category just adds shelf clutter."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a pizzeria.",
+      "illustrative": true,
+      "body": [
+        "You sell bottles of a well-known chili oil by the register. Customers keep asking for the house chili oil you put on your pizzas.",
+        "A local bottler can make it for you, but the lowest price per bottle needs an order of 2,000. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Start with a small batch at a higher unit cost, and keep the known brand on the shelf",
+            "verdict": "best",
+            "feedback": "You pay a bit more per bottle at first, but you test real demand before your cash and shelf space get tied up."
+          },
+          {
+            "key": "B",
+            "text": "Order 2,000 bottles for the best price and drop the known brand",
+            "verdict": "risky",
+            "feedback": "The best unit cost means nothing if bottles sit for a year. You'd also lose the customers who want the brand."
+          },
+          {
+            "key": "C",
+            "text": "Keep selling only the known brand. Bottling isn't your business",
+            "verdict": "partial",
+            "feedback": "You avoid new work and risk, but you ignore clear demand for something only you can sell."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Your own label earns margin, leverage and loyalty.",
+      "body": [
+        "A store brand works best in a category customers already buy from you often, with quality you're proud to put your name on.",
+        "**Try it today:** find your best-selling product made by someone else. Ask what you'd keep per sale if it carried your name."
+      ],
+      "next": "Next · Why returns cost more than the refund"
+    }
+  ]
+}

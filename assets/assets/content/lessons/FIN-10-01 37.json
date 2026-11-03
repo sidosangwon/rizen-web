@@ -1,0 +1,239 @@
+{
+  "id": "FIN-10-01",
+  "unitId": "FIN-10",
+  "categoryId": "FIN",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Revenue that isn't real",
+  "readerTitle": "The coffee chain that sold cups nobody bought",
+  "format": "company_story",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Luckin Coffee, 2019~2020년 매출 조작) + 가상 사례 (카페 체인 투자, 소스 제조사, B2B 소프트웨어 스타트업)",
+  "insight": "매출은 장부에 적힌 숫자가 아니라 독립된 고객의 돈이 실제로 들어오는 흐름이다. 매출을 볼 때는 '누가, 무엇을 받고, 돈을 냈는가'를 따라간다.",
+  "misconception": "감사받은 재무제표에 매출이 찍혀 있고 빠르게 늘고 있으면 그 매출은 진짜다.",
+  "relatedLessonIds": [
+    "FIN-10-03",
+    "FIN-11-02"
+  ],
+  "sources": [
+    {
+      "text": "Luckin Coffee, press release on internal investigation (April 2, 2020)",
+      "url": null
+    },
+    {
+      "text": "U.S. SEC, press release on settled charges against Luckin Coffee (December 2020)",
+      "url": null
+    },
+    {
+      "text": "Muddy Waters Research, publication of an anonymous short-seller report on Luckin Coffee (January 31, 2020)",
+      "url": null
+    },
+    {
+      "text": "카페 체인, 소스 제조사, 소프트웨어 스타트업 사례와 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Luckin 설립(2017년)과 나스닥 상장(2019년 5월) 시점을 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "2020년 4월 2일 발표의 조작 매출 규모(2019년 2~4분기, 약 22억 위안)를 회사 발표문으로 확인하세요. 카드에는 \"about 2.2 billion yuan\"으로 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "SEC 합의 금액 $180 million(2020년 12월)과 나스닥 상장폐지(2020년 여름) 시점을 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Muddy Waters가 공개한 익명 보고서가 매장 영상 수천 시간 분석에 근거했다는 점을 확인하세요. 구체적 수치는 카드에 넣지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "조작이 회계감사 과정에서 드러났다는 서술은 여러 보도에 근거합니다. 카드에는 일반적으로만 적었습니다. 게시 전 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "가상 소프트웨어 사례 계산: 계약 $400,000, 같은 고객에게 지급하는 '공동 마케팅' 비용 $380,000 → 실제 순유입 $20,000.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Company story",
+      "title": "The coffee chain that sold cups nobody bought",
+      "body": [
+        "Luckin Coffee opened its first stores in China in 2017. Within about two years it had thousands of locations and a listing on the Nasdaq stock exchange.",
+        "Its sales were growing faster than almost anyone's. Then, in April 2020, the company admitted that a large share of those sales had never happened."
+      ],
+      "image": {
+        "label": "Rows of coffee cups, most of them transparent outlines",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 카운터 위에 커피 컵이 길게 줄지어 있는데 앞쪽 몇 개만 진짜 컵이고 나머지는 점선 윤곽만 있는 유령 컵. 실제 브랜드 로고나 컵 디자인은 쓰지 않음.",
+        "url": "assets/images/fin-10-01-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "A café chain wants your money.",
+      "illustrative": true,
+      "body": [
+        "A regional café chain asks you to invest. Its sales grew 60% last year, far faster than rivals. The statements are neat and professionally prepared.",
+        "You have time for one deep check. Which tells you most about whether the sales are real?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Read the prepared statements closely, line by line",
+            "verdict": "partial",
+            "feedback": "You'll learn how the business describes itself. But if sales were invented, the statements will be consistent with the invention."
+          },
+          {
+            "key": "B",
+            "text": "Compare the growth rate with the rest of the industry",
+            "verdict": "risky",
+            "feedback": "Unusual growth is a reason to look harder, not proof of anything. Real winners also outgrow their rivals."
+          },
+          {
+            "key": "C",
+            "text": "Match reported sales to money arriving from card processors and real store traffic",
+            "verdict": "best",
+            "feedback": "It's slower and messier, but it checks the one thing fake sales can't easily copy: cash from outside customers who actually showed up."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "Thousands of hours of store video.",
+      "body": [
+        "In January 2020, a short-seller firm published an anonymous report built on thousands of hours of video from Luckin stores. Its claim: far fewer orders were coming through the doors than the company reported.",
+        "Luckin denied it. Weeks later, it announced that an internal investigation had found the chief operating officer and staff had fabricated about **2.2 billion yuan** in 2019 sales.",
+        "The shares were delisted from the Nasdaq that year. Luckin later paid $180 million to settle U.S. securities charges."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Revenue that isn't real",
+      "body": [
+        "**Revenue that isn't real** is a sale on the books with no independent customer paying real money for something they actually received.",
+        "Invention, like at Luckin, is the extreme case. More common versions are quieter: a company and a partner buying from each other in a circle, or stock pushed onto distributors who can send it back.",
+        "All share one test. Follow the money. If it doesn't arrive from an outside customer, the sale is a story, not revenue."
+      ],
+      "image": {
+        "label": "Two arrows: one from a customer, one looping back to the seller",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 왼쪽은 '고객 → 돈 → 가게' 한 방향 화살표(진짜 매출, 초록). 오른쪽은 가게에서 나간 돈이 파트너를 거쳐 다시 가게로 돌아오는 원형 화살표(가짜 매출, 빨강). 라벨은 영어 \"Real sale\", \"Round trip\".",
+        "url": "assets/images/fin-10-01-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How to spot it",
+      "title": "Four questions to ask about any sales number.",
+      "body": [
+        "Fake or inflated sales usually leave marks somewhere outside the sales line."
+      ],
+      "list": [
+        "**Where's the cash?** Sales rise, but bank deposits don't rise with them",
+        "**Who's the customer?** Big buyers linked to owners, staff or the company itself",
+        "**When did it happen?** Unusual spikes in the last days of a quarter or year",
+        "**Is money flowing both ways?** The customer also gets paid by the seller"
+      ],
+      "callout": "One mark is a question. Several together are a red flag."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond fraud",
+      "title": "A full warehouse isn't a sale.",
+      "illustrative": true,
+      "body": [
+        "A sauce maker is short of its yearly target. In late December, it ships distributors three months of extra stock, with the right to return anything unsold.",
+        "The year's sales look great. In spring, the returns arrive and January orders dry up, because distributors are still full.",
+        "Nothing was invented here. But the customers didn't really want those jars yet. Pulling future sales forward makes this year look better and next year look worse."
+      ],
+      "image": {
+        "label": "A distributor's warehouse overflowing with sauce jars",
+        "aspectRatio": "16:9",
+        "brief": "창고 선반이 소스 병으로 넘쳐 바닥까지 쌓인 장면. 달력은 12월 31일. 한쪽에 \"Returns\"라고 적힌 상자들이 대기 중. 실제 브랜드 라벨은 쓰지 않음.",
+        "url": "assets/images/fin-10-01-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Not every gap means fake.",
+      "body": [
+        "Cash and sales often disagree for honest reasons. A caterer may invoice a wedding today and get paid in 30 days. A software firm may bill a year upfront.",
+        "Real customers who simply pay late are a different problem, covered in the next lesson.",
+        "So treat the four questions as a reason to dig, not as a verdict. And remember that people who fake sales also prepare answers. Check the evidence, not just the explanation."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software startup.",
+      "illustrative": true,
+      "body": [
+        "You're about to invest in a B2B software startup. Its biggest new deal is a $400,000 yearly contract, signed on the last day of the quarter.",
+        "In the same week, the startup agreed to pay that customer $380,000 for \"joint marketing.\" What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Count it at $400,000. Marketing is a separate cost",
+            "verdict": "risky",
+            "feedback": "On paper they're two deals. In cash terms, the startup is mostly paying for its own sale, and only $20,000 really comes in from outside."
+          },
+          {
+            "key": "B",
+            "text": "Ask for both contracts and treat the deal as about $20,000 until the marketing is shown to be real",
+            "verdict": "best",
+            "feedback": "You may undervalue a genuine partnership for a while. But you're judging the business on money that truly arrives, not a circle."
+          },
+          {
+            "key": "C",
+            "text": "Walk away from the investment immediately",
+            "verdict": "partial",
+            "feedback": "You avoid the risk, but you may be dropping a good company over one deal you never examined. A few questions cost less."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Revenue is money from a real customer, not a number on a page.",
+      "body": [
+        "Before trusting a sales figure, ask who paid, for what, and where the cash went.",
+        "**Try it today:** take last month's sales for your own business. Compare them with deposits from customers. Can you explain the gap in one sentence?"
+      ],
+      "next": "Next · Customers who don't pay"
+    }
+  ]
+}

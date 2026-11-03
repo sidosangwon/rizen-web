@@ -1,0 +1,258 @@
+{
+  "id": "OPS-07-07",
+  "unitId": "OPS-07",
+  "categoryId": "OPS",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "A restaurant's biggest risks",
+  "readerTitle": "The risk that keeps a restaurant owner up at night is rarely the biggest one",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (동네 식당, 레스토랑용 예약 소프트웨어 회사) · 모든 점수는 설명용",
+  "insight": "가장 생생하게 떠오르는 위험보다, 확률과 충격을 곱한 값이 크고 대체할 수 없는 한 사람·한 설비에 걸린 위험을 먼저 다룬다.",
+  "misconception": "악성 리뷰나 도난처럼 눈에 띄고 무서운 위험이 가장 큰 위험이다.",
+  "relatedLessonIds": [
+    "OPS-07-02",
+    "OPS-07-04"
+  ],
+  "sources": [
+    {
+      "text": "이 유닛의 개념 레슨: OPS-07-02 확률 × 영향, OPS-07-04 단일 장애 지점",
+      "url": null
+    },
+    {
+      "text": "모든 점수와 상황은 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "3번 카드의 확률·영향 점수(1~5)는 설명용 가정이며 실제 업계 통계가 아닙니다. 계산 확인: 악성 리뷰 2×2=4, 도난 2×3=6, 냉장고 고장 3×4=12, 셰프 갑작스런 퇴사 3×5=15.",
+      "status": "open"
+    },
+    {
+      "note": "실제 사고 빈도나 손실 금액은 카드에 쓰지 않았습니다. 특정 국가의 보험·노동법 조언으로 읽히지 않도록 7번 카드에서 보험은 별도 레슨(OPS-07-03)으로만 언급했습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Risk · Everyday scene",
+      "title": "The risk that keeps a restaurant owner up at night is rarely the biggest one",
+      "illustrative": true,
+      "body": [
+        "Maya runs a 40-seat bistro. At 2 a.m. she worries about a one-star review going viral, or someone breaking in.",
+        "Her real exposure sits somewhere quieter: in the walk-in cooler humming in the back, and in the one person who knows every sauce by heart."
+      ],
+      "image": {
+        "label": "Restaurant owner at night with worry bubbles over a quiet kitchen",
+        "aspectRatio": "4:3",
+        "brief": "밤의 식당 주방. 주인이 계산대에 앉아 있고, 머리 위 말풍선에 별 하나짜리 리뷰와 깨진 창문. 뒤쪽 어둠 속에 대형 냉장고와 셰프 앞치마가 조용히 걸려 있음. 실제 리뷰 사이트 로고는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You can fix one thing this month.",
+      "illustrative": true,
+      "body": [
+        "Maya has a small budget and one free afternoon for risk. Three options are on her list.",
+        "Which should she do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Write a social media plan for a viral bad review",
+            "verdict": "risky",
+            "feedback": "It feels urgent because it's vivid. But using **probability times impact**, most bad reviews do limited, short-lived damage."
+          },
+          {
+            "key": "B",
+            "text": "Add a temperature alarm and a repair contract for the walk-in cooler",
+            "verdict": "best",
+            "feedback": "A cooler failure is fairly likely over a few years, and it can spoil a week of stock and close the kitchen. Moderate probability times high impact puts it near the top."
+          },
+          {
+            "key": "C",
+            "text": "Install better locks and cameras",
+            "verdict": "partial",
+            "feedback": "A real risk, and worth handling. But the likely loss is cash and equipment, so its probability times impact scores lower than the cooler."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "Score it",
+      "title": "The biggest risk wasn't on her list.",
+      "illustrative": true,
+      "body": [
+        "Maya scores each risk from 1 to 5 for how likely it is in a year and how badly it would hurt. Rough guesses are enough. Then she multiplies."
+      ],
+      "breakdown": [
+        {
+          "value": "4",
+          "label": "Viral bad review",
+          "detail": "Likely 2 × Impact 2",
+          "highlight": false
+        },
+        {
+          "value": "6",
+          "label": "Break-in",
+          "detail": "Likely 2 × Impact 3",
+          "highlight": false
+        },
+        {
+          "value": "12",
+          "label": "Cooler fails",
+          "detail": "Likely 3 × Impact 4",
+          "highlight": false
+        },
+        {
+          "value": "15",
+          "label": "Head chef quits suddenly",
+          "detail": "Likely 3 × Impact 5",
+          "highlight": true
+        }
+      ],
+      "callout": "The scariest-sounding risks scored lowest."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept at work",
+      "title": "Probability times impact",
+      "body": [
+        "Our attention goes to risks that are dramatic or recent. **Probability times impact** corrects for that. A rare disaster and a common nuisance can score the same. A fairly common event that hurts a lot beats both.",
+        "The scores don't need to be precise. Their job is to rank, so the conversation moves from \"what scares me\" to \"what would cost me most.\""
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Concept at work",
+      "title": "Look for the one thing everything depends on.",
+      "body": [
+        "Maya's top two risks share a pattern. Each is a **single point of failure**: one part with no backup, whose loss stops the whole kitchen.",
+        "Restaurants often have several:"
+      ],
+      "list": [
+        "One head chef who holds the recipes and the ordering",
+        "One cooler holding all the perishable stock",
+        "One produce supplier with one delivery van",
+        "One owner with the only bank login"
+      ],
+      "callout": "Ask of each: if this vanished tomorrow, could we open tonight?",
+      "softwareNote": "In software the same pattern shows up as one server, one cloud region, or one engineer who holds the keys. The fix is the same: a documented backup."
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Apply it",
+      "title": "Only Daniel knows the sauces.",
+      "illustrative": true,
+      "body": [
+        "Head chef Daniel built the menu. The recipes live in his head, and he places every supplier order himself. If he left with two weeks' notice, the kitchen would struggle.",
+        "What's Maya's best move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Give Daniel a raise so he stays",
+            "verdict": "partial",
+            "feedback": "It lowers the probability he leaves, but not the impact if he does. The **single point of failure** is still there."
+          },
+          {
+            "key": "B",
+            "text": "Have Daniel write down recipes and train the sous chef on ordering",
+            "verdict": "best",
+            "feedback": "This shrinks the impact of his leaving, sickness or holiday. It removes the **single point of failure** instead of guarding it."
+          },
+          {
+            "key": "C",
+            "text": "Hire a second head chef as backup",
+            "verdict": "risky",
+            "feedback": "It removes the dependency, but at a cost that may outweigh the risk. Redundancy should fit the **probability times impact**, not exceed it."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "You can't back up everything.",
+      "body": [
+        "Every backup costs money or time. A second cooler, a second supplier, a cross-trained cook: each is worth it only if the risk it covers scores high enough.",
+        "And some risks score low because they're rare, like a kitchen fire, yet could end the business. Scoring alone won't handle those. They call for insurance or a plan to keep running, which other lessons in this unit cover."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software company.",
+      "illustrative": true,
+      "body": [
+        "Your five-person company sells table-booking software to restaurants. Three worries are on the board.",
+        "Which do you tackle first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "A bigger rival might launch a cheaper product",
+            "verdict": "partial",
+            "feedback": "Plausible, but slow-moving and hard to prevent this month. Its **probability times impact** is real but you can't fix it quickly."
+          },
+          {
+            "key": "B",
+            "text": "Only one engineer can deploy fixes or restore the database",
+            "verdict": "best",
+            "feedback": "If she's sick during an outage, restaurants lose bookings on a Friday night. It's a **single point of failure** with high impact and an easy fix: documentation and shared access."
+          },
+          {
+            "key": "C",
+            "text": "A security breach that makes the news",
+            "verdict": "risky",
+            "feedback": "Vivid and serious, but basic security may already lower its probability. Don't let the headline crowd out the quieter, likelier failure."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "This is the same pattern as Daniel's sauces: knowledge held by one person."
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Rank risks by the math, then hunt for what has no backup.",
+      "body": [
+        "**Concepts used:** probability times impact, to rank risks by cost rather than fear. Single points of failure, to find the one person or part that can stop everything.",
+        "**Try it today:** list your top five risks, score each 1–5 for likelihood and impact, and circle any that depend on one person or one machine."
+      ],
+      "image": {
+        "label": "Risk list with scores and two circled items",
+        "aspectRatio": "16:9",
+        "brief": "손으로 쓴 위험 목록 메모지. 각 항목 옆에 점수(4, 6, 12, 15)가 적혀 있고, '셰프'와 '냉장고' 항목에 빨간 동그라미. 따뜻한 색감의 일러스트.",
+        "url": null
+      },
+      "next": "Next · A small manufacturer's biggest risks"
+    }
+  ]
+}

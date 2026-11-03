@@ -1,0 +1,290 @@
+{
+  "id": "BMO-04-03",
+  "unitId": "BMO-04",
+  "categoryId": "BMO",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "Critical mass",
+  "readerTitle": "Why six players go home and twelve stay all afternoon",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "일상 장면 (공원 즉석 축구) + 가상 사례 (코워킹 조찬 모임, 병원 근무 교대 앱) + 실제 연구 (Rohlfs 1974, 통신 서비스 수요). 모든 수치는 설명용",
+  "insight": "임계 질량은 숫자를 서서히 늘려 가는 경사가 아니라 넘거나 못 넘는 문턱이다. 그래서 넓게 퍼뜨리기보다 한곳에 모아 먼저 넘겨야 한다.",
+  "misconception": "사용자가 많을수록 네트워크는 저절로 살아난다. 일단 많이 모으면 된다.",
+  "relatedLessonIds": [
+    "BMO-04-02",
+    "BMO-04-04"
+  ],
+  "sources": [
+    {
+      "text": "Rohlfs, J. (1974). A Theory of Interdependent Demand for a Communications Service. Bell Journal of Economics and Management Science, 5(1), 16–37.",
+      "url": null
+    },
+    {
+      "text": "'임계 질량(critical mass)'의 물리학적 정의: 연쇄 반응이 스스로 유지되는 데 필요한 최소 핵분열 물질의 양",
+      "url": null
+    },
+    {
+      "text": "공원, 코워킹, 병원 사례와 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Rohlfs(1974) 논문의 서지 정보(학술지명, 권호, 쪽수)와, 논문이 '충분한 사용자가 모이기 전에는 서비스 가치가 낮다'는 임계 질량 논지를 다룬다는 점을 게시 전에 원문으로 확인하세요. 카드에는 일반적인 서술로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "3번 카드 차트 수치(7→6→4→3→2, 15→16→19→22→26)는 하향·상향 순환을 보여주기 위한 가상 수치입니다. 카드에 'might move'로 표기했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "즉석 축구 '12명'은 한 팀 6명씩 경기가 성립하는 정도를 가정한 설명용 수치입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business models · Everyday scene",
+      "title": "Why six players go home and twelve stay all afternoon",
+      "illustrative": true,
+      "body": [
+        "Every Saturday, a few people bring a ball to the park hoping for a pickup game. Some weeks six show up. They kick around, wait, and drift home early.",
+        "Other weeks twelve show up. There's a real game. It runs for hours, and players text friends to join.",
+        "The gap between those weeks isn't six people. It's whether the game happens at all."
+      ],
+      "image": {
+        "label": "Two park scenes: a few idle players versus a full game",
+        "aspectRatio": "4:3",
+        "brief": "좌우 분할 일러스트. 왼쪽: 공원 잔디에 6명이 공을 들고 서성이고 몇 명은 가방을 메고 떠나는 중. 오른쪽: 같은 공원에서 12명이 활발하게 경기 중이고 한 명은 휴대폰으로 친구를 부르는 모습. 실제 브랜드 로고나 유니폼 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Your founders' breakfast is shrinking.",
+      "illustrative": true,
+      "body": [
+        "You run a coworking space. You launch a weekly founders' breakfast so members can swap advice and contacts. Week one, 9 of your 300 members come. Week two, 6.",
+        "You have time and budget for one push. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Email all 300 members every week and promote it across the city",
+            "verdict": "partial",
+            "feedback": "You'll get more sign-ups, but scattered people come once and rarely return. Each breakfast can still feel half empty."
+          },
+          {
+            "key": "B",
+            "text": "Personally recruit 15 regulars who commit to the next six weeks",
+            "verdict": "best",
+            "feedback": "A small, reliable table makes every visit worth it, so people return and bring others. You trade reach for a breakfast that actually works."
+          },
+          {
+            "key": "C",
+            "text": "Add a free hot buffet to draw a bigger crowd",
+            "verdict": "risky",
+            "feedback": "Food fills seats, but people come for the eggs, not each other. When the buffet ends, so may the crowd, and your costs have risen."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "What happens",
+      "title": "Same breakfast, two starting points.",
+      "illustrative": true,
+      "body": [
+        "Here's how attendance might move. Below a certain size, each visit disappoints, so fewer return. Above it, each visit pays off, and people bring others.",
+        "Nothing else changed. Only where it started."
+      ],
+      "chart": {
+        "unit": "count",
+        "groups": [
+          {
+            "label": "Started with 7",
+            "rows": [
+              {
+                "label": "Week 1",
+                "value": 7,
+                "highlight": false
+              },
+              {
+                "label": "Week 2",
+                "value": 6,
+                "highlight": false
+              },
+              {
+                "label": "Week 3",
+                "value": 4,
+                "highlight": false
+              },
+              {
+                "label": "Week 4",
+                "value": 3,
+                "highlight": false
+              },
+              {
+                "label": "Week 5",
+                "value": 2,
+                "highlight": true
+              }
+            ]
+          },
+          {
+            "label": "Started with 15",
+            "rows": [
+              {
+                "label": "Week 1",
+                "value": 15,
+                "highlight": false
+              },
+              {
+                "label": "Week 2",
+                "value": 16,
+                "highlight": false
+              },
+              {
+                "label": "Week 3",
+                "value": 19,
+                "highlight": false
+              },
+              {
+                "label": "Week 4",
+                "value": 22,
+                "highlight": false
+              },
+              {
+                "label": "Week 5",
+                "value": 26,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "image": {
+        "label": "Same breakfast, two starting points.",
+        "aspectRatio": "4:3",
+        "brief": "Labeled HTML chart from the lesson numbers",
+        "url": "assets/images/bmo-04-03-chart.png"
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Critical mass",
+      "body": [
+        "**Critical mass** is the point where a network is useful enough that people stay and bring others without you pushing.",
+        "The name comes from physics: the amount of material a chain reaction needs to keep itself going. Below it, the reaction dies out. Above it, it feeds itself.",
+        "For a pickup game, that might be twelve players. For your breakfast, maybe fifteen founders who show up every week."
+      ],
+      "image": {
+        "label": "A tipping line: below it arrows fall, above it arrows rise",
+        "aspectRatio": "16:9",
+        "brief": "가로 점선 하나에 \"Critical mass\" 라벨. 점선 아래에는 아래로 향하는 화살표와 흩어지는 사람 아이콘, 점선 위에는 위로 향하는 화살표와 서로 손을 잡고 늘어나는 사람 아이콘. 단순한 플랫 인포그래픽.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "One loop, two directions.",
+      "body": [
+        "In a network, each person's experience depends on who else is there. That experience decides whether they come back.",
+        "Below critical mass, the loop runs downward: a thin crowd, a poor experience, fewer return, an even thinner crowd. Above it, the **same loop runs upward**.",
+        "Economist Jeffrey Rohlfs described this in 1974 for phone services. A phone is of little use until enough of the people you want to call have one, and early buyers may give up before that point arrives."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where it applies",
+      "title": "The right people, not the total.",
+      "body": [
+        "Critical mass is counted from each customer's point of view. A founder doesn't care that 300 members *could* come. She cares whether the people worth meeting are at the table.",
+        "That's why 15 committed regulars beat 300 maybes. **Concentrated effort** can cross the line in one place. Spread-out effort can stay below it everywhere.",
+        "The line also sits in a different place for each business. A trade marketplace may need enough suppliers that most buyers find what they need on the first search."
+      ],
+      "image": {
+        "label": "One full table versus many tables with one person each",
+        "aspectRatio": "16:9",
+        "brief": "위에서 내려다본 코워킹 라운지. 왼쪽: 테이블 하나에 15명이 모여 대화 중. 오른쪽: 테이블 10개에 1~2명씩 흩어져 앉아 휴대폰만 보는 모습. 실제 회사 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Critical mass can be faked, and lost.",
+      "body": [
+        "Paying people to show up, with free food, discounts or sign-up bonuses, can make a network look full. When the payments stop, you learn whether people came for each other or for the perk.",
+        "The loop also runs backward. If key regulars drift away, a network above the line can slide back below it.",
+        "And this only matters when customers value each other's presence. A bakery with one customer still bakes good bread."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a shift-swap app for hospitals.",
+      "illustrative": true,
+      "body": [
+        "Your app lets nurses post shifts they can't work so colleagues can pick them up. A swap only happens if someone on the same ward sees the post in time.",
+        "You have 400 nurses ready to try it. How do you roll it out?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Spread them across 40 hospitals to build presence everywhere",
+            "verdict": "risky",
+            "feedback": "You look national, but each nurse sees only a few colleagues on the app. Posted shifts go unclaimed, and users quit before any ward crosses the line."
+          },
+          {
+            "key": "B",
+            "text": "Put all 400 into a handful of wards at two hospitals",
+            "verdict": "best",
+            "feedback": "Posts get picked up fast, so nurses keep using it and tell other wards. You give up early reach to get proof that it works."
+          },
+          {
+            "key": "C",
+            "text": "Launch at 10 hospitals with a cash bonus for every swap",
+            "verdict": "partial",
+            "feedback": "Bonuses will create swaps, but you can't tell real demand from paid activity. Usage may fall the day the bonus ends."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Below critical mass, growth leaks. Above it, growth feeds itself.",
+      "body": [
+        "Before chasing more customers, ask where the smallest group is that could cross the line first.",
+        "**Try it today:** if your business depends on customers meeting, trading with or helping each other, name the smallest group where that already works. Count how many in it came back last week."
+      ],
+      "next": "Next · Why a huge network can still feel empty to you"
+    }
+  ]
+}

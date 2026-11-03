@@ -1,0 +1,291 @@
+{
+  "id": "FIN-11-10",
+  "unitId": "FIN-11",
+  "categoryId": "FIN",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Is this year's profit real?",
+  "readerTitle": "Your profit doubled. How much of it actually happened this year?",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.4,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (가전 매장 + 설치·점검 서비스) · 모든 수치는 설명용",
+  "insight": "이익이 늘었을 때는 '얼마나'보다 '언제 번 돈인가'를 먼저 묻는다. 시점과 분류만 바꿔도 좋은 해처럼 보일 수 있다.",
+  "misconception": "통장에 돈이 들어왔거나 청구서를 보냈으면 올해 이익이다. 오래 가는 지출은 모두 자산으로 잡아도 된다.",
+  "relatedLessonIds": [
+    "FIN-11-06",
+    "FIN-11-02"
+  ],
+  "sources": [
+    {
+      "text": "재무회계의 표준 개념 (발생주의, 수익 인식, 선수수익, 자본적 지출과 수익적 지출 구분, 이익의 질)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "계산 확인: 초안 이익 $90,000 − 미이행 서비스 플랜 $32,000($36,000 − 올해 제공분 $4,000) − 건설사 주문 이익 $9,000($30,000 − 원가 $21,000) − 수리비 비용 처리 $12,000 = $37,000. 전년 $40,000보다 $3,000 낮음.",
+      "status": "open"
+    },
+    {
+      "note": "서비스 플랜: 가을 판매, 올해 제공분 약 $4,000은 가정입니다. 균등 분할(연 $12,000)이 아니라 제공한 서비스만큼 인식한다는 설명이 일반 원칙에 맞는지 검토하세요.",
+      "status": "open"
+    },
+    {
+      "note": "도장·소모 부품 교체를 비용으로 본 것은 '기존 상태 유지'라는 일반 원칙에 따른 단순화입니다. 실제 분류와 세무 처리는 나라와 금액 기준에 따라 다르므로 카드에 회계사 확인을 권했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "softwareNote: $1,200 연간 구독을 12월에 계약하면 올해 수익 $100(1개월분)으로 계산했습니다. 12월 1일 시작 가정.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Simulation",
+      "title": "Your appliance store's profit more than doubled.",
+      "illustrative": true,
+      "body": [
+        "You sell washers, fridges and ovens, and your team installs and services them. Last year the business made $40,000 in profit. This year the bookkeeper's draft says **$90,000**.",
+        "Next week you meet the bank about a loan for a second store. Before you go, you check where the extra $50,000 came from."
+      ],
+      "image": {
+        "label": "Store owner reading a year-end report in an appliance showroom",
+        "aspectRatio": "4:3",
+        "brief": "가전 매장 쇼룸, 세탁기와 냉장고 사이에서 사장이 연말 보고서를 들고 있음. 보고서에 \"$90,000\"이 크게 보이고, 그 옆에 작은 돋보기. 실제 브랜드 로고는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 4",
+      "title": "$36,000 of three-year service plans",
+      "illustrative": true,
+      "body": [
+        "This autumn you ran a promotion: pay once, get three years of maintenance visits. Customers paid $36,000. The bookkeeper counted all of it as this year's revenue. Only about $4,000 of visits have happened so far.",
+        "How should this year's books show it?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep all $36,000. The cash is in the bank",
+            "verdict": "risky",
+            "feedback": "Profit looks great now, but you still owe about $32,000 of visits. The next two years carry the cost of that work with none of the revenue."
+          },
+          {
+            "key": "B",
+            "text": "Count $4,000 now and record $32,000 as owed to customers until the visits happen",
+            "verdict": "best",
+            "feedback": "Profit drops by $32,000 this year, but each year now matches the work done. The cash stays. It just isn't profit yet."
+          },
+          {
+            "key": "C",
+            "text": "Split it evenly: $12,000 a year for three years",
+            "verdict": "partial",
+            "feedback": "Closer, but revenue should follow the work delivered. Most plans started in autumn, so only about $4,000 is earned this year."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 4",
+      "title": "Say you spread the plans. Next: a December invoice.",
+      "illustrative": true,
+      "body": [
+        "A builder ordered 30 appliances for new apartments. You invoiced $30,000 in December. The appliances sit in your warehouse until delivery in March. They cost you $21,000.",
+        "Does this sale belong in this year?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Yes. The invoice is sent and the builder agreed to pay",
+            "verdict": "risky",
+            "feedback": "Sending a bill doesn't finish the job. If the project slips or the order changes, this year's profit was never real."
+          },
+          {
+            "key": "B",
+            "text": "No. Count it in March, when it's delivered. Until then the appliances stay as stock",
+            "verdict": "best",
+            "feedback": "This year's profit falls by $9,000, the $30,000 sale minus its $21,000 cost. Next year gets a sale that's actually done."
+          },
+          {
+            "key": "C",
+            "text": "Count it now only if the builder paid a deposit",
+            "verdict": "partial",
+            "feedback": "A deposit helps your cash, but it's money received before the work. It's owed to the builder until delivery."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 4",
+      "title": "Say you moved the order to March. Last: the paint job.",
+      "illustrative": true,
+      "body": [
+        "You spent $12,000 repainting the showroom and replacing worn fittings. The bookkeeper recorded it as an asset called \"store improvements\", to spread over five years.",
+        "What should it be?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep it as an asset. The paint will last for years",
+            "verdict": "risky",
+            "feedback": "Most repairs last a while. Treating upkeep as an asset pushes normal running costs into later years and flatters today."
+          },
+          {
+            "key": "B",
+            "text": "Count it as this year's expense. It keeps the store as it was rather than adding something new",
+            "verdict": "best",
+            "feedback": "Profit falls by $12,000, but honestly: this is the regular cost of running a showroom."
+          },
+          {
+            "key": "C",
+            "text": "Keep it as an asset, but spread it over two years",
+            "verdict": "partial",
+            "feedback": "Less distortion, but still the wrong label. A shorter spread only hides less of the cost."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "From $90,000 to $37,000.",
+      "illustrative": true,
+      "breakdown": [
+        {
+          "value": "$90,000",
+          "label": "Draft profit",
+          "detail": "What the bookkeeper reported",
+          "highlight": false
+        },
+        {
+          "value": "−$32,000",
+          "label": "Service plans",
+          "detail": "Visits not yet delivered",
+          "highlight": false
+        },
+        {
+          "value": "−$9,000",
+          "label": "Builder order",
+          "detail": "Sale belongs in March",
+          "highlight": false
+        },
+        {
+          "value": "−$12,000",
+          "label": "Repairs",
+          "detail": "Upkeep is an expense",
+          "highlight": false
+        },
+        {
+          "value": "$37,000",
+          "label": "Earned this year",
+          "detail": "Below last year's $40,000",
+          "highlight": true
+        }
+      ],
+      "callout": "The jump came from timing and labels, not a better year.",
+      "softwareNote": "Annual plans paid upfront work the same way. A $1,200 yearly subscription that starts on December 1 adds $100 of revenue this year, not $1,200. The rest is service you still owe."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Quality of earnings",
+      "body": [
+        "**Quality of earnings** asks how much of a reported profit comes from work actually done this year, matched with its true costs, in a way that can repeat.",
+        "No one made an arithmetic mistake here. Each item simply landed in the wrong year: revenue counted early, a cost counted late.",
+        "The good news: the $32,000 of plans and the March sale aren't lost. They become profit when you earn them."
+      ],
+      "image": {
+        "label": "Profit blocks being moved from this year into next years",
+        "aspectRatio": "16:9",
+        "brief": "달력 세 칸(This year, Next year, Year after). 'This year' 칸에 쌓여 있던 블록 일부를 손이 다음 해 칸으로 옮기는 장면. 블록 라벨: \"Service plans\", \"Builder order\".",
+        "url": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Don't swing to the lowest number.",
+      "body": [
+        "Cleaning up profit doesn't mean making it as small as possible. Expensing a new delivery van in one year would distort the picture the other way.",
+        "Some calls are genuinely grey. Is new flooring a repair or an upgrade? Write down the rule you used and apply it every year. Tax rules can differ from these, so check with an accountant in your country."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Decision 4 of 4",
+      "title": "Say you expensed the repairs. Now, the bank.",
+      "illustrative": true,
+      "body": [
+        "The loan officer asks for this year's profit. You have the draft $90,000 and the cleaned-up $37,000. What do you bring?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The $90,000 draft. It's what the books said",
+            "verdict": "risky",
+            "feedback": "It might win the meeting. When the bank's own review finds the timing issues, your credibility goes with it."
+          },
+          {
+            "key": "B",
+            "text": "The $37,000, with a note on the $32,000 of plans and the March order coming next year",
+            "verdict": "best",
+            "feedback": "A smaller number, but one a lender can trust. It also shows revenue already lined up."
+          },
+          {
+            "key": "C",
+            "text": "Both numbers, and let the bank decide which counts",
+            "verdict": "partial",
+            "feedback": "Open, but it hands the judgment to someone else. The bank wants to know which number you believe."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Profit is real when it's earned, matched and repeatable.",
+      "body": [
+        "Each decision used one idea from this unit:"
+      ],
+      "list": [
+        "**Service plans:** money received before it's earned",
+        "**Builder order:** when revenue counts",
+        "**Paint job:** assets vs expenses",
+        "**Bank meeting:** quality of earnings"
+      ],
+      "callout": "**Try it today:** find the biggest single item in last year's profit. Ask two things: was the work done, and does its cost sit in the same year?",
+      "next": "Next · Revenue that isn't real"
+    }
+  ]
+}

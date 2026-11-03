@@ -1,0 +1,248 @@
+{
+  "id": "OPS-05-09",
+  "unitId": "OPS-05",
+  "categoryId": "OPS",
+  "order": 9,
+  "type": "case",
+  "conceptTag": "Berlin's airport, nine years late",
+  "readerTitle": "Why Berlin's new airport opened nine years late",
+  "format": "counterexample",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 사례 (베를린 브란덴부르크 공항 BER) + 가상 적용 (물류센터 자동 분류 라인)",
+  "insight": "변경의 비용은 요청의 크기가 아니라, 그 결정 위에 이미 얼마나 많은 작업이 쌓여 있느냐로 정해진다.",
+  "misconception": "작은 변경 요청은 작은 비용으로 끝난다. 일정은 현장에서 열심히 하면 지킬 수 있다.",
+  "relatedLessonIds": [
+    "OPS-05-01",
+    "OPS-05-02"
+  ],
+  "sources": [
+    {
+      "text": "Berlin Brandenburg Airport, overview and timeline (construction start 2006, cancelled June 2012 opening, opening 31 October 2020)",
+      "url": "https://en.wikipedia.org/wiki/Berlin_Brandenburg_Airport"
+    },
+    {
+      "text": "Flughafen Berlin Brandenburg GmbH press releases on opening dates and the October 2020 opening",
+      "url": null
+    },
+    {
+      "text": "Berlin House of Representatives, BER committee of inquiry final reports (2016, 2021): causes including fire protection system, scope changes and contract structure",
+      "url": null
+    },
+    {
+      "text": "News coverage of the May 2012 postponement over fire safety approval (e.g. Deutsche Welle, Reuters, May 2012)",
+      "url": null
+    },
+    {
+      "text": "Flyvbjerg, B. (2014). What You Should Know About Megaprojects and Why. Project Management Journal.",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "착공 2006년, 최초 목표 개항 2011년 10월, 2012년 6월 3일 개항이 약 4주 전(2012년 5월)에 취소, 실제 개항 2020년 10월 31일. 게시 전 FBB 자료와 당시 보도로 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "2012년 개항 취소의 주된 이유가 화재 안전(배연) 시스템 승인 실패였다는 점을 당시 보도와 조사위원회 보고서로 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "공사 중 상업 면적 확대, 새 규정 대응 등 설계 변경이 배연 시스템 문제를 키웠다는 설명은 조사위원회 보고서 기준으로 확인이 필요합니다. 카드에는 구체 수치 없이 일반적으로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "최종 사업비는 자료마다 다르게 보도됩니다(초기 예산 약 20억 유로대, 최종 60억 유로 이상이라는 보도 다수). 확정 수치 대신 \"several times the original budget\"로만 적었습니다. 출처 확인 후 수치를 넣을지 결정하세요.",
+      "status": "open"
+    },
+    {
+      "note": "2008년 일괄 시공사(general contractor) 입찰이 예산을 넘어 취소되고 공항 회사가 여러 패키지로 나눠 직접 조정했다는 내용을 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "1번 카드의 \"airlines had already sold tickets\"는 2012년 당시 항공사(Air Berlin 등)의 운항 계획 보도로 확인이 필요합니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Projects · Counterexample",
+      "title": "Berlin's airport, nine years late",
+      "body": [
+        "In May 2012, Berlin's new airport was weeks from opening. Airlines had already sold tickets for flights from it. Then, about four weeks before opening day, it was called off.",
+        "It finally opened in October 2020. One of the biggest problems wasn't the runway or the terminal. It was the system meant to pull smoke out of the building in a fire."
+      ],
+      "image": {
+        "label": "An empty new airport terminal with departure boards switched off",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 완공된 듯 보이는 넓은 공항 터미널 내부, 사람은 없고 출발 안내판은 꺼져 있음. 천장 한쪽에 배연 덕트와 환풍구가 살짝 강조됨. 실제 공항 로고, 항공사 로고, 표지 문구는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "The building is going up. The change requests keep coming.",
+      "body": [
+        "Imagine you run the airport project, a few years into construction. The terminal is rising. Requests arrive: more space for shops and restaurants, which earn the airport money, plus changes to meet new rules. The opening date has been announced.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Accept the changes and hold the date. The builders will find a way.",
+            "verdict": "risky",
+            "feedback": "You keep the public promise for now. But each change lands on work already designed or built, and the date quietly stops being real."
+          },
+          {
+            "key": "B",
+            "text": "Take the required changes, move the nice-to-haves to a later phase, and re-plan the date",
+            "verdict": "best",
+            "feedback": "You give up some shop income and face an awkward announcement. In return you get a date that matches the actual work."
+          },
+          {
+            "key": "C",
+            "text": "Freeze the design completely. No changes at all.",
+            "verdict": "partial",
+            "feedback": "This protects the schedule, but some changes aren't optional. Rules still have to be met, so a total freeze only delays the fight."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "What happened",
+      "title": "Then the dates kept moving.",
+      "body": [
+        "Changes piled onto a design that was already being built. The fire safety system, which had to work with almost every part of the terminal, could not be approved in time. The final bill came to **several times** the original budget."
+      ],
+      "breakdown": [
+        {
+          "value": "2006",
+          "label": "Construction starts",
+          "detail": "Opening planned for 2011",
+          "highlight": false
+        },
+        {
+          "value": "2011",
+          "label": "First target missed",
+          "detail": "Opening moved to June 2012",
+          "highlight": false
+        },
+        {
+          "value": "May 2012",
+          "label": "Opening called off",
+          "detail": "About four weeks before, over fire safety",
+          "highlight": true
+        },
+        {
+          "value": "Oct 2020",
+          "label": "Airport opens",
+          "detail": "After more dates were set and missed",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The cost of a change depends on when it arrives.",
+      "body": [
+        "Early in a project, a change is a line on a drawing. Late in a project, the same change can mean tearing out finished work, reordering parts and re-testing everything connected to it.",
+        "**The cost of change** rises over a project's life, because more work comes to depend on each decision. How big the request sounds matters less than how much is already built on top of it."
+      ],
+      "image": {
+        "label": "A curve rising steeply from design to build to testing",
+        "aspectRatio": "16:9",
+        "brief": "단순한 상승 곡선 인포그래픽. 가로축 \"Design → Build → Test → Open\", 세로축 \"Cost of the same change\". 초반은 연필 한 자루, 후반은 부서진 벽과 공구 상자 아이콘. 곡선이 뒤로 갈수록 가파르게.",
+        "url": null
+      },
+      "softwareNote": "A new requirement in week one is a conversation. The same requirement a week before launch can mean changing how data is stored, moving existing records and re-testing every feature that touches them."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Why the smoke system was the worst place for changes.",
+      "body": [
+        "A fire safety system is not one part. It touches nearly all of them."
+      ],
+      "list": [
+        "**Layout:** change a room's size or use, and the smoke paths change",
+        "**Walls and ceilings:** smoke has to be steered through the building",
+        "**Controls:** fans, vents, doors and alarms must all work together",
+        "**Approval:** inspectors test the whole system, not the pieces"
+      ],
+      "callout": "Investigations also pointed out that the airport company coordinated many separate contractors itself, so each change had to pass between more firms."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Refusing every change isn't the answer either.",
+      "body": [
+        "Some late changes are worth it: a new law, a safety flaw, a customer who would leave otherwise. A project that refuses every change can finish on time and still be wrong.",
+        "The discipline is to price each change honestly, in time and money, before saying yes. Then move the date or move the change to a later phase.",
+        "And hindsight is easy. Berlin had many problems at once. Changes were one of them, not the only one."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a warehouse.",
+      "illustrative": true,
+      "body": [
+        "You're installing an automated sorting line in a distribution center. The conveyors are in, and testing starts next month.",
+        "Sales asks for a change: a big new customer ships oversized boxes, and the line should handle them. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Widen the line now so it's ready on launch day",
+            "verdict": "risky",
+            "feedback": "You win the customer's boxes but reopen finished work. Belts, sensors and chutes downstream may all change, and testing starts over."
+          },
+          {
+            "key": "B",
+            "text": "Launch as designed, handle oversized boxes by hand for now, and cost a proper upgrade",
+            "verdict": "best",
+            "feedback": "You keep the launch and learn real volumes first. The price is some manual work and a less polished pitch to the customer."
+          },
+          {
+            "key": "C",
+            "text": "Tell sales the customer can't be served",
+            "verdict": "partial",
+            "feedback": "This protects the project but may lose real revenue. The question is when and how to change, not whether to listen."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Ask what a change touches, not how big it sounds.",
+      "body": [
+        "The later a change arrives, the more finished work it can undo. Price it in time and money before you say yes.",
+        "**Try it today:** take one change request on your desk. List everything already built, ordered or promised that it touches. If the list is long, give it a later phase or a new date."
+      ],
+      "next": "Next · Your project is three months behind"
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "id": "FIN-08-10",
+  "unitId": "FIN-08",
+  "categoryId": "FIN",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Borrow to grow faster?",
+  "readerTitle": "A second store on borrowed money: four calls in a row",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.8,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (철물·원예 매장 2호점 대출) · 모든 수치는 설명용 · 회사 안의 팀 맥락은 Watch out 카드와 softwareNote에서 다룸",
+  "insight": "대출 결정은 '계획대로 되면 얼마 버나'가 아니라 '나쁜 해에도 상환하고 버틸 현금이 남나'로 판단한다.",
+  "misconception": "계획상 이익이 대출 상환액보다 크면 빌려서 키우는 게 안전하다.",
+  "relatedLessonIds": [
+    "FIN-08-04",
+    "FIN-08-05"
+  ],
+  "sources": [
+    {
+      "text": "재무관리의 표준 개념 (레버리지, 유동성, 위험과 수익, 복리 성장)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "상환액: 원리금 균등, 연 8%, 5년(60개월). 월 이율 0.6667%, (1.006667)^60 ≈ 1.4898. $300,000 × 0.006667 ÷ (1 − 1/1.4898) ≈ $6,083/월 ≈ $73,000/년. $200,000 → 약 $48,700/년, $150,000 → 약 $36,500/년 (비례).",
+      "status": "open"
+    },
+    {
+      "note": "대기 기간: 부족분 $150,000 ÷ 연 $120,000 = 1.25년 ≈ 15개월. 그동안 놓치는 2호점 계획 이익 $90,000 × 1.25 = $112,500 (\"more than $100,000\").",
+      "status": "open"
+    },
+    {
+      "note": "나쁜 해 가정: 2호점 계획 매출 $1,000,000, 매출총이익률 36%, 다른 비용은 고정. 매출 25% 감소 = $250,000 × 36% = $90,000 감소 → 2호점 이익 $0. 1호점은 같은 동네 경기 영향으로 $120,000 → $60,000 가정. $60,000 − $73,000 = −$13,000.",
+      "status": "open"
+    },
+    {
+      "note": "선택지별 나쁜 해: A $60,000 − $73,000 = −$13,000 (현금 $150,000), B $60,000 − $36,500 = +$23,500 (현금 $0), C $60,000 − $48,700 = +$11,300 (현금 $50,000). A의 추가 차입 $100,000 × 8% = 첫해 이자 약 $8,000.",
+      "status": "open"
+    },
+    {
+      "note": "재고 특가: $80,000 × 15% = $12,000 절감, 1호점 몫 $40,000 × 15% = $6,000 절감.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Simulation",
+      "title": "The bank says yes. Now the hard part starts.",
+      "illustrative": true,
+      "body": [
+        "You own a busy hardware and garden store. A shop across town is empty, and the bank will lend you $300,000 to open a second one.",
+        "The plan looks great. Over the next four decisions, you'll find out whether the plan survives a bad year."
+      ],
+      "image": {
+        "label": "A store owner holding a key in front of an empty shopfront",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 철물·원예 매장 주인이 빈 상가 앞에서 열쇠를 들고 서 있고, 한 손에는 은행 서류. 유리창에 'For lease' 종이. 실제 은행·브랜드 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "breakdown",
+      "eyebrow": "The setup",
+      "title": "Your numbers today.",
+      "illustrative": true,
+      "body": [
+        "The plan says store 2 would sell about $1,000,000 a year and earn **$90,000** once running. The loan: up to $300,000 at 8%, repaid over five years."
+      ],
+      "breakdown": [
+        {
+          "value": "$1.2M",
+          "label": "Store 1 sales",
+          "detail": "A steady, proven store",
+          "highlight": false
+        },
+        {
+          "value": "$120,000",
+          "label": "Left each year",
+          "detail": "After all costs and your own pay",
+          "highlight": false
+        },
+        {
+          "value": "$150,000",
+          "label": "Cash in the bank",
+          "detail": "Saved over several years",
+          "highlight": false
+        },
+        {
+          "value": "$300,000",
+          "label": "Cost of store 2",
+          "detail": "Fit-out plus opening stock",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 4",
+      "title": "Borrow now or save up?",
+      "illustrative": true,
+      "body": [
+        "The landlord wants an answer this month. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Wait about 15 months, save the rest, and pay cash",
+            "verdict": "partial",
+            "feedback": "No payments and no lender. But you give up more than $100,000 of planned profit, and the site may go to someone else."
+          },
+          {
+            "key": "B",
+            "text": "Borrow and sign this week. Store 2 should earn more than the payments",
+            "verdict": "risky",
+            "feedback": "That's true only if the plan comes true. The payments are fixed. The sales aren't."
+          },
+          {
+            "key": "C",
+            "text": "Borrow, but first check whether you could make the payments in a bad year",
+            "verdict": "best",
+            "feedback": "You keep the chance to grow now, and you learn how much risk the loan really adds before you sign."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "breakdown",
+      "eyebrow": "Say you tested first",
+      "title": "A bad year, on paper.",
+      "illustrative": true,
+      "body": [
+        "You imagine a slow year. Both stores share one town, so both slip. Store 2 sells 25% below plan, and its profit disappears.",
+        "On a full $300,000 loan, you'd be **$13,000 short**. You can survive that only if cash covers the gap."
+      ],
+      "breakdown": [
+        {
+          "value": "$60,000",
+          "label": "Store 1, bad year",
+          "detail": "Half its usual $120,000",
+          "highlight": false
+        },
+        {
+          "value": "$0",
+          "label": "Store 2, bad year",
+          "detail": "Sales 25% below plan",
+          "highlight": false
+        },
+        {
+          "value": "−$73,000",
+          "label": "Loan payments",
+          "detail": "$300,000 at 8% over 5 years",
+          "highlight": false
+        },
+        {
+          "value": "−$13,000",
+          "label": "Shortfall",
+          "detail": "Must come from cash",
+          "highlight": true
+        }
+      ],
+      "softwareNote": "In a software company, the fixed payment is often a team. Hiring ahead of revenue works like a loan against future sales. Run the same test: if new revenue lands 25% below plan, how many months of cash are left?"
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 4",
+      "title": "How much of your own cash goes in?",
+      "illustrative": true,
+      "body": [
+        "You have $150,000. Store 2 costs $300,000. In each option, the bad-year result is store 1's $60,000 minus the yearly payments."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Borrow all $300,000 and keep all your cash. Payments: $73,000 a year",
+            "verdict": "partial",
+            "feedback": "The biggest cushion, easily covering a $13,000 gap. But you pay 8% on $100,000 more than you need, about $8,000 in the first year."
+          },
+          {
+            "key": "B",
+            "text": "Put in all $150,000 and borrow $150,000. Payments: $36,500",
+            "verdict": "risky",
+            "feedback": "A bad year still leaves $23,500, but you have no cash at all. One broken delivery van or slow month and you're calling the bank."
+          },
+          {
+            "key": "C",
+            "text": "Put in $100,000, borrow $200,000 and keep $50,000. Payments: $48,700",
+            "verdict": "best",
+            "feedback": "A bad year still leaves about $11,300, and $50,000 sits ready for surprises. Smaller payments than A, and the cushion B lacks."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 4",
+      "title": "A discount you can't quite afford.",
+      "illustrative": true,
+      "body": [
+        "Say you chose C. Eight months in, store 2 is selling 25% below plan. Store 1 is fine.",
+        "A supplier offers 15% off if you buy $80,000 of next season's stock now. The bank will lend it short term."
+      ],
+      "image": {
+        "label": "A stockroom stacked high with boxes and a price tag reading 15% off",
+        "aspectRatio": "16:9",
+        "brief": "매장 창고에 상자가 천장까지 쌓여 있고 '15% off' 가격표가 붙어 있음. 한쪽에 '$50,000 cash'라고 적힌 작은 금고. 상자 무게에 눌린 느낌. 실제 브랜드 로고 없음.",
+        "url": null
+      },
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Borrow $80,000 and take the full deal. You save $12,000",
+            "verdict": "risky",
+            "feedback": "A second payment arrives while store 2 is weak, and your money sits in boxes that may sell slowly. A good price on stock you can't sell is not a saving."
+          },
+          {
+            "key": "B",
+            "text": "Buy only store 1's half, $40,000, with the short-term loan. You save $6,000",
+            "verdict": "partial",
+            "feedback": "Store 1's stock will sell, so the risk is smaller. But you still add debt before you know if store 2 will recover."
+          },
+          {
+            "key": "C",
+            "text": "Decline, keep the $50,000 cash, and fix store 2's costs first",
+            "verdict": "best",
+            "feedback": "You give up $12,000 of discount. You keep your cushion in cash while the weakest part of the plan is still unproven."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Decision 4 of 4",
+      "title": "The bank wants to lend you more.",
+      "illustrative": true,
+      "body": [
+        "Say you kept your cash. You trimmed store 2's hours and stock, and by month 20 it's running close to plan.",
+        "The bank is pleased. It offers another $300,000 for a third store."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Sign now, while the bank is willing",
+            "verdict": "risky",
+            "feedback": "Two loans, one store barely proven and a $50,000 cushion. A bad year now would hit three stores' payments at once."
+          },
+          {
+            "key": "B",
+            "text": "Stop growing and pay off the first loan early",
+            "verdict": "partial",
+            "feedback": "The safest path, but you give up the return you took the risk for. Standing still has a cost too."
+          },
+          {
+            "key": "C",
+            "text": "Wait until store 2 has a full year near plan and cash is rebuilt, then rerun the bad-year test",
+            "verdict": "best",
+            "feedback": "You grow again, on proof instead of hope, with a cushion sized for the bigger debt."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The test is only as good as its guesses.",
+      "body": [
+        "Your bad year assumed both stores fell together, because they share one town. That was the right instinct. Real bad years rarely hit just one part of a business.",
+        "Halving profit is still a guess. A worse year, or a rate that rises on a variable loan, can break a plan that passed the test.",
+        "The same logic applies inside larger companies. A team that hires ahead of next year's budget takes on a fixed cost against uncertain revenue."
+      ],
+      "image": {
+        "label": "Two storefronts under one storm cloud",
+        "aspectRatio": "16:9",
+        "brief": "같은 동네에 있는 매장 두 곳 위에 먹구름 하나가 함께 떠 있음. 두 매장 모두 손님이 줄어든 분위기. 실제 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Borrow for growth you could survive missing.",
+      "body": [
+        "Each decision you made was one idea from this unit:"
+      ],
+      "list": [
+        "**Borrow now or wait → Leverage:** debt speeds growth, but the payments stay fixed while sales move.",
+        "**How much cash to keep → Liquid vs illiquid:** cash on hand turns a bad year into a setback, not a crisis.",
+        "**The stock deal → Risk and return:** a $12,000 discount wasn't worth more debt and stock that sells slowly.",
+        "**The third store → Compound growth:** growth only compounds if you survive long enough to keep growing."
+      ],
+      "callout": "**Try it today:** take your biggest fixed commitment. Cut next year's revenue by a quarter and check whether you can still pay it.",
+      "next": "Next · Where should the next dollar go?"
+    }
+  ]
+}

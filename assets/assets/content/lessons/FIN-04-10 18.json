@@ -1,0 +1,354 @@
+{
+  "id": "FIN-04-10",
+  "unitId": "FIN-04",
+  "categoryId": "FIN",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Cut costs by 15%",
+  "readerTitle": "Your bank says cut costs by 15%. Where do you start?",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.9,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (12인 규모 철제 브래킷 제조 공장, 소프트웨어 구독 포함) · 모든 수치는 설명용",
+  "insight": "비용 절감 목표는 수단일 뿐이다. 판단 기준은 절감률이 아니라 그 결정이 이익과 손익분기점을 어떻게 바꾸느냐다.",
+  "misconception": "비용을 목표만큼(예: 15%) 줄이면 그만큼 사업이 건강해진다. 모든 부서를 똑같이 깎는 것이 가장 공정하고 안전하다.",
+  "relatedLessonIds": [
+    "FIN-04-01",
+    "FIN-04-04"
+  ],
+  "sources": [
+    {
+      "text": "관리회계의 표준 개념 (손익분기점, 공헌이익, 고정비·변동비 구분, 고정비 배분의 함정)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "시작 상태: 매출 $200,000, 변동비 $120,000(철강 $70,000 포함), 고정비 $60,000, 이익 $20,000. 총비용 $180,000 × 15% = $27,000. 공헌이익률 80,000 ÷ 200,000 = 40%, 손익분기 매출 60,000 ÷ 0.40 = $150,000.",
+      "status": "open"
+    },
+    {
+      "note": "철강 5% 인하: 70,000 × 5% = $3,500. 변동비 $116,500, 공헌이익 $83,500, 공헌이익률 41.75%. 손익분기 60,000 ÷ 0.4175 = $143,713(약 $144,000). 신규 공급사 10% 인하 = $7,000, 월 $20,000 고객 이탈 시 공헌이익 손실 20,000 × 40% = $8,000.",
+      "status": "open"
+    },
+    {
+      "note": "맞춤 주문 라인: 매출 $30,000 − 변동비 $21,000 = $9,000. 배분 고정비 $15,000 → 보고서상 −$6,000. 셋업비 $150 × 40건 = $6,000(주문 수 유지 가정, 셋업비에는 변동비 없음으로 단순화).",
+      "status": "open"
+    },
+    {
+      "note": "영업 담당 해고: 급여 $6,000 절감, 담당 매출 $40,000 × 41.75% = $16,700 손실, 순 −$10,700. 소프트웨어 미사용 좌석 $1,500 + 유휴 지게차 리스 $2,000 = $3,500. 프레스 정지 시 일일 공헌이익 약 83,500 ÷ 20영업일 ≈ $4,175, 3일이면 약 4개월치 유지보수비($3,000/월)를 넘음.",
+      "status": "open"
+    },
+    {
+      "note": "최종: 비용 절감 $3,500 + $3,500 = $7,000 (180,000의 3.9%). 이익 20,000 + 3,500 + 6,000 + 3,500 = $33,000 (+65%). 새 손익분기: 고정비 $56,500, 매출 $206,000, 공헌이익 $89,500 → 56,500 × 206,000 ÷ 89,500 ≈ $130,045(약 $130,000).",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Simulation",
+      "title": "Your bank says: cut costs by 15%.",
+      "illustrative": true,
+      "body": [
+        "You run a 12-person plant that makes steel shelf brackets. Sales are steady. Profit is thin.",
+        "Your bank will renew your credit line if you bring a plan to cut costs by 15%. That's $27,000 a month. You have four calls to make."
+      ],
+      "image": {
+        "label": "Factory owner at a desk with a letter reading 15%",
+        "aspectRatio": "4:3",
+        "brief": "작은 금속 가공 공장 사무실. 책상 위에 큼직한 \"-15%\"가 적힌 은행 편지, 창밖으로 프레스 기계와 쌓인 철제 브래킷. 실제 은행 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/fin-04-10-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Call 1 of 4",
+      "title": "Where do you start?",
+      "illustrative": true,
+      "body": [
+        "The plant brings in $200,000 a month and spends $180,000. Profit is $20,000. The bank wants a plan in a week."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Ask every team to cut its budget by 15%",
+            "verdict": "risky",
+            "feedback": "Fast and it feels fair. But lean teams get cut as deep as wasteful ones, and a cut to sales can lose more than it saves."
+          },
+          {
+            "key": "B",
+            "text": "List every cost by size, and sort it: comes with each sale, or fixed",
+            "verdict": "best",
+            "feedback": "Slower by a day, but you see which cuts lower your break-even and which just shrink the business."
+          },
+          {
+            "key": "C",
+            "text": "Start with the biggest fixed cost: let two workers go",
+            "verdict": "partial",
+            "feedback": "Wages are real money. But without knowing who makes what, you may cut the people who make your best-selling brackets."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "Say you chose B",
+      "title": "Here's your month, sorted.",
+      "illustrative": true,
+      "body": [
+        "Break-even is $60,000 ÷ 40% = **$150,000** in sales. Notice: you can't cut 15% of your steel without making fewer brackets."
+      ],
+      "breakdown": [
+        {
+          "value": "$200,000",
+          "label": "Sales",
+          "detail": "What customers pay each month",
+          "highlight": false
+        },
+        {
+          "value": "−$120,000",
+          "label": "Costs that come with each sale",
+          "detail": "Steel ($70,000), packaging, freight",
+          "highlight": false
+        },
+        {
+          "value": "$80,000",
+          "label": "Left over",
+          "detail": "40% of every sale",
+          "highlight": true
+        },
+        {
+          "value": "−$60,000",
+          "label": "Fixed costs",
+          "detail": "Rent, wages, leases, software",
+          "highlight": false
+        },
+        {
+          "value": "$20,000",
+          "label": "Profit",
+          "detail": "What the bank is worried about",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Call 2 of 4",
+      "title": "A cheaper steel supplier calls.",
+      "illustrative": true,
+      "body": [
+        "Steel is your biggest cost. A new supplier offers 10% less, saving $7,000 a month. But two of their five sample batches had more rejects than usual."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Switch all your steel now",
+            "verdict": "risky",
+            "feedback": "You save $7,000 on paper. If bad brackets cost you one $20,000-a-month customer, you lose $8,000 of what's left after costs. The saving is gone."
+          },
+          {
+            "key": "B",
+            "text": "Show the quote to your current supplier and offer a two-year contract",
+            "verdict": "best",
+            "feedback": "You give up some flexibility to get a lower price on steel you trust. Suppliers often move for a longer commitment."
+          },
+          {
+            "key": "C",
+            "text": "Try the new steel on low-stress brackets for one month",
+            "verdict": "partial",
+            "feedback": "A careful test that limits damage. But it saves little now and splits your buying power between two suppliers."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "chart",
+      "eyebrow": "Say your supplier cut 5%",
+      "title": "A small cut moved your break-even.",
+      "illustrative": true,
+      "body": [
+        "That's $3,500 a month. Small, but it lands on every bracket. Each sale now leaves 41.75% instead of 40%, so break-even drops to about $144,000."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Monthly sales needed to break even",
+            "rows": [
+              {
+                "label": "Before",
+                "value": 150000,
+                "highlight": false
+              },
+              {
+                "label": "After the steel deal",
+                "value": 143713,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "callout": "Cutting a cost that comes with each sale makes every future sale worth more."
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Call 3 of 4",
+      "title": "Your report says one line loses money.",
+      "illustrative": true,
+      "body": [
+        "Small custom orders bring in $30,000 a month. Their steel and extra handling cost $21,000, so they leave $9,000.",
+        "But the accountant spreads $15,000 of rent and machine costs onto them. The report shows a $6,000 loss."
+      ],
+      "image": {
+        "label": "Custom order line with a red loss figure on a report",
+        "aspectRatio": "16:9",
+        "brief": "공장 한쪽 소량 맞춤 주문 작업대. 옆에 보고서가 떠 있고 \"-$6,000\"이 빨간색. 보고서 아래쪽에 작게 \"Leaves $9,000\"이 초록색으로 숨어 있는 느낌. 로고 없음.",
+        "url": "assets/images/fin-04-10-c6.jpg"
+      },
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Drop the custom line",
+            "verdict": "risky",
+            "feedback": "The $9,000 they leave behind disappears, but the rent and machines stay. Profit falls by $9,000 instead of rising by $6,000."
+          },
+          {
+            "key": "B",
+            "text": "Keep it, and add a $150 setup fee to each custom order",
+            "verdict": "best",
+            "feedback": "You keep the $9,000 and charge for the extra work these orders cause. Some customers may push back, so watch how many stay."
+          },
+          {
+            "key": "C",
+            "text": "Keep it exactly as it is",
+            "verdict": "partial",
+            "feedback": "You avoid a costly mistake. But orders that tie up your machines could be paying more."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Call 4 of 4",
+      "title": "Now the fixed costs.",
+      "illustrative": true,
+      "body": [
+        "Say the 40 custom orders a month keep coming. The fee adds $6,000.",
+        "Three fixed-cost ideas are on your desk. Which do you take?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Let one of your two salespeople go",
+            "verdict": "risky",
+            "feedback": "Saves $6,000 a month. Her accounts bring $40,000 in sales, which leave about $16,700 after costs. You'd be $10,700 worse off."
+          },
+          {
+            "key": "B",
+            "text": "Cancel unused software seats and an idle forklift lease",
+            "verdict": "best",
+            "feedback": "That's $3,500 a month nobody will miss. The best fixed-cost cuts remove things that help no one make or sell anything."
+          },
+          {
+            "key": "C",
+            "text": "Drop the maintenance contract on your main press",
+            "verdict": "risky",
+            "feedback": "Saves $3,000 a month until the press breaks. A few days of stopped production can wipe out months of savings."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "In a software business, the costs that come with each sale are usually small, so most cuts land on fixed costs like people and cloud contracts. Same test: cancel what nobody uses before cutting the team that builds or sells."
+    },
+    {
+      "index": 8,
+      "type": "breakdown",
+      "eyebrow": "The result",
+      "title": "You missed the target. Profit rose 65%.",
+      "illustrative": true,
+      "body": [
+        "You cut costs by $7,000, under 4%. But profit went from $20,000 to **$33,000**, and break-even fell from $150,000 to about $130,000.",
+        "That's the plan to show the bank. It answers the real question: can you repay?"
+      ],
+      "breakdown": [
+        {
+          "value": "+$3,500",
+          "label": "Steel contract",
+          "detail": "Lower cost on every bracket",
+          "highlight": false
+        },
+        {
+          "value": "+$6,000",
+          "label": "Setup fee",
+          "detail": "Kept the line, priced the extra work",
+          "highlight": false
+        },
+        {
+          "value": "+$3,500",
+          "label": "Unused seats and lease",
+          "detail": "Fixed costs nobody missed",
+          "highlight": false
+        },
+        {
+          "value": "$33,000",
+          "label": "New monthly profit",
+          "detail": "Up from $20,000",
+          "highlight": true
+        }
+      ],
+      "callout": "The calls that helped most were not the biggest cuts."
+    },
+    {
+      "index": 9,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Sometimes a blunt cut is the right call.",
+      "body": [
+        "If cash is running out, you may need fast, broad cuts, even ones that hurt. Waiting a month for the perfect plan can cost more than a rough cut today.",
+        "And the setup fee is a bet. If custom customers leave, redo the math. Cost targets aren't wrong. They just aren't the goal. **Profit and survival** are."
+      ]
+    },
+    {
+      "index": 10,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A cost target is a tool. Profit is the goal.",
+      "body": [
+        "Each call used an idea from this unit:"
+      ],
+      "list": [
+        "**Call 1:** sort costs into those that come with each sale and fixed ones (break-even point)",
+        "**Call 2:** a cheaper input lowers break-even, but only if quality holds",
+        "**Call 3:** judge a product line by what it leaves, not by spread-out costs (product mix)",
+        "**Call 4:** cut costs that don't drive sales before costs that do (cutting costs vs growing revenue)"
+      ],
+      "callout": "**Try it today:** list your five biggest costs. Next to each, write what you'd lose in sales if you cut it by half.",
+      "next": "Next · What a budget is really for"
+    }
+  ]
+}

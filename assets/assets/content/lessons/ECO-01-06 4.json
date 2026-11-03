@@ -1,0 +1,231 @@
+{
+  "id": "ECO-01-06",
+  "unitId": "ECO-01",
+  "categoryId": "ECO",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Comparative advantage",
+  "readerTitle": "Why your best person shouldn't do everything",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (회사 내 팀, 도매 창고 두 곳) + 실제 고전 이론 (Ricardo, 1817) · 팀과 창고 수치는 설명용",
+  "insight": "일을 나눌 때는 누가 더 잘하느냐가 아니라 누가 그 일을 할 때 포기하는 것이 가장 적으냐를 본다.",
+  "misconception": "모든 일을 더 빨리, 더 잘하는 사람이 있으면 그 사람이 최대한 많이 맡는 것이 가장 효율적이다.",
+  "relatedLessonIds": [
+    "ECO-01-03",
+    "ECO-01-08"
+  ],
+  "sources": [
+    {
+      "text": "Ricardo, D. (1817). On the Principles of Political Economy and Taxation, Chapter 7 'On Foreign Trade' (England and Portugal, cloth and wine).",
+      "url": null
+    },
+    {
+      "text": "팀과 창고 수치는 모두 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "팀 계산: Maya 분석 1페이지 1시간, 슬라이드 0.5시간 / Sam 분석 4시간, 슬라이드 1시간. Maya 혼자 전부: 10×1 + 10×0.5 = 15시간. 반반 분담: Maya 5 + 2.5 = 7.5시간, Sam 20 + 5 = 25시간, 완료 25시간, 총 32.5시간. 전문화: Maya 분석 10시간, Sam 슬라이드 10시간, 완료 10시간, 총 20시간.",
+      "status": "open"
+    },
+    {
+      "note": "기회비용: Maya 슬라이드 1장 = 분석 0.5페이지, Sam 슬라이드 1장 = 분석 0.25페이지. Maya 분석 1페이지 = 슬라이드 2장, Sam 분석 1페이지 = 슬라이드 4장. 따라서 Sam은 슬라이드, Maya는 분석에 비교우위.",
+      "status": "open"
+    },
+    {
+      "note": "Ricardo 원문 수치(연간 노동자 수): 포르투갈 와인 80, 옷감 90 / 영국 와인 120, 옷감 100. 카드에는 수치 없이 '포르투갈이 둘 다 더 적은 노동으로 생산'이라고만 적었습니다. 게시 전 원문으로 재확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "창고 계산: City 시간당 팔레트 4개 또는 소포 40개 → 팔레트 1개 = 소포 10개. Suburb 시간당 팔레트 1개 또는 소포 20개 → 팔레트 1개 = 소포 20개. City는 팔레트, Suburb는 소포에 비교우위. Suburb는 소포에서 City의 절반 속도, 팔레트에서 1/4 속도.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Economics · Everyday scene",
+      "title": "Why your best person shouldn't do everything",
+      "illustrative": true,
+      "body": [
+        "Maya is the strongest person on her team. She writes analysis faster than her junior colleague, Sam. She also builds slides faster.",
+        "A client pack is due Friday. The obvious move is to give Maya as much of it as possible. The obvious move is wrong."
+      ],
+      "image": {
+        "label": "One busy manager at a desk piled with work, a colleague nearby with an empty desk",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 사무실 책상 두 개. 왼쪽 매니저 책상에는 문서와 슬라이드가 산처럼 쌓여 있고, 오른쪽 주니어 책상은 거의 비어 있음. 따뜻한 색감, 실제 회사 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Who should do what?",
+      "illustrative": true,
+      "body": [
+        "The pack needs 10 pages of analysis and 10 slides. Maya takes 1 hour per page and 30 minutes per slide. Sam takes 4 hours per page and 1 hour per slide.",
+        "Maya is faster at both. How do you split the work?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Maya does all of it. She's faster at everything",
+            "verdict": "risky",
+            "feedback": "Each task gets done at top speed, but Sam's hours go unused. Maya needs 15 hours, and nothing moves while she's busy."
+          },
+          {
+            "key": "B",
+            "text": "Split it evenly: each does 5 pages and 5 slides",
+            "verdict": "partial",
+            "feedback": "It feels fair and uses both people. But Sam spends 20 hours on analysis, his slowest task, and the pack takes 25 hours."
+          },
+          {
+            "key": "C",
+            "text": "Maya does all the analysis, Sam does all the slides",
+            "verdict": "best",
+            "feedback": "Each person does the task where they lose the least. Both finish in 10 hours. The next card shows why."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Three ways to split one pack.",
+      "illustrative": true,
+      "body": [
+        "Specializing also uses the fewest total hours: **20**, versus 32.5 for the even split. Same people, same skills, half the waiting."
+      ],
+      "breakdown": [
+        {
+          "value": "15 h",
+          "label": "Maya does everything",
+          "detail": "Fast work, but one person carries it all",
+          "highlight": false
+        },
+        {
+          "value": "25 h",
+          "label": "Even split",
+          "detail": "Sam's 20 hours on analysis set the finish time",
+          "highlight": false
+        },
+        {
+          "value": "10 h",
+          "label": "Analysis to Maya, slides to Sam",
+          "detail": "Both finish at the same time",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Comparative advantage",
+      "body": [
+        "**Comparative advantage** means you're the one who gives up the least to do a task, even if someone else does it faster.",
+        "Every slide Maya makes costs her half a page of analysis. Every slide Sam makes costs him only a quarter page. Sam is slower at everything, but slides cost him the least.",
+        "Being faster outright is called *absolute advantage*. It tells you who is skilled. Comparative advantage tells you who should do what."
+      ],
+      "image": {
+        "label": "Two scales comparing what each person gives up to make one slide",
+        "aspectRatio": "16:9",
+        "brief": "저울 두 개 인포그래픽. 왼쪽 'Maya: 1 slide = ½ page', 오른쪽 'Sam: 1 slide = ¼ page'. 오른쪽 저울에서 포기하는 분석 페이지 조각이 더 작게 보이도록 강조.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Where it comes from",
+      "title": "An idea first used for wine and cloth.",
+      "body": [
+        "In 1817, the economist David Ricardo asked why England and Portugal should trade. In his example, Portugal could make both wine and cloth with less labor than England.",
+        "Trade still made both countries better off. Portugal was furthest ahead in wine, England least behind in cloth. If each focused there and traded, both ended up with more of everything.",
+        "Two centuries later, the same logic works for two people and one client pack."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where you'll see it",
+      "title": "The hidden cost of the star doing small tasks.",
+      "body": [
+        "The pattern shows up wherever one person or unit is strong at many things. The owner who restocks shelves. The head chef who peels vegetables. The best salesperson who formats contracts.",
+        "Each is often faster than anyone else at the small task. But every hour there is an hour taken from the work only they can do well. The right question is not *who does this best?* but *what does each person give up to do it?*"
+      ],
+      "softwareNote": "A senior engineer may fix bugs faster than anyone. If each bug fix costs a day of system design no one else can do, handing bugs to a slower teammate can ship more overall."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Handoffs and growth have costs too.",
+      "body": [
+        "The math assumes passing work along is free. In real life, briefing, waiting and fixing mistakes take time. If a handoff costs more than the gain, keep the task.",
+        "People also grow. If Sam only ever builds slides, he never gets better at analysis, and Maya stays the bottleneck. Specialize for this week's deadline, but plan for who learns what next.",
+        "And splitting work cleanly can leave one person as a single point of failure."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's two warehouses.",
+      "illustrative": true,
+      "body": [
+        "You run a wholesaler with two warehouses. In an hour, City can pack 4 pallet orders or 40 small parcels. Suburb can pack 1 pallet or 20 parcels.",
+        "City is faster at both. How do you route the orders?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Send everything to City and use Suburb as backup",
+            "verdict": "risky",
+            "feedback": "Each order is packed at top speed, but City clogs while Suburb sits idle. You pay for two warehouses and use one."
+          },
+          {
+            "key": "B",
+            "text": "City packs pallets, Suburb packs parcels",
+            "verdict": "best",
+            "feedback": "A pallet costs City 10 parcels but costs Suburb 20. Suburb is least behind in parcels, so each site does what it gives up the least for."
+          },
+          {
+            "key": "C",
+            "text": "Split both order types evenly between the two",
+            "verdict": "partial",
+            "feedback": "Both sites stay busy, which helps. But Suburb spends hours on pallets, where it's slowest, so total output drops."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Give each task to whoever gives up the least to do it.",
+      "body": [
+        "Being the best at something doesn't mean you should do it. What matters is what each person, team or site loses by taking it on.",
+        "**Try it today:** list three tasks you did this week that someone else could do. For each, write what you could have done with that hour instead."
+      ],
+      "next": "Next · Why concert tickets sell out in minutes"
+    }
+  ]
+}

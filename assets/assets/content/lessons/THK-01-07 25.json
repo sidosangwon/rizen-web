@@ -1,0 +1,261 @@
+{
+  "id": "THK-01-07",
+  "unitId": "THK-01",
+  "categoryId": "THK",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "Should a café add delivery?",
+  "readerTitle": "Should a café add delivery? Two questions before you say yes",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (카페의 배달 앱 입점, 예약 소프트웨어의 앱 마켓 입점) · 모든 수치는 설명용",
+  "insight": "새 판매 채널은 '얼마나 더 팔까'가 아니라 '그다음엔 무슨 일이 생기고, 어떻게 하면 망할까'를 먼저 묻고 그 답으로 조건을 정한다.",
+  "misconception": "배달 앱에 올리면 새 손님이 늘어나니 매출이 그대로 더해진다.",
+  "relatedLessonIds": [
+    "THK-01-02",
+    "THK-01-03"
+  ],
+  "sources": [
+    {
+      "text": "이 유닛의 개념 레슨: 2차적 사고(THK-01-02), 역발상(THK-01-03)",
+      "url": null
+    },
+    {
+      "text": "모든 수치와 수수료율은 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "매장 판매: $12 − 재료 $4.00 = $8.00. 배달 판매: $12 − 수수료 30% $3.60 − 재료 $4.00 − 포장 $0.60 = $3.80. 실제 배달 앱 수수료는 지역·계약마다 다르므로 카드에 'Say the app takes 30%'로 가정임을 밝혔습니다.",
+      "status": "open"
+    },
+    {
+      "note": "매장 손님 한 명이 배달로 옮기면 $8.00 − $3.80 = $4.20을 덜 남깁니다. 카드 3·5의 문장과 일치하는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "앱 마켓 사례는 특정 플랫폼의 실제 조건이 아닌 가상 설정입니다. 실제 플랫폼명이나 수수료율을 넣지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Apply",
+      "title": "Should a café add delivery?",
+      "illustrative": true,
+      "body": [
+        "Mina runs a busy café. Mornings and lunch are packed. Afternoons are quiet.",
+        "A delivery app rep stops by with a simple pitch: \"Thousands of new customers. No extra staff. Just say yes.\" It sounds like free money. Two thinking tools from this unit say it's worth a closer look."
+      ],
+      "image": {
+        "label": "Café counter with a delivery bag and a phone showing new orders",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 톤의 작은 카페 카운터. 한쪽엔 매장 손님 줄, 다른 쪽엔 배달 봉투와 주문 알림이 쌓이는 휴대폰. 실제 배달 앱 로고나 브랜드 색은 쓰지 않음.",
+        "url": "assets/images/thk-01-07-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What would you tell the rep?",
+      "illustrative": true,
+      "body": [
+        "Mina's lunch bowl sells for $12. The app is ready to list her whole menu tomorrow.",
+        "What's your first move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Sign up with the full menu and see what happens",
+            "verdict": "risky",
+            "feedback": "Fast to try, but it skips the second-order question: what happens to the lunch rush and to regulars once orders start arriving?"
+          },
+          {
+            "key": "B",
+            "text": "Say yes only after setting rules: which items, which hours, what price",
+            "verdict": "best",
+            "feedback": "You keep the upside of new customers and use inversion to block the likely ways delivery could hurt the café."
+          },
+          {
+            "key": "C",
+            "text": "Say no. Delivery is for big chains",
+            "verdict": "partial",
+            "feedback": "You avoid the risks, but you also give up the quiet-afternoon sales without testing whether they're real."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The first-order view",
+      "title": "One bowl, two ways to sell it.",
+      "illustrative": true,
+      "body": [
+        "Say the app takes 30%. A delivery bowl leaves **$3.80**. A bowl sold at the counter leaves $8.00. A brand-new customer still adds money. A regular who switches to the app costs Mina $4.20."
+      ],
+      "breakdown": [
+        {
+          "value": "$12.00",
+          "label": "Price",
+          "detail": "Same on the app and at the counter",
+          "highlight": false
+        },
+        {
+          "value": "−$3.60",
+          "label": "App fee",
+          "detail": "30% of the price (assumed)",
+          "highlight": false
+        },
+        {
+          "value": "−$4.60",
+          "label": "Food and packaging",
+          "detail": "$4.00 ingredients + $0.60 box",
+          "highlight": false
+        },
+        {
+          "value": "$3.80",
+          "label": "Left over",
+          "detail": "Versus $8.00 for a counter sale",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Tool 1 · Second-order thinking",
+      "title": "Ask \"and then what?\"",
+      "illustrative": true,
+      "body": [
+        "**Second-order thinking** looks past the first result to what it causes next. The first result here is \"more orders.\" The chain doesn't stop there."
+      ],
+      "list": [
+        "Delivery orders land during the lunch rush",
+        "The kitchen slows, and the counter line waits longer",
+        "Some regulars skip the line and order on the app",
+        "Each switch turns an $8.00 sale into a $3.80 one"
+      ],
+      "callout": "The pitch counts new customers. It doesn't count the old ones who move."
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which question should Mina answer first?",
+      "illustrative": true,
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "How many new customers will the app bring?",
+            "verdict": "partial",
+            "feedback": "Useful, but that's the first-order number the rep already sold her. It says nothing about who leaves the counter."
+          },
+          {
+            "key": "B",
+            "text": "How many delivery orders would replace counter visits?",
+            "verdict": "best",
+            "feedback": "This is second-order thinking at work. Each replaced visit costs $4.20, so a few switches can cancel many new orders."
+          },
+          {
+            "key": "C",
+            "text": "Will the menu photos look good on the app?",
+            "verdict": "risky",
+            "feedback": "Nice to have, but it polishes the decision without testing whether it makes money."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Tool 2 · Inversion",
+      "title": "Ask how delivery could ruin the café.",
+      "illustrative": true,
+      "body": [
+        "**Inversion** means thinking backwards: picture the failure, then work out how to avoid it. Mina lists ways delivery could go badly, then turns each into a rule."
+      ],
+      "list": [
+        "Soggy fries earn bad reviews under her name → **only list food that travels well**",
+        "Lunch rush collapses → **pause the app from 12 to 2**",
+        "Regulars switch → **set app prices above counter prices**",
+        "Too much income flows through one app → **cap delivery at a small share of sales**"
+      ],
+      "image": {
+        "label": "Failure list on the left, matching rules on the right",
+        "aspectRatio": "16:9",
+        "brief": "두 칸 인포그래픽. 왼쪽 \"How it fails\"(눅눅한 음식, 점심 혼잡, 단골 이탈, 앱 의존), 오른쪽 \"Our rule\"이 화살표로 하나씩 연결. 실제 앱 로고 없음.",
+        "url": "assets/images/thk-01-07-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "These tools can talk you out of everything.",
+      "body": [
+        "Anyone can imagine a long chain of bad outcomes. If every chain ends in \"no,\" you'll never try anything new.",
+        "The goal isn't to predict the future perfectly. It's to find the two or three effects that matter most, set rules for them, and start small. Then check real numbers after a month and adjust."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's booking software.",
+      "illustrative": true,
+      "body": [
+        "You sell booking software for salons. A large platform invites you into its app marketplace. It would bring new users, handle billing and keep a share of each subscription.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Join, and move existing customers to marketplace billing to keep things simple",
+            "verdict": "risky",
+            "feedback": "Simpler billing, but second-order thinking flags it: customers who already paid you in full now pay through someone who takes a cut."
+          },
+          {
+            "key": "B",
+            "text": "Join for new users only, keep direct billing, and plan for the platform changing its terms",
+            "verdict": "best",
+            "feedback": "You gain new users and use inversion to guard against the worst case: depending on one partner who can change the rules."
+          },
+          {
+            "key": "C",
+            "text": "Decline. Platforms always take advantage",
+            "verdict": "partial",
+            "feedback": "You keep full control, but you skip a channel you could have tested with clear limits."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Before you add a channel, ask what follows and how it fails.",
+      "body": [
+        "You used two tools here. **Second-order thinking** showed that new sales can replace old ones. **Inversion** turned the ways it could fail into rules for saying yes.",
+        "**Try it today:** pick one new channel or offer you're considering. Write one \"and then what?\" chain and one way it could go wrong. Turn that into a rule."
+      ],
+      "next": "Next · Rebuild a product's cost from scratch"
+    }
+  ]
+}

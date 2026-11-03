@@ -1,0 +1,273 @@
+{
+  "id": "FIN-06-05",
+  "unitId": "FIN-06",
+  "categoryId": "FIN",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "What drives value",
+  "readerTitle": "Same profit, same growth, $60 million apart",
+  "format": "two_businesses",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (화물 운송 회사 vs 경로 최적화 소프트웨어 회사, 베이커리 체인) + 실제 문헌 (Buffett 1992 주주서한, McKinsey의 Valuation). 모든 수치는 설명용입니다.",
+  "insight": "같은 이익, 같은 성장률이라도 성장에 들어가는 돈이 다르면 기업 가치가 달라진다. 성장은 재투자한 돈이 그 돈의 비용보다 더 벌 때만 가치를 만든다.",
+  "misconception": "성장률이 높을수록 회사 가치는 무조건 올라간다. 이익과 성장률이 같으면 가치도 같다.",
+  "relatedLessonIds": [
+    "FIN-06-03",
+    "FIN-09-02"
+  ],
+  "sources": [
+    {
+      "text": "Buffett, W. (1992). Berkshire Hathaway Chairman's Letter to Shareholders (성장과 가치에 관한 대목)",
+      "url": "https://www.berkshirehathaway.com/letters/1992.html"
+    },
+    {
+      "text": "Koller, T., Goedhart, M., Wessels, D. Valuation: Measuring and Managing the Value of Companies (McKinsey & Company)",
+      "url": null
+    },
+    {
+      "text": "회사·베이커리 수치는 모두 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "가치 계산(성장 영구가치, 요구수익률 10%, 성장률 5%): 화물 회사 현금 $10M − $5M = $5M, $5M ÷ (0.10 − 0.05) = $100M. 소프트웨어 회사 $10M − $2M = $8M, $8M ÷ 0.05 = $160M. 차이 $60M.",
+      "status": "open"
+    },
+    {
+      "note": "신규 투자 수익률: 화물 $0.5M ÷ $5M = 10%, 소프트웨어 $0.5M ÷ $2M = 25% (이익 $10M의 5% = $0.5M 증가). 8% 경우: $0.5M ÷ 0.08 = $6.25M 재투자, 현금 $3.75M, $3.75M ÷ 0.05 = $75M. 무성장: $10M ÷ 0.10 = $100M.",
+      "status": "open"
+    },
+    {
+      "note": "Buffett 1992 서한의 내용은 직접 인용이 아니라 의역입니다(\"성장은 성장에 쓰인 1달러가 1달러 넘는 가치를 만들 때만 주주에게 이롭다\"). 게시 전에 원문 문구와 맥락을 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "McKinsey Valuation의 핵심 원칙(자본비용을 넘는 수익률로 투자할 때 가치 창출, 성장과 ROIC가 가치를 움직인다)은 판본마다 표현이 다를 수 있으니 최신판에서 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "베이커리: $40,000 ÷ $500,000 = 8%. 투자자 기대수익률 약 10%는 가정입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Two businesses",
+      "title": "Same profit, same growth, $60 million apart",
+      "illustrative": true,
+      "body": [
+        "Two companies each earn $10 million a year in profit. Both grow 5% a year. Both are well run.",
+        "A buyer offers $100 million for one and $160 million for the other. The gap isn't luck or hype. It's hidden in what each company must spend to grow."
+      ],
+      "image": {
+        "label": "Two identical stacks of coins with very different price tags",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 똑같은 높이의 동전 더미 두 개가 나란히 있고, 각각 \"$10M profit\" 라벨. 위에 걸린 가격표는 하나는 \"$100M\", 다른 하나는 \"$160M\". 한쪽 뒤에는 트럭, 다른 쪽 뒤에는 노트북 실루엣. 실제 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which one is worth more?",
+      "illustrative": true,
+      "body": [
+        "A freight company grows 5% a year by buying trucks and warehouse space, about $5 million a year. A route-planning software company grows 5% a year by spending about $2 million on new features and servers.",
+        "Both earn $10 million now. Which would you pay more for?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Same value. Same profit, same growth",
+            "verdict": "risky",
+            "feedback": "It feels fair, but it ignores the money each one must put back in. Owners only keep what's left after paying for growth."
+          },
+          {
+            "key": "B",
+            "text": "The software company, because it needs less money to grow",
+            "verdict": "best",
+            "feedback": "Each dollar it reinvests earns more, so more cash reaches the owners every year. The next card shows how much more."
+          },
+          {
+            "key": "C",
+            "text": "The freight company, because trucks and warehouses are real assets",
+            "verdict": "partial",
+            "feedback": "Assets help if things go wrong, since you can sell trucks. But a working business is valued for the cash its assets produce, not what they cost."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Follow the cash to the owners.",
+      "illustrative": true,
+      "breakdown": [
+        {
+          "value": "$10M",
+          "label": "Profit",
+          "detail": "Same for both companies",
+          "highlight": false
+        },
+        {
+          "value": "−$5M",
+          "label": "Freight reinvests",
+          "detail": "Trucks and warehouses for 5% growth",
+          "highlight": false
+        },
+        {
+          "value": "$5M",
+          "label": "Freight cash to owners",
+          "detail": "Worth about $100M",
+          "highlight": false
+        },
+        {
+          "value": "$8M",
+          "label": "Software cash to owners",
+          "detail": "After $2M reinvested; worth about $160M",
+          "highlight": true
+        }
+      ],
+      "callout": "Owners expect 10% a year on their money. Cash growing 5% a year is worth about cash ÷ (10% − 5%)."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "What drives value",
+      "body": [
+        "A business is worth the cash it can hand its owners over time. Three things move that number: **growth**, the **return on new investment**, and risk.",
+        "Return on new investment is the extra yearly profit each reinvested dollar brings. The freight company spends $5M to add $0.5M of profit: 10%. The software company spends $2M for the same $0.5M: 25%.",
+        "Growth sets how big the cash gets. Return sets how much it costs to get there."
+      ],
+      "image": {
+        "label": "Three dials labelled growth, return and risk feeding a value meter",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 다이얼 세 개 \"Growth\", \"Return on new investment\", \"Risk\"가 화살표로 가운데 \"Value\" 게이지에 연결됨. \"Return\" 다이얼을 가장 크게 강조.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "chart",
+      "eyebrow": "The twist",
+      "title": "Growth can add value, or destroy it.",
+      "illustrative": true,
+      "body": [
+        "Take the freight company and change only the return on its new trucks. It still grows 5% a year, and owners still expect 10%."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Value in $ millions",
+            "rows": [
+              {
+                "label": "No growth, pays out all profit",
+                "value": 100,
+                "highlight": false
+              },
+              {
+                "label": "5% growth earning 8%",
+                "value": 75,
+                "highlight": false
+              },
+              {
+                "label": "5% growth earning 10%",
+                "value": 100,
+                "highlight": false
+              },
+              {
+                "label": "5% growth earning 25%",
+                "value": 160,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "callout": "Growth that earns less than owners expect makes the business worth *less* than not growing at all."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "Investors have said this for decades.",
+      "body": [
+        "In his 1992 letter to Berkshire Hathaway shareholders, Warren Buffett made the point: growth helps owners only when each dollar spent on it creates more than a dollar of value.",
+        "McKinsey's valuation guide by Koller, Goedhart and Wessels builds on the same rule. Companies create value when they invest at returns above what that money costs. **Faster growth multiplies whichever side you're on.**"
+      ],
+      "softwareNote": "Software reinvests mostly through sales and marketing, not equipment. If winning each new customer costs more than that customer ever pays back, fast user growth shrinks value just like an overpriced truck fleet."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "High returns don't stay high on their own.",
+      "body": [
+        "High returns attract rivals. Unless something protects them, such as loyal customers, low costs or hard-to-copy skills, they tend to fall over time.",
+        "Risk is the third driver. A high-return business that relies on one big customer may deserve a lower value than a steadier one.",
+        "And these are estimates. Small changes in assumed growth or return move the answer a lot."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a bakery chain.",
+      "illustrative": true,
+      "body": [
+        "You run 10 bakeries. A new shop costs $500,000 to open and earns about $40,000 a year, an 8% return. Your investors expect around 10%.",
+        "A lender offers money to open five more this year. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Open all five. More shops, more profit",
+            "verdict": "risky",
+            "feedback": "Profit would rise, but each shop earns less than the money costs. You'd grow while making the business worth less."
+          },
+          {
+            "key": "B",
+            "text": "First lift the return per shop, with cheaper fit-outs or busier sites, then expand",
+            "verdict": "best",
+            "feedback": "If new shops earn above 10%, every opening adds value. It delays growth, but the growth you do get is worth having."
+          },
+          {
+            "key": "C",
+            "text": "Stop opening shops and pay out the profit",
+            "verdict": "partial",
+            "feedback": "This protects value, since no money goes into low-return shops. But it gives up growth that could be worth a lot once the shop model improves."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Growth is only worth what it costs to buy.",
+      "body": [
+        "A business is worth the cash it can return to owners. Growth helps only when new money earns more than it costs.",
+        "**Try it today:** pick your last big investment: a machine, a hire, a campaign. Write down what it cost and the extra yearly profit it brings. Is that return above what your money costs?"
+      ],
+      "next": "Next · Why valuations swing"
+    }
+  ]
+}

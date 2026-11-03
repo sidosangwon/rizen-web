@@ -1,0 +1,252 @@
+{
+  "id": "THK-04-08",
+  "unitId": "THK-04",
+  "categoryId": "THK",
+  "order": 8,
+  "type": "apply",
+  "conceptTag": "Is a record sales month real?",
+  "readerTitle": "Your best month ever: how much of it will come back?",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (마케팅 대행사, 레스토랑, 사내 영업팀) · 모든 수치는 설명용",
+  "insight": "기록적인 달은 '반복될 원인'과 '운'으로 나눠 읽고, 반복될 부분만큼만 예측을 올린다.",
+  "misconception": "최고 실적을 낸 달은 새로운 기준선이 되었다는 신호다. 다음 달 실적이 떨어지면 무언가 잘못된 것이다.",
+  "relatedLessonIds": [
+    "THK-04-04",
+    "THK-04-03"
+  ],
+  "sources": [
+    {
+      "text": "통계학의 표준 개념: 평균으로의 회귀(regression to the mean), 새 증거에 따른 믿음 갱신",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "대행사 계산: 정기 계약 $118k + 일회성 급행 프로젝트 $37k + 신규 고객 첫 달 $25k(월 $15k + 셋업비 $10k) = $180k. 반복되는 부분 $118k + $15k = $133k. 12개월 평균 $120k 대비 약 +11%로, 기록 달의 +50%와 구분됩니다.",
+      "status": "open"
+    },
+    {
+      "note": "레스토랑 계산: 평소 월 $60k, 8월 $84k(+40%). 증가분 $24k의 원인은 축제(매년 반복)와 폭염 테라스 수요(반복 불확실)로 설정한 가상 사례입니다.",
+      "status": "open"
+    },
+    {
+      "note": "영업 담당자 사례는 가상입니다. 칭찬·질책 뒤의 실적 변화가 회귀로 설명될 수 있다는 점만 일반적으로 서술했고, 특정 연구나 인용은 쓰지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Everyday scene",
+      "title": "Your best month ever: how much of it will come back?",
+      "illustrative": true,
+      "body": [
+        "Maya runs a 14-person marketing agency. Revenue usually sits around $120,000 a month. In March it hit **$180,000**, a record.",
+        "The team ordered cake. Maya opened a spreadsheet to plan two new hires. Before she posts the jobs, it's worth asking what that number actually says."
+      ],
+      "image": {
+        "label": "Monthly revenue bars with one tall spike",
+        "aspectRatio": "4:3",
+        "brief": "사무실 화이트보드에 월별 매출 막대 12개. 대부분 비슷한 높이인데 3월 막대 하나만 훨씬 높고, 그 위에 작은 축하 케이크와 폭죽. 실제 회사 로고나 상표 없음. 따뜻한 플랫 일러스트.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What should Maya do with the record?",
+      "illustrative": true,
+      "body": [
+        "Two hires would only pay off if something close to $180,000 became the new normal. What's her best next step?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Hire now. The record shows demand has grown",
+            "verdict": "risky",
+            "feedback": "Fast if the growth is real, but extreme months tend to drift back toward average. This is **regression to the mean**, and it could leave her with two salaries and a $120,000 month."
+          },
+          {
+            "key": "B",
+            "text": "Wait two or three months and see if it repeats",
+            "verdict": "partial",
+            "feedback": "Safer, and more data helps. But she can learn a lot today by looking at what made up the $180,000, instead of only waiting."
+          },
+          {
+            "key": "C",
+            "text": "Split the record into parts that will repeat and parts that won't, then adjust the forecast",
+            "verdict": "best",
+            "feedback": "This is **updating your beliefs** by the right amount: move the forecast only as far as the lasting evidence supports."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "Look inside the number",
+      "title": "Where the $180,000 came from.",
+      "illustrative": true,
+      "body": [
+        "Only one new piece repeats every month. The forecast should rise to about **$133,000**, not $180,000."
+      ],
+      "breakdown": [
+        {
+          "value": "$118k",
+          "label": "Regular retainers",
+          "detail": "Same as most months",
+          "highlight": false
+        },
+        {
+          "value": "$37k",
+          "label": "One-off rush project",
+          "detail": "A client's product launch. Won't repeat",
+          "highlight": false
+        },
+        {
+          "value": "$25k",
+          "label": "New client, first month",
+          "detail": "$15k monthly fee + $10k one-time setup",
+          "highlight": false
+        },
+        {
+          "value": "$133k",
+          "label": "What likely repeats",
+          "detail": "$118k + $15k",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept at work · Regression to the mean",
+      "title": "Records are usually part skill, part luck.",
+      "body": [
+        "Any month's result mixes steady causes with chance: a big order landing early, a rival's client walking over, a lucky timing.",
+        "A **record** month is usually one where the luck lined up in your favor. Luck doesn't keep lining up, so the next month is likely to land closer to normal. That's regression to the mean. Nothing went wrong when it does."
+      ],
+      "image": {
+        "label": "A ball bouncing high, then settling near a middle line",
+        "aspectRatio": "16:9",
+        "brief": "가운데에 점선(평균)이 있고, 공이 한 번 높이 튀었다가 점점 점선 근처로 돌아오는 궤적. 높은 지점에 \"Record\", 점선에 \"Usual\" 라벨. 단순한 인포그래픽 스타일.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Concept at work · Updating your beliefs",
+      "title": "Move the forecast partway, not all the way.",
+      "body": [
+        "Maya's starting belief was $120,000, built on twelve months. One new month shouldn't wipe that out. It should **nudge** it, by an amount that matches how solid the new evidence is.",
+        "A signed monthly contract is solid. A one-off rush job is not. So she moves her forecast to $133,000 and plans one hire, not two. If April and May both beat $133,000, she updates again."
+      ],
+      "softwareNote": "A launch or a viral post can make a record signup month. Those users often churn faster, and signups fall back. Judge the spike by what the new cohort still pays three months later."
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a restaurant.",
+      "illustrative": true,
+      "body": [
+        "Leo's bistro usually takes about $60,000 a month. In August it took **$84,000**. A street festival ran for two weekends, and a heatwave filled the terrace every evening.",
+        "He's thinking about hiring two permanent staff for the year. What fits the evidence best?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Hire two permanent staff. August shows the real potential",
+            "verdict": "risky",
+            "feedback": "He'd be treating a lucky month as the new average. **Regression to the mean** says September will likely sit near $60,000, with year-round wages attached."
+          },
+          {
+            "key": "B",
+            "text": "Plan for next August's festival, and keep the rest of the year near $60,000",
+            "verdict": "best",
+            "feedback": "The festival repeats every year, so he **updates** his August forecast. The heatwave may not, so the other months barely move."
+          },
+          {
+            "key": "C",
+            "text": "Ignore it. One month means nothing",
+            "verdict": "partial",
+            "feedback": "Avoids overreacting, but throws away real information. The festival is a lasting cause worth planning around."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Sometimes the record is real.",
+      "body": [
+        "Regression applies to the lucky part of a result, not to all of it. A new contract, a new road past your door or a better product can lift the average itself.",
+        "Signs of a real shift: the cause is something that will keep happening, the gain comes from many customers rather than one, and it holds for several months. The same logic runs in reverse. A terrible month is also usually part bad luck."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · inside a team",
+      "title": "Your top sales rep slips.",
+      "illustrative": true,
+      "body": [
+        "Sam had his best quarter ever, and you praised him at the all-hands. The next quarter his numbers fell back to his usual level.",
+        "A colleague says the praise made him relax. What do you think?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The colleague is right. Praise made him coast",
+            "verdict": "risky",
+            "feedback": "A great quarter is usually followed by a more normal one, praise or not. **Regression to the mean** can make praise look harmful and criticism look helpful."
+          },
+          {
+            "key": "B",
+            "text": "Compare both quarters with his record over two years before concluding anything",
+            "verdict": "best",
+            "feedback": "His long-run average is your best guide. **Update** your view of Sam only if he moves away from it and stays there."
+          },
+          {
+            "key": "C",
+            "text": "Move him to a better territory to restore his numbers",
+            "verdict": "partial",
+            "feedback": "It might lift results, but it fixes a problem that may not exist and could unsettle others' territories."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Split every record into what repeats and what was luck.",
+      "body": [
+        "Used today: **regression to the mean**, to expect extreme months to drift back, and **updating your beliefs**, to move forecasts only as far as lasting evidence allows.",
+        "**Try it today:** take your best month this year. List what made it big, and mark each item \"will repeat\" or \"won't.\" Add up the first column. That's your real new baseline."
+      ],
+      "next": "Next · Netflix bets on its first original series"
+    }
+  ]
+}

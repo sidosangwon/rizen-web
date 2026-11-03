@@ -1,0 +1,216 @@
+{
+  "id": "FIN-05-02",
+  "unitId": "FIN-05",
+  "categoryId": "FIN",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "Forecasts",
+  "readerTitle": "A forecast is a prediction, not a wish",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (대기업 안의 지역 영업팀, 배관 업체, 청소 업체) · 모든 수치는 설명용",
+  "insight": "예측은 '원하는 숫자'가 아니라 '실제로 일어날 것 같은 숫자'다. 목표와 분리해야 문제를 일찍 보여주는 경보 장치로 쓸 수 있다.",
+  "misconception": "예측은 목표를 다르게 부르는 말이다. 예측을 낮게 잡으면 의지가 약한 것이다.",
+  "relatedLessonIds": [
+    "FIN-05-01",
+    "FIN-05-03"
+  ],
+  "sources": [
+    {
+      "text": "관리회계·재무계획의 표준 개념 (예측과 예산·목표의 구분, 동인 기반 예측)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 설명용 가상 수치입니다. 배관 업체 계산: 주당 문의 40건 × 예약 전환 60% = 24건 × 평균 작업 $250 = 주당 $6,000. 다시 확인 필요.",
+      "status": "open"
+    },
+    {
+      "note": "영업팀 사례의 목표 $2M과 가중 파이프라인 $1.7M은 가상 수치입니다. '가중 파이프라인(성사 확률을 곱한 진행 중 거래 합계)'이라는 설명이 독자에게 충분히 쉬운지 검토하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Everyday scene",
+      "title": "A forecast is a prediction, not a wish",
+      "body": [
+        "The weather app says 70% chance of rain on Saturday. You planned a picnic. The forecaster doesn't care, and that's exactly why the forecast is useful.",
+        "Business forecasts often work the other way. They say what the plan needs, not what is likely. And the bad news arrives late."
+      ],
+      "image": {
+        "label": "Picnic blanket under a phone showing a rain forecast",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 잔디 위에 피크닉 바구니와 담요, 그 위에 떠 있는 스마트폰 화면에 비구름 아이콘과 \"70%\". 하늘 한쪽에 먹구름이 다가옴. 실제 날씨 앱 로고는 쓰지 않음.",
+        "url": "assets/images/fin-05-02-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Finance wants your number.",
+      "illustrative": true,
+      "body": [
+        "You lead a regional sales team inside a larger company. Your target this quarter is $2 million.",
+        "You add up the deals in progress, each weighted by how likely it is to close. You get about $1.7 million. Finance asks for your forecast. What do you send?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "$2 million. It's the target, and the team will push to hit it",
+            "verdict": "risky",
+            "feedback": "It shows commitment, but it hides a $300,000 gap from the people who could help close it or plan around it."
+          },
+          {
+            "key": "B",
+            "text": "$1.7 million, plus what it would take to close the gap",
+            "verdict": "best",
+            "feedback": "It's an uncomfortable conversation now. In return, everyone gets ten weeks to react instead of two."
+          },
+          {
+            "key": "C",
+            "text": "$1.5 million, so you're sure to beat it",
+            "verdict": "partial",
+            "feedback": "You'll look good at quarter end. But others will under-plan stock and staff, and your forecasts will stop being trusted."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happens next",
+      "title": "Your forecast feeds other people's plans.",
+      "illustrative": true,
+      "body": [
+        "Say you send $2 million. Finance uses it to approve two new hires. Operations orders stock for $2 million of sales.",
+        "By week 10, the gap is obvious. The hires are made and the stock has arrived. Nobody can adjust in time.",
+        "Had you sent $1.7 million in week 1, the company could have slowed spending, shifted help to your team, or chased other deals."
+      ],
+      "image": {
+        "label": "One number flowing into hiring, stock and spending plans",
+        "aspectRatio": "16:9",
+        "brief": "가운데 \"Forecast $2.0M\" 카드에서 화살표 세 개가 \"Hiring\", \"Stock orders\", \"Spending\" 상자로 이어짐. 오른쪽 타임라인의 10주 차에 \"Actual $1.7M\" 빨간 표시가 늦게 나타남.",
+        "url": "assets/images/fin-05-02-c3.jpg"
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Forecast",
+      "body": [
+        "A **forecast** is your best honest estimate of what will actually happen, based on what you know today.",
+        "A budget or target answers a different question. It says what you plan to spend or aim to achieve. One asks *what do we want?* The other asks *what do we expect?*",
+        "The weather forecaster doesn't predict sunshine because a picnic is planned. A business forecast should work the same way."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Build it from what drives the result.",
+      "illustrative": true,
+      "body": [
+        "Don't start from last year's total plus a hopeful guess. Start from the few things that produce the number. A plumbing business might use:"
+      ],
+      "list": [
+        "**Calls per week:** 40",
+        "**Share that become booked jobs:** 60%, so 24 jobs",
+        "**Average job value:** $250",
+        "**Forecast:** 24 × $250 = **$6,000** a week"
+      ],
+      "callout": "When the forecast moves, you can see which assumption moved.",
+      "softwareNote": "A subscription business might forecast revenue as current customers × the share who renew, plus expected new sign-ups. If renewals slip, the forecast shows it before the monthly total does."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond the first guess",
+      "title": "A forecast is supposed to change.",
+      "body": [
+        "The weather forecast for Saturday changes every day as the week goes on. A business forecast should too. New calls, cancellations and signed deals all update it.",
+        "Each update shows the gap between what you expect and what you want, while there's still time to act.",
+        "One warning sign: if a team's forecast always lands right on its target, it's probably a target dressed up as a forecast."
+      ],
+      "image": {
+        "label": "Forecast line moving week by week toward the actual result",
+        "aspectRatio": "16:9",
+        "brief": "주 단위 그래프. 점선 \"Target\"은 위에 평평하게, 실선 \"Forecast\"는 1주 차부터 매주 조금씩 수정되며 아래쪽 \"Actual\"에 가까워짐. 초반부터 목표와의 간격이 보이도록 강조.",
+        "url": "assets/images/fin-05-02-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Honest forecasts need a safe place to land.",
+      "body": [
+        "Every forecast is wrong. What matters is by how much, and how early you notice. A single number also hides a range of outcomes.",
+        "Honesty depends on how people are treated. Punish low forecasts, and people inflate them. Punish misses, and people pad them low.",
+        "Judge forecasts on how accurate they turned out, separately from whether the target was hit."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a cleaning company.",
+      "illustrative": true,
+      "body": [
+        "You run a house-cleaning business with six cleaners. You'd like to grow 30% this spring and are deciding whether to hire two more.",
+        "You have 90 regular clients. New inquiries are running a little below last spring. Which number should drive the hiring decision?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Plan on 30% growth. That's the goal, and hiring ahead shows you mean it",
+            "verdict": "risky",
+            "feedback": "It keeps ambition high, but if bookings fall short you're paying two cleaners with too little work."
+          },
+          {
+            "key": "B",
+            "text": "Forecast from regular clients, current inquiries and how many inquiries usually book",
+            "verdict": "best",
+            "feedback": "It takes a bit more work, but the hire matches likely demand. If inquiries pick up, you'll see it and can hire then."
+          },
+          {
+            "key": "C",
+            "text": "Use last spring's growth, since spring patterns repeat",
+            "verdict": "partial",
+            "feedback": "A sensible starting point. But it ignores the one thing you already know: inquiries are running below last year."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Keep what you expect separate from what you want.",
+      "body": [
+        "A target pushes people. A forecast warns them. Mix the two and you lose the warning.",
+        "**Try it today:** pick one number you plan around, like monthly sales or bookings. Write your target and your honest expectation side by side. Note the gap."
+      ],
+      "next": "Next · Planning for more than one future"
+    }
+  ]
+}

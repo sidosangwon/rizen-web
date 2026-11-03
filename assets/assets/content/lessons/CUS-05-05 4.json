@@ -1,0 +1,262 @@
+{
+  "id": "CUS-05-05",
+  "unitId": "CUS-05",
+  "categoryId": "CUS",
+  "order": 5,
+  "type": "concept",
+  "conceptTag": "The peak-end rule",
+  "readerTitle": "Why a longer wait can leave a better memory",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 연구 (Kahneman 외 1993 찬물 실험, Redelmeier 외 2003 대장내시경 시험) + 가상 적용 (레스토랑, 구독형 앱)",
+  "insight": "고객은 경험 전체의 평균이 아니라 가장 강렬한 순간과 마지막 순간으로 기억한다. 그래서 개선 순서는 '마지막'부터다.",
+  "misconception": "경험은 짧을수록, 모든 단계가 고르게 좋을수록 좋게 기억된다.",
+  "relatedLessonIds": [
+    "CUS-06-05",
+    "CUS-08-02"
+  ],
+  "sources": [
+    {
+      "text": "Kahneman, D., Fredrickson, B. L., Schreiber, C. A., & Redelmeier, D. A. (1993). When more pain is preferred to less: Adding a better end. Psychological Science, 4(6), 401–405.",
+      "url": null
+    },
+    {
+      "text": "Redelmeier, D. A., & Kahneman, D. (1996). Patients' memories of painful medical treatments. Pain, 66(1), 3–8.",
+      "url": null
+    },
+    {
+      "text": "Redelmeier, D. A., Katz, J., & Kahneman, D. (2003). Memories of colonoscopy: a randomized trial. Pain, 104(1–2), 187–194.",
+      "url": null
+    },
+    {
+      "text": "레스토랑과 앱 사례, 차트 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "찬물 실험 조건(약 14°C에서 60초, 긴 시행은 이어서 30초 동안 약 1°C 상승)과 '대부분이 긴 시행을 다시 하겠다고 선택' 결과를 1993년 원문으로 확인하세요. 비율(약 69%로 알려짐)은 확인 전이라 카드에 숫자를 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "2003년 대장내시경 무작위 시험: 시술 끝에 내시경을 잠시 더 두어 덜 불편한 구간을 추가했고, 환자들이 시술을 덜 불쾌하게 기억했으며 재검사 복귀가 다소 높았다는 내용을 원문으로 확인하세요. 표본 수와 효과 크기는 카드에 넣지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "차트의 순간별 점수(10점 만점)는 모두 가상 수치입니다. 평균 (8+9+7+3)÷4 = 6.75, 기억 점수는 정점 9와 끝 3의 평균 = 6으로 설명했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "피크엔드 규칙은 실험실 연구에서 반복 확인되었지만 효과 크기는 상황에 따라 다르고, 기간을 완전히 무시하는 것은 아니라는 후속 연구가 있습니다. Watch out 카드 문구가 과장되지 않았는지 검토하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Counterexample",
+      "title": "Why a longer wait can leave a better memory",
+      "body": [
+        "In a 1993 study, people held a hand in painfully cold water twice. Once for 60 seconds. Once for 90 seconds, where the last 30 were slightly less cold.",
+        "Asked which one to repeat, most picked the longer one. More pain, chosen on purpose."
+      ],
+      "image": {
+        "label": "Two buckets of icy water with timers",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 얼음물 양동이 두 개와 타이머. 왼쪽 \"60 sec\", 오른쪽 \"90 sec\". 오른쪽 양동이 위에 작은 미소 표시와 따뜻해지는 색 그라데이션. 실제 브랜드나 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "One fix for your restaurant.",
+      "illustrative": true,
+      "body": [
+        "Guests rave about your food, but online ratings are stuck at average. You can afford one change this month.",
+        "Reviews mention three things: mains sometimes take a while, the dining room feels dated, and getting the bill at the end can take 15 minutes. Which do you fix?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Speed up the kitchen so mains arrive faster",
+            "verdict": "partial",
+            "feedback": "Faster mains help, but they sit in the middle of a meal guests already enjoy. You spend effort where the memory is already good."
+          },
+          {
+            "key": "B",
+            "text": "Fix the slow bill so the evening ends smoothly",
+            "verdict": "best",
+            "feedback": "The cheapest fix and the one guests will carry home. A sour last 15 minutes can color a great two hours."
+          },
+          {
+            "key": "C",
+            "text": "Refresh the dining room",
+            "verdict": "risky",
+            "feedback": "It touches every minute of the visit, yet it's costly and changes little about how the evening feels when guests walk out."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "The longer trial wasn't better. It ended better.",
+      "body": [
+        "In the cold-water study, the 90-second trial contained everything the 60-second one did, plus 30 more seconds of discomfort. By any total, it was worse.",
+        "But people didn't judge the total. They judged how it felt at its worst and how it felt when it stopped. The longer trial finished on a gentler note, so it was *remembered* as milder.",
+        "How long it lasted barely seemed to count."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The peak-end rule",
+      "body": [
+        "The **peak-end rule**: people judge a past experience mostly by its most intense moment and by how it ended, not by the average of every moment.",
+        "Its partner is **duration neglect**: the length of an experience matters much less to the memory than we expect.",
+        "That memory is what people use when deciding whether to come back or recommend you."
+      ],
+      "image": {
+        "label": "A wavy experience line with peak and end circled",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 시간에 따라 오르내리는 경험 곡선. 가장 높은 지점에 \"Peak\", 마지막 지점에 \"End\" 동그라미. 나머지 구간은 흐리게 처리하고 아래에 \"What people remember\" 라벨.",
+        "url": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "It holds outside the lab, too.",
+      "body": [
+        "Researchers Donald Redelmeier and Daniel Kahneman studied colonoscopy patients, a procedure many people dread. Patients' later ratings tracked the worst moment and the final minutes, not how long the procedure took.",
+        "In a 2003 randomized trial, doctors added a short, less uncomfortable stretch at the end for some patients. Those patients remembered the procedure as less unpleasant, and were somewhat more likely to return for later checks.",
+        "Same procedure, a little longer, better memory."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "chart",
+      "eyebrow": "Back at the restaurant",
+      "title": "A great meal, remembered as average.",
+      "illustrative": true,
+      "body": [
+        "Score each moment out of 10. The average is 6.75. But the memory leans on the peak (9) and the end (3), landing near 6."
+      ],
+      "chart": {
+        "unit": "count",
+        "groups": [
+          {
+            "label": "Guest's evening, moment by moment (out of 10)",
+            "rows": [
+              {
+                "label": "Welcome",
+                "value": 8,
+                "highlight": false
+              },
+              {
+                "label": "Main course (peak)",
+                "value": 9,
+                "highlight": true
+              },
+              {
+                "label": "Dessert",
+                "value": 7,
+                "highlight": false
+              },
+              {
+                "label": "Waiting for the bill (end)",
+                "value": 3,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "callout": "Lift the ending to 8 and the memory rises more than any mid-meal fix could.",
+      "softwareNote": "In an app, the end is often a confirmation screen, a support chat closing, or a cancellation page. These moments get little design time but shape what users remember.",
+      "image": {
+        "label": "A great meal, remembered as average.",
+        "aspectRatio": "4:3",
+        "brief": "Labeled HTML chart from the lesson numbers",
+        "url": "assets/images/cus-05-05-chart.png"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A nice ending can't rescue a bad core.",
+      "body": [
+        "The rule shapes memory, not reality. If the food is poor, a free mint at the door won't save you. And a painful peak still counts: one rude moment can define the whole visit.",
+        "For ongoing relationships, like a gym or a subscription, there are many small endings, not one. Each visit or session leaves its own memory.",
+        "Finally, engineering endings to hide real problems is manipulation. Customers notice, and trust breaks."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a subscription app.",
+      "illustrative": true,
+      "body": [
+        "You run a budgeting app. Some users cancel every month. Today, cancelling takes five screens of warnings and a final page that says only \"Your account has been closed.\"",
+        "Which cancellation flow best fits the peak-end rule?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Add more screens and a last-chance discount to keep people from leaving",
+            "verdict": "risky",
+            "feedback": "You may save a few users, but everyone else leaves on a frustrating final memory, the one they'll share when friends ask about you."
+          },
+          {
+            "key": "B",
+            "text": "Make cancelling quick, then end with a summary of what they saved and an easy way back",
+            "verdict": "best",
+            "feedback": "You give up a few forced saves and gain a warm last impression. Former users who leave well are more likely to return or recommend you."
+          },
+          {
+            "key": "C",
+            "text": "Keep the flow, but rewrite the final page to sound friendlier",
+            "verdict": "partial",
+            "feedback": "A kinder end helps, but five screens of warnings may become the peak users remember most."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "People remember the best moment and the last one.",
+      "body": [
+        "Before spending on the whole experience, find its ending and its sharpest moment. Those two shape what customers remember and repeat.",
+        "**Try it today:** write down the last thing a customer sees, hears or does with your business. Is it something you designed, or something left over?"
+      ],
+      "image": {
+        "label": "A door closing on a warmly lit room",
+        "aspectRatio": "16:9",
+        "brief": "3D 클레이 스타일. 따뜻한 조명의 가게 문이 닫히는 장면. 문 앞에 손님이 미소 지으며 돌아보는 모습. 간판에 실제 상호나 로고 없음.",
+        "url": null
+      },
+      "next": "Next · Why losing $10 hurts more than finding $10 feels good"
+    }
+  ]
+}

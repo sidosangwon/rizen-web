@@ -1,0 +1,284 @@
+{
+  "id": "PPL-09-10",
+  "unitId": "PPL-09",
+  "categoryId": "PPL",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Restructure a 100-person team",
+  "readerTitle": "Four decisions to reshape a 100-person company",
+  "format": "everyday_scene",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.2,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (100명 규모 산업용 펌프 제조사 + 구독형 모니터링 앱) · 인물, 회사, 수치 모두 설명용",
+  "insight": "조직 개편은 조직도 그리기가 아니라 전략, 구조, 보상, 실행 순서로 이어지는 결정의 사슬이다. 앞 단계를 건너뛰면 뒤 단계가 모두 흔들린다.",
+  "misconception": "조직도의 박스만 새로 그리면 문제가 풀린다. 구조를 바꾸면 사람들의 행동도 저절로 바뀐다.",
+  "relatedLessonIds": [
+    "PPL-09-04",
+    "PPL-09-05"
+  ],
+  "sources": [
+    {
+      "text": "Chandler, A. D. (1962). Strategy and Structure. MIT Press. ('구조는 전략을 따른다'는 개념의 출처)",
+      "url": null
+    },
+    {
+      "text": "PPL-09 유닛의 개념 레슨 (기능형 vs 사업부형, 팀 간 인센티브, 조직 개편)",
+      "url": null
+    },
+    {
+      "text": "회사, 인물, 인원, 상황은 모두 설명용 가상 시나리오",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "인원 계산: 생산 45 + 엔지니어링 20(소프트웨어 6명 포함) + 영업 15 + 서비스 12 + 관리·재무 8 = 100명. 개편 후 모니터링 조직은 소프트웨어 6 + 엔지니어링에서 옮긴 제품 책임자 1 + 서비스에서 옮긴 2 = 9명이고, 전체 인원은 100명 그대로입니다.",
+      "status": "open"
+    },
+    {
+      "note": "Chandler(1962)는 '구조는 전략을 따른다'는 표현의 원전으로 널리 인용됩니다. 카드 본문에서는 출처를 직접 인용하지 않고 개념만 썼습니다. 게시 전에 인용 방식을 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "각 선택지의 결과(피드백)는 일반적인 경영 원리를 바탕으로 한 가상 결과입니다. 연구 수치나 통계는 쓰지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Organization design · Simulation",
+      "title": "Mara's best new product lives in the wrong place.",
+      "illustrative": true,
+      "body": [
+        "Mara runs a 100-person company that makes industrial pumps. Two years ago it launched a sensor and app that warns customers before a pump fails. Customers pay for it every year.",
+        "The board wants the app to drive half of future growth. Right now it has six engineers, no owner, and almost no sales. You're in Mara's chair for four decisions."
+      ],
+      "image": {
+        "label": "A factory floor with a glowing phone app off to one side",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 펌프 공장 바닥에 사람들이 줄지어 일하고, 구석 작은 책상 위에 스마트폰 앱 화면(펌프 경고 알림)이 혼자 빛나고 있음. 앱 쪽에는 아무도 없음. 실제 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "breakdown",
+      "eyebrow": "The situation",
+      "title": "Today, everyone is grouped by function.",
+      "illustrative": true,
+      "body": [
+        "This setup works well for pumps. For the app, every release waits behind pump projects. Salespeople rarely mention it. Many subscribers cancel after the first year, and no one owns the problem."
+      ],
+      "breakdown": [
+        {
+          "value": "45",
+          "label": "Production",
+          "detail": "Builds and ships the pumps",
+          "highlight": false
+        },
+        {
+          "value": "20",
+          "label": "Engineering",
+          "detail": "Includes the 6 app engineers",
+          "highlight": true
+        },
+        {
+          "value": "15",
+          "label": "Sales",
+          "detail": "Paid on pump revenue",
+          "highlight": false
+        },
+        {
+          "value": "12",
+          "label": "Service",
+          "detail": "Repairs and installs",
+          "highlight": false
+        },
+        {
+          "value": "8",
+          "label": "Admin & finance",
+          "detail": "Shared support",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 4",
+      "title": "Where do you start?",
+      "illustrative": true,
+      "body": [
+        "Your leadership team agrees something must change. Everyone has an opinion about the new org chart."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Sit down with the leaders this week and draw the new org chart",
+            "verdict": "risky",
+            "feedback": "It's fast, but the boxes will form around today's people and politics. You may end up with a neater chart that still doesn't serve the new strategy."
+          },
+          {
+            "key": "B",
+            "text": "First write down what the company must be great at for the next three years",
+            "verdict": "best",
+            "feedback": "Slower to start, but it gives every later choice a test: does this structure help us do those things? Structure follows strategy."
+          },
+          {
+            "key": "C",
+            "text": "Ask each department head what their team needs",
+            "verdict": "partial",
+            "feedback": "Useful input, and people feel heard. But you'll mostly collect today's complaints, not what tomorrow's strategy demands."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 4",
+      "title": "Two businesses, one company. How do you group people?",
+      "illustrative": true,
+      "body": [
+        "Say you chose B. Two jobs come out of it: make reliable pumps at low cost, and keep app subscribers renewing. The first rewards efficiency. The second rewards speed and close contact with users."
+      ],
+      "image": {
+        "label": "Org sketch: a large functional block plus a small separate unit",
+        "aspectRatio": "16:9",
+        "brief": "간단한 조직도 인포그래픽. 왼쪽에 큰 블록 \"Pumps\"(Production, Engineering, Sales, Service가 기능별로 나란히), 오른쪽에 작은 블록 \"Monitoring unit\"(9명 아이콘). 두 블록 모두 위의 \"CEO\"와 연결. 실제 로고 없음.",
+        "url": null
+      },
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep everything functional, but name a product manager for the app inside engineering",
+            "verdict": "partial",
+            "feedback": "The app finally has an owner. But its engineers still share a boss and a queue with pump projects, so releases keep waiting."
+          },
+          {
+            "key": "B",
+            "text": "Keep pumps functional. Form a 9-person monitoring unit with its own engineers, a product lead and customer support, reporting to you",
+            "verdict": "best",
+            "feedback": "The app gets speed and one owner, while pumps keep their efficiency. The cost is a new seam between the two that you'll have to manage."
+          },
+          {
+            "key": "C",
+            "text": "Split the whole company into two divisions, each with its own sales, service and finance",
+            "verdict": "risky",
+            "feedback": "Very clear ownership, but at 100 people you'd duplicate teams. The app business is too small to carry its own copy of everything."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 4",
+      "title": "The unit ships faster. Sales still don't sell it.",
+      "illustrative": true,
+      "body": [
+        "Say you chose B. Six months later, app updates go out every two weeks. But new subscriptions barely move. Pump salespeople are paid commission on pump revenue only, and the app takes time to explain."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Tell sales to pitch the app in every customer meeting",
+            "verdict": "risky",
+            "feedback": "You'll get a quick mention at the end of each meeting. Instructions that fight the pay plan rarely win for long."
+          },
+          {
+            "key": "B",
+            "text": "Give the monitoring unit its own two sales reps",
+            "verdict": "partial",
+            "feedback": "Focused selling, but now two people call on the same customer. Pump reps may also see the app reps as rivals for the account."
+          },
+          {
+            "key": "C",
+            "text": "Pay pump reps on app renewals, not just sign-ups, and give the unit a goal tied to pump customers kept",
+            "verdict": "best",
+            "feedback": "Both teams now win from the same customer staying. Paying on renewals avoids rewarding sign-ups that cancel a year later."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Decision 4 of 4",
+      "title": "How do you roll out the change?",
+      "illustrative": true,
+      "body": [
+        "Nine people get a new manager. Sales gets a new pay plan. Rumors have already started on the factory floor."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Announce it all on one day: the reasons, who reports to whom, and what does not change. Then meet everyone whose manager changes",
+            "verdict": "best",
+            "feedback": "One clear moment ends the guessing. Saying what stays the same matters most to the 90 people whose jobs barely change."
+          },
+          {
+            "key": "B",
+            "text": "Move in small steps over a year so no one feels shocked",
+            "verdict": "risky",
+            "feedback": "It feels gentle, but a year of uncertainty breeds rumors and job hunting. People spend energy wondering who's next."
+          },
+          {
+            "key": "C",
+            "text": "Let each manager explain the changes to their team in their own way",
+            "verdict": "partial",
+            "feedback": "It's personal, but ten managers will tell ten versions. Give them one shared message first, then let them add the local detail."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Every structure has seams.",
+      "body": [
+        "Mara's new design solves the app's problems and creates a new one. The plant still builds sensors for the monitoring unit and pumps for everyone else. When both need the same week, someone has to decide.",
+        "Set the rule before the conflict: who breaks ties, and how fast. And expect a few slow months after any reorganization while people learn new routines. Don't redraw the chart again just because the first quarter feels messy."
+      ],
+      "image": {
+        "label": "Two teams reaching for the same production slot",
+        "aspectRatio": "16:9",
+        "brief": "3D 클레이 스타일. 공장 생산 일정표의 한 칸을 두 팀(펌프 팀, 모니터링 팀)이 양쪽에서 동시에 잡으려는 장면. 가운데에 작은 \"Tie-break rule\" 표지판. 실제 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A restructure is a chain of decisions, in order.",
+      "body": [
+        "Each of Mara's choices used one idea from this unit:"
+      ],
+      "list": [
+        "**Start from strategy:** structure follows strategy",
+        "**Group people:** functional for efficiency, a separate unit for speed",
+        "**Align pay:** incentives across teams decide whether the new boxes work together",
+        "**Roll it out:** reorganizations succeed on clarity and speed of the change"
+      ],
+      "callout": "**Try it today:** write your top two strategic goals. Next to each, write which team owns it and how that team is paid. Where do they not match?",
+      "next": "Next · A new unit begins"
+    }
+  ]
+}

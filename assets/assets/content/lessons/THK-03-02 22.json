@@ -1,0 +1,224 @@
+{
+  "id": "THK-03-02",
+  "unitId": "THK-03",
+  "categoryId": "THK",
+  "order": 2,
+  "type": "concept",
+  "conceptTag": "Authority bias",
+  "readerTitle": "The most senior person in the room was wrong",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "real_observation",
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 사고 (1977년 테네리페 공항 충돌) + 실제 연구 (Milgram 1963, Hofling 1966) + 가상 적용 (부품 공장, 소프트웨어 장애 대응)",
+  "insight": "주장의 무게는 말한 사람의 직급이 아니라 그 주장을 뒷받침하는 근거에서 나온다. 리더는 반대 의견이 나올 수 있는 구조를 미리 만들어야 한다.",
+  "misconception": "가장 경험 많고 직급 높은 사람의 판단을 따르는 것이 가장 안전하다. 문제가 있으면 아랫사람이 알아서 말할 것이다.",
+  "relatedLessonIds": [
+    "THK-03-01",
+    "THK-03-10"
+  ],
+  "sources": [
+    {
+      "text": "Netherlands Aviation Safety Board / Spanish CIAIAC reports on the Tenerife (Los Rodeos) accident, 27 March 1977, including cockpit voice recorder transcript",
+      "url": null
+    },
+    {
+      "text": "Milgram, S. (1963). Behavioral Study of Obedience. Journal of Abnormal and Social Psychology, 67(4).",
+      "url": null
+    },
+    {
+      "text": "Hofling, C. K. et al. (1966). An Experimental Study in Nurse-Physician Relationships. Journal of Nervous and Mental Disease, 143(2).",
+      "url": null
+    },
+    {
+      "text": "NASA workshop 'Resource Management on the Flightdeck' (1979), origin of Crew Resource Management training",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "테네리페 사고: 1977년 3월 27일, KLM 747과 Pan Am 747 활주로 충돌, 사망 583명, 항공 역사상 최다 사망 사고. 게시 전 공식 보고서로 재확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "조종실 녹음의 기관사 발언 \"Is he not clear, that Pan American?\"과 기장의 \"Oh, yes\" 응답은 CVR 녹취록 번역본마다 표현이 조금 다릅니다. 카드에는 의미 중심으로 옮겼습니다. 기장(Jacob van Zanten)이 KLM 747 교육 책임자였다는 점도 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Milgram 1963: 참가자 40명 중 26명(65%)이 최고 단계 450V까지 진행. 전기충격은 실제로 가해지지 않음.",
+      "status": "open"
+    },
+    {
+      "note": "Hofling 1966: 간호사 22명 중 21명이 낯선 의사의 전화 지시로 최대 허용량의 두 배 투약을 준비. 1977년 Rank & Jacobson 재현 연구에서는 익숙한 약이고 동료와 상의할 수 있을 때 따르는 비율이 크게 낮았음. 6번 카드 한계 설명에 이 점을 반영했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "CRM(Crew Resource Management)이 1979년 NASA 워크숍에서 시작되어 이후 항공사 표준 교육이 되었다는 서술을 확인하세요. 테네리페 사고가 계기 중 하나로 자주 언급되지만 유일한 원인은 아닙니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Counterexample",
+      "title": "The most senior person in the room was wrong",
+      "body": [
+        "Fog covers a runway on Tenerife in 1977. A KLM jumbo jet starts its takeoff roll. The flight engineer asks whether the Pan Am jet is clear of the runway.",
+        "The captain, one of the airline's most respected pilots, says yes. Seconds later, the two planes collide."
+      ],
+      "image": {
+        "label": "Foggy runway seen from a cockpit window",
+        "aspectRatio": "4:3",
+        "brief": "안개 낀 활주로를 조종석 창문 너머로 본 장면. 계기판 위에 작은 말풍선 하나(질문), 큰 말풍선 하나(확신). 실제 항공사 로고와 도장은 쓰지 않음. 비극을 자극적으로 묘사하지 말고 차분한 톤.",
+        "url": "assets/images/thk-03-02-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "The veteran says ship it.",
+      "illustrative": true,
+      "body": [
+        "You run a plant that makes brake parts. A new batch of steel arrived. Your chief engineer, 30 years in the job, says this supplier is always fine and the hardness test can wait.",
+        "A junior inspector looks uneasy but says nothing. The truck leaves in an hour. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Ship it. The chief engineer has never been wrong on steel",
+            "verdict": "risky",
+            "feedback": "You save an hour and trust a strong track record. But a track record is not a test result, and brake parts are a bad place to find out."
+          },
+          {
+            "key": "B",
+            "text": "Ask the inspector what's bothering her, then run the quick test",
+            "verdict": "best",
+            "feedback": "You lose an hour and maybe some pride. You gain the one piece of evidence that matters and show the team that doubts get heard."
+          },
+          {
+            "key": "C",
+            "text": "Hold the truck and ask the plant director to decide",
+            "verdict": "partial",
+            "feedback": "Safer than shipping, but you swap one authority for a higher one. Nobody has looked at the steel yet."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "The doubt was there. It wasn't enough.",
+      "body": [
+        "At Tenerife, the cockpit recording shows the flight engineer raised the right question. The captain was head of the airline's 747 training and very sure of himself. The engineer dropped it.",
+        "583 people died. It is still the deadliest accident in aviation history.",
+        "Investigators found many causes, including fog, radio confusion and time pressure. But one stands out for every business: the person who saw the problem deferred to the person with the rank."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Authority bias",
+      "body": [
+        "**Authority bias** is giving an opinion extra weight because of who says it, not because of what supports it.",
+        "It hits twice. People below the authority stay quiet or talk themselves out of their doubts. And the authority, used to being right, stops checking.",
+        "Expertise is real and usually useful. The bias starts when the title replaces the evidence instead of pointing you to it."
+      ],
+      "image": {
+        "label": "Scale weighing a job title against evidence",
+        "aspectRatio": "16:9",
+        "brief": "저울 그림. 한쪽 접시에 큰 직함 명패(\"Chief\"), 다른 쪽에 작은 데이터 카드 한 장(\"Test result\"). 직함 쪽이 부당하게 무겁게 기울어진 모습. 단순한 플랫 일러스트.",
+        "url": "assets/images/thk-03-02-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "Ordinary people follow orders further than they predict.",
+      "body": [
+        "In Stanley Milgram's 1963 study, 26 of 40 volunteers kept giving what they believed were painful electric shocks, up to the maximum, because a man in a lab coat told them to continue. No real shocks were given.",
+        "In a 1966 hospital study, 21 of 22 nurses prepared a double dose of an unfamiliar drug after a phone call from a doctor they had never met.",
+        "Most said beforehand they would never do such a thing."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "What fixed it",
+      "title": "Airlines trained captains to be challenged.",
+      "body": [
+        "After Tenerife and other crashes, airlines adopted **Crew Resource Management**. Junior crew learn a clear way to voice concerns. Captains learn to invite them and to treat a doubt as data.",
+        "Later research on the nurse study points the same way. When nurses could consult colleagues, far fewer followed a bad order. Structure beats courage."
+      ],
+      "softwareNote": "Teams often call it the *highest paid person's opinion*. A common fix is to have the senior person speak last in reviews, or to let a test, not a title, settle product debates."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Don't swap one bias for its opposite.",
+      "body": [
+        "Ignoring experts is not the cure. A 30-year engineer is right about steel far more often than a newcomer.",
+        "The fix is to ask for the reason behind the claim, especially when stakes are high or the decision can't be undone. Be most careful when an authority speaks outside their field. A great surgeon's view on your pricing is just an opinion.",
+        "And checking costs time. Save it for decisions where being wrong is expensive."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software outage.",
+      "illustrative": true,
+      "body": [
+        "Your app is down. The CTO, who built the original system, is sure the database is the problem and wants everyone on it.",
+        "A junior on-call engineer posts quietly that errors began two minutes after a settings change was pushed. You're running the incident. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Put one person on the settings change while the rest follow the CTO",
+            "verdict": "best",
+            "feedback": "You keep the expert's lead and test the cheap clue at the same time. Rolling back a settings change takes minutes."
+          },
+          {
+            "key": "B",
+            "text": "Follow the CTO. He knows the system best",
+            "verdict": "risky",
+            "feedback": "Clear direction, no debate. But if the clue was right, every minute spent on the database is a minute of downtime."
+          },
+          {
+            "key": "C",
+            "text": "Pause and hold a team vote on the cause",
+            "verdict": "partial",
+            "feedback": "It gives the junior engineer a voice, but a vote is still opinion. The logs and a quick rollback can answer faster."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Weigh the evidence, not the title.",
+      "body": [
+        "Respect experience, but ask what a claim rests on. If you're the authority, make it easy for others to tell you you're wrong.",
+        "**Try it today:** in your next meeting, speak last. Ask the most junior person what they'd do first."
+      ],
+      "next": "Next · Why one great quality makes us see others that aren't there"
+    }
+  ]
+}

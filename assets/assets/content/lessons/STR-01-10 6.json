@@ -1,0 +1,240 @@
+{
+  "id": "STR-01-10",
+  "unitId": "STR-01",
+  "categoryId": "STR",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Choose where to play on a small budget",
+  "readerTitle": "Twenty thousand dollars, one kitchen: where would you play?",
+  "format": "everyday_scene",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (야간 근무자 대상 식사 사업) · 소프트웨어 적용은 softwareNote · 모든 인물과 상황은 설명용",
+  "insight": "예산이 작을수록 모두를 상대할 수 없으므로, 이길 수 있는 좁은 자리를 고르고 그 자리를 지키는 선택을 이어 가는 것이 전략이다.",
+  "misconception": "예산이 적으면 시장을 넓게 잡고 들어오는 주문을 다 받아야 살아남는다.",
+  "relatedLessonIds": [
+    "STR-01-04",
+    "STR-01-02"
+  ],
+  "sources": [
+    {
+      "text": "Lafley, A.G. & Martin, R. (2013). Playing to Win: How Strategy Really Works. Harvard Business Review Press. (where to play, how to win)",
+      "url": null
+    },
+    {
+      "text": "Porter, M. (1996). What Is Strategy? Harvard Business Review. (trade-offs, fit, strategy vs operational effectiveness)",
+      "url": null
+    },
+    {
+      "text": "모든 인물, 금액, 상황은 설명용 가상 시뮬레이션",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "전체가 가상 시뮬레이션입니다. 실제 수치나 기업 사실은 쓰지 않았습니다. $20,000 예산과 카페 20곳은 설명용 가정입니다.",
+      "status": "open"
+    },
+    {
+      "note": "배달 앱 수수료는 구체적 비율 없이 '수익을 깎는다'로만 표현했습니다. 국가·플랫폼마다 다르므로 수치를 추가하지 마세요.",
+      "status": "open"
+    },
+    {
+      "note": "takeaway의 개념 매핑(STR-01-04, 01-02, 01-06, 01-01)이 유닛 내 레슨 제목과 일치하는지 게시 전 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Strategy · Simulation",
+      "title": "$20,000 and a kitchen rented by the hour.",
+      "illustrative": true,
+      "body": [
+        "Mina has $20,000 in savings and a shared kitchen she can rent by the hour. She wants to start a meal business.",
+        "She can't afford to serve everyone. Every dollar spent in one place is a dollar she can't spend in another.",
+        "You'll make four calls for her, one after another. Each one builds on the last."
+      ],
+      "image": {
+        "label": "A cook in a small shared kitchen with a jar of savings",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 작은 공유 주방에 선 요리사 한 명, 조리대 위에 '$20,000'이라고 적힌 저금통. 창밖은 밤의 도시. 실제 브랜드나 로고는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Call 1 · Where to play",
+      "title": "Who should Mina feed?",
+      "illustrative": true,
+      "body": [
+        "Near her kitchen, Mina sees three options. Downtown offices, with about 20 cafés within a few blocks. A big hospital and two warehouses with night shifts, where only vending machines and a gas station are open after 10 p.m. Or delivery apps across the whole city."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The downtown office lunch crowd",
+            "verdict": "risky",
+            "feedback": "Huge demand, but she'd fight 20 established cafés on price and speed. Much of her budget would go just to getting noticed."
+          },
+          {
+            "key": "B",
+            "text": "Night-shift workers at the hospital and warehouses",
+            "verdict": "best",
+            "feedback": "A smaller market, but a clear need (a hot meal at 2 a.m.) and almost no rivals. Her small budget is enough to win here."
+          },
+          {
+            "key": "C",
+            "text": "Everyone in the city, through delivery apps",
+            "verdict": "partial",
+            "feedback": "She reaches many customers fast. But app fees cut into every order, and she becomes one listing among hundreds with nothing that sets her apart."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "A software founder faces the same call. \"Scheduling for all small businesses\" means fighting big, well-funded tools. \"Scheduling for dental clinics\" is a market a small team can actually win."
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Call 2 · What to say no to",
+      "title": "Say you chose the night shift. Now requests pour in.",
+      "illustrative": true,
+      "body": [
+        "Two months in, nurses are ordering again and again. Three requests arrive: a nurse wants Mina to cater her sister's wedding for 150 guests. Office workers ask for a lunch menu. A warehouse manager wants a standing order for his night crew.",
+        "Mina can't do all three well. What does she do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Take the wedding. One big payday helps the budget",
+            "verdict": "risky",
+            "feedback": "Good money once, but it costs a weekend of daytime cooking, rented equipment and a tired team on Monday night. Her real customers get a worse meal."
+          },
+          {
+            "key": "B",
+            "text": "Test lunch on Fridays only",
+            "verdict": "partial",
+            "feedback": "A small test limits the risk. But it splits her attention and pulls her back into the crowded fight she chose to avoid."
+          },
+          {
+            "key": "C",
+            "text": "Take the warehouse order and politely decline the rest",
+            "verdict": "best",
+            "feedback": "She gains steady, predictable volume from exactly the customers she chose. Saying no keeps her focused where she can win."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Call 3 · How to win",
+      "title": "Say you said yes only to the warehouse. Now build the system.",
+      "illustrative": true,
+      "body": [
+        "Night workers can't leave their posts, and their breaks are short. Which set of choices fits together best?"
+      ],
+      "image": {
+        "label": "Meals delivered to a night-shift break room",
+        "aspectRatio": "16:9",
+        "brief": "밤 2시 병원 휴게실. 간호사와 창고 직원들이 이름표 붙은 따뜻한 도시락을 받는 장면. 벽시계가 2:00을 가리킴. 실제 병원·기업 로고 없음.",
+        "url": null
+      },
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Text pre-orders until 9 p.m., one batch cook, delivery to break rooms at fixed times, hearty meals that reheat well",
+            "verdict": "best",
+            "feedback": "Each choice supports the others. Pre-orders make batch cooking possible, batches cut waste, and fixed delivery times match fixed breaks."
+          },
+          {
+            "key": "B",
+            "text": "Open a small shop near the hospital until 3 a.m. and cook to order",
+            "verdict": "risky",
+            "feedback": "Rent and staff for quiet hours drain the budget fast. And her customers often can't leave their posts to walk over."
+          },
+          {
+            "key": "C",
+            "text": "Option A's system, but with a rotating menu of 15 dishes",
+            "verdict": "partial",
+            "feedback": "Variety pleases people. But 15 dishes break the single batch, so waste and cooking time climb."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Call 4 · A rival arrives",
+      "title": "Say you built the pre-order system. A year later, a chain moves in.",
+      "illustrative": true,
+      "body": [
+        "A 24-hour convenience chain opens next to the hospital. It sells hot food for less than Mina charges. Some nurses start trying it."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Cut prices to match the chain",
+            "verdict": "risky",
+            "feedback": "She can't outlast a chain on price. Each meal leaves her less money, and customers learn to judge her only on price."
+          },
+          {
+            "key": "B",
+            "text": "Cut costs: cheaper ingredients, faster cooking",
+            "verdict": "partial",
+            "feedback": "Running leaner always helps, but the chain can do the same. Doing things more efficiently is not the same as doing something different."
+          },
+          {
+            "key": "C",
+            "text": "Lean into what the chain can't do: delivery to the ward at break time, dishes the staff ask for",
+            "verdict": "best",
+            "feedback": "The chain sells food at a counter. Mina brings dinner to people who can't leave their posts. That difference is hard for the chain to copy."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Narrow is a bet, not a guarantee.",
+      "body": [
+        "A small market can turn out to be *too* small. Mina should watch for early signs: repeat orders, customers telling coworkers, and waste going down.",
+        "If the night shift alone can't support her, she can widen to nearby groups with the **same need**, such as airport crews or security teams. She keeps her system instead of starting over.",
+        "Choices made on a tight budget also need a fresh look as the business grows."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A small budget forces strategy. Use it.",
+      "body": [
+        "Each of your four calls used one idea from this unit:"
+      ],
+      "list": [
+        "**Call 1, Where to play:** pick customers you can win, not the biggest crowd",
+        "**Call 2, What not to do:** saying no protects your focus",
+        "**Call 3, Fit:** choices that support each other beat good choices on their own",
+        "**Call 4, Strategy vs efficiency:** running leaner can be copied, being different is harder to copy"
+      ],
+      "callout": "**Try it today:** write down the one customer group you could serve better than anyone nearby, and one request you'll turn down this month to keep serving them.",
+      "next": "Next · A new unit begins"
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "id": "OPS-08-07",
+  "unitId": "OPS-08",
+  "categoryId": "OPS",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "Run the numbers on one shop",
+  "readerTitle": "The shop with full shelves and an empty bank account",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (동네 철물점, IT 지원 회사) · 모든 수치는 설명용",
+  "insight": "가게 전체 재고를 한 덩어리로 보지 말고 품목별 회전 속도로 나누면, 현금이 묶인 곳과 품절로 손님을 잃는 곳이 동시에 보인다.",
+  "misconception": "재고가 많으면 품절은 없고, 현금이 부족하면 재고를 전부 줄이면 된다.",
+  "relatedLessonIds": [
+    "OPS-08-01",
+    "OPS-08-02"
+  ],
+  "sources": [
+    {
+      "text": "운영관리의 표준 개념 (재고 회전율 = 연간 매출원가 ÷ 평균 재고, 재고 일수 = 365 ÷ 회전율)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "철물점 회전율: 페인트 90,000 ÷ 15,000 = 6회(365 ÷ 6 ≈ 61일), 원예 공구 24,000 ÷ 24,000 = 1회(365일), 철물(나사·못) 60,000 ÷ 6,000 = 10회(365 ÷ 10 ≈ 37일). 총재고 15,000 + 24,000 + 6,000 = $45,000.",
+      "status": "open"
+    },
+    {
+      "note": "품절 손실: 철물 연매출 $100,000(매출원가 $60,000, 매출총이익률 40%). 하루 매출 100,000 ÷ 365 ≈ $274. 월 4일 × 12 = 48일 × $274 ≈ $13,150. 손님 절반이 떠난다고 가정하면 약 $6,575, 이익 40% ≈ $2,630.",
+      "status": "open"
+    },
+    {
+      "note": "개선안: 원예 공구 재고 $24,000 → $12,000, 철물 $6,000 → $8,000. 총재고 $45,000 → $35,000(−$10,000). 철물 회전율 60,000 ÷ 8,000 = 7.5회(약 49일). 원예 공구는 매출이 유지된다는 가정에서 2회.",
+      "status": "open"
+    },
+    {
+      "note": "IT 지원 회사: 노트북 40,000 ÷ 20,000 = 2회, 도킹 스테이션 8,000 ÷ 8,000 = 1회, 케이블·어댑터 16,000 ÷ 2,000 = 8회. 총재고 $30,000.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Everyday scene",
+      "title": "The shop with full shelves and an empty bank account",
+      "illustrative": true,
+      "body": [
+        "Dana runs a busy hardware shop. She has $45,000 of stock on her shelves, and every month she struggles to pay suppliers on time.",
+        "Yet her screws and nails keep running out. Customers leave empty-handed. Too much stock and too little, in the same shop. Today you run the numbers for her."
+      ],
+      "image": {
+        "label": "Hardware shop with crowded garden aisle and an empty screw shelf",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 일러스트. 동네 철물점 내부. 한쪽 통로에는 먼지 쌓인 원예 공구가 가득하고, 반대쪽 나사·못 선반은 텅 비어 있음. 계산대 뒤에서 주인이 장부를 보며 고민. 실제 브랜드 로고 없음.",
+        "url": "assets/images/ops-08-07-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Where is Dana's cash stuck?",
+      "illustrative": true,
+      "body": [
+        "Dana's three main categories, at cost, over one year:",
+        "Paint: $90,000 sold, $15,000 on the shelf on average. Garden tools: $24,000 sold, $24,000 on the shelf. Screws and nails: $60,000 sold, $6,000 on the shelf."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Paint, because it's the biggest category",
+            "verdict": "partial",
+            "feedback": "Paint holds a lot of money, but it sells through about six times a year. Big isn't the same as stuck."
+          },
+          {
+            "key": "B",
+            "text": "Garden tools, because they sell slowest",
+            "verdict": "best",
+            "feedback": "Right. This is **inventory turnover**: garden tools sell only once a year, so $24,000 sits for a full year before it comes back as cash."
+          },
+          {
+            "key": "C",
+            "text": "Screws and nails, because she reorders them constantly",
+            "verdict": "risky",
+            "feedback": "Frequent reorders feel like a cash drain, but this stock turns ten times a year. The money comes back fast."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Same shop, three very different speeds.",
+      "illustrative": true,
+      "breakdown": [
+        {
+          "value": "6×",
+          "label": "Paint",
+          "detail": "About 61 days on the shelf",
+          "highlight": false
+        },
+        {
+          "value": "1×",
+          "label": "Garden tools",
+          "detail": "A full year on the shelf",
+          "highlight": true
+        },
+        {
+          "value": "10×",
+          "label": "Screws and nails",
+          "detail": "About 37 days, and often empty",
+          "highlight": false
+        }
+      ],
+      "callout": "Garden tools are a third of sales at most, yet over half of Dana's stock.",
+      "softwareNote": "A software company that prepays for a year of cloud capacity or licences has the same problem. Unused capacity is cash sitting on a shelf."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The other side",
+      "title": "The empty shelf has a price too.",
+      "illustrative": true,
+      "body": [
+        "Screws and nails bring in about $100,000 a year at shelf prices, roughly $274 a day, with 40% left after the cost of the goods.",
+        "They run out about 4 days a month. If half of those customers walk out, Dana loses about $6,600 in sales and **$2,600 in gross profit** a year. Some of them also buy their paint somewhere else.",
+        "This is the trade-off between **stockouts and overstock**. Dana has both, in different aisles."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What should Dana change first?",
+      "illustrative": true,
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Double the screw and nail stock to $12,000",
+            "verdict": "partial",
+            "feedback": "It fixes the stockouts, but adds $6,000 of stock when cash is already tight. It solves one side of the stockout–overstock trade-off and makes the other worse."
+          },
+          {
+            "key": "B",
+            "text": "Halve garden tool stock with a clearance sale and fewer reorders, and add $2,000 of screws and nails",
+            "verdict": "best",
+            "feedback": "Total stock drops from $45,000 to $35,000, freeing $10,000. Screws and nails still turn 7.5 times a year, and the empty shelf goes away. Turnover and stockouts both improve."
+          },
+          {
+            "key": "C",
+            "text": "Run a 15% sale across the whole shop to raise cash",
+            "verdict": "risky",
+            "feedback": "It raises cash fast, but gives away margin on paint and screws that were already selling well. The slow stock was the problem, not all of it."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "One yearly number can mislead.",
+      "body": [
+        "Garden tools are seasonal. Measured in March, before spring, a big shelf may be exactly right. Check turnover at the same point each year, not just once.",
+        "Some slow items still earn their place. A rare part that brings a contractor in every month may sell little but anchor bigger orders.",
+        "And cut carefully. Trim slow stock too far and you just move the empty shelf to a new aisle."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's an IT support company.",
+      "illustrative": true,
+      "body": [
+        "You support 40 client offices. Your storeroom holds $30,000 of spare parts. Laptops: $20,000 on hand, $40,000 used a year. Docking stations: $8,000 on hand, $8,000 used. Cables and adapters: $2,000 on hand, $16,000 used, and they often run out, so technicians make second trips."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Hold fewer laptops and docks, order them next-day from a distributor, and keep more cables",
+            "verdict": "best",
+            "feedback": "Slow, expensive items move off your shelf, which raises inventory turnover. Cheap cables, where a stockout costs a whole site visit, get more room."
+          },
+          {
+            "key": "B",
+            "text": "Stock more of everything so technicians never wait",
+            "verdict": "risky",
+            "feedback": "No more second trips, but tens of thousands more in cash sit in the storeroom. You fix stockouts by paying for overstock."
+          },
+          {
+            "key": "C",
+            "text": "Keep nothing and order every part when a job comes in",
+            "verdict": "partial",
+            "feedback": "Cash is freed, but a $10 cable now delays a client for a day. Stockouts cost more than the stock you saved."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "If you sell hardware alongside software, the same split applies: keep fast, cheap items close and order slow, costly ones on demand."
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Split your stock by speed, then fix both ends.",
+      "body": [
+        "One total stock number hides cash stuck in slow items and sales lost on fast ones. Run the numbers category by category.",
+        "**Try it today:** for your three biggest categories, divide a year of cost of goods sold by average stock on hand. Which one turns slowest, and which one runs out?"
+      ],
+      "list": [
+        "**Inventory turnover:** showed where Dana's cash was stuck",
+        "**Stockouts vs overstock:** priced the empty shelf and guided the fix"
+      ],
+      "next": "Next · Run the numbers on an online store"
+    }
+  ]
+}

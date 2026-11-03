@@ -1,0 +1,236 @@
+{
+  "id": "CUS-04-04",
+  "unitId": "CUS-04",
+  "categoryId": "CUS",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Doing it by hand first",
+  "readerTitle": "Test it by hand before you invest",
+  "format": "numbers_twist",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.6,
+  "caseKinds": [
+    "illustrative",
+    "anecdote"
+  ],
+  "caseNote": "가상 사례 (회계 사무소, 식당 용품 도매상) + 전해지는 일화 (Zappos 창업 초기) · 모든 수치는 설명용",
+  "insight": "손으로 하는 방식은 한 건당 비용은 비싸지만, 틀렸을 때 잃는 돈을 크게 줄이고 무엇을 자동화할지 알려준다.",
+  "misconception": "확장할 수 없는 방식으로 하는 건 시간 낭비다. 제대로 시험하려면 제품부터 만들어야 한다.",
+  "relatedLessonIds": [
+    "CUS-04-02",
+    "CUS-04-05"
+  ],
+  "sources": [
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    },
+    {
+      "text": "Zappos 창업 초기 일화: Tony Hsieh, Delivering Happiness (2010) 등에서 전해지는 이야기",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "모든 수치는 설명용 가상 수치입니다. 계산: 고객 10곳 × 월 3시간 × 2개월 = 60시간, 60시간 × 시간당 $50 = $3,000. 보고서 1건당 3시간 × $50 = $150. $40,000 − $3,000 = $37,000. 40,000 ÷ 3,000 ≈ 13.3이므로 \"about one-thirteenth\"로 표기.",
+      "status": "open"
+    },
+    {
+      "note": "Zappos 일화(창업자 Nick Swinmurn이 1999년경 동네 신발 가게에서 신발 사진을 찍어 온라인에 올리고, 주문이 오면 매장에서 정가로 사서 배송했다는 이야기)는 널리 전해지지만 세부 사항은 자료마다 다릅니다. 카드에서는 연도와 수치 없이 일화로 표시했습니다. 게시 전 출처를 다시 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Numbers twist",
+      "title": "Test it by hand before you invest",
+      "illustrative": true,
+      "body": [
+        "A bookkeeping firm wants to sell clients a new monthly cash report. A developer quotes $40,000 to automate it.",
+        "There is a cheaper way to find out whether anyone wants it. It looks wildly inefficient, and that is the point."
+      ],
+      "image": {
+        "label": "A big machine blueprint next to a person writing a report by hand",
+        "aspectRatio": "4:3",
+        "brief": "왼쪽에는 \"$40,000\" 가격표가 붙은 거대한 기계 설계도, 오른쪽에는 책상에서 손으로 보고서를 쓰는 사람과 \"$3,000\" 작은 가격표. 따뜻한 플랫 일러스트. 실제 로고나 상표 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "80% of clients say they'd love it.",
+      "illustrative": true,
+      "body": [
+        "You run the bookkeeping firm. In a survey, 80% of clients said a monthly cash report sounds useful. The software would take four months and $40,000.",
+        "What's your next move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Build it. 80% interest is a strong signal",
+            "verdict": "risky",
+            "feedback": "You save time if the survey is right. But saying \"sounds useful\" costs clients nothing, and you'd bet $40,000 on it."
+          },
+          {
+            "key": "B",
+            "text": "Make the report by hand in a spreadsheet for 10 paying clients for two months",
+            "verdict": "best",
+            "feedback": "Each report is slow and costly to make, but you see what clients actually use before spending big."
+          },
+          {
+            "key": "C",
+            "text": "Build a simpler version for $10,000 first",
+            "verdict": "partial",
+            "feedback": "Less money at risk, but you still pay to build before you know which parts of the report matter."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Two ways to find out.",
+      "illustrative": true,
+      "body": [
+        "Per report, the hand version is absurdly expensive: **$150** each, against almost nothing once automated. In total, it puts about one-thirteenth of the money at risk."
+      ],
+      "breakdown": [
+        {
+          "value": "$40,000",
+          "label": "Build first",
+          "detail": "Four months before the first client sees it",
+          "highlight": false
+        },
+        {
+          "value": "$3,000",
+          "label": "By hand",
+          "detail": "10 clients × 3 hours × 2 months × $50 an hour",
+          "highlight": false
+        },
+        {
+          "value": "$150",
+          "label": "Cost per hand-made report",
+          "detail": "Terrible unit cost, on purpose",
+          "highlight": false
+        },
+        {
+          "value": "$37,000",
+          "label": "Not spent if the answer is no",
+          "detail": "The real value of the test",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The twist",
+      "title": "The hand version found a different product.",
+      "illustrative": true,
+      "body": [
+        "After two months, only 4 of the 10 clients opened the report each month. The other six had liked the idea, not the habit.",
+        "The four regular readers kept asking one question: how much cash will I have in 90 days? The firm had planned to automate a look backward. Customers wanted a look forward.",
+        "The $40,000 build would have automated the wrong thing, well."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Doing it by hand first",
+      "body": [
+        "**Doing it by hand first** means delivering the result you promise with people, spreadsheets and phone calls, before building the system that would do it automatically. It is sometimes called a *concierge test*.",
+        "The customer gets the real outcome. Only the machine is missing. Because you do every step yourself, you see which steps customers care about and which ones nobody notices."
+      ],
+      "image": {
+        "label": "A customer receiving a result while a person works behind a curtain",
+        "aspectRatio": "16:9",
+        "brief": "무대 앞에서 고객이 완성된 보고서를 받고 웃는 장면. 커튼 뒤에서는 사람이 계산기와 스프레드시트로 직접 작업 중. 커튼 뒤 공간에 \"By hand\" 라벨. 실제 로고 없음.",
+        "url": null
+      },
+      "softwareNote": "Many software products start with a founder doing the \"smart\" part manually, such as matching, scheduling or recommending, in a spreadsheet. Once you know which steps users rely on, you know what to code first."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "A story often told",
+      "title": "Shoes before a warehouse.",
+      "body": [
+        "A widely repeated story about Zappos's early days goes like this. Before holding any stock, the founder reportedly photographed shoes at local stores and posted the pictures online.",
+        "When someone ordered a pair, he went back, bought it at full price and shipped it himself. Each sale may have made little or no money. Details vary between tellings.",
+        "The question it answered was big: would people buy shoes without trying them on?"
+      ],
+      "image": {
+        "label": "A person photographing shoes on a store shelf",
+        "aspectRatio": "16:9",
+        "brief": "신발 가게 진열대 앞에서 한 사람이 신발 사진을 찍고, 옆에는 포장 상자와 배송 라벨. \"A story often told\" 느낌의 빈티지 색감. 실제 브랜드 로고 없음.",
+        "url": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Hand-made results can flatter you.",
+      "body": [
+        "Customers who get personal attention from the founder may love *you*, not the product. Results can look better than an automated version will ever do.",
+        "Manual work also doesn't test whether the economics hold at scale. And it's easy to drift into doing it by hand forever.",
+        "Set a time limit and a decision rule before you start, such as: build only if at least half of clients use it every month and pay for it."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a supplies distributor.",
+      "illustrative": true,
+      "body": [
+        "You distribute cleaning and paper supplies to restaurants. You're considering an automatic reorder service for small cafés, so they never run out of napkins or soap.",
+        "How do you test it?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Call 15 cafés every week, take reorders in a spreadsheet and deliver at normal prices for six weeks",
+            "verdict": "best",
+            "feedback": "Slow and labor-heavy, but you learn who reorders, how often and what they forget, with real money changing hands."
+          },
+          {
+            "key": "B",
+            "text": "Build a reorder app and offer the first month free",
+            "verdict": "risky",
+            "feedback": "You'd look modern fast, but free use tells you little about paying, and the build cost is spent before you learn anything."
+          },
+          {
+            "key": "C",
+            "text": "Survey your café customers about the idea",
+            "verdict": "partial",
+            "feedback": "Cheap and quick. But like the bookkeeping survey, it measures interest, not whether cafés actually reorder."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Do it by hand until you know what to automate.",
+      "body": [
+        "The hand version loses on cost per sale and wins on money at risk. It also shows you which part of the idea customers actually want.",
+        "**Try it today:** pick one idea you plan to build. Write how you could deliver it to five customers next week using only people and a spreadsheet."
+      ],
+      "next": "Next · Ask for the money before you build"
+    }
+  ]
+}

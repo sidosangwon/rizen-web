@@ -1,0 +1,278 @@
+{
+  "id": "FIN-05-07",
+  "unitId": "FIN-05",
+  "categoryId": "FIN",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "Budget a restaurant opening",
+  "readerTitle": "The restaurant budget that ends on opening night",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.3,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (40석 레스토랑 개업, 청소 서비스 회사의 2호점) · 모든 수치는 설명용",
+  "insight": "개업 예산은 문을 여는 날이 아니라 매출이 매달 비용을 감당하는 날까지 잡고, 느린 경우에 무엇을 할지 미리 정해 둔다.",
+  "misconception": "공사비와 장비비 견적 안에 들어오면 개업 예산은 충분하다.",
+  "relatedLessonIds": [
+    "FIN-05-01",
+    "FIN-05-03"
+  ],
+  "sources": [
+    {
+      "text": "예산과 시나리오 계획의 표준 개념 (FIN-05-01, FIN-05-03에서 다룸)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "개업 비용 합계: 공사 $120k + 주방 장비 $80k + 가구·인테리어 $30k + 인허가·보증금 $20k + 초기 재고·교육 $10k = $260k. 보유 자금 $350k − $260k = $90k. 개업 비용 내역은 3번 카드 본문에 묶어서 표시했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "월 고정비 $40k 가정. 기본 시나리오: 매출이 남기는 돈이 월 $10k씩 증가(10, 20, 30, 40) → 부족분 30+20+10+0 = $60k. 느린 시나리오: 월 $5k씩 증가(5~40, 8개월) → 35+30+25+20+15+10+5+0 = $140k. 빠른 시나리오: 월 $15k씩 증가(15, 30, 45) → 25+10+0 = $35k.",
+      "status": "open"
+    },
+    {
+      "note": "3번 카드 합계: $260k + $60k + 예비비 $26k(공사·장비 등 개업 비용의 10%) = $346k, 보유 자금 대비 여유 $4k. 6번 카드: 느린 시나리오 $260k + $140k = $400k, 보유 자금 대비 $50k 부족(예비비 제외).",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Everyday scene",
+      "title": "The restaurant budget that ends on opening night",
+      "illustrative": true,
+      "body": [
+        "Maya has $350,000, a 40-seat space she loves, and a builder's quote of $260,000 for everything it takes to open.",
+        "On paper she has $90,000 to spare. She's about to sign the lease."
+      ],
+      "image": {
+        "label": "A restaurant owner reviewing a quote in an empty dining room",
+        "aspectRatio": "4:3",
+        "brief": "공사 중인 빈 레스토랑. 의자가 쌓여 있고 주인이 견적서를 들고 미소 짓는다. 견적서에 \"$260,000\"만 크게 보임. 벽 달력은 개업일에서 끝나 있음. 실제 브랜드나 로고는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Is Maya covered?",
+      "illustrative": true,
+      "body": [
+        "Her quote covers renovation, kitchen equipment, furniture, permits, deposits, opening stock and staff training. Rent, salaries and insurance will run about $40,000 a month once she opens.",
+        "With $350,000 in the bank, is her budget complete?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Yes. The quote is solid and she has $90,000 left over",
+            "verdict": "risky",
+            "feedback": "The quote covers getting the doors open. It says nothing about the months when the room is half full and the $40,000 bills still arrive."
+          },
+          {
+            "key": "B",
+            "text": "Not yet. She needs to add the months before sales cover the monthly bills",
+            "verdict": "best",
+            "feedback": "This is the **budget** idea at work: plan spending all the way to the goal, and the goal is a restaurant that pays for itself, not just an open one."
+          },
+          {
+            "key": "C",
+            "text": "Almost. Add 10% to the quote for overruns and she's fine",
+            "verdict": "partial",
+            "feedback": "A contingency protects against building surprises, which is wise. But it still stops at opening night and misses the ramp-up."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The full picture",
+      "title": "The budget, finished.",
+      "illustrative": true,
+      "body": [
+        "The one-time costs are the part everyone sees. In her expected case, Maya also needs $60,000 to cover the gap while the room fills. Total: **$346,000**, leaving just $4,000."
+      ],
+      "breakdown": [
+        {
+          "value": "$260k",
+          "label": "Opening costs",
+          "detail": "Build-out, equipment, permits, stock, training",
+          "highlight": false
+        },
+        {
+          "value": "$26k",
+          "label": "Contingency",
+          "detail": "10% of opening costs, for overruns",
+          "highlight": false
+        },
+        {
+          "value": "$60k",
+          "label": "Ramp-up gap",
+          "detail": "Monthly bills not yet covered by sales",
+          "highlight": true
+        },
+        {
+          "value": "$346k",
+          "label": "Real total",
+          "detail": "Against $350k in the bank",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept at work · Budgets",
+      "title": "An opening budget runs until the business pays for itself.",
+      "body": [
+        "A **budget** is a plan for what you'll spend to reach a goal. For an opening, that goal is the month when sales cover the monthly bills.",
+        "So the budget has two halves: the one-time costs to open, and the running costs during the ramp-up. The second half is the one that's easy to forget, because no builder sends a quote for it."
+      ],
+      "image": {
+        "label": "Timeline: opening costs, then a ramp-up gap closing over months",
+        "aspectRatio": "16:9",
+        "brief": "가로 타임라인. 왼쪽 \"Opening costs\" 큰 블록, 개업일 표시 이후 \"Ramp-up gap\" 막대들이 달마다 점점 작아지다 \"Sales cover the bills\" 지점에서 사라짐.",
+        "url": null
+      },
+      "softwareNote": "For a software launch, the ramp-up is the months of salaries and ad spend before subscriptions cover them. The same two halves apply."
+    },
+    {
+      "index": 5,
+      "type": "chart",
+      "eyebrow": "Concept at work · Scenario planning",
+      "title": "The gap depends on how fast the room fills.",
+      "illustrative": true,
+      "body": [
+        "Maya models three cases. Each month, sales leave a bit more toward her $40,000 of bills: $15,000 more in the fast case, $10,000 in the expected case, $5,000 in the slow one.",
+        "The slow case takes eight months and needs more than twice the expected gap."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Money needed before sales cover the monthly bills",
+            "rows": [
+              {
+                "label": "Fast (3 months)",
+                "value": 35000,
+                "highlight": false
+              },
+              {
+                "label": "Expected (4 months)",
+                "value": 60000,
+                "highlight": false
+              },
+              {
+                "label": "Slow (8 months)",
+                "value": 140000,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 6,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "The slow case doesn't fit.",
+      "illustrative": true,
+      "body": [
+        "In the slow case, Maya needs $260,000 to open plus $140,000 to get through the ramp-up: $400,000. She has $350,000. What should she do before signing?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Plan on the expected case. The slow one is just pessimism",
+            "verdict": "risky",
+            "feedback": "That ignores the point of **scenario planning**. If the slow case happens, she runs out of money in month six with no plan."
+          },
+          {
+            "key": "B",
+            "text": "Decide now: trim opening costs, line up a backup credit source, and set a trigger, such as dropping lunch service if month-three sales are under target",
+            "verdict": "best",
+            "feedback": "This is **scenario planning** at work. She can't know which case comes, but she decides her moves in advance, while she still has choices."
+          },
+          {
+            "key": "C",
+            "text": "Delay until she has raised $430,000 to cover the slow case plus contingency",
+            "verdict": "partial",
+            "feedback": "Very safe, but it may cost months, the space, or a share of the business. Covering the worst case fully isn't the only way to survive it."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A cushion only works if you protect it.",
+      "body": [
+        "Contingency money tends to get spent on nicer chairs during the build. Keep it in a separate account with a rule for when it can be used.",
+        "And the slow case isn't the worst case. It's a planning tool, not a promise. Pick two or three cases that would change your decisions, rather than modeling ten."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a cleaning company.",
+      "illustrative": true,
+      "body": [
+        "Leon runs a home cleaning business and is opening a second branch in a nearby city. He needs vans, equipment and local ads. Two crews will cost wages from day one, but his schedule there starts empty. Which plan is strongest?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Budget vans, gear and ads. The first branch's profits will cover the rest",
+            "verdict": "risky",
+            "feedback": "It skips the ramp-up half of the **budget** and quietly puts the first branch at risk if the new one fills slowly."
+          },
+          {
+            "key": "B",
+            "text": "Budget setup plus crew wages until the schedule fills, in an expected and a slow case, with a trigger to drop to one crew",
+            "verdict": "best",
+            "feedback": "Both ideas at work: a **budget** that runs to self-funding, and **scenario planning** that decides the fallback in advance."
+          },
+          {
+            "key": "C",
+            "text": "Hire no crews until the schedule is full",
+            "verdict": "partial",
+            "feedback": "It cuts the wage risk, but he can't take bookings he can't serve. Using one crew or freelancers at first may balance both."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "A software company hiring a sales team for a new region faces the same shape: salaries start now, closed deals come months later."
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Budget to the day it pays for itself, not the day it opens.",
+      "body": [
+        "Concepts used: **Budgets**, which cover the full path to the goal, and **scenario planning**, which decides your moves for a slow start before it happens.",
+        "**Try it today:** take any opening or expansion you're planning. Write the month you expect it to cover its own bills, then the month in a slow case. What would you cut first?"
+      ],
+      "next": "Next · Budget a product launch"
+    }
+  ]
+}

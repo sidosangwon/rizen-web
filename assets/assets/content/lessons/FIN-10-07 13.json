@@ -1,0 +1,263 @@
+{
+  "id": "FIN-10-07",
+  "unitId": "FIN-10",
+  "categoryId": "FIN",
+  "order": 7,
+  "type": "apply",
+  "conceptTag": "Check a café before you buy it",
+  "readerTitle": "The café looks profitable. Check what's left after you take over.",
+  "format": "everyday_scene",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.2,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (카페 인수, 구독형 앱 인수) · 모든 수치는 설명용",
+  "insight": "사업을 살 때는 판매자가 보여주는 숫자가 아니라, 내가 인수한 뒤에도 남는 돈과 은행 계좌로 확인되는 돈으로 값을 매긴다.",
+  "misconception": "판매자가 제시한 조정 이익에 업계 평균 배수를 곱하면 적정 인수가가 나온다.",
+  "relatedLessonIds": [
+    "FIN-10-04",
+    "FIN-10-03"
+  ],
+  "sources": [
+    {
+      "text": "중소기업 인수 실사의 일반 원칙 (조정 이익 검토, 은행 입금과 매출 대조)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "조정 이익 계산: 신고 이익 $30,000 + 오너 급여 $40,000 + 수리비 $6,000 + 오너 차량 $4,000 = $80,000. $80,000 × 3 = $240,000(호가).",
+      "status": "open"
+    },
+    {
+      "note": "재계산: 오너 차량만 실제 개인 비용이라 인정 → $30,000 + $4,000 = $34,000. $34,000 × 3 = $102,000. 2.5배 협상 시 $80,000 × 2.5 = $200,000으로 여전히 $102,000의 약 2배.",
+      "status": "open"
+    },
+    {
+      "note": "매출 차이: 장부 매출 $420,000 − 은행·카드 입금 $350,000 = $70,000. 앱 사례: 광고비 $2,000/월, 지원 업무 주 20시간은 가상 수치입니다.",
+      "status": "open"
+    },
+    {
+      "note": "3배 배수는 설명용 가정이며 실제 카페 거래 배수를 제시하는 것이 아닙니다. 카드 문구에서 업계 평균처럼 보이지 않도록 확인하세요.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Apply",
+      "title": "The café looks profitable. Check what's left after you take over.",
+      "illustrative": true,
+      "body": [
+        "A busy neighborhood café is for sale. The owner wants $240,000.",
+        "Her pitch is simple: the café earns $80,000 a year in *adjusted* profit, and three times earnings is a fair price. The tables are full. The coffee is good. Before you sign, two numbers deserve a second look."
+      ],
+      "image": {
+        "label": "A café for sale with a folder of financial papers on the counter",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 톤의 동네 카페 카운터. 창문에 \"For sale\" 안내문, 카운터 위에 서류 폴더와 계산기, 커피잔. 서류 맨 위에 \"Adjusted profit $80,000\" 문구. 실제 브랜드 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/fin-10-07-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "The profit has been \"adjusted.\" What do you ask first?",
+      "illustrative": true,
+      "body": [
+        "The tax-year profit is $30,000. The owner adds back $50,000: her own $40,000 salary, a $6,000 \"one-time\" equipment repair, and $4,000 for her personal car. That's how she gets to $80,000."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Accept it. Owners always add back their salary",
+            "verdict": "risky",
+            "feedback": "This is **adjusted numbers** at work. Some add-backs are fair, but you'd be paying for $80,000 of profit without checking that any of it survives the change of owner."
+          },
+          {
+            "key": "B",
+            "text": "Go line by line: which costs will I still pay after I take over?",
+            "verdict": "best",
+            "feedback": "This tests each adjustment against your future, not her past. It's the core question behind **adjusted numbers**: does the excluded cost really go away?"
+          },
+          {
+            "key": "C",
+            "text": "Accept the $80,000 but push the price down to 2.5 times",
+            "verdict": "partial",
+            "feedback": "Negotiating helps, but a lower multiple on the wrong number is still the wrong price. You'd pay $200,000 for a business that may earn far less."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "The numbers",
+      "title": "Rebuild the profit you'd actually keep.",
+      "illustrative": true,
+      "body": [
+        "She works behind the counter 60 hours a week. If you don't, you'll pay a manager roughly what she paid herself. The repair happens most years. Only the car truly leaves with her. Real profit: **$34,000**. At three times, that's about $102,000, not $240,000."
+      ],
+      "breakdown": [
+        {
+          "value": "$30,000",
+          "label": "Reported profit",
+          "detail": "From the tax-year accounts",
+          "highlight": false
+        },
+        {
+          "value": "+$4,000",
+          "label": "Owner's car",
+          "detail": "Personal cost, leaves with her",
+          "highlight": false
+        },
+        {
+          "value": "$0",
+          "label": "Owner's salary",
+          "detail": "You'll pay a manager instead",
+          "highlight": false
+        },
+        {
+          "value": "$0",
+          "label": "\"One-time\" repair",
+          "detail": "Shows up most years",
+          "highlight": false
+        },
+        {
+          "value": "$34,000",
+          "label": "Profit you'd keep",
+          "detail": "Not the $80,000 in the pitch",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "Concept at work",
+      "title": "Adjusted numbers: every add-back is a promise.",
+      "body": [
+        "Each adjustment quietly says, \"this cost won't happen again.\" Your job is to check whether that promise holds for *you*.",
+        "Ask three things of every line: Is it really personal or truly one-off? Has it appeared before? Will I pay it, or someone like it, next year? A cost that only moves from the owner's pocket to a manager's paycheck hasn't gone away."
+      ]
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "The sales records and the bank don't match.",
+      "illustrative": true,
+      "body": [
+        "The café's sales records show $420,000 last year. Card payments plus bank deposits add up to $350,000. The owner shrugs: the $70,000 gap is cash customers.",
+        "How do you treat it?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Value the café on $420,000. Cafés take lots of cash",
+            "verdict": "risky",
+            "feedback": "You'd pay for money you can't see. This is **cash and profit disagreeing**: when the books and the bank tell different stories, the books are the easier one to change."
+          },
+          {
+            "key": "B",
+            "text": "Value it on the $350,000 you can verify, and ask for proof of the rest",
+            "verdict": "best",
+            "feedback": "You stay open to the extra sales but don't pay for them until they show up somewhere real. The bank is the anchor when **cash and profit disagree**."
+          },
+          {
+            "key": "C",
+            "text": "Walk away. A gap means something's wrong",
+            "verdict": "partial",
+            "feedback": "Caution is healthy, but gaps have innocent causes too. You could lose a good café over a question you never asked."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Concept at work",
+      "title": "Let the suppliers settle the argument.",
+      "illustrative": true,
+      "body": [
+        "Sales records are easy to type. Supplier invoices are harder to fake. Beans, milk and cups should roughly match the number of drinks the sales imply.",
+        "If the invoices fit $350,000 of sales, the extra $70,000 probably isn't there. Also watch the bank balance over the year. A café that shows a profit while its balance shrinks and supplier bills run late is telling you **cash and profit disagree**."
+      ],
+      "image": {
+        "label": "Sales ledger, bank statement and supplier invoices side by side",
+        "aspectRatio": "16:9",
+        "brief": "테이블 위에 세 가지 서류를 나란히 배치. 왼쪽 \"Sales $420,000\" 장부, 가운데 \"Bank $350,000\" 은행 내역, 오른쪽 원두·우유·컵 납품 송장 묶음. 가운데와 오른쪽을 선으로 연결해 서로 맞는다는 느낌. 실제 은행·브랜드 로고 없음.",
+        "url": "assets/images/fin-10-07-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A red flag is a question, not a verdict.",
+      "body": [
+        "Some add-backs are honest. A genuine one-off flood repair or a family member on payroll who won't stay are fair to remove.",
+        "Gaps can be innocent too: seasonal months, sloppy bookkeeping, a second bank account. The goal is to price what you can confirm, then let the seller prove the rest. For a real purchase, a local accountant or lawyer can run formal checks this lesson doesn't replace."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a small subscription app.",
+      "illustrative": true,
+      "body": [
+        "A solo founder is selling a scheduling app with $10,000 in monthly recurring revenue and $6,000 in *adjusted* monthly profit. Excluded: $2,000 a month in ads, labeled \"growth investment,\" and the 20 hours a week the founder spends on customer support, unpaid.",
+        "What do you check?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Trust the $6,000. Software margins are high",
+            "verdict": "risky",
+            "feedback": "High margins don't make excluded costs disappear. Monthly ads and support are **adjusted numbers** you'll keep paying."
+          },
+          {
+            "key": "B",
+            "text": "Add back the ads and a paid support cost, then compare revenue to the payment processor's payouts",
+            "verdict": "best",
+            "feedback": "You use both ideas: rebuild the **adjusted numbers**, then check that recurring revenue matches cash that actually arrived."
+          },
+          {
+            "key": "C",
+            "text": "Only check the payouts",
+            "verdict": "partial",
+            "feedback": "That confirms the revenue is real, a good start. But real revenue with understated costs still overstates profit."
+          }
+        ],
+        "afterReveal": null
+      },
+      "softwareNote": "If users stop seeing ads, new signups may slow and churn may look worse. Ask what revenue looked like in months with less ad spend."
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Pay for the profit you'll keep and the cash you can see.",
+      "body": [
+        "You used two ideas from this unit. **Adjusted numbers:** test each add-back against life after you take over. **When cash and profit disagree:** let the bank and suppliers check the sales records.",
+        "**Try it today:** take your own last year's profit. List anything you'd call \"one-time.\" Did it really happen only once?"
+      ],
+      "next": "Next · Check a startup before you invest"
+    }
+  ]
+}

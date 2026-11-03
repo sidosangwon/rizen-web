@@ -1,0 +1,245 @@
+{
+  "id": "CUS-10-10",
+  "unitId": "CUS-10",
+  "categoryId": "CUS",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "A growth hack that might be a dark pattern",
+  "readerTitle": "Four growth hacks, one question: would customers thank you?",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "illustrative",
+    "real_observation"
+  ],
+  "caseNote": "가상 시뮬레이션 (B2B 청소·사무용품 유통사의 주문 사이트와 청소 서비스 계약) · 모든 수치는 설명용. 다크 패턴 용어의 유래만 실제 사실",
+  "insight": "성장 아이디어는 고객이 그 장치를 알아챈 뒤에도 여전히 통하는지로 판단한다. 알아채는 순간 통하지 않으면 다크 패턴이다.",
+  "misconception": "단기 테스트에서 매출이 오르고 약관에 적혀 있기만 하면 공정한 성장 전략이다.",
+  "relatedLessonIds": [
+    "CUS-10-02",
+    "CUS-10-07"
+  ],
+  "sources": [
+    {
+      "text": "Harry Brignull, deceptive.design (구 darkpatterns.org). 2010년에 'dark patterns' 용어를 제안",
+      "url": "https://www.deceptive.design"
+    },
+    {
+      "text": "회사, 컨설턴트, 18% 수치 등 모든 시나리오는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Harry Brignull이 2010년에 'dark patterns'라는 용어를 만들었다는 내용은 게시 전 deceptive.design 사이트에서 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "'2주 만에 주문 18% 증가', '60일 전 서면 해지', '30일 전 알림' 등은 모두 설명용 가상 수치입니다. 실제 연구 결과처럼 읽히지 않는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "자동 갱신·해지 관련 법규는 국가마다 다르고 자주 바뀝니다. 법률 조언으로 읽히지 않도록 카드에서 특정 법규는 언급하지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Customers · Simulation",
+      "title": "The consultant's slide said +18% in two weeks.",
+      "illustrative": true,
+      "body": [
+        "You run Brightline, a regional supplier of cleaning and office supplies for small businesses. Clinics, offices and gyms order through your website. Many also hire your cleaning crews on yearly contracts.",
+        "A growth consultant brings four ideas. Each one would lift your sales numbers. Each one might also be a trick."
+      ],
+      "image": {
+        "label": "A consultant presenting a rising sales chart to a small business owner",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 창고 사무실에서 컨설턴트가 '+18%' 상승 그래프 슬라이드를 가리키고, 사업주는 뒤편 선반의 청소용품 상자를 바라보며 고민하는 장면. 실제 로고나 상표 없음.",
+        "url": "assets/images/cus-10-10-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 4",
+      "title": "Idea 1: tick the auto-reorder box for them.",
+      "illustrative": true,
+      "body": [
+        "At checkout, the consultant wants \"Reorder this every month\" ticked by default. Most buyers won't notice, so repeat orders will jump."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Keep it pre-ticked. Customers can always untick it",
+            "verdict": "risky",
+            "feedback": "Repeat orders rise, but many are orders nobody meant to place. You pay for the returns, the refunds and the angry calls from office managers."
+          },
+          {
+            "key": "B",
+            "text": "Drop the auto-reorder option entirely",
+            "verdict": "partial",
+            "feedback": "Nobody gets tricked, but you lose a real convenience. Plenty of offices would love never to run out of paper towels."
+          },
+          {
+            "key": "C",
+            "text": "Offer it unticked, show the next delivery date, and email a reminder before each shipment",
+            "verdict": "best",
+            "feedback": "Fewer sign-ups than the pre-ticked box, but each one is a customer who chose it. Those customers tend to stay."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 4",
+      "title": "Idea 2: \"Only 3 left!\" on every product.",
+      "illustrative": true,
+      "body": [
+        "Say you chose the clear, opt-in reorder. Next, the consultant wants a low-stock warning on every item, true or not. Your warehouse holds weeks of stock for most items."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Show it everywhere. It's just marketing",
+            "verdict": "risky",
+            "feedback": "Buyers order more today. But an office manager who sees \"3 left\" for a month learns your labels lie, and then ignores the real warnings."
+          },
+          {
+            "key": "B",
+            "text": "Show real stock levels, and warn only when stock is actually low",
+            "verdict": "best",
+            "feedback": "You keep urgency where it's true, which is when it helps buyers plan. Honest scarcity is information. Fake scarcity is pressure."
+          },
+          {
+            "key": "C",
+            "text": "Hide stock information completely",
+            "verdict": "partial",
+            "feedback": "Safe, but buyers lose something useful. A clinic that knows gloves are running short can order early."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 4",
+      "title": "Idea 3: let the cleaning contracts renew quietly.",
+      "illustrative": true,
+      "body": [
+        "Say you chose honest stock labels. Your cleaning contracts renew each year unless the client cancels in writing 60 days ahead.",
+        "The consultant says: stop sending renewal reminders. Fewer clients will remember to cancel."
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Stop the reminders. The terms are in the contract",
+            "verdict": "risky",
+            "feedback": "Renewals rise this year. But a client surprised by an unwanted bill feels trapped, and trapped clients leave loudly when they finally can."
+          },
+          {
+            "key": "B",
+            "text": "Send a clear reminder before the cancel deadline, and let clients cancel online",
+            "verdict": "best",
+            "feedback": "A few more clients leave. The ones who stay chose to, so your renewal rate now tells you something real about your service."
+          },
+          {
+            "key": "C",
+            "text": "Drop auto-renewal and make every client re-sign each year",
+            "verdict": "partial",
+            "feedback": "Very fair, but happy clients face paperwork and some lapse by accident. Auto-renewal isn't the problem. Hiding it is."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 4 of 4",
+      "title": "Idea 4: judge it by the two-week test.",
+      "illustrative": true,
+      "body": [
+        "Say you chose the reminder. The consultant's last pitch: his test lifted orders 18% in two weeks, so roll everything out. How should you judge a change like this?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Trust it. 18% is a big, clear lift",
+            "verdict": "risky",
+            "feedback": "Two weeks shows who clicked, not who regretted it. Returns, refunds and cancellations arrive later."
+          },
+          {
+            "key": "B",
+            "text": "Track it for three months: repeat orders, returns, complaints and renewals",
+            "verdict": "best",
+            "feedback": "Slower, but it measures what the change does to customers, not just to one fortnight of sales."
+          },
+          {
+            "key": "C",
+            "text": "Skip testing and go by gut",
+            "verdict": "partial",
+            "feedback": "Your gut may be right about the tricks, but you'll never know which honest changes actually help."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Would it still work if they understood it?",
+      "body": [
+        "A **dark pattern** is a design that gets people to do something they didn't mean to do: buy more, sign up, or stay. UX designer Harry Brignull coined the term in 2010.",
+        "A simple check: explain the tactic to the customer out loud. An honest nudge still works, because it helps them do what they wanted. A dark pattern **stops working the moment they see it**."
+      ],
+      "image": {
+        "label": "Two doors: one labeled clearly, one hidden behind a curtain",
+        "aspectRatio": "16:9",
+        "brief": "두 가지 장치를 나란히 비교하는 인포그래픽. 왼쪽은 'Explained out loud → still works' 라벨과 밝은 문, 오른쪽은 'Explained out loud → stops working' 라벨과 커튼 뒤에 숨은 문. 실제 로고 없음.",
+        "url": "assets/images/cus-10-10-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Not every bit of friction is a trick.",
+      "body": [
+        "A confirmation step before a large order is friction that protects the buyer. Urgency is fine when it's true. A default is fine when most customers would pick it anyway.",
+        "And honest design doesn't guarantee growth. Every change, fair or not, still needs measuring over the time it takes customers to react."
+      ],
+      "softwareNote": "In software, the same tricks appear as pre-ticked add-ons, free trials that start charging without warning, and cancel buttons hidden behind a support chat. The test is the same: would it survive being explained?"
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Growth that only works when customers don't notice is borrowed.",
+      "body": [
+        "Each decision used an idea from this unit:"
+      ],
+      "list": [
+        "**Opt-in reorder:** a nudge that helps, not a hidden default",
+        "**Honest stock labels:** persuasion uses true information, manipulation doesn't",
+        "**Renewal reminders:** make leaving as clear as staying",
+        "**Three-month tracking:** a quick test result isn't the real-world effect"
+      ],
+      "callout": "**Try it today:** pick one thing on your checkout, invoice or contract that lifts sales. Explain it out loud as if to a customer. Would it still work?",
+      "next": "Next · A new unit starts tomorrow"
+    }
+  ]
+}

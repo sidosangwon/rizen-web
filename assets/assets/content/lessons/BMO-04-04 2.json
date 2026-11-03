@@ -1,0 +1,251 @@
+{
+  "id": "BMO-04-04",
+  "unitId": "BMO-04",
+  "categoryId": "BMO",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Local vs global networks",
+  "readerTitle": "Why 700 users can beat 3,000",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.9,
+  "caseKinds": [
+    "illustrative",
+    "real_observation"
+  ],
+  "caseNote": "가상 사례 (소매 체인 HR팀의 근무 교대 앱, 성우 마켓플레이스) + 실제 관찰 (차량 호출·배달 서비스의 도시별 확장) · 모든 수치는 설명용",
+  "insight": "네트워크의 가치는 전체 규모가 아니라, 나에게 의미 있는 범위 안에 얼마나 많은 사람이 모여 있는지로 정해진다.",
+  "misconception": "사용자가 가장 많은 네트워크가 언제나 이긴다. 전체 사용자 수가 곧 경쟁력이다.",
+  "relatedLessonIds": [
+    "BMO-04-03",
+    "BMO-04-09"
+  ],
+  "sources": [
+    {
+      "text": "네트워크 효과에 관한 일반적인 경영 개념 (지역 네트워크와 글로벌 네트워크의 구분)",
+      "url": null
+    },
+    {
+      "text": "차량 호출·음식 배달 서비스가 도시 단위로 출시하고 경쟁해 온 일반적 관찰 (특정 수치 없음)",
+      "url": null
+    },
+    {
+      "text": "근무 교대 앱과 성우 마켓플레이스 수치는 모두 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "계산 확인: 300개 매장 × 매장당 직원 100명 = 30,000명. 전 매장 얕은 출시 10% 가입 = 3,000명, 매장당 10명. 10개 매장 집중 출시 70% 가입 = 10 × 100 × 70% = 700명, 매장당 70명. 70 ÷ 10 = 7배.",
+      "status": "open"
+    },
+    {
+      "note": "6번 카드의 '차량 호출·배달 회사는 대체로 도시 단위로 출시하고 경쟁했다'는 일반적 서술입니다. 특정 기업명이나 수치는 넣지 않았습니다. 게시 전 표현이 과하지 않은지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "5번 카드의 지역/글로벌 예시(차량 호출, 청소 서비스, 원격 프리랜서, 앱 마켓)는 단순화한 분류입니다. 실제로는 대부분 두 성격이 섞여 있다는 점을 7번 카드에서 다룹니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business models · Numbers twist",
+      "title": "Why 700 users can beat 3,000",
+      "illustrative": true,
+      "body": [
+        "Two versions of the same shift-swap app run at the same retail chain. One has 3,000 users. The other has 700.",
+        "On the smaller one, staff find someone to take their shift almost every time. On the bigger one, most requests sit unanswered until people give up.",
+        "Same app, same company. The only difference is where the users are."
+      ],
+      "image": {
+        "label": "Two maps of stores: many faint dots vs a few bright clusters",
+        "aspectRatio": "4:3",
+        "brief": "지도 두 장을 나란히. 왼쪽은 300개 매장 위에 작고 흐린 점이 고르게 흩어져 있고, 오른쪽은 10개 매장에만 밝고 큰 점이 빽빽하게 모여 있음. 왼쪽 위 \"3,000 users\", 오른쪽 위 \"700 users\". 실제 기업 로고는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "How do you roll out the app?",
+      "illustrative": true,
+      "body": [
+        "You're on the HR team of a retail chain with 300 stores and about 100 staff in each. You're launching an app where staff can swap shifts with coworkers at their own store.",
+        "Your budget covers either a light launch everywhere or a deep launch at a few stores. Which do you pick?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Launch at all 300 stores at once. The biggest network wins.",
+            "verdict": "risky",
+            "feedback": "You'd likely get the most total users, but they'd be spread thin. A swap needs a free coworker at your own store, so most requests would go unanswered."
+          },
+          {
+            "key": "B",
+            "text": "Launch deeply in 10 stores, and add more once each one is busy",
+            "verdict": "best",
+            "feedback": "Fewer users in total, but enough at each store for swaps to work. Staff who succeed tell coworkers, and that makes the next stores easier."
+          },
+          {
+            "key": "C",
+            "text": "Launch at the 30 biggest stores",
+            "verdict": "partial",
+            "feedback": "Bigger stores help because each one has more possible partners. But if sign-ups stay thin inside each store, that size advantage never shows up."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "Count the users who matter.",
+      "illustrative": true,
+      "body": [
+        "Say a light launch gets 10% of staff everywhere: 3,000 users. A deep launch gets 70% of staff at 10 stores: 700 users.",
+        "Now look at what one employee sees: the number of users at their own store."
+      ],
+      "chart": {
+        "unit": "count",
+        "groups": [
+          {
+            "label": "Total users",
+            "rows": [
+              {
+                "label": "Light launch, 300 stores",
+                "value": 3000,
+                "highlight": false
+              },
+              {
+                "label": "Deep launch, 10 stores",
+                "value": 700,
+                "highlight": false
+              }
+            ]
+          },
+          {
+            "label": "Users at your store",
+            "rows": [
+              {
+                "label": "Light launch, 300 stores",
+                "value": 10,
+                "highlight": false
+              },
+              {
+                "label": "Deep launch, 10 stores",
+                "value": 70,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "callout": "The smaller network is **seven times denser** where it counts."
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Local vs global networks",
+      "body": [
+        "In a **local network**, members mostly gain from others close to them: the same store, city or neighborhood. In a **global network**, members gain from others anywhere.",
+        "In a local network, total size can mislead you. What counts is how many useful members are close enough to matter. Three thousand coworkers spread across 300 stores help you less than 70 in your own."
+      ],
+      "image": {
+        "label": "Circle around one person showing which members count",
+        "aspectRatio": "16:9",
+        "brief": "한 사람을 가운데 두고 주변에 원을 그림. 원 안의 사람들은 진하게, 원 밖의 많은 사람들은 흐리게. 왼쪽 패널 \"Local: only the circle counts\", 오른쪽 패널은 원 없이 모두 진하게 \"Global: everyone counts\".",
+        "url": null
+      },
+      "softwareNote": "Workplace chat and project tools are local networks in disguise. Your team gains from your coworkers being on the tool, not from millions of users at other companies."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How to tell",
+      "title": "Ask how far the value can travel.",
+      "body": [
+        "To spot which kind you have, ask how close a member must be to be useful."
+      ],
+      "list": [
+        "**Must be in the same place:** rides, food delivery, home cleaners, shift swaps. These are local.",
+        "**Can be sent over the internet:** remote freelance work, apps in an app store, digital templates. These lean global.",
+        "**Local in other ways:** a network can also split by language, profession or company. A Spanish speaker gains little from Japanese reviewers."
+      ],
+      "callout": "\"Near\" means near in whatever way makes a member useful to you."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Why it matters",
+      "title": "Local networks are won one place at a time.",
+      "body": [
+        "In a local network, a big total lead doesn't protect you. A rival with fewer members overall can win your city by being denser there. That's one reason ride-hailing and food delivery companies have usually launched and competed city by city.",
+        "Global networks work the other way. They're harder to start, because members are spread everywhere. But once one gets ahead, its lead helps every member at once, and rivals can't pick it apart piece by piece."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Winning one place doesn't win the next.",
+      "body": [
+        "Every new city or store is a fresh launch. It needs its own sign-ups and its own push to the point where it works. Those costs repeat each time, and every local lead stays open to attack.",
+        "Most networks are also a mix. A traveler gains a little when an app works in many cities, so global size adds some value. It's rarely enough to beat a rival who is much denser where customers actually live."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a voice-over marketplace.",
+      "illustrative": true,
+      "body": [
+        "Your website connects businesses with voice actors who record from home and send files online. It's growing slowly.",
+        "An adviser says: \"Do what ride apps did. Launch city by city.\" What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Follow the advice and win one city before the next",
+            "verdict": "risky",
+            "feedback": "The work travels online, so a buyer gains nothing from voices being in the same city. You'd pay for repeated local launches without making the network more useful."
+          },
+          {
+            "key": "B",
+            "text": "Stay open worldwide, but go deep in one language first",
+            "verdict": "best",
+            "feedback": "Here \"near\" means the same language, not the same city. Many Spanish voices make the site useful to Spanish-speaking buyers, wherever either side lives."
+          },
+          {
+            "key": "C",
+            "text": "Open to every language at once to grow total numbers",
+            "verdict": "partial",
+            "feedback": "Right that location doesn't matter. But a few actors in each of 30 languages leaves every buyer with too little choice."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Measure your network where your customer stands.",
+      "body": [
+        "Total members is the number you announce. Members close enough to be useful, by place, language or team, is the number that keeps customers.",
+        "**Try it today:** pick one customer and count how many other members actually matter to them. Compare that with your total."
+      ],
+      "next": "Next · When more members make a network worse"
+    }
+  ]
+}

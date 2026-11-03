@@ -1,0 +1,254 @@
+{
+  "id": "OPS-07-09",
+  "unitId": "OPS-07",
+  "categoryId": "OPS",
+  "order": 9,
+  "type": "case",
+  "conceptTag": "Johnson & Johnson's Tylenol recall",
+  "readerTitle": "Why Johnson & Johnson pulled 31 million bottles it didn't poison",
+  "format": "company_story",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.8,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Johnson & Johnson, 1982년 타이레놀 독극물 사건과 리콜, 2010년 McNeil 리콜 비판) + 가상 적용 (대기업 안의 소프트웨어 플랫폼 팀)",
+  "insight": "위기 대응의 범위는 '증거가 닿는 곳'이 아니라 '의심이 닿는 곳'까지 그린다. 회수 비용은 한정되지만 신뢰를 잃는 비용은 한정되지 않는다.",
+  "misconception": "우리 잘못이 아니고 피해가 한 지역에 그쳤다면, 대응도 그 지역과 그 제품에만 하면 충분하다.",
+  "relatedLessonIds": [
+    "OPS-07-05",
+    "OPS-07-02"
+  ],
+  "sources": [
+    {
+      "text": "The New York Times, 1982년 9~11월 시카고 타이레놀 독극물 사건 및 전국 리콜 보도",
+      "url": null
+    },
+    {
+      "text": "Rehak, J. (2002). Tylenol made a hero of Johnson & Johnson: The recall that started them all. International Herald Tribune / The New York Times.",
+      "url": null
+    },
+    {
+      "text": "U.S. FDA, 1982년 변조 방지 포장 규정 (21 CFR 211.132) 및 FDA 역사 자료",
+      "url": null
+    },
+    {
+      "text": "Johnson & Johnson, company history and Our Credo",
+      "url": null
+    },
+    {
+      "text": "U.S. House Committee on Oversight and Government Reform, 2010 hearings on McNeil Consumer Healthcare recalls",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "사망자 7명(시카고 지역), 청산가리(시안화칼륨)가 든 Extra-Strength Tylenol 캡슐, 1982년 9월 말~10월 초 발생. 범인은 끝내 잡히지 않음. 게시 전 NYT 보도로 재확인 필요.",
+      "status": "open"
+    },
+    {
+      "note": "전국 리콜 규모 약 3,100만 병, 비용 약 1억 달러는 널리 인용되는 수치이나 자료마다 표현이 다름. 카드에는 'about 31 million', 'reported cost of roughly $100 million'으로 적음.",
+      "status": "open"
+    },
+    {
+      "note": "독극물이 공장이 아니라 매장 진열 후 투입되었다는 판단은 당시 수사 결론으로 널리 보도됨. 회사가 광고를 중단하고 캡슐을 정제로 교환해 준 점도 확인 필요.",
+      "status": "open"
+    },
+    {
+      "note": "시장점유율 하락(약 37% → 약 7%)과 약 1년 내 회복은 자주 인용되지만 출처마다 다름. 카드에는 'from roughly a third of the market to single digits', 'within about a year'로 정성적으로만 적음.",
+      "status": "open"
+    },
+    {
+      "note": "1982년 11월 3중 밀봉(상자 접착, 병목 비닐 밴드, 입구 호일 실) 포장으로 재출시, 이후 FDA의 변조 방지 포장 규정 도입. 재출시 시점과 포장 구성 재확인 필요.",
+      "status": "open"
+    },
+    {
+      "note": "2009~2010년 J&J 자회사 McNeil의 어린이용 해열제 등 리콜 지연·품질 문제로 2010년 미 하원 청문회에서 비판받은 사실. 세부 수치는 쓰지 않고 정성적으로만 언급함.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Risk · Company story",
+      "title": "Why Johnson & Johnson pulled 31 million bottles it didn't poison",
+      "body": [
+        "In the fall of 1982, seven people in the Chicago area died after taking Extra-Strength Tylenol capsules. Someone had put cyanide inside them.",
+        "Tylenol was the best-selling painkiller in America. The poison wasn't added at the factory. The company still had a choice to make, and fast."
+      ],
+      "image": {
+        "label": "An empty pharmacy shelf with one pill bottle left",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 약국 진열대가 거의 비어 있고 흰 약병 하나만 남아 있음. 차분하고 어두운 톤, 공포 연출은 피함. 실제 Tylenol, J&J 로고나 상표, 포장 디자인은 쓰지 않음.",
+        "url": "assets/images/ops-07-09-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "The poison came from outside. What do you pull?",
+      "body": [
+        "You run the company. The deaths are all in one metro area. Investigators believe someone tampered with bottles after they reached store shelves.",
+        "Your factories are clean. Pulling more product costs real money and may look like an admission of guilt. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Recall every capsule in the Chicago area and work closely with police",
+            "verdict": "partial",
+            "feedback": "This matches the evidence and limits the cost. But no one can promise the poisoner stayed in Chicago, and customers elsewhere are left wondering if their bottle is safe."
+          },
+          {
+            "key": "B",
+            "text": "Pull every capsule nationwide, stop advertising and warn the public not to use them",
+            "verdict": "best",
+            "feedback": "You pay a large, known cost now to remove every doubt. This is close to what J&J actually did. Next card shows how it played out."
+          },
+          {
+            "key": "C",
+            "text": "Keep selling, issue a clear warning and point out the factories are clean",
+            "verdict": "risky",
+            "feedback": "You protect sales this week. But if one more person dies anywhere, being right about the factory won't matter to anyone."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "They drew the line around the whole country.",
+      "body": [
+        "J&J warned the public, halted Tylenol advertising and recalled about 31 million bottles of capsules nationwide. The reported cost was roughly $100 million.",
+        "It offered to swap people's capsules for tablets. The company's long-standing credo put responsibility to patients first, and leaders reportedly used it to guide the call.",
+        "Sales collapsed anyway. Tylenol's share of the painkiller market fell from roughly a third to single digits."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Contain the doubt, not just the damage.",
+      "body": [
+        "In a crisis, the evidence tells you where harm *has* happened. It rarely tells you where harm *could* happen next.",
+        "**Crisis response** works best when you size it to the cost of being wrong. A recall had a large but limited price. A second death in another city had no ceiling: lost lives, lost trust, a brand that might never return.",
+        "J&J chose the cost it could count over the one it couldn't."
+      ],
+      "image": {
+        "label": "Small circle of evidence inside a larger circle of doubt",
+        "aspectRatio": "16:9",
+        "brief": "지도 위 두 개의 원. 작은 진한 원에 \"Where the evidence is\", 그 바깥을 덮는 큰 옅은 원에 \"Where the doubt reaches\". 큰 원 테두리에 \"Draw the response here\" 화살표. 실제 로고 없음.",
+        "url": "assets/images/ops-07-09-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "breakdown",
+      "eyebrow": "How it worked",
+      "title": "Stop, pull, fix, return.",
+      "body": [
+        "The recall bought time. The fix is what brought customers back. Within about a year, Tylenol had won back much of its lost market share."
+      ],
+      "breakdown": [
+        {
+          "value": "Stop",
+          "label": "Halt the harm",
+          "detail": "Public warning, advertising paused",
+          "highlight": false
+        },
+        {
+          "value": "Pull",
+          "label": "Recall everywhere",
+          "detail": "Capsules off every shelf, not just Chicago's",
+          "highlight": false
+        },
+        {
+          "value": "Fix",
+          "label": "Remove the weak point",
+          "detail": "Relaunch in a sealed, tamper-evident package",
+          "highlight": true
+        },
+        {
+          "value": "Return",
+          "label": "Earn trust back",
+          "detail": "Coupons and a visible new standard",
+          "highlight": false
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond one company",
+      "title": "The fix became everyone's rule.",
+      "body": [
+        "The weak point wasn't one bad bottle. It was a package anyone could open and close without a trace.",
+        "J&J relaunched Tylenol in packaging with three seals. Soon after, U.S. regulators required tamper-evident packaging for over-the-counter medicines. Today, the foil under a cap or the band around a lid exists because of this case.",
+        "A good response ends the crisis. A great one removes the reason it could happen again."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "It worked under specific conditions.",
+      "body": [
+        "J&J could afford a huge recall, the cause was outside its walls, and a clear fix existed. Not every business has all three.",
+        "The story is also told with hindsight. And the same company later faced sharp criticism, including a 2010 congressional hearing, for slow recalls of children's medicines made at one of its plants.",
+        "A famous response doesn't make a company good at crises. Each new one tests the habit again."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now you lead a platform team inside a big company.",
+      "illustrative": true,
+      "body": [
+        "Your team runs the login system for the company's apps. You find a bug that exposed some customers' account details. Logs show it hit one region. But your logs for other regions are incomplete.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Patch it and notify only the affected customers in that region",
+            "verdict": "partial",
+            "feedback": "Precise and cheap. But your logs can't rule out other regions, and if more cases surface later, the first notice will look like a cover-up."
+          },
+          {
+            "key": "B",
+            "text": "Patch it, treat all regions as possibly affected, force password resets and narrow down as the evidence comes in",
+            "verdict": "best",
+            "feedback": "You annoy many users who were probably fine. In return, nobody is left exposed while you investigate, and trust survives."
+          },
+          {
+            "key": "C",
+            "text": "Patch it quietly and wait for a full investigation before telling anyone",
+            "verdict": "risky",
+            "feedback": "You avoid alarming people over what may be a small problem. But customers stay exposed while you wait, and silence is hard to defend later."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Size your response to the cost of being wrong.",
+      "body": [
+        "Evidence shows where harm happened. Draw the response around where doubt reaches, then fix the weak point so it can't happen again.",
+        "**Try it today:** pick one thing that could go badly wrong in your business. Write down how far you would go to contain it, and what you would need to decide in one hour, not one week."
+      ],
+      "next": "Next · A crisis hits, and you're in charge"
+    }
+  ]
+}

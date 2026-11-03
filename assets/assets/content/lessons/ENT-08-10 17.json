@@ -1,0 +1,254 @@
+{
+  "id": "ENT-08-10",
+  "unitId": "ENT-08",
+  "categoryId": "ENT",
+  "order": 10,
+  "type": "sim",
+  "conceptTag": "Accept the offer?",
+  "readerTitle": "The $15 million offer, or the one you actually want?",
+  "format": "everyday_scene",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.2,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 시뮬레이션 (플라스틱 물류 상자 제조사 + 물류 소프트웨어 인수자) · 모든 인물, 회사, 수치는 설명용",
+  "insight": "인수 제안은 제시 금액이 아니라 확실히 받는 현금과 매각 후 내가 원하는 조건으로 비교한다.",
+  "misconception": "가장 큰 금액을 부른 인수자가 가장 좋은 제안이다.",
+  "relatedLessonIds": [
+    "ENT-08-02",
+    "ENT-08-04"
+  ],
+  "sources": [
+    {
+      "text": "M&A 실무의 일반 개념 (언아웃, 전략적 인수자, 매각 후 인수인계 기간)",
+      "url": null
+    },
+    {
+      "text": "모든 인물, 회사, 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "계산 확인: 소프트웨어 회사 제안 $8M 현금 + 최대 $7M 언아웃 = $15M. 경쟁사 제안 $11M 전액 현금. 명목 차이 $15M − $11M = $4M, 확정 현금 차이 $11M − $8M = $3M.",
+      "status": "open"
+    },
+    {
+      "note": "언아웃은 인수 후 인수자가 경영권을 가지므로 목표 달성 여부가 매도자 통제 밖에 있을 수 있다는 설명은 일반론입니다. 분쟁 빈도 같은 통계는 쓰지 않았습니다. 게시 전 표현이 과장되지 않았는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "7번 카드에 법률·세무 조언이 아니라는 문구를 넣었습니다. 특정 국가의 세금 처리(현금 vs 언아웃)는 다루지 않습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Exits · Simulation",
+      "title": "An email offers $12 million. Now what?",
+      "illustrative": true,
+      "body": [
+        "Maya has run Crateworks for 15 years. Her 40 staff make reusable plastic crates that warehouses rent and send back. Years ago she built a simple app so customers can scan each crate and see where it is.",
+        "One morning an email arrives from a logistics software company. They'd like to buy the business for about $12 million. You're Maya. Four decisions follow."
+      ],
+      "image": {
+        "label": "Factory owner reading an offer email beside stacked crates",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 작은 공장 사무실에서 40대 여성 대표가 노트북 화면의 \"$12M offer\" 이메일을 보고 있음. 창밖으로 색색의 플라스틱 물류 상자가 쌓인 작업장. 실제 회사 로고나 상표 없음.",
+        "url": "assets/images/ent-08-10-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Decision 1 of 4",
+      "title": "Your first reply.",
+      "illustrative": true,
+      "body": [
+        "The buyer wants an answer within two weeks and asks for a call tomorrow. What do you do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Take the call and push the price up right away",
+            "verdict": "partial",
+            "feedback": "You show interest and might gain a little. But you're bargaining before you know what you want from a sale, and price is only one part of it."
+          },
+          {
+            "key": "B",
+            "text": "Before the call, write down why you'd sell and what must be true afterward",
+            "verdict": "best",
+            "feedback": "It costs you an evening. In return you get a yardstick for judging every offer that follows."
+          },
+          {
+            "key": "C",
+            "text": "Reply that the business isn't for sale",
+            "verdict": "risky",
+            "feedback": "You keep full control. But you close the door without learning what the business is worth to anyone, or what you'd want if you did sell."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "choice",
+      "eyebrow": "Decision 2 of 4",
+      "title": "Why do they want you?",
+      "illustrative": true,
+      "body": [
+        "Say you chose B. Maya's list: she's tired after 15 years, she wants most of the money in cash, and she wants her staff kept on.",
+        "On the call, the buyer talks mostly about the tracking app and its 300 warehouse customers. They barely mention the factory. What's your next move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Counter with what crate makers usually sell for",
+            "verdict": "partial",
+            "feedback": "That gives you a fair floor, but it ignores why this buyer is calling. To them, the app and the customer list may be worth far more than the factory."
+          },
+          {
+            "key": "B",
+            "text": "Find out what the app is worth to their platform, and quietly invite one more buyer",
+            "verdict": "best",
+            "feedback": "You learn what this buyer can justify paying, not just the market average. A second offer shows you what your real choice is."
+          },
+          {
+            "key": "C",
+            "text": "Offer to sell them only the app and keep the factory",
+            "verdict": "risky",
+            "feedback": "It could work, but you'd still be running the business you wanted to leave. And the factory may be worth less without its tracking tool."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 4,
+      "type": "choice",
+      "eyebrow": "Decision 3 of 4",
+      "title": "Two offers on the table.",
+      "illustrative": true,
+      "body": [
+        "Say you chose B. A rival crate maker makes an offer, and the software company raises its bid. Which offer fits Maya's list?"
+      ],
+      "list": [
+        "**Software company, $15M:** $8M cash at closing, plus up to $7M over three years if the app hits revenue targets. Production moves to an outside supplier.",
+        "**Rival crate maker, $11M:** all cash at closing. The factory and staff stay."
+      ],
+      "image": {
+        "label": "Two offers side by side: $15M split into parts, $11M solid",
+        "aspectRatio": "16:9",
+        "brief": "막대 두 개 비교. 왼쪽 \"$15M\" 막대는 아래 \"$8M cash\"(진한색)와 위 \"Up to $7M later\"(점선, 반투명)로 나뉨. 오른쪽 \"$11M cash\" 막대는 전부 진한색. 진한 부분의 높이 차이를 강조.",
+        "url": "assets/images/ent-08-10-c4.jpg"
+      },
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The $15 million. It's the biggest number",
+            "verdict": "risky",
+            "feedback": "The $7M is an *earnout*: money paid later only if targets are hit. After closing, the buyer controls prices, staff and budgets, so hitting those targets is partly out of your hands. And your team loses their jobs."
+          },
+          {
+            "key": "B",
+            "text": "The $11 million from the rival",
+            "verdict": "best",
+            "feedback": "You give up $4M on paper but get $3M more in cash you can count on, and your staff keep their jobs. It matches what you said you wanted."
+          },
+          {
+            "key": "C",
+            "text": "Ask the software company for more cash up front",
+            "verdict": "partial",
+            "feedback": "Worth asking, because more cash at closing cuts your risk. But production still moves away, so the staff point on your list stays unsolved."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 5,
+      "type": "choice",
+      "eyebrow": "Decision 4 of 4",
+      "title": "Stay or go?",
+      "illustrative": true,
+      "body": [
+        "Say you chose B. The rival asks Maya to stay on for two years as head of operations so the big customers stay calm. What do you say?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Agree to two years. Don't risk the deal",
+            "verdict": "risky",
+            "feedback": "You protect the deal today. But you're selling partly because you're tired, and working for someone else inside the company you used to run is often harder than founders expect."
+          },
+          {
+            "key": "B",
+            "text": "Offer six months, with a clear role and a handover plan",
+            "verdict": "best",
+            "feedback": "The buyer gets continuity and personal introductions to key customers. You get a defined job and a fixed end date."
+          },
+          {
+            "key": "C",
+            "text": "Leave on the day the deal closes",
+            "verdict": "partial",
+            "feedback": "You get a clean break. But if key customers look shaky, the buyer may lower the price or walk away."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "How it ends",
+      "title": "Smaller offer, better deal.",
+      "illustrative": true,
+      "body": [
+        "The deal closes at $11 million, all cash. Maya spends six months introducing her successor to the biggest customers, then steps away. The factory keeps running with the same team.",
+        "In the email, the $15 million offer looked better. Against her own list, it was worse on two of her three points: less cash she could count on, and no jobs for her staff."
+      ],
+      "image": {
+        "label": "Founder handing over keys at a busy factory",
+        "aspectRatio": "16:9",
+        "brief": "3D 클레이 스타일. 공장 출입구에서 대표가 새 운영 책임자에게 열쇠를 건네고, 뒤에서는 직원들이 평소처럼 상자를 나르고 있음. 따뜻한 분위기. 실제 로고 없음.",
+        "url": "assets/images/ent-08-10-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "The right offer depends on the seller.",
+      "body": [
+        "Another founder could rightly choose the earnout. If you believe in the product, plan to stay, and can influence the targets, being paid for future results may be worth the risk.",
+        "Deals also change between handshake and closing, as buyers check the books and contracts. Keep running the business as if it weren't for sale. A real sale needs a lawyer and an accountant. This lesson is not legal or tax advice."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "The biggest number isn't always the best offer.",
+      "body": [
+        "Each decision used one idea from this unit:"
+      ],
+      "list": [
+        "**Write down your why first:** Why sell",
+        "**Ask why this buyer wants you:** What your company is worth to a buyer",
+        "**Compare the cash you can count on:** Being acquired",
+        "**Set the terms of staying:** Life after selling"
+      ],
+      "callout": "**Try it today:** write down three things that must be true after you sell, even if you never plan to. Keep the list somewhere you'll find it.",
+      "next": "Next · A new unit begins"
+    }
+  ]
+}

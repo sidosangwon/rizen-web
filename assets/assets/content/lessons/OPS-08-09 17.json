@@ -1,0 +1,236 @@
+{
+  "id": "OPS-08-09",
+  "unitId": "OPS-08",
+  "categoryId": "OPS",
+  "order": 9,
+  "type": "case",
+  "conceptTag": "Aldi's short product list",
+  "readerTitle": "Why Aldi sells fewer products, and how that keeps prices low",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "real_company",
+    "illustrative"
+  ],
+  "caseNote": "실제 기업 (Aldi, 독일 할인 식료품 체인) + 가상 적용 (해외 진출 판단 장면, 소프트웨어 회사)",
+  "insight": "상품 하나를 더하는 비용은 그 상품의 매출표에 나오지 않는다. 상품 수를 줄이면 남은 상품 모두가 더 싸게 돌아간다.",
+  "misconception": "상품이 많을수록 손님이 늘고 매출도 오른다. 잘 안 팔리는 상품도 진열대에 있으면 손해는 아니다.",
+  "relatedLessonIds": [
+    "OPS-08-03",
+    "OPS-08-04"
+  ],
+  "sources": [
+    {
+      "text": "Aldi US, About Us / company facts (store count, share of exclusive brands, cart and bagging practices)",
+      "url": "https://corporate.aldi.us"
+    },
+    {
+      "text": "Aldi UK, corporate site (UK store growth)",
+      "url": "https://www.aldi.co.uk"
+    },
+    {
+      "text": "FMI (The Food Industry Association), Supermarket Facts (typical number of items in a US supermarket)",
+      "url": "https://www.fmi.org"
+    },
+    {
+      "text": "Kantar, Great Britain grocery market share reports (Aldi's UK position)",
+      "url": "https://www.kantar.com"
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Aldi 매장의 취급 품목 수는 자료마다 '약 1,400~2,000개'로 다릅니다. 카드에는 'a few thousand or fewer'로 적었습니다. 게시 전 Aldi US 자료로 최신 수치를 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "일반 미국 슈퍼마켓 품목 수는 FMI 자료에서 대략 3만 개 안팎으로 인용됩니다. 카드에는 'tens of thousands'로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Aldi US는 상품의 약 90%가 자체 브랜드(독점 브랜드)라고 밝힙니다. 카드에는 'most'로 적었습니다. 확인 후 수치를 넣을지 결정하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Aldi가 영국에서 주요 대형 식료품 업체 중 하나로 성장했다는 내용은 Kantar 점유율 보고서로 확인하세요. 순위는 카드에 쓰지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "상자째 진열, 카트 동전 보증금, 손님이 직접 봉투에 담기, 여러 면에 바코드 등 운영 방식은 Aldi 공식 자료와 다수 언론 보도에 나옵니다. 국가·시기별 차이가 있으니 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Aldi가 시간이 지나며 신선식품, 유기농, 일부 유명 브랜드 상품을 늘렸다는 내용은 정성적으로만 적었습니다. 구체적 연도와 품목 수는 넣지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "2번 카드의 해외 진출 판단 장면은 Aldi 내부 회의를 재현한 것이 아니라 설명용 가상 상황입니다. illustrative 표시했습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Operations · Counterexample",
+      "title": "Why Aldi sells fewer products, and how that keeps prices low",
+      "body": [
+        "A typical US supermarket stocks tens of thousands of different items. An Aldi store usually carries a few thousand or fewer.",
+        "Often there is just one kind of ketchup. Most of the brands are Aldi's own. And yet the German discounter has kept growing across Europe, the UK and the US."
+      ],
+      "image": {
+        "label": "A long supermarket aisle next to a short, simple discount store aisle",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 왼쪽은 같은 상품군이 수십 종류 빽빽한 긴 진열대, 오른쪽은 상자째 놓인 상품이 한 종류씩만 있는 짧고 깔끔한 진열대. 실제 매장 로고와 브랜드 포장은 쓰지 않음.",
+        "url": "assets/images/ops-08-09-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Shoppers say they miss their brands.",
+      "illustrative": true,
+      "body": [
+        "Imagine you run a discount grocer entering a new country. Local shoppers are used to huge supermarkets. In surveys, they say they like your prices but miss their favorite brands and wider choice.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Add the popular national brands so shoppers can find what they know",
+            "verdict": "risky",
+            "feedback": "You win some shoppers who wanted familiar labels. But every added brand splits sales, takes shelf space and staff time, and weakens the low prices that brought shoppers in."
+          },
+          {
+            "key": "B",
+            "text": "Keep one good option per need, and push quality and price hard",
+            "verdict": "best",
+            "feedback": "You give up shoppers who insist on choice. In return, each item sells in big volume, which keeps costs and prices low. This is roughly what Aldi did."
+          },
+          {
+            "key": "C",
+            "text": "Keep the short list, but double it in a few popular categories",
+            "verdict": "partial",
+            "feedback": "A reasonable test. The risk is that \"just a few categories\" keeps growing, and costs creep back in one product at a time."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "Aldi stayed short, and kept growing.",
+      "body": [
+        "Aldi mostly held its line. It offered a short list of everyday products, most of them under its own brands, at prices well below many rivals.",
+        "Shoppers who wanted ten kinds of pasta sauce went elsewhere. Many others accepted one good jar for less money. Aldi grew into one of Britain's largest grocers and expanded steadily in the US.",
+        "The short list wasn't a gap in the business. It was the business."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The hidden cost of one more product",
+      "body": [
+        "**Complexity cost** is the extra cost every new product adds to the whole operation, not just to itself. It needs shelf space, ordering, storage, staff time and price tags. Slow sellers spoil or sit.",
+        "Those costs rarely show up in that product's own sales report. They are spread across everything else, raising the cost of the products that sell well."
+      ],
+      "image": {
+        "label": "One extra product pulling small costs from shelves, staff and storage",
+        "aspectRatio": "4:3",
+        "brief": "인포그래픽. 가운데 상품 상자 하나가 새로 추가되고, 그 상자에서 \"Shelf space\", \"Ordering\", \"Storage\", \"Staff time\", \"Waste\" 라벨이 붙은 작은 동전들이 빠져나가는 모습. 브랜드 로고 없음.",
+        "url": "assets/images/ops-08-09-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "A short list makes the other savings possible.",
+      "body": [
+        "Because each item sells in such volume, Aldi can run its stores differently:"
+      ],
+      "list": [
+        "**Bigger orders per item:** more buying power with suppliers",
+        "**Own brands:** easier to develop when there are few to manage",
+        "**Products shown in shipping boxes:** less shelf stocking",
+        "**Smaller stores:** less rent and fewer staff hours",
+        "**Shoppers return carts and bag their own groceries:** less labor"
+      ],
+      "callout": "Each practice saves a little. The short list is what lets them all work together."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The myth it breaks",
+      "title": "More choice doesn't always mean more customers.",
+      "body": [
+        "The common belief: every extra product brings extra sales, so a bigger range always helps.",
+        "Aldi shows the other side. Extra products often take sales from similar items rather than adding new ones. Total sales may rise a little while cost per sale rises more.",
+        "A short list also helps shoppers. Fewer choices can mean a faster, easier trip, which some people value as much as the low price."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A short list only works if every item earns its place.",
+      "body": [
+        "With one option per need, a weak product has nowhere to hide. Quality has to hold, or shoppers leave for good.",
+        "It also means some customers do a second shop elsewhere for specific brands. Aldi has accepted that.",
+        "And the right list changes. Aldi itself has added more fresh, organic and specialty items over the years as shoppers' tastes shifted. Short is a discipline, not a fixed number."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a software company.",
+      "illustrative": true,
+      "body": [
+        "Your scheduling app has seven pricing plans and connects to 40 other tools. Support tickets keep rising, and every new release breaks something. A large customer offers a good contract if you build one more custom integration.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Build it. A big contract is worth one more integration",
+            "verdict": "risky",
+            "feedback": "You win the deal. But the integration needs testing and support forever, and each one makes the next release slower and riskier for every customer."
+          },
+          {
+            "key": "B",
+            "text": "Cut to three plans, retire rarely used integrations, and offer the customer a standard option",
+            "verdict": "best",
+            "feedback": "You may lose some users and maybe this deal. You gain a product that is cheaper to support and faster to improve for everyone else."
+          },
+          {
+            "key": "C",
+            "text": "Build it, but charge enough to cover the work",
+            "verdict": "partial",
+            "feedback": "Better than free. Just price in the years of upkeep, not only the build, and watch how often \"one more\" happens."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Every product you add makes the others cost more.",
+      "body": [
+        "Aldi turned a short list into low prices by letting each item sell in huge volume and building the whole operation around that.",
+        "**Try it today:** list the products or services that make up your bottom 20% of sales. For each one, write down what it costs you in space, time and attention, not just money."
+      ],
+      "next": "Next · Cut your product range in half?"
+    }
+  ]
+}

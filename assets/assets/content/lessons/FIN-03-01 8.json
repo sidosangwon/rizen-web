@@ -1,0 +1,285 @@
+{
+  "id": "FIN-03-01",
+  "unitId": "FIN-03",
+  "categoryId": "FIN",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "What unit economics means",
+  "readerTitle": "Same sales, opposite futures: what one job tells you",
+  "format": "two_businesses",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 5.1,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 2개 (가정 청소 서비스, 배달 전문 만두 가게) + 가상 적용 (구독형 앱) · 모든 수치는 설명용",
+  "insight": "사업 전체의 손익보다 먼저 '한 단위'(한 건, 한 주문, 한 고객)가 돈을 남기는지 본다. 성장은 그 한 단위의 결과를 그대로 곱하기 때문이다.",
+  "misconception": "지금 적자여도 규모만 키우면 언젠가 흑자가 된다. 매출이 같으면 두 사업의 건강 상태도 비슷하다.",
+  "relatedLessonIds": [
+    "FIN-03-06",
+    "FIN-04-05"
+  ],
+  "sources": [
+    {
+      "text": "관리회계와 스타트업 재무의 표준 개념 (단위 경제성, 단위당 매출과 변동비)",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "청소 서비스 계산: 건당 $100 − 인건비 $45 − 이동비 $10 − 용품 $5 = $40. 월 300건 × $40 = $12,000 − 고정비 $14,000 = −$2,000. 두 배(600건): 600 × $40 = $24,000 − $14,000 = +$10,000. 손익분기 14,000 ÷ 40 = 350건.",
+      "status": "open"
+    },
+    {
+      "note": "만두 가게 계산: 주문당 $20 − 재료 $7 − 포장 $1.50 − 배달앱 수수료 30% $6 − 무료배달 부담 $3.50 − 포장 인건비 $3 = −$1. 월 1,500건 × −$1 = −$1,500 − 고정비 $2,500 = −$4,000. 두 배(3,000건): −$3,000 − $2,500 = −$5,500.",
+      "status": "open"
+    },
+    {
+      "note": "배달앱 수수료 30%, 앱스토어 수수료 30%는 설명용 가정입니다. 실제 수수료는 플랫폼·국가·요금제에 따라 다르므로(앱스토어는 15%가 적용되는 경우도 있음) 카드에는 가상 사례로만 표시했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "앱 사례: 월 $10 − 스토어 수수료 $3 − AI 처리·서버 비용 $9 = 구독자당 월 −$2. 사용자 수가 늘어도 구독자당 손실은 그대로라는 점만 다룹니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Money · Two businesses",
+      "title": "Same sales, opposite futures: what one job tells you",
+      "illustrative": true,
+      "body": [
+        "Two small businesses each bring in $30,000 a month. Both are losing money.",
+        "One should double its sales as fast as it can. If the other doubles its sales, it loses more. The difference is invisible in the monthly totals."
+      ],
+      "image": {
+        "label": "A cleaning van and a dumpling takeout bag side by side on a scale",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 저울 양쪽에 청소 서비스 밴(작은 모형)과 만두 배달 봉투가 올라가 있고 저울은 정확히 수평. 각각 위에 \"$30,000 / month\" 라벨. 실제 브랜드 로고 없음.",
+        "url": "assets/images/fin-03-01-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "You can help one of them grow. Which one?",
+      "illustrative": true,
+      "body": [
+        "**Home cleaning service:** 300 cleans a month at $100 each. Loses $2,000 a month.",
+        "**Delivery-only dumpling kitchen:** 1,500 app orders a month at $20 each. Loses $4,000 a month.",
+        "An investor will fund a marketing push to double one business's sales. Which should get it?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The dumpling kitchen. It has more orders, so growth will spread its rent thinner",
+            "verdict": "risky",
+            "feedback": "Spreading rent helps only if each order leaves money to spread. If each order loses money, more orders mean a bigger loss."
+          },
+          {
+            "key": "B",
+            "text": "The cleaning service. Its loss is smaller and closer to fixable",
+            "verdict": "best",
+            "feedback": "Good pick, though the smaller loss isn't the real reason. The real reason is what each single clean leaves behind. The next two cards show it."
+          },
+          {
+            "key": "C",
+            "text": "Neither. Both should cut overhead before growing",
+            "verdict": "partial",
+            "feedback": "Cutting overhead is rarely wrong, but it can't tell you which business growth will save. You'd miss the one that's ready to scale."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "breakdown",
+      "eyebrow": "Business 1",
+      "title": "Follow one clean.",
+      "illustrative": true,
+      "body": [
+        "Each clean leaves **$40**. The $14,000 a month for the office, scheduling software and insurance is the problem. At 300 cleans, $12,000 doesn't cover it. At 350 cleans, it does."
+      ],
+      "breakdown": [
+        {
+          "value": "$100",
+          "label": "Price",
+          "detail": "What the customer pays per clean",
+          "highlight": false
+        },
+        {
+          "value": "−$45",
+          "label": "Cleaner's pay",
+          "detail": "Paid per job",
+          "highlight": false
+        },
+        {
+          "value": "−$15",
+          "label": "Travel and supplies",
+          "detail": "Fuel, products, cloths",
+          "highlight": false
+        },
+        {
+          "value": "$40",
+          "label": "Left per clean",
+          "detail": "Goes toward fixed costs, then profit",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "type": "breakdown",
+      "eyebrow": "Business 2",
+      "title": "Follow one dumpling order.",
+      "illustrative": true,
+      "body": [
+        "Each order **loses $1** before rent is even counted. Busy nights feel like success, but every bag out the door costs the owner a dollar."
+      ],
+      "breakdown": [
+        {
+          "value": "$20",
+          "label": "Price",
+          "detail": "What the customer pays",
+          "highlight": false
+        },
+        {
+          "value": "−$8.50",
+          "label": "Food and packaging",
+          "detail": "Ingredients, box, bag",
+          "highlight": false
+        },
+        {
+          "value": "−$9.50",
+          "label": "Delivery app",
+          "detail": "30% commission plus a free-delivery promo",
+          "highlight": false
+        },
+        {
+          "value": "−$3",
+          "label": "Packing staff",
+          "detail": "Extra hours added per order",
+          "highlight": false
+        },
+        {
+          "value": "−$1",
+          "label": "Left per order",
+          "detail": "A loss on every sale",
+          "highlight": true
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Unit economics",
+      "body": [
+        "**Unit economics** means looking at the money in and out for one unit of your business: one clean, one order, one customer. The question is simple: does each unit make money or lose it?",
+        "Monthly totals mix two things together: costs you pay no matter what, and costs that come with each sale. Looking at one unit pulls them apart. It shows whether a loss is a size problem or a model problem."
+      ],
+      "image": {
+        "label": "Two magnifying glasses, one over a single clean, one over a single order",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 왼쪽 돋보기 안에 청소 1건 아이콘과 \"+$40\"(초록), 오른쪽 돋보기 안에 만두 주문 1건 아이콘과 \"−$1\"(빨강). 돋보기 밖의 큰 숫자 \"$30,000\"은 흐리게 처리.",
+        "url": "assets/images/fin-03-01-c5.jpg"
+      }
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Why it matters",
+      "title": "Growth multiplies whatever one unit does.",
+      "illustrative": true,
+      "body": [
+        "Double the cleaning service to 600 cleans: 600 × $40 = $24,000, minus $14,000 in fixed costs. It goes from losing $2,000 to making **$10,000** a month.",
+        "Double the dumpling kitchen to 3,000 orders: 3,000 × −$1 = −$3,000, minus $2,500 in rent. The loss grows from $4,000 to $5,500.",
+        "Same push, opposite result. Growth didn't change either business. It just repeated each unit more times."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Pick your unit",
+      "title": "The unit is whatever you sell, again and again.",
+      "body": [
+        "Choose the thing that repeats and drives your costs:"
+      ],
+      "list": [
+        "**One job:** a plumber, a cleaner, a moving crew",
+        "**One order or cover:** a restaurant, a bakery, a shop",
+        "**One customer over time:** a gym, a salon with regulars",
+        "**One subscriber per month:** a membership or software plan"
+      ],
+      "callout": "Later lessons look at the customer as the unit: what it costs to win one and what one is worth.",
+      "softwareNote": "In software, the unit is usually one paying account per month. Server, support and payment costs per account can look tiny, until a feature like heavy AI processing makes each active user expensive."
+    },
+    {
+      "index": 8,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "One unit can look healthy and still mislead you.",
+      "body": [
+        "Count every cost that really grows with each sale. Leaving out the app commission or the packing hours makes a losing order look fine.",
+        "Don't assume the next unit looks like today's. The cleaning service's 500th client may live farther away, so travel costs rise. Cheaper bulk ingredients might help the dumpling kitchen.",
+        "And a positive unit isn't a profit yet. Fixed costs still have to be covered by enough units."
+      ]
+    },
+    {
+      "index": 9,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a subscription app.",
+      "illustrative": true,
+      "body": [
+        "A meal-planning app charges $10 a month. The app store keeps 30%, so $3. Its AI recipe feature costs about $9 per subscriber each month to run. The team says: \"We're losing money now, but with ten times the users we'll be profitable.\"",
+        "What should they do first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Raise money and grow fast. Scale fixes small startups",
+            "verdict": "risky",
+            "feedback": "Each subscriber loses $2 a month, so ten times the users means ten times that loss. Growth would only speed it up."
+          },
+          {
+            "key": "B",
+            "text": "Fix one subscriber first: a higher price, a cheaper AI setup, or limits on heavy use",
+            "verdict": "best",
+            "feedback": "Once each subscriber leaves money, growth starts working for them. It may cost some sign-ups, but those sign-ups were losing money anyway."
+          },
+          {
+            "key": "C",
+            "text": "Cut office and salary costs to stretch the runway",
+            "verdict": "partial",
+            "feedback": "That buys time, which helps. But the loss sits in every subscription, so it comes back as soon as the app grows."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 10,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Before you grow, check that one unit makes money.",
+      "body": [
+        "Growth repeats your unit. If one unit makes money, growth helps. If it loses money, growth makes things worse.",
+        "**Try it today:** pick your unit, such as one job, one order or one customer. Write down its price, every cost that comes with it, and what's left."
+      ],
+      "next": "Next · The cost to win a customer"
+    }
+  ]
+}

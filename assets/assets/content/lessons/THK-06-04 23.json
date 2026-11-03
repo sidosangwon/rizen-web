@@ -1,0 +1,206 @@
+{
+  "id": "THK-06-04",
+  "unitId": "THK-06",
+  "categoryId": "THK",
+  "order": 4,
+  "type": "concept",
+  "conceptTag": "Unintended consequences",
+  "readerTitle": "When a fix makes the problem worse",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.4,
+  "caseKinds": [
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 연구 (1902년 하노이 쥐 포상금, Michael Vann의 사료 연구; Merton의 개념) + 가상 사례 (배관 수리 회사, 온라인 의류 매장)",
+  "insight": "새 규칙은 내 의도가 아니라 그 규칙을 받는 사람이 찾는 가장 쉬운 길로 결과가 정해진다. 그래서 규칙을 만들 때는 '사람들이 어떻게 적응할까'를 먼저 묻는다.",
+  "misconception": "규칙이 목표를 분명히 겨냥하고 있으면 결과도 목표대로 나온다. 예상 밖의 결과는 일부 부정직한 사람 때문에 생긴다.",
+  "relatedLessonIds": [
+    "THK-01-02",
+    "THK-06-05"
+  ],
+  "sources": [
+    {
+      "text": "Vann, M. G. (2003). Of Rats, Rice, and Race: The Great Hanoi Rat Massacre, an Episode in French Colonial History. French Colonial History, 4, 191–203.",
+      "url": null
+    },
+    {
+      "text": "Merton, R. K. (1936). The Unanticipated Consequences of Purposive Social Action. American Sociological Review, 1(6), 894–904.",
+      "url": null
+    },
+    {
+      "text": "배관 수리 회사와 온라인 의류 매장 사례 및 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "하노이 쥐 포상금(1902년, 꼬리를 증거로 제출, 꼬리 없는 쥐 목격, 도시 외곽 쥐 사육 보고, 이후 포상금 폐지)은 Vann(2003) 원문으로 다시 확인하세요. 포상금 액수는 자료에 따라 다르게 소개되므로 카드에는 'a small reward'로만 적었습니다. 쥐 사육은 보고 수준이라 'reports of'로 표현했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "Merton(1936)이 의도하지 않은 결과를 체계적으로 다룬 고전 논문이라는 점을 확인하세요. 카드의 세 가지 분류(뜻밖의 이득, 뜻밖의 부작용, 역효과)는 이후 문헌에서 흔히 쓰는 정리이며 Merton 원문의 표현 그대로는 아닙니다. 카드에서 Merton에게 직접 귀속하지 않았습니다.",
+      "status": "open"
+    },
+    {
+      "note": "온라인 의류 매장의 '여러 사이즈를 주문한 뒤 반품하는 행동(bracketing)'은 업계에서 널리 쓰는 관찰이지만 카드의 수치(매출 +15%, 반품 두 배)는 가상입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Counterexample",
+      "title": "Hanoi paid people to kill rats. Then rats with no tails appeared.",
+      "body": [
+        "In 1902, the French colonial government in Hanoi had a rat problem. Rats carried plague, and the city's new sewers were full of them.",
+        "So officials offered residents a small reward for every rat killed. To save themselves from handling bodies, they asked only for the tail as proof.",
+        "Soon, people began spotting rats in the streets. Alive, and without tails."
+      ],
+      "image": {
+        "label": "A rat without a tail running past a pile of coins",
+        "aspectRatio": "4:3",
+        "brief": "20세기 초 하노이 골목을 연상시키는 따뜻한 일러스트. 꼬리 없는 쥐 한 마리가 동전 더미 옆을 달려가고, 뒤쪽에 꼬리가 묶인 다발이 놓인 관청 책상. 실존 인물 얼굴이나 공식 문장은 쓰지 않음. 잔혹한 묘사 없이 가볍게.",
+        "url": "assets/images/thk-06-04-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Your plumbers keep arriving late.",
+      "illustrative": true,
+      "body": [
+        "You run a plumbing company with 12 technicians. Customers complain that techs show up well after the promised time, and reviews are slipping.",
+        "You want on-time arrivals. Which move are you most likely to be glad you made?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Fine technicians $25 for every arrival more than 15 minutes late",
+            "verdict": "risky",
+            "feedback": "Clear and easy to track. But techs will protect themselves in ways you didn't plan for, and some of those ways cost you more than lateness does."
+          },
+          {
+            "key": "B",
+            "text": "Give customers a wider arrival window, like 8 to 12 instead of 9 to 10",
+            "verdict": "partial",
+            "feedback": "Fewer broken promises, quickly. But customers now wait longer, and a rival who promises a tighter window looks better."
+          },
+          {
+            "key": "C",
+            "text": "Ask techs why they run late, then add buffer time between jobs and text customers when a tech is on the way",
+            "verdict": "best",
+            "feedback": "Slower to set up and costs some daily capacity. But it fixes the cause instead of giving people a reason to work around you."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What happened",
+      "title": "The rule worked exactly as written.",
+      "body": [
+        "Residents found the cheapest way to earn. Catch a rat, cut off the tail, let it go. A living rat can breed more rats, which means more tails.",
+        "Historian Michael Vann, who studied the colonial records, also found reports of people raising rats outside the city to collect the reward. The program was dropped.",
+        "The rule paid for tails. It never paid for fewer rats. **People responded to the rule, not to the goal behind it.**"
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Unintended consequences",
+      "body": [
+        "**Unintended consequences** are results of an action that nobody planned for. Sociologist Robert Merton studied them in a 1936 paper on why purposeful actions so often turn out differently than intended.",
+        "They come in three kinds: a surprise benefit, a surprise drawback, and the worst one, a *perverse result*, where the action makes the original problem bigger. Hanoi got the third kind.",
+        "The root cause is simple. Any new rule changes what is easy, cheap or rewarded for the people it lands on. They adjust. You planned only for the first effect."
+      ],
+      "image": {
+        "label": "One action splitting into three paths: benefit, drawback, backfire",
+        "aspectRatio": "16:9",
+        "brief": "가운데 'New rule' 버튼에서 화살표 세 갈래가 뻗어 나감. 'Surprise benefit'(초록), 'Surprise drawback'(노랑), 'Backfire'(빨강, 처음 버튼 쪽으로 되돌아오는 화살표). 깔끔한 플랫 인포그래픽.",
+        "url": "assets/images/thk-06-04-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Picture the $25 fine from the van.",
+      "illustrative": true,
+      "body": [
+        "Back to the plumbers. Each response below is reasonable for a tech trying to avoid the fine:"
+      ],
+      "list": [
+        "**Rush the current job** to leave on time, so callbacks rise",
+        "**Skip the extra repair** the customer asks about, because it runs long, so revenue drops",
+        "**Call ahead to reschedule,** so the visit is never officially late",
+        "**Your best tech quits** after paying fines for traffic jams"
+      ],
+      "callout": "None of this needs a dishonest person. Just a sensible one."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Don't let this freeze you.",
+      "body": [
+        "Every action has consequences you can't fully see, and so does doing nothing. Late plumbers left alone also cost you customers.",
+        "The goal isn't to predict everything. Before a change, ask one question: *if I were the person this rule lands on, what is the easiest way to win?* Then roll it out small, decide in advance which side effects you'll watch, and keep it easy to reverse."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's an online clothing store.",
+      "illustrative": true,
+      "body": [
+        "You added free returns to your online store. Sales rose 15%. But returns doubled, and many orders now contain the same jacket in two or three sizes.",
+        "Return shipping and repacking are eating the extra profit. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Scrap free returns completely",
+            "verdict": "risky",
+            "feedback": "Return costs fall fast. But you also lose the hesitant buyers who only ordered because returning was safe, and that was the point of the policy."
+          },
+          {
+            "key": "B",
+            "text": "Keep free returns, add better size guides and fit reviews, and track profit per order after returns",
+            "verdict": "best",
+            "feedback": "This tackles why people order several sizes: they're unsure of fit. It costs effort to build, but you keep the sales gain and measure the side effect directly."
+          },
+          {
+            "key": "C",
+            "text": "Offer free returns only on orders over $100",
+            "verdict": "partial",
+            "feedback": "It may cut small returns. But it also invites a new workaround: padding orders past $100, then sending the extras back."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "People follow the rule, not your intention.",
+      "body": [
+        "Before any new rule, fee, bonus or policy, imagine the person it lands on and find their easiest way to win. That's where the surprises live.",
+        "**Try it today:** pick one rule you added in the last year. Ask the people it affects what they now do differently because of it."
+      ],
+      "next": "Next · Goodhart's law: when measures become targets"
+    }
+  ]
+}

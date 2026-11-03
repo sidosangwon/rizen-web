@@ -1,0 +1,257 @@
+{
+  "id": "STR-04-06",
+  "unitId": "STR-04",
+  "categoryId": "STR",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "How moats erode",
+  "readerTitle": "The year revenue looked fine and the moat started to break",
+  "format": "counterexample",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.5,
+  "caseKinds": [
+    "real_observation",
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (지역 배관 회사, 사내 데이터 분석팀) + 실제 관찰 (인쇄 전화번호부 광고의 쇠퇴, 수치 없이 일반적으로만 서술)",
+  "insight": "해자는 고객이 '남아 있다'는 사실이 아니라 '남는 이유'로 지켜진다. 이유가 약해지면 기존 매출은 한동안 버티고, 신규 고객이 먼저 떠난다.",
+  "misconception": "매출이 유지되는 동안은 해자도 건재하다. 해자는 경쟁자가 정면으로 넘어올 때 무너진다.",
+  "relatedLessonIds": [
+    "STR-04-01",
+    "STR-04-04"
+  ],
+  "sources": [
+    {
+      "text": "인쇄 전화번호부 광고가 온라인 검색 확산 이후 지역 사업자의 고객 확보 수단으로서 힘을 잃은 현상에 대한 일반적 관찰 (구체적 수치는 사용하지 않음)",
+      "url": null
+    },
+    {
+      "text": "배관 회사와 사내 분석팀 사례, 모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "전화번호부 사례는 연도·매출 수치 없이 '오랫동안 지역 사업자가 발견되는 주요 경로였고, 검색이 퍼지며 그 이점이 약해졌다'는 일반적 서술로만 썼습니다. 게시 전 표현이 과장되지 않았는지 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "차트 수치는 가상입니다. 매출 지수 100 → 101 → 99, 신규 고객 비중 30% → 19% → 11%. 신규 비중이 줄어도 기존 고객의 반복 주문이 늘면 매출이 거의 평평할 수 있다는 설명용 설정입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Strategy · Counterexample",
+      "title": "The year revenue looked fine and the moat started to break",
+      "illustrative": true,
+      "body": [
+        "A plumbing company has served its town for twenty years. Most homeowners know its name. Repeat customers keep the vans busy, and revenue is steady.",
+        "Nobody crossed its moat. The moat simply stopped mattering, and the numbers on the monthly report didn't show it for years."
+      ],
+      "image": {
+        "label": "A castle moat slowly drying up while the castle looks untouched",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 작은 성(지붕에 렌치 아이콘) 주변 해자의 물이 한쪽에서 조용히 빠져나가고 있음. 성은 멀쩡하고 깃발도 그대로. 실제 회사 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/str-04-06-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "A new rival books jobs online.",
+      "illustrative": true,
+      "body": [
+        "You run the plumbing company. A newer firm lets people book online, see a fixed price upfront and track the plumber's arrival. Your revenue this year is flat, as usual.",
+        "What do you watch first?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Revenue. If it holds, our reputation is doing its job",
+            "verdict": "risky",
+            "feedback": "Revenue is the last number to move. Loyal customers keep calling for years, so it can hide a problem until it's large."
+          },
+          {
+            "key": "B",
+            "text": "Where new customers come from, and how many there are",
+            "verdict": "best",
+            "feedback": "New customers have no habit or loyalty pulling them to you. They show first whether your advantage still works."
+          },
+          {
+            "key": "C",
+            "text": "The rival's prices, so we can match them",
+            "verdict": "partial",
+            "feedback": "Useful to know, but price may not be why people choose them. Matching it costs margin without telling you what changed."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "What happened",
+      "title": "Revenue stayed flat. New customers didn't.",
+      "illustrative": true,
+      "body": [
+        "Old customers kept calling, and some called more often. But fewer and fewer new homeowners found the company. They searched on their phones and booked whoever made it easy."
+      ],
+      "chart": {
+        "unit": "%",
+        "groups": [
+          {
+            "label": "Revenue (Year 1 = 100)",
+            "rows": [
+              {
+                "label": "Year 1",
+                "value": 100,
+                "highlight": false
+              },
+              {
+                "label": "Year 2",
+                "value": 101,
+                "highlight": false
+              },
+              {
+                "label": "Year 3",
+                "value": 99,
+                "highlight": false
+              }
+            ]
+          },
+          {
+            "label": "Share of jobs from new customers",
+            "rows": [
+              {
+                "label": "Year 1",
+                "value": 30,
+                "highlight": false
+              },
+              {
+                "label": "Year 2",
+                "value": 19,
+                "highlight": false
+              },
+              {
+                "label": "Year 3",
+                "value": 11,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "image": {
+        "label": "Flat revenue hiding vanishing new customers",
+        "aspectRatio": "4:3",
+        "brief": "Revenue 100-101-99 vs new-customer jobs 30-19-11%.",
+        "url": "assets/images/str-04-06-info.png"
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "How moats erode",
+      "body": [
+        "A moat protects a business because of a **reason**: customers trust you, find you first, or can't easily leave. Erosion happens when that reason weakens, even if no one attacks you head-on.",
+        "Existing customers react slowly, so revenue lags. New customers have nothing holding them, so they react first. **Watch the newcomers, not the totals.**"
+      ],
+      "image": {
+        "label": "Two lines: total revenue flat, new customers falling",
+        "aspectRatio": "16:9",
+        "brief": "단순한 인포그래픽. 위쪽 선 \"Total revenue\"는 거의 평평, 아래쪽 선 \"New customers\"는 꾸준히 하락. 두 선 사이 간격이 벌어지는 부분에 \"Erosion starts here\" 라벨.",
+        "url": "assets/images/str-04-06-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Four common ways a moat drains.",
+      "body": [
+        "For decades, a big ad in the printed phone directory was how many local tradespeople got found. Once people searched online, that advantage faded for almost everyone at once."
+      ],
+      "list": [
+        "**Technology** makes the barrier irrelevant, like search replacing directories",
+        "**Rivals copy** what was once rare, like scale or expertise",
+        "**Customers change** what they value, like speed over familiarity",
+        "**Owners harvest** the moat, raising prices on customers who feel stuck"
+      ],
+      "callout": "Only the second one looks like a rival crossing the moat."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Wider view",
+      "title": "Harvesting speeds up erosion.",
+      "body": [
+        "When customers stay only because leaving is hard, they feel trapped. Raise prices on them, and they start planning their exit. The day a cheaper or easier option appears, they go together.",
+        "Customers who stay because you are still the best choice don't plan an exit. The moat holds best when it rests on value, not on friction."
+      ],
+      "softwareNote": "Users locked in by data or integrations may renew for years while quietly resenting it. Watch new sign-ups, expansion and the reasons given at churn, not just total recurring revenue."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Not every new rival is erosion.",
+      "body": [
+        "Some newcomers win a small slice and then stall. If you rebuild your business around every trend, you can throw away an advantage that still works.",
+        "The test is the reason customers choose you. If new customers still pick you for that reason, the moat holds. If they pick someone else for a reason you can't offer, act, and act early."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a team inside a company.",
+      "illustrative": true,
+      "body": [
+        "You lead the in-house data team. For years, every department had to request reports from you. Now some departments build their own dashboards with outside tools. Your request volume is flat, but it comes from the same few teams.",
+        "What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Ask leadership to require that all reports go through your team",
+            "verdict": "risky",
+            "feedback": "It defends the wall, not the reason. Departments comply but resent it, and leave the moment the rule loosens."
+          },
+          {
+            "key": "B",
+            "text": "Ask the departments that left what they wanted, and fix that",
+            "verdict": "best",
+            "feedback": "They are your 'new customers' voting first. If the answer is speed or self-service, you learn where your value now has to come from."
+          },
+          {
+            "key": "C",
+            "text": "Do nothing. Request volume is flat, so demand is fine",
+            "verdict": "partial",
+            "feedback": "Flat volume is the lagging number. It shows who still needs you, not who stopped needing you."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A moat lasts only as long as the reason behind it.",
+      "body": [
+        "Revenue tells you about the past. New customers tell you whether your advantage still works today.",
+        "**Try it today:** ask your last five new customers why they chose you. Then ask whether that reason will still be true in three years."
+      ],
+      "next": "Next · Find the moat in a local bakery"
+    }
+  ]
+}

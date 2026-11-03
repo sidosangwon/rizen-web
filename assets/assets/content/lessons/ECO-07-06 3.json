@@ -1,0 +1,240 @@
+{
+  "id": "ECO-07-06",
+  "unitId": "ECO-07",
+  "categoryId": "ECO",
+  "order": 6,
+  "type": "concept",
+  "conceptTag": "Subscription vs one-time purchase",
+  "readerTitle": "$240 once or $15 a month: which one earns more?",
+  "format": "numbers_twist",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.4,
+  "caseKinds": [
+    "illustrative",
+    "real_company"
+  ],
+  "caseNote": "가상 사례 (로봇청소기 매장, 사내 데이터 분석팀) + 실제 기업 (Adobe, softwareNote) · 매장·사내팀 수치는 모두 설명용",
+  "insight": "구독 가격표의 크기가 아니라 고객이 머무는 기간이 구독의 가치를 정한다. 구독은 매달 다시 벌어야 하는 약속이다.",
+  "misconception": "월 구독은 계속 들어오는 돈이므로 언제나 일시불 판매보다 고객당 매출이 많다.",
+  "relatedLessonIds": [
+    "ECO-07-02",
+    "ECO-07-07"
+  ],
+  "sources": [
+    {
+      "text": "구독 경제의 표준 개념 (평균 유지 기간 ≈ 1 ÷ 월 해지율, 고객 생애 매출)",
+      "url": null
+    },
+    {
+      "text": "Adobe, Creative Cloud 전환 발표 (2013년 5월, Creative Suite 신규 판매 중단)",
+      "url": null
+    },
+    {
+      "text": "매장·사내팀 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "평균 유지 기간 = 1 ÷ 월 해지율은 매달 같은 비율로 해지한다는 단순화된 가정입니다. 실제로는 초기 해지가 더 많습니다. 카드에 \"roughly\"로 표기했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "로봇청소기 계산: 해지율 10% → 1 ÷ 0.10 = 10개월 × $15 = $150. 5% → 20개월 × $15 = $300. 15% → 6.67개월 × $15 = $100. 3% → 33.3개월 × $15 = $500. 손익분기 $240 ÷ $15 = 16개월 → 월 해지율 1 ÷ 16 = 6.25%.",
+      "status": "open"
+    },
+    {
+      "note": "사내팀 계산: $24,000 ÷ $1,500 = 16개월. 평균 10개월 사용 시 $1,500 × 10 = $15,000으로 구축비 $24,000보다 적음.",
+      "status": "open"
+    },
+    {
+      "note": "Adobe가 2013년 Creative Suite 신규 버전 판매를 멈추고 Creative Cloud 구독으로 전환했다는 내용은 게시 전 Adobe 공식 발표로 다시 확인하세요. 매출 수치는 쓰지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Pricing · Numbers twist",
+      "title": "$240 once or $15 a month: which one earns more?",
+      "illustrative": true,
+      "body": [
+        "Two price tags for the same robot vacuum. Buy it today for $240. Or take a plan for $15 a month, with parts and repairs included.",
+        "The monthly plan seems to win easily. After two years it brings in $360. But that answer hides an assumption about customers."
+      ],
+      "image": {
+        "label": "One robot vacuum with two price tags: $240 and $15/month",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 매장 진열대 위 로봇청소기 한 대에 가격표 두 개가 달려 있음: \"$240\"와 \"$15/month\". 월 가격표 뒤로 달력 페이지가 몇 장 넘어가다 중간에 끊긴 모습. 실제 브랜드 로고 금지.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which option earns more per customer?",
+      "illustrative": true,
+      "body": [
+        "You run a home-appliance store. A supplier lets you offer the vacuum either way: $240 to buy, or $15 a month to use, cancel any time.",
+        "Stores already running the plan say about 10% of subscribers cancel each month. Looking only at money in, which earns more per customer?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "The plan. $15 a month passes $240 after 16 months and keeps going",
+            "verdict": "risky",
+            "feedback": "True only if customers stay 16 months or more. The price tag tells you the rate, not how long the money keeps coming."
+          },
+          {
+            "key": "B",
+            "text": "The one-time sale, given that cancel rate",
+            "verdict": "best",
+            "feedback": "Right. At 10% a month, the average customer stays about 10 months and pays about $150. The next card shows why."
+          },
+          {
+            "key": "C",
+            "text": "They come out about even, since the plan has a lower price but runs longer",
+            "verdict": "partial",
+            "feedback": "Good instinct to weigh price against time. But at this cancel rate the plan falls well short of $240."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "The numbers",
+      "title": "It all depends on how long they stay.",
+      "illustrative": true,
+      "body": [
+        "If a set share of customers cancels each month, the average stay is roughly **1 ÷ the cancel rate**. At 10%, that's 10 months, or $150.",
+        "The plan only beats $240 if customers stay longer than 16 months. That means fewer than about 6% cancelling each month."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Money in per customer",
+            "rows": [
+              {
+                "label": "One-time sale",
+                "value": 240,
+                "highlight": true
+              },
+              {
+                "label": "Plan, 5% cancel each month",
+                "value": 300,
+                "highlight": false
+              },
+              {
+                "label": "Plan, 10% cancel each month",
+                "value": 150,
+                "highlight": false
+              },
+              {
+                "label": "Plan, 15% cancel each month",
+                "value": 100,
+                "highlight": false
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Subscription vs one-time purchase",
+      "body": [
+        "A **one-time purchase** sells ownership. You get the money up front, and the customer carries the risk that the product turns out not to be worth it.",
+        "A **subscription** sells continued use. The money arrives over time, and customers can leave any month. So the risk moves to you: you have to earn the payment again every month."
+      ],
+      "image": {
+        "label": "Lump of coins on one side, a thin stream of coins on the other",
+        "aspectRatio": "16:9",
+        "brief": "좌우 비교 인포그래픽. 왼쪽 \"One-time\": 동전 더미가 한 번에 떨어짐. 오른쪽 \"Subscription\": 매달 동전이 한 개씩 떨어지고, 중간중간 고객 아이콘이 문 밖으로 나감. 하단 문구 \"Earn it again every month\".",
+        "url": null
+      },
+      "softwareNote": "In 2013, Adobe stopped selling new boxed versions of Creative Suite and moved to Creative Cloud subscriptions. A subscription like that only pays off if regular updates keep giving customers a reason to stay."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How to choose",
+      "title": "Match the price to how the value arrives.",
+      "body": [
+        "Ask when customers get value from what you sell. Then price it the same way."
+      ],
+      "list": [
+        "**Value keeps coming:** supplies, upkeep, updates, ongoing service. A subscription fits.",
+        "**Value arrives once:** a sofa, a wedding cake, a finished renovation. Sell it once.",
+        "**Big upfront cost scares buyers:** a monthly plan can help, but only if they stay long enough."
+      ],
+      "callout": "If customers keep getting value, they keep paying. If not, they cancel."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A subscription can drain your cash first.",
+      "illustrative": true,
+      "body": [
+        "With the one-time sale, the store collects $240 on day one. With the plan, it hands over a vacuum and collects $15. Paying for the vacuum itself gets covered slowly, over many months.",
+        "So a fast-growing subscription business can run short of cash just as it succeeds. Each new customer costs money now and pays back later.",
+        "And customers notice when they keep paying for something that never changes. That's often when they cancel."
+      ]
+    },
+    {
+      "index": 7,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a team inside a company.",
+      "illustrative": true,
+      "body": [
+        "You lead an internal data team that charges other departments for its work. Building a sales dashboard takes a big effort up front. After that, keeping the data fresh takes a few hours a month.",
+        "Departments often drop dashboards within a year after reorganizations. How should you charge?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "$1,500 a month, no build fee",
+            "verdict": "risky",
+            "feedback": "Easy to say yes to. But if a department keeps it 10 months, you collect $15,000 for a build that cost you far more effort."
+          },
+          {
+            "key": "B",
+            "text": "One fee of $24,000 for the build",
+            "verdict": "partial",
+            "feedback": "It covers the build. But the monthly upkeep becomes free work that lasts as long as they use the dashboard."
+          },
+          {
+            "key": "C",
+            "text": "A build fee, plus a small monthly fee for upkeep",
+            "verdict": "best",
+            "feedback": "Each part of the price matches how the value arrives. The build gets paid once. The upkeep gets paid only while the department still uses it."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 8,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "A subscription is worth what customers stay for.",
+      "body": [
+        "Compare the one-time price with the monthly price times the average stay. Then ask whether your value really keeps arriving each month.",
+        "**Try it today:** pick one thing you sell. Is its value delivered once or over time? Check whether your price follows the same pattern."
+      ],
+      "next": "Next · Design membership tiers for a gym"
+    }
+  ]
+}

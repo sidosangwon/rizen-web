@@ -1,0 +1,237 @@
+{
+  "id": "ECO-09-03",
+  "unitId": "ECO-09",
+  "categoryId": "ECO",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "Business cycles",
+  "readerTitle": "Is your busy year you, or the economy?",
+  "format": "everyday_scene",
+  "level": 2,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.4,
+  "caseKinds": [
+    "illustrative",
+    "real_research"
+  ],
+  "caseNote": "가상 사례 (동네 식당, 마케팅 에이전시) + 실제 자료 (NBER 미국 경기순환 기준일)",
+  "insight": "좋은 해의 매출 중 일부는 내 실력이 아니라 경기의 물결이다. 오래 묶이는 결정을 내리기 전에 그 둘을 나눠 본다.",
+  "misconception": "매출이 오르면 모두 내가 잘해서이고, 지금의 성장 속도가 앞으로도 이어진다.",
+  "relatedLessonIds": [
+    "ECO-09-05",
+    "ECO-02-06"
+  ],
+  "sources": [
+    {
+      "text": "National Bureau of Economic Research (NBER), US Business Cycle Expansions and Contractions",
+      "url": "https://www.nber.org/research/data/us-business-cycle-expansions-and-contractions"
+    },
+    {
+      "text": "식당·에이전시 사례와 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "NBER 자료에서 2차 대전 이후 미국의 확장기는 평균 수년(약 5년 안팎), 수축기는 평균 1년 미만(약 10~11개월)입니다. 카드에는 정확한 숫자 대신 \"expansions have usually lasted years, contractions usually months\"로만 적었습니다. 게시 전 NBER 표로 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "가상 계산: 내 식당 성장률 25% − 지역 식당 평균 20% = 5%p. 즉 성장의 약 4/5가 지역 전체의 흐름.",
+      "status": "open"
+    },
+    {
+      "note": "재량 소비(외식, 여행, 자동차)와 기업 투자(광고, 컨설팅, 교육)가 경기에 더 크게 흔들리고 식료품·공공요금·의료는 덜 흔들린다는 것은 경제학의 일반적 설명입니다. 특정 수치는 쓰지 않았습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Economics · Everyday scene",
+      "title": "Is your busy year you, or the economy?",
+      "illustrative": true,
+      "body": [
+        "Friday, 8 p.m. Every table in your restaurant is full, and the waiting list runs out the door. Sales are up 25% in two years.",
+        "A landlord calls about a second site. Ten-year lease. It feels like the obvious next step."
+      ],
+      "image": {
+        "label": "A packed restaurant with a line outside",
+        "aspectRatio": "4:3",
+        "brief": "따뜻한 조명의 동네 식당, 모든 테이블이 꽉 차 있고 문 밖에 대기 줄. 창밖 거리의 다른 식당들도 똑같이 붐비는 모습이 살짝 보이도록. 실제 상호나 로고는 쓰지 않음.",
+        "url": "assets/images/eco-09-03-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "What do you do before signing?",
+      "illustrative": true,
+      "body": [
+        "Your food is good and your team is solid. Sales have grown 25% in two years. The second site would double your rent and add twelve staff.",
+        "What's your first move?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Sign now, before someone else takes the site",
+            "verdict": "risky",
+            "feedback": "You secure the location, but you lock in ten years of rent based on two good years. If the good years weren't mostly yours, the lease stays when the crowds leave."
+          },
+          {
+            "key": "B",
+            "text": "Check how much other restaurants nearby grew over the same two years",
+            "verdict": "best",
+            "feedback": "It costs a little time, and it tells you how much of your growth is your edge versus a rising tide. That changes how big a bet makes sense."
+          },
+          {
+            "key": "C",
+            "text": "Wait until the economy slows, then expand cheaply",
+            "verdict": "partial",
+            "feedback": "Cheaper rents may come, but nobody can reliably say when. Waiting can mean years of missed growth."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "What you find",
+      "title": "Most of the growth was the tide.",
+      "illustrative": true,
+      "body": [
+        "You ask your supplier and the local business association. Restaurants in your area grew about 20% over the same period. Local hiring was strong, and people were eating out more."
+      ],
+      "chart": {
+        "unit": "%",
+        "groups": [
+          {
+            "label": "Sales growth over two years",
+            "rows": [
+              {
+                "label": "Your restaurant",
+                "value": 25,
+                "highlight": false
+              },
+              {
+                "label": "Restaurants in your area",
+                "value": 20,
+                "highlight": false
+              },
+              {
+                "label": "Growth beyond the area",
+                "value": 5,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "callout": "Your real edge is about 5 points, not 25.",
+      "image": {
+        "label": "Most of the growth was the tide.",
+        "aspectRatio": "4:3",
+        "brief": "Labeled HTML chart from the lesson numbers",
+        "url": "assets/images/eco-09-03-chart.png"
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "The business cycle",
+      "body": [
+        "The **business cycle** is the economy-wide swing between expansion and contraction. In an expansion, spending, hiring and borrowing rise together. In a contraction, they fall together.",
+        "The top of a swing is called a peak. The bottom is a trough. Every business floats on this tide, whether it notices or not."
+      ],
+      "image": {
+        "label": "A wave showing expansion, peak, contraction and trough",
+        "aspectRatio": "16:9",
+        "brief": "부드러운 파도형 곡선 인포그래픽. 오르는 구간 \"Expansion\", 꼭대기 \"Peak\", 내려가는 구간 \"Contraction\", 바닥 \"Trough\" 라벨. 파도 위에 작은 배(식당)가 떠 있고, 배가 노를 젓는 힘과 파도의 힘을 다른 색 화살표로 구분.",
+        "url": "assets/images/eco-09-03-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Cycles repeat, but not on a schedule.",
+      "body": [
+        "In the US, the National Bureau of Economic Research dates each peak and trough. Since the 1940s, expansions have usually lasted years, and contractions usually months. But no two have been the same length.",
+        "Industries also swing by different amounts. Spending people can delay, like eating out, travel and cars, rises and falls the most. Groceries, utilities and healthcare move much less."
+      ],
+      "callout": "The question isn't *when* the tide turns. It's how much of your boat it lifts."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Where else",
+      "title": "Business clients feel it through budgets.",
+      "body": [
+        "A firm selling to other businesses rides the cycle too, often with a delay. When clients feel confident, they spend on marketing, training and consulting. When they worry, those budgets are among the first cut. Audits and payroll services move less, because clients must buy them anyway.",
+        "Signed contracts can hide a turn for months, then renewals drop all at once."
+      ],
+      "softwareNote": "Software firms often see new sales slow first, while existing subscriptions keep paying. The turn shows up later as smaller renewals and fewer seats."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Don't try to time the turn.",
+      "body": [
+        "Forecasters regularly miss turning points. Hoarding cash and refusing to grow because \"a downturn is coming\" has its own cost.",
+        "The useful move is quieter. Make big, long commitments as if part of today's demand might go away. Keep more costs flexible when you're near the top of a strong run. Fixed costs make every swing hit harder."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a marketing agency.",
+      "illustrative": true,
+      "body": [
+        "Your agency just had a record year. Clients want more work, and you're turning projects away. Most of your revenue comes from campaign budgets at mid-size companies.",
+        "How do you add capacity?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Hire six senior staff on full-time salaries",
+            "verdict": "risky",
+            "feedback": "You can take every project now. But campaign budgets are among the first cut in a slowdown, and six salaries don't shrink when clients do."
+          },
+          {
+            "key": "B",
+            "text": "Hire two people, use freelancers for the rest, and win some steadier retainer work",
+            "verdict": "best",
+            "feedback": "You grow less on paper this year. In return, your costs can bend if client budgets drop, and steadier clients soften the swing."
+          },
+          {
+            "key": "C",
+            "text": "Turn down new work to avoid any risk",
+            "verdict": "partial",
+            "feedback": "You stay safe, but you give up real demand, and clients you refuse may not come back when you're ready."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Separate the tide from your swimming.",
+      "body": [
+        "Part of every good or bad year comes from the economy, not from you. Size long commitments to the part that is truly yours.",
+        "**Try it today:** find one number for your industry or area, such as local sales or sector growth. Compare it with your own growth over the last two years."
+      ],
+      "next": "Next · What actually happens in a recession"
+    }
+  ]
+}

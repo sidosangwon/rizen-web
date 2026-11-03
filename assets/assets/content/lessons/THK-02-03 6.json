@@ -1,0 +1,255 @@
+{
+  "id": "THK-02-03",
+  "unitId": "THK-02",
+  "categoryId": "THK",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "Overconfidence",
+  "readerTitle": "When '80% sure' turns out right a third of the time",
+  "format": "counterexample",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "real_research",
+    "illustrative"
+  ],
+  "caseNote": "실제 연구 (Duke CFO 설문 기반 Ben-David·Graham·Harvey 연구, Svenson 운전자 연구, 기상 예보관 보정 연구) + 가상 적용 (자동차 부품 공장, 앱 유료 요금제 출시)",
+  "insight": "과신은 목소리의 크기가 아니라 범위의 폭에서 드러난다. 예측의 가운데 숫자보다 '90% 확신'이라는 범위가 실제로 얼마나 자주 맞았는지를 의심하라.",
+  "misconception": "전문가이거나 경험이 많으면 과신하지 않는다. 그리고 과신을 고치려면 덜 자신 있게 말하면 된다.",
+  "relatedLessonIds": [
+    "THK-02-04",
+    "THK-05-03"
+  ],
+  "sources": [
+    {
+      "text": "Ben-David, I., Graham, J. R., & Harvey, C. R. (2013). Managerial Miscalibration. Quarterly Journal of Economics, 128(4).",
+      "url": null
+    },
+    {
+      "text": "Svenson, O. (1981). Are we all less risky and more skillful than our fellow drivers? Acta Psychologica, 47(2).",
+      "url": null
+    },
+    {
+      "text": "Moore, D. A., & Healy, P. J. (2008). The trouble with overconfidence. Psychological Review, 115(2).",
+      "url": null
+    },
+    {
+      "text": "Murphy, A. H., & Winkler, R. L. (1977). Reliability of subjective probability forecasts of precipitation and temperature. Applied Statistics, 26(1).",
+      "url": null
+    },
+    {
+      "text": "공장·앱 출시 사례와 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "CFO 연구: 논문 초록에 '실현된 시장 수익률이 CFO들의 80% 신뢰구간 안에 들어간 비율은 36%'라고 기억합니다. 정확한 수치(36% 또는 36.3%)와 설문 기간·응답 수를 원문으로 확인하세요. 카드에는 '수천 건'이라고만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "같은 연구에서 보정이 더 나쁜 CFO의 회사가 투자와 부채를 더 많이 쓰는 경향이 있었다는 결과를 원문에서 확인하세요. 확인되지 않으면 3번 카드의 해당 문장을 삭제합니다.",
+      "status": "open"
+    },
+    {
+      "note": "Svenson(1981): 미국 표본(대학생)의 대다수(약 93%)가 자신의 운전 실력을 중앙값 이상으로 평가했다는 내용입니다. 카드에는 비율 없이 'most'로만 적었습니다. 표본이 학생이었다는 점도 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "기상 예보관 보정: Murphy & Winkler(1977)의 강수 확률 예보가 잘 보정되어 있었다는 결과를 확인하세요. 카드에는 '대략 그만큼 비가 왔다'로만 적었습니다.",
+      "status": "open"
+    },
+    {
+      "note": "과신의 세 유형(과대평가, 과대배치, 과정밀)은 Moore & Healy(2008)의 분류를 따릅니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Thinking · Counterexample",
+      "title": "When '80% sure' turns out right a third of the time",
+      "body": [
+        "For years, a Duke University survey asked finance chiefs at US companies to forecast the stock market a year ahead. Each gave a low and a high number they were 80% sure about.",
+        "Money is their job. Their ranges should have caught the real result about 8 times in 10. Hold that thought."
+      ],
+      "image": {
+        "label": "A dartboard with a very narrow target ring and darts landing outside it",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 정장 차림 인물이 다트판 앞에 서 있고, 다트판 가운데에 아주 좁은 고리 하나에 \"80% sure\" 라벨. 다트 대부분이 그 고리 바깥에 꽂혀 있음. 실제 회사 로고나 상표는 쓰지 않음.",
+        "url": "assets/images/thk-02-03-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Your sales lead is 90% sure.",
+      "illustrative": true,
+      "body": [
+        "You run a plant that makes brake parts. A carmaker is launching a new model. Your sales lead says: \"I'm 90% sure they'll order between 9,000 and 11,000 units next quarter.\"",
+        "You must commit capacity and raw steel now. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Commit for 9,000–11,000 units. She knows this customer well",
+            "verdict": "risky",
+            "feedback": "Fast and simple. But if her range is too narrow, an order of 6,000 or 14,000 leaves you with idle steel or a missed delivery."
+          },
+          {
+            "key": "B",
+            "text": "Plan for the midpoint, 10,000, plus a 10% buffer",
+            "verdict": "partial",
+            "feedback": "A buffer helps with small misses. But it's still sized to her certainty, and narrow ranges usually hide the big misses."
+          },
+          {
+            "key": "C",
+            "text": "Ask how her past ranges compared with real orders, then plan for a wider range with a flexible steel contract",
+            "verdict": "best",
+            "feedback": "It costs some time and a pricier contract. In return, you plan on her track record instead of her confidence."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "What happened",
+      "title": "The real hit rate: about one in three.",
+      "body": [
+        "Across thousands of forecasts, the finance chiefs' 80% ranges caught the actual market return only about **36%** of the time. Their ranges were far narrower than the market's real swings.",
+        "The researchers also found that companies run by the most miscalibrated CFOs tended to invest more and borrow more."
+      ],
+      "chart": {
+        "unit": "%",
+        "groups": [
+          {
+            "label": "CFO stock market forecasts",
+            "rows": [
+              {
+                "label": "How often they should be right",
+                "value": 80,
+                "highlight": false
+              },
+              {
+                "label": "How often they were right",
+                "value": 36,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      },
+      "image": {
+        "label": "The real hit rate: about one in three.",
+        "aspectRatio": "4:3",
+        "brief": "Labeled HTML chart from the lesson numbers",
+        "url": "assets/images/thk-02-03-chart.png"
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Overconfidence",
+      "body": [
+        "**Overconfidence** means being more sure than your track record supports. It comes in three forms: thinking you're better than you are, thinking you're better than others, and thinking you know more precisely than you do.",
+        "The last one, **overprecision**, was the CFOs' problem, and the sales lead's. It's sneaky because the number in the middle can be fine. The error hides in how narrow the range is."
+      ],
+      "image": {
+        "label": "Two ranges around the same estimate: a narrow claimed range and a wide real range",
+        "aspectRatio": "16:9",
+        "brief": "인포그래픽. 가로축 위에 같은 가운데 점(\"Best guess\") 하나. 위쪽에 좁은 막대 \"The range we feel sure of\", 아래쪽에 훨씬 넓은 막대 \"The range reality uses\". 실제 결과 점이 좁은 막대 밖, 넓은 막대 안에 찍혀 있음.",
+        "url": "assets/images/thk-02-03-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "Why it happens",
+      "title": "Smart, experienced people do it too.",
+      "body": [
+        "In a classic 1981 study, Ola Svenson found that most drivers in his US sample rated themselves more skillful than the median driver. Not everyone can be above the middle.",
+        "In forecasts, the cause is simple. We picture one story of how things will go, and our range hugs it. The other stories, like a customer delaying or a supplier failing, don't come to mind, so they never make it into the range. Experience often adds confidence faster than it adds accuracy."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "The exception",
+      "title": "Weather forecasters get it roughly right.",
+      "body": [
+        "Studies of US weather forecasters found that when they gave a 70% chance of rain, it rained roughly that often. They are a well-known exception.",
+        "The difference isn't intelligence. They forecast every day, learn the answer tomorrow, and get scored on it. Most business forecasts are checked rarely, if ever.",
+        "So **calibration**, matching your confidence to how often you're right, is a skill. It grows when you write ranges down and compare them with what happened."
+      ],
+      "image": {
+        "label": "A forecaster's scorecard comparing predicted and actual rain chances",
+        "aspectRatio": "16:9",
+        "brief": "따뜻한 일러스트. 기상 예보관이 화이트보드 앞에 서 있고, 보드에 \"Said 70% → rained ~7 of 10 days\" 식의 체크 표가 그려져 있음. 방송사 로고나 실제 상표는 쓰지 않음.",
+        "url": "assets/images/thk-02-03-c6.jpg"
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "Calibrated doesn't mean timid.",
+      "body": [
+        "Teams often follow the most confident voice, and leaders still need to commit. The fix isn't to sound less sure. Widen the range you plan around, and stay decisive about the action.",
+        "Wide ranges also cost money: extra stock, flexible contracts, spare capacity. Pay for that protection where a miss would hurt most, not everywhere."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's an app launch.",
+      "illustrative": true,
+      "body": [
+        "Your app is launching a paid plan. Your growth lead is \"90% sure\" of 4,000 to 6,000 paying users in the first month.",
+        "You're deciding how many support staff to hire and how much server capacity to buy. What do you do?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Hire and buy for 6,000, the top of the range, to be safe",
+            "verdict": "risky",
+            "feedback": "It feels cautious, but it still trusts the range's edges. If sign-ups land at 1,500, you carry costs you can't cut quickly."
+          },
+          {
+            "key": "B",
+            "text": "Ask the team to rebuild the forecast model more carefully first",
+            "verdict": "partial",
+            "feedback": "A better model can help. But more work on the same assumptions often raises confidence more than accuracy."
+          },
+          {
+            "key": "C",
+            "text": "Compare past launch forecasts with actuals, plan for a wider range, and use contractors and servers that scale up or down",
+            "verdict": "best",
+            "feedback": "Flexible capacity costs more per unit. In return, you're covered whether the launch brings 1,500 users or 12,000."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Doubt the range, not just the number.",
+      "body": [
+        "When someone says they're 90% sure, ask how often their past 90% ranges held. Then plan around that answer, not the feeling.",
+        "**Try it today:** write three forecasts for next month (sales, a cost, a deadline), each with a range you're 90% sure of. Set a reminder to check them."
+      ],
+      "next": "Next · Why projects take longer than everyone says"
+    }
+  ]
+}

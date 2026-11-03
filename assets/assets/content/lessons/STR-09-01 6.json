@@ -1,0 +1,229 @@
+{
+  "id": "STR-09-01",
+  "unitId": "STR-09",
+  "categoryId": "STR",
+  "order": 1,
+  "type": "concept",
+  "conceptTag": "Why companies acquire",
+  "readerTitle": "She doubled her revenue by buying a rival. Then profit fell.",
+  "format": "counterexample",
+  "level": 3,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.7,
+  "caseKinds": [
+    "illustrative",
+    "real_research",
+    "real_company"
+  ],
+  "caseNote": "가상 사례 (청소 회사, 배관 회사, 레스토랑 그룹) + 실제 연구 (인수 성과 연구, Roll의 오만 가설) + 실제 기업 (Quaker Oats의 Snapple 인수)",
+  "insight": "인수는 '살까, 직접 만들까'의 선택이다. 좋은 인수 이유는 '더 커진다'가 아니라 '직접 만들면 더 늦거나 더 비싼 특정한 무언가를 산다'로 말할 수 있어야 한다.",
+  "misconception": "경쟁사를 사면 매출이 바로 늘어나니 성장의 지름길이다. 싸게 나온 회사는 그 자체로 좋은 인수 기회다.",
+  "relatedLessonIds": [
+    "STR-09-02",
+    "STR-09-03"
+  ],
+  "sources": [
+    {
+      "text": "Andrade, G., Mitchell, M., & Stafford, E. (2001). New Evidence and Perspectives on Mergers. Journal of Economic Perspectives, 15(2).",
+      "url": null
+    },
+    {
+      "text": "Roll, R. (1986). The Hubris Hypothesis of Corporate Takeovers. Journal of Business, 59(2).",
+      "url": null
+    },
+    {
+      "text": "Quaker Oats의 Snapple 인수(1994)와 Triarc에 매각(1997) 관련 당시 언론 보도",
+      "url": null
+    },
+    {
+      "text": "청소·배관·레스토랑 사례의 수치는 설명용 가상 수치",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "Andrade 외(2001)의 결론: 피인수 기업 주주는 큰 프리미엄을 얻고, 인수 기업 주주의 평균 수익은 대략 0에 가깝거나 약간 마이너스. 카드에는 '평균적으로 거의 얻지 못한다'로만 적었습니다. 게시 전 원문 표현을 다시 확인하세요.",
+      "status": "open"
+    },
+    {
+      "note": "Quaker Oats는 1994년 약 17억 달러에 Snapple을 인수했고, 1997년 Triarc에 약 3억 달러에 매각했습니다. 금액과 연도를 게시 전 1차 보도로 확인하세요. Gatorade 성공을 되풀이하려 했다는 동기와 유통 방식 불일치 설명은 널리 알려진 분석이지만 단순화한 설명입니다.",
+      "status": "open"
+    },
+    {
+      "note": "Roll(1986)의 오만 가설은 '인수 기업 경영자가 대상의 가치를 과대평가해 너무 많이 지불한다'는 주장입니다. 카드에는 가설로만 소개했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "가상 수치: 청소 회사 인수가 $600,000, 매출 두 배. 케이터링 회사 $400,000, 기업 고객 40곳. 계산이 필요한 부분은 없습니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Strategy · Counterexample",
+      "title": "She doubled her revenue by buying a rival. Then profit fell.",
+      "illustrative": true,
+      "body": [
+        "Maria runs a home cleaning company. When a rival's owner retired, she bought the business for $600,000. Overnight, her revenue doubled.",
+        "Two years later, her company was bigger and busier. It was also making less profit than before the deal."
+      ],
+      "image": {
+        "label": "Two cleaning vans merging into one larger van, with a shrinking coin stack",
+        "aspectRatio": "4:3",
+        "brief": "3D 클레이 스타일. 청소 회사 승합차 두 대가 합쳐져 큰 차 한 대가 되는 장면. 옆의 동전 탑은 오히려 작아짐. 실제 회사 로고나 상표는 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "A rival plumbing firm is for sale.",
+      "illustrative": true,
+      "body": [
+        "You run a plumbing company with 12 staff. A rival is for sale. Your team lists reasons to buy it.",
+        "Which reason is the strongest?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "It would double our revenue overnight",
+            "verdict": "risky",
+            "feedback": "Revenue is easy to buy and hard to keep. This reason says nothing about what you get that you couldn't win yourself, or whether the customers stay."
+          },
+          {
+            "key": "B",
+            "text": "They have three licensed gas engineers, and we've failed to hire one for a year",
+            "verdict": "best",
+            "feedback": "This names something specific you can't build quickly on your own. The deal still needs those engineers to stay, but the reason is real."
+          },
+          {
+            "key": "C",
+            "text": "The asking price is low, so it's a bargain",
+            "verdict": "partial",
+            "feedback": "A low price lowers the risk, but it isn't a reason. A cheap business you don't need is still money you could have spent elsewhere."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "text",
+      "eyebrow": "What went wrong",
+      "title": "Maria bought revenue, not a reason.",
+      "illustrative": true,
+      "body": [
+        "The rival's customers had been loyal to its owner, not its brand. When he left, many drifted away. Two senior cleaners quit within months.",
+        "Maria now had two offices, two schedules and more managers, but no new skill and no new market. Everything she bought, she could have built herself by winning customers one by one.",
+        "She paid $600,000 for **size**. Size alone was never the point."
+      ]
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Buy, or build?",
+      "body": [
+        "Every acquisition is a **buy-versus-build** choice. A company buys another when it gets something faster or cheaper than building it, even after paying the price.",
+        "Good reasons are specific:"
+      ],
+      "list": [
+        "**Customers or markets** you'd take years to reach",
+        "**Capabilities:** skilled people, know-how, technology",
+        "**Capacity:** sites, licenses, equipment",
+        "**Position:** a key supplier or a route into a market"
+      ],
+      "callout": "If you can't name what you're buying, you're probably buying size.",
+      "softwareNote": "Software companies often buy small startups mainly for their engineers or one finished feature, sometimes called an \"acqui-hire\". The logic is the same: hiring and building would take longer than buying."
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "The evidence",
+      "title": "Sellers usually win. Buyers often don't.",
+      "body": [
+        "Economists have studied thousands of mergers. A widely cited review by Andrade, Mitchell and Stafford (2001) found that the selling company's owners usually gain a lot, while the buyer's owners, on average, gain little or nothing.",
+        "The reason is the **premium**. To win the deal, a buyer pays more than the business is worth on its own. Economist Richard Roll suggested buyers often overrate their own judgment and overpay.",
+        "So a buyer needs a specific reason the business is worth more in its hands than anyone else's."
+      ]
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "A famous counterexample",
+      "title": "Quaker Oats and Snapple",
+      "body": [
+        "In 1994, Quaker Oats paid about $1.7 billion for Snapple, the iced tea brand. Quaker hoped to repeat its success with Gatorade.",
+        "But Snapple sold mostly through small shops and independent distributors, a world quite different from the one Quaker knew. The reason sounded big. It didn't match what Quaker was actually able to do with the brand.",
+        "In 1997, Quaker sold Snapple for about $300 million."
+      ],
+      "image": {
+        "label": "A tall price tag shrinking to a small one between two years",
+        "aspectRatio": "16:9",
+        "brief": "두 개의 가격표 비교 인포그래픽. 왼쪽 \"1994: about $1.7B\" 큰 가격표, 오른쪽 \"1997: about $300M\" 작은 가격표. 가운데 음료병 실루엣. 실제 브랜드 로고나 병 디자인은 쓰지 않음.",
+        "url": null
+      }
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "A good reason can still walk out the door.",
+      "body": [
+        "Even a strong reason is a bet. The gas engineers, the loyal customers, the star chef: people can leave after the sale, and what you paid for leaves with them.",
+        "Before buying, ask what keeps those people and customers once the deal closes. Also ask the build question honestly. Building is slower, but you don't pay a premium for it.",
+        "Whether the combined business is worth more is a separate question, covered in the next lessons."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a restaurant group.",
+      "illustrative": true,
+      "body": [
+        "You own four bistros and want to move into office catering. A local caterer with 40 corporate clients is for sale at $400,000.",
+        "What's the soundest approach?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Buy it. Catering is growing and we want to be a bigger group",
+            "verdict": "risky",
+            "feedback": "Growth and size aren't things you're buying. Without a specific gain, you pay a premium for revenue that may not stay."
+          },
+          {
+            "key": "B",
+            "text": "Buy it only if the client contracts and their events manager will stay",
+            "verdict": "best",
+            "feedback": "You'd be buying client relationships and know-how that would take years to build. Securing them first protects what you're paying for."
+          },
+          {
+            "key": "C",
+            "text": "Skip it and start catering from your own kitchens",
+            "verdict": "partial",
+            "feedback": "Cheaper and lower risk, since you pay no premium. But winning 40 office clients from scratch could take years, so it only makes sense if speed doesn't matter."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Buy only what you can't build faster or cheaper.",
+      "body": [
+        "A good acquisition reason names a specific thing: customers, skills, capacity or position. \"Getting bigger\" is a result, not a reason.",
+        "**Try it today:** think of a business you'd consider buying. Finish this sentence: \"We'd buy it to get ___, which would take us ___ years to build.\""
+      ],
+      "next": "Next · Why most synergies stay on the slide"
+    }
+  ]
+}

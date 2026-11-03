@@ -1,0 +1,244 @@
+{
+  "id": "BMO-01-03",
+  "unitId": "BMO-01",
+  "categoryId": "BMO",
+  "order": 3,
+  "type": "concept",
+  "conceptTag": "Revenue streams",
+  "readerTitle": "Two bike shops, same sales, very different businesses",
+  "format": "two_businesses",
+  "level": 1,
+  "language": "en",
+  "status": "draft",
+  "estimatedMinutes": 4.3,
+  "caseKinds": [
+    "illustrative"
+  ],
+  "caseNote": "가상 사례 (자전거 매장 두 곳, 예약 소프트웨어 회사) · 모든 수치는 설명용",
+  "insight": "매출은 하나의 숫자가 아니라 성격이 다른 수입 흐름들의 묶음이며, 같은 총매출도 흐름의 구성에 따라 전혀 다른 사업이 된다.",
+  "misconception": "매출 총액이 같으면 사업의 건강도도 비슷하다. 수입원은 많을수록 좋다.",
+  "relatedLessonIds": [
+    "BMO-01-04",
+    "BMO-02-02"
+  ],
+  "sources": [
+    {
+      "text": "Osterwalder, A. & Pigneur, Y. (2010). Business Model Generation. 수익원(Revenue Streams)을 비즈니스 모델의 구성 요소로 설명",
+      "url": null
+    },
+    {
+      "text": "모든 수치는 설명용 가상 예시",
+      "url": null
+    }
+  ],
+  "factChecks": [
+    {
+      "note": "자전거 매장 계산: 평년 A $500k(자전거 판매 100%), B $300k + $140k + $60k = $500k. 부진한 해 자전거 판매 30% 감소 가정: A $350k(−30%), B $210k + $140k + $60k = $410k(−18%). 수리·서비스 플랜은 변하지 않는다고 단순화했습니다.",
+      "status": "open"
+    },
+    {
+      "note": "소프트웨어 사례: 설치비 $250k + 월 구독 $150k = $400k. 수치는 모두 가상입니다.",
+      "status": "open"
+    }
+  ],
+  "cards": [
+    {
+      "index": 1,
+      "type": "hook",
+      "eyebrow": "Business models · Two businesses",
+      "title": "Two bike shops, same sales, very different businesses",
+      "illustrative": true,
+      "body": [
+        "Two bike shops sit on the same street. Each took in $500,000 last year.",
+        "On paper they look like twins. Then a cold, wet spring arrives, and only one of them has a bad year."
+      ],
+      "image": {
+        "label": "Two identical bike shop fronts side by side",
+        "aspectRatio": "4:3",
+        "brief": "같은 거리에 나란히 선 자전거 매장 두 곳. 간판은 \"Shop A\", \"Shop B\"만 표기. 위에 비구름. 한쪽 매장 안에는 새 자전거만, 다른 쪽에는 새 자전거와 수리대, 공구가 보임. 실제 브랜드 로고 사용 금지.",
+        "url": "assets/images/bmo-01-03-hook.jpg"
+      }
+    },
+    {
+      "index": 2,
+      "type": "choice",
+      "eyebrow": "Your call",
+      "title": "Which shop would you rather own?",
+      "illustrative": true,
+      "body": [
+        "**Shop A** earns all $500,000 from selling new bikes.",
+        "**Shop B** earns $300,000 from new bikes, $140,000 from repairs and $60,000 from yearly service plans that customers pay up front.",
+        "Both are for sale at the same price. Which do you buy?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Either one. The sales are the same",
+            "verdict": "risky",
+            "feedback": "The totals match, but the money arrives in different ways. That difference shows up the moment conditions change."
+          },
+          {
+            "key": "B",
+            "text": "Shop B, because its money comes in several different ways",
+            "verdict": "best",
+            "feedback": "Repairs and prepaid plans keep coming when people stop buying new bikes. You trade a simpler shop for a steadier one."
+          },
+          {
+            "key": "C",
+            "text": "Can't say until I see the profit on each",
+            "verdict": "partial",
+            "feedback": "Profit matters, and we'll get to it. But how the money comes in already tells you a lot about risk."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 3,
+      "type": "chart",
+      "eyebrow": "What happened",
+      "title": "New bike sales fell 30%. The shops did not fall equally.",
+      "illustrative": true,
+      "body": [
+        "In the slow year, people kept riding their old bikes and fixed them instead of replacing them.",
+        "Shop A lost 30% of its sales. Shop B lost 18%, because two of its three income sources didn't move."
+      ],
+      "chart": {
+        "unit": "$",
+        "groups": [
+          {
+            "label": "Normal year",
+            "rows": [
+              {
+                "label": "Shop A",
+                "value": 500000,
+                "highlight": false
+              },
+              {
+                "label": "Shop B",
+                "value": 500000,
+                "highlight": false
+              }
+            ]
+          },
+          {
+            "label": "Slow year",
+            "rows": [
+              {
+                "label": "Shop A",
+                "value": 350000,
+                "highlight": false
+              },
+              {
+                "label": "Shop B",
+                "value": 410000,
+                "highlight": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "type": "text",
+      "eyebrow": "The concept",
+      "title": "Revenue streams",
+      "body": [
+        "A **revenue stream** is one distinct way money comes into a business: a specific thing you charge for, paid in a specific way.",
+        "Shop B has three streams. Each answers four questions differently: *what* is paid for, *how often*, *when* the money arrives, and *how predictable* it is.",
+        "Total sales is the sum. The streams are what you actually run."
+      ],
+      "image": {
+        "label": "Shop B's revenue split into three streams",
+        "aspectRatio": "16:9",
+        "brief": "세 개의 물줄기가 하나의 강으로 합쳐지는 일러스트. 각 물줄기 라벨: \"New bikes $300k · one-off\", \"Repairs $140k · repeat\", \"Service plans $60k · paid up front\". 강 끝에 \"$500k\".",
+        "url": "assets/images/bmo-01-03-c4.jpg"
+      }
+    },
+    {
+      "index": 5,
+      "type": "text",
+      "eyebrow": "How it works",
+      "title": "Each stream behaves differently.",
+      "illustrative": true,
+      "body": [
+        "Look at Shop B's three streams side by side:"
+      ],
+      "list": [
+        "**New bikes:** big tickets, rare, rises and falls with weather and the economy",
+        "**Repairs:** small tickets, frequent, needed whatever the weather",
+        "**Service plans:** paid before any work is done, easy to forecast"
+      ],
+      "callout": "The streams also feed each other. Every bike sold today is a repair customer next year."
+    },
+    {
+      "index": 6,
+      "type": "text",
+      "eyebrow": "Beyond bikes",
+      "title": "Most businesses already have more than one stream.",
+      "body": [
+        "A restaurant may earn from dine-in, delivery and catering. Catering is booked weeks ahead. Delivery depends on someone else's app.",
+        "A plumber earns from emergency call-outs and from yearly maintenance contracts. One pays well but is unpredictable. The other is smaller but steady."
+      ],
+      "softwareNote": "A software company might earn from setup fees, monthly subscriptions and paid add-ons. A setup fee is earned once. A subscription has to be earned again every month, but it keeps coming if customers stay."
+    },
+    {
+      "index": 7,
+      "type": "text",
+      "eyebrow": "Watch out",
+      "title": "More streams is not automatically better.",
+      "body": [
+        "Each stream needs its own skills, staff and attention. A bike shop that adds rentals, cafés and classes can end up doing all of them badly.",
+        "A small stream can also cost more to run than it brings in. And one stream can eat another: cheap service plans may replace repairs that paid more.",
+        "Add a stream when it fits what you already do well."
+      ]
+    },
+    {
+      "index": 8,
+      "type": "choice",
+      "eyebrow": "Try it · new context",
+      "title": "Now it's a booking software company.",
+      "illustrative": true,
+      "body": [
+        "Your company sells booking software to salons. Last year it earned $400,000: $250,000 from one-time setup fees and $150,000 from monthly subscriptions.",
+        "You want a steadier business next year. Where do you focus?"
+      ],
+      "choice": {
+        "options": [
+          {
+            "key": "A",
+            "text": "Sign more new salons to grow setup fees",
+            "verdict": "partial",
+            "feedback": "Setup fees bring cash fast, but each one is earned once. Next year starts from zero again."
+          },
+          {
+            "key": "B",
+            "text": "Grow subscriptions, even if it means cutting the setup fee",
+            "verdict": "best",
+            "feedback": "You give up some cash today for money that repeats every month. Each salon that stays makes next year easier to predict."
+          },
+          {
+            "key": "C",
+            "text": "Add ads, consulting and a hardware line",
+            "verdict": "risky",
+            "feedback": "New streams spread a small team thin. Each one needs different skills before it earns anything."
+          }
+        ],
+        "afterReveal": null
+      }
+    },
+    {
+      "index": 9,
+      "type": "takeaway",
+      "eyebrow": "Takeaway",
+      "title": "Don't read revenue as one number. Read it as streams.",
+      "body": [
+        "The same total can hide a fragile business or a steady one. What matters is what you're paid for, how often, and how reliably.",
+        "**Try it today:** split last year's revenue into its streams. For each, note how often it repeats and what would make it drop."
+      ],
+      "next": "Next · Which of your costs stay when sales stop?"
+    }
+  ]
+}
